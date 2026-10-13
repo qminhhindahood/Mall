@@ -8,8 +8,8 @@ import FloorMap from '../../components/FloorMap';
 export function getStaticPaths() {
   return ['vi','en'].flatMap(locale=>[
     {params:{locale,path:undefined},props:{floorId:site.defaultFloor,kind:'exterior'}},
-    ...site.geometry.floors.map(floor=>({params:{locale,path:`floors/${floor.id}`},props:{floorId:floor.id,kind:'map'}})),
-    ...site.destinations.map(destination=>({params:{locale,path:`stores/${destination.id}`},props:{floorId:destination.primaryFloor,kind:'map',destinationId:destination.id}})),
+    ...site.geometry.floors.map(floor=>({params:{locale,path:`${locale==='vi'?'tang':'floors'}/${floor.id}`},props:{floorId:floor.id,kind:'map'}})),
+    ...site.destinations.map(destination=>({params:{locale,path:`${locale==='vi'?'cua-hang':'stores'}/${destination.id}`},props:{floorId:destination.primaryFloor,kind:'map',destinationId:destination.id}})),
     {params:{locale,path:'404'},props:{notFound:true}},
   ]);
 }
@@ -18,5 +18,5 @@ const { floorId=site.defaultFloor,kind='exterior',destinationId,notFound } = Ast
 const floor = site.geometry.floors.find(item=>item.id===floorId)!;
 ---
 <Guide locale={locale} title={`${site.name} · ${copy[locale].guide}`}>
-  {notFound ? <main><h1>{copy[locale].missing}</h1><p>{site.name}</p><a href={`/${locale}/`}>{copy[locale].home}</a></main> : <><Explorer site={clientSite} initial={{locale,floorId,kind,destinationId}} client:load /><section class="static-guide"><h2>{copy[locale].map} · {floor.label}</h2><FloorMap floor={floor} title={copy[locale].map} /><p>{copy[locale].uncertainty}</p></section></>}
+  {notFound ? <main><h1>{copy[locale].missing}</h1><p>{site.name}</p><a href={`/${locale}`}>{copy[locale].home}</a></main> : <><Explorer site={clientSite} initial={{locale,floorId,kind,destinationId}} client:load />{!destinationId && <section class="static-guide"><h2>{copy[locale].map} · {floor.label}</h2><FloorMap floor={floor} title={copy[locale].map} /><p>{copy[locale].uncertainty}</p></section>}</>}
 </Guide>
