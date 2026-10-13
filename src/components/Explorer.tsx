@@ -90,7 +90,6 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     }).then(result=>{
       if (alive) {
         setGeometry(result);
-        document.querySelector<HTMLElement>('.static-guide')?.setAttribute('hidden','');
       }
       return result;
     });
@@ -109,7 +108,12 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       if (!alive) return;
       let requested;
       do {requested=latest.current;await instance.show(requested);if(!alive)return;} while(requested.kind!==latest.current.kind || requested.floorId!==latest.current.floorId);
-      if (alive) {entered.current=true;setLoad('ready');performance.mark('mall-loading:entry-ready');}
+      if (alive) {
+        entered.current=true;
+        document.querySelector<HTMLElement>('.static-guide')?.setAttribute('hidden','');
+        setLoad('ready');
+        performance.mark('mall-loading:entry-ready');
+      }
     }).catch(() => { if (alive) {runtime.current?.dispose();runtime.current=null;setLoad('failed');} });
     return () => { alive=false; controller.abort(); requestSerial.current++; runtime.current?.dispose(); runtime.current=null; ownedCanvas.remove(); if(canvas.current===ownedCanvas) canvas.current=null; };
   }, [attempt]);
@@ -119,6 +123,12 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     canvas.current.setAttribute('aria-hidden',String(load!=='ready'));
     canvas.current.setAttribute('aria-label',c[selection.kind]);
   },[load,selection.locale,selection.kind]);
+  useEffect(()=>{
+    const guide=document.querySelector<HTMLElement>('.static-guide');
+    if (!guide) return;
+    if (load==='ready') guide.setAttribute('hidden','');
+    if (load==='failed') guide.removeAttribute('hidden');
+  },[load]);
   useEffect(() => {
     const instance = runtime.current;
     if (!instance || !entered.current) return;

@@ -77,3 +77,19 @@ same authorized seam. Data/scripts/hosting and root tracker remain other owners.
 No remote PR/push/deployment and no current exterior worktree edits.
 
 Final checkpoint merge: da097c0 includes current integration source receipts at 6c95db1. The Explorer focus conflict was resolved preserving dialog-owned restoration and the latest target section. Post-merge Astro check: 0 errors, 0 warnings, 0 hints (20 files); clean worktree after merge. Rebuild outputs against the canonical LF source on continuation; existing local outputs predate that final source-receipt merge.
+
+## Continuation result, 13 October 2026
+
+The canonical LF outputs were rebuilt successfully for both malls after the
+handoff. T3 checks now pass for Saigon entry and Vincom entry, real canvas
+complete-frame markers, loader removal, inert release, floor navigation and
+focus, locale/floor preservation, Back restoration, and mall-specific defaults.
+The runtime evidence is in `evidence/issue-0013-runtime.md`.
+
+Review found one fallback defect and fixed it: geometry fetch no longer hides
+the static guide; it hides only after the first complete frame, and any failed
+attempt restores the guide. 0013 remains open for deliberate failure/context,
+stale-selection and broader public acceptance. 0014 remains open for repeated
+performance measurements and device/host checks. Preview visibility continued
+to be intermittent, so no production timing or five-second goal pass is
+claimed.
