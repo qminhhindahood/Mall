@@ -142,7 +142,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       exteriorIdentityUrl: site.exteriorIdentityUrl,
       modelBytes,
       sceneHosts: sceneHosts.current as Record<SceneKind,HTMLElement>,
-      onStatus: status => { if (alive) {setPhase(status.phase);if(status.key==='context'&&status.phase==='failed'){entered.current=false;runtime.current?.dispose();runtime.current=null;setLoad('failed');}} },
+      onStatus: status => { if (alive) {setPhase(status.phase);if((status.key==='context'||status.key==='runtime')&&status.phase==='failed'){entered.current=false;runtime.current?.dispose();runtime.current=null;setLoad('failed');}} },
     }); }).then(async instance => {
       if (!alive) { instance.dispose(); return; }
       runtime.current = instance;
@@ -215,6 +215,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   function focusTarget(next: ExplorerSelection) { return next.destinationId ? destinationContent.current : sections.current[next.kind] ?? null; }
   function beginRequest(next: ExplorerSelection) {
     if (!entered.current || next.kind===latest.current.kind && next.floorId===latest.current.floorId) return;
+    // Commit the gate with selection, before an unprepared view can paint.
+    setLoad('loading');
     requestTiming.current?.('stale');
     requestTiming.current=timing('request-to-frame',{mallId:site.mallId,attempt,...next});
   }

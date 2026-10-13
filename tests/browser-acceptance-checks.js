@@ -135,6 +135,22 @@ async function browserLaterRenderFailureAndRetry() {
   acceptanceAssert(document.querySelector('canvas').dataset.sceneKey.endsWith(':map:'+document.querySelector('.scene-host[data-active=true]').dataset.floor),'Later retry loses requested view');
   return {pass:true,href:location.href};
 }
+async function browserVisibleRenderFailureAndRetry(trigger, preparedCount) {
+  await browserAcceptanceReady();
+  await acceptanceWait(()=>performance.getEntriesByType('mark').filter(e=>e.name.startsWith('mall-3d:prepared:')).length>=preparedCount,'Background complete before visible failure');
+  const canvas=document.querySelector('canvas'),gl=canvas.getContext('webgl2');
+  gl.drawElements=()=>{throw new Error('Deliberate visible browser GPU failure');};
+  if(trigger==='rotation')document.querySelector('#scene-exterior button').click();
+  else document.querySelector('.scene-host[data-active=true]').style.height='451px';
+  await acceptanceWait(()=>!!document.querySelector('.error'),'Visible rendering failure releases static guide');
+  acceptanceAssert(!document.querySelector('.loading-screen')&&!document.querySelector('.static-guide').hidden&&!document.querySelector('astro-island > div')?.inert,'Visible failure leaves unusable guide');
+  acceptanceAssert(performance.getEntriesByType('mark').some(e=>e.name==='mall-3d:disposed'),'Visible failure does not dispose resources');
+  document.querySelector('.error button').click();
+  await acceptanceWait(()=>!document.querySelector('.error'),'Visible failure Retry begins');
+  await browserAcceptanceReady();
+  acceptanceAssert(document.querySelector('canvas')!==canvas&&document.querySelectorAll('canvas').length===1,'Visible failure Retry leaks canvas');
+  return {pass:true,trigger,href:location.href};
+}
 async function browserFixtureEntry(expectedFloor, corrected = false) {
   await browserAcceptanceReady();
   await acceptanceWait(()=>document.activeElement===document.querySelector('.destination'),'Destination details focus');

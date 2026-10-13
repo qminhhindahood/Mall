@@ -57,13 +57,14 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
   const root=createRoot(canvas);
   const width = () => Math.max(1,canvas.parentElement?.clientWidth ?? 900);
   const height = () => Math.max(1,canvas.parentElement?.clientHeight ?? 450);
-  const lost = () => {
+  const failVisible = (error: unknown, source: 'context'|'runtime') => {
     if(disposed || failed) return;
-    failed=new Error('WebGL context lost'); serial++; cancelAnimationFrame(raf);
+    failed=error instanceof Error ? error : new Error(String(error)); serial++; cancelAnimationFrame(raf);
     prepared.clear(); rejectLife(failed);
     for(const task of tasks.splice(0)) task.reject(failed);
-    options.onStatus({key:'context',phase:'failed',error:failed.message});
+    options.onStatus({key:source,phase:'failed',error:failed.message});
   };
+  const lost = () => failVisible(new Error('WebGL context lost'),'context');
   canvas.addEventListener('webglcontextlost',lost);
   function Driver({ committed }: {committed():void}) {
     useLayoutEffect(committed,[]);
@@ -179,10 +180,11 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
       const delta=Math.min(.04,Math.max(0,(time-last)/1000));last=time;
       if(current!==views.get(key({kind:'exterior',floorId:''})))return;
       current.group.rotation.y+=delta*.08;
-      if(!gpuBusy)draw(current,false);raf=requestAnimationFrame(animate);
+      try {if(!gpuBusy)draw(current,false);raf=requestAnimationFrame(animate);}
+      catch(error){failVisible(error,'runtime');}
     };
     const refreshAnimation=()=>{cancelAnimationFrame(raf);raf=0;last=performance.now();if(active&&!paused&&current&&!disposed&&!failed)raf=requestAnimationFrame(animate);};
-    resize=new ResizeObserver(()=>{if(current&&!disposed&&!failed&&!gpuBusy)draw(current,false);});resize.observe(canvas.parentElement!);
+    resize=new ResizeObserver(()=>{if(current&&!disposed&&!failed&&!gpuBusy){try{draw(current,false);}catch(error){failVisible(error,'runtime');}}});resize.observe(canvas.parentElement!);
     let backgroundStarted=false;
     setupDone();
     return {
