@@ -28,6 +28,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const [phase,setPhase] = useState('');
   const [attempt,setAttempt] = useState(0);
   const [paused,setPaused] = useState(false);
+  const [reducedMotion,setReducedMotion] = useState(false);
+  const [headerVisible,setHeaderVisible] = useState(initial.kind !== 'exterior');
   const [geometry,setGeometry] = useState(site.geometry);
   const [routeResolved,setRouteResolved] = useState(!initial.destinationId);
   const [floorCorrected,setFloorCorrected] = useState(false);
@@ -45,11 +47,61 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const destinationContent = useRef<HTMLElement|null>(null);
   const requestTiming = useRef<ReturnType<typeof timing>|null>(null);
   const pausedRef = useRef(false);
+  const pauseChoice = useRef(false);
   const moduleFailed = useRef(false);
   latest.current = selection;
   const c = copy[selection.locale];
   const floor = geometry.floors.find(f => f.id === selection.floorId)!;
   const destination: Destination|undefined = site.destinations.find(d => d.id === selection.destinationId);
+
+  useEffect(() => {
+    const preference = matchMedia('(prefers-reduced-motion: reduce)');
+    try { pauseChoice.current = localStorage.getItem('mall-introduction-paused') === 'true'; } catch {}
+    const update = () => {
+      const value = pauseChoice.current || preference.matches;
+      pausedRef.current = value;
+      setPaused(value);
+      setReducedMotion(preference.matches);
+      runtime.current?.setPaused(value);
+    };
+    update();
+    preference.addEventListener('change', update);
+    return () => preference.removeEventListener('change', update);
+  }, []);
+
+  useEffect(() => {
+    const update = () => {
+      const hero = sections.current.exterior;
+      const pastHero = !!hero && hero.getBoundingClientRect().bottom <= 1;
+      setHeaderVisible(pastHero);
+      // Native scrolling leaves the introduction without redirecting or stealing focus.
+      if (pastHero && latest.current.kind === 'exterior' && entered.current) {
+        const next = {...latest.current, kind: 'overview' as const};
+        beginRequest(next);
+        history.replaceState(null, '', href(next));
+        setSelection(next);
+      } else if (hero && hero.getBoundingClientRect().bottom > innerHeight*.5 && latest.current.kind === 'overview' && entered.current) {
+        const next = {...latest.current, kind: 'exterior' as const};
+        beginRequest(next);
+        history.replaceState(null, '', href(next));
+        setSelection(next);
+      }
+    };
+    update();
+    window.addEventListener('scroll', update, {passive:true});
+    window.addEventListener('resize', update);
+    return () => { window.removeEventListener('scroll', update); window.removeEventListener('resize', update); };
+  }, [load]);
+
+  function togglePause() {
+    if (reducedMotion) return;
+    const value = !pauseChoice.current;
+    pauseChoice.current = value;
+    pausedRef.current = value;
+    setPaused(value);
+    runtime.current?.setPaused(value);
+    try { localStorage.setItem('mall-introduction-paused', String(value)); } catch {}
+  }
 
   useEffect(() => {
     const resolveRoute = () => {
@@ -75,6 +127,16 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     document.documentElement.lang = selection.locale;
     document.title = `${site.name} · ${copy[selection.locale].guide}`;
     document.querySelector<HTMLLinkElement>('link[rel="canonical"]')?.setAttribute('href',href(selection).split('?')[0]);
+    const guide = document.querySelector<HTMLElement>('.static-guide');
+    if (guide) {
+      guide.lang = selection.locale;
+      for (const anchor of guide.querySelectorAll<HTMLAnchorElement>('h2 a')) {
+        const id = anchor.getAttribute('href')?.split('/').pop();
+        if (id) { anchor.href = floorRoute(selection.locale,id); anchor.textContent = `${copy[selection.locale].map} · ${id}`; }
+      }
+      const disclosure = guide.querySelector('p');
+      if (disclosure) disclosure.textContent = copy[selection.locale].uncertainty;
+    }
   }, [selection]);
   useEffect(() => {
     let alive = true;
@@ -233,23 +295,31 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   }
   const change = (kind: SceneKind, floorId=selection.floorId): ExplorerSelection => ({...selection,kind,floorId,destinationId:undefined});
   return <>
-    <div><header>
+    <div className="visitor-guide" data-mall={site.mallId} data-paused={paused}>
+    <a className="skip-introduction" href={href(change('map'))} onClick={event=>navigate(change('map'),event)}>{c.skip}</a>
+    <header className="journey-header" inert={!headerVisible} data-visible={headerVisible}>
       <a className="wordmark" href={`/${selection.locale}`} onClick={event => navigate({locale:selection.locale,kind:'exterior',floorId:site.defaultFloor},event)}>{site.name}</a>
-      <nav aria-label="Language"><a href={href({...selection,locale:selection.locale==='vi'?'en':'vi'})} lang={selection.locale==='vi'?'en':'vi'} onClick={event => navigate({...selection,locale:selection.locale==='vi'?'en':'vi'},event)}>{selection.locale==='vi'?'English':'Tiếng Việt'}</a></nav>
+      <nav aria-label={c.guide}>
+        <a href={href(change('map'))} onClick={event=>navigate(change('map'),event)}>{c.map}</a>
+        <a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{c.discovery}</a>
+        <a href={href({...selection,locale:selection.locale==='vi'?'en':'vi'})} lang={selection.locale==='vi'?'en':'vi'} onClick={event => navigate({...selection,locale:selection.locale==='vi'?'en':'vi'},event)}>{selection.locale==='vi'?'EN':'VI'}</a>
+      </nav>
     </header>
     <main>
-      <p className="eyebrow">{c.guide}</p><h1>{site.name}</h1>
-      <nav className="views" aria-label={c.guide}>{(['exterior','overview','map','discovery'] as SceneKind[]).map(kind => <a key={kind} href={`#scene-${kind}`} aria-current={selection.kind===kind?'page':undefined} onClick={event => navigate(change(kind),event)}>{c[kind]}</a>)}</nav>
-      <a href="#shopping-levels">{c.skip}</a>
       {load==='failed' && <aside className="error" role="alert"><p>{c.error}</p><button onClick={() => {if(moduleFailed.current)location.assign(href(latest.current));else setAttempt(attempt+1);}}>{c.retry}</button></aside>}
       <div ref={parking} className="canvas-parking" />
-      {(['exterior','overview','map','discovery'] as SceneKind[]).map(kind=><section key={kind} id={`scene-${kind}`} ref={element=>{if(element) sections.current[kind]=element;}} tabIndex={-1} className="scene-section" aria-label={c[kind]} data-active={selection.kind===kind}>
-        <h2>{c[kind]}{routeResolved && (kind==='map'||kind==='discovery') ? ` · ${floor.label}` : ''}</h2>
+      {(['exterior','overview','map','discovery'] as SceneKind[]).map(kind=><section key={kind} id={`scene-${kind}`} ref={element=>{if(element) sections.current[kind]=element;}} tabIndex={-1} className={`scene-section ${kind==='exterior'?'introduction':''}`} aria-label={c[kind]} data-active={selection.kind===kind}>
+        {kind==='exterior' ? <>
+          <div className="introduction-controls">
+            <button className="pause-control" disabled={load!=='ready'||reducedMotion} aria-pressed={paused} onClick={togglePause}>{reducedMotion?c.motionOff:paused?c.resume:c.pause}</button>
+            <nav aria-label={c.language}>{(['vi','en'] as Locale[]).map(locale=><a key={locale} href={href({...selection,locale})} lang={locale} aria-current={selection.locale===locale?'true':undefined} onClick={event=>navigate({...selection,locale},event)}>{locale.toUpperCase()}</a>)}</nav>
+          </div>
+          <div className="introduction-copy"><h1>{c.introduce}<span>{site.name}</span></h1><p>{site.mallId==='saigon-centre'?c.saigonIntroduction:c.vincomIntroduction}</p><p className="guide-identity">{c.independent}</p></div>
+        </> : <h2>{c[kind]}{routeResolved && (kind==='map'||kind==='discovery') ? ` · ${floor.label}` : ''}</h2>}
         <div ref={element=>{if(element) sceneHosts.current[kind]=element;}} className="scene-host" data-scene-kind={kind} data-active={selection.kind===kind} data-floor={routeResolved?floor.id:undefined}>
           {kind==='exterior' ? <img src="/previews/exterior.webp" alt={`${site.name} · ${c.exterior}`} width="1200" height="1200" /> : kind==='overview' ? <div className="overview-stack">{site.geometry.floors.map(item=><a key={item.id} href={floorRoute(selection.locale,item.id)} onClick={event=>navigate(change('map',item.id),event)}>{c.heading} {item.label}</a>)}</div> : routeResolved && (floor.regions.length ? <FloorMap floor={floor} title={c.map} /> : floor.preview ? <img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`} loading="lazy" /> : <FloorMap floor={floor} title={c.map} />)}
         </div>
-        {kind==='exterior' && <button disabled={load!=='ready'} onClick={() => { pausedRef.current=!paused;runtime.current?.setPaused(!paused); setPaused(!paused); }}>{paused?c.resume:c.pause}</button>}
-        <p className="disclosure">{c.uncertainty}</p>
+        {kind==='exterior' ? <div className="introduction-bottom"><a className="scroll-guide" href="#scene-overview" onClick={event=>navigate(change('overview'),event)}><span className="scroll-cue" aria-hidden="true"/><span>{c.scrollInstruction}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div> : <p className="disclosure">{c.uncertainty}</p>}
         {geometry.revision==='foundation-unavailable' && <p>{c.unavailableGeometry}</p>}
         {kind==='discovery' && <p>{c.discoveryPending}</p>}
       </section>)}

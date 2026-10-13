@@ -1,6 +1,10 @@
 import type { Locale } from '../runtime/scene-contract';
 export const copy = {
   vi: {
+    introduce: 'Khám phá', language: 'Ngôn ngữ', independent: 'Hướng dẫn khám phá độc lập', motionOff: 'Chuyển động đã tắt',
+    saigonIntroduction: 'Một góc nhìn mới về Saigon Centre. Khám phá không gian mua sắm, ẩm thực và Takashimaya — từ công trình đến từng tầng.',
+    vincomIntroduction: 'Một góc nhìn mới về Vincom Center Đồng Khởi. Từ kiến trúc quen thuộc đến những không gian mua sắm và ẩm thực bên trong.',
+    scrollInstruction: 'Cuộn xuống để xem bản đồ tầng và khám phá danh mục',
     guide: 'Hướng dẫn tham quan', floors: 'Các tầng mua sắm', map: 'Sơ đồ tầng', exterior: 'Ngoại cảnh', overview: 'Tổng quan tầng', discovery: 'Khám phá',
     uncertainty: 'Sơ đồ tham khảo; hình học và độ cao ước tính, chưa xác minh tại hiện trường. Tên trên ảnh tham khảo không phải danh bạ cửa hàng hiện tại.',
     unavailableGeometry: 'Hình học sơ đồ chưa có trong phiên bản này. Các liên kết tầng vẫn sử dụng được.',
@@ -14,6 +18,10 @@ export const copy = {
     floorCorrected: 'Tầng trong liên kết không hợp lệ. Đã chọn tầng chính của cửa hàng.',
   },
   en: {
+    introduce: 'Discover', language: 'Language', independent: 'Independent visitor guide', motionOff: 'Motion is off',
+    saigonIntroduction: 'A new perspective on Saigon Centre. Explore shopping, dining and Takashimaya — from the architecture to each floor.',
+    vincomIntroduction: 'A new perspective on Vincom Center Đồng Khởi. From familiar architecture to the shopping and dining spaces within.',
+    scrollInstruction: 'Scroll down to explore floor maps and discover categories',
     guide: 'Visitor guide', floors: 'Shopping levels', map: 'Floor map', exterior: 'Exterior', overview: 'Floor overview', discovery: 'Discovery',
     uncertainty: 'Reference diagram; estimated geometry and heights, not surveyed or registered. Names in reference images are not an approved current directory.',
     unavailableGeometry: 'Floor geometry is unavailable in this revision. Floor links remain usable.',

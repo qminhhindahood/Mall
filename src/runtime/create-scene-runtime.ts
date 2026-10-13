@@ -6,7 +6,7 @@ import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import type { FloorGeometry, SceneRequest, SceneRuntime, SceneRuntimeOptions } from './scene-contract';
 import { timing } from './loading-timing';
 
-type View = { scene: Scene; camera: PerspectiveCamera; group: Group };
+type View = { scene: Scene; camera: PerspectiveCamera; group: Group; exteriorFit?: {center:Vector3;radius:number} };
 type Task = { request: SceneRequest; priority: number; resolve(): void; reject(error: unknown): void };
 
 // Retain every contour point. Indexed geometry buffers are shared across views.
@@ -102,22 +102,30 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
     finally {room.dispose(); generator.dispose();}
     target=new WebGLRenderTarget(width(),height()); target.texture.colorSpace=SRGBColorSpace;
     const floorMaterial=new MeshStandardMaterial({color:0x88b4a4,roughness:.72,metalness:0,flatShading:true,side:2}); materials.add(floorMaterial);
-    const ensureSize=(view:View) => {const w=width(),h=height();renderer.setSize(w,h,false);view.camera.aspect=w/h;view.camera.updateProjectionMatrix();target.setSize(Math.round(w*renderer.getPixelRatio()),Math.round(h*renderer.getPixelRatio()));};
+    const ensureSize=(view:View) => {const w=width(),h=height();renderer.setSize(w,h,false);view.camera.aspect=w/h;
+      if(view.exteriorFit){
+        const {center,radius}=view.exteriorFit;
+        const halfAngle=Math.atan(Math.tan(view.camera.fov*Math.PI/360)*Math.min(1,w/h));
+        const distance=radius/Math.sin(halfAngle)*1.08;
+        view.camera.position.copy(center).add(new Vector3(.72,.65,1).normalize().multiplyScalar(distance));
+        view.camera.lookAt(center);
+      }
+      view.camera.updateProjectionMatrix();target.setSize(Math.round(w*renderer.getPixelRatio()),Math.round(h*renderer.getPixelRatio()));};
     const draw=(view:View,offscreen:boolean) => {
       alive(); ensureSize(view); job={view,target:offscreen?target:null};
       const before=renderer.info.render.frame;
       try {store.getState().advance(performance.now()/1000,false); if(renderer.info.render.frame<=before || renderer.getContext().isContextLost()) throw new Error('Complete frame unavailable');canvas.dataset.renderedFrames=String(renderer.info.render.frame);}
       finally {job=null;renderer.setRenderTarget(null);}
     };
-    const fit=(scene:Scene,group:Group):View => {
+    const fit=(scene:Scene,group:Group,isExterior=false):View => {
       const bounds=new Box3().setFromObject(group),center=bounds.getCenter(new Vector3()),size=bounds.getSize(new Vector3());
       if(bounds.isEmpty()) throw new Error('Empty scene');
       const camera=new PerspectiveCamera(38,width()/height(),.1,3000);
       const radius=Math.max(size.x,size.y,size.z),distance=radius*1.8/Math.min(1,camera.aspect);
       camera.position.copy(center).add(new Vector3(distance*.72,distance*.65,distance)); camera.lookAt(center);
       scene.add(group,new AmbientLight(0xffffff,.7));
-      const light=new DirectionalLight(0xffffff,2.6); light.position.set(40,100,70); scene.add(light); scene.environment=environment; scene.background=new Color(0xe5ebe7);
-      return {scene,camera,group};
+      const light=new DirectionalLight(0xffffff,2.6); light.position.set(40,100,70); scene.add(light); scene.environment=environment; scene.background=new Color(options.mallId==='saigon-centre'?0xfff9f1:0xfffbf3);
+      return {scene,camera,group,...(isExterior?{exteriorFit:{center,radius:size.length()/2}}:{})};
     };
     const bytes=options.modelBytes ?? fetch(options.exteriorUrl).then(response=>{if(!response.ok)throw new Error('Model unavailable');return response.arrayBuffer();});
     void bytes.catch(()=>{});
@@ -152,7 +160,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
         if(!floors.length)throw new Error('Unknown floor');
         for(const floor of floors){const mesh=new Mesh(await floorGeometry(floor),floorMaterial);mesh.position.y=request.kind==='overview'?floor.elevation:0;group.add(mesh);}
       }
-      alive();const view=fit(new Scene(),group);views.set(key(request),view);return view;
+      alive();const view=fit(new Scene(),group,request.kind==='exterior');views.set(key(request),view);return view;
     };
     async function drain() {
       if(working)return;working=true;

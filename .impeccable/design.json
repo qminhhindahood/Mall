@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-14T01:00:00+07:00",
+  "title": "Design System: Mall visitor introduction",
+  "extensions": {
+    "shadows": [{"name":"navigation","value":"0 12px 32px #46322218","purpose":"Compact post-hero header"}],
+    "motion": [{"name":"header-reveal","value":".35s cubic-bezier(.16,1,.3,1)","purpose":"Reveal after hero ends; suppressed under reduced motion"}],
+    "breakpoints": [{"name":"phone","value":"700px"}]
+  },
+  "components": [],
+  "narrative": {
+    "northStar": "Porcelain / lacquer",
+    "overview": "Approved Daylight gallery introduction with the isolated mall exterior and concise bilingual copy.",
+    "rules": [{"name":"Compact glass","body":"Use glass on the post-hero navigation; keep reading surfaces solid.","section":"elevation"}],
+    "dos": ["Preserve mall-specific lacquer accents and accessible native navigation."],
+    "donts": ["Do not restore duplicate hero CTA buttons."]
+  }
+}
