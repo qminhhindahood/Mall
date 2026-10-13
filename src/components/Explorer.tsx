@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import type { SiteData, Destination } from '../data/site';
 import type { Locale, SceneKind, SceneRuntime, FloorDataset } from '../runtime/scene-contract';
 import { copy } from './copy';
@@ -193,7 +193,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     observer.observe(host);document.addEventListener('visibilitychange',update);update();
     return()=>{observer.disconnect();document.removeEventListener('visibilitychange',update);};
   },[selection.kind,load]);
-  useEffect(()=>{
+  useLayoutEffect(()=>{
     if(load!=='loading'||!overlay.current)return;
     const prior=document.activeElement instanceof HTMLElement?document.activeElement:null;
     const changed:Array<[HTMLElement,boolean]>=[];
