@@ -1,0 +1,1239 @@
+{
+  "recordedAt": "2026-10-13",
+  "scope": "Interim observations only; final browser acceptance remains open",
+  "invalidColdSample": {
+    "reason": "Acceptance cache shim appended query parameters to embedded blob URLs; texture loads failed. Shim fixed; sample excluded from all benchmark/full-detail claims.",
+    "sample": {
+      "canvas": "40",
+      "href": "http://localhost:4253/en/floors/L2?floor=L2&view=map",
+      "label": "saigon cold br 1",
+      "marks": [
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:entry-start",
+          "navigationId": 6057,
+          "startTime": 569
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:entry-to-frame:start:1",
+          "navigationId": 6057,
+          "startTime": 569.1000000000931
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:model-transfer:start:2",
+          "navigationId": 6057,
+          "startTime": 569.2999999998137
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:geometry-transfer:start:3",
+          "navigationId": 6057,
+          "startTime": 570.8999999999069
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:module:start:4",
+          "navigationId": 6057,
+          "startTime": 571.2999999998137
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:model-transfer:end:2",
+          "navigationId": 6057,
+          "startTime": 622.1000000000931
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:geometry-transfer:end:3",
+          "navigationId": 6057,
+          "startTime": 652.1000000000931
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:geometry-decode:start:5",
+          "navigationId": 6057,
+          "startTime": 652.2999999998137
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:geometry-decode:end:5",
+          "navigationId": 6057,
+          "startTime": 825.3999999999069
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:module:end:4",
+          "navigationId": 6057,
+          "startTime": 933.7000000001863
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:renderer-setup:start:6",
+          "navigationId": 6057,
+          "startTime": 935.2999999998137
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:renderer-setup:end:6",
+          "navigationId": 6057,
+          "startTime": 1083.7000000001863
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:scene-prepare:start:7",
+          "navigationId": 6057,
+          "startTime": 1084.3999999999069
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:model-decode:start:8",
+          "navigationId": 6057,
+          "startTime": 1084.8999999999069
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-3d:model-decode-start",
+          "navigationId": 6057,
+          "startTime": 1084.8999999999069
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:model-decode:end:8",
+          "navigationId": 6057,
+          "startTime": 1107.2000000001863
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-3d:model-decode-end",
+          "navigationId": 6057,
+          "startTime": 1107.7000000001863
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:gpu-prepare:start:9",
+          "navigationId": 6057,
+          "startTime": 1110.2000000001863
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:gpu-prepare:end:9",
+          "navigationId": 6057,
+          "startTime": 2467.399999999907
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:scene-prepare:end:7",
+          "navigationId": 6057,
+          "startTime": 2467.600000000093
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-3d:prepared:saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:exterior:all",
+          "navigationId": 6057,
+          "startTime": 2467.7000000001863
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:scene-prepare:start:10",
+          "navigationId": 6057,
+          "startTime": 2467.899999999907
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:floor-geometry:start:11",
+          "navigationId": 6057,
+          "startTime": 2470.899999999907
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:floor-geometry:end:11",
+          "navigationId": 6057,
+          "startTime": 2910.600000000093
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:floor-geometry:start:12",
+          "navigationId": 6057,
+          "startTime": 2929.7000000001863
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:floor-geometry:end:12",
+          "navigationId": 6057,
+          "startTime": 3282.2999999998137
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:floor-geometry:start:13",
+          "navigationId": 6057,
+          "startTime": 3296.100000000093
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:floor-geometry:end:13",
+          "navigationId": 6057,
+          "startTime": 3697.100000000093
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:floor-geometry:start:14",
+          "navigationId": 6057,
+          "startTime": 4464.399999999907
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:floor-geometry:end:14",
+          "navigationId": 6057,
+          "startTime": 4911.600000000093
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:floor-geometry:start:15",
+          "navigationId": 6057,
+          "startTime": 5460.399999999907
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:floor-geometry:end:15",
+          "navigationId": 6057,
+          "startTime": 5689.299999999814
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:floor-geometry:start:16",
+          "navigationId": 6057,
+          "startTime": 6458.299999999814
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:floor-geometry:end:16",
+          "navigationId": 6057,
+          "startTime": 6593.5
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:floor-geometry:start:17",
+          "navigationId": 6057,
+          "startTime": 7462.600000000093
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:floor-geometry:end:17",
+          "navigationId": 6057,
+          "startTime": 7752.799999999814
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:floor-geometry:start:18",
+          "navigationId": 6057,
+          "startTime": 8471.100000000093
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:floor-geometry:end:18",
+          "navigationId": 6057,
+          "startTime": 8538.399999999907
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:gpu-prepare:start:19",
+          "navigationId": 6057,
+          "startTime": 8539.700000000186
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:gpu-prepare:end:19",
+          "navigationId": 6057,
+          "startTime": 10458.700000000186
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:scene-prepare:end:10",
+          "navigationId": 6057,
+          "startTime": 10458.899999999907
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-3d:prepared:saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:overview:all",
+          "navigationId": 6057,
+          "startTime": 10458.899999999907
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:scene-render:start:20",
+          "navigationId": 6057,
+          "startTime": 10468.399999999907
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:scene-render:end:20",
+          "navigationId": 6057,
+          "startTime": 10479.899999999907
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-3d:resources",
+          "navigationId": 6057,
+          "startTime": 10480.399999999907
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-3d:shown:saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:exterior:all",
+          "navigationId": 6057,
+          "startTime": 10480.399999999907
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:entry-ready",
+          "navigationId": 6057,
+          "startTime": 10480.5
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:entry-to-frame:end:1",
+          "navigationId": 6057,
+          "startTime": 10480.5
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:scene-prepare:start:21",
+          "navigationId": 6057,
+          "startTime": 11466.600000000093
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:gpu-prepare:start:22",
+          "navigationId": 6057,
+          "startTime": 11469.200000000186
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:request-to-frame:start:23",
+          "navigationId": 6057,
+          "startTime": 11633.299999999814
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:gpu-prepare:end:22",
+          "navigationId": 6057,
+          "startTime": 12460.700000000186
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:scene-prepare:end:21",
+          "navigationId": 6057,
+          "startTime": 12460.700000000186
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-3d:prepared:saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:B2",
+          "navigationId": 6057,
+          "startTime": 12460.899999999907
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:scene-prepare:start:24",
+          "navigationId": 6057,
+          "startTime": 13471.100000000093
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:gpu-prepare:start:25",
+          "navigationId": 6057,
+          "startTime": 13472.5
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:gpu-prepare:end:25",
+          "navigationId": 6057,
+          "startTime": 14464
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:scene-prepare:end:24",
+          "navigationId": 6057,
+          "startTime": 14464
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-3d:prepared:saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:L2",
+          "navigationId": 6057,
+          "startTime": 14464
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:scene-render:start:26",
+          "navigationId": 6057,
+          "startTime": 14465.700000000186
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:scene-render:end:26",
+          "navigationId": 6057,
+          "startTime": 14467.399999999907
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-3d:resources",
+          "navigationId": 6057,
+          "startTime": 14467.399999999907
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-3d:shown:saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:L2",
+          "navigationId": 6057,
+          "startTime": 14467.5
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:request-to-frame:end:23",
+          "navigationId": 6057,
+          "startTime": 14467.600000000093
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:scene-prepare:start:27",
+          "navigationId": 6057,
+          "startTime": 15463.299999999814
+        },
+        {
+          "duration": 0,
+          "entryType": "mark",
+          "name": "mall-loading:gpu-prepare:start:28",
+          "navigationId": 6057,
+          "startTime": 15464.299999999814
+        }
+      ],
+      "measures": [
+        {
+          "duration": 9911.399999999907,
+          "entryType": "measure",
+          "name": "mall-loading:entry-to-frame:1",
+          "navigationId": 6057,
+          "startTime": 569.1000000000931
+        },
+        {
+          "duration": 52.8000000002794,
+          "entryType": "measure",
+          "name": "mall-loading:model-transfer:2",
+          "navigationId": 6057,
+          "startTime": 569.2999999998137
+        },
+        {
+          "duration": 81.20000000018626,
+          "entryType": "measure",
+          "name": "mall-loading:geometry-transfer:3",
+          "navigationId": 6057,
+          "startTime": 570.8999999999069
+        },
+        {
+          "duration": 362.40000000037253,
+          "entryType": "measure",
+          "name": "mall-loading:module:4",
+          "navigationId": 6057,
+          "startTime": 571.2999999998137
+        },
+        {
+          "duration": 173.10000000009313,
+          "entryType": "measure",
+          "name": "mall-loading:geometry-decode:5",
+          "navigationId": 6057,
+          "startTime": 652.2999999998137
+        },
+        {
+          "duration": 148.40000000037253,
+          "entryType": "measure",
+          "name": "mall-loading:renderer-setup:6",
+          "navigationId": 6057,
+          "startTime": 935.2999999998137
+        },
+        {
+          "duration": 1383.2000000001863,
+          "entryType": "measure",
+          "name": "mall-loading:scene-prepare:7",
+          "navigationId": 6057,
+          "startTime": 1084.3999999999069
+        },
+        {
+          "duration": 22.300000000279397,
+          "entryType": "measure",
+          "name": "mall-loading:model-decode:8",
+          "navigationId": 6057,
+          "startTime": 1084.8999999999069
+        },
+        {
+          "duration": 1357.1999999997206,
+          "entryType": "measure",
+          "name": "mall-loading:gpu-prepare:9",
+          "navigationId": 6057,
+          "startTime": 1110.2000000001863
+        },
+        {
+          "duration": 7991,
+          "entryType": "measure",
+          "name": "mall-loading:scene-prepare:10",
+          "navigationId": 6057,
+          "startTime": 2467.899999999907
+        },
+        {
+          "duration": 439.70000000018626,
+          "entryType": "measure",
+          "name": "mall-loading:floor-geometry:11",
+          "navigationId": 6057,
+          "startTime": 2470.899999999907
+        },
+        {
+          "duration": 352.59999999962747,
+          "entryType": "measure",
+          "name": "mall-loading:floor-geometry:12",
+          "navigationId": 6057,
+          "startTime": 2929.7000000001863
+        },
+        {
+          "duration": 401,
+          "entryType": "measure",
+          "name": "mall-loading:floor-geometry:13",
+          "navigationId": 6057,
+          "startTime": 3296.100000000093
+        },
+        {
+          "duration": 447.20000000018626,
+          "entryType": "measure",
+          "name": "mall-loading:floor-geometry:14",
+          "navigationId": 6057,
+          "startTime": 4464.399999999907
+        },
+        {
+          "duration": 228.89999999990687,
+          "entryType": "measure",
+          "name": "mall-loading:floor-geometry:15",
+          "navigationId": 6057,
+          "startTime": 5460.399999999907
+        },
+        {
+          "duration": 135.20000000018626,
+          "entryType": "measure",
+          "name": "mall-loading:floor-geometry:16",
+          "navigationId": 6057,
+          "startTime": 6458.299999999814
+        },
+        {
+          "duration": 290.1999999997206,
+          "entryType": "measure",
+          "name": "mall-loading:floor-geometry:17",
+          "navigationId": 6057,
+          "startTime": 7462.600000000093
+        },
+        {
+          "duration": 67.29999999981374,
+          "entryType": "measure",
+          "name": "mall-loading:floor-geometry:18",
+          "navigationId": 6057,
+          "startTime": 8471.100000000093
+        },
+        {
+          "duration": 1919,
+          "entryType": "measure",
+          "name": "mall-loading:gpu-prepare:19",
+          "navigationId": 6057,
+          "startTime": 8539.700000000186
+        },
+        {
+          "duration": 11.5,
+          "entryType": "measure",
+          "name": "mall-loading:scene-render:20",
+          "navigationId": 6057,
+          "startTime": 10468.399999999907
+        },
+        {
+          "duration": 994.1000000000931,
+          "entryType": "measure",
+          "name": "mall-loading:scene-prepare:21",
+          "navigationId": 6057,
+          "startTime": 11466.600000000093
+        },
+        {
+          "duration": 991.5,
+          "entryType": "measure",
+          "name": "mall-loading:gpu-prepare:22",
+          "navigationId": 6057,
+          "startTime": 11469.200000000186
+        },
+        {
+          "duration": 2834.3000000002794,
+          "entryType": "measure",
+          "name": "mall-loading:request-to-frame:23",
+          "navigationId": 6057,
+          "startTime": 11633.299999999814
+        },
+        {
+          "duration": 992.8999999999069,
+          "entryType": "measure",
+          "name": "mall-loading:scene-prepare:24",
+          "navigationId": 6057,
+          "startTime": 13471.100000000093
+        },
+        {
+          "duration": 991.5,
+          "entryType": "measure",
+          "name": "mall-loading:gpu-prepare:25",
+          "navigationId": 6057,
+          "startTime": 13472.5
+        },
+        {
+          "duration": 1.6999999997206032,
+          "entryType": "measure",
+          "name": "mall-loading:scene-render:26",
+          "navigationId": 6057,
+          "startTime": 14465.700000000186
+        }
+      ],
+      "navigation": [
+        {
+          "activationStart": 0,
+          "confidence": {},
+          "connectEnd": 312.60000000009313,
+          "connectStart": 3.8999999999068677,
+          "contentEncoding": "",
+          "contentType": "text/html",
+          "criticalCHRestart": 0,
+          "decodedBodySize": 570043,
+          "deliveryType": "",
+          "domComplete": 479,
+          "domContentLoadedEventEnd": 385.60000000009313,
+          "domContentLoadedEventStart": 385.60000000009313,
+          "domInteractive": 385.60000000009313,
+          "domainLookupEnd": 3.8999999999068677,
+          "domainLookupStart": 3.2999999998137355,
+          "duration": 479.29999999981374,
+          "encodedBodySize": 570043,
+          "entryType": "navigation",
+          "fetchStart": 0.20000000018626451,
+          "finalResponseHeadersStart": 328.79999999981374,
+          "firstInterimResponseStart": 0,
+          "initiatorType": "navigation",
+          "loadEventEnd": 479.29999999981374,
+          "loadEventStart": 479.20000000018626,
+          "name": "http://localhost:4253/en?__cache=cold&__run=s1",
+          "navigationId": 6057,
+          "nextHopProtocol": "http/1.1",
+          "notRestoredReasons": null,
+          "redirectCount": 0,
+          "redirectEnd": 0,
+          "redirectStart": 0,
+          "renderBlockingStatus": "non-blocking",
+          "requestStart": 312.79999999981374,
+          "responseEnd": 334.5,
+          "responseStart": 328.79999999981374,
+          "responseStatus": 200,
+          "secureConnectionStart": 0,
+          "serverTiming": [],
+          "startTime": 0,
+          "transferSize": 570343,
+          "type": "navigate",
+          "unloadEventEnd": 0,
+          "unloadEventStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerFinalSourceType": "",
+          "workerMatchedSourceType": "",
+          "workerRouterEvaluationStart": 0,
+          "workerStart": 0
+        }
+      ],
+      "observedAt": "2026-10-13T13:25:32.143Z",
+      "profile": {
+        "dpr": 1.9170290231704712,
+        "hardwareConcurrency": 16,
+        "platform": "Win32",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+        "viewport": [
+          1280,
+          800
+        ],
+        "visibility": "visible"
+      },
+      "ready": true,
+      "resources": [
+        {
+          "connectEnd": 361.10000000009313,
+          "connectStart": 361.10000000009313,
+          "contentEncoding": "",
+          "contentType": "text/javascript",
+          "decodedBodySize": 1719,
+          "deliveryType": "",
+          "domainLookupEnd": 361.10000000009313,
+          "domainLookupStart": 361.10000000009313,
+          "duration": 6,
+          "encodedBodySize": 1719,
+          "entryType": "resource",
+          "fetchStart": 361.10000000009313,
+          "finalResponseHeadersStart": 366.60000000009313,
+          "firstInterimResponseStart": 0,
+          "initiatorType": "script",
+          "name": "http://localhost:4253/__acceptance/browser-platform-fixtures.js",
+          "navigationId": 6057,
+          "nextHopProtocol": "http/1.1",
+          "redirectEnd": 0,
+          "redirectStart": 0,
+          "renderBlockingStatus": "blocking",
+          "requestStart": 363.89999999990687,
+          "responseEnd": 367.10000000009313,
+          "responseStart": 366.60000000009313,
+          "responseStatus": 200,
+          "secureConnectionStart": 0,
+          "serverTiming": [],
+          "startTime": 361.10000000009313,
+          "transferSize": 2019,
+          "workerCacheLookupStart": 0,
+          "workerFinalSourceType": "",
+          "workerMatchedSourceType": "",
+          "workerRouterEvaluationStart": 0,
+          "workerStart": 0
+        },
+        {
+          "connectEnd": 361.79999999981374,
+          "connectStart": 361.79999999981374,
+          "contentEncoding": "",
+          "contentType": "image/webp",
+          "decodedBodySize": 356868,
+          "deliveryType": "",
+          "domainLookupEnd": 361.79999999981374,
+          "domainLookupStart": 361.79999999981374,
+          "duration": 31.600000000093132,
+          "encodedBodySize": 356868,
+          "entryType": "resource",
+          "fetchStart": 361.79999999981374,
+          "finalResponseHeadersStart": 389.79999999981374,
+          "firstInterimResponseStart": 0,
+          "initiatorType": "img",
+          "name": "http://localhost:4253/previews/exterior.webp",
+          "navigationId": 6057,
+          "nextHopProtocol": "http/1.1",
+          "redirectEnd": 0,
+          "redirectStart": 0,
+          "renderBlockingStatus": "non-blocking",
+          "requestStart": 367.20000000018626,
+          "responseEnd": 393.39999999990687,
+          "responseStart": 389.79999999981374,
+          "responseStatus": 200,
+          "secureConnectionStart": 0,
+          "serverTiming": [],
+          "startTime": 361.79999999981374,
+          "transferSize": 357168,
+          "workerCacheLookupStart": 0,
+          "workerFinalSourceType": "",
+          "workerMatchedSourceType": "",
+          "workerRouterEvaluationStart": 0,
+          "workerStart": 0
+        },
+        {
+          "connectEnd": 382.20000000018626,
+          "connectStart": 382.20000000018626,
+          "contentEncoding": "",
+          "contentType": "text/javascript",
+          "decodedBodySize": 16525,
+          "deliveryType": "",
+          "domainLookupEnd": 382.20000000018626,
+          "domainLookupStart": 382.20000000018626,
+          "duration": 18.59999999962747,
+          "encodedBodySize": 16525,
+          "entryType": "resource",
+          "fetchStart": 382.20000000018626,
+          "finalResponseHeadersStart": 398.60000000009313,
+          "firstInterimResponseStart": 0,
+          "initiatorType": "script",
+          "name": "http://localhost:4253/_astro/Explorer.Cg4kRt3w.js",
+          "navigationId": 6057,
+          "nextHopProtocol": "http/1.1",
+          "redirectEnd": 0,
+          "redirectStart": 0,
+          "renderBlockingStatus": "non-blocking",
+          "requestStart": 394,
+          "responseEnd": 400.79999999981374,
+          "responseStart": 398.60000000009313,
+          "responseStatus": 200,
+          "secureConnectionStart": 0,
+          "serverTiming": [],
+          "startTime": 382.20000000018626,
+          "transferSize": 16825,
+          "workerCacheLookupStart": 0,
+          "workerFinalSourceType": "",
+          "workerMatchedSourceType": "",
+          "workerRouterEvaluationStart": 0,
+          "workerStart": 0
+        },
+        {
+          "connectEnd": 382.29999999981374,
+          "connectStart": 382.29999999981374,
+          "contentEncoding": "",
+          "contentType": "text/javascript",
+          "decodedBodySize": 209371,
+          "deliveryType": "",
+          "domainLookupEnd": 382.29999999981374,
+          "domainLookupStart": 382.29999999981374,
+          "duration": 29.100000000093132,
+          "encodedBodySize": 209371,
+          "entryType": "resource",
+          "fetchStart": 382.29999999981374,
+          "finalResponseHeadersStart": 409.10000000009313,
+          "firstInterimResponseStart": 0,
+          "initiatorType": "script",
+          "name": "http://localhost:4253/_astro/client.Ck4qZ-xf.js",
+          "navigationId": 6057,
+          "nextHopProtocol": "http/1.1",
+          "redirectEnd": 0,
+          "redirectStart": 0,
+          "renderBlockingStatus": "non-blocking",
+          "requestStart": 401.10000000009313,
+          "responseEnd": 411.39999999990687,
+          "responseStart": 409.10000000009313,
+          "responseStatus": 200,
+          "secureConnectionStart": 0,
+          "serverTiming": [],
+          "startTime": 382.29999999981374,
+          "transferSize": 209671,
+          "workerCacheLookupStart": 0,
+          "workerFinalSourceType": "",
+          "workerMatchedSourceType": "",
+          "workerRouterEvaluationStart": 0,
+          "workerStart": 0
+        },
+        {
+          "connectEnd": 387.10000000009313,
+          "connectStart": 387.10000000009313,
+          "contentEncoding": "",
+          "contentType": "",
+          "decodedBodySize": 120228,
+          "deliveryType": "",
+          "domainLookupEnd": 387.10000000009313,
+          "domainLookupStart": 387.10000000009313,
+          "duration": 78.60000000009313,
+          "encodedBodySize": 120228,
+          "entryType": "resource",
+          "fetchStart": 387.10000000009313,
+          "finalResponseHeadersStart": 457.70000000018626,
+          "firstInterimResponseStart": 0,
+          "initiatorType": "css",
+          "name": "http://localhost:4253/fonts/BeVietnamPro-Regular.ttf",
+          "navigationId": 6057,
+          "nextHopProtocol": "http/1.1",
+          "redirectEnd": 0,
+          "redirectStart": 0,
+          "renderBlockingStatus": "non-blocking",
+          "requestStart": 411.79999999981374,
+          "responseEnd": 465.70000000018626,
+          "responseStart": 457.70000000018626,
+          "responseStatus": 200,
+          "secureConnectionStart": 0,
+          "serverTiming": [],
+          "startTime": 387.10000000009313,
+          "transferSize": 120528,
+          "workerCacheLookupStart": 0,
+          "workerFinalSourceType": "",
+          "workerMatchedSourceType": "",
+          "workerRouterEvaluationStart": 0,
+          "workerStart": 0
+        },
+        {
+          "connectEnd": 407.10000000009313,
+          "connectStart": 407.10000000009313,
+          "contentEncoding": "",
+          "contentType": "text/javascript",
+          "decodedBodySize": 8402,
+          "deliveryType": "",
+          "domainLookupEnd": 407.10000000009313,
+          "domainLookupStart": 407.10000000009313,
+          "duration": 77.5,
+          "encodedBodySize": 8402,
+          "entryType": "resource",
+          "fetchStart": 407.10000000009313,
+          "finalResponseHeadersStart": 478.70000000018626,
+          "firstInterimResponseStart": 0,
+          "initiatorType": "script",
+          "name": "http://localhost:4253/_astro/react.yIOJJ3r4.js",
+          "navigationId": 6057,
+          "nextHopProtocol": "http/1.1",
+          "redirectEnd": 0,
+          "redirectStart": 0,
+          "renderBlockingStatus": "non-blocking",
+          "requestStart": 466.60000000009313,
+          "responseEnd": 484.60000000009313,
+          "responseStart": 478.70000000018626,
+          "responseStatus": 200,
+          "secureConnectionStart": 0,
+          "serverTiming": [],
+          "startTime": 407.10000000009313,
+          "transferSize": 8702,
+          "workerCacheLookupStart": 0,
+          "workerFinalSourceType": "",
+          "workerMatchedSourceType": "",
+          "workerRouterEvaluationStart": 0,
+          "workerStart": 0
+        },
+        {
+          "connectEnd": 411.10000000009313,
+          "connectStart": 411.10000000009313,
+          "contentEncoding": "",
+          "contentType": "text/javascript",
+          "decodedBodySize": 868,
+          "deliveryType": "",
+          "domainLookupEnd": 411.10000000009313,
+          "domainLookupStart": 411.10000000009313,
+          "duration": 94.6999999997206,
+          "encodedBodySize": 868,
+          "entryType": "resource",
+          "fetchStart": 411.10000000009313,
+          "finalResponseHeadersStart": 504,
+          "firstInterimResponseStart": 0,
+          "initiatorType": "script",
+          "name": "http://localhost:4253/_astro/loading-timing.BYN865cj.js",
+          "navigationId": 6057,
+          "nextHopProtocol": "http/1.1",
+          "redirectEnd": 0,
+          "redirectStart": 0,
+          "renderBlockingStatus": "non-blocking",
+          "requestStart": 499,
+          "responseEnd": 505.79999999981374,
+          "responseStart": 504,
+          "responseStatus": 200,
+          "secureConnectionStart": 0,
+          "serverTiming": [],
+          "startTime": 411.10000000009313,
+          "transferSize": 1168,
+          "workerCacheLookupStart": 0,
+          "workerFinalSourceType": "",
+          "workerMatchedSourceType": "",
+          "workerRouterEvaluationStart": 0,
+          "workerStart": 0
+        },
+        {
+          "connectEnd": 473.29999999981374,
+          "connectStart": 473.29999999981374,
+          "contentEncoding": "",
+          "contentType": "text/javascript",
+          "decodedBodySize": 3555,
+          "deliveryType": "",
+          "domainLookupEnd": 473.29999999981374,
+          "domainLookupStart": 473.29999999981374,
+          "duration": 38,
+          "encodedBodySize": 3555,
+          "entryType": "resource",
+          "fetchStart": 473.29999999981374,
+          "finalResponseHeadersStart": 509.70000000018626,
+          "firstInterimResponseStart": 0,
+          "initiatorType": "script",
+          "name": "http://localhost:4253/_astro/scheduler.DLKAJ5KR.js",
+          "navigationId": 6057,
+          "nextHopProtocol": "http/1.1",
+          "redirectEnd": 0,
+          "redirectStart": 0,
+          "renderBlockingStatus": "non-blocking",
+          "requestStart": 506.20000000018626,
+          "responseEnd": 511.29999999981374,
+          "responseStart": 509.70000000018626,
+          "responseStatus": 200,
+          "secureConnectionStart": 0,
+          "serverTiming": [],
+          "startTime": 473.29999999981374,
+          "transferSize": 3855,
+          "workerCacheLookupStart": 0,
+          "workerFinalSourceType": "",
+          "workerMatchedSourceType": "",
+          "workerRouterEvaluationStart": 0,
+          "workerStart": 0
+        },
+        {
+          "connectEnd": 570.7000000001863,
+          "connectStart": 570.7000000001863,
+          "contentEncoding": "br",
+          "contentType": "",
+          "decodedBodySize": 2000796,
+          "deliveryType": "",
+          "domainLookupEnd": 570.7000000001863,
+          "domainLookupStart": 570.7000000001863,
+          "duration": 31.09999999962747,
+          "encodedBodySize": 205547,
+          "entryType": "resource",
+          "fetchStart": 570.7000000001863,
+          "finalResponseHeadersStart": 583.2000000001863,
+          "firstInterimResponseStart": 0,
+          "initiatorType": "fetch",
+          "name": "http://localhost:4253/models/exterior.glb.br?__run=s1",
+          "navigationId": 6057,
+          "nextHopProtocol": "http/1.1",
+          "redirectEnd": 0,
+          "redirectStart": 0,
+          "renderBlockingStatus": "non-blocking",
+          "requestStart": 572,
+          "responseEnd": 601.7999999998137,
+          "responseStart": 583.2000000001863,
+          "responseStatus": 200,
+          "secureConnectionStart": 0,
+          "serverTiming": [],
+          "startTime": 570.7000000001863,
+          "transferSize": 205847,
+          "workerCacheLookupStart": 0,
+          "workerFinalSourceType": "",
+          "workerMatchedSourceType": "",
+          "workerRouterEvaluationStart": 0,
+          "workerStart": 0
+        },
+        {
+          "connectEnd": 571.2000000001863,
+          "connectStart": 571.2000000001863,
+          "contentEncoding": "br",
+          "contentType": "application/json",
+          "decodedBodySize": 5181012,
+          "deliveryType": "",
+          "domainLookupEnd": 571.2000000001863,
+          "domainLookupStart": 571.2000000001863,
+          "duration": 57.299999999813735,
+          "encodedBodySize": 1084569,
+          "entryType": "resource",
+          "fetchStart": 571.2000000001863,
+          "finalResponseHeadersStart": 585.1000000000931,
+          "firstInterimResponseStart": 0,
+          "initiatorType": "fetch",
+          "name": "http://localhost:4253/data/floor-geometry.json.br?__run=s1",
+          "navigationId": 6057,
+          "nextHopProtocol": "http/1.1",
+          "redirectEnd": 0,
+          "redirectStart": 0,
+          "renderBlockingStatus": "non-blocking",
+          "requestStart": 572.2000000001863,
+          "responseEnd": 628.5,
+          "responseStart": 585.1000000000931,
+          "responseStatus": 200,
+          "secureConnectionStart": 0,
+          "serverTiming": [],
+          "startTime": 571.2000000001863,
+          "transferSize": 1084869,
+          "workerCacheLookupStart": 0,
+          "workerFinalSourceType": "",
+          "workerMatchedSourceType": "",
+          "workerRouterEvaluationStart": 0,
+          "workerStart": 0
+        },
+        {
+          "connectEnd": 572,
+          "connectStart": 572,
+          "contentEncoding": "",
+          "contentType": "text/javascript",
+          "decodedBodySize": 788894,
+          "deliveryType": "",
+          "domainLookupEnd": 572,
+          "domainLookupStart": 572,
+          "duration": 41.799999999813735,
+          "encodedBodySize": 788894,
+          "entryType": "resource",
+          "fetchStart": 572,
+          "finalResponseHeadersStart": 606.3999999999069,
+          "firstInterimResponseStart": 0,
+          "initiatorType": "script",
+          "name": "http://localhost:4253/_astro/create-scene-runtime.CEykjDy_.js",
+          "navigationId": 6057,
+          "nextHopProtocol": "http/1.1",
+          "redirectEnd": 0,
+          "redirectStart": 0,
+          "renderBlockingStatus": "non-blocking",
+          "requestStart": 602.7999999998137,
+          "responseEnd": 613.7999999998137,
+          "responseStart": 606.3999999999069,
+          "responseStatus": 200,
+          "secureConnectionStart": 0,
+          "serverTiming": [],
+          "startTime": 572,
+          "transferSize": 789194,
+          "workerCacheLookupStart": 0,
+          "workerFinalSourceType": "",
+          "workerMatchedSourceType": "",
+          "workerRouterEvaluationStart": 0,
+          "workerStart": 0
+        },
+        {
+          "connectEnd": 1130.5,
+          "connectStart": 1130.5,
+          "contentEncoding": "",
+          "contentType": "text/javascript",
+          "decodedBodySize": 6336,
+          "deliveryType": "",
+          "domainLookupEnd": 1130.5,
+          "domainLookupStart": 1130.5,
+          "duration": 3.6000000000931323,
+          "encodedBodySize": 6336,
+          "entryType": "resource",
+          "fetchStart": 1130.5,
+          "finalResponseHeadersStart": 1133.6000000000931,
+          "firstInterimResponseStart": 0,
+          "initiatorType": "script",
+          "name": "http://localhost:4253/__acceptance/browser-acceptance-checks.js",
+          "navigationId": 6057,
+          "nextHopProtocol": "http/1.1",
+          "redirectEnd": 0,
+          "redirectStart": 0,
+          "renderBlockingStatus": "non-blocking",
+          "requestStart": 1131.8999999999069,
+          "responseEnd": 1134.1000000000931,
+          "responseStart": 1133.6000000000931,
+          "responseStatus": 200,
+          "secureConnectionStart": 0,
+          "serverTiming": [],
+          "startTime": 1130.5,
+          "transferSize": 6636,
+          "workerCacheLookupStart": 0,
+          "workerFinalSourceType": "",
+          "workerMatchedSourceType": "",
+          "workerRouterEvaluationStart": 0,
+          "workerStart": 0
+        }
+      ]
+    }
+  },
+  "staleSelection": {
+    "canvases": [
+      {
+        "aria": "false",
+        "data": {
+          "completeFrame": "38",
+          "engine": "three.js r186",
+          "renderedFrames": "47",
+          "sceneKey": "saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:L3"
+        },
+        "parent": "scene-host",
+        "visibility": "visible"
+      }
+    ],
+    "href": "http://localhost:4253/vi/tang/L3?floor=L3&view=discovery",
+    "islands": 1,
+    "measures": [
+      {
+        "detail": {
+          "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+          "attempt": 0,
+          "completeFrame": "38",
+          "floorId": "L3",
+          "kind": "discovery",
+          "locale": "vi",
+          "mallId": "saigon-centre",
+          "operation": "navigation-to-frame",
+          "outcome": "ready"
+        },
+        "duration": 18902.299999999814
+      },
+      {
+        "detail": {
+          "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+          "attempt": 0,
+          "completeFrame": "38",
+          "floorId": "L3",
+          "kind": "discovery",
+          "locale": "vi",
+          "mallId": "saigon-centre",
+          "operation": "entry-to-frame",
+          "outcome": "ready"
+        },
+        "duration": 18519.200000000186
+      }
+    ],
+    "run": {
+      "focus": "scene-discovery",
+      "frame": "38",
+      "href": "http://localhost:4253/vi/tang/L3?floor=L3&view=discovery",
+      "pass": true,
+      "pendingBeyondGoal": true
+    },
+    "visibility": "visible"
+  },
+  "vincomInterimJourney": {
+    "error": "Error: Timed out: Floor content focus",
+    "pass": false
+  },
+  "textureFailure": {
+    "guide": true,
+    "pass": true,
+    "revealed": false
+  },
+  "incompleteSamples": [
+    {
+      "error": "Error: Timed out: 3D entry or usable error",
+      "pass": false,
+      "acceptanceValid": false,
+      "reason": "T3 preview reported visible:false at sample start"
+    }
+  ],
+  "previewLimit": {
+    "status": "visible:false and document.visibilityState hidden on final attempt",
+    "rafDelayMs": 60683.7,
+    "timerDelayMs": 127.5,
+    "snapshot": "intermittent failure",
+    "resize": "repeated timeout",
+    "claim": "No stable final browser suite or repeated timing matrix pass"
+  }
+}

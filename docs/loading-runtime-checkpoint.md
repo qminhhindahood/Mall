@@ -1,5 +1,13 @@
 # Issue 0013 — WIP checkpoint, 13 October 2026
 
+Latest continuation: code `0442fcb` implements detailed loading timings,
+texture-failure detection, disposal/Retry and routing/focus repairs. See
+`evidence/0013-0014-continuation-r1.md` for final build/transport receipts,
+independent reviews and remaining browser gates. Earlier checkpoints below
+retain their original revision/scope. Final T3 visibility remained unstable;
+0013/0014 are still in progress. Rebuild latest fixture outputs before new
+fixture browser claims.
+
 Question: can the accepted initial pair/later-scene loading contract use actual
 R3F/Three complete-frame preparation while retaining exact source detail?
 
