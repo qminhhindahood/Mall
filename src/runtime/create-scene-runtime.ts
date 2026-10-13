@@ -1,9 +1,10 @@
 import { createElement, useLayoutEffect } from 'react';
 import { createRoot, useFrame, type RootStore } from '@react-three/fiber';
-import { AmbientLight, Box3, BufferAttribute, BufferGeometry, Color, DirectionalLight, Group, Mesh, MeshStandardMaterial, PerspectiveCamera, PMREMGenerator, Scene, ShapeUtils, Texture, Vector2, Vector3, WebGLRenderTarget, WebGLRenderer, SRGBColorSpace } from 'three';
+import { AmbientLight, Box3, BufferAttribute, BufferGeometry, Color, DirectionalLight, Group, LoadingManager, Mesh, MeshStandardMaterial, PerspectiveCamera, PMREMGenerator, Scene, ShapeUtils, Texture, Vector2, Vector3, WebGLRenderTarget, WebGLRenderer, SRGBColorSpace } from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import type { FloorGeometry, SceneRequest, SceneRuntime, SceneRuntimeOptions } from './scene-contract';
+import { timing } from './loading-timing';
 
 type View = { scene: Scene; camera: PerspectiveCamera; group: Group };
 type Task = { request: SceneRequest; priority: number; resolve(): void; reject(error: unknown): void };
@@ -32,6 +33,8 @@ function floorBuffer(floor: FloorGeometry): BufferGeometry {
 
 export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<SceneRuntime> {
   const { canvas, data } = options;
+  const detail = { mallId: options.mallId, assetRevision: options.assetRevision, geometryRevision: data.revision };
+  const setupDone = timing('renderer-setup', detail);
   let disposed=false, failed: Error|null=null, active=!document.hidden, paused=options.reducedMotion, raf=0, last=0, serial=0;
   let rejectLife!: (reason: Error)=>void;
   const lifecycle = new Promise<never>((_,reject)=>{rejectLife=reject;});
@@ -68,17 +71,23 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
     return null;
   }
   let resize:ResizeObserver|undefined;
+  const disposeOwned = () => {
+    for(const geometry of geometries) geometry.dispose();
+    for(const material of materials) material.dispose();
+    for(const texture of textures) {texture.dispose();const image=texture.image;if(image instanceof ImageBitmap) image.close();}
+    geometries.clear(); materials.clear(); textures.clear();
+  };
   const cleanup = () => {
     if(disposed) return;
     disposed=true; serial++; cancelAnimationFrame(raf); rejectLife(new Error('Scene disposed'));
     canvas.removeEventListener('webglcontextlost',lost); resize?.disconnect();
     for(const task of tasks.splice(0)) task.reject(new Error('Scene disposed'));
     root.unmount();
-    for(const geometry of geometries) geometry.dispose();
-    for(const material of materials) material.dispose();
-    for(const texture of textures) {texture.dispose();const image=texture.image;if(image instanceof ImageBitmap) image.close();}
+    const counts={geometries:geometries.size,materials:materials.size,textures:textures.size};
+    disposeOwned();
     target?.dispose(); envTarget?.dispose(); renderer?.dispose();
     views.clear(); buffers.clear(); prepared.clear();
+    performance.mark('mall-3d:disposed', { detail: { ...detail, ...counts } });
   };
   try {
     await root.configure({gl:{antialias:true,alpha:false,powerPreference:'high-performance'},frameloop:'never',dpr:Math.min(devicePixelRatio,2),size:{width:width(),height:height(),top:0,left:0}});
@@ -88,15 +97,15 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
     await race(committed); renderer=store.getState().gl;
     if(renderer.getContext().isContextLost()) throw new Error('WebGL unavailable');
     const generator=new PMREMGenerator(renderer), room=new RoomEnvironment();
-    envTarget=generator.fromScene(room,.04); environment=envTarget.texture;
-    room.dispose(); generator.dispose();
+    try {envTarget=generator.fromScene(room,.04); environment=envTarget.texture;}
+    finally {room.dispose(); generator.dispose();}
     target=new WebGLRenderTarget(width(),height()); target.texture.colorSpace=SRGBColorSpace;
     const floorMaterial=new MeshStandardMaterial({color:0x88b4a4,roughness:.72,metalness:0,flatShading:true,side:2}); materials.add(floorMaterial);
     const ensureSize=(view:View) => {const w=width(),h=height();renderer.setSize(w,h,false);view.camera.aspect=w/h;view.camera.updateProjectionMatrix();target.setSize(Math.round(w*renderer.getPixelRatio()),Math.round(h*renderer.getPixelRatio()));};
     const draw=(view:View,offscreen:boolean) => {
       alive(); ensureSize(view); job={view,target:offscreen?target:null};
       const before=renderer.info.render.frame;
-      try {store.getState().advance(performance.now()/1000,false); if(renderer.info.render.frame<=before || renderer.getContext().isContextLost()) throw new Error('Complete frame unavailable');}
+      try {store.getState().advance(performance.now()/1000,false); if(renderer.info.render.frame<=before || renderer.getContext().isContextLost()) throw new Error('Complete frame unavailable');canvas.dataset.renderedFrames=String(renderer.info.render.frame);}
       finally {job=null;renderer.setRenderTarget(null);}
     };
     const fit=(scene:Scene,group:Group):View => {
@@ -113,14 +122,24 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
     void bytes.catch(()=>{});
     let exteriorPromise:Promise<Group>|undefined;
     const exterior=() => exteriorPromise ??= (async()=>{
-      mark('model-decode-start'); const model=await new GLTFLoader().parseAsync(await race(bytes),'');
+      const input = await race(bytes);
+      const decoded = timing('model-decode', detail);
+      mark('model-decode-start');
+      let model;
+      const manager=new LoadingManager();
+      let resourceFailed=false;
+      manager.onError=()=>{resourceFailed=true;};
+      try { model=await new GLTFLoader(manager).parseAsync(input,''); }
+      catch (error) { decoded('failed'); throw error; }
       model.scene.traverse(object=>{if(object instanceof Mesh){geometries.add(object.geometry);const list=Array.isArray(object.material)?object.material:[object.material];for(const material of list){materials.add(material as MeshStandardMaterial);for(const value of Object.values(material))if(value instanceof Texture)textures.add(value);}}});
-      if(disposed||failed){for(const geometry of geometries)geometry.dispose();for(const material of materials)material.dispose();for(const texture of textures){texture.dispose();if(texture.image instanceof ImageBitmap)texture.image.close();}alive();}
+      if(disposed||failed){decoded('cancelled');disposeOwned();alive();}
+      if(resourceFailed){decoded('failed');throw new Error('Model texture resource unavailable');}
+      decoded();
       mark('model-decode-end'); return model.scene;
     })();
     const floorGeometry=async(floor:FloorGeometry) => {
       let geometry=buffers.get(floor.id);
-      if(!geometry){await race(new Promise<void>(resolve=>setTimeout(resolve,0)));alive();geometry=floorBuffer(floor);buffers.set(floor.id,geometry);geometries.add(geometry);}
+      if(!geometry){await race(new Promise<void>(resolve=>setTimeout(resolve,0)));alive();const done=timing('floor-geometry',{...detail,floorId:floor.id});try{geometry=floorBuffer(floor);done();}catch(error){done('failed');throw error;}buffers.set(floor.id,geometry);geometries.add(geometry);}
       return geometry;
     };
     const build=async(request:SceneRequest):Promise<View> => {
@@ -137,12 +156,17 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
     async function drain() {
       if(working)return;working=true;
       try {while(tasks.length && !disposed && !failed){tasks.sort((a,b)=>b.priority-a.priority);const task=tasks.shift()!;
+        const done=timing('scene-prepare',{...detail,...task.request});
         try {const view=await build(task.request);status(task.request,'preparing');await gpu(async()=>{ensureSize(view);
+          const gpuDone=timing('gpu-prepare',{...detail,...task.request});
+          try {
           for(const texture of textures)renderer.initTexture(texture); renderer.initTexture(environment);
           await race(renderer.compileAsync(view.scene,view.camera));alive();draw(view,true);
-          await race(renderer.readRenderTargetPixelsAsync(target,0,0,1,1,new Uint8Array(4)));alive();});
+          await race(renderer.readRenderTargetPixelsAsync(target,0,0,1,1,new Uint8Array(4)));alive();gpuDone();
+          } catch(error) {gpuDone('failed');throw error;} });
+          done();
           status(task.request,'ready');mark(`prepared:${key(task.request)}`);task.resolve();
-        }catch(error){prepared.delete(key(task.request));status(task.request,'failed',String(error));task.reject(error);}
+        }catch(error){done('failed');prepared.delete(key(task.request));status(task.request,'failed',String(error));task.reject(error);}
         await new Promise(resolve=>setTimeout(resolve,0));
       }}finally{working=false;}
     }
@@ -160,6 +184,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
     const refreshAnimation=()=>{cancelAnimationFrame(raf);raf=0;last=performance.now();if(active&&!paused&&current&&!disposed&&!failed)raf=requestAnimationFrame(animate);};
     resize=new ResizeObserver(()=>{if(current&&!disposed&&!failed&&!gpuBusy)draw(current,false);});resize.observe(canvas.parentElement!);
     let backgroundStarted=false;
+    setupDone();
     return {
       prepare: request=>prepare(request,1),
       async show(request) {
@@ -170,8 +195,13 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
           const host=options.sceneHosts?.[request.kind];
           host?.append(canvas);if(host)resize?.observe(host);
           ensureSize(view);await race(renderer.compileAsync(view.scene,view.camera));alive();if(id!==serial)return;
-          draw(view,false);alive();if(id!==serial)return;
+          const frameDone=timing('scene-render',{...detail,...request});
+          try {draw(view,false);alive();frameDone('ready',{frame:renderer.info.render.frame});}catch(error){frameDone('failed');throw error;}if(id!==serial)return;
           current=view;canvas.dataset.sceneKey=key(request);canvas.dataset.completeFrame=String(renderer.info.render.frame);
+          let geometryBytes=0,textureBytes=0;
+          for(const geometry of geometries){for(const attribute of Object.values(geometry.attributes))geometryBytes+=attribute.array.byteLength;geometryBytes+=geometry.index?.array.byteLength??0;}
+          for(const texture of textures){const image=texture.image;if(image && typeof image==='object' && 'width' in image && 'height' in image)textureBytes+=Number(image.width)*Number(image.height)*4*(texture.generateMipmaps?4/3:1);}
+          performance.mark('mall-3d:resources',{detail:{...detail,geometries:geometries.size,geometryBytes,materials:materials.size,textures:textures.size,estimatedTextureBytes:Math.round(textureBytes),views:views.size,estimatedRenderTargetBytes:target.width*target.height*8,estimatedEnvironmentBytes:(envTarget?.width??0)*(envTarget?.height??0)*8,estimateLimit:'Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs.'}});
         });if(id!==serial)return;
         mark(`shown:${key(request)}`);refreshAnimation();
         if(!backgroundStarted){backgroundStarted=true;setTimeout(()=>{if(disposed||failed)return;for(const floor of data.floors)for(const kind of ['map','discovery'] as const)void prepare({kind,floorId:floor.id}).catch(()=>{});},0);}
@@ -180,5 +210,5 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
       setPaused(value){paused=value;refreshAnimation();},
       dispose:cleanup,
     };
-  } catch(error) {cleanup();throw error;}
+  } catch(error) {setupDone('failed');cleanup();throw error;}
 }

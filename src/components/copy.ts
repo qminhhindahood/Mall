@@ -11,6 +11,7 @@ export const copy = {
     error: 'Không thể chuẩn bị 3D. Bạn vẫn có thể dùng hướng dẫn và ảnh tham khảo bên dưới.',
     retry: 'Thử lại 3D', pause: 'Tạm dừng xoay', resume: 'Tiếp tục xoay', preview: 'Ảnh sơ đồ tham khảo',
     heading: 'Tầng', missing: 'Không tìm thấy trang', home: 'Về hướng dẫn', skip: 'Đến các tầng',
+    floorCorrected: 'Tầng trong liên kết không hợp lệ. Đã chọn tầng chính của cửa hàng.',
   },
   en: {
     guide: 'Visitor guide', floors: 'Shopping levels', map: 'Floor map', exterior: 'Exterior', overview: 'Floor overview', discovery: 'Discovery',
@@ -23,5 +24,6 @@ export const copy = {
     error: '3D could not be prepared. The guide and static previews below remain usable.',
     retry: 'Retry 3D', pause: 'Pause rotation', resume: 'Resume rotation', preview: 'Reference floor preview',
     heading: 'Level', missing: 'Page not found', home: 'Open the guide', skip: 'Explore shopping levels',
+    floorCorrected: 'The linked floor is unavailable for this store. Its primary floor is selected.',
   },
 } satisfies Record<Locale, Record<string, string>>;

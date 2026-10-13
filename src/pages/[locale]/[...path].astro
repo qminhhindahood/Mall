@@ -16,7 +16,8 @@ export function getStaticPaths() {
 const locale = Astro.params.locale as Locale;
 const { floorId=site.defaultFloor,kind='exterior',destinationId,notFound } = Astro.props as {floorId?:string;kind?:SceneKind;destinationId?:string;notFound?:boolean};
 const floor = site.geometry.floors.find(item=>item.id===floorId)!;
+const staticFloors = destinationId ? site.geometry.floors.filter(item=>site.destinations.find(destination=>destination.id===destinationId)?.floors.includes(item.id)) : [floor];
 ---
 <Guide locale={locale} title={`${site.name} · ${copy[locale].guide}`}>
-  {notFound ? <main><h1>{copy[locale].missing}</h1><p>{site.name}</p><a href={`/${locale}`}>{copy[locale].home}</a></main> : <><Explorer site={clientSite} initial={{locale,floorId,kind,destinationId}} client:load />{!destinationId && <section class="static-guide"><h2>{copy[locale].map} · {floor.label}</h2><FloorMap floor={floor} title={copy[locale].map} /><p>{copy[locale].uncertainty}</p></section>}</>}
+  {notFound ? <main><h1>{copy[locale].missing}</h1><p>{site.name}</p><a href={`/${locale}`}>{copy[locale].home}</a></main> : <><Explorer site={clientSite} initial={{locale,floorId,kind,destinationId}} client:load /><section class="static-guide">{staticFloors.map(item=><><h2><a href={`/${locale}/${locale==='vi'?'tang':'floors'}/${item.id}`}>{copy[locale].map} · {item.label}</a></h2><FloorMap floor={item} title={copy[locale].map} /></>)}<p>{copy[locale].uncertainty}</p></section></>}
 </Guide>

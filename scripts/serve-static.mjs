@@ -8,6 +8,7 @@ const arg = name => {const i=process.argv.indexOf(name);return i>=0?process.argv
 const mall = arg('--mall') ?? process.env.MALL_ID ?? 'saigon-centre';
 if (!['saigon-centre','vincom-dong-khoi'].includes(mall)) throw new Error('Unsupported mall');
 const directory = resolve(root,arg('--dir') ?? `dist/${mall}`);
+const acceptance = process.argv.includes('--acceptance');
 const mime = {'.html':'text/html; charset=utf-8','.js':'text/javascript','.json':'application/json','.css':'text/css','.glb':'model/gltf-binary','.webp':'image/webp','.png':'image/png','.ttf':'font/ttf','.txt':'text/plain'};
 function encoding(header) {
   const choices = (header ?? '').split(',').map(s=>{const [name,...params]=s.trim().split(';');const q=params.find(p=>p.trim().startsWith('q='));return {name:name.toLowerCase(),q:q?Number(q.trim().slice(2)):1};});
@@ -19,6 +20,15 @@ createServer(async (req,res)=>{
     if (!['GET','HEAD'].includes(req.method)) {res.writeHead(405,{Allow:'GET, HEAD'});res.end();return;}
     const url = new URL(req.url,'http://localhost');
     const pathname = decodeURIComponent(url.pathname);
+    if (acceptance && pathname.startsWith('/__acceptance/')) {
+      const name = pathname.slice('/__acceptance/'.length);
+      if (!['browser-platform-fixtures.js','browser-runtime-checks.js','browser-acceptance-checks.js'].includes(name)) {res.writeHead(404);res.end();return;}
+      const bytes = await readFile(resolve(root,'tests',name));
+      res.writeHead(200, {'Content-Type':'text/javascript','Cache-Control':'no-store'});res.end(bytes);return;
+    }
+    if (acceptance && /\/_astro\/create-scene-runtime[^/]*\.js$/.test(pathname) && new URL(req.headers.referer ?? 'http://localhost').searchParams.get('__scenario') === 'import-fail') {
+      res.writeHead(503, {'Content-Type':'text/javascript','Cache-Control':'no-store'});res.end('Deliberate module failure');return;
+    }
     if (pathname==='/' || pathname.endsWith('/') && pathname!=='/') {res.writeHead(302,{Location:(pathname==='/'?'/vi':pathname.slice(0,-1))+url.search});res.end();return;}
     let filename = resolve(directory,'.'+pathname);
     if (!filename.startsWith(directory+sep)) {res.writeHead(403);res.end();return;}
@@ -42,7 +52,8 @@ createServer(async (req,res)=>{
       const candidate = filename + (contentEncoding==='br'?'.br':'.gz');
       if (contentEncoding && await stat(candidate).catch(()=>null)) filename=candidate; else contentEncoding=undefined;
     }
-    const bytes = await readFile(filename);
+    let bytes = await readFile(filename);
+    if (acceptance && status === 200 && extname(filename) === '.html') bytes = Buffer.from(bytes.toString('utf8').replace('<head>', '<head><script src="/__acceptance/browser-platform-fixtures.js"></script>'));
     const originalName=contentEncoding?filename.replace(/\.(br|gz)$/,''):filename;
     const headers = {'Content-Type':mime[extname(originalName)]??'application/octet-stream','Content-Length':bytes.length,'Cache-Control':'public, max-age=0, must-revalidate','ETag':'"'+createHash('sha256').update(bytes).digest('hex')+'"'};
     if (['.glb','.json'].includes(extname(originalName))) headers.Vary='Accept-Encoding';
