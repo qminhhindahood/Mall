@@ -1,0 +1,184 @@
+{
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+  "conditions": "localhost HTTP, no-store requests; public browser decoding; no throttling; no readiness benchmark",
+  "geometry": [
+    {
+      "decodedLength": 5181013,
+      "encodedLength": "1084571",
+      "encoding": "br",
+      "floorIds": [
+        "B2",
+        "B1",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "mime": "application/json",
+      "pass": true,
+      "sha256": "9b3fd9fae02b2ed72fe822bbd16a72296ea0e43756748a2370e9e90ad02864f8",
+      "status": 200,
+      "url": "/data/floor-geometry.json"
+    },
+    {
+      "decodedLength": 5181013,
+      "encodedLength": "1084571",
+      "encoding": "br",
+      "floorIds": [
+        "B2",
+        "B1",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "mime": "application/json",
+      "pass": true,
+      "sha256": "9b3fd9fae02b2ed72fe822bbd16a72296ea0e43756748a2370e9e90ad02864f8",
+      "status": 200,
+      "url": "/data/floor-geometry.json.br"
+    },
+    {
+      "decodedLength": 5181013,
+      "encodedLength": "1152697",
+      "encoding": "gzip",
+      "floorIds": [
+        "B2",
+        "B1",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "mime": "application/json",
+      "pass": true,
+      "sha256": "9b3fd9fae02b2ed72fe822bbd16a72296ea0e43756748a2370e9e90ad02864f8",
+      "status": 200,
+      "url": "/data/floor-geometry.json.gz"
+    },
+    {
+      "decodedLength": 5181013,
+      "encodedLength": "5181013",
+      "encoding": null,
+      "floorIds": [
+        "B2",
+        "B1",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "mime": "application/json",
+      "pass": true,
+      "sha256": "9b3fd9fae02b2ed72fe822bbd16a72296ea0e43756748a2370e9e90ad02864f8",
+      "status": 200,
+      "url": "/data/floor-geometry.json?identity"
+    }
+  ],
+  "mall": "saigon-centre",
+  "models": [
+    {
+      "decodedLength": 2000796,
+      "encodedLength": "205547",
+      "encoding": "br",
+      "mime": "model/gltf-binary",
+      "pass": true,
+      "sha256": "f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050",
+      "status": 200,
+      "url": "/models/exterior.glb"
+    },
+    {
+      "decodedLength": 2000796,
+      "encodedLength": "205547",
+      "encoding": "br",
+      "mime": "model/gltf-binary",
+      "pass": true,
+      "sha256": "f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050",
+      "status": 200,
+      "url": "/models/exterior.glb.br"
+    },
+    {
+      "decodedLength": 2000796,
+      "encodedLength": "271536",
+      "encoding": "gzip",
+      "mime": "model/gltf-binary",
+      "pass": true,
+      "sha256": "f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050",
+      "status": 200,
+      "url": "/models/exterior.glb.gz"
+    },
+    {
+      "decodedLength": 2000796,
+      "encodedLength": "2000796",
+      "encoding": null,
+      "mime": "model/gltf-binary",
+      "pass": true,
+      "sha256": "f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050",
+      "status": 200,
+      "url": "/models/exterior.glb?identity"
+    }
+  ],
+  "pass": true,
+  "previews": [
+    {
+      "floor": "B2",
+      "pass": true,
+      "sha256": "92e959288b957497e3859fb2db80f0657ecb590fd2268c4948a57bdd18ea8497",
+      "status": 200
+    },
+    {
+      "floor": "B1",
+      "pass": true,
+      "sha256": "eeda80dda33eb7ec301881b86603b04b0fd03a16750b14dee25c7a1d99ca4afe",
+      "status": 200
+    },
+    {
+      "floor": "L1",
+      "pass": true,
+      "sha256": "d7c4697eb9399e8d768586b01139295cf90c3607ba44e690a031c0aaf5eba89b",
+      "status": 200
+    },
+    {
+      "floor": "L2",
+      "pass": true,
+      "sha256": "4749dd738ea148407c334396183ef917711f4ff10fbfaa796a7ff6f31ede4fd5",
+      "status": 200
+    },
+    {
+      "floor": "L3",
+      "pass": true,
+      "sha256": "905e5de4c90debbabddd8a7fadf9e47b5084bf6b01703ba5450b9e8603763ab8",
+      "status": 200
+    },
+    {
+      "floor": "L4",
+      "pass": true,
+      "sha256": "e97069f721f384d6e37bc7896d8e95344d1f5cc153e17eb9d3c844a11c046f60",
+      "status": 200
+    },
+    {
+      "floor": "L5",
+      "pass": true,
+      "sha256": "4abefc8f9c34f1fa3c0f9076e5b4b9c5689505d783d6a843a37078f2a6b712c5",
+      "status": 200
+    },
+    {
+      "floor": "L6",
+      "pass": true,
+      "sha256": "94ecc7542a08d96cdf14fc43efcbd6c26ff753c59be135867d4092c33187e4f6",
+      "status": 200
+    }
+  ],
+  "viewport": [
+    1280,
+    800
+  ]
+}
