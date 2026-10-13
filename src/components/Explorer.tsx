@@ -8,12 +8,17 @@ import { validateGeometry } from '../runtime/validate-geometry';
 import { timing } from '../runtime/loading-timing';
 
 export type ExplorerSelection = { locale: Locale; floorId: string; kind: SceneKind; destinationId?: string };
+function defaultFloorId(site: SiteData, floors = site.geometry.floors) {
+  if (floors.some(floor => floor.id === site.defaultFloor)) return site.defaultFloor;
+  return floors.find(floor => floor.id === 'L1')?.id ?? floors[0]?.id ?? 'L1';
+}
 function selectionFromUrl(url: URL, site: SiteData, fallback: ExplorerSelection): ExplorerSelection {
   const segments = url.pathname.split('/').filter(Boolean);
   const locale = segments[0] === 'en' ? 'en' : 'vi';
   const destination = ['stores','cua-hang'].includes(segments[1]) ? site.destinations.find(d => d.id === segments[2]) : undefined;
-  const candidate = url.searchParams.get('floor') ?? (['floors','tang'].includes(segments[1]) ? segments[2] : destination?.primaryFloor) ?? site.defaultFloor;
-  const floorId = site.geometry.floors.some(f => f.id === candidate) && (!destination || destination.floors.includes(candidate)) ? candidate : destination?.primaryFloor ?? site.defaultFloor;
+  const fallbackFloor = defaultFloorId(site);
+  const candidate = url.searchParams.get('floor') ?? (['floors','tang'].includes(segments[1]) ? segments[2] : destination?.primaryFloor) ?? fallbackFloor;
+  const floorId = site.geometry.floors.some(f => f.id === candidate) && (!destination || destination.floors.includes(candidate)) ? candidate : destination?.primaryFloor && site.geometry.floors.some(f => f.id === destination.primaryFloor) ? destination.primaryFloor : fallbackFloor;
   const view = url.searchParams.get('view');
   const kind = ['exterior','overview','map','discovery'].includes(view ?? '') ? view as SceneKind : segments[1] ? 'map' : fallback.kind;
   return { locale, floorId, kind, destinationId: destination?.id };
@@ -48,7 +53,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const moduleFailed = useRef(false);
   latest.current = selection;
   const c = copy[selection.locale];
-  const floor = geometry.floors.find(f => f.id === selection.floorId)!;
+  const floor = geometry.floors.find(f => f.id === selection.floorId) ?? geometry.floors.find(f => f.id === defaultFloorId(site, geometry.floors)) ?? geometry.floors[0]!;
   const destination: Destination|undefined = site.destinations.find(d => d.id === selection.destinationId);
 
   useEffect(() => {
@@ -245,8 +250,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       <div ref={parking} className="canvas-parking" />
       {(['exterior','overview','map','discovery'] as SceneKind[]).map(kind=><section key={kind} id={`scene-${kind}`} ref={element=>{if(element) sections.current[kind]=element;}} tabIndex={-1} className="scene-section" aria-label={c[kind]} data-active={selection.kind===kind}>
         <h2>{c[kind]}{routeResolved && (kind==='map'||kind==='discovery') ? ` · ${floor.label}` : ''}</h2>
-        <div ref={element=>{if(element) sceneHosts.current[kind]=element;}} className="scene-host" data-scene-kind={kind} data-active={selection.kind===kind} data-floor={routeResolved?floor.id:undefined}>
-          {kind==='exterior' ? <img src="/previews/exterior.webp" alt={`${site.name} · ${c.exterior}`} width="1200" height="1200" /> : kind==='overview' ? <div className="overview-stack">{site.geometry.floors.map(item=><a key={item.id} href={floorRoute(selection.locale,item.id)} onClick={event=>navigate(change('map',item.id),event)}>{c.heading} {item.label}</a>)}</div> : routeResolved && (floor.regions.length ? <FloorMap floor={floor} title={c.map} /> : floor.preview ? <img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`} loading="lazy" /> : <FloorMap floor={floor} title={c.map} />)}
+        <div ref={element=>{if(element) sceneHosts.current[kind]=element;}} className={`scene-host scene-host-${kind}`} data-scene-kind={kind} data-active={selection.kind===kind} data-floor={routeResolved?floor.id:undefined}>
+          {kind==='exterior' ? <img src="/previews/exterior.webp" alt={`${site.name} · ${c.exterior}`} width="1200" height="1200" /> : kind==='overview' ? <div className="overview-composition"><nav className="floor-rail" aria-label={c.floors}>{geometry.floors.slice().sort((a,b)=>b.order-a.order).map(item=><a key={item.id} href={floorRoute(selection.locale,item.id)} aria-current={selection.kind==='map' && selection.floorId===item.id?'page':undefined} onClick={event=>navigate(change('map',item.id),event)}>{item.label}</a>)}</nav><div className="overview-stack" aria-label={c.overview}>{geometry.floors.slice().sort((a,b)=>b.order-a.order).map(item=><a key={item.id} className={selection.floorId===item.id && selection.kind==='map'?'selected':''} href={floorRoute(selection.locale,item.id)} onClick={event=>navigate(change('map',item.id),event)}><span className="overview-card-label">{c.heading} {item.label}</span><span className="overview-card-map"><FloorMap floor={item} title={`${c.map} ${item.label}`} /></span></a>)}</div></div> : routeResolved && (floor.regions.length ? <FloorMap floor={floor} title={c.map} /> : floor.preview ? <img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`} loading="lazy" /> : <FloorMap floor={floor} title={c.map} />)}
         </div>
         {kind==='exterior' && <button disabled={load!=='ready'} onClick={() => { pausedRef.current=!paused;runtime.current?.setPaused(!paused); setPaused(!paused); }}>{paused?c.resume:c.pause}</button>}
         <p className="disclosure">{c.uncertainty}</p>
@@ -256,7 +261,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       <section id="shopping-levels" aria-labelledby="levels-heading">
         {floorCorrected && <p role="status">{c.floorCorrected}</p>}
         <h2 id="levels-heading">{c.floors}</h2>
-        <nav className="floors" aria-label={c.floors}>{site.geometry.floors.map(item => <a key={item.id} href={floorRoute(selection.locale,item.id)} aria-current={routeResolved && selection.floorId===item.id?'page':undefined} onClick={event => navigate(change('map',item.id),event)}>{item.label}</a>)}</nav>
+        <nav className="floors" aria-label={c.floors}>{geometry.floors.map(item => <a key={item.id} href={floorRoute(selection.locale,item.id)} aria-current={routeResolved && selection.floorId===item.id?'page':undefined} onClick={event => navigate(change('map',item.id),event)}>{item.label}</a>)}</nav>
         {routeResolved && <><h3>{c.heading} {floor.label}</h3><FloorMap floor={floor} title={c.map} />
         {floor.preview && <details><summary>{c.preview}</summary><img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`} loading="lazy" /></details>}</>}
         <p>{c.directory}</p>
