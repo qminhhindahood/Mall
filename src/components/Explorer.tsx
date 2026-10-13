@@ -1,0 +1,148 @@
+import { useEffect, useRef, useState } from 'react';
+import type { SiteData, Destination } from '../data/site';
+import type { Locale, SceneKind, SceneRuntime, FloorDataset } from '../runtime/scene-contract';
+import { copy } from './copy';
+import FloorMap from './FloorMap';
+import { floorRoute, selectionHref as href } from '../data/routes';
+
+export type ExplorerSelection = { locale: Locale; floorId: string; kind: SceneKind; destinationId?: string };
+function selectionFromUrl(url: URL, site: SiteData, fallback: ExplorerSelection): ExplorerSelection {
+  const segments = url.pathname.split('/').filter(Boolean);
+  const locale = segments[0] === 'en' ? 'en' : 'vi';
+  const destination = ['stores','cua-hang'].includes(segments[1]) ? site.destinations.find(d => d.id === segments[2]) : undefined;
+  const candidate = url.searchParams.get('floor') ?? (['floors','tang'].includes(segments[1]) ? segments[2] : destination?.primaryFloor) ?? site.defaultFloor;
+  const floorId = site.geometry.floors.some(f => f.id === candidate) && (!destination || destination.floors.includes(candidate)) ? candidate : destination?.primaryFloor ?? site.defaultFloor;
+  const view = url.searchParams.get('view');
+  const kind = ['exterior','overview','map','discovery'].includes(view ?? '') ? view as SceneKind : segments[1] ? 'map' : fallback.kind;
+  return { locale, floorId, kind, destinationId: destination?.id };
+}
+
+export default function Explorer({ site, initial }: { site: SiteData; initial: ExplorerSelection }) {
+  const [selection,setSelection] = useState(initial);
+  const [load,setLoad] = useState<'static'|'loading'|'ready'|'failed'>('static');
+  const [phase,setPhase] = useState('');
+  const [attempt,setAttempt] = useState(0);
+  const [paused,setPaused] = useState(false);
+  const [geometry,setGeometry] = useState(site.geometry);
+  const [routeResolved,setRouteResolved] = useState(!initial.destinationId);
+  const canvas = useRef<HTMLCanvasElement>(null);
+  const parking = useRef<HTMLDivElement>(null);
+  const runtime = useRef<SceneRuntime|null>(null);
+  const latest = useRef(selection);
+  const sceneHosts = useRef<Partial<Record<SceneKind,HTMLDivElement>>>({});
+  const sections = useRef<Partial<Record<SceneKind,HTMLElement>>>({});
+  const requestSerial = useRef(0);
+  latest.current = selection;
+  const c = copy[selection.locale];
+  const floor = geometry.floors.find(f => f.id === selection.floorId)!;
+  const destination: Destination|undefined = site.destinations.find(d => d.id === selection.destinationId);
+
+  useEffect(() => {
+    setSelection(selectionFromUrl(new URL(location.href), site, initial));
+    setRouteResolved(true);
+    const pop = () => setSelection(selectionFromUrl(new URL(location.href), site, initial));
+    window.addEventListener('popstate',pop);
+    return () => window.removeEventListener('popstate',pop);
+  }, []);
+  useEffect(() => {
+    document.documentElement.lang = selection.locale;
+    document.title = `${site.name} · ${copy[selection.locale].guide}`;
+  }, [selection.locale]);
+  useEffect(() => {
+    let alive = true;
+    // The shell owns one canvas per runtime attempt. React never reparents/remounts it.
+    const ownedCanvas = document.createElement('canvas');
+    ownedCanvas.style.visibility = 'hidden';
+    ownedCanvas.setAttribute('aria-hidden','true');
+    parking.current!.append(ownedCanvas);
+    canvas.current = ownedCanvas;
+    setLoad('loading');
+    const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    setPaused(reducedMotion);
+    const data = fetch(site.geometryUrl).then(async response => {
+      if (!response.ok) throw new Error('Floor geometry unavailable');
+      const result: FloorDataset = await response.json();
+      if (alive) {
+        setGeometry(result);
+        document.querySelector<HTMLElement>('.static-guide')?.setAttribute('hidden','');
+      }
+      return result;
+    });
+    Promise.all([import('../runtime/create-scene-runtime'),data]).then(([{createSceneRuntime},geometry]) => createSceneRuntime({
+      canvas: ownedCanvas, mallId: site.mallId, data: geometry,
+      assetRevision: site.assetRevision, exteriorUrl: site.exteriorUrl, reducedMotion,
+      sceneHosts: sceneHosts.current as Record<SceneKind,HTMLElement>,
+      onStatus: status => { if (alive) setPhase(status.phase); },
+    })).then(async instance => {
+      if (!alive) { instance.dispose(); return; }
+      runtime.current = instance;
+      await Promise.all(['exterior','overview'].map(kind => instance.prepare({kind: kind as SceneKind, floorId: site.defaultFloor})));
+      if (!alive) return;
+      await instance.show(latest.current);
+      if (alive) setLoad('ready');
+    }).catch(() => { if (alive) setLoad('failed'); });
+    const visibility = () => runtime.current?.setActive(!document.hidden);
+    document.addEventListener('visibilitychange',visibility);
+    return () => { alive=false; requestSerial.current++; runtime.current?.dispose(); runtime.current=null; ownedCanvas.remove(); if(canvas.current===ownedCanvas) canvas.current=null; document.removeEventListener('visibilitychange',visibility); };
+  }, [attempt]);
+  useEffect(()=>{
+    if (!canvas.current) return;
+    canvas.current.style.visibility = load==='ready'?'visible':'hidden';
+    canvas.current.setAttribute('aria-hidden',String(load!=='ready'));
+    canvas.current.setAttribute('aria-label',c[selection.kind]);
+  },[load,selection.locale,selection.kind]);
+  useEffect(() => {
+    const instance = runtime.current;
+    if (!instance) return;
+    const serial = ++requestSerial.current;
+    setLoad('loading');
+    instance.show(selection).then(() => { if (serial === requestSerial.current) setLoad('ready'); }).catch(() => { if (serial === requestSerial.current) setLoad('failed'); });
+  }, [selection.kind, selection.floorId]);
+  function navigate(next: ExplorerSelection, event: React.MouseEvent<HTMLAnchorElement>) {
+    if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    history.pushState(null,'',href(next));
+    setSelection(next);
+    // Locale switches preserve focus on the same language control. View changes go to the new content.
+    if (next.locale === selection.locale) requestAnimationFrame(() => {
+      sections.current[next.kind]?.focus({preventScroll:true});
+      sections.current[next.kind]?.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
+    });
+  }
+  const change = (kind: SceneKind, floorId=selection.floorId): ExplorerSelection => ({...selection,kind,floorId,destinationId:undefined});
+  return <>
+    <div inert={load==='loading'}><header>
+      <a className="wordmark" href={`/${selection.locale}`} onClick={event => navigate({...initial,locale:selection.locale},event)}>{site.name}</a>
+      <nav aria-label="Language"><a href={href({...selection,locale:selection.locale==='vi'?'en':'vi'})} lang={selection.locale==='vi'?'en':'vi'} onClick={event => navigate({...selection,locale:selection.locale==='vi'?'en':'vi'},event)}>{selection.locale==='vi'?'English':'Tiếng Việt'}</a></nav>
+    </header>
+    <main>
+      <p className="eyebrow">{c.guide}</p><h1>{site.name}</h1>
+      <nav className="views" aria-label={c.guide}>{(['exterior','overview','map','discovery'] as SceneKind[]).map(kind => <a key={kind} href={`#scene-${kind}`} aria-current={selection.kind===kind?'page':undefined} onClick={event => navigate(change(kind),event)}>{c[kind]}</a>)}</nav>
+      <a href="#shopping-levels">{c.skip}</a>
+      {load==='failed' && <aside className="error" role="alert"><p>{c.error}</p><button onClick={() => setAttempt(attempt+1)}>{c.retry}</button></aside>}
+      <div ref={parking} className="canvas-parking" />
+      {(['exterior','overview','map','discovery'] as SceneKind[]).map(kind=><section key={kind} id={`scene-${kind}`} ref={element=>{if(element) sections.current[kind]=element;}} tabIndex={-1} className="scene-section" aria-label={c[kind]} data-active={selection.kind===kind}>
+        <h2>{c[kind]}{routeResolved && (kind==='map'||kind==='discovery') ? ` · ${floor.label}` : ''}</h2>
+        <div ref={element=>{if(element) sceneHosts.current[kind]=element;}} className="scene-host" data-scene-kind={kind} data-active={selection.kind===kind} data-floor={routeResolved?floor.id:undefined}>
+          {kind==='exterior' ? <img src="/previews/exterior.webp" alt={`${site.name} · ${c.exterior}`} width="1200" height="1200" /> : kind==='overview' ? <div className="overview-stack">{site.geometry.floors.map(item=><a key={item.id} href={floorRoute(selection.locale,item.id)} onClick={event=>navigate(change('map',item.id),event)}>{c.heading} {item.label}</a>)}</div> : routeResolved && (floor.regions.length ? <FloorMap floor={floor} title={c.map} /> : floor.preview ? <img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`} loading="lazy" /> : <FloorMap floor={floor} title={c.map} />)}
+        </div>
+        {kind==='exterior' && <button disabled={load!=='ready'} onClick={() => { runtime.current?.setPaused(!paused); setPaused(!paused); }}>{paused?c.resume:c.pause}</button>}
+        <p className="disclosure">{c.uncertainty}</p>
+        {geometry.revision==='foundation-unavailable' && <p>{c.unavailableGeometry}</p>}
+        {kind==='discovery' && <p>{c.discoveryPending}</p>}
+      </section>)}
+      <section id="shopping-levels" aria-labelledby="levels-heading">
+        <h2 id="levels-heading">{c.floors}</h2>
+        <nav className="floors" aria-label={c.floors}>{site.geometry.floors.map(item => <a key={item.id} href={floorRoute(selection.locale,item.id)} aria-current={routeResolved && selection.floorId===item.id?'page':undefined} onClick={event => navigate(change('map',item.id),event)}>{item.label}</a>)}</nav>
+        {routeResolved && <><h3>{c.heading} {floor.label}</h3><FloorMap floor={floor} title={c.map} />
+        {floor.preview && <details><summary>{c.preview}</summary><img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`} loading="lazy" /></details>}</>}
+        <p>{c.directory}</p>
+        {destination && <article className="destination"><h2>{destination.name[selection.locale]}</h2><p>{destination.description[selection.locale]}</p><p>{c.floors}: {destination.floors.join(', ')}</p></article>}
+        {routeResolved && site.destinations.length>0 && <ul>{site.destinations.filter(d=>d.floors.includes(floor.id)).map(d=><li key={d.id}><a href={href({...selection,kind:'map',destinationId:d.id})} onClick={event=>navigate({...selection,kind:'map',destinationId:d.id},event)}>{d.name[selection.locale]}</a></li>)}</ul>}
+      </section>
+    </main>
+    <footer>{site.name} · {c.guide}</footer>
+    </div>
+    {load==='loading' && <div className="loading-screen" role="dialog" aria-modal="true" aria-label={c.preparing} tabIndex={-1}><p className="eyebrow">{site.name}</p><h2>{c.preparing}</h2><p role="status">{phase==='fetching'?c.preparing:c.wait}</p></div>}
+  </>;
+}
