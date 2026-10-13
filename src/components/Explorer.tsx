@@ -59,9 +59,15 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     setLoad('loading');
     const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
     setPaused(reducedMotion);
-    const data = fetch(site.geometryUrl).then(async response => {
+    const fetchGeometry = async (url:string): Promise<FloorDataset> => {
+      const response = await fetch(url);
       if (!response.ok) throw new Error('Floor geometry unavailable');
-      const result: FloorDataset = await response.json();
+      return response.json();
+    };
+    const data = fetchGeometry(site.geometryUrl).catch(error=>{
+      if (site.geometryUrl===site.geometryIdentityUrl) throw error;
+      return fetchGeometry(site.geometryIdentityUrl);
+    }).then(result=>{
       if (alive) {
         setGeometry(result);
         document.querySelector<HTMLElement>('.static-guide')?.setAttribute('hidden','');
@@ -71,6 +77,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     Promise.all([import('../runtime/create-scene-runtime'),data]).then(([{createSceneRuntime},geometry]) => createSceneRuntime({
       canvas: ownedCanvas, mallId: site.mallId, data: geometry,
       assetRevision: site.assetRevision, exteriorUrl: site.exteriorUrl, reducedMotion,
+      exteriorIdentityUrl: site.exteriorIdentityUrl,
       sceneHosts: sceneHosts.current as Record<SceneKind,HTMLElement>,
       onStatus: status => { if (alive) setPhase(status.phase); },
     })).then(async instance => {
