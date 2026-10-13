@@ -4,6 +4,7 @@ import type { Locale, SceneKind, SceneRuntime, FloorDataset } from '../runtime/s
 import { copy } from './copy';
 import FloorMap from './FloorMap';
 import { floorRoute, selectionHref as href } from '../data/routes';
+import { validateGeometry } from '../runtime/validate-geometry';
 
 export type ExplorerSelection = { locale: Locale; floorId: string; kind: SceneKind; destinationId?: string };
 function selectionFromUrl(url: URL, site: SiteData, fallback: ExplorerSelection): ExplorerSelection {
@@ -32,7 +33,10 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const sceneHosts = useRef<Partial<Record<SceneKind,HTMLDivElement>>>({});
   const sections = useRef<Partial<Record<SceneKind,HTMLElement>>>({});
   const requestSerial = useRef(0);
-  const pendingFocus = useRef<SceneKind|null>(null);
+  const entered = useRef(false);
+  const overlay = useRef<HTMLDivElement>(null);
+  const pendingFocus = useRef<HTMLElement|null>(null);
+  const pausedRef = useRef(false);
   latest.current = selection;
   const c = copy[selection.locale];
   const floor = geometry.floors.find(f => f.id === selection.floorId)!;
@@ -51,6 +55,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   }, [selection.locale]);
   useEffect(() => {
     let alive = true;
+    entered.current=false;
+    const controller = new AbortController();
     // The shell owns one canvas per runtime attempt. React never reparents/remounts it.
     const ownedCanvas = document.createElement('canvas');
     ownedCanvas.style.visibility = 'hidden';
@@ -59,14 +65,27 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     canvas.current = ownedCanvas;
     setLoad('loading');
     const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
-    setPaused(reducedMotion);
+    pausedRef.current = pausedRef.current || reducedMotion;
+    setPaused(pausedRef.current);
+    performance.mark('mall-loading:entry-start');
+    const fetchModel = async (url:string) => {
+      const response=await fetch(url,{signal:controller.signal});
+      if(!response.ok)throw new Error('Exterior unavailable');
+      return response.arrayBuffer();
+    };
+    // Start bytes before module evaluation and data construction, not in Canvas.
+    const modelBytes=fetchModel(site.exteriorUrl).catch(error=>{
+      if(controller.signal.aborted||site.exteriorUrl===site.exteriorIdentityUrl)throw error;
+      return fetchModel(site.exteriorIdentityUrl);
+    });
+    void modelBytes.catch(()=>{});
     const fetchGeometry = async (url:string): Promise<FloorDataset> => {
-      const response = await fetch(url);
+      const response = await fetch(url,{signal:controller.signal});
       if (!response.ok) throw new Error('Floor geometry unavailable');
-      return response.json();
+      return validateGeometry(await response.json(),site.geometry.floors.map(floor=>floor.id));
     };
     const data = fetchGeometry(site.geometryUrl).catch(error=>{
-      if (site.geometryUrl===site.geometryIdentityUrl) throw error;
+      if (controller.signal.aborted||site.geometryUrl===site.geometryIdentityUrl) throw error;
       return fetchGeometry(site.geometryIdentityUrl);
     }).then(result=>{
       if (alive) {
@@ -79,19 +98,20 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       canvas: ownedCanvas, mallId: site.mallId, data: geometry,
       assetRevision: site.assetRevision, exteriorUrl: site.exteriorUrl, reducedMotion,
       exteriorIdentityUrl: site.exteriorIdentityUrl,
+      modelBytes,
       sceneHosts: sceneHosts.current as Record<SceneKind,HTMLElement>,
-      onStatus: status => { if (alive) setPhase(status.phase); },
+      onStatus: status => { if (alive) {setPhase(status.phase);if(status.key==='context'&&status.phase==='failed'){entered.current=false;setLoad('failed');}} },
     })).then(async instance => {
       if (!alive) { instance.dispose(); return; }
       runtime.current = instance;
+      instance.setPaused(pausedRef.current);
       await Promise.all(['exterior','overview'].map(kind => instance.prepare({kind: kind as SceneKind, floorId: site.defaultFloor})));
       if (!alive) return;
-      await instance.show(latest.current);
-      if (alive) setLoad('ready');
-    }).catch(() => { if (alive) setLoad('failed'); });
-    const visibility = () => runtime.current?.setActive(!document.hidden);
-    document.addEventListener('visibilitychange',visibility);
-    return () => { alive=false; requestSerial.current++; runtime.current?.dispose(); runtime.current=null; ownedCanvas.remove(); if(canvas.current===ownedCanvas) canvas.current=null; document.removeEventListener('visibilitychange',visibility); };
+      let requested;
+      do {requested=latest.current;await instance.show(requested);if(!alive)return;} while(requested.kind!==latest.current.kind || requested.floorId!==latest.current.floorId);
+      if (alive) {entered.current=true;setLoad('ready');performance.mark('mall-loading:entry-ready');}
+    }).catch(() => { if (alive) {runtime.current?.dispose();runtime.current=null;setLoad('failed');} });
+    return () => { alive=false; controller.abort(); requestSerial.current++; runtime.current?.dispose(); runtime.current=null; ownedCanvas.remove(); if(canvas.current===ownedCanvas) canvas.current=null; };
   }, [attempt]);
   useEffect(()=>{
     if (!canvas.current) return;
@@ -101,29 +121,45 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   },[load,selection.locale,selection.kind]);
   useEffect(() => {
     const instance = runtime.current;
-    if (!instance) return;
+    if (!instance || !entered.current) return;
     const serial = ++requestSerial.current;
     setLoad('loading');
     instance.show(selection).then(() => { if (serial === requestSerial.current) setLoad('ready'); }).catch(() => { if (serial === requestSerial.current) setLoad('failed'); });
   }, [selection.kind, selection.floorId]);
   useEffect(()=>{
-    if (!pendingFocus.current || load==='loading' || load==='static') return;
-    const section = sections.current[pendingFocus.current];
-    pendingFocus.current=null;
-    section?.focus({preventScroll:true});
-    section?.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
-  },[selection,load]);
+    const host=sceneHosts.current[selection.kind];if(!host)return;
+    let visible=false;
+    const update=()=>runtime.current?.setActive(visible&&!document.hidden&&load==='ready');
+    const observer=new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;update();});
+    observer.observe(host);document.addEventListener('visibilitychange',update);update();
+    return()=>{observer.disconnect();document.removeEventListener('visibilitychange',update);};
+  },[selection.kind,load]);
+  useEffect(()=>{
+    if(load!=='loading'||!overlay.current)return;
+    const prior=document.activeElement instanceof HTMLElement?document.activeElement:null;
+    const changed:Array<[HTMLElement,boolean]>=[];
+    // Inert every sibling on the dialog's ancestor path, including SSR guide.
+    let node:HTMLElement=overlay.current;
+    while(node.parentElement){for(const sibling of node.parentElement.children)if(sibling!==node && sibling instanceof HTMLElement){changed.push([sibling,sibling.inert]);sibling.inert=true;}node=node.parentElement;if(node===document.body)break;}
+    const overflow=document.body.style.overflow;document.body.style.overflow='hidden';overlay.current.focus({preventScroll:true});
+    return()=>{for(const [element,value]of changed)element.inert=value;document.body.style.overflow=overflow;const target=pendingFocus.current??prior;pendingFocus.current=null;if(target?.isConnected)target.focus({preventScroll:true});};
+  },[load]);
   function navigate(next: ExplorerSelection, event: React.MouseEvent<HTMLAnchorElement>) {
     if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
     event.preventDefault();
     history.pushState(null,'',href(next));
-    if (next.locale === selection.locale) pendingFocus.current = next.kind;
+    if (next.locale === selection.locale) pendingFocus.current = sections.current[next.kind] ?? null;
     setSelection(next);
     // Locale switches preserve focus on the same language control. View changes go to the new content.
+    if (next.locale === selection.locale) requestAnimationFrame(() => {
+      pendingFocus.current=sections.current[next.kind]??null;
+      if(!document.querySelector('.loading-screen')){pendingFocus.current?.focus({preventScroll:true});pendingFocus.current=null;}
+      sections.current[next.kind]?.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
+    });
   }
   const change = (kind: SceneKind, floorId=selection.floorId): ExplorerSelection => ({...selection,kind,floorId,destinationId:undefined});
   return <>
-    <div inert={load==='loading'}><header>
+    <div><header>
       <a className="wordmark" href={`/${selection.locale}`} onClick={event => navigate({...initial,locale:selection.locale},event)}>{site.name}</a>
       <nav aria-label="Language"><a href={href({...selection,locale:selection.locale==='vi'?'en':'vi'})} lang={selection.locale==='vi'?'en':'vi'} onClick={event => navigate({...selection,locale:selection.locale==='vi'?'en':'vi'},event)}>{selection.locale==='vi'?'English':'Tiếng Việt'}</a></nav>
     </header>
@@ -138,7 +174,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
         <div ref={element=>{if(element) sceneHosts.current[kind]=element;}} className="scene-host" data-scene-kind={kind} data-active={selection.kind===kind} data-floor={routeResolved?floor.id:undefined}>
           {kind==='exterior' ? <img src="/previews/exterior.webp" alt={`${site.name} · ${c.exterior}`} width="1200" height="1200" /> : kind==='overview' ? <div className="overview-stack">{site.geometry.floors.map(item=><a key={item.id} href={floorRoute(selection.locale,item.id)} onClick={event=>navigate(change('map',item.id),event)}>{c.heading} {item.label}</a>)}</div> : routeResolved && (floor.regions.length ? <FloorMap floor={floor} title={c.map} /> : floor.preview ? <img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`} loading="lazy" /> : <FloorMap floor={floor} title={c.map} />)}
         </div>
-        {kind==='exterior' && <button disabled={load!=='ready'} onClick={() => { runtime.current?.setPaused(!paused); setPaused(!paused); }}>{paused?c.resume:c.pause}</button>}
+        {kind==='exterior' && <button disabled={load!=='ready'} onClick={() => { pausedRef.current=!paused;runtime.current?.setPaused(!paused); setPaused(!paused); }}>{paused?c.resume:c.pause}</button>}
         <p className="disclosure">{c.uncertainty}</p>
         {geometry.revision==='foundation-unavailable' && <p>{c.unavailableGeometry}</p>}
         {kind==='discovery' && <p>{c.discoveryPending}</p>}
@@ -155,6 +191,6 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     </main>
     <footer>{site.name} · {c.guide}</footer>
     </div>
-    {load==='loading' && <div className="loading-screen" role="dialog" aria-modal="true" aria-label={c.preparing} tabIndex={-1}><p className="eyebrow">{site.name}</p><h2>{c.preparing}</h2><p role="status">{phase==='fetching'?c.preparing:c.wait}</p></div>}
+    {load==='loading' && <div ref={overlay} className="loading-screen" role="dialog" aria-modal="true" aria-label={c.preparing} tabIndex={-1}><p className="eyebrow">{site.name}</p><h2>{c.preparing}</h2><p role="status">{phase==='decoding'?c.decoding:phase==='preparing'?c.gpu:phase==='fetching'?c.preparing:c.wait}</p></div>}
   </>;
 }
