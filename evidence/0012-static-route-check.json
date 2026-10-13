@@ -1,0 +1,16 @@
+{
+  "red": {
+    "check": "Canonical slash redirect retains shared floor query",
+    "pass": false,
+    "url": "http://localhost:4214/en/floors/L2"
+  },
+  "green": {
+    "check": "Canonical redirect retains query; missing route remains localized404",
+    "pass": true,
+    "queryPreserved": true,
+    "unknownEnglish": true,
+    "unknownStatus": 404,
+    "url": "http://localhost:4216/en/floors/L2?floor=M",
+    "validFloorStatus": 200
+  }
+}

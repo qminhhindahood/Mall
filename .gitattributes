@@ -1,0 +1,6 @@
+# Source assets and receipts must not change bytes on Windows checkout.
+assets/** -text
+data/**/*.json text eol=lf
+evidence/**/*.json text eol=lf
+scripts/** text eol=lf
+browser-checks/** text eol=lf

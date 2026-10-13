@@ -19,7 +19,7 @@ createServer(async (req,res)=>{
     if (!['GET','HEAD'].includes(req.method)) {res.writeHead(405,{Allow:'GET, HEAD'});res.end();return;}
     const url = new URL(req.url,'http://localhost');
     const pathname = decodeURIComponent(url.pathname);
-    if (pathname==='/' || pathname.endsWith('/') && pathname!=='/') {res.writeHead(302,{Location:pathname==='/'?'/vi':pathname.slice(0,-1)});res.end();return;}
+    if (pathname==='/' || pathname.endsWith('/') && pathname!=='/') {res.writeHead(302,{Location:(pathname==='/'?'/vi':pathname.slice(0,-1))+url.search});res.end();return;}
     let filename = resolve(directory,'.'+pathname);
     if (!filename.startsWith(directory+sep)) {res.writeHead(403);res.end();return;}
     let status = 200;
