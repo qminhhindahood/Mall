@@ -1,0 +1,192 @@
+{
+  "red": [
+    {
+      "check": "Exact polished exterior at public /models/exterior.glb",
+      "status": 404,
+      "pass": false,
+      "at": "http://localhost:4211/vi"
+    },
+    {
+      "check": "All supported source-backed floors available through public data resource",
+      "pass": false,
+      "status": 404,
+      "at": "http://localhost:4211/vi"
+    }
+  ],
+  "green": [
+    {
+      "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+      "conditions": "localhost HTTP, no-store requests; public browser decoding; no throttling; no readiness benchmark",
+      "geometry": [
+        {
+          "decodedLength": 243506,
+          "encodedLength": "42224",
+          "encoding": "br",
+          "floorIds": [
+            "B3",
+            "B2",
+            "B1",
+            "L1",
+            "M",
+            "L2",
+            "L3"
+          ],
+          "mime": "application/json",
+          "pass": true,
+          "sha256": "d722788c4083030a94095ddde52393603fb323c62d9f43fb67e98138ed1b534e",
+          "status": 200,
+          "url": "/data/floor-geometry.json"
+        },
+        {
+          "decodedLength": 243506,
+          "encodedLength": "42224",
+          "encoding": "br",
+          "floorIds": [
+            "B3",
+            "B2",
+            "B1",
+            "L1",
+            "M",
+            "L2",
+            "L3"
+          ],
+          "mime": "application/json",
+          "pass": true,
+          "sha256": "d722788c4083030a94095ddde52393603fb323c62d9f43fb67e98138ed1b534e",
+          "status": 200,
+          "url": "/data/floor-geometry.json.br"
+        },
+        {
+          "decodedLength": 243506,
+          "encodedLength": "46581",
+          "encoding": "gzip",
+          "floorIds": [
+            "B3",
+            "B2",
+            "B1",
+            "L1",
+            "M",
+            "L2",
+            "L3"
+          ],
+          "mime": "application/json",
+          "pass": true,
+          "sha256": "d722788c4083030a94095ddde52393603fb323c62d9f43fb67e98138ed1b534e",
+          "status": 200,
+          "url": "/data/floor-geometry.json.gz"
+        },
+        {
+          "decodedLength": 243506,
+          "encodedLength": "243506",
+          "encoding": null,
+          "floorIds": [
+            "B3",
+            "B2",
+            "B1",
+            "L1",
+            "M",
+            "L2",
+            "L3"
+          ],
+          "mime": "application/json",
+          "pass": true,
+          "sha256": "d722788c4083030a94095ddde52393603fb323c62d9f43fb67e98138ed1b534e",
+          "status": 200,
+          "url": "/data/floor-geometry.json?identity"
+        }
+      ],
+      "mall": "vincom-dong-khoi",
+      "models": [
+        {
+          "decodedLength": 4797176,
+          "encodedLength": "1199582",
+          "encoding": "br",
+          "mime": "model/gltf-binary",
+          "pass": true,
+          "sha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+          "status": 200,
+          "url": "/models/exterior.glb"
+        },
+        {
+          "decodedLength": 4797176,
+          "encodedLength": "1199582",
+          "encoding": "br",
+          "mime": "model/gltf-binary",
+          "pass": true,
+          "sha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+          "status": 200,
+          "url": "/models/exterior.glb.br"
+        },
+        {
+          "decodedLength": 4797176,
+          "encodedLength": "1400594",
+          "encoding": "gzip",
+          "mime": "model/gltf-binary",
+          "pass": true,
+          "sha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+          "status": 200,
+          "url": "/models/exterior.glb.gz"
+        },
+        {
+          "decodedLength": 4797176,
+          "encodedLength": "4797176",
+          "encoding": null,
+          "mime": "model/gltf-binary",
+          "pass": true,
+          "sha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+          "status": 200,
+          "url": "/models/exterior.glb?identity"
+        }
+      ],
+      "pass": true,
+      "previews": [
+        {
+          "floor": "B3",
+          "pass": true,
+          "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+          "status": 200
+        },
+        {
+          "floor": "B2",
+          "pass": true,
+          "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+          "status": 200
+        },
+        {
+          "floor": "B1",
+          "pass": true,
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "status": 200
+        },
+        {
+          "floor": "L1",
+          "pass": true,
+          "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+          "status": 200
+        },
+        {
+          "floor": "M",
+          "pass": true,
+          "sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530",
+          "status": 200
+        },
+        {
+          "floor": "L2",
+          "pass": true,
+          "sha256": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029",
+          "status": 200
+        },
+        {
+          "floor": "L3",
+          "pass": true,
+          "sha256": "629d9860433bacc381daede046513190e2d6877bf88f99907eafb3f0794bbc70",
+          "status": 200
+        }
+      ],
+      "viewport": [
+        1402,
+        877
+      ]
+    }
+  ]
+}
