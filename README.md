@@ -7,7 +7,7 @@ Two bilingual visitor websites sharing the Porcelain visual style and floating g
 
 Each site keeps its own content, assets, and deployment. Shared style and interaction changes should reach both branches.
 
-The consolidated specification is [issue #1](https://github.com/qminhhindahood/Mall/issues/1).
+The canonical specification and active issues live in `D:/Midterm/docs/`; see the [implementation contract](docs/loading-work-contract.md).
 
 ## Selected technology stack
 
@@ -21,4 +21,4 @@ The consolidated specification is [issue #1](https://github.com/qminhhindahood/M
 
 The ordinary directory and SVG floor map must stay usable when 3D fails. Browser-level journey checks remain the automated test boundary. The selected stack still needs a browser feasibility demonstration; it does not resolve Saigon Centre's missing exterior references or establish production-ready models.
 
-This initial baseline establishes the site branches. Application code, prototypes, and reference assets have not yet been added.
+Install with `npm ci`. `npm run build:saigon` and `npm run build:vincom` generate independent local static sites. `npm run preview:saigon` / `npm run preview:vincom` use the local encoded-asset server. No release or deployment is implied. [The shell handoff](docs/loading-shell-handoff.md) records renderer/data boundaries, fixture isolation and public browser checks.

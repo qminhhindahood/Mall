@@ -1,0 +1,6 @@
+---
+import '../styles/guide.css';
+import type { Locale } from '../runtime/scene-contract';
+const { locale, title } = Astro.props as {locale: Locale; title: string};
+---
+<!doctype html><html lang={locale}><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{title}</title><meta name="description" content={title}/><link rel="canonical" href={Astro.url.pathname}/></head><body><slot /></body></html>

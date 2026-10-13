@@ -1,0 +1,40 @@
+{
+  "name": "midterm-mall-guide",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1 --port 4212",
+    "check": "astro check",
+    "build": "node scripts/prepare-assets.mjs && astro check && astro build",
+    "build:saigon": "cross-env MALL_ID=saigon-centre npm run build",
+    "build:vincom": "cross-env MALL_ID=vincom-dong-khoi npm run build",
+    "preview:saigon": "node scripts/serve-static.mjs --mall saigon-centre --port 4213",
+    "preview:vincom": "node scripts/serve-static.mjs --mall vincom-dong-khoi --port 4214"
+  },
+  "dependencies": {
+    "@astrojs/react": "7.0.1",
+    "@react-three/fiber": "9.8.1",
+    "astro": "7.3.8",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.186.0",
+    "cross-env": "10.1.0",
+    "oxc-transform-react": "0.145.0",
+    "typescript": "6.0.3"
+  },
+  "engines": {
+    "node": ">=22.12.0",
+    "npm": ">=9.6.5"
+  },
+  "overrides": {
+    "@vitejs/plugin-react": "6.1.1"
+  }
+}
