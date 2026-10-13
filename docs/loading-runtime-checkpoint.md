@@ -75,3 +75,5 @@ after final canonical LF asset merge, rerun public entry check in
 tests/browser-runtime-checks.js, then browser failure/route acceptance at that
 same authorized seam. Data/scripts/hosting and root tracker remain other owners.
 No remote PR/push/deployment and no current exterior worktree edits.
+
+Final checkpoint merge: da097c0 includes current integration source receipts at 6c95db1. The Explorer focus conflict was resolved preserving dialog-owned restoration and the latest target section. Post-merge Astro check: 0 errors, 0 warnings, 0 hints (20 files); clean worktree after merge. Rebuild outputs against the canonical LF source on continuation; existing local outputs predate that final source-receipt merge.
