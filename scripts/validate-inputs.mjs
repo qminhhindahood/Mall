@@ -7,7 +7,8 @@ const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const hash=b=>createHash('sha256').update(b).digest('hex');
 const rows=[];
 for (const mall of ['saigon-centre','vincom-dong-khoi']) {
-  const raw=await readFile(resolve(root,`data/malls/${mall}/floor-geometry.json`)),data=JSON.parse(raw);
+  const source=await readFile(resolve(root,`data/malls/${mall}/floor-geometry.json`));
+  const raw=Buffer.from(source.toString('utf8').replace(/\r\n/g,'\n'),'utf8'),data=JSON.parse(raw);
   let vertices=0,regions=0;
   for (const floor of data.floors) {
     const source=floor.sources[0];

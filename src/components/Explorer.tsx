@@ -148,6 +148,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
     event.preventDefault();
     history.pushState(null,'',href(next));
+    if (next.locale === selection.locale) pendingFocus.current = sections.current[next.kind] ?? null;
     setSelection(next);
     // Locale switches preserve focus on the same language control. View changes go to the new content.
     if (next.locale === selection.locale) requestAnimationFrame(() => {

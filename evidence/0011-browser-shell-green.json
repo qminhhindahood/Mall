@@ -1,0 +1,284 @@
+{
+  "date": "2026-10-13",
+  "seam": "public built-site browser journeys",
+  "tab": "tab_h",
+  "saigon": [
+    {
+      "name": "Correct mall homepage",
+      "observed": "Saigon Centre · Hướng dẫn tham quan",
+      "pass": true
+    },
+    {
+      "name": "All supported shopping levels",
+      "observed": [
+        "B2",
+        "B1",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "pass": true
+    },
+    {
+      "name": "Mall-specific default",
+      "observed": "L5",
+      "pass": true
+    },
+    {
+      "name": "Four continuous journey sections",
+      "observed": [
+        "scene-exterior",
+        "scene-overview",
+        "scene-map",
+        "scene-discovery"
+      ],
+      "pass": true
+    },
+    {
+      "name": "No fabricated current listings",
+      "pass": true
+    },
+    {
+      "name": "Floor link selects L2 and updates URL",
+      "observed": "http://localhost:4231/vi/tang/L2?floor=L2&view=map",
+      "pass": true
+    },
+    {
+      "name": "Floor navigation gives content focus",
+      "observed": "SECTION",
+      "pass": true
+    },
+    {
+      "name": "Locale keeps floor and focus",
+      "observed": {
+        "focus": "Tiếng Việt",
+        "href": "http://localhost:4231/en/floors/L2?floor=L2&view=map"
+      },
+      "pass": true
+    },
+    {
+      "name": "Back restores previous locale and floor",
+      "observed": "http://localhost:4231/vi/tang/L2?floor=L2&view=map",
+      "pass": true
+    },
+    {
+      "name": "Static route B2",
+      "observed": {
+        "paths": 86,
+        "status": 200
+      },
+      "pass": true
+    },
+    {
+      "name": "Static route B1",
+      "observed": {
+        "paths": 90,
+        "status": 200
+      },
+      "pass": true
+    },
+    {
+      "name": "Static route L1",
+      "observed": {
+        "paths": 114,
+        "status": 200
+      },
+      "pass": true
+    },
+    {
+      "name": "Static route L2",
+      "observed": {
+        "paths": 108,
+        "status": 200
+      },
+      "pass": true
+    },
+    {
+      "name": "Static route L3",
+      "observed": {
+        "paths": 148,
+        "status": 200
+      },
+      "pass": true
+    },
+    {
+      "name": "Static route L4",
+      "observed": {
+        "paths": 33,
+        "status": 200
+      },
+      "pass": true
+    },
+    {
+      "name": "Static route L5",
+      "observed": {
+        "paths": 52,
+        "status": 200
+      },
+      "pass": true
+    },
+    {
+      "name": "Static route L6",
+      "observed": {
+        "paths": 10,
+        "status": 200
+      },
+      "pass": true
+    },
+    {
+      "name": "Unknown destination returns 404",
+      "observed": 404,
+      "pass": true
+    },
+    {
+      "name": "Scripts-disabled guide retains source SVG and links",
+      "observed": {
+        "links": 8,
+        "paths": 114
+      },
+      "pass": true
+    }
+  ],
+  "vincom": [
+    {
+      "name": "Correct mall homepage",
+      "observed": "Vincom Center Đồng Khởi · Hướng dẫn tham quan",
+      "pass": true
+    },
+    {
+      "name": "All supported shopping levels",
+      "observed": [
+        "B3",
+        "B2",
+        "B1",
+        "L1",
+        "M",
+        "L2",
+        "L3"
+      ],
+      "pass": true
+    },
+    {
+      "name": "Mall-specific default",
+      "observed": "B2",
+      "pass": true
+    },
+    {
+      "name": "Four continuous journey sections",
+      "observed": [
+        "scene-exterior",
+        "scene-overview",
+        "scene-map",
+        "scene-discovery"
+      ],
+      "pass": true
+    },
+    {
+      "name": "No fabricated current listings",
+      "pass": true
+    },
+    {
+      "name": "Floor link selects L2 and updates URL",
+      "observed": "http://localhost:4232/vi/tang/L2?floor=L2&view=map",
+      "pass": true
+    },
+    {
+      "name": "Floor navigation gives content focus",
+      "observed": "SECTION",
+      "pass": true
+    },
+    {
+      "name": "Locale keeps floor and focus",
+      "observed": {
+        "focus": "Tiếng Việt",
+        "href": "http://localhost:4232/en/floors/L2?floor=L2&view=map"
+      },
+      "pass": true
+    },
+    {
+      "name": "Back restores previous locale and floor",
+      "observed": "http://localhost:4232/vi/tang/L2?floor=L2&view=map",
+      "pass": true
+    },
+    {
+      "name": "Static route B3",
+      "observed": {
+        "paths": 39,
+        "status": 200
+      },
+      "pass": true
+    },
+    {
+      "name": "Static route B2",
+      "observed": {
+        "paths": 57,
+        "status": 200
+      },
+      "pass": true
+    },
+    {
+      "name": "Static route B1",
+      "observed": {
+        "paths": 47,
+        "status": 200
+      },
+      "pass": true
+    },
+    {
+      "name": "Static route L1",
+      "observed": {
+        "paths": 18,
+        "status": 200
+      },
+      "pass": true
+    },
+    {
+      "name": "Static route M",
+      "observed": {
+        "paths": 14,
+        "status": 200
+      },
+      "pass": true
+    },
+    {
+      "name": "Static route L2",
+      "observed": {
+        "paths": 11,
+        "status": 200
+      },
+      "pass": true
+    },
+    {
+      "name": "Static route L3",
+      "observed": {
+        "paths": 18,
+        "status": 200
+      },
+      "pass": true
+    },
+    {
+      "name": "Unknown destination returns 404",
+      "observed": 404,
+      "pass": true
+    },
+    {
+      "name": "Scripts-disabled guide retains source SVG and links",
+      "observed": {
+        "links": 7,
+        "paths": 18
+      },
+      "pass": true
+    }
+  ],
+  "redFocus": {
+    "url": "http://localhost:4231/vi/tang/L2?floor=L2&view=map",
+    "documentHidden": true,
+    "expected": "SECTION",
+    "observed": "BODY",
+    "cause": "Focus scheduled with requestAnimationFrame in a hidden tab"
+  },
+  "renderer": "foundation rejects until issue0013; no 3D readiness claimed"
+}

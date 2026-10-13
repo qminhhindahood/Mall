@@ -12,6 +12,28 @@ const inputs = {
 };
 if (!inputs[mall]) throw new Error(`Unsupported MALL_ID: ${mall}`);
 const hash = b => createHash('sha256').update(b).digest('hex');
+const sharedHashes = {
+  'BeVietnamPro-OFL.txt':'6b7f8f73609a25ea78c891e34cf37b06f8a676b7ea986e941e43b009110f2a85',
+  'BeVietnamPro-Regular.ttf':'4ad53eac036092be79a34b5fa0aa32d0ebb3c7e5df4bc058764f5614fbf148a0',
+  'Manrope-OFL.txt':'d6a309fcfb963d329a93baf9df66fa5f3c23a4be2b5f67edf24d6cafecde12ac',
+  'Manrope.ttf':'3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6'
+};
+function canonicalSharedBytes(name, bytes) {
+  const expected = sharedHashes[name];
+  if (!expected) throw new Error(`Unreviewed shared font input: ${name}`);
+  // Older Windows worktrees may already contain CRLF from a checkout before
+  // assets/** -text was committed. Restore only the verified original LF bytes
+  // in staging; this does not rewrite the source asset or accept other drift.
+  if (name.endsWith('.txt') && hash(bytes) !== expected) {
+    const restored = Buffer.from(bytes.toString('utf8').replace(/\r\n/g,'\n'),'utf8');
+    if (hash(restored) === expected) {
+      console.warn(`Restored original license bytes in staging: ${name}`);
+      bytes = restored;
+    }
+  }
+  if (hash(bytes) !== expected) throw new Error(`Shared font source identity changed: ${name}`);
+  return bytes;
+}
 async function put(path, bytes) { await mkdir(dirname(path), { recursive:true }); await writeFile(path,bytes); }
 if (arg('--import')) {
   for (const [id, input] of Object.entries(inputs)) {
@@ -45,11 +67,15 @@ await put(resolve(publicRoot,'previews/exterior.webp'),preview);
 manifest.staticInputs = [];
 for (const directory of [`assets/${mall}/maps`,'assets/shared/fonts']) for (const name of await readdir(resolve(root,directory))) {
   const target = directory.endsWith('/maps') ? 'maps' : 'fonts';
-  const bytes = await readFile(resolve(root,directory,name));
+  const sourceBytes = await readFile(resolve(root,directory,name));
+  const bytes = target === 'fonts' ? canonicalSharedBytes(name,sourceBytes) : sourceBytes;
   await put(resolve(publicRoot,target,name),bytes);
   manifest.staticInputs.push({url:`/${target}/${name}`,bytes:bytes.length,sha256:hash(bytes)});
 }
-const geometry = await readFile(resolve(root,`data/malls/${mall}/floor-geometry.json`));
+// Canonical captured JSON uses LF. Legacy pre-attributes Windows checkouts can
+// retain CRLF; restoring that representation leaves every JSON value intact.
+const geometrySource = await readFile(resolve(root,`data/malls/${mall}/floor-geometry.json`));
+const geometry = Buffer.from(geometrySource.toString('utf8').replace(/\r\n/g,'\n'),'utf8');
 manifest.floorGeometry = {revision:JSON.parse(geometry).revision,url:'/data/floor-geometry.json.br',identityUrl:'/data/floor-geometry.json',bytes:geometry.length,sha256:hash(geometry),compression:[]};
 for (const [encoding,suffix,bytes] of [['identity','',geometry],['br','.br',brotliCompressSync(geometry,{params:{[constants.BROTLI_PARAM_QUALITY]:5}})],['gzip','.gz',gzipSync(geometry)]]) {
   const decoded=encoding==='br'?brotliDecompressSync(bytes):encoding==='gzip'?gunzipSync(bytes):bytes;
@@ -62,5 +88,5 @@ await put(resolve(publicRoot,'data/asset-manifest.json'),JSON.stringify(manifest
 // Explicit representations on a pure-static host. Not automatic negotiation.
 await put(resolve(publicRoot,'_headers'),`/models/exterior.glb\n  Content-Type: model/gltf-binary\n  Cache-Control: public, max-age=0, must-revalidate\n/models/exterior.glb.br\n  Content-Type: model/gltf-binary\n  Content-Encoding: br\n  Cache-Control: public, max-age=0, must-revalidate\n/models/exterior.glb.gz\n  Content-Type: model/gltf-binary\n  Content-Encoding: gzip\n  Cache-Control: public, max-age=0, must-revalidate\n`);
 const headersPath=resolve(publicRoot,'_headers');
-await put(headersPath,(await readFile(headersPath,'utf8'))+`/data/floor-geometry.json.br\n  Content-Type: application/json\n  Content-Encoding: br\n  Cache-Control: public, max-age=0, must-revalidate\n/data/floor-geometry.json.gz\n  Content-Type: application/json\n  Content-Encoding: gzip\n  Cache-Control: public, max-age=0, must-revalidate\n`);
+await put(headersPath,(await readFile(headersPath,'utf8'))+`/data/floor-geometry.json\n  Content-Type: application/json\n  Cache-Control: public, max-age=0, must-revalidate\n/data/floor-geometry.json.br\n  Content-Type: application/json\n  Content-Encoding: br\n  Cache-Control: public, max-age=0, must-revalidate\n/data/floor-geometry.json.gz\n  Content-Type: application/json\n  Content-Encoding: gzip\n  Cache-Control: public, max-age=0, must-revalidate\n`);
 console.log(JSON.stringify({mall,sha256:manifest.sha256,variants:manifest.compression}));
