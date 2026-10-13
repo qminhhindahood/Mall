@@ -1,0 +1,224 @@
+{
+  "revision": "a7864f0",
+  "browser": "149.0.7827.198",
+  "results": [
+    {
+      "mall": "saigon-centre",
+      "test": "unrelated-background-failure",
+      "errors": [],
+      "observation": {
+        "faults": 1,
+        "ready": true,
+        "error": false,
+        "failedBackground": [
+          {
+            "operation": "scene-prepare",
+            "mallId": "saigon-centre",
+            "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+            "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+            "kind": "map",
+            "floorId": "B2",
+            "outcome": "failed"
+          }
+        ],
+        "scene": "saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:exterior:all"
+      },
+      "pass": true
+    },
+    {
+      "mall": "saigon-centre",
+      "test": "pending-request-stale",
+      "errors": [],
+      "beyondGoal": {
+        "loader": true,
+        "inert": true
+      },
+      "observation": {
+        "locale": "vi",
+        "scene": "saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:L2",
+        "focus": "scene-discovery",
+        "requests": [
+          {
+            "duration": 1225.5,
+            "detail": {
+              "operation": "request-to-frame",
+              "mallId": "saigon-centre",
+              "attempt": 0,
+              "locale": "en",
+              "floorId": "L2",
+              "kind": "map",
+              "outcome": "stale"
+            }
+          },
+          {
+            "duration": 1010.5999999996275,
+            "detail": {
+              "operation": "request-to-frame",
+              "mallId": "saigon-centre",
+              "attempt": 0,
+              "locale": "vi",
+              "floorId": "L2",
+              "kind": "discovery",
+              "outcome": "stale"
+            }
+          },
+          {
+            "duration": 925.0999999996275,
+            "detail": {
+              "operation": "request-to-frame",
+              "mallId": "saigon-centre",
+              "attempt": 0,
+              "locale": "vi",
+              "floorId": "L2",
+              "kind": "map",
+              "outcome": "stale"
+            }
+          },
+          {
+            "duration": 857.7000000011176,
+            "detail": {
+              "operation": "request-to-frame",
+              "mallId": "saigon-centre",
+              "attempt": 0,
+              "locale": "vi",
+              "floorId": "L2",
+              "kind": "discovery",
+              "outcome": "ready"
+            }
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "mall": "saigon-centre",
+      "test": "document-visibility",
+      "errors": [],
+      "observation": {
+        "start": {
+          "visibility": "visible",
+          "frames": 126
+        },
+        "end": {
+          "visibility": "visible",
+          "frames": 126
+        },
+        "resume": {
+          "visibility": "visible",
+          "frames": 219
+        }
+      },
+      "pass": null,
+      "limit": "Headless tab switching did not hide document; native background-tab check unavailable"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "test": "unrelated-background-failure",
+      "errors": [],
+      "observation": {
+        "faults": 1,
+        "ready": true,
+        "error": false,
+        "failedBackground": [
+          {
+            "operation": "scene-prepare",
+            "mallId": "vincom-dong-khoi",
+            "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+            "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+            "kind": "map",
+            "floorId": "B3",
+            "outcome": "failed"
+          }
+        ],
+        "scene": "vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:exterior:all"
+      },
+      "pass": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "test": "pending-request-stale",
+      "errors": [],
+      "beyondGoal": {
+        "loader": true,
+        "inert": true
+      },
+      "observation": {
+        "locale": "vi",
+        "scene": "vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:L2",
+        "focus": "scene-discovery",
+        "requests": [
+          {
+            "duration": 1322.800000000745,
+            "detail": {
+              "operation": "request-to-frame",
+              "mallId": "vincom-dong-khoi",
+              "attempt": 0,
+              "locale": "en",
+              "floorId": "L2",
+              "kind": "map",
+              "outcome": "stale"
+            }
+          },
+          {
+            "duration": 1208,
+            "detail": {
+              "operation": "request-to-frame",
+              "mallId": "vincom-dong-khoi",
+              "attempt": 0,
+              "locale": "vi",
+              "floorId": "L2",
+              "kind": "discovery",
+              "outcome": "stale"
+            }
+          },
+          {
+            "duration": 1128.4000000003725,
+            "detail": {
+              "operation": "request-to-frame",
+              "mallId": "vincom-dong-khoi",
+              "attempt": 0,
+              "locale": "vi",
+              "floorId": "L2",
+              "kind": "map",
+              "outcome": "stale"
+            }
+          },
+          {
+            "duration": 1071.6000000014901,
+            "detail": {
+              "operation": "request-to-frame",
+              "mallId": "vincom-dong-khoi",
+              "attempt": 0,
+              "locale": "vi",
+              "floorId": "L2",
+              "kind": "discovery",
+              "outcome": "ready"
+            }
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "test": "document-visibility",
+      "errors": [],
+      "observation": {
+        "start": {
+          "visibility": "visible",
+          "frames": 121
+        },
+        "end": {
+          "visibility": "visible",
+          "frames": 122
+        },
+        "resume": {
+          "visibility": "visible",
+          "frames": 212
+        }
+      },
+      "pass": null,
+      "limit": "Headless tab switching did not hide document; native background-tab check unavailable"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "revision": "650b579",
+  "results": [
+    {
+      "trigger": "rotation",
+      "state": {
+        "error": false,
+        "guide": false,
+        "loader": false,
+        "ready": true
+      },
+      "errors": [
+        "Deliberate visible draw failure"
+      ],
+      "pass": false
+    },
+    {
+      "trigger": "resize",
+      "state": {
+        "error": false,
+        "guide": false,
+        "loader": false,
+        "ready": true
+      },
+      "errors": [
+        "Deliberate visible draw failure"
+      ],
+      "pass": false
+    }
+  ]
+}

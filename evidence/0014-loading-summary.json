@@ -1,0 +1,876 @@
+{
+  "revision": "a7864f0",
+  "runs": 24,
+  "allPass": true,
+  "profile": {
+    "browser": "149.0.7827.198",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "dpr": 1,
+    "reducedMotion": "reduce",
+    "network": "localhost HTTP, no throttling; fresh incognito context per pair; shader/OS caches uncontrolled",
+    "gpu": [
+      "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    ]
+  },
+  "groups": [
+    {
+      "mall": "saigon-centre",
+      "transport": "br",
+      "cache": "cold-context",
+      "initialMs": [
+        5014.89999999851,
+        2373.7000000011176,
+        2266.89999999851
+      ],
+      "medianInitialMs": 2373.7000000011176,
+      "minInitialMs": 2266.89999999851,
+      "maxInitialMs": 5014.89999999851,
+      "fiveSecondMisses": 1,
+      "earlyAlreadyPrepared": [
+        false,
+        false,
+        false
+      ],
+      "requests": [
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 94
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 4.900000000372529
+          }
+        ],
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 110.80000000074506
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 7.299999998882413
+          }
+        ],
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 86.59999999962747
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 4
+          }
+        ]
+      ],
+      "inputResources": [
+        [
+          {
+            "name": "http://localhost:4253/models/exterior.glb.br",
+            "transferSize": 205847,
+            "encodedBodySize": 205547,
+            "decodedBodySize": 2000796,
+            "duration": 9.5
+          },
+          {
+            "name": "http://localhost:4253/data/floor-geometry.json.br",
+            "transferSize": 1084869,
+            "encodedBodySize": 1084569,
+            "decodedBodySize": 5181012,
+            "duration": 50.5
+          }
+        ],
+        [
+          {
+            "name": "http://localhost:4253/models/exterior.glb.br",
+            "transferSize": 205847,
+            "encodedBodySize": 205547,
+            "decodedBodySize": 2000796,
+            "duration": 10.5
+          },
+          {
+            "name": "http://localhost:4253/data/floor-geometry.json.br",
+            "transferSize": 1084869,
+            "encodedBodySize": 1084569,
+            "decodedBodySize": 5181012,
+            "duration": 50.5
+          }
+        ],
+        [
+          {
+            "name": "http://localhost:4253/models/exterior.glb.br",
+            "transferSize": 205847,
+            "encodedBodySize": 205547,
+            "decodedBodySize": 2000796,
+            "duration": 8.699999999254942
+          },
+          {
+            "name": "http://localhost:4253/data/floor-geometry.json.br",
+            "transferSize": 1084869,
+            "encodedBodySize": 1084569,
+            "decodedBodySize": 5181012,
+            "duration": 45
+          }
+        ]
+      ]
+    },
+    {
+      "mall": "saigon-centre",
+      "transport": "br",
+      "cache": "warm-navigation",
+      "initialMs": [
+        1840.3999999985099,
+        1771.0999999996275,
+        1750.4000000003725
+      ],
+      "medianInitialMs": 1771.0999999996275,
+      "minInitialMs": 1750.4000000003725,
+      "maxInitialMs": 1840.3999999985099,
+      "fiveSecondMisses": 0,
+      "earlyAlreadyPrepared": [
+        false,
+        false,
+        false
+      ],
+      "requests": [
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 88.40000000037253
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 9.5
+          }
+        ],
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 101.40000000037253
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 8.599999999627471
+          }
+        ],
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 74.90000000037253
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 5.599999999627471
+          }
+        ]
+      ],
+      "inputResources": [
+        [
+          {
+            "name": "http://localhost:4253/models/exterior.glb.br",
+            "transferSize": 300,
+            "encodedBodySize": 205547,
+            "decodedBodySize": 2000796,
+            "duration": 21.699999999254942
+          },
+          {
+            "name": "http://localhost:4253/data/floor-geometry.json.br",
+            "transferSize": 300,
+            "encodedBodySize": 1084569,
+            "decodedBodySize": 5181012,
+            "duration": 57.100000001490116
+          }
+        ],
+        [
+          {
+            "name": "http://localhost:4253/models/exterior.glb.br",
+            "transferSize": 300,
+            "encodedBodySize": 205547,
+            "decodedBodySize": 2000796,
+            "duration": 20
+          },
+          {
+            "name": "http://localhost:4253/data/floor-geometry.json.br",
+            "transferSize": 300,
+            "encodedBodySize": 1084569,
+            "decodedBodySize": 5181012,
+            "duration": 45.29999999888241
+          }
+        ],
+        [
+          {
+            "name": "http://localhost:4253/models/exterior.glb.br",
+            "transferSize": 300,
+            "encodedBodySize": 205547,
+            "decodedBodySize": 2000796,
+            "duration": 18.699999999254942
+          },
+          {
+            "name": "http://localhost:4253/data/floor-geometry.json.br",
+            "transferSize": 300,
+            "encodedBodySize": 1084569,
+            "decodedBodySize": 5181012,
+            "duration": 47.69999999925494
+          }
+        ]
+      ]
+    },
+    {
+      "mall": "saigon-centre",
+      "transport": "identity",
+      "cache": "cold-context",
+      "initialMs": [
+        2096.89999999851,
+        2114.4000000003725,
+        2289.0999999996275
+      ],
+      "medianInitialMs": 2114.4000000003725,
+      "minInitialMs": 2096.89999999851,
+      "maxInitialMs": 2289.0999999996275,
+      "fiveSecondMisses": 0,
+      "earlyAlreadyPrepared": [
+        false,
+        false,
+        false
+      ],
+      "requests": [
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 86
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 12.600000001490116
+          }
+        ],
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 80.79999999888241
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 6.300000000745058
+          }
+        ],
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 73.60000000149012
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 8.700000001117587
+          }
+        ]
+      ],
+      "inputResources": [
+        [
+          {
+            "name": "http://localhost:4253/models/exterior.glb?identity=1",
+            "transferSize": 2001096,
+            "encodedBodySize": 2000796,
+            "decodedBodySize": 2000796,
+            "duration": 12.900000000372529
+          },
+          {
+            "name": "http://localhost:4253/data/floor-geometry.json?identity=1",
+            "transferSize": 5181312,
+            "encodedBodySize": 5181012,
+            "decodedBodySize": 5181012,
+            "duration": 51.19999999925494
+          }
+        ],
+        [
+          {
+            "name": "http://localhost:4253/models/exterior.glb?identity=1",
+            "transferSize": 2001096,
+            "encodedBodySize": 2000796,
+            "decodedBodySize": 2000796,
+            "duration": 9.699999999254942
+          },
+          {
+            "name": "http://localhost:4253/data/floor-geometry.json?identity=1",
+            "transferSize": 5181312,
+            "encodedBodySize": 5181012,
+            "decodedBodySize": 5181012,
+            "duration": 47.29999999888241
+          }
+        ],
+        [
+          {
+            "name": "http://localhost:4253/models/exterior.glb?identity=1",
+            "transferSize": 2001096,
+            "encodedBodySize": 2000796,
+            "decodedBodySize": 2000796,
+            "duration": 11.799999998882413
+          },
+          {
+            "name": "http://localhost:4253/data/floor-geometry.json?identity=1",
+            "transferSize": 5181312,
+            "encodedBodySize": 5181012,
+            "decodedBodySize": 5181012,
+            "duration": 49.40000000037253
+          }
+        ]
+      ]
+    },
+    {
+      "mall": "saigon-centre",
+      "transport": "identity",
+      "cache": "warm-navigation",
+      "initialMs": [
+        1686.9000000003725,
+        1710.5,
+        1797.4000000003725
+      ],
+      "medianInitialMs": 1710.5,
+      "minInitialMs": 1686.9000000003725,
+      "maxInitialMs": 1797.4000000003725,
+      "fiveSecondMisses": 0,
+      "earlyAlreadyPrepared": [
+        false,
+        false,
+        false
+      ],
+      "requests": [
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 86.70000000111759
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 8.400000000372529
+          }
+        ],
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 85.09999999962747
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 6.700000001117587
+          }
+        ],
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 105.79999999888241
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 8.400000000372529
+          }
+        ]
+      ],
+      "inputResources": [
+        [
+          {
+            "name": "http://localhost:4253/models/exterior.glb?identity=1",
+            "transferSize": 300,
+            "encodedBodySize": 2000796,
+            "decodedBodySize": 2000796,
+            "duration": 9.299999998882413
+          },
+          {
+            "name": "http://localhost:4253/data/floor-geometry.json?identity=1",
+            "transferSize": 300,
+            "encodedBodySize": 5181012,
+            "decodedBodySize": 5181012,
+            "duration": 41.600000001490116
+          }
+        ],
+        [
+          {
+            "name": "http://localhost:4253/models/exterior.glb?identity=1",
+            "transferSize": 300,
+            "encodedBodySize": 2000796,
+            "decodedBodySize": 2000796,
+            "duration": 8.900000000372529
+          },
+          {
+            "name": "http://localhost:4253/data/floor-geometry.json?identity=1",
+            "transferSize": 300,
+            "encodedBodySize": 5181012,
+            "decodedBodySize": 5181012,
+            "duration": 36.59999999962747
+          }
+        ],
+        [
+          {
+            "name": "http://localhost:4253/models/exterior.glb?identity=1",
+            "transferSize": 300,
+            "encodedBodySize": 2000796,
+            "decodedBodySize": 2000796,
+            "duration": 10.300000000745058
+          },
+          {
+            "name": "http://localhost:4253/data/floor-geometry.json?identity=1",
+            "transferSize": 300,
+            "encodedBodySize": 5181012,
+            "decodedBodySize": 5181012,
+            "duration": 55.90000000037253
+          }
+        ]
+      ]
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "transport": "br",
+      "cache": "cold-context",
+      "initialMs": [
+        1929.7999999988824,
+        1144.7999999988824,
+        1123.5
+      ],
+      "medianInitialMs": 1144.7999999988824,
+      "minInitialMs": 1123.5,
+      "maxInitialMs": 1929.7999999988824,
+      "fiveSecondMisses": 0,
+      "earlyAlreadyPrepared": [
+        false,
+        false,
+        false
+      ],
+      "requests": [
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 22.300000000745058
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 3.599999999627471
+          }
+        ],
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 26.90000000037253
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 4.799999998882413
+          }
+        ],
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 30.699999999254942
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 4.599999999627471
+          }
+        ]
+      ],
+      "inputResources": [
+        [
+          {
+            "name": "http://localhost:4254/models/exterior.glb.br",
+            "transferSize": 1199882,
+            "encodedBodySize": 1199582,
+            "decodedBodySize": 4797176,
+            "duration": 47.90000000037253
+          },
+          {
+            "name": "http://localhost:4254/data/floor-geometry.json.br",
+            "transferSize": 42521,
+            "encodedBodySize": 42221,
+            "decodedBodySize": 243505,
+            "duration": 6.799999998882413
+          }
+        ],
+        [
+          {
+            "name": "http://localhost:4254/models/exterior.glb.br",
+            "transferSize": 1199882,
+            "encodedBodySize": 1199582,
+            "decodedBodySize": 4797176,
+            "duration": 40.79999999888241
+          },
+          {
+            "name": "http://localhost:4254/data/floor-geometry.json.br",
+            "transferSize": 42521,
+            "encodedBodySize": 42221,
+            "decodedBodySize": 243505,
+            "duration": 46.79999999888241
+          }
+        ],
+        [
+          {
+            "name": "http://localhost:4254/models/exterior.glb.br",
+            "transferSize": 1199882,
+            "encodedBodySize": 1199582,
+            "decodedBodySize": 4797176,
+            "duration": 48.5
+          },
+          {
+            "name": "http://localhost:4254/data/floor-geometry.json.br",
+            "transferSize": 42521,
+            "encodedBodySize": 42221,
+            "decodedBodySize": 243505,
+            "duration": 54.79999999888241
+          }
+        ]
+      ]
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "transport": "br",
+      "cache": "warm-navigation",
+      "initialMs": [
+        581.1999999992549,
+        765.9000000003725,
+        609.3000000007451
+      ],
+      "medianInitialMs": 609.3000000007451,
+      "minInitialMs": 581.1999999992549,
+      "maxInitialMs": 765.9000000003725,
+      "fiveSecondMisses": 0,
+      "earlyAlreadyPrepared": [
+        false,
+        false,
+        false
+      ],
+      "requests": [
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 29.899999998509884
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 3.800000000745058
+          }
+        ],
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 27.90000000037253
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 2.900000000372529
+          }
+        ],
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 22
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 8.5
+          }
+        ]
+      ],
+      "inputResources": [
+        [
+          {
+            "name": "http://localhost:4254/models/exterior.glb.br",
+            "transferSize": 300,
+            "encodedBodySize": 1199582,
+            "decodedBodySize": 4797176,
+            "duration": 114
+          },
+          {
+            "name": "http://localhost:4254/data/floor-geometry.json.br",
+            "transferSize": 300,
+            "encodedBodySize": 42221,
+            "decodedBodySize": 243505,
+            "duration": 8.299999998882413
+          }
+        ],
+        [
+          {
+            "name": "http://localhost:4254/models/exterior.glb.br",
+            "transferSize": 300,
+            "encodedBodySize": 1199582,
+            "decodedBodySize": 4797176,
+            "duration": 36.09999999962747
+          },
+          {
+            "name": "http://localhost:4254/data/floor-geometry.json.br",
+            "transferSize": 300,
+            "encodedBodySize": 42221,
+            "decodedBodySize": 243505,
+            "duration": 5.300000000745058
+          }
+        ],
+        [
+          {
+            "name": "http://localhost:4254/models/exterior.glb.br",
+            "transferSize": 300,
+            "encodedBodySize": 1199582,
+            "decodedBodySize": 4797176,
+            "duration": 141.5
+          },
+          {
+            "name": "http://localhost:4254/data/floor-geometry.json.br",
+            "transferSize": 300,
+            "encodedBodySize": 42221,
+            "decodedBodySize": 243505,
+            "duration": 7.900000000372529
+          }
+        ]
+      ]
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "transport": "identity",
+      "cache": "cold-context",
+      "initialMs": [
+        1284.7999999988824,
+        1161.5999999996275,
+        1085.199999999255
+      ],
+      "medianInitialMs": 1161.5999999996275,
+      "minInitialMs": 1085.199999999255,
+      "maxInitialMs": 1284.7999999988824,
+      "fiveSecondMisses": 0,
+      "earlyAlreadyPrepared": [
+        false,
+        false,
+        false
+      ],
+      "requests": [
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 43
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 4.699999999254942
+          }
+        ],
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 26.899999998509884
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 3.800000000745058
+          }
+        ],
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 26.09999999962747
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 3.800000000745058
+          }
+        ]
+      ],
+      "inputResources": [
+        [
+          {
+            "name": "http://localhost:4254/models/exterior.glb?identity=1",
+            "transferSize": 4797476,
+            "encodedBodySize": 4797176,
+            "decodedBodySize": 4797176,
+            "duration": 49.29999999888241
+          },
+          {
+            "name": "http://localhost:4254/data/floor-geometry.json?identity=1",
+            "transferSize": 243805,
+            "encodedBodySize": 243505,
+            "decodedBodySize": 243505,
+            "duration": 44.90000000037253
+          }
+        ],
+        [
+          {
+            "name": "http://localhost:4254/models/exterior.glb?identity=1",
+            "transferSize": 4797476,
+            "encodedBodySize": 4797176,
+            "decodedBodySize": 4797176,
+            "duration": 45.79999999888241
+          },
+          {
+            "name": "http://localhost:4254/data/floor-geometry.json?identity=1",
+            "transferSize": 243805,
+            "encodedBodySize": 243505,
+            "decodedBodySize": 243505,
+            "duration": 49.30000000074506
+          }
+        ],
+        [
+          {
+            "name": "http://localhost:4254/models/exterior.glb?identity=1",
+            "transferSize": 4797476,
+            "encodedBodySize": 4797176,
+            "decodedBodySize": 4797176,
+            "duration": 48.19999999925494
+          },
+          {
+            "name": "http://localhost:4254/data/floor-geometry.json?identity=1",
+            "transferSize": 243805,
+            "encodedBodySize": 243505,
+            "decodedBodySize": 243505,
+            "duration": 53.09999999962747
+          }
+        ]
+      ]
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "transport": "identity",
+      "cache": "warm-navigation",
+      "initialMs": [
+        591,
+        642.7999999988824,
+        579.5
+      ],
+      "medianInitialMs": 591,
+      "minInitialMs": 579.5,
+      "maxInitialMs": 642.7999999988824,
+      "fiveSecondMisses": 0,
+      "earlyAlreadyPrepared": [
+        false,
+        false,
+        false
+      ],
+      "requests": [
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 29.199999999254942
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 4.100000001490116
+          }
+        ],
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 27.40000000037253
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 3.200000001117587
+          }
+        ],
+        [
+          {
+            "kind": "map",
+            "floor": "L3",
+            "duration": 27.200000001117587
+          },
+          {
+            "kind": "discovery",
+            "floor": "L3",
+            "duration": 3.900000000372529
+          }
+        ]
+      ],
+      "inputResources": [
+        [
+          {
+            "name": "http://localhost:4254/models/exterior.glb?identity=1",
+            "transferSize": 300,
+            "encodedBodySize": 4797176,
+            "decodedBodySize": 4797176,
+            "duration": 25.399999998509884
+          },
+          {
+            "name": "http://localhost:4254/data/floor-geometry.json?identity=1",
+            "transferSize": 300,
+            "encodedBodySize": 243505,
+            "decodedBodySize": 243505,
+            "duration": 6.299999998882413
+          }
+        ],
+        [
+          {
+            "name": "http://localhost:4254/models/exterior.glb?identity=1",
+            "transferSize": 300,
+            "encodedBodySize": 4797176,
+            "decodedBodySize": 4797176,
+            "duration": 124.5
+          },
+          {
+            "name": "http://localhost:4254/data/floor-geometry.json?identity=1",
+            "transferSize": 300,
+            "encodedBodySize": 243505,
+            "decodedBodySize": 243505,
+            "duration": 3.400000000372529
+          }
+        ],
+        [
+          {
+            "name": "http://localhost:4254/models/exterior.glb?identity=1",
+            "transferSize": 300,
+            "encodedBodySize": 4797176,
+            "decodedBodySize": 4797176,
+            "duration": 24.59999999962747
+          },
+          {
+            "name": "http://localhost:4254/data/floor-geometry.json?identity=1",
+            "transferSize": 300,
+            "encodedBodySize": 243505,
+            "decodedBodySize": 243505,
+            "duration": 5.399999998509884
+          }
+        ]
+      ]
+    }
+  ]
+}

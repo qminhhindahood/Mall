@@ -1,0 +1,92 @@
+{
+  "revision": "a7864f0",
+  "browser": "149.0.7827.198",
+  "results": [
+    {
+      "mall": "saigon-centre",
+      "scenario": "nonmember-floor",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "expectedFloor": "L1",
+        "corrected": true,
+        "href": "http://localhost:4263/en?floor=L5&view=exterior"
+      },
+      "pass": true
+    },
+    {
+      "mall": "saigon-centre",
+      "scenario": "destination-static-failure",
+      "errors": [],
+      "result": {
+        "guide": true,
+        "relatedFloors": [
+          "L1",
+          "L2"
+        ],
+        "usable": true,
+        "loader": false,
+        "floor": "L2",
+        "destination": "Test-only storeBrowser fixture — not a current store.Shopping levels: L1, L2",
+        "locale": "en"
+      },
+      "pass": true
+    },
+    {
+      "mall": "saigon-centre",
+      "scenario": "visibility-signal",
+      "errors": [],
+      "result": {
+        "emulatedPublicVisibilitySignal": true,
+        "start": 128,
+        "end": 128,
+        "resumed": 236,
+        "nativeHiddenTabAccepted": false
+      },
+      "pass": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "scenario": "nonmember-floor",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "expectedFloor": "L1",
+        "corrected": true,
+        "href": "http://localhost:4264/en?floor=B2&view=exterior"
+      },
+      "pass": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "scenario": "destination-static-failure",
+      "errors": [],
+      "result": {
+        "guide": true,
+        "relatedFloors": [
+          "L1",
+          "L2"
+        ],
+        "usable": true,
+        "loader": false,
+        "floor": "L2",
+        "destination": "Test-only storeBrowser fixture — not a current store.Shopping levels: L1, L2",
+        "locale": "en"
+      },
+      "pass": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "scenario": "visibility-signal",
+      "errors": [],
+      "result": {
+        "emulatedPublicVisibilitySignal": true,
+        "start": 128,
+        "end": 128,
+        "resumed": 238,
+        "nativeHiddenTabAccepted": false
+      },
+      "pass": true
+    }
+  ]
+}

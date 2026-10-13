@@ -1,0 +1,1216 @@
+{
+  "recordedAt": "2026-10-13T15:34:05.318Z",
+  "revision": "650b579",
+  "browser": "149.0.7827.198",
+  "mode": "Standalone headless Chrome after earlier explicit T3 unavailable; shared preview left open; subsequent T3 visible status had throttled timers and failed snapshot/resize",
+  "runs": [
+    {
+      "mall": "saigon-centre",
+      "label": "model-fail",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "retry": true,
+        "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+        "guide": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "38"
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "label": "model-invalid",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "retry": true,
+        "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+        "guide": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "38"
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "label": "geometry-fail",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "retry": true,
+        "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+        "guide": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "38"
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "label": "geometry-invalid",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "retry": true,
+        "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+        "guide": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "38"
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "label": "texture-fail",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "retry": true,
+        "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+        "guide": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "38"
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "label": "webgl-unavailable",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "retry": true,
+        "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+        "guide": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "38"
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "label": "import-fail",
+      "errors": [],
+      "pass": false,
+      "failure": "Error: page.evaluate: Error: Timed out: localized scene error\n    at acceptanceWait (http://localhost:4253/__acceptance/browser-acceptance-checks.js:6:45)\n    at async browserAcceptanceFailureAndRetry (http://localhost:4253/__acceptance/browser-acceptance-checks.js:22:3)\n    at async <anonymous>:396:30",
+      "final": {
+        "href": "http://localhost:4253/en?__scenario=import-fail",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "37"
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "label": "context-loss",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "href": "http://localhost:4253/en"
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4253/en",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "37"
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "label": "requested-render-failure",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "href": "http://localhost:4253/en/floors/L5?floor=L5&view=map"
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4253/en/floors/L5?floor=L5&view=map",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "38"
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "label": "delayed-stale-selection",
+      "errors": [],
+      "pass": false,
+      "failure": "Error: Stale completion changed selection/focus",
+      "final": {
+        "href": "http://localhost:4253/en/floors/L3?floor=L3&view=map",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "38"
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "label": "fixture?floor=L1",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "expectedFloor": "L1",
+        "corrected": false,
+        "href": "http://localhost:4263/en?floor=L5&view=exterior",
+        "neutralSSR": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4263/en?floor=L5&view=exterior",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "41"
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "label": "fixture?floor=L2",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "expectedFloor": "L2",
+        "corrected": false,
+        "href": "http://localhost:4263/en?floor=L5&view=exterior",
+        "neutralSSR": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4263/en?floor=L5&view=exterior",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "41"
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "label": "fixture-primary",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "expectedFloor": "L1",
+        "corrected": false,
+        "href": "http://localhost:4263/en?floor=L5&view=exterior",
+        "neutralSSR": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4263/en?floor=L5&view=exterior",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "41"
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "label": "fixture?floor=BAD",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "expectedFloor": "L1",
+        "corrected": true,
+        "href": "http://localhost:4263/en?floor=L5&view=exterior",
+        "neutralSSR": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4263/en?floor=L5&view=exterior",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "41"
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "label": "journey-pause-offscreen-reuse",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "journey": {
+          "pass": true,
+          "results": [
+            {
+              "floor": "B2",
+              "frame": "41"
+            },
+            {
+              "floor": "B1",
+              "frame": "46"
+            },
+            {
+              "floor": "L1",
+              "frame": "50"
+            },
+            {
+              "floor": "L2",
+              "frame": "54"
+            },
+            {
+              "floor": "L3",
+              "frame": "58"
+            },
+            {
+              "floor": "L4",
+              "frame": "62"
+            },
+            {
+              "floor": "L5",
+              "frame": "65"
+            },
+            {
+              "floor": "L6",
+              "frame": "69"
+            }
+          ],
+          "href": "http://localhost:4253/vi?floor=L6&view=discovery",
+          "viewport": [
+            1280,
+            800
+          ]
+        },
+        "reuse": {
+          "before": {
+            "geometry": 8,
+            "prepared": 18,
+            "resources": [
+              {
+                "mallId": "saigon-centre",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 37,
+                "geometryBytes": 41033412,
+                "materials": 17,
+                "textures": 5,
+                "estimatedTextureBytes": 8388608,
+                "views": 2,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "saigon-centre",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 37,
+                "geometryBytes": 41033412,
+                "materials": 17,
+                "textures": 5,
+                "estimatedTextureBytes": 8388608,
+                "views": 4,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "saigon-centre",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 37,
+                "geometryBytes": 41033412,
+                "materials": 17,
+                "textures": 5,
+                "estimatedTextureBytes": 8388608,
+                "views": 5,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "saigon-centre",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 37,
+                "geometryBytes": 41033412,
+                "materials": 17,
+                "textures": 5,
+                "estimatedTextureBytes": 8388608,
+                "views": 6,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "saigon-centre",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 37,
+                "geometryBytes": 41033412,
+                "materials": 17,
+                "textures": 5,
+                "estimatedTextureBytes": 8388608,
+                "views": 7,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "saigon-centre",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 37,
+                "geometryBytes": 41033412,
+                "materials": 17,
+                "textures": 5,
+                "estimatedTextureBytes": 8388608,
+                "views": 8,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "saigon-centre",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 37,
+                "geometryBytes": 41033412,
+                "materials": 17,
+                "textures": 5,
+                "estimatedTextureBytes": 8388608,
+                "views": 9,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "saigon-centre",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 37,
+                "geometryBytes": 41033412,
+                "materials": 17,
+                "textures": 5,
+                "estimatedTextureBytes": 8388608,
+                "views": 10,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "saigon-centre",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 37,
+                "geometryBytes": 41033412,
+                "materials": 17,
+                "textures": 5,
+                "estimatedTextureBytes": 8388608,
+                "views": 11,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "saigon-centre",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 37,
+                "geometryBytes": 41033412,
+                "materials": 17,
+                "textures": 5,
+                "estimatedTextureBytes": 8388608,
+                "views": 12,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "saigon-centre",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 37,
+                "geometryBytes": 41033412,
+                "materials": 17,
+                "textures": 5,
+                "estimatedTextureBytes": 8388608,
+                "views": 13,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "saigon-centre",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 37,
+                "geometryBytes": 41033412,
+                "materials": 17,
+                "textures": 5,
+                "estimatedTextureBytes": 8388608,
+                "views": 14,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "saigon-centre",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 37,
+                "geometryBytes": 41033412,
+                "materials": 17,
+                "textures": 5,
+                "estimatedTextureBytes": 8388608,
+                "views": 14,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "saigon-centre",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 37,
+                "geometryBytes": 41033412,
+                "materials": 17,
+                "textures": 5,
+                "estimatedTextureBytes": 8388608,
+                "views": 15,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "saigon-centre",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 37,
+                "geometryBytes": 41033412,
+                "materials": 17,
+                "textures": 5,
+                "estimatedTextureBytes": 8388608,
+                "views": 16,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "saigon-centre",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 37,
+                "geometryBytes": 41033412,
+                "materials": 17,
+                "textures": 5,
+                "estimatedTextureBytes": 8388608,
+                "views": 17,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "saigon-centre",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 37,
+                "geometryBytes": 41033412,
+                "materials": 17,
+                "textures": 5,
+                "estimatedTextureBytes": 8388608,
+                "views": 18,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              }
+            ]
+          },
+          "after": {
+            "geometry": 8,
+            "prepared": 18,
+            "canvases": 1
+          }
+        },
+        "frames": {
+          "reducedStart": 75,
+          "reducedEnd": 75,
+          "rotating": 204,
+          "pauseStart": 208,
+          "pauseEnd": 208,
+          "offStart": 210,
+          "offEnd": 210,
+          "visibleEnd": 336
+        }
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4253/vi?floor=L5&view=exterior",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "75"
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "label": "model-fail",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "retry": true,
+        "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+        "guide": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "38"
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "label": "model-invalid",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "retry": true,
+        "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+        "guide": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "38"
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "label": "geometry-fail",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "retry": true,
+        "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+        "guide": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "38"
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "label": "geometry-invalid",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "retry": true,
+        "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+        "guide": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "38"
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "label": "texture-fail",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "retry": true,
+        "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+        "guide": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "38"
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "label": "webgl-unavailable",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "retry": true,
+        "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+        "guide": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "38"
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "label": "import-fail",
+      "errors": [],
+      "pass": false,
+      "failure": "Error: page.evaluate: Error: Timed out: localized scene error\n    at acceptanceWait (http://localhost:4254/__acceptance/browser-acceptance-checks.js:6:45)\n    at async browserAcceptanceFailureAndRetry (http://localhost:4254/__acceptance/browser-acceptance-checks.js:22:3)\n    at async <anonymous>:396:30",
+      "final": {
+        "href": "http://localhost:4254/en?__scenario=import-fail",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "37"
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "label": "context-loss",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "href": "http://localhost:4254/en"
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4254/en",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "37"
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "label": "requested-render-failure",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "href": "http://localhost:4254/en/floors/B2?floor=B2&view=map"
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4254/en/floors/B2?floor=B2&view=map",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "38"
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "label": "delayed-stale-selection",
+      "errors": [],
+      "pass": false,
+      "failure": "Error: Stale completion changed selection/focus",
+      "final": {
+        "href": "http://localhost:4254/en/floors/L3?floor=L3&view=map",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "38"
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "label": "fixture?floor=L1",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "expectedFloor": "L1",
+        "corrected": false,
+        "href": "http://localhost:4264/en?floor=B2&view=exterior",
+        "neutralSSR": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4264/en?floor=B2&view=exterior",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "41"
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "label": "fixture?floor=L2",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "expectedFloor": "L2",
+        "corrected": false,
+        "href": "http://localhost:4264/en?floor=B2&view=exterior",
+        "neutralSSR": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4264/en?floor=B2&view=exterior",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "41"
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "label": "fixture-primary",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "expectedFloor": "L1",
+        "corrected": false,
+        "href": "http://localhost:4264/en?floor=B2&view=exterior",
+        "neutralSSR": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4264/en?floor=B2&view=exterior",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "41"
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "label": "fixture?floor=BAD",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "expectedFloor": "L1",
+        "corrected": true,
+        "href": "http://localhost:4264/en?floor=B2&view=exterior",
+        "neutralSSR": true
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4264/en?floor=B2&view=exterior",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "41"
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "label": "journey-pause-offscreen-reuse",
+      "errors": [],
+      "result": {
+        "pass": true,
+        "journey": {
+          "pass": true,
+          "results": [
+            {
+              "floor": "B3",
+              "frame": "41"
+            },
+            {
+              "floor": "B2",
+              "frame": "46"
+            },
+            {
+              "floor": "B1",
+              "frame": "52"
+            },
+            {
+              "floor": "L1",
+              "frame": "57"
+            },
+            {
+              "floor": "M",
+              "frame": "62"
+            },
+            {
+              "floor": "L2",
+              "frame": "64"
+            },
+            {
+              "floor": "L3",
+              "frame": "66"
+            }
+          ],
+          "href": "http://localhost:4254/vi?floor=L3&view=discovery",
+          "viewport": [
+            1280,
+            800
+          ]
+        },
+        "reuse": {
+          "before": {
+            "geometry": 7,
+            "prepared": 16,
+            "resources": [
+              {
+                "mallId": "vincom-dong-khoi",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 46,
+                "geometryBytes": 18986160,
+                "materials": 17,
+                "textures": 7,
+                "estimatedTextureBytes": 76895573,
+                "views": 2,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "vincom-dong-khoi",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 46,
+                "geometryBytes": 18986160,
+                "materials": 17,
+                "textures": 7,
+                "estimatedTextureBytes": 76895573,
+                "views": 4,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "vincom-dong-khoi",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 46,
+                "geometryBytes": 18986160,
+                "materials": 17,
+                "textures": 7,
+                "estimatedTextureBytes": 76895573,
+                "views": 5,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "vincom-dong-khoi",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 46,
+                "geometryBytes": 18986160,
+                "materials": 17,
+                "textures": 7,
+                "estimatedTextureBytes": 76895573,
+                "views": 6,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "vincom-dong-khoi",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 46,
+                "geometryBytes": 18986160,
+                "materials": 17,
+                "textures": 7,
+                "estimatedTextureBytes": 76895573,
+                "views": 7,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "vincom-dong-khoi",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 46,
+                "geometryBytes": 18986160,
+                "materials": 17,
+                "textures": 7,
+                "estimatedTextureBytes": 76895573,
+                "views": 10,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "vincom-dong-khoi",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 46,
+                "geometryBytes": 18986160,
+                "materials": 17,
+                "textures": 7,
+                "estimatedTextureBytes": 76895573,
+                "views": 11,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "vincom-dong-khoi",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 46,
+                "geometryBytes": 18986160,
+                "materials": 17,
+                "textures": 7,
+                "estimatedTextureBytes": 76895573,
+                "views": 13,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "vincom-dong-khoi",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 46,
+                "geometryBytes": 18986160,
+                "materials": 17,
+                "textures": 7,
+                "estimatedTextureBytes": 76895573,
+                "views": 15,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "vincom-dong-khoi",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 46,
+                "geometryBytes": 18986160,
+                "materials": 17,
+                "textures": 7,
+                "estimatedTextureBytes": 76895573,
+                "views": 16,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "vincom-dong-khoi",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 46,
+                "geometryBytes": 18986160,
+                "materials": 17,
+                "textures": 7,
+                "estimatedTextureBytes": 76895573,
+                "views": 16,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "vincom-dong-khoi",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 46,
+                "geometryBytes": 18986160,
+                "materials": 17,
+                "textures": 7,
+                "estimatedTextureBytes": 76895573,
+                "views": 16,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "vincom-dong-khoi",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 46,
+                "geometryBytes": 18986160,
+                "materials": 17,
+                "textures": 7,
+                "estimatedTextureBytes": 76895573,
+                "views": 16,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "vincom-dong-khoi",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 46,
+                "geometryBytes": 18986160,
+                "materials": 17,
+                "textures": 7,
+                "estimatedTextureBytes": 76895573,
+                "views": 16,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              },
+              {
+                "mallId": "vincom-dong-khoi",
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "geometries": 46,
+                "geometryBytes": 18986160,
+                "materials": 17,
+                "textures": 7,
+                "estimatedTextureBytes": 76895573,
+                "views": 16,
+                "estimatedRenderTargetBytes": 3773952,
+                "estimatedEnvironmentBytes": 6291456,
+                "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+              }
+            ]
+          },
+          "after": {
+            "geometry": 7,
+            "prepared": 16,
+            "canvases": 1
+          }
+        },
+        "frames": {
+          "reducedStart": 71,
+          "reducedEnd": 71,
+          "rotating": 115,
+          "pauseStart": 117,
+          "pauseEnd": 117,
+          "offStart": 118,
+          "offEnd": 118,
+          "visibleEnd": 176
+        }
+      },
+      "pass": true,
+      "final": {
+        "href": "http://localhost:4254/vi?floor=B2&view=exterior",
+        "visible": "visible",
+        "viewport": [
+          1280,
+          800
+        ],
+        "ready": true,
+        "frame": "71"
+      }
+    }
+  ]
+}

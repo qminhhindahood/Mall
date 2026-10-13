@@ -1,5 +1,15 @@
 # Issue 0013 — WIP checkpoint, 13 October 2026
 
+Latest retry: `a7864f0` repairs visible rotation/resize failure recovery and
+commits requested loading before paint; `650b579` makes modal cleanup immediate.
+Both mall builds and 34 desktop cases, both mobile journeys, failure/context/
+stale/fixture/resource checks and 24 repeated loading samples pass. See
+`evidence/0013-0014-acceptance-r2.md` for exact scope, reviews and one five-second
+goal miss. Native hidden-tab and reliable final shared-preview acceptance remain
+open. The current shared preview is left open with a complete Saigon frame;
+its timer/screenshot/resize host behavior is intermittent. Earlier records below
+retain their original revision and do not supersede this receipt.
+
 Latest continuation: code `0442fcb` implements detailed loading timings,
 texture-failure detection, disposal/Retry and routing/focus repairs. See
 `evidence/0013-0014-continuation-r1.md` for final build/transport receipts,

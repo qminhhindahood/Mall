@@ -1,0 +1,1777 @@
+{
+  "recordedAt": "2026-10-13T15:41:47.365Z",
+  "note": "Scoped shared-preview checks only. Null results in batch1 are incomplete and invalid for acceptance; Saigon sample later observed one-second timer polling despite visible status. Snapshot failed and resize timed out. Final full suite kept separate.",
+  "records": {
+    "contextLiveT3": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4254/en?__run=context-retry-live\"},\"value\":{\"href\":\"http://localhost:4254/en?__run=context-retry-live\",\"pass\":true}}"
+        }
+      ],
+      "structuredContent": {
+        "toolIcon": {
+          "_tag": "website",
+          "pageUrl": "http://localhost:4254/en?__run=context-retry-live"
+        },
+        "value": {
+          "href": "http://localhost:4254/en?__run=context-retry-live",
+          "pass": true
+        }
+      },
+      "isError": false
+    },
+    "runtimeLiveRuns": [
+      {
+        "scenario": "saigon model-fail",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4253/vi/tang/L2?floor=L2&view=map\"},\"value\":{\"href\":\"http://localhost:4253/vi/tang/L2?floor=L2&view=map\",\"result\":{\"guide\":true,\"href\":\"http://localhost:4253/vi/tang/L2?floor=L2&view=map\",\"pass\":true,\"retry\":true},\"visibility\":\"visible\"}}"
+            }
+          ],
+          "structuredContent": {
+            "toolIcon": {
+              "_tag": "website",
+              "pageUrl": "http://localhost:4253/vi/tang/L2?floor=L2&view=map"
+            },
+            "value": {
+              "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+              "result": {
+                "guide": true,
+                "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+                "pass": true,
+                "retry": true
+              },
+              "visibility": "visible"
+            }
+          },
+          "isError": false
+        }
+      },
+      {
+        "mall": "vincom",
+        "scenario": "geometry-invalid",
+        "before": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"available\":true,\"visible\":true,\"tabId\":\"tab_4\",\"url\":\"http://localhost:4254/en?__scenario=geometry-invalid&__run=acceptance-1791904754767\",\"title\":\"Vincom Center Đồng Khởi · Visitor guide\",\"loading\":false,\"viewportSetting\":{\"_tag\":\"freeform\",\"width\":1280,\"height\":800},\"viewport\":{\"width\":1280,\"height\":800}}"
+            }
+          ],
+          "structuredContent": {
+            "available": true,
+            "visible": true,
+            "tabId": "tab_4",
+            "url": "http://localhost:4254/en?__scenario=geometry-invalid&__run=acceptance-1791904754767",
+            "title": "Vincom Center Đồng Khởi · Visitor guide",
+            "loading": false,
+            "viewportSetting": {
+              "_tag": "freeform",
+              "width": 1280,
+              "height": 800
+            },
+            "viewport": {
+              "width": 1280,
+              "height": 800
+            }
+          },
+          "isError": false
+        },
+        "bootstrap": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4254/vi/tang/L2?floor=L2&view=map\"},\"value\":\"started\"}"
+            }
+          ],
+          "structuredContent": {
+            "toolIcon": {
+              "_tag": "website",
+              "pageUrl": "http://localhost:4254/vi/tang/L2?floor=L2&view=map"
+            },
+            "value": "started"
+          },
+          "isError": false
+        },
+        "observation": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4254/vi/tang/L2?floor=L2&view=map\"},\"value\":{\"href\":\"http://localhost:4254/vi/tang/L2?floor=L2&view=map\",\"result\":{\"guide\":true,\"href\":\"http://localhost:4254/vi/tang/L2?floor=L2&view=map\",\"pass\":true,\"retry\":true},\"visibility\":\"visible\"}}"
+            }
+          ],
+          "structuredContent": {
+            "toolIcon": {
+              "_tag": "website",
+              "pageUrl": "http://localhost:4254/vi/tang/L2?floor=L2&view=map"
+            },
+            "value": {
+              "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+              "result": {
+                "guide": true,
+                "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+                "pass": true,
+                "retry": true
+              },
+              "visibility": "visible"
+            }
+          },
+          "isError": false
+        },
+        "after": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"available\":true,\"visible\":true,\"tabId\":\"tab_4\",\"url\":\"http://localhost:4254/vi/tang/L2?floor=L2&view=map\",\"title\":\"Vincom Center Đồng Khởi · Hướng dẫn tham quan\",\"loading\":false,\"viewportSetting\":{\"_tag\":\"freeform\",\"width\":1280,\"height\":800},\"viewport\":{\"width\":1280,\"height\":800}}"
+            }
+          ],
+          "structuredContent": {
+            "available": true,
+            "visible": true,
+            "tabId": "tab_4",
+            "url": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+            "title": "Vincom Center Đồng Khởi · Hướng dẫn tham quan",
+            "loading": false,
+            "viewportSetting": {
+              "_tag": "freeform",
+              "width": 1280,
+              "height": 800
+            },
+            "viewport": {
+              "width": 1280,
+              "height": 800
+            }
+          },
+          "isError": false
+        }
+      },
+      {
+        "mall": "saigon",
+        "scenario": "texture-fail",
+        "before": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"available\":true,\"visible\":true,\"tabId\":\"tab_4\",\"url\":\"http://localhost:4253/en?__scenario=texture-fail&__run=acceptance-1791904768468\",\"title\":\"Saigon Centre · Visitor guide\",\"loading\":false,\"viewportSetting\":{\"_tag\":\"freeform\",\"width\":1280,\"height\":800},\"viewport\":{\"width\":1280,\"height\":800}}"
+            }
+          ],
+          "structuredContent": {
+            "available": true,
+            "visible": true,
+            "tabId": "tab_4",
+            "url": "http://localhost:4253/en?__scenario=texture-fail&__run=acceptance-1791904768468",
+            "title": "Saigon Centre · Visitor guide",
+            "loading": false,
+            "viewportSetting": {
+              "_tag": "freeform",
+              "width": 1280,
+              "height": 800
+            },
+            "viewport": {
+              "width": 1280,
+              "height": 800
+            }
+          },
+          "isError": false
+        },
+        "bootstrap": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4253/en?__scenario=texture-fail&__run=acceptance-1791904768468\"},\"value\":\"started\"}"
+            }
+          ],
+          "structuredContent": {
+            "toolIcon": {
+              "_tag": "website",
+              "pageUrl": "http://localhost:4253/en?__scenario=texture-fail&__run=acceptance-1791904768468"
+            },
+            "value": "started"
+          },
+          "isError": false
+        },
+        "observation": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4253/en?__scenario=texture-fail&__run=acceptance-1791904768468\"},\"value\":{\"errorText\":\"3D could not be prepared. The guide and static previews below remain usable.Retry 3D\",\"href\":\"http://localhost:4253/en?__scenario=texture-fail&__run=acceptance-1791904768468\",\"result\":{\"error\":\"Error: Failed guide is inert\",\"pass\":false},\"visibility\":\"visible\"}}"
+            }
+          ],
+          "structuredContent": {
+            "toolIcon": {
+              "_tag": "website",
+              "pageUrl": "http://localhost:4253/en?__scenario=texture-fail&__run=acceptance-1791904768468"
+            },
+            "value": {
+              "errorText": "3D could not be prepared. The guide and static previews below remain usable.Retry 3D",
+              "href": "http://localhost:4253/en?__scenario=texture-fail&__run=acceptance-1791904768468",
+              "result": {
+                "error": "Error: Failed guide is inert",
+                "pass": false
+              },
+              "visibility": "visible"
+            }
+          },
+          "isError": false
+        },
+        "after": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"available\":true,\"visible\":true,\"tabId\":\"tab_4\",\"url\":\"http://localhost:4253/en?__scenario=texture-fail&__run=acceptance-1791904768468\",\"title\":\"Saigon Centre · Visitor guide\",\"loading\":false,\"viewportSetting\":{\"_tag\":\"freeform\",\"width\":1280,\"height\":800},\"viewport\":{\"width\":1280,\"height\":800}}"
+            }
+          ],
+          "structuredContent": {
+            "available": true,
+            "visible": true,
+            "tabId": "tab_4",
+            "url": "http://localhost:4253/en?__scenario=texture-fail&__run=acceptance-1791904768468",
+            "title": "Saigon Centre · Visitor guide",
+            "loading": false,
+            "viewportSetting": {
+              "_tag": "freeform",
+              "width": 1280,
+              "height": 800
+            },
+            "viewport": {
+              "width": 1280,
+              "height": 800
+            }
+          },
+          "isError": false
+        }
+      },
+      {
+        "mall": "vincom",
+        "scenario": "webgl-unavailable",
+        "before": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"available\":true,\"visible\":true,\"tabId\":\"tab_4\",\"url\":\"http://localhost:4254/en?__scenario=webgl-unavailable&__run=acceptance-1791904772336\",\"title\":\"Vincom Center Đồng Khởi · Visitor guide\",\"loading\":false,\"viewportSetting\":{\"_tag\":\"freeform\",\"width\":1280,\"height\":800},\"viewport\":{\"width\":1280,\"height\":800}}"
+            }
+          ],
+          "structuredContent": {
+            "available": true,
+            "visible": true,
+            "tabId": "tab_4",
+            "url": "http://localhost:4254/en?__scenario=webgl-unavailable&__run=acceptance-1791904772336",
+            "title": "Vincom Center Đồng Khởi · Visitor guide",
+            "loading": false,
+            "viewportSetting": {
+              "_tag": "freeform",
+              "width": 1280,
+              "height": 800
+            },
+            "viewport": {
+              "width": 1280,
+              "height": 800
+            }
+          },
+          "isError": false
+        },
+        "bootstrap": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4254/vi/tang/L2?floor=L2&view=map\"},\"value\":\"started\"}"
+            }
+          ],
+          "structuredContent": {
+            "toolIcon": {
+              "_tag": "website",
+              "pageUrl": "http://localhost:4254/vi/tang/L2?floor=L2&view=map"
+            },
+            "value": "started"
+          },
+          "isError": false
+        },
+        "observation": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4254/vi/tang/L2?floor=L2&view=map\"},\"value\":{\"href\":\"http://localhost:4254/vi/tang/L2?floor=L2&view=map\",\"result\":{\"guide\":true,\"href\":\"http://localhost:4254/vi/tang/L2?floor=L2&view=map\",\"pass\":true,\"retry\":true},\"visibility\":\"visible\"}}"
+            }
+          ],
+          "structuredContent": {
+            "toolIcon": {
+              "_tag": "website",
+              "pageUrl": "http://localhost:4254/vi/tang/L2?floor=L2&view=map"
+            },
+            "value": {
+              "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+              "result": {
+                "guide": true,
+                "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+                "pass": true,
+                "retry": true
+              },
+              "visibility": "visible"
+            }
+          },
+          "isError": false
+        },
+        "after": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"available\":true,\"visible\":true,\"tabId\":\"tab_4\",\"url\":\"http://localhost:4254/vi/tang/L2?floor=L2&view=map\",\"title\":\"Vincom Center Đồng Khởi · Hướng dẫn tham quan\",\"loading\":false,\"viewportSetting\":{\"_tag\":\"freeform\",\"width\":1280,\"height\":800},\"viewport\":{\"width\":1280,\"height\":800}}"
+            }
+          ],
+          "structuredContent": {
+            "available": true,
+            "visible": true,
+            "tabId": "tab_4",
+            "url": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+            "title": "Vincom Center Đồng Khởi · Hướng dẫn tham quan",
+            "loading": false,
+            "viewportSetting": {
+              "_tag": "freeform",
+              "width": 1280,
+              "height": 800
+            },
+            "viewport": {
+              "width": 1280,
+              "height": 800
+            }
+          },
+          "isError": false
+        }
+      }
+    ],
+    "fixtureLiveT3": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4264/en?floor=B2&view=exterior\"},\"value\":{\"corrected\":false,\"expectedFloor\":\"L2\",\"href\":\"http://localhost:4264/en?floor=B2&view=exterior\",\"pass\":true}}"
+        }
+      ],
+      "structuredContent": {
+        "toolIcon": {
+          "_tag": "website",
+          "pageUrl": "http://localhost:4264/en?floor=B2&view=exterior"
+        },
+        "value": {
+          "corrected": false,
+          "expectedFloor": "L2",
+          "href": "http://localhost:4264/en?floor=B2&view=exterior",
+          "pass": true
+        }
+      },
+      "isError": false
+    },
+    "textureLayoutGreenT3": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4253/vi/tang/L2?floor=L2&view=map\"},\"value\":{\"guide\":true,\"href\":\"http://localhost:4253/vi/tang/L2?floor=L2&view=map\",\"pass\":true,\"retry\":true}}"
+        }
+      ],
+      "structuredContent": {
+        "toolIcon": {
+          "_tag": "website",
+          "pageUrl": "http://localhost:4253/vi/tang/L2?floor=L2&view=map"
+        },
+        "value": {
+          "guide": true,
+          "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+          "pass": true,
+          "retry": true
+        }
+      },
+      "isError": false
+    },
+    "importFailureLive": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4254/vi/tang/L2?floor=L2&view=map\"},\"value\":{\"errorVisible\":true,\"href\":\"http://localhost:4254/vi/tang/L2?floor=L2&view=map\",\"locale\":\"vi\",\"pass\":true}}"
+        }
+      ],
+      "structuredContent": {
+        "toolIcon": {
+          "_tag": "website",
+          "pageUrl": "http://localhost:4254/vi/tang/L2?floor=L2&view=map"
+        },
+        "value": {
+          "errorVisible": true,
+          "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+          "locale": "vi",
+          "pass": true
+        }
+      },
+      "isError": false
+    },
+    "importRetryLive": {
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4254/vi/tang/L2?floor=L2&view=map"
+      },
+      "value": {
+        "focus": "scene-map",
+        "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+        "pass": true,
+        "scene": "vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:L2",
+        "visible": "visible"
+      }
+    },
+    "finalFailureMatrix1": [
+      {
+        "mall": "saigon-centre",
+        "scenario": "model-invalid",
+        "before": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+          "title": "Vincom Center Đồng Khởi · Hướng dẫn tham quan",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1402,
+            "height": 877
+          }
+        },
+        "navigation": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4253/en?__scenario=model-invalid&__run=final-1791905292409",
+          "title": "Saigon Centre · Visitor guide",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          }
+        },
+        "start": false,
+        "result": {
+          "result": null,
+          "visible": "visible"
+        },
+        "after": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+          "title": "Saigon Centre · Hướng dẫn tham quan",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1402,
+            "height": 877
+          }
+        }
+      },
+      {
+        "mall": "saigon-centre",
+        "scenario": "geometry-fail",
+        "before": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+          "title": "Saigon Centre · Hướng dẫn tham quan",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1402,
+            "height": 877
+          }
+        },
+        "navigation": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4253/en?__scenario=geometry-fail&__run=final-1791905310270",
+          "title": "Saigon Centre · Visitor guide",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          }
+        },
+        "start": false,
+        "result": {
+          "result": null,
+          "visible": "visible"
+        },
+        "after": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+          "title": "Saigon Centre · Hướng dẫn tham quan",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          }
+        }
+      },
+      {
+        "mall": "saigon-centre",
+        "scenario": "geometry-invalid",
+        "before": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+          "title": "Saigon Centre · Hướng dẫn tham quan",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          }
+        },
+        "navigation": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4253/en?__scenario=geometry-invalid&__run=final-1791905325630",
+          "title": "Saigon Centre · Visitor guide",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          }
+        },
+        "start": false,
+        "result": {
+          "result": null,
+          "visible": "visible"
+        },
+        "after": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+          "title": "Saigon Centre · Hướng dẫn tham quan",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          }
+        }
+      },
+      {
+        "mall": "saigon-centre",
+        "scenario": "webgl-unavailable",
+        "before": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+          "title": "Saigon Centre · Hướng dẫn tham quan",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          }
+        },
+        "navigation": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4253/en?__scenario=webgl-unavailable&__run=final-1791905340712",
+          "title": "Saigon Centre · Visitor guide",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          }
+        },
+        "start": false,
+        "result": {
+          "result": null,
+          "visible": "visible"
+        },
+        "after": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+          "title": "Saigon Centre · Hướng dẫn tham quan",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          }
+        }
+      },
+      {
+        "mall": "vincom-dong-khoi",
+        "scenario": "model-fail",
+        "before": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+          "title": "Saigon Centre · Hướng dẫn tham quan",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          }
+        },
+        "navigation": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4254/en?__scenario=model-fail&__run=final-1791905357088",
+          "title": "Vincom Center Đồng Khởi · Visitor guide",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          }
+        },
+        "start": false,
+        "result": {
+          "result": {
+            "guide": true,
+            "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+            "pass": true,
+            "retry": true
+          },
+          "visible": "visible"
+        },
+        "after": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+          "title": "Vincom Center Đồng Khởi · Hướng dẫn tham quan",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          }
+        }
+      },
+      {
+        "mall": "vincom-dong-khoi",
+        "scenario": "model-invalid",
+        "before": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+          "title": "Vincom Center Đồng Khởi · Hướng dẫn tham quan",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          }
+        },
+        "navigation": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4254/en?__scenario=model-invalid&__run=final-1791905369656",
+          "title": "Vincom Center Đồng Khởi · Visitor guide",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          }
+        },
+        "start": false,
+        "result": {
+          "result": {
+            "guide": true,
+            "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+            "pass": true,
+            "retry": true
+          },
+          "visible": "visible"
+        },
+        "after": {
+          "available": true,
+          "visible": true,
+          "tabId": "tab_4",
+          "url": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+          "title": "Vincom Center Đồng Khởi · Hướng dẫn tham quan",
+          "loading": false,
+          "viewportSetting": {
+            "_tag": "freeform",
+            "width": 1280,
+            "height": 800
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          }
+        }
+      }
+    ],
+    "saigonGPUStall": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4253/vi/tang/L2?floor=L2&view=map\"},\"value\":{\"check\":{\"error\":\"Error: Timed out: 3D entry or usable error\",\"pass\":false},\"frames\":{\"completeFrame\":\"38\",\"engine\":\"three.js r186\",\"renderedFrames\":\"53\",\"sceneKey\":\"saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:L2\"},\"href\":\"http://localhost:4253/vi/tang/L2?floor=L2&view=map\",\"measures\":[{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"attempt\":0,\"mallId\":\"saigon-centre\",\"operation\":\"navigation-to-frame\",\"outcome\":\"failed\"},\"duration\":778,\"entryType\":\"measure\",\"name\":\"mall-loading:navigation-to-frame:2\",\"navigationId\":4810,\"startTime\":0},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"attempt\":0,\"mallId\":\"saigon-centre\",\"operation\":\"entry-to-frame\",\"outcome\":\"failed\"},\"duration\":392,\"entryType\":\"measure\",\"name\":\"mall-loading:entry-to-frame:1\",\"navigationId\":4810,\"startTime\":385.90000000037253},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"attempt\":0,\"decodedBytes\":4,\"mallId\":\"saigon-centre\",\"operation\":\"model-transfer\",\"outcome\":\"ready\",\"url\":\"/models/exterior.glb.br\"},\"duration\":6.900000000372529,\"entryType\":\"measure\",\"name\":\"mall-loading:model-transfer:3\",\"navigationId\":4810,\"startTime\":386},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"attempt\":0,\"mallId\":\"saigon-centre\",\"operation\":\"geometry-transfer\",\"outcome\":\"ready\",\"url\":\"/data/floor-geometry.json.br\"},\"duration\":78.19999999925494,\"entryType\":\"measure\",\"name\":\"mall-loading:geometry-transfer:4\",\"navigationId\":4810,\"startTime\":386.1000000014901},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"attempt\":0,\"mallId\":\"saigon-centre\",\"operation\":\"module\",\"outcome\":\"ready\"},\"duration\":19.699999999254942,\"entryType\":\"measure\",\"name\":\"mall-loading:module:5\",\"navigationId\":4810,\"startTime\":386.6000000014901},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"attempt\":0,\"mallId\":\"saigon-centre\",\"operation\":\"geometry-decode\",\"outcome\":\"ready\"},\"duration\":195.30000000074506,\"entryType\":\"measure\",\"name\":\"mall-loading:geometry-decode:6\",\"navigationId\":4810,\"startTime\":464.30000000074506},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"mallId\":\"saigon-centre\",\"operation\":\"renderer-setup\",\"outcome\":\"ready\"},\"duration\":113.40000000037253,\"entryType\":\"measure\",\"name\":\"mall-loading:renderer-setup:7\",\"navigationId\":4810,\"startTime\":663.7000000011176},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L5\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"exterior\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"failed\"},\"duration\":0.599999999627471,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:8\",\"navigationId\":4810,\"startTime\":777.3000000007451},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"mallId\":\"saigon-centre\",\"operation\":\"model-decode\",\"outcome\":\"failed\"},\"duration\":0.19999999925494194,\"entryType\":\"measure\",\"name\":\"mall-loading:model-decode:9\",\"navigationId\":4810,\"startTime\":777.7000000011176},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"attempt\":1,\"completeFrame\":\"38\",\"floorId\":\"L2\",\"kind\":\"map\",\"locale\":\"vi\",\"mallId\":\"saigon-centre\",\"operation\":\"entry-to-frame\",\"outcome\":\"ready\"},\"duration\":46019.09999999963,\"entryType\":\"measure\",\"name\":\"mall-loading:entry-to-frame:10\",\"navigationId\":4810,\"startTime\":1338.4000000003725},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"attempt\":1,\"decodedBytes\":2000796,\"mallId\":\"saigon-centre\",\"operation\":\"model-transfer\",\"outcome\":\"ready\",\"url\":\"/models/exterior.glb.br\"},\"duration\":99.90000000037253,\"entryType\":\"measure\",\"name\":\"mall-loading:model-transfer:11\",\"navigationId\":4810,\"startTime\":1338.5},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"attempt\":1,\"mallId\":\"saigon-centre\",\"operation\":\"geometry-transfer\",\"outcome\":\"ready\",\"url\":\"/data/floor-geometry.json.br\"},\"duration\":101.09999999962747,\"entryType\":\"measure\",\"name\":\"mall-loading:geometry-transfer:12\",\"navigationId\":4810,\"startTime\":1338.7000000011176},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"attempt\":1,\"mallId\":\"saigon-centre\",\"operation\":\"module\",\"outcome\":\"ready\"},\"duration\":37,\"entryType\":\"measure\",\"name\":\"mall-loading:module:13\",\"navigationId\":4810,\"startTime\":1338.9000000003725},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"attempt\":1,\"mallId\":\"saigon-centre\",\"operation\":\"geometry-decode\",\"outcome\":\"ready\"},\"duration\":170.59999999962747,\"entryType\":\"measure\",\"name\":\"mall-loading:geometry-decode:14\",\"navigationId\":4810,\"startTime\":1439.9000000003725},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"mallId\":\"saigon-centre\",\"operation\":\"renderer-setup\",\"outcome\":\"ready\"},\"duration\":148,\"entryType\":\"measure\",\"name\":\"mall-loading:renderer-setup:15\",\"navigationId\":4810,\"startTime\":1610.6000000014901},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L5\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"exterior\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":33335.09999999963,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:16\",\"navigationId\":4810,\"startTime\":1758.800000000745},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"mallId\":\"saigon-centre\",\"operation\":\"model-decode\",\"outcome\":\"ready\"},\"duration\":89.60000000149012,\"entryType\":\"measure\",\"name\":\"mall-loading:model-decode:17\",\"navigationId\":4810,\"startTime\":1759},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L5\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"exterior\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":33242.90000000037,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:18\",\"navigationId\":4810,\"startTime\":1850.5},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L5\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"overview\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":10032.099999999627,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:19\",\"navigationId\":4810,\"startTime\":35329.10000000149},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"B2\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"mallId\":\"saigon-centre\",\"operation\":\"floor-geometry\",\"outcome\":\"ready\"},\"duration\":449.69999999925494,\"entryType\":\"measure\",\"name\":\"mall-loading:floor-geometry:20\",\"navigationId\":4810,\"startTime\":36328.70000000112},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"B1\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"mallId\":\"saigon-centre\",\"operation\":\"floor-geometry\",\"outcome\":\"ready\"},\"duration\":332.59999999962747,\"entryType\":\"measure\",\"name\":\"mall-loading:floor-geometry:21\",\"navigationId\":4810,\"startTime\":37335.20000000112},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L1\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"mallId\":\"saigon-centre\",\"operation\":\"floor-geometry\",\"outcome\":\"ready\"},\"duration\":399.59999999962747,\"entryType\":\"measure\",\"name\":\"mall-loading:floor-geometry:22\",\"navigationId\":4810,\"startTime\":38331.90000000037},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L2\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"mallId\":\"saigon-centre\",\"operation\":\"floor-geometry\",\"outcome\":\"ready\"},\"duration\":379,\"entryType\":\"measure\",\"name\":\"mall-loading:floor-geometry:23\",\"navigationId\":4810,\"startTime\":39329.5},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L3\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"mallId\":\"saigon-centre\",\"operation\":\"floor-geometry\",\"outcome\":\"ready\"},\"duration\":187.7000000011176,\"entryType\":\"measure\",\"name\":\"mall-loading:floor-geometry:24\",\"navigationId\":4810,\"startTime\":40329.40000000037},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L4\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"mallId\":\"saigon-centre\",\"operation\":\"floor-geometry\",\"outcome\":\"ready\"},\"duration\":106.69999999925494,\"entryType\":\"measure\",\"name\":\"mall-loading:floor-geometry:25\",\"navigationId\":4810,\"startTime\":41329.70000000112},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L5\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"mallId\":\"saigon-centre\",\"operation\":\"floor-geometry\",\"outcome\":\"ready\"},\"duration\":289.19999999925494,\"entryType\":\"measure\",\"name\":\"mall-loading:floor-geometry:26\",\"navigationId\":4810,\"startTime\":42342.70000000112},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L6\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"mallId\":\"saigon-centre\",\"operation\":\"floor-geometry\",\"outcome\":\"ready\"},\"duration\":24.300000000745058,\"entryType\":\"measure\",\"name\":\"mall-loading:floor-geometry:27\",\"navigationId\":4810,\"startTime\":43337.40000000037},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L5\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"overview\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":1998.6000000014901,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:28\",\"navigationId\":4810,\"startTime\":43362.5},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L2\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"map\",\"locale\":\"vi\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":997,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:29\",\"navigationId\":4810,\"startTime\":46336.70000000112},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L2\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"map\",\"locale\":\"vi\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":995.8000000007451,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:30\",\"navigationId\":4810,\"startTime\":46337.800000000745},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L2\",\"frame\":38,\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"map\",\"locale\":\"vi\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-render\",\"outcome\":\"ready\"},\"duration\":2.099999999627471,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-render:31\",\"navigationId\":4810,\"startTime\":47354.90000000037},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"B2\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"map\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":1002.5999999996275,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:32\",\"navigationId\":4810,\"startTime\":48332.300000000745},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"B2\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"map\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":1001.7999999988824,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:33\",\"navigationId\":4810,\"startTime\":48333.10000000149},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"B2\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"discovery\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":1009.6999999992549,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:34\",\"navigationId\":4810,\"startTime\":50334.70000000112},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"B2\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"discovery\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":1007.0999999996275,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:35\",\"navigationId\":4810,\"startTime\":50336.800000000745},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"B1\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"map\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":991,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:36\",\"navigationId\":4810,\"startTime\":52339.40000000037},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"B1\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"map\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":990.5999999996275,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:37\",\"navigationId\":4810,\"startTime\":52339.800000000745},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"B1\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"discovery\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":992.5,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:38\",\"navigationId\":4810,\"startTime\":54339.60000000149},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"B1\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"discovery\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":991.1000000014901,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:39\",\"navigationId\":4810,\"startTime\":54341},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L1\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"map\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":997,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:40\",\"navigationId\":4810,\"startTime\":56337.5},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L1\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"map\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":996.1999999992549,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:41\",\"navigationId\":4810,\"startTime\":56338.20000000112},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L1\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"discovery\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":1006.0999999996275,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:42\",\"navigationId\":4810,\"startTime\":58331.20000000112},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L1\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"discovery\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":1005.5,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:43\",\"navigationId\":4810,\"startTime\":58331.800000000745},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L2\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"discovery\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":1000.5999999996275,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:44\",\"navigationId\":4810,\"startTime\":60332.60000000149},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L2\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"discovery\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":1000.3000000007451,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:45\",\"navigationId\":4810,\"startTime\":60332.90000000037},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L3\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"map\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":987.0999999996275,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:46\",\"navigationId\":4810,\"startTime\":62342.10000000149},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L3\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"map\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":986.5,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:47\",\"navigationId\":4810,\"startTime\":62342.70000000112},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L3\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"discovery\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":994.5999999996275,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:48\",\"navigationId\":4810,\"startTime\":64336.10000000149},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L3\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"discovery\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":993.8000000007451,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:49\",\"navigationId\":4810,\"startTime\":64336.800000000745},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L4\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"map\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":1002.1999999992549,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:50\",\"navigationId\":4810,\"startTime\":66329.60000000149},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L4\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"map\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":1001.3000000007451,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:51\",\"navigationId\":4810,\"startTime\":66330.5},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L4\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"discovery\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":1000.6999999992549,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:52\",\"navigationId\":4810,\"startTime\":68330.30000000075},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L4\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"discovery\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":1000,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:53\",\"navigationId\":4810,\"startTime\":68330.90000000037},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L5\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"map\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":1001.5,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:54\",\"navigationId\":4810,\"startTime\":70329.5},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L5\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"map\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":1000.5,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:55\",\"navigationId\":4810,\"startTime\":70330.40000000037},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L5\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"discovery\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":1000.2999999988824,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:56\",\"navigationId\":4810,\"startTime\":72330.10000000149},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L5\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"discovery\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":999.5,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:57\",\"navigationId\":4810,\"startTime\":72330.70000000112},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L6\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"map\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":998.8000000007451,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:58\",\"navigationId\":4810,\"startTime\":74342.30000000075},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L6\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"map\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":998.3000000007451,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:59\",\"navigationId\":4810,\"startTime\":74342.80000000075},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L6\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"discovery\",\"mallId\":\"saigon-centre\",\"operation\":\"scene-prepare\",\"outcome\":\"ready\"},\"duration\":1002.4000000003725,\"entryType\":\"measure\",\"name\":\"mall-loading:scene-prepare:60\",\"navigationId\":4810,\"startTime\":76334.90000000037},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"floorId\":\"L6\",\"geometryRevision\":\"source-palette-schematic-2026-10-13-r2\",\"kind\":\"discovery\",\"mallId\":\"saigon-centre\",\"operation\":\"gpu-prepare\",\"outcome\":\"ready\"},\"duration\":1002.0999999996275,\"entryType\":\"measure\",\"name\":\"mall-loading:gpu-prepare:61\",\"navigationId\":4810,\"startTime\":76335.20000000112}],\"now\":106618.5,\"visible\":\"visible\"}}"
+        }
+      ],
+      "structuredContent": {
+        "toolIcon": {
+          "_tag": "website",
+          "pageUrl": "http://localhost:4253/vi/tang/L2?floor=L2&view=map"
+        },
+        "value": {
+          "check": {
+            "error": "Error: Timed out: 3D entry or usable error",
+            "pass": false
+          },
+          "frames": {
+            "completeFrame": "38",
+            "engine": "three.js r186",
+            "renderedFrames": "53",
+            "sceneKey": "saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:L2"
+          },
+          "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+          "measures": [
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "attempt": 0,
+                "mallId": "saigon-centre",
+                "operation": "navigation-to-frame",
+                "outcome": "failed"
+              },
+              "duration": 778,
+              "entryType": "measure",
+              "name": "mall-loading:navigation-to-frame:2",
+              "navigationId": 4810,
+              "startTime": 0
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "attempt": 0,
+                "mallId": "saigon-centre",
+                "operation": "entry-to-frame",
+                "outcome": "failed"
+              },
+              "duration": 392,
+              "entryType": "measure",
+              "name": "mall-loading:entry-to-frame:1",
+              "navigationId": 4810,
+              "startTime": 385.90000000037253
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "attempt": 0,
+                "decodedBytes": 4,
+                "mallId": "saigon-centre",
+                "operation": "model-transfer",
+                "outcome": "ready",
+                "url": "/models/exterior.glb.br"
+              },
+              "duration": 6.900000000372529,
+              "entryType": "measure",
+              "name": "mall-loading:model-transfer:3",
+              "navigationId": 4810,
+              "startTime": 386
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "attempt": 0,
+                "mallId": "saigon-centre",
+                "operation": "geometry-transfer",
+                "outcome": "ready",
+                "url": "/data/floor-geometry.json.br"
+              },
+              "duration": 78.19999999925494,
+              "entryType": "measure",
+              "name": "mall-loading:geometry-transfer:4",
+              "navigationId": 4810,
+              "startTime": 386.1000000014901
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "attempt": 0,
+                "mallId": "saigon-centre",
+                "operation": "module",
+                "outcome": "ready"
+              },
+              "duration": 19.699999999254942,
+              "entryType": "measure",
+              "name": "mall-loading:module:5",
+              "navigationId": 4810,
+              "startTime": 386.6000000014901
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "attempt": 0,
+                "mallId": "saigon-centre",
+                "operation": "geometry-decode",
+                "outcome": "ready"
+              },
+              "duration": 195.30000000074506,
+              "entryType": "measure",
+              "name": "mall-loading:geometry-decode:6",
+              "navigationId": 4810,
+              "startTime": 464.30000000074506
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "mallId": "saigon-centre",
+                "operation": "renderer-setup",
+                "outcome": "ready"
+              },
+              "duration": 113.40000000037253,
+              "entryType": "measure",
+              "name": "mall-loading:renderer-setup:7",
+              "navigationId": 4810,
+              "startTime": 663.7000000011176
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L5",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "exterior",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "failed"
+              },
+              "duration": 0.599999999627471,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:8",
+              "navigationId": 4810,
+              "startTime": 777.3000000007451
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "mallId": "saigon-centre",
+                "operation": "model-decode",
+                "outcome": "failed"
+              },
+              "duration": 0.19999999925494194,
+              "entryType": "measure",
+              "name": "mall-loading:model-decode:9",
+              "navigationId": 4810,
+              "startTime": 777.7000000011176
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "attempt": 1,
+                "completeFrame": "38",
+                "floorId": "L2",
+                "kind": "map",
+                "locale": "vi",
+                "mallId": "saigon-centre",
+                "operation": "entry-to-frame",
+                "outcome": "ready"
+              },
+              "duration": 46019.09999999963,
+              "entryType": "measure",
+              "name": "mall-loading:entry-to-frame:10",
+              "navigationId": 4810,
+              "startTime": 1338.4000000003725
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "attempt": 1,
+                "decodedBytes": 2000796,
+                "mallId": "saigon-centre",
+                "operation": "model-transfer",
+                "outcome": "ready",
+                "url": "/models/exterior.glb.br"
+              },
+              "duration": 99.90000000037253,
+              "entryType": "measure",
+              "name": "mall-loading:model-transfer:11",
+              "navigationId": 4810,
+              "startTime": 1338.5
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "attempt": 1,
+                "mallId": "saigon-centre",
+                "operation": "geometry-transfer",
+                "outcome": "ready",
+                "url": "/data/floor-geometry.json.br"
+              },
+              "duration": 101.09999999962747,
+              "entryType": "measure",
+              "name": "mall-loading:geometry-transfer:12",
+              "navigationId": 4810,
+              "startTime": 1338.7000000011176
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "attempt": 1,
+                "mallId": "saigon-centre",
+                "operation": "module",
+                "outcome": "ready"
+              },
+              "duration": 37,
+              "entryType": "measure",
+              "name": "mall-loading:module:13",
+              "navigationId": 4810,
+              "startTime": 1338.9000000003725
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "attempt": 1,
+                "mallId": "saigon-centre",
+                "operation": "geometry-decode",
+                "outcome": "ready"
+              },
+              "duration": 170.59999999962747,
+              "entryType": "measure",
+              "name": "mall-loading:geometry-decode:14",
+              "navigationId": 4810,
+              "startTime": 1439.9000000003725
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "mallId": "saigon-centre",
+                "operation": "renderer-setup",
+                "outcome": "ready"
+              },
+              "duration": 148,
+              "entryType": "measure",
+              "name": "mall-loading:renderer-setup:15",
+              "navigationId": 4810,
+              "startTime": 1610.6000000014901
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L5",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "exterior",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 33335.09999999963,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:16",
+              "navigationId": 4810,
+              "startTime": 1758.800000000745
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "mallId": "saigon-centre",
+                "operation": "model-decode",
+                "outcome": "ready"
+              },
+              "duration": 89.60000000149012,
+              "entryType": "measure",
+              "name": "mall-loading:model-decode:17",
+              "navigationId": 4810,
+              "startTime": 1759
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L5",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "exterior",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 33242.90000000037,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:18",
+              "navigationId": 4810,
+              "startTime": 1850.5
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L5",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "overview",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 10032.099999999627,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:19",
+              "navigationId": 4810,
+              "startTime": 35329.10000000149
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "B2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "mallId": "saigon-centre",
+                "operation": "floor-geometry",
+                "outcome": "ready"
+              },
+              "duration": 449.69999999925494,
+              "entryType": "measure",
+              "name": "mall-loading:floor-geometry:20",
+              "navigationId": 4810,
+              "startTime": 36328.70000000112
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "B1",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "mallId": "saigon-centre",
+                "operation": "floor-geometry",
+                "outcome": "ready"
+              },
+              "duration": 332.59999999962747,
+              "entryType": "measure",
+              "name": "mall-loading:floor-geometry:21",
+              "navigationId": 4810,
+              "startTime": 37335.20000000112
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L1",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "mallId": "saigon-centre",
+                "operation": "floor-geometry",
+                "outcome": "ready"
+              },
+              "duration": 399.59999999962747,
+              "entryType": "measure",
+              "name": "mall-loading:floor-geometry:22",
+              "navigationId": 4810,
+              "startTime": 38331.90000000037
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "mallId": "saigon-centre",
+                "operation": "floor-geometry",
+                "outcome": "ready"
+              },
+              "duration": 379,
+              "entryType": "measure",
+              "name": "mall-loading:floor-geometry:23",
+              "navigationId": 4810,
+              "startTime": 39329.5
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L3",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "mallId": "saigon-centre",
+                "operation": "floor-geometry",
+                "outcome": "ready"
+              },
+              "duration": 187.7000000011176,
+              "entryType": "measure",
+              "name": "mall-loading:floor-geometry:24",
+              "navigationId": 4810,
+              "startTime": 40329.40000000037
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L4",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "mallId": "saigon-centre",
+                "operation": "floor-geometry",
+                "outcome": "ready"
+              },
+              "duration": 106.69999999925494,
+              "entryType": "measure",
+              "name": "mall-loading:floor-geometry:25",
+              "navigationId": 4810,
+              "startTime": 41329.70000000112
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L5",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "mallId": "saigon-centre",
+                "operation": "floor-geometry",
+                "outcome": "ready"
+              },
+              "duration": 289.19999999925494,
+              "entryType": "measure",
+              "name": "mall-loading:floor-geometry:26",
+              "navigationId": 4810,
+              "startTime": 42342.70000000112
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L6",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "mallId": "saigon-centre",
+                "operation": "floor-geometry",
+                "outcome": "ready"
+              },
+              "duration": 24.300000000745058,
+              "entryType": "measure",
+              "name": "mall-loading:floor-geometry:27",
+              "navigationId": 4810,
+              "startTime": 43337.40000000037
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L5",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "overview",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1998.6000000014901,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:28",
+              "navigationId": 4810,
+              "startTime": 43362.5
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "map",
+                "locale": "vi",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 997,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:29",
+              "navigationId": 4810,
+              "startTime": 46336.70000000112
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "map",
+                "locale": "vi",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 995.8000000007451,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:30",
+              "navigationId": 4810,
+              "startTime": 46337.800000000745
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L2",
+                "frame": 38,
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "map",
+                "locale": "vi",
+                "mallId": "saigon-centre",
+                "operation": "scene-render",
+                "outcome": "ready"
+              },
+              "duration": 2.099999999627471,
+              "entryType": "measure",
+              "name": "mall-loading:scene-render:31",
+              "navigationId": 4810,
+              "startTime": 47354.90000000037
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "B2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "map",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1002.5999999996275,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:32",
+              "navigationId": 4810,
+              "startTime": 48332.300000000745
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "B2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "map",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1001.7999999988824,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:33",
+              "navigationId": 4810,
+              "startTime": 48333.10000000149
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "B2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "discovery",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1009.6999999992549,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:34",
+              "navigationId": 4810,
+              "startTime": 50334.70000000112
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "B2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "discovery",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1007.0999999996275,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:35",
+              "navigationId": 4810,
+              "startTime": 50336.800000000745
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "B1",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "map",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 991,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:36",
+              "navigationId": 4810,
+              "startTime": 52339.40000000037
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "B1",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "map",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 990.5999999996275,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:37",
+              "navigationId": 4810,
+              "startTime": 52339.800000000745
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "B1",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "discovery",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 992.5,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:38",
+              "navigationId": 4810,
+              "startTime": 54339.60000000149
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "B1",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "discovery",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 991.1000000014901,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:39",
+              "navigationId": 4810,
+              "startTime": 54341
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L1",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "map",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 997,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:40",
+              "navigationId": 4810,
+              "startTime": 56337.5
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L1",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "map",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 996.1999999992549,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:41",
+              "navigationId": 4810,
+              "startTime": 56338.20000000112
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L1",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "discovery",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1006.0999999996275,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:42",
+              "navigationId": 4810,
+              "startTime": 58331.20000000112
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L1",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "discovery",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1005.5,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:43",
+              "navigationId": 4810,
+              "startTime": 58331.800000000745
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "discovery",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1000.5999999996275,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:44",
+              "navigationId": 4810,
+              "startTime": 60332.60000000149
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L2",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "discovery",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1000.3000000007451,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:45",
+              "navigationId": 4810,
+              "startTime": 60332.90000000037
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L3",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "map",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 987.0999999996275,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:46",
+              "navigationId": 4810,
+              "startTime": 62342.10000000149
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L3",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "map",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 986.5,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:47",
+              "navigationId": 4810,
+              "startTime": 62342.70000000112
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L3",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "discovery",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 994.5999999996275,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:48",
+              "navigationId": 4810,
+              "startTime": 64336.10000000149
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L3",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "discovery",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 993.8000000007451,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:49",
+              "navigationId": 4810,
+              "startTime": 64336.800000000745
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L4",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "map",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1002.1999999992549,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:50",
+              "navigationId": 4810,
+              "startTime": 66329.60000000149
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L4",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "map",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1001.3000000007451,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:51",
+              "navigationId": 4810,
+              "startTime": 66330.5
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L4",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "discovery",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1000.6999999992549,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:52",
+              "navigationId": 4810,
+              "startTime": 68330.30000000075
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L4",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "discovery",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1000,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:53",
+              "navigationId": 4810,
+              "startTime": 68330.90000000037
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L5",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "map",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1001.5,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:54",
+              "navigationId": 4810,
+              "startTime": 70329.5
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L5",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "map",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1000.5,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:55",
+              "navigationId": 4810,
+              "startTime": 70330.40000000037
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L5",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "discovery",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1000.2999999988824,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:56",
+              "navigationId": 4810,
+              "startTime": 72330.10000000149
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L5",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "discovery",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 999.5,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:57",
+              "navigationId": 4810,
+              "startTime": 72330.70000000112
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L6",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "map",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 998.8000000007451,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:58",
+              "navigationId": 4810,
+              "startTime": 74342.30000000075
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L6",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "map",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 998.3000000007451,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:59",
+              "navigationId": 4810,
+              "startTime": 74342.80000000075
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L6",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "discovery",
+                "mallId": "saigon-centre",
+                "operation": "scene-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1002.4000000003725,
+              "entryType": "measure",
+              "name": "mall-loading:scene-prepare:60",
+              "navigationId": 4810,
+              "startTime": 76334.90000000037
+            },
+            {
+              "detail": {
+                "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                "floorId": "L6",
+                "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+                "kind": "discovery",
+                "mallId": "saigon-centre",
+                "operation": "gpu-prepare",
+                "outcome": "ready"
+              },
+              "duration": 1002.0999999996275,
+              "entryType": "measure",
+              "name": "mall-loading:gpu-prepare:61",
+              "navigationId": 4810,
+              "startTime": 76335.20000000112
+            }
+          ],
+          "now": 106618.5,
+          "visible": "visible"
+        }
+      },
+      "isError": false
+    }
+  }
+}
