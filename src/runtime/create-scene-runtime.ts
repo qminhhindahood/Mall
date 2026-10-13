@@ -101,7 +101,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
     try {envTarget=generator.fromScene(room,.04); environment=envTarget.texture;}
     finally {room.dispose(); generator.dispose();}
     target=new WebGLRenderTarget(width(),height()); target.texture.colorSpace=SRGBColorSpace;
-    const floorMaterial=new MeshStandardMaterial({color:0x88b4a4,roughness:.72,metalness:0,flatShading:true,side:2}); materials.add(floorMaterial);
+    const floorMaterial=new MeshStandardMaterial({color:0xe7d8c5,roughness:.72,metalness:0,flatShading:true,side:2}); materials.add(floorMaterial);
     const ensureSize=(view:View) => {const w=width(),h=height();renderer.setSize(w,h,false);view.camera.aspect=w/h;
       if(view.exteriorFit){
         const {center,radius}=view.exteriorFit;

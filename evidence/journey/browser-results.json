@@ -1,0 +1,967 @@
+{
+  "revision": "visitor-discovery-2026-10-14-r1",
+  "browser": "149.0.7827.198",
+  "profile": "Headless Chrome / SwiftShader, CSS viewport emulation, not physical devices",
+  "runs": [
+    {
+      "url": "http://localhost:4285/vi/tang/L1",
+      "viewport": {
+        "width": 1280,
+        "height": 800,
+        "dpr": 1
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Category previews most-matching floor",
+        "Preview preserves practical floor",
+        "Only supplied eligible Highlight shown",
+        "Highlight opens requested map and details",
+        "View all includes complete matching collection across floors",
+        "View all groups by verified floor",
+        "Map and canvas persist through Discovery",
+        "Floor-only destination has no false map highlight",
+        "Locale updates destination route",
+        "Locale retains filter context",
+        "Locale preserves scroll",
+        "Back restores details and floor",
+        "Empty category invents no Highlight",
+        "Native scroll continuously retains map into Discovery",
+        "Keyboard map zoom and reset"
+      ],
+      "failed": [],
+      "timings": [
+        {
+          "name": "mall-loading:navigation-to-frame:2",
+          "duration": 5462.39999999851
+        },
+        {
+          "name": "mall-loading:request-to-frame:32",
+          "duration": 117.79999999701977
+        },
+        {
+          "name": "mall-loading:request-to-frame:35",
+          "duration": 27.599999994039536
+        },
+        {
+          "name": "mall-loading:request-to-frame:45",
+          "duration": 48.79999999701977
+        },
+        {
+          "name": "mall-loading:request-to-frame:49",
+          "duration": 48.29999999701977
+        },
+        {
+          "name": "mall-loading:request-to-frame:55",
+          "duration": 46.79999999701977
+        },
+        {
+          "name": "mall-loading:request-to-frame:59",
+          "duration": 43.399999998509884
+        },
+        {
+          "name": "mall-loading:request-to-frame:65",
+          "duration": 44.100000001490116
+        },
+        {
+          "name": "mall-loading:request-to-frame:67",
+          "duration": 46
+        },
+        {
+          "name": "mall-loading:request-to-frame:69",
+          "duration": 40.30000000447035
+        }
+      ],
+      "mall": "saigon",
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4285/en/floors/L1",
+      "viewport": {
+        "width": 1280,
+        "height": 800,
+        "dpr": 1
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Category previews most-matching floor",
+        "Preview preserves practical floor",
+        "Only supplied eligible Highlight shown",
+        "Highlight opens requested map and details",
+        "View all includes complete matching collection across floors",
+        "View all groups by verified floor",
+        "Map and canvas persist through Discovery",
+        "Floor-only destination has no false map highlight",
+        "Locale updates destination route",
+        "Locale retains filter context",
+        "Locale preserves scroll",
+        "Back restores details and floor",
+        "Empty category invents no Highlight",
+        "Native scroll continuously retains map into Discovery",
+        "Keyboard map zoom and reset"
+      ],
+      "failed": [],
+      "timings": [
+        {
+          "name": "mall-loading:navigation-to-frame:2",
+          "duration": 2475.89999999851
+        },
+        {
+          "name": "mall-loading:request-to-frame:34",
+          "duration": 141.80000000447035
+        },
+        {
+          "name": "mall-loading:request-to-frame:35",
+          "duration": 40.399999998509884
+        },
+        {
+          "name": "mall-loading:request-to-frame:45",
+          "duration": 49.20000000298023
+        },
+        {
+          "name": "mall-loading:request-to-frame:49",
+          "duration": 39.80000000447035
+        },
+        {
+          "name": "mall-loading:request-to-frame:55",
+          "duration": 44.600000001490116
+        },
+        {
+          "name": "mall-loading:request-to-frame:59",
+          "duration": 54.100000001490116
+        },
+        {
+          "name": "mall-loading:request-to-frame:65",
+          "duration": 40.600000001490116
+        },
+        {
+          "name": "mall-loading:request-to-frame:67",
+          "duration": 30.399999998509884
+        },
+        {
+          "name": "mall-loading:request-to-frame:69",
+          "duration": 27.100000001490116
+        }
+      ],
+      "mall": "saigon",
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4285/vi/tang/L1",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Category previews most-matching floor",
+        "Preview preserves practical floor",
+        "Only supplied eligible Highlight shown",
+        "Highlight opens requested map and details",
+        "View all includes complete matching collection across floors",
+        "View all groups by verified floor",
+        "Map and canvas persist through Discovery",
+        "Floor-only destination has no false map highlight",
+        "Locale updates destination route",
+        "Locale retains filter context",
+        "Locale preserves scroll",
+        "Back restores details and floor",
+        "Empty category invents no Highlight",
+        "Native scroll continuously retains map into Discovery",
+        "Keyboard map zoom and reset"
+      ],
+      "failed": [],
+      "timings": [
+        {
+          "name": "mall-loading:navigation-to-frame:2",
+          "duration": 2437.89999999851
+        },
+        {
+          "name": "mall-loading:request-to-frame:32",
+          "duration": 176.80000000447035
+        },
+        {
+          "name": "mall-loading:request-to-frame:33",
+          "duration": 37.899999998509884
+        },
+        {
+          "name": "mall-loading:request-to-frame:43",
+          "duration": 44
+        },
+        {
+          "name": "mall-loading:request-to-frame:47",
+          "duration": 48.899999998509884
+        },
+        {
+          "name": "mall-loading:request-to-frame:53",
+          "duration": 46.600000001490116
+        },
+        {
+          "name": "mall-loading:request-to-frame:57",
+          "duration": 40.30000000447035
+        },
+        {
+          "name": "mall-loading:request-to-frame:65",
+          "duration": 50.900000005960464
+        },
+        {
+          "name": "mall-loading:request-to-frame:67",
+          "duration": 57.80000000447035
+        },
+        {
+          "name": "mall-loading:request-to-frame:69",
+          "duration": 40.400000005960464
+        }
+      ],
+      "mall": "saigon",
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4285/en/floors/L1",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Category previews most-matching floor",
+        "Preview preserves practical floor",
+        "Only supplied eligible Highlight shown",
+        "Highlight opens requested map and details",
+        "View all includes complete matching collection across floors",
+        "View all groups by verified floor",
+        "Map and canvas persist through Discovery",
+        "Floor-only destination has no false map highlight",
+        "Locale updates destination route",
+        "Locale retains filter context",
+        "Locale preserves scroll",
+        "Back restores details and floor",
+        "Empty category invents no Highlight",
+        "Native scroll continuously retains map into Discovery",
+        "Keyboard map zoom and reset"
+      ],
+      "failed": [],
+      "timings": [
+        {
+          "name": "mall-loading:navigation-to-frame:2",
+          "duration": 2276.39999999851
+        },
+        {
+          "name": "mall-loading:request-to-frame:32",
+          "duration": 119.79999999701977
+        },
+        {
+          "name": "mall-loading:request-to-frame:33",
+          "duration": 33.70000000298023
+        },
+        {
+          "name": "mall-loading:request-to-frame:43",
+          "duration": 48.399999998509884
+        },
+        {
+          "name": "mall-loading:request-to-frame:47",
+          "duration": 37.80000000447035
+        },
+        {
+          "name": "mall-loading:request-to-frame:53",
+          "duration": 45.899999998509884
+        },
+        {
+          "name": "mall-loading:request-to-frame:57",
+          "duration": 43.399999998509884
+        },
+        {
+          "name": "mall-loading:request-to-frame:65",
+          "duration": 52.599999994039536
+        },
+        {
+          "name": "mall-loading:request-to-frame:67",
+          "duration": 37.80000000447035
+        },
+        {
+          "name": "mall-loading:request-to-frame:69",
+          "duration": 37.899999998509884
+        }
+      ],
+      "mall": "saigon",
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4286/vi/tang/L1",
+      "viewport": {
+        "width": 1280,
+        "height": 800,
+        "dpr": 1
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Category previews most-matching floor",
+        "Preview preserves practical floor",
+        "Only supplied eligible Highlight shown",
+        "Highlight opens requested map and details",
+        "View all includes complete matching collection across floors",
+        "View all groups by verified floor",
+        "Map and canvas persist through Discovery",
+        "Floor-only destination has no false map highlight",
+        "Locale updates destination route",
+        "Locale retains filter context",
+        "Locale preserves scroll",
+        "Back restores details and floor",
+        "Empty category invents no Highlight",
+        "Native scroll continuously retains map into Discovery",
+        "Keyboard map zoom and reset"
+      ],
+      "failed": [],
+      "timings": [
+        {
+          "name": "mall-loading:navigation-to-frame:2",
+          "duration": 2023
+        },
+        {
+          "name": "mall-loading:request-to-frame:37",
+          "duration": 50
+        },
+        {
+          "name": "mall-loading:request-to-frame:38",
+          "duration": 7.799999997019768
+        },
+        {
+          "name": "mall-loading:request-to-frame:52",
+          "duration": 19.299999997019768
+        },
+        {
+          "name": "mall-loading:request-to-frame:54",
+          "duration": 11.200000002980232
+        },
+        {
+          "name": "mall-loading:request-to-frame:56",
+          "duration": 10.600000001490116
+        },
+        {
+          "name": "mall-loading:request-to-frame:58",
+          "duration": 10.100000001490116
+        },
+        {
+          "name": "mall-loading:request-to-frame:60",
+          "duration": 15.899999998509884
+        },
+        {
+          "name": "mall-loading:request-to-frame:62",
+          "duration": 14.299999997019768
+        },
+        {
+          "name": "mall-loading:request-to-frame:64",
+          "duration": 13.600000001490116
+        }
+      ],
+      "mall": "vincom",
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4286/en/floors/L1",
+      "viewport": {
+        "width": 1280,
+        "height": 800,
+        "dpr": 1
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Category previews most-matching floor",
+        "Preview preserves practical floor",
+        "Only supplied eligible Highlight shown",
+        "Highlight opens requested map and details",
+        "View all includes complete matching collection across floors",
+        "View all groups by verified floor",
+        "Map and canvas persist through Discovery",
+        "Floor-only destination has no false map highlight",
+        "Locale updates destination route",
+        "Locale retains filter context",
+        "Locale preserves scroll",
+        "Back restores details and floor",
+        "Empty category invents no Highlight",
+        "Native scroll continuously retains map into Discovery",
+        "Keyboard map zoom and reset"
+      ],
+      "failed": [],
+      "timings": [
+        {
+          "name": "mall-loading:navigation-to-frame:2",
+          "duration": 1244.3999999985099
+        },
+        {
+          "name": "mall-loading:request-to-frame:37",
+          "duration": 42.29999999701977
+        },
+        {
+          "name": "mall-loading:request-to-frame:38",
+          "duration": 10.5
+        },
+        {
+          "name": "mall-loading:request-to-frame:52",
+          "duration": 21.899999998509884
+        },
+        {
+          "name": "mall-loading:request-to-frame:54",
+          "duration": 18.100000001490116
+        },
+        {
+          "name": "mall-loading:request-to-frame:56",
+          "duration": 16
+        },
+        {
+          "name": "mall-loading:request-to-frame:58",
+          "duration": 17.400000005960464
+        },
+        {
+          "name": "mall-loading:request-to-frame:60",
+          "duration": 14.400000005960464
+        },
+        {
+          "name": "mall-loading:request-to-frame:62",
+          "duration": 14.700000002980232
+        },
+        {
+          "name": "mall-loading:request-to-frame:64",
+          "duration": 15.899999998509884
+        }
+      ],
+      "mall": "vincom",
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4286/vi/tang/L1",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Category previews most-matching floor",
+        "Preview preserves practical floor",
+        "Only supplied eligible Highlight shown",
+        "Highlight opens requested map and details",
+        "View all includes complete matching collection across floors",
+        "View all groups by verified floor",
+        "Map and canvas persist through Discovery",
+        "Floor-only destination has no false map highlight",
+        "Locale updates destination route",
+        "Locale retains filter context",
+        "Locale preserves scroll",
+        "Back restores details and floor",
+        "Empty category invents no Highlight",
+        "Native scroll continuously retains map into Discovery",
+        "Keyboard map zoom and reset"
+      ],
+      "failed": [],
+      "timings": [
+        {
+          "name": "mall-loading:navigation-to-frame:2",
+          "duration": 1224.8999999985099
+        },
+        {
+          "name": "mall-loading:request-to-frame:41",
+          "duration": 42.100000001490116
+        },
+        {
+          "name": "mall-loading:request-to-frame:42",
+          "duration": 11
+        },
+        {
+          "name": "mall-loading:request-to-frame:52",
+          "duration": 13.699999995529652
+        },
+        {
+          "name": "mall-loading:request-to-frame:54",
+          "duration": 15
+        },
+        {
+          "name": "mall-loading:request-to-frame:56",
+          "duration": 13.299999997019768
+        },
+        {
+          "name": "mall-loading:request-to-frame:58",
+          "duration": 14.199999995529652
+        },
+        {
+          "name": "mall-loading:request-to-frame:60",
+          "duration": 15.399999998509884
+        },
+        {
+          "name": "mall-loading:request-to-frame:62",
+          "duration": 12.699999995529652
+        },
+        {
+          "name": "mall-loading:request-to-frame:64",
+          "duration": 11.900000005960464
+        }
+      ],
+      "mall": "vincom",
+      "errors": []
+    },
+    {
+      "url": "http://localhost:4286/en/floors/L1",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Category previews most-matching floor",
+        "Preview preserves practical floor",
+        "Only supplied eligible Highlight shown",
+        "Highlight opens requested map and details",
+        "View all includes complete matching collection across floors",
+        "View all groups by verified floor",
+        "Map and canvas persist through Discovery",
+        "Floor-only destination has no false map highlight",
+        "Locale updates destination route",
+        "Locale retains filter context",
+        "Locale preserves scroll",
+        "Back restores details and floor",
+        "Empty category invents no Highlight",
+        "Native scroll continuously retains map into Discovery",
+        "Keyboard map zoom and reset"
+      ],
+      "failed": [],
+      "timings": [
+        {
+          "name": "mall-loading:navigation-to-frame:2",
+          "duration": 1230.8999999985099
+        },
+        {
+          "name": "mall-loading:request-to-frame:39",
+          "duration": 40.899999998509884
+        },
+        {
+          "name": "mall-loading:request-to-frame:40",
+          "duration": 9.5
+        },
+        {
+          "name": "mall-loading:request-to-frame:52",
+          "duration": 19.100000001490116
+        },
+        {
+          "name": "mall-loading:request-to-frame:54",
+          "duration": 16.700000002980232
+        },
+        {
+          "name": "mall-loading:request-to-frame:56",
+          "duration": 17.69999999552965
+        },
+        {
+          "name": "mall-loading:request-to-frame:58",
+          "duration": 12.899999998509884
+        },
+        {
+          "name": "mall-loading:request-to-frame:60",
+          "duration": 19.899999998509884
+        },
+        {
+          "name": "mall-loading:request-to-frame:62",
+          "duration": 12.100000001490116
+        },
+        {
+          "name": "mall-loading:request-to-frame:64",
+          "duration": 11.100000001490116
+        }
+      ],
+      "mall": "vincom",
+      "errors": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "mode": "no-javascript-public",
+      "checks": [
+        "No-JavaScript bilingual overview floor links",
+        "Every supported static floor route includes SVG",
+        "Truthful 404 and fixture isolation"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "mode": "no-javascript-public",
+      "checks": [
+        "No-JavaScript bilingual overview floor links",
+        "Every supported static floor route includes SVG",
+        "Truthful 404 and fixture isolation"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "mode": "no-javascript-public",
+      "checks": [
+        "No-JavaScript bilingual overview floor links",
+        "Every supported static floor route includes SVG",
+        "Truthful 404 and fixture isolation"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "mode": "no-javascript-public",
+      "checks": [
+        "No-JavaScript bilingual overview floor links",
+        "Every supported static floor route includes SVG",
+        "Truthful 404 and fixture isolation"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "mode": "shared-store-route",
+      "checks": [
+        "Floor-neutral store SSR retains static basic listing",
+        "Shared-store query floor hydrates correctly",
+        "Invalid destination floor corrects to primary"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "mode": "shared-store-route",
+      "checks": [
+        "Floor-neutral store SSR retains static basic listing",
+        "Shared-store query floor hydrates correctly",
+        "Invalid destination floor corrects to primary"
+      ],
+      "failed": []
+    },
+    {
+      "url": "http://localhost:4285/en/floors/L1",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Category previews most-matching floor",
+        "Preview preserves practical floor",
+        "Only supplied eligible Highlight shown",
+        "Highlight opens requested map and details",
+        "View all includes complete matching collection across floors",
+        "View all groups by verified floor",
+        "Map and canvas persist through Discovery",
+        "Floor-only destination has no false map highlight",
+        "Locale updates destination route",
+        "Locale retains filter context",
+        "Locale preserves scroll",
+        "Back restores details and floor",
+        "Empty category invents no Highlight",
+        "Native scroll continuously retains map into Discovery"
+      ],
+      "failed": [],
+      "timings": [
+        {
+          "name": "mall-loading:navigation-to-frame:2",
+          "duration": 2421.89999999851
+        }
+      ],
+      "mall": "saigon",
+      "mode": "context-loss"
+    },
+    {
+      "url": "http://localhost:4285/en/floors/L1",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Category previews most-matching floor",
+        "Preview preserves practical floor",
+        "Only supplied eligible Highlight shown",
+        "Highlight opens requested map and details",
+        "View all includes complete matching collection across floors",
+        "View all groups by verified floor",
+        "Map persists through Discovery with 3D unavailable",
+        "Floor-only destination has no false map highlight",
+        "Locale updates destination route",
+        "Locale retains filter context",
+        "Locale preserves scroll",
+        "Back restores details and floor",
+        "Empty category invents no Highlight",
+        "Native scroll continuously retains map into Discovery"
+      ],
+      "failed": [],
+      "timings": [
+        {
+          "name": "mall-loading:navigation-to-frame:2",
+          "duration": 637.7000000029802
+        }
+      ],
+      "mall": "saigon",
+      "mode": "import-failure"
+    },
+    {
+      "url": "http://localhost:4286/en/floors/L1",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Category previews most-matching floor",
+        "Preview preserves practical floor",
+        "Only supplied eligible Highlight shown",
+        "Highlight opens requested map and details",
+        "View all includes complete matching collection across floors",
+        "View all groups by verified floor",
+        "Map and canvas persist through Discovery",
+        "Floor-only destination has no false map highlight",
+        "Locale updates destination route",
+        "Locale retains filter context",
+        "Locale preserves scroll",
+        "Back restores details and floor",
+        "Empty category invents no Highlight",
+        "Native scroll continuously retains map into Discovery"
+      ],
+      "failed": [],
+      "timings": [
+        {
+          "name": "mall-loading:navigation-to-frame:2",
+          "duration": 2256.89999999851
+        }
+      ],
+      "mall": "vincom",
+      "mode": "context-loss"
+    },
+    {
+      "url": "http://localhost:4286/en/floors/L1",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Category previews most-matching floor",
+        "Preview preserves practical floor",
+        "Only supplied eligible Highlight shown",
+        "Highlight opens requested map and details",
+        "View all includes complete matching collection across floors",
+        "View all groups by verified floor",
+        "Map persists through Discovery with 3D unavailable",
+        "Floor-only destination has no false map highlight",
+        "Locale updates destination route",
+        "Locale retains filter context",
+        "Locale preserves scroll",
+        "Back restores details and floor",
+        "Empty category invents no Highlight",
+        "Native scroll continuously retains map into Discovery"
+      ],
+      "failed": [],
+      "timings": [
+        {
+          "name": "mall-loading:navigation-to-frame:2",
+          "duration": 607.5
+        }
+      ],
+      "mall": "vincom",
+      "mode": "import-failure"
+    }
+  ]
+}

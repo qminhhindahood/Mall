@@ -1,0 +1,76 @@
+{
+  "profile": "T3 shared preview; measured viewport and DPR in receipt; preliminary source before final map contrast repair",
+  "runs": [
+    {
+      "checks": [
+        "No horizontal overflow",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "Category previews most-matching floor",
+        "Preview preserves practical floor",
+        "Only supplied eligible Highlight shown",
+        "Highlight opens requested map and details",
+        "View all includes complete matching collection across floors",
+        "View all groups by verified floor",
+        "Map and canvas persist through Discovery",
+        "Floor-only destination has no false map highlight",
+        "Locale updates destination route",
+        "Locale retains filter context",
+        "Locale preserves scroll",
+        "Back restores details and floor",
+        "Empty category invents no Highlight"
+      ],
+      "done": true,
+      "failed": [],
+      "timings": [
+        {
+          "duration": 11068.60000000149,
+          "name": "mall-loading:navigation-to-frame:2"
+        },
+        {
+          "duration": 294.8999999985099,
+          "name": "mall-loading:request-to-frame:26"
+        },
+        {
+          "duration": 131.5,
+          "name": "mall-loading:request-to-frame:32"
+        },
+        {
+          "duration": 141.69999999552965,
+          "name": "mall-loading:request-to-frame:36"
+        },
+        {
+          "duration": 138.60000000149012,
+          "name": "mall-loading:request-to-frame:38"
+        },
+        {
+          "duration": 83.39999999850988,
+          "name": "mall-loading:request-to-frame:44"
+        },
+        {
+          "duration": 297.8999999985099,
+          "name": "mall-loading:request-to-frame:45"
+        },
+        {
+          "duration": 113.39999999850988,
+          "name": "mall-loading:request-to-frame:49"
+        }
+      ],
+      "url": "http://localhost:4285/en/floors/L1",
+      "viewport": {
+        "dpr": 1.9170290231704712,
+        "height": 800,
+        "width": 1280
+      }
+    }
+  ]
+}

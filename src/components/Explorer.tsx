@@ -1,13 +1,16 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
-import type { SiteData, Destination } from '../data/site';
+import type { SiteData } from '../data/site';
 import type { Locale, SceneKind, SceneRuntime, FloorDataset } from '../runtime/scene-contract';
 import { copy } from './copy';
 import FloorMap from './FloorMap';
 import { floorRoute, selectionHref as href } from '../data/routes';
 import { validateGeometry } from '../runtime/validate-geometry';
+import Directory from './Directory';
+import { journeyCopy } from './journey-copy';
+import { categoryFloor } from '../data/content';
 import { timing } from '../runtime/loading-timing';
 
-export type ExplorerSelection = { locale: Locale; floorId: string; kind: SceneKind; destinationId?: string };
+export type ExplorerSelection = { locale: Locale; floorId: string; kind: SceneKind; destinationId?: string; query?: string; categoryId?: string; discoveryCategoryId?: string; areaId?: string };
 function defaultFloorId(site: SiteData, floors = site.geometry.floors) {
   if (floors.some(floor => floor.id === site.defaultFloor)) return site.defaultFloor;
   return floors.find(floor => floor.id === 'L1')?.id ?? floors[0]?.id ?? 'L1';
@@ -21,11 +24,18 @@ function selectionFromUrl(url: URL, site: SiteData, fallback: ExplorerSelection)
   const floorId = site.geometry.floors.some(f => f.id === candidate) && (!destination || destination.floors.includes(candidate)) ? candidate : destination?.primaryFloor && site.geometry.floors.some(f => f.id === destination.primaryFloor) ? destination.primaryFloor : fallbackFloor;
   const view = url.searchParams.get('view');
   const kind = ['exterior','overview','map','discovery'].includes(view ?? '') ? view as SceneKind : segments[1] ? 'map' : fallback.kind;
-  return { locale, floorId, kind, destinationId: destination?.id };
+  const category=(key:string)=>site.content.categories.find(c=>c.id===url.searchParams.get(key))?.id;
+  return { locale, floorId, kind, destinationId: destination?.id, query:url.searchParams.get('q')?.slice(0,160)||undefined, categoryId:category('category'), discoveryCategoryId:category('collection'), areaId:site.content.areas.find(a=>a.id===url.searchParams.get('area')&&a.floorId===floorId)?.id };
 }
 
 export default function Explorer({ site, initial }: { site: SiteData; initial: ExplorerSelection }) {
   const [selection,setSelection] = useState(initial);
+  const [zoom,setZoom] = useState(1);
+  const [angled,setAngled] = useState(false);
+  const mapJourney=useRef<HTMLDivElement>(null);
+  const returnFocus=useRef<HTMLElement|null>(null);
+  const restoreScroll=useRef<number|null>(null);
+  const localeScroll=useRef<number|null>(null);
   const [load,setLoad] = useState<'static'|'loading'|'ready'|'failed'>('static');
   // Cached shows can finish in one React batch without changing `load`.
   // Each accepted presentation must still commit its requested keyboard focus.
@@ -56,8 +66,11 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const moduleFailed = useRef(false);
   latest.current = selection;
   const c = copy[selection.locale];
-  const floor = geometry.floors.find(f => f.id === selection.floorId) ?? geometry.floors.find(f => f.id === defaultFloorId(site, geometry.floors)) ?? geometry.floors[0]!;
-  const destination: Destination|undefined = site.destinations.find(d => d.id === selection.destinationId);
+  const j = journeyCopy[selection.locale];
+  const discoveryCategory=selection.discoveryCategoryId??site.content.categories[0]?.id??'';
+  const previewFloor=categoryFloor(site.destinations,discoveryCategory,geometry,selection.floorId);
+  const displayedFloor=selection.kind==='discovery'?previewFloor:selection.floorId;
+  const floor = geometry.floors.find(f => f.id === displayedFloor) ?? geometry.floors.find(f => f.id === defaultFloorId(site, geometry.floors)) ?? geometry.floors[0]!;
 
   useEffect(() => {
     const preference = matchMedia('(prefers-reduced-motion: reduce)');
@@ -98,6 +111,22 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     return () => { window.removeEventListener('scroll', update); window.removeEventListener('resize', update); };
   }, [load]);
 
+  useEffect(()=>{
+    const update=()=>{
+      const section=sections.current.discovery, journey=mapJourney.current;
+      if(!section||!journey)return;
+      const progress=Math.max(0,Math.min(1,(innerHeight-section.getBoundingClientRect().top)/(innerHeight*.75)));
+      journey.style.setProperty('--discovery-progress',String(reducedMotion?0:progress));
+      if((load!=='ready'&&load!=='failed')||focusRequest.current)return;
+      const mapTop=sections.current.map?.getBoundingClientRect().top??Infinity;
+      const readingLine=innerWidth<=700?Math.min(innerHeight-44,Math.max(innerHeight*.55,((journey.querySelector('.persistent-map')?.getBoundingClientRect().bottom??innerHeight*.5)+innerHeight)/2)):innerHeight*.55;
+      const kind=section.getBoundingClientRect().top<readingLine?'discovery':mapTop<readingLine?'map':null;
+      if(kind&&kind!==latest.current.kind){const next: ExplorerSelection={...latest.current,kind};beginRequest(next);history.replaceState({...history.state,scrollY:scrollY},'',href(next));setSelection(next);}
+    };
+    window.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update);
+    return()=>{window.removeEventListener('scroll',update);window.removeEventListener('resize',update);};
+  },[load,reducedMotion]);
+
   function togglePause() {
     if (reducedMotion) return;
     const value = !pauseChoice.current;
@@ -119,19 +148,32 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     };
     setSelection(resolveRoute());
     setRouteResolved(true);
+    history.scrollRestoration='manual';
+    const savePosition=()=>history.replaceState({...history.state,scrollY:window.scrollY},'');
+    window.addEventListener('scroll',savePosition,{passive:true});
     const pop = () => {
       const next=resolveRoute();
       beginRequest(next);
+      restoreScroll.current=typeof history.state?.scrollY==='number'?history.state.scrollY:null;
       focusRequest.current=next;
       setSelection(next);
     };
     window.addEventListener('popstate',pop);
-    return () => window.removeEventListener('popstate',pop);
+    return () => {window.removeEventListener('popstate',pop);window.removeEventListener('scroll',savePosition);history.scrollRestoration='auto';};
   }, []);
+  useLayoutEffect(()=>{
+    if(localeScroll.current===null)return;
+    const top=localeScroll.current;localeScroll.current=null;
+    window.scrollTo({top,behavior:'instant'});
+    const frame=requestAnimationFrame(()=>window.scrollTo({top,behavior:'instant'}));
+    return()=>cancelAnimationFrame(frame);
+  },[selection.locale]);
   useEffect(() => {
     document.documentElement.lang = selection.locale;
     document.title = `${site.name} · ${copy[selection.locale].guide}`;
-    document.querySelector<HTMLLinkElement>('link[rel="canonical"]')?.setAttribute('href',href(selection).split('?')[0]);
+    document.querySelector<HTMLLinkElement>('link[rel="canonical"]')?.setAttribute('href',new URL(href(selection).split('?')[0],location.origin).href);
+    const alternate=document.querySelector<HTMLLinkElement>('link[rel="alternate"]');
+    if(alternate){const other=selection.locale==='vi'?'en':'vi';alternate.hreflang=other;alternate.href=new URL(href({...selection,locale:other}),location.origin).href;}
     const guide = document.querySelector<HTMLElement>('.static-guide');
     if (guide) {
       guide.lang = selection.locale;
@@ -148,6 +190,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     entered.current=false;
     moduleFailed.current=false;
     const controller = new AbortController();
+    const geometryController = new AbortController();
     // The shell owns one canvas per runtime attempt. React never reparents/remounts it.
     const ownedCanvas = document.createElement('canvas');
     ownedCanvas.style.visibility = 'hidden';
@@ -181,7 +224,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     const fetchGeometry = async (url:string): Promise<FloorDataset> => {
       const done = timing('geometry-transfer', { ...detail, url });
       try {
-      const response = await fetch(url,{signal:controller.signal});
+      const response = await fetch(url,{signal:geometryController.signal});
       if (!response.ok) throw new Error('Floor geometry unavailable');
       const text = await response.text();
       done('ready');
@@ -191,7 +234,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       } catch (error) { done('failed'); throw error; }
     };
     const data = fetchGeometry(site.geometryUrl).catch(error=>{
-      if (controller.signal.aborted||site.geometryUrl===site.geometryIdentityUrl) throw error;
+      if (geometryController.signal.aborted||site.geometryUrl===site.geometryIdentityUrl) throw error;
       return fetchGeometry(site.geometryIdentityUrl);
     }).then(result=>{
       if (alive) {
@@ -217,7 +260,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       await Promise.all(['exterior','overview'].map(kind => instance.prepare({kind: kind as SceneKind, floorId: site.defaultFloor})));
       if (!alive) return;
       let requested;
-      do {requested=latest.current;await instance.show(requested);if(!alive)return;} while(requested.kind!==latest.current.kind || requested.floorId!==latest.current.floorId);
+      do {requested=latest.current;await instance.show({...requested,floorId:requested.kind==='discovery'?categoryFloor(site.destinations,requested.discoveryCategoryId??site.content.categories[0]?.id??'',geometry,requested.floorId):requested.floorId});if(!alive)return;} while(requested.kind!==latest.current.kind || requested.floorId!==latest.current.floorId);
       if (alive) {
         entered.current=true;
         document.querySelector<HTMLElement>('.static-guide')?.setAttribute('hidden','');
@@ -229,7 +272,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
         navigationDone?.('ready', { ...latest.current, completeFrame: ownedCanvas.dataset.completeFrame });
       }
     }).catch(() => { entryDone(alive ? 'failed' : 'cancelled'); navigationDone?.(alive ? 'failed' : 'cancelled'); if (alive) {controller.abort();runtime.current?.dispose();runtime.current=null;setLoad('failed');} });
-    return () => { alive=false; entryDone('cancelled'); navigationDone?.('cancelled'); controller.abort(); requestSerial.current++; runtime.current?.dispose(); runtime.current=null; ownedCanvas.remove(); if(canvas.current===ownedCanvas) canvas.current=null; };
+    return () => { alive=false; entryDone('cancelled'); navigationDone?.('cancelled'); controller.abort(); geometryController.abort(); requestSerial.current++; runtime.current?.dispose(); runtime.current=null; ownedCanvas.remove(); if(canvas.current===ownedCanvas) canvas.current=null; };
   }, [attempt]);
   useEffect(()=>{
     if (!canvas.current) return;
@@ -250,8 +293,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     const done = requestTiming.current ?? timing('request-to-frame', { mallId: site.mallId, attempt, ...selection });
     requestTiming.current=null;
     setLoad('loading');
-    instance.show(selection).then(() => { done(serial === requestSerial.current ? 'ready' : 'stale'); if (serial === requestSerial.current) {setLoad('ready');setPresentation(value=>value+1);} }).catch(() => { done('failed'); if (serial === requestSerial.current) {entered.current=false;instance.dispose();runtime.current=null;setLoad('failed');} });
-  }, [selection.kind, selection.floorId]);
+    instance.show({...selection,floorId:selection.kind==='discovery'?previewFloor:selection.floorId}).then(() => { done(serial === requestSerial.current ? 'ready' : 'stale'); if (serial === requestSerial.current) {setLoad('ready');setPresentation(value=>value+1);} }).catch(() => { done('failed'); if (serial === requestSerial.current) {entered.current=false;instance.dispose();runtime.current=null;setLoad('failed');} });
+  }, [selection.kind, selection.floorId, previewFloor]);
   useEffect(()=>{
     const host=sceneHosts.current[selection.kind];if(!host)return;
     let visible=false;
@@ -274,25 +317,29 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     if(load!=='ready' && load!=='failed')return;
     const requested=focusRequest.current;
     if(!requested)return;
-    const floorKey=requested.kind==='exterior'||requested.kind==='overview'?'all':requested.floorId;
+    const floorKey=requested.kind==='exterior'||requested.kind==='overview'?'all':requested.kind==='discovery'?previewFloor:requested.floorId;
     if(load==='ready'&&!canvas.current?.dataset.sceneKey?.endsWith(`:${requested.kind}:${floorKey}`))return;
     const target=focusTarget(requested);
-    if(target?.isConnected){target.focus({preventScroll:true});target.scrollIntoView({behavior:'instant',block:'start'});focusRequest.current=null;pendingFocus.current=null;}
+    if(target?.isConnected){target.focus({preventScroll:true});if(restoreScroll.current!==null){window.scrollTo({top:restoreScroll.current,behavior:'instant'});restoreScroll.current=null;}else target.scrollIntoView({behavior:'instant',block:'start'});focusRequest.current=null;pendingFocus.current=null;}
   },[load,selection,presentation]);
-  function focusTarget(next: ExplorerSelection) { return next.destinationId ? destinationContent.current : sections.current[next.kind] ?? null; }
+  function focusTarget(next: ExplorerSelection) { return next.destinationId ? destinationContent.current : next.kind==='map'&&(next.query||next.categoryId)?document.getElementById('directory-heading'):sections.current[next.kind] ?? null; }
   function beginRequest(next: ExplorerSelection) {
-    if (!entered.current || next.kind===latest.current.kind && next.floorId===latest.current.floorId) return;
+    const effective=(value:ExplorerSelection)=>value.kind==='discovery'?categoryFloor(site.destinations,value.discoveryCategoryId??site.content.categories[0]?.id??'',geometry,value.floorId):value.floorId;
+    if (!entered.current || next.kind===latest.current.kind && effective(next)===effective(latest.current)) return;
     // Commit the gate with selection, before an unprepared view can paint.
     setLoad('loading');
     requestTiming.current?.('stale');
     requestTiming.current=timing('request-to-frame',{mallId:site.mallId,attempt,...next});
   }
-  function navigate(next: ExplorerSelection, event: React.MouseEvent<HTMLAnchorElement>) {
-    if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
-    event.preventDefault();
+  function navigate(next: ExplorerSelection, event?: React.MouseEvent<HTMLAnchorElement>) {
+    if (event && (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey)) return;
+    event?.preventDefault();
+    if(next.locale!==selection.locale)localeScroll.current=window.scrollY;
+    if(next.destinationId && !selection.destinationId)returnFocus.current=event?.currentTarget??document.activeElement as HTMLElement;
     setFloorCorrected(false);
     beginRequest(next);
-    history.pushState(null,'',href(next));
+    history.replaceState({...history.state,scrollY:window.scrollY},'');
+    history.pushState({scrollY:window.scrollY},'',href(next));
     if (next.locale === selection.locale) {pendingFocus.current=focusTarget(next);focusRequest.current=next;}
     setSelection(next);
     // Locale switches preserve the language-control focus; content focus follows
@@ -313,7 +360,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     <main>
       {load==='failed' && <aside className="error" role="alert"><p>{c.error}</p><button onClick={() => {if(moduleFailed.current)location.assign(href(latest.current));else setAttempt(attempt+1);}}>{c.retry}</button></aside>}
       <div ref={parking} className="canvas-parking" />
-      {(['exterior','overview','map','discovery'] as SceneKind[]).map(kind=><section key={kind} id={`scene-${kind}`} ref={element=>{if(element) sections.current[kind]=element;}} tabIndex={-1} className={`scene-section ${kind==='exterior'?'introduction':''}`} aria-label={c[kind]} data-active={selection.kind===kind}>
+      {(['exterior','overview'] as SceneKind[]).map(kind=><section key={kind} id={`scene-${kind}`} ref={element=>{if(element) sections.current[kind]=element;}} tabIndex={-1} className={`scene-section ${kind==='exterior'?'introduction':''}`} aria-label={c[kind]} data-active={selection.kind===kind}>
         {kind==='exterior' ? <>
           <div className="introduction-controls">
             <button className="pause-control" disabled={load!=='ready'||reducedMotion} aria-pressed={paused} onClick={togglePause}>{reducedMotion?c.motionOff:paused?c.resume:c.pause}</button>
@@ -326,18 +373,48 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
         </div>
         {kind==='exterior' ? <div className="introduction-bottom"><a className="scroll-guide" href="#scene-overview" onClick={event=>navigate(change('overview'),event)}><span className="scroll-cue" aria-hidden="true"/><span>{c.scrollInstruction}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div> : <p className="disclosure">{c.uncertainty}</p>}
         {geometry.revision==='foundation-unavailable' && <p>{c.unavailableGeometry}</p>}
-        {kind==='discovery' && <p>{c.discoveryPending}</p>}
+
       </section>)}
-      <section id="shopping-levels" aria-labelledby="levels-heading">
-        {floorCorrected && <p role="status">{c.floorCorrected}</p>}
-        <h2 id="levels-heading">{c.floors}</h2>
-        <nav className="floors" aria-label={c.floors}>{geometry.floors.map(item => <a key={item.id} href={floorRoute(selection.locale,item.id)} aria-current={routeResolved && selection.floorId===item.id?'page':undefined} onClick={event => navigate(change('map',item.id),event)}>{item.label}</a>)}</nav>
-        {routeResolved && <><h3>{c.heading} {floor.label}</h3><FloorMap floor={floor} title={c.map} />
-        {floor.preview && <details><summary>{c.preview}</summary><img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`} loading="lazy" /></details>}</>}
-        <p>{c.directory}</p>
-        {destination && <article ref={destinationContent} tabIndex={-1} className="destination"><h2>{destination.name[selection.locale]}</h2><p>{destination.description[selection.locale]}</p><p>{c.floors}: {destination.floors.join(', ')}</p></article>}
-        {routeResolved && site.destinations.length>0 && <ul>{site.destinations.filter(d=>d.floors.includes(floor.id)).map(d=><li key={d.id}><a href={href({...selection,kind:'map',destinationId:d.id})} onClick={event=>navigate({...selection,kind:'map',destinationId:d.id},event)}>{d.name[selection.locale]}</a></li>)}</ul>}
-      </section>
+      <div className="map-discovery-journey" ref={mapJourney}>
+        <div className="persistent-map">
+          <div className="scene-host scene-host-map" ref={element=>{if(element){sceneHosts.current.map=element;sceneHosts.current.discovery=element;}}} data-scene-kind={selection.kind==='discovery'?'discovery':'map'} data-floor={routeResolved?floor.id:undefined}>
+            <div className="map-transform" style={{transform:`scale(${zoom}) rotateX(${angled?25:0}deg)`}}>{!routeResolved?<p>{c.preparing}</p>:!floor.regions.length&&floor.preview?<img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`}/>:<FloorMap floor={floor} title={c.map} content={site.content} locale={selection.locale} selectedDestination={selection.kind==='map'?selection.destinationId:undefined} selectedArea={selection.areaId} onArea={areaId=>navigate({...change('map',floor.id),areaId})}/>}</div>
+          </div>
+          <div className="map-controls glass" role="group" aria-label={c.map}>
+            <span>{selection.kind==='discovery'?j.preview:c.heading} {routeResolved?floor.id:''}</span>
+            <button aria-label={j.zoomOut} disabled={zoom<=1} onClick={()=>setZoom(Math.max(1,zoom-.25))}>−</button>
+            <button aria-label={j.zoomIn} disabled={zoom>=2} onClick={()=>setZoom(Math.min(2,zoom+.25))}>+</button>
+            <button aria-pressed={angled} onClick={()=>setAngled(!angled)}>{j.angle}</button>
+            <button onClick={()=>{setZoom(1);setAngled(false);}}>{j.reset}</button>
+          </div>
+          <p className="disclosure">{c.uncertainty}</p>
+        </div>
+        <div className="journey-reading">
+          <section id="scene-map" ref={element=>{if(element)sections.current.map=element;}} tabIndex={-1} className="map-reading" aria-label={c.map}>
+            <h2>{c.map}{routeResolved?` · ${selection.floorId}`:''}</h2>
+            {floorCorrected&&<p role="status">{c.floorCorrected}</p>}
+            <nav className="floors" aria-label={c.floors}>{geometry.floors.map(item=><a key={item.id} href={floorRoute(selection.locale,item.id)} aria-current={routeResolved&&selection.floorId===item.id?'page':undefined} onClick={event=>navigate(change('map',item.id),event)}>{item.label}</a>)}</nav>
+            <h3 id="directory-heading" tabIndex={-1}>{j.directory}{routeResolved?` · ${selection.floorId}`:''}</h3>
+            {site.content.areas.filter(a=>a.floorId===selection.floorId).map(area=><a className="area-link" key={area.id} href={href({...change('map'),areaId:area.id})} onClick={event=>navigate({...change('map'),areaId:area.id},event)}>{area.name[selection.locale]}</a>)}
+            {!site.content.areas.some(a=>a.floorId===selection.floorId)&&<p>{j.noAreas}</p>}
+            {selection.areaId&&<aside className="shared-area" aria-label={j.shared}><h3>{j.shared}</h3><ul>{site.destinations.filter(d=>d.locations.some(l=>l.floorId===selection.floorId&&l.areaIds.includes(selection.areaId!))).map(d=><li key={d.id}><a href={href({...selection,destinationId:d.id,areaId:undefined})} onClick={event=>navigate({...selection,destinationId:d.id,areaId:undefined},event)}>{d.name[selection.locale]}</a></li>)}</ul><a href={href({...selection,areaId:undefined})} onClick={event=>navigate({...selection,areaId:undefined},event)}>{j.close}</a></aside>}
+            {routeResolved&&<Directory site={site} selection={selection} navigate={navigate} detailRef={destinationContent} closeDetail={()=>{const next={...selection,destinationId:undefined};history.pushState({scrollY:window.scrollY},'',href(next));setSelection(next);requestAnimationFrame(()=>{const target=returnFocus.current?.isConnected?returnFocus.current:sections.current.map;target?.focus({preventScroll:true});});}}/>}
+            {routeResolved&&floor.preview&&<details><summary>{c.preview} · {floor.label}</summary><img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`} loading="lazy"/></details>}
+          </section>
+          <section id="scene-discovery" ref={element=>{if(element)sections.current.discovery=element;}} tabIndex={-1} className="discovery-reading" aria-label={c.discovery}>
+            <h2>{c.discovery}</h2><p>{j.preview} · {previewFloor}</p>
+            {site.content.approval==='pending'&&<p>{j.pending}</p>}
+            {site.content.approval==='fixture'&&<p className="fixture-notice">{j.fixture}</p>}
+            <nav className="categories" aria-label={j.categories}>{site.content.categories.map(category=>{const next={...change('discovery'),discoveryCategoryId:category.id};return <a key={category.id} href={href(next)} aria-current={discoveryCategory===category.id?'true':undefined} onClick={event=>navigate(next,event)}>{category.name[selection.locale]}</a>;})}</nav>
+            <h3>{j.highlights}</h3>
+            {site.content.highlights.filter(h=>h.categoryId===discoveryCategory&&h.floorId===previewFloor).map(h=>{const d=site.destinations.find(d=>d.id===h.destinationId)!;const next={...change('map',h.floorId),destinationId:d.id};return <p key={d.id}><a href={href(next)} onClick={event=>navigate(next,event)}>{d.name[selection.locale]}</a></p>;})}
+            {!site.content.highlights.some(h=>h.categoryId===discoveryCategory&&h.floorId===previewFloor)&&<p>{j.noHighlights}</p>}
+            {discoveryCategory&&!site.destinations.some(d=>d.status==='open'&&d.categories.includes(discoveryCategory))&&<p>{j.empty}</p>}
+            {discoveryCategory&&<a className="view-all" href={href({...change('map'),categoryId:discoveryCategory,query:undefined})} onClick={event=>navigate({...change('map'),categoryId:discoveryCategory,query:undefined},event)}>{j.viewAll}</a>}
+            <p><a href={href(change('map'))} onClick={event=>navigate(change('map'),event)}>{j.returnMap} · {selection.floorId}</a></p>
+          </section>
+        </div>
+      </div>
     </main>
     <footer>{site.name} · {c.guide}</footer>
     </div>

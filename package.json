@@ -6,11 +6,13 @@
   "scripts": {
     "dev": "astro dev --host 127.0.0.1 --port 4212",
     "check": "astro check",
-    "build": "node scripts/prepare-assets.mjs && astro check && astro build",
+    "build": "node scripts/prepare-assets.mjs && astro check && astro build && node scripts/prepare-static-release.mjs",
     "build:saigon": "cross-env MALL_ID=saigon-centre npm run build",
     "build:vincom": "cross-env MALL_ID=vincom-dong-khoi npm run build",
     "preview:saigon": "node scripts/serve-static.mjs --mall saigon-centre --port 4213",
-    "preview:vincom": "node scripts/serve-static.mjs --mall vincom-dong-khoi --port 4214"
+    "preview:vincom": "node scripts/serve-static.mjs --mall vincom-dong-khoi --port 4214",
+    "dry-run:saigon": "wrangler deploy --dry-run --config wrangler.saigon-centre.jsonc",
+    "dry-run:vincom": "wrangler deploy --dry-run --config wrangler.vincom-dong-khoi.jsonc"
   },
   "dependencies": {
     "@astrojs/react": "7.0.1",
@@ -28,7 +30,8 @@
     "@types/three": "0.186.0",
     "cross-env": "10.1.0",
     "oxc-transform-react": "0.145.0",
-    "typescript": "6.0.3"
+    "typescript": "6.0.3",
+    "wrangler": "4.150.0"
   },
   "engines": {
     "node": ">=22.12.0",

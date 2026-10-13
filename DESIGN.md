@@ -1,12 +1,27 @@
 ---
-name: Mall visitor introduction
-description: Approved Porcelain and lacquer introduction, ticket 01 scope
+name: Mall visitor journey
+description: Porcelain and lacquer journey, tickets 01–03; content approval remains separate
 colors:
   paper: "#fff9f1"
   vincom-paper: "#fffbf3"
   ink: "#231c17"
   muted: "#64584e"
   divider: "#e0d3c4"
+  map-edge: "#7e6c59"
+  control-edge: "#88796c"
+  map-background: "#f0e7da"
+  floor-top: "#e7d8c5"
+  overview-paper: "#f4eade"
+  overview-edge: "#cdbda9"
+  overview-map: "#ede2d3"
+  reading-paper: "#fffdfa"
+  fixture-background: "#f7e2b4"
+  fixture-ink: "#352614"
+  shadow: "#46322224"
+  saigon-action: "#a12b18"
+  saigon-selected: "#ffe6dc"
+  vincom-action: "#744600"
+  vincom-selected: "#f5e4bf"
   saigon-lacquer: "#c63219"
   vincom-gold: "#8a5400"
 typography:
@@ -21,11 +36,11 @@ typography:
     lineHeight: 1.6
 ---
 
-# Design System: Mall visitor introduction
+# Design System: Mall visitor journey
 
 ## Overview
 
-The owner-approved Porcelain / lacquer world presents the isolated mall exterior on warm paper. The introduction uses the approved Daylight gallery composition. This record covers ticket 01; existing floor and Discovery foundations retain their earlier styling until their respective slices are delivered.
+The owner-approved Porcelain / lacquer world presents the isolated mall exterior on warm paper. The introduction uses the approved Daylight gallery composition. This record covers the integrated introduction, source-floor overview, practical map/directory and Discovery surfaces. Real directory data and release acceptance remain pending.
 
 ## Colors
 
@@ -33,13 +48,19 @@ Warm paper and dark ink support reading. Saigon uses red lacquer; Vincom uses br
 
 ## Typography
 
+Practical section headings use 28–42px and directory subheadings 22px. Controls and floor labels use at least 16px. Supporting schematic disclosure uses 13px on narrow screens.
+
 Self-hosted Manrope gives headings their architectural scale. Guide is the self-hosted Be Vietnam Pro face used for copy and controls. Display size adapts from 40 to 76 CSS pixels on desktop; phone headings adapt from 40 to 60 pixels. Introduction copy has a 37-character measure and generous leading.
 
 ## Layout
 
+The map persists in a sticky left column as directory and Discovery reading sections scroll on the right. Below 700px it becomes a compact sticky map above a single reading column. Scroll scales the preview without fading its independent glass controls; reduced motion removes that scale. The SVG carries area interactions in its source coordinate frame; unregistered 3D geometry does not establish destination positions.
+
 The desktop introduction pairs copy and building in a 38:62 grid. At 700 pixels and below, copy precedes the scene vertically. The bottom scroll instruction follows the building. Phone composition can exceed one viewport to retain readable copy and model space. Practical sections and focus targets account for the fixed navigation.
 
 ## Elevation & Depth
+
+Compact map controls and the post-hero header use 78% warm-white glass, 24px blur and 1.3 saturation, with dark ink. Unsupported blur and reduced transparency use solid porcelain. Reading panels stay opaque. Glass values are an implemented trial; rendered approval is separate.
 
 The post-hero header is compact and elevated with an offset diffuse shadow. Supported browsers blur its backdrop; reduced transparency and unsupported blur use opaque paper. Reading areas remain solid.
 

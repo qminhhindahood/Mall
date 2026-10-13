@@ -1,15 +1,13 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import type { FloorDataset, Locale, MallId } from '../runtime/scene-contract';
-export type Destination = {
-  id: string; name: Record<Locale, string>; primaryFloor: string;
-  floors: string[]; description: Record<Locale, string>; reviewedAt: string;
-  fixture?: boolean;
-};
+import type { FloorDataset, MallId } from '../runtime/scene-contract';
+import { validateContent, type DirectorySnapshot } from './content';
+export type { Destination } from './content';
+import type { Destination } from './content';
 export type SiteData = {
   mallId: MallId; name: string; defaultFloor: string; geometry: FloorDataset;
   assetRevision: string; exteriorUrl: string; destinations: Destination[];
-  geometryUrl: string;
+  geometryUrl: string; content: DirectorySnapshot;
   geometryIdentityUrl: string; exteriorIdentityUrl: string;
 };
 const mallId = (process.env.MALL_ID ?? 'saigon-centre') as MallId;
@@ -21,17 +19,19 @@ const geometry: FloorDataset = fs.existsSync(geometryPath) ? JSON.parse(fs.readF
   frame: { version: 'unavailable', units: 'unavailable', scaleStatus: 'not established', orientationStatus: 'not established' },
   floors: labels.map((id, order) => ({ id, label: id, order, elevation: order, bounds: [0,0,1,1], regions: [], sources: [], preview: null })),
 };
-const destinationsPath = path.join(process.cwd(),'data','malls',mallId,'destinations.json');
-const reviewed: Destination[] = fs.existsSync(destinationsPath) ? JSON.parse(fs.readFileSync(destinationsPath, 'utf8')) : [];
+const contentPath = path.join(process.cwd(),'data','malls',mallId,'directory.json');
+let snapshot: DirectorySnapshot = JSON.parse(fs.readFileSync(contentPath,'utf8'));
+if (process.env.INCLUDE_TEST_FIXTURES === '1') {
+  const { createFixtures } = await import('./fixtures');
+  snapshot = createFixtures(mallId,geometry);
+}
+const content = validateContent(snapshot,mallId,geometry);
+const destinations = content.destinations;
 const manifestPath = path.join(process.cwd(),'data','malls',mallId,'asset-manifest.json');
 const manifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath,'utf8')) : {};
-const destinations = reviewed.filter(d => !d.fixture);
-if (process.env.INCLUDE_TEST_FIXTURES === '1') {
-  destinations.push({ id: 'loading-test-store', name: { vi: 'Cửa hàng thử nghiệm', en: 'Test-only store' }, primaryFloor: 'L1', floors: ['L1','L2'], description: { vi: 'Dữ liệu thử nghiệm — không phải cửa hàng hiện tại.', en: 'Browser fixture — not a current store.' }, reviewedAt: 'test-only', fixture: true });
-}
 export const site: SiteData = {
   mallId, name: mallId === 'saigon-centre' ? 'Saigon Centre' : 'Vincom Center Đồng Khởi',
-  defaultFloor: mallId === 'saigon-centre' ? 'L5' : 'B2', geometry,
+  content, defaultFloor: mallId === 'saigon-centre' ? 'L5' : 'B2', geometry,
   assetRevision: manifest.assetRevision ?? 'photo-polish-2026-10-12-delivery-r2', exteriorUrl: manifest.preferredExteriorUrl ?? '/models/exterior.glb', destinations,
   exteriorIdentityUrl: manifest.identityUrl ?? '/models/exterior.glb',
   geometryUrl: manifest.floorGeometry?.url ?? '/data/floor-geometry.json',

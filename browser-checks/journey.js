@@ -1,0 +1,67 @@
+(async()=>{
+  const receipt={url:location.href,viewport:{width:innerWidth,height:innerHeight,dpr:devicePixelRatio},checks:[],failed:[],timings:[]};
+  const wait=async(fn)=>{const start=Date.now();while(!fn()){if(Date.now()-start>20000)throw new Error('Browser state wait exceeded 20s');await new Promise(r=>setTimeout(r,60));}};
+  const assert=(value,label)=>{if(!value)throw new Error(label);receipt.checks.push(label);};
+  const ready=async()=>{await wait(()=>!document.querySelector('.loading-screen'));await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));};
+  const click=(selector)=>{const element=document.querySelector(selector);if(!element)throw new Error(`Missing control ${selector}`);element.click();};
+  const query=async(value)=>{const input=document.querySelector('.directory-search input[name=q]');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(input,value);document.querySelector('.directory-search').requestSubmit();await ready();await wait(()=>new URL(location.href).searchParams.get('q')===value);};
+  const fixture=!!document.querySelector('.fixture-notice');
+  try{
+    await ready();
+    assert(document.documentElement.scrollWidth<=innerWidth,'No horizontal overflow');
+    assert(parseFloat(getComputedStyle(document.querySelector('.floor-rail a')).fontSize)>=16,'Readable floor controls');
+    assert(document.querySelectorAll('.floor-rail a').length===(document.body.innerText.includes('Saigon Centre')?8:7),'All supported overview floor links');
+    if(!fixture){assert(document.querySelector('.directory-panel').innerText.includes(document.documentElement.lang==='vi'?'chờ duyệt':'pending'),'Honest pending public directory');assert(!document.querySelector('.directory-results li'),'No public synthetic tenants');return receipt;}
+    assert(document.querySelector('.fixture-notice').innerText.length>0,'Fixture disclosure');
+    await query('ca phe dong');
+    assert(document.querySelectorAll('.directory-results li').length===1,'Accent-insensitive mall-wide search');
+    click('.directory-results a');await ready();await wait(()=>!!document.querySelector('.destination'));
+    assert(new URL(location.href).pathname.endsWith('/test-cafe'),'Independent destination link');
+    assert(document.querySelector('.destination p').innerText.includes(document.documentElement.lang==='vi'?'chờ duyệt':'awaiting'),'Missing introduction preserves basic listing');
+    assert(document.querySelectorAll('path[data-selected=true]').length>0,'Verified mapped area highlighted');
+    click('.destination button');await wait(()=>!document.querySelector('.destination'));
+    assert(new URL(location.href).searchParams.get('q')==='ca phe dong','Close preserves search');
+    await wait(()=>document.activeElement?.closest('.directory-results'));assert(true,'Close restores invoking result focus');
+    await query('caff');assert(document.querySelector('.directory-panel').innerText.includes(document.documentElement.lang==='vi'?'Gợi ý':'Spelling'),'Bounded typo suggestions');assert(!document.querySelector('.destination'),'Suggestions never auto-select');
+    click('.directory-search>a');await ready();
+    click('.area-link');await ready();await wait(()=>!!document.querySelector('.shared-area'));
+    assert(document.querySelectorAll('.shared-area li').length===2,'Shared area exposes both destinations without arbitrary selection');
+    click('.shared-area li a[href*="loading-test-store"]');await ready();await wait(()=>!!document.querySelector('.destination'));
+    assert(document.querySelectorAll('.destination nav a').length===2,'One destination exposes both verified floors');
+    click('.destination nav a[href*="floor=L2"]');await ready();assert(new URL(location.href).searchParams.get('floor')==='L2','Destination panel switches verified floor');
+    click('.destination nav a[href*="floor=L1"]');await ready();
+    click('.destination button:last-of-type');await wait(()=>document.querySelector('.share-status').textContent.length>0);assert(true,'Share copies destination link or supplies a usable copy fallback');
+    click('.destination button');await ready();
+    click('.directory-panel details summary');assert(document.querySelector('.directory-panel details').innerText.includes(document.documentElement.lang==='vi'?'Thang máy':'Test lift'),'Facilities stay separate from commercial destinations');
+    click('header nav a:nth-child(2)');await ready();await wait(()=>new URL(location.href).searchParams.get('view')==='discovery');
+    click('.categories a[href*="collection=cafes"]');await ready();
+    assert(document.querySelector('.persistent-map [data-floor]').dataset.floor==='L2','Category previews most-matching floor');
+    assert(new URL(location.href).searchParams.get('floor')==='L1','Preview preserves practical floor');
+    const map=document.querySelector('.persistent-map'),canvas=map.querySelector('canvas');
+    const highlight=document.querySelector('#scene-discovery a[href*="test-coffee"]');assert(!!highlight,'Only supplied eligible Highlight shown');highlight.click();await ready();
+    assert(new URL(location.href).searchParams.get('floor')==='L2'&&document.querySelector('.destination'),'Highlight opens requested map and details');
+    click('.destination button');await ready();
+    click('header nav a:nth-child(2)');await ready();
+    click('.view-all');await ready();
+    assert(document.querySelectorAll('.directory-results li').length===3,'View all includes complete matching collection across floors');
+    const groups=[...document.querySelectorAll('.directory-panel h4')].map(e=>e.textContent);assert(groups.includes('L1')&&groups.includes('L2'),'View all groups by verified floor');
+    assert(map===document.querySelector('.persistent-map')&&canvas===map.querySelector('canvas'),canvas?'Map and canvas persist through Discovery':'Map persists through Discovery with 3D unavailable');
+    const unknown=document.querySelector('.directory-results a[href*="test-unknown"]');unknown.click();await ready();
+    assert(document.querySelectorAll('path[data-selected=true]').length===0,'Floor-only destination has no false map highlight');
+    const before=location.href,scrollBefore=scrollY;click('header nav a:last-child');await ready();
+    assert(new URL(location.href).pathname.includes(document.documentElement.lang==='vi'?'/cua-hang/':'/stores/'),'Locale updates destination route');
+    assert(new URL(location.href).searchParams.get('category')==='cafes','Locale retains filter context');
+    assert(Math.abs(scrollY-scrollBefore)<5,'Locale preserves scroll');
+    history.back();await wait(()=>location.href===before);await ready();
+    assert(document.querySelector('.destination')&&new URL(location.href).searchParams.get('floor')==='L2','Back restores details and floor');
+    click('.destination button');await ready();click('header nav a:nth-child(2)');await ready();click('.categories a[href*="collection=empty"]');await ready();
+    assert(!document.querySelector('#scene-discovery a[href*="test-coffee"]'),'Empty category invents no Highlight');
+    click('header nav a:first-child');await ready();
+    const existingMap=document.querySelector('.persistent-map');
+    const discovery=document.querySelector('#scene-discovery');window.scrollBy({top:discovery.getBoundingClientRect().top-innerHeight*.35,behavior:'instant'});
+    await wait(()=>new URL(location.href).searchParams.get('view')==='discovery');await ready();
+    assert(document.querySelector('.persistent-map')===existingMap,'Native scroll continuously retains map into Discovery');
+    receipt.timings=performance.getEntriesByType('measure').filter(e=>e.name.includes('navigation-to-frame')||e.name.includes('request-to-frame')).map(e=>({name:e.name,duration:e.duration}));
+  }catch(error){receipt.failed.push(error.message);}
+  return receipt;
+})()

@@ -1,0 +1,241 @@
+Final source check passes; explicit boolean language approvals required. Existing asset/static/release stages run for four outputs.
+
+saigon-centre fixture=false: node scripts/prepare-assets.mjs
+{"mall":"saigon-centre","sha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","variants":[{"encoding":"identity","url":"/models/exterior.glb","bytes":2000796,"sha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true},{"encoding":"br","url":"/models/exterior.glb.br","bytes":205547,"sha256":"9eff575af59ccd8820139e547dcb43f9a43a12fa7509f522e7ce747b5a3cf9a0","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true,"quality":5},{"encoding":"gzip","url":"/models/exterior.glb.gz","bytes":271536,"sha256":"7389f4b960058a9047e9c2565f3a0f023c7170701b627e0c0a9bba54e3d28681","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true}]}
+
+Restored original license bytes in staging: BeVietnamPro-OFL.txt
+Restored original license bytes in staging: Manrope-OFL.txt
+
+saigon-centre fixture=false: node node_modules/astro/./bin/astro.mjs build
+06:05:58 [types] Generated 101ms
+06:05:58 [build] output: "static"
+06:05:58 [build] mode: "static"
+06:05:58 [build] directory: D:\Midterm\implementation\mall-visitor\dist\saigon-centre\
+06:05:58 [build] Collecting build info...
+06:05:58 [build] ✓ Completed in 199ms.
+06:05:58 [build] Building static entrypoints...
+06:05:58 [vite] ✓ built in 362ms
+06:05:59 [WARN] [vite] [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+06:05:59 [vite] ✓ built in 536ms
+06:05:59 [build] Rearranging server assets...
+
+ generating static routes 
+06:05:59   ├─ /404.html (+37ms) 
+06:05:59   ├─ /vi/index.html (+48ms) 
+06:05:59   ├─ /vi/tang/B2/index.html (+34ms) 
+06:05:59   ├─ /vi/tang/B1/index.html (+44ms) 
+06:05:59   ├─ /vi/tang/L1/index.html (+33ms) 
+06:05:59   ├─ /vi/tang/L2/index.html (+36ms) 
+06:05:59   ├─ /vi/tang/L3/index.html (+33ms) 
+06:05:59   ├─ /vi/tang/L4/index.html (+21ms) 
+06:05:59   ├─ /vi/tang/L5/index.html (+27ms) 
+06:05:59   ├─ /vi/tang/L6/index.html (+19ms) 
+06:05:59   ├─ /vi/404/index.html (+3ms) 
+06:05:59   ├─ /en/index.html (+26ms) 
+06:05:59   ├─ /en/floors/B2/index.html (+32ms) 
+06:06:00   ├─ /en/floors/B1/index.html (+38ms) 
+06:06:00   ├─ /en/floors/L1/index.html (+52ms) 
+06:06:00   ├─ /en/floors/L2/index.html (+29ms) 
+06:06:00   ├─ /en/floors/L3/index.html (+28ms) 
+06:06:00   ├─ /en/floors/L4/index.html (+17ms) 
+06:06:00   ├─ /en/floors/L5/index.html (+28ms) 
+06:06:00   ├─ /en/floors/L6/index.html (+23ms) 
+06:06:00   ├─ /en/404/index.html (+3ms) 
+06:06:00   ├─ /index.html (+5ms) 
+06:06:00 ✓ Completed in 823ms.
+
+06:06:00 [build] ✓ Completed in 1.83s.
+06:06:00 [build] 22 page(s) built in 2.07s
+06:06:00 [build] Complete!
+
+
+saigon-centre fixture=false: node scripts/prepare-static-release.mjs
+{"mall":"saigon-centre","fixture":false,"assetCount":50,"largestAsset":{"path":"dist\\saigon-centre\\data\\floor-geometry.json","bytes":5181012},"directoryApproval":"pending","siteOrigin":null,"releaseApproved":false}
+
+
+vincom-dong-khoi fixture=false: node scripts/prepare-assets.mjs
+{"mall":"vincom-dong-khoi","sha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","variants":[{"encoding":"identity","url":"/models/exterior.glb","bytes":4797176,"sha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","decodedSha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","roundtripExact":true},{"encoding":"br","url":"/models/exterior.glb.br","bytes":1199582,"sha256":"ebd671f8b7e275b152916c9cb39d66e7f247f05a63f293c842bc1aa1a2c98a42","decodedSha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","roundtripExact":true,"quality":5},{"encoding":"gzip","url":"/models/exterior.glb.gz","bytes":1400594,"sha256":"34e5c6b8d959412de1f57b05ae6ab530216ef4720c702704b94abf7df19a5206","decodedSha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","roundtripExact":true}]}
+
+Restored original license bytes in staging: BeVietnamPro-OFL.txt
+Restored original license bytes in staging: Manrope-OFL.txt
+
+vincom-dong-khoi fixture=false: node node_modules/astro/./bin/astro.mjs build
+06:06:03 [types] Generated 100ms
+06:06:03 [build] output: "static"
+06:06:03 [build] mode: "static"
+06:06:03 [build] directory: D:\Midterm\implementation\mall-visitor\dist\vincom-dong-khoi\
+06:06:03 [build] Collecting build info...
+06:06:03 [build] ✓ Completed in 173ms.
+06:06:03 [build] Building static entrypoints...
+06:06:04 [vite] ✓ built in 308ms
+06:06:04 [WARN] [vite] [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+06:06:04 [vite] ✓ built in 683ms
+06:06:04 [build] Rearranging server assets...
+
+ generating static routes 
+06:06:04   ├─ /404.html (+18ms) 
+06:06:04   ├─ /vi/index.html (+34ms) 
+06:06:04   ├─ /vi/tang/B3/index.html (+16ms) 
+06:06:04   ├─ /vi/tang/B2/index.html (+20ms) 
+06:06:04   ├─ /vi/tang/B1/index.html (+15ms) 
+06:06:04   ├─ /vi/tang/L1/index.html (+10ms) 
+06:06:04   ├─ /vi/tang/M/index.html (+6ms) 
+06:06:04   ├─ /vi/tang/L2/index.html (+31ms) 
+06:06:04   ├─ /vi/tang/L3/index.html (+17ms) 
+06:06:05   ├─ /vi/404/index.html (+9ms) 
+06:06:05   ├─ /en/index.html (+11ms) 
+06:06:05   ├─ /en/floors/B3/index.html (+19ms) 
+06:06:05   ├─ /en/floors/B2/index.html (+8ms) 
+06:06:05   ├─ /en/floors/B1/index.html (+22ms) 
+06:06:05   ├─ /en/floors/L1/index.html (+7ms) 
+06:06:05   ├─ /en/floors/M/index.html (+5ms) 
+06:06:05   ├─ /en/floors/L2/index.html (+5ms) 
+06:06:05   ├─ /en/floors/L3/index.html (+11ms) 
+06:06:05   ├─ /en/404/index.html (+3ms) 
+06:06:05   ├─ /index.html (+9ms) 
+06:06:05 ✓ Completed in 373ms.
+
+06:06:05 [build] ✓ Completed in 1.45s.
+06:06:05 [build] 20 page(s) built in 1.65s
+06:06:05 [build] Complete!
+
+
+vincom-dong-khoi fixture=false: node scripts/prepare-static-release.mjs
+{"mall":"vincom-dong-khoi","fixture":false,"assetCount":47,"largestAsset":{"path":"dist\\vincom-dong-khoi\\models\\exterior.glb","bytes":4797176},"directoryApproval":"pending","siteOrigin":null,"releaseApproved":false}
+
+
+saigon-centre fixture=true: node scripts/prepare-assets.mjs
+{"mall":"saigon-centre","sha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","variants":[{"encoding":"identity","url":"/models/exterior.glb","bytes":2000796,"sha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true},{"encoding":"br","url":"/models/exterior.glb.br","bytes":205547,"sha256":"9eff575af59ccd8820139e547dcb43f9a43a12fa7509f522e7ce747b5a3cf9a0","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true,"quality":5},{"encoding":"gzip","url":"/models/exterior.glb.gz","bytes":271536,"sha256":"7389f4b960058a9047e9c2565f3a0f023c7170701b627e0c0a9bba54e3d28681","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true}]}
+
+Restored original license bytes in staging: BeVietnamPro-OFL.txt
+Restored original license bytes in staging: Manrope-OFL.txt
+
+saigon-centre fixture=true: node node_modules/astro/./bin/astro.mjs build
+06:06:09 [types] Generated 105ms
+06:06:09 [build] output: "static"
+06:06:09 [build] mode: "static"
+06:06:09 [build] directory: D:\Midterm\implementation\mall-visitor\dist\fixtures\saigon-centre\
+06:06:09 [build] Collecting build info...
+06:06:09 [build] ✓ Completed in 184ms.
+06:06:09 [build] Building static entrypoints...
+06:06:09 [vite] ✓ built in 355ms
+06:06:10 [WARN] [vite] [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+06:06:10 [vite] ✓ built in 712ms
+06:06:10 [build] Rearranging server assets...
+
+ generating static routes 
+06:06:10   ├─ /404.html (+44ms) 
+06:06:10   ├─ /vi/index.html (+61ms) 
+06:06:10   ├─ /vi/tang/B2/index.html (+36ms) 
+06:06:10   ├─ /vi/tang/B1/index.html (+37ms) 
+06:06:10   ├─ /vi/tang/L1/index.html (+31ms) 
+06:06:10   ├─ /vi/tang/L2/index.html (+37ms) 
+06:06:10   ├─ /vi/tang/L3/index.html (+40ms) 
+06:06:11   ├─ /vi/tang/L4/index.html (+19ms) 
+06:06:11   ├─ /vi/tang/L5/index.html (+29ms) 
+06:06:11   ├─ /vi/tang/L6/index.html (+21ms) 
+06:06:11   ├─ /vi/cua-hang/loading-test-store/index.html (+57ms) 
+06:06:11   ├─ /vi/cua-hang/test-cafe/index.html (+53ms) 
+06:06:11   ├─ /vi/cua-hang/test-coffee/index.html (+29ms) 
+06:06:11   ├─ /vi/cua-hang/test-unknown/index.html (+29ms) 
+06:06:11   ├─ /vi/404/index.html (+2ms) 
+06:06:11   ├─ /en/index.html (+27ms) 
+06:06:11   ├─ /en/floors/B2/index.html (+33ms) 
+06:06:11   ├─ /en/floors/B1/index.html (+27ms) 
+06:06:11   ├─ /en/floors/L1/index.html (+28ms) 
+06:06:11   ├─ /en/floors/L2/index.html (+40ms) 
+06:06:11   ├─ /en/floors/L3/index.html (+54ms) 
+06:06:11   ├─ /en/floors/L4/index.html (+24ms) 
+06:06:11   ├─ /en/floors/L5/index.html (+29ms) 
+06:06:11   ├─ /en/floors/L6/index.html (+16ms) 
+06:06:11   ├─ /en/stores/loading-test-store/index.html (+56ms) 
+06:06:11   ├─ /en/stores/test-cafe/index.html (+28ms) 
+06:06:11   ├─ /en/stores/test-coffee/index.html (+27ms) 
+06:06:11   ├─ /en/stores/test-unknown/index.html (+36ms) 
+06:06:11   ├─ /en/404/index.html (+3ms) 
+06:06:11   ├─ /index.html (+5ms) 
+06:06:11 ✓ Completed in 1.17s.
+
+06:06:11 [build] ✓ Completed in 2.36s.
+06:06:11 [build] 30 page(s) built in 2.57s
+06:06:11 [build] Complete!
+
+
+saigon-centre fixture=true: node scripts/prepare-static-release.mjs
+{"mall":"saigon-centre","fixture":true,"assetCount":58,"largestAsset":{"path":"dist\\fixtures\\saigon-centre\\data\\floor-geometry.json","bytes":5181012},"directoryApproval":"fixture","siteOrigin":null,"releaseApproved":false}
+
+
+vincom-dong-khoi fixture=true: node scripts/prepare-assets.mjs
+{"mall":"vincom-dong-khoi","sha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","variants":[{"encoding":"identity","url":"/models/exterior.glb","bytes":4797176,"sha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","decodedSha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","roundtripExact":true},{"encoding":"br","url":"/models/exterior.glb.br","bytes":1199582,"sha256":"ebd671f8b7e275b152916c9cb39d66e7f247f05a63f293c842bc1aa1a2c98a42","decodedSha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","roundtripExact":true,"quality":5},{"encoding":"gzip","url":"/models/exterior.glb.gz","bytes":1400594,"sha256":"34e5c6b8d959412de1f57b05ae6ab530216ef4720c702704b94abf7df19a5206","decodedSha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","roundtripExact":true}]}
+
+Restored original license bytes in staging: BeVietnamPro-OFL.txt
+Restored original license bytes in staging: Manrope-OFL.txt
+
+vincom-dong-khoi fixture=true: node node_modules/astro/./bin/astro.mjs build
+06:06:15 [types] Generated 101ms
+06:06:15 [build] output: "static"
+06:06:15 [build] mode: "static"
+06:06:15 [build] directory: D:\Midterm\implementation\mall-visitor\dist\fixtures\vincom-dong-khoi\
+06:06:15 [build] Collecting build info...
+06:06:15 [build] ✓ Completed in 189ms.
+06:06:15 [build] Building static entrypoints...
+06:06:15 [vite] ✓ built in 346ms
+06:06:16 [WARN] [vite] [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+06:06:16 [vite] ✓ built in 709ms
+06:06:16 [build] Rearranging server assets...
+
+ generating static routes 
+06:06:16   ├─ /404.html (+24ms) 
+06:06:16   ├─ /vi/index.html (+40ms) 
+06:06:16   ├─ /vi/tang/B3/index.html (+16ms) 
+06:06:16   ├─ /vi/tang/B2/index.html (+64ms) 
+06:06:16   ├─ /vi/tang/B1/index.html (+41ms) 
+06:06:16   ├─ /vi/tang/L1/index.html (+48ms) 
+06:06:16   ├─ /vi/tang/M/index.html (+8ms) 
+06:06:16   ├─ /vi/tang/L2/index.html (+9ms) 
+06:06:16   ├─ /vi/tang/L3/index.html (+9ms) 
+06:06:16   ├─ /vi/cua-hang/loading-test-store/index.html (+11ms) 
+06:06:16   ├─ /vi/cua-hang/test-cafe/index.html (+7ms) 
+06:06:16   ├─ /vi/cua-hang/test-coffee/index.html (+7ms) 
+06:06:16   ├─ /vi/cua-hang/test-unknown/index.html (+6ms) 
+06:06:16   ├─ /vi/404/index.html (+2ms) 
+06:06:16   ├─ /en/index.html (+11ms) 
+06:06:16   ├─ /en/floors/B3/index.html (+9ms) 
+06:06:16   ├─ /en/floors/B2/index.html (+9ms) 
+06:06:16   ├─ /en/floors/B1/index.html (+10ms) 
+06:06:16   ├─ /en/floors/L1/index.html (+7ms) 
+06:06:16   ├─ /en/floors/M/index.html (+7ms) 
+06:06:16   ├─ /en/floors/L2/index.html (+7ms) 
+06:06:16   ├─ /en/floors/L3/index.html (+13ms) 
+06:06:16   ├─ /en/stores/loading-test-store/index.html (+9ms) 
+06:06:16   ├─ /en/stores/test-cafe/index.html (+6ms) 
+06:06:16   ├─ /en/stores/test-coffee/index.html (+8ms) 
+06:06:16   ├─ /en/stores/test-unknown/index.html (+7ms) 
+06:06:16   ├─ /en/404/index.html (+3ms) 
+06:06:16   ├─ /index.html (+6ms) 
+06:06:16 ✓ Completed in 545ms.
+
+06:06:16 [build] ✓ Completed in 1.69s.
+06:06:16 [build] 28 page(s) built in 1.91s
+06:06:16 [build] Complete!
+
+
+vincom-dong-khoi fixture=true: node scripts/prepare-static-release.mjs
+{"mall":"vincom-dong-khoi","fixture":true,"assetCount":55,"largestAsset":{"path":"dist\\fixtures\\vincom-dong-khoi\\models\\exterior.glb","bytes":4797176},"directoryApproval":"fixture","siteOrigin":null,"releaseApproved":false}
+
