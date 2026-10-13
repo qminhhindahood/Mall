@@ -32,6 +32,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const sceneHosts = useRef<Partial<Record<SceneKind,HTMLDivElement>>>({});
   const sections = useRef<Partial<Record<SceneKind,HTMLElement>>>({});
   const requestSerial = useRef(0);
+  const pendingFocus = useRef<SceneKind|null>(null);
   latest.current = selection;
   const c = copy[selection.locale];
   const floor = geometry.floors.find(f => f.id === selection.floorId)!;
@@ -105,16 +106,20 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     setLoad('loading');
     instance.show(selection).then(() => { if (serial === requestSerial.current) setLoad('ready'); }).catch(() => { if (serial === requestSerial.current) setLoad('failed'); });
   }, [selection.kind, selection.floorId]);
+  useEffect(()=>{
+    if (!pendingFocus.current || load==='loading' || load==='static') return;
+    const section = sections.current[pendingFocus.current];
+    pendingFocus.current=null;
+    section?.focus({preventScroll:true});
+    section?.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
+  },[selection,load]);
   function navigate(next: ExplorerSelection, event: React.MouseEvent<HTMLAnchorElement>) {
     if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
     event.preventDefault();
     history.pushState(null,'',href(next));
+    if (next.locale === selection.locale) pendingFocus.current = next.kind;
     setSelection(next);
     // Locale switches preserve focus on the same language control. View changes go to the new content.
-    if (next.locale === selection.locale) requestAnimationFrame(() => {
-      sections.current[next.kind]?.focus({preventScroll:true});
-      sections.current[next.kind]?.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
-    });
   }
   const change = (kind: SceneKind, floorId=selection.floorId): ExplorerSelection => ({...selection,kind,floorId,destinationId:undefined});
   return <>
