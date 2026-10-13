@@ -27,4 +27,5 @@ export type SceneRuntimeOptions = {
   canvas: HTMLCanvasElement; mallId: MallId; data: FloorDataset;
   assetRevision: string; exteriorUrl: string; modelBytes?: Promise<ArrayBuffer>;
   reducedMotion: boolean; onStatus(status: PreparedSceneStatus): void;
+  sceneHosts?: Record<SceneKind, HTMLElement>;
 };
