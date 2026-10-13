@@ -1,0 +1,276 @@
+{
+  "revision": "source-palette-schematic-2026-10-13-r1",
+  "status": "estimated; source geometry and exterior registration review pending",
+  "floors": [
+    {
+      "mall": "saigon-centre",
+      "floor": "B2",
+      "sourceSha256": "92e959288b957497e3859fb2db80f0657ecb590fd2268c4948a57bdd18ea8497",
+      "regionCount": 86,
+      "vertexCount": 52755,
+      "minimumPixelArea": 144,
+      "excludedComponents": 28566,
+      "excludedPixelArea": 1704.5,
+      "bounds": [
+        -35.1,
+        -31.42,
+        36.2,
+        40.62
+      ],
+      "manualOverlay": "pending owner review; automatically generated outlines inspected as candidate only",
+      "holeCount": 0
+    },
+    {
+      "mall": "saigon-centre",
+      "floor": "B1",
+      "sourceSha256": "eeda80dda33eb7ec301881b86603b04b0fd03a16750b14dee25c7a1d99ca4afe",
+      "regionCount": 90,
+      "vertexCount": 54217,
+      "minimumPixelArea": 144,
+      "excludedComponents": 25250,
+      "excludedPixelArea": 1737.5,
+      "bounds": [
+        -38.04,
+        -31.4,
+        38.54,
+        39.52
+      ],
+      "manualOverlay": "pending owner review; automatically generated outlines inspected as candidate only",
+      "holeCount": 0
+    },
+    {
+      "mall": "saigon-centre",
+      "floor": "L1",
+      "sourceSha256": "d7c4697eb9399e8d768586b01139295cf90c3607ba44e690a031c0aaf5eba89b",
+      "regionCount": 114,
+      "vertexCount": 44444,
+      "minimumPixelArea": 144,
+      "excludedComponents": 28849,
+      "excludedPixelArea": 2512.5,
+      "bounds": [
+        -35.1,
+        -40.9,
+        27.26,
+        27.14
+      ],
+      "manualOverlay": "pending owner review; automatically generated outlines inspected as candidate only",
+      "holeCount": 0
+    },
+    {
+      "mall": "saigon-centre",
+      "floor": "L2",
+      "sourceSha256": "4749dd738ea148407c334396183ef917711f4ff10fbfaa796a7ff6f31ede4fd5",
+      "regionCount": 108,
+      "vertexCount": 61417,
+      "minimumPixelArea": 144,
+      "excludedComponents": 26595,
+      "excludedPixelArea": 2136.0,
+      "bounds": [
+        -33.34,
+        -37.82,
+        32.74,
+        36.5
+      ],
+      "manualOverlay": "pending owner review; automatically generated outlines inspected as candidate only",
+      "holeCount": 0
+    },
+    {
+      "mall": "saigon-centre",
+      "floor": "L3",
+      "sourceSha256": "905e5de4c90debbabddd8a7fadf9e47b5084bf6b01703ba5450b9e8603763ab8",
+      "regionCount": 148,
+      "vertexCount": 65576,
+      "minimumPixelArea": 144,
+      "excludedComponents": 36161,
+      "excludedPixelArea": 3069.0,
+      "bounds": [
+        -34.34,
+        -38.56,
+        34.18,
+        34.9
+      ],
+      "manualOverlay": "pending owner review; automatically generated outlines inspected as candidate only",
+      "holeCount": 0
+    },
+    {
+      "mall": "saigon-centre",
+      "floor": "L4",
+      "sourceSha256": "e97069f721f384d6e37bc7896d8e95344d1f5cc153e17eb9d3c844a11c046f60",
+      "regionCount": 33,
+      "vertexCount": 26875,
+      "minimumPixelArea": 144,
+      "excludedComponents": 14227,
+      "excludedPixelArea": 202.5,
+      "bounds": [
+        -35.54,
+        -38.16,
+        35.12,
+        38.46
+      ],
+      "manualOverlay": "pending owner review; automatically generated outlines inspected as candidate only",
+      "holeCount": 0
+    },
+    {
+      "mall": "saigon-centre",
+      "floor": "L5",
+      "sourceSha256": "4abefc8f9c34f1fa3c0f9076e5b4b9c5689505d783d6a843a37078f2a6b712c5",
+      "regionCount": 52,
+      "vertexCount": 43509,
+      "minimumPixelArea": 144,
+      "excludedComponents": 12907,
+      "excludedPixelArea": 474.0,
+      "bounds": [
+        -34.56,
+        -31.24,
+        34.34,
+        31.2
+      ],
+      "manualOverlay": "pending owner review; automatically generated outlines inspected as candidate only",
+      "holeCount": 0
+    },
+    {
+      "mall": "saigon-centre",
+      "floor": "L6",
+      "sourceSha256": "94ecc7542a08d96cdf14fc43efcbd6c26ff753c59be135867d4092c33187e4f6",
+      "regionCount": 10,
+      "vertexCount": 16240,
+      "minimumPixelArea": 144,
+      "excludedComponents": 14388,
+      "excludedPixelArea": 326.0,
+      "bounds": [
+        -35.62,
+        -35.42,
+        23.66,
+        28.84
+      ],
+      "manualOverlay": "pending owner review; automatically generated outlines inspected as candidate only",
+      "holeCount": 0
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "floor": "B3",
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+      "regionCount": 39,
+      "vertexCount": 2955,
+      "minimumPixelArea": 40,
+      "excludedComponents": 297,
+      "excludedPixelArea": 306.5,
+      "bounds": [
+        -57.0,
+        -35.35,
+        2.4,
+        36.15
+      ],
+      "manualOverlay": "pending owner review; automatically generated outlines inspected as candidate only",
+      "holeCount": 0
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "floor": "B2",
+      "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+      "regionCount": 57,
+      "vertexCount": 4256,
+      "minimumPixelArea": 40,
+      "excludedComponents": 234,
+      "excludedPixelArea": 226.5,
+      "bounds": [
+        -53.45,
+        -34.35,
+        5.25,
+        34.75
+      ],
+      "manualOverlay": "pending owner review; automatically generated outlines inspected as candidate only",
+      "holeCount": 0
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "floor": "B1",
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+      "regionCount": 47,
+      "vertexCount": 3295,
+      "minimumPixelArea": 40,
+      "excludedComponents": 92,
+      "excludedPixelArea": 158.5,
+      "bounds": [
+        -53.6,
+        -35.35,
+        5.9,
+        34.45
+      ],
+      "manualOverlay": "pending owner review; automatically generated outlines inspected as candidate only",
+      "holeCount": 0
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "floor": "L1",
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+      "regionCount": 18,
+      "vertexCount": 804,
+      "minimumPixelArea": 40,
+      "excludedComponents": 70,
+      "excludedPixelArea": 62.0,
+      "bounds": [
+        -57.0,
+        -29.75,
+        8.4,
+        30.35
+      ],
+      "manualOverlay": "pending owner review; automatically generated outlines inspected as candidate only",
+      "holeCount": 0
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "floor": "M",
+      "sourceSha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530",
+      "regionCount": 14,
+      "vertexCount": 755,
+      "minimumPixelArea": 40,
+      "excludedComponents": 52,
+      "excludedPixelArea": 77.5,
+      "bounds": [
+        -55.55,
+        -30.3,
+        8.45,
+        23.8
+      ],
+      "manualOverlay": "pending owner review; automatically generated outlines inspected as candidate only",
+      "holeCount": 0
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "floor": "L2",
+      "sourceSha256": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029",
+      "regionCount": 11,
+      "vertexCount": 702,
+      "minimumPixelArea": 40,
+      "excludedComponents": 58,
+      "excludedPixelArea": 153.0,
+      "bounds": [
+        -55.7,
+        -32.3,
+        8.4,
+        22.0
+      ],
+      "manualOverlay": "pending owner review; automatically generated outlines inspected as candidate only",
+      "holeCount": 0
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "floor": "L3",
+      "sourceSha256": "629d9860433bacc381daede046513190e2d6877bf88f99907eafb3f0794bbc70",
+      "regionCount": 18,
+      "vertexCount": 1010,
+      "minimumPixelArea": 40,
+      "excludedComponents": 109,
+      "excludedPixelArea": 153.0,
+      "bounds": [
+        -55.95,
+        -31.95,
+        8.45,
+        21.05
+      ],
+      "manualOverlay": "pending owner review; automatically generated outlines inspected as candidate only",
+      "holeCount": 0
+    }
+  ]
+}
