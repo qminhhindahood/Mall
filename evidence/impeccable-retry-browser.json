@@ -1,0 +1,959 @@
+{
+  "recordedAt": "2026-10-13T14:29:29.904Z",
+  "browser": "149.0.7827.198",
+  "mode": "Standalone headless Chrome; fallback after explicit T3 preview_open no-host error",
+  "runs": [
+    {
+      "mall": "saigon",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "errors": [],
+      "entry": {
+        "frame": "37",
+        "floor": "L5",
+        "profile": {
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+          "dpr": 1,
+          "visibility": "visible"
+        },
+        "timings": [
+          {
+            "name": "mall-loading:navigation-to-frame:2",
+            "duration": 5637,
+            "detail": {
+              "operation": "navigation-to-frame",
+              "mallId": "saigon-centre",
+              "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+              "attempt": 0,
+              "locale": "en",
+              "floorId": "L5",
+              "kind": "exterior",
+              "completeFrame": "37",
+              "outcome": "ready"
+            }
+          },
+          {
+            "name": "mall-loading:entry-to-frame:1",
+            "duration": 5090.0999999996275,
+            "detail": {
+              "operation": "entry-to-frame",
+              "mallId": "saigon-centre",
+              "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+              "attempt": 0,
+              "locale": "en",
+              "floorId": "L5",
+              "kind": "exterior",
+              "completeFrame": "37",
+              "outcome": "ready"
+            }
+          }
+        ],
+        "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      "journey": {
+        "pass": true,
+        "results": [
+          {
+            "floor": "B2",
+            "frame": "40"
+          },
+          {
+            "floor": "B1",
+            "frame": "46"
+          },
+          {
+            "floor": "L1",
+            "frame": "50"
+          },
+          {
+            "floor": "L2",
+            "frame": "54"
+          },
+          {
+            "floor": "L3",
+            "frame": "59"
+          },
+          {
+            "floor": "L4",
+            "frame": "63"
+          },
+          {
+            "floor": "L5",
+            "frame": "67"
+          },
+          {
+            "floor": "L6",
+            "frame": "71"
+          }
+        ],
+        "href": "http://localhost:4253/vi?floor=L6&view=discovery",
+        "viewport": [
+          1280,
+          800
+        ]
+      },
+      "focus": {
+        "pass": true,
+        "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+        "focus": "scene-map",
+        "frame": "75",
+        "visibility": "visible"
+      },
+      "controls": {
+        "width": 1280,
+        "overflow": false,
+        "links": [
+          {
+            "text": "English",
+            "width": 55.140625,
+            "height": 20,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Ngoại cảnh",
+            "width": 122.984375,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tổng quan tầng",
+            "width": 155.578125,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "width": 119.578125,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Khám phá",
+            "width": 112.828125,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng B2",
+            "width": 500,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng B1",
+            "width": 500,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L1",
+            "width": 500,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L2",
+            "width": 500,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L3",
+            "width": 500,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L4",
+            "width": 500,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L5",
+            "width": 500,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L6",
+            "width": 500,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "B2",
+            "width": 55.203125,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "B1",
+            "width": 50.953125,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L1",
+            "width": 50.15625,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L2",
+            "width": 54.40625,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L3",
+            "width": 54.546875,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L4",
+            "width": 53.90625,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L5",
+            "width": 54.546875,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L6",
+            "width": 54.234375,
+            "height": 46.78125,
+            "fontSize": "16px"
+          }
+        ],
+        "headings": [
+          {
+            "text": "Saigon Centre",
+            "font": "Guide, system-ui, sans-serif"
+          },
+          {
+            "text": "Ngoại cảnh",
+            "font": "Guide, system-ui, sans-serif"
+          },
+          {
+            "text": "Tổng quan tầng",
+            "font": "Guide, system-ui, sans-serif"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "mall": "saigon",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "errors": [],
+      "entry": {
+        "frame": "37",
+        "floor": "L5",
+        "profile": {
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+          "dpr": 1,
+          "visibility": "visible"
+        },
+        "timings": [
+          {
+            "name": "mall-loading:navigation-to-frame:2",
+            "duration": 2210.2999999998137,
+            "detail": {
+              "operation": "navigation-to-frame",
+              "mallId": "saigon-centre",
+              "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+              "attempt": 0,
+              "locale": "en",
+              "floorId": "L5",
+              "kind": "exterior",
+              "completeFrame": "37",
+              "outcome": "ready"
+            }
+          },
+          {
+            "name": "mall-loading:entry-to-frame:1",
+            "duration": 1711.5,
+            "detail": {
+              "operation": "entry-to-frame",
+              "mallId": "saigon-centre",
+              "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+              "attempt": 0,
+              "locale": "en",
+              "floorId": "L5",
+              "kind": "exterior",
+              "completeFrame": "37",
+              "outcome": "ready"
+            }
+          }
+        ],
+        "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      "journey": {
+        "pass": true,
+        "results": [
+          {
+            "floor": "B2",
+            "frame": "40"
+          },
+          {
+            "floor": "B1",
+            "frame": "47"
+          },
+          {
+            "floor": "L1",
+            "frame": "51"
+          },
+          {
+            "floor": "L2",
+            "frame": "55"
+          },
+          {
+            "floor": "L3",
+            "frame": "59"
+          },
+          {
+            "floor": "L4",
+            "frame": "63"
+          },
+          {
+            "floor": "L5",
+            "frame": "67"
+          },
+          {
+            "floor": "L6",
+            "frame": "71"
+          }
+        ],
+        "href": "http://localhost:4253/vi?floor=L6&view=discovery",
+        "viewport": [
+          390,
+          844
+        ]
+      },
+      "focus": {
+        "pass": true,
+        "href": "http://localhost:4253/vi/tang/L2?floor=L2&view=map",
+        "focus": "scene-map",
+        "frame": "75",
+        "visibility": "visible"
+      },
+      "controls": {
+        "width": 390,
+        "overflow": false,
+        "links": [
+          {
+            "text": "English",
+            "width": 49.625,
+            "height": 18,
+            "fontSize": "14.4px"
+          },
+          {
+            "text": "Ngoại cảnh",
+            "width": 113.359375,
+            "height": 43.59375,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tổng quan tầng",
+            "width": 145.953125,
+            "height": 43.59375,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "width": 109.953125,
+            "height": 43.59375,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Khám phá",
+            "width": 103.203125,
+            "height": 43.59375,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng B2",
+            "width": 284.796875,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng B1",
+            "width": 284.796875,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L1",
+            "width": 284.796875,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L2",
+            "width": 284.796875,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L3",
+            "width": 284.796875,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L4",
+            "width": 284.796875,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L5",
+            "width": 284.796875,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L6",
+            "width": 284.796875,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "B2",
+            "width": 55.203125,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "B1",
+            "width": 50.953125,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L1",
+            "width": 50.15625,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L2",
+            "width": 54.40625,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L3",
+            "width": 54.546875,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L4",
+            "width": 53.90625,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L5",
+            "width": 54.546875,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L6",
+            "width": 54.234375,
+            "height": 46.78125,
+            "fontSize": "16px"
+          }
+        ],
+        "headings": [
+          {
+            "text": "Saigon Centre",
+            "font": "Guide, system-ui, sans-serif"
+          },
+          {
+            "text": "Ngoại cảnh",
+            "font": "Guide, system-ui, sans-serif"
+          },
+          {
+            "text": "Tổng quan tầng",
+            "font": "Guide, system-ui, sans-serif"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "mall": "vincom",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "errors": [],
+      "entry": {
+        "frame": "37",
+        "floor": "B2",
+        "profile": {
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+          "dpr": 1,
+          "visibility": "visible"
+        },
+        "timings": [
+          {
+            "name": "mall-loading:navigation-to-frame:2",
+            "duration": 1980.9000000003725,
+            "detail": {
+              "operation": "navigation-to-frame",
+              "mallId": "vincom-dong-khoi",
+              "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+              "attempt": 0,
+              "locale": "en",
+              "floorId": "B2",
+              "kind": "exterior",
+              "completeFrame": "37",
+              "outcome": "ready"
+            }
+          },
+          {
+            "name": "mall-loading:entry-to-frame:1",
+            "duration": 1495.5,
+            "detail": {
+              "operation": "entry-to-frame",
+              "mallId": "vincom-dong-khoi",
+              "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+              "attempt": 0,
+              "locale": "en",
+              "floorId": "B2",
+              "kind": "exterior",
+              "completeFrame": "37",
+              "outcome": "ready"
+            }
+          }
+        ],
+        "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      "journey": {
+        "pass": true,
+        "results": [
+          {
+            "floor": "B3",
+            "frame": "41"
+          },
+          {
+            "floor": "B2",
+            "frame": "48"
+          },
+          {
+            "floor": "B1",
+            "frame": "52"
+          },
+          {
+            "floor": "L1",
+            "frame": "56"
+          },
+          {
+            "floor": "M",
+            "frame": "61"
+          },
+          {
+            "floor": "L2",
+            "frame": "65"
+          },
+          {
+            "floor": "L3",
+            "frame": "67"
+          }
+        ],
+        "href": "http://localhost:4254/vi?floor=L3&view=discovery",
+        "viewport": [
+          1280,
+          800
+        ]
+      },
+      "focus": {
+        "pass": true,
+        "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+        "focus": "scene-map",
+        "frame": "71",
+        "visibility": "visible"
+      },
+      "controls": {
+        "width": 1280,
+        "overflow": false,
+        "links": [
+          {
+            "text": "English",
+            "width": 55.140625,
+            "height": 20,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Ngoại cảnh",
+            "width": 122.984375,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tổng quan tầng",
+            "width": 155.578125,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "width": 119.578125,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Khám phá",
+            "width": 112.828125,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng B3",
+            "width": 500,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng B2",
+            "width": 500,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng B1",
+            "width": 500,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L1",
+            "width": 500,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng M",
+            "width": 500,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L2",
+            "width": 500,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L3",
+            "width": 500,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "B3",
+            "width": 55.359375,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "B2",
+            "width": 55.203125,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "B1",
+            "width": 50.953125,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L1",
+            "width": 50.15625,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "M",
+            "width": 47.65625,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L2",
+            "width": 54.40625,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L3",
+            "width": 54.546875,
+            "height": 46.78125,
+            "fontSize": "16px"
+          }
+        ],
+        "headings": [
+          {
+            "text": "Vincom Center Đồng Khởi",
+            "font": "Guide, system-ui, sans-serif"
+          },
+          {
+            "text": "Ngoại cảnh",
+            "font": "Guide, system-ui, sans-serif"
+          },
+          {
+            "text": "Tổng quan tầng",
+            "font": "Guide, system-ui, sans-serif"
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "mall": "vincom",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "errors": [],
+      "entry": {
+        "frame": "37",
+        "floor": "B2",
+        "profile": {
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+          "dpr": 1,
+          "visibility": "visible"
+        },
+        "timings": [
+          {
+            "name": "mall-loading:navigation-to-frame:2",
+            "duration": 1326.3999999994412,
+            "detail": {
+              "operation": "navigation-to-frame",
+              "mallId": "vincom-dong-khoi",
+              "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+              "attempt": 0,
+              "locale": "en",
+              "floorId": "B2",
+              "kind": "exterior",
+              "completeFrame": "37",
+              "outcome": "ready"
+            }
+          },
+          {
+            "name": "mall-loading:entry-to-frame:1",
+            "duration": 815.5999999996275,
+            "detail": {
+              "operation": "entry-to-frame",
+              "mallId": "vincom-dong-khoi",
+              "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+              "attempt": 0,
+              "locale": "en",
+              "floorId": "B2",
+              "kind": "exterior",
+              "completeFrame": "37",
+              "outcome": "ready"
+            }
+          }
+        ],
+        "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      "journey": {
+        "pass": true,
+        "results": [
+          {
+            "floor": "B3",
+            "frame": "40"
+          },
+          {
+            "floor": "B2",
+            "frame": "47"
+          },
+          {
+            "floor": "B1",
+            "frame": "52"
+          },
+          {
+            "floor": "L1",
+            "frame": "57"
+          },
+          {
+            "floor": "M",
+            "frame": "62"
+          },
+          {
+            "floor": "L2",
+            "frame": "64"
+          },
+          {
+            "floor": "L3",
+            "frame": "66"
+          }
+        ],
+        "href": "http://localhost:4254/vi?floor=L3&view=discovery",
+        "viewport": [
+          390,
+          844
+        ]
+      },
+      "focus": {
+        "pass": true,
+        "href": "http://localhost:4254/vi/tang/L2?floor=L2&view=map",
+        "focus": "scene-map",
+        "frame": "70",
+        "visibility": "visible"
+      },
+      "controls": {
+        "width": 390,
+        "overflow": false,
+        "links": [
+          {
+            "text": "English",
+            "width": 49.625,
+            "height": 18,
+            "fontSize": "14.4px"
+          },
+          {
+            "text": "Ngoại cảnh",
+            "width": 113.359375,
+            "height": 43.59375,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tổng quan tầng",
+            "width": 145.953125,
+            "height": 43.59375,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "width": 109.953125,
+            "height": 43.59375,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Khám phá",
+            "width": 103.203125,
+            "height": 43.59375,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng B3",
+            "width": 284.796875,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng B2",
+            "width": 284.796875,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng B1",
+            "width": 284.796875,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L1",
+            "width": 284.796875,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng M",
+            "width": 284.796875,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L2",
+            "width": 284.796875,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "Tầng L3",
+            "width": 284.796875,
+            "height": 38.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "B3",
+            "width": 55.359375,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "B2",
+            "width": 55.203125,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "B1",
+            "width": 50.953125,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L1",
+            "width": 50.15625,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "M",
+            "width": 47.65625,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L2",
+            "width": 54.40625,
+            "height": 46.78125,
+            "fontSize": "16px"
+          },
+          {
+            "text": "L3",
+            "width": 54.546875,
+            "height": 46.78125,
+            "fontSize": "16px"
+          }
+        ],
+        "headings": [
+          {
+            "text": "Vincom Center Đồng Khởi",
+            "font": "Guide, system-ui, sans-serif"
+          },
+          {
+            "text": "Ngoại cảnh",
+            "font": "Guide, system-ui, sans-serif"
+          },
+          {
+            "text": "Tổng quan tầng",
+            "font": "Guide, system-ui, sans-serif"
+          }
+        ]
+      },
+      "pass": true
+    }
+  ]
+}

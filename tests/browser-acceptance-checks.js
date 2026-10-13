@@ -69,6 +69,19 @@ async function browserAcceptanceJourney(floors, defaultFloor) {
   acceptanceAssert(document.documentElement.scrollWidth<=innerWidth+1,'Viewport has horizontal overflow');
   return {pass:true,results,href:location.href,viewport:[innerWidth,innerHeight]};
 }
+async function browserViewFocusCheck() {
+  await browserAcceptanceReady();
+  document.querySelector('.floors a[href$="/L2"]').click();
+  await acceptanceWait(()=>!document.querySelector('.loading-screen')&&document.querySelector('canvas')?.dataset.sceneKey?.endsWith(':map:L2'),'L2 map frame');
+  await acceptanceWait(()=>document.activeElement===document.getElementById('scene-map'),'L2 map keyboard focus');
+  document.querySelector('.views a[href="#scene-discovery"]').click();
+  await acceptanceWait(()=>!document.querySelector('.loading-screen')&&document.querySelector('canvas')?.dataset.sceneKey?.endsWith(':discovery:L2'),'L2 Discovery frame');
+  await acceptanceWait(()=>document.activeElement===document.getElementById('scene-discovery'),'Discovery keyboard focus');
+  document.querySelector('.views a[href="#scene-map"]').click();
+  await acceptanceWait(()=>!document.querySelector('.loading-screen')&&document.querySelector('canvas')?.dataset.sceneKey?.endsWith(':map:L2'),'Reused map frame');
+  await acceptanceWait(()=>document.activeElement===document.getElementById('scene-map'),'Reused map keyboard focus');
+  return {pass:true,href:location.href,focus:document.activeElement.id,frame:document.querySelector('canvas').dataset.completeFrame,visibility:document.visibilityState};
+}
 function browserLoadingSample(label) {
   return {
     label, href: location.href, observedAt: new Date().toISOString(),

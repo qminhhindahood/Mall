@@ -22,6 +22,9 @@ function selectionFromUrl(url: URL, site: SiteData, fallback: ExplorerSelection)
 export default function Explorer({ site, initial }: { site: SiteData; initial: ExplorerSelection }) {
   const [selection,setSelection] = useState(initial);
   const [load,setLoad] = useState<'static'|'loading'|'ready'|'failed'>('static');
+  // Cached shows can finish in one React batch without changing `load`.
+  // Each accepted presentation must still commit its requested keyboard focus.
+  const [presentation,setPresentation] = useState(0);
   const [phase,setPhase] = useState('');
   const [attempt,setAttempt] = useState(0);
   const [paused,setPaused] = useState(false);
@@ -152,6 +155,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
         entered.current=true;
         document.querySelector<HTMLElement>('.static-guide')?.setAttribute('hidden','');
         setLoad('ready');
+        setPresentation(value=>value+1);
         pendingFocus.current=focusTarget(latest.current);focusRequest.current=latest.current;
         performance.mark('mall-loading:entry-ready');
         entryDone('ready', { ...latest.current, completeFrame: ownedCanvas.dataset.completeFrame });
@@ -179,7 +183,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     const done = requestTiming.current ?? timing('request-to-frame', { mallId: site.mallId, attempt, ...selection });
     requestTiming.current=null;
     setLoad('loading');
-    instance.show(selection).then(() => { done(serial === requestSerial.current ? 'ready' : 'stale'); if (serial === requestSerial.current) setLoad('ready'); }).catch(() => { done('failed'); if (serial === requestSerial.current) {entered.current=false;instance.dispose();runtime.current=null;setLoad('failed');} });
+    instance.show(selection).then(() => { done(serial === requestSerial.current ? 'ready' : 'stale'); if (serial === requestSerial.current) {setLoad('ready');setPresentation(value=>value+1);} }).catch(() => { done('failed'); if (serial === requestSerial.current) {entered.current=false;instance.dispose();runtime.current=null;setLoad('failed');} });
   }, [selection.kind, selection.floorId]);
   useEffect(()=>{
     const host=sceneHosts.current[selection.kind];if(!host)return;
@@ -207,7 +211,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     if(load==='ready'&&!canvas.current?.dataset.sceneKey?.endsWith(`:${requested.kind}:${floorKey}`))return;
     const target=focusTarget(requested);
     if(target?.isConnected){target.focus({preventScroll:true});target.scrollIntoView({behavior:'instant',block:'start'});focusRequest.current=null;pendingFocus.current=null;}
-  },[load,selection]);
+  },[load,selection,presentation]);
   function focusTarget(next: ExplorerSelection) { return next.destinationId ? destinationContent.current : sections.current[next.kind] ?? null; }
   function beginRequest(next: ExplorerSelection) {
     if (!entered.current || next.kind===latest.current.kind && next.floorId===latest.current.floorId) return;
