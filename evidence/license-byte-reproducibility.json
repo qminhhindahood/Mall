@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-13",
+  "kind": "artifact-byte prerequisite; not browser behavior or private unit suite",
+  "integrationBase": "8dc0c53bd8bc8ab54920aa5a1538122b35126a75",
+  "licenses": [
+    {
+      "name": "BeVietnamPro-OFL.txt",
+      "canonicalBytes": 4397,
+      "canonicalSha256": "6b7f8f73609a25ea78c891e34cf37b06f8a676b7ea986e941e43b009110f2a85",
+      "originalRepositoriesAgree": true,
+      "cleanCheckoutExact": true
+    },
+    {
+      "name": "Manrope-OFL.txt",
+      "canonicalBytes": 4386,
+      "canonicalSha256": "d6a309fcfb963d329a93baf9df66fa5f3c23a4be2b5f67edf24d6cafecde12ac",
+      "originalRepositoriesAgree": true,
+      "cleanCheckoutExact": true
+    }
+  ],
+  "manifests": {
+    "saigon-centre": {
+      "canonicalManifestSha256": "ce7fa5dc3d753bd033c8db0c07066ee9fdb25e99d6b17a03bbfc22344ad2d2de",
+      "cleanCheckoutByteIdentical": true,
+      "legacyCrlfManifestByteIdentical": true,
+      "legacyCrlfStagingMatchesExactSource": true
+    },
+    "vincom-dong-khoi": {
+      "canonicalManifestSha256": "aca63cd09f51a1c04c12c081fb45fb74e88043f076beaab3da6bde4efecdab91",
+      "cleanCheckoutByteIdentical": true,
+      "legacyCrlfManifestByteIdentical": true,
+      "legacyCrlfStagingMatchesExactSource": true
+    }
+  },
+  "actualContentDriftRejected": true,
+  "sourceRepositoriesReadOnly": true
+}

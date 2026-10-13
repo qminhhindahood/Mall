@@ -14,7 +14,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--sources', default='D:/Midterm')
 SOURCE = Path(parser.parse_args().sources)
 inventory = json.loads((SOURCE / 'docs/research/2026-10-12-floor-reference-inventory.json').read_text(encoding='utf8'))
-revision = 'source-palette-schematic-2026-10-13-r1'
+revision = 'source-palette-schematic-2026-10-13-r2'
 receipt = {'revision': revision, 'status': 'estimated; source geometry and exterior registration review pending', 'floors': []}
 for mall, ids, scale in [('saigon-centre', ['B2','B1','L1','L2','L3','L4','L5','L6'], .02), ('vincom-dong-khoi', ['B3','B2','B1','L1','M','L2','L3'], .1)]:
     out = HERE / 'data/malls' / mall
@@ -73,7 +73,7 @@ for mall, ids, scale in [('saigon-centre', ['B2','B1','L1','L2','L3','L4','L5','
         overlay.thumbnail((1400,1400)); overlay.save(evidence / (floor+'.png'))
         receipt['floors'].append({'mall':mall,'floor':floor,'sourceSha256':source['sha256'],'regionCount':len(regions),'vertexCount':sum(len(r['outer']) for r in regions),'minimumPixelArea':minimum_area,'excludedComponents':len(excluded),'excludedPixelArea':sum(r['pixelArea'] for r in excluded),'bounds':bounds,'manualOverlay':'pending owner review; automatically generated outlines inspected as candidate only','holeCount':0})
     data = {'revision':revision,'frame':{'version':mall+'-schematic-canvas-v1','units':'schematic local units','scaleStatus':f'fixed {scale} units/source pixel across all levels; not metric','orientationStatus':'source image +x right/+z down; north and exterior alignment unverified','registrationStatus':'not-run; source translation centres rasters; cross-level alignment is an estimate','heightStatus':'5-unit schematic slots; M half slot; L1 zero, not construction heights'},'floors':floors}
-    (out/'floor-geometry.json').write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf8')
+    (out/'floor-geometry.json').write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf8',newline='\n')
 (HERE/'evidence').mkdir(exist_ok=True)
-(HERE/'evidence/floor-capture-receipt.json').write_text(json.dumps(receipt,indent=2)+'\n',encoding='utf8')
+(HERE/'evidence/floor-capture-receipt.json').write_text(json.dumps(receipt,indent=2)+'\n',encoding='utf8',newline='\n')
 print(json.dumps(receipt,indent=2))
