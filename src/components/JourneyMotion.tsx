@@ -28,7 +28,7 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
       const target=destination.querySelector<HTMLElement>('.map-transform');
       if(!hero||!visual||!stack||!source||!target)return;
       const phone=innerWidth<=700;
-      const reveal=clamp((innerHeight*.7-hero.getBoundingClientRect().bottom)/(innerHeight*.65));
+      const reveal=phone?clamp((scrollY-container.offsetTop)/Math.max(1,hero.offsetHeight*.6)):clamp((innerHeight*.7-hero.getBoundingClientRect().bottom)/(innerHeight*.65));
       const revealed=reducedMotion?(reveal>.5?1:0):reveal;
       container.style.setProperty('--floor-reveal',String(revealed));
       visual.dataset.revealed=String(revealed>.08);
@@ -45,7 +45,7 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
         line.style.width=`${Math.hypot(width,dy)}px`;
         line.style.transform=`rotate(${-Math.atan2(dy,width)*180/Math.PI}deg)`;
       }
-      const start=container.offsetTop+container.offsetHeight-innerHeight;
+      const start=phone?container.offsetTop+visual.offsetTop+visual.offsetHeight-innerHeight*.6:container.offsetTop+container.offsetHeight-innerHeight;
       const end=destination.offsetTop-(phone?116:120);
       const progress=reducedMotion?0:clamp((scrollY-start)/Math.max(innerHeight*.45,end-start));
       container.style.setProperty('--floor-travel',String(progress));
@@ -59,7 +59,7 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
       // Correct the source's departure from its sticky anchor. Both source and
       // target use the union of source bounds, including sparse/smaller plans.
       const sourceLeft=stackRect.left+source.offsetLeft;
-      const sourceTop=stackRect.top+source.offsetTop+Math.max(0,scrollY-start);
+      const sourceTop=phone?stackRect.top+source.offsetTop+Math.max(0,scrollY-start):Math.max(stackRect.top,120+(visual.clientHeight-stack.clientHeight)*.5)+source.offsetTop;
       const padding=phone?12:24;
       const left=mix(sourceLeft,targetRect.left+padding,progress);
       const top=mix(sourceTop,targetRect.top+padding,progress);
