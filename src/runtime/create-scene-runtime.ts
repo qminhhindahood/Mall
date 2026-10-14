@@ -35,7 +35,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
   const { canvas, data } = options;
   const detail = { mallId: options.mallId, assetRevision: options.assetRevision, geometryRevision: data.revision };
   const setupDone = timing('renderer-setup', detail);
-  let disposed=false, failed: Error|null=null, active=!document.hidden, paused=options.reducedMotion, raf=0, last=0, serial=0;
+  let disposed=false, failed: Error|null=null, active=!document.hidden, paused=options.reducedMotion, raf=0, last=0, serial=0, journeyProgress=0;
   let rejectLife!: (reason: Error)=>void;
   const lifecycle = new Promise<never>((_,reject)=>{rejectLife=reject;});
   void lifecycle.catch(()=>{});
@@ -107,8 +107,12 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
         const {center,radius}=view.exteriorFit;
         const halfAngle=Math.atan(Math.tan(view.camera.fov*Math.PI/360)*Math.min(1,w/h));
         const distance=radius/Math.sin(halfAngle)*1.08;
-        view.camera.position.copy(center).add(new Vector3(.72,.65,1).normalize().multiplyScalar(distance));
-        view.camera.lookAt(center);
+        // Approach the estimated shopping podium in the exterior's own frame.
+        // A single camera retains its bearing; the floor presentation never resets it.
+        const shoppingCenter=center.clone().add(new Vector3(0,-radius*.42,0));
+        const focus=center.clone().lerp(shoppingCenter,journeyProgress);
+        view.camera.position.copy(focus).add(new Vector3(.72,.65,1).normalize().multiplyScalar(distance*(1-journeyProgress*.46)));
+        view.camera.lookAt(focus);
       }
       view.camera.updateProjectionMatrix();target.setSize(Math.round(w*renderer.getPixelRatio()),Math.round(h*renderer.getPixelRatio()));};
     const draw=(view:View,offscreen:boolean) => {
@@ -187,7 +191,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
       raf=0;if(disposed || failed || !active || paused || !current)return;
       const delta=Math.min(.04,Math.max(0,(time-last)/1000));last=time;
       if(current!==views.get(key({kind:'exterior',floorId:''})))return;
-      current.group.rotation.y+=delta*.08;
+      if(journeyProgress===0)current.group.rotation.y+=delta*.08;
       try {if(!gpuBusy)draw(current,false);raf=requestAnimationFrame(animate);}
       catch(error){failVisible(error,'runtime');}
     };
@@ -199,7 +203,9 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
       prepare: request=>prepare(request,1),
       async show(request) {
         const id=++serial;await prepare(request,3);alive();if(id!==serial)return;
-        const view=views.get(key(request))!;
+        // The overview keeps the exterior's registered camera underneath the
+        // source-plan presentation. Its complete mesh view is still prepared.
+        const view=request.kind==='overview'?views.get(key({kind:'exterior',floorId:request.floorId}))!:views.get(key(request))!;
         await gpu(async()=>{
           if(id!==serial)return;
           const host=options.sceneHosts?.[request.kind];
@@ -218,6 +224,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
       },
       setActive(value){active=value;refreshAnimation();},
       setPaused(value){paused=value;refreshAnimation();},
+      setJourneyProgress(value){const previous=journeyProgress;journeyProgress=options.reducedMotion?0:Math.max(0,Math.min(1,value));if(journeyProgress>0){cancelAnimationFrame(raf);raf=0;}else if(previous>0)refreshAnimation();if(active&&current?.exteriorFit&&!disposed&&!failed&&!gpuBusy){try{draw(current,false);}catch(error){failVisible(error,'runtime');}}},
       dispose:cleanup,
     };
   } catch(error) {setupDone('failed');cleanup();throw error;}

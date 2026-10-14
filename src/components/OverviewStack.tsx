@@ -14,7 +14,7 @@ export default function OverviewStack({floors,locale,heading,mapTitle,selectedFl
   ];
   return <div className="overview-stack">
     {floors.slice().sort((a,b)=>b.order-a.order).map((floor,index)=><a key={floor.id}
-      className={floor.id===selectedFloor?'selected':''} href={floorRoute(locale,floor.id)}
+      data-floor-id={floor.id} className={floor.id===selectedFloor?'selected':''} href={floorRoute(locale,floor.id)}
       aria-label={`${heading} ${floor.label}`} aria-current={floor.id===selectedFloor?'page':undefined}
       style={{'--floor-index':index,'--floor-count':floors.length} as CSSProperties}
       onClick={event=>onSelect(floor.id,event)}>
