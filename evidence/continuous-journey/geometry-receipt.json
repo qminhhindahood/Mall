@@ -1,0 +1,242 @@
+[
+  {
+    "mall": "saigon-centre",
+    "revision": "source-palette-schematic-2026-10-13-r2",
+    "geometrySha256": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807",
+    "frame": {
+      "version": "saigon-centre-schematic-canvas-v1",
+      "units": "schematic local units",
+      "scaleStatus": "fixed 0.02 units/source pixel across all levels; not metric",
+      "orientationStatus": "source image +x right/+z down; north and exterior alignment unverified",
+      "registrationStatus": "not-run; source translation centres rasters; cross-level alignment is an estimate",
+      "heightStatus": "5-unit schematic slots; M half slot; L1 zero, not construction heights"
+    },
+    "floors": [
+      {
+        "id": "B2",
+        "bounds": [
+          -35.1,
+          -31.42,
+          36.2,
+          40.62
+        ],
+        "elevation": -10,
+        "regions": 86,
+        "vertices": 52755,
+        "sourceSha256": "92e959288b957497e3859fb2db80f0657ecb590fd2268c4948a57bdd18ea8497",
+        "sourceBytesIdentical": true
+      },
+      {
+        "id": "B1",
+        "bounds": [
+          -38.04,
+          -31.4,
+          38.54,
+          39.52
+        ],
+        "elevation": -5,
+        "regions": 90,
+        "vertices": 54217,
+        "sourceSha256": "eeda80dda33eb7ec301881b86603b04b0fd03a16750b14dee25c7a1d99ca4afe",
+        "sourceBytesIdentical": true
+      },
+      {
+        "id": "L1",
+        "bounds": [
+          -35.1,
+          -40.9,
+          27.26,
+          27.14
+        ],
+        "elevation": 0,
+        "regions": 114,
+        "vertices": 44444,
+        "sourceSha256": "d7c4697eb9399e8d768586b01139295cf90c3607ba44e690a031c0aaf5eba89b",
+        "sourceBytesIdentical": true
+      },
+      {
+        "id": "L2",
+        "bounds": [
+          -33.34,
+          -37.82,
+          32.74,
+          36.5
+        ],
+        "elevation": 5,
+        "regions": 108,
+        "vertices": 61417,
+        "sourceSha256": "4749dd738ea148407c334396183ef917711f4ff10fbfaa796a7ff6f31ede4fd5",
+        "sourceBytesIdentical": true
+      },
+      {
+        "id": "L3",
+        "bounds": [
+          -34.34,
+          -38.56,
+          34.18,
+          34.9
+        ],
+        "elevation": 10,
+        "regions": 148,
+        "vertices": 65576,
+        "sourceSha256": "905e5de4c90debbabddd8a7fadf9e47b5084bf6b01703ba5450b9e8603763ab8",
+        "sourceBytesIdentical": true
+      },
+      {
+        "id": "L4",
+        "bounds": [
+          -35.54,
+          -38.16,
+          35.12,
+          38.46
+        ],
+        "elevation": 15,
+        "regions": 33,
+        "vertices": 26875,
+        "sourceSha256": "e97069f721f384d6e37bc7896d8e95344d1f5cc153e17eb9d3c844a11c046f60",
+        "sourceBytesIdentical": true
+      },
+      {
+        "id": "L5",
+        "bounds": [
+          -34.56,
+          -31.24,
+          34.34,
+          31.2
+        ],
+        "elevation": 20,
+        "regions": 52,
+        "vertices": 43509,
+        "sourceSha256": "4abefc8f9c34f1fa3c0f9076e5b4b9c5689505d783d6a843a37078f2a6b712c5",
+        "sourceBytesIdentical": true
+      },
+      {
+        "id": "L6",
+        "bounds": [
+          -35.62,
+          -35.42,
+          23.66,
+          28.84
+        ],
+        "elevation": 25,
+        "regions": 10,
+        "vertices": 16240,
+        "sourceSha256": "94ecc7542a08d96cdf14fc43efcbd6c26ff753c59be135867d4092c33187e4f6",
+        "sourceBytesIdentical": true
+      }
+    ]
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "revision": "source-palette-schematic-2026-10-13-r2",
+    "geometrySha256": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e",
+    "frame": {
+      "version": "vincom-dong-khoi-schematic-canvas-v1",
+      "units": "schematic local units",
+      "scaleStatus": "fixed 0.1 units/source pixel across all levels; not metric",
+      "orientationStatus": "source image +x right/+z down; north and exterior alignment unverified",
+      "registrationStatus": "not-run; source translation centres rasters; cross-level alignment is an estimate",
+      "heightStatus": "5-unit schematic slots; M half slot; L1 zero, not construction heights"
+    },
+    "floors": [
+      {
+        "id": "B3",
+        "bounds": [
+          -57.0,
+          -35.35,
+          2.4,
+          36.15
+        ],
+        "elevation": -15,
+        "regions": 39,
+        "vertices": 2955,
+        "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+        "sourceBytesIdentical": true
+      },
+      {
+        "id": "B2",
+        "bounds": [
+          -53.45,
+          -34.35,
+          5.25,
+          34.75
+        ],
+        "elevation": -10,
+        "regions": 57,
+        "vertices": 4256,
+        "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+        "sourceBytesIdentical": true
+      },
+      {
+        "id": "B1",
+        "bounds": [
+          -53.6,
+          -35.35,
+          5.9,
+          34.45
+        ],
+        "elevation": -5,
+        "regions": 47,
+        "vertices": 3295,
+        "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+        "sourceBytesIdentical": true
+      },
+      {
+        "id": "L1",
+        "bounds": [
+          -57.0,
+          -29.75,
+          8.4,
+          30.35
+        ],
+        "elevation": 0,
+        "regions": 18,
+        "vertices": 804,
+        "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+        "sourceBytesIdentical": true
+      },
+      {
+        "id": "M",
+        "bounds": [
+          -55.55,
+          -30.3,
+          8.45,
+          23.8
+        ],
+        "elevation": 2.5,
+        "regions": 14,
+        "vertices": 755,
+        "sourceSha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530",
+        "sourceBytesIdentical": true
+      },
+      {
+        "id": "L2",
+        "bounds": [
+          -55.7,
+          -32.3,
+          8.4,
+          22.0
+        ],
+        "elevation": 5,
+        "regions": 11,
+        "vertices": 702,
+        "sourceSha256": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029",
+        "sourceBytesIdentical": true
+      },
+      {
+        "id": "L3",
+        "bounds": [
+          -55.95,
+          -31.95,
+          8.45,
+          21.05
+        ],
+        "elevation": 10,
+        "regions": 18,
+        "vertices": 1010,
+        "sourceSha256": "629d9860433bacc381daede046513190e2d6877bf88f99907eafb3f0794bbc70",
+        "sourceBytesIdentical": true
+      }
+    ]
+  }
+]
