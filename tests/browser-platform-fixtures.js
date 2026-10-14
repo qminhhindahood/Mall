@@ -2,6 +2,28 @@
 (() => {
   const params = new URL(location.href).searchParams;
   const scenario = params.get('__scenario');
+  // The collaborative preview inherits the host's reduced-motion preference.
+  // This opt-in browser fixture exercises the normal path without changing
+  // the user's OS setting or adding a product/runtime override.
+  if (params.get('__motion') === 'normal') {
+    const nativeMatchMedia = window.matchMedia.bind(window);
+    window.matchMedia = query => query.includes('prefers-reduced-motion')
+      ? nativeMatchMedia(query.replace(/prefers-reduced-motion\s*:\s*reduce/g, 'min-width: 999999px'))
+      : nativeMatchMedia(query);
+    const disableReducedMotionStyles = () => {
+      const visit = rules => {
+        for (const rule of rules) {
+          if (rule instanceof CSSMediaRule && /prefers-reduced-motion\s*:\s*reduce/.test(rule.conditionText)) rule.media.mediaText = 'not all';
+          if ('cssRules' in rule) visit(rule.cssRules);
+        }
+      };
+      for (const sheet of document.styleSheets) {
+        try { visit(sheet.cssRules); } catch { /* Cross-origin sheets are untouched. */ }
+      }
+    };
+    document.addEventListener('DOMContentLoaded', disableReducedMotionStyles, {once: true});
+    window.addEventListener('load', disableReducedMotionStyles, {once: true});
+  }
   const nativeFetch = window.fetch.bind(window);
   let fault = true;
   window.__acceptanceRecover = () => { fault = false; };
