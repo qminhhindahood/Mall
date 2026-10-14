@@ -1,0 +1,212 @@
+{
+  "revision": "directory-continuation-2026-10-14-r1",
+  "format": "offline-review-proposals; not DirectorySnapshot",
+  "approval": "pending",
+  "reviewedAt": null,
+  "highlights": [],
+  "highlightsDecision": "deferred by owner",
+  "counts": {
+    "saigon-centre": {
+      "occurrences": 166,
+      "withExplicitSourceFloor": 166,
+      "withoutExplicitSourceFloor": 0
+    },
+    "vincom-dong-khoi": {
+      "occurrences": 217,
+      "withExplicitSourceFloor": 150,
+      "withoutExplicitSourceFloor": 67
+    }
+  },
+  "identityGroupCount": 376,
+  "repeatedExactNameGroups": [
+    {
+      "groupRef": "saigon-centre-identity-001",
+      "mallId": "saigon-centre",
+      "name": "Takashimaya",
+      "proposedDestinationId": "takashimaya",
+      "matchingRule": "case-insensitive exact name only; no approved merge or fuzzy match",
+      "candidateRefs": [
+        "saigon-centre-source-line-17",
+        "saigon-centre-source-line-45",
+        "saigon-centre-source-line-63",
+        "saigon-centre-source-line-93",
+        "saigon-centre-source-line-137"
+      ],
+      "claimedFloorUnionForReview": [
+        "B2",
+        "B1",
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "mergeDecision": {
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null
+      },
+      "destinationIdDecision": {
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "groupRef": "saigon-centre-identity-090",
+      "mallId": "saigon-centre",
+      "name": "adidas",
+      "proposedDestinationId": "adidas",
+      "matchingRule": "case-insensitive exact name only; no approved merge or fuzzy match",
+      "candidateRefs": [
+        "saigon-centre-source-line-138",
+        "saigon-centre-source-line-176"
+      ],
+      "claimedFloorUnionForReview": [
+        "L3",
+        "L4"
+      ],
+      "mergeDecision": {
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null
+      },
+      "destinationIdDecision": {
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "groupRef": "vincom-dong-khoi-identity-328",
+      "mallId": "vincom-dong-khoi",
+      "name": "ZARA",
+      "proposedDestinationId": "zara",
+      "matchingRule": "case-insensitive exact name only; no approved merge or fuzzy match",
+      "candidateRefs": [
+        "vincom-dong-khoi-source-line-192",
+        "vincom-dong-khoi-source-line-224"
+      ],
+      "claimedFloorUnionForReview": [
+        "M"
+      ],
+      "mergeDecision": {
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null
+      },
+      "destinationIdDecision": {
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null
+      }
+    },
+    {
+      "groupRef": "vincom-dong-khoi-identity-357",
+      "mallId": "vincom-dong-khoi",
+      "name": "H&M",
+      "proposedDestinationId": "h-m",
+      "matchingRule": "case-insensitive exact name only; no approved merge or fuzzy match",
+      "candidateRefs": [
+        "vincom-dong-khoi-source-line-226",
+        "vincom-dong-khoi-source-line-240"
+      ],
+      "claimedFloorUnionForReview": [
+        "M",
+        "L2"
+      ],
+      "mergeDecision": {
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null
+      },
+      "destinationIdDecision": {
+        "decision": "pending",
+        "reviewer": null,
+        "reviewedAt": null
+      }
+    }
+  ],
+  "proposedIdCollisions": [],
+  "priorityCounts": {
+    "1": 67,
+    "2": 21,
+    "3": 295
+  },
+  "preservedInputSha256": {
+    "implementation/mall-visitor/docs/content-preparation/floor-claims.json": "c4cb2e9a9e248d209d722caddfad3781a42b4863e536e85e08f4e9a8a3189bd3",
+    "implementation/mall-visitor/docs/content-preparation/all-record-map-comparison.csv": "ed5cd72d26602394e370e358cb37dbe177177ee2dd1ab55ddc748aad9851a5c1",
+    "implementation/mall-visitor/docs/content-preparation/supplied-reference-inventory.json": "0f1d2a62266f4cb673f4e58f1ac6b785af687e4f341172bea05136986a5a8060",
+    "implementation/mall-visitor/docs/content-preparation/saigon-centre.draft.json": "c90f373e8d6f38ae9e0de57c35dee41e42dcb3e6d35b1d097afa3dd8ce10fd71",
+    "implementation/mall-visitor/docs/content-preparation/vincom-dong-khoi.draft.json": "dc3af48ffaa591b6f1c8d37304cea8fc1fd64797a3ec921fd54b4322c75a7864",
+    "Takashimaya/Bên ngoài/1786012406694-6y8fj59xsjv.webp": "f54e396f853d47c9714e7be0ac28a8f527027456530a89c5e6475a043230420d",
+    "Takashimaya/Bên ngoài/1786012407607-htwpvjdinrh.webp": "610c2e8763fde7d54649f4902e14cd47f14625a44e470f3e04b48c577bf86f29",
+    "Takashimaya/Bên ngoài/1786012408520-ijjin1ootzj.webp": "b2a45fdb5def5e9d5f24b4e1b63115c5b18c8fdfc0ae939a647c5d08a60f972d",
+    "Takashimaya/Bên ngoài/1786012409286-5hx91hfut4c.webp": "56195e7c45a7c6765a269253e0c38e056c160ae24fa2493013468c57671ceb94",
+    "Takashimaya/Bên ngoài/1786012410239-0g0q3vaou9e.webp": "041bb6b123e21dd6881506779fac0080dd607bda9f9e6d01f05e37b766c83a4a",
+    "Takashimaya/Bên ngoài/bên trái +1.png": "e1904802c7d6e8071d6b7271ecd376dd943788a57d6a6c8b852ac1155196f1ae",
+    "Takashimaya/Bên ngoài/download (2).jfif": "121168496893a5e38107b3eea2fc691110108ba44586e510a79429db41c661b4",
+    "Takashimaya/Bên ngoài/download (3).jfif": "41863349471a8d6be5cea63e7f80232231299309d030564792538aa8327a469a",
+    "Takashimaya/Bên ngoài/Ho_Chi_Minh_City,_Saigon_Centre,_2020-01_CN-01.jpg": "0837174d8b2d475fa1c6ca2b2493042537365173650dccc58729bd0044a06e4c",
+    "Takashimaya/Bên ngoài/mặt bên phải.jpg": "41863349471a8d6be5cea63e7f80232231299309d030564792538aa8327a469a",
+    "Takashimaya/Bên ngoài/mặt bên trái.png": "5c510dae8c407ee88db59294e64a4b41bd41300593e6eb5ae870593bcb01c16c",
+    "Takashimaya/Bên ngoài/mặt đối diện 1.jpg": "121168496893a5e38107b3eea2fc691110108ba44586e510a79429db41c661b4",
+    "Takashimaya/Bên ngoài/mặt đối diện.png": "de826b3a5378bd00f7ba56a0cbf6d694a515b33efc0159acac5626a99fd75a5a",
+    "Takashimaya/Bên ngoài/phải.png": "24af7eb278a26df3fdb71730357afc89c798817166c4263ce947c0cb9e3707ab",
+    "Takashimaya/Bên ngoài/Saigon_Centre_on_June_17,_2017.jpg": "b0d538d6826c231b3443daca79d028956f1a3cb84b2aeb0c0e6fcbceecfd9952",
+    "Takashimaya/Bên ngoài/Tòa_nhà_Saigoncenter_-q1-HCMVN_-_panoramio.jpg": "afc73ebe71e92d659c0ff975cefd0fd8574be696633bafb3a9ab3b870b66c488",
+    "Takashimaya/Bên trong_/download (1).jfif": "4a52ec287e8de4e8761cb6fed48e33121afced9227ea0342b0b16388ef95cd3b",
+    "Takashimaya/Bên trong_/download.jfif": "25227a9ae394526f5b960daac20321b2e730ae9600841a3359c4bdbb8c6b656f",
+    "Takashimaya/Bên trong_/IMG_9793.JPG": "2cff05d0de62093c13098fad78c7ebea36e6fd5dbfb6c432ef755efb158f4305",
+    "Takashimaya/Bên trong_/IMG_9794.JPG": "8f149825445d859b6cbb04af675ff857e3fb48514724827d93142470360658a4",
+    "Takashimaya/Bên trong_/IMG_9795.JPG": "a7f2171eee0bb335f2d727c8c003132d6e413c30de8f191978d043712e55338a",
+    "Takashimaya/Bên trong_/IMG_9799.JPG": "328fed5a974c22d8aba2c318eea7007f0a06272ebc8a0ea6dbaebf865cc91730",
+    "Takashimaya/Bên trong_/IMG_9800.JPG": "eb1b7ed2e37a9f598fce32d5117e97c2dd96dac44267e4f3f52ba35003e73950",
+    "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-B1-2026-10-01.png": "eeda80dda33eb7ec301881b86603b04b0fd03a16750b14dee25c7a1d99ca4afe",
+    "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-B2-2026-10-01.png": "92e959288b957497e3859fb2db80f0657ecb590fd2268c4948a57bdd18ea8497",
+    "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L1-2026-10-01.png": "d7c4697eb9399e8d768586b01139295cf90c3607ba44e690a031c0aaf5eba89b",
+    "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L2-2026-10-01.png": "4749dd738ea148407c334396183ef917711f4ff10fbfaa796a7ff6f31ede4fd5",
+    "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L3-2026-10-01.png": "905e5de4c90debbabddd8a7fadf9e47b5084bf6b01703ba5450b9e8603763ab8",
+    "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L4-2026-10-01.png": "e97069f721f384d6e37bc7896d8e95344d1f5cc153e17eb9d3c844a11c046f60",
+    "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L5-2026-10-01.png": "4abefc8f9c34f1fa3c0f9076e5b4b9c5689505d783d6a843a37078f2a6b712c5",
+    "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L6-2026-10-01.png": "94ecc7542a08d96cdf14fc43efcbd6c26ff753c59be135867d4092c33187e4f6",
+    "Takashimaya/takashimaya list.md": "c69e9fffc4c0437644d51591ad7de307c7d51880ed8e7bb5d068dfbfa5dcb791",
+    "Vincom đồng khởi/exterior look/24b7ce6c-f74b-4b08-b10c-1341cdf1d437.jpg": "e66e2e8193c604ddd36d8d44ce4153d93d39da1b96e8721acb6e58db778559c2",
+    "Vincom đồng khởi/exterior look/5-tru-so-vingrouo-tai-tphcm.jpg": "de8228a7c8088cc1372910f1d4f178281031317becefc7ea235ae6afdeb3025a",
+    "Vincom đồng khởi/exterior look/8073863c-abc3-4c16-b070-8ed5a3d0f9d5.jpg": "55b1e0be3eb9145decce2182a9b57cb9abf9af3bf4696574ebf8fd9073092ba8",
+    "Vincom đồng khởi/exterior look/e07e9d46-7830-443f-981e-e9e24ed4e6f4 (1).jpg": "d5ce47188271b9ee2fc7811942edc0ea96845b0e2a1c51e471c293f6c6327648",
+    "Vincom đồng khởi/exterior look/Screenshot 2026-10-03 223916.png": "6165cc11b935329c95848a7eb37dc2380bd53b366d549de0e2e56c23dc2716f0",
+    "Vincom đồng khởi/exterior look/Screenshot 2026-10-03 224145.png": "a1df3e0523f98a66329efeb68345d0d6b4ec1e1ae73b411cbb1d6fe3063b765a",
+    "Vincom đồng khởi/exterior look/Screenshot 2026-10-03 224231.png": "d920d3b66444c7ac954a9014299711aeb3adff26e62fd80cc9b47771c56fd6fc",
+    "Vincom đồng khởi/exterior look/Screenshot 2026-10-03 224254.png": "187e3e522a9bccf2e977c948a1e15c9ac3b4303db8b34cc0846e5b6531ad158c",
+    "Vincom đồng khởi/exterior look/Screenshot 2026-10-03 224559.png": "7b74e506afd343baa99d23e76d625fecf632dbdfa15172e4529075afefccbad0",
+    "Vincom đồng khởi/exterior look/Screenshot 2026-10-03 224642.png": "c7f64c7181ae912c5772fb6161fd7d9ccbc45fd6db9f61a5878d6525261db49d",
+    "Vincom đồng khởi/exterior look/Screenshot 2026-10-03 224708.png": "03652419b5313f691bc731dd86498cd076ba64d164587912981a6f9f701daacc",
+    "Vincom đồng khởi/exterior look/Screenshot 2026-10-03 224834.png": "1eb8b1f09b5521f6bb7e1e67f3a401ff00780ec7b2bf2fc649377e9382f92483",
+    "Vincom đồng khởi/exterior look/Screenshot 2026-10-03 224847.png": "7d00890479189373166b1c22dbfe817f05be9950cb072476fe138e2f719e985b",
+    "Vincom đồng khởi/exterior look/Screenshot 2026-10-03 224928.png": "2ef833f2ec64c0de1e315cf54a322081c1f1d8b7b1b9aec690752e667bf84211",
+    "Vincom đồng khởi/inside/images.jpg": "f39b1438f2b0660c640ac89db50d08343eed3e9f02bbd673e132ecf123e3152e",
+    "Vincom đồng khởi/inside/Man-hinh-Led-quang-cao-trong-nha-tai-Vincom-Dong-Khoi-12.jpg": "111f64cddeb68549e0f149659f4b77d436495e783a486e5d39ad9cb8fe948d76",
+    "Vincom đồng khởi/inside/photo-1-15454732072111064210955.webp": "c00f51413910c6789e5b2084b59503536772140b724c3bd73d5a9a5ccc907bb3",
+    "Vincom đồng khởi/inside/sanh-thang-may-vincom-center-dong-khoi.jpg": "cce4bbac605e5fdbdffc500aa76188ab4f1f100cabbbfa1e85c82d83aa339386",
+    "Vincom đồng khởi/inside/Screenshot 2026-10-03 224020.png": "8de951850d0ca99b02684296c93a6039e2896813a9be048d4d575faac12f5134",
+    "Vincom đồng khởi/inside/Screenshot 2026-10-03 224046.png": "139631a456f6b9610b7bd46358e365a5572a78bceac731022de33213967690dd",
+    "Vincom đồng khởi/inside/Screenshot 2026-10-03 224407.png": "d6e6ef659173724645db739f0489df1ebdb94ab24de20db537ac76ee7fa75fd4",
+    "Vincom đồng khởi/inside/Screenshot 2026-10-03 224447.png": "940e239f9fdda8faafbcdaf8aa66e85096840af4cb7714b41b8ffbe075accd19",
+    "Vincom đồng khởi/map/tang-b1.webp": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+    "Vincom đồng khởi/map/tang-b2.webp": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+    "Vincom đồng khởi/map/tang-b3.webp": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+    "Vincom đồng khởi/map/tang-l1.webp": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+    "Vincom đồng khởi/map/tang-l2.webp": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029",
+    "Vincom đồng khởi/map/tang-l3.webp": "629d9860433bacc381daede046513190e2d6877bf88f99907eafb3f0794bbc70",
+    "Vincom đồng khởi/map/tang-m.webp": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530",
+    "Vincom đồng khởi/vincom center list.md": "d39a2813ff7401bc1131153f0dc415e75938c10b8a0728eac88705b3ef9cfc6b",
+    "implementation/mall-visitor/data/malls/saigon-centre/directory.json": "36426de132ca81b552b51ed08982b2c8d69d5f11932d2c70663be347a6a9d32c",
+    "implementation/mall-visitor/data/malls/vincom-dong-khoi/directory.json": "655b60fc93a992c31c3d676cdd00f1baa3fd5892ca7ab648a5cd3cb5d0fcf80f"
+  },
+  "checks": {
+    "sourceRows": 383,
+    "inventoryHashes": 62,
+    "sourceClaimsWithFloors": 316,
+    "pendingApprovals": 383
+  },
+  "limits": "No merge, floor, unit, primary floor, status, taxonomy, language or editorial date approved. Source/map receipts reused; no fresh tenant research. No public import or deployment."
+}
