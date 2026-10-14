@@ -35,7 +35,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
   const { canvas, data } = options;
   const detail = { mallId: options.mallId, assetRevision: options.assetRevision, geometryRevision: data.revision };
   const setupDone = timing('renderer-setup', detail);
-  let disposed=false, failed: Error|null=null, active=!document.hidden, paused=options.reducedMotion, raf=0, last=0, serial=0, journeyProgress=0;
+  let disposed=false, failed: Error|null=null, active=!document.hidden, paused=options.reducedMotion, raf=0, last=0, serial=0, journeyProgress=0, approachRotation=0;
   let rejectLife!: (reason: Error)=>void;
   const lifecycle = new Promise<never>((_,reject)=>{rejectLife=reject;});
   void lifecycle.catch(()=>{});
@@ -224,7 +224,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
       },
       setActive(value){active=value;refreshAnimation();},
       setPaused(value){paused=value;refreshAnimation();},
-      setJourneyProgress(value){const previous=journeyProgress;journeyProgress=options.reducedMotion?0:Math.max(0,Math.min(1,value));if(journeyProgress>0){cancelAnimationFrame(raf);raf=0;}else if(previous>0)refreshAnimation();if(active&&current?.exteriorFit&&!disposed&&!failed&&!gpuBusy){try{draw(current,false);}catch(error){failVisible(error,'runtime');}}},
+      setJourneyProgress(value,reducedMotion){const previous=journeyProgress;journeyProgress=reducedMotion?0:Math.max(0,Math.min(1,value));const exteriorView=views.get(key({kind:'exterior',floorId:''}));if(exteriorView){if(previous===0&&journeyProgress>0)approachRotation=Math.atan2(Math.sin(exteriorView.group.rotation.y),Math.cos(exteriorView.group.rotation.y));if(journeyProgress>0)exteriorView.group.rotation.y=approachRotation*(1-journeyProgress);}if(journeyProgress>0){cancelAnimationFrame(raf);raf=0;}else if(previous>0)refreshAnimation();if(active&&current?.exteriorFit&&!disposed&&!failed&&!gpuBusy){try{draw(current,false);}catch(error){failVisible(error,'runtime');}}},
       dispose:cleanup,
     };
   } catch(error) {setupDone('failed');cleanup();throw error;}

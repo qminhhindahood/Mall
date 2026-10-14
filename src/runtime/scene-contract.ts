@@ -21,7 +21,7 @@ export type SceneRuntime = {
   show(request: SceneRequest): Promise<void>;
   setActive(active: boolean): void;
   setPaused(paused: boolean): void;
-  setJourneyProgress(progress: number): void;
+  setJourneyProgress(progress: number, reducedMotion: boolean): void;
   dispose(): void;
 };
 export type SceneRuntimeOptions = {

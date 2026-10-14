@@ -1,6 +1,7 @@
 import { useLayoutEffect, useRef, type RefObject } from 'react';
 import type { FloorGeometry, SceneRuntime } from '../runtime/scene-contract';
 import FloorMap from './FloorMap';
+import { sharedFloorBounds } from './floor-frame';
 
 const clamp=(value:number)=>Math.max(0,Math.min(1,value));
 const mix=(a:number,b:number,t:number)=>a+(b-a)*t;
@@ -14,7 +15,7 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
   runtime:RefObject<SceneRuntime|null>;
 }) {
   const travelling=useRef<HTMLDivElement>(null);
-  const bounds:[number,number,number,number]=[Math.min(...floors.map(f=>f.bounds[0])),Math.min(...floors.map(f=>f.bounds[1])),Math.max(...floors.map(f=>f.bounds[2])),Math.max(...floors.map(f=>f.bounds[3]))];
+  const bounds=sharedFloorBounds(floors);
   useLayoutEffect(()=>{
     let frame=0;
     const update=()=>{
@@ -33,7 +34,7 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
       container.style.setProperty('--floor-reveal',String(revealed));
       visual.dataset.revealed=String(revealed>.08);
       visual.querySelector<HTMLElement>('.registered-floors')!.inert=revealed<.08;
-      runtime.current?.setJourneyProgress(revealed);
+      runtime.current?.setJourneyProgress(revealed,reducedMotion);
       const stackBox=stack.getBoundingClientRect();
       for(const callout of container.querySelectorAll<HTMLElement>('.floor-rail a')){
         const plan=stack.querySelector<HTMLElement>(`a[data-floor-id="${callout.textContent?.trim()}"]`);
@@ -53,23 +54,27 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
       layer.hidden=!inFlight;
       source.style.opacity=inFlight?'0':'';
       target.style.visibility=inFlight?'hidden':'';
+      destination.querySelector<HTMLElement>('.persistent-map')!.dataset.travelling=String(inFlight);
       if(!inFlight)return;
       layer.style.setProperty('--travel-progress',String(progress));
       const stackRect=stack.getBoundingClientRect(), targetRect=target.getBoundingClientRect();
       // Correct the source's departure from its sticky anchor. Both source and
       // target use the union of source bounds, including sparse/smaller plans.
       const sourceLeft=stackRect.left+source.offsetLeft;
-      const sourceTop=phone?stackRect.top+source.offsetTop+Math.max(0,scrollY-start):Math.max(stackRect.top,120+(visual.clientHeight-stack.clientHeight)*.5)+source.offsetTop;
-      const padding=phone?12:24;
-      const left=mix(sourceLeft,targetRect.left+padding,progress);
-      const top=mix(sourceTop,targetRect.top+padding,progress);
-      const width=mix(source.clientWidth,targetRect.width-padding*2,progress);
-      const height=mix(source.clientHeight,targetRect.height-padding-(phone?52:76),progress);
-      Object.assign(layer.style,{left:`${left}px`,top:`${top}px`,width:`${width}px`,height:`${height}px`,transform:`perspective(1500px) rotateX(${(phone?38:50)*(1-progress)}deg) rotateZ(${(phone?-12:-18)*(1-progress)}deg)`,filter:`drop-shadow(0 ${5*(1-progress)}px 0 var(--edge))`});
+      const visualStyle=getComputedStyle(visual), targetStyle=getComputedStyle(target), sourceStyle=getComputedStyle(source);
+      const stickyTop=parseFloat(visualStyle.top)||0;
+      const sourceTop=phone?stackRect.top+source.offsetTop+Math.max(0,scrollY-start):Math.max(stackRect.top,stickyTop+(visual.clientHeight-stack.clientHeight)*.5)+source.offsetTop;
+      const paddingLeft=parseFloat(targetStyle.paddingLeft), paddingTop=parseFloat(targetStyle.paddingTop);
+      const left=mix(sourceLeft,targetRect.left+paddingLeft,progress);
+      const top=mix(sourceTop,targetRect.top+paddingTop,progress);
+      const width=mix(source.clientWidth,targetRect.width-paddingLeft-parseFloat(targetStyle.paddingRight),progress);
+      const height=mix(source.clientHeight,targetRect.height-paddingTop-parseFloat(targetStyle.paddingBottom),progress);
+      const angleX=parseFloat(sourceStyle.getPropertyValue('--floor-angle-x')), angleZ=parseFloat(sourceStyle.getPropertyValue('--floor-angle-z'));
+      Object.assign(layer.style,{left:`${left}px`,top:`${top}px`,width:`${width}px`,height:`${height}px`,transform:`perspective(1500px) rotateX(${angleX*(1-progress)}deg) rotateZ(${angleZ*(1-progress)}deg)`,filter:`drop-shadow(0 ${4*(1-progress)}px 0 var(--edge))`});
     };
     const schedule=()=>{if(!frame)frame=requestAnimationFrame(update);};
     update();window.addEventListener('scroll',schedule,{passive:true});window.addEventListener('resize',schedule);
-    return()=>{cancelAnimationFrame(frame);window.removeEventListener('scroll',schedule);window.removeEventListener('resize',schedule);const source=stage.current?.querySelector<HTMLElement>(`a[data-floor-id="${floor.id}"]`);if(source)source.style.opacity='';const target=mapJourney.current?.querySelector<HTMLElement>('.map-transform');if(target)target.style.visibility='';};
+    return()=>{cancelAnimationFrame(frame);window.removeEventListener('scroll',schedule);window.removeEventListener('resize',schedule);const source=stage.current?.querySelector<HTMLElement>(`a[data-floor-id="${floor.id}"]`);if(source)source.style.opacity='';const target=mapJourney.current?.querySelector<HTMLElement>('.map-transform');if(target)target.style.visibility='';const persistent=mapJourney.current?.querySelector<HTMLElement>('.persistent-map');if(persistent)delete persistent.dataset.travelling;};
   },[floor.id,floors,reducedMotion]);
   return <div className="travelling-floor" ref={travelling} hidden aria-hidden="true"><FloorMap floor={floor} viewBounds={bounds} title={title}/></div>;
 }

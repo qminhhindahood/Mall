@@ -9,6 +9,7 @@ import Directory from './Directory';
 import MapControlIcon from './MapControlIcon';
 import OverviewStack from './OverviewStack';
 import JourneyMotion from './JourneyMotion';
+import { sharedFloorBounds } from './floor-frame';
 import { journeyCopy } from './journey-copy';
 import { categoryFloor } from '../data/content';
 import { timing } from '../runtime/loading-timing';
@@ -104,7 +105,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       const stageBottom=exteriorJourney.current?.getBoundingClientRect().bottom??Infinity;
       const kind=hero.getBoundingClientRect().bottom>innerHeight*.45?'exterior':stageBottom>innerHeight*.45?'overview':null;
       if(kind&&kind!==latest.current.kind){
-        const next={...latest.current,kind:kind as SceneKind};
+        const next={...latest.current,kind:kind as SceneKind,destinationId:undefined,areaId:undefined};
         beginRequest(next);history.replaceState({...history.state,scrollY},'',href(next));setSelection(next);
       }
     };
@@ -394,7 +395,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       <div className="map-discovery-journey" ref={mapJourney}>
         <div className="persistent-map">
           <div className="scene-host scene-host-map" ref={element=>{if(element){sceneHosts.current.map=element;sceneHosts.current.discovery=element;}}} data-scene-kind={selection.kind==='discovery'?'discovery':'map'} data-floor={routeResolved?floor.id:undefined}>
-            <div className="map-transform" style={{transform:`scale(${zoom}) rotateX(${angled?25:0}deg)`}}>{!routeResolved?<p>{c.preparing}</p>:!floor.regions.length&&floor.preview?<img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`}/>:<FloorMap floor={floor} viewBounds={[Math.min(...geometry.floors.map(f=>f.bounds[0])),Math.min(...geometry.floors.map(f=>f.bounds[1])),Math.max(...geometry.floors.map(f=>f.bounds[2])),Math.max(...geometry.floors.map(f=>f.bounds[3]))]} title={c.map} content={site.content} locale={selection.locale} selectedDestination={selection.kind==='map'?selection.destinationId:undefined} selectedArea={selection.areaId} onArea={areaId=>navigate({...change('map',floor.id),areaId})}/>}</div>
+            <div className="map-transform" style={{transform:`scale(${zoom}) rotateX(${angled?25:0}deg)`}}>{!routeResolved?<p>{c.preparing}</p>:!floor.regions.length&&floor.preview?<img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`}/>:<FloorMap floor={floor} viewBounds={sharedFloorBounds(geometry.floors)} title={c.map} content={site.content} locale={selection.locale} selectedDestination={selection.kind==='map'?selection.destinationId:undefined} selectedArea={selection.areaId} onArea={areaId=>navigate({...change('map',floor.id),areaId})}/>}</div>
           </div>
           <div className="map-controls glass" role="group" aria-label={c.map}>
             <span>{selection.kind==='discovery'?j.preview:c.heading} {routeResolved?floor.id:''}</span>
