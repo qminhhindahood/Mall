@@ -1,0 +1,1125 @@
+{
+  "revision": "continuous-journey-2026-10-14-r1",
+  "sharedDeliveryCommit": "09b3069a98db0954321db6ed5549a36cf7852295",
+  "testedSourceCommit": "13a2083",
+  "baseline": "19ba65a",
+  "files": 137,
+  "deliveries": [
+    {
+      "branch": "vincom-dong-khoi",
+      "path": "D:\\Midterm\\.scratch\\mall-branch-bootstrap\\visitor-app",
+      "commit": "fa12c2dac649b4ab9d13c65ff63e5ad8e6c79853",
+      "byteIdentical": true,
+      "protectedExteriorFiles": 71,
+      "exteriorFilesPreserved": true,
+      "copiedFiles": [
+        {
+          "path": "evidence/continuous-journey/README.md",
+          "sha256": "4fc7830930a490566d29289dd2d56031e25c5b967671664589f6b7391488d434"
+        },
+        {
+          "path": "evidence/continuous-journey/baseline-overview.png",
+          "sha256": "dfd44f242211355e3d056400a2928d48ee1a1d11b8eadd7ac4d2d96f8fd7d682"
+        },
+        {
+          "path": "evidence/continuous-journey/browser-attempt-9f266bb.json",
+          "sha256": "784cac5023000e1127deb1804561ea302764d73ac82b4a362dde2323793f5687"
+        },
+        {
+          "path": "evidence/continuous-journey/browser-red.json",
+          "sha256": "00b83b1f3237a7d450b331adde0df286f0796b2918db9ccc2468c49745bf63ee"
+        },
+        {
+          "path": "evidence/continuous-journey/browser-results.json",
+          "sha256": "bdf9b28208fdd408e620562093ab8a52c3395e825eed2482549870fe4f47c0a7"
+        },
+        {
+          "path": "evidence/continuous-journey/build-fixture-saigon.log",
+          "sha256": "cae94c19e1869ac3b2138c01dbd7ccafaf5d8582292f418591ade0b7ff8f0b2e"
+        },
+        {
+          "path": "evidence/continuous-journey/build-fixture-vincom.log",
+          "sha256": "bfdd3577b55d85355e781c12e4ef7fbceb11b0d3e93f8394b96dddd5497f46a1"
+        },
+        {
+          "path": "evidence/continuous-journey/build-saigon.log",
+          "sha256": "e9bd6b457da9d97db09be01b70f96182009d7aef67eaf16e117b8ce758743141"
+        },
+        {
+          "path": "evidence/continuous-journey/build-vincom.log",
+          "sha256": "eb9e9b4c4603feed3bfe73a6d18cdcb1dfbdac00496fb328c8a1b53d16a533b0"
+        },
+        {
+          "path": "evidence/continuous-journey/fallback-attempt-1.json",
+          "sha256": "cfdca8900f8e062358dd73553d89476969d97d8bf0a015d47e8b8c087b434b58"
+        },
+        {
+          "path": "evidence/continuous-journey/fallback-results.json",
+          "sha256": "53707ae4186e3b5f8bd513e36041ad7631e22a8a406f75d52663d0774049c937"
+        },
+        {
+          "path": "evidence/continuous-journey/final-check.log",
+          "sha256": "2dcde030efce79b4918e742eacad1f8a988d9178134b2f97158ad05965836fe8"
+        },
+        {
+          "path": "evidence/continuous-journey/final-fallback-script.mjs.txt",
+          "sha256": "f714a2b170fd58bf51abd6f630607ff0cb35742e37e4b1b3373562809510d990"
+        },
+        {
+          "path": "evidence/continuous-journey/final-fixture-script.mjs.txt",
+          "sha256": "0d158132b4c725d170c06efb36bd2485c5f1cf6ed1c53727a54c9ef16c7be101"
+        },
+        {
+          "path": "evidence/continuous-journey/final-matrix-script.mjs.txt",
+          "sha256": "0d6666ec1352a86cf28fda26146827b1f034f6ed9371cba3661e4b8e1b204845"
+        },
+        {
+          "path": "evidence/continuous-journey/fixture-results.json",
+          "sha256": "9c44e2f8777894df21ee984caf581f4938a97988e5652c8bbab2d247a68c5ee9"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-discovery.png",
+          "sha256": "e7a7a79a9a42c1679bf02dd72a795d8dcc82ab9d67e109eae8d3dd8a71c62816"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-fade.png",
+          "sha256": "1a72b745a5ce17822157e14eee460c0438b57b0966713066ffadc774fa0b4145"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-hero.png",
+          "sha256": "4f7123ff5839cdc180614c0fed28918a9b1aab2c4057bc90cbfaf22a40c01b30"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-map-B2.png",
+          "sha256": "e760512ef621d32c264b01a4b42a4c8d7e9eaacf9d177488dcb7a99e6ac93d1b"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-map-L2.png",
+          "sha256": "b901b211a107257c1c1fc83163d029e970cc2fcc2175d941a734e42da0ea4d2e"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-map-L6.png",
+          "sha256": "0edf383ed086efba24e1af0e2cabcd394a0fa07f7697dc9633705a4968eab472"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-map.png",
+          "sha256": "ed7c319fa5eb08df287fae67df9727a8361a1149ad11412a0503258f8b968b12"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-reverse-hero.png",
+          "sha256": "ba2dcd7137c094768f0d34929a926bd65e92b68d5f3841827515b39ab8e1b927"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-stack.png",
+          "sha256": "106e261063492ffce4bd19d6fa0d86b40b74b2482502681cfb0fd351ee4f45ba"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-travel.png",
+          "sha256": "b2c6ebcadd0c9c727131162bd7683f60c95e164226943010ac1964f15a8e9bf0"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-discovery.png",
+          "sha256": "caedf24322af6c7761a1f634bfb95b5f2eef15fcb5c8b26808977af7b541d1be"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-fade.png",
+          "sha256": "cdff0974c017f5fa3935ab1ffa8df8f882e2f14eab990b881c7872a64283ef23"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-hero.png",
+          "sha256": "9dd648472806bdcf337b118213761cc92abdac4b150bd237d2d4a926d001e914"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-map-B2.png",
+          "sha256": "d08f1cf14692b8b66802bfdc60be367f782c0fde67293169ad231742b2a1e45d"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-map-L2.png",
+          "sha256": "3acf1ecff795e550d2a68913bcf9e5715574982350180df40c78ea23b34f7bc2"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-map-L6.png",
+          "sha256": "42b47a9e494e54a667401efe6d49a3758ec314d4aec2814fa0d9164ff0e42eb4"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-map.png",
+          "sha256": "79dc191bd1034e6cec52c311fc7816880d23a3e3f9eb45238ce14f9906b61285"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-reverse-hero.png",
+          "sha256": "a9cbaa33f3480865cb42317bd465abb5426408c810f394cfdb58d96b1bb67b33"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-stack.png",
+          "sha256": "11f5b04dc9b55d95bafb7450e63e8750906e479c9492a124b6d8d10e903875dd"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-travel.png",
+          "sha256": "320f2a75c3637fcce9a2ed0fa437120d9cf428d7059ce79eb052904cf88e14c4"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-discovery.png",
+          "sha256": "93f573b411135ce9b5bbe6d9048741538d65b3d946146461760b6ee5d861fe15"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-fade.png",
+          "sha256": "784d98f822a1a7bb8dd9d41d94859b1610dcf96f511cc8f7176a905d6fa2c6ec"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-hero.png",
+          "sha256": "45a07dce86dad143e380550096ca2f48ec25df52c061b9935ce5f2a084330a33"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-map-B2.png",
+          "sha256": "9a34a7081c949c86b329da72955a35864d3416a8c63ef9386a41810dcb65819b"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-map-L2.png",
+          "sha256": "b79674941b1ac51aca9cd23b7b0fcd8293589462f2ef6c7b3eafd2f5aeb4d596"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-map-L6.png",
+          "sha256": "2eac37810e4200fc2053136fcc066836e43d9ab27cfe4d87d70813ce67d8a03c"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-map.png",
+          "sha256": "3a5bb8cb19f02ed1f84c77ab2fafa335916956518cb437e22b5b04fab881e5ee"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-reverse-hero.png",
+          "sha256": "6929478414128e59098dc994a39311fc475669f9af2a805f008e04961067b568"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-stack.png",
+          "sha256": "1e2d9b7ae564ec234b9db8e3fe6a37f61c34fa5c1d21261d0acf65cf750cc471"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-travel.png",
+          "sha256": "8ef8ef2c9010fef17be7c7e0050c922d687e506c91844087333c1e7c7ba5f4d0"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-discovery.png",
+          "sha256": "a3c7ca170ad51472c181475c3f00f2e626b0c7012736179efb8fbf696128818d"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-fade.png",
+          "sha256": "d2858cbe887a10966c9950ef84cd1de283b1908d7f461af1db8b1e2667362ce1"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-hero.png",
+          "sha256": "51da5c5d2db94c803dbf75cf65112b83f9866a25d4b1f77b6879551e30349234"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-map-B2.png",
+          "sha256": "0cfd3d0f9e64a658f93ff107eb9c7a1874ad9dbb08e4c6f5380d42769b3ded61"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-map-L2.png",
+          "sha256": "aa804f9143fc1f80b34be7f486160b953e4bbb73dc97c4de636be2f0d7a7b566"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-map-L6.png",
+          "sha256": "fc38549ed370b5af2c3024e61839b69a5a49921b602afc2ab3bf260f6e4c6446"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-map.png",
+          "sha256": "1c9314331f8b9bb3aca0d665e563f64513e76dcc7bd491a09f18dfb02d5e8cad"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-reverse-hero.png",
+          "sha256": "e06d93339592e02277c201dae4d4636c29936d5fcff500f624845f8374529215"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-stack.png",
+          "sha256": "4bc42483d9f481c7dd1bf4a847d661fd8ff49f76c4b8e9a178be9d6e1d8f496b"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-travel.png",
+          "sha256": "45dc59837155ae33ebdda6e7ecf723b21e604e51cd555ca05da78f5e965f0082"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-discovery.png",
+          "sha256": "3dcbeaed530ff31b7a18d5be869b236bde3c5c9d54def079fa619e10297ec788"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-fade.png",
+          "sha256": "2856fcf7fca5f17d20e2889f24c72e5f22e7340693291964ae0c6c9c1dcc1c0a"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-hero.png",
+          "sha256": "05b1bea02320147b2e66c531a3b306b4193ffdd4be6a05990940a74427de4211"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-map-B2.png",
+          "sha256": "a4a09df6d112f12b1cc3e44b29cc755f58a296ae8286feab844e1efc216831d7"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-map-B3.png",
+          "sha256": "d45601a0d1bfc580cdea62b19731407bddc7793127b71319707edd858bbe2b98"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-map-L2.png",
+          "sha256": "4a000a6f7b7c47612f20e50d5951d6653474b96b605ba3347c1c2eec4e1c6e9c"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-map-M.png",
+          "sha256": "88f57e0a82f26391a1d2cbbe57f16032f569873953fa59ce930ab6b844d914fc"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-map.png",
+          "sha256": "c09b263550c2eec33de93aedaf93f984c7077bca44c0db4ec5a861bfd562bf5d"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-reverse-hero.png",
+          "sha256": "cabd2bcda7ac6e78920699301a85fb9f9793a64ce4620b465b91826d85ca7311"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-stack.png",
+          "sha256": "a1da171089cc8965d7613c10d75f075940085ea2063d1560a381d2ad82d65d58"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-travel.png",
+          "sha256": "0abf79a5e6abee18a8c5273d9a462ac089ea9b9c8b91479044ea9daf1bf725ff"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-discovery.png",
+          "sha256": "025686a23c4f1c4c697788af35d2cce7fcb5805079d11c72a99db89bc8c30692"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-fade.png",
+          "sha256": "b1e71b0b56793ec80f8b787ee2bc521cad86a36e40ed7431b8315c2037099ab2"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-hero.png",
+          "sha256": "91ea035692771e11503445c019dc02c64c0f4281afb90d0c28307137d022126b"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-map-B2.png",
+          "sha256": "77b31536d10ae3aecb6f1edd22ea9e196bd80da3acb4e4211af4d900d019c22f"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-map-B3.png",
+          "sha256": "9b596bb7464680d996cbc43261c3a26ee707e7eb59219388307069b2d51c6eaa"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-map-L2.png",
+          "sha256": "1e6d5caa9001b11f3628ef283a62b1bfb1833db7c246603720225e59ce11bf6d"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-map-M.png",
+          "sha256": "7387412c73b52ef87ab60a1b7f762a90a4973b2821247807d0ead7d1b3afa184"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-map.png",
+          "sha256": "4104ae0d05e40ce4be1180eba4b52fa43849eb87398a778e98134310bf0234e5"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-reverse-hero.png",
+          "sha256": "7f02b364fb9ced8fee6e50a77bd8e711b933c6c9a2a42d3527108a421a079f60"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-stack.png",
+          "sha256": "aa94f41e62f7a401581f9deb3626e898976951ecd42e513c08a3a61facfffec9"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-travel.png",
+          "sha256": "2a0b83ae4dd72a278be854dba4de8d5cd5da59badde177699a0a3826799cf1cb"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-discovery.png",
+          "sha256": "5254abefe121d37cf6fbca970c29b880518a14ca9abfca8fc567510f8dfef710"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-fade.png",
+          "sha256": "24e0e560c4757054769b7068de41644e489fe0af52327678b5e8d7f78a9be1b3"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-hero.png",
+          "sha256": "ebf4ca69b762ddcd71f6169780b4c82b6c91eaad774a6b4f1ceb574a73a874eb"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-map-B2.png",
+          "sha256": "72513958ce39d75821bf49c7931032305a49fc263dbec33c211f68544589958e"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-map-B3.png",
+          "sha256": "94a93e954c78f256a80c3c0b346798a3e577b12ac95b3a2a93ba30ca22b22973"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-map-L2.png",
+          "sha256": "8362fda05cfc42bff500aa2f36024df6460bcdf037585c95df89ca32f23e8974"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-map-M.png",
+          "sha256": "db513d8036236ea57debb68b2357b48a2626ad64aea9b7f629ada76ccf54f25f"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-map.png",
+          "sha256": "68d112fc8038d402823e5d7a5d511b9e734ea8c5a3f9fedead5275635097f218"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-reverse-hero.png",
+          "sha256": "eb37bf8d6e849743bdf1e8d9724b0a9ae3698a0ef37f49a4f7a457d82db3356d"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-stack.png",
+          "sha256": "611a3481cf49f0edcaece890737d815b23a7a10e96c6852f96eef46d1318d37c"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-travel.png",
+          "sha256": "f05fb72e1edfc98d6acb850c5188113b359a97fbace3d52ed94d82aeb12a2734"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-discovery.png",
+          "sha256": "efff17c5dd191de09401be105848071227252520752a3eee5d8eb996cf745457"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-fade.png",
+          "sha256": "78aae230f1a2ca4c61de543b6e1df428165fee2712acc902ab12c1dcd374b46c"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-hero.png",
+          "sha256": "c357e2128b89623cfb30f90222e90346a90d211219c00239db7e0f5b6f563a3f"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-map-B2.png",
+          "sha256": "402c90d4ae1f75f8d2220e66863b8a19c21f7adbca64731d588a1639772a72b8"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-map-B3.png",
+          "sha256": "f2b5c08310665104a3536695157add3b892d702878daed8550935f1a8ad43492"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-map-L2.png",
+          "sha256": "3efad9136cccf565eb5b765823d1c2e9bae4759416d19f66fd202cae9b5dd738"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-map-M.png",
+          "sha256": "70d1e2461bbb2420defb85f9fa7fa249d91c07ada1c2a6ca6095585cfb00ab01"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-map.png",
+          "sha256": "f76ec874f44ea43491fdd82ec21cae3e8168f529c1f435b46d62c0553fe7b27e"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-reverse-hero.png",
+          "sha256": "873e01938a6a978888f85f62bae8dea6156202d97e8ac4bcc1be9107bfe58ac4"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-stack.png",
+          "sha256": "459bc975d6877d59fc8ca10b6ead35718093e4528b1f9fc2b963b87ec71d8a99"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-travel.png",
+          "sha256": "0ab1ee8d363a98ff7d81bc4f80be20b937c67553569702078210e664dd9bf5af"
+        },
+        {
+          "path": "evidence/continuous-journey/gallery.html",
+          "sha256": "05071e35214606ddb3afefd758d9acbc8292573f05cecc1f9817173367fdca22"
+        },
+        {
+          "path": "evidence/continuous-journey/geometry-receipt.json",
+          "sha256": "a5bad1e774625b6c948a37f39a208e300fb57ac2c599f5e399b75fa7168fc96b"
+        },
+        {
+          "path": "evidence/continuous-journey/geometry-review.md",
+          "sha256": "e60eec0991f088c166bdbd8cf3a2d90ce8520445fb63b284e486ee396d74b19f"
+        },
+        {
+          "path": "evidence/continuous-journey/initial-fallback-script.mjs.txt",
+          "sha256": "c7d53ab3cd5088cefa09583159375215a0381472d33b05a288e93965edc26507"
+        },
+        {
+          "path": "evidence/continuous-journey/initial-matrix-script.mjs.txt",
+          "sha256": "339620de880ac9f343eedbb6e0f28ab8b9918bcc95338609a7db2df043ee4e22"
+        },
+        {
+          "path": "evidence/continuous-journey/motion-frame.md",
+          "sha256": "4db536c8f6f05e1201a0509ddc4d35437b1777d76417f6704ae71af0e250d70b"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/1280-fade.png",
+          "sha256": "8d63e3a738caa21eaa20634b8e20ae9480ce81be0cf39c8999c46a487983a00c"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/1280-hero.png",
+          "sha256": "a366987617bc14ef252d4103b0908fa5dd4c55270ff59a18b2528ea606bd4ae8"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/1280-map.png",
+          "sha256": "7461932c37a8d9afcf636a06bc20c1746bfc55720a10f46acbab96ca8cacb2aa"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/1280-stack.png",
+          "sha256": "eb76c1eb15206a49f7ec32a31317cea533a8803874b180c47e59e0c0165014a5"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/1280-travel.png",
+          "sha256": "a05f4f02d83b177992f620ed87a87dc9882e855e50eb60fb40ba8c9b5c20aa77"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/390-fade.png",
+          "sha256": "2171cc9d2c31532fe61fdfb709691bacd9efcc35f699114f00ae8f3de6ccaf02"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/390-hero.png",
+          "sha256": "9c7f8b459f0c0537f6b322a4431252dcb48ff5ca5e2d026356159e4de25560e3"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/390-map.png",
+          "sha256": "86742ea20bd553a1ee658cc000612dc62c0f7f2ac94a26b6af61993c97120a89"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/390-stack.png",
+          "sha256": "8d4bda32c0ce2f12e4f4b9374243dbb7d42d54275e48d48128bb7d959387356d"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/390-travel.png",
+          "sha256": "8eedb6d90d7f9fb78f1c04e2d4e3b3b5e4972d6f53ed057a571d2dd7a83be428"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/receipts.json",
+          "sha256": "342c7f0ae8fb8eda333b8a5915b236bc6bb35e9149946c68f7f3d63578cbe1fd"
+        },
+        {
+          "path": "evidence/continuous-journey/validation-summary.json",
+          "sha256": "10862f209294dc6bc57ef7f02be4cbb40339fffb343ff565477459ad1f9709ac"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@012c0ad2ba16f165639035bb3ef3eef7.webm",
+          "sha256": "1058b1cdac878c81054ed7c3ff7e106dbc536a09fa134c310ba1e50be12c1f19"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@045ba785e442b2b158a2cb77f4d79806.webm",
+          "sha256": "5e7d11ac587cce4a63ac2127b53973cac12aec6c6d733b4ede6394240268d4fa"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@23265b5611ab9ffb7e801ed7cc7078c2.webm",
+          "sha256": "1c6fe108178de9c732b0ab3444b7eaf71d51605d511557c0935e9e7e569934a7"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@27475757f2f4bacc13491188ae5f962c.webm",
+          "sha256": "bf25f02e643d0b239cefad79b22699aed85df6261e4309327e2b10324be511b9"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@2afd7053d9d448fb772047788a91b227.webm",
+          "sha256": "cbe5f483bc146a4bf05aa55f2ddf33a2e524a531a679a8c3228369bc33943d33"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@8a1baef5f9767caabffe16cd56fe2f18.webm",
+          "sha256": "2d85980074e0627be9d8f05a5fd0e85382e4d98f3e08df96804dc6daccc157f0"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@b3d5e910eedadd6b72cd9f199b3a4ea2.webm",
+          "sha256": "a446f0d00c7484f5ffc8b903e4e460c65e182c237c5d8bba0157b4c40f4f813b"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@bb47140863eef1decaad6b0e82c5cf38.webm",
+          "sha256": "8c1e6152e2c3caf5ad07d351cbb87cad7b35257ca602a28b9828d801c1007793"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@c5c982d9d4f70cc71bc22d3f06540c8b.webm",
+          "sha256": "22ca40c84846e4ae52fba711e2533842cff196858f600f3ae90688ece8b2aa1f"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@e621dae01472f1433057a9dfffbb0c48.webm",
+          "sha256": "20259497913a664807dbf7f033f044a743becd895d5600e29cc738e4028d7d2b"
+        },
+        {
+          "path": "src/components/Explorer.tsx",
+          "sha256": "e866610fb7aaa0b11269dd470f7eb87a617a37adedd3cfa25827fcb8be348d2d"
+        },
+        {
+          "path": "src/components/JourneyMotion.tsx",
+          "sha256": "85c6ac0692d9f49f64c65e4060a0635c26cb443eceef1a820b99cfb898f360e9"
+        },
+        {
+          "path": "src/components/OverviewStack.tsx",
+          "sha256": "22869080298593d201836a9ffefff5824a6b15d483a3b1fc57c533b0e51c3e16"
+        },
+        {
+          "path": "src/components/floor-frame.ts",
+          "sha256": "efc7c3d082ecdab2df1b7a7a399e4ab8c8854ed728e2c2ea21496a8352085b7e"
+        },
+        {
+          "path": "src/components/journey-copy.ts",
+          "sha256": "00695e3c68a4f78320dd73c4da3eab2a9b3e40f58f2158249388db74641e4336"
+        },
+        {
+          "path": "src/runtime/create-scene-runtime.ts",
+          "sha256": "8b12f593e029c00b42bdf106055391e5d7e59226af63a6b05b9545c4eb73412b"
+        },
+        {
+          "path": "src/runtime/scene-contract.ts",
+          "sha256": "594a1c41f81a4c26103ffbbaf36bfa0a57e2d714e3fe29ea27698a8ff23cde1c"
+        },
+        {
+          "path": "src/styles/journey.css",
+          "sha256": "bb3eb3ad3d190ccd0d4a0bc6d96677fddcbb38d5b2b140cffcb5e5d2613d0d09"
+        },
+        {
+          "path": "tests/browser-platform-fixtures.js",
+          "sha256": "4a8c3a4794a0d1a3360d9621d1aced89213cb1ff4f3c0a66013f42d36c76ea5a"
+        }
+      ]
+    },
+    {
+      "branch": "takashimaya",
+      "path": "D:\\Midterm\\.scratch\\issue-0005-takashimaya\\visitor-app",
+      "commit": "c87b63c17d9d4272893222d6c8320a930bb95964",
+      "byteIdentical": true,
+      "protectedExteriorFiles": 71,
+      "exteriorFilesPreserved": true,
+      "copiedFiles": [
+        {
+          "path": "evidence/continuous-journey/README.md",
+          "sha256": "4fc7830930a490566d29289dd2d56031e25c5b967671664589f6b7391488d434"
+        },
+        {
+          "path": "evidence/continuous-journey/baseline-overview.png",
+          "sha256": "dfd44f242211355e3d056400a2928d48ee1a1d11b8eadd7ac4d2d96f8fd7d682"
+        },
+        {
+          "path": "evidence/continuous-journey/browser-attempt-9f266bb.json",
+          "sha256": "784cac5023000e1127deb1804561ea302764d73ac82b4a362dde2323793f5687"
+        },
+        {
+          "path": "evidence/continuous-journey/browser-red.json",
+          "sha256": "00b83b1f3237a7d450b331adde0df286f0796b2918db9ccc2468c49745bf63ee"
+        },
+        {
+          "path": "evidence/continuous-journey/browser-results.json",
+          "sha256": "bdf9b28208fdd408e620562093ab8a52c3395e825eed2482549870fe4f47c0a7"
+        },
+        {
+          "path": "evidence/continuous-journey/build-fixture-saigon.log",
+          "sha256": "cae94c19e1869ac3b2138c01dbd7ccafaf5d8582292f418591ade0b7ff8f0b2e"
+        },
+        {
+          "path": "evidence/continuous-journey/build-fixture-vincom.log",
+          "sha256": "bfdd3577b55d85355e781c12e4ef7fbceb11b0d3e93f8394b96dddd5497f46a1"
+        },
+        {
+          "path": "evidence/continuous-journey/build-saigon.log",
+          "sha256": "e9bd6b457da9d97db09be01b70f96182009d7aef67eaf16e117b8ce758743141"
+        },
+        {
+          "path": "evidence/continuous-journey/build-vincom.log",
+          "sha256": "eb9e9b4c4603feed3bfe73a6d18cdcb1dfbdac00496fb328c8a1b53d16a533b0"
+        },
+        {
+          "path": "evidence/continuous-journey/fallback-attempt-1.json",
+          "sha256": "cfdca8900f8e062358dd73553d89476969d97d8bf0a015d47e8b8c087b434b58"
+        },
+        {
+          "path": "evidence/continuous-journey/fallback-results.json",
+          "sha256": "53707ae4186e3b5f8bd513e36041ad7631e22a8a406f75d52663d0774049c937"
+        },
+        {
+          "path": "evidence/continuous-journey/final-check.log",
+          "sha256": "2dcde030efce79b4918e742eacad1f8a988d9178134b2f97158ad05965836fe8"
+        },
+        {
+          "path": "evidence/continuous-journey/final-fallback-script.mjs.txt",
+          "sha256": "f714a2b170fd58bf51abd6f630607ff0cb35742e37e4b1b3373562809510d990"
+        },
+        {
+          "path": "evidence/continuous-journey/final-fixture-script.mjs.txt",
+          "sha256": "0d158132b4c725d170c06efb36bd2485c5f1cf6ed1c53727a54c9ef16c7be101"
+        },
+        {
+          "path": "evidence/continuous-journey/final-matrix-script.mjs.txt",
+          "sha256": "0d6666ec1352a86cf28fda26146827b1f034f6ed9371cba3661e4b8e1b204845"
+        },
+        {
+          "path": "evidence/continuous-journey/fixture-results.json",
+          "sha256": "9c44e2f8777894df21ee984caf581f4938a97988e5652c8bbab2d247a68c5ee9"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-discovery.png",
+          "sha256": "e7a7a79a9a42c1679bf02dd72a795d8dcc82ab9d67e109eae8d3dd8a71c62816"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-fade.png",
+          "sha256": "1a72b745a5ce17822157e14eee460c0438b57b0966713066ffadc774fa0b4145"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-hero.png",
+          "sha256": "4f7123ff5839cdc180614c0fed28918a9b1aab2c4057bc90cbfaf22a40c01b30"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-map-B2.png",
+          "sha256": "e760512ef621d32c264b01a4b42a4c8d7e9eaacf9d177488dcb7a99e6ac93d1b"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-map-L2.png",
+          "sha256": "b901b211a107257c1c1fc83163d029e970cc2fcc2175d941a734e42da0ea4d2e"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-map-L6.png",
+          "sha256": "0edf383ed086efba24e1af0e2cabcd394a0fa07f7697dc9633705a4968eab472"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-map.png",
+          "sha256": "ed7c319fa5eb08df287fae67df9727a8361a1149ad11412a0503258f8b968b12"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-reverse-hero.png",
+          "sha256": "ba2dcd7137c094768f0d34929a926bd65e92b68d5f3841827515b39ab8e1b927"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-stack.png",
+          "sha256": "106e261063492ffce4bd19d6fa0d86b40b74b2482502681cfb0fd351ee4f45ba"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-1280-travel.png",
+          "sha256": "b2c6ebcadd0c9c727131162bd7683f60c95e164226943010ac1964f15a8e9bf0"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-discovery.png",
+          "sha256": "caedf24322af6c7761a1f634bfb95b5f2eef15fcb5c8b26808977af7b541d1be"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-fade.png",
+          "sha256": "cdff0974c017f5fa3935ab1ffa8df8f882e2f14eab990b881c7872a64283ef23"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-hero.png",
+          "sha256": "9dd648472806bdcf337b118213761cc92abdac4b150bd237d2d4a926d001e914"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-map-B2.png",
+          "sha256": "d08f1cf14692b8b66802bfdc60be367f782c0fde67293169ad231742b2a1e45d"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-map-L2.png",
+          "sha256": "3acf1ecff795e550d2a68913bcf9e5715574982350180df40c78ea23b34f7bc2"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-map-L6.png",
+          "sha256": "42b47a9e494e54a667401efe6d49a3758ec314d4aec2814fa0d9164ff0e42eb4"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-map.png",
+          "sha256": "79dc191bd1034e6cec52c311fc7816880d23a3e3f9eb45238ce14f9906b61285"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-reverse-hero.png",
+          "sha256": "a9cbaa33f3480865cb42317bd465abb5426408c810f394cfdb58d96b1bb67b33"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-stack.png",
+          "sha256": "11f5b04dc9b55d95bafb7450e63e8750906e479c9492a124b6d8d10e903875dd"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-en-390-travel.png",
+          "sha256": "320f2a75c3637fcce9a2ed0fa437120d9cf428d7059ce79eb052904cf88e14c4"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-discovery.png",
+          "sha256": "93f573b411135ce9b5bbe6d9048741538d65b3d946146461760b6ee5d861fe15"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-fade.png",
+          "sha256": "784d98f822a1a7bb8dd9d41d94859b1610dcf96f511cc8f7176a905d6fa2c6ec"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-hero.png",
+          "sha256": "45a07dce86dad143e380550096ca2f48ec25df52c061b9935ce5f2a084330a33"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-map-B2.png",
+          "sha256": "9a34a7081c949c86b329da72955a35864d3416a8c63ef9386a41810dcb65819b"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-map-L2.png",
+          "sha256": "b79674941b1ac51aca9cd23b7b0fcd8293589462f2ef6c7b3eafd2f5aeb4d596"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-map-L6.png",
+          "sha256": "2eac37810e4200fc2053136fcc066836e43d9ab27cfe4d87d70813ce67d8a03c"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-map.png",
+          "sha256": "3a5bb8cb19f02ed1f84c77ab2fafa335916956518cb437e22b5b04fab881e5ee"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-reverse-hero.png",
+          "sha256": "6929478414128e59098dc994a39311fc475669f9af2a805f008e04961067b568"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-stack.png",
+          "sha256": "1e2d9b7ae564ec234b9db8e3fe6a37f61c34fa5c1d21261d0acf65cf750cc471"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-1280-travel.png",
+          "sha256": "8ef8ef2c9010fef17be7c7e0050c922d687e506c91844087333c1e7c7ba5f4d0"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-discovery.png",
+          "sha256": "a3c7ca170ad51472c181475c3f00f2e626b0c7012736179efb8fbf696128818d"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-fade.png",
+          "sha256": "d2858cbe887a10966c9950ef84cd1de283b1908d7f461af1db8b1e2667362ce1"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-hero.png",
+          "sha256": "51da5c5d2db94c803dbf75cf65112b83f9866a25d4b1f77b6879551e30349234"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-map-B2.png",
+          "sha256": "0cfd3d0f9e64a658f93ff107eb9c7a1874ad9dbb08e4c6f5380d42769b3ded61"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-map-L2.png",
+          "sha256": "aa804f9143fc1f80b34be7f486160b953e4bbb73dc97c4de636be2f0d7a7b566"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-map-L6.png",
+          "sha256": "fc38549ed370b5af2c3024e61839b69a5a49921b602afc2ab3bf260f6e4c6446"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-map.png",
+          "sha256": "1c9314331f8b9bb3aca0d665e563f64513e76dcc7bd491a09f18dfb02d5e8cad"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-reverse-hero.png",
+          "sha256": "e06d93339592e02277c201dae4d4636c29936d5fcff500f624845f8374529215"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-stack.png",
+          "sha256": "4bc42483d9f481c7dd1bf4a847d661fd8ff49f76c4b8e9a178be9d6e1d8f496b"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/saigon-vi-390-travel.png",
+          "sha256": "45dc59837155ae33ebdda6e7ecf723b21e604e51cd555ca05da78f5e965f0082"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-discovery.png",
+          "sha256": "3dcbeaed530ff31b7a18d5be869b236bde3c5c9d54def079fa619e10297ec788"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-fade.png",
+          "sha256": "2856fcf7fca5f17d20e2889f24c72e5f22e7340693291964ae0c6c9c1dcc1c0a"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-hero.png",
+          "sha256": "05b1bea02320147b2e66c531a3b306b4193ffdd4be6a05990940a74427de4211"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-map-B2.png",
+          "sha256": "a4a09df6d112f12b1cc3e44b29cc755f58a296ae8286feab844e1efc216831d7"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-map-B3.png",
+          "sha256": "d45601a0d1bfc580cdea62b19731407bddc7793127b71319707edd858bbe2b98"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-map-L2.png",
+          "sha256": "4a000a6f7b7c47612f20e50d5951d6653474b96b605ba3347c1c2eec4e1c6e9c"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-map-M.png",
+          "sha256": "88f57e0a82f26391a1d2cbbe57f16032f569873953fa59ce930ab6b844d914fc"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-map.png",
+          "sha256": "c09b263550c2eec33de93aedaf93f984c7077bca44c0db4ec5a861bfd562bf5d"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-reverse-hero.png",
+          "sha256": "cabd2bcda7ac6e78920699301a85fb9f9793a64ce4620b465b91826d85ca7311"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-stack.png",
+          "sha256": "a1da171089cc8965d7613c10d75f075940085ea2063d1560a381d2ad82d65d58"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-1280-travel.png",
+          "sha256": "0abf79a5e6abee18a8c5273d9a462ac089ea9b9c8b91479044ea9daf1bf725ff"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-discovery.png",
+          "sha256": "025686a23c4f1c4c697788af35d2cce7fcb5805079d11c72a99db89bc8c30692"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-fade.png",
+          "sha256": "b1e71b0b56793ec80f8b787ee2bc521cad86a36e40ed7431b8315c2037099ab2"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-hero.png",
+          "sha256": "91ea035692771e11503445c019dc02c64c0f4281afb90d0c28307137d022126b"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-map-B2.png",
+          "sha256": "77b31536d10ae3aecb6f1edd22ea9e196bd80da3acb4e4211af4d900d019c22f"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-map-B3.png",
+          "sha256": "9b596bb7464680d996cbc43261c3a26ee707e7eb59219388307069b2d51c6eaa"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-map-L2.png",
+          "sha256": "1e6d5caa9001b11f3628ef283a62b1bfb1833db7c246603720225e59ce11bf6d"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-map-M.png",
+          "sha256": "7387412c73b52ef87ab60a1b7f762a90a4973b2821247807d0ead7d1b3afa184"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-map.png",
+          "sha256": "4104ae0d05e40ce4be1180eba4b52fa43849eb87398a778e98134310bf0234e5"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-reverse-hero.png",
+          "sha256": "7f02b364fb9ced8fee6e50a77bd8e711b933c6c9a2a42d3527108a421a079f60"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-stack.png",
+          "sha256": "aa94f41e62f7a401581f9deb3626e898976951ecd42e513c08a3a61facfffec9"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-en-390-travel.png",
+          "sha256": "2a0b83ae4dd72a278be854dba4de8d5cd5da59badde177699a0a3826799cf1cb"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-discovery.png",
+          "sha256": "5254abefe121d37cf6fbca970c29b880518a14ca9abfca8fc567510f8dfef710"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-fade.png",
+          "sha256": "24e0e560c4757054769b7068de41644e489fe0af52327678b5e8d7f78a9be1b3"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-hero.png",
+          "sha256": "ebf4ca69b762ddcd71f6169780b4c82b6c91eaad774a6b4f1ceb574a73a874eb"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-map-B2.png",
+          "sha256": "72513958ce39d75821bf49c7931032305a49fc263dbec33c211f68544589958e"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-map-B3.png",
+          "sha256": "94a93e954c78f256a80c3c0b346798a3e577b12ac95b3a2a93ba30ca22b22973"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-map-L2.png",
+          "sha256": "8362fda05cfc42bff500aa2f36024df6460bcdf037585c95df89ca32f23e8974"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-map-M.png",
+          "sha256": "db513d8036236ea57debb68b2357b48a2626ad64aea9b7f629ada76ccf54f25f"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-map.png",
+          "sha256": "68d112fc8038d402823e5d7a5d511b9e734ea8c5a3f9fedead5275635097f218"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-reverse-hero.png",
+          "sha256": "eb37bf8d6e849743bdf1e8d9724b0a9ae3698a0ef37f49a4f7a457d82db3356d"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-stack.png",
+          "sha256": "611a3481cf49f0edcaece890737d815b23a7a10e96c6852f96eef46d1318d37c"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-1280-travel.png",
+          "sha256": "f05fb72e1edfc98d6acb850c5188113b359a97fbace3d52ed94d82aeb12a2734"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-discovery.png",
+          "sha256": "efff17c5dd191de09401be105848071227252520752a3eee5d8eb996cf745457"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-fade.png",
+          "sha256": "78aae230f1a2ca4c61de543b6e1df428165fee2712acc902ab12c1dcd374b46c"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-hero.png",
+          "sha256": "c357e2128b89623cfb30f90222e90346a90d211219c00239db7e0f5b6f563a3f"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-map-B2.png",
+          "sha256": "402c90d4ae1f75f8d2220e66863b8a19c21f7adbca64731d588a1639772a72b8"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-map-B3.png",
+          "sha256": "f2b5c08310665104a3536695157add3b892d702878daed8550935f1a8ad43492"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-map-L2.png",
+          "sha256": "3efad9136cccf565eb5b765823d1c2e9bae4759416d19f66fd202cae9b5dd738"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-map-M.png",
+          "sha256": "70d1e2461bbb2420defb85f9fa7fa249d91c07ada1c2a6ca6095585cfb00ab01"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-map.png",
+          "sha256": "f76ec874f44ea43491fdd82ec21cae3e8168f529c1f435b46d62c0553fe7b27e"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-reverse-hero.png",
+          "sha256": "873e01938a6a978888f85f62bae8dea6156202d97e8ac4bcc1be9107bfe58ac4"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-stack.png",
+          "sha256": "459bc975d6877d59fc8ca10b6ead35718093e4528b1f9fc2b963b87ec71d8a99"
+        },
+        {
+          "path": "evidence/continuous-journey/frames/vincom-vi-390-travel.png",
+          "sha256": "0ab1ee8d363a98ff7d81bc4f80be20b937c67553569702078210e664dd9bf5af"
+        },
+        {
+          "path": "evidence/continuous-journey/gallery.html",
+          "sha256": "05071e35214606ddb3afefd758d9acbc8292573f05cecc1f9817173367fdca22"
+        },
+        {
+          "path": "evidence/continuous-journey/geometry-receipt.json",
+          "sha256": "a5bad1e774625b6c948a37f39a208e300fb57ac2c599f5e399b75fa7168fc96b"
+        },
+        {
+          "path": "evidence/continuous-journey/geometry-review.md",
+          "sha256": "e60eec0991f088c166bdbd8cf3a2d90ce8520445fb63b284e486ee396d74b19f"
+        },
+        {
+          "path": "evidence/continuous-journey/initial-fallback-script.mjs.txt",
+          "sha256": "c7d53ab3cd5088cefa09583159375215a0381472d33b05a288e93965edc26507"
+        },
+        {
+          "path": "evidence/continuous-journey/initial-matrix-script.mjs.txt",
+          "sha256": "339620de880ac9f343eedbb6e0f28ab8b9918bcc95338609a7db2df043ee4e22"
+        },
+        {
+          "path": "evidence/continuous-journey/motion-frame.md",
+          "sha256": "4db536c8f6f05e1201a0509ddc4d35437b1777d76417f6704ae71af0e250d70b"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/1280-fade.png",
+          "sha256": "8d63e3a738caa21eaa20634b8e20ae9480ce81be0cf39c8999c46a487983a00c"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/1280-hero.png",
+          "sha256": "a366987617bc14ef252d4103b0908fa5dd4c55270ff59a18b2528ea606bd4ae8"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/1280-map.png",
+          "sha256": "7461932c37a8d9afcf636a06bc20c1746bfc55720a10f46acbab96ca8cacb2aa"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/1280-stack.png",
+          "sha256": "eb76c1eb15206a49f7ec32a31317cea533a8803874b180c47e59e0c0165014a5"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/1280-travel.png",
+          "sha256": "a05f4f02d83b177992f620ed87a87dc9882e855e50eb60fb40ba8c9b5c20aa77"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/390-fade.png",
+          "sha256": "2171cc9d2c31532fe61fdfb709691bacd9efcc35f699114f00ae8f3de6ccaf02"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/390-hero.png",
+          "sha256": "9c7f8b459f0c0537f6b322a4431252dcb48ff5ca5e2d026356159e4de25560e3"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/390-map.png",
+          "sha256": "86742ea20bd553a1ee658cc000612dc62c0f7f2ac94a26b6af61993c97120a89"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/390-stack.png",
+          "sha256": "8d4bda32c0ce2f12e4f4b9374243dbb7d42d54275e48d48128bb7d959387356d"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/390-travel.png",
+          "sha256": "8eedb6d90d7f9fb78f1c04e2d4e3b3b5e4972d6f53ed057a571d2dd7a83be428"
+        },
+        {
+          "path": "evidence/continuous-journey/probe/receipts.json",
+          "sha256": "342c7f0ae8fb8eda333b8a5915b236bc6bb35e9149946c68f7f3d63578cbe1fd"
+        },
+        {
+          "path": "evidence/continuous-journey/validation-summary.json",
+          "sha256": "10862f209294dc6bc57ef7f02be4cbb40339fffb343ff565477459ad1f9709ac"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@012c0ad2ba16f165639035bb3ef3eef7.webm",
+          "sha256": "1058b1cdac878c81054ed7c3ff7e106dbc536a09fa134c310ba1e50be12c1f19"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@045ba785e442b2b158a2cb77f4d79806.webm",
+          "sha256": "5e7d11ac587cce4a63ac2127b53973cac12aec6c6d733b4ede6394240268d4fa"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@23265b5611ab9ffb7e801ed7cc7078c2.webm",
+          "sha256": "1c6fe108178de9c732b0ab3444b7eaf71d51605d511557c0935e9e7e569934a7"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@27475757f2f4bacc13491188ae5f962c.webm",
+          "sha256": "bf25f02e643d0b239cefad79b22699aed85df6261e4309327e2b10324be511b9"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@2afd7053d9d448fb772047788a91b227.webm",
+          "sha256": "cbe5f483bc146a4bf05aa55f2ddf33a2e524a531a679a8c3228369bc33943d33"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@8a1baef5f9767caabffe16cd56fe2f18.webm",
+          "sha256": "2d85980074e0627be9d8f05a5fd0e85382e4d98f3e08df96804dc6daccc157f0"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@b3d5e910eedadd6b72cd9f199b3a4ea2.webm",
+          "sha256": "a446f0d00c7484f5ffc8b903e4e460c65e182c237c5d8bba0157b4c40f4f813b"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@bb47140863eef1decaad6b0e82c5cf38.webm",
+          "sha256": "8c1e6152e2c3caf5ad07d351cbb87cad7b35257ca602a28b9828d801c1007793"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@c5c982d9d4f70cc71bc22d3f06540c8b.webm",
+          "sha256": "22ca40c84846e4ae52fba711e2533842cff196858f600f3ae90688ece8b2aa1f"
+        },
+        {
+          "path": "evidence/continuous-journey/video/page@e621dae01472f1433057a9dfffbb0c48.webm",
+          "sha256": "20259497913a664807dbf7f033f044a743becd895d5600e29cc738e4028d7d2b"
+        },
+        {
+          "path": "src/components/Explorer.tsx",
+          "sha256": "e866610fb7aaa0b11269dd470f7eb87a617a37adedd3cfa25827fcb8be348d2d"
+        },
+        {
+          "path": "src/components/JourneyMotion.tsx",
+          "sha256": "85c6ac0692d9f49f64c65e4060a0635c26cb443eceef1a820b99cfb898f360e9"
+        },
+        {
+          "path": "src/components/OverviewStack.tsx",
+          "sha256": "22869080298593d201836a9ffefff5824a6b15d483a3b1fc57c533b0e51c3e16"
+        },
+        {
+          "path": "src/components/floor-frame.ts",
+          "sha256": "efc7c3d082ecdab2df1b7a7a399e4ab8c8854ed728e2c2ea21496a8352085b7e"
+        },
+        {
+          "path": "src/components/journey-copy.ts",
+          "sha256": "00695e3c68a4f78320dd73c4da3eab2a9b3e40f58f2158249388db74641e4336"
+        },
+        {
+          "path": "src/runtime/create-scene-runtime.ts",
+          "sha256": "8b12f593e029c00b42bdf106055391e5d7e59226af63a6b05b9545c4eb73412b"
+        },
+        {
+          "path": "src/runtime/scene-contract.ts",
+          "sha256": "594a1c41f81a4c26103ffbbaf36bfa0a57e2d714e3fe29ea27698a8ff23cde1c"
+        },
+        {
+          "path": "src/styles/journey.css",
+          "sha256": "bb3eb3ad3d190ccd0d4a0bc6d96677fddcbb38d5b2b140cffcb5e5d2613d0d09"
+        },
+        {
+          "path": "tests/browser-platform-fixtures.js",
+          "sha256": "4a8c3a4794a0d1a3360d9621d1aced89213cb1ff4f3c0a66013f42d36c76ea5a"
+        }
+      ]
+    }
+  ]
+}
