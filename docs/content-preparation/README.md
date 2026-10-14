@@ -6,6 +6,10 @@ Authority: [issue 0016](../../../../docs/issues/0016-visitor-discovery-integrati
 
 Owner clarification received 14 October 2026: **both supplied Markdown lists are the owner's most up-to-date lists**. Use them as the current supplied directory baseline ahead of older map labels or historical research. This resolves which source version to use; it does not supply an editorial review date, independent bilingual approvals, precise geometry links or Highlight selections. The confirmation date is a communication date, not `reviewedAt`. Remaining checks reconcile and complete this baseline rather than request a newer list without a specific conflict.
 
+Follow-up: **Highlights are deferred; the owner will provide them later.** The documents already supply floor claims, which are now extracted independently in [floor claims and map reconciliation](map-reconciliation.md). All 15 map images were visually inspected; floor sets match but reference tenant/unit labels are not fully synchronized. Preserve list floor claims separately from area certainty, and continue basic-listing preparation while exact markers remain unresolved. The reconciliation packet includes a 383-occurrence review queue and specific conflicts, without altering the original preparation r1 snapshots.
+
+The owner's subsequent clarification makes **Markdown authoritative and maps outdated**. Use the [complete location checklist](owner-location-checklist.md), [383-record comparison spreadsheet](all-record-map-comparison.csv) and [map-only annotation checklist](map-only-annotations.md) for reconstruction review. Final extraction records 150 Vincom occurrences with explicit floor claims and 67 without them; the preliminary 151/66 count is superseded. Rebuild content labels/occupancy from owner resolutions; boundary changes require current shape evidence and belong to the map/runtime owners.
+
 ## Review packet
 
 | File | Purpose |
