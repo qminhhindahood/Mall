@@ -1,0 +1,440 @@
+{
+  "source": "564262d / unchanged application 13a2083",
+  "qualification": "No recorded hidden interval; pre-hydration observer plus <=750ms maximum heartbeat gap. Gap cutoff is conservative local host screening, not proof of unsuspended scheduling or visibility before inline observer start. T3 host visible:false disagrees with page visible; owner confirms foreground. Local reduced-motion browser only.",
+  "rows": [
+    {
+      "label": "saigon-warm-1",
+      "mallId": "saigon-centre",
+      "cache": "same-origin navigation; retained HTTP/process caches",
+      "runtimePass": true,
+      "qualified": false,
+      "exclusion": "hidden interval or >=750ms observer gap; possible suspension/long-task ambiguity",
+      "maxHeartbeatGapMs": 999.6999999880791,
+      "navigationToFrameMs": 3410.7999999970198,
+      "earlyUnpreparedMapMs": 333.09999999403954,
+      "preparedDiscoveryMs": 154.29999999701977,
+      "observerStartedAtMs": 35.20000000298023,
+      "profile": {
+        "connection": {
+          "downlink": 1.65,
+          "effectiveType": "4g",
+          "rtt": 150
+        },
+        "dpr": 1.75,
+        "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "reducedMotion": true,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+        "viewport": [
+          1402,
+          877
+        ]
+      }
+    },
+    {
+      "label": "vincom-cold-1",
+      "mallId": "vincom-dong-khoi",
+      "cache": "fetch-cache-reload/new-query; warm process/shader caches",
+      "runtimePass": true,
+      "qualified": true,
+      "exclusion": null,
+      "maxHeartbeatGapMs": 209.59999999403954,
+      "navigationToFrameMs": 1155.5999999940395,
+      "earlyUnpreparedMapMs": 38.1000000089407,
+      "preparedDiscoveryMs": 20.799999997019768,
+      "observerStartedAtMs": 370.70000000298023,
+      "profile": {
+        "connection": {
+          "downlink": 1.65,
+          "effectiveType": "4g",
+          "rtt": 150
+        },
+        "dpr": 1.75,
+        "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "reducedMotion": true,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+        "viewport": [
+          1402,
+          877
+        ]
+      }
+    },
+    {
+      "label": "vincom-warm-1",
+      "mallId": "vincom-dong-khoi",
+      "cache": "same-origin navigation; retained HTTP/process caches",
+      "runtimePass": true,
+      "qualified": true,
+      "exclusion": null,
+      "maxHeartbeatGapMs": 293.5,
+      "navigationToFrameMs": 678.7000000029802,
+      "earlyUnpreparedMapMs": 40.400000005960464,
+      "preparedDiscoveryMs": 18.299999997019768,
+      "observerStartedAtMs": 32.6000000089407,
+      "profile": {
+        "connection": {
+          "downlink": 1.65,
+          "effectiveType": "4g",
+          "rtt": 150
+        },
+        "dpr": 1.75,
+        "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "reducedMotion": true,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+        "viewport": [
+          1402,
+          877
+        ]
+      }
+    },
+    {
+      "label": "saigon-cold-2",
+      "mallId": "saigon-centre",
+      "cache": "fetch-cache-reload/new-query; warm process/shader caches",
+      "runtimePass": true,
+      "qualified": true,
+      "exclusion": null,
+      "maxHeartbeatGapMs": 461.70000000298023,
+      "navigationToFrameMs": 2051.7000000029802,
+      "earlyUnpreparedMapMs": 311.80000001192093,
+      "preparedDiscoveryMs": 146.09999999403954,
+      "observerStartedAtMs": 31.5,
+      "profile": {
+        "connection": {
+          "downlink": 1.65,
+          "effectiveType": "4g",
+          "rtt": 150
+        },
+        "dpr": 1.75,
+        "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "reducedMotion": true,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+        "viewport": [
+          1402,
+          877
+        ]
+      }
+    },
+    {
+      "label": "saigon-warm-2",
+      "mallId": "saigon-centre",
+      "cache": "same-origin navigation; retained HTTP/process caches",
+      "runtimePass": true,
+      "qualified": true,
+      "exclusion": null,
+      "maxHeartbeatGapMs": 490.79999999701977,
+      "navigationToFrameMs": 3114.6000000089407,
+      "earlyUnpreparedMapMs": 457.70000000298023,
+      "preparedDiscoveryMs": 148.70000000298023,
+      "observerStartedAtMs": 157.90000000596046,
+      "profile": {
+        "connection": {
+          "downlink": 1.65,
+          "effectiveType": "4g",
+          "rtt": 150
+        },
+        "dpr": 1.75,
+        "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "reducedMotion": true,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+        "viewport": [
+          1402,
+          877
+        ]
+      }
+    },
+    {
+      "label": "vincom-cold-2",
+      "mallId": "vincom-dong-khoi",
+      "cache": "fetch-cache-reload/new-query; warm process/shader caches",
+      "runtimePass": true,
+      "qualified": true,
+      "exclusion": null,
+      "maxHeartbeatGapMs": 146.09999999403954,
+      "navigationToFrameMs": 935.1000000089407,
+      "earlyUnpreparedMapMs": 43.900000005960464,
+      "preparedDiscoveryMs": 20.30000001192093,
+      "observerStartedAtMs": 331.6000000089407,
+      "profile": {
+        "connection": {
+          "downlink": 1.65,
+          "effectiveType": "4g",
+          "rtt": 150
+        },
+        "dpr": 1.75,
+        "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "reducedMotion": true,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+        "viewport": [
+          1402,
+          877
+        ]
+      }
+    },
+    {
+      "label": "vincom-warm-2",
+      "mallId": "vincom-dong-khoi",
+      "cache": "same-origin navigation; retained HTTP/process caches",
+      "runtimePass": true,
+      "qualified": true,
+      "exclusion": null,
+      "maxHeartbeatGapMs": 177.29999999701977,
+      "navigationToFrameMs": 538.2000000029802,
+      "earlyUnpreparedMapMs": 37.70000000298023,
+      "preparedDiscoveryMs": 15.5,
+      "observerStartedAtMs": 22.600000008940697,
+      "profile": {
+        "connection": {
+          "downlink": 1.65,
+          "effectiveType": "4g",
+          "rtt": 150
+        },
+        "dpr": 1.75,
+        "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "reducedMotion": true,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+        "viewport": [
+          1402,
+          877
+        ]
+      }
+    },
+    {
+      "label": "saigon-cold-3",
+      "mallId": "saigon-centre",
+      "cache": "fetch-cache-reload/new-query; warm process/shader caches",
+      "runtimePass": true,
+      "qualified": true,
+      "exclusion": null,
+      "maxHeartbeatGapMs": 462.19999998807907,
+      "navigationToFrameMs": 2142.5,
+      "earlyUnpreparedMapMs": 294.70000000298023,
+      "preparedDiscoveryMs": 157.09999999403954,
+      "observerStartedAtMs": 49.19999998807907,
+      "profile": {
+        "connection": {
+          "downlink": 1.65,
+          "effectiveType": "4g",
+          "rtt": 150
+        },
+        "dpr": 1.75,
+        "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "reducedMotion": true,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+        "viewport": [
+          1402,
+          877
+        ]
+      }
+    },
+    {
+      "label": "saigon-warm-3",
+      "mallId": "saigon-centre",
+      "cache": "same-origin navigation; retained HTTP/process caches",
+      "runtimePass": true,
+      "qualified": true,
+      "exclusion": null,
+      "maxHeartbeatGapMs": 472,
+      "navigationToFrameMs": 3147.3999999910593,
+      "earlyUnpreparedMapMs": 320.70000000298023,
+      "preparedDiscoveryMs": 161.09999999403954,
+      "observerStartedAtMs": 138.19999998807907,
+      "profile": {
+        "connection": {
+          "downlink": 1.65,
+          "effectiveType": "4g",
+          "rtt": 150
+        },
+        "dpr": 1.75,
+        "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "reducedMotion": true,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+        "viewport": [
+          1402,
+          877
+        ]
+      }
+    },
+    {
+      "label": "vincom-cold-3",
+      "mallId": "vincom-dong-khoi",
+      "cache": "fetch-cache-reload/new-query; warm process/shader caches",
+      "runtimePass": true,
+      "qualified": true,
+      "exclusion": null,
+      "maxHeartbeatGapMs": 311.20000000298023,
+      "navigationToFrameMs": 818.5999999940395,
+      "earlyUnpreparedMapMs": 110.20000000298023,
+      "preparedDiscoveryMs": 21.299999997019768,
+      "observerStartedAtMs": 39.3999999910593,
+      "profile": {
+        "connection": {
+          "downlink": 1.65,
+          "effectiveType": "4g",
+          "rtt": 150
+        },
+        "dpr": 1.75,
+        "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "reducedMotion": true,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+        "viewport": [
+          1402,
+          877
+        ]
+      }
+    },
+    {
+      "label": "vincom-warm-3",
+      "mallId": "vincom-dong-khoi",
+      "cache": "same-origin navigation; retained HTTP/process caches",
+      "runtimePass": true,
+      "qualified": true,
+      "exclusion": null,
+      "maxHeartbeatGapMs": 198.59999999403954,
+      "navigationToFrameMs": 581.7999999970198,
+      "earlyUnpreparedMapMs": 64.6000000089407,
+      "preparedDiscoveryMs": 19.5,
+      "observerStartedAtMs": 25.700000002980232,
+      "profile": {
+        "connection": {
+          "downlink": 1.65,
+          "effectiveType": "4g",
+          "rtt": 150
+        },
+        "dpr": 1.75,
+        "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "reducedMotion": true,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+        "viewport": [
+          1402,
+          877
+        ]
+      }
+    },
+    {
+      "label": "saigon-cold-4",
+      "mallId": "saigon-centre",
+      "cache": "fetch-cache-reload/new-query; warm process/shader caches",
+      "runtimePass": true,
+      "qualified": true,
+      "exclusion": null,
+      "maxHeartbeatGapMs": 424.29999999701977,
+      "navigationToFrameMs": 2894.8999999910593,
+      "earlyUnpreparedMapMs": 412.29999999701977,
+      "preparedDiscoveryMs": 142.5,
+      "observerStartedAtMs": 60.70000000298023,
+      "profile": {
+        "connection": {
+          "downlink": 1.65,
+          "effectiveType": "4g",
+          "rtt": 150
+        },
+        "dpr": 1.75,
+        "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "reducedMotion": true,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+        "viewport": [
+          1402,
+          877
+        ]
+      }
+    },
+    {
+      "label": "saigon-warm-4",
+      "mallId": "saigon-centre",
+      "cache": "same-origin navigation; retained HTTP/process caches",
+      "runtimePass": true,
+      "qualified": true,
+      "exclusion": null,
+      "maxHeartbeatGapMs": 449.70000000298023,
+      "navigationToFrameMs": 2227.2999999970198,
+      "earlyUnpreparedMapMs": 294.5,
+      "preparedDiscoveryMs": 151.70000000298023,
+      "observerStartedAtMs": 155.59999999403954,
+      "profile": {
+        "connection": {
+          "downlink": 1.65,
+          "effectiveType": "4g",
+          "rtt": 150
+        },
+        "dpr": 1.75,
+        "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "reducedMotion": true,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+        "viewport": [
+          1402,
+          877
+        ]
+      }
+    }
+  ],
+  "groups": [
+    {
+      "mallId": "saigon-centre",
+      "cache": "cold",
+      "count": 3,
+      "labels": [
+        "saigon-cold-2",
+        "saigon-cold-3",
+        "saigon-cold-4"
+      ],
+      "medianNavigationToFrameMs": 2142.5,
+      "maxNavigationToFrameMs": 2894.8999999910593,
+      "maxEarlyUnpreparedMapMs": 412.29999999701977,
+      "maxPreparedDiscoveryMs": 157.09999999403954
+    },
+    {
+      "mallId": "saigon-centre",
+      "cache": "warm",
+      "count": 3,
+      "labels": [
+        "saigon-warm-2",
+        "saigon-warm-3",
+        "saigon-warm-4"
+      ],
+      "medianNavigationToFrameMs": 3114.6000000089407,
+      "maxNavigationToFrameMs": 3147.3999999910593,
+      "maxEarlyUnpreparedMapMs": 457.70000000298023,
+      "maxPreparedDiscoveryMs": 161.09999999403954
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "cache": "cold",
+      "count": 3,
+      "labels": [
+        "vincom-cold-1",
+        "vincom-cold-2",
+        "vincom-cold-3"
+      ],
+      "medianNavigationToFrameMs": 935.1000000089407,
+      "maxNavigationToFrameMs": 1155.5999999940395,
+      "maxEarlyUnpreparedMapMs": 110.20000000298023,
+      "maxPreparedDiscoveryMs": 21.299999997019768
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "cache": "warm",
+      "count": 3,
+      "labels": [
+        "vincom-warm-1",
+        "vincom-warm-2",
+        "vincom-warm-3"
+      ],
+      "medianNavigationToFrameMs": 581.7999999970198,
+      "maxNavigationToFrameMs": 678.7000000029802,
+      "maxEarlyUnpreparedMapMs": 64.6000000089407,
+      "maxPreparedDiscoveryMs": 19.5
+    }
+  ],
+  "excludedInitialProbe": {
+    "label": "saigon-cold-1",
+    "reason": "partial profile/resources and observer gap >1700ms; excluded from all performance acceptance",
+    "navigationToFrameMs": 9618.79999999702
+  },
+  "limits": [
+    "No disk/browser-context/shader-cache reset; cold means runtime fetch reload only",
+    "No controlled identity-vs-Brotli latency comparison; exact transport comparison is separate",
+    "Local HTTP, no configured throttling; not Wi-Fi or production",
+    "Initial visibility unobserved before inline observer (recorded start times); document.hasFocus false and T3 status mismatch retained",
+    "No trace/Lighthouse/CWV, physical-device or deployment acceptance"
+  ]
+}
