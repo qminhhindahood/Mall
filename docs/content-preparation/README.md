@@ -4,6 +4,8 @@ Preparation revision: **directory-preparation-2026-10-14-r1**. Prepared 14 Octob
 
 Authority: [issue 0016](../../../../docs/issues/0016-visitor-discovery-integration.md), [canonical visitor specification](../../../../docs/superpowers/specs/2026-10-11-mall-visitor-experience-spec.md), [existing import contract](../directory-import.md), and [build validator](../../src/data/content.ts). The `takashimaya` site covers the whole Saigon Centre mall, including independent department-store brands/counters and surrounding retail tenants.
 
+Owner clarification received 14 October 2026: **both supplied Markdown lists are the owner's most up-to-date lists**. Use them as the current supplied directory baseline ahead of older map labels or historical research. This resolves which source version to use; it does not supply an editorial review date, independent bilingual approvals, precise geometry links or Highlight selections. The confirmation date is a communication date, not `reviewedAt`. Remaining checks reconcile and complete this baseline rather than request a newer list without a specific conflict.
+
 ## Review packet
 
 | File | Purpose |
