@@ -1,0 +1,46 @@
+[
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "D:\\Midterm\\implementation\\mall-visitor\\src\\styles\\journey.css",
+    "line": 38,
+    "snippet": "font-size: clamp(28px,3vw,42px) has fluid endpoints 28px and 42px off the DESIGN.md type ramp",
+    "ignoreValue": "28px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "D:\\Midterm\\implementation\\mall-visitor\\src\\styles\\journey.css",
+    "line": 38,
+    "snippet": "font-size: 22px is off the DESIGN.md type ramp",
+    "ignoreValue": "22px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "D:\\Midterm\\implementation\\mall-visitor\\src\\styles\\journey.css",
+    "line": 49,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "ignoreValue": "13px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "D:\\Midterm\\implementation\\mall-visitor\\src\\styles\\journey.css",
+    "line": 52,
+    "snippet": "font-size: clamp(32px,4vw,52px) has fluid endpoints 32px and 52px off the DESIGN.md type ramp",
+    "ignoreValue": "32px"
+  }
+]

@@ -10,7 +10,8 @@ colors:
   map-edge: "#7e6c59"
   control-edge: "#88796c"
   map-background: "#f0e7da"
-  floor-top: "#e7d8c5"
+  floor-top: "#efe6dc"
+  vincom-floor-top: "#efe8dc"
   overview-paper: "#f4eade"
   overview-edge: "#cdbda9"
   overview-map: "#ede2d3"
@@ -48,25 +49,29 @@ Warm paper and dark ink support reading. Saigon uses red lacquer; Vincom uses br
 
 ## Typography
 
-Practical section headings use 28–42px and directory subheadings 22px. Controls and floor labels use at least 16px. Supporting schematic disclosure uses 13px on narrow screens.
+Practical section headings use 28–42px, overview headings 32–52px, and directory subheadings 22px. Controls and floor labels use at least 16px. Supporting schematic disclosure uses 13px on narrow screens.
 
 Self-hosted Manrope gives headings their architectural scale. Guide is the self-hosted Be Vietnam Pro face used for copy and controls. Display size adapts from 40 to 76 CSS pixels on desktop; phone headings adapt from 40 to 60 pixels. Introduction copy has a 37-character measure and generous leading.
 
 ## Layout
 
-The map persists in a sticky left column as directory and Discovery reading sections scroll on the right. Below 700px it becomes a compact sticky map above a single reading column. Scroll scales the preview without fading its independent glass controls; reduced motion removes that scale. The SVG carries area interactions in its source coordinate frame; unregistered 3D geometry does not establish destination positions.
+The map occupies the larger sticky right column (about two thirds) as the solid directory and Discovery reading sections scroll on the left, matching the approved prototype. Below 700px it becomes a compact sticky map above a single reading column. Scroll scales and tilts the preview without fading its independent glass controls; reduced motion removes the transform. At heights of 600px or less the map scrolls normally so enlarged/reflowed reading content stays reachable. The SVG carries area interactions in its source coordinate frame; unregistered 3D geometry does not establish destination positions.
 
 The desktop introduction pairs copy and building in a 38:62 grid. At 700 pixels and below, copy precedes the scene vertically. The bottom scroll instruction follows the building. Phone composition can exceed one viewport to retain readable copy and model space. Practical sections and focus targets account for the fixed navigation.
 
 ## Elevation & Depth
 
-Compact map controls and the post-hero header use 78% warm-white glass, 24px blur and 1.3 saturation, with dark ink. Unsupported blur and reduced transparency use solid porcelain. Reading panels stay opaque. Glass values are an implemented trial; rendered approval is separate.
+Compact map controls and the post-hero header use 62% white glass, 24px blur and 1.3 saturation, with dark ink and a fine white rim. The toolbar overlaps actual source-map polygons. These values remain an owner-reviewable trial, not a newly approved material specification. Unsupported blur and reduced transparency use solid porcelain. Reading panels stay opaque. Glass values are an implemented trial; rendered approval is separate.
 
 The post-hero header is compact and elevated with an offset diffuse shadow. Supported browsers blur its backdrop; reduced transparency and unsupported blur use opaque paper. Reading areas remain solid.
+
+The overview presents the existing source polygons as separated CSS-perspective SVG layers using the union of the recorded schematic bounds, with a vertical floor rail on the right. No source polygon, physical elevation, inferred slab or scene-runtime camera is changed. The complete scene preparation contract remains intact; the source-layer presentation also works without JavaScript or after scene failure. Registration remains unverified.
 
 ## Shapes
 
 The building has an open, unframed scene. Language and Pause controls have minimal chrome. The floating header has gently curved corners; the bottom instruction uses a fine divider and authored arrow.
+
+Map tools use one authored 24px line-icon family, 44px targets, localized accessible names and title hints. Selected state retains an opaque pale inset and dark edge; keyboard focus adds a separate dark ring with a white separator.
 
 ## Components
 

@@ -1,7 +1,8 @@
 @font-face{font-family:Manrope;src:url('/fonts/Manrope.ttf') format('truetype');font-display:swap;font-weight:200 800}
 .visitor-guide{--paper:#fff9f1;--ink:#231c17;--muted:#64584e;--line:#e0d3c4;--accent:#c63219;background:var(--paper);color:var(--ink)}
 .visitor-guide[data-mall=vincom-dong-khoi]{--paper:#fffbf3;--accent:#8a5400}
-html{scroll-padding-top:100px;scrollbar-color:#867363 #fff9f1}
+/* Each section owns its header clearance; do not add a second scroll offset. */
+html{scroll-padding-top:0;scrollbar-color:#867363 #fff9f1}
 .visitor-guide ::selection{background:#ffe2d7;color:var(--ink)}
 .visitor-guide :is(a,button,section):focus-visible{outline:3px solid var(--ink);outline-offset:4px}
 .visitor-guide main{max-width:none;padding:0 0 5rem}

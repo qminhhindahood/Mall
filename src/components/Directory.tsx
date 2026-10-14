@@ -22,7 +22,6 @@ export default function Directory({site,selection,navigate,detailRef,closeDetail
   const groups=query||categoryId?site.geometry.floors.map(f=>f.id):[selection.floorId];
   const list=(rows:typeof results,floorId:string)=><ul className="directory-results">{rows.map(d=><li key={d.id}><a href={selectionHref(link(d,floorId))} onClick={event=>{setShareStatus('');navigate(link(d,floorId),event);}}><span>{d.name[selection.locale]}</span><span>{d.floors.join(' · ')}{d.status!=='open'?` · ${c[d.status]}`:''}</span></a></li>)}</ul>;
   return <div className="directory-panel">
-    <h3>{c.directory}</h3>
     {site.content.approval==='fixture'&&<p className="fixture-notice" role="note">{c.fixture}</p>}
     {site.content.approval==='pending'&&<p>{c.pending}</p>}
     {site.content.reviewedAt&&<p>{c.reviewed}: <time>{site.content.reviewedAt}</time></p>}

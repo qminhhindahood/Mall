@@ -1,0 +1,2684 @@
+{
+  "base": "c15e421",
+  "round": "after",
+  "browser": "149.0.7827.198",
+  "profile": "Localhost Chrome / SwiftShader; CSS viewport emulation; no physical-device or production benchmark",
+  "runs": [
+    {
+      "mall": "saigon",
+      "width": 1280,
+      "height": 800,
+      "locale": "vi",
+      "checks": [
+        "Introduction header hidden/inert",
+        "No horizontal overflow",
+        "Public content pending",
+        "All floors in vertical rail",
+        "No page exceptions",
+        "Selected control retains dark keyboard focus",
+        "44px map control targets",
+        "Phone Discovery content clears sticky preview"
+      ],
+      "failed": [
+        "Overview cue reaches header timing boundary"
+      ],
+      "screens": [],
+      "errors": [],
+      "headerHidden": true,
+      "headerAfterCue": false,
+      "rail": {
+        "count": 8,
+        "rect": {
+          "x": 1126.40625,
+          "y": 202.4375,
+          "width": 96,
+          "height": 394,
+          "top": 202.4375,
+          "right": 1222.40625,
+          "bottom": 596.4375,
+          "left": 1126.40625
+        },
+        "font": "16px"
+      },
+      "map": {
+        "control": {
+          "x": 711.1953125,
+          "y": 729.234375,
+          "width": 289.109375,
+          "height": 62,
+          "top": 729.234375,
+          "right": 1000.3046875,
+          "bottom": 791.234375,
+          "left": 711.1953125
+        },
+        "map": {
+          "x": 487.53125,
+          "y": 249.234375,
+          "width": 736.453125,
+          "height": 480,
+          "top": 249.234375,
+          "right": 1223.984375,
+          "bottom": 729.234375,
+          "left": 487.53125
+        },
+        "glass": "blur(24px) saturate(1.3)",
+        "background": "rgba(255, 255, 255, 0.62)"
+      },
+      "contrast": [
+        {
+          "rect": {
+            "x": 720.1953125,
+            "y": 747.4375,
+            "width": 79.109375,
+            "height": 25.59375,
+            "top": 747.4375,
+            "right": 799.3046875,
+            "bottom": 773.03125,
+            "left": 720.1953125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 803.3046875,
+            "y": 738.234375,
+            "width": 44,
+            "height": 44,
+            "top": 738.234375,
+            "right": 847.3046875,
+            "bottom": 782.234375,
+            "left": 803.3046875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": true
+        },
+        {
+          "rect": {
+            "x": 851.3046875,
+            "y": 738.234375,
+            "width": 44,
+            "height": 44,
+            "top": 738.234375,
+            "right": 895.3046875,
+            "bottom": 782.234375,
+            "left": 851.3046875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 899.3046875,
+            "y": 738.234375,
+            "width": 44,
+            "height": 44,
+            "top": 738.234375,
+            "right": 943.3046875,
+            "bottom": 782.234375,
+            "left": 899.3046875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 947.3046875,
+            "y": 738.234375,
+            "width": 44,
+            "height": 44,
+            "top": 738.234375,
+            "right": 991.3046875,
+            "bottom": 782.234375,
+            "left": 947.3046875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 444.4765625,
+            "y": 29,
+            "width": 110.640625,
+            "height": 44,
+            "top": 29,
+            "right": 555.1171875,
+            "bottom": 73,
+            "left": 444.4765625
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 579.1171875,
+            "y": 29,
+            "width": 85.578125,
+            "height": 44,
+            "top": 29,
+            "right": 664.6953125,
+            "bottom": 73,
+            "left": 579.1171875
+          },
+          "color": "rgb(198, 50, 25)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 688.6953125,
+            "y": 29,
+            "width": 78.828125,
+            "height": 44,
+            "top": 29,
+            "right": 767.5234375,
+            "bottom": 73,
+            "left": 688.6953125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 791.5234375,
+            "y": 29,
+            "width": 44,
+            "height": 44,
+            "top": 29,
+            "right": 835.5234375,
+            "bottom": 73,
+            "left": 791.5234375
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        }
+      ],
+      "focus": {
+        "label": "Đổi góc sơ đồ",
+        "outline": "rgb(35, 28, 23) solid 3px",
+        "shadow": "rgb(255, 253, 250) 0px 0px 0px 2px",
+        "pressed": "true",
+        "height": 44
+      },
+      "discovery": {
+        "scrollY": 2663,
+        "heading": {
+          "x": 32,
+          "y": 322.171875,
+          "width": 380.34375,
+          "height": 46.078125,
+          "top": 322.171875,
+          "right": 412.34375,
+          "bottom": 368.25,
+          "left": 32
+        },
+        "persistent": {
+          "x": 463.53125,
+          "y": 120,
+          "width": 784.453125,
+          "height": 673.1875,
+          "top": 120,
+          "right": 1247.984375,
+          "bottom": 793.1875,
+          "left": 463.53125
+        },
+        "progress": "0",
+        "overflow": false,
+        "pending": "Nội dung danh bạ đang chờ duyệt.\n\nTìm cửa hàng, thương hiệu hoặc danh mục\nDanh mục\nTất cả danh mục\nTìm kiếm\n\nDanh bạ tầng L5 · 0\n\nKhông có địa điểm phù hợp.\n\nTiện ích",
+        "canvasKey": "saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:L5"
+      }
+    },
+    {
+      "mall": "saigon",
+      "width": 1280,
+      "height": 800,
+      "locale": "en",
+      "checks": [
+        "Introduction header hidden/inert",
+        "No horizontal overflow",
+        "Public content pending",
+        "All floors in vertical rail",
+        "No page exceptions",
+        "Selected control retains dark keyboard focus",
+        "44px map control targets",
+        "Phone Discovery content clears sticky preview"
+      ],
+      "failed": [
+        "Overview cue reaches header timing boundary"
+      ],
+      "screens": [],
+      "errors": [],
+      "headerHidden": true,
+      "headerAfterCue": false,
+      "rail": {
+        "count": 8,
+        "rect": {
+          "x": 1126.40625,
+          "y": 202.4375,
+          "width": 96,
+          "height": 394,
+          "top": 202.4375,
+          "right": 1222.40625,
+          "bottom": 596.4375,
+          "left": 1126.40625
+        },
+        "font": "16px"
+      },
+      "map": {
+        "control": {
+          "x": 710.046875,
+          "y": 729.234375,
+          "width": 291.40625,
+          "height": 62,
+          "top": 729.234375,
+          "right": 1001.453125,
+          "bottom": 791.234375,
+          "left": 710.046875
+        },
+        "map": {
+          "x": 487.53125,
+          "y": 249.234375,
+          "width": 736.453125,
+          "height": 480,
+          "top": 249.234375,
+          "right": 1223.984375,
+          "bottom": 729.234375,
+          "left": 487.53125
+        },
+        "glass": "blur(24px) saturate(1.3)",
+        "background": "rgba(255, 255, 255, 0.62)"
+      },
+      "contrast": [
+        {
+          "rect": {
+            "x": 719.046875,
+            "y": 747.4375,
+            "width": 81.40625,
+            "height": 25.59375,
+            "top": 747.4375,
+            "right": 800.453125,
+            "bottom": 773.03125,
+            "left": 719.046875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 804.453125,
+            "y": 738.234375,
+            "width": 44,
+            "height": 44,
+            "top": 738.234375,
+            "right": 848.453125,
+            "bottom": 782.234375,
+            "left": 804.453125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": true
+        },
+        {
+          "rect": {
+            "x": 852.453125,
+            "y": 738.234375,
+            "width": 44,
+            "height": 44,
+            "top": 738.234375,
+            "right": 896.453125,
+            "bottom": 782.234375,
+            "left": 852.453125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 900.453125,
+            "y": 738.234375,
+            "width": 44,
+            "height": 44,
+            "top": 738.234375,
+            "right": 944.453125,
+            "bottom": 782.234375,
+            "left": 900.453125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 948.453125,
+            "y": 738.234375,
+            "width": 44,
+            "height": 44,
+            "top": 738.234375,
+            "right": 992.453125,
+            "bottom": 782.234375,
+            "left": 948.453125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 448.0234375,
+            "y": 29,
+            "width": 110.640625,
+            "height": 44,
+            "top": 29,
+            "right": 558.6640625,
+            "bottom": 73,
+            "left": 448.0234375
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 582.6640625,
+            "y": 29,
+            "width": 79.625,
+            "height": 44,
+            "top": 29,
+            "right": 662.2890625,
+            "bottom": 73,
+            "left": 582.6640625
+          },
+          "color": "rgb(198, 50, 25)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 686.2890625,
+            "y": 29,
+            "width": 77.6875,
+            "height": 44,
+            "top": 29,
+            "right": 763.9765625,
+            "bottom": 73,
+            "left": 686.2890625
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 787.9765625,
+            "y": 29,
+            "width": 44,
+            "height": 44,
+            "top": 29,
+            "right": 831.9765625,
+            "bottom": 73,
+            "left": 787.9765625
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        }
+      ],
+      "focus": {
+        "label": "Change map angle",
+        "outline": "rgb(35, 28, 23) solid 3px",
+        "shadow": "rgb(255, 253, 250) 0px 0px 0px 2px",
+        "pressed": "true",
+        "height": 44
+      },
+      "discovery": {
+        "scrollY": 2638,
+        "heading": {
+          "x": 32,
+          "y": 321.578125,
+          "width": 380.34375,
+          "height": 46.078125,
+          "top": 321.578125,
+          "right": 412.34375,
+          "bottom": 367.65625,
+          "left": 32
+        },
+        "persistent": {
+          "x": 463.53125,
+          "y": 120,
+          "width": 784.453125,
+          "height": 673.1875,
+          "top": 120,
+          "right": 1247.984375,
+          "bottom": 793.1875,
+          "left": 463.53125
+        },
+        "progress": "0",
+        "overflow": false,
+        "pending": "Directory content pending team review.\n\nSearch shops, brands or categories\nCategories\nAll categories\nSearch\n\nDirectory on floor L5 · 0\n\nNo matching destinations.\n\nFacilities",
+        "canvasKey": "saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:L5"
+      }
+    },
+    {
+      "mall": "saigon",
+      "width": 820,
+      "height": 1180,
+      "locale": "vi",
+      "checks": [
+        "Introduction header hidden/inert",
+        "No horizontal overflow",
+        "Public content pending",
+        "All floors in vertical rail",
+        "No page exceptions",
+        "Selected control retains dark keyboard focus",
+        "44px map control targets",
+        "Phone Discovery content clears sticky preview"
+      ],
+      "failed": [
+        "Overview cue reaches header timing boundary"
+      ],
+      "screens": [],
+      "errors": [],
+      "headerHidden": true,
+      "headerAfterCue": false,
+      "rail": {
+        "count": 8,
+        "rect": {
+          "x": 687.109375,
+          "y": 180.34375,
+          "width": 96,
+          "height": 394,
+          "top": 180.34375,
+          "right": 783.109375,
+          "bottom": 574.34375,
+          "left": 687.109375
+        },
+        "font": "16px"
+      },
+      "map": {
+        "control": {
+          "x": 421.4296875,
+          "y": 534.171875,
+          "width": 281.109375,
+          "height": 62,
+          "top": 534.171875,
+          "right": 702.5390625,
+          "bottom": 596.171875,
+          "left": 421.4296875
+        },
+        "map": {
+          "x": 352,
+          "y": 248.78125,
+          "width": 419.984375,
+          "height": 285.390625,
+          "top": 248.78125,
+          "right": 771.984375,
+          "bottom": 534.171875,
+          "left": 352
+        },
+        "glass": "blur(24px) saturate(1.3)",
+        "background": "rgba(255, 255, 255, 0.62)"
+      },
+      "contrast": [
+        {
+          "rect": {
+            "x": 430.4296875,
+            "y": 552.375,
+            "width": 71.109375,
+            "height": 25.59375,
+            "top": 552.375,
+            "right": 501.5390625,
+            "bottom": 577.96875,
+            "left": 430.4296875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 505.5390625,
+            "y": 543.171875,
+            "width": 44,
+            "height": 44,
+            "top": 543.171875,
+            "right": 549.5390625,
+            "bottom": 587.171875,
+            "left": 505.5390625
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": true
+        },
+        {
+          "rect": {
+            "x": 553.5390625,
+            "y": 543.171875,
+            "width": 44,
+            "height": 44,
+            "top": 543.171875,
+            "right": 597.5390625,
+            "bottom": 587.171875,
+            "left": 553.5390625
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 601.5390625,
+            "y": 543.171875,
+            "width": 44,
+            "height": 44,
+            "top": 543.171875,
+            "right": 645.5390625,
+            "bottom": 587.171875,
+            "left": 601.5390625
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 649.5390625,
+            "y": 543.171875,
+            "width": 44,
+            "height": 44,
+            "top": 543.171875,
+            "right": 693.5390625,
+            "bottom": 587.171875,
+            "left": 649.5390625
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 214.4765625,
+            "y": 29,
+            "width": 110.640625,
+            "height": 44,
+            "top": 29,
+            "right": 325.1171875,
+            "bottom": 73,
+            "left": 214.4765625
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 349.1171875,
+            "y": 29,
+            "width": 85.578125,
+            "height": 44,
+            "top": 29,
+            "right": 434.6953125,
+            "bottom": 73,
+            "left": 349.1171875
+          },
+          "color": "rgb(198, 50, 25)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 458.6953125,
+            "y": 29,
+            "width": 78.828125,
+            "height": 44,
+            "top": 29,
+            "right": 537.5234375,
+            "bottom": 73,
+            "left": 458.6953125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 561.5234375,
+            "y": 29,
+            "width": 44,
+            "height": 44,
+            "top": 29,
+            "right": 605.5234375,
+            "bottom": 73,
+            "left": 561.5234375
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        }
+      ],
+      "focus": {
+        "label": "Đổi góc sơ đồ",
+        "outline": "rgb(35, 28, 23) solid 3px",
+        "shadow": "rgb(255, 253, 250) 0px 0px 0px 2px",
+        "pressed": "true",
+        "height": 44
+      },
+      "discovery": {
+        "scrollY": 2975,
+        "heading": {
+          "x": 24,
+          "y": 313.015625,
+          "width": 280,
+          "height": 33.59375,
+          "top": 313.015625,
+          "right": 304,
+          "bottom": 346.609375,
+          "left": 24
+        },
+        "persistent": {
+          "x": 328,
+          "y": 120,
+          "width": 467.984375,
+          "height": 501.09375,
+          "top": 120,
+          "right": 795.984375,
+          "bottom": 621.09375,
+          "left": 328
+        },
+        "progress": "0",
+        "overflow": false,
+        "pending": "Nội dung danh bạ đang chờ duyệt.\n\nTìm cửa hàng, thương hiệu hoặc danh mục\nDanh mục\nTất cả danh mục\nTìm kiếm\n\nDanh bạ tầng L5 · 0\n\nKhông có địa điểm phù hợp.\n\nTiện ích",
+        "canvasKey": "saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:L5"
+      }
+    },
+    {
+      "mall": "saigon",
+      "width": 820,
+      "height": 1180,
+      "locale": "en",
+      "checks": [
+        "Introduction header hidden/inert",
+        "No horizontal overflow",
+        "Public content pending",
+        "All floors in vertical rail",
+        "No page exceptions",
+        "Selected control retains dark keyboard focus",
+        "44px map control targets",
+        "Phone Discovery content clears sticky preview"
+      ],
+      "failed": [
+        "Overview cue reaches header timing boundary"
+      ],
+      "screens": [],
+      "errors": [],
+      "headerHidden": true,
+      "headerAfterCue": false,
+      "rail": {
+        "count": 8,
+        "rect": {
+          "x": 687.109375,
+          "y": 180.34375,
+          "width": 96,
+          "height": 394,
+          "top": 180.34375,
+          "right": 783.109375,
+          "bottom": 574.34375,
+          "left": 687.109375
+        },
+        "font": "16px"
+      },
+      "map": {
+        "control": {
+          "x": 420.28125,
+          "y": 534.171875,
+          "width": 283.40625,
+          "height": 62,
+          "top": 534.171875,
+          "right": 703.6875,
+          "bottom": 596.171875,
+          "left": 420.28125
+        },
+        "map": {
+          "x": 352,
+          "y": 248.78125,
+          "width": 419.984375,
+          "height": 285.390625,
+          "top": 248.78125,
+          "right": 771.984375,
+          "bottom": 534.171875,
+          "left": 352
+        },
+        "glass": "blur(24px) saturate(1.3)",
+        "background": "rgba(255, 255, 255, 0.62)"
+      },
+      "contrast": [
+        {
+          "rect": {
+            "x": 429.28125,
+            "y": 552.375,
+            "width": 73.40625,
+            "height": 25.59375,
+            "top": 552.375,
+            "right": 502.6875,
+            "bottom": 577.96875,
+            "left": 429.28125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 506.6875,
+            "y": 543.171875,
+            "width": 44,
+            "height": 44,
+            "top": 543.171875,
+            "right": 550.6875,
+            "bottom": 587.171875,
+            "left": 506.6875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": true
+        },
+        {
+          "rect": {
+            "x": 554.6875,
+            "y": 543.171875,
+            "width": 44,
+            "height": 44,
+            "top": 543.171875,
+            "right": 598.6875,
+            "bottom": 587.171875,
+            "left": 554.6875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 602.6875,
+            "y": 543.171875,
+            "width": 44,
+            "height": 44,
+            "top": 543.171875,
+            "right": 646.6875,
+            "bottom": 587.171875,
+            "left": 602.6875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 650.6875,
+            "y": 543.171875,
+            "width": 44,
+            "height": 44,
+            "top": 543.171875,
+            "right": 694.6875,
+            "bottom": 587.171875,
+            "left": 650.6875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 218.0234375,
+            "y": 29,
+            "width": 110.640625,
+            "height": 44,
+            "top": 29,
+            "right": 328.6640625,
+            "bottom": 73,
+            "left": 218.0234375
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 352.6640625,
+            "y": 29,
+            "width": 79.625,
+            "height": 44,
+            "top": 29,
+            "right": 432.2890625,
+            "bottom": 73,
+            "left": 352.6640625
+          },
+          "color": "rgb(198, 50, 25)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 456.2890625,
+            "y": 29,
+            "width": 77.6875,
+            "height": 44,
+            "top": 29,
+            "right": 533.9765625,
+            "bottom": 73,
+            "left": 456.2890625
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 557.9765625,
+            "y": 29,
+            "width": 44,
+            "height": 44,
+            "top": 29,
+            "right": 601.9765625,
+            "bottom": 73,
+            "left": 557.9765625
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        }
+      ],
+      "focus": {
+        "label": "Change map angle",
+        "outline": "rgb(35, 28, 23) solid 3px",
+        "shadow": "rgb(255, 253, 250) 0px 0px 0px 2px",
+        "pressed": "true",
+        "height": 44
+      },
+      "discovery": {
+        "scrollY": 2975,
+        "heading": {
+          "x": 24,
+          "y": 313.015625,
+          "width": 280,
+          "height": 33.59375,
+          "top": 313.015625,
+          "right": 304,
+          "bottom": 346.609375,
+          "left": 24
+        },
+        "persistent": {
+          "x": 328,
+          "y": 120,
+          "width": 467.984375,
+          "height": 501.09375,
+          "top": 120,
+          "right": 795.984375,
+          "bottom": 621.09375,
+          "left": 328
+        },
+        "progress": "0",
+        "overflow": false,
+        "pending": "Directory content pending team review.\n\nSearch shops, brands or categories\nCategories\nAll categories\nSearch\n\nDirectory on floor L5 · 0\n\nNo matching destinations.\n\nFacilities",
+        "canvasKey": "saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:L5"
+      }
+    },
+    {
+      "mall": "saigon",
+      "width": 390,
+      "height": 844,
+      "locale": "vi",
+      "checks": [
+        "Introduction header hidden/inert",
+        "No horizontal overflow",
+        "Public content pending",
+        "All floors in vertical rail",
+        "No page exceptions",
+        "Selected control retains dark keyboard focus",
+        "44px map control targets",
+        "Phone Discovery content clears sticky preview"
+      ],
+      "failed": [
+        "Overview cue reaches header timing boundary"
+      ],
+      "screens": [],
+      "errors": [],
+      "headerHidden": true,
+      "headerAfterCue": false,
+      "rail": {
+        "count": 8,
+        "rect": {
+          "x": 306,
+          "y": 162.1875,
+          "width": 60,
+          "height": 394,
+          "top": 162.1875,
+          "right": 366,
+          "bottom": 556.1875,
+          "left": 306
+        },
+        "font": "16px"
+      },
+      "map": {
+        "control": {
+          "x": 20,
+          "y": 432.984375,
+          "width": 350,
+          "height": 54,
+          "top": 432.984375,
+          "right": 370,
+          "bottom": 486.984375,
+          "left": 20
+        },
+        "map": {
+          "x": 32,
+          "y": 243.796875,
+          "width": 326,
+          "height": 189.1875,
+          "top": 243.796875,
+          "right": 358,
+          "bottom": 432.984375,
+          "left": 32
+        },
+        "glass": "blur(24px) saturate(1.3)",
+        "background": "rgba(255, 255, 255, 0.62)"
+      },
+      "contrast": [
+        {
+          "rect": {
+            "x": 25,
+            "y": 447.1875,
+            "width": 156,
+            "height": 25.59375,
+            "top": 447.1875,
+            "right": 181,
+            "bottom": 472.78125,
+            "left": 25
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 183,
+            "y": 437.984375,
+            "width": 44,
+            "height": 44,
+            "top": 437.984375,
+            "right": 227,
+            "bottom": 481.984375,
+            "left": 183
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": true
+        },
+        {
+          "rect": {
+            "x": 229,
+            "y": 437.984375,
+            "width": 44,
+            "height": 44,
+            "top": 437.984375,
+            "right": 273,
+            "bottom": 481.984375,
+            "left": 229
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 275,
+            "y": 437.984375,
+            "width": 44,
+            "height": 44,
+            "top": 437.984375,
+            "right": 319,
+            "bottom": 481.984375,
+            "left": 275
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 321,
+            "y": 437.984375,
+            "width": 44,
+            "height": 44,
+            "top": 437.984375,
+            "right": 365,
+            "bottom": 481.984375,
+            "left": 321
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 25,
+            "y": 19,
+            "width": 110.640625,
+            "height": 44,
+            "top": 19,
+            "right": 135.640625,
+            "bottom": 63,
+            "left": 25
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 25,
+            "y": 63,
+            "width": 85.578125,
+            "height": 44,
+            "top": 63,
+            "right": 110.578125,
+            "bottom": 107,
+            "left": 25
+          },
+          "color": "rgb(198, 50, 25)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 176.375,
+            "y": 63,
+            "width": 78.828125,
+            "height": 44,
+            "top": 63,
+            "right": 255.203125,
+            "bottom": 107,
+            "left": 176.375
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 321,
+            "y": 63,
+            "width": 44,
+            "height": 44,
+            "top": 63,
+            "right": 365,
+            "bottom": 107,
+            "left": 321
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        }
+      ],
+      "focus": {
+        "label": "Đổi góc sơ đồ",
+        "outline": "rgb(35, 28, 23) solid 3px",
+        "shadow": "rgb(255, 253, 250) 0px 0px 0px 2px",
+        "pressed": "true",
+        "height": 44
+      },
+      "discovery": {
+        "scrollY": 2527,
+        "heading": {
+          "x": 20,
+          "y": 657.828125,
+          "width": 350,
+          "height": 33.59375,
+          "top": 657.828125,
+          "right": 370,
+          "bottom": 691.421875,
+          "left": 20
+        },
+        "persistent": {
+          "x": 20,
+          "y": 116,
+          "width": 350,
+          "height": 329.6875,
+          "top": 116,
+          "right": 370,
+          "bottom": 445.6875,
+          "left": 20
+        },
+        "progress": "0",
+        "overflow": false,
+        "pending": "Nội dung danh bạ đang chờ duyệt.\n\nTìm cửa hàng, thương hiệu hoặc danh mục\nDanh mục\nTất cả danh mục\nTìm kiếm\n\nDanh bạ tầng L5 · 0\n\nKhông có địa điểm phù hợp.\n\nTiện ích",
+        "canvasKey": "saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:L5"
+      }
+    },
+    {
+      "mall": "saigon",
+      "width": 390,
+      "height": 844,
+      "locale": "en",
+      "checks": [
+        "Introduction header hidden/inert",
+        "No horizontal overflow",
+        "Public content pending",
+        "All floors in vertical rail",
+        "No page exceptions",
+        "Selected control retains dark keyboard focus",
+        "44px map control targets",
+        "Phone Discovery content clears sticky preview"
+      ],
+      "failed": [
+        "Overview cue reaches header timing boundary"
+      ],
+      "screens": [],
+      "errors": [],
+      "headerHidden": true,
+      "headerAfterCue": false,
+      "rail": {
+        "count": 8,
+        "rect": {
+          "x": 306,
+          "y": 162.1875,
+          "width": 60,
+          "height": 394,
+          "top": 162.1875,
+          "right": 366,
+          "bottom": 556.1875,
+          "left": 306
+        },
+        "font": "16px"
+      },
+      "map": {
+        "control": {
+          "x": 20,
+          "y": 432.5,
+          "width": 350,
+          "height": 54,
+          "top": 432.5,
+          "right": 370,
+          "bottom": 486.5,
+          "left": 20
+        },
+        "map": {
+          "x": 32,
+          "y": 243.3125,
+          "width": 326,
+          "height": 189.1875,
+          "top": 243.3125,
+          "right": 358,
+          "bottom": 432.5,
+          "left": 32
+        },
+        "glass": "blur(24px) saturate(1.3)",
+        "background": "rgba(255, 255, 255, 0.62)"
+      },
+      "contrast": [
+        {
+          "rect": {
+            "x": 25,
+            "y": 446.703125,
+            "width": 156,
+            "height": 25.59375,
+            "top": 446.703125,
+            "right": 181,
+            "bottom": 472.296875,
+            "left": 25
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 183,
+            "y": 437.5,
+            "width": 44,
+            "height": 44,
+            "top": 437.5,
+            "right": 227,
+            "bottom": 481.5,
+            "left": 183
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": true
+        },
+        {
+          "rect": {
+            "x": 229,
+            "y": 437.5,
+            "width": 44,
+            "height": 44,
+            "top": 437.5,
+            "right": 273,
+            "bottom": 481.5,
+            "left": 229
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 275,
+            "y": 437.5,
+            "width": 44,
+            "height": 44,
+            "top": 437.5,
+            "right": 319,
+            "bottom": 481.5,
+            "left": 275
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 321,
+            "y": 437.5,
+            "width": 44,
+            "height": 44,
+            "top": 437.5,
+            "right": 365,
+            "bottom": 481.5,
+            "left": 321
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 25,
+            "y": 19,
+            "width": 110.640625,
+            "height": 44,
+            "top": 19,
+            "right": 135.640625,
+            "bottom": 63,
+            "left": 25
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 25,
+            "y": 63,
+            "width": 79.625,
+            "height": 44,
+            "top": 63,
+            "right": 104.625,
+            "bottom": 107,
+            "left": 25
+          },
+          "color": "rgb(198, 50, 25)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 173.96875,
+            "y": 63,
+            "width": 77.6875,
+            "height": 44,
+            "top": 63,
+            "right": 251.65625,
+            "bottom": 107,
+            "left": 173.96875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 321,
+            "y": 63,
+            "width": 44,
+            "height": 44,
+            "top": 63,
+            "right": 365,
+            "bottom": 107,
+            "left": 321
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        }
+      ],
+      "focus": {
+        "label": "Change map angle",
+        "outline": "rgb(35, 28, 23) solid 3px",
+        "shadow": "rgb(255, 253, 250) 0px 0px 0px 2px",
+        "pressed": "true",
+        "height": 44
+      },
+      "discovery": {
+        "scrollY": 2524,
+        "heading": {
+          "x": 20,
+          "y": 657.75,
+          "width": 350,
+          "height": 33.59375,
+          "top": 657.75,
+          "right": 370,
+          "bottom": 691.34375,
+          "left": 20
+        },
+        "persistent": {
+          "x": 20,
+          "y": 116,
+          "width": 350,
+          "height": 329.6875,
+          "top": 116,
+          "right": 370,
+          "bottom": 445.6875,
+          "left": 20
+        },
+        "progress": "0",
+        "overflow": false,
+        "pending": "Directory content pending team review.\n\nSearch shops, brands or categories\nCategories\nAll categories\nSearch\n\nDirectory on floor L5 · 0\n\nNo matching destinations.\n\nFacilities",
+        "canvasKey": "saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:L5"
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 1280,
+      "height": 800,
+      "locale": "vi",
+      "checks": [
+        "Introduction header hidden/inert",
+        "No horizontal overflow",
+        "Public content pending",
+        "All floors in vertical rail",
+        "No page exceptions",
+        "Selected control retains dark keyboard focus",
+        "44px map control targets",
+        "Phone Discovery content clears sticky preview"
+      ],
+      "failed": [
+        "Overview cue reaches header timing boundary"
+      ],
+      "screens": [],
+      "errors": [],
+      "headerHidden": true,
+      "headerAfterCue": false,
+      "rail": {
+        "count": 7,
+        "rect": {
+          "x": 1126.40625,
+          "y": 227.4375,
+          "width": 96,
+          "height": 344,
+          "top": 227.4375,
+          "right": 1222.40625,
+          "bottom": 571.4375,
+          "left": 1126.40625
+        },
+        "font": "16px"
+      },
+      "map": {
+        "control": {
+          "x": 710.8671875,
+          "y": 729.25,
+          "width": 289.765625,
+          "height": 62,
+          "top": 729.25,
+          "right": 1000.6328125,
+          "bottom": 791.25,
+          "left": 710.8671875
+        },
+        "map": {
+          "x": 487.53125,
+          "y": 249.25,
+          "width": 736.453125,
+          "height": 480,
+          "top": 249.25,
+          "right": 1223.984375,
+          "bottom": 729.25,
+          "left": 487.53125
+        },
+        "glass": "blur(24px) saturate(1.3)",
+        "background": "rgba(255, 255, 255, 0.62)"
+      },
+      "contrast": [
+        {
+          "rect": {
+            "x": 719.8671875,
+            "y": 747.453125,
+            "width": 79.765625,
+            "height": 25.59375,
+            "top": 747.453125,
+            "right": 799.6328125,
+            "bottom": 773.046875,
+            "left": 719.8671875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 803.6328125,
+            "y": 738.25,
+            "width": 44,
+            "height": 44,
+            "top": 738.25,
+            "right": 847.6328125,
+            "bottom": 782.25,
+            "left": 803.6328125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": true
+        },
+        {
+          "rect": {
+            "x": 851.6328125,
+            "y": 738.25,
+            "width": 44,
+            "height": 44,
+            "top": 738.25,
+            "right": 895.6328125,
+            "bottom": 782.25,
+            "left": 851.6328125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 899.6328125,
+            "y": 738.25,
+            "width": 44,
+            "height": 44,
+            "top": 738.25,
+            "right": 943.6328125,
+            "bottom": 782.25,
+            "left": 899.6328125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 947.6328125,
+            "y": 738.25,
+            "width": 44,
+            "height": 44,
+            "top": 738.25,
+            "right": 991.6328125,
+            "bottom": 782.25,
+            "left": 947.6328125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 399.46875,
+            "y": 29,
+            "width": 200.65625,
+            "height": 44,
+            "top": 29,
+            "right": 600.125,
+            "bottom": 73,
+            "left": 399.46875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 624.125,
+            "y": 29,
+            "width": 85.578125,
+            "height": 44,
+            "top": 29,
+            "right": 709.703125,
+            "bottom": 73,
+            "left": 624.125
+          },
+          "color": "rgb(138, 84, 0)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 733.703125,
+            "y": 29,
+            "width": 78.828125,
+            "height": 44,
+            "top": 29,
+            "right": 812.53125,
+            "bottom": 73,
+            "left": 733.703125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 836.53125,
+            "y": 29,
+            "width": 44,
+            "height": 44,
+            "top": 29,
+            "right": 880.53125,
+            "bottom": 73,
+            "left": 836.53125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        }
+      ],
+      "focus": {
+        "label": "Đổi góc sơ đồ",
+        "outline": "rgb(35, 28, 23) solid 3px",
+        "shadow": "rgb(255, 253, 250) 0px 0px 0px 2px",
+        "pressed": "true",
+        "height": 44
+      },
+      "discovery": {
+        "scrollY": 2557,
+        "heading": {
+          "x": 32,
+          "y": 322.1875,
+          "width": 380.34375,
+          "height": 46.078125,
+          "top": 322.1875,
+          "right": 412.34375,
+          "bottom": 368.265625,
+          "left": 32
+        },
+        "persistent": {
+          "x": 463.53125,
+          "y": 120,
+          "width": 784.453125,
+          "height": 673.1875,
+          "top": 120,
+          "right": 1247.984375,
+          "bottom": 793.1875,
+          "left": 463.53125
+        },
+        "progress": "0",
+        "overflow": false,
+        "pending": "Nội dung danh bạ đang chờ duyệt.\n\nTìm cửa hàng, thương hiệu hoặc danh mục\nDanh mục\nTất cả danh mục\nTìm kiếm\n\nDanh bạ tầng B2 · 0\n\nKhông có địa điểm phù hợp.\n\nTiện ích",
+        "canvasKey": "vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:B2"
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 1280,
+      "height": 800,
+      "locale": "en",
+      "checks": [
+        "Introduction header hidden/inert",
+        "No horizontal overflow",
+        "Public content pending",
+        "All floors in vertical rail",
+        "No page exceptions",
+        "Selected control retains dark keyboard focus",
+        "44px map control targets",
+        "Phone Discovery content clears sticky preview"
+      ],
+      "failed": [
+        "Overview cue reaches header timing boundary"
+      ],
+      "screens": [],
+      "errors": [],
+      "headerHidden": true,
+      "headerAfterCue": false,
+      "rail": {
+        "count": 7,
+        "rect": {
+          "x": 1126.40625,
+          "y": 227.4375,
+          "width": 96,
+          "height": 344,
+          "top": 227.4375,
+          "right": 1222.40625,
+          "bottom": 571.4375,
+          "left": 1126.40625
+        },
+        "font": "16px"
+      },
+      "map": {
+        "control": {
+          "x": 709.71875,
+          "y": 729.25,
+          "width": 292.0625,
+          "height": 62,
+          "top": 729.25,
+          "right": 1001.78125,
+          "bottom": 791.25,
+          "left": 709.71875
+        },
+        "map": {
+          "x": 487.53125,
+          "y": 249.25,
+          "width": 736.453125,
+          "height": 480,
+          "top": 249.25,
+          "right": 1223.984375,
+          "bottom": 729.25,
+          "left": 487.53125
+        },
+        "glass": "blur(24px) saturate(1.3)",
+        "background": "rgba(255, 255, 255, 0.62)"
+      },
+      "contrast": [
+        {
+          "rect": {
+            "x": 718.71875,
+            "y": 747.453125,
+            "width": 82.0625,
+            "height": 25.59375,
+            "top": 747.453125,
+            "right": 800.78125,
+            "bottom": 773.046875,
+            "left": 718.71875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 804.78125,
+            "y": 738.25,
+            "width": 44,
+            "height": 44,
+            "top": 738.25,
+            "right": 848.78125,
+            "bottom": 782.25,
+            "left": 804.78125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": true
+        },
+        {
+          "rect": {
+            "x": 852.78125,
+            "y": 738.25,
+            "width": 44,
+            "height": 44,
+            "top": 738.25,
+            "right": 896.78125,
+            "bottom": 782.25,
+            "left": 852.78125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 900.78125,
+            "y": 738.25,
+            "width": 44,
+            "height": 44,
+            "top": 738.25,
+            "right": 944.78125,
+            "bottom": 782.25,
+            "left": 900.78125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 948.78125,
+            "y": 738.25,
+            "width": 44,
+            "height": 44,
+            "top": 738.25,
+            "right": 992.78125,
+            "bottom": 782.25,
+            "left": 948.78125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 403.015625,
+            "y": 29,
+            "width": 200.65625,
+            "height": 44,
+            "top": 29,
+            "right": 603.671875,
+            "bottom": 73,
+            "left": 403.015625
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 627.671875,
+            "y": 29,
+            "width": 79.625,
+            "height": 44,
+            "top": 29,
+            "right": 707.296875,
+            "bottom": 73,
+            "left": 627.671875
+          },
+          "color": "rgb(138, 84, 0)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 731.296875,
+            "y": 29,
+            "width": 77.6875,
+            "height": 44,
+            "top": 29,
+            "right": 808.984375,
+            "bottom": 73,
+            "left": 731.296875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 832.984375,
+            "y": 29,
+            "width": 44,
+            "height": 44,
+            "top": 29,
+            "right": 876.984375,
+            "bottom": 73,
+            "left": 832.984375
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        }
+      ],
+      "focus": {
+        "label": "Change map angle",
+        "outline": "rgb(35, 28, 23) solid 3px",
+        "shadow": "rgb(255, 253, 250) 0px 0px 0px 2px",
+        "pressed": "true",
+        "height": 44
+      },
+      "discovery": {
+        "scrollY": 2532,
+        "heading": {
+          "x": 32,
+          "y": 321.59375,
+          "width": 380.34375,
+          "height": 46.078125,
+          "top": 321.59375,
+          "right": 412.34375,
+          "bottom": 367.671875,
+          "left": 32
+        },
+        "persistent": {
+          "x": 463.53125,
+          "y": 120,
+          "width": 784.453125,
+          "height": 673.1875,
+          "top": 120,
+          "right": 1247.984375,
+          "bottom": 793.1875,
+          "left": 463.53125
+        },
+        "progress": "0",
+        "overflow": false,
+        "pending": "Directory content pending team review.\n\nSearch shops, brands or categories\nCategories\nAll categories\nSearch\n\nDirectory on floor B2 · 0\n\nNo matching destinations.\n\nFacilities",
+        "canvasKey": "vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:B2"
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 820,
+      "height": 1180,
+      "locale": "vi",
+      "checks": [
+        "Introduction header hidden/inert",
+        "No horizontal overflow",
+        "Public content pending",
+        "All floors in vertical rail",
+        "No page exceptions",
+        "Selected control retains dark keyboard focus",
+        "44px map control targets",
+        "Phone Discovery content clears sticky preview"
+      ],
+      "failed": [
+        "Overview cue reaches header timing boundary"
+      ],
+      "screens": [],
+      "errors": [],
+      "headerHidden": true,
+      "headerAfterCue": false,
+      "rail": {
+        "count": 7,
+        "rect": {
+          "x": 687.109375,
+          "y": 205.34375,
+          "width": 96,
+          "height": 344,
+          "top": 205.34375,
+          "right": 783.109375,
+          "bottom": 549.34375,
+          "left": 687.109375
+        },
+        "font": "16px"
+      },
+      "map": {
+        "control": {
+          "x": 421.1015625,
+          "y": 534.765625,
+          "width": 281.765625,
+          "height": 62,
+          "top": 534.765625,
+          "right": 702.8671875,
+          "bottom": 596.765625,
+          "left": 421.1015625
+        },
+        "map": {
+          "x": 352,
+          "y": 249.375,
+          "width": 419.984375,
+          "height": 285.390625,
+          "top": 249.375,
+          "right": 771.984375,
+          "bottom": 534.765625,
+          "left": 352
+        },
+        "glass": "blur(24px) saturate(1.3)",
+        "background": "rgba(255, 255, 255, 0.62)"
+      },
+      "contrast": [
+        {
+          "rect": {
+            "x": 430.1015625,
+            "y": 552.96875,
+            "width": 71.765625,
+            "height": 25.59375,
+            "top": 552.96875,
+            "right": 501.8671875,
+            "bottom": 578.5625,
+            "left": 430.1015625
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 505.8671875,
+            "y": 543.765625,
+            "width": 44,
+            "height": 44,
+            "top": 543.765625,
+            "right": 549.8671875,
+            "bottom": 587.765625,
+            "left": 505.8671875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": true
+        },
+        {
+          "rect": {
+            "x": 553.8671875,
+            "y": 543.765625,
+            "width": 44,
+            "height": 44,
+            "top": 543.765625,
+            "right": 597.8671875,
+            "bottom": 587.765625,
+            "left": 553.8671875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 601.8671875,
+            "y": 543.765625,
+            "width": 44,
+            "height": 44,
+            "top": 543.765625,
+            "right": 645.8671875,
+            "bottom": 587.765625,
+            "left": 601.8671875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 649.8671875,
+            "y": 543.765625,
+            "width": 44,
+            "height": 44,
+            "top": 543.765625,
+            "right": 693.8671875,
+            "bottom": 587.765625,
+            "left": 649.8671875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 169.46875,
+            "y": 29,
+            "width": 200.65625,
+            "height": 44,
+            "top": 29,
+            "right": 370.125,
+            "bottom": 73,
+            "left": 169.46875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 394.125,
+            "y": 29,
+            "width": 85.578125,
+            "height": 44,
+            "top": 29,
+            "right": 479.703125,
+            "bottom": 73,
+            "left": 394.125
+          },
+          "color": "rgb(138, 84, 0)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 503.703125,
+            "y": 29,
+            "width": 78.828125,
+            "height": 44,
+            "top": 29,
+            "right": 582.53125,
+            "bottom": 73,
+            "left": 503.703125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 606.53125,
+            "y": 29,
+            "width": 44,
+            "height": 44,
+            "top": 29,
+            "right": 650.53125,
+            "bottom": 73,
+            "left": 606.53125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        }
+      ],
+      "focus": {
+        "label": "Đổi góc sơ đồ",
+        "outline": "rgb(35, 28, 23) solid 3px",
+        "shadow": "rgb(255, 253, 250) 0px 0px 0px 2px",
+        "pressed": "true",
+        "height": 44
+      },
+      "discovery": {
+        "scrollY": 2929,
+        "heading": {
+          "x": 24,
+          "y": 313.609375,
+          "width": 280,
+          "height": 33.59375,
+          "top": 313.609375,
+          "right": 304,
+          "bottom": 347.203125,
+          "left": 24
+        },
+        "persistent": {
+          "x": 328,
+          "y": 120,
+          "width": 467.984375,
+          "height": 501.09375,
+          "top": 120,
+          "right": 795.984375,
+          "bottom": 621.09375,
+          "left": 328
+        },
+        "progress": "0",
+        "overflow": false,
+        "pending": "Nội dung danh bạ đang chờ duyệt.\n\nTìm cửa hàng, thương hiệu hoặc danh mục\nDanh mục\nTất cả danh mục\nTìm kiếm\n\nDanh bạ tầng B2 · 0\n\nKhông có địa điểm phù hợp.\n\nTiện ích",
+        "canvasKey": "vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:B2"
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 820,
+      "height": 1180,
+      "locale": "en",
+      "checks": [
+        "Introduction header hidden/inert",
+        "No horizontal overflow",
+        "Public content pending",
+        "All floors in vertical rail",
+        "No page exceptions",
+        "Selected control retains dark keyboard focus",
+        "44px map control targets",
+        "Phone Discovery content clears sticky preview"
+      ],
+      "failed": [
+        "Overview cue reaches header timing boundary"
+      ],
+      "screens": [],
+      "errors": [],
+      "headerHidden": true,
+      "headerAfterCue": false,
+      "rail": {
+        "count": 7,
+        "rect": {
+          "x": 687.109375,
+          "y": 205.34375,
+          "width": 96,
+          "height": 344,
+          "top": 205.34375,
+          "right": 783.109375,
+          "bottom": 549.34375,
+          "left": 687.109375
+        },
+        "font": "16px"
+      },
+      "map": {
+        "control": {
+          "x": 419.953125,
+          "y": 534.765625,
+          "width": 284.0625,
+          "height": 62,
+          "top": 534.765625,
+          "right": 704.015625,
+          "bottom": 596.765625,
+          "left": 419.953125
+        },
+        "map": {
+          "x": 352,
+          "y": 249.375,
+          "width": 419.984375,
+          "height": 285.390625,
+          "top": 249.375,
+          "right": 771.984375,
+          "bottom": 534.765625,
+          "left": 352
+        },
+        "glass": "blur(24px) saturate(1.3)",
+        "background": "rgba(255, 255, 255, 0.62)"
+      },
+      "contrast": [
+        {
+          "rect": {
+            "x": 428.953125,
+            "y": 552.96875,
+            "width": 74.0625,
+            "height": 25.59375,
+            "top": 552.96875,
+            "right": 503.015625,
+            "bottom": 578.5625,
+            "left": 428.953125
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 507.015625,
+            "y": 543.765625,
+            "width": 44,
+            "height": 44,
+            "top": 543.765625,
+            "right": 551.015625,
+            "bottom": 587.765625,
+            "left": 507.015625
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": true
+        },
+        {
+          "rect": {
+            "x": 555.015625,
+            "y": 543.765625,
+            "width": 44,
+            "height": 44,
+            "top": 543.765625,
+            "right": 599.015625,
+            "bottom": 587.765625,
+            "left": 555.015625
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 603.015625,
+            "y": 543.765625,
+            "width": 44,
+            "height": 44,
+            "top": 543.765625,
+            "right": 647.015625,
+            "bottom": 587.765625,
+            "left": 603.015625
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 651.015625,
+            "y": 543.765625,
+            "width": 44,
+            "height": 44,
+            "top": 543.765625,
+            "right": 695.015625,
+            "bottom": 587.765625,
+            "left": 651.015625
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 173.015625,
+            "y": 29,
+            "width": 200.65625,
+            "height": 44,
+            "top": 29,
+            "right": 373.671875,
+            "bottom": 73,
+            "left": 173.015625
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 397.671875,
+            "y": 29,
+            "width": 79.625,
+            "height": 44,
+            "top": 29,
+            "right": 477.296875,
+            "bottom": 73,
+            "left": 397.671875
+          },
+          "color": "rgb(138, 84, 0)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 501.296875,
+            "y": 29,
+            "width": 77.6875,
+            "height": 44,
+            "top": 29,
+            "right": 578.984375,
+            "bottom": 73,
+            "left": 501.296875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 602.984375,
+            "y": 29,
+            "width": 44,
+            "height": 44,
+            "top": 29,
+            "right": 646.984375,
+            "bottom": 73,
+            "left": 602.984375
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        }
+      ],
+      "focus": {
+        "label": "Change map angle",
+        "outline": "rgb(35, 28, 23) solid 3px",
+        "shadow": "rgb(255, 253, 250) 0px 0px 0px 2px",
+        "pressed": "true",
+        "height": 44
+      },
+      "discovery": {
+        "scrollY": 2929,
+        "heading": {
+          "x": 24,
+          "y": 313.609375,
+          "width": 280,
+          "height": 33.59375,
+          "top": 313.609375,
+          "right": 304,
+          "bottom": 347.203125,
+          "left": 24
+        },
+        "persistent": {
+          "x": 328,
+          "y": 120,
+          "width": 467.984375,
+          "height": 501.09375,
+          "top": 120,
+          "right": 795.984375,
+          "bottom": 621.09375,
+          "left": 328
+        },
+        "progress": "0",
+        "overflow": false,
+        "pending": "Directory content pending team review.\n\nSearch shops, brands or categories\nCategories\nAll categories\nSearch\n\nDirectory on floor B2 · 0\n\nNo matching destinations.\n\nFacilities",
+        "canvasKey": "vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:B2"
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 390,
+      "height": 844,
+      "locale": "vi",
+      "checks": [
+        "Introduction header hidden/inert",
+        "No horizontal overflow",
+        "Public content pending",
+        "All floors in vertical rail",
+        "No page exceptions",
+        "Selected control retains dark keyboard focus",
+        "44px map control targets",
+        "Phone Discovery content clears sticky preview"
+      ],
+      "failed": [
+        "Overview cue reaches header timing boundary"
+      ],
+      "screens": [],
+      "errors": [],
+      "headerHidden": true,
+      "headerAfterCue": false,
+      "rail": {
+        "count": 7,
+        "rect": {
+          "x": 306,
+          "y": 187.78125,
+          "width": 60,
+          "height": 344,
+          "top": 187.78125,
+          "right": 366,
+          "bottom": 531.78125,
+          "left": 306
+        },
+        "font": "16px"
+      },
+      "map": {
+        "control": {
+          "x": 20,
+          "y": 432.515625,
+          "width": 350,
+          "height": 54,
+          "top": 432.515625,
+          "right": 370,
+          "bottom": 486.515625,
+          "left": 20
+        },
+        "map": {
+          "x": 32,
+          "y": 243.328125,
+          "width": 326,
+          "height": 189.1875,
+          "top": 243.328125,
+          "right": 358,
+          "bottom": 432.515625,
+          "left": 32
+        },
+        "glass": "blur(24px) saturate(1.3)",
+        "background": "rgba(255, 255, 255, 0.62)"
+      },
+      "contrast": [
+        {
+          "rect": {
+            "x": 25,
+            "y": 446.71875,
+            "width": 156,
+            "height": 25.59375,
+            "top": 446.71875,
+            "right": 181,
+            "bottom": 472.3125,
+            "left": 25
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 183,
+            "y": 437.515625,
+            "width": 44,
+            "height": 44,
+            "top": 437.515625,
+            "right": 227,
+            "bottom": 481.515625,
+            "left": 183
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": true
+        },
+        {
+          "rect": {
+            "x": 229,
+            "y": 437.515625,
+            "width": 44,
+            "height": 44,
+            "top": 437.515625,
+            "right": 273,
+            "bottom": 481.515625,
+            "left": 229
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 275,
+            "y": 437.515625,
+            "width": 44,
+            "height": 44,
+            "top": 437.515625,
+            "right": 319,
+            "bottom": 481.515625,
+            "left": 275
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 321,
+            "y": 437.515625,
+            "width": 44,
+            "height": 44,
+            "top": 437.515625,
+            "right": 365,
+            "bottom": 481.515625,
+            "left": 321
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 25,
+            "y": 19,
+            "width": 200.65625,
+            "height": 44,
+            "top": 19,
+            "right": 225.65625,
+            "bottom": 63,
+            "left": 25
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 25,
+            "y": 63,
+            "width": 85.578125,
+            "height": 44,
+            "top": 63,
+            "right": 110.578125,
+            "bottom": 107,
+            "left": 25
+          },
+          "color": "rgb(138, 84, 0)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 176.375,
+            "y": 63,
+            "width": 78.828125,
+            "height": 44,
+            "top": 63,
+            "right": 255.203125,
+            "bottom": 107,
+            "left": 176.375
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 321,
+            "y": 63,
+            "width": 44,
+            "height": 44,
+            "top": 63,
+            "right": 365,
+            "bottom": 107,
+            "left": 321
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        }
+      ],
+      "focus": {
+        "label": "Đổi góc sơ đồ",
+        "outline": "rgb(35, 28, 23) solid 3px",
+        "shadow": "rgb(255, 253, 250) 0px 0px 0px 2px",
+        "pressed": "true",
+        "height": 44
+      },
+      "discovery": {
+        "scrollY": 2501,
+        "heading": {
+          "x": 20,
+          "y": 657.359375,
+          "width": 350,
+          "height": 33.59375,
+          "top": 657.359375,
+          "right": 370,
+          "bottom": 690.953125,
+          "left": 20
+        },
+        "persistent": {
+          "x": 20,
+          "y": 116,
+          "width": 350,
+          "height": 329.6875,
+          "top": 116,
+          "right": 370,
+          "bottom": 445.6875,
+          "left": 20
+        },
+        "progress": "0",
+        "overflow": false,
+        "pending": "Nội dung danh bạ đang chờ duyệt.\n\nTìm cửa hàng, thương hiệu hoặc danh mục\nDanh mục\nTất cả danh mục\nTìm kiếm\n\nDanh bạ tầng B2 · 0\n\nKhông có địa điểm phù hợp.\n\nTiện ích",
+        "canvasKey": "vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:B2"
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 390,
+      "height": 844,
+      "locale": "en",
+      "checks": [
+        "Introduction header hidden/inert",
+        "No horizontal overflow",
+        "Public content pending",
+        "All floors in vertical rail",
+        "No page exceptions",
+        "Selected control retains dark keyboard focus",
+        "44px map control targets",
+        "Phone Discovery content clears sticky preview"
+      ],
+      "failed": [
+        "Overview cue reaches header timing boundary"
+      ],
+      "screens": [],
+      "errors": [],
+      "headerHidden": true,
+      "headerAfterCue": false,
+      "rail": {
+        "count": 7,
+        "rect": {
+          "x": 306,
+          "y": 187.78125,
+          "width": 60,
+          "height": 344,
+          "top": 187.78125,
+          "right": 366,
+          "bottom": 531.78125,
+          "left": 306
+        },
+        "font": "16px"
+      },
+      "map": {
+        "control": {
+          "x": 20,
+          "y": 433.03125,
+          "width": 350,
+          "height": 54,
+          "top": 433.03125,
+          "right": 370,
+          "bottom": 487.03125,
+          "left": 20
+        },
+        "map": {
+          "x": 32,
+          "y": 243.84375,
+          "width": 326,
+          "height": 189.1875,
+          "top": 243.84375,
+          "right": 358,
+          "bottom": 433.03125,
+          "left": 32
+        },
+        "glass": "blur(24px) saturate(1.3)",
+        "background": "rgba(255, 255, 255, 0.62)"
+      },
+      "contrast": [
+        {
+          "rect": {
+            "x": 25,
+            "y": 447.234375,
+            "width": 156,
+            "height": 25.59375,
+            "top": 447.234375,
+            "right": 181,
+            "bottom": 472.828125,
+            "left": 25
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 183,
+            "y": 438.03125,
+            "width": 44,
+            "height": 44,
+            "top": 438.03125,
+            "right": 227,
+            "bottom": 482.03125,
+            "left": 183
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": true
+        },
+        {
+          "rect": {
+            "x": 229,
+            "y": 438.03125,
+            "width": 44,
+            "height": 44,
+            "top": 438.03125,
+            "right": 273,
+            "bottom": 482.03125,
+            "left": 229
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 275,
+            "y": 438.03125,
+            "width": 44,
+            "height": 44,
+            "top": 438.03125,
+            "right": 319,
+            "bottom": 482.03125,
+            "left": 275
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 321,
+            "y": 438.03125,
+            "width": 44,
+            "height": 44,
+            "top": 438.03125,
+            "right": 365,
+            "bottom": 482.03125,
+            "left": 321
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 25,
+            "y": 19,
+            "width": 200.65625,
+            "height": 44,
+            "top": 19,
+            "right": 225.65625,
+            "bottom": 63,
+            "left": 25
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 25,
+            "y": 63,
+            "width": 79.625,
+            "height": 44,
+            "top": 63,
+            "right": 104.625,
+            "bottom": 107,
+            "left": 25
+          },
+          "color": "rgb(138, 84, 0)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 173.96875,
+            "y": 63,
+            "width": 77.6875,
+            "height": 44,
+            "top": 63,
+            "right": 251.65625,
+            "bottom": 107,
+            "left": 173.96875
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        },
+        {
+          "rect": {
+            "x": 321,
+            "y": 63,
+            "width": 44,
+            "height": 44,
+            "top": 63,
+            "right": 365,
+            "bottom": 107,
+            "left": 321
+          },
+          "color": "rgb(35, 28, 23)",
+          "disabled": false
+        }
+      ],
+      "focus": {
+        "label": "Change map angle",
+        "outline": "rgb(35, 28, 23) solid 3px",
+        "shadow": "rgb(255, 253, 250) 0px 0px 0px 2px",
+        "pressed": "true",
+        "height": 44
+      },
+      "discovery": {
+        "scrollY": 2498,
+        "heading": {
+          "x": 20,
+          "y": 657.28125,
+          "width": 350,
+          "height": 33.59375,
+          "top": 657.28125,
+          "right": 370,
+          "bottom": 690.875,
+          "left": 20
+        },
+        "persistent": {
+          "x": 20,
+          "y": 116,
+          "width": 350,
+          "height": 329.6875,
+          "top": 116,
+          "right": 370,
+          "bottom": 445.6875,
+          "left": 20
+        },
+        "progress": "0",
+        "overflow": false,
+        "pending": "Directory content pending team review.\n\nSearch shops, brands or categories\nCategories\nAll categories\nSearch\n\nDirectory on floor B2 · 0\n\nNo matching destinations.\n\nFacilities",
+        "canvasKey": "vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:B2"
+      }
+    }
+  ]
+}

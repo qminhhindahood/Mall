@@ -1,0 +1,32 @@
+{
+  "base": "c15e421",
+  "round": "before",
+  "browser": "149.0.7827.198",
+  "profile": "Localhost Chrome / SwiftShader; CSS viewport emulation; no physical-device or production benchmark",
+  "runs": [
+    {
+      "mall": "saigon",
+      "width": 1280,
+      "height": 800,
+      "locale": "vi",
+      "checks": [],
+      "screens": [],
+      "errors": [],
+      "headerHidden": true,
+      "rail": {
+        "count": 8,
+        "rect": {
+          "x": 170,
+          "y": 333.59375,
+          "width": 128,
+          "height": 838.28125,
+          "top": 333.59375,
+          "right": 298,
+          "bottom": 1171.875,
+          "left": 170
+        },
+        "font": "16px"
+      }
+    }
+  ]
+}

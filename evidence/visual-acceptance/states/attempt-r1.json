@@ -1,0 +1,585 @@
+{
+  "browser": "149.0.7827.198",
+  "runs": [
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "mode": "transparency",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Opaque porcelain fallback",
+        "Actual reduced-transparency media query",
+        "Keyboard angle selected",
+        "Visible keyboard focus",
+        "Discovery stays reachable"
+      ],
+      "failed": [],
+      "errors": [],
+      "styles": {
+        "background": "rgb(255, 249, 241)",
+        "blur": "none",
+        "reducedTransparency": true,
+        "sticky": "sticky",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "mode": "unsupported-blur",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Opaque porcelain fallback",
+        "Keyboard angle selected",
+        "Visible keyboard focus",
+        "Discovery stays reachable"
+      ],
+      "failed": [],
+      "errors": [],
+      "styles": {
+        "background": "rgb(255, 249, 241)",
+        "blur": "none",
+        "reducedTransparency": false,
+        "sticky": "sticky",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "mode": "reflow-200",
+      "viewport": {
+        "width": 640,
+        "height": 400
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Short viewport leaves reading content unobstructed",
+        "Keyboard angle selected",
+        "Visible keyboard focus"
+      ],
+      "failed": [
+        "Discovery stays reachable"
+      ],
+      "errors": [],
+      "styles": {
+        "background": "rgba(255, 255, 255, 0.62)",
+        "blur": "blur(24px) saturate(1.3)",
+        "reducedTransparency": false,
+        "sticky": "relative",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "mode": "short-phone",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Short viewport leaves reading content unobstructed",
+        "Keyboard angle selected",
+        "Visible keyboard focus",
+        "Discovery stays reachable"
+      ],
+      "failed": [],
+      "errors": [],
+      "styles": {
+        "background": "rgba(255, 255, 255, 0.62)",
+        "blur": "blur(24px) saturate(1.3)",
+        "reducedTransparency": false,
+        "sticky": "relative",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "mode": "import-failure",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Keyboard angle selected",
+        "Visible keyboard focus",
+        "Discovery stays reachable",
+        "Known scene failure releases loading",
+        "Practical geometry survives import failure"
+      ],
+      "failed": [],
+      "errors": [],
+      "styles": {
+        "background": "rgba(255, 255, 255, 0.62)",
+        "blur": "blur(24px) saturate(1.3)",
+        "reducedTransparency": false,
+        "sticky": "sticky",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "mode": "transparency",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Opaque porcelain fallback",
+        "Actual reduced-transparency media query",
+        "Keyboard angle selected",
+        "Visible keyboard focus",
+        "Discovery stays reachable"
+      ],
+      "failed": [],
+      "errors": [],
+      "styles": {
+        "background": "rgb(255, 249, 241)",
+        "blur": "none",
+        "reducedTransparency": true,
+        "sticky": "sticky",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "mode": "unsupported-blur",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Opaque porcelain fallback",
+        "Keyboard angle selected",
+        "Visible keyboard focus",
+        "Discovery stays reachable"
+      ],
+      "failed": [],
+      "errors": [],
+      "styles": {
+        "background": "rgb(255, 249, 241)",
+        "blur": "none",
+        "reducedTransparency": false,
+        "sticky": "sticky",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "mode": "reflow-200",
+      "viewport": {
+        "width": 640,
+        "height": 400
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Short viewport leaves reading content unobstructed",
+        "Keyboard angle selected",
+        "Visible keyboard focus"
+      ],
+      "failed": [
+        "Discovery stays reachable"
+      ],
+      "errors": [],
+      "styles": {
+        "background": "rgba(255, 255, 255, 0.62)",
+        "blur": "blur(24px) saturate(1.3)",
+        "reducedTransparency": false,
+        "sticky": "relative",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "mode": "short-phone",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Short viewport leaves reading content unobstructed",
+        "Keyboard angle selected",
+        "Visible keyboard focus",
+        "Discovery stays reachable"
+      ],
+      "failed": [],
+      "errors": [],
+      "styles": {
+        "background": "rgba(255, 255, 255, 0.62)",
+        "blur": "blur(24px) saturate(1.3)",
+        "reducedTransparency": false,
+        "sticky": "relative",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "mode": "import-failure",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Keyboard angle selected",
+        "Visible keyboard focus",
+        "Discovery stays reachable",
+        "Known scene failure releases loading",
+        "Practical geometry survives import failure"
+      ],
+      "failed": [],
+      "errors": [],
+      "styles": {
+        "background": "rgba(255, 255, 255, 0.62)",
+        "blur": "blur(24px) saturate(1.3)",
+        "reducedTransparency": false,
+        "sticky": "sticky",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "mode": "transparency",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Opaque porcelain fallback",
+        "Actual reduced-transparency media query",
+        "Keyboard angle selected",
+        "Visible keyboard focus",
+        "Discovery stays reachable"
+      ],
+      "failed": [],
+      "errors": [],
+      "styles": {
+        "background": "rgb(255, 251, 243)",
+        "blur": "none",
+        "reducedTransparency": true,
+        "sticky": "sticky",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "mode": "unsupported-blur",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Opaque porcelain fallback",
+        "Keyboard angle selected",
+        "Visible keyboard focus",
+        "Discovery stays reachable"
+      ],
+      "failed": [],
+      "errors": [],
+      "styles": {
+        "background": "rgb(255, 251, 243)",
+        "blur": "none",
+        "reducedTransparency": false,
+        "sticky": "sticky",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "mode": "reflow-200",
+      "viewport": {
+        "width": 640,
+        "height": 400
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Short viewport leaves reading content unobstructed",
+        "Keyboard angle selected",
+        "Visible keyboard focus"
+      ],
+      "failed": [
+        "Discovery stays reachable"
+      ],
+      "errors": [],
+      "styles": {
+        "background": "rgba(255, 255, 255, 0.62)",
+        "blur": "blur(24px) saturate(1.3)",
+        "reducedTransparency": false,
+        "sticky": "relative",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "mode": "short-phone",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Short viewport leaves reading content unobstructed",
+        "Keyboard angle selected",
+        "Visible keyboard focus",
+        "Discovery stays reachable"
+      ],
+      "failed": [],
+      "errors": [],
+      "styles": {
+        "background": "rgba(255, 255, 255, 0.62)",
+        "blur": "blur(24px) saturate(1.3)",
+        "reducedTransparency": false,
+        "sticky": "relative",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "mode": "import-failure",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Keyboard angle selected",
+        "Visible keyboard focus",
+        "Discovery stays reachable",
+        "Known scene failure releases loading",
+        "Practical geometry survives import failure"
+      ],
+      "failed": [],
+      "errors": [],
+      "styles": {
+        "background": "rgba(255, 255, 255, 0.62)",
+        "blur": "blur(24px) saturate(1.3)",
+        "reducedTransparency": false,
+        "sticky": "sticky",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "mode": "transparency",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Opaque porcelain fallback",
+        "Actual reduced-transparency media query",
+        "Keyboard angle selected",
+        "Visible keyboard focus",
+        "Discovery stays reachable"
+      ],
+      "failed": [],
+      "errors": [],
+      "styles": {
+        "background": "rgb(255, 251, 243)",
+        "blur": "none",
+        "reducedTransparency": true,
+        "sticky": "sticky",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "mode": "unsupported-blur",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Opaque porcelain fallback",
+        "Keyboard angle selected",
+        "Visible keyboard focus",
+        "Discovery stays reachable"
+      ],
+      "failed": [],
+      "errors": [],
+      "styles": {
+        "background": "rgb(255, 251, 243)",
+        "blur": "none",
+        "reducedTransparency": false,
+        "sticky": "sticky",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "mode": "reflow-200",
+      "viewport": {
+        "width": 640,
+        "height": 400
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Short viewport leaves reading content unobstructed",
+        "Keyboard angle selected",
+        "Visible keyboard focus"
+      ],
+      "failed": [
+        "Discovery stays reachable"
+      ],
+      "errors": [],
+      "styles": {
+        "background": "rgba(255, 255, 255, 0.62)",
+        "blur": "blur(24px) saturate(1.3)",
+        "reducedTransparency": false,
+        "sticky": "relative",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "mode": "short-phone",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Short viewport leaves reading content unobstructed",
+        "Keyboard angle selected",
+        "Visible keyboard focus",
+        "Discovery stays reachable"
+      ],
+      "failed": [],
+      "errors": [],
+      "styles": {
+        "background": "rgba(255, 255, 255, 0.62)",
+        "blur": "blur(24px) saturate(1.3)",
+        "reducedTransparency": false,
+        "sticky": "relative",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "mode": "import-failure",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        "No horizontal overflow",
+        "Keyboard angle selected",
+        "Visible keyboard focus",
+        "Discovery stays reachable",
+        "Known scene failure releases loading",
+        "Practical geometry survives import failure"
+      ],
+      "failed": [],
+      "errors": [],
+      "styles": {
+        "background": "rgba(255, 255, 255, 0.62)",
+        "blur": "blur(24px) saturate(1.3)",
+        "reducedTransparency": false,
+        "sticky": "sticky",
+        "overflow": false
+      }
+    },
+    {
+      "mall": "saigon",
+      "mode": "fixture-transition",
+      "checks": [
+        "Fixture selection outlines source area",
+        "Map host persists",
+        "Controls persist without opacity fade",
+        "Continuous transform progress; full-opacity tools",
+        "Reduced motion removes scroll transform"
+      ],
+      "failed": [],
+      "samples": [
+        {
+          "progress": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "toolsOpacity": "1"
+        },
+        {
+          "progress": 0.2659375,
+          "transform": "matrix3d(0.952131, 0, 0, 0, 0, 0.950122, 0.0649351, 0, 0, -0.0618267, 0.997889, 0, 0, 0, 0, 1)",
+          "toolsOpacity": "1"
+        },
+        {
+          "progress": 0.5326041666666667,
+          "transform": "matrix3d(0.904131, 0, 0, 0, 0, 0.896486, 0.129773, 0, 0, -0.117332, 0.991544, 0, 0, 0, 0, 1)",
+          "toolsOpacity": "1"
+        },
+        {
+          "progress": 0.7992708333333334,
+          "transform": "matrix3d(0.856131, 0, 0, 0, 0, 0.839856, 0.19406, 0, 0, -0.16614, 0.98099, 0, 0, 0, 0, 1)",
+          "toolsOpacity": "1"
+        }
+      ]
+    },
+    {
+      "mall": "vincom",
+      "mode": "fixture-transition",
+      "checks": [
+        "Fixture selection outlines source area",
+        "Map host persists",
+        "Controls persist without opacity fade",
+        "Continuous transform progress; full-opacity tools",
+        "Reduced motion removes scroll transform"
+      ],
+      "failed": [],
+      "samples": [
+        {
+          "progress": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "toolsOpacity": "1"
+        },
+        {
+          "progress": 0.26591145833333335,
+          "transform": "matrix3d(0.952136, 0, 0, 0, 0, 0.950127, 0.0649287, 0, 0, -0.061821, 0.99789, 0, 0, 0, 0, 1)",
+          "toolsOpacity": "1"
+        },
+        {
+          "progress": 0.532578125,
+          "transform": "matrix3d(0.904136, 0, 0, 0, 0, 0.896491, 0.129766, 0, 0, -0.117326, 0.991545, 0, 0, 0, 0, 1)",
+          "toolsOpacity": "1"
+        },
+        {
+          "progress": 0.7992447916666666,
+          "transform": "matrix3d(0.856136, 0, 0, 0, 0, 0.839862, 0.194053, 0, 0, -0.166136, 0.980991, 0, 0, 0, 0, 1)",
+          "toolsOpacity": "1"
+        }
+      ]
+    }
+  ]
+}

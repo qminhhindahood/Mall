@@ -6,6 +6,8 @@ import FloorMap from './FloorMap';
 import { floorRoute, selectionHref as href } from '../data/routes';
 import { validateGeometry } from '../runtime/validate-geometry';
 import Directory from './Directory';
+import MapControlIcon from './MapControlIcon';
+import OverviewStack from './OverviewStack';
 import { journeyCopy } from './journey-copy';
 import { categoryFloor } from '../data/content';
 import { timing } from '../runtime/loading-timing';
@@ -369,7 +371,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
           <div className="introduction-copy"><h1>{c.introduce}<span>{site.name}</span></h1><p>{site.mallId==='saigon-centre'?c.saigonIntroduction:c.vincomIntroduction}</p><p className="guide-identity">{c.independent}</p></div>
         </> : <h2>{c[kind]}{routeResolved && (kind==='map'||kind==='discovery') ? ` · ${floor.label}` : ''}</h2>}
         <div ref={element=>{if(element) sceneHosts.current[kind]=element;}} className={`scene-host scene-host-${kind}`} data-scene-kind={kind} data-active={selection.kind===kind} data-floor={routeResolved?floor.id:undefined}>
-          {kind==='exterior' ? <img src="/previews/exterior.webp" alt={`${site.name} · ${c.exterior}`} width="1200" height="1200" /> : kind==='overview' ? <div className="overview-composition"><nav className="floor-rail" aria-label={c.floors}>{geometry.floors.slice().sort((a,b)=>b.order-a.order).map(item=><a key={item.id} href={floorRoute(selection.locale,item.id)} aria-current={selection.kind==='map' && selection.floorId===item.id?'page':undefined} onClick={event=>navigate(change('map',item.id),event)}>{item.label}</a>)}</nav><div className="overview-stack" aria-label={c.overview}>{geometry.floors.slice().sort((a,b)=>b.order-a.order).map(item=><a key={item.id} className={selection.floorId===item.id && selection.kind==='map'?'selected':''} href={floorRoute(selection.locale,item.id)} onClick={event=>navigate(change('map',item.id),event)}><span className="overview-card-label">{c.heading} {item.label}</span><span className="overview-card-map"><FloorMap floor={item} title={`${c.map} ${item.label}`} /></span></a>)}</div></div> : routeResolved && (floor.regions.length ? <FloorMap floor={floor} title={c.map} /> : floor.preview ? <img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`} loading="lazy" /> : <FloorMap floor={floor} title={c.map} />)}
+          {kind==='exterior' ? <img src="/previews/exterior.webp" alt={`${site.name} · ${c.exterior}`} width="1200" height="1200" /> : kind==='overview' ? <div className="overview-composition"><nav className="floor-rail" aria-label={c.floors}>{geometry.floors.slice().sort((a,b)=>b.order-a.order).map(item=><a key={item.id} href={floorRoute(selection.locale,item.id)} aria-current={selection.floorId===item.id?'page':undefined} onClick={event=>navigate(change('map',item.id),event)}>{item.label}</a>)}</nav><OverviewStack floors={geometry.floors} locale={selection.locale} heading={c.heading} mapTitle={c.map} selectedFloor={selection.floorId} onSelect={(floorId,event)=>navigate(change('map',floorId),event)}/></div> : routeResolved && (floor.regions.length ? <FloorMap floor={floor} title={c.map} /> : floor.preview ? <img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`} loading="lazy" /> : <FloorMap floor={floor} title={c.map} />)}
         </div>
         {kind==='exterior' ? <div className="introduction-bottom"><a className="scroll-guide" href="#scene-overview" onClick={event=>navigate(change('overview'),event)}><span className="scroll-cue" aria-hidden="true"/><span>{c.scrollInstruction}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div> : <p className="disclosure">{c.uncertainty}</p>}
         {geometry.revision==='foundation-unavailable' && <p>{c.unavailableGeometry}</p>}
@@ -382,10 +384,10 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
           </div>
           <div className="map-controls glass" role="group" aria-label={c.map}>
             <span>{selection.kind==='discovery'?j.preview:c.heading} {routeResolved?floor.id:''}</span>
-            <button aria-label={j.zoomOut} disabled={zoom<=1} onClick={()=>setZoom(Math.max(1,zoom-.25))}>−</button>
-            <button aria-label={j.zoomIn} disabled={zoom>=2} onClick={()=>setZoom(Math.min(2,zoom+.25))}>+</button>
-            <button aria-pressed={angled} onClick={()=>setAngled(!angled)}>{j.angle}</button>
-            <button onClick={()=>{setZoom(1);setAngled(false);}}>{j.reset}</button>
+            <button aria-label={j.zoomOut} title={j.zoomOut} disabled={zoom<=1} onClick={()=>setZoom(Math.max(1,zoom-.25))}><MapControlIcon kind="out"/></button>
+            <button aria-label={j.zoomIn} title={j.zoomIn} disabled={zoom>=2} onClick={()=>setZoom(Math.min(2,zoom+.25))}><MapControlIcon kind="in"/></button>
+            <button aria-pressed={angled} title={j.angle} onClick={()=>setAngled(!angled)}><MapControlIcon kind="angle"/><span className="visually-hidden">{j.angle}</span></button>
+            <button title={j.reset} onClick={()=>{setZoom(1);setAngled(false);}}><MapControlIcon kind="reset"/><span className="visually-hidden">{j.reset}</span></button>
           </div>
           <p className="disclosure">{c.uncertainty}</p>
         </div>

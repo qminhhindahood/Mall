@@ -1,0 +1,51 @@
+08:03:41 [types] Generated 92ms
+08:03:41 [build] output: "static"
+08:03:41 [build] mode: "static"
+08:03:41 [build] directory: D:\Midterm\implementation\mall-visitor\dist\fixtures\vincom-dong-khoi\
+08:03:41 [build] Collecting build info...
+08:03:41 [build] ✓ Completed in 155ms.
+08:03:41 [build] Building static entrypoints...
+08:03:42 [vite] ✓ built in 301ms
+08:03:42 [WARN] [vite] [plugin builtin:vite-reporter]
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+08:03:42 [vite] ✓ built in 467ms
+08:03:42 [build] Rearranging server assets...
+
+ generating static routes
+08:03:42   ├─ /404.html (+23ms)
+08:03:42   ├─ /vi/index.html (+41ms)
+08:03:42   ├─ /vi/tang/B3/index.html (+16ms)
+08:03:42   ├─ /vi/tang/B2/index.html (+13ms)
+08:03:42   ├─ /vi/tang/B1/index.html (+14ms)
+08:03:42   ├─ /vi/tang/L1/index.html (+13ms)
+08:03:42   ├─ /vi/tang/M/index.html (+9ms)
+08:03:42   ├─ /vi/tang/L2/index.html (+9ms)
+08:03:42   ├─ /vi/tang/L3/index.html (+7ms)
+08:03:42   ├─ /vi/cua-hang/loading-test-store/index.html (+17ms)
+08:03:42   ├─ /vi/cua-hang/test-cafe/index.html (+7ms)
+08:03:42   ├─ /vi/cua-hang/test-coffee/index.html (+6ms)
+08:03:43   ├─ /vi/cua-hang/test-unknown/index.html (+6ms)
+08:03:43   ├─ /vi/404/index.html (+3ms)
+08:03:43   ├─ /en/index.html (+12ms)
+08:03:43   ├─ /en/floors/B3/index.html (+7ms)
+08:03:43   ├─ /en/floors/B2/index.html (+8ms)
+08:03:43   ├─ /en/floors/B1/index.html (+10ms)
+08:03:43   ├─ /en/floors/L1/index.html (+8ms)
+08:03:43   ├─ /en/floors/M/index.html (+5ms)
+08:03:43   ├─ /en/floors/L2/index.html (+6ms)
+08:03:43   ├─ /en/floors/L3/index.html (+6ms)
+08:03:43   ├─ /en/stores/loading-test-store/index.html (+7ms)
+08:03:43   ├─ /en/stores/test-cafe/index.html (+5ms)
+08:03:43   ├─ /en/stores/test-coffee/index.html (+5ms)
+08:03:43   ├─ /en/stores/test-unknown/index.html (+5ms)
+08:03:43   ├─ /en/404/index.html (+3ms)
+08:03:43   ├─ /index.html (+8ms)
+08:03:43 ✓ Completed in 438ms.
+
+08:03:43 [build] ✓ Completed in 1.30s.
+08:03:43 [build] 28 page(s) built in 1.50s
+08:03:43 [build] Complete!
+{"mall":"vincom-dong-khoi","fixture":true,"assetCount":55,"largestAsset":{"path":"dist\\fixtures\\vincom-dong-khoi\\models\\exterior.glb","bytes":4797176},"directoryApproval":"fixture","siteOrigin":null,"releaseApproved":false}

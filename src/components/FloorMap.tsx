@@ -1,11 +1,12 @@
 import { memo } from 'react';
 import type { FloorGeometry, Locale } from '../runtime/scene-contract';
 import type { DirectorySnapshot } from '../data/content';
-export default memo(function FloorMap({ floor, title, content, locale='vi', selectedDestination, selectedArea, onArea }: {
+export default memo(function FloorMap({ floor, title, viewBounds, content, locale='vi', selectedDestination, selectedArea, onArea }: {
   floor:FloorGeometry; title:string; content?:DirectorySnapshot; locale?:Locale;
   selectedDestination?:string; selectedArea?:string; onArea?:(id:string)=>void;
+  viewBounds?:[number,number,number,number];
 }) {
-  const [x,y,right,bottom]=floor.bounds;
+  const [x,y,right,bottom]=viewBounds??floor.bounds;
   const selected=content?.destinations.find(d=>d.id===selectedDestination)?.locations.find(l=>l.floorId===floor.id)?.areaIds??[];
   return <svg viewBox={`${x} ${y} ${Math.max(1,right-x)} ${Math.max(1,bottom-y)}`} role={onArea?'group':'img'} aria-label={`${title} ${floor.label}`}>
     <title>{`${title} ${floor.label}`}</title>
