@@ -9,3 +9,5 @@ Every category, area, facility, destination and Highlight records its source, ac
 A submitted snapshot is review input, not approved content. Keep it outside the public data path until the team approves both languages, floor/area evidence and Highlights. Import its approved revision, build both outputs and run browser acceptance before requesting release review. `INCLUDE_TEST_FIXTURES=1` substitutes labeled synthetic data only into `dist/fixtures/<mall>`; public builds reject fixture approvals and records.
 
 No reviewed redirects or destination media are supplied in this delivery. Stable IDs, source/use permission, directory completeness, currentness, media review and maintenance ownership remain release review responsibilities.
+
+The [bilingual content preparation packet](content-preparation/README.md) inventories the supplied mall lists/maps, preserves their entries as pending source claims, and provides authoring templates, approval/conversion steps and an owner checklist. Its offline worksheets are outside the public data path and are not approved import snapshots.

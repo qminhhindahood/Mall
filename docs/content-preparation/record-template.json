@@ -1,0 +1,56 @@
+{
+  "format": "offline-review-worksheet-v1; not DirectorySnapshot",
+  "workflowStatus": "pending",
+  "mallId": null,
+  "revision": null,
+  "approval": "pending",
+  "reviewedAt": null,
+  "review": {
+    "source": null,
+    "reviewedAt": null,
+    "reviewedBy": null,
+    "languages": {
+      "vi": { "approved": false, "reviewer": null, "reviewedAt": null },
+      "en": { "approved": false, "reviewer": null, "reviewedAt": null }
+    }
+  },
+  "destination": {
+    "id": null,
+    "recordKind": null,
+    "parentDestinationId": null,
+    "name": { "vi": null, "en": null },
+    "description": { "vi": null, "en": null },
+    "aliases": [],
+    "homepage": null,
+    "verifiedFloors": [],
+    "primaryFloor": null,
+    "locations": [],
+    "locationTemplate": { "floorId": null, "certainty": null, "areaIds": [], "source": null, "reviewedAt": null, "reviewedBy": null },
+    "categories": [],
+    "status": null,
+    "statusEvidence": null,
+    "movedFrom": null,
+    "movedTo": null,
+    "redirects": [],
+    "review": null
+  },
+  "mappedArea": {
+    "id": null, "floorId": null, "regionIds": [],
+    "geometryRevision": null, "name": { "vi": null, "en": null },
+    "destinationIdsForReview": [], "review": null
+  },
+  "facility": {
+    "id": null, "name": { "vi": null, "en": null },
+    "floorId": null, "areaId": null, "certainty": null, "review": null
+  },
+  "category": { "id": null, "name": { "vi": null, "en": null }, "review": null },
+  "proposedHighlight": {
+    "destinationId": null, "categoryId": null, "floorId": null,
+    "proposedBy": null, "rationale": null, "decision": "pending", "review": null
+  },
+  "sourceEvidence": {
+    "id": null, "pathOrUrl": null, "lineOrPage": null,
+    "captureOrPublicationDate": null, "checkedAt": null, "checkedBy": null,
+    "supportedClaims": [], "conflictingEvidence": [], "intendedUse": null
+  }
+}
