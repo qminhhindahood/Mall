@@ -1,0 +1,247 @@
+{
+  "revision": "owner-review-0017-2026-10-14-r1",
+  "preparedAt": "2026-10-14T21:10:00.9131612+07:00",
+  "evidenceRevision": "continuous-journey-2026-10-14-r1",
+  "testedApplication": "13a2083",
+  "scope": "New owner-review packet; existing records reused; no new journey browser run",
+  "relativeReferencesChecked": 42,
+  "inPageAnchorsChecked": 3,
+  "linkedRecordings": 4,
+  "linkedImages": 32,
+  "liveUrlHttpChecks": [
+    {
+      "url": "http://localhost:4213/vi",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4213/en",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4214/vi",
+      "status": 200
+    },
+    {
+      "url": "http://localhost:4214/en",
+      "status": 200
+    }
+  ],
+  "files": [
+    {
+      "reference": "../../../../../docs/issues/0017-continuous-visitor-journey.md",
+      "bytes": 11973,
+      "sha256": "25be700d5ad4549ef3295622683100d43b9b801587c1e6df09fb49b359f09ef2"
+    },
+    {
+      "reference": "../../../../../docs/superpowers/specs/2026-10-11-mall-visitor-experience-spec.md",
+      "bytes": 56702,
+      "sha256": "a4184589184d04ce6b8c8a750312a21004e3b0d1e25d1c7e20bda6672d6ad78c"
+    },
+    {
+      "reference": "../../source-overlays/contact.png",
+      "bytes": 1209453,
+      "sha256": "68a35271810345ec46e071655b4c0a9bf5fe5a02893ac179bc744f25d4c37dcd"
+    },
+    {
+      "reference": "../frames/saigon-en-1280-discovery.png",
+      "bytes": 90885,
+      "sha256": "e7a7a79a9a42c1679bf02dd72a795d8dcc82ab9d67e109eae8d3dd8a71c62816"
+    },
+    {
+      "reference": "../frames/saigon-en-1280-fade.png",
+      "bytes": 228210,
+      "sha256": "1a72b745a5ce17822157e14eee460c0438b57b0966713066ffadc774fa0b4145"
+    },
+    {
+      "reference": "../frames/saigon-en-1280-map-B2.png",
+      "bytes": 153672,
+      "sha256": "e760512ef621d32c264b01a4b42a4c8d7e9eaacf9d177488dcb7a99e6ac93d1b"
+    },
+    {
+      "reference": "../frames/saigon-en-1280-map-L2.png",
+      "bytes": 168276,
+      "sha256": "b901b211a107257c1c1fc83163d029e970cc2fcc2175d941a734e42da0ea4d2e"
+    },
+    {
+      "reference": "../frames/saigon-en-1280-map-L6.png",
+      "bytes": 99698,
+      "sha256": "0edf383ed086efba24e1af0e2cabcd394a0fa07f7697dc9633705a4968eab472"
+    },
+    {
+      "reference": "../frames/saigon-en-1280-map.png",
+      "bytes": 93940,
+      "sha256": "ed7c319fa5eb08df287fae67df9727a8361a1149ad11412a0503258f8b968b12"
+    },
+    {
+      "reference": "../frames/saigon-en-1280-reverse-hero.png",
+      "bytes": 171685,
+      "sha256": "ba2dcd7137c094768f0d34929a926bd65e92b68d5f3841827515b39ab8e1b927"
+    },
+    {
+      "reference": "../frames/saigon-en-1280-stack.png",
+      "bytes": 182883,
+      "sha256": "106e261063492ffce4bd19d6fa0d86b40b74b2482502681cfb0fd351ee4f45ba"
+    },
+    {
+      "reference": "../frames/saigon-en-1280-travel.png",
+      "bytes": 65873,
+      "sha256": "b2c6ebcadd0c9c727131162bd7683f60c95e164226943010ac1964f15a8e9bf0"
+    },
+    {
+      "reference": "../frames/saigon-en-390-discovery.png",
+      "bytes": 47776,
+      "sha256": "caedf24322af6c7761a1f634bfb95b5f2eef15fcb5c8b26808977af7b541d1be"
+    },
+    {
+      "reference": "../frames/saigon-en-390-fade.png",
+      "bytes": 141861,
+      "sha256": "cdff0974c017f5fa3935ab1ffa8df8f882e2f14eab990b881c7872a64283ef23"
+    },
+    {
+      "reference": "../frames/saigon-en-390-map.png",
+      "bytes": 53628,
+      "sha256": "79dc191bd1034e6cec52c311fc7816880d23a3e3f9eb45238ce14f9906b61285"
+    },
+    {
+      "reference": "../frames/saigon-en-390-reverse-hero.png",
+      "bytes": 83717,
+      "sha256": "a9cbaa33f3480865cb42317bd465abb5426408c810f394cfdb58d96b1bb67b33"
+    },
+    {
+      "reference": "../frames/saigon-en-390-stack.png",
+      "bytes": 126173,
+      "sha256": "11f5b04dc9b55d95bafb7450e63e8750906e479c9492a124b6d8d10e903875dd"
+    },
+    {
+      "reference": "../frames/saigon-en-390-travel.png",
+      "bytes": 36136,
+      "sha256": "320f2a75c3637fcce9a2ed0fa437120d9cf428d7059ce79eb052904cf88e14c4"
+    },
+    {
+      "reference": "../frames/vincom-en-1280-discovery.png",
+      "bytes": 87742,
+      "sha256": "3dcbeaed530ff31b7a18d5be869b236bde3c5c9d54def079fa619e10297ec788"
+    },
+    {
+      "reference": "../frames/vincom-en-1280-fade.png",
+      "bytes": 409543,
+      "sha256": "2856fcf7fca5f17d20e2889f24c72e5f22e7340693291964ae0c6c9c1dcc1c0a"
+    },
+    {
+      "reference": "../frames/vincom-en-1280-map-B2.png",
+      "bytes": 129368,
+      "sha256": "a4a09df6d112f12b1cc3e44b29cc755f58a296ae8286feab844e1efc216831d7"
+    },
+    {
+      "reference": "../frames/vincom-en-1280-map-B3.png",
+      "bytes": 115264,
+      "sha256": "d45601a0d1bfc580cdea62b19731407bddc7793127b71319707edd858bbe2b98"
+    },
+    {
+      "reference": "../frames/vincom-en-1280-map-L2.png",
+      "bytes": 84818,
+      "sha256": "4a000a6f7b7c47612f20e50d5951d6653474b96b605ba3347c1c2eec4e1c6e9c"
+    },
+    {
+      "reference": "../frames/vincom-en-1280-map-M.png",
+      "bytes": 85786,
+      "sha256": "88f57e0a82f26391a1d2cbbe57f16032f569873953fa59ce930ab6b844d914fc"
+    },
+    {
+      "reference": "../frames/vincom-en-1280-map.png",
+      "bytes": 80624,
+      "sha256": "c09b263550c2eec33de93aedaf93f984c7077bca44c0db4ec5a861bfd562bf5d"
+    },
+    {
+      "reference": "../frames/vincom-en-1280-reverse-hero.png",
+      "bytes": 321459,
+      "sha256": "cabd2bcda7ac6e78920699301a85fb9f9793a64ce4620b465b91826d85ca7311"
+    },
+    {
+      "reference": "../frames/vincom-en-1280-stack.png",
+      "bytes": 179001,
+      "sha256": "a1da171089cc8965d7613c10d75f075940085ea2063d1560a381d2ad82d65d58"
+    },
+    {
+      "reference": "../frames/vincom-en-1280-travel.png",
+      "bytes": 69199,
+      "sha256": "0abf79a5e6abee18a8c5273d9a462ac089ea9b9c8b91479044ea9daf1bf725ff"
+    },
+    {
+      "reference": "../frames/vincom-en-390-discovery.png",
+      "bytes": 45520,
+      "sha256": "025686a23c4f1c4c697788af35d2cce7fcb5805079d11c72a99db89bc8c30692"
+    },
+    {
+      "reference": "../frames/vincom-en-390-fade.png",
+      "bytes": 187483,
+      "sha256": "b1e71b0b56793ec80f8b787ee2bc521cad86a36e40ed7431b8315c2037099ab2"
+    },
+    {
+      "reference": "../frames/vincom-en-390-map.png",
+      "bytes": 49471,
+      "sha256": "4104ae0d05e40ce4be1180eba4b52fa43849eb87398a778e98134310bf0234e5"
+    },
+    {
+      "reference": "../frames/vincom-en-390-reverse-hero.png",
+      "bytes": 131133,
+      "sha256": "7f02b364fb9ced8fee6e50a77bd8e711b933c6c9a2a42d3527108a421a079f60"
+    },
+    {
+      "reference": "../frames/vincom-en-390-stack.png",
+      "bytes": 116804,
+      "sha256": "aa94f41e62f7a401581f9deb3626e898976951ecd42e513c08a3a61facfffec9"
+    },
+    {
+      "reference": "../frames/vincom-en-390-travel.png",
+      "bytes": 35824,
+      "sha256": "2a0b83ae4dd72a278be854dba4de8d5cd5da59badde177699a0a3826799cf1cb"
+    },
+    {
+      "reference": "../gallery.html",
+      "bytes": 20178,
+      "sha256": "05071e35214606ddb3afefd758d9acbc8292573f05cecc1f9817173367fdca22"
+    },
+    {
+      "reference": "../geometry-review.md",
+      "bytes": 3644,
+      "sha256": "e60eec0991f088c166bdbd8cf3a2d90ce8520445fb63b284e486ee396d74b19f"
+    },
+    {
+      "reference": "../motion-frame.md",
+      "bytes": 3358,
+      "sha256": "4db536c8f6f05e1201a0509ddc4d35437b1777d76417f6704ae71af0e250d70b"
+    },
+    {
+      "reference": "../video/page@012c0ad2ba16f165639035bb3ef3eef7.webm",
+      "bytes": 5473178,
+      "sha256": "1058b1cdac878c81054ed7c3ff7e106dbc536a09fa134c310ba1e50be12c1f19"
+    },
+    {
+      "reference": "../video/page@045ba785e442b2b158a2cb77f4d79806.webm",
+      "bytes": 3573033,
+      "sha256": "5e7d11ac587cce4a63ac2127b53973cac12aec6c6d733b4ede6394240268d4fa"
+    },
+    {
+      "reference": "../video/page@2afd7053d9d448fb772047788a91b227.webm",
+      "bytes": 2036051,
+      "sha256": "cbe5f483bc146a4bf05aa55f2ddf33a2e524a531a679a8c3228369bc33943d33"
+    },
+    {
+      "reference": "../video/page@b3d5e910eedadd6b72cd9f199b3a4ea2.webm",
+      "bytes": 2992494,
+      "sha256": "a446f0d00c7484f5ffc8b903e4e460c65e182c237c5d8bba0157b4c40f4f813b"
+    },
+    {
+      "reference": "README.md",
+      "bytes": 3207,
+      "sha256": "fca55e55276e8d2e832953f8ef95ba3a6129e7530b389fb75ddc67f9970a234f"
+    }
+  ],
+  "limitations": [
+    "Owner rendered acceptance pending",
+    "Packet rendering not checked in shared browser; runtime agent owns preview during acceptance work",
+    "HTTP 200 establishes local reachability only",
+    "Physical checks remain waived/not-run; no production timing or release acceptance"
+  ]
+}
