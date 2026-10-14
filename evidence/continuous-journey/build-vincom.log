@@ -1,0 +1,71 @@
+
+> midterm-mall-guide@0.1.0 build:vincom
+> cross-env MALL_ID=vincom-dong-khoi npm run build
+
+
+> midterm-mall-guide@0.1.0 build
+> node scripts/prepare-assets.mjs && astro check && astro build && node scripts/prepare-static-release.mjs
+
+Restored original license bytes in staging: BeVietnamPro-OFL.txt
+Restored original license bytes in staging: Manrope-OFL.txt
+{"mall":"vincom-dong-khoi","sha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","variants":[{"encoding":"identity","url":"/models/exterior.glb","bytes":4797176,"sha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","decodedSha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","roundtripExact":true},{"encoding":"br","url":"/models/exterior.glb.br","bytes":1199582,"sha256":"ebd671f8b7e275b152916c9cb39d66e7f247f05a63f293c842bc1aa1a2c98a42","decodedSha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","roundtripExact":true,"quality":5},{"encoding":"gzip","url":"/models/exterior.glb.gz","bytes":1400594,"sha256":"34e5c6b8d959412de1f57b05ae6ab530216ef4720c702704b94abf7df19a5206","decodedSha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","roundtripExact":true}]}
+20:25:04 [types] Generated 126ms
+20:25:04 [check] Getting diagnostics for Astro files in D:\Midterm\implementation\mall-visitor...
+[96mevidence/continuous-journey/initial-fallback-script.mjs[0m:[93m2[0m:[93m9[0m - [93mwarning[0m[90m ts(6133): [0m'readFile' is declared but its value is never read.
+
+[7m2[0m import {readFile,writeFile} from 'node:fs/promises';
+[7m [0m [93m        ~~~~~~~~[0m
+
+[96mevidence/continuous-journey/initial-matrix-script.mjs[0m:[93m2[0m:[93m25[0m - [93mwarning[0m[90m ts(6133): [0m'readFile' is declared but its value is never read.
+
+[7m2[0m import {mkdir,writeFile,readFile} from 'node:fs/promises';
+[7m [0m [93m                        ~~~~~~~~[0m
+
+Result (41 files): 
+- 0 errors
+- 0 warnings
+- 2 hints
+
+20:25:16 [types] Generated 79ms
+20:25:16 [build] output: "static"
+20:25:16 [build] mode: "static"
+20:25:16 [build] directory: D:\Midterm\implementation\mall-visitor\dist\vincom-dong-khoi\
+20:25:16 [build] Collecting build info...
+20:25:16 [build] ✓ Completed in 157ms.
+20:25:16 [build] Building static entrypoints...
+20:25:16 [vite] ✓ built in 303ms
+20:25:17 [WARN] [vite] [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+20:25:17 [vite] ✓ built in 463ms
+20:25:17 [build] Rearranging server assets...
+
+ generating static routes 
+20:25:17   ├─ /404.html (+23ms) 
+20:25:17   ├─ /vi/index.html (+30ms) 
+20:25:17   ├─ /vi/tang/B3/index.html (+11ms) 
+20:25:17   ├─ /vi/tang/B2/index.html (+10ms) 
+20:25:17   ├─ /vi/tang/B1/index.html (+8ms) 
+20:25:17   ├─ /vi/tang/L1/index.html (+8ms) 
+20:25:17   ├─ /vi/tang/M/index.html (+10ms) 
+20:25:17   ├─ /vi/tang/L2/index.html (+34ms) 
+20:25:17   ├─ /vi/tang/L3/index.html (+8ms) 
+20:25:17   ├─ /vi/404/index.html (+3ms) 
+20:25:17   ├─ /en/index.html (+8ms) 
+20:25:17   ├─ /en/floors/B3/index.html (+9ms) 
+20:25:17   ├─ /en/floors/B2/index.html (+9ms) 
+20:25:17   ├─ /en/floors/B1/index.html (+10ms) 
+20:25:17   ├─ /en/floors/L1/index.html (+6ms) 
+20:25:17   ├─ /en/floors/M/index.html (+6ms) 
+20:25:17   ├─ /en/floors/L2/index.html (+5ms) 
+20:25:17   ├─ /en/floors/L3/index.html (+9ms) 
+20:25:17   ├─ /en/404/index.html (+2ms) 
+20:25:17   ├─ /index.html (+25ms) 
+20:25:17 ✓ Completed in 368ms.
+
+20:25:17 [build] ✓ Completed in 1.21s.
+20:25:17 [build] 20 page(s) built in 1.39s
+20:25:17 [build] Complete!
+{"mall":"vincom-dong-khoi","fixture":false,"assetCount":47,"largestAsset":{"path":"dist\\vincom-dong-khoi\\models\\exterior.glb","bytes":4797176},"directoryApproval":"pending","siteOrigin":null,"releaseApproved":false}

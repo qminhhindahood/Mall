@@ -1,0 +1,412 @@
+[
+  {
+    "width": 1280,
+    "name": "hero",
+    "scrollY": 0,
+    "url": "http://localhost:4293/en",
+    "load": false,
+    "reveal": "0",
+    "travel": "0",
+    "stage": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 1600,
+      "top": 0,
+      "right": 1280,
+      "bottom": 1600,
+      "left": 0
+    },
+    "visual": {
+      "x": 463.53125,
+      "y": 120,
+      "width": 784.453125,
+      "height": 600,
+      "top": 120,
+      "right": 1247.984375,
+      "bottom": 720,
+      "left": 463.53125
+    },
+    "map": {
+      "x": 463.53125,
+      "y": 2120,
+      "width": 784.453125,
+      "height": 580,
+      "top": 2120,
+      "right": 1247.984375,
+      "bottom": 2700,
+      "left": 463.53125
+    },
+    "skip": true,
+    "focus": "scene-exterior"
+  },
+  {
+    "width": 1280,
+    "name": "fade",
+    "scrollY": 520,
+    "url": "http://localhost:4293/en?floor=L5&view=overview",
+    "load": false,
+    "reveal": "0.5384615384615384",
+    "travel": "0",
+    "stage": {
+      "x": 0,
+      "y": -520,
+      "width": 1280,
+      "height": 1600,
+      "top": -520,
+      "right": 1280,
+      "bottom": 1080,
+      "left": 0
+    },
+    "visual": {
+      "x": 463.53125,
+      "y": 120,
+      "width": 784.453125,
+      "height": 600,
+      "top": 120,
+      "right": 1247.984375,
+      "bottom": 720,
+      "left": 463.53125
+    },
+    "map": {
+      "x": 463.53125,
+      "y": 1600,
+      "width": 784.453125,
+      "height": 580,
+      "top": 1600,
+      "right": 1247.984375,
+      "bottom": 2180,
+      "left": 463.53125
+    },
+    "skip": true,
+    "focus": "scene-exterior"
+  },
+  {
+    "width": 1280,
+    "name": "stack",
+    "scrollY": 1050,
+    "url": "http://localhost:4293/en?floor=L5&view=overview",
+    "load": false,
+    "reveal": "1",
+    "travel": "0.20833333333333334",
+    "stage": {
+      "x": 0,
+      "y": -1050,
+      "width": 1280,
+      "height": 1600,
+      "top": -1050,
+      "right": 1280,
+      "bottom": 550,
+      "left": 0
+    },
+    "visual": {
+      "x": 463.53125,
+      "y": -50,
+      "width": 784.453125,
+      "height": 600,
+      "top": -50,
+      "right": 1247.984375,
+      "bottom": 550,
+      "left": 463.53125
+    },
+    "map": {
+      "x": 463.53125,
+      "y": 1070,
+      "width": 784.453125,
+      "height": 580,
+      "top": 1070,
+      "right": 1247.984375,
+      "bottom": 1650,
+      "left": 463.53125
+    },
+    "skip": true,
+    "focus": "scene-exterior"
+  },
+  {
+    "width": 1280,
+    "name": "travel",
+    "scrollY": 1700,
+    "url": "http://localhost:4293/en/floors/L5?floor=L5&view=map",
+    "load": true,
+    "reveal": "1",
+    "travel": "0.75",
+    "stage": {
+      "x": 0,
+      "y": -1700,
+      "width": 1280,
+      "height": 1600,
+      "top": -1700,
+      "right": 1280,
+      "bottom": -100,
+      "left": 0
+    },
+    "visual": {
+      "x": 463.53125,
+      "y": -700,
+      "width": 784.453125,
+      "height": 600,
+      "top": -700,
+      "right": 1247.984375,
+      "bottom": -100,
+      "left": 463.53125
+    },
+    "map": {
+      "x": 463.53125,
+      "y": 420,
+      "width": 784.453125,
+      "height": 580,
+      "top": 420,
+      "right": 1247.984375,
+      "bottom": 1000,
+      "left": 463.53125
+    },
+    "skip": true,
+    "focus": ""
+  },
+  {
+    "width": 1280,
+    "name": "map",
+    "scrollY": 2200,
+    "url": "http://localhost:4293/en/floors/L5?floor=L5&view=map",
+    "load": false,
+    "reveal": "1",
+    "travel": "1",
+    "stage": {
+      "x": 0,
+      "y": -2200,
+      "width": 1280,
+      "height": 1600,
+      "top": -2200,
+      "right": 1280,
+      "bottom": -600,
+      "left": 0
+    },
+    "visual": {
+      "x": 463.53125,
+      "y": -1200,
+      "width": 784.453125,
+      "height": 600,
+      "top": -1200,
+      "right": 1247.984375,
+      "bottom": -600,
+      "left": 463.53125
+    },
+    "map": {
+      "x": 463.53125,
+      "y": 120,
+      "width": 784.453125,
+      "height": 580,
+      "top": 120,
+      "right": 1247.984375,
+      "bottom": 700,
+      "left": 463.53125
+    },
+    "skip": true,
+    "focus": "scene-exterior"
+  },
+  {
+    "width": 390,
+    "name": "hero",
+    "scrollY": 0,
+    "url": "http://localhost:4293/en",
+    "load": false,
+    "reveal": "0.19877870944221646",
+    "travel": "0",
+    "stage": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 1586.046875,
+      "top": 0,
+      "right": 390,
+      "bottom": 1586.046875,
+      "left": 0
+    },
+    "visual": {
+      "x": 20,
+      "y": 505.75,
+      "width": 350,
+      "height": 405.109375,
+      "top": 505.75,
+      "right": 370,
+      "bottom": 910.859375,
+      "left": 20
+    },
+    "map": {
+      "x": 20,
+      "y": 2050.234375,
+      "width": 350,
+      "height": 253.1875,
+      "top": 2050.234375,
+      "right": 370,
+      "bottom": 2303.421875,
+      "left": 20
+    },
+    "skip": true,
+    "focus": "scene-exterior"
+  },
+  {
+    "width": 390,
+    "name": "fade",
+    "scrollY": 350,
+    "url": "http://localhost:4293/en?floor=L5&view=overview",
+    "load": false,
+    "reveal": "0.8367663142544658",
+    "travel": "0",
+    "stage": {
+      "x": 0,
+      "y": -350,
+      "width": 390,
+      "height": 1586.046875,
+      "top": -350,
+      "right": 390,
+      "bottom": 1236.046875,
+      "left": 0
+    },
+    "visual": {
+      "x": 20,
+      "y": 155.75,
+      "width": 350,
+      "height": 405.109375,
+      "top": 155.75,
+      "right": 370,
+      "bottom": 560.859375,
+      "left": 20
+    },
+    "map": {
+      "x": 20,
+      "y": 1700.234375,
+      "width": 350,
+      "height": 253.1875,
+      "top": 1700.234375,
+      "right": 370,
+      "bottom": 1953.421875,
+      "left": 20
+    },
+    "skip": true,
+    "focus": "scene-exterior"
+  },
+  {
+    "width": 390,
+    "name": "stack",
+    "scrollY": 950,
+    "url": "http://localhost:4293/en?floor=L5&view=overview",
+    "load": false,
+    "reveal": "1",
+    "travel": "0.174496644295302",
+    "stage": {
+      "x": 0,
+      "y": -950,
+      "width": 390,
+      "height": 1586.046875,
+      "top": -950,
+      "right": 390,
+      "bottom": 636.046875,
+      "left": 0
+    },
+    "visual": {
+      "x": 20,
+      "y": 116,
+      "width": 350,
+      "height": 405.109375,
+      "top": 116,
+      "right": 370,
+      "bottom": 521.109375,
+      "left": 20
+    },
+    "map": {
+      "x": 20,
+      "y": 1100.234375,
+      "width": 350,
+      "height": 253.1875,
+      "top": 1100.234375,
+      "right": 370,
+      "bottom": 1353.421875,
+      "left": 20
+    },
+    "skip": true,
+    "focus": "scene-exterior"
+  },
+  {
+    "width": 390,
+    "name": "travel",
+    "scrollY": 1900,
+    "url": "http://localhost:4293/en/floors/L5?floor=L5&view=map",
+    "load": true,
+    "reveal": "1",
+    "travel": "0.9714765100671141",
+    "stage": {
+      "x": 0,
+      "y": -1900,
+      "width": 390,
+      "height": 1586.046875,
+      "top": -1900,
+      "right": 390,
+      "bottom": -313.953125,
+      "left": 0
+    },
+    "visual": {
+      "x": 20,
+      "y": -719.0625,
+      "width": 350,
+      "height": 405.109375,
+      "top": -719.0625,
+      "right": 370,
+      "bottom": -313.953125,
+      "left": 20
+    },
+    "map": {
+      "x": 20,
+      "y": 150.234375,
+      "width": 350,
+      "height": 253.1875,
+      "top": 150.234375,
+      "right": 370,
+      "bottom": 403.421875,
+      "left": 20
+    },
+    "skip": true,
+    "focus": ""
+  },
+  {
+    "width": 390,
+    "name": "map",
+    "scrollY": 2250,
+    "url": "http://localhost:4293/en/floors/L5?floor=L5&view=map",
+    "load": false,
+    "reveal": "1",
+    "travel": "1",
+    "stage": {
+      "x": 0,
+      "y": -2250,
+      "width": 390,
+      "height": 1586.046875,
+      "top": -2250,
+      "right": 390,
+      "bottom": -663.953125,
+      "left": 0
+    },
+    "visual": {
+      "x": 20,
+      "y": -1069.0625,
+      "width": 350,
+      "height": 405.109375,
+      "top": -1069.0625,
+      "right": 370,
+      "bottom": -663.953125,
+      "left": 20
+    },
+    "map": {
+      "x": 20,
+      "y": 116,
+      "width": 350,
+      "height": 253.1875,
+      "top": 116,
+      "right": 370,
+      "bottom": 369.1875,
+      "left": 20
+    },
+    "skip": true,
+    "focus": "scene-exterior"
+  }
+]

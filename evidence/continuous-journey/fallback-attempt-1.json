@@ -1,0 +1,261 @@
+{
+  "browser": "149.0.7827.198",
+  "revision": "continuous-journey-2026-10-14-r1",
+  "runs": [
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "mode": "reduced-motion",
+      "checks": [
+        "Keyboard skip enters default map",
+        "Practical map receives keyboard focus",
+        "Floor selection remains usable",
+        "Locale retains selected floor",
+        "Discovery skip works with focus",
+        "Back restores map and locale",
+        "Reduced motion uses direct equivalent",
+        "Live reduced-motion change restores progressive reveal"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "mode": "no-javascript",
+      "checks": [
+        "NoJS all floor links",
+        "NoJS static SVG /vi/tang/L6",
+        "NoJS static SVG /vi/tang/L5",
+        "NoJS static SVG /vi/tang/L4",
+        "NoJS static SVG /vi/tang/L3",
+        "NoJS static SVG /vi/tang/L2",
+        "NoJS static SVG /vi/tang/L1",
+        "NoJS static SVG /vi/tang/B1",
+        "NoJS static SVG /vi/tang/B2",
+        "Unknown destination remains truthful404"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "mode": "import-fail",
+      "checks": [
+        "3D failure releases practical SVG guide",
+        "Keyboard skip enters default map",
+        "Practical map receives keyboard focus",
+        "Floor selection remains usable",
+        "Locale retains selected floor",
+        "Discovery skip works with focus",
+        "Back restores map and locale"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "mode": "context-loss",
+      "checks": [
+        "3D failure releases practical SVG guide",
+        "Keyboard skip enters default map",
+        "Practical map receives keyboard focus",
+        "Floor selection remains usable",
+        "Locale retains selected floor",
+        "Discovery skip works with focus",
+        "Back restores map and locale"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "mode": "reduced-motion",
+      "checks": [
+        "Keyboard skip enters default map",
+        "Practical map receives keyboard focus",
+        "Floor selection remains usable",
+        "Locale retains selected floor",
+        "Discovery skip works with focus",
+        "Back restores map and locale",
+        "Reduced motion uses direct equivalent"
+      ],
+      "failed": [
+        "Live reduced-motion change restores progressive reveal"
+      ]
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "mode": "no-javascript",
+      "checks": [
+        "NoJS all floor links",
+        "NoJS static SVG /en/floors/L6",
+        "NoJS static SVG /en/floors/L5",
+        "NoJS static SVG /en/floors/L4",
+        "NoJS static SVG /en/floors/L3",
+        "NoJS static SVG /en/floors/L2",
+        "NoJS static SVG /en/floors/L1",
+        "NoJS static SVG /en/floors/B1",
+        "NoJS static SVG /en/floors/B2",
+        "Unknown destination remains truthful404"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "mode": "import-fail",
+      "checks": [
+        "3D failure releases practical SVG guide",
+        "Keyboard skip enters default map",
+        "Practical map receives keyboard focus",
+        "Floor selection remains usable",
+        "Locale retains selected floor",
+        "Discovery skip works with focus",
+        "Back restores map and locale"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "mode": "context-loss",
+      "checks": [
+        "3D failure releases practical SVG guide",
+        "Keyboard skip enters default map",
+        "Practical map receives keyboard focus",
+        "Floor selection remains usable",
+        "Locale retains selected floor",
+        "Discovery skip works with focus",
+        "Back restores map and locale"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "mode": "reduced-motion",
+      "checks": [
+        "Keyboard skip enters default map",
+        "Practical map receives keyboard focus",
+        "Floor selection remains usable",
+        "Locale retains selected floor",
+        "Discovery skip works with focus",
+        "Back restores map and locale",
+        "Reduced motion uses direct equivalent",
+        "Live reduced-motion change restores progressive reveal"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "mode": "no-javascript",
+      "checks": [
+        "NoJS all floor links",
+        "NoJS static SVG /vi/tang/L3",
+        "NoJS static SVG /vi/tang/L2",
+        "NoJS static SVG /vi/tang/M",
+        "NoJS static SVG /vi/tang/L1",
+        "NoJS static SVG /vi/tang/B1",
+        "NoJS static SVG /vi/tang/B2",
+        "NoJS static SVG /vi/tang/B3",
+        "Unknown destination remains truthful404"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "mode": "import-fail",
+      "checks": [
+        "3D failure releases practical SVG guide",
+        "Keyboard skip enters default map",
+        "Practical map receives keyboard focus",
+        "Floor selection remains usable",
+        "Locale retains selected floor",
+        "Discovery skip works with focus",
+        "Back restores map and locale"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "mode": "context-loss",
+      "checks": [
+        "3D failure releases practical SVG guide",
+        "Keyboard skip enters default map",
+        "Practical map receives keyboard focus",
+        "Floor selection remains usable",
+        "Locale retains selected floor",
+        "Discovery skip works with focus",
+        "Back restores map and locale"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "mode": "reduced-motion",
+      "checks": [
+        "Keyboard skip enters default map",
+        "Practical map receives keyboard focus",
+        "Floor selection remains usable",
+        "Locale retains selected floor",
+        "Discovery skip works with focus",
+        "Back restores map and locale",
+        "Reduced motion uses direct equivalent",
+        "Live reduced-motion change restores progressive reveal"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "mode": "no-javascript",
+      "checks": [
+        "NoJS all floor links",
+        "NoJS static SVG /en/floors/L3",
+        "NoJS static SVG /en/floors/L2",
+        "NoJS static SVG /en/floors/M",
+        "NoJS static SVG /en/floors/L1",
+        "NoJS static SVG /en/floors/B1",
+        "NoJS static SVG /en/floors/B2",
+        "NoJS static SVG /en/floors/B3",
+        "Unknown destination remains truthful404"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "mode": "import-fail",
+      "checks": [
+        "3D failure releases practical SVG guide",
+        "Keyboard skip enters default map",
+        "Practical map receives keyboard focus",
+        "Floor selection remains usable",
+        "Locale retains selected floor",
+        "Discovery skip works with focus",
+        "Back restores map and locale"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "mode": "context-loss",
+      "checks": [
+        "3D failure releases practical SVG guide",
+        "Keyboard skip enters default map",
+        "Practical map receives keyboard focus",
+        "Floor selection remains usable",
+        "Locale retains selected floor",
+        "Discovery skip works with focus",
+        "Back restores map and locale"
+      ],
+      "failed": []
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "sourceCommit": "13a2083",
+  "revision": "continuous-journey-2026-10-14-r1",
+  "recordedAt": "2026-10-14T13:36:09.546Z",
+  "matrices": [
+    {
+      "name": "browser-results",
+      "cases": 8,
+      "checks": 316,
+      "failures": []
+    },
+    {
+      "name": "fallback-results",
+      "cases": 16,
+      "checks": 126,
+      "failures": []
+    },
+    {
+      "name": "fixture-results",
+      "cases": 8,
+      "checks": 264,
+      "failures": []
+    }
+  ],
+  "assets": [
+    {
+      "mall": "saigon-centre",
+      "exteriorRevision": "photo-polish-2026-10-12-delivery-r2",
+      "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+      "exteriorBytes": 2000796,
+      "exteriorSha256": "f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050",
+      "exteriorExact": true,
+      "sourceGeometrySha256": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807",
+      "builtGeometrySha256": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807",
+      "geometryExact": true,
+      "approval": "pending",
+      "reviewedAt": null,
+      "publicDestinations": 0,
+      "fixturesOutsideDeployment": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "exteriorRevision": "photo-polish-2026-10-12-delivery-r2",
+      "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+      "exteriorBytes": 4797176,
+      "exteriorSha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+      "exteriorExact": true,
+      "sourceGeometrySha256": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e",
+      "builtGeometrySha256": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e",
+      "geometryExact": true,
+      "approval": "pending",
+      "reviewedAt": null,
+      "publicDestinations": 0,
+      "fixturesOutsideDeployment": true
+    }
+  ],
+  "platform": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+    "viewport": {
+      "width": 1280,
+      "height": 800,
+      "dpr": 1
+    },
+    "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (AMD)",
+    "visibility": "visible"
+  }
+}
