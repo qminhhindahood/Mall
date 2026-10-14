@@ -1,0 +1,315 @@
+{
+  "recordedAt": "2026-10-14T13:56:16.546Z",
+  "revision": "final-revision-acceptance-2026-10-14-r1",
+  "sharedSource": "a5f72cf",
+  "testedApplication": "13a2083",
+  "environment": "T3 collaborative preview / localhost; actual page viewport differs from preview setting; no production/physical-device claim",
+  "focus": {
+    "saigon": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4213/en/floors/L2?floor=L2&view=map\"},\"value\":{\"focus\":\"scene-map\",\"frame\":\"45\",\"receipt\":{\"state\":\"passed\",\"value\":{\"focus\":\"scene-map\",\"frame\":\"45\",\"href\":\"http://localhost:4213/en/floors/L2?floor=L2&view=map\",\"pass\":true,\"visibility\":\"visible\"}},\"visibility\":\"visible\"}}"
+        }
+      ],
+      "structuredContent": {
+        "toolIcon": {
+          "_tag": "website",
+          "pageUrl": "http://localhost:4213/en/floors/L2?floor=L2&view=map"
+        },
+        "value": {
+          "focus": "scene-map",
+          "frame": "45",
+          "receipt": {
+            "state": "passed",
+            "value": {
+              "focus": "scene-map",
+              "frame": "45",
+              "href": "http://localhost:4213/en/floors/L2?floor=L2&view=map",
+              "pass": true,
+              "visibility": "visible"
+            }
+          },
+          "visibility": "visible"
+        }
+      },
+      "isError": false
+    },
+    "vincom": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4214/en/floors/L2?floor=L2&view=map\"},\"value\":{\"focus\":\"scene-map\",\"frame\":\"58\",\"receipt\":{\"state\":\"passed\",\"value\":{\"focus\":\"scene-map\",\"frame\":\"58\",\"href\":\"http://localhost:4214/en/floors/L2?floor=L2&view=map\",\"pass\":true,\"visibility\":\"visible\"}},\"visibility\":\"visible\"}}"
+        }
+      ],
+      "structuredContent": {
+        "toolIcon": {
+          "_tag": "website",
+          "pageUrl": "http://localhost:4214/en/floors/L2?floor=L2&view=map"
+        },
+        "value": {
+          "focus": "scene-map",
+          "frame": "58",
+          "receipt": {
+            "state": "passed",
+            "value": {
+              "focus": "scene-map",
+              "frame": "58",
+              "href": "http://localhost:4214/en/floors/L2?floor=L2&view=map",
+              "pass": true,
+              "visibility": "visible"
+            }
+          },
+          "visibility": "visible"
+        }
+      },
+      "isError": false
+    }
+  },
+  "loading": {
+    "saigon": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4213/en?floor=L3&view=discovery\"},\"value\":{\"currentVisibility\":\"hidden\",\"sample\":{\"canvas\":\"58\",\"earlyAlreadyPrepared\":true,\"entry\":[{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"attempt\":0,\"completeFrame\":\"37\",\"floorId\":\"L5\",\"kind\":\"exterior\",\"locale\":\"en\",\"mallId\":\"saigon-centre\",\"operation\":\"navigation-to-frame\",\"outcome\":\"ready\"},\"duration\":9000.79999999702,\"entryType\":\"measure\",\"name\":\"mall-loading:navigation-to-frame:2\",\"navigationId\":2594,\"startTime\":0},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"attempt\":0,\"completeFrame\":\"37\",\"floorId\":\"L5\",\"kind\":\"exterior\",\"locale\":\"en\",\"mallId\":\"saigon-centre\",\"operation\":\"entry-to-frame\",\"outcome\":\"ready\"},\"duration\":8589.10000000894,\"entryType\":\"measure\",\"name\":\"mall-loading:entry-to-frame:1\",\"navigationId\":2594,\"startTime\":411.69999998807907}],\"measures\":[{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"attempt\":0,\"completeFrame\":\"37\",\"floorId\":\"L5\",\"kind\":\"exterior\",\"locale\":\"en\",\"mallId\":\"saigon-centre\",\"operation\":\"navigation-to-frame\",\"outcome\":\"ready\"},\"duration\":9000.79999999702,\"entryType\":\"measure\",\"name\":\"mall-loading:navigation-to-frame:2\",\"navigationId\":2594,\"startTime\":0},{\"detail\":{\"assetRevision\":\"photo-polish-2026-10-12-delivery-r2\",\"attempt\":0,\"completeFrame\":\"37\",\"floorId\":\"L5\",\"kind\":\"exterior\",\"locale\":\"en\",\"mallId\":\"saigon-centre\",\"operation\":\"entry-to-frame\",\"outcome\":\"ready\"},\"duration\":8589.10000000894,\"entryType\":\"measure\",\"name\":\"mall-loading:entry-to-frame:1\",\"navigationId\":2594,\"startTime\":411.69999998807907}],\"profile\":{\"dpr\":1.75,\"hardwareConcurrency\":16,\"platform\":\"Win32\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36\",\"viewport\":[1402,877],\"visibility\":\"visible\"},\"ready\":true},\"state\":\"passed\",\"visibilityLog\":[{\"state\":\"visible\",\"time\":32934.89999999106},{\"state\":\"visible\",\"time\":35645.59999999404},{\"state\":\"hidden\",\"time\":35646},{\"state\":\"hidden\",\"time\":66572.5}]}}"
+        }
+      ],
+      "structuredContent": {
+        "toolIcon": {
+          "_tag": "website",
+          "pageUrl": "http://localhost:4213/en?floor=L3&view=discovery"
+        },
+        "value": {
+          "currentVisibility": "hidden",
+          "sample": {
+            "canvas": "58",
+            "earlyAlreadyPrepared": true,
+            "entry": [
+              {
+                "detail": {
+                  "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                  "attempt": 0,
+                  "completeFrame": "37",
+                  "floorId": "L5",
+                  "kind": "exterior",
+                  "locale": "en",
+                  "mallId": "saigon-centre",
+                  "operation": "navigation-to-frame",
+                  "outcome": "ready"
+                },
+                "duration": 9000.79999999702,
+                "entryType": "measure",
+                "name": "mall-loading:navigation-to-frame:2",
+                "navigationId": 2594,
+                "startTime": 0
+              },
+              {
+                "detail": {
+                  "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                  "attempt": 0,
+                  "completeFrame": "37",
+                  "floorId": "L5",
+                  "kind": "exterior",
+                  "locale": "en",
+                  "mallId": "saigon-centre",
+                  "operation": "entry-to-frame",
+                  "outcome": "ready"
+                },
+                "duration": 8589.10000000894,
+                "entryType": "measure",
+                "name": "mall-loading:entry-to-frame:1",
+                "navigationId": 2594,
+                "startTime": 411.69999998807907
+              }
+            ],
+            "measures": [
+              {
+                "detail": {
+                  "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                  "attempt": 0,
+                  "completeFrame": "37",
+                  "floorId": "L5",
+                  "kind": "exterior",
+                  "locale": "en",
+                  "mallId": "saigon-centre",
+                  "operation": "navigation-to-frame",
+                  "outcome": "ready"
+                },
+                "duration": 9000.79999999702,
+                "entryType": "measure",
+                "name": "mall-loading:navigation-to-frame:2",
+                "navigationId": 2594,
+                "startTime": 0
+              },
+              {
+                "detail": {
+                  "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+                  "attempt": 0,
+                  "completeFrame": "37",
+                  "floorId": "L5",
+                  "kind": "exterior",
+                  "locale": "en",
+                  "mallId": "saigon-centre",
+                  "operation": "entry-to-frame",
+                  "outcome": "ready"
+                },
+                "duration": 8589.10000000894,
+                "entryType": "measure",
+                "name": "mall-loading:entry-to-frame:1",
+                "navigationId": 2594,
+                "startTime": 411.69999998807907
+              }
+            ],
+            "profile": {
+              "dpr": 1.75,
+              "hardwareConcurrency": 16,
+              "platform": "Win32",
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+              "viewport": [
+                1402,
+                877
+              ],
+              "visibility": "visible"
+            },
+            "ready": true
+          },
+          "state": "passed",
+          "visibilityLog": [
+            {
+              "state": "visible",
+              "time": 32934.89999999106
+            },
+            {
+              "state": "visible",
+              "time": 35645.59999999404
+            },
+            {
+              "state": "hidden",
+              "time": 35646
+            },
+            {
+              "state": "hidden",
+              "time": 66572.5
+            }
+          ]
+        }
+      },
+      "isError": false
+    },
+    "saigonRequests": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4213/en?floor=L3&view=discovery\"},\"value\":{\"currentVisibility\":\"hidden\",\"profile\":{\"dpr\":1.75,\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36\",\"viewport\":[1402,877]},\"requestMeasures\":[{\"detail\":{\"attempt\":0,\"floorId\":\"L3\",\"kind\":\"map\",\"locale\":\"en\",\"mallId\":\"saigon-centre\",\"operation\":\"request-to-frame\",\"outcome\":\"ready\"},\"duration\":166.29999999701977,\"startTime\":32936},{\"detail\":{\"attempt\":0,\"floorId\":\"L3\",\"kind\":\"discovery\",\"locale\":\"en\",\"mallId\":\"saigon-centre\",\"operation\":\"request-to-frame\",\"outcome\":\"ready\"},\"duration\":261.29999999701977,\"startTime\":33256.29999999702}],\"visibilityLog\":[{\"state\":\"visible\",\"time\":32934.89999999106},{\"state\":\"visible\",\"time\":35645.59999999404},{\"state\":\"hidden\",\"time\":35646},{\"state\":\"hidden\",\"time\":66572.5},{\"state\":\"hidden\",\"time\":67222.09999999404},{\"state\":\"hidden\",\"time\":80901.09999999404}]}}"
+        }
+      ],
+      "structuredContent": {
+        "toolIcon": {
+          "_tag": "website",
+          "pageUrl": "http://localhost:4213/en?floor=L3&view=discovery"
+        },
+        "value": {
+          "currentVisibility": "hidden",
+          "profile": {
+            "dpr": 1.75,
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+            "viewport": [
+              1402,
+              877
+            ]
+          },
+          "requestMeasures": [
+            {
+              "detail": {
+                "attempt": 0,
+                "floorId": "L3",
+                "kind": "map",
+                "locale": "en",
+                "mallId": "saigon-centre",
+                "operation": "request-to-frame",
+                "outcome": "ready"
+              },
+              "duration": 166.29999999701977,
+              "startTime": 32936
+            },
+            {
+              "detail": {
+                "attempt": 0,
+                "floorId": "L3",
+                "kind": "discovery",
+                "locale": "en",
+                "mallId": "saigon-centre",
+                "operation": "request-to-frame",
+                "outcome": "ready"
+              },
+              "duration": 261.29999999701977,
+              "startTime": 33256.29999999702
+            }
+          ],
+          "visibilityLog": [
+            {
+              "state": "visible",
+              "time": 32934.89999999106
+            },
+            {
+              "state": "visible",
+              "time": 35645.59999999404
+            },
+            {
+              "state": "hidden",
+              "time": 35646
+            },
+            {
+              "state": "hidden",
+              "time": 66572.5
+            },
+            {
+              "state": "hidden",
+              "time": 67222.09999999404
+            },
+            {
+              "state": "hidden",
+              "time": 80901.09999999404
+            }
+          ]
+        }
+      },
+      "isError": false
+    },
+    "vincom": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4214/en/floors/L2?floor=L2&view=map\"},\"value\":{\"currentVisibility\":\"hidden\",\"error\":\"Error: Preview must be visible\",\"sample\":null,\"state\":\"failed\",\"visibilityLog\":[{\"state\":\"hidden\",\"time\":276549.39999999106}]}}"
+        }
+      ],
+      "structuredContent": {
+        "toolIcon": {
+          "_tag": "website",
+          "pageUrl": "http://localhost:4214/en/floors/L2?floor=L2&view=map"
+        },
+        "value": {
+          "currentVisibility": "hidden",
+          "error": "Error: Preview must be visible",
+          "sample": null,
+          "state": "failed",
+          "visibilityLog": [
+            {
+              "state": "hidden",
+              "time": 276549.39999999106
+            }
+          ]
+        }
+      },
+      "isError": false
+    }
+  },
+  "limitations": [
+    "Initial timings excluded: foreground visibility not continuously established from navigation start.",
+    "Saigon later navigation begins with prepared L3; not an unfinished/early later request.",
+    "Vincom measurement rejected by existing visible-preview guard.",
+    "Snapshot retried in both tabs and failed; stable final shared-preview acceptance remains open.",
+    "Earlier helper used obsolete .views links: selector failure is provisional; updated current public route links pass focus checks.",
+    "Native background-tab pause/return not verified; observed visibility transitions alone do not establish it."
+  ]
+}

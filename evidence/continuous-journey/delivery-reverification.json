@@ -1,0 +1,50 @@
+{
+  "recordedAt": "2026-10-14T13:59:02.338Z",
+  "sharedHead": "a5f72cf47bfe1b74dd44df9babe56100bb8cd524",
+  "testedSource": "13a2083",
+  "deliveries": [
+    {
+      "branch": "vincom-dong-khoi",
+      "head": "7dd49808bbc83a88163cbb0a2275e4e414d6c4bc",
+      "implementationCommit": "fa12c2dac649b4ab9d13c65ff63e5ad8e6c79853",
+      "verifiedFiles": 137,
+      "mismatches": [],
+      "outsideAppChangedSinceDeliveryParent": []
+    },
+    {
+      "branch": "takashimaya",
+      "head": "ba85380aa97db50875fd3e3e5ab5004b20ff89f7",
+      "implementationCommit": "c87b63c17d9d4272893222d6c8320a930bb95964",
+      "verifiedFiles": 137,
+      "mismatches": [],
+      "outsideAppChangedSinceDeliveryParent": []
+    }
+  ],
+  "matrices": [
+    {
+      "name": "browser-results",
+      "cases": 8,
+      "checks": 316,
+      "failures": []
+    },
+    {
+      "name": "fallback-results",
+      "cases": 16,
+      "checks": 126,
+      "failures": []
+    },
+    {
+      "name": "fixture-results",
+      "cases": 8,
+      "checks": 264,
+      "failures": []
+    }
+  ],
+  "applicationChangesAfterTestedSource": "",
+  "gallery": {
+    "localLinks": 91,
+    "recordings": 4,
+    "missingLinks": []
+  },
+  "pass": true
+}
