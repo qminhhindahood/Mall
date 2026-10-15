@@ -1,0 +1,35 @@
+{
+  "revision": "directory-preparation-final-2026-10-15-r1",
+  "preparationStatus": "delivered",
+  "publicationStatus": "pending; no approval inferred",
+  "sourceSha256": "4a1b8f2661571fff117e548afa8820f88beaa62f90348e5f7bdda6181115b0c5",
+  "sourceRows": 383,
+  "sourceRowsByMall": {
+    "saigon-centre": 166,
+    "vincom-dong-khoi": 217
+  },
+  "pendingActiveOccurrences": 377,
+  "excludedOccurrences": 6,
+  "excludedNames": [
+    "Boost Juice",
+    "Phúc Long",
+    "Cocolux",
+    "CK Jeans (Calvin Klein Jeans)",
+    "Letitia",
+    "HLA"
+  ],
+  "unknownUnitOccurrences": 50,
+  "sharedUnitGroups": 8,
+  "legacyJsonDifferenceRows": 57,
+  "rowsWithOriginalLineField": 75,
+  "publicHashes": {
+    "saigon-centre": "36426de132ca81b552b51ed08982b2c8d69d5f11932d2c70663be347a6a9d32c",
+    "vincom-dong-khoi": "655b60fc93a992c31c3d676cdd00f1baa3fd5892ca7ab648a5cd3cb5d0fcf80f"
+  },
+  "limits": [
+    "rebuilt IDs/metadata preserved; original source lineage not assumed",
+    "unit ranges/aliases may overlap beyond equal normalized strings",
+    "research statements are owner-supplied, not independently verified",
+    "source communication dates are not editorial approval dates"
+  ]
+}
