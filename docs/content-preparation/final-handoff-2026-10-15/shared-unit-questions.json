@@ -1,77 +1,86 @@
-[
-  {
-    "mall": "saigon-centre",
-    "normalizedUnit": "B2-K5",
-    "destinations": [
-      "Irvins",
-      "llaollao"
-    ]
+{
+  "revision": "shared-unit-review-after-owner-update-2026-10-15",
+  "ownerConfirmed": {
+    "conflictingAssignments": 0,
+    "legitimateSharedUnitCount": 2,
+    "names": "intentionally not recorded per owner instruction"
   },
-  {
-    "mall": "saigon-centre",
-    "normalizedUnit": "L1-10",
-    "destinations": [
-      "CARTIER",
-      "GRAND SEIKO",
-      "HUBLOT",
-      "The Hour Glass",
-      "TUDOR",
-      "ZENITH"
-    ]
-  },
-  {
-    "mall": "saigon-centre",
-    "normalizedUnit": "L2-17",
-    "destinations": [
-      "Label Lab",
-      "Moschino"
-    ]
-  },
-  {
-    "mall": "saigon-centre",
-    "normalizedUnit": "L5-09",
-    "destinations": [
-      "Asanoha",
-      "Botejyu Okonomiyaki",
-      "Oedo Alley",
-      "Ramen Ichibanken",
-      "Sundubu"
-    ]
-  },
-  {
-    "mall": "saigon-centre",
-    "normalizedUnit": "L5-08",
-    "destinations": [
-      "Asian Corner",
-      "GoGi House",
-      "Kichi - Kichi",
-      "Lách Ca Lách Cách",
-      "Manwah - Taiwanese Hot Pot"
-    ]
-  },
-  {
-    "mall": "vincom-dong-khoi",
-    "normalizedUnit": "B3-20",
-    "destinations": [
-      "Boat Noodle",
-      "BKK Street Dessert"
-    ]
-  },
-  {
-    "mall": "vincom-dong-khoi",
-    "normalizedUnit": "B1-28B-C",
-    "destinations": [
-      "Marhen.J",
-      "Puma",
-      "Ceci"
-    ]
-  },
-  {
-    "mall": "vincom-dong-khoi",
-    "normalizedUnit": "M-04-05",
-    "destinations": [
-      "The Kooples",
-      "Polo Ralph Lauren"
-    ]
-  }
-]
+  "resolutionOfPreviousAutomatedFlags": "Six resolved. Two are legitimate shared units. The old eight-group list below is retained only as historical extraction evidence; do not treat it as an open conflict queue.",
+  "previouslyListedGroups": [
+    {
+      "mall": "saigon-centre",
+      "normalizedUnit": "B2-K5",
+      "destinations": [
+        "Irvins",
+        "llaollao"
+      ]
+    },
+    {
+      "mall": "saigon-centre",
+      "normalizedUnit": "L1-10",
+      "destinations": [
+        "CARTIER",
+        "GRAND SEIKO",
+        "HUBLOT",
+        "The Hour Glass",
+        "TUDOR",
+        "ZENITH"
+      ]
+    },
+    {
+      "mall": "saigon-centre",
+      "normalizedUnit": "L2-17",
+      "destinations": [
+        "Label Lab",
+        "Moschino"
+      ]
+    },
+    {
+      "mall": "saigon-centre",
+      "normalizedUnit": "L5-09",
+      "destinations": [
+        "Asanoha",
+        "Botejyu Okonomiyaki",
+        "Oedo Alley",
+        "Ramen Ichibanken",
+        "Sundubu"
+      ]
+    },
+    {
+      "mall": "saigon-centre",
+      "normalizedUnit": "L5-08",
+      "destinations": [
+        "Asian Corner",
+        "GoGi House",
+        "Kichi - Kichi",
+        "Lách Ca Lách Cách",
+        "Manwah - Taiwanese Hot Pot"
+      ]
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "normalizedUnit": "B3-20",
+      "destinations": [
+        "Boat Noodle",
+        "BKK Street Dessert"
+      ]
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "normalizedUnit": "B1-28B-C",
+      "destinations": [
+        "Marhen.J",
+        "Puma",
+        "Ceci"
+      ]
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "normalizedUnit": "M-04-05",
+      "destinations": [
+        "The Kooples",
+        "Polo Ralph Lauren"
+      ]
+    }
+  ]
+}

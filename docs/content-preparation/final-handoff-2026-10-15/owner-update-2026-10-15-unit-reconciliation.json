@@ -1,0 +1,43 @@
+{
+  "revision": "owner-update-2026-10-15-unit-reconciliation",
+  "recordedAt": "2026-10-15",
+  "basis": "Owner statement in conversation; raw owner CSV preserved unchanged as revision r1 input.",
+  "sourceSha256": "4a1b8f2661571fff117e548afa8820f88beaa62f90348e5f7bdda6181115b0c5",
+  "decisions": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "name": "The Kooples",
+      "sourceRef": "REBUILT-vincom-dong-khoi-vd-x-068",
+      "clearedUnit": "M-04-05",
+      "assignedTo": "Polo Ralph Lauren",
+      "assignedUnit": "M-04,05",
+      "evidence": "Owner reports ACFC official locator; not independently checked in this handoff.",
+      "currentStatus": "pending",
+      "currentUnit": null
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "name": "Weekend Max Mara",
+      "sourceRef": "REBUILT-vincom-dong-khoi-vd-x-073",
+      "clearedUnit": "M-31-32",
+      "assignedTo": "Karl Lagerfeld",
+      "assignedUnit": "M31+32",
+      "evidence": "Owner reports ACFC official source; not independently checked in this handoff.",
+      "currentStatus": "pending",
+      "currentUnit": null
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "name": "Giordano / Vincy",
+      "decision": "Not a collision. Giordano retains B2-55-56; Vincy has no unit claim.",
+      "currentStatus": "resolved"
+    }
+  ],
+  "sharedUnitSummary": {
+    "conflictingAssignments": 0,
+    "legitimateSharedUnitCount": 2,
+    "identifiedByOwner": false,
+    "priorEightGroups": "Six resolved; two legitimate shared units intentionally unnamed per owner instruction."
+  },
+  "locationQueueEffect": "The original 50-row parked-locations.csv is preserved as confirmed by the owner. The two cleared claims are recorded separately; their current tenant status and precise locations are pending, not inferred."
+}

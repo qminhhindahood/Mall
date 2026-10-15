@@ -1,5 +1,5 @@
 {
-  "revision": "directory-preparation-final-2026-10-15-r1",
+  "revision": "directory-preparation-final-2026-10-15-r2",
   "format": "offline-owner-handoff; not DirectorySnapshot",
   "approval": "pending",
   "reviewedAt": null,
@@ -13294,8 +13294,8 @@
       "mallId": "vincom-dong-khoi",
       "name": "The Kooples",
       "ownerFloor": "M",
-      "ownerUnitClaim": "M-04-05",
-      "ownerDecision": "r3 (2026-10-14): floor/unit kept from the authoritative markdown; site JSON verified against markdowns (Vincom 217/217, Saigon 166/166 floors agree). [REBUILT 2026-10-15 — original row wording lost; see all-record-map-comparison-REBUILD-NOTES.md]",
+      "ownerUnitClaim": null,
+      "ownerDecision": "Unit claim cleared by owner 2026-10-15; M-04-05 belongs to Polo Ralph Lauren per ACFC official locator. Current Kooples unit/status not established.",
       "rawSource": {
         "candidate_ref": "REBUILT-vincom-dong-khoi-vd-x-068",
         "mall": "vincom-dong-khoi",
@@ -13323,7 +13323,8 @@
       },
       "status": null,
       "primaryFloor": null,
-      "editorialHighlights": []
+      "editorialHighlights": [],
+      "ownerAmendmentRef": "owner-update-2026-10-15-unit-reconciliation"
     },
     {
       "sourceRef": "REBUILT-vincom-dong-khoi-vd-x-069",
@@ -13479,8 +13480,8 @@
       "mallId": "vincom-dong-khoi",
       "name": "Weekend Max Mara",
       "ownerFloor": "M",
-      "ownerUnitClaim": "M-31-32",
-      "ownerDecision": "r3 (2026-10-14): floor/unit kept from the authoritative markdown; site JSON verified against markdowns (Vincom 217/217, Saigon 166/166 floors agree). [REBUILT 2026-10-15 — original row wording lost; see all-record-map-comparison-REBUILD-NOTES.md]",
+      "ownerUnitClaim": null,
+      "ownerDecision": "Unit claim cleared by owner 2026-10-15; M-31-32 belongs to Karl Lagerfeld per ACFC official source. Current Weekend Max Mara unit/status not established.",
       "rawSource": {
         "candidate_ref": "REBUILT-vincom-dong-khoi-vd-x-073",
         "mall": "vincom-dong-khoi",
@@ -13508,7 +13509,8 @@
       },
       "status": null,
       "primaryFloor": null,
-      "editorialHighlights": []
+      "editorialHighlights": [],
+      "ownerAmendmentRef": "owner-update-2026-10-15-unit-reconciliation"
     },
     {
       "sourceRef": "REBUILT-vincom-dong-khoi-vd-x-074",
@@ -14176,5 +14178,6 @@
       "primaryFloor": null,
       "editorialHighlights": []
     }
-  ]
+  ],
+  "ownerAmendments": "owner-update-2026-10-15-unit-reconciliation.json"
 }

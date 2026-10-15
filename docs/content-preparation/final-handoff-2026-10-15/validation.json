@@ -1,5 +1,5 @@
 {
-  "revision": "directory-preparation-final-2026-10-15-r1",
+  "revision": "directory-preparation-final-2026-10-15-r2",
   "preparationStatus": "delivered",
   "publicationStatus": "pending; no approval inferred",
   "sourceSha256": "4a1b8f2661571fff117e548afa8820f88beaa62f90348e5f7bdda6181115b0c5",
@@ -18,8 +18,8 @@
     "Letitia",
     "HLA"
   ],
-  "unknownUnitOccurrences": 50,
-  "sharedUnitGroups": 8,
+  "unknownUnitOccurrences": 52,
+  "sharedUnitGroups": 0,
   "legacyJsonDifferenceRows": 57,
   "rowsWithOriginalLineField": 75,
   "publicHashes": {
@@ -28,8 +28,17 @@
   },
   "limits": [
     "rebuilt IDs/metadata preserved; original source lineage not assumed",
-    "unit ranges/aliases may overlap beyond equal normalized strings",
     "research statements are owner-supplied, not independently verified",
-    "source communication dates are not editorial approval dates"
-  ]
+    "source communication dates are not editorial approval dates",
+    "post-commit owner unit corrections are recorded separately from the unchanged raw CSV; no independent source check performed"
+  ],
+  "ownerAmendmentRef": "owner-update-2026-10-15-unit-reconciliation.json",
+  "conflictingUnitAssignments": 0,
+  "legitimateSharedUnitCount": 2,
+  "legitimateSharedUnitNamesRecorded": false,
+  "previouslyParkedVincomRows": 50,
+  "newlyClearedUnitClaims": 2,
+  "currentPreciseLocationOrStatusFollowupRows": 2,
+  "priorAutomatedSharedUnitCandidatesRetainedForHistory": 8,
+  "parkedLocationsFileRows": 50
 }
