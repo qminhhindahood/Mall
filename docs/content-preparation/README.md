@@ -1,5 +1,7 @@
 # Bilingual directory preparation — both malls
 
+**Latest owner input: [15 October update](owner-update-2026-10-15/README.md).** The updated CSV supplies floor decisions for all 383 occurrences, superseding the previous 67 missing Vincom floors; the accompanying JSON covers 217 Vincom stores. Adidas Original / Home of Sport is B2 by explicit owner decision and both files now agree. Unknown precise locations remain parked for in-person evidence; Highlights remain deferred. Earlier preparation packets below are retained as historical evidence, not current missing-floor status.
+
 Preparation revision: **directory-preparation-2026-10-14-r1**. Prepared 14 October 2026; this is a workflow delivery date, **not an editorial review date**. All records remain pending outside `data/malls/` and `public/`. No current tenant, floor, unit, approval or Highlight is established by this delivery.
 
 Authority: [issue 0016](../../../../docs/issues/0016-visitor-discovery-integration.md), [canonical visitor specification](../../../../docs/superpowers/specs/2026-10-11-mall-visitor-experience-spec.md), [existing import contract](../directory-import.md), and [build validator](../../src/data/content.ts). The `takashimaya` site covers the whole Saigon Centre mall, including independent department-store brands/counters and surrounding retail tenants.

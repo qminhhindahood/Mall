@@ -1,0 +1,56 @@
+{
+  "revision": "directory-owner-update-2026-10-15-r1",
+  "receivedOn": "2026-10-15",
+  "editorialReviewedAt": null,
+  "sourceHashes": {
+    "csvReceived": "7d3ee16c74147133df33a6470668a7775317204959a95a5454006f4313650563",
+    "csvCorrected": "7319c17d3aa32d65f8f11bd5c4ea955090276eeda459ae13cee361c5860863c8",
+    "vincomJson": "499615ae83041c9bd12523525cc6bdd803e2d1bc94868688db20f56ac8c27a41"
+  },
+  "records": 383,
+  "ownerFloorDecisions": 383,
+  "vincomJsonStores": 217,
+  "jsonMissingUnits": 70,
+  "locationQueueRows": 75,
+  "unknownToOwnerRows": [
+    "saigon-centre-source-line-143",
+    "vincom-dong-khoi-source-line-42",
+    "vincom-dong-khoi-source-line-107",
+    "vincom-dong-khoi-source-line-109"
+  ],
+  "csvCorrection": {
+    "candidateRef": "vincom-dong-khoi-source-line-110",
+    "floor": "B2",
+    "unit": "unresolved",
+    "authority": "explicit owner message 2026-10-15"
+  },
+  "jsonFloorCompatibility": "PASS; each JSON floor belongs to matching CSV owner floor set",
+  "inputMetadataLimits": [
+    "JSON version v0-draft and generated 2026-10-12 retained as supplied, not approval",
+    "meta.needsFloorVerification=84 is stale; actual stores all have floors",
+    "JSON highlights is descriptive prose; editorial Highlights remain empty",
+    "keyword categories/cuisine remain suggestions, not reviewed taxonomy",
+    "source URLs/research claims in owner prose were not independently rechecked"
+  ],
+  "actualCategoryCounts": {
+    "supermarket": 1,
+    "restaurant": 53,
+    "cafe": 12,
+    "other": 12,
+    "entertainment": 2,
+    "fashion": 100,
+    "services": 4,
+    "beauty": 31,
+    "electronics": 2
+  },
+  "publicSnapshotHashes": {
+    "saigon-centre": "36426de132ca81b552b51ed08982b2c8d69d5f11932d2c70663be347a6a9d32c",
+    "vincom-dong-khoi": "655b60fc93a992c31c3d676cdd00f1baa3fd5892ca7ab648a5cd3cb5d0fcf80f"
+  },
+  "checks": [
+    "383 unique source refs and immutable source columns match baseline",
+    "217 JSON stores align by sequence plus checked names; CK Jeans alias retained",
+    "all owner floors valid and nonempty; JSON floors compatible after explicit Adidas correction",
+    "pending language/status/taxonomy approvals preserved; no area IDs or editorial Highlights"
+  ]
+}
