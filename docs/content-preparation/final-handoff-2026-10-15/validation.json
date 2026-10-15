@@ -1,5 +1,5 @@
 {
-  "revision": "directory-preparation-final-2026-10-15-r2",
+  "revision": "directory-preparation-final-2026-10-15-r3",
   "preparationStatus": "delivered",
   "publicationStatus": "pending; no approval inferred",
   "sourceSha256": "4a1b8f2661571fff117e548afa8820f88beaa62f90348e5f7bdda6181115b0c5",
@@ -19,7 +19,7 @@
     "HLA"
   ],
   "unknownUnitOccurrences": 52,
-  "sharedUnitGroups": 0,
+  "sharedUnitGroups": 5,
   "legacyJsonDifferenceRows": 57,
   "rowsWithOriginalLineField": 75,
   "publicHashes": {
@@ -30,15 +30,43 @@
     "rebuilt IDs/metadata preserved; original source lineage not assumed",
     "research statements are owner-supplied, not independently verified",
     "source communication dates are not editorial approval dates",
-    "post-commit owner unit corrections are recorded separately from the unchanged raw CSV; no independent source check performed"
+    "post-commit owner unit corrections are recorded separately from the unchanged raw CSV; no independent source check performed",
+    "shared-unit classifications, taxonomy/facility counts and research status are owner-reported; no independent verification"
   ],
   "ownerAmendmentRef": "owner-update-2026-10-15-unit-reconciliation.json",
   "conflictingUnitAssignments": 0,
-  "legitimateSharedUnitCount": 2,
-  "legitimateSharedUnitNamesRecorded": false,
+  "legitimateSharedUnitCount": 5,
+  "legitimateSharedUnitNamesRecorded": true,
   "previouslyParkedVincomRows": 50,
   "newlyClearedUnitClaims": 2,
   "currentPreciseLocationOrStatusFollowupRows": 2,
   "priorAutomatedSharedUnitCandidatesRetainedForHistory": 8,
-  "parkedLocationsFileRows": 50
+  "parkedLocationsFileRows": 50,
+  "sharedAssessmentRef": "shared-unit-questions.json",
+  "unresolvedGroundTruthSharedGroups": 2,
+  "locationResearchStatus": "owner reports second research round in progress; no findings incorporated",
+  "taxonomyDecisionNeeded": true,
+  "reportedExistingCategoryCount": 9,
+  "reportedProposedCategoryCount": 11,
+  "reportedMissingCategoryLabels": [
+    "Bakeries",
+    "Accessories",
+    "Kids",
+    "Desserts"
+  ],
+  "reportedOtherCategoryRows": 26,
+  "facilityRosterSupplied": false,
+  "bilingualApprovalLedgerSupplied": false,
+  "ownerAssessmentSourceSha256": "13785735e7e48f0853703f727d4aeb2c57908a421017bcd08a6a7c2d04b29b68",
+  "publicSnapshotsChanged": false,
+  "taxonomyCountNeedsReconciliation": true,
+  "reportedCurrentHighlightsLanguage": "Vietnamese-only per owner",
+  "reportedLanguageApprovalLedgerSupplied": false,
+  "researchAvenuesInProgress": [
+    "Google Maps listings",
+    "newer floor maps",
+    "food-delivery merchant pages",
+    "review sites",
+    "Vietnamese unit-pattern queries"
+  ]
 }

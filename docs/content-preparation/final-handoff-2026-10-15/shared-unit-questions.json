@@ -1,12 +1,127 @@
 {
-  "revision": "shared-unit-review-after-owner-update-2026-10-15",
-  "ownerConfirmed": {
-    "conflictingAssignments": 0,
-    "legitimateSharedUnitCount": 2,
-    "names": "intentionally not recorded per owner instruction"
+  "revision": "shared-unit-assessment-2026-10-15-r2",
+  "sourceFile": "shared-unit-assessment-source.md (preserved supplied file) plus owner assessment in conversation",
+  "ownerAssessment": {
+    "conflictingUnitAssignments": 0,
+    "legitimateSharedGroupCount": 5,
+    "unresolvedGroundTruthGroups": 2,
+    "priorExactStringGroups": 8
   },
-  "resolutionOfPreviousAutomatedFlags": "Six resolved. Two are legitimate shared units. The old eight-group list below is retained only as historical extraction evidence; do not treat it as an open conflict queue.",
-  "previouslyListedGroups": [
+  "legitimateSharedGroups": [
+    {
+      "mall": "saigon-centre",
+      "unit": "L1-10",
+      "kind": "multi-brand watch boutique / shop-in-shop",
+      "records": [
+        "The Hour Glass",
+        "CARTIER",
+        "GRAND SEIKO",
+        "HUBLOT",
+        "TUDOR",
+        "ZENITH"
+      ],
+      "ownerFinding": "The Hour Glass is the multi-brand boutique; Hublot lists its Saigon Centre boutique inside The Hour Glass. Keep all six records. Owner recommends one map pin with brand list.",
+      "evidenceStatus": "owner-reported official site and Hublot listing; not independently rechecked"
+    },
+    {
+      "mall": "saigon-centre",
+      "unit": "L5-08",
+      "kind": "food-hall stall cluster",
+      "records": [
+        "Asian Corner",
+        "GoGi House",
+        "Kichi - Kichi",
+        "Lách Ca Lách Cách",
+        "Manwah - Taiwanese Hot Pot"
+      ],
+      "ownerFinding": "Food-hall stall cluster; keep all records; map as stalls in the food-hall zone.",
+      "evidenceStatus": "owner-confirmed pattern"
+    },
+    {
+      "mall": "saigon-centre",
+      "unit": "L5-09",
+      "kind": "food-hall stall cluster",
+      "records": [
+        "Asanoha",
+        "Botejyu Okonomiyaki",
+        "Oedo Alley",
+        "Ramen Ichibanken",
+        "Sundubu"
+      ],
+      "ownerFinding": "Food-hall stall cluster; Oedo Alley is reported inside the Japanese food court. Keep all records; map as stalls in the food-hall zone.",
+      "evidenceStatus": "owner-reported mytour.vn reference plus confirmed pattern"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "unit": "B3-20",
+      "kind": "shared unit",
+      "records": [
+        "Boat Noodle",
+        "BKK Street Dessert"
+      ],
+      "ownerFinding": "Official floor map legend lists both in one entry; keep both.",
+      "evidenceStatus": "owner-reported official floor map"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "unit": "B1-28B-C",
+      "kind": "multi-brand zone",
+      "records": [
+        "Marhen.J",
+        "Puma",
+        "Ceci"
+      ],
+      "ownerFinding": "Official floor map assigns the range to all three; keep all.",
+      "evidenceStatus": "owner-reported official floor map"
+    }
+  ],
+  "unresolvedGroundTruth": [
+    {
+      "mall": "saigon-centre",
+      "unit": "B2-K5",
+      "records": [
+        "Irvins",
+        "llaollao"
+      ],
+      "ownerFinding": "Could be adjacent kiosks using one code or a replacement. No confirming source found; verify on site or with current operator evidence."
+    },
+    {
+      "mall": "saigon-centre",
+      "unit": "L2-17",
+      "records": [
+        "Label Lab",
+        "Moschino"
+      ],
+      "ownerFinding": "Possible multi-brand boutique/shop-in-shop, but no confirming source found; verify before linking map records."
+    }
+  ],
+  "resolvedUnitFlags": [
+    {
+      "mall": "vincom-dong-khoi",
+      "oldUnit": "M-04-05",
+      "clearedRecord": "The Kooples",
+      "assignedRecord": "Polo Ralph Lauren",
+      "assignedUnit": "M-04,05",
+      "status": "resolved per owner ACFC official locator"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "oldUnit": "M-31-32",
+      "clearedRecord": "Weekend Max Mara",
+      "assignedRecord": "Karl Lagerfeld",
+      "assignedUnit": "M31+32",
+      "status": "resolved per owner ACFC official source"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "records": [
+        "Giordano",
+        "Vincy"
+      ],
+      "status": "not a conflict; Giordano B2-55-56, Vincy has no unit claim"
+    }
+  ],
+  "previousExactStringGroups": [
     {
       "mall": "saigon-centre",
       "normalizedUnit": "B2-K5",
@@ -82,5 +197,6 @@
         "Polo Ralph Lauren"
       ]
     }
-  ]
+  ],
+  "mapHandoff": "Shared shop-in-shop or food-hall records stay independent content records; proposed single-pin/group display is a runtime/map implementation decision, not implemented by this content packet."
 }

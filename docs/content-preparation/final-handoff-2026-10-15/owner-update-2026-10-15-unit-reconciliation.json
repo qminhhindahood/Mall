@@ -1,5 +1,5 @@
 {
-  "revision": "owner-update-2026-10-15-unit-reconciliation",
+  "revision": "owner-unit-and-shared-group-update-2026-10-15-r2",
   "recordedAt": "2026-10-15",
   "basis": "Owner statement in conversation; raw owner CSV preserved unchanged as revision r1 input.",
   "sourceSha256": "4a1b8f2661571fff117e548afa8820f88beaa62f90348e5f7bdda6181115b0c5",
@@ -34,10 +34,16 @@
     }
   ],
   "sharedUnitSummary": {
-    "conflictingAssignments": 0,
-    "legitimateSharedUnitCount": 2,
-    "identifiedByOwner": false,
-    "priorEightGroups": "Six resolved; two legitimate shared units intentionally unnamed per owner instruction."
+    "conflictingUnitAssignments": 0,
+    "legitimateSharedGroupCount": 5,
+    "identifiedGroups": true,
+    "unresolvedGroundTruthGroups": 2,
+    "priorExactStringGroups": 8,
+    "classification": "Five legitimate shared groups; two Saigon Centre relationships need ground truth; the The Kooples/Polo exact-match flag was corrected. Weekend Max Mara/Karl Lagerfeld was a separate range conflict and is corrected. The first amendment count of two unnamed legitimate shared units is superseded by the detailed assessment."
   },
-  "locationQueueEffect": "The original 50-row parked-locations.csv is preserved as confirmed by the owner. The two cleared claims are recorded separately; their current tenant status and precise locations are pending, not inferred."
+  "locationQueueEffect": "The original 50-row parked-locations.csv is preserved as confirmed by the owner. The two cleared claims are recorded separately; their current tenant status and precise locations are pending, not inferred.",
+  "categoryAndFacilityNotes": "Owner reports nine current categories vs eleven proposed; four named gaps (Bakeries, Accessories, Kids, Desserts), 26 records in other; exact taxonomy decision needed. Neither mall has facility records/rosters.",
+  "bilingualNotes": "Owner reports no VI/EN name pairs or approval ledger and Vietnamese-only Highlight copy; Highlights remain deferred pending owner direction and bilingual review.",
+  "locationResearchStatus": "Second owner research round is running; no new location findings incorporated yet.",
+  "sharedAssessmentSha256": "13785735e7e48f0853703f727d4aeb2c57908a421017bcd08a6a7c2d04b29b68"
 }

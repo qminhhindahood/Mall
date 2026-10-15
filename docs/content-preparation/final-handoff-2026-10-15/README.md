@@ -15,23 +15,21 @@ The source has 383 candidate occurrences: 166 Saigon Centre and 217 Vincom. Six 
 
 The prior Vincom JSON is older and does not agree with the newest CSV on all details. The 57 matched differences are retained in `legacy-json-differences.json`; do not use that old JSON to overwrite the latest owner decisions. In particular, it still contains older unit claims for locations now cleared by the owner.
 
-## Owner unit reconciliation update — 15 October 2026
+## Owner unit and editorial review — 15 October 2026
 
-The owner confirms **zero conflicting unit assignments remain** and only **two legitimate shared units**. At the owner's instruction, this packet does not name those two units. Six of the eight groups previously produced by exact-string matching are resolved; the old groups remain in [shared-unit-questions.json](shared-unit-questions.json) as historical extraction evidence only, not as an open conflict queue.
+The owner reports **zero conflicting unit assignments**. The detailed assessment identifies five legitimate shared groups, two Saigon Centre groups requiring ground truth, and one previous Vincom exact-match flag corrected by the owner. See [the full review and team decisions](team-decisions-2026-10-15.md), [the preserved supplied assessment](shared-unit-assessment-source.md), and the structured [shared-unit assessment](shared-unit-questions.json). The assessment's official-site/map references are owner-reported and were not independently rechecked here.
 
-- The Kooples' `M-04-05` claim is cleared for Polo Ralph Lauren (`M-04,05`) per an ACFC official locator reported by the owner.
-- Weekend Max Mara's `M-31-32` claim is cleared for Karl Lagerfeld (`M31+32`) per an ACFC official source reported by the owner.
-- Giordano retains `B2-55-56`; Vincy has no unit claim. This is not a collision.
+The Kooples' `M-04-05` claim is cleared for Polo Ralph Lauren (`M-04,05`); Weekend Max Mara's `M-31-32` is cleared for Karl Lagerfeld (`M31+32`). Giordano retains `B2-55-56`; Vincy has no unit claim. Those cleared claims do not establish the current location/status of The Kooples or Weekend Max Mara. The original [50-row parked-location list](parked-locations.csv) is preserved as owner-confirmed, and the second location-research round is still running.
 
-The raw CSV's SHA-256 is unchanged and remains preserved as the earlier input. These owner corrections are reflected in `records.json` and [the amendment ledger](owner-update-2026-10-15-unit-reconciliation.json). The two cleared claims do not establish the current unit or open/closed/moved status of The Kooples or Weekend Max Mara; keep those decisions pending. The original [50-row parked-location list](parked-locations.csv) is preserved as owner-confirmed; the two newly cleared claims are tracked separately rather than silently changing that reviewed list. No ACFC source was independently checked during this documentation update.
+The owner also reports nine current categories against an eleven-category proposal, four proposed gaps, and 26 “other” records; the counts need a taxonomy decision before reassignment. No VI/EN name pairs or approval ledger exist; reported Highlight copy is Vietnamese-only and remains deferred from publication. Neither mall has a facility roster. Details and exact team decisions are in [the owner review update](team-decisions-2026-10-15.md). The raw owner CSV remains byte-preserved; post-CSV corrections are in the amendment ledger.
 
 ## What needs owner/team review
 
 | Review queue | Evidence in this packet | Next decision |
 | --- | --- | --- |
 | Precise locations | [50 Vincom rows with unknown/blank unit claims](parked-locations.csv) | Verify from current mall/operator evidence or an optional in-person visit. A floor claim may be retained separately; no map marker/region is supplied by this packet. |
-| Unit reconciliation | Owner confirms zero conflicting unit assignments; two legitimate shared units are intentionally unnamed. The Kooples and Weekend Max Mara claims are cleared as above; Giordano/Vincy is not a collision. | Keep old automated groups as history only. No conflicting unit assignment remains open. Confirm the current status/location of the two brands whose claims were cleared. |
-| Map-area links | Unit claims and the owner-confirmed shared units still need evidence-based mapping to current geometry where the team wants precise markers. | Match only supported units to current region IDs; don't infer map ownership from a unit collision report. |
+| Shared units | Five legitimate groups, two unresolved Saigon Centre group relationships, zero conflicting unit assignments. | Verify B2-K5 and L2-17; use the shared-unit map display notes for the other groups, subject to map-owner geometry review. |
+| Map-area links | Current unit claims and shared zones still need evidence-based links to geometry for precise markers. | Match supported units to current region IDs. Group/pin presentation notes are handoff recommendations and need runtime/map-owner implementation. |
 | Tenant identity/status | Six explicit removals/merge above; 377 pending candidates | Confirm stable destination vs independent counter/brand identity and actual open/closed/moved status. A removed row alone does not establish a public closure record. |
 | Full coverage | Saigon Centre's supplied source omits the department-store counter roster; the source lists the whole mall and independent counters may need separate records | Supply the current counter roster and decide duplicate/multi-floor identity handling for repeated names. |
 | Editorial fields | No approved VI/EN review ledger, facilities, mapped areas, category memberships, primary floors or Highlights in this source | Assign reviewers; provide actual source/check date, VI and EN decisions, facilities/taxonomy and primary floor. Highlights stay empty/deferred per owner. |
@@ -44,7 +42,9 @@ The original map labels remain reference annotations, not proof of current tenan
 - `records.json`: 383 offline candidate worksheets, including raw source rows, pending approvals, null editorial review dates, no mapped area IDs and empty Highlights. Six are explicitly excluded from current candidates; none is publication-ready.
 - `parked-locations.csv`: 50 unknown/blank Vincom precise-unit claims.
 - `shared-unit-questions.json`: owner resolution and historical eight-group extraction; not an open conflict queue.
-- `owner-update-2026-10-15-unit-reconciliation.json`: owner corrections for The Kooples, Weekend Max Mara, Giordano/Vincy and the zero-conflict/two-shared-unit decision.
+- `owner-update-2026-10-15-unit-reconciliation.json`: owner corrections for The Kooples, Weekend Max Mara and Giordano/Vincy; see shared-unit assessment for current classifications.
+- `team-decisions-2026-10-15.md`: detailed owner assessment of shared units, taxonomy, language approvals, facilities and ongoing location research.
+- `shared-unit-assessment-source.md`: preserved supplied Markdown source.
 - `legacy-json-differences.json`: 57 matched differences against the older root Vincom JSON; not a complete lineage comparison.
 - `prepare.py`: one-time generator. It refuses to overwrite `owner-source.csv`; its paths refer to the supplied `D:\Midterm` workspace.
 - `validation.json`: source hash, counts, preserved public snapshot hashes and known limits.
@@ -54,9 +54,11 @@ The existing `validateContent` check passes both unchanged empty/pending public 
 ## Owner-review checklist
 
 - [ ] Confirm the 377 pending candidates and six removals/merge; decide independent destination, brand and counter identities.
-- [ ] Review the 50 parked precise-location questions against current evidence; resolve The Kooples and Weekend Max Mara current status/location after their old claims were cleared.
+- [ ] Await the second location-research round for 50 parked units; review evidence and actual check dates before updating location claims. Resolve The Kooples and Weekend Max Mara status/location after their old claims were cleared.
+- [ ] Verify Saigon Centre B2-K5 and L2-17 co-location/shop-in-shop relationships with ground truth.
 - [ ] Supply the missing Saigon Centre department-store counters and both malls' current facility rosters.
 - [ ] Confirm current status, verified floors, primary floors, mapped areas and facility access; include evidence and actual check dates.
 - [ ] Approve Vietnamese and English names/descriptions separately with reviewer names and dates.
-- [ ] Approve category taxonomy/memberships; provide Highlights later or explicitly approve none.
+- [ ] Resolve the nine-current / eleven-proposed taxonomy counts, the four named gaps, and the 26 “other” assignments; approve taxonomy/memberships before reassignment.
+- [ ] Provide facility rosters for both malls and approved bilingual names/descriptions; approve English and Vietnamese independently. Provide Highlights later or explicitly approve none.
 - [ ] Sign off each mall's completeness/currentness and actual snapshot review date before runtime import/publication.
