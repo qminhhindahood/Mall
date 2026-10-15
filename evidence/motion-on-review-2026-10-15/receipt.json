@@ -1,0 +1,314 @@
+{
+  "revision": "motion-on-review-2026-10-15-r1",
+  "source": "c557ccb / unchanged application 13a2083",
+  "recordedDate": "2026-10-15",
+  "saigon": {
+    "result": {
+      "checks": [
+        {
+          "draws": 3870,
+          "label": "Exterior actively renders with motion enabled",
+          "pass": true
+        },
+        {
+          "label": "Exterior and floors overlap during reveal",
+          "pass": true
+        },
+        {
+          "label": "All eight floor callouts visible and connected",
+          "labels": [
+            {
+              "bottom": 314.5714454650879,
+              "connector": true,
+              "label": "L6",
+              "top": 270.5714416503906
+            },
+            {
+              "bottom": 361.5714454650879,
+              "connector": true,
+              "label": "L5",
+              "top": 317.5714416503906
+            },
+            {
+              "bottom": 408.5714454650879,
+              "connector": true,
+              "label": "L4",
+              "top": 364.5714416503906
+            },
+            {
+              "bottom": 455.5714454650879,
+              "connector": true,
+              "label": "L3",
+              "top": 411.5714416503906
+            },
+            {
+              "bottom": 502.5714454650879,
+              "connector": true,
+              "label": "L2",
+              "top": 458.5714416503906
+            },
+            {
+              "bottom": 549.5714454650879,
+              "connector": true,
+              "label": "L1",
+              "top": 505.5714416503906
+            },
+            {
+              "bottom": 596.571475982666,
+              "connector": true,
+              "label": "B1",
+              "top": 552.5714721679688
+            },
+            {
+              "bottom": 643.571475982666,
+              "connector": true,
+              "label": "B2",
+              "top": 599.5714721679688
+            }
+          ],
+          "pass": true
+        },
+        {
+          "label": "L2 map selected with focus and complete frame",
+          "pass": true
+        },
+        {
+          "label": "Same map persists into Discovery",
+          "pass": true
+        },
+        {
+          "label": "Reverse restores exterior and retains L2",
+          "pass": true
+        }
+      ],
+      "profile": {
+        "dpr": 1.75,
+        "reducedMotion": false,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+        "viewport": [
+          1402,
+          877
+        ]
+      },
+      "samples": [
+        {
+          "exteriorOpacity": 0.846304,
+          "floorOpacity": 0.153696,
+          "y": 350.8571472167969
+        },
+        {
+          "exteriorOpacity": 0.661859,
+          "floorOpacity": 0.338141,
+          "y": 456
+        },
+        {
+          "exteriorOpacity": 0.477414,
+          "floorOpacity": 0.522586,
+          "y": 561.1428833007812
+        }
+      ],
+      "travel": {
+        "hidden": true,
+        "transform": "none"
+      }
+    },
+    "supplementalTravel": {
+      "hidden": false,
+      "transform": "matrix3d(0.995504, -0.0914545, -0.0246738, 1.64492e-05, 0.0947245, 0.961138, 0.259308, -0.000172872, 0, -0.260479, 0.965479, -0.000643653, 0, 0, 0, 1)",
+      "y": 2330.28564453125
+    },
+    "recording": {
+      "id": "a3819e55-0694-4d44-9487-a502a6f71368-236449f7-0709-4b60-9170-57a3edb5aa6d-mp4",
+      "tabId": "tab_8",
+      "path": "C:\\Users\\PC\\.t3\\userdata\\attachments\\a3819e55-0694-4d44-9487-a502a6f71368-236449f7-0709-4b60-9170-57a3edb5aa6d-mp4.mp4",
+      "mimeType": "video/mp4;codecs=avc1",
+      "sizeBytes": 34256995,
+      "createdAt": "2026-10-15T01:34:01.546Z",
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4283/en?floor=L2&view=exterior"
+      }
+    },
+    "frames": {
+      "hero": {
+        "url": "http://localhost:4283/en?floor=L2&view=exterior",
+        "screenshotPath": "C:\\Users\\PC\\.t3\\userdata\\browser-artifacts\\browser-screenshot-localhost-mv8v86a1-c3c94b16.png"
+      },
+      "fade": {
+        "url": "http://localhost:4283/en?floor=L5&view=overview",
+        "screenshotPath": "C:\\Users\\PC\\.t3\\userdata\\browser-artifacts\\browser-screenshot-localhost-mv8v7fsa-821747ca.png"
+      },
+      "stack": {
+        "url": "http://localhost:4283/en?floor=L5&view=overview",
+        "screenshotPath": "C:\\Users\\PC\\.t3\\userdata\\browser-artifacts\\browser-screenshot-localhost-mv8v7ocp-980060ff.png"
+      },
+      "travel": {
+        "url": "http://localhost:4283/en?floor=L2&view=exterior",
+        "screenshotPath": "C:\\Users\\PC\\.t3\\userdata\\browser-artifacts\\browser-screenshot-localhost-mv8v8miw-cf16be17.png"
+      },
+      "map": {
+        "url": "http://localhost:4283/en/floors/L2?floor=L2&view=map",
+        "screenshotPath": "C:\\Users\\PC\\.t3\\userdata\\browser-artifacts\\browser-screenshot-localhost-mv8v81cj-bc6f3503.png"
+      },
+      "discovery": {
+        "url": "http://localhost:4283/en?floor=L2&view=discovery",
+        "screenshotPath": "C:\\Users\\PC\\.t3\\userdata\\browser-artifacts\\browser-screenshot-localhost-mv8v84qn-2e141378.png"
+      }
+    }
+  },
+  "vincom": {
+    "result": {
+      "checks": [
+        {
+          "draws": 7240,
+          "label": "Exterior actively renders with motion enabled",
+          "pass": true
+        },
+        {
+          "label": "Exterior and floors overlap during reveal",
+          "pass": true
+        },
+        {
+          "label": "All seven floor callouts visible and connected",
+          "labels": [
+            {
+              "bottom": 338.0714454650879,
+              "connector": true,
+              "label": "L3",
+              "top": 294.0714416503906
+            },
+            {
+              "bottom": 385.0714454650879,
+              "connector": true,
+              "label": "L2",
+              "top": 341.0714416503906
+            },
+            {
+              "bottom": 432.0714454650879,
+              "connector": true,
+              "label": "M",
+              "top": 388.0714416503906
+            },
+            {
+              "bottom": 479.0714454650879,
+              "connector": true,
+              "label": "L1",
+              "top": 435.0714416503906
+            },
+            {
+              "bottom": 526.0714454650879,
+              "connector": true,
+              "label": "B1",
+              "top": 482.0714416503906
+            },
+            {
+              "bottom": 573.071475982666,
+              "connector": true,
+              "label": "B2",
+              "top": 529.0714721679688
+            },
+            {
+              "bottom": 620.071475982666,
+              "connector": true,
+              "label": "B3",
+              "top": 576.0714721679688
+            }
+          ],
+          "pass": true
+        },
+        {
+          "label": "L2 map selected with focus and complete frame",
+          "pass": true
+        },
+        {
+          "label": "Selected floor visible in intermediate travel",
+          "pass": true
+        },
+        {
+          "label": "Same map persists into Discovery",
+          "pass": true
+        },
+        {
+          "label": "Reverse restores exterior and retains L2",
+          "pass": true
+        }
+      ],
+      "profile": {
+        "dpr": 1.75,
+        "reducedMotion": false,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) T3Code(Alpha)/0.0.45 Chrome/152.0.7977.130 Electron/44.4.2 Safari/537.36",
+        "viewport": [
+          1402,
+          877
+        ]
+      },
+      "samples": [
+        {
+          "exteriorOpacity": 0.846304,
+          "floorOpacity": 0.153696,
+          "y": 350.8571472167969
+        },
+        {
+          "exteriorOpacity": 0.661859,
+          "floorOpacity": 0.338141,
+          "y": 456
+        },
+        {
+          "exteriorOpacity": 0.477414,
+          "floorOpacity": 0.522586,
+          "y": 561.1428833007812
+        }
+      ],
+      "travel": {
+        "hidden": false,
+        "transform": "matrix3d(0.995504, -0.0914545, -0.0246738, 1.64492e-05, 0.0947245, 0.961138, 0.259308, -0.000172872, 0, -0.260479, 0.965479, -0.000643653, 0, 0, 0, 1)"
+      }
+    },
+    "skip": {
+      "focus": "scene-discovery",
+      "reducedMotion": false,
+      "skip": true
+    },
+    "recording": {
+      "id": "a3819e55-0694-4d44-9487-a502a6f71368-1dc66bca-4425-4607-be42-c647d2bb5afc-mp4",
+      "tabId": "tab_8",
+      "path": "C:\\Users\\PC\\.t3\\userdata\\attachments\\a3819e55-0694-4d44-9487-a502a6f71368-1dc66bca-4425-4607-be42-c647d2bb5afc-mp4.mp4",
+      "mimeType": "video/mp4;codecs=avc1",
+      "sizeBytes": 2253390,
+      "createdAt": "2026-10-15T01:35:42.353Z",
+      "toolIcon": {
+        "_tag": "website",
+        "pageUrl": "http://localhost:4284/en?floor=L2&view=exterior"
+      }
+    },
+    "frames": {
+      "hero": {
+        "url": "http://localhost:4284/en?floor=L2&view=exterior",
+        "screenshotPath": "C:\\Users\\PC\\.t3\\userdata\\browser-artifacts\\browser-screenshot-localhost-mv8v9foi-59536891.png"
+      },
+      "fade": {
+        "url": "http://localhost:4284/en?floor=B2&view=overview",
+        "screenshotPath": "C:\\Users\\PC\\.t3\\userdata\\browser-artifacts\\browser-screenshot-localhost-mv8v9as9-172a200f.png"
+      },
+      "stack": {
+        "url": "http://localhost:4284/en?floor=B2&view=overview",
+        "screenshotPath": "C:\\Users\\PC\\.t3\\userdata\\browser-artifacts\\browser-screenshot-localhost-mv8v9bt3-8117e12d.png"
+      },
+      "travel": {
+        "url": "http://localhost:4284/en/floors/L2?floor=L2&view=map",
+        "screenshotPath": "C:\\Users\\PC\\.t3\\userdata\\browser-artifacts\\browser-screenshot-localhost-mv8v9dfq-e0e4feca.png"
+      },
+      "discovery": {
+        "url": "http://localhost:4284/en?floor=L2&view=discovery",
+        "screenshotPath": "C:\\Users\\PC\\.t3\\userdata\\browser-artifacts\\browser-screenshot-localhost-mv8v9ef6-90445ff0.png"
+      }
+    }
+  },
+  "limitations": [
+    "Initial Saigon hero screenshot lacked composited model; excluded, replaced by verified reverse-hero image",
+    "Saigon first clicked travel sample occurred after arrival (hidden:true); separate scroll-intermediate sample confirms visible travel; original sample retained",
+    "First Vincom recording stop failed twice; short fresh retry saved",
+    "Phone resize timed out, then T3 host explicitly unavailable; fresh phone rerun not-run",
+    "No owner acceptance, native-background completion, full browser matrix, new performance, asset edits or deployment"
+  ]
+}

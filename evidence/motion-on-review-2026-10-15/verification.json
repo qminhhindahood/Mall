@@ -1,0 +1,79 @@
+{
+  "revision": "motion-on-review-2026-10-15-r1",
+  "totalChecks": 15,
+  "passed": true,
+  "assets": [
+    {
+      "path": "frames/saigon-hero.png",
+      "bytes": 252822,
+      "sha256": "d0fee5b0eab0f088ce1c4ac08003d04faafea65a5c2518942695bdc3b8d9cba0"
+    },
+    {
+      "path": "frames/saigon-fade.png",
+      "bytes": 353104,
+      "sha256": "823aa97b9b77e3a2a28f5e77686a3d891d1d48f9699e0052ff1752feaec7b979"
+    },
+    {
+      "path": "frames/saigon-stack.png",
+      "bytes": 253770,
+      "sha256": "a307b22c4a98b21ebe3fd59b9d904372b491a3b738f740d6c5fd7d0237fa03d6"
+    },
+    {
+      "path": "frames/saigon-travel.png",
+      "bytes": 153358,
+      "sha256": "d91061cc38a370f9ecb9ed1deff9781252e5435cda09c1e9d40ca1c2ad9cef6a"
+    },
+    {
+      "path": "frames/saigon-map.png",
+      "bytes": 271624,
+      "sha256": "db44c3f760689454a9da9915673cc52bca44884047ecb4f92b79686e383592c2"
+    },
+    {
+      "path": "frames/saigon-discovery.png",
+      "bytes": 224419,
+      "sha256": "e20937ff1ebbf63da629dac8296803c97e64a4dc91293791a95da1c2c52a68e4"
+    },
+    {
+      "path": "frames/vincom-hero.png",
+      "bytes": 414554,
+      "sha256": "dc41c5f2b0b1e34d4715139bb7858a92dfae7d1ef3cb7ada277c57e28277b387"
+    },
+    {
+      "path": "frames/vincom-fade.png",
+      "bytes": 505772,
+      "sha256": "8a1dd18d408f6762233d51b452f56a8e61fdd5cc5292eec92d7c53d7cbba2848"
+    },
+    {
+      "path": "frames/vincom-stack.png",
+      "bytes": 257729,
+      "sha256": "ce329b0d9a02828c34580da3bc329950f906421e4abb97034d0878bdde02d950"
+    },
+    {
+      "path": "frames/vincom-travel.png",
+      "bytes": 108692,
+      "sha256": "5d92328d17597ff375bb7f010ad726ae9dff3217e673e7c22347197b7565e69a"
+    },
+    {
+      "path": "frames/vincom-discovery.png",
+      "bytes": 157032,
+      "sha256": "eccd1eb65bd59a48598eae4893882734db3be1dd85875ee37b1c9cb47ef10456"
+    },
+    {
+      "path": "video/saigon.mp4",
+      "bytes": 2173580,
+      "sha256": "414b48511ee5129bacb5d79869cbf4fdd9d5ef09ea1daefa05953e626eaf17cb"
+    },
+    {
+      "path": "video/vincom.mp4",
+      "bytes": 763423,
+      "sha256": "1eeef099a4ecb23ea5b91dea8a365a0805fad19a4d39b9c2f867bd6e8384acc2"
+    }
+  ],
+  "limits": [
+    "Initial Saigon hero screenshot lacked composited model; excluded, replaced by verified reverse-hero image",
+    "Saigon first clicked travel sample occurred after arrival (hidden:true); separate scroll-intermediate sample confirms visible travel; original sample retained",
+    "First Vincom recording stop failed twice; short fresh retry saved",
+    "Phone resize timed out, then T3 host explicitly unavailable; fresh phone rerun not-run",
+    "No owner acceptance, native-background completion, full browser matrix, new performance, asset edits or deployment"
+  ]
+}
