@@ -15,6 +15,10 @@ The source has 383 candidate occurrences: 166 Saigon Centre and 217 Vincom. Six 
 
 The prior Vincom JSON is older and does not agree with the newest CSV on all details. The 57 matched differences are retained in `legacy-json-differences.json`; do not use that old JSON to overwrite the latest owner decisions. In particular, it still contains older unit claims for locations now cleared by the owner.
 
+## Supplemental Vincom inputs — 16 October 2026
+
+The newly supplied [Vincom input comparison](input-reconciliation-2026-10-16/README.md) is the latest cross-file review. The supplied `all-record-map-comparison updated.csv` has the same SHA-256 as the prior comparison CSV, so its contents did not change. The new Vincom JSON has 208 objects while its metadata says 217; all 208 floors match the CSV, but nine rows are absent and seven unit differences remain after applying the earlier Kooples/Weekend amendments. Keep those candidates pending until the owner resolves them. The report preserves both new inputs, the full row-level unit diff, category counts and metadata mismatch. It changes no base records or public snapshots.
+
 ## Owner unit and editorial review — 15 October 2026
 
 The owner reports **zero conflicting unit assignments**. The detailed assessment identifies five legitimate shared groups, two Saigon Centre groups requiring ground truth, and one previous Vincom exact-match flag corrected by the owner. See [the full review and team decisions](team-decisions-2026-10-15.md), [the preserved supplied assessment](shared-unit-assessment-source.md), and the structured [shared-unit assessment](shared-unit-questions.json). The assessment's official-site/map references are owner-reported and were not independently rechecked here.
@@ -43,6 +47,7 @@ The original map labels remain reference annotations, not proof of current tenan
 - `parked-locations.csv`: 50 unknown/blank Vincom precise-unit claims.
 - `shared-unit-questions.json`: owner resolution and historical eight-group extraction; not an open conflict queue.
 - `owner-update-2026-10-15-unit-reconciliation.json`: owner corrections for The Kooples, Weekend Max Mara and Giordano/Vincy; see shared-unit assessment for current classifications.
+- `input-reconciliation-2026-10-16/`: exact copies of the newly supplied CSV and JSON, the row-level diff and unresolved input decisions.
 - `team-decisions-2026-10-15.md`: detailed owner assessment of shared units, taxonomy, language approvals, facilities and ongoing location research.
 - `shared-unit-assessment-source.md`: preserved supplied Markdown source.
 - `legacy-json-differences.json`: 57 matched differences against the older root Vincom JSON; not a complete lineage comparison.

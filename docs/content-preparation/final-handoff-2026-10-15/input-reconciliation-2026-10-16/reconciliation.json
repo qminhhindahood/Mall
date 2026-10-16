@@ -1,0 +1,212 @@
+{
+  "revision": "vincom-input-reconciliation-2026-10-16-r1",
+  "csv": {
+    "file": "all-record-map-comparison updated.csv",
+    "sha256": "4a1b8f2661571fff117e548afa8820f88beaa62f90348e5f7bdda6181115b0c5",
+    "totalRows": 383,
+    "vincomRows": 217,
+    "matchesPriorCsvBytes": true
+  },
+  "json": {
+    "file": "store-data-vincom-dong-khoi.json",
+    "sha256": "fc095e066f2c217fe61c55d4501ee92fb489cba6dc4513898c3053dfc16a8926",
+    "actualStoreObjects": 208,
+    "metaStores": 217,
+    "metaGenerated": "2026-10-12",
+    "metaVersion": "v0-draft",
+    "metaNeedsFloorVerification": 84,
+    "metaCategoryTotal": 217,
+    "actualCategories": {
+      "supermarket": 1,
+      "restaurant": 53,
+      "cafe": 9,
+      "other": 12,
+      "entertainment": 2,
+      "fashion": 96,
+      "services": 4,
+      "beauty": 29,
+      "electronics": 2
+    },
+    "actualMissingUnits": 48,
+    "actualMissingFloors": 0
+  },
+  "idCrosswalk": {
+    "matched": 208,
+    "csvOnly": [
+      {
+        "id": "vd-b1-002",
+        "name": "Nine West",
+        "priorFloor": "B1",
+        "priorUnit": "B1-02",
+        "csvDisposition": "removed-or-pending-candidate",
+        "csvStatus": "pending-candidate-in-csv; omitted-from-json-without-status"
+      },
+      {
+        "id": "vd-b1-031",
+        "name": "CK Jeans (Calvin Klein Jeans)",
+        "priorFloor": "B1",
+        "priorUnit": "B1-54",
+        "csvDisposition": "removed-or-pending-candidate",
+        "csvStatus": "excluded-current-candidate"
+      },
+      {
+        "id": "vd-b1-032",
+        "name": "Nice",
+        "priorFloor": "B1",
+        "priorUnit": "B1-55",
+        "csvDisposition": "removed-or-pending-candidate",
+        "csvStatus": "pending-candidate-in-csv; omitted-from-json-without-status"
+      },
+      {
+        "id": "vd-l3-004",
+        "name": "Sâm Ngọc Linh",
+        "priorFloor": "L3",
+        "priorUnit": "L3-K1",
+        "csvDisposition": "removed-or-pending-candidate",
+        "csvStatus": "pending-candidate-in-csv; omitted-from-json-without-status"
+      },
+      {
+        "id": "vd-x-008",
+        "name": "Boost Juice",
+        "priorFloor": "B3",
+        "priorUnit": null,
+        "csvDisposition": "removed-or-pending-candidate",
+        "csvStatus": "excluded-current-candidate"
+      },
+      {
+        "id": "vd-x-013",
+        "name": "Phúc Long",
+        "priorFloor": "B3",
+        "priorUnit": null,
+        "csvDisposition": "removed-or-pending-candidate",
+        "csvStatus": "excluded-current-candidate"
+      },
+      {
+        "id": "vd-x-024",
+        "name": "Cocolux",
+        "priorFloor": "B2",
+        "priorUnit": null,
+        "csvDisposition": "removed-or-pending-candidate",
+        "csvStatus": "excluded-current-candidate"
+      },
+      {
+        "id": "vd-x-053",
+        "name": "Letitia",
+        "priorFloor": "B1",
+        "priorUnit": null,
+        "csvDisposition": "removed-or-pending-candidate",
+        "csvStatus": "excluded-current-candidate"
+      },
+      {
+        "id": "vd-x-081",
+        "name": "HLA",
+        "priorFloor": "L2",
+        "priorUnit": null,
+        "csvDisposition": "removed-or-pending-candidate",
+        "csvStatus": "excluded-current-candidate"
+      }
+    ],
+    "jsonOnly": []
+  },
+  "matchedFloorDifferences": [],
+  "unitDifferences": [
+    {
+      "id": "vd-b2-005",
+      "name": "Keds",
+      "csvOwnerUnit": "B2-50",
+      "jsonUnit": null,
+      "csvFloor": "B2",
+      "jsonFloor": "B2",
+      "csvOwnerDecision": "r3 (2026-10-14): floor/unit kept from the authoritative markdown; site JSON verified against markdowns (Vincom 217/217, Saigon 166/166 floors agree). [REBUILT 2026-10-15 — original row wording lost; see all-record-map-comparison-REBUILD-NOTES.md]",
+      "status": "review required; latest supplied files disagree"
+    },
+    {
+      "id": "vd-b3-005",
+      "name": "Lẩu MK",
+      "csvOwnerUnit": "B3-18B",
+      "jsonUnit": null,
+      "csvFloor": "B3",
+      "jsonFloor": "B3",
+      "csvOwnerDecision": "r3 (2026-10-14): floor/unit kept from the authoritative markdown; site JSON verified against markdowns (Vincom 217/217, Saigon 166/166 floors agree). [REBUILT 2026-10-15 — original row wording lost; see all-record-map-comparison-REBUILD-NOTES.md]",
+      "status": "review required; latest supplied files disagree"
+    },
+    {
+      "id": "vd-b3-006",
+      "name": "Huế Delights",
+      "csvOwnerUnit": "B3-19A",
+      "jsonUnit": null,
+      "csvFloor": "B3",
+      "jsonFloor": "B3",
+      "csvOwnerDecision": "r3 (2026-10-14): floor/unit kept from the authoritative markdown; site JSON verified against markdowns (Vincom 217/217, Saigon 166/166 floors agree). [REBUILT 2026-10-15 — original row wording lost; see all-record-map-comparison-REBUILD-NOTES.md]",
+      "status": "review required; latest supplied files disagree"
+    },
+    {
+      "id": "vd-x-006",
+      "name": "Tian Long",
+      "csvOwnerUnit": null,
+      "jsonUnit": "B3-18B",
+      "csvFloor": "B3",
+      "jsonFloor": "B3",
+      "csvOwnerDecision": "r3 (2026-10-14): floor/unit kept from the authoritative markdown; site JSON verified against markdowns (Vincom 217/217, Saigon 166/166 floors agree). [REBUILT 2026-10-15 — original row wording lost; see all-record-map-comparison-REBUILD-NOTES.md]",
+      "status": "review required; latest supplied files disagree"
+    },
+    {
+      "id": "vd-x-011",
+      "name": "Tous Les Jours",
+      "csvOwnerUnit": null,
+      "jsonUnit": "B3-19A",
+      "csvFloor": "B3",
+      "jsonFloor": "B3",
+      "csvOwnerDecision": "r3 (2026-10-14): floor/unit kept from the authoritative markdown; site JSON verified against markdowns (Vincom 217/217, Saigon 166/166 floors agree). [REBUILT 2026-10-15 — original row wording lost; see all-record-map-comparison-REBUILD-NOTES.md]",
+      "status": "review required; latest supplied files disagree"
+    },
+    {
+      "id": "vd-x-035",
+      "name": "Beauty Box",
+      "csvOwnerUnit": null,
+      "jsonUnit": "B2-17",
+      "csvFloor": "B2",
+      "jsonFloor": "B2",
+      "csvOwnerDecision": "r3 (2026-10-14): floor/unit kept from the authoritative markdown; site JSON verified against markdowns (Vincom 217/217, Saigon 166/166 floors agree). [REBUILT 2026-10-15 — original row wording lost; see all-record-map-comparison-REBUILD-NOTES.md]",
+      "status": "review required; latest supplied files disagree"
+    },
+    {
+      "id": "vd-x-038",
+      "name": "Pucini",
+      "csvOwnerUnit": null,
+      "jsonUnit": "B2-50",
+      "csvFloor": "B2",
+      "jsonFloor": "B2",
+      "csvOwnerDecision": "r3 (2026-10-14): floor/unit kept from the authoritative markdown; site JSON verified against markdowns (Vincom 217/217, Saigon 166/166 floors agree). [REBUILT 2026-10-15 — original row wording lost; see all-record-map-comparison-REBUILD-NOTES.md]",
+      "status": "review required; latest supplied files disagree"
+    },
+    {
+      "id": "vd-x-068",
+      "name": "The Kooples",
+      "csvOwnerUnit": "M-04-05",
+      "jsonUnit": null,
+      "csvFloor": "M",
+      "jsonFloor": "M",
+      "csvOwnerDecision": "r3 (2026-10-14): floor/unit kept from the authoritative markdown; site JSON verified against markdowns (Vincom 217/217, Saigon 166/166 floors agree). [REBUILT 2026-10-15 — original row wording lost; see all-record-map-comparison-REBUILD-NOTES.md]",
+      "status": "resolved by prior owner amendment; CSV bytes remain stale; amendment clears old claim"
+    },
+    {
+      "id": "vd-x-073",
+      "name": "Weekend Max Mara",
+      "csvOwnerUnit": "M-31-32",
+      "jsonUnit": null,
+      "csvFloor": "M",
+      "jsonFloor": "M",
+      "csvOwnerDecision": "r3 (2026-10-14): floor/unit kept from the authoritative markdown; site JSON verified against markdowns (Vincom 217/217, Saigon 166/166 floors agree). [REBUILT 2026-10-15 — original row wording lost; see all-record-map-comparison-REBUILD-NOTES.md]",
+      "status": "resolved by prior owner amendment; CSV bytes remain stale; amendment clears old claim"
+    }
+  ],
+  "knownOwnerAmendmentsAlreadyResolvingsomeRawCsvDifferences": [
+    "The Kooples",
+    "Weekend Max Mara"
+  ],
+  "assessment": "Owner source inputs remain drafts. Floors match for all 208 matched Vincom IDs. The 9 CSV-only IDs include the six removed/merged rows plus Nine West, Nice and Sâm Ngọc Linh, which remain pending in the CSV but are absent from JSON. JSON meta still says 217 although the array has 208 objects; its category totals also sum to 217. Do not infer closure/removal for the three unexplained omissions or treat draft JSON unit claims as approvals.",
+  "unresolvedUnitDifferenceCount": 7,
+  "resolvableFromPriorOwnerAmendmentCount": 2,
+  "overallDecision": "No unit claims or store omissions were copied into the approved/public snapshot. Seven source differences and three candidate omissions need owner decision; the JSON metadata is internally stale."
+}
