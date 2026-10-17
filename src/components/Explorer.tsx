@@ -290,13 +290,13 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     if (load==='ready') guide.setAttribute('hidden','');
     if (load==='failed') guide.removeAttribute('hidden');
   },[load]);
-  useEffect(() => {
+  useLayoutEffect(() => {
     const instance = runtime.current;
     if (!instance || !entered.current) return;
     const serial = ++requestSerial.current;
     const done = requestTiming.current ?? timing('request-to-frame', { mallId: site.mallId, attempt, ...selection });
     requestTiming.current=null;
-    if(!(['exterior','overview'].includes(selection.kind)&&['exterior','overview'].includes(canvas.current?.dataset.sceneKey?.split(':').at(-2)??'')))setLoad('loading');
+    if(!instance.isPrepared({...selection,floorId:selection.kind==='discovery'?previewFloor:selection.floorId}))setLoad('loading');
     instance.show({...selection,floorId:selection.kind==='discovery'?previewFloor:selection.floorId}).then(() => { done(serial === requestSerial.current ? 'ready' : 'stale'); if (serial === requestSerial.current) {setLoad('ready');setPresentation(value=>value+1);} }).catch(() => { done('failed'); if (serial === requestSerial.current) {entered.current=false;instance.dispose();runtime.current=null;setLoad('failed');} });
   }, [selection.kind, selection.floorId, previewFloor]);
   useEffect(()=>{
@@ -331,7 +331,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     const effective=(value:ExplorerSelection)=>value.kind==='discovery'?categoryFloor(site.destinations,value.discoveryCategoryId??site.content.categories[0]?.id??'',geometry,value.floorId):value.floorId;
     if (!entered.current || next.kind===latest.current.kind && effective(next)===effective(latest.current)) return;
     // Commit the gate with selection, before an unprepared view can paint.
-    if(!(['exterior','overview'].includes(next.kind)&&['exterior','overview'].includes(latest.current.kind)))setLoad('loading');
+    if(!runtime.current?.isPrepared({...next,floorId:effective(next)}))setLoad('loading');
     requestTiming.current?.('stale');
     requestTiming.current=timing('request-to-frame',{mallId:site.mallId,attempt,...next});
   }

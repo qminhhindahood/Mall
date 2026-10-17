@@ -18,6 +18,7 @@ export type FloorDataset = {
 };
 export type SceneRuntime = {
   prepare(request: SceneRequest): Promise<void>;
+  isPrepared(request: SceneRequest): boolean;
   show(request: SceneRequest): Promise<void>;
   setActive(active: boolean): void;
   setPaused(paused: boolean): void;

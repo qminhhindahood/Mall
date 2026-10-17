@@ -45,6 +45,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
   const status = (request:SceneRequest,phase:'fetching'|'decoding'|'preparing'|'ready'|'failed',error?:string) => options.onStatus({key:key(request),phase,error});
   const mark = (name:string) => performance.mark(`mall-3d:${name}`);
   const views=new Map<string,View>(), prepared=new Map<string,Promise<void>>(), buffers=new Map<string,BufferGeometry>();
+  const complete=new Set<string>();
   const geometries=new Set<BufferGeometry>(), materials=new Set<MeshStandardMaterial>(), textures=new Set<Texture>();
   const tasks:Task[]=[];
   let working=false, current:View|null=null, job:{view:View;target:WebGLRenderTarget|null}|null=null;
@@ -60,7 +61,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
   const failVisible = (error: unknown, source: 'context'|'runtime') => {
     if(disposed || failed) return;
     failed=error instanceof Error ? error : new Error(String(error)); serial++; cancelAnimationFrame(raf);
-    prepared.clear(); rejectLife(failed);
+    prepared.clear(); complete.clear(); rejectLife(failed);
     for(const task of tasks.splice(0)) task.reject(failed);
     options.onStatus({key:source,phase:'failed',error:failed.message});
   };
@@ -87,7 +88,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
     const counts={geometries:geometries.size,materials:materials.size,textures:textures.size};
     disposeOwned();
     target?.dispose(); envTarget?.dispose(); renderer?.dispose();
-    views.clear(); buffers.clear(); prepared.clear();
+    views.clear(); buffers.clear(); prepared.clear(); complete.clear();
     performance.mark('mall-3d:disposed', { detail: { ...detail, ...counts } });
   };
   try {
@@ -178,7 +179,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
           await race(renderer.readRenderTargetPixelsAsync(target,0,0,1,1,new Uint8Array(4)));alive();gpuDone();
           } catch(error) {gpuDone('failed');throw error;} });
           done();
-          status(task.request,'ready');mark(`prepared:${key(task.request)}`);task.resolve();
+          complete.add(key(task.request));status(task.request,'ready');mark(`prepared:${key(task.request)}`);task.resolve();
         }catch(error){done('failed');prepared.delete(key(task.request));status(task.request,'failed',String(error));task.reject(error);}
         await new Promise(resolve=>setTimeout(resolve,0));
       }}finally{working=false;}
@@ -201,16 +202,18 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
     setupDone();
     return {
       prepare: request=>prepare(request,1),
+      isPrepared: request=>!disposed&&!failed&&complete.has(key(request)),
       async show(request) {
-        const id=++serial;await prepare(request,3);alive();if(id!==serial)return;
+        const id=++serial;
         // The overview keeps the exterior's registered camera underneath the
         // source-plan presentation. Its complete mesh view is still prepared.
-        const view=request.kind==='overview'?views.get(key({kind:'exterior',floorId:request.floorId}))!:views.get(key(request))!;
-        await gpu(async()=>{
+        const present=()=>{
           if(id!==serial)return;
+          alive();
+          const view=request.kind==='overview'?views.get(key({kind:'exterior',floorId:request.floorId}))!:views.get(key(request))!;
           const host=options.sceneHosts?.[request.kind];
           host?.append(canvas);if(host)resize?.observe(host);
-          ensureSize(view);await race(renderer.compileAsync(view.scene,view.camera));alive();if(id!==serial)return;
+          ensureSize(view);
           const frameDone=timing('scene-render',{...detail,...request});
           try {draw(view,false);alive();frameDone('ready',{frame:renderer.info.render.frame});}catch(error){frameDone('failed');throw error;}if(id!==serial)return;
           current=view;canvas.dataset.sceneKey=key(request);canvas.dataset.completeFrame=String(renderer.info.render.frame);
@@ -218,7 +221,14 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
           for(const geometry of geometries){for(const attribute of Object.values(geometry.attributes))geometryBytes+=attribute.array.byteLength;geometryBytes+=geometry.index?.array.byteLength??0;}
           for(const texture of textures){const image=texture.image;if(image && typeof image==='object' && 'width' in image && 'height' in image)textureBytes+=Number(image.width)*Number(image.height)*4*(texture.generateMipmaps?4/3:1);}
           performance.mark('mall-3d:resources',{detail:{...detail,geometries:geometries.size,geometryBytes,materials:materials.size,textures:textures.size,estimatedTextureBytes:Math.round(textureBytes),views:views.size,estimatedRenderTargetBytes:target.width*target.height*8,estimatedEnvironmentBytes:(envTarget?.width??0)*(envTarget?.height??0)*8,estimateLimit:'Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs.'}});
-        });if(id!==serial)return;
+        };
+        // Preparation already compiled shaders and completed a GPU readback.
+        // Reuse can render synchronously before React paints a changed selection.
+        if(!gpuBusy&&complete.has(key(request)))present();
+        // A busy background GPU job retains the previous complete presentation
+        // until this prepared view can draw; it does not invalidate preparation.
+        else {await prepare(request,3);alive();if(id!==serial)return;await gpu(async()=>{present();});}
+        if(id!==serial)return;
         mark(`shown:${key(request)}`);refreshAnimation();
         if(!backgroundStarted){backgroundStarted=true;setTimeout(()=>{if(disposed||failed)return;for(const floor of data.floors)for(const kind of ['map','discovery'] as const)void prepare({kind,floorId:floor.id}).catch(()=>{});},0);}
       },
