@@ -1,0 +1,45 @@
+{
+  "revision": "completion-packet-2026-10-17-r1",
+  "approval": "pending",
+  "ownerApprovedAt": null,
+  "sourceCsvOccurrences": 383,
+  "excludedOwnerOccurrences": 9,
+  "candidateIdentities": 371,
+  "candidateFloorLocations": 378,
+  "mappingStates": {
+    "official-source-polygon": 163,
+    "source-schematic-association": 24,
+    "precise-location-pending": 191
+  },
+  "original170States": {
+    "precise-location-pending": 128,
+    "official-source-polygon": 42
+  },
+  "bilingualSuppliedCandidates": 369,
+  "bilingualListingPlaceholders": 2,
+  "photoCandidateDestinations": 212,
+  "officialMallDirectoryRecords": 165,
+  "separateTakashimayaCounterCandidates": 199,
+  "counterScopeConflicts": 2,
+  "byMall": {
+    "vincom-dong-khoi": {
+      "identities": 206,
+      "floorLocations": 208,
+      "preciseLocationPending": 185,
+      "mediaCandidateIdentities": 49
+    },
+    "saigon-centre": {
+      "identities": 165,
+      "floorLocations": 170,
+      "preciseLocationPending": 6,
+      "mediaCandidateIdentities": 163
+    }
+  },
+  "vincomUnitEvidenceRows": 20,
+  "vincomUnitRowsWithExactCodeCandidate": 0,
+  "mediaCandidateAssets": 1188,
+  "approvedMediaAssets": 0,
+  "approvedCandidateLocations": 0,
+  "noMediaCandidateIdentities": 159,
+  "separateCounterCandidates": 199
+}

@@ -1,0 +1,73 @@
+{
+  "sourceCommit": "8057d33a9e8f6f5ce52286bee759a4b2a4963ae6",
+  "inputs": [
+    {
+      "path": "docs/research/all-record-map-comparison (1).csv",
+      "bytes": 137304,
+      "sha256": "765115f15c6ab4323f62e2e78f34a34635356bb02dccea9020716a8d76948f7f"
+    },
+    {
+      "path": "docs/research/store-data-vincom-dong-khoi.json",
+      "bytes": 67871,
+      "sha256": "47fd0e3bfa934d953c285c04ff9a78d4d851d91fcd5314503b304479a782606c"
+    },
+    {
+      "path": "docs/evidence/category-2026-10-17/store-data-vincom-dong-khoi.json",
+      "bytes": 67871,
+      "sha256": "47fd0e3bfa934d953c285c04ff9a78d4d851d91fcd5314503b304479a782606c"
+    },
+    {
+      "path": "docs/evidence/category-2026-10-17/store-data-saigon-centre.json",
+      "bytes": 44700,
+      "sha256": "451f397a002b75d8ae6f0d2b747a6e6a06c746cb2d62e7db53be933b52466df9"
+    },
+    {
+      "path": "implementation/mall-visitor/data/research/vincom-dong-khoi.json",
+      "bytes": 57463,
+      "sha256": "fd3adaf8d5fda9fe290f8b47cfe48a6a1d589e8cd68c3dd0523f5a7d71c264d4"
+    },
+    {
+      "path": "implementation/mall-visitor/data/malls/vincom-dong-khoi/floor-geometry.json",
+      "bytes": 243505,
+      "sha256": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e"
+    },
+    {
+      "path": "implementation/mall-visitor/data/malls/vincom-dong-khoi/directory.json",
+      "bytes": 239,
+      "sha256": "655b60fc93a992c31c3d676cdd00f1baa3fd5892ca7ab648a5cd3cb5d0fcf80f"
+    },
+    {
+      "path": "implementation/mall-visitor/data/research/saigon-centre.json",
+      "bytes": 74865,
+      "sha256": "659a3f20a4e8477b3b1faf7c4df34718f25b0b76cab30125b24584a0b4b8caf2"
+    },
+    {
+      "path": "implementation/mall-visitor/data/malls/saigon-centre/floor-geometry.json",
+      "bytes": 5181012,
+      "sha256": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807"
+    },
+    {
+      "path": "implementation/mall-visitor/data/malls/saigon-centre/directory.json",
+      "bytes": 236,
+      "sha256": "36426de132ca81b552b51ed08982b2c8d69d5f11932d2c70663be347a6a9d32c"
+    }
+  ],
+  "publicSnapshots": [
+    {
+      "mall": "vincom-dong-khoi",
+      "revision": "directory-pending-2026-10-14-r1",
+      "approval": "pending",
+      "reviewedAt": null,
+      "destinations": 0
+    },
+    {
+      "mall": "saigon-centre",
+      "revision": "directory-pending-2026-10-14-r1",
+      "approval": "pending",
+      "reviewedAt": null,
+      "destinations": 0
+    }
+  ],
+  "trackedDiffAtVerification": [],
+  "limits": "Hashes establish input identity, not current occupancy, copyright permission or editorial approval."
+}

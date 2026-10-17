@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "ownerOccurrenceLineage": true,
+    "uniqueCandidateIds": true,
+    "floorTotal": true,
+    "original170": true,
+    "noApprovalFabricated": true,
+    "allRowsReviewable": true,
+    "mediaSchemas": true,
+    "locationRegionsExist": true
+  },
+  "missingRegionReferences": [],
+  "limits": [
+    "Research review only. Source polygons remain unregistered to the exterior/existing schematic frame.",
+    "Source description translation and media provenance do not imply editorial/rights approval."
+  ]
+}
