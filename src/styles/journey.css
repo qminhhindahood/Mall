@@ -140,7 +140,7 @@ html{overflow-anchor:none}
 
 /* The caption and graphic share one sticky anchor throughout the reveal. */
 .exterior-floor-journey .introduction-copy{opacity:calc(1 - var(--floor-reveal));background:var(--paper)}
-.registered-floors{grid-template-rows:auto minmax(0,1fr);align-content:center;row-gap:12px}
+.registered-floors{grid-template-rows:auto minmax(0,1fr);align-content:center;row-gap:12px;background:var(--paper)}
 .overview-caption{grid-column:1 / -1;width:80%;justify-self:center;text-align:center;opacity:calc(1 - var(--floor-travel));transform:scale(var(--caption-scale,1));transform-origin:50% 100%}
 .overview-caption h2{font-size:clamp(28px,3vw,42px);line-height:1.2;margin:0 0 12px}
 .overview-caption p{margin:8px auto;max-width:65ch}
