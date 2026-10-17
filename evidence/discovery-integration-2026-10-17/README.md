@@ -2,6 +2,8 @@
 
 Revision `discovery-integration-2026-10-17-r1`; application commits `a4dc9b9`, `aa38848`, from baseline `6072493` on `integration/continuous-visitor-journey`. Implements the owner's chosen A list/map structure in the shared Astro/React application: optional visible-by-default categories, complete floor-grouped collections, search/floor filters, persistent map, numbered source-supported regions and floating glass details. Selection preserves Discovery; close restores browsing context/focus/scroll; locale switches preserve selected details. Multi-floor links and shared-area chooser reuse the common selection state. Map zoom/expand remains available. Missing descriptions, photos and precise locations are not fabricated.
 
+[Propagation receipt](propagation.json): Vincom `faa6986`; whole Saigon Centre/Takashimaya `97958ec`. Both targets were clean before copying. All27changed shared application/data/documentation files match SHA256 in both `visitor-app/` trees; scoped commits preserve mall-specific files. Canonical reconciliation scripts refer to the shared checkout's root research inputs.
+
 Research inputs are explicitly opt-in: `INCLUDE_TEST_FIXTURES=research MALL_ID=vincom-dong-khoi npm run build` (or `saigon-centre`; use PowerShell environment assignments on Windows). Preview outputs are `dist/research/{mall}`; serve with `node scripts/serve-static.mjs --mall {mall} --dir dist/research/{mall} --port 4333 --acceptance` (Saigon port4334). Public build omits the fixture variable. Both public release manifests remain `directoryApproval:pending`, `releaseApproved:false`. See [input reconciliation](../../docs/content-preparation/discovery-integration-2026-10-17/README.md).
 
 ## Validation
