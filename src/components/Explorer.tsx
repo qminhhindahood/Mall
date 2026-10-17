@@ -153,7 +153,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     setSelection(resolveRoute());
     setRouteResolved(true);
     history.scrollRestoration='manual';
-    const savePosition=()=>history.replaceState({...history.state,scrollY:window.scrollY},'');
+    const savePosition=()=>{if(!focusRequest.current)history.replaceState({...history.state,scrollY:window.scrollY},'');};
     window.addEventListener('scroll',savePosition,{passive:true});
     const pop = () => {
       const next=resolveRoute();
@@ -343,8 +343,11 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     if(next.destinationId && !selection.destinationId)returnFocus.current=event?.currentTarget??document.activeElement as HTMLElement;
     setFloorCorrected(false);
     beginRequest(next);
-    history.replaceState({...history.state,scrollY:window.scrollY},'');
-    history.pushState({scrollY:window.scrollY},'',href(next));
+    if(!focusRequest.current)history.replaceState({...history.state,scrollY:window.scrollY},'');
+    // A requested section has no destination scroll position until presented.
+    // Saving the departure position here sends pending Back/forward back to
+    // the exterior; the ordinary scroll observer records the actual arrival.
+    history.pushState(next.locale!==selection.locale&&load==='ready'&&!focusRequest.current?{scrollY:window.scrollY}:{},'',href(next));
     if (next.locale === selection.locale) {pendingFocus.current=focusTarget(next);focusRequest.current=next;}
     setSelection(next);
     // Locale switches preserve the language-control focus; content focus follows
