@@ -21,6 +21,10 @@ const geometry: FloorDataset = fs.existsSync(geometryPath) ? JSON.parse(fs.readF
 };
 const contentPath = path.join(process.cwd(),'data','malls',mallId,'directory.json');
 let snapshot: DirectorySnapshot = JSON.parse(fs.readFileSync(contentPath,'utf8'));
+if (process.env.INCLUDE_TEST_FIXTURES === 'research') {
+  const { createResearchFixtures } = await import('./research-fixtures');
+  snapshot = createResearchFixtures(JSON.parse(fs.readFileSync(path.join(process.cwd(),'data','research',`${mallId}.json`),'utf8')),mallId,geometry);
+}
 if (process.env.INCLUDE_TEST_FIXTURES === '1') {
   const { createFixtures } = await import('./fixtures');
   snapshot = createFixtures(mallId,geometry);

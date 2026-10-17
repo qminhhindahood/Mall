@@ -5,6 +5,6 @@ if (!['saigon-centre', 'vincom-dong-khoi'].includes(mallId)) throw new Error('Un
 export default defineConfig({
   integrations: [react()],
   output: 'static',
-  outDir: process.env.INCLUDE_TEST_FIXTURES === '1' ? `./dist/fixtures/${mallId}` : `./dist/${mallId}`,
+  outDir: process.env.INCLUDE_TEST_FIXTURES === 'research' ? `./dist/research/${mallId}` : process.env.INCLUDE_TEST_FIXTURES === '1' ? `./dist/fixtures/${mallId}` : `./dist/${mallId}`,
   trailingSlash: 'never',
 });

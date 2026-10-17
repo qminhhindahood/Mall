@@ -11,10 +11,12 @@ import OverviewStack from './OverviewStack';
 import JourneyMotion from './JourneyMotion';
 import { sharedFloorBounds } from './floor-frame';
 import { journeyCopy } from './journey-copy';
-import { categoryFloor } from '../data/content';
+import { discoveryFloor, defaultDiscoveryCategory } from '../data/discovery';
+import Discovery from './Discovery';
+import { discoveryAreaNumbers } from './discovery-map';
 import { timing } from '../runtime/loading-timing';
 
-export type ExplorerSelection = { locale: Locale; floorId: string; kind: SceneKind; destinationId?: string; query?: string; categoryId?: string; discoveryCategoryId?: string; areaId?: string };
+export type ExplorerSelection = { locale: Locale; floorId: string; kind: SceneKind; destinationId?: string; query?: string; categoryId?: string; discoveryCategoryId?: string; discoveryFloorId?: string; discoveryQuery?: string; areaId?: string };
 function defaultFloorId(site: SiteData, floors = site.geometry.floors) {
   if (floors.some(floor => floor.id === site.defaultFloor)) return site.defaultFloor;
   return floors.find(floor => floor.id === 'L1')?.id ?? floors[0]?.id ?? 'L1';
@@ -29,18 +31,21 @@ function selectionFromUrl(url: URL, site: SiteData, fallback: ExplorerSelection)
   const view = url.searchParams.get('view');
   const kind = ['exterior','overview','map','discovery'].includes(view ?? '') ? view as SceneKind : segments[1] ? 'map' : fallback.kind;
   const category=(key:string)=>site.content.categories.find(c=>c.id===url.searchParams.get(key))?.id;
-  return { locale, floorId, kind, destinationId: destination?.id, query:url.searchParams.get('q')?.slice(0,160)||undefined, categoryId:category('category'), discoveryCategoryId:category('collection'), areaId:site.content.areas.find(a=>a.id===url.searchParams.get('area')&&a.floorId===floorId)?.id };
+  return { locale, floorId, kind, destinationId: destination?.id, query:url.searchParams.get('q')?.slice(0,160)||undefined, categoryId:category('category'), discoveryCategoryId:category('collection'), discoveryFloorId:site.geometry.floors.find(f=>f.id===url.searchParams.get('collectionFloor'))?.id, discoveryQuery:url.searchParams.get('collectionQ')?.slice(0,160)||undefined, areaId:site.content.areas.find(a=>a.id===url.searchParams.get('area')&&a.floorId===floorId)?.id };
 }
 
 export default function Explorer({ site, initial }: { site: SiteData; initial: ExplorerSelection }) {
   const [selection,setSelection] = useState(initial);
   const [zoom,setZoom] = useState(1);
   const [angled,setAngled] = useState(false);
+  const [mapExpanded,setMapExpanded] = useState(false);
   const mapJourney=useRef<HTMLDivElement>(null);
   const exteriorJourney=useRef<HTMLDivElement>(null);
   const travelRequest=useRef(false);
   const returnFocus=useRef<HTMLElement|null>(null);
   const restoreScroll=useRef<number|null>(null);
+  const discoveryReturn=useRef<{selection:ExplorerSelection;scrollY:number}|null>(null);
+  const closingDiscovery=useRef(false);
   const localeScroll=useRef<number|null>(null);
   const [load,setLoad] = useState<'static'|'loading'|'ready'|'failed'>('static');
   // Cached shows can finish in one React batch without changing `load`.
@@ -73,8 +78,9 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   latest.current = selection;
   const c = copy[selection.locale];
   const j = journeyCopy[selection.locale];
-  const discoveryCategory=selection.discoveryCategoryId??site.content.categories[0]?.id??'';
-  const previewFloor=categoryFloor(site.destinations,discoveryCategory,geometry,selection.floorId);
+  const discoveryCategory=selection.discoveryCategoryId??defaultDiscoveryCategory(site);
+  const previewFloor=discoveryFloor(site,selection,geometry);
+  const areaNumbers=discoveryAreaNumbers(site.content,discoveryCategory,selection.discoveryQuery??'',previewFloor);
   const displayedFloor=selection.kind==='discovery'?previewFloor:selection.floorId;
   const floor = geometry.floors.find(f => f.id === displayedFloor) ?? geometry.floors.find(f => f.id === defaultFloorId(site, geometry.floors)) ?? geometry.floors[0]!;
 
@@ -264,7 +270,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       await Promise.all(['exterior','overview'].map(kind => instance.prepare({kind: kind as SceneKind, floorId: site.defaultFloor})));
       if (!alive) return;
       let requested;
-      do {requested=latest.current;await instance.show({...requested,floorId:requested.kind==='discovery'?categoryFloor(site.destinations,requested.discoveryCategoryId??site.content.categories[0]?.id??'',geometry,requested.floorId):requested.floorId});if(!alive)return;} while(requested.kind!==latest.current.kind || requested.floorId!==latest.current.floorId);
+      do {requested=latest.current;await instance.show({...requested,floorId:requested.kind==='discovery'?discoveryFloor(site,requested,geometry):requested.floorId});if(!alive)return;} while(requested.kind!==latest.current.kind || requested.floorId!==latest.current.floorId);
       if (alive) {
         entered.current=true;
         document.querySelector<HTMLElement>('.static-guide')?.setAttribute('hidden','');
@@ -324,11 +330,11 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     const floorKey=requested.kind==='exterior'||requested.kind==='overview'?'all':requested.kind==='discovery'?previewFloor:requested.floorId;
     if(load==='ready'&&!canvas.current?.dataset.sceneKey?.endsWith(`:${requested.kind}:${floorKey}`))return;
     const target=focusTarget(requested);
-    if(target?.isConnected){target.focus({preventScroll:true});if(restoreScroll.current!==null){window.scrollTo({top:restoreScroll.current,behavior:'instant'});restoreScroll.current=null;}else target.scrollIntoView({behavior:travelRequest.current&&!reducedMotion?'smooth':'instant',block:'start'});travelRequest.current=false;focusRequest.current=null;pendingFocus.current=null;}
+    if(target?.isConnected){target.focus({preventScroll:true});if(restoreScroll.current!==null){window.scrollTo({top:restoreScroll.current,behavior:'instant'});restoreScroll.current=null;}else target.scrollIntoView({behavior:travelRequest.current&&!reducedMotion?'smooth':'instant',block:'start'});travelRequest.current=false;focusRequest.current=null;pendingFocus.current=null;closingDiscovery.current=false;}
   },[load,selection,presentation]);
-  function focusTarget(next: ExplorerSelection) { return next.destinationId ? destinationContent.current : next.kind==='map'&&(next.query||next.categoryId)?document.getElementById('directory-heading'):sections.current[next.kind] ?? null; }
+  function focusTarget(next: ExplorerSelection) { if(closingDiscovery.current&&returnFocus.current?.isConnected)return returnFocus.current; return next.destinationId || next.kind==='discovery'&&next.areaId ? destinationContent.current : next.kind==='map'&&(next.query||next.categoryId)?document.getElementById('directory-heading'):sections.current[next.kind] ?? null; }
   function beginRequest(next: ExplorerSelection) {
-    const effective=(value:ExplorerSelection)=>value.kind==='discovery'?categoryFloor(site.destinations,value.discoveryCategoryId??site.content.categories[0]?.id??'',geometry,value.floorId):value.floorId;
+    const effective=(value:ExplorerSelection)=>value.kind==='discovery'?discoveryFloor(site,value,geometry):value.floorId;
     if (!entered.current || next.kind===latest.current.kind && effective(next)===effective(latest.current)) return;
     // Commit the gate with selection, before an unprepared view can paint.
     if(!runtime.current?.isPrepared({...next,floorId:effective(next)}))setLoad('loading');
@@ -340,7 +346,11 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     event?.preventDefault();
     travelRequest.current=next.kind==='map'&&selection.kind==='overview'&&!next.destinationId;
     if(next.locale!==selection.locale)localeScroll.current=window.scrollY;
-    if(next.destinationId && !selection.destinationId)returnFocus.current=event?.currentTarget??document.activeElement as HTMLElement;
+    if(next.kind==='discovery'&&(next.destinationId||next.areaId)&&!selection.destinationId&&!selection.areaId) {
+      discoveryReturn.current={selection:{...selection},scrollY:window.scrollY};
+      returnFocus.current=event?.currentTarget??document.activeElement as HTMLElement;
+    } else if(next.destinationId && !selection.destinationId)returnFocus.current=event?.currentTarget??document.activeElement as HTMLElement;
+    if(next.kind==='discovery'&&selection.kind==='discovery')restoreScroll.current=window.scrollY;
     setFloorCorrected(false);
     beginRequest(next);
     if(!focusRequest.current)history.replaceState({...history.state,scrollY:window.scrollY},'');
@@ -352,6 +362,15 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     setSelection(next);
     // Locale switches preserve the language-control focus; content focus follows
     // the committed ready/error state, including already-prepared fast views.
+  }
+  function closeDiscovery(restoreFocus=true) {
+    const prior=discoveryReturn.current;
+    const next={...(prior?.selection??selection),destinationId:undefined,areaId:undefined,kind:'discovery' as const};
+    discoveryReturn.current=null;
+    beginRequest(next);
+    history.pushState({scrollY:prior?.scrollY??window.scrollY},'',href(next));
+    if(restoreFocus){closingDiscovery.current=true;restoreScroll.current=prior?.scrollY??window.scrollY;focusRequest.current=next;}
+    setSelection(next);
   }
   const change = (kind: SceneKind, floorId=selection.floorId): ExplorerSelection => ({...selection,kind,floorId,destinationId:undefined});
   return <>
@@ -394,10 +413,10 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
         </div>
       </div>
       <JourneyMotion stage={exteriorJourney} mapJourney={mapJourney} floor={floor} floors={geometry.floors} title={c.map} reducedMotion={reducedMotion} paused={paused} runtime={runtime}/>
-      <div className="map-discovery-journey" ref={mapJourney}>
-        <div className="persistent-map">
+      <div className="map-discovery-journey" data-discovery={selection.kind==='discovery'} ref={mapJourney}>
+        <div className="persistent-map" data-expanded={mapExpanded}>
           <div className="scene-host scene-host-map" ref={element=>{if(element){sceneHosts.current.map=element;sceneHosts.current.discovery=element;}}} data-scene-kind={selection.kind==='discovery'?'discovery':'map'} data-floor={routeResolved?floor.id:undefined}>
-            <div className="map-transform" style={{transform:`scale(${zoom}) rotateX(${angled?25:0}deg)`}}>{!routeResolved?<p>{c.preparing}</p>:!floor.regions.length&&floor.preview?<img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`}/>:<FloorMap floor={floor} viewBounds={sharedFloorBounds(geometry.floors)} title={c.map} content={site.content} locale={selection.locale} selectedDestination={selection.kind==='map'?selection.destinationId:undefined} selectedArea={selection.areaId} onArea={areaId=>navigate({...change('map',floor.id),areaId})}/>}</div>
+            <div className="map-transform" style={{transform:`scale(${zoom}) rotateX(${angled?25:0}deg)`}}>{!routeResolved?<p>{c.preparing}</p>:!floor.regions.length&&floor.preview?<img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`}/>:<FloorMap floor={floor} viewBounds={selection.kind==='discovery'?floor.bounds:sharedFloorBounds(geometry.floors)} title={c.map} content={site.content} locale={selection.locale} selectedDestination={selection.destinationId} selectedArea={selection.areaId} areaNumbers={selection.kind==='discovery'?areaNumbers:undefined} onArea={areaId=>{if(selection.kind!=='discovery'){navigate({...change('map',floor.id),areaId});return;}const destinations=site.destinations.filter(d=>d.locations.some(l=>l.floorId===floor.id&&l.areaIds.includes(areaId)));navigate({...selection,kind:'discovery',floorId:floor.id,areaId:destinations.length===1?undefined:areaId,destinationId:destinations.length===1?destinations[0].id:undefined});}}/>}</div>
           </div>
           <div className="map-controls glass" role="group" aria-label={c.map}>
             <span>{selection.kind==='discovery'?j.preview:c.heading} {routeResolved?floor.id:''}</span>
@@ -406,6 +425,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
             <button aria-pressed={angled} title={j.angle} onClick={()=>setAngled(!angled)}><MapControlIcon kind="angle"/><span className="visually-hidden">{j.angle}</span></button>
             <button title={j.reset} onClick={()=>{setZoom(1);setAngled(false);}}><MapControlIcon kind="reset"/><span className="visually-hidden">{j.reset}</span></button>
           </div>
+          {selection.kind==='discovery'&&<div className="discovery-map-context"><p>{Object.keys(areaNumbers).length} {j.areas} · {floor.id}</p><button type="button" aria-expanded={mapExpanded} onClick={()=>setMapExpanded(!mapExpanded)}>{selection.locale==='vi'?(mapExpanded?'Thu gọn sơ đồ':'Phóng lớn sơ đồ'):(mapExpanded?'Collapse map':'Expand map')}</button></div>}
           <p className="disclosure">{c.uncertainty}</p>
         </div>
         <div className="journey-reading">
@@ -421,16 +441,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
             {routeResolved&&floor.preview&&<details><summary>{c.preview} · {floor.label}</summary><img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`} loading="lazy"/></details>}
           </section>
           <section id="scene-discovery" ref={element=>{if(element)sections.current.discovery=element;}} tabIndex={-1} className="discovery-reading" aria-label={c.discovery}>
-            <h2>{c.discovery}</h2><p>{j.preview} · {previewFloor}</p>
-            {site.content.approval==='pending'&&<p>{j.pending}</p>}
-            {site.content.approval==='fixture'&&<p className="fixture-notice">{j.fixture}</p>}
-            <nav className="categories" aria-label={j.categories}>{site.content.categories.map(category=>{const next={...change('discovery'),discoveryCategoryId:category.id};return <a key={category.id} href={href(next)} aria-current={discoveryCategory===category.id?'true':undefined} onClick={event=>navigate(next,event)}>{category.name[selection.locale]}</a>;})}</nav>
-            <h3>{j.highlights}</h3>
-            {site.content.highlights.filter(h=>h.categoryId===discoveryCategory&&h.floorId===previewFloor).map(h=>{const d=site.destinations.find(d=>d.id===h.destinationId)!;const next={...change('map',h.floorId),destinationId:d.id};return <p key={d.id}><a href={href(next)} onClick={event=>navigate(next,event)}>{d.name[selection.locale]}</a></p>;})}
-            {!site.content.highlights.some(h=>h.categoryId===discoveryCategory&&h.floorId===previewFloor)&&<p>{j.noHighlights}</p>}
-            {discoveryCategory&&!site.destinations.some(d=>d.status==='open'&&d.categories.includes(discoveryCategory))&&<p>{j.empty}</p>}
-            {discoveryCategory&&<a className="view-all" href={href({...change('map'),categoryId:discoveryCategory,query:undefined})} onClick={event=>navigate({...change('map'),categoryId:discoveryCategory,query:undefined},event)}>{j.viewAll}</a>}
-            <p><a href={href(change('map'))} onClick={event=>navigate(change('map'),event)}>{j.returnMap} · {selection.floorId}</a></p>
+            <Discovery site={site} selection={selection} previewFloor={previewFloor} areaNumbers={areaNumbers} active={selection.kind==='discovery'} navigate={navigate} detailRef={destinationContent} closeDetail={closeDiscovery}/>
           </section>
         </div>
       </div>

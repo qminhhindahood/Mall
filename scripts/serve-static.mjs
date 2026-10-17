@@ -22,7 +22,7 @@ createServer(async (req,res)=>{
     const pathname = decodeURIComponent(url.pathname);
     if (acceptance && pathname.startsWith('/__acceptance/')) {
       const name = pathname.slice('/__acceptance/'.length);
-      if (!['browser-platform-fixtures.js','browser-runtime-checks.js','browser-acceptance-checks.js'].includes(name)) {res.writeHead(404);res.end();return;}
+      if (!['browser-platform-fixtures.js','browser-runtime-checks.js','browser-acceptance-checks.js','browser-discovery-checks.js'].includes(name)) {res.writeHead(404);res.end();return;}
       const bytes = await readFile(resolve(root,'tests',name));
       res.writeHead(200, {'Content-Type':'text/javascript','Cache-Control':'no-store'});res.end(bytes);return;
     }

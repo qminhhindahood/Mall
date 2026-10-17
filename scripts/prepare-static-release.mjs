@@ -2,8 +2,8 @@ import {readFile,writeFile,readdir,stat,copyFile} from 'node:fs/promises';
 import {join} from 'node:path';
 const mall=process.env.MALL_ID??'saigon-centre';
 if(!['saigon-centre','vincom-dong-khoi'].includes(mall))throw new Error('Unknown mall');
-const fixture=process.env.INCLUDE_TEST_FIXTURES==='1';
-const root=`dist/${fixture?'fixtures/':''}${mall}`;
+const fixture=['1','research'].includes(process.env.INCLUDE_TEST_FIXTURES);
+const root=`dist/${process.env.INCLUDE_TEST_FIXTURES==='research'?'research/':fixture?'fixtures/':''}${mall}`;
 const files=[];
 async function walk(dir){for(const item of await readdir(dir,{withFileTypes:true})){const path=join(dir,item.name);if(item.isDirectory())await walk(path);else files.push({path,bytes:(await stat(path)).size});}}
 await walk(root);

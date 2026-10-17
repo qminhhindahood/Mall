@@ -1,0 +1,2210 @@
+{
+  "mallId": "vincom-dong-khoi",
+  "sourceRevision": "0019-discovery-layout-2026-10-17-r5b",
+  "notice": "Research preview only; not a current approved directory. Source-layout associations, not editorial or occupancy approval.",
+  "categories": [
+    {
+      "id": "category-0",
+      "label": "Thời trang"
+    },
+    {
+      "id": "category-1",
+      "label": "Ẩm thực"
+    },
+    {
+      "id": "category-2",
+      "label": "Vui chơi giải trí"
+    },
+    {
+      "id": "category-3",
+      "label": "Rạp chiếu phim"
+    },
+    {
+      "id": "category-4",
+      "label": "Mẹ & bé"
+    },
+    {
+      "id": "category-5",
+      "label": "Nội thất, gia dụng & điện máy"
+    },
+    {
+      "id": "category-6",
+      "label": "Giày dép & túi xách"
+    },
+    {
+      "id": "category-7",
+      "label": "Trang sức, đồng hồ & mắt kính"
+    },
+    {
+      "id": "category-8",
+      "label": "Mỹ phẩm & làm đẹp"
+    },
+    {
+      "id": "category-9",
+      "label": "Đồ dùng & quà tặng"
+    },
+    {
+      "id": "category-10",
+      "label": "Siêu thị"
+    },
+    {
+      "id": "category-11",
+      "label": "Thể thao & wellness"
+    }
+  ],
+  "records": [
+    {
+      "id": "vincom-prototype-adidas",
+      "name": "Adidas",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua giày sneaker, trang phục thể thao và trải nghiệm không gian thể thao.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-adidasoriginals",
+      "name": "Adidas Originals",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua giày Superstar, Stan Smith và áo khoác ba sọc kinh điển.",
+      "openingSoon": false,
+      "website": "https://www.adidas.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-anphuoc",
+      "name": "An Phước",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua áo sơ mi, quần tây và veston chuẩn phom dáng cho quý ông.",
+      "openingSoon": false,
+      "website": "https://www.anphuoc.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-aristino",
+      "name": "Aristino",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua áo sơ mi, quần tây và trang phục công sở nam.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-nike",
+      "name": "Nike",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua giày thể thao và trang phục tập luyện.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-nikerise",
+      "name": "Nike Rise",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Khám phá và mua các sản phẩm Nike mới nhất.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-calvinklein",
+      "name": "Calvin Klein",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua quần jean, áo thun và đồ lót CK.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-cottonon",
+      "name": "Cotton On",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua quần jean, áo thun và trang phục thường ngày trẻ trung với mức giá hợp lý.",
+      "openingSoon": false,
+      "website": "https://cottonon.com/VN/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-thenewplayground",
+      "name": "The New Playground",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua sắm streetwear từ các thương hiệu local Việt.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-gap",
+      "name": "GAP",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua áo hoodie, quần khaki, áo thun và đồ jeans chất lượng.",
+      "openingSoon": false,
+      "website": "https://www.gap.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-giordano",
+      "name": "Giordano",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua sắm áo thun, quần kaki, trang phục đơn giản hàng ngày.",
+      "openingSoon": false,
+      "website": "https://www.giordano.com/VN/en-US/",
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-026",
+            "code": "B2-55-56",
+            "evidence": "combined-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-gigi",
+      "name": "GiGi",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua đầm thiết kế, trang phục dạo phố và công sở dành cho nữ.",
+      "openingSoon": false,
+      "website": "https://gigi.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-guess",
+      "name": "Guess",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua trang phục denim và phụ kiện thời trang.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-gustavogano",
+      "name": "Gustavo Gano",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua sắm trang phục lịch sự, sang trọng.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-017",
+            "code": "B2-45A",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-hm",
+      "name": "H&M",
+      "floors": [
+        "L2",
+        "M"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua sắm quần áo và phụ kiện đa dạng mẫu mã cho nam, nữ và trẻ em với mức giá hợp lý.",
+      "openingSoon": false,
+      "website": "https://www.hm.com/vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-lacoste",
+      "name": "Lacoste",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua áo polo và trang phục thể thao lịch lãm.",
+      "openingSoon": false,
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-001",
+            "code": "L1-06A",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-levis",
+      "name": "Levi’s",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua quần jeans 501, áo khoác denim và áo thun logo.",
+      "openingSoon": false,
+      "website": "https://levi.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-lining",
+      "name": "Li-Ning",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua giày thể thao và trang phục tập luyện.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-025",
+            "code": "B2-46B",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-mlb",
+      "name": "MLB",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua nón kết, áo thun, áo hoodie và giày chunky phong cách thể thao.",
+      "openingSoon": false,
+      "website": "https://www.mlb-korea.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-newbalance",
+      "name": "New Balance",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua giày sneaker và trang phục thể thao.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-poloralphlauren",
+      "name": "Polo Ralph Lauren",
+      "floors": [
+        "M"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua áo polo và trang phục preppy sang trọng.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-skechers",
+      "name": "Skechers",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Chọn mua giày thể thao nhẹ êm, giày đi bộ cho cả gia đình.",
+      "openingSoon": false,
+      "website": "https://www.skechers.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-tommyhilfiger",
+      "name": "Tommy Hilfiger",
+      "floors": [
+        "M"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua sắm áo polo, quần chino và trang phục thường ngày sang trọng.",
+      "openingSoon": false,
+      "website": "https://th.acfc.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-valentinocreations",
+      "name": "Valentino Creations",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Chọn mua áo sơ mi, quần tây, suit công sở, giày da và phụ kiện cao cấp cho phái mạnh.",
+      "openingSoon": false,
+      "website": "https://vcfashion.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-victoriassecret",
+      "name": "Victoria's Secret",
+      "floors": [
+        "M"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua đồ lót, đồ ngủ và nước hoa.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-vincy",
+      "name": "Vincy",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua trang phục nữ thời trang, giá hợp lý.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-wilson",
+      "name": "Wilson",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua dụng cụ tennis, cầu lông và đồ thể thao.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-zara",
+      "name": "ZARA",
+      "floors": [
+        "L1",
+        "M"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua sắm quần áo, giày dép và phụ kiện thời trang cập nhật xu hướng cho nam, nữ và trẻ em.",
+      "openingSoon": false,
+      "website": "https://www.zara.com/vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-cobrapumagolf",
+      "name": "Cobra Puma Golf",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua trang phục golf và dụng cụ chơi golf.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-fredperry",
+      "name": "Fred Perry",
+      "floors": [
+        "M"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua áo polo phong cách Anh.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-karllagerfeld",
+      "name": "Karl Lagerfeld",
+      "floors": [
+        "M"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua trang phục và phụ kiện thời trang cao cấp.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-massimodutti",
+      "name": "Massimo Dutti",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Chọn mua trang phục công sở, áo vest, đầm và phụ kiện da cao cấp.",
+      "openingSoon": false,
+      "website": "https://www.massimodutti.com/vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-pullbear",
+      "name": "Pull & Bear",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua áo thun, quần jean, áo khoác và đồ nỉ cá tính dành cho giới trẻ.",
+      "openingSoon": false,
+      "website": "https://www.pullandbear.com/vn/",
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-002",
+            "code": "L2-03",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-stradivarius",
+      "name": "Stradivarius",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua đầm, áo kiểu, quần jean và phụ kiện thời trang hợp xu hướng cho phái đẹp.",
+      "openingSoon": false,
+      "website": "https://www.stradivarius.com/vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-urbanrevivo",
+      "name": "Urban Revivo",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-0"
+      ],
+      "description": "Mua trang phục thời trang giá tốt.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-highlandscoffee",
+      "name": "Highlands Coffee",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Uống cà phê, thưởng thức trà Freeze và gặp gỡ bạn bè.",
+      "openingSoon": false,
+      "website": "https://www.highlandscoffee.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-koithe",
+      "name": "Koi Thé",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức trà sữa trân châu hoàng kim và trà Macchiato.",
+      "openingSoon": false,
+      "website": "https://www.koithe.com/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-thematchatokyo",
+      "name": "The Matcha Tokyo",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức matcha nguyên chất và các món tráng miệng từ matcha.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-hachiban",
+      "name": "Hachiban",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức mì ramen số 8 truyền thống và bánh gyoza.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "website": "https://www.facebook.com/hachiban.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-runamboutique",
+      "name": "Runam Boutique",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức cà phê pha máy/pha phin cao cấp, dùng bữa sang trọng, tiếp khách.",
+      "openingSoon": false,
+      "cuisine": "Australian",
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-006",
+            "code": "B2-15",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-tianlong",
+      "name": "Tian Long",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức lẩu bò tươi và các món nhúng tươi ngon.",
+      "openingSoon": false,
+      "cuisine": "Chinese",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-gogihouse",
+      "name": "Gogi House",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức thịt nướng BBQ Hàn Quốc và lẩu ngon.",
+      "openingSoon": false,
+      "cuisine": "Korean",
+      "website": "https://gogi.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-bastahiro",
+      "name": "Basta Hiro",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức mì Ý (pasta), pizza nướng củi và các món Âu.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "website": "https://bastahiro.com.vn/en/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-boatnoodle",
+      "name": "Boat Noodle",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức hủ tiếu thuyền Thái đậm đà hương vị.",
+      "openingSoon": false,
+      "cuisine": "Thai",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-chillithai",
+      "name": "Chilli Thai",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức lẩu Thái, cà ri và các món ăn đặc trưng Thái Lan.",
+      "openingSoon": false,
+      "cuisine": "Thai",
+      "website": "https://www.chillthai.vn/",
+      "locations": {
+        "B3": [
+          {
+            "region": "B3-region-012",
+            "code": "B3-01A",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-dahuhotpot",
+      "name": "Dahu Hotpot",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức lẩu cùng gia đình, bạn bè.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-dookkidookki",
+      "name": "Dookki Dookki",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Tự pha chế nước sốt lẩu bánh gạo, thưởng thức gà chiên, chả cá và cơm chiên.",
+      "openingSoon": false,
+      "cuisine": "Korean",
+      "website": "https://dookkivietnam.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-haidilao",
+      "name": "Haidilao",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức lẩu nhiều ngăn, trải nghiệm màn trình diễn múa mì và các dịch vụ đi kèm tại nhà hàng.",
+      "openingSoon": false,
+      "cuisine": "Chinese",
+      "website": "https://www.haidilao.com/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-hokkaidosachi",
+      "name": "Hokkaido Sachi",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức món Nhật và hải sản tươi sống chất lượng cao.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "website": "https://hokkaidosachi.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-huedelights",
+      "name": "Huế Delights",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức bún bò Huế và các loại bánh Huế truyền thống.",
+      "openingSoon": false,
+      "cuisine": "Vietnamese",
+      "website": "https://www.facebook.com/NhahangHueDelights/?locale=vi_VN",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-isushi",
+      "name": "iSushi",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức buffet sushi, sashimi và món Nhật không giới hạn.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-kichikichi",
+      "name": "Kichi Kichi",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức buffet lẩu với các món nhúng được phục vụ trên băng chuyền.",
+      "openingSoon": false,
+      "cuisine": "Vietnamese",
+      "website": "https://kichi.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-kingbbq",
+      "name": "King BBQ",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức buffet hoặc gọi món thịt nướng chuẩn vị Hàn Quốc.",
+      "openingSoon": false,
+      "cuisine": "Korean",
+      "website": "https://kingbbq.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-kohakuudonramen",
+      "name": "Kohaku Udon Ramen",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức mì udon dai ngon và ramen đậm đà.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-longwang",
+      "name": "Long Wang",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức lẩu nóng hổi với nhiều loại thịt và hải sản.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-manwah",
+      "name": "Manwah",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức buffet lẩu Đài Loan và các loại đồ nhúng đa dạng.",
+      "openingSoon": false,
+      "cuisine": "Taiwanese",
+      "website": "https://manwah.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-meatmeet",
+      "name": "Meat & Meet",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức buffet nướng BBQ và các món ăn Hàn Quốc.",
+      "openingSoon": false,
+      "cuisine": "Korean",
+      "website": "https://meatandmeet.com.vn/vi/meat-meet/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-mochisweet",
+      "name": "Mochi Sweet",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Mua bánh mochi nhân kem lạnh làm món tráng miệng.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "website": "http://mochisweet.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-siamsugar",
+      "name": "Siam Sugar",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức trà sữa Thái, xôi xoài và các món chè tráng miệng.",
+      "openingSoon": false,
+      "cuisine": "Thai",
+      "locations": {
+        "B3": [
+          {
+            "region": "B3-region-015",
+            "code": "B3-13",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-sincetea",
+      "name": "Since Tea",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức trà sữa và đồ uống từ trà.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-somthai",
+      "name": "Som Thái",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức các món Thái đậm vị như Som Tum, Tom Yum và Pad Thai.",
+      "openingSoon": false,
+      "cuisine": "Thai",
+      "website": "https://somtumthai.com.vn/en/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-starbucks",
+      "name": "Starbucks",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Uống cà phê, gặp gỡ bạn bè, làm việc hoặc nghỉ chân.",
+      "openingSoon": false,
+      "website": "https://www.starbucks.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-yamazaki",
+      "name": "Yamazaki",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Mua bánh mì tươi, bánh ngọt Nhật và đồ ăn sáng.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-bkkstreetdessert",
+      "name": "BKK Street Dessert",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức các món tráng miệng đường phố Thái Lan.",
+      "openingSoon": false,
+      "cuisine": "Thai",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-bybloscafe",
+      "name": "Byblos Cafe",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Uống cà phê và nghỉ chân khi mua sắm.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-changkangkung",
+      "name": "Chang Kang Kung",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức các món hấp thủy nhiệt bổ dưỡng, ít dầu mỡ.",
+      "openingSoon": false,
+      "cuisine": "Chinese",
+      "website": "https://changkangkung.com.vn/",
+      "locations": {
+        "B3": [
+          {
+            "region": "B3-region-011",
+            "code": "B3-01",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-comtammoc",
+      "name": "Cơm Tấm Mộc",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức cơm tấm sườn nướng chuẩn vị Sài Gòn.",
+      "openingSoon": false,
+      "cuisine": "Vietnamese",
+      "website": "https://www.facebook.com/ComTamMoc/?locale=vi_VN",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-cafecong",
+      "name": "Cafe Cộng",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức cà phê cốt dừa, bạc xỉu trong không gian hoài niệm.",
+      "openingSoon": false,
+      "website": "https://congcaphe.com/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-dessertplanet",
+      "name": "Dessert Planet",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức các món tráng miệng.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-goldendynasty",
+      "name": "Golden Dynasty",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức dimsum, vịt quay và các món Hoa.",
+      "openingSoon": false,
+      "cuisine": "Chinese",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-matsuya",
+      "name": "Matsuya",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức cơm bò Gyudon chuẩn vị Nhật với giá bình dân.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-morico",
+      "name": "Morico",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức đồ uống matcha, bánh tráng miệng Nhật Bản và món ăn nhẹ.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "website": "https://morico.biz/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-pangpang",
+      "name": "Pang Pang",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức các món ăn nhanh đa dạng.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-sanfulou",
+      "name": "San Fu Lou",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức dimsum, mì kéo và vịt quay Quảng Đông.",
+      "openingSoon": false,
+      "cuisine": "Chinese",
+      "website": "https://sanfulou.com/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-touslesjours",
+      "name": "Tous Les Jours",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Mua bánh mì tươi, bánh ngọt và cà phê mỗi ngày.",
+      "openingSoon": false,
+      "cuisine": "French",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-wraproll",
+      "name": "Wrap & Roll",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức phở cuốn, gỏi cuốn và các món cuốn thanh nhẹ.",
+      "openingSoon": false,
+      "cuisine": "Vietnamese",
+      "website": "https://wrap-roll.com/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-yakinikulike",
+      "name": "Yakiniku Like",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Tự nướng thịt theo set cá nhân, nhanh gọn chuẩn vị Nhật.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-phototime",
+      "name": "Photo Time",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Chụp ảnh kỷ niệm cùng bạn bè.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-timezone",
+      "name": "Timezone",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Chơi game arcade, gắp gấu bông và vui chơi cùng bạn bè.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-cgv",
+      "name": "CGV",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-3"
+      ],
+      "description": "Xem các bộ phim điện ảnh bom tấn mới nhất và thưởng thức bắp rang, nước uống.",
+      "openingSoon": false,
+      "website": "https://www.cgv.vn/",
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-001",
+            "code": "L3-01",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-copenhaghen",
+      "name": "Copenhaghen",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-4"
+      ],
+      "description": "Mua đồ trang trí nhà cửa tối giản, tinh tế.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-019",
+            "code": "B2-13",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-mykingdom",
+      "name": "My Kingdom",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-4"
+      ],
+      "description": "Mua đồ chơi LEGO, mô hình, búp bê cho trẻ em.",
+      "openingSoon": false,
+      "website": "https://www.mykingdom.com.vn/",
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-016",
+            "code": "B2-43-44",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-tuttopiccolo",
+      "name": "Tutto Piccolo",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-4"
+      ],
+      "description": "Mua quần áo cho bé.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-amara",
+      "name": "Amara",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-5"
+      ],
+      "description": "Mua đồ trang trí nhà cửa, quà tân gia.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-lizdnamat",
+      "name": "Lizd Namat",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-5"
+      ],
+      "description": "Mua đồ trang trí nội thất.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-sony",
+      "name": "Sony",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-5"
+      ],
+      "description": "Trải nghiệm và mua các sản phẩm điện tử Sony.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-charleskeith",
+      "name": "Charles & Keith",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-6"
+      ],
+      "description": "Sắm túi xách, ví, giày dép theo xu hướng thời trang mới nhất.",
+      "openingSoon": false,
+      "website": "https://www.charleskeith.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-crocs",
+      "name": "Crocs",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-6"
+      ],
+      "description": "Mua dép clogs, sandal thoải mái và phụ kiện cài Jibbitz độc đáo.",
+      "openingSoon": false,
+      "website": "https://crocs.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-ecco",
+      "name": "Ecco",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-6"
+      ],
+      "description": "Mua giày da công sở, giày golf và sandal da êm chân, bền bỉ.",
+      "openingSoon": false,
+      "website": "https://eccovietnam.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-havaianas",
+      "name": "Havaianas",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-6"
+      ],
+      "description": "Mua dép xỏ ngón thời trang, bền nhẹ, nhiều màu sắc để đi biển và dạo phố.",
+      "openingSoon": false,
+      "website": "https://havaianas.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-lyn",
+      "name": "Lyn",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-6"
+      ],
+      "description": "Mua túi xách, ví và giày dép hợp xu hướng cho giới trẻ.",
+      "openingSoon": false,
+      "website": "https://lynvn.com/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-pedro",
+      "name": "Pedro",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-6"
+      ],
+      "description": "Tìm mua túi xách, ví, giày tây và giày cao gót thiết kế tinh tế.",
+      "openingSoon": false,
+      "website": "https://www.pedroshoes.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-pucini",
+      "name": "Pucini",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-6"
+      ],
+      "description": "Mua túi xách da và phụ kiện.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-samsonite",
+      "name": "Samsonite",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-6"
+      ],
+      "description": "Mua vali, balo du lịch bền đẹp.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-tgkcthegioikimcuong",
+      "name": "TGKC - Thế Giới Kim Cương",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Mua sắm kim cương, nhẫn cầu hôn, trang sức đắt giá.",
+      "openingSoon": false,
+      "website": "https://thegioikimcuong.vn/",
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-030",
+            "code": "B2-17N",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-longines",
+      "name": "Longines",
+      "floors": [
+        "M"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Mua đồng hồ cơ hoặc đồng hồ thạch anh Thụy Sĩ với thiết kế đẳng cấp, tinh xảo.",
+      "openingSoon": false,
+      "website": "https://www.longines.com/",
+      "locations": {
+        "M": [
+          {
+            "region": "M-region-004",
+            "code": "M-27-28",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-longbeachpearl",
+      "name": "Long Beach Pearl",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Mua trang sức ngọc trai làm quà tặng.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-lukfookjewellery",
+      "name": "LukFook Jewellery",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Mua trang sức vàng và kim cương.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-mujoshtedbaker",
+      "name": "Mujosh & Ted Baker",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Chọn mua gọng kính, kính mát thời trang và trang phục sang trọng.",
+      "openingSoon": false,
+      "website": "https://www.facebook.com/MujoshVietNam/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-matviet",
+      "name": "Mắt Việt",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Đo mắt, cắt kính và mua gọng kính.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-owndays",
+      "name": "Owndays",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Mua gọng kính thời trang phong cách Nhật.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-pandora",
+      "name": "Pandora",
+      "floors": [
+        "M"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Tự tay chọn phối vòng tay charm, nhẫn, dây chuyền cá tính và quà kỷ niệm.",
+      "openingSoon": false,
+      "website": "https://pandora.norbreeze.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-pnj",
+      "name": "PNJ",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Mua sắm trang sức cao cấp, quà kỷ niệm, đồ phong thủy.",
+      "openingSoon": false,
+      "website": "https://www.pnj.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-swarovski",
+      "name": "Swarovski",
+      "floors": [
+        "M"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Mua trang sức pha lê lấp lánh, tượng trang trí và phụ kiện cao cấp.",
+      "openingSoon": false,
+      "website": "https://www.swarovski.com/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-cara",
+      "name": "Cara",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Chọn mua phụ kiện làm đẹp, quà tặng nhỏ xinh.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-messyweekend",
+      "name": "Messyweekend",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Mua kính mát thời trang.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-033",
+            "code": "B2-16",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-primaart",
+      "name": "Prima Art",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Mua tranh vàng, quà tặng đối tác sang trọng và tượng phong thủy dát vàng.",
+      "openingSoon": false,
+      "website": "https://prima.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-sehaaccessories",
+      "name": "Seha Accessories",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Mua phụ kiện thời trang.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-tuyetkieu",
+      "name": "Tuyết Kiều",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Chọn mua trang sức, quà tặng.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-032",
+            "code": "B2-17E",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-thebodyshop",
+      "name": "The Body Shop",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua sản phẩm chăm sóc cơ thể từ thiên nhiên.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-tgnhthegioinuochoa",
+      "name": "TGNH – Thế Giới Nước Hoa",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua sắm các dòng nước hoa danh tiếng từ Chanel, Dior, Gucci, Versace và nhiều thương hiệu khác.",
+      "openingSoon": false,
+      "website": "https://www.thegioinuochoa.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-bathbodyworks",
+      "name": "Bath & Body Works",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua sữa tắm, nến thơm và sản phẩm chăm sóc cơ thể.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-beautybox",
+      "name": "Beauty Box",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua mỹ phẩm và sản phẩm làm đẹp.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-007",
+            "code": "B2-17",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-dior",
+      "name": "Dior",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua son Dior Addict, phấn nền và nước hoa Sauvage, Miss Dior chính hãng.",
+      "openingSoon": false,
+      "website": "https://www.dior.com/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-clarins",
+      "name": "Clarins",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua sản phẩm chăm sóc da từ thực vật.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-cledepeaubeaute",
+      "name": "Clé de Peau Beauté",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Trải nghiệm các dòng sản phẩm dưỡng da chống lão hóa và trang điểm sang trọng.",
+      "openingSoon": false,
+      "website": "https://www.cledepeau-beaute.com/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-escentricsignature",
+      "name": "Escentric Signature",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Khám phá các mùi hương nước hoa niche lạ.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-esteelauder",
+      "name": "Estée Lauder",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua tinh chất phục hồi da Advanced Night Repair.",
+      "openingSoon": false,
+      "website": "https://www.esteelauder.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-himalaya",
+      "name": "Himalaya",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua tinh dầu thơm phòng, nến thơm, máy khuếch tán.",
+      "openingSoon": false,
+      "website": "https://www.himalaya-vn.com/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-kiehls",
+      "name": "Kiehl's",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua toner hoa cúc, kem dưỡng ẩm Ultra Facial và các sản phẩm chăm sóc da có nguồn gốc thiên nhiên.",
+      "openingSoon": false,
+      "cuisine": "American",
+      "website": "https://kiehls.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-makeupforever",
+      "name": "Make Up For Ever",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua mỹ phẩm trang điểm chuyên nghiệp.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-matsumotokiyoshi",
+      "name": "Matsumoto Kiyoshi",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua mỹ phẩm Nhật Bản, thực phẩm chức năng và hóa mỹ phẩm nội địa Nhật.",
+      "openingSoon": false,
+      "website": "https://www.matsukiyo.vn/",
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-012",
+            "code": "B2-25-26",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-nars",
+      "name": "NARS",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua phấn hồng Orgasm, kem che khuyết điểm Radiant Creamy Concealer và son thỏi.",
+      "openingSoon": false,
+      "cuisine": "American",
+      "website": "https://www.narscosmetics.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-scentuals",
+      "name": "Scentuals",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Khám phá và mua các dòng nước hoa niche.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-023",
+            "code": "B2-12",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-shiseido",
+      "name": "Shiseido",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua tinh chất Ultimune, kem chống nắng và các sản phẩm dưỡng da cao cấp.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "website": "https://www.shiseido.com.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-sulwhasoo",
+      "name": "Sulwhasoo",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua tinh chất First Care Activating Serum và các sản phẩm chăm sóc da từ nhân sâm.",
+      "openingSoon": false,
+      "website": "https://www.sulwhasoo.com/vn/vi/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-watsons",
+      "name": "Watsons",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua mỹ phẩm, skincare, đồ chăm sóc cơ thể.",
+      "openingSoon": false,
+      "website": "https://www.watsons.vn/vi/",
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-010",
+            "code": "B2-05A",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-yvessaintlaurent",
+      "name": "Yves Saint Laurent",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua son môi, nước hoa và mỹ phẩm YSL.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-bobbibrown",
+      "name": "Bobbi Brown",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua kem lót Vitamin Enriched Face Base, kem nền và sáp tẩy trang.",
+      "openingSoon": false,
+      "website": "https://www.bobbibrown.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-innisfree",
+      "name": "Innisfree",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua sản phẩm dưỡng da trà xanh, mầm đậu nành và các sản phẩm trang điểm nhẹ nhàng.",
+      "openingSoon": false,
+      "website": "https://www.innisfree.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-jomalone",
+      "name": "Jo Malone",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua nước hoa và nến thơm sang trọng.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-lancome",
+      "name": "Lancôme",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua sản phẩm dưỡng da Advanced Génifique, son môi và nước hoa cao cấp.",
+      "openingSoon": false,
+      "website": "https://www.lancome.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-lush",
+      "name": "Lush",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua xà phòng, bom tắm và mỹ phẩm thiên nhiên.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-mac",
+      "name": "MAC",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Chọn mua son thỏi MAC Chili, Ruby Woo, phấn phủ Studio Fix và kem nền.",
+      "openingSoon": false,
+      "cuisine": "American",
+      "website": "https://www.maccosmetics.com.vn/",
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-006",
+            "code": "L1-57",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-passifloresbeauty",
+      "name": "Passiflores Beauty",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua mỹ phẩm và sản phẩm làm đẹp.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-viinriicnicheperfume",
+      "name": "Viin Riic Niche Perfume",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Trải nghiệm và sở hữu những mùi hương độc bản, mang tính nghệ thuật.",
+      "openingSoon": false,
+      "website": "https://viinriic.com/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-honeecoffee",
+      "name": "Honee Coffee",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-9"
+      ],
+      "description": "Uống cà phê và thư giãn.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-minigood",
+      "name": "Minigood",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-9"
+      ],
+      "description": "Mua phụ kiện dễ thương, đồ dùng văn phòng, phụ kiện điện thoại.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-015",
+            "code": "B2-29-30",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-winmart",
+      "name": "Winmart",
+      "floors": [
+        "B3"
+      ],
+      "categories": [
+        "category-10"
+      ],
+      "description": "Mua sắm thực phẩm tươi sống, hàng tiêu dùng và nhu yếu phẩm.",
+      "openingSoon": false,
+      "website": "https://winmart.vn/",
+      "locations": {
+        "B3": [
+          {
+            "region": "B3-region-017",
+            "code": "B3-02-03",
+            "evidence": "printed-source-code"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vincom-prototype-dyson",
+      "name": "Dyson",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-11"
+      ],
+      "description": "Mua máy sấy tóc Supersonic, máy tạo kiểu Airwrap, máy hút bụi và máy lọc không khí.",
+      "openingSoon": false,
+      "website": "https://www.dyson.vn/",
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-coway",
+      "name": "Coway",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-11"
+      ],
+      "description": "Tìm hiểu và mua máy lọc nước, máy lọc không khí.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-facewashfox",
+      "name": "Face Wash Fox",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-11"
+      ],
+      "description": "Mua sản phẩm chăm sóc cá nhân.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "vincom-prototype-fixifoot",
+      "name": "Fixifoot",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-11"
+      ],
+      "description": "Chăm sóc bàn chân và mua sản phẩm hỗ trợ.",
+      "openingSoon": false,
+      "locations": {}
+    }
+  ]
+}

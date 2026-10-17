@@ -1,0 +1,3205 @@
+{
+  "mallId": "saigon-centre",
+  "sourceRevision": "0019-discovery-layout-2026-10-17-r5b",
+  "notice": "Research preview only; not a current approved directory. Source-layout associations, not editorial or occupancy approval.",
+  "categories": [
+    {
+      "id": "category-0",
+      "label": "Thương hiệu cao cấp"
+    },
+    {
+      "id": "category-1",
+      "label": "Ẩm thực"
+    },
+    {
+      "id": "category-2",
+      "label": "Thời trang"
+    },
+    {
+      "id": "category-3",
+      "label": "Mỹ phẩm"
+    },
+    {
+      "id": "category-4",
+      "label": "Trang sức & đồng hồ"
+    },
+    {
+      "id": "category-5",
+      "label": "Siêu thị"
+    },
+    {
+      "id": "category-6",
+      "label": "Nhà sách"
+    },
+    {
+      "id": "category-7",
+      "label": "Sức khỏe"
+    },
+    {
+      "id": "category-8",
+      "label": "Điện tử"
+    },
+    {
+      "id": "category-9",
+      "label": "Thể thao"
+    },
+    {
+      "id": "category-10",
+      "label": "Trang trí nội thất"
+    },
+    {
+      "id": "category-11",
+      "label": "Phong cách sống"
+    }
+  ],
+  "records": [
+    {
+      "id": "saigon-prototype-louisvuitton",
+      "name": "Louis Vuitton",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-0",
+        "category-2"
+      ],
+      "description": "Mua túi xách, thời trang nam và phụ kiện LV.",
+      "openingSoon": false,
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-001",
+            "code": "L1-11-12 & 21",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-thehourglass",
+      "name": "The Hour Glass",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-0",
+        "category-4"
+      ],
+      "description": "Mua đồng hồ từ các thương hiệu Thụy Sĩ danh tiếng.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-tudor",
+      "name": "TUDOR",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-0",
+        "category-4"
+      ],
+      "description": "Mua đồng hồ Tudor.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-cartier",
+      "name": "CARTIER",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-0",
+        "category-4"
+      ],
+      "description": "Mua trang sức và đồng hồ Cartier.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-grandseiko",
+      "name": "GRAND SEIKO",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-0",
+        "category-4"
+      ],
+      "description": "Mua đồng hồ Grand Seiko.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-zenith",
+      "name": "ZENITH",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-0",
+        "category-4"
+      ],
+      "description": "Mua đồng hồ Zenith.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-hublot",
+      "name": "HUBLOT",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-0",
+        "category-4"
+      ],
+      "description": "Mua đồng hồ Hublot.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-christianlouboutin",
+      "name": "Christian Louboutin",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-0",
+        "category-2"
+      ],
+      "description": "Mua giày cao gót và phụ kiện xa xỉ.",
+      "openingSoon": false,
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-013",
+            "code": "L1-13/13A",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-labellab",
+      "name": "Label Lab",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-0",
+        "category-2"
+      ],
+      "description": "Mua sắm trang phục thời trang.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-chanel",
+      "name": "CHANEL",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-0",
+        "category-3"
+      ],
+      "description": "Mua mỹ phẩm, nước hoa và thời trang Chanel.",
+      "openingSoon": false,
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-007",
+            "code": "L1-17",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-montblanc",
+      "name": "Montblanc",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-0",
+        "category-11"
+      ],
+      "description": "Mua bút, đồng hồ và đồ da Montblanc.",
+      "openingSoon": false,
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-015",
+            "code": "L1-07A",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-viinriicgaleriesdeparfums",
+      "name": "ViinRiic Galeries de Parfums",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-0",
+        "category-3",
+        "category-11"
+      ],
+      "description": "Trải nghiệm và sở hữu những mùi hương độc bản.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-028",
+            "code": "L2-21",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-lachcalachcach",
+      "name": "Lách Ca Lách Cách",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức ẩm thực Việt Nam.",
+      "openingSoon": false,
+      "cuisine": "Vietnamese",
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-sundubu",
+      "name": "Sundubu",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức canh đậu hũ Sundubu nóng hổi.",
+      "openingSoon": false,
+      "cuisine": "Korean",
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-changkangkung",
+      "name": "Chang Kang Kung",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức các món hấp bổ dưỡng, ít dầu mỡ.",
+      "openingSoon": false,
+      "cuisine": "Chinese",
+      "locations": {
+        "L5": [
+          {
+            "region": "L5-region-016",
+            "code": "L5-01",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-gyushigeyakiniku",
+      "name": "Gyu Shige Yakiniku",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức thịt nướng yakiniku chuẩn Nhật.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {
+        "L5": [
+          {
+            "region": "L5-region-005",
+            "code": "L5-02/03",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-asiancorner",
+      "name": "Asian Corner",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức các món ăn châu Á đa dạng.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-dimtutac",
+      "name": "Dim Tu Tac",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức dimsum và các món Hoa.",
+      "openingSoon": false,
+      "cuisine": "Chinese",
+      "locations": {
+        "L5": [
+          {
+            "region": "L5-region-002",
+            "code": "L5-14",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-gongcha",
+      "name": "Gong Cha",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Uống trà sữa và trà trái cây.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-013",
+            "code": "B2-02",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-chateraise",
+      "name": "Châteraisé",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Mua bánh ngọt, bánh kem phong cách Nhật Bản.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-011",
+            "code": "B2-05",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-genkisushi",
+      "name": "GENKI SUSHI",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Ăn sushi tươi trên băng chuyền.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {
+        "L5": [
+          {
+            "region": "L5-region-011",
+            "code": "L5-15",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-beardpapas",
+      "name": "Beard Papa's",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Mua bánh su kem nhân kem tươi mát lạnh.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-014",
+            "code": "B2-6A",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-annamcafe",
+      "name": "Annam Café",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Uống cà phê và ăn nhẹ khi mua sắm.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-003",
+            "code": "B2-12",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-hokkaidobakedcheesetart",
+      "name": "Hokkaido Baked Cheese Tart",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức bánh tart phô mai nướng béo ngậy.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-015",
+            "code": "B2-21",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-gogihouse",
+      "name": "GoGi House",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức thịt nướng BBQ Hàn Quốc.",
+      "openingSoon": false,
+      "cuisine": "Korean",
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-breadtalk",
+      "name": "BreadTalk",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Mua bánh mì ruốc và các loại bánh ngọt tươi mới mỗi ngày.",
+      "openingSoon": false,
+      "cuisine": "Singaporean",
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-006",
+            "code": "B2-14",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-bastahiroitalianrestaurant",
+      "name": "BASTA HIRO - Italian Restaurant",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức mì Ý (pasta) và pizza.",
+      "openingSoon": false,
+      "cuisine": "Italian",
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-004",
+            "code": "L3-26",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-highlandscoffee",
+      "name": "Highlands Coffee",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Uống cà phê, thưởng thức trà và gặp gỡ bạn bè.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-007",
+            "code": "B2-15",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-llaollao",
+      "name": "llaollao",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Ăn sữa chua đông lạnh với topping trái cây tươi.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-paul",
+      "name": "PAUL",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Mua bánh mì baguette và bánh ngọt Pháp.",
+      "openingSoon": false,
+      "cuisine": "French",
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-005",
+            "code": "L2-20/20A",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-the350f",
+      "name": "THE 350F",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức các món ăn.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-irvins",
+      "name": "Irvins",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Mua snack da cá trứng muối làm quà tặng.",
+      "openingSoon": false,
+      "cuisine": "Singaporean",
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-igelato",
+      "name": "iGelato",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Ăn kem gelato mát lạnh.",
+      "openingSoon": false,
+      "locations": {
+        "L5": [
+          {
+            "region": "L5-region-030",
+            "code": "L5-K5",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-jindinroutaiwaneserestaurant",
+      "name": "Jin Din Rou - Taiwanese Restaurant",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức tiểu long bao và các món Đài Loan.",
+      "openingSoon": false,
+      "cuisine": "Taiwanese",
+      "locations": {
+        "L5": [
+          {
+            "region": "L5-region-015",
+            "code": "L5-07",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-manwahtaiwanesehotpot",
+      "name": "Manwah - Taiwanese Hot Pot",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức buffet lẩu Đài Loan.",
+      "openingSoon": false,
+      "cuisine": "Taiwanese",
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-lusine",
+      "name": "L'Usine",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Uống cà phê và ăn brunch.",
+      "openingSoon": false,
+      "locations": {
+        "L5": [
+          {
+            "region": "L5-region-012",
+            "code": "L5-10",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-sushihokkaidosachi",
+      "name": "Sushi Hokkaido Sachi",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức món Nhật và hải sản tươi sống.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {
+        "L5": [
+          {
+            "region": "L5-region-003",
+            "code": "L5-16/17",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-kichikichi",
+      "name": "Kichi - Kichi",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức buffet lẩu trên băng chuyền.",
+      "openingSoon": false,
+      "cuisine": "Vietnamese",
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-miyamamoderntokyorestaurantcafe",
+      "name": "Miyama – Modern Tokyo Restaurant Cafe",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức món Nhật và cà phê.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-015",
+            "code": "L3-01",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-mcdonalds",
+      "name": "McDonald's",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Ăn burger, gà rán và khoai tây chiên.",
+      "openingSoon": false,
+      "cuisine": "American",
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-004",
+            "code": "B2-16/17",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-trungnguyenecoffee",
+      "name": "TRUNG NGUYÊN E-COFFEE",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Uống cà phê Việt Nam.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-012",
+            "code": "B2-18/19/20",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-mochisweets",
+      "name": "Mochi Sweets",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Mua bánh mochi tráng miệng.",
+      "openingSoon": false,
+      "locations": {
+        "L5": [
+          {
+            "region": "L5-region-033",
+            "code": "L5-K8",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-poulet",
+      "name": "POULET",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức gà quay Pháp.",
+      "openingSoon": false,
+      "cuisine": "French",
+      "locations": {
+        "L5": [
+          {
+            "region": "L5-region-014",
+            "code": "L5-11",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-oedoalley",
+      "name": "Oedo Alley",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Khám phá ẩm thực đường phố Nhật.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-pepperlunchvietnam",
+      "name": "Pepper Lunch Vietnam",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức cơm đĩa nóng, bít tết xèo xèo trên chảo gang.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {
+        "L5": [
+          {
+            "region": "L5-region-017",
+            "code": "L5-04",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-yakinikulike",
+      "name": "YAKINIKU LIKE",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Tự nướng thịt theo set cá nhân, nhanh gọn.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {
+        "L5": [
+          {
+            "region": "L5-region-018",
+            "code": "L5-05",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-meatmeet",
+      "name": "Meat & Meet",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Mua thịt tươi và thưởng thức các món nướng.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-002",
+            "code": "B2-08/09/10",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-phuclongcoffeetea",
+      "name": "Phúc Long Coffee & Tea",
+      "floors": [
+        "L4"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Uống trà sữa, trà đào và cà phê.",
+      "openingSoon": false,
+      "locations": {
+        "L4": [
+          {
+            "region": "L4-region-007",
+            "code": "L4-21/22/35/36",
+            "evidence": "named-source-bridge"
+          },
+          {
+            "region": "L4-region-009",
+            "code": "L4-21/22/35/36",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-truffleco",
+      "name": "TRUFFLE & CO",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Mua sắm các sản phẩm ẩm thực.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-009",
+            "code": "B2-6B/07",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-tonkatsuwako",
+      "name": "TONKATSU WAKO",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức tonkatsu giòn rụm chuẩn vị Nhật.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {
+        "L5": [
+          {
+            "region": "L5-region-020",
+            "code": "L5-06",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-asanoha",
+      "name": "Asanoha",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức các món ăn Nhật Bản.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-botejyuokonomiyaki",
+      "name": "Botejyu Okonomiyaki",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức bánh xèo okonomiyaki chuẩn vị Nhật.",
+      "openingSoon": false,
+      "cuisine": "Vietnamese",
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-runamboutique",
+      "name": "RuNam Boutique",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Uống cà phê trong không gian sang trọng.",
+      "openingSoon": false,
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-002",
+            "code": "L1-7B",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-ramenichibanken",
+      "name": "Ramen Ichibanken",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức mì ramen.",
+      "openingSoon": false,
+      "cuisine": "Japanese",
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-starbucks",
+      "name": "STARBUCKS",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Uống cà phê, gặp gỡ bạn bè và làm việc.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-012",
+            "code": "L2-01",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-spicybox",
+      "name": "Spicy Box",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức các món ăn Hàn Quốc.",
+      "openingSoon": false,
+      "cuisine": "Korean",
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-005",
+            "code": "B2-01",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-longjing",
+      "name": "LONGJING",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Nhà hàng Trung Hoa tại tầng L5.",
+      "openingSoon": false,
+      "cuisine": "Chinese",
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-boatnoodle",
+      "name": "BOAT NOODLE",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "(sắp mở) Thưởng thức hủ tiếu thuyền Thái đậm đà.",
+      "openingSoon": false,
+      "cuisine": "Thai",
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-010",
+            "code": "B2-03/04",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-somtamthai",
+      "name": "Som Tam Thai",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức Som Tum, Tom Yum và Pad Thai.",
+      "openingSoon": false,
+      "cuisine": "Thai",
+      "locations": {
+        "L5": [
+          {
+            "region": "L5-region-013",
+            "code": "L5-18",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-nagocha",
+      "name": "Nagocha",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Uống trà và thư giãn.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-017",
+            "code": "B2-K6/K7",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-rakthai",
+      "name": "RAK Thai",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-1"
+      ],
+      "description": "Thưởng thức các món Thái đậm đà.",
+      "openingSoon": false,
+      "cuisine": "Thai",
+      "locations": {
+        "L5": [
+          {
+            "region": "L5-region-009",
+            "code": "L5-12",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-levis",
+      "name": "Levi's",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua quần jean 501 và áo khoác denim Levi's.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-010",
+            "code": "L3-02/3A",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-aldo",
+      "name": "ALDO",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua giày, túi xách và phụ kiện thời trang.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-014",
+            "code": "L2-06",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-annacoco",
+      "name": "Annacoco",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua sắm trang phục thời trang.",
+      "openingSoon": false,
+      "locations": {
+        "B1": [
+          {
+            "region": "B1-region-006",
+            "code": "B1-06",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-asics",
+      "name": "ASICS",
+      "floors": [
+        "L4"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua giày chạy Asics.",
+      "openingSoon": false,
+      "locations": {
+        "L4": [
+          {
+            "region": "L4-region-005",
+            "code": "L4-08",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-giordanoladies",
+      "name": "giordano ladies",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua trang phục nữ thường ngày.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-012",
+            "code": "L3-33/34/35",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-birkenstock",
+      "name": "BIRKENSTOCK",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua dép Birkenstock êm chân.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-027",
+            "code": "L3-15",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-calvinklein",
+      "name": "CALVIN KLEIN",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua quần jean, áo thun và đồ lót CK.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-004",
+            "code": "L2-02/03",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-boss",
+      "name": "BOSS",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua trang phục công sở và dự tiệc sang trọng.",
+      "openingSoon": false,
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-003",
+            "code": "L1-07",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-g2000",
+      "name": "G2000",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua trang phục công sở thanh lịch.",
+      "openingSoon": false,
+      "locations": {
+        "B1": [
+          {
+            "region": "B1-region-004",
+            "code": "B1-01",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-eccovietnam",
+      "name": "ECCO Việt Nam",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua giày da êm chân, bền bỉ.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-019",
+            "code": "L2-8A",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-gigi",
+      "name": "GIGI",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua đầm thiết kế và trang phục công sở nữ.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-025",
+            "code": "L3-13",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-dkny",
+      "name": "DKNY",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua trang phục phong cách Mỹ năng động.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-015",
+            "code": "L2-16",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-chlod",
+      "name": "Chlo.D",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua sắm trang phục thời trang.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-031",
+            "code": "L2-09",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-giordano",
+      "name": "Giordano",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua áo thun và quần kaki.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-009",
+            "code": "L3-39",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-chileno",
+      "name": "CHILENO",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua sắm trang phục thời trang.",
+      "openingSoon": false,
+      "locations": {
+        "B1": [
+          {
+            "region": "B1-region-008",
+            "code": "B1-04",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-colehaanvietnam",
+      "name": "Cole Haan Việt Nam",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua giày da và sneaker Cole Haan.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-026",
+            "code": "L2-08",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-hla",
+      "name": "HLA",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua trang phục nam thời trang.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-007",
+            "code": "L3-37/38",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-coach",
+      "name": "COACH",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua túi xách da Coach.",
+      "openingSoon": false,
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-006",
+            "code": "L1-09",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-geox",
+      "name": "Geox",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua giày thoáng khí, êm chân.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-022",
+            "code": "L2-10",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-gap",
+      "name": "GAP",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua áo hoodie, quần jean và áo thun GAP.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-001",
+            "code": "L3-21/22/23",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-armaniexchange",
+      "name": "Armani Exchange",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua trang phục phong cách Ý hiện đại.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-013",
+            "code": "L2-04",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-havaianas",
+      "name": "Havaianas",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua dép xỏ ngón nhiều màu sắc.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-023",
+            "code": "L3-32",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-dsquared2",
+      "name": "Dsquared2",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua trang phục denim và streetwear cao cấp.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-002",
+            "code": "L2-30/31",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-miana",
+      "name": "Miana",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua sắm trang phục thời trang.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-020",
+            "code": "L3-12",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-pedro",
+      "name": "Pedro",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua túi xách, ví và giày thiết kế tinh tế.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-010",
+            "code": "L2-05",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-mcm",
+      "name": "MCM",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua balo và túi xách MCM.",
+      "openingSoon": false,
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-016",
+            "code": "L1-18",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-leejeans",
+      "name": "Lee Jeans",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua quần jean Lee.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-008",
+            "code": "L3-28",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-tommyhilfiger",
+      "name": "TOMMY HILFIGER",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua áo polo và trang phục preppy sang trọng.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-007",
+            "code": "L2-07",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-sunniesstudios",
+      "name": "Sunnies Studios",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua kính mát thời trang.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-sandro",
+      "name": "SANDRO",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua trang phục phong cách Paris thanh lịch.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-017",
+            "code": "L2-18",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-mujosh",
+      "name": "MUJOSH",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua gọng kính và kính mát thời trang.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-024",
+            "code": "L3-14",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-weekendmaxmara",
+      "name": "WEEKEND MAX MARA",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua áo khoác dạ và đầm dạo phố.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-016",
+            "code": "L2-24",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-lacoste",
+      "name": "Lacoste",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua áo polo và trang phục thể thao lịch lãm.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-008",
+            "code": "L2-11/12",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-owndays",
+      "name": "Owndays",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua gọng kính thời trang phong cách Nhật.",
+      "openingSoon": false,
+      "locations": {
+        "B1": [
+          {
+            "region": "B1-region-003",
+            "code": "B1-07",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-vivaia",
+      "name": "VIVAIA",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua giày thời trang.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-023",
+            "code": "L2-16A",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-pleatskora",
+      "name": "Pleats Kora",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua sắm trang phục thời trang.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-032",
+            "code": "L2-14",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-pinktree",
+      "name": "Pinktree",
+      "floors": [
+        "L4"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua sắm trang phục thời trang.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-kenzo",
+      "name": "Kenzo",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua trang phục và phụ kiện Kenzo.",
+      "openingSoon": false,
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-004",
+            "code": "L1-01",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-maje",
+      "name": "Maje",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua đầm và trang phục nữ thanh lịch.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-021",
+            "code": "L2-19",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-kenneth",
+      "name": "Kenneth",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua sắm trang phục thời trang.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-024",
+            "code": "L2-9A",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-maestro",
+      "name": "MAESTRO",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua sắm trang phục thời trang.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-020",
+            "code": "L2-13",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-lyn",
+      "name": "LYN",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua túi xách, ví và giày dép hợp xu hướng.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-025",
+            "code": "L2-25",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-charleskeith",
+      "name": "Charles & Keith",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua túi xách, ví và giày dép theo xu hướng mới nhất.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-001",
+            "code": "L2-23",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-maxco",
+      "name": "MAX&Co.",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua trang phục thiết kế hiện đại, tinh tế.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-011",
+            "code": "L2-34",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-memorylove",
+      "name": "Memory & Love",
+      "floors": [
+        "L4"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua sắm trang phục thời trang.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-moschino",
+      "name": "Moschino",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua trang phục và phụ kiện Moschino.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-longchamp",
+      "name": "Longchamp",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua túi Le Pliage và đồ da Longchamp.",
+      "openingSoon": false,
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-009",
+            "code": "L1-03/04",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-adidas",
+      "name": "adidas",
+      "floors": [
+        "L3",
+        "L4"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua giày sneaker và trang phục thể thao.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-002",
+            "code": "L3-07~10",
+            "evidence": "named-source-bridge"
+          }
+        ],
+        "L4": [
+          {
+            "region": "L4-region-002",
+            "code": "L4-03-07, 23-25",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-onitsukatiger",
+      "name": "Onitsuka Tiger",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua giày Onitsuka Tiger phong cách cổ điển.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-003",
+            "code": "L2-26/27/28/29",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-uniqlo",
+      "name": "UNIQLO",
+      "floors": [
+        "L4"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua trang phục cơ bản chất lượng với giá hợp lý.",
+      "openingSoon": false,
+      "locations": {
+        "L4": [
+          {
+            "region": "L4-region-001",
+            "code": "L4-12-22,26-36",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-abcmartgrandstage",
+      "name": "ABC-MART Grand Stage",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua giày sneaker và giày thời trang.",
+      "openingSoon": false,
+      "locations": {
+        "B1": [
+          {
+            "region": "B1-region-001",
+            "code": "B1-03",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-winkperry",
+      "name": "Winkperry",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua sắm trang phục thời trang.",
+      "openingSoon": false,
+      "locations": {
+        "B1": [
+          {
+            "region": "B1-region-009",
+            "code": "B1-4A",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-drmartens",
+      "name": "Dr Martens",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua giày Dr. Martens.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-converse",
+      "name": "Converse",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "(sắp mở) Mua giày Converse chính hãng.",
+      "openingSoon": false,
+      "locations": {
+        "B1": [
+          {
+            "region": "B1-region-005",
+            "code": "B1-05",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-chloe",
+      "name": "Chloé",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-2"
+      ],
+      "description": "Mua túi xách và thời trang Chloé.",
+      "openingSoon": false,
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-014",
+            "code": "L1-14",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-fila",
+      "name": "FILA",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2",
+        "category-9"
+      ],
+      "description": "Mua giày và trang phục thể thao.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-017",
+            "code": "L3-36",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-nike",
+      "name": "NIKE",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2",
+        "category-9"
+      ],
+      "description": "Mua giày thể thao và trang phục Nike.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-003",
+            "code": "L3-3B/04/05/06",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-jns",
+      "name": "J!NS",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2",
+        "category-11"
+      ],
+      "description": "Mua gọng kính Nhật Bản giá hợp lý.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-006",
+            "code": "L3-24/25",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-newbalance",
+      "name": "New Balance",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2",
+        "category-9"
+      ],
+      "description": "Mua giày sneaker New Balance.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-014",
+            "code": "L3-19/20",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-mlb",
+      "name": "MLB",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2",
+        "category-9"
+      ],
+      "description": "Mua nón kết, áo thun và giày MLB.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-005",
+            "code": "L3-31",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-crocs",
+      "name": "Crocs",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2",
+        "category-9"
+      ],
+      "description": "Mua dép clogs và sandal thoải mái.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-skechers",
+      "name": "SKECHERS",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2",
+        "category-9"
+      ],
+      "description": "(sắp mở) Mua giày Skechers nhẹ êm.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-011",
+            "code": "L3-29/30",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-matinkimvietnam",
+      "name": "Matin Kim Vietnam",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-2",
+        "category-11"
+      ],
+      "description": "Sắp khai trương tại tầng L3.",
+      "openingSoon": true,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-jomalonelondon",
+      "name": "Jo Malone London",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-3"
+      ],
+      "description": "Mua nước hoa và nến thơm sang trọng.",
+      "openingSoon": false,
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-018",
+            "code": "L1-15",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-diptyque",
+      "name": "Diptyque",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-3"
+      ],
+      "description": "Mua nước hoa và nến thơm cao cấp.",
+      "openingSoon": false,
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-012",
+            "code": "L1-16",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-harnn",
+      "name": "HARNN",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-3"
+      ],
+      "description": "Mua sản phẩm chăm sóc cơ thể và tinh dầu.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-beautybox",
+      "name": "BEAUTY BOX",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-3"
+      ],
+      "description": "Mua mỹ phẩm và sản phẩm làm đẹp.",
+      "openingSoon": false,
+      "locations": {
+        "B1": [
+          {
+            "region": "B1-region-002",
+            "code": "B1-09/10/11",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-thebodyshop",
+      "name": "The Body Shop",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-3"
+      ],
+      "description": "Mua sản phẩm chăm sóc cơ thể từ thiên nhiên.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-lush",
+      "name": "LUSH",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-3",
+        "category-11"
+      ],
+      "description": "Mua xà phòng, bom tắm và mỹ phẩm thiên nhiên.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-006",
+            "code": "L2-22",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-bathbodyworks",
+      "name": "Bath & Body Works",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-3",
+        "category-7",
+        "category-11"
+      ],
+      "description": "Mua sữa tắm, nến thơm và sản phẩm chăm sóc cơ thể.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-pandora",
+      "name": "Pandora",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-4"
+      ],
+      "description": "Tự phối vòng tay charm và mua quà kỷ niệm.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-033",
+            "code": "L2-K6",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-bloom",
+      "name": "BLOOM",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-4"
+      ],
+      "description": "Mua trang sức và đồng hồ.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-016",
+            "code": "L3-41",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-sjc",
+      "name": "SJC",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-4"
+      ],
+      "description": "Mua vàng miếng và trang sức SJC.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-thegioikimcuong",
+      "name": "THẾ GIỚI KIM CƯƠNG",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-4"
+      ],
+      "description": "Mua sắm kim cương và trang sức đắt giá.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-027",
+            "code": "L2-33",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-tierradiamondjewelry",
+      "name": "TIERRA DIAMOND JEWELRY",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-4"
+      ],
+      "description": "Mua trang sức kim cương.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-pnj",
+      "name": "PNJ",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-4"
+      ],
+      "description": "Mua sắm trang sức cao cấp và quà kỷ niệm.",
+      "openingSoon": false,
+      "locations": {
+        "L2": [
+          {
+            "region": "L2-region-018",
+            "code": "L2-32/32A",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-tagheuer",
+      "name": "TAG HEUER",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-4"
+      ],
+      "description": "Mua đồng hồ TAG Heuer.",
+      "openingSoon": false,
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-017",
+            "code": "L1-19",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-annamgourmet",
+      "name": "Annam Gourmet",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-5"
+      ],
+      "description": "Mua thực phẩm nhập khẩu, đồ gourmet và quà tặng.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-001",
+            "code": "B2-11",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-takashimaya",
+      "name": "Takashimaya",
+      "floors": [
+        "B1",
+        "B2",
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "categories": [
+        "category-5"
+      ],
+      "description": "Mua sắm hàng Nhật Bản và quốc tế trong không gian bách hóa cao cấp.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-phuongnambookstore",
+      "name": "Phuong Nam Bookstore",
+      "floors": [
+        "L4"
+      ],
+      "categories": [
+        "category-6"
+      ],
+      "description": "Mua sách, truyện và dụng cụ học tập.",
+      "openingSoon": false,
+      "locations": {
+        "L4": [
+          {
+            "region": "L4-region-003",
+            "code": "L4-20",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-ginsenghouse",
+      "name": "GINSENG HOUSE",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Mua nhân sâm và hồng sâm làm quà sức khỏe.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-centuryhealthcare",
+      "name": "Century Healthcare",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Mua thuốc và sản phẩm chăm sóc sức khỏe.",
+      "openingSoon": false,
+      "locations": {
+        "B2": [
+          {
+            "region": "B2-region-008",
+            "code": "B2-10A",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-atzorganicyankeecandle",
+      "name": "ATZ Organic & Yankee Candle",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-7"
+      ],
+      "description": "Mua nến Yankee Candle và sản phẩm organic.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-himalaya",
+      "name": "HIMALAYA",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-7",
+        "category-11"
+      ],
+      "description": "Mua sản phẩm thảo dược, chăm sóc cá nhân.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-fujifilm",
+      "name": "Fujifilm",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-8"
+      ],
+      "description": "Mua máy ảnh và phụ kiện Fujifilm.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-dji",
+      "name": "DJI",
+      "floors": [
+        "L4"
+      ],
+      "categories": [
+        "category-8",
+        "category-11"
+      ],
+      "description": "Mua flycam và thiết bị DJI chính hãng.",
+      "openingSoon": false,
+      "locations": {
+        "L4": [
+          {
+            "region": "L4-region-022",
+            "code": "L4-10/11",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-hoka",
+      "name": "HOKA",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-9"
+      ],
+      "description": "Mua giày chạy Hoka êm ái.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-013",
+            "code": "L3-11",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-typo",
+      "name": "TYPO",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-10",
+        "category-11"
+      ],
+      "description": "Mua đồ stationery và quà tặng xinh xắn.",
+      "openingSoon": false,
+      "locations": {
+        "L3": [
+          {
+            "region": "L3-region-019",
+            "code": "L3-40",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-nihontoki",
+      "name": "NIHON TOKI",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-10",
+        "category-11"
+      ],
+      "description": "Mua đồ dùng và quà tặng phong cách Nhật.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-currencyexchangesimcard",
+      "name": "CURRENCY EXCHANGE & SIMCARD",
+      "floors": [
+        "B2"
+      ],
+      "categories": [
+        "category-11"
+      ],
+      "description": "Đổi tiền và mua sim cho du khách.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-qhome",
+      "name": "Qhome",
+      "floors": [
+        "L4"
+      ],
+      "categories": [
+        "category-11"
+      ],
+      "description": "Mua đồ dùng và đồ trang trí.",
+      "openingSoon": false,
+      "locations": {
+        "L4": [
+          {
+            "region": "L4-region-006",
+            "code": "L4-19B",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-popmart",
+      "name": "POP MART",
+      "floors": [
+        "L4"
+      ],
+      "categories": [
+        "category-11"
+      ],
+      "description": "Mua blind-box và figure sưu tầm.",
+      "openingSoon": false,
+      "locations": {
+        "L4": [
+          {
+            "region": "L4-region-004",
+            "code": "L4-19A",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-nespresso",
+      "name": "Nespresso",
+      "floors": [
+        "B1"
+      ],
+      "categories": [
+        "category-11"
+      ],
+      "description": "Mua máy pha cà phê và viên nén Nespresso.",
+      "openingSoon": false,
+      "locations": {
+        "B1": [
+          {
+            "region": "B1-region-007",
+            "code": "B1-02",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-thann",
+      "name": "Thann",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-11"
+      ],
+      "description": "Mua sản phẩm chăm sóc cơ thể cao cấp.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-samsonite",
+      "name": "Samsonite",
+      "floors": [
+        "L4"
+      ],
+      "categories": [
+        "category-11"
+      ],
+      "description": "Mua vali Samsonite bền đẹp.",
+      "openingSoon": false,
+      "locations": {
+        "L4": [
+          {
+            "region": "L4-region-010",
+            "code": "L4-01",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-tumi",
+      "name": "Tumi",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-11"
+      ],
+      "description": "Mua vali và balo du lịch Tumi.",
+      "openingSoon": false,
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-010",
+            "code": "L1-02",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-ogawa",
+      "name": "OGAWA",
+      "floors": [
+        "L4"
+      ],
+      "categories": [
+        "category-11"
+      ],
+      "description": "Dùng thử và mua ghế massage.",
+      "openingSoon": false,
+      "locations": {
+        "L4": [
+          {
+            "region": "L4-region-011",
+            "code": "L4-02",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-rimowa",
+      "name": "Rimowa",
+      "floors": [
+        "L1"
+      ],
+      "categories": [
+        "category-11"
+      ],
+      "description": "Mua vali nhôm Rimowa bền đẹp.",
+      "openingSoon": false,
+      "locations": {
+        "L1": [
+          {
+            "region": "L1-region-008",
+            "code": "L1-20",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-photoobjet",
+      "name": "Photo Objet",
+      "floors": [
+        "L5"
+      ],
+      "categories": [
+        "category-11"
+      ],
+      "description": "Chụp ảnh kỷ niệm.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-minigood",
+      "name": "Minigood",
+      "floors": [
+        "L4"
+      ],
+      "categories": [
+        "category-11"
+      ],
+      "description": "Mua phụ kiện dễ thương và đồ dùng.",
+      "openingSoon": false,
+      "locations": {
+        "L4": [
+          {
+            "region": "L4-region-008",
+            "code": "L4-09",
+            "evidence": "named-source-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon-prototype-stanley1913",
+      "name": "Stanley 1913",
+      "floors": [
+        "L3"
+      ],
+      "categories": [
+        "category-11"
+      ],
+      "description": "Mua bình giữ nhiệt Stanley.",
+      "openingSoon": false,
+      "locations": {}
+    },
+    {
+      "id": "saigon-prototype-exnihilo",
+      "name": "EX NIHILO",
+      "floors": [
+        "L2"
+      ],
+      "categories": [
+        "category-11"
+      ],
+      "description": "Khám phá các mùi hương nước hoa niche độc bản.",
+      "openingSoon": false,
+      "locations": {}
+    }
+  ]
+}

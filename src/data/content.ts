@@ -7,6 +7,9 @@ export type Destination = {
   categories: string[]; aliases: string[]; status: 'open'|'closed'|'moved';
   locations: { floorId: string; certainty: 'floor-confirmed'|'area-confirmed'; areaIds: string[]; source: string }[];
   review: Review;
+  cuisine?: Bilingual;
+  website?: string;
+  openingSoon?: boolean;
 };
 export type Category = { id: string; name: Bilingual; review: Review };
 export type MappedArea = { id: string; floorId: string; regionIds: string[]; name: Bilingual; review: Review };
@@ -15,13 +18,15 @@ export type DirectorySnapshot = {
   mallId: MallId; revision: string; approval: 'pending'|'approved'|'fixture'; reviewedAt: string|null;
   destinations: Destination[]; categories: Category[]; areas: MappedArea[]; facilities: Facility[];
   highlights: { destinationId: string; categoryId: string; floorId: string; review: Review }[];
+  researchPreview?: boolean;
 };
 // This runs at build time, before any reviewed record becomes a public route.
 export function validateContent(snapshot: DirectorySnapshot, mallId: MallId, geometry: FloorDataset) {
   const fail = (message: string): never => { throw new Error(`Directory ${mallId}: ${message}`); };
   if (snapshot.mallId !== mallId) fail('cross-mall snapshot');
   if (!['pending','approved','fixture'].includes(snapshot.approval)) fail('invalid approval');
-  if (snapshot.approval === 'fixture' && process.env.INCLUDE_TEST_FIXTURES !== '1') fail('fixture in public build');
+  if (snapshot.approval === 'fixture' && !['1','research'].includes(process.env.INCLUDE_TEST_FIXTURES ?? '')) fail('fixture in public build');
+  if (snapshot.researchPreview && (snapshot.approval !== 'fixture' || process.env.INCLUDE_TEST_FIXTURES !== 'research')) fail('research input in public build');
   if (snapshot.approval === 'pending' && [snapshot.destinations,snapshot.categories,snapshot.areas,snapshot.facilities,snapshot.highlights].some(rows=>rows.length)) fail('unapproved records');
   const review = (record: Review) => {
     if (!record?.source?.trim() || !record.reviewedBy?.trim() || !/^\d{4}-\d{2}-\d{2}$/.test(record.reviewedAt) || record.languages.vi !== true || record.languages.en !== true) fail('source and both language approvals required');
@@ -34,6 +39,7 @@ export function validateContent(snapshot: DirectorySnapshot, mallId: MallId, geo
   const regionOwners=new Set<string>();
   for(const area of snapshot.areas) {for(const id of area.regionIds){const key=`${area.floorId}:${id}`;if(regionOwners.has(key))fail('mapped regions must have one area owner');regionOwners.add(key);}const f=floor(area.floorId);if(!area.regionIds.length||area.regionIds.some(id=>!f.regions.some(r=>r.id===id)))fail(`unsupported mapped area ${area.id}`);}
   for(const d of snapshot.destinations) {
+    if(d.website) { let url:URL; try {url=new URL(d.website);} catch {fail(`invalid website ${d.id}`);} if(!['https:','http:'].includes(url!.protocol)||url!.username||url!.password)fail(`invalid website ${d.id}`); }
     if(d.fixture && snapshot.approval!=='fixture')fail('fixture record in reviewed snapshot');
     if(!['open','closed','moved'].includes(d.status)||!d.floors.includes(d.primaryFloor)||!d.categories.length||new Set(d.floors).size!==d.floors.length)fail(`invalid destination ${d.id}`);
     if(d.reviewedAt!==d.review.reviewedAt)fail(`review date mismatch ${d.id}`);

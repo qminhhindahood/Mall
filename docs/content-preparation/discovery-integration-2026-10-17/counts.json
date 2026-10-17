@@ -1,0 +1,41 @@
+{
+  "revision": "discovery-input-reconciliation-2026-10-17-r1",
+  "sourceCsv": {
+    "path": "docs\\research\\all-record-map-comparison (1).csv",
+    "sha256": "765115f15c6ab4323f62e2e78f34a34635356bb02dccea9020716a8d76948f7f",
+    "occurrences": 383,
+    "nonemptyOwnerFloorClaims": 383
+  },
+  "scope": "Source occurrences, normalized preview identities, floor-locations and source-layout associations are different counts. None is a current approved directory.",
+  "malls": {
+    "vincom-dong-khoi": {
+      "sourceCsvOccurrences": 217,
+      "suppliedJsonOccurrences": 208,
+      "normalizedPreviewIdentities": 143,
+      "previewFloorLocations": 145,
+      "sourceAssociatedFloorLocations": 23,
+      "pendingPreviewFloorLocations": 122,
+      "identitiesWithAnyAssociation": 23,
+      "publicApproval": "pending",
+      "publicDestinations": 0,
+      "publicReviewedAt": null
+    },
+    "saigon-centre": {
+      "sourceCsvOccurrences": 166,
+      "suppliedJsonOccurrences": 168,
+      "normalizedPreviewIdentities": 163,
+      "previewFloorLocations": 168,
+      "sourceAssociatedFloorLocations": 120,
+      "pendingPreviewFloorLocations": 48,
+      "identitiesWithAnyAssociation": 119,
+      "publicApproval": "pending",
+      "publicDestinations": 0,
+      "publicReviewedAt": null
+    }
+  },
+  "previewTotals": {
+    "identities": 306,
+    "floorLocations": 313,
+    "pendingPreciseFloorLocations": 170
+  }
+}
