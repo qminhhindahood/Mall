@@ -23,9 +23,18 @@ async function browserDiscoveryCheck(minimumResults) {
   await wait(() => !!document.querySelector('.discovery-glass'), 'Floating description did not open');
   assert(new URL(location.href).searchParams.get('view') === 'discovery', 'Store selection must retain Discovery');
   assert(!!document.querySelector('.persistent-map svg'), 'Map disappeared');
+  const localeLink = document.querySelector('.journey-header a[lang]');
+  const selectedId = destination.dataset.destinationId;
+  const nextLocale = localeLink.lang;
+  localeLink.dispatchEvent(new PointerEvent('pointerdown', {bubbles:true}));
+  localeLink.click();
+  await wait(() => document.documentElement.lang === nextLocale, 'Locale did not switch');
+  assert(!!document.querySelector('.discovery-glass'), 'Locale pointer dismissed the card');
+  assert(document.querySelector('[data-discovery-result][aria-current="true"]')?.dataset.destinationId === selectedId, 'Locale lost the selected destination');
   document.querySelector('.discovery-glass [data-close-discovery]').click();
   await wait(() => !document.querySelector('.discovery-glass'), 'Description did not close');
   assert(document.activeElement === destination, 'Closing must return focus to the selected listing');
+  assert(document.documentElement.lang === nextLocale && location.pathname.startsWith('/'+nextLocale), 'Closing reverted the locale');
   assert(document.documentElement.scrollWidth <= innerWidth, 'Horizontal overflow');
   return { results: new Set([...collection.querySelectorAll('[data-destination-id]')].map(link => link.dataset.destinationId)).size, passed: true };
 }

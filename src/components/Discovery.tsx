@@ -43,7 +43,7 @@ export default function Discovery({site,selection,previewFloor,areaNumbers,activ
   useEffect(()=>{
     if(!visible)return;
     const key=(event:KeyboardEvent)=>{if(event.key==='Escape'){event.preventDefault();closeDetail();}};
-    const pointer=(event:PointerEvent)=>{const target=event.target;if(target instanceof Element&&!target.closest('.discovery-glass,[data-discovery-result],.map-transform'))closeDetail(false);};
+    const pointer=(event:PointerEvent)=>{const target=event.target;if(target instanceof Element&&!target.closest('.discovery-glass,[data-discovery-result],.map-transform,a[lang]'))closeDetail(false);};
     window.addEventListener('keydown',key);document.addEventListener('pointerdown',pointer);
     return()=>{window.removeEventListener('keydown',key);document.removeEventListener('pointerdown',pointer);};
   },[visible,closeDetail]);

@@ -156,7 +156,9 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       if(invalid){url.searchParams.set('floor',next.floorId);history.replaceState(null,'',url);}
       return next;
     };
-    setSelection(resolveRoute());
+    const initialRoute=resolveRoute();
+    if(initialRoute.kind!=='exterior')focusRequest.current=initialRoute;
+    setSelection(initialRoute);
     setRouteResolved(true);
     history.scrollRestoration='manual';
     const savePosition=()=>{if(!focusRequest.current)history.replaceState({...history.state,scrollY:window.scrollY},'');};
@@ -270,7 +272,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       await Promise.all(['exterior','overview'].map(kind => instance.prepare({kind: kind as SceneKind, floorId: site.defaultFloor})));
       if (!alive) return;
       let requested;
-      do {requested=latest.current;await instance.show({...requested,floorId:requested.kind==='discovery'?discoveryFloor(site,requested,geometry):requested.floorId});if(!alive)return;} while(requested.kind!==latest.current.kind || requested.floorId!==latest.current.floorId);
+      const effectiveFloor=(value:ExplorerSelection)=>value.kind==='discovery'?discoveryFloor(site,value,geometry):value.floorId;
+      do {requested=latest.current;await instance.show({...requested,floorId:effectiveFloor(requested)});if(!alive)return;} while(requested.kind!==latest.current.kind || effectiveFloor(requested)!==effectiveFloor(latest.current));
       if (alive) {
         entered.current=true;
         document.querySelector<HTMLElement>('.static-guide')?.setAttribute('hidden','');
@@ -365,7 +368,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   }
   function closeDiscovery(restoreFocus=true) {
     const prior=discoveryReturn.current;
-    const next={...(prior?.selection??selection),destinationId:undefined,areaId:undefined,kind:'discovery' as const};
+    const next={...(prior?.selection??selection),locale:selection.locale,destinationId:undefined,areaId:undefined,kind:'discovery' as const};
     discoveryReturn.current=null;
     beginRequest(next);
     history.pushState({scrollY:prior?.scrollY??window.scrollY},'',href(next));
