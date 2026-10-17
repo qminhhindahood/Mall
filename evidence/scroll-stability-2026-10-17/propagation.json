@@ -1,0 +1,71 @@
+{
+  "revision": "scroll-stability-2026-10-17-r1",
+  "sourceRevision": "f3bea41",
+  "sharedHead": "47b770a040aa47f34f1a22ec8cac138ddc168615",
+  "deliveries": [
+    {
+      "branch": "vincom-dong-khoi",
+      "path": "D:/Midterm/.scratch/mall-branch-bootstrap",
+      "before": "7dd49808bbc83a88163cbb0a2275e4e414d6c4bc",
+      "commit": "bb79adcd242adbe8ba4519d47da7bf1633f5b562",
+      "copied": [
+        {
+          "path": "src/components/Explorer.tsx",
+          "sha256": "590f5d575f8b870cff2828a6629b5605baecdbbbc2f33784c82ea1c307d17c8d",
+          "byteIdentical": true
+        },
+        {
+          "path": "src/runtime/create-scene-runtime.ts",
+          "sha256": "f5957ce7cc5627e9c8e1e6014b0d1bcbb0043388677b3b3dbf502ac03bf1068e",
+          "byteIdentical": true
+        },
+        {
+          "path": "src/runtime/scene-contract.ts",
+          "sha256": "3301f0ab28e030527d907267b4402fb5c99a064cd5158476c2aa1da67fc6f1c0",
+          "byteIdentical": true
+        }
+      ],
+      "protectedTrackedFiles": 646,
+      "protectedExteriorFiles": 71,
+      "protectedFilesBytePreserved": true,
+      "changedPaths": [
+        "visitor-app/src/components/Explorer.tsx",
+        "visitor-app/src/runtime/create-scene-runtime.ts",
+        "visitor-app/src/runtime/scene-contract.ts"
+      ],
+      "clean": true
+    },
+    {
+      "branch": "takashimaya",
+      "path": "D:/Midterm/.scratch/issue-0005-takashimaya",
+      "before": "ba85380aa97db50875fd3e3e5ab5004b20ff89f7",
+      "commit": "0bd157a51db8d3f4a9e13cbf9758df0f98568f5a",
+      "copied": [
+        {
+          "path": "src/components/Explorer.tsx",
+          "sha256": "590f5d575f8b870cff2828a6629b5605baecdbbbc2f33784c82ea1c307d17c8d",
+          "byteIdentical": true
+        },
+        {
+          "path": "src/runtime/create-scene-runtime.ts",
+          "sha256": "f5957ce7cc5627e9c8e1e6014b0d1bcbb0043388677b3b3dbf502ac03bf1068e",
+          "byteIdentical": true
+        },
+        {
+          "path": "src/runtime/scene-contract.ts",
+          "sha256": "3301f0ab28e030527d907267b4402fb5c99a064cd5158476c2aa1da67fc6f1c0",
+          "byteIdentical": true
+        }
+      ],
+      "protectedTrackedFiles": 646,
+      "protectedExteriorFiles": 71,
+      "protectedFilesBytePreserved": true,
+      "changedPaths": [
+        "visitor-app/src/components/Explorer.tsx",
+        "visitor-app/src/runtime/create-scene-runtime.ts",
+        "visitor-app/src/runtime/scene-contract.ts"
+      ],
+      "clean": true
+    }
+  ]
+}
