@@ -1,0 +1,78 @@
+{
+  "at": "2026-10-17T07:14:27.928Z",
+  "browser": "149.0.7827.198",
+  "runs": [
+    {
+      "mall": "saigon-centre",
+      "test": "background-reverse-pending-latest",
+      "errors": [],
+      "preparedDuringBusy": {
+        "overlays": 0,
+        "holding": true,
+        "frame": "37"
+      },
+      "pending": {
+        "loading": true,
+        "inert": true
+      },
+      "latest": {
+        "lang": "vi",
+        "key": "saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:L2",
+        "focus": "scene-discovery"
+      },
+      "pass": true
+    },
+    {
+      "mall": "saigon-centre",
+      "test": "failure-context-retry",
+      "errors": [],
+      "pass": false,
+      "failure": "page.evaluate: Error: Context loss leaves unusable guide\n    at acceptanceAssert (http://localhost:4313/__acceptance/browser-acceptance-checks.js:11:20)\n    at browserContextLossAndRetry (http://localhost:4313/__acceptance/browser-acceptance-checks.js:115:3)\n    at async <anonymous>:396:30"
+    },
+    {
+      "mall": "saigon-centre",
+      "test": "prepared-focus-history-pause",
+      "errors": [],
+      "pass": false,
+      "failure": "Live reduced motion unavailable"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "test": "background-reverse-pending-latest",
+      "errors": [],
+      "preparedDuringBusy": {
+        "overlays": 0,
+        "holding": true,
+        "frame": "37"
+      },
+      "pending": {
+        "loading": true,
+        "inert": true
+      },
+      "latest": {
+        "lang": "vi",
+        "key": "vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:exterior:all",
+        "focus": "scene-discovery"
+      },
+      "pass": false,
+      "failure": "Stale work overwrote latest selection/locale"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "test": "failure-context-retry",
+      "errors": [],
+      "context": {
+        "pass": true,
+        "href": "http://localhost:4314/en"
+      },
+      "pass": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "test": "prepared-focus-history-pause",
+      "errors": [],
+      "pass": false,
+      "failure": "Live reduced motion unavailable"
+    }
+  ]
+}

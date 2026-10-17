@@ -1,0 +1,13 @@
+import {chromium} from 'file:///D:/Midterm/.scratch/impeccable-browser/node_modules/playwright/index.mjs';
+import{writeFile}from'node:fs/promises';
+const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'}),runs=[];
+try{for(const port of [4315,4313]){
+ const context=await browser.newContext({viewport:{width:390,height:844},reducedMotion:'no-preference'}),page=await context.newPage();
+ await page.goto(`http://localhost:${port}/en`);await page.waitForFunction(()=>!document.querySelector('.loading-screen')&&document.querySelector('canvas')?.dataset.completeFrame);
+ const result=await page.evaluate(async()=>{
+  const sample=()=>({at:performance.now(),error:!!document.querySelector('.error'),guideHidden:document.querySelector('.static-guide').hidden,loading:!!document.querySelector('.loading-screen')});
+  const r={events:[]};const observer=new MutationObserver(()=>r.events.push(sample()));observer.observe(document.body,{childList:true,subtree:true,attributes:true,attributeFilter:['hidden']});
+  document.querySelector('canvas').getContext('webgl2').getExtension('WEBGL_lose_context').loseContext();
+  await new Promise(resolve=>setTimeout(resolve,300));observer.disconnect();return{...r,settled:sample()};
+ });runs.push({port,...result});await context.close();
+}}finally{await browser.close();await writeFile('D:/Midterm/.scratch/0013-scroll-stability/evidence/scroll-stability-2026-10-17/context-probe.json',JSON.stringify(runs,null,2));}console.log(JSON.stringify(runs));

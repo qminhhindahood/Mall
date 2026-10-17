@@ -1,0 +1,17 @@
+{
+  "browser": "149.0.7827.198",
+  "runs": [
+    {
+      "mall": "saigon-centre",
+      "failureReleasedGuide": true,
+      "pass": false,
+      "failure": "page.waitForFunction: Timeout 45000ms exceeded."
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "failureReleasedGuide": true,
+      "pass": false,
+      "failure": "page.waitForFunction: Timeout 45000ms exceeded."
+    }
+  ]
+}

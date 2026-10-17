@@ -1,0 +1,66 @@
+
+> midterm-mall-guide@0.1.0 build:saigon
+> cross-env MALL_ID=saigon-centre npm run build
+
+
+> midterm-mall-guide@0.1.0 build
+> node scripts/prepare-assets.mjs && astro check && astro build && node scripts/prepare-static-release.mjs
+
+{"mall":"saigon-centre","sha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","variants":[{"encoding":"identity","url":"/models/exterior.glb","bytes":2000796,"sha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true},{"encoding":"br","url":"/models/exterior.glb.br","bytes":205547,"sha256":"9eff575af59ccd8820139e547dcb43f9a43a12fa7509f522e7ce747b5a3cf9a0","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true,"quality":5},{"encoding":"gzip","url":"/models/exterior.glb.gz","bytes":271536,"sha256":"7389f4b960058a9047e9c2565f3a0f023c7170701b627e0c0a9bba54e3d28681","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true}]}
+14:21:35 [types] Generated 413ms
+14:21:35 [check] Getting diagnostics for Astro files in D:\Midterm\.scratch\0013-scroll-stability...
+[96mevidence/motion-on-review-2026-10-15/prepare.mjs[0m:[93m1[0m:[93m43[0m - [93mwarning[0m[90m ts(6133): [0m'stat' is declared but its value is never read.
+
+[7m1[0m import {readFile,writeFile,mkdir,copyFile,stat} from 'node:fs/promises';
+[7m [0m [93m                                          ~~~~[0m
+
+Result (46 files): 
+- 0 errors
+- 0 warnings
+- 1 hint
+
+14:22:22 [types] Generated 357ms
+14:22:22 [build] output: "static"
+14:22:22 [build] mode: "static"
+14:22:22 [build] directory: D:\Midterm\.scratch\0013-scroll-stability\dist\saigon-centre\
+14:22:22 [build] Collecting build info...
+14:22:22 [build] ✓ Completed in 515ms.
+14:22:22 [build] Building static entrypoints...
+14:22:23 [vite] ✓ built in 627ms
+14:22:24 [WARN] [vite] [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+14:22:24 [vite] ✓ built in 1.09s
+14:22:24 [build] Rearranging server assets...
+
+ generating static routes 
+14:22:25   ├─ /404.html (+25ms) 
+14:22:25   ├─ /vi/index.html (+254ms) 
+14:22:25   ├─ /vi/tang/B2/index.html (+67ms) 
+14:22:25   ├─ /vi/tang/B1/index.html (+126ms) 
+14:22:25   ├─ /vi/tang/L1/index.html (+118ms) 
+14:22:25   ├─ /vi/tang/L2/index.html (+134ms) 
+14:22:25   ├─ /vi/tang/L3/index.html (+97ms) 
+14:22:25   ├─ /vi/tang/L4/index.html (+110ms) 
+14:22:26   ├─ /vi/tang/L5/index.html (+130ms) 
+14:22:26   ├─ /vi/tang/L6/index.html (+233ms) 
+14:22:26   ├─ /vi/404/index.html (+19ms) 
+14:22:26   ├─ /en/index.html (+110ms) 
+14:22:26   ├─ /en/floors/B2/index.html (+157ms) 
+14:22:26   ├─ /en/floors/B1/index.html (+95ms) 
+14:22:26   ├─ /en/floors/L1/index.html (+71ms) 
+14:22:26   ├─ /en/floors/L2/index.html (+38ms) 
+14:22:26   ├─ /en/floors/L3/index.html (+37ms) 
+14:22:26   ├─ /en/floors/L4/index.html (+18ms) 
+14:22:26   ├─ /en/floors/L5/index.html (+231ms) 
+14:22:27   ├─ /en/floors/L6/index.html (+35ms) 
+14:22:27   ├─ /en/404/index.html (+3ms) 
+14:22:27   ├─ /index.html (+8ms) 
+14:22:27 ✓ Completed in 2.39s.
+
+14:22:27 [build] ✓ Completed in 4.49s.
+14:22:27 [build] 22 page(s) built in 5.07s
+14:22:27 [build] Complete!
+{"mall":"saigon-centre","fixture":false,"assetCount":50,"largestAsset":{"path":"dist\\saigon-centre\\data\\floor-geometry.json","bytes":5181012},"directoryApproval":"pending","siteOrigin":null,"releaseApproved":false}

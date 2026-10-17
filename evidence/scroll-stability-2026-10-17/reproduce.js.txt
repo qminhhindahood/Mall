@@ -1,0 +1,34 @@
+// Run in a loaded public page. Only DOM, native scrolling and User Timing are observed.
+window.__scrollRun = {status:'running', overlays:[], samples:[], failures:[]};
+(async () => {
+ const r=window.__scrollRun, sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+ const wait=async fn=>{const end=performance.now()+60000;while(!fn()){if(performance.now()>end)throw Error('Readiness deadline');await sleep(50);}};
+ const sample=()=>({at:performance.now(),y:scrollY,href:location.href,hidden:document.hidden,loading:!!document.querySelector('.loading-screen'),focus:document.activeElement?.id,canvas:{...document.querySelector('canvas')?.dataset}});
+ try {
+  await wait(()=>!document.querySelector('.loading-screen')&&!!document.querySelector('canvas')?.dataset.completeFrame);
+  const gl=document.querySelector('canvas').getContext('webgl2'), ext=gl.getExtension('WEBGL_debug_renderer_info');
+  r.profile={userAgent:navigator.userAgent,viewport:[innerWidth,innerHeight],dpr:devicePixelRatio,visibility:document.visibilityState,gpu:ext&&gl.getParameter(ext.UNMASKED_RENDERER_WEBGL),motion:matchMedia('(prefers-reduced-motion: reduce)').matches};
+  // Prepare the actual map/Discovery using ordinary public controls, then return.
+  document.querySelector('.floors a[href$="/L2"]').click();
+  await wait(()=>!document.querySelector('.loading-screen')&&document.querySelector('canvas')?.dataset.sceneKey?.endsWith(':map:L2'));
+  document.querySelector('a[href*="view=discovery"]').click();
+  await wait(()=>!document.querySelector('.loading-screen')&&document.querySelector('canvas')?.dataset.sceneKey?.endsWith(':discovery:L2'));
+  window.scrollTo({top:0,behavior:'instant'});await sleep(600);
+  await wait(()=>!document.querySelector('.loading-screen'));
+  let previous=false;
+  const observe=()=>{const now=!!document.querySelector('.loading-screen');if(now&&!previous)r.overlays.push(sample());previous=now;};
+  const observer=new MutationObserver(observe);observer.observe(document.body,{childList:true,subtree:true});
+  const top=id=>document.getElementById(id).getBoundingClientRect().top+scrollY;
+  r.anchors={overview:top('scene-overview'),map:top('scene-map'),discovery:top('scene-discovery')};
+  for(let cycle=0;cycle<3;cycle++) {
+   for(const y of [r.anchors.overview+80,r.anchors.map-100,r.anchors.discovery-100,r.anchors.map-100,r.anchors.overview+80,0]) {
+    scrollTo({top:y,behavior:'instant'});await sleep(180);r.samples.push(sample());
+   }
+  }
+  await sleep(500);observer.disconnect();
+  if(r.overlays.length)r.failures.push('Prepared-scene scrolling reopens preparation overlay');
+  if(new URL(location.href).searchParams.get('floor')!=='L2')r.failures.push('Selected floor lost');
+  r.marks=performance.getEntriesByType('mark').filter(e=>e.name.startsWith('mall-')).map(e=>({name:e.name,at:e.startTime,detail:e.detail}));
+  r.status=r.failures.length?'failed':'passed';
+ }catch(e){r.failures.push(e.message);r.status='error';}
+})();

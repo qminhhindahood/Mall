@@ -1,0 +1,11 @@
+
+> midterm-mall-guide@0.1.0 build:saigon
+> cross-env MALL_ID=saigon-centre npm run build
+
+
+> midterm-mall-guide@0.1.0 build
+> node scripts/prepare-assets.mjs && astro check && astro build && node scripts/prepare-static-release.mjs
+
+{"mall":"saigon-centre","sha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","variants":[{"encoding":"identity","url":"/models/exterior.glb","bytes":2000796,"sha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true},{"encoding":"br","url":"/models/exterior.glb.br","bytes":205547,"sha256":"9eff575af59ccd8820139e547dcb43f9a43a12fa7509f522e7ce747b5a3cf9a0","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true,"quality":5},{"encoding":"gzip","url":"/models/exterior.glb.gz","bytes":271536,"sha256":"7389f4b960058a9047e9c2565f3a0f023c7170701b627e0c0a9bba54e3d28681","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true}]}
+14:07:12 [types] Generated 294ms
+14:07:12 [check] Getting diagnostics for Astro files in D:\Midterm\.scratch\0013-scroll-stability...

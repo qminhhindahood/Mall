@@ -1,0 +1,42 @@
+[
+  {
+    "port": 4315,
+    "events": [
+      {
+        "at": 9388.900000035763,
+        "error": true,
+        "guideHidden": true,
+        "loading": false
+      },
+      {
+        "at": 9392.199999988079,
+        "error": true,
+        "guideHidden": false,
+        "loading": false
+      }
+    ],
+    "settled": {
+      "at": 9460.300000011921,
+      "error": true,
+      "guideHidden": false,
+      "loading": false
+    }
+  },
+  {
+    "port": 4313,
+    "events": [
+      {
+        "at": 5613.300000011921,
+        "error": true,
+        "guideHidden": true,
+        "loading": false
+      }
+    ],
+    "settled": {
+      "at": 5620.5,
+      "error": true,
+      "guideHidden": true,
+      "loading": false
+    }
+  }
+]

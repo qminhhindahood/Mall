@@ -1,0 +1,12 @@
+{
+  "baseline": "b14fcfe",
+  "sourceRevision": "f3bea41 (runtime reuse fa0796c plus pending-history correction)",
+  "standards": {"reviewer": "/root/runtime_standards", "findings": []},
+  "spec": {
+    "reviewer": "/root/runtime_spec",
+    "resolvedFinding": "Initial canShowImmediately rejected completed views while unrelated background GPU work was busy. Final isPrepared tracks completed preparation independently and queues the handoff while retaining the prior complete presentation.",
+    "resolvedHistoryFinding": "Guard both departure and scroll-observer position writes while requested presentation/focus is pending, including intermediate unarrived entries. New target entries remain unset until actual arrival; ready locale switches preserve position.",
+    "unresolvedFindings": []
+  },
+  "scope": "Independent read-only source reviews of the new three-file delta; browser evidence is recorded separately. Historical original-loading reviews against 2c35231 are not rerun or relabeled."
+}

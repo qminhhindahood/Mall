@@ -1,0 +1,21 @@
+import{chromium}from'file:///D:/Midterm/.scratch/impeccable-browser/node_modules/playwright/index.mjs';
+import{writeFile}from'node:fs/promises';
+const out='D:/Midterm/.scratch/0013-scroll-stability/evidence/scroll-stability-2026-10-17';
+const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'}),runs=[];
+try{for(const[mall,port,count]of[['saigon-centre',4313,18],['vincom-dong-khoi',4314,16]]){
+ const context=await browser.newContext({viewport:{width:1280,height:800},reducedMotion:'no-preference'}),page=await context.newPage(),r={mall};runs.push(r);
+ try{
+  await page.goto(`http://localhost:${port}/en`);await page.waitForFunction(n=>!document.querySelector('.loading-screen')&&performance.getEntriesByType('mark').filter(e=>e.name.startsWith('mall-3d:prepared:')).length>=n,count,{timeout:45000});
+  const old=await page.locator('canvas').elementHandle();
+  await page.evaluate(()=>{const gl=document.querySelector('canvas').getContext('webgl2');gl.drawElements=()=>{throw Error('Deliberate cached presentation draw failure');};document.querySelector('.floors a[href$="/L2"]').click();});
+  await page.waitForFunction(()=>!!document.querySelector('.error')&&!document.querySelector('.loading-screen')&&!document.querySelector('.static-guide').hidden&&!document.querySelector('.visitor-guide').inert);
+  r.failureReleasedGuide=true;
+  // Preserve the requested map rather than auto-scrolling to the page-top
+  // error button (native reverse scroll intentionally selects the exterior).
+  await page.evaluate(()=>document.querySelector('.error button').click());
+  await page.waitForFunction(()=>!document.querySelector('.loading-screen')&&!document.querySelector('.error')&&document.querySelector('canvas')?.dataset.sceneKey?.endsWith(':map:L2')&&document.activeElement.id==='scene-map',null,{timeout:45000});
+  r.retry=await page.locator('canvas').evaluate((e,old)=>({newCanvas:e!==old,count:document.querySelectorAll('canvas').length,frame:e.dataset.completeFrame}),old);
+  if(!r.retry.newCanvas||r.retry.count!==1)throw Error('Retry reused failed canvas or leaked a renderer');r.pass=true;
+ }catch(e){r.pass=false;r.failure=e.message;r.final=await page.evaluate(()=>({href:location.href,key:document.querySelector('canvas')?.dataset.sceneKey,loading:!!document.querySelector('.loading-screen'),error:document.querySelector('.error')?.textContent,focus:document.activeElement.id})).catch(()=>null);}finally{console.log(JSON.stringify(r));await context.close();}
+}}finally{await browser.close();await writeFile(`${out}/prepared-failure.json`,JSON.stringify({browser:browser.version(),runs},null,2)+'\n');}
+if(runs.some(r=>!r.pass))process.exitCode=1;

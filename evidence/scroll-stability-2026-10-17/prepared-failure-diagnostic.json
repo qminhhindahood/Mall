@@ -1,0 +1,20 @@
+{
+  "browser": "149.0.7827.198",
+  "runs": [
+    {
+      "mall": "saigon-centre",
+      "failureReleasedGuide": true,
+      "retry": {
+        "newCanvas": true,
+        "count": 1,
+        "frame": "37"
+      },
+      "observed": {
+        "href": "http://localhost:4313/en?floor=L2&view=exterior",
+        "key": "saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:exterior:all",
+        "y": 0
+      },
+      "pass": true
+    }
+  ]
+}

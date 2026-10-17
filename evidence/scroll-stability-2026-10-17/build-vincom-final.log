@@ -1,0 +1,64 @@
+
+> midterm-mall-guide@0.1.0 build:vincom
+> cross-env MALL_ID=vincom-dong-khoi npm run build
+
+
+> midterm-mall-guide@0.1.0 build
+> node scripts/prepare-assets.mjs && astro check && astro build && node scripts/prepare-static-release.mjs
+
+{"mall":"vincom-dong-khoi","sha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","variants":[{"encoding":"identity","url":"/models/exterior.glb","bytes":4797176,"sha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","decodedSha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","roundtripExact":true},{"encoding":"br","url":"/models/exterior.glb.br","bytes":1199582,"sha256":"ebd671f8b7e275b152916c9cb39d66e7f247f05a63f293c842bc1aa1a2c98a42","decodedSha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","roundtripExact":true,"quality":5},{"encoding":"gzip","url":"/models/exterior.glb.gz","bytes":1400594,"sha256":"34e5c6b8d959412de1f57b05ae6ab530216ef4720c702704b94abf7df19a5206","decodedSha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","roundtripExact":true}]}
+14:10:11 [types] Generated 1.70s
+14:10:11 [check] Getting diagnostics for Astro files in D:\Midterm\.scratch\0013-scroll-stability...
+[96mevidence/motion-on-review-2026-10-15/prepare.mjs[0m:[93m1[0m:[93m43[0m - [93mwarning[0m[90m ts(6133): [0m'stat' is declared but its value is never read.
+
+[7m1[0m import {readFile,writeFile,mkdir,copyFile,stat} from 'node:fs/promises';
+[7m [0m [93m                                          ~~~~[0m
+
+Result (46 files): 
+- 0 errors
+- 0 warnings
+- 1 hint
+
+14:10:45 [types] Generated 590ms
+14:10:45 [build] output: "static"
+14:10:45 [build] mode: "static"
+14:10:45 [build] directory: D:\Midterm\.scratch\0013-scroll-stability\dist\vincom-dong-khoi\
+14:10:45 [build] Collecting build info...
+14:10:45 [build] ✓ Completed in 1.11s.
+14:10:45 [build] Building static entrypoints...
+14:10:46 [vite] ✓ built in 1.10s
+14:10:47 [WARN] [vite] [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+14:10:47 [vite] ✓ built in 1.17s
+14:10:47 [build] Rearranging server assets...
+
+ generating static routes 
+14:10:48   ├─ /404.html (+61ms) 
+14:10:48   ├─ /vi/index.html (+96ms) 
+14:10:48   ├─ /vi/tang/B3/index.html (+24ms) 
+14:10:48   ├─ /vi/tang/B2/index.html (+19ms) 
+14:10:48   ├─ /vi/tang/B1/index.html (+71ms) 
+14:10:48   ├─ /vi/tang/L1/index.html (+17ms) 
+14:10:48   ├─ /vi/tang/M/index.html (+21ms) 
+14:10:48   ├─ /vi/tang/L2/index.html (+28ms) 
+14:10:48   ├─ /vi/tang/L3/index.html (+111ms) 
+14:10:48   ├─ /vi/404/index.html (+83ms) 
+14:10:48   ├─ /en/index.html (+169ms) 
+14:10:48   ├─ /en/floors/B3/index.html (+12ms) 
+14:10:48   ├─ /en/floors/B2/index.html (+351ms) 
+14:10:49   ├─ /en/floors/B1/index.html (+30ms) 
+14:10:49   ├─ /en/floors/L1/index.html (+6ms) 
+14:10:49   ├─ /en/floors/M/index.html (+6ms) 
+14:10:49   ├─ /en/floors/L2/index.html (+7ms) 
+14:10:49   ├─ /en/floors/L3/index.html (+7ms) 
+14:10:49   ├─ /en/404/index.html (+5ms) 
+14:10:49   ├─ /index.html (+7ms) 
+14:10:49 ✓ Completed in 1.46s.
+
+14:10:49 [build] ✓ Completed in 3.91s.
+14:10:49 [build] 20 page(s) built in 5.06s
+14:10:49 [build] Complete!
+{"mall":"vincom-dong-khoi","fixture":false,"assetCount":47,"largestAsset":{"path":"dist\\vincom-dong-khoi\\models\\exterior.glb","bytes":4797176},"directoryApproval":"pending","siteOrigin":null,"releaseApproved":false}

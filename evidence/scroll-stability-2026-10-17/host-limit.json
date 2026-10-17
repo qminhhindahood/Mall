@@ -1,0 +1,12 @@
+{
+  "sharedPreview": {
+    "tab": "tab_7_a8132feb-a38e-4995-a781-2bb53b08770e",
+    "baselineObserved": true,
+    "navigationFailures": ["Preview automation navigate timed out after 15000ms.", "Preview automation navigate timed out after 15000ms."],
+    "fallback": "Existing scratch-only Playwright and installed Chrome; no application dependency added",
+    "visibilityLimit": "T3 visible:false while document.hidden:false; raw baseline page profile retained. Not a stable-host or native-lifecycle acceptance.",
+    "cleanup": "Closed only the failing agent-owned tab after two navigation failures. No user tab touched."
+  },
+  "buildAttempts": "Initial check was stopped after prolonged startup. A diagnostic retry was stopped after evidence scripts were changed to .txt snapshots. Final both-mall build logs are the authoritative checks.",
+  "measurements": "Local HTTP behavior checks only. No new production/Wi-Fi, LCP/INP/CLS/Lighthouse or physical-device claim. Native minimize/restore remains not-run."
+}

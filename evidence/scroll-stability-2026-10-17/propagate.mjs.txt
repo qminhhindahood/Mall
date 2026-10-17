@@ -1,0 +1,27 @@
+// Local delivery only. Refuse dirty site trees and preserve every other tracked file.
+import{readFile,writeFile,mkdir}from'node:fs/promises';
+import{createHash}from'node:crypto';
+import{execFileSync}from'node:child_process';
+import{resolve,dirname}from'node:path';
+const root='D:/Midterm/implementation/mall-visitor';
+const paths=['src/components/Explorer.tsx','src/runtime/create-scene-runtime.ts','src/runtime/scene-contract.ts'];
+const git=(cwd,...args)=>execFileSync('git',args,{cwd,encoding:'utf8'}).trim();
+const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
+const result={revision:'scroll-stability-2026-10-17-r1',sourceRevision:'f3bea41',sharedHead:git(root,'rev-parse','HEAD'),deliveries:[]};
+for(const [branch,site]of[['vincom-dong-khoi','D:/Midterm/.scratch/mall-branch-bootstrap'],['takashimaya','D:/Midterm/.scratch/issue-0005-takashimaya']]){
+ if(git(site,'status','--porcelain'))throw Error(`Dirty site ${site}`);
+ if(git(site,'branch','--show-current')!==branch)throw Error(`Wrong branch ${site}`);
+ const before=git(site,'rev-parse','HEAD');
+ const all=git(site,'ls-files','-z').split('\0').filter(Boolean);
+ const protectedPaths=all.filter(p=>!paths.some(f=>p===`visitor-app/${f}`));
+ const protectedHashes=new Map(await Promise.all(protectedPaths.map(async p=>[p,hash(await readFile(resolve(site,p)))])));
+ const copied=[];
+ for(const path of paths){const bytes=await readFile(resolve(root,path));const target=resolve(site,'visitor-app',path);await mkdir(dirname(target),{recursive:true});await writeFile(target,bytes);copied.push({path,sha256:hash(bytes),byteIdentical:hash(await readFile(target))===hash(bytes)});}
+ for(const[p,h]of protectedHashes)if(hash(await readFile(resolve(site,p)))!==h)throw Error(`Protected file changed ${p}`);
+ const changed=git(site,'diff','--name-only').split('\n').filter(Boolean);
+ if(changed.some(p=>!paths.some(f=>p===`visitor-app/${f}`)))throw Error('Unexpected changed path');
+ git(site,'add','--',...paths.map(p=>`visitor-app/${p}`));git(site,'commit','-m','Apply prepared-scene stability and pending-history repair');
+ result.deliveries.push({branch,path:site,before,commit:git(site,'rev-parse','HEAD'),copied,protectedTrackedFiles:protectedPaths.length,protectedExteriorFiles:protectedPaths.filter(p=>!p.startsWith('visitor-app/')).length,protectedFilesBytePreserved:true,changedPaths:changed,clean:!git(site,'status','--porcelain')});
+}
+await writeFile('D:/Midterm/.scratch/0013-scroll-stability/evidence/scroll-stability-2026-10-17/propagation.json',JSON.stringify(result,null,2)+'\n');
+console.log(JSON.stringify(result));

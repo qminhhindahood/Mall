@@ -1,0 +1,2182 @@
+{
+  "status": "failed",
+  "overlays": [
+    {
+      "at": 41056.40000003576,
+      "y": 2500,
+      "href": "http://localhost:4314/en/floors/L2?floor=L2&view=map",
+      "hidden": false,
+      "loading": true,
+      "focus": "",
+      "canvas": {
+        "engine": "three.js r186",
+        "renderedFrames": "90",
+        "sceneKey": "vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:overview:all",
+        "completeFrame": "88"
+      }
+    },
+    {
+      "at": 41136.30000001192,
+      "y": 880,
+      "href": "http://localhost:4314/en?floor=L2&view=overview",
+      "hidden": false,
+      "loading": true,
+      "focus": "",
+      "canvas": {
+        "engine": "three.js r186",
+        "renderedFrames": "91",
+        "sceneKey": "vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:L2",
+        "completeFrame": "91"
+      }
+    }
+  ],
+  "samples": [
+    {
+      "at": 40890.5,
+      "y": 880,
+      "href": "http://localhost:4314/en?floor=L2&view=overview",
+      "hidden": false,
+      "loading": false,
+      "focus": "scene-discovery",
+      "canvas": {
+        "engine": "three.js r186",
+        "renderedFrames": "88",
+        "sceneKey": "vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:overview:all",
+        "completeFrame": "88"
+      }
+    },
+    {
+      "at": 41084.80000001192,
+      "y": 2500,
+      "href": "http://localhost:4314/en/floors/L2?floor=L2&view=map",
+      "hidden": false,
+      "loading": true,
+      "focus": "",
+      "canvas": {
+        "engine": "three.js r186",
+        "renderedFrames": "91",
+        "sceneKey": "vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:L2",
+        "completeFrame": "91"
+      }
+    },
+    {
+      "at": 48999.5,
+      "y": 880,
+      "href": "http://localhost:4314/en?floor=L2&view=overview",
+      "hidden": false,
+      "loading": true,
+      "focus": "",
+      "canvas": {
+        "engine": "three.js r186",
+        "renderedFrames": "91",
+        "sceneKey": "vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:L2",
+        "completeFrame": "91"
+      }
+    }
+  ],
+  "failures": [
+    "Prepared-scene scrolling reopens preparation overlay"
+  ],
+  "profile": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "viewport": [
+      1280,
+      800
+    ],
+    "dpr": 2,
+    "visibility": "visible",
+    "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "motion": false
+  },
+  "anchors": {
+    "overview": 800,
+    "map": 2600,
+    "discovery": 3484.5078125
+  },
+  "marks": [
+    {
+      "name": "mall-loading:navigation-to-frame:start:2",
+      "at": 0,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "attempt": 0
+      }
+    },
+    {
+      "name": "mall-loading:entry-start",
+      "at": 580,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:entry-to-frame:start:1",
+      "at": 580,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "attempt": 0
+      }
+    },
+    {
+      "name": "mall-loading:model-transfer:start:3",
+      "at": 580.1000000238419,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "attempt": 0,
+        "url": "/models/exterior.glb.br"
+      }
+    },
+    {
+      "name": "mall-loading:geometry-transfer:start:4",
+      "at": 581.4000000357628,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "attempt": 0,
+        "url": "/data/floor-geometry.json.br"
+      }
+    },
+    {
+      "name": "mall-loading:module:start:5",
+      "at": 581.8000000119209,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "attempt": 0
+      }
+    },
+    {
+      "name": "mall-loading:geometry-transfer:end:4",
+      "at": 612.8000000119209,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "attempt": 0,
+        "url": "/data/floor-geometry.json.br",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:geometry-decode:start:6",
+      "at": 612.9000000357628,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "attempt": 0
+      }
+    },
+    {
+      "name": "mall-loading:geometry-decode:end:6",
+      "at": 617.3000000119209,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "attempt": 0,
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:model-transfer:end:3",
+      "at": 663.1000000238419,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "attempt": 0,
+        "url": "/models/exterior.glb.br",
+        "decodedBytes": 4797176,
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:module:end:5",
+      "at": 841.3000000119209,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "attempt": 0,
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:renderer-setup:start:7",
+      "at": 842.3000000119209,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2"
+      }
+    },
+    {
+      "name": "mall-loading:renderer-setup:end:7",
+      "at": 1006.8000000119209,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:start:8",
+      "at": 1007.4000000357628,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "exterior",
+        "floorId": "B2"
+      }
+    },
+    {
+      "name": "mall-loading:model-decode:start:9",
+      "at": 1007.6999999880791,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2"
+      }
+    },
+    {
+      "name": "mall-3d:model-decode-start",
+      "at": 1007.6999999880791,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:model-decode:end:9",
+      "at": 1083.300000011921,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:model-decode-end",
+      "at": 1083.300000011921,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:gpu-prepare:start:10",
+      "at": 1085.699999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "exterior",
+        "floorId": "B2"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:end:10",
+      "at": 5081.600000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "exterior",
+        "floorId": "B2",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:end:8",
+      "at": 5081.699999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "exterior",
+        "floorId": "B2",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:prepared:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:exterior:all",
+      "at": 5081.800000011921,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:scene-prepare:start:11",
+      "at": 5090,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "overview",
+        "floorId": "B2"
+      }
+    },
+    {
+      "name": "mall-loading:floor-geometry:start:12",
+      "at": 5102.300000011921,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "floorId": "B3"
+      }
+    },
+    {
+      "name": "mall-loading:floor-geometry:end:12",
+      "at": 5121.600000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "floorId": "B3",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:floor-geometry:start:13",
+      "at": 5130.5,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "floorId": "B2"
+      }
+    },
+    {
+      "name": "mall-loading:floor-geometry:end:13",
+      "at": 5138.199999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "floorId": "B2",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:floor-geometry:start:14",
+      "at": 5146.199999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "floorId": "B1"
+      }
+    },
+    {
+      "name": "mall-loading:floor-geometry:end:14",
+      "at": 5152.600000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "floorId": "B1",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:floor-geometry:start:15",
+      "at": 5162.900000035763,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "floorId": "L1"
+      }
+    },
+    {
+      "name": "mall-loading:floor-geometry:end:15",
+      "at": 5165.699999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "floorId": "L1",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:floor-geometry:start:16",
+      "at": 5170.900000035763,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "floorId": "M"
+      }
+    },
+    {
+      "name": "mall-loading:floor-geometry:end:16",
+      "at": 5172.100000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "floorId": "M",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:floor-geometry:start:17",
+      "at": 5178.800000011921,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "floorId": "L2"
+      }
+    },
+    {
+      "name": "mall-loading:floor-geometry:end:17",
+      "at": 5180.900000035763,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "floorId": "L2",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:floor-geometry:start:18",
+      "at": 5187.199999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "floorId": "L3"
+      }
+    },
+    {
+      "name": "mall-loading:floor-geometry:end:18",
+      "at": 5189.400000035763,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "floorId": "L3",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:start:19",
+      "at": 5190,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "overview",
+        "floorId": "B2"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:end:19",
+      "at": 5562.5,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "overview",
+        "floorId": "B2",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:end:11",
+      "at": 5562.600000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "overview",
+        "floorId": "B2",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:prepared:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:overview:all",
+      "at": 5562.600000023842,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:scene-render:start:20",
+      "at": 5585.100000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "B2",
+        "kind": "exterior"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:end:20",
+      "at": 5601.699999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "B2",
+        "kind": "exterior",
+        "frame": 37,
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:resources",
+      "at": 5602,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "geometries": 46,
+        "geometryBytes": 18986160,
+        "materials": 17,
+        "textures": 7,
+        "estimatedTextureBytes": 76895573,
+        "views": 2,
+        "estimatedRenderTargetBytes": 15052800,
+        "estimatedEnvironmentBytes": 6291456,
+        "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+      }
+    },
+    {
+      "name": "mall-3d:shown:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:exterior:all",
+      "at": 5602.100000023842,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:entry-ready",
+      "at": 5602.199999988079,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:entry-to-frame:end:1",
+      "at": 5602.199999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "B2",
+        "kind": "exterior",
+        "completeFrame": "37",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:navigation-to-frame:end:2",
+      "at": 5602.199999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "B2",
+        "kind": "exterior",
+        "completeFrame": "37",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:start:21",
+      "at": 5624.5,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "B3"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:start:22",
+      "at": 5625.199999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "B3"
+      }
+    },
+    {
+      "name": "mall-loading:request-to-frame:start:23",
+      "at": 9128.900000035763,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "map"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:end:22",
+      "at": 9219.699999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "B3",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:end:21",
+      "at": 9219.800000011921,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "B3",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:prepared:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:B3",
+      "at": 9220,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:scene-prepare:start:24",
+      "at": 9227.100000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "L2"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:start:25",
+      "at": 9227.900000035763,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "L2"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:end:25",
+      "at": 9297.199999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "L2",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:end:24",
+      "at": 9297.300000011921,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "L2",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:prepared:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:L2",
+      "at": 9297.300000011921,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:scene-prepare:start:26",
+      "at": 9311,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "B3"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:start:27",
+      "at": 9319.400000035763,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "map"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:end:27",
+      "at": 9322,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "map",
+        "frame": 42,
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:resources",
+      "at": 9322.100000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "geometries": 46,
+        "geometryBytes": 18986160,
+        "materials": 17,
+        "textures": 7,
+        "estimatedTextureBytes": 76895573,
+        "views": 5,
+        "estimatedRenderTargetBytes": 14551040,
+        "estimatedEnvironmentBytes": 6291456,
+        "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:start:28",
+      "at": 9322.199999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "B3"
+      }
+    },
+    {
+      "name": "mall-3d:shown:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:L2",
+      "at": 9322.400000035763,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:request-to-frame:end:23",
+      "at": 9322.600000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "map",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:request-to-frame:start:29",
+      "at": 9362.400000035763,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "discovery"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:end:28",
+      "at": 9668.900000035763,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "B3",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:end:26",
+      "at": 9669,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "B3",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:prepared:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:B3",
+      "at": 9669,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:scene-prepare:start:30",
+      "at": 9675.300000011921,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "L2"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:start:31",
+      "at": 9675.900000035763,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "L2"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:end:31",
+      "at": 9745.699999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "L2",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:end:30",
+      "at": 9745.699999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "L2",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:prepared:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:L2",
+      "at": 9745.800000011921,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:scene-prepare:start:32",
+      "at": 9754.600000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "B2"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:start:33",
+      "at": 9763.300000011921,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "discovery"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:end:33",
+      "at": 9763.600000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "discovery",
+        "frame": 45,
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:resources",
+      "at": 9763.800000011921,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "geometries": 46,
+        "geometryBytes": 18986160,
+        "materials": 17,
+        "textures": 7,
+        "estimatedTextureBytes": 76895573,
+        "views": 7,
+        "estimatedRenderTargetBytes": 14551040,
+        "estimatedEnvironmentBytes": 6291456,
+        "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:start:34",
+      "at": 9763.900000035763,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "B2"
+      }
+    },
+    {
+      "name": "mall-3d:shown:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:L2",
+      "at": 9764.100000023842,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:request-to-frame:end:29",
+      "at": 9764.100000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "discovery",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:end:34",
+      "at": 9922,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "B2",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:end:32",
+      "at": 9922,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "B2",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:prepared:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:B2",
+      "at": 9922.100000023842,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:scene-prepare:start:35",
+      "at": 9927.800000011921,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "B2"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:start:36",
+      "at": 9928.199999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "B2"
+      }
+    },
+    {
+      "name": "mall-loading:request-to-frame:start:37",
+      "at": 9973.600000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "exterior"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:end:36",
+      "at": 10012.300000011921,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "B2",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:end:35",
+      "at": 10023.600000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "B2",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:prepared:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:B2",
+      "at": 10023.600000023842,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:scene-prepare:start:38",
+      "at": 10031.100000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "B1"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:start:39",
+      "at": 10039.199999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "exterior"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:end:39",
+      "at": 10040.600000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "exterior",
+        "frame": 48,
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:resources",
+      "at": 10040.699999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "geometries": 46,
+        "geometryBytes": 18986160,
+        "materials": 17,
+        "textures": 7,
+        "estimatedTextureBytes": 76895573,
+        "views": 9,
+        "estimatedRenderTargetBytes": 15052800,
+        "estimatedEnvironmentBytes": 6291456,
+        "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:start:40",
+      "at": 10040.900000035763,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "B1"
+      }
+    },
+    {
+      "name": "mall-3d:shown:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:exterior:all",
+      "at": 10041,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:request-to-frame:end:37",
+      "at": 10041,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "exterior",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:end:40",
+      "at": 11245.699999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "B1",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:end:38",
+      "at": 11245.800000011921,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "B1",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:prepared:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:B1",
+      "at": 11245.800000011921,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:request-to-frame:start:41",
+      "at": 11268.100000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "overview"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:start:42",
+      "at": 11270.400000035763,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "B1"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:start:43",
+      "at": 11271.100000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "B1"
+      }
+    },
+    {
+      "name": "mall-loading:request-to-frame:start:44",
+      "at": 11576.100000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "map"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:end:43",
+      "at": 14336.100000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "B1",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:end:42",
+      "at": 14336.100000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "B1",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:prepared:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:B1",
+      "at": 14336.199999988079,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:request-to-frame:end:41",
+      "at": 14343.600000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "overview",
+        "outcome": "stale"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:start:45",
+      "at": 14350.100000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "L1"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:start:46",
+      "at": 14357.5,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "map"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:end:46",
+      "at": 14358,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "map",
+        "frame": 53,
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:resources",
+      "at": 14358.199999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "geometries": 46,
+        "geometryBytes": 18986160,
+        "materials": 17,
+        "textures": 7,
+        "estimatedTextureBytes": 76895573,
+        "views": 11,
+        "estimatedRenderTargetBytes": 14551040,
+        "estimatedEnvironmentBytes": 6291456,
+        "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:start:47",
+      "at": 14358.400000035763,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "L1"
+      }
+    },
+    {
+      "name": "mall-3d:shown:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:L2",
+      "at": 14358.600000023842,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:request-to-frame:end:44",
+      "at": 14358.600000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "map",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:request-to-frame:start:48",
+      "at": 14371.800000011921,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "overview"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:end:47",
+      "at": 14542.100000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "L1",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:end:45",
+      "at": 14549.600000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "L1",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:prepared:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:L1",
+      "at": 14549.699999988079,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:scene-prepare:start:49",
+      "at": 14558.100000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "L1"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:start:50",
+      "at": 14565.199999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "overview"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:end:50",
+      "at": 14567.100000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "overview",
+        "frame": 55,
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:resources",
+      "at": 14567.300000011921,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "geometries": 46,
+        "geometryBytes": 18986160,
+        "materials": 17,
+        "textures": 7,
+        "estimatedTextureBytes": 76895573,
+        "views": 12,
+        "estimatedRenderTargetBytes": 15052800,
+        "estimatedEnvironmentBytes": 6291456,
+        "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:start:51",
+      "at": 14567.5,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "L1"
+      }
+    },
+    {
+      "name": "mall-3d:shown:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:overview:all",
+      "at": 14567.600000023842,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:request-to-frame:end:48",
+      "at": 14567.600000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "overview",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:request-to-frame:start:52",
+      "at": 14578.5,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "exterior"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:end:51",
+      "at": 15756.800000011921,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "L1",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:end:49",
+      "at": 15758.600000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "L1",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:prepared:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:L1",
+      "at": 15758.699999988079,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:scene-prepare:start:53",
+      "at": 15765.100000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "M"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:start:54",
+      "at": 15773.300000011921,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "exterior"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:end:54",
+      "at": 15774.699999988079,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "exterior",
+        "frame": 57,
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:resources",
+      "at": 15774.800000011921,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "geometries": 46,
+        "geometryBytes": 18986160,
+        "materials": 17,
+        "textures": 7,
+        "estimatedTextureBytes": 76895573,
+        "views": 13,
+        "estimatedRenderTargetBytes": 15052800,
+        "estimatedEnvironmentBytes": 6291456,
+        "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:start:55",
+      "at": 15774.900000035763,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "M"
+      }
+    },
+    {
+      "name": "mall-3d:shown:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:exterior:all",
+      "at": 15775.100000023842,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:request-to-frame:end:52",
+      "at": 15775.100000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "exterior",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:end:55",
+      "at": 16958.69999998808,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "M",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:end:53",
+      "at": 16958.69999998808,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "M",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:prepared:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:M",
+      "at": 16958.80000001192,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:scene-prepare:start:56",
+      "at": 16964.600000023842,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "M"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:start:57",
+      "at": 16965,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "M"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:end:57",
+      "at": 17030.69999998808,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "M",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:end:56",
+      "at": 17030.69999998808,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "M",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:prepared:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:M",
+      "at": 17031,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:scene-prepare:start:58",
+      "at": 19156.80000001192,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "L3"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:start:59",
+      "at": 19157.30000001192,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "L3"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:end:59",
+      "at": 19227.400000035763,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "L3",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:end:58",
+      "at": 19227.400000035763,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "map",
+        "floorId": "L3",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:prepared:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:L3",
+      "at": 19227.5,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:scene-prepare:start:60",
+      "at": 19233.19999998808,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "L3"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:start:61",
+      "at": 19233.5,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "L3"
+      }
+    },
+    {
+      "name": "mall-loading:gpu-prepare:end:61",
+      "at": 19299.69999998808,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "L3",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:scene-prepare:end:60",
+      "at": 19299.80000001192,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "kind": "discovery",
+        "floorId": "L3",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:prepared:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:L3",
+      "at": 19299.80000001192,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:request-to-frame:start:62",
+      "at": 39123.19999998808,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "map"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:start:63",
+      "at": 39160.40000003576,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "map"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:end:63",
+      "at": 39160.80000001192,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "map",
+        "frame": 83,
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:resources",
+      "at": 39160.90000003576,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "geometries": 46,
+        "geometryBytes": 18986160,
+        "materials": 17,
+        "textures": 7,
+        "estimatedTextureBytes": 76895573,
+        "views": 16,
+        "estimatedRenderTargetBytes": 14551040,
+        "estimatedEnvironmentBytes": 6291456,
+        "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+      }
+    },
+    {
+      "name": "mall-3d:shown:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:L2",
+      "at": 39160.90000003576,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:request-to-frame:end:62",
+      "at": 39160.90000003576,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "map",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:request-to-frame:start:64",
+      "at": 39195,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "discovery"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:start:65",
+      "at": 39232.40000003576,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "discovery"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:end:65",
+      "at": 39233,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "discovery",
+        "frame": 84,
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:resources",
+      "at": 39233.19999998808,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "geometries": 46,
+        "geometryBytes": 18986160,
+        "materials": 17,
+        "textures": 7,
+        "estimatedTextureBytes": 76895573,
+        "views": 16,
+        "estimatedRenderTargetBytes": 14551040,
+        "estimatedEnvironmentBytes": 6291456,
+        "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+      }
+    },
+    {
+      "name": "mall-3d:shown:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:L2",
+      "at": 39233.19999998808,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:request-to-frame:end:64",
+      "at": 39233.19999998808,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "discovery",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:request-to-frame:start:66",
+      "at": 39271.90000003576,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "exterior"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:start:67",
+      "at": 39498.40000003576,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "exterior"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:end:67",
+      "at": 39499.80000001192,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "exterior",
+        "frame": 85,
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:resources",
+      "at": 39499.90000003576,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "geometries": 46,
+        "geometryBytes": 18986160,
+        "materials": 17,
+        "textures": 7,
+        "estimatedTextureBytes": 76895573,
+        "views": 16,
+        "estimatedRenderTargetBytes": 15052800,
+        "estimatedEnvironmentBytes": 6291456,
+        "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+      }
+    },
+    {
+      "name": "mall-3d:shown:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:exterior:all",
+      "at": 39499.90000003576,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:request-to-frame:end:66",
+      "at": 39499.90000003576,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "exterior",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:request-to-frame:start:68",
+      "at": 40718.69999998808,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "overview"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:start:69",
+      "at": 40773.69999998808,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "overview"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:end:69",
+      "at": 40774.80000001192,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "overview",
+        "frame": 88,
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:resources",
+      "at": 40774.90000003576,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "geometries": 46,
+        "geometryBytes": 18986160,
+        "materials": 17,
+        "textures": 7,
+        "estimatedTextureBytes": 76895573,
+        "views": 16,
+        "estimatedRenderTargetBytes": 15052800,
+        "estimatedEnvironmentBytes": 6291456,
+        "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+      }
+    },
+    {
+      "name": "mall-3d:shown:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:overview:all",
+      "at": 40775,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:request-to-frame:end:68",
+      "at": 40775,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "overview",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:request-to-frame:start:70",
+      "at": 41009.40000003576,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "map"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:start:71",
+      "at": 41084,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "map"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:end:71",
+      "at": 41084.40000003576,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "map",
+        "frame": 91,
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:resources",
+      "at": 41084.60000002384,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "geometries": 46,
+        "geometryBytes": 18986160,
+        "materials": 17,
+        "textures": 7,
+        "estimatedTextureBytes": 76895573,
+        "views": 16,
+        "estimatedRenderTargetBytes": 14551040,
+        "estimatedEnvironmentBytes": 6291456,
+        "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+      }
+    },
+    {
+      "name": "mall-3d:shown:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:L2",
+      "at": 41084.60000002384,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:request-to-frame:end:70",
+      "at": 41084.60000002384,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "map",
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-loading:request-to-frame:start:72",
+      "at": 41110.90000003576,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "overview"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:start:73",
+      "at": 49012.40000003576,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "overview"
+      }
+    },
+    {
+      "name": "mall-loading:scene-render:end:73",
+      "at": 49013.30000001192,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "overview",
+        "frame": 92,
+        "outcome": "ready"
+      }
+    },
+    {
+      "name": "mall-3d:resources",
+      "at": 49013.40000003576,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+        "geometries": 46,
+        "geometryBytes": 18986160,
+        "materials": 17,
+        "textures": 7,
+        "estimatedTextureBytes": 76895573,
+        "views": 16,
+        "estimatedRenderTargetBytes": 15052800,
+        "estimatedEnvironmentBytes": 6291456,
+        "estimateLimit": "Buffers are CPU array bytes; texture/environment estimates omit driver allocation, default framebuffer and shader costs."
+      }
+    },
+    {
+      "name": "mall-3d:shown:vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:overview:all",
+      "at": 49013.40000003576,
+      "detail": null
+    },
+    {
+      "name": "mall-loading:request-to-frame:end:72",
+      "at": 49013.5,
+      "detail": {
+        "mallId": "vincom-dong-khoi",
+        "attempt": 0,
+        "locale": "en",
+        "floorId": "L2",
+        "kind": "overview",
+        "outcome": "ready"
+      }
+    }
+  ]
+}

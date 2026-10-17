@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-17T07:18:07.309Z",
+  "browser": "149.0.7827.198",
+  "runs": [
+    {
+      "mall": "saigon-centre",
+      "test": "background-reverse-pending-latest",
+      "errors": [],
+      "preparedDuringBusy": {
+        "overlays": 0,
+        "holding": true,
+        "frame": "37"
+      },
+      "pending": {
+        "loading": true,
+        "inert": true
+      },
+      "latest": {
+        "lang": "vi",
+        "key": "saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:exterior:all",
+        "focus": ""
+      },
+      "pass": false,
+      "failure": "Stale work overwrote latest selection/locale"
+    }
+  ]
+}

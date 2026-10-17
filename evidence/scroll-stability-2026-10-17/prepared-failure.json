@@ -1,0 +1,25 @@
+{
+  "browser": "149.0.7827.198",
+  "runs": [
+    {
+      "mall": "saigon-centre",
+      "failureReleasedGuide": true,
+      "retry": {
+        "newCanvas": true,
+        "count": 1,
+        "frame": "38"
+      },
+      "pass": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "failureReleasedGuide": true,
+      "retry": {
+        "newCanvas": true,
+        "count": 1,
+        "frame": "38"
+      },
+      "pass": true
+    }
+  ]
+}

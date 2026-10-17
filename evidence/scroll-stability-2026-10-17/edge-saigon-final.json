@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-17T07:23:05.966Z",
+  "browser": "149.0.7827.198",
+  "runs": [
+    {
+      "mall": "saigon-centre",
+      "test": "background-reverse-pending-latest",
+      "errors": [],
+      "preparedDuringBusy": {
+        "overlays": 0,
+        "holding": true,
+        "frame": "37"
+      },
+      "pending": {
+        "loading": true,
+        "inert": true
+      },
+      "latest": {
+        "lang": "vi",
+        "key": "saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:discovery:L2",
+        "focus": "scene-discovery",
+        "href": "http://localhost:4313/vi?floor=L2&view=discovery",
+        "y": 2719
+      },
+      "pass": true
+    },
+    {
+      "mall": "saigon-centre",
+      "test": "pending-history-back",
+      "errors": [],
+      "preparedDuringBusy": {
+        "overlays": 0,
+        "holding": true,
+        "frame": "37"
+      },
+      "pending": {
+        "loading": true,
+        "inert": true
+      },
+      "back": {
+        "key": "saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2:map:L3",
+        "href": "http://localhost:4313/en/floors/L3?floor=L3&view=map",
+        "y": 1826
+      },
+      "pass": true
+    },
+    {
+      "mall": "saigon-centre",
+      "test": "failure-context-retry",
+      "errors": [],
+      "context": {
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "mall": "saigon-centre",
+      "test": "prepared-focus-history-pause",
+      "errors": [],
+      "focus": "pause-control",
+      "pass": true
+    }
+  ]
+}
