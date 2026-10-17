@@ -141,7 +141,7 @@ html{overflow-anchor:none}
 /* The caption and graphic share one sticky anchor throughout the reveal. */
 .exterior-floor-journey .introduction-copy{opacity:calc(1 - var(--floor-reveal));background:var(--paper)}
 .registered-floors{grid-template-rows:auto minmax(0,1fr);align-content:center;row-gap:12px}
-.overview-caption{grid-column:1 / -1;text-align:center;opacity:calc(1 - var(--floor-travel));transform:scale(var(--caption-scale,1));transform-origin:50% 100%}
+.overview-caption{grid-column:1 / -1;width:80%;justify-self:center;text-align:center;opacity:calc(1 - var(--floor-travel));transform:scale(var(--caption-scale,1));transform-origin:50% 100%}
 .overview-caption h2{font-size:clamp(28px,3vw,42px);line-height:1.2;margin:0 0 12px}
 .overview-caption p{margin:8px auto;max-width:65ch}
 .overview-caption .disclosure{font-size:13px;line-height:1.5}
@@ -155,6 +155,9 @@ html{overflow-anchor:none}
 .visitor-guide .registered-floors a[data-preview=true] svg path{fill:var(--selected);stroke:var(--edge)}
 .visitor-guide .registered-floors .floor-rail a[data-preview=true]{background:var(--selected)}
 .registered-floors .overview-stack[data-rotating=true]>a{will-change:transform}
+.overview-pause{display:grid;place-items:center;min-width:44px;padding:8px;border:0;background:transparent}
+.visitor-guide .overview-pause svg{width:24px;height:24px;background:none}
+.visitor-guide .overview-pause svg path{fill:none;stroke:currentColor;stroke-width:2}
 .exterior-floor-journey .introduction-bottom{max-width:none;right:32px;text-align:center}
 .scroll-guide>span:nth-child(2){animation:scroll-text-breath 2.5s ease-in-out infinite}
 @keyframes scroll-text-breath{0%,100%{transform:translateY(0);opacity:1}50%{transform:translateY(6px);opacity:.35}}

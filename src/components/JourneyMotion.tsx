@@ -16,6 +16,7 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
 }) {
   const travelling=useRef<HTMLDivElement>(null);
   const yaw=useRef(0);
+  const previewFloor=useRef<string|undefined>(undefined);
   const bounds=sharedFloorBounds(floors);
   useLayoutEffect(()=>{
     let frame=0;
@@ -89,20 +90,20 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
     const container=stage.current,stack=container?.querySelector<HTMLElement>('.overview-stack');
     const visual=container?.querySelector<HTMLElement>('.registered-scene');
     if(!container||!stack||!visual)return;
-    let frame=0,last=0,preview:string|undefined;
+    let frame=0,last=0;
     const paintPreview=(id:string|undefined)=>{
-      preview=id;
+      previewFloor.current=id;
       for(const item of container.querySelectorAll<HTMLElement>('.registered-floors a[data-floor-id]')){
         item.dataset.preview=String(item.dataset.floorId===id);
         item.dataset.dim=String(!!id&&item.dataset.floorId!==id);
       }
       refresh();
     };
-    const enter=(event:Event)=>{const link=(event.target as Element).closest<HTMLElement>('a[data-floor-id]');if(link)paintPreview(link.dataset.floorId);};
+    const enter=(event:Event)=>{const link=event.target instanceof Element?event.target.closest<HTMLElement>('a[data-floor-id]'):null;if(link)paintPreview(link.dataset.floorId);};
     const leave=(event:Event)=>{const next=(event as MouseEvent|FocusEvent).relatedTarget;if(!(next instanceof Element)||!next.closest('.registered-floors a[data-floor-id]'))paintPreview(undefined);};
     const playing=()=>{
       const rect=visual.getBoundingClientRect();
-      return !paused&&!reducedMotion&&!document.hidden&&!preview&&rect.bottom>0&&rect.top<innerHeight&&Number(container.style.getPropertyValue('--floor-reveal'))===1&&Number(container.style.getPropertyValue('--floor-travel'))===0;
+      return !paused&&!reducedMotion&&!document.hidden&&!previewFloor.current&&rect.bottom>0&&rect.top<innerHeight&&Number(container.style.getPropertyValue('--floor-reveal'))===1&&Number(container.style.getPropertyValue('--floor-travel'))===0;
     };
     const tick=(time:number)=>{
       frame=0;if(!playing()){last=0;stack.dataset.rotating='false';return;}
@@ -111,8 +112,8 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
     };
     function refresh(){if(!frame){last=0;frame=requestAnimationFrame(tick);}}
     container.addEventListener('pointerover',enter);container.addEventListener('pointerout',leave);container.addEventListener('focusin',enter);container.addEventListener('focusout',leave);
-    window.addEventListener('scroll',refresh,{passive:true});document.addEventListener('visibilitychange',refresh);refresh();
+    window.addEventListener('scroll',refresh,{passive:true});document.addEventListener('visibilitychange',refresh);paintPreview(previewFloor.current);
     return()=>{cancelAnimationFrame(frame);window.removeEventListener('scroll',refresh);document.removeEventListener('visibilitychange',refresh);container.removeEventListener('pointerover',enter);container.removeEventListener('pointerout',leave);container.removeEventListener('focusin',enter);container.removeEventListener('focusout',leave);};
-  },[paused,reducedMotion]);
+  },[floors,paused,reducedMotion]);
   return <div className="travelling-floor" ref={travelling} hidden aria-hidden="true"><FloorMap floor={floor} viewBounds={bounds} title={title}/></div>;
 }

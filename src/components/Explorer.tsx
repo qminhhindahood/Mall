@@ -363,6 +363,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
         <a href={href(change('map'))} onClick={event=>navigate(change('map'),event)}>{c.map}</a>
         <a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{c.discovery}</a>
         <a className="skip-discovery" href={href(change('discovery'))} onClick={event=>{travelRequest.current=false;navigate(change('discovery'),event);}}>{j.skipDiscovery}</a>
+        <button className="overview-pause" disabled={load!=='ready'||reducedMotion} aria-label={reducedMotion?c.motionOff:paused?c.resume:c.pause} title={reducedMotion?c.motionOff:paused?c.resume:c.pause} aria-pressed={paused} onClick={togglePause}><svg viewBox="0 0 24 24" aria-hidden="true"><path d={paused?'M8 5 19 12 8 19Z':'M7 5v14M17 5v14'}/></svg></button>
         <a href={href({...selection,locale:selection.locale==='vi'?'en':'vi'})} lang={selection.locale==='vi'?'en':'vi'} onClick={event => navigate({...selection,locale:selection.locale==='vi'?'en':'vi'},event)}>{selection.locale==='vi'?'EN':'VI'}</a>
       </nav>
     </header>
