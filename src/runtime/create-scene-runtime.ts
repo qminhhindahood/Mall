@@ -103,16 +103,22 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
     finally {room.dispose(); generator.dispose();}
     target=new WebGLRenderTarget(width(),height()); target.texture.colorSpace=SRGBColorSpace;
     const floorMaterial=new MeshStandardMaterial({color:0xe7d8c5,roughness:.72,metalness:0,flatShading:true,side:2}); materials.add(floorMaterial);
-    const ensureSize=(view:View) => {const w=width(),h=height();renderer.setSize(w,h,false);view.camera.aspect=w/h;
+    let renderWidth=0,renderHeight=0;
+    const ensureSize=(view:View) => {const w=width(),h=height();
+      // Assigning canvas width/height clears and reallocates the drawing buffer,
+      // even at the same size. Resize only when its actual host changes size.
+      if(w!==renderWidth||h!==renderHeight){renderer.setSize(w,h,false);renderWidth=w;renderHeight=h;}
+      view.camera.aspect=w/h;
       if(view.exteriorFit){
         const {center,radius}=view.exteriorFit;
         const halfAngle=Math.atan(Math.tan(view.camera.fov*Math.PI/360)*Math.min(1,w/h));
         const distance=radius/Math.sin(halfAngle)*1.08;
         // Approach the estimated shopping podium in the exterior's own frame.
         // A single camera retains its bearing; the floor presentation never resets it.
-        const shoppingCenter=center.clone().add(new Vector3(0,-radius*.42,0));
-        const focus=center.clone().lerp(shoppingCenter,journeyProgress);
-        view.camera.position.copy(focus).add(new Vector3(.72,.65,1).normalize().multiplyScalar(distance*(1-journeyProgress*.46)));
+        const shoppingCenter=center.clone().add(new Vector3(0,-radius*.65,0));
+        const approach=Math.min(1,journeyProgress/.55);
+        const focus=center.clone().lerp(shoppingCenter,approach*approach*(3-2*approach));
+        view.camera.position.copy(focus).add(new Vector3(.72,.28,1).normalize().multiplyScalar(distance*Math.exp(-2.3*journeyProgress)));
         view.camera.lookAt(focus);
       }
       view.camera.updateProjectionMatrix();target.setSize(Math.round(w*renderer.getPixelRatio()),Math.round(h*renderer.getPixelRatio()));};
@@ -190,14 +196,15 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
     };
     const animate=(time:number) => {
       raf=0;if(disposed || failed || !active || paused || !current)return;
-      const delta=Math.min(.04,Math.max(0,(time-last)/1000));last=time;
+      const delta=Math.max(0,(time-last)/1000);last=time;
       if(current!==views.get(key({kind:'exterior',floorId:''})))return;
-      if(journeyProgress===0)current.group.rotation.y+=delta*.08;
+      if(journeyProgress>0)return;
+      current.group.rotation.y=(current.group.rotation.y+delta*.16)%(Math.PI*2);
       try {if(!gpuBusy)draw(current,false);raf=requestAnimationFrame(animate);}
       catch(error){failVisible(error,'runtime');}
     };
-    const refreshAnimation=()=>{cancelAnimationFrame(raf);raf=0;last=performance.now();if(active&&!paused&&current&&!disposed&&!failed)raf=requestAnimationFrame(animate);};
-    resize=new ResizeObserver(()=>{if(current&&!disposed&&!failed&&!gpuBusy){try{draw(current,false);}catch(error){failVisible(error,'runtime');}}});resize.observe(canvas.parentElement!);
+    const refreshAnimation=()=>{cancelAnimationFrame(raf);raf=0;last=performance.now();if(active&&!paused&&current?.exteriorFit&&journeyProgress===0&&!disposed&&!failed)raf=requestAnimationFrame(animate);};
+    resize=new ResizeObserver(()=>{if(current&&!disposed&&!failed&&!gpuBusy&&(!current.exteriorFit||journeyProgress<.95)){try{draw(current,false);}catch(error){failVisible(error,'runtime');}}});resize.observe(canvas.parentElement!);
     let backgroundStarted=false;
     setupDone();
     return {
@@ -234,7 +241,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
       },
       setActive(value){active=value;refreshAnimation();},
       setPaused(value){paused=value;refreshAnimation();},
-      setJourneyProgress(value,reducedMotion){const previous=journeyProgress;journeyProgress=reducedMotion?0:Math.max(0,Math.min(1,value));const exteriorView=views.get(key({kind:'exterior',floorId:''}));if(exteriorView){if(previous===0&&journeyProgress>0)approachRotation=Math.atan2(Math.sin(exteriorView.group.rotation.y),Math.cos(exteriorView.group.rotation.y));if(journeyProgress>0)exteriorView.group.rotation.y=approachRotation*(1-journeyProgress);}if(journeyProgress>0){cancelAnimationFrame(raf);raf=0;}else if(previous>0)refreshAnimation();if(active&&current?.exteriorFit&&!disposed&&!failed&&!gpuBusy){try{draw(current,false);}catch(error){failVisible(error,'runtime');}}},
+      setJourneyProgress(value,reducedMotion){const previous=journeyProgress;journeyProgress=reducedMotion?0:Math.max(0,Math.min(1,value));const exteriorView=views.get(key({kind:'exterior',floorId:''}));if(exteriorView){if(previous===0&&journeyProgress>0)approachRotation=Math.atan2(Math.sin(exteriorView.group.rotation.y),Math.cos(exteriorView.group.rotation.y));if(journeyProgress>0)exteriorView.group.rotation.y=approachRotation*(1-journeyProgress);}if(journeyProgress>0){cancelAnimationFrame(raf);raf=0;}else if(previous>0)refreshAnimation();if(previous!==journeyProgress&&journeyProgress<.95&&active&&current?.exteriorFit&&!disposed&&!failed&&!gpuBusy){try{draw(current,false);}catch(error){failVisible(error,'runtime');}}},
       dispose:cleanup,
     };
   } catch(error) {setupDone('failed');cleanup();throw error;}

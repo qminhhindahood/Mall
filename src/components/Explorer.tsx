@@ -379,22 +379,20 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
             <div className="introduction-copy"><h1>{c.introduce}<span>{site.name}</span></h1><p>{site.mallId==='saigon-centre'?c.saigonIntroduction:c.vincomIntroduction}</p><p className="guide-identity">{c.independent}</p></div>
             <div className="introduction-bottom"><a className="scroll-guide" href="#scene-overview" onClick={event=>navigate(change('overview'),event)}><span className="scroll-cue" aria-hidden="true"/><span>{c.scrollInstruction}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div>
           </section>
-          <section id="scene-overview" ref={element=>{if(element)sections.current.overview=element;}} tabIndex={-1} className="overview-reading" aria-label={c.overview}>
-            <h2>{c.overview}</h2><p>{j.chooseFloor}</p><p className="disclosure">{c.uncertainty}</p><p className="disclosure">{j.registration}</p>
-            {geometry.revision==='foundation-unavailable'&&<p>{c.unavailableGeometry}</p>}
-          </section>
+          <section id="scene-overview" ref={element=>{if(element)sections.current.overview=element;}} tabIndex={-1} className="overview-reading" aria-label={c.overview}><p className="disclosure">{c.uncertainty}</p><p className="disclosure">{j.registration}</p></section>
         </div>
         <div className="registered-scene">
           <div className="scene-host scene-host-exterior" ref={element=>{if(element){sceneHosts.current.exterior=element;sceneHosts.current.overview=element;}}} data-scene-kind={selection.kind==='exterior'?'exterior':'overview'}>
             <img src="/previews/exterior.webp" alt={`${site.name} · ${c.exterior}`} width="1200" height="1200" />
           </div>
           <div className="registered-floors">
+            <div className="overview-caption"><h2>{c.overview}</h2><p>{j.chooseFloor}</p>{geometry.revision==='foundation-unavailable'&&<p>{c.unavailableGeometry}</p>}</div>
             <OverviewStack floors={geometry.floors} locale={selection.locale} heading={c.heading} mapTitle={c.map} selectedFloor={selection.floorId} onSelect={(floorId,event)=>navigate(change('map',floorId),event)}/>
-            <nav className="floor-rail" aria-label={c.floors}>{geometry.floors.slice().sort((a,b)=>b.order-a.order).map((item,index)=><a key={item.id} style={{'--floor-index':index} as React.CSSProperties} href={floorRoute(selection.locale,item.id)} aria-current={selection.floorId===item.id?'page':undefined} onClick={event=>navigate(change('map',item.id),event)}><span className="floor-callout-line" aria-hidden="true"/>{item.label}</a>)}</nav>
+            <nav className="floor-rail" aria-label={c.floors}>{geometry.floors.slice().sort((a,b)=>b.order-a.order).map((item,index)=><a key={item.id} data-floor-id={item.id} style={{'--floor-index':index} as React.CSSProperties} href={floorRoute(selection.locale,item.id)} aria-current={selection.floorId===item.id?'page':undefined} onClick={event=>navigate(change('map',item.id),event)}><span className="floor-callout-line" aria-hidden="true"/>{item.label}</a>)}</nav>
           </div>
         </div>
       </div>
-      <JourneyMotion stage={exteriorJourney} mapJourney={mapJourney} floor={floor} floors={geometry.floors} title={c.map} reducedMotion={reducedMotion} runtime={runtime}/>
+      <JourneyMotion stage={exteriorJourney} mapJourney={mapJourney} floor={floor} floors={geometry.floors} title={c.map} reducedMotion={reducedMotion} paused={paused} runtime={runtime}/>
       <div className="map-discovery-journey" ref={mapJourney}>
         <div className="persistent-map">
           <div className="scene-host scene-host-map" ref={element=>{if(element){sceneHosts.current.map=element;sceneHosts.current.discovery=element;}}} data-scene-kind={selection.kind==='discovery'?'discovery':'map'} data-floor={routeResolved?floor.id:undefined}>
