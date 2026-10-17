@@ -2,7 +2,7 @@
 
 ## Delivered source
 
-The four-file implementation starts at **96d1384** and ends at source commit **110c08c** on `task/animation-stability-2026-10-17`. The shared app integration branch now points to **2fffe6c** after the evidence commit. The implementation avoids renderer buffer resizes during steady animation, smooths the exterior approach and fade of the full tower/description group, anchors the overview and its copy, keeps floor preview stable across motion-preference changes, and supports the motion pause/reduced-motion states. Site commits are Vincom **0a703de** and Takashimaya **aa40f43**; [`propagation.json`](propagation.json) records the four-file diff and protected-file manifest hashes.
+The four-file implementation starts at **96d1384** and ends at source commit **110c08c** on `task/animation-stability-2026-10-17`; the shared app integration branch contains that source and the evidence commits. The implementation avoids renderer buffer resizes during steady animation, smooths the exterior approach and fade of the full tower/description group, anchors the overview and its copy, keeps floor preview stable across motion-preference changes, and supports the motion pause/reduced-motion states. Site commits are Vincom **0a703de** and Takashimaya **aa40f43**; [`propagation.json`](propagation.json) records the source/evidence commits, four-file diff, and protected-file manifest hashes.
 
 Asset revisions are unchanged: exterior `photo-polish-2026-10-12-delivery-r2`, floors `source-palette-schematic-2026-10-13-r2`, and pending content `directory-pending-2026-10-14-r1`. The existing source-derived fragmented floor surfaces remain. Connected-slab geometry, Discovery composition, and unit-code mappings are deferred.
 
