@@ -1,0 +1,109 @@
+{
+  "revision": "visitor-introduction-2026-10-14-r1",
+  "browser": "149.0.7827.198",
+  "profile": "Headless Chrome / SwiftShader; desktop and phone CSS widths, not physical devices",
+  "runs": [
+    {
+      "mall": "saigon",
+      "width": 1280,
+      "checks": [
+        "VI default / mall identity / whole-mall copy / hidden header / no duplicate CTAs / no overflow",
+        "EN context / automatic rotation / Pause / persistent Pause / live reduced motion"
+      ],
+      "errors": [],
+      "pass": false,
+      "failure": "Error: Header stays hidden until hero ends"
+    },
+    {
+      "mall": "saigon",
+      "width": 390,
+      "checks": [
+        "VI default / mall identity / whole-mall copy / hidden header / no duplicate CTAs / no overflow",
+        "EN context / automatic rotation / Pause / persistent Pause / live reduced motion"
+      ],
+      "errors": [],
+      "pass": false,
+      "failure": "Error: Header stays hidden until hero ends"
+    },
+    {
+      "mall": "vincom",
+      "width": 1280,
+      "checks": [
+        "VI default / mall identity / whole-mall copy / hidden header / no duplicate CTAs / no overflow",
+        "EN context / automatic rotation / Pause / persistent Pause / live reduced motion"
+      ],
+      "errors": [],
+      "pass": false,
+      "failure": "Error: Header stays hidden until hero ends"
+    },
+    {
+      "mall": "vincom",
+      "width": 390,
+      "checks": [
+        "VI default / mall identity / whole-mall copy / hidden header / no duplicate CTAs / no overflow",
+        "EN context / automatic rotation / Pause / persistent Pause / live reduced motion"
+      ],
+      "errors": [],
+      "pass": false,
+      "failure": "Error: Header stays hidden until hero ends"
+    },
+    {
+      "mall": "saigon",
+      "scenario": "model-fail",
+      "checks": [
+        "Failure releases gate / static SVG / localized guide / keyboard practical navigation"
+      ],
+      "pass": true
+    },
+    {
+      "mall": "saigon",
+      "scenario": "webgl-unavailable",
+      "checks": [
+        "Failure releases gate / static SVG / localized guide / keyboard practical navigation"
+      ],
+      "pass": true
+    },
+    {
+      "mall": "saigon",
+      "scenario": "import-fail",
+      "checks": [
+        "Failure releases gate / static SVG / localized guide / keyboard practical navigation"
+      ],
+      "pass": true
+    },
+    {
+      "mall": "vincom",
+      "scenario": "model-fail",
+      "checks": [
+        "Failure releases gate / static SVG / localized guide / keyboard practical navigation"
+      ],
+      "pass": true
+    },
+    {
+      "mall": "vincom",
+      "scenario": "webgl-unavailable",
+      "checks": [
+        "Failure releases gate / static SVG / localized guide / keyboard practical navigation"
+      ],
+      "pass": true
+    },
+    {
+      "mall": "vincom",
+      "scenario": "import-fail",
+      "checks": [
+        "Failure releases gate / static SVG / localized guide / keyboard practical navigation"
+      ],
+      "pass": true
+    },
+    {
+      "mall": "saigon",
+      "scenario": "no-javascript",
+      "pass": true
+    },
+    {
+      "mall": "vincom",
+      "scenario": "no-javascript",
+      "pass": true
+    }
+  ]
+}

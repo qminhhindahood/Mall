@@ -1,0 +1,17 @@
+{
+  "baseline": "96d1384",
+  "initial": "c011906",
+  "followup": "b7dc996 + stable phone anchor",
+  "standards": {
+    "blockingFindings": [],
+    "optional": [
+      "Desktop/phone yaw constants are repeated in CSS and JourneyMotion; nonblocking drift heuristic."
+    ]
+  },
+  "spec": {
+    "initialFinding": "Preview reset on live motion preference changes could restart rotation under focus.",
+    "resolution": "previewFloor ref retained across effect recreation; reviewed clear.",
+    "unresolvedFindings": []
+  },
+  "limit": "Source reviews do not establish rendered framing or performance acceptance."
+}

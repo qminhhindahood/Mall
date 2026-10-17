@@ -1,0 +1,49 @@
+{
+  "revision": "animation-stability-2026-10-17-r1",
+  "sourceFiles": [
+    "visitor-app/src/components/Explorer.tsx",
+    "visitor-app/src/components/JourneyMotion.tsx",
+    "visitor-app/src/runtime/create-scene-runtime.ts",
+    "visitor-app/src/styles/journey.css"
+  ],
+  "verifiedAt": "2026-10-17",
+  "siteCopies": [
+    {
+      "trackedFiles": 649,
+      "mall": "vincom-dong-khoi",
+      "routes": 20,
+      "base": "bb79adc",
+      "astroCheck": "0 errors, 0 warnings, 0 hints",
+      "protectedFileCount": 645,
+      "branch": "vincom-dong-khoi",
+      "commit": "0a703de",
+      "protectedManifestSha256": "1da315d0e1185d5fd4dd6c7a1c232c00015bc922d799b4ca3d52b989d13f39db",
+      "changedFiles": [
+        "visitor-app/src/components/Explorer.tsx",
+        "visitor-app/src/components/JourneyMotion.tsx",
+        "visitor-app/src/runtime/create-scene-runtime.ts",
+        "visitor-app/src/styles/journey.css"
+      ],
+      "workingTreeClean": true
+    },
+    {
+      "trackedFiles": 649,
+      "mall": "saigon-centre",
+      "routes": 22,
+      "base": "0bd157a",
+      "astroCheck": "0 errors, 0 warnings, 0 hints",
+      "protectedFileCount": 645,
+      "branch": "takashimaya",
+      "commit": "aa40f43",
+      "protectedManifestSha256": "1da315d0e1185d5fd4dd6c7a1c232c00015bc922d799b4ca3d52b989d13f39db",
+      "changedFiles": [
+        "visitor-app/src/components/Explorer.tsx",
+        "visitor-app/src/components/JourneyMotion.tsx",
+        "visitor-app/src/runtime/create-scene-runtime.ts",
+        "visitor-app/src/styles/journey.css"
+      ],
+      "workingTreeClean": true
+    }
+  ],
+  "sharedAppCommit": "110c08c"
+}

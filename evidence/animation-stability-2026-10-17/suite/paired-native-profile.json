@@ -1,0 +1,262 @@
+{
+  "base": "96d1384",
+  "candidate": "110c08c",
+  "browser": "149.0.7827.198",
+  "profile": "Headless Chrome, native GPU if available, 1280x800 CSS, DPR 1; one WebGL page open at a time",
+  "wheel": [
+    {
+      "mall": "saigon",
+      "width": 1280,
+      "failures": [],
+      "pageErrors": [],
+      "before": {
+        "y": 800,
+        "preview": [
+          "L2",
+          "L2"
+        ],
+        "focus": "L2"
+      },
+      "reduced": {
+        "preview": [
+          "L2",
+          "L2"
+        ],
+        "focus": "L2",
+        "paused": true
+      },
+      "down": {
+        "y": 700,
+        "loading": false,
+        "frame": "63"
+      },
+      "up": {
+        "y": 0,
+        "loading": false,
+        "frame": "68",
+        "resizes": 0
+      }
+    },
+    {
+      "mall": "saigon",
+      "width": 390,
+      "failures": [],
+      "pageErrors": [],
+      "before": {
+        "y": 1234,
+        "preview": [
+          "L2",
+          "L2"
+        ],
+        "focus": "L2"
+      },
+      "reduced": {
+        "preview": [
+          "L2",
+          "L2"
+        ],
+        "focus": "L2",
+        "paused": true
+      },
+      "down": {
+        "y": 700,
+        "loading": false,
+        "frame": "68"
+      },
+      "up": {
+        "y": 0,
+        "loading": false,
+        "frame": "72",
+        "resizes": 0
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 1280,
+      "failures": [],
+      "pageErrors": [],
+      "before": {
+        "y": 800,
+        "preview": [
+          "L2",
+          "L2"
+        ],
+        "focus": "L2"
+      },
+      "reduced": {
+        "preview": [
+          "L2",
+          "L2"
+        ],
+        "focus": "L2",
+        "paused": true
+      },
+      "down": {
+        "y": 700,
+        "loading": false,
+        "frame": "77"
+      },
+      "up": {
+        "y": 0,
+        "loading": false,
+        "frame": "79",
+        "resizes": 0
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 390,
+      "failures": [],
+      "pageErrors": [],
+      "before": {
+        "y": 1279,
+        "preview": [
+          "L2",
+          "L2"
+        ],
+        "focus": "L2"
+      },
+      "reduced": {
+        "preview": [
+          "L2",
+          "L2"
+        ],
+        "focus": "L2",
+        "paused": true
+      },
+      "down": {
+        "y": 700,
+        "loading": false,
+        "frame": "77"
+      },
+      "up": {
+        "y": 0,
+        "loading": false,
+        "frame": "79",
+        "resizes": 0
+      }
+    }
+  ],
+  "paired": [
+    {
+      "mall": "saigon",
+      "pair": "A",
+      "order": [
+        "base",
+        "candidate"
+      ],
+      "samples": {
+        "base": {
+          "frames": 18,
+          "medianMs": 111.19999999999982,
+          "p95Ms": 133.30000000000018,
+          "over33ms": 10,
+          "bufferResizes": 40,
+          "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "dpr": 1,
+          "visible": "visible"
+        },
+        "candidate": {
+          "frames": 19,
+          "medianMs": 105.60000000000036,
+          "p95Ms": 133.10000000000036,
+          "over33ms": 10,
+          "bufferResizes": 0,
+          "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "dpr": 1,
+          "visible": "visible"
+        }
+      }
+    },
+    {
+      "mall": "saigon",
+      "pair": "B",
+      "order": [
+        "candidate",
+        "base"
+      ],
+      "samples": {
+        "candidate": {
+          "frames": 19,
+          "medianMs": 111.19999999999982,
+          "p95Ms": 133.30000000000018,
+          "over33ms": 10,
+          "bufferResizes": 0,
+          "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "dpr": 1,
+          "visible": "visible"
+        },
+        "base": {
+          "frames": 20,
+          "medianMs": 105.39999999999964,
+          "p95Ms": 138.90000000000055,
+          "over33ms": 10,
+          "bufferResizes": 42,
+          "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "dpr": 1,
+          "visible": "visible"
+        }
+      }
+    },
+    {
+      "mall": "vincom",
+      "pair": "A",
+      "order": [
+        "base",
+        "candidate"
+      ],
+      "samples": {
+        "base": {
+          "frames": 216,
+          "medianMs": 5.599999999999454,
+          "p95Ms": 5.700000000000273,
+          "over33ms": 0,
+          "bufferResizes": 434,
+          "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "dpr": 1,
+          "visible": "visible"
+        },
+        "candidate": {
+          "frames": 216,
+          "medianMs": 5.599999999999454,
+          "p95Ms": 5.700000000000728,
+          "over33ms": 0,
+          "bufferResizes": 0,
+          "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "dpr": 1,
+          "visible": "visible"
+        }
+      }
+    },
+    {
+      "mall": "vincom",
+      "pair": "B",
+      "order": [
+        "candidate",
+        "base"
+      ],
+      "samples": {
+        "candidate": {
+          "frames": 206,
+          "medianMs": 5.599999999999909,
+          "p95Ms": 6,
+          "over33ms": 0,
+          "bufferResizes": 0,
+          "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "dpr": 1,
+          "visible": "visible"
+        },
+        "base": {
+          "frames": 217,
+          "medianMs": 5.599999999999454,
+          "p95Ms": 5.700000000000273,
+          "over33ms": 0,
+          "bufferResizes": 436,
+          "gpu": "ANGLE (AMD, AMD Radeon(TM) 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "dpr": 1,
+          "visible": "visible"
+        }
+      }
+    }
+  ]
+}
