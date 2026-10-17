@@ -21,7 +21,7 @@ All browser output below is local static output in headless Chrome 149.0.7827.19
 | Native wheel and focused floor preview | 4/4 mall/width cases pass. Down/up wheel input retained a complete frame, opened no loader, and caused zero drawing-buffer resizes. Changing `prefers-reduced-motion` while L2 was focused retained the focus preview. See [`suite/paired-native-profile.json`](suite/paired-native-profile.json). |
 | Site branches | `vincom-dong-khoi` and `takashimaya` each build the correct mall output (20 and 22 routes); Astro check is clean. Exactly four `visitor-app/src` files differ, and hashes for all 645 other tracked files per site match their pre-copy values. |
 
-The separate paired frame-sampling profile used one Chrome page at a time on ANGLE / AMD Radeon 780M D3D11, DPR 1. The candidate recorded zero drawing-buffer attribute changes in all eight samples; base `96d1384` recorded 40–44 for Saigon and 434–436 for Vincom. Saigon frame intervals varied substantially between paired runs (candidate median 105–111 ms; base 105–117 ms), so frame-rate comparison is inconclusive. Vincom medians were 5.6 ms for both revisions. This local sample is not a production performance sign-off.
+The separate paired frame-sampling profile used one Chrome page at a time on ANGLE / AMD Radeon 780M D3D11, DPR 1. The four candidate samples recorded zero drawing-buffer attribute changes; the four base `96d1384` samples recorded 40–44 for Saigon and 434–436 for Vincom. Saigon frame intervals varied substantially between paired runs (candidate median 105–111 ms; base 105–117 ms), so frame-rate comparison is inconclusive. Vincom medians were 5.6 ms for both revisions. This local sample is not a production performance sign-off.
 
 ## Reproduction
 
