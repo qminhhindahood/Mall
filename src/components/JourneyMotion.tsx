@@ -31,7 +31,9 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
       const target=destination.querySelector<HTMLElement>('.map-transform');
       if(!hero||!visual||!stack||!source||!target)return;
       const phone=innerWidth<=700;
-      const startApproach=container.offsetTop+(phone?visual.offsetTop-116:0);
+      // A sticky element's offsetTop changes as it sticks. Derive the phone's
+      // native-flow anchor from the preceding hero, never the moving visual.
+      const startApproach=container.offsetTop+(phone?hero.offsetTop+hero.offsetHeight+(parseFloat(getComputedStyle(visual).marginTop)||0)-116:0);
       const approach=clamp((scrollY-startApproach)/innerHeight);
       const fade=clamp((approach-.55)/.4);
       const reveal=fade*fade*(3-2*fade);
