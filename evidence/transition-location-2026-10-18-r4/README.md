@@ -1,6 +1,6 @@
 # Clean transitions, location holds and Discovery Highlights — 18 October 2026, r4
 
-Baseline `b108664`. Owner screenshot feedback requests greater separation between scenes, rejects the broad Asian Corner/L5-5 location treatment, and requires recommended restaurants/shops in a dedicated Discovery Highlights section. This revision changes private display treatment, not original source evidence or public content approval.
+Delivered source/evidence `24c84b7`, baseline `b108664`. Owner screenshot feedback requests greater separation between scenes, rejects the broad Asian Corner/L5-5 location treatment, and requires recommended restaurants/shops in a dedicated Discovery Highlights section. This revision changes private display treatment, not original source evidence or public content approval.
 
 ## Location finding and correction
 
@@ -27,3 +27,6 @@ Final result: **six builds; 16 browser cases / 276 checks pass**, zero failed ca
 Reproduce from the app checkout with `node evidence/transition-location-2026-10-18-r4/build-all.mjs`, then both `check-*.mjs` scripts against the existing 4355/4356 private servers. Keep checks on stable outputs. Exterior assets, original floor geometry, recovered slab sources and public `directory-pending-2026-10-14-r1` remain unchanged. No deployment, release approval or project-percentage increase.
 
 Review: [Saigon Centre](http://localhost:4355/en) · [Vincom](http://localhost:4356/en).
+
+
+[Propagation](propagation.json) verifies seven shared files after commit in Vincom `5b9106f` and Saigon/Takashimaya `1b2f9ef`. Both site checkouts were clean before copying; independent site-tree builds were not repeated because the shared source bytes match the integration builds.
