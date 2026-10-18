@@ -1,6 +1,6 @@
 # Integrated Discovery review candidate — 18 October 2026, r2
 
-Baseline app HEAD: `1ee2c29`; exact pending source and built bundle hashes are in [provenance.json](provenance.json). This delivers the recovered slab presentation, selected-floor hover/focus isolation and the research-only owner-decision overlay together. Exterior `photo-polish-2026-10-12-delivery-r2`, original floor geometry `source-palette-schematic-2026-10-13-r2` and public `directory-pending-2026-10-14-r1` remain unchanged. Presentation uses the exact `5d3c831` schematic slab artifacts; the private research geometry adds the accepted r4 overlay only. No deployment or public-content approval.
+Delivered application/source commit: `26c8d75` (baseline `1ee2c29`); exact pending source and built bundle hashes are in [provenance.json](provenance.json). This delivers the recovered slab presentation, selected-floor hover/focus isolation and the research-only owner-decision overlay together. Exterior `photo-polish-2026-10-12-delivery-r2`, original floor geometry `source-palette-schematic-2026-10-13-r2` and public `directory-pending-2026-10-14-r1` remain unchanged. Presentation uses the exact `5d3c831` schematic slab artifacts; the private research geometry adds the accepted r4 overlay only. No deployment or public-content approval.
 
 ## Final validation
 
@@ -17,6 +17,8 @@ The original fixture run failed eight cases on the obsolete `.categories` select
 Reproduction from the app checkout: `node evidence/handoff-acceptance-2026-10-18-r2/final-fixture-current.mjs` against fixture servers 4337/4338. The historical `run-suite.mjs` regenerates the old fixture script and is retained only as provenance; use the current fixture command for the revised UI. Other final harness paths are recorded in `provenance.json`.
 
 ## Review surfaces and limits
+
+[Site propagation](propagation.json) carries 31 shared runtime/input/packet files into both primary `visitor-app/` trees, with exact SHA-256 equality after commit. Vincom: `609f344`; Saigon/Takashimaya: `a62e824`. Both checkouts were clean before copying. The six integration builds validate these identical shared sources; separate site-tree builds were not rerun. Canonical source/research preparation evidence remains in the integration checkout.
 
 - Private Saigon Centre: <http://localhost:4355/en?view=discovery>
 - Private Vincom: <http://localhost:4356/en?view=discovery>

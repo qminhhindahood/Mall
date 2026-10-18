@@ -1,0 +1,273 @@
+{
+  "at": "2026-10-18T07:33:35.247Z",
+  "sharedCommit": "26c8d751712756c259cb75427576aed13cff4ffc",
+  "scope": "Shared runtime, slab inputs, browser check and self-contained research decision packet; frozen source packets remain in integration checkout",
+  "sites": [
+    {
+      "worktree": "D:\\Midterm\\.scratch\\mall-branch-bootstrap",
+      "branch": "vincom-dong-khoi",
+      "commit": "609f34482bcab7da4280989938d9427f1f169d08",
+      "verifiedSharedFiles": 31,
+      "sha256Match": true,
+      "files": [
+        {
+          "path": "data/malls/saigon-centre/overview-slabs.json",
+          "sha256": "ab265b08d1b5ff28bd3f3086d7c0e5440724c752e1882f415d6f5893ae46b58e"
+        },
+        {
+          "path": "data/malls/vincom-dong-khoi/overview-slabs.json",
+          "sha256": "88999eb6f47256a0eb57f23a0c94ec58a8d713c04d5d1e1a5368204021911f40"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/.gitattributes",
+          "sha256": "33963105da34ea76165eecebc6d785f70375f30c176a0216c2ed679414f827e5"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/README.md",
+          "sha256": "8fd2f22d7dab22fe0003902602bd7f382175d1dea7c1c2829ad91d6be7c2ed11"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/accepted-r4-geometry.json.gz",
+          "sha256": "89f5ac26720497a9dcbb74bdf89c770432d1e7974b5b1c99474c57698b397434"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/browser-validation.json",
+          "sha256": "5299f240300eb0dbc708cafad0688e015fdca6c3dfac2711adc6169834ae84d9"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/build-review.py",
+          "sha256": "a14e97d6604c3093a17023f8b724c77a0354a00f0d71dfefb36f14c00f71387f"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/integrity.json",
+          "sha256": "f34e48452b3081a1ad711af565309d02651985dae5db107a0de2b2c474e7023a"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/manifest.json",
+          "sha256": "e8e2d289c3369d7ccc0e17de2329e8cf77ccbb18852bb886996220cda7f2d871"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/owner-decisions.json",
+          "sha256": "81beea22fa6ce9b6bb8c532bbc0c32581b351956d2e886a7285030db106335af"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/prepare.py",
+          "sha256": "31dc3172400386519ddaa1bfb2441b26ef27ecd73d0a8531c13f64ad1b058d6d"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/review.html",
+          "sha256": "c5b949d417e4aa940a320f7027a7998701a584d180822b08cb96274e5a62b08b"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/saigon-centre.private.json",
+          "sha256": "668ab73f71a6c3233142f1f0796fc88fa30fbf57c9bad44182ee323d070426a1"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/source-hashes.json",
+          "sha256": "17cfbfaecc22cafcf5151149e9843a77773be0e496b623e9e0c017b00b18b113"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/summary.json",
+          "sha256": "1bee6df5da9686e1d9f9628ab745622ef3d33df1bf4352ed061b46e76dcf5516"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/validation.json",
+          "sha256": "c65751b218274a1b08f356c4f2bf17129f7aceaa2f0914e578a75a6967b8e1da"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/vincom-dong-khoi.private.json",
+          "sha256": "21cd59607a1336320d2a7128f95ae19b1f0441da443e4a0ba367b35503db4c46"
+        },
+        {
+          "path": "scripts/import-overview-slabs.py",
+          "sha256": "2dc54aa1da4a326b0491f26f5608d51983cbd44f00e7d0b03d32e232fa860f62"
+        },
+        {
+          "path": "scripts/prepare-assets.mjs",
+          "sha256": "51d4fae71fe0fd4d93c0be121dde4d76809254c0ebe658699dbf462b163135e2"
+        },
+        {
+          "path": "scripts/research-overlay.mjs",
+          "sha256": "0c3100ee430e5010431635bfadff7431b469579673c11a367ed5794a9dd76163"
+        },
+        {
+          "path": "src/components/Discovery.tsx",
+          "sha256": "9440b5a87adc01c15a44d2458fbf15a7d533e87ea2dd29a811ddf603b5c3b8e8"
+        },
+        {
+          "path": "src/components/Explorer.tsx",
+          "sha256": "90278fb5522714cc66a44a5da973da33bfa55d95f1b3e0efad04e1d8ed0d86bf"
+        },
+        {
+          "path": "src/components/FloorMap.tsx",
+          "sha256": "b53e280579d8d17035bc1bda5b4a16766cf41a3fc5dd5b75246ca8e17ae9bd46"
+        },
+        {
+          "path": "src/components/floor-frame.ts",
+          "sha256": "683bf8ef0790282f875b0dee328b026d932e83bec678760545a3a165a12c4237"
+        },
+        {
+          "path": "src/components/journey-copy.ts",
+          "sha256": "bc9e21495aa4f25c948d7f90b035a7fb8ba5326c90de73296c92456eb6c226ce"
+        },
+        {
+          "path": "src/data/research-fixtures.ts",
+          "sha256": "5458d6f4db36e478bbee3007f11338cdce650d6f841091caac2b93c95733d67e"
+        },
+        {
+          "path": "src/data/site.ts",
+          "sha256": "73cebb02fb85940bba7fc30c605b6cafa4f77f5991d3c6a71a9d8b3df4e3c3ea"
+        },
+        {
+          "path": "src/runtime/scene-contract.ts",
+          "sha256": "298f410cb5a8cdd48a005277c5e464610c2666f964e068290d1d5a06df27dc7b"
+        },
+        {
+          "path": "src/styles/journey.css",
+          "sha256": "0fd9b4ee34df2fca83cb82daea130b74f7ae22589bcce3e0cc14ac8b9cd2f115"
+        },
+        {
+          "path": "tests/browser-discovery-checks.js",
+          "sha256": "3062da39bbc3f409f047e1132c400dd4f651ea3b502f42c0b2e4ddd9e08a9855"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "30035decb4cfabd402acef810f59841cbcdfe0ebb62d531f5b9793a1b2403bbd"
+        }
+      ]
+    },
+    {
+      "worktree": "D:\\Midterm\\.scratch\\issue-0005-takashimaya",
+      "branch": "takashimaya",
+      "commit": "a62e824af431864bb66e17b8256ca71118c3c20f",
+      "verifiedSharedFiles": 31,
+      "sha256Match": true,
+      "files": [
+        {
+          "path": "data/malls/saigon-centre/overview-slabs.json",
+          "sha256": "ab265b08d1b5ff28bd3f3086d7c0e5440724c752e1882f415d6f5893ae46b58e"
+        },
+        {
+          "path": "data/malls/vincom-dong-khoi/overview-slabs.json",
+          "sha256": "88999eb6f47256a0eb57f23a0c94ec58a8d713c04d5d1e1a5368204021911f40"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/.gitattributes",
+          "sha256": "33963105da34ea76165eecebc6d785f70375f30c176a0216c2ed679414f827e5"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/README.md",
+          "sha256": "8fd2f22d7dab22fe0003902602bd7f382175d1dea7c1c2829ad91d6be7c2ed11"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/accepted-r4-geometry.json.gz",
+          "sha256": "89f5ac26720497a9dcbb74bdf89c770432d1e7974b5b1c99474c57698b397434"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/browser-validation.json",
+          "sha256": "5299f240300eb0dbc708cafad0688e015fdca6c3dfac2711adc6169834ae84d9"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/build-review.py",
+          "sha256": "a14e97d6604c3093a17023f8b724c77a0354a00f0d71dfefb36f14c00f71387f"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/integrity.json",
+          "sha256": "f34e48452b3081a1ad711af565309d02651985dae5db107a0de2b2c474e7023a"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/manifest.json",
+          "sha256": "e8e2d289c3369d7ccc0e17de2329e8cf77ccbb18852bb886996220cda7f2d871"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/owner-decisions.json",
+          "sha256": "81beea22fa6ce9b6bb8c532bbc0c32581b351956d2e886a7285030db106335af"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/prepare.py",
+          "sha256": "31dc3172400386519ddaa1bfb2441b26ef27ecd73d0a8531c13f64ad1b058d6d"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/review.html",
+          "sha256": "c5b949d417e4aa940a320f7027a7998701a584d180822b08cb96274e5a62b08b"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/saigon-centre.private.json",
+          "sha256": "668ab73f71a6c3233142f1f0796fc88fa30fbf57c9bad44182ee323d070426a1"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/source-hashes.json",
+          "sha256": "17cfbfaecc22cafcf5151149e9843a77773be0e496b623e9e0c017b00b18b113"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/summary.json",
+          "sha256": "1bee6df5da9686e1d9f9628ab745622ef3d33df1bf4352ed061b46e76dcf5516"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/validation.json",
+          "sha256": "c65751b218274a1b08f356c4f2bf17129f7aceaa2f0914e578a75a6967b8e1da"
+        },
+        {
+          "path": "docs/content-preparation/integration-candidate-2026-10-18-r2/vincom-dong-khoi.private.json",
+          "sha256": "21cd59607a1336320d2a7128f95ae19b1f0441da443e4a0ba367b35503db4c46"
+        },
+        {
+          "path": "scripts/import-overview-slabs.py",
+          "sha256": "2dc54aa1da4a326b0491f26f5608d51983cbd44f00e7d0b03d32e232fa860f62"
+        },
+        {
+          "path": "scripts/prepare-assets.mjs",
+          "sha256": "51d4fae71fe0fd4d93c0be121dde4d76809254c0ebe658699dbf462b163135e2"
+        },
+        {
+          "path": "scripts/research-overlay.mjs",
+          "sha256": "0c3100ee430e5010431635bfadff7431b469579673c11a367ed5794a9dd76163"
+        },
+        {
+          "path": "src/components/Discovery.tsx",
+          "sha256": "9440b5a87adc01c15a44d2458fbf15a7d533e87ea2dd29a811ddf603b5c3b8e8"
+        },
+        {
+          "path": "src/components/Explorer.tsx",
+          "sha256": "90278fb5522714cc66a44a5da973da33bfa55d95f1b3e0efad04e1d8ed0d86bf"
+        },
+        {
+          "path": "src/components/FloorMap.tsx",
+          "sha256": "b53e280579d8d17035bc1bda5b4a16766cf41a3fc5dd5b75246ca8e17ae9bd46"
+        },
+        {
+          "path": "src/components/floor-frame.ts",
+          "sha256": "683bf8ef0790282f875b0dee328b026d932e83bec678760545a3a165a12c4237"
+        },
+        {
+          "path": "src/components/journey-copy.ts",
+          "sha256": "bc9e21495aa4f25c948d7f90b035a7fb8ba5326c90de73296c92456eb6c226ce"
+        },
+        {
+          "path": "src/data/research-fixtures.ts",
+          "sha256": "5458d6f4db36e478bbee3007f11338cdce650d6f841091caac2b93c95733d67e"
+        },
+        {
+          "path": "src/data/site.ts",
+          "sha256": "73cebb02fb85940bba7fc30c605b6cafa4f77f5991d3c6a71a9d8b3df4e3c3ea"
+        },
+        {
+          "path": "src/runtime/scene-contract.ts",
+          "sha256": "298f410cb5a8cdd48a005277c5e464610c2666f964e068290d1d5a06df27dc7b"
+        },
+        {
+          "path": "src/styles/journey.css",
+          "sha256": "0fd9b4ee34df2fca83cb82daea130b74f7ae22589bcce3e0cc14ac8b9cd2f115"
+        },
+        {
+          "path": "tests/browser-discovery-checks.js",
+          "sha256": "3062da39bbc3f409f047e1132c400dd4f651ea3b502f42c0b2e4ddd9e08a9855"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha256": "30035decb4cfabd402acef810f59841cbcdfe0ebb62d531f5b9793a1b2403bbd"
+        }
+      ]
+    }
+  ]
+}
