@@ -1,0 +1,522 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 80,
+    "sha256": "f6f094ec77cbd68dd43106b496d7314b118a53295531e03801c8c656462bb11d"
+  },
+  {
+    "path": "browser-checks.js",
+    "bytes": 2679,
+    "sha256": "6ce4d4393b0942c8a558dcad1262819ceb0a4079960d6186116ecf0965ec1944"
+  },
+  {
+    "path": "browser-validation.json",
+    "bytes": 3534,
+    "sha256": "e1ddbd7fe3c828405f32e7424011cc24fda48945f5e9af0b39e728515958c86e"
+  },
+  {
+    "path": "build-review.py",
+    "bytes": 738,
+    "sha256": "fe71f6a9e0833e025f1ff43a006bf4bd344878a8974afc7cf3e4726b6eb162e8"
+  },
+  {
+    "path": "collect-media.py",
+    "bytes": 3168,
+    "sha256": "8b8ac623ef1dada729ef16095fd08df964b59b6700b428b2916f318915d759c7"
+  },
+  {
+    "path": "content-ledger.json",
+    "bytes": 1099539,
+    "sha256": "3ea36234e14a2a42c5e4f5b284d63a51be4c2b1e038a36799d2df7318596d16c"
+  },
+  {
+    "path": "copy-findings.json",
+    "bytes": 6117,
+    "sha256": "a0feee5337c8a9d1f20e0c8d84178143f76dca1daacb2dc5d81582a07c65b465"
+  },
+  {
+    "path": "fetch-evidence.py",
+    "bytes": 2654,
+    "sha256": "4e0b5b0698e0005a3001e25dc7b3d76f7b85261aee6141e7555bff7e87b764e1"
+  },
+  {
+    "path": "follow-up/04ba62358812f81d.html",
+    "bytes": 56215,
+    "sha256": "182d22c1381c1960c9f3380dbc98443c48389008b84651ece6b621f014678d82"
+  },
+  {
+    "path": "follow-up/13f0ceaba134f2ef.html",
+    "bytes": 61594,
+    "sha256": "65fc8992884821bd6408fccf05f762b349cee1258c69ce688a060019a4856d1b"
+  },
+  {
+    "path": "follow-up/2124e65c05c7b7a1.html",
+    "bytes": 91409,
+    "sha256": "db412327859506e69363c9c41157f0df50cacbbcfe82e5536989a05a6c28d52d"
+  },
+  {
+    "path": "follow-up/2243b95cd9c86b3a.html",
+    "bytes": 93159,
+    "sha256": "8a2fe946eb7a6ebc0202c94fc8adf3e864093789783a48d711fc98f9c4491a7b"
+  },
+  {
+    "path": "follow-up/276c391747a41f5c.html",
+    "bytes": 120477,
+    "sha256": "594ff34bc57a647d9d2586dd4d42b065f4d5db76bac25e6a67dded7412f24d73"
+  },
+  {
+    "path": "follow-up/2bd5109c3eccdb2b.html",
+    "bytes": 296013,
+    "sha256": "ce7c463d49cdbf8295eb66df23d08a5f73d135400b3df196c0f27c6aeafece3e"
+  },
+  {
+    "path": "follow-up/430e6b86ab10d66d.html",
+    "bytes": 74037,
+    "sha256": "cba5c5fd90c76d82c274b6657156646b7b88b251edf974866eab19c344c9d9c5"
+  },
+  {
+    "path": "follow-up/46da77df77c1ee8f.html",
+    "bytes": 67470,
+    "sha256": "a12528f2b33a36ac359708d163c07cd0ccdac6cd6a74e6c2e38c694f88e10fbb"
+  },
+  {
+    "path": "follow-up/471be9e87e4ed28d.html",
+    "bytes": 53824,
+    "sha256": "b5375370083e34417ac6564b246208416b667c2b75ffd0f6a90f8678a5233fd4"
+  },
+  {
+    "path": "follow-up/4e30be19f3705b93.html",
+    "bytes": 54615,
+    "sha256": "2431746494f60a22b1e9bfd905b956f33fbef6440f1a30c7375ac36da78032ef"
+  },
+  {
+    "path": "follow-up/54593d7072c2897b.html",
+    "bytes": 84354,
+    "sha256": "723c4f7198060d4e8021f2d86f08320b4e075231340a11c5b18e3f4884471f1c"
+  },
+  {
+    "path": "follow-up/575071b0e4748580.html",
+    "bytes": 96194,
+    "sha256": "bb946b0206945a0cbea0e7154bb80b42c3680410b7fa6b379e718bbb2f52da48"
+  },
+  {
+    "path": "follow-up/5d5c5c4beb0e0b3f.html",
+    "bytes": 81000,
+    "sha256": "4a74c6a7d04f150996fc3c23962f7770b4303185b301291dae4c258de5892738"
+  },
+  {
+    "path": "follow-up/88df15a046e943b9.html",
+    "bytes": 56377,
+    "sha256": "6d4b845ef34329b9b3713109cf0a4454b3b90ad8039fd0eab4d9070a718192f5"
+  },
+  {
+    "path": "follow-up/a13ab7ad32034809.html",
+    "bytes": 925462,
+    "sha256": "acf94a1099ec20b1d791b0183bd013c1f27c5b864579043135a71e8c3d2a7219"
+  },
+  {
+    "path": "follow-up/b11d22f5deff569c.html",
+    "bytes": 53730,
+    "sha256": "0f1af7a6de365315e6abea0aeb070596a0d52d1bddf73602e44520707dd9d6ab"
+  },
+  {
+    "path": "follow-up/b5e3c1a7323f6cf8.html",
+    "bytes": 55062,
+    "sha256": "a9c28c1762a1678df726029e2c268363050d4b33b517cd55038a02cc0176eba9"
+  },
+  {
+    "path": "follow-up/b91b7fd61b421f58.html",
+    "bytes": 160114,
+    "sha256": "30e59973753a203ebacbf5759cd6b10e929cb0b4d0d5efbce8a6b7ccb9f42f43"
+  },
+  {
+    "path": "follow-up/e6dfa49e9350f859.html",
+    "bytes": 52985,
+    "sha256": "5063bc1d786964c6aaa261fb07d9f78382e1de51e953c6cb664855cf1a2712df"
+  },
+  {
+    "path": "follow-up/e93f54639e9bceff.html",
+    "bytes": 56619,
+    "sha256": "beb7430fba5577ecd5b91904b3680e19911fd4f420423b4a8d38360bbe6b76b6"
+  },
+  {
+    "path": "follow-up/f3beeaf2a020ce3c.html",
+    "bytes": 416606,
+    "sha256": "d7da7b58f23847034c1d2b818bb896a84b6bdf7fe19bd265dbf8c13a6ea6a42c"
+  },
+  {
+    "path": "follow-up/fb1db536ffec0bd6.html",
+    "bytes": 95876,
+    "sha256": "78f21b38ddf2decf9071914aefae5ae51b790bc290d88d53a5b1d95aa67d4f62"
+  },
+  {
+    "path": "follow-up/fb99e7bdaab022b3.html",
+    "bytes": 3366,
+    "sha256": "5474aa3b577fae09429637f3e46734ef52f3b1ab5ba865ef0898989bceb0ea40"
+  },
+  {
+    "path": "follow-up/fba88fd1b4213d57.html",
+    "bytes": 53574,
+    "sha256": "932c63f2ad7071a8d956a0658e74c034c2999da74b2359671ac6e59e4e593d2a"
+  },
+  {
+    "path": "follow-up-sources.json",
+    "bytes": 11642,
+    "sha256": "d9e5de0dca04409723c80c99915667426d67a2a827692bcbdc4d8cfdae1c6fbb"
+  },
+  {
+    "path": "input-integrity.json",
+    "bytes": 64891,
+    "sha256": "f7fbbf3f688b8ada06233f15ce358c1351e1c569e7448d648e7de8803c845457"
+  },
+  {
+    "path": "mapping-findings.md",
+    "bytes": 66178,
+    "sha256": "233d642bfe77e277dcae9e6bec148012e46a9ef7e5b9ad4bac605a41a951b6c6"
+  },
+  {
+    "path": "mapping-ledger.json",
+    "bytes": 315007,
+    "sha256": "10cbb74d9d52825e747ee1f5839edea9dbb51bc57dd5770194f20c8e55524427"
+  },
+  {
+    "path": "media-observations.json",
+    "bytes": 1704,
+    "sha256": "6632a02ce547148a9a08a3e4870d80a22ba8bbfe0e344e2548f64ce580cedda2"
+  },
+  {
+    "path": "media-sample.json",
+    "bytes": 151582,
+    "sha256": "5ea587341a9c7867795679e2f6decff5b2ad6cf4702b437c7ee7fab76b057bc6"
+  },
+  {
+    "path": "media-sheet-1.jpg",
+    "bytes": 467580,
+    "sha256": "7a47da35735be4e2f2e9e290df8d83726ad938a3a1e57b63e89ed546e58baa7b"
+  },
+  {
+    "path": "media-sheet-2.jpg",
+    "bytes": 399284,
+    "sha256": "bc7b34e34bc9410190d44ccd582de5b7f63e467425b60f220455e553553d89ea"
+  },
+  {
+    "path": "media-sheet-3.jpg",
+    "bytes": 407484,
+    "sha256": "1356affeb43f847f8ba85278d70d454ba461a642f2fbd9c86337c8810a1082f5"
+  },
+  {
+    "path": "media-sheet-4.jpg",
+    "bytes": 465301,
+    "sha256": "3d701a9490dce8129bae8ba4b2a54e1dbc7e5a6f105db4488753311250f1e814"
+  },
+  {
+    "path": "media-sheet-5.jpg",
+    "bytes": 563796,
+    "sha256": "c0f64027f6cbf66113f91beb29525a69ad79d6276ae9eb7f746296b7506241a5"
+  },
+  {
+    "path": "media-sheet-6.jpg",
+    "bytes": 343236,
+    "sha256": "79455335389e0439e548b1e3861d45cdcda721d37f4883ad11ea46174260980d"
+  },
+  {
+    "path": "owner-decision-queue.json",
+    "bytes": 427049,
+    "sha256": "5b985677d5db4da45b4142dd7cf2b64f41d44296ca061ffd7a7115efd492d818"
+  },
+  {
+    "path": "README.md",
+    "bytes": 15381,
+    "sha256": "f4ddeeb7ddb0fd6d6017ee67993db21c44697370fadbc15c2e0ee4b206708f4f"
+  },
+  {
+    "path": "registered-proposals.geojson",
+    "bytes": 47274,
+    "sha256": "c81883d159c2234e0a9ec0983d06af9d76546485a9f7c18561f08f137770a500"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-asanoha.jpg",
+    "bytes": 80176,
+    "sha256": "92f529a633e5f34e7bf3f3c2919b275aabbec263e53314b801f48f2a4dfc3ceb"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-asiancorner.jpg",
+    "bytes": 80284,
+    "sha256": "acbdfd0528acc77d711a98c1e4d9bc21b840e5854e52b0a4071f6e0de4e7d162"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-atzorganicyankeecandle.jpg",
+    "bytes": 23968,
+    "sha256": "a033e88a36956f55d257a19f37a0b8a102c9d0abece7294fac60a0555c901d33"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-bathbodyworks.jpg",
+    "bytes": 37894,
+    "sha256": "98fb1c90421d67adb090f8e47cbc018f2274cf84aa2215f66eb867ca450c1e42"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-botejyuokonomiyaki.jpg",
+    "bytes": 41040,
+    "sha256": "35b94220a4cfaa2d0244491e6bb5cedba37463eb8f10d37420cef5f3c74218ac"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-cartier.jpg",
+    "bytes": 25336,
+    "sha256": "f1814295b39557c1cf0b584d720be9e351028cc050065efd32f687db91f41d0b"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-crocs.jpg",
+    "bytes": 28664,
+    "sha256": "4fab7efb3f834a07ebba08a58973f23cbe3ceb7f1087fcd0fd85666640c9fc81"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-currencyexchangesimcard.jpg",
+    "bytes": 17153,
+    "sha256": "d1df02d5d18fb1de6aa080f1f3de06c7512d95cb2da83a16864ffcb5c0c4012f"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-drmartens.jpg",
+    "bytes": 35630,
+    "sha256": "f8ba49f1081db8288174ca15513f4aab15f6a6fc4fcfaffd9c7e81986855011c"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-exnihilo.jpg",
+    "bytes": 21477,
+    "sha256": "53a7e9ac5a1fe7b2eb375c8580f061e34ac7dcee172f8032d86418ac755b9068"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-fujifilm.jpg",
+    "bytes": 13935,
+    "sha256": "86cc9b7f4a6109104c02a48c41e6b0e378210099e1ef38e72778f9f1b24fec7a"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-ginsenghouse.jpg",
+    "bytes": 33972,
+    "sha256": "91ce5d435904922f0b9431de89f2fd8027e87c8a6bd76716e47ab38876a34deb"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-gogihouse.jpg",
+    "bytes": 71362,
+    "sha256": "36af66ca192824b0bbc83d03b49a5289adcb2be754c4698ed910a437e56ee89f"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-grandseiko.jpg",
+    "bytes": 30753,
+    "sha256": "72d6b51d960b5d498849baf0afebb2eecf977253c1ec500f7b997d0b3284e4dc"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-harnn.jpg",
+    "bytes": 24220,
+    "sha256": "f264c62c3238738b5dcd7aef9a0d1c8904aea7b3228bb6c8c11dc1c3b8ce08ca"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-himalaya.jpg",
+    "bytes": 28407,
+    "sha256": "1247b91b5ff40ed06311fd5eff77039b99f61f6a081026686f092b98591924cd"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-hublot.jpg",
+    "bytes": 31555,
+    "sha256": "e4ce77c76bf1ff2516323911735ce1c585b72fdb933fc6758a33d9e2fe15c5f7"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-irvins.jpg",
+    "bytes": 29498,
+    "sha256": "e4dd17cae7bde7dcf26dbe0b7b0d57c423da2072b4f82a8da99e5089c1f03b17"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-kichikichi.jpg",
+    "bytes": 68746,
+    "sha256": "43b0a3e8661cba695db9f5dfcc95b9a3380f0e11cdf6c166bc93a3dd1842fcc0"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-labellab.jpg",
+    "bytes": 39494,
+    "sha256": "e2ecd29e34bf1620f56d8e03cd0dcc2ebdef13de3044e362f3e91f9a3c7440df"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-lachcalachcach.jpg",
+    "bytes": 55067,
+    "sha256": "4596af41c803580ce48afe3a1dba401a741c89783736f2c2aea0aab3a591174d"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-llaollao.jpg",
+    "bytes": 19308,
+    "sha256": "9647c9124bda94452f6b48320e69ce6270c68c8d362edd243587df4fc683d37a"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-longjing.jpg",
+    "bytes": 76852,
+    "sha256": "0c540d7a5f949398965f11025c9ecc90ccb77fc2786979789d792a745ddb5678"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-manwahtaiwanesehotpot.jpg",
+    "bytes": 81085,
+    "sha256": "4f3dab409aeb4a69903f557c045e4d9113a547643b7ad9a6b3aba5e1a8169f3c"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-memorylove.jpg",
+    "bytes": 16609,
+    "sha256": "6674294ec0cab62c04a815350be1534a2434b69b4f84338316d40a39e1cabd5a"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-moschino.jpg",
+    "bytes": 79015,
+    "sha256": "b46b436f9532f277694a09ca9a8eb9ecbb5ecef0f80c949968c017875bfd9554"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-nihontoki.jpg",
+    "bytes": 17236,
+    "sha256": "61ceb5e2f4d14732a758189fc6aeb42c257b05fcfbb314208658c7978c189d98"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-oedoalley.jpg",
+    "bytes": 95115,
+    "sha256": "f9bf269c2e43085fb4dedf8969afeac53a0bca879515f4194882bb2c7b147ac9"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-photoobjet.jpg",
+    "bytes": 20143,
+    "sha256": "beb4d3e6151fe4a49ada4736ba7eefa4fe5554ef6f129ac1b500c6daf9be56c7"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-pinktree.jpg",
+    "bytes": 23382,
+    "sha256": "0025f60242dd473075f46a3713001784b54a19c5ce993ebe8e6622ed4688296b"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-ramenichibanken.jpg",
+    "bytes": 41279,
+    "sha256": "8ba01030a541755d03a4e87426f02147b067f5175a22627abdd59cbd16ee4246"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-sjc.jpg",
+    "bytes": 43983,
+    "sha256": "ab65c16a28f36d6e708197872ea1ebdcba8a160321db21e459c15a6af7cbc7a6"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-stanley1913.jpg",
+    "bytes": 34944,
+    "sha256": "fd8289ba3e6f57693b29b2908639c3910601834b16afc6bd60cc3442793905cc"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-sundubu.jpg",
+    "bytes": 95652,
+    "sha256": "bda21bc015a6647cfa608e60e4d27821ab48d0644946f3434119d3e6629e63b0"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-sunniesstudios.jpg",
+    "bytes": 24337,
+    "sha256": "e6107d7869489318808e760bfcb20fb2568ce19dadc71a87d989607f63b8b76f"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-thann.jpg",
+    "bytes": 74927,
+    "sha256": "801ecc6a5d7117b324087ffad3d6b1ca2b9dd970dc5ebcc61fd9602a3f1b4b6c"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-the350f.jpg",
+    "bytes": 31180,
+    "sha256": "c6048fd82e93991179551275f40995602b1ab2857e24609dd9236e8750c011d5"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-thebodyshop.jpg",
+    "bytes": 24038,
+    "sha256": "512a6d333a3b0d208c8f7fe4e1ea55ca39d2f9bff5ba84af4c1cbd405aab9e8a"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-thehourglass.jpg",
+    "bytes": 83705,
+    "sha256": "bddcfb49a3e936d335356d3a6c58d55feb007aabb69c412efcc97932ac7279c3"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-tierradiamondjewelry.jpg",
+    "bytes": 16063,
+    "sha256": "baa5cf388b352ac37ad6dc9d3dcb81f3062ffa6b12cac4a9fb81cb6d84251121"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-tudor.jpg",
+    "bytes": 26536,
+    "sha256": "c0a5195c4ce4744bc4005166e3d96a00d86011c97fa3c0fa6c1c44a7bab37a58"
+  },
+  {
+    "path": "registration-crops/saigon-prototype-zenith.jpg",
+    "bytes": 29544,
+    "sha256": "4f7198021b63da8295370f38310efabfb64d04f7731a89161d9c098a7a4d48c0"
+  },
+  {
+    "path": "registration-crops-1.jpg",
+    "bytes": 314274,
+    "sha256": "46a81be41bbf74493c3c72820042ae6b99bb91fff8e7ab149d88cb7ddb2bd770"
+  },
+  {
+    "path": "registration-crops-2.jpg",
+    "bytes": 301747,
+    "sha256": "c5e5da5a3e7646d476e94876129924b4ad2101575b92119a701a1a78ca9248b2"
+  },
+  {
+    "path": "registration-crops-3.jpg",
+    "bytes": 297434,
+    "sha256": "8066482bda17e2922c1d312d62a7292bf8803e16429b356581ef3d1e0aea43c3"
+  },
+  {
+    "path": "registration.json",
+    "bytes": 64759,
+    "sha256": "e223915770a1ebda2deab9f7d476ff6fea93c338eb15d876fff1bb188c6bfb83"
+  },
+  {
+    "path": "render-registration.py",
+    "bytes": 2488,
+    "sha256": "57cb9bb255c989bc386124d7de606bac42fada6cac3af3e4ba21e76e09610dff"
+  },
+  {
+    "path": "review-records.py",
+    "bytes": 26555,
+    "sha256": "4a342f61971dfd0e82d787036b5e1fa37a0f2541f075c9a274efb8b9d451fe0e"
+  },
+  {
+    "path": "review-template.html",
+    "bytes": 8850,
+    "sha256": "eb3a725fea6a7aa9bd2a28aaf0a1115ca55e12cb9fd17fa342f161d4315afd8e"
+  },
+  {
+    "path": "review.html",
+    "bytes": 1153000,
+    "sha256": "e29d07744a1c61c4c147fb729710d45f91b59c2299e20726eeb42280f58a10a4"
+  },
+  {
+    "path": "source-evidence/regions.csv",
+    "bytes": 460561,
+    "sha256": "22a3cba4f865dc750cc1b5669a0436845fc64507d0b8cb1e0d77c7ce72d4c631"
+  },
+  {
+    "path": "source-evidence/vincom-anchor-results.csv",
+    "bytes": 27682,
+    "sha256": "b9eeaa56ba4360ea38c0589d91fa78c2e04804d5fc5ad7393167fd1bb7ca1a4f"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 799,
+    "sha256": "c77e4ba73a19cbe82d5b9470883a2240c4c1496c98625dbfa45d4bfa9d2785b0"
+  },
+  {
+    "path": "validate-review.py",
+    "bytes": 3437,
+    "sha256": "69f99beb1b987fc87842b76621a766c707044a7414e2611b507e28db9fabb534"
+  },
+  {
+    "path": "validation.json",
+    "bytes": 659,
+    "sha256": "6a615b00ce914d5a978aa2ab75825a707d49d88216143aaa31985b529dfd6e29"
+  },
+  {
+    "path": "validation.md",
+    "bytes": 3969,
+    "sha256": "3a99577988f2d41ee642734d6a80935c700f06c86b098198c0cca5724cb468db"
+  },
+  {
+    "path": "vincom-source-extracts.json",
+    "bytes": 408655,
+    "sha256": "7601f3ff8fb17a3166c0ab73d19c872c21800def548111da5bdc1ea89bbe3c5e"
+  }
+]

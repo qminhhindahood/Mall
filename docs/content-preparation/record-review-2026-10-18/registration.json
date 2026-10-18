@@ -1,0 +1,1939 @@
+{
+  "B2": {
+    "status": "candidate-affine-registration",
+    "matrix": [
+      [
+        0.5477558597127938,
+        -0.00231614826431498,
+        -9.009912757735483
+      ],
+      [
+        -0.007682501118854746,
+        0.5329745983217367,
+        -0.6005592629829619
+      ]
+    ],
+    "shapelyAffine": [
+      0.5477558597127938,
+      -0.00231614826431498,
+      -0.007682501118854746,
+      0.5329745983217367,
+      -9.009912757735483,
+      -0.6005592629829619
+    ],
+    "units": "website schematic units; not metres",
+    "trainingInliers": 10,
+    "trainingCount": 12,
+    "heldOutCount": 4,
+    "heldOutMedianResidual": 0.2653688615906059,
+    "heldOutMaxResidual": 0.790074056202438,
+    "anchors": [
+      {
+        "id": "saigon-prototype-annamcafe",
+        "name": "Annam Café",
+        "sourceRegions": [
+          "official-4ce90265-8f9e-411a-9981-5ecb29a40677-b2"
+        ],
+        "targetRegions": [
+          "B2-region-003"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.790074,
+        "intersectionOverUnion": 0.823047,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-annamcafe]"
+      },
+      {
+        "id": "saigon-prototype-annamgourmet",
+        "name": "Annam Gourmet",
+        "sourceRegions": [
+          "official-0e6ada86-42bf-492d-a5a1-1a93940d98d2-b2"
+        ],
+        "targetRegions": [
+          "B2-region-001"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.625408,
+        "intersectionOverUnion": 0.924678,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-annamgourmet]"
+      },
+      {
+        "id": "saigon-prototype-beardpapas",
+        "name": "Beard Papa's",
+        "sourceRegions": [
+          "official-9f5158b2-9c76-4e98-bc7c-ac70cff83734-b2"
+        ],
+        "targetRegions": [
+          "B2-region-014"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.169756,
+        "intersectionOverUnion": 0.600604,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-beardpapas]"
+      },
+      {
+        "id": "saigon-prototype-boatnoodle",
+        "name": "BOAT NOODLE",
+        "sourceRegions": [
+          "official-af98a8d1-1b81-4bbd-ade7-c3358f8c573e-b2"
+        ],
+        "targetRegions": [
+          "B2-region-010"
+        ],
+        "heldOut": false,
+        "centroidResidual": 2.520961,
+        "intersectionOverUnion": 0.470291,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-boatnoodle]"
+      },
+      {
+        "id": "saigon-prototype-breadtalk",
+        "name": "BreadTalk",
+        "sourceRegions": [
+          "official-41fed0b5-e6d6-4ebc-85c8-bb50942cd363-b2"
+        ],
+        "targetRegions": [
+          "B2-region-006"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.305358,
+        "intersectionOverUnion": 0.813207,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-breadtalk]"
+      },
+      {
+        "id": "saigon-prototype-centuryhealthcare",
+        "name": "Century Healthcare",
+        "sourceRegions": [
+          "official-cbe7c7cd-859a-4376-b5df-d96eb616a129-b2"
+        ],
+        "targetRegions": [
+          "B2-region-008"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.265654,
+        "intersectionOverUnion": 0.73223,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-centuryhealthcare]"
+      },
+      {
+        "id": "saigon-prototype-chateraise",
+        "name": "Châteraisé",
+        "sourceRegions": [
+          "official-d993620e-c6e9-4a3f-95a5-d9ac836e462e-b2"
+        ],
+        "targetRegions": [
+          "B2-region-011"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.193473,
+        "intersectionOverUnion": 0.689023,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-chateraise]"
+      },
+      {
+        "id": "saigon-prototype-gongcha",
+        "name": "Gong Cha",
+        "sourceRegions": [
+          "official-046bcc9e-66d5-4ae5-906f-8e8e6066e540-b2"
+        ],
+        "targetRegions": [
+          "B2-region-013"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.121735,
+        "intersectionOverUnion": 0.723517,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-gongcha]"
+      },
+      {
+        "id": "saigon-prototype-highlandscoffee",
+        "name": "Highlands Coffee",
+        "sourceRegions": [
+          "official-904390b6-e794-4c54-ba57-391950698935-b2"
+        ],
+        "targetRegions": [
+          "B2-region-007"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.22538,
+        "intersectionOverUnion": 0.782751,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-highlandscoffee]"
+      },
+      {
+        "id": "saigon-prototype-hokkaidobakedcheesetart",
+        "name": "Hokkaido Baked Cheese Tart",
+        "sourceRegions": [
+          "official-3606cdbd-7d2a-49bf-93af-2e7c66f9066e-b2"
+        ],
+        "targetRegions": [
+          "B2-region-015"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.265491,
+        "intersectionOverUnion": 0.547713,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-hokkaidobakedcheesetart]"
+      },
+      {
+        "id": "saigon-prototype-mcdonalds",
+        "name": "McDonald's",
+        "sourceRegions": [
+          "official-2ae9c154-e246-4da0-86d5-407cc55c501b-b2"
+        ],
+        "targetRegions": [
+          "B2-region-004"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.157076,
+        "intersectionOverUnion": 0.963367,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-mcdonalds]"
+      },
+      {
+        "id": "saigon-prototype-meatmeet",
+        "name": "Meat & Meet",
+        "sourceRegions": [
+          "official-e318a1a3-a1be-495f-95c0-12134c53d7d1-b2"
+        ],
+        "targetRegions": [
+          "B2-region-002"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.474305,
+        "intersectionOverUnion": 0.833894,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-meatmeet]"
+      },
+      {
+        "id": "saigon-prototype-nagocha",
+        "name": "Nagocha",
+        "sourceRegions": [
+          "official-5552bc88-c025-43cb-bacc-faa45a671e8a-b2"
+        ],
+        "targetRegions": [
+          "B2-region-017"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.199633,
+        "intersectionOverUnion": 0.583937,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-nagocha]"
+      },
+      {
+        "id": "saigon-prototype-spicybox",
+        "name": "Spicy Box",
+        "sourceRegions": [
+          "official-48e16157-758e-4588-8d92-c8aea26a4892-b2"
+        ],
+        "targetRegions": [
+          "B2-region-005"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.122381,
+        "intersectionOverUnion": 0.853606,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-spicybox]"
+      },
+      {
+        "id": "saigon-prototype-truffleco",
+        "name": "TRUFFLE & CO",
+        "sourceRegions": [
+          "official-9df8e43e-e56d-4729-985c-87988a7cb938-b2"
+        ],
+        "targetRegions": [
+          "B2-region-009"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.33648,
+        "intersectionOverUnion": 0.657698,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-truffleco]"
+      },
+      {
+        "id": "saigon-prototype-trungnguyenecoffee",
+        "name": "TRUNG NGUYÊN E-COFFEE",
+        "sourceRegions": [
+          "official-7f05c181-24a4-4bae-9f91-60b3c8a4f804-b2"
+        ],
+        "targetRegions": [
+          "B2-region-012"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.167996,
+        "intersectionOverUnion": 0.720412,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-trungnguyenecoffee]"
+      }
+    ],
+    "sourceRevision": "saigon-official-source-map-2026-10-17-r1",
+    "targetRevision": "source-palette-schematic-2026-10-13-r2",
+    "sourceFrame": "official-geographic-source-v1",
+    "targetFrame": "saigon-centre-schematic-canvas-v1",
+    "ownerApproval": false,
+    "reviewedBy": "Codex (AI evidence reviewer; not owner/editorial approval)",
+    "reviewedAt": "2026-10-18"
+  },
+  "B1": {
+    "status": "candidate-affine-registration",
+    "matrix": [
+      [
+        0.5461040801825462,
+        -0.0014680833816889786,
+        -8.803302680554168
+      ],
+      [
+        -0.00033042461145725804,
+        0.5426995906240171,
+        -0.8163945630248945
+      ]
+    ],
+    "shapelyAffine": [
+      0.5461040801825462,
+      -0.0014680833816889786,
+      -0.00033042461145725804,
+      0.5426995906240171,
+      -8.803302680554168,
+      -0.8163945630248945
+    ],
+    "units": "website schematic units; not metres",
+    "trainingInliers": 6,
+    "trainingCount": 6,
+    "heldOutCount": 3,
+    "heldOutMedianResidual": 0.20464661719870167,
+    "heldOutMaxResidual": 1.6444313722712298,
+    "anchors": [
+      {
+        "id": "saigon-prototype-abcmartgrandstage",
+        "name": "ABC-MART Grand Stage",
+        "sourceRegions": [
+          "official-31991f7e-42d0-4f7a-9bf1-5519da3d732f-b1"
+        ],
+        "targetRegions": [
+          "B1-region-001"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.132194,
+        "intersectionOverUnion": 0.945144,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-abcmartgrandstage]"
+      },
+      {
+        "id": "saigon-prototype-annacoco",
+        "name": "Annacoco",
+        "sourceRegions": [
+          "official-68a21b07-21c2-4a54-8fd2-d01103a7857e-b1"
+        ],
+        "targetRegions": [
+          "B1-region-006"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.065067,
+        "intersectionOverUnion": 0.967798,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-annacoco]"
+      },
+      {
+        "id": "saigon-prototype-beautybox",
+        "name": "BEAUTY BOX",
+        "sourceRegions": [
+          "official-7ca64a99-9445-45be-8560-4b3107916de2-b1"
+        ],
+        "targetRegions": [
+          "B1-region-002"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.020649,
+        "intersectionOverUnion": 0.931946,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-beautybox]"
+      },
+      {
+        "id": "saigon-prototype-chileno",
+        "name": "CHILENO",
+        "sourceRegions": [
+          "official-5619c6aa-abb9-4081-8f82-297eb63f09cb-b1"
+        ],
+        "targetRegions": [
+          "B1-region-008"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.076299,
+        "intersectionOverUnion": 0.743698,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-chileno]"
+      },
+      {
+        "id": "saigon-prototype-converse",
+        "name": "Converse",
+        "sourceRegions": [
+          "official-0b105fae-dad3-47f6-8ba0-8badcaf91fca-b1"
+        ],
+        "targetRegions": [
+          "B1-region-005"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.204647,
+        "intersectionOverUnion": 0.832,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-converse]"
+      },
+      {
+        "id": "saigon-prototype-g2000",
+        "name": "G2000",
+        "sourceRegions": [
+          "official-a2c38d60-4473-4db6-9668-fc6d9d25a461-b1"
+        ],
+        "targetRegions": [
+          "B1-region-004"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.053987,
+        "intersectionOverUnion": 0.892801,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-g2000]"
+      },
+      {
+        "id": "saigon-prototype-nespresso",
+        "name": "Nespresso",
+        "sourceRegions": [
+          "official-ea935942-cb27-431c-9eab-d63bb017210e-b1"
+        ],
+        "targetRegions": [
+          "B1-region-007"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.085992,
+        "intersectionOverUnion": 0.843655,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-nespresso]"
+      },
+      {
+        "id": "saigon-prototype-owndays",
+        "name": "Owndays",
+        "sourceRegions": [
+          "official-fc9b65c0-6a6e-4f83-b2fe-c049c2a20100-b1"
+        ],
+        "targetRegions": [
+          "B1-region-003"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.046748,
+        "intersectionOverUnion": 0.912497,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-owndays]"
+      },
+      {
+        "id": "saigon-prototype-winkperry",
+        "name": "Winkperry",
+        "sourceRegions": [
+          "official-d483ab13-08dd-4317-b648-c20edfe03bec-b1"
+        ],
+        "targetRegions": [
+          "B1-region-009"
+        ],
+        "heldOut": true,
+        "centroidResidual": 1.644431,
+        "intersectionOverUnion": 0.280989,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-winkperry]"
+      }
+    ],
+    "sourceRevision": "saigon-official-source-map-2026-10-17-r1",
+    "targetRevision": "source-palette-schematic-2026-10-13-r2",
+    "sourceFrame": "official-geographic-source-v1",
+    "targetFrame": "saigon-centre-schematic-canvas-v1",
+    "ownerApproval": false,
+    "reviewedBy": "Codex (AI evidence reviewer; not owner/editorial approval)",
+    "reviewedAt": "2026-10-18"
+  },
+  "L1": {
+    "status": "candidate-affine-registration",
+    "matrix": [
+      [
+        0.5473137730600557,
+        -0.0008288761113904776,
+        -6.0947830084951615
+      ],
+      [
+        0.002537229299975942,
+        0.5444038770964441,
+        5.857766701441667
+      ]
+    ],
+    "shapelyAffine": [
+      0.5473137730600557,
+      -0.0008288761113904776,
+      0.002537229299975942,
+      0.5444038770964441,
+      -6.0947830084951615,
+      5.857766701441667
+    ],
+    "units": "website schematic units; not metres",
+    "trainingInliers": 11,
+    "trainingCount": 12,
+    "heldOutCount": 4,
+    "heldOutMedianResidual": 0.17773749787773138,
+    "heldOutMaxResidual": 0.3531139290926631,
+    "anchors": [
+      {
+        "id": "saigon-prototype-boss",
+        "name": "BOSS",
+        "sourceRegions": [
+          "official-8251107b-d5a8-4a6a-a0eb-3ec84b02cd11-l1"
+        ],
+        "targetRegions": [
+          "L1-region-003"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.168318,
+        "intersectionOverUnion": 0.94685,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-boss]"
+      },
+      {
+        "id": "saigon-prototype-chanel",
+        "name": "CHANEL",
+        "sourceRegions": [
+          "official-eff20922-6289-4dac-9538-0aceb8b3c2e5-l1"
+        ],
+        "targetRegions": [
+          "L1-region-007"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.157517,
+        "intersectionOverUnion": 0.945153,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-chanel]"
+      },
+      {
+        "id": "saigon-prototype-chloe",
+        "name": "Chloé",
+        "sourceRegions": [
+          "official-b87b5305-7343-4e78-aaa6-8387e2c3bd62-l1"
+        ],
+        "targetRegions": [
+          "L1-region-014"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.157396,
+        "intersectionOverUnion": 0.7176,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-chloe]"
+      },
+      {
+        "id": "saigon-prototype-christianlouboutin",
+        "name": "Christian Louboutin",
+        "sourceRegions": [
+          "official-3771601a-1d5f-4516-8bc4-a861214de668-l1"
+        ],
+        "targetRegions": [
+          "L1-region-013"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.129312,
+        "intersectionOverUnion": 0.681577,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-christianlouboutin]"
+      },
+      {
+        "id": "saigon-prototype-coach",
+        "name": "COACH",
+        "sourceRegions": [
+          "official-0c264255-9feb-41d6-a258-db32ba7057ff-l1"
+        ],
+        "targetRegions": [
+          "L1-region-006"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.353114,
+        "intersectionOverUnion": 0.848786,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-coach]"
+      },
+      {
+        "id": "saigon-prototype-diptyque",
+        "name": "Diptyque",
+        "sourceRegions": [
+          "official-26ad704c-8cfd-4420-9736-0e8f96ca99a9-l1"
+        ],
+        "targetRegions": [
+          "L1-region-012"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.078693,
+        "intersectionOverUnion": 0.789516,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-diptyque]"
+      },
+      {
+        "id": "saigon-prototype-jomalonelondon",
+        "name": "Jo Malone London",
+        "sourceRegions": [
+          "official-d13e55b9-1729-4155-bc68-7a221cb5ea33-l1"
+        ],
+        "targetRegions": [
+          "L1-region-018"
+        ],
+        "heldOut": false,
+        "centroidResidual": 1.401741,
+        "intersectionOverUnion": 0.288848,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-jomalonelondon]"
+      },
+      {
+        "id": "saigon-prototype-kenzo",
+        "name": "Kenzo",
+        "sourceRegions": [
+          "official-ffadc421-1161-4b7a-8df8-b6260b846fab-l1"
+        ],
+        "targetRegions": [
+          "L1-region-004"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.067797,
+        "intersectionOverUnion": 0.888409,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-kenzo]"
+      },
+      {
+        "id": "saigon-prototype-longchamp",
+        "name": "Longchamp",
+        "sourceRegions": [
+          "official-033c2e3f-fb69-46b8-be6c-52a454ff7500-l1"
+        ],
+        "targetRegions": [
+          "L1-region-009"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.187157,
+        "intersectionOverUnion": 0.80824,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-longchamp]"
+      },
+      {
+        "id": "saigon-prototype-louisvuitton",
+        "name": "Louis Vuitton",
+        "sourceRegions": [
+          "official-dc137e1c-7aa7-4346-8bb7-48b0560c2149-l1"
+        ],
+        "targetRegions": [
+          "L1-region-001"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.136755,
+        "intersectionOverUnion": 0.897973,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-louisvuitton]"
+      },
+      {
+        "id": "saigon-prototype-mcm",
+        "name": "MCM",
+        "sourceRegions": [
+          "official-bb8da518-abd7-4b78-963c-f67a260aa45d-l1"
+        ],
+        "targetRegions": [
+          "L1-region-016"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.160492,
+        "intersectionOverUnion": 0.678549,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-mcm]"
+      },
+      {
+        "id": "saigon-prototype-montblanc",
+        "name": "Montblanc",
+        "sourceRegions": [
+          "official-850cbc8a-0aa9-4d04-aa0c-8b060757ae91-l1"
+        ],
+        "targetRegions": [
+          "L1-region-015"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.165594,
+        "intersectionOverUnion": 0.668122,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-montblanc]"
+      },
+      {
+        "id": "saigon-prototype-rimowa",
+        "name": "Rimowa",
+        "sourceRegions": [
+          "official-2fb86ba3-874e-4e0e-b9cf-f26f1a58056c-l1"
+        ],
+        "targetRegions": [
+          "L1-region-008"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.078541,
+        "intersectionOverUnion": 0.870665,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-rimowa]"
+      },
+      {
+        "id": "saigon-prototype-runamboutique",
+        "name": "RuNam Boutique",
+        "sourceRegions": [
+          "official-48cba965-9338-4287-b277-de0e5edcb81f-l1"
+        ],
+        "targetRegions": [
+          "L1-region-002"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.16798,
+        "intersectionOverUnion": 0.891764,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-runamboutique]"
+      },
+      {
+        "id": "saigon-prototype-tagheuer",
+        "name": "TAG HEUER",
+        "sourceRegions": [
+          "official-67d56aec-8a62-4436-837f-34dbe0ea3474-l1"
+        ],
+        "targetRegions": [
+          "L1-region-017"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.114635,
+        "intersectionOverUnion": 0.608371,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-tagheuer]"
+      },
+      {
+        "id": "saigon-prototype-tumi",
+        "name": "Tumi",
+        "sourceRegions": [
+          "official-f098da01-1b06-46c3-800e-9668c596db2e-l1"
+        ],
+        "targetRegions": [
+          "L1-region-010"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.108967,
+        "intersectionOverUnion": 0.90513,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-tumi]"
+      }
+    ],
+    "sourceRevision": "saigon-official-source-map-2026-10-17-r1",
+    "targetRevision": "source-palette-schematic-2026-10-13-r2",
+    "sourceFrame": "official-geographic-source-v1",
+    "targetFrame": "saigon-centre-schematic-canvas-v1",
+    "ownerApproval": false,
+    "reviewedBy": "Codex (AI evidence reviewer; not owner/editorial approval)",
+    "reviewedAt": "2026-10-18"
+  },
+  "L2": {
+    "status": "candidate-affine-registration",
+    "matrix": [
+      [
+        0.5398772094887936,
+        0.002398236459390826,
+        -4.207002287489203
+      ],
+      [
+        0.0046208259291403405,
+        0.5410068390388941,
+        7.26686972787735
+      ]
+    ],
+    "shapelyAffine": [
+      0.5398772094887936,
+      0.002398236459390826,
+      0.0046208259291403405,
+      0.5410068390388941,
+      -4.207002287489203,
+      7.26686972787735
+    ],
+    "units": "website schematic units; not metres",
+    "trainingInliers": 20,
+    "trainingCount": 21,
+    "heldOutCount": 8,
+    "heldOutMedianResidual": 0.19933728468918274,
+    "heldOutMaxResidual": 2.546310885140985,
+    "anchors": [
+      {
+        "id": "saigon-prototype-aldo",
+        "name": "ALDO",
+        "sourceRegions": [
+          "official-83736443-94b1-4098-8e8c-9ea91824cadd-l2"
+        ],
+        "targetRegions": [
+          "L2-region-014"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.040682,
+        "intersectionOverUnion": 0.910736,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-aldo]"
+      },
+      {
+        "id": "saigon-prototype-armaniexchange",
+        "name": "Armani Exchange",
+        "sourceRegions": [
+          "official-2d894513-2454-4872-809a-2ef3e14dd9f5-l2"
+        ],
+        "targetRegions": [
+          "L2-region-013"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.041741,
+        "intersectionOverUnion": 0.727677,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-armaniexchange]"
+      },
+      {
+        "id": "saigon-prototype-calvinklein",
+        "name": "CALVIN KLEIN",
+        "sourceRegions": [
+          "official-76f4313c-a415-4164-a6ea-72055038bd8b-l2"
+        ],
+        "targetRegions": [
+          "L2-region-004"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.235789,
+        "intersectionOverUnion": 0.871955,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-calvinklein]"
+      },
+      {
+        "id": "saigon-prototype-charleskeith",
+        "name": "Charles & Keith",
+        "sourceRegions": [
+          "official-165b0ef2-8d93-4e74-9bf8-77cd1f306dce-l2"
+        ],
+        "targetRegions": [
+          "L2-region-001"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.149602,
+        "intersectionOverUnion": 0.951816,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-charleskeith]"
+      },
+      {
+        "id": "saigon-prototype-chlod",
+        "name": "Chlo.D",
+        "sourceRegions": [
+          "official-5a4aedcf-d5b8-488e-9f2e-1548681a7c3a-l2"
+        ],
+        "targetRegions": [
+          "L2-region-031"
+        ],
+        "heldOut": true,
+        "centroidResidual": 2.546311,
+        "intersectionOverUnion": 0.300089,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-chlod]"
+      },
+      {
+        "id": "saigon-prototype-colehaanvietnam",
+        "name": "Cole Haan Việt Nam",
+        "sourceRegions": [
+          "official-927ff9ca-44c8-4d43-9cd0-ab20324a4801-l2"
+        ],
+        "targetRegions": [
+          "L2-region-026"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.38011,
+        "intersectionOverUnion": 0.649274,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-colehaanvietnam]"
+      },
+      {
+        "id": "saigon-prototype-dkny",
+        "name": "DKNY",
+        "sourceRegions": [
+          "official-1b80993e-9b78-41e3-8d14-17399a22ab9c-l2"
+        ],
+        "targetRegions": [
+          "L2-region-015"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.266907,
+        "intersectionOverUnion": 0.755236,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-dkny]"
+      },
+      {
+        "id": "saigon-prototype-dsquared2",
+        "name": "Dsquared2",
+        "sourceRegions": [
+          "official-eb04d821-afc7-45da-a91e-9cbb700c7617-l2"
+        ],
+        "targetRegions": [
+          "L2-region-002"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.088581,
+        "intersectionOverUnion": 0.968219,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-dsquared2]"
+      },
+      {
+        "id": "saigon-prototype-eccovietnam",
+        "name": "ECCO Việt Nam",
+        "sourceRegions": [
+          "official-5e45481b-1d9e-487b-b657-0377c3b897f2-l2"
+        ],
+        "targetRegions": [
+          "L2-region-019"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.146919,
+        "intersectionOverUnion": 0.842559,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-eccovietnam]"
+      },
+      {
+        "id": "saigon-prototype-geox",
+        "name": "Geox",
+        "sourceRegions": [
+          "official-c0041b11-94f6-430b-8bf6-703d76f3738a-l2"
+        ],
+        "targetRegions": [
+          "L2-region-022"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.052694,
+        "intersectionOverUnion": 0.729922,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-geox]"
+      },
+      {
+        "id": "saigon-prototype-kenneth",
+        "name": "Kenneth",
+        "sourceRegions": [
+          "official-f84562a2-409d-483c-af92-c07a5ea2c5cd-l2"
+        ],
+        "targetRegions": [
+          "L2-region-024"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.163569,
+        "intersectionOverUnion": 0.680898,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-kenneth]"
+      },
+      {
+        "id": "saigon-prototype-lacoste",
+        "name": "Lacoste",
+        "sourceRegions": [
+          "official-4e5cc093-b5a1-422a-95d2-d4b9b3cd0e72-l2"
+        ],
+        "targetRegions": [
+          "L2-region-008"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.057268,
+        "intersectionOverUnion": 0.8899,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-lacoste]"
+      },
+      {
+        "id": "saigon-prototype-lush",
+        "name": "LUSH",
+        "sourceRegions": [
+          "official-90654808-9e80-4611-aafe-2d1b772268a9-l2"
+        ],
+        "targetRegions": [
+          "L2-region-006"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.129406,
+        "intersectionOverUnion": 0.951766,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-lush]"
+      },
+      {
+        "id": "saigon-prototype-lyn",
+        "name": "LYN",
+        "sourceRegions": [
+          "official-afa94966-c415-483f-88de-05459e7eb9f8-l2"
+        ],
+        "targetRegions": [
+          "L2-region-025"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.099174,
+        "intersectionOverUnion": 0.730597,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-lyn]"
+      },
+      {
+        "id": "saigon-prototype-maestro",
+        "name": "MAESTRO",
+        "sourceRegions": [
+          "official-828f55eb-d972-4f48-8ed4-fd25eb11dfe4-l2"
+        ],
+        "targetRegions": [
+          "L2-region-020"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.11564,
+        "intersectionOverUnion": 0.701885,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-maestro]"
+      },
+      {
+        "id": "saigon-prototype-maje",
+        "name": "Maje",
+        "sourceRegions": [
+          "official-a49e5a7c-8eb6-4142-9f6d-166b0e9f45bb-l2"
+        ],
+        "targetRegions": [
+          "L2-region-021"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.170596,
+        "intersectionOverUnion": 0.728197,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-maje]"
+      },
+      {
+        "id": "saigon-prototype-maxco",
+        "name": "MAX&Co.",
+        "sourceRegions": [
+          "official-4a570f5a-098b-4202-b374-5331033d8754-l2"
+        ],
+        "targetRegions": [
+          "L2-region-011"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.28883,
+        "intersectionOverUnion": 0.824613,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-maxco]"
+      },
+      {
+        "id": "saigon-prototype-onitsukatiger",
+        "name": "Onitsuka Tiger",
+        "sourceRegions": [
+          "official-58ad9fe9-4c35-4b3a-8db5-96969dac341d-l2"
+        ],
+        "targetRegions": [
+          "L2-region-003"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.110174,
+        "intersectionOverUnion": 0.831501,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-onitsukatiger]"
+      },
+      {
+        "id": "saigon-prototype-paul",
+        "name": "PAUL",
+        "sourceRegions": [
+          "official-b05d7313-8263-41b9-b92f-8cba6993d608-l2"
+        ],
+        "targetRegions": [
+          "L2-region-005"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.28007,
+        "intersectionOverUnion": 0.845382,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-paul]"
+      },
+      {
+        "id": "saigon-prototype-pedro",
+        "name": "Pedro",
+        "sourceRegions": [
+          "official-e24426f4-a94b-436f-9909-7fa36cc7aa0b-l2"
+        ],
+        "targetRegions": [
+          "L2-region-010"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.052409,
+        "intersectionOverUnion": 0.906372,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-pedro]"
+      },
+      {
+        "id": "saigon-prototype-pleatskora",
+        "name": "Pleats Kora",
+        "sourceRegions": [
+          "official-e4dca265-29a9-440e-8cee-02f65338f3f2-l2"
+        ],
+        "targetRegions": [
+          "L2-region-032"
+        ],
+        "heldOut": true,
+        "centroidResidual": 1.373809,
+        "intersectionOverUnion": 0.37901,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-pleatskora]"
+      },
+      {
+        "id": "saigon-prototype-pnj",
+        "name": "PNJ",
+        "sourceRegions": [
+          "official-a31e7948-ae4b-42fb-b972-49149c32ef89-l2"
+        ],
+        "targetRegions": [
+          "L2-region-018"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.143565,
+        "intersectionOverUnion": 0.855446,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-pnj]"
+      },
+      {
+        "id": "saigon-prototype-sandro",
+        "name": "SANDRO",
+        "sourceRegions": [
+          "official-47b61a1b-768e-4e5c-ab5b-8bd007a62c07-l2"
+        ],
+        "targetRegions": [
+          "L2-region-017"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.161491,
+        "intersectionOverUnion": 0.792565,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-sandro]"
+      },
+      {
+        "id": "saigon-prototype-starbucks",
+        "name": "STARBUCKS",
+        "sourceRegions": [
+          "official-f54ce8a0-00cd-4257-8d5b-3499831b6861-l2"
+        ],
+        "targetRegions": [
+          "L2-region-012"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.078983,
+        "intersectionOverUnion": 0.723158,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-starbucks]"
+      },
+      {
+        "id": "saigon-prototype-thegioikimcuong",
+        "name": "THẾ GIỚI KIM CƯƠNG",
+        "sourceRegions": [
+          "official-af4cd8df-c76a-4c77-b067-352da38d8874-l2"
+        ],
+        "targetRegions": [
+          "L2-region-027"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.159298,
+        "intersectionOverUnion": 0.771809,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-thegioikimcuong]"
+      },
+      {
+        "id": "saigon-prototype-tommyhilfiger",
+        "name": "TOMMY HILFIGER",
+        "sourceRegions": [
+          "official-fafbbab6-334a-4f39-a6fe-8dd51c96234b-l2"
+        ],
+        "targetRegions": [
+          "L2-region-007"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.079317,
+        "intersectionOverUnion": 0.898197,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-tommyhilfiger]"
+      },
+      {
+        "id": "saigon-prototype-viinriicgaleriesdeparfums",
+        "name": "ViinRiic Galeries de Parfums",
+        "sourceRegions": [
+          "official-42fa98e2-adfb-4815-9eb5-5dadfa48454c-l2"
+        ],
+        "targetRegions": [
+          "L2-region-028"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.314775,
+        "intersectionOverUnion": 0.702111,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-viinriicgaleriesdeparfums]"
+      },
+      {
+        "id": "saigon-prototype-vivaia",
+        "name": "VIVAIA",
+        "sourceRegions": [
+          "official-5562828b-b6b9-4d0b-9650-b84e3cbcb9a9-l2"
+        ],
+        "targetRegions": [
+          "L2-region-023"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.541224,
+        "intersectionOverUnion": 0.708379,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-vivaia]"
+      },
+      {
+        "id": "saigon-prototype-weekendmaxmara",
+        "name": "WEEKEND MAX MARA",
+        "sourceRegions": [
+          "official-96447010-be74-4b92-b839-30ed6f84f7ad-l2"
+        ],
+        "targetRegions": [
+          "L2-region-016"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.239377,
+        "intersectionOverUnion": 0.745942,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-weekendmaxmara]"
+      }
+    ],
+    "sourceRevision": "saigon-official-source-map-2026-10-17-r1",
+    "targetRevision": "source-palette-schematic-2026-10-13-r2",
+    "sourceFrame": "official-geographic-source-v1",
+    "targetFrame": "saigon-centre-schematic-canvas-v1",
+    "ownerApproval": false,
+    "reviewedBy": "Codex (AI evidence reviewer; not owner/editorial approval)",
+    "reviewedAt": "2026-10-18"
+  },
+  "L3": {
+    "status": "candidate-affine-registration",
+    "matrix": [
+      [
+        0.5476971490063894,
+        -0.004640302217763016,
+        -3.397400713969995
+      ],
+      [
+        0.00511814969669043,
+        0.5335689185408088,
+        7.32136778306898
+      ]
+    ],
+    "shapelyAffine": [
+      0.5476971490063894,
+      -0.004640302217763016,
+      0.00511814969669043,
+      0.5335689185408088,
+      -3.397400713969995,
+      7.32136778306898
+    ],
+    "units": "website schematic units; not metres",
+    "trainingInliers": 17,
+    "trainingCount": 17,
+    "heldOutCount": 6,
+    "heldOutMedianResidual": 0.30743956196341615,
+    "heldOutMaxResidual": 0.4966857054027365,
+    "anchors": [
+      {
+        "id": "saigon-prototype-adidas",
+        "name": "adidas",
+        "sourceRegions": [
+          "official-bf56c23e-c388-4db4-aebe-b43000e4aecb-l3"
+        ],
+        "targetRegions": [
+          "L3-region-002"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.1957,
+        "intersectionOverUnion": 0.928128,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-adidas]"
+      },
+      {
+        "id": "saigon-prototype-bastahiroitalianrestaurant",
+        "name": "BASTA HIRO - Italian Restaurant",
+        "sourceRegions": [
+          "official-61223fdc-4645-45f9-b42b-b9d33ede7ddc-l3"
+        ],
+        "targetRegions": [
+          "L3-region-004"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.278294,
+        "intersectionOverUnion": 0.911571,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-bastahiroitalianrestaurant]"
+      },
+      {
+        "id": "saigon-prototype-birkenstock",
+        "name": "BIRKENSTOCK",
+        "sourceRegions": [
+          "official-2588bbb7-cec7-40df-bdfb-186409761ff7-l3"
+        ],
+        "targetRegions": [
+          "L3-region-027"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.473747,
+        "intersectionOverUnion": 0.412732,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-birkenstock]"
+      },
+      {
+        "id": "saigon-prototype-bloom",
+        "name": "BLOOM",
+        "sourceRegions": [
+          "official-f0782e5c-23f3-4df1-9551-ca62349668e8-l3"
+        ],
+        "targetRegions": [
+          "L3-region-016"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.035047,
+        "intersectionOverUnion": 0.888202,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-bloom]"
+      },
+      {
+        "id": "saigon-prototype-fila",
+        "name": "FILA",
+        "sourceRegions": [
+          "official-31cfd500-bd55-42fa-a342-f3664135da03-l3"
+        ],
+        "targetRegions": [
+          "L3-region-017"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.496686,
+        "intersectionOverUnion": 0.602367,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-fila]"
+      },
+      {
+        "id": "saigon-prototype-gap",
+        "name": "GAP",
+        "sourceRegions": [
+          "official-7e83e13a-a154-40e3-a30e-d3710834a5ea-l3"
+        ],
+        "targetRegions": [
+          "L3-region-001"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.240802,
+        "intersectionOverUnion": 0.89826,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-gap]"
+      },
+      {
+        "id": "saigon-prototype-gigi",
+        "name": "GIGI",
+        "sourceRegions": [
+          "official-44548259-87a2-4f7d-8a56-1b4d1acfa2ca-l3"
+        ],
+        "targetRegions": [
+          "L3-region-025"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.552221,
+        "intersectionOverUnion": 0.425077,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-gigi]"
+      },
+      {
+        "id": "saigon-prototype-giordano",
+        "name": "Giordano",
+        "sourceRegions": [
+          "official-37e6c696-9c00-469b-96bb-7ddc231d507c-l3"
+        ],
+        "targetRegions": [
+          "L3-region-009"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.154798,
+        "intersectionOverUnion": 0.934901,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-giordano]"
+      },
+      {
+        "id": "saigon-prototype-giordanoladies",
+        "name": "giordano ladies",
+        "sourceRegions": [
+          "official-f910b2e7-afb9-4d3a-8878-a5a848902660-l3"
+        ],
+        "targetRegions": [
+          "L3-region-012"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.419179,
+        "intersectionOverUnion": 0.800907,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-giordanoladies]"
+      },
+      {
+        "id": "saigon-prototype-havaianas",
+        "name": "Havaianas",
+        "sourceRegions": [
+          "official-6fba88b1-3f13-4d50-aa37-f7b2ac565d60-l3"
+        ],
+        "targetRegions": [
+          "L3-region-023"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.157054,
+        "intersectionOverUnion": 0.648086,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-havaianas]"
+      },
+      {
+        "id": "saigon-prototype-hla",
+        "name": "HLA",
+        "sourceRegions": [
+          "official-22782987-9fb5-4d88-abc5-c31d0d621f8b-l3"
+        ],
+        "targetRegions": [
+          "L3-region-007"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.241488,
+        "intersectionOverUnion": 0.890618,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-hla]"
+      },
+      {
+        "id": "saigon-prototype-hoka",
+        "name": "HOKA",
+        "sourceRegions": [
+          "official-88aea4f3-ac42-4712-9eec-f69a4740bccc-l3"
+        ],
+        "targetRegions": [
+          "L3-region-013"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.509005,
+        "intersectionOverUnion": 0.814562,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-hoka]"
+      },
+      {
+        "id": "saigon-prototype-jns",
+        "name": "J!NS",
+        "sourceRegions": [
+          "official-81383774-4df6-475d-b92a-6778ef4923fb-l3"
+        ],
+        "targetRegions": [
+          "L3-region-006"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.088378,
+        "intersectionOverUnion": 0.875615,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-jns]"
+      },
+      {
+        "id": "saigon-prototype-leejeans",
+        "name": "Lee Jeans",
+        "sourceRegions": [
+          "official-46ca3b77-bc52-4a07-a041-75bff4778805-l3"
+        ],
+        "targetRegions": [
+          "L3-region-008"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.029187,
+        "intersectionOverUnion": 0.974253,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-leejeans]"
+      },
+      {
+        "id": "saigon-prototype-levis",
+        "name": "Levi's",
+        "sourceRegions": [
+          "official-d109d30e-4277-4170-b148-560053f6a2c1-l3"
+        ],
+        "targetRegions": [
+          "L3-region-010"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.413254,
+        "intersectionOverUnion": 0.821812,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-levis]"
+      },
+      {
+        "id": "saigon-prototype-miana",
+        "name": "Miana",
+        "sourceRegions": [
+          "official-faa876dd-60ca-441a-b321-a95b879df714-l3"
+        ],
+        "targetRegions": [
+          "L3-region-020"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.71565,
+        "intersectionOverUnion": 0.581769,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-miana]"
+      },
+      {
+        "id": "saigon-prototype-miyamamoderntokyorestaurantcafe",
+        "name": "Miyama – Modern Tokyo Restaurant Cafe",
+        "sourceRegions": [
+          "official-43be9aab-0a7e-4921-afb5-4b8fe2832870-l3"
+        ],
+        "targetRegions": [
+          "L3-region-015"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.437106,
+        "intersectionOverUnion": 0.685693,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-miyamamoderntokyorestaurantcafe]"
+      },
+      {
+        "id": "saigon-prototype-mlb",
+        "name": "MLB",
+        "sourceRegions": [
+          "official-d4a15e8a-add3-46d3-a6bf-5045eeec952c-l3"
+        ],
+        "targetRegions": [
+          "L3-region-005"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.287237,
+        "intersectionOverUnion": 0.856639,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-mlb]"
+      },
+      {
+        "id": "saigon-prototype-mujosh",
+        "name": "MUJOSH",
+        "sourceRegions": [
+          "official-881611ed-af62-4c22-8f92-216103ab5165-l3"
+        ],
+        "targetRegions": [
+          "L3-region-024"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.497077,
+        "intersectionOverUnion": 0.427476,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-mujosh]"
+      },
+      {
+        "id": "saigon-prototype-newbalance",
+        "name": "New Balance",
+        "sourceRegions": [
+          "official-5d01e0ba-8da5-46d7-a38f-4c78299a97b9-l3"
+        ],
+        "targetRegions": [
+          "L3-region-014"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.090021,
+        "intersectionOverUnion": 0.711496,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-newbalance]"
+      },
+      {
+        "id": "saigon-prototype-nike",
+        "name": "NIKE",
+        "sourceRegions": [
+          "official-39e70ab4-3662-4baa-8405-022ef4139250-l3"
+        ],
+        "targetRegions": [
+          "L3-region-003"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.093686,
+        "intersectionOverUnion": 0.913173,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-nike]"
+      },
+      {
+        "id": "saigon-prototype-skechers",
+        "name": "SKECHERS",
+        "sourceRegions": [
+          "official-5c85ef25-873d-4c22-83c9-698c42e15423-l3"
+        ],
+        "targetRegions": [
+          "L3-region-011"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.127986,
+        "intersectionOverUnion": 0.797415,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-skechers]"
+      },
+      {
+        "id": "saigon-prototype-typo",
+        "name": "TYPO",
+        "sourceRegions": [
+          "official-7a8a5033-5283-43df-b646-4fd4f3b51e68-l3"
+        ],
+        "targetRegions": [
+          "L3-region-019"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.082786,
+        "intersectionOverUnion": 0.766537,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-typo]"
+      }
+    ],
+    "sourceRevision": "saigon-official-source-map-2026-10-17-r1",
+    "targetRevision": "source-palette-schematic-2026-10-13-r2",
+    "sourceFrame": "official-geographic-source-v1",
+    "targetFrame": "saigon-centre-schematic-canvas-v1",
+    "ownerApproval": false,
+    "reviewedBy": "Codex (AI evidence reviewer; not owner/editorial approval)",
+    "reviewedAt": "2026-10-18"
+  },
+  "L4": {
+    "status": "candidate-affine-registration",
+    "matrix": [
+      [
+        0.5431682299582409,
+        -0.0005930618714328772,
+        -6.352081415092509
+      ],
+      [
+        4.1984993056805634e-05,
+        0.5394550388121881,
+        5.3065071156260215
+      ]
+    ],
+    "shapelyAffine": [
+      0.5431682299582409,
+      -0.0005930618714328772,
+      4.1984993056805634e-05,
+      0.5394550388121881,
+      -6.352081415092509,
+      5.3065071156260215
+    ],
+    "units": "website schematic units; not metres",
+    "trainingInliers": 7,
+    "trainingCount": 8,
+    "heldOutCount": 3,
+    "heldOutMedianResidual": 0.24822072799941058,
+    "heldOutMaxResidual": 0.24841460164581436,
+    "anchors": [
+      {
+        "id": "saigon-prototype-adidas",
+        "name": "adidas",
+        "sourceRegions": [
+          "official-bf56c23e-c388-4db4-aebe-b43000e4aecb-l4"
+        ],
+        "targetRegions": [
+          "L4-region-002"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.248415,
+        "intersectionOverUnion": 0.903175,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-adidas]"
+      },
+      {
+        "id": "saigon-prototype-asics",
+        "name": "ASICS",
+        "sourceRegions": [
+          "official-23224308-42c9-4f60-aeaf-96dc7d317a80-l4"
+        ],
+        "targetRegions": [
+          "L4-region-005"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.221681,
+        "intersectionOverUnion": 0.869795,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-asics]"
+      },
+      {
+        "id": "saigon-prototype-dji",
+        "name": "DJI",
+        "sourceRegions": [
+          "official-66baebce-8b0b-4010-85a4-dd362c521a65-l4"
+        ],
+        "targetRegions": [
+          "L4-region-022"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.039194,
+        "intersectionOverUnion": 0.906985,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-dji]"
+      },
+      {
+        "id": "saigon-prototype-minigood",
+        "name": "Minigood",
+        "sourceRegions": [
+          "official-9593b26e-cd92-47f2-964f-721bc9862dd6-l4"
+        ],
+        "targetRegions": [
+          "L4-region-008"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.200184,
+        "intersectionOverUnion": 0.803521,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-minigood]"
+      },
+      {
+        "id": "saigon-prototype-ogawa",
+        "name": "OGAWA",
+        "sourceRegions": [
+          "official-54536252-2375-48ce-8a5e-80e13801b6cc-l4"
+        ],
+        "targetRegions": [
+          "L4-region-011"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.248221,
+        "intersectionOverUnion": 0.671632,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-ogawa]"
+      },
+      {
+        "id": "saigon-prototype-phuclongcoffeetea",
+        "name": "Phúc Long Coffee & Tea",
+        "sourceRegions": [
+          "official-fa455ed6-1293-4563-b922-1be65b3a4da9-l4"
+        ],
+        "targetRegions": [
+          "L4-region-007",
+          "L4-region-009"
+        ],
+        "heldOut": false,
+        "centroidResidual": 4.408112,
+        "intersectionOverUnion": 0.323997,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-phuclongcoffeetea]"
+      },
+      {
+        "id": "saigon-prototype-phuongnambookstore",
+        "name": "Phuong Nam Bookstore",
+        "sourceRegions": [
+          "official-a8c2d82a-6cde-446d-bf49-a17641d61ed0-l4"
+        ],
+        "targetRegions": [
+          "L4-region-003"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.063055,
+        "intersectionOverUnion": 0.865182,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-phuongnambookstore]"
+      },
+      {
+        "id": "saigon-prototype-popmart",
+        "name": "POP MART",
+        "sourceRegions": [
+          "official-63c045b9-da37-4761-92ba-e7b94125b416-l4"
+        ],
+        "targetRegions": [
+          "L4-region-004"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.021219,
+        "intersectionOverUnion": 0.832485,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-popmart]"
+      },
+      {
+        "id": "saigon-prototype-qhome",
+        "name": "Qhome",
+        "sourceRegions": [
+          "official-18cf7812-835c-4d43-a695-d3b96dd56faf-l4"
+        ],
+        "targetRegions": [
+          "L4-region-006"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.209914,
+        "intersectionOverUnion": 0.820077,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-qhome]"
+      },
+      {
+        "id": "saigon-prototype-samsonite",
+        "name": "Samsonite",
+        "sourceRegions": [
+          "official-579fb375-08e5-453b-bf8d-8c59040905c2-l4"
+        ],
+        "targetRegions": [
+          "L4-region-010"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.144368,
+        "intersectionOverUnion": 0.735368,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-samsonite]"
+      },
+      {
+        "id": "saigon-prototype-uniqlo",
+        "name": "UNIQLO",
+        "sourceRegions": [
+          "official-bf87001a-6214-4a8d-b131-6ec1ac24b5cb-l4"
+        ],
+        "targetRegions": [
+          "L4-region-001"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.032002,
+        "intersectionOverUnion": 0.981055,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-uniqlo]"
+      }
+    ],
+    "sourceRevision": "saigon-official-source-map-2026-10-17-r1",
+    "targetRevision": "source-palette-schematic-2026-10-13-r2",
+    "sourceFrame": "official-geographic-source-v1",
+    "targetFrame": "saigon-centre-schematic-canvas-v1",
+    "ownerApproval": false,
+    "reviewedBy": "Codex (AI evidence reviewer; not owner/editorial approval)",
+    "reviewedAt": "2026-10-18"
+  },
+  "L5": {
+    "status": "candidate-affine-registration",
+    "matrix": [
+      [
+        0.5463760188817216,
+        -0.001137849920111911,
+        -4.74558265470944
+      ],
+      [
+        0.00039677508990397514,
+        0.5433413928380347,
+        -0.7562513872622395
+      ]
+    ],
+    "shapelyAffine": [
+      0.5463760188817216,
+      -0.001137849920111911,
+      0.00039677508990397514,
+      0.5433413928380347,
+      -4.74558265470944,
+      -0.7562513872622395
+    ],
+    "units": "website schematic units; not metres",
+    "trainingInliers": 11,
+    "trainingCount": 11,
+    "heldOutCount": 4,
+    "heldOutMedianResidual": 0.22382812253043832,
+    "heldOutMaxResidual": 0.5849105928154223,
+    "anchors": [
+      {
+        "id": "saigon-prototype-changkangkung",
+        "name": "Chang Kang Kung",
+        "sourceRegions": [
+          "official-88a00cd9-a8d7-4359-9e73-c1354675d97d-l5"
+        ],
+        "targetRegions": [
+          "L5-region-016"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.263594,
+        "intersectionOverUnion": 0.82797,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-changkangkung]"
+      },
+      {
+        "id": "saigon-prototype-dimtutac",
+        "name": "Dim Tu Tac",
+        "sourceRegions": [
+          "official-2377a3a9-a73a-4d4e-b0be-9910adfe08c5-l5"
+        ],
+        "targetRegions": [
+          "L5-region-002"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.093837,
+        "intersectionOverUnion": 0.925358,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-dimtutac]"
+      },
+      {
+        "id": "saigon-prototype-genkisushi",
+        "name": "GENKI SUSHI",
+        "sourceRegions": [
+          "official-500a507e-2e87-4cc5-a335-dfc1952bc84f-l5"
+        ],
+        "targetRegions": [
+          "L5-region-011"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.157739,
+        "intersectionOverUnion": 0.85306,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-genkisushi]"
+      },
+      {
+        "id": "saigon-prototype-gyushigeyakiniku",
+        "name": "Gyu Shige Yakiniku",
+        "sourceRegions": [
+          "official-a8dd5849-07b1-4f50-8c4f-4b621ba2b8f1-l5"
+        ],
+        "targetRegions": [
+          "L5-region-005"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.217888,
+        "intersectionOverUnion": 0.913539,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-gyushigeyakiniku]"
+      },
+      {
+        "id": "saigon-prototype-igelato",
+        "name": "iGelato",
+        "sourceRegions": [
+          "official-c0cc403e-2c18-4f44-9240-df0b67a0f5fe-l5"
+        ],
+        "targetRegions": [
+          "L5-region-030"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.584911,
+        "intersectionOverUnion": 0.452026,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-igelato]"
+      },
+      {
+        "id": "saigon-prototype-jindinroutaiwaneserestaurant",
+        "name": "Jin Din Rou - Taiwanese Restaurant",
+        "sourceRegions": [
+          "official-3590a647-d6c6-4a68-a3c9-19359b0d5c4c-l5"
+        ],
+        "targetRegions": [
+          "L5-region-015"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.153639,
+        "intersectionOverUnion": 0.942667,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-jindinroutaiwaneserestaurant]"
+      },
+      {
+        "id": "saigon-prototype-lusine",
+        "name": "L'Usine",
+        "sourceRegions": [
+          "official-b4ca3af6-47a7-4b06-8043-b59ef8d9755c-l5"
+        ],
+        "targetRegions": [
+          "L5-region-012"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.219555,
+        "intersectionOverUnion": 0.898846,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-lusine]"
+      },
+      {
+        "id": "saigon-prototype-mochisweets",
+        "name": "Mochi Sweets",
+        "sourceRegions": [
+          "official-2768b362-8605-4189-82f8-87ac3e13e1df-l5"
+        ],
+        "targetRegions": [
+          "L5-region-033"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.674849,
+        "intersectionOverUnion": 0.347311,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-mochisweets]"
+      },
+      {
+        "id": "saigon-prototype-pepperlunchvietnam",
+        "name": "Pepper Lunch Vietnam",
+        "sourceRegions": [
+          "official-7ef44d35-be32-427d-bcc6-e991350c0b3a-l5"
+        ],
+        "targetRegions": [
+          "L5-region-017"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.184063,
+        "intersectionOverUnion": 0.934012,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-pepperlunchvietnam]"
+      },
+      {
+        "id": "saigon-prototype-poulet",
+        "name": "POULET",
+        "sourceRegions": [
+          "official-63022805-0fcf-4bcb-9e30-c317ab153228-l5"
+        ],
+        "targetRegions": [
+          "L5-region-014"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.150644,
+        "intersectionOverUnion": 0.911264,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-poulet]"
+      },
+      {
+        "id": "saigon-prototype-rakthai",
+        "name": "RAK Thai",
+        "sourceRegions": [
+          "official-6b3dbf15-0c35-4597-9f81-6d9a6b1c65d2-l5"
+        ],
+        "targetRegions": [
+          "L5-region-009"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.095773,
+        "intersectionOverUnion": 0.85323,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-rakthai]"
+      },
+      {
+        "id": "saigon-prototype-somtamthai",
+        "name": "Som Tam Thai",
+        "sourceRegions": [
+          "official-a31d29fd-9f72-417b-a4dc-2f2fb42d51e1-l5"
+        ],
+        "targetRegions": [
+          "L5-region-013"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.120624,
+        "intersectionOverUnion": 0.950771,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-somtamthai]"
+      },
+      {
+        "id": "saigon-prototype-sushihokkaidosachi",
+        "name": "Sushi Hokkaido Sachi",
+        "sourceRegions": [
+          "official-c16612de-2899-4ee7-8add-0df85ee277ff-l5"
+        ],
+        "targetRegions": [
+          "L5-region-003"
+        ],
+        "heldOut": true,
+        "centroidResidual": 0.174385,
+        "intersectionOverUnion": 0.956522,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-sushihokkaidosachi]"
+      },
+      {
+        "id": "saigon-prototype-tonkatsuwako",
+        "name": "TONKATSU WAKO",
+        "sourceRegions": [
+          "official-a1fb8f45-ff9c-42ce-8e71-068562ff4a68-l5"
+        ],
+        "targetRegions": [
+          "L5-region-020"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.199667,
+        "intersectionOverUnion": 0.781522,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-tonkatsuwako]"
+      },
+      {
+        "id": "saigon-prototype-yakinikulike",
+        "name": "YAKINIKU LIKE",
+        "sourceRegions": [
+          "official-ff451ea9-998a-4e74-98a7-8f35156222fe-l5"
+        ],
+        "targetRegions": [
+          "L5-region-018"
+        ],
+        "heldOut": false,
+        "centroidResidual": 0.063296,
+        "intersectionOverUnion": 0.82995,
+        "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-yakinikulike]"
+      }
+    ],
+    "sourceRevision": "saigon-official-source-map-2026-10-17-r1",
+    "targetRevision": "source-palette-schematic-2026-10-13-r2",
+    "sourceFrame": "official-geographic-source-v1",
+    "targetFrame": "saigon-centre-schematic-canvas-v1",
+    "ownerApproval": false,
+    "reviewedBy": "Codex (AI evidence reviewer; not owner/editorial approval)",
+    "reviewedAt": "2026-10-18"
+  },
+  "L6": {
+    "status": "insufficient-named-anchors",
+    "anchorCount": 0
+  }
+}
