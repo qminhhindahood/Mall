@@ -1,0 +1,32 @@
+{
+  "receivedOn": "2026-10-18",
+  "source": "Latest project-owner message in this conversation; name not supplied",
+  "scope": "New conversation instructions, exported without altering historical project ledgers or public data",
+  "records": {
+    "saigon-prototype-meatmeet": {
+      "ownerInstruction": "Meat & Meet is a Korean BBQ restaurant. Use the proposed wording below.",
+      "acceptedVi": "Thưởng thức các món nướng và buffet phong cách Hàn Quốc.",
+      "acceptedEn": "Enjoy Korean-style barbecue and buffet dining.",
+      "decision": "Explicit acceptance of these two copy strings only; no mapping, media, occupancy or release approval implied"
+    },
+    "saigon-prototype-truffleco": {
+      "ownerInstruction": "Truffle and Co: Italian Restaurant Pizza, Pasta, Steak. Design the wording around that.",
+      "rejected": "Owner explicitly does not approve any previous draft/proposed wording for this record.",
+      "nextAction": "Write new VI/EN Italian-restaurant copy centered on pizza, pasta and steak; do not reuse generic food-retail or truffle-inspired-dishes wording. New wording is not approved yet."
+    },
+    "saigon-prototype-himalaya": {
+      "ownerSuppliedVietnamese": "HIMALAYA là chuỗi cửa Hàng bán lẻ các sản phẩm tạo hương thơm cho mọi khoảnh khắc trong mọi không gian sống, sinh hoạt riêng, làm việc, kinh doanh, vận động và thư giãn,.. Với HƠN 60 mùi hương và nhiều loại sản phẩm khác nhau, HIMALAYA chính là điểm đến lý tưởng cho mọi nhu cầu về hương thơm đồng hành cũng người tiêu dùng Việt. Bên cạnh đó, HIMALAYA còn ngày càng phát triển thêm nhiều dòng sản phẩm hỗ trợ chăm sóc sức khoẻ, chăm sóc cá nhân bằng hương thơm từ thiên nhiên.",
+      "nextAction": "Use this owner-supplied fuller scope. The earlier home-fragrance-only rewrite is incomplete; personal-care/wellness ranges must not be excluded. Preserve >60 as owner-supplied, not independently verified current inventory. New final VI/EN wording remains to be drafted/reviewed."
+    },
+    "saigon-prototype-chanel": {
+      "ownerSuppliedRange": [
+        "Les Exclusifs de CHANEL: NƯỚC HOA VÀ LÀM ĐẸP",
+        "NƯỚC HOA",
+        "Trang điểm",
+        "Chăm sóc da",
+        "KÍNH MÁT"
+      ],
+      "nextAction": "Include the supplied fragrance, makeup, skincare and sunglasses scope. Do not omit sunglasses simply because older mall prose mentioned beauty only. Do not infer clothing. New final VI/EN wording is not yet approved."
+    }
+  }
+}

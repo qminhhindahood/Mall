@@ -1,0 +1,533 @@
+{
+  "revision": "copy-return-2026-10-18-r1",
+  "receivedAt": "2026-10-18T02:15:40.142695+00:00",
+  "sourceSha256": "27c39865a2daa1a64bdabeba364b350681e48646ac2b8fcac2f7866b835e525f",
+  "records": [
+    {
+      "id": "saigon-prototype-himalaya",
+      "mall": "saigon-centre",
+      "name": "HIMALAYA",
+      "floors": [
+        "B1"
+      ],
+      "description": {
+        "vi": "Mua các sản phẩm tạo hương thơm cho không gian sống, sinh hoạt, làm việc, thư giãn cùng các dòng chăm sóc sức khỏe và chăm sóc cá nhân bằng hương thơm từ thiên nhiên (với hơn 60 mùi hương theo thông tin từ chủ dự án).",
+        "en": "Shop for fragrance products for living, working and relaxation spaces, alongside natural scent-based wellness and personal care ranges (over 60 scents per project owner information)."
+      },
+      "copyDecisionStatus": "pending-owner-wording-approval",
+      "copyOwnerApproval": false,
+      "approvalScope": "AI draft incorporating owner-supplied product scope and >60 scents attribution; final VI/EN wording remains pending owner editorial approval.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "owner-feedback-2026-10-18.json#/records/saigon-prototype-himalaya",
+        "first-party-descriptions.json#/0",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/himalaya/",
+        "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/himalaya/"
+      ],
+      "rationaleAsReported": "Incorporates the fuller owner-supplied scope covering scents for living, personal, work, business, active, and relaxation spaces, plus natural scent-based health and personal care ranges. Preserves the '>60 scents' statement explicitly as owner-supplied rather than independently verified current inventory, correcting the overly narrow prior home-fragrance-only rewrite.",
+      "unresolvedFact": null,
+      "publicationApproval": false
+    },
+    {
+      "id": "saigon-prototype-chanel",
+      "mall": "saigon-centre",
+      "name": "CHANEL",
+      "floors": [
+        "L1"
+      ],
+      "description": {
+        "vi": "Mua nước hoa (bao gồm bộ sưu tập Les Exclusifs de CHANEL), mỹ phẩm trang điểm, sản phẩm chăm sóc da và kính mát CHANEL.",
+        "en": "Shop for CHANEL fragrances (including the Les Exclusifs de CHANEL collection), makeup, skincare and sunglasses."
+      },
+      "copyDecisionStatus": "pending-owner-wording-approval",
+      "copyOwnerApproval": false,
+      "approvalScope": "AI draft incorporating owner-supplied product range including sunglasses; final VI/EN wording remains pending owner editorial approval.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "owner-feedback-2026-10-18.json#/records/saigon-prototype-chanel",
+        "first-party-descriptions.json#/1",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/chanel/",
+        "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/chanel/"
+      ],
+      "rationaleAsReported": "Includes the complete owner-supplied range (Les Exclusifs de CHANEL fragrances and beauty, fragrances, makeup, skincare, and sunglasses) alongside official mall directory prose. Retains sunglasses per explicit owner instruction and excludes unsupported clothing claims.",
+      "unresolvedFact": null,
+      "publicationApproval": false
+    },
+    {
+      "id": "saigon-prototype-meatmeet",
+      "mall": "saigon-centre",
+      "name": "Meat & Meet",
+      "floors": [
+        "B2"
+      ],
+      "description": {
+        "vi": "Thưởng thức các món nướng và buffet phong cách Hàn Quốc.",
+        "en": "Enjoy Korean-style barbecue and buffet dining."
+      },
+      "copyDecisionStatus": "accepted-in-conversation",
+      "copyOwnerApproval": true,
+      "approvalScope": "Conversation decision: explicit owner acceptance of these two copy strings only for saigon-prototype-meatmeet; no mapping, media, occupancy, global or publication approval implied.",
+      "reviewerAsReported": "Project owner (personal reviewer identity unspecified); recorded by Gemini",
+      "actualReviewDateAsReported": null,
+      "conversationDecisionDate": "2026-10-18",
+      "sourceEvidence": [
+        "owner-feedback-2026-10-18.json#/records/saigon-prototype-meatmeet",
+        "first-party-descriptions.json#/2",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/meat-meet/",
+        "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/meat-meet/"
+      ],
+      "rationaleAsReported": "Replaces the inaccurate fresh-meat retail claim from the historical draft with the exact Vietnamese and English strings explicitly accepted by the project owner in owner-feedback-2026-10-18.json, matching first-party evidence of a Korean barbecue and buffet restaurant.",
+      "unresolvedFact": null,
+      "publicationApproval": false
+    },
+    {
+      "id": "saigon-prototype-memorylove",
+      "mall": "saigon-centre",
+      "name": "Memory & Love",
+      "floors": [
+        "L4"
+      ],
+      "description": {
+        "vi": "Chọn mua quà tặng cá nhân hóa và quà lưu niệm.",
+        "en": "Shop for personalized gifts and keepsakes."
+      },
+      "copyDecisionStatus": "pending-owner-wording-approval",
+      "copyOwnerApproval": false,
+      "approvalScope": "AI evidence/fidelity review; independent owner editorial approval pending.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "first-party-descriptions.json#/3",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/memory-love/",
+        "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/memory-love/"
+      ],
+      "rationaleAsReported": "First-party Saigon Centre directory prose explicitly describes personalized gifts ('Our personalized gifts are always the gifts people love' / 'Những món quà của Memory & Love'), whereas the historical draft's fashion clothing claim is unsupported.",
+      "unresolvedFact": null,
+      "publicationApproval": false
+    },
+    {
+      "id": "saigon-prototype-pinktree",
+      "mall": "saigon-centre",
+      "name": "Pinktree",
+      "floors": [
+        "L4"
+      ],
+      "description": {
+        "vi": "Mua trang sức, phụ kiện thời trang và phụ kiện tóc như bông tai, dây chuyền, nhẫn, vòng tay, băng đô và kẹp tóc.",
+        "en": "Shop for fashion accessories, jewelry and hair accessories including earrings, necklaces, rings, bracelets, headbands and hair clips."
+      },
+      "copyDecisionStatus": "pending-owner-wording-approval",
+      "copyOwnerApproval": false,
+      "approvalScope": "AI evidence/fidelity review; independent owner editorial approval pending.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "first-party-descriptions.json#/4",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/pinktree/",
+        "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/pinktree/"
+      ],
+      "rationaleAsReported": "Vietnamese first-party directory prose specifies fashion accessories including earrings, necklaces, rings, bracelets, headbands, hair ties, and hair clips ('bông tai, dây chuyền, nhẫn, vòng tay, băng đô, cột tóc, kẹp tóc'), refuting the historical draft's fashion clothing claim. Official English text is blank; English copy is translated directly from the evidenced Vietnamese scope.",
+      "unresolvedFact": null,
+      "publicationApproval": false
+    },
+    {
+      "id": "saigon-prototype-bloom",
+      "mall": "saigon-centre",
+      "name": "BLOOM",
+      "floors": [
+        "L3"
+      ],
+      "description": {
+        "vi": "Mua trang sức và phụ kiện BLOOM kết hợp đá tự nhiên.",
+        "en": "Shop for BLOOM jewelry and accessories featuring natural stones."
+      },
+      "copyDecisionStatus": "pending-owner-wording-approval",
+      "copyOwnerApproval": false,
+      "approvalScope": "AI evidence/fidelity review; independent owner editorial approval pending.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "first-party-descriptions.json#/5",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/bloom/",
+        "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/bloom/"
+      ],
+      "rationaleAsReported": "Official Saigon Centre directory prose establishes 'Jewelry & Accessories BLOOM' featuring designs with colorful natural stones ('kết hợp với các loại đá tự nhiên'), and does not support the historical draft's watch assortment claim.",
+      "unresolvedFact": null,
+      "publicationApproval": false
+    },
+    {
+      "id": "saigon-prototype-sjc",
+      "mall": "saigon-centre",
+      "name": "SJC",
+      "floors": [
+        "L2"
+      ],
+      "description": {
+        "vi": "Mua các dòng trang sức SJC từ phổ thông đến cao cấp.",
+        "en": "Shop for SJC jewelry ranging from everyday to high-end collections."
+      },
+      "copyDecisionStatus": "pending-owner-wording-approval",
+      "copyOwnerApproval": false,
+      "approvalScope": "AI evidence/fidelity review; independent owner editorial approval pending.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "first-party-descriptions.json#/6",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/sjc/",
+        "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/sjc/"
+      ],
+      "rationaleAsReported": "Official Saigon Centre branch prose describes diverse SJC jewelry lines from popular/everyday to high-end ('trang sức SJC... đa dạng với nhiều chủng loại từ phổ thông đến cao cấp') and does not establish gold-bar retail at this counter.",
+      "unresolvedFact": null,
+      "publicationApproval": false
+    },
+    {
+      "id": "saigon-prototype-truffleco",
+      "mall": "saigon-centre",
+      "name": "TRUFFLE & CO",
+      "floors": [
+        "B2"
+      ],
+      "description": {
+        "vi": "Thưởng thức ẩm thực Ý với các món pizza, mì Ý (pasta) và bít tết (steak).",
+        "en": "Enjoy Italian dining featuring pizza, pasta and steak."
+      },
+      "copyDecisionStatus": "pending-owner-wording-approval",
+      "copyOwnerApproval": false,
+      "approvalScope": "AI draft written to owner-supplied Italian restaurant (pizza, pasta, steak) specification; pending final owner wording approval.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "owner-feedback-2026-10-18.json#/records/saigon-prototype-truffleco",
+        "20-records.json#/7"
+      ],
+      "rationaleAsReported": "Follows the explicit owner instruction in owner-feedback-2026-10-18.json ('Truffle and Co: Italian Restaurant Pizza, Pasta, Steak. Design the wording around that.') and replaces both the generic food-retail draft and the rejected truffle-focused proposal.",
+      "unresolvedFact": null,
+      "publicationApproval": false
+    },
+    {
+      "id": "saigon-prototype-the350f",
+      "mall": "saigon-centre",
+      "name": "THE 350F",
+      "floors": [
+        "L5"
+      ],
+      "description": {
+        "vi": "Mua bánh mousse, tiramisu hộp thiếc, bánh tart ngàn lớp và các set bánh quà tặng.",
+        "en": "Shop for mousse cakes, tin-box tiramisu, thousand-layer tarts and pastry gift sets."
+      },
+      "copyDecisionStatus": "pending-owner-wording-approval",
+      "copyOwnerApproval": false,
+      "approvalScope": "AI evidence/fidelity review; independent owner editorial approval pending.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "first-party-descriptions.json#/8",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/the-350f/",
+        "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/the-350f/"
+      ],
+      "rationaleAsReported": "Replaces the vague meal-service draft ('Thưởng thức các món ăn' / 'Enjoy a meal') with the specific bakery items evidenced in the official Saigon Centre directory: signature mousse cakes, tin-box tiramisu, thousand-layer fruit tarts, and mini gift sets.",
+      "unresolvedFact": null,
+      "publicationApproval": false
+    },
+    {
+      "id": "saigon-prototype-genkisushi",
+      "mall": "saigon-centre",
+      "name": "GENKI SUSHI",
+      "floors": [
+        "L5"
+      ],
+      "description": {
+        "vi": "Thưởng thức sushi Nhật Bản được phục vụ qua hệ thống tàu Kousoku.",
+        "en": "Enjoy Japanese sushi served via the Kousoku Train system."
+      },
+      "copyDecisionStatus": "pending-owner-wording-approval",
+      "copyOwnerApproval": false,
+      "approvalScope": "AI evidence/fidelity review; independent owner editorial approval pending.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "first-party-descriptions.json#/9",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/genki-sushi/",
+        "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/genki-sushi/"
+      ],
+      "rationaleAsReported": "Corrects the historical draft's circulating conveyor-belt ('băng chuyền') claim to the 'Kousoku Train' ('hệ thống tàu Kousoku') service mechanism explicitly stated in the official Saigon Centre directory.",
+      "unresolvedFact": null,
+      "publicationApproval": false
+    },
+    {
+      "id": "vincom-prototype-facewashfox",
+      "mall": "vincom-dong-khoi",
+      "name": "Face Wash Fox",
+      "floors": [
+        "B2"
+      ],
+      "description": {
+        "vi": "Trải nghiệm dịch vụ rửa mặt và chăm sóc da mặt ứng dụng công nghệ Hydra Facial.",
+        "en": "Experience facial cleansing and skincare services powered by Hydra Facial technology."
+      },
+      "copyDecisionStatus": "pending-owner-wording-approval",
+      "copyOwnerApproval": false,
+      "approvalScope": "AI evidence/fidelity review; independent owner editorial approval pending.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "first-party-descriptions.json#/10",
+        "store-pages/face-wash-fox-vincom-center-dong-khoi.html",
+        "https://vincom.com.vn/store/face-wash-fox-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+      ],
+      "rationaleAsReported": "Saved first-party Vincom extract describes a facial cleansing and skincare service chain using Hydra Facial technology ('chuỗi cửa hàng rửa mặt công nghệ cao... kết hợp giữa công nghệ hydra facial hiện đại và tối ưu hóa quy trình chăm sóc da'), not a personal-care product retail store.",
+      "unresolvedFact": null,
+      "publicationApproval": false
+    },
+    {
+      "id": "vincom-prototype-scentuals",
+      "mall": "vincom-dong-khoi",
+      "name": "Scentuals",
+      "floors": [
+        "B2"
+      ],
+      "description": {
+        "vi": "Mua mỹ phẩm và sản phẩm chăm sóc da chiết xuất từ thảo mộc, thực vật của Scentuals.",
+        "en": "Shop for Scentuals botanical and herbal cosmetics and skincare products."
+      },
+      "copyDecisionStatus": "pending-owner-wording-approval",
+      "copyOwnerApproval": false,
+      "approvalScope": "AI evidence/fidelity review; independent owner editorial approval pending.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "first-party-descriptions.json#/11",
+        "store-pages/scentuals-vincom-center-dong-khoi.html",
+        "https://vincom.com.vn/store/scentuals-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+      ],
+      "rationaleAsReported": "Saved first-party Vincom extract identifies Scentuals as a natural herbal/botanical cosmetics and skincare brand ('thương hiệu mỹ phẩm... tinh chất thảo mộc, thực vật... giúp da khỏe mạnh'), refuting the historical draft's niche perfume ('nước hoa niche') claim while omitting conflicting country-of-origin (US vs. Canada) and absolute chemical-free claims in the source text.",
+      "unresolvedFact": null,
+      "publicationApproval": false
+    },
+    {
+      "id": "vincom-prototype-copenhaghen",
+      "mall": "vincom-dong-khoi",
+      "name": "Copenhaghen",
+      "floors": [
+        "B2"
+      ],
+      "description": {
+        "vi": "Mua trang phục thời trang trẻ em mang phong cách Đan Mạch.",
+        "en": "Shop for Danish-style children's fashion clothing."
+      },
+      "copyDecisionStatus": "pending-owner-wording-approval",
+      "copyOwnerApproval": false,
+      "approvalScope": "AI evidence/fidelity review; independent owner editorial approval pending.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "first-party-descriptions.json#/12",
+        "store-pages/copenhaghen-vincom-center-dong-khoi.html",
+        "https://vincom.com.vn/store/copenhaghen-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+      ],
+      "rationaleAsReported": "Saved first-party Vincom extract explicitly describes COPENHAGHEN as a Danish-style children's clothing brand ('thương hiệu chuyên cung cấp sản phẩm thời trang trẻ em cao cấp mang phong cách Đan Mạch'), replacing the inaccurate minimalist home-decor draft.",
+      "unresolvedFact": null,
+      "publicationApproval": false
+    },
+    {
+      "id": "vincom-prototype-cara",
+      "mall": "vincom-dong-khoi",
+      "name": "Cara",
+      "floors": [
+        "B2"
+      ],
+      "description": {
+        "vi": "Chọn mua các loại đèn trang trí như đèn treo thả, đèn bàn và đèn chùm cho không gian sống và làm việc.",
+        "en": "Shop for decorative lighting including pendant lamps, table lamps and chandeliers for living and working spaces."
+      },
+      "copyDecisionStatus": "needs-evidence",
+      "copyOwnerApproval": false,
+      "approvalScope": "Evidence hold; candidate copy reflects official Vincom lighting page pending owner resolution of tenant identity.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "first-party-descriptions.json#/13",
+        "store-pages/cara-vincom-center-dong-khoi.html",
+        "20-records.json#/13",
+        "https://vincom.com.vn/store/cara-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+      ],
+      "rationaleAsReported": "Unresolved identity and floor conflict: the owner draft describes 'beauty accessories and small gifts' on floor B2, whereas the saved official Vincom store page (listed on floor B1) describes Cara as a decorative lighting retailer selling pendant lamps, table lamps, and chandeliers ('chuyên cung cấp các loại đèn trang trí cao cấp... đèn treo thả, đèn bàn hay đèn chùm'). Neutral copy supported by the first-party Vincom extract is provided above; owner confirmation is required on which business is intended.",
+      "unresolvedFact": "Confirm whether the intended Vincom Center Đồng Khởi destination is Cara Lighting on B1 (decorative lamps/chandeliers per official Vincom page) or a separate Cara beauty-accessories/gift shop on B2 (per initial draft).",
+      "publicationApproval": false
+    },
+    {
+      "id": "vincom-prototype-lizdnamat",
+      "mall": "vincom-dong-khoi",
+      "name": "Lizd Namat",
+      "floors": [
+        "B2"
+      ],
+      "description": {
+        "vi": "Mua sắm trang phục thời trang nữ phong cách thanh lịch, hiện đại.",
+        "en": "Shop for elegant, modern women's fashion clothing."
+      },
+      "copyDecisionStatus": "needs-evidence",
+      "copyOwnerApproval": false,
+      "approvalScope": "Evidence hold; candidate copy reflects official Vincom page body prose pending owner resolution of product category.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "first-party-descriptions.json#/14",
+        "store-pages/lizd-namat-vincom-center-dong-khoi.html",
+        "20-records.json#/14",
+        "https://vincom.com.vn/store/lizd-namat-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+      ],
+      "rationaleAsReported": "Unresolved internal source conflict: the historical draft states 'interior decorations' ('đồ trang trí nội thất') and the Vincom directory industry tag was homeware, but the saved first-party Vincom body text explicitly describes an elegant women's fashion brand ('Thương hiệu thời trang nữ theo đuổi phong cách thanh lịch, nữ tính với các thiết kế hiện đại và tinh tế'). Candidate copy matching the official page prose is provided above pending owner or on-site verification.",
+      "unresolvedFact": "Confirm whether Lizd Namat at Vincom Center Đồng Khởi B2 sells women's fashion clothing (per official Vincom body prose) or interior decorations/homeware (per draft and directory category tag).",
+      "publicationApproval": false
+    },
+    {
+      "id": "vincom-prototype-amara",
+      "mall": "vincom-dong-khoi",
+      "name": "Amara",
+      "floors": [
+        "B2"
+      ],
+      "description": {
+        "vi": "Mua các sản phẩm chăn ga, gối và nệm Amara Home & Living.",
+        "en": "Shop for Amara Home & Living bedding, pillows and mattresses."
+      },
+      "copyDecisionStatus": "pending-owner-wording-approval",
+      "copyOwnerApproval": false,
+      "approvalScope": "AI evidence/fidelity review; independent owner editorial approval pending.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "first-party-descriptions.json#/15",
+        "store-pages/amara-vincom-center-dong-khoi.html",
+        "https://vincom.com.vn/store/amara-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+      ],
+      "rationaleAsReported": "Saved first-party Vincom extract establishes Amara Home & Living specifically as a bedding, pillow, and mattress brand ('thương hiệu chăn ga gối nệm cao cấp'), rather than a general home-decor and housewarming-gift shop.",
+      "unresolvedFact": null,
+      "publicationApproval": false
+    },
+    {
+      "id": "vincom-prototype-vincy",
+      "mall": "vincom-dong-khoi",
+      "name": "Vincy",
+      "floors": [
+        "B2"
+      ],
+      "description": {
+        "vi": "Mua các thiết kế trang phục mặc nhà dành cho nữ.",
+        "en": "Shop for women's loungewear and homewear collections."
+      },
+      "copyDecisionStatus": "pending-owner-wording-approval",
+      "copyOwnerApproval": false,
+      "approvalScope": "AI evidence/fidelity review; independent owner editorial approval pending.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "first-party-descriptions.json#/16",
+        "store-pages/vincy-vincom-center-dong-khoi.html",
+        "https://vincom.com.vn/store/vincy-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+      ],
+      "rationaleAsReported": "Saved first-party Vincom extract identifies VINCY specifically as a women's homewear/loungewear brand ('thương hiệu thời trang mặc nhà cao cấp... chiếm trọn cảm tình của phái đẹp'). Narrows generic fashion wording to loungewear and removes unverified affordable-pricing and 100%-natural-material guarantees.",
+      "unresolvedFact": null,
+      "publicationApproval": false
+    },
+    {
+      "id": "vincom-prototype-mujoshtedbaker",
+      "mall": "vincom-dong-khoi",
+      "name": "Mujosh & Ted Baker",
+      "floors": [
+        "B1"
+      ],
+      "description": {
+        "vi": "Chọn mua các thiết kế mắt kính, gọng kính và kính mát thời trang.",
+        "en": "Shop for fashion eyewear, eyeglass frames and sunglasses."
+      },
+      "copyDecisionStatus": "needs-evidence",
+      "copyOwnerApproval": false,
+      "approvalScope": "Evidence hold; candidate copy reflects evidenced eyewear assortment pending owner confirmation of whether Ted Baker apparel is sold.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "first-party-descriptions.json#/17",
+        "store-pages/mujosh-vincom-center-dong-khoi.html",
+        "20-records.json#/17",
+        "https://vincom.com.vn/store/mujosh-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+      ],
+      "rationaleAsReported": "Unresolved shared-identity assortment conflict: the record is titled 'Mujosh & Ted Baker' and the draft includes 'smart clothing' ('trang phục sang trọng'), but the linked official Vincom page only establishes MUJOSH fashion eyewear ('nhãn hiệu mắt kính thời trang cá tính'). Because Ted Baker is commonly distributed as a licensed optical/sunglass frame line in eyewear stores, clothing cannot be inferred without branch evidence. Neutral eyewear copy supported by the first-party source is provided above.",
+      "unresolvedFact": "Confirm whether the 'Mujosh & Ted Baker' unit at Vincom Center Đồng Khởi B1 sells Ted Baker clothing alongside eyewear, or if Ted Baker is solely an eyewear brand carried at this optical counter.",
+      "publicationApproval": false
+    },
+    {
+      "id": "vincom-prototype-haidilao",
+      "mall": "vincom-dong-khoi",
+      "name": "Haidilao",
+      "floors": [
+        "L3"
+      ],
+      "description": {
+        "vi": "Thưởng thức lẩu phong cách Trung Hoa với đa dạng nước lẩu, đồ nhúng, quầy nước chấm tự chọn và các dịch vụ chăm sóc khách hàng tại nhà hàng.",
+        "en": "Enjoy Chinese-style hot pot featuring diverse broths, dipping ingredients, a signature sauce bar and attentive guest services."
+      },
+      "copyDecisionStatus": "pending-owner-wording-approval",
+      "copyOwnerApproval": false,
+      "approvalScope": "AI evidence/fidelity review; independent owner editorial approval pending.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "first-party-descriptions.json#/18",
+        "store-pages/haidilao-vincom-center-dong-khoi.html",
+        "https://vincom.com.vn/store/haidilao-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+      ],
+      "rationaleAsReported": "Preserves the rich dining and service breadth documented in the first-party Vincom extract (Chinese hot pot, signature broths, meat/seafood/vegetable dipping items, custom dipping sauces, and guest care amenities) while removing the unverified guarantee of live noodle-dancing performances on every visit and avoiding unverified current price ranges.",
+      "unresolvedFact": null,
+      "publicationApproval": false
+    },
+    {
+      "id": "vincom-prototype-highlandscoffee",
+      "mall": "vincom-dong-khoi",
+      "name": "Highlands Coffee",
+      "floors": [
+        "B3"
+      ],
+      "description": {
+        "vi": "Thưởng thức cà phê Việt Nam, đá xay Freeze, các dòng trà và bánh ngọt.",
+        "en": "Enjoy Vietnamese coffee, Freeze blended drinks, teas and pastries."
+      },
+      "copyDecisionStatus": "pending-owner-wording-approval",
+      "copyOwnerApproval": false,
+      "approvalScope": "AI evidence/fidelity review; independent owner editorial approval pending.",
+      "reviewerAsReported": "Gemini (AI Evidence & Editorial Review Agent)",
+      "actualReviewDateAsReported": "2026-10-18",
+      "conversationDecisionDate": null,
+      "sourceEvidence": [
+        "first-party-descriptions.json#/19",
+        "store-pages/highlands-coffee-vincom-center-dong-khoi.html",
+        "https://vincom.com.vn/store/highlands-coffee-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+      ],
+      "rationaleAsReported": "Saved first-party Vincom extract explicitly separates three core beverage categories—Vietnamese coffee ('Menu Cà Phê'), Freeze ice-blended drinks ('Menu Freeze - thức uống đá xay'), and teas ('Menu Trà')—alongside pastries ('nhiều món bánh'). Fixes the historical draft's conflation of Freeze as 'Freeze tea' ('trà Freeze') while preserving full menu breadth.",
+      "unresolvedFact": null,
+      "publicationApproval": false
+    }
+  ],
+  "limits": "Structural and owner-instruction reconciliation only; no new primary-source verification and no public-data import."
+}

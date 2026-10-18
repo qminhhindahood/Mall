@@ -1,0 +1,116 @@
+{
+  "checks": {
+    "exact20UniqueIds": true,
+    "mallIsolation": true,
+    "bilingualCopyPresent": true,
+    "17Rewrites3EvidenceHolds": true,
+    "meatExactAcceptedStrings": true,
+    "noAdditionalOwnerApprovals": true,
+    "noInventedHumanReviewDate": true,
+    "sourcePointersMatch": true,
+    "allRecordsHaveEvidenceReferences": true,
+    "previousReviewImmutable": true,
+    "publicSnapshotsPending": true,
+    "saigon-prototype-chanelOwnerCorrectionPresent": true,
+    "saigon-prototype-himalayaOwnerCorrectionPresent": true,
+    "saigon-prototype-trufflecoOwnerCorrectionPresent": true
+  },
+  "sourcePointers": [
+    {
+      "id": "saigon-prototype-himalaya",
+      "pointer": "first-party-descriptions.json#/0",
+      "matches": true
+    },
+    {
+      "id": "saigon-prototype-chanel",
+      "pointer": "first-party-descriptions.json#/1",
+      "matches": true
+    },
+    {
+      "id": "saigon-prototype-meatmeet",
+      "pointer": "first-party-descriptions.json#/2",
+      "matches": true
+    },
+    {
+      "id": "saigon-prototype-memorylove",
+      "pointer": "first-party-descriptions.json#/3",
+      "matches": true
+    },
+    {
+      "id": "saigon-prototype-pinktree",
+      "pointer": "first-party-descriptions.json#/4",
+      "matches": true
+    },
+    {
+      "id": "saigon-prototype-bloom",
+      "pointer": "first-party-descriptions.json#/5",
+      "matches": true
+    },
+    {
+      "id": "saigon-prototype-sjc",
+      "pointer": "first-party-descriptions.json#/6",
+      "matches": true
+    },
+    {
+      "id": "saigon-prototype-the350f",
+      "pointer": "first-party-descriptions.json#/8",
+      "matches": true
+    },
+    {
+      "id": "saigon-prototype-genkisushi",
+      "pointer": "first-party-descriptions.json#/9",
+      "matches": true
+    },
+    {
+      "id": "vincom-prototype-facewashfox",
+      "pointer": "first-party-descriptions.json#/10",
+      "matches": true
+    },
+    {
+      "id": "vincom-prototype-scentuals",
+      "pointer": "first-party-descriptions.json#/11",
+      "matches": true
+    },
+    {
+      "id": "vincom-prototype-copenhaghen",
+      "pointer": "first-party-descriptions.json#/12",
+      "matches": true
+    },
+    {
+      "id": "vincom-prototype-cara",
+      "pointer": "first-party-descriptions.json#/13",
+      "matches": true
+    },
+    {
+      "id": "vincom-prototype-lizdnamat",
+      "pointer": "first-party-descriptions.json#/14",
+      "matches": true
+    },
+    {
+      "id": "vincom-prototype-amara",
+      "pointer": "first-party-descriptions.json#/15",
+      "matches": true
+    },
+    {
+      "id": "vincom-prototype-vincy",
+      "pointer": "first-party-descriptions.json#/16",
+      "matches": true
+    },
+    {
+      "id": "vincom-prototype-mujoshtedbaker",
+      "pointer": "first-party-descriptions.json#/17",
+      "matches": true
+    },
+    {
+      "id": "vincom-prototype-haidilao",
+      "pointer": "first-party-descriptions.json#/18",
+      "matches": true
+    },
+    {
+      "id": "vincom-prototype-highlandscoffee",
+      "pointer": "first-party-descriptions.json#/19",
+      "matches": true
+    }
+  ],
+  "limits": "Checks do not constitute editorial, currentness, occupancy, rights or release approval."
+}
