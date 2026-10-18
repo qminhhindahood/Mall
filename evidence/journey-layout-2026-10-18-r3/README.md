@@ -2,6 +2,8 @@
 
 Baseline `c95ea97`. This revision implements the owner's screenshot feedback and subsequent explicit vertical-rail/Discovery-invitation clarification. [Source and built-output hashes](provenance.json) identify the delivered revision. Owner visual acceptance remains pending; no publication or percentage increase.
 
+Delivered source/evidence commit: `a186fab`. [Both-site propagation](propagation.json) verifies six shared source/design files byte-for-byte after commit: Vincom `a3e4cef`, Saigon/Takashimaya `9b120b8`. Both site checkouts were clean before copying. The integration builds exercise these identical shared sources; separate site-tree builds were not rerun.
+
 ## Changed behavior
 
 - The introduction scroll guide fades out and becomes hidden/inert on departure; reverse scrolling restores it.

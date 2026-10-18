@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-18T08:05:45.666Z",
+  "sharedCommit": "a186faba836f07491794c9d2b55074609bca1911",
+  "scope": "Owner-requested layout corrections and design record; unchanged asset/content inputs",
+  "sites": [
+    {
+      "worktree": "D:\\Midterm\\.scratch\\mall-branch-bootstrap",
+      "branch": "vincom-dong-khoi",
+      "commit": "a3e4cefede03a305b2253b8526252a3127b7ae49",
+      "verifiedSharedFiles": 6,
+      "sha256Match": true,
+      "files": [
+        {
+          "path": "src/components/Directory.tsx",
+          "sha256": "98fbd7d3ff761da3d9d2c59ecc4d68313053de39c98e2af3025a01fe41db1812"
+        },
+        {
+          "path": "src/components/Explorer.tsx",
+          "sha256": "af43e95ba3ae7ac9614a273a9f5f8bb35917e5af7ecb6515a0dc5bb56c07fdba"
+        },
+        {
+          "path": "src/components/JourneyMotion.tsx",
+          "sha256": "3ecebac227870c897656eaaf227dc8d83ad4d7120441b5aa28d07a8c20ebb1da"
+        },
+        {
+          "path": "src/components/journey-copy.ts",
+          "sha256": "e59125100c879d62a955a197861febc741ec6fcf6ef8d647871c0c8cbb2e05c7"
+        },
+        {
+          "path": "src/styles/journey.css",
+          "sha256": "c4d3f579429f20cd48777259d9491d0bd79b9178b9a972742bd201655ef21e58"
+        },
+        {
+          "path": "DESIGN.md",
+          "sha256": "3848c4f4c84cf8460c586e65c46acb603e5599f1909aafbb674b432d4f95db7e"
+        }
+      ]
+    },
+    {
+      "worktree": "D:\\Midterm\\.scratch\\issue-0005-takashimaya",
+      "branch": "takashimaya",
+      "commit": "9b120b8719c4a33b0839ba40276ceb4b6a06f64b",
+      "verifiedSharedFiles": 6,
+      "sha256Match": true,
+      "files": [
+        {
+          "path": "src/components/Directory.tsx",
+          "sha256": "98fbd7d3ff761da3d9d2c59ecc4d68313053de39c98e2af3025a01fe41db1812"
+        },
+        {
+          "path": "src/components/Explorer.tsx",
+          "sha256": "af43e95ba3ae7ac9614a273a9f5f8bb35917e5af7ecb6515a0dc5bb56c07fdba"
+        },
+        {
+          "path": "src/components/JourneyMotion.tsx",
+          "sha256": "3ecebac227870c897656eaaf227dc8d83ad4d7120441b5aa28d07a8c20ebb1da"
+        },
+        {
+          "path": "src/components/journey-copy.ts",
+          "sha256": "e59125100c879d62a955a197861febc741ec6fcf6ef8d647871c0c8cbb2e05c7"
+        },
+        {
+          "path": "src/styles/journey.css",
+          "sha256": "c4d3f579429f20cd48777259d9491d0bd79b9178b9a972742bd201655ef21e58"
+        },
+        {
+          "path": "DESIGN.md",
+          "sha256": "3848c4f4c84cf8460c586e65c46acb603e5599f1909aafbb674b432d4f95db7e"
+        }
+      ]
+    }
+  ]
+}
