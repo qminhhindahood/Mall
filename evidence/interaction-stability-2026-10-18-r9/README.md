@@ -35,3 +35,9 @@ Implementation/evidence commit a40c24aeae85ccc621a6201e29658f26ac20b14e. Four te
 
 Current review links: http://localhost:4355/en?review=interaction-r9 and http://localhost:4356/en?review=interaction-r9.
 
+
+## Scoped owner acceptance — 18 October 2026
+
+The owner explicitly answered **“The interaction blocker is resolved”** for the current repaired click behavior, in thread `a3ced64f-6d28-4cf6-ae29-1c22a669bcc1`. [Decision receipt](owner-decision.json) binds that scoped acceptance to the source/site revisions above. Earlier pending wording in this receipt is historical and superseded only for this click interaction. Motion-off acceptance remains separately recorded; no blanket whole-journey, content or release acceptance is inferred.
+
+The owner rejected the proposed description style and requests informative overall detail in one or two sentences. The separate content lane is revising the proposal; roster/copy/Highlights decisions remain pending. This acceptance record changes no source, build output, geometry, public snapshot or site files.
