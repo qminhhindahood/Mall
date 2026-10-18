@@ -1,0 +1,65 @@
+[
+  {
+    "id": "vincom-prototype-cara",
+    "mall": "vincom-dong-khoi",
+    "name": "Cara",
+    "proposedVi": null,
+    "proposedEn": null,
+    "decision": "needs-evidence",
+    "rationale": "The original record describes beauty accessories and small gifts on B2, while Vincom’s official page describes decorative lighting on B1. We have not established whether they refer to the same business.",
+    "unresolvedFact": "Confirm whether the B2 beauty accessories/gifts record and the B1 decorative lighting listing on Vincom's page refer to the same business or which tenant is intended.",
+    "sourceEvidence": [
+      "first-party-descriptions.json#/13",
+      "store-pages/cara-vincom-center-dong-khoi.html",
+      "20-records.json#/13",
+      "https://vincom.com.vn/store/cara-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+    ],
+    "reviewerIdentity": "Gemini (AI Evidence & Editorial Review Agent)",
+    "actualReviewDate": "2026-10-18",
+    "readyForOwnerDecision": false,
+    "ownerApproval": false,
+    "approvalScope": "Evidence hold; pending confirmation of business identity and floor before selecting copy or taxonomy."
+  },
+  {
+    "id": "vincom-prototype-lizdnamat",
+    "mall": "vincom-dong-khoi",
+    "name": "Lizd Namat",
+    "proposedVi": null,
+    "proposedEn": null,
+    "decision": "needs-evidence",
+    "rationale": "The original description and Vincom industry category indicate homeware/interior decorations, but Vincom’s page body description explicitly says women’s clothing.",
+    "unresolvedFact": "Confirm via branch product/photo or owner identity evidence whether Lizd Namat sells homeware/interior decorations or women's clothing.",
+    "sourceEvidence": [
+      "first-party-descriptions.json#/14",
+      "store-pages/lizd-namat-vincom-center-dong-khoi.html",
+      "20-records.json#/14",
+      "https://vincom.com.vn/store/lizd-namat-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+    ],
+    "reviewerIdentity": "Gemini (AI Evidence & Editorial Review Agent)",
+    "actualReviewDate": "2026-10-18",
+    "readyForOwnerDecision": false,
+    "ownerApproval": false,
+    "approvalScope": "Evidence hold; pending resolution of the internal conflict between the homeware category/draft and the women's clothing body prose."
+  },
+  {
+    "id": "vincom-prototype-mujoshtedbaker",
+    "mall": "vincom-dong-khoi",
+    "name": "Mujosh & Ted Baker",
+    "proposedVi": null,
+    "proposedEn": null,
+    "decision": "needs-evidence",
+    "rationale": "The official source supports MUJOSH eyewear, but the original draft also promises smart clothing. The combined 'Mujosh & Ted Baker' name alone does not establish that clothing is sold there.",
+    "unresolvedFact": "Confirm concession identity and assortment: specifically whether Ted Baker clothing is sold at this B1 unit or if the store sells eyewear only.",
+    "sourceEvidence": [
+      "first-party-descriptions.json#/17",
+      "store-pages/mujosh-vincom-center-dong-khoi.html",
+      "20-records.json#/17",
+      "https://vincom.com.vn/store/mujosh-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+    ],
+    "reviewerIdentity": "Gemini (AI Evidence & Editorial Review Agent)",
+    "actualReviewDate": "2026-10-18",
+    "readyForOwnerDecision": false,
+    "ownerApproval": false,
+    "approvalScope": "Evidence hold; pending confirmation of whether clothing is sold alongside eyewear at this destination."
+  }
+]
