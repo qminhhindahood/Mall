@@ -1,0 +1,30 @@
+{
+  "result": "PASS",
+  "isolatedNegativeAndRebuildChecks": [
+    {
+      "case": "docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+      "result": "PASS",
+      "rejectedBeforeWrites": true,
+      "outputsUnchanged": true
+    },
+    {
+      "case": "data/research/location-holds-2026-10-18-r1.json",
+      "result": "PASS",
+      "rejectedBeforeWrites": true,
+      "outputsUnchanged": true
+    },
+    {
+      "case": "deterministic unchanged input rebuild",
+      "result": "PASS",
+      "outputsUnchanged": true
+    }
+  ],
+  "localizedStaticDestinationChecks": 736,
+  "exactApprovedDescriptions": 361,
+  "emptyOfferingHolds": 7,
+  "identityHoldsExcluded": 3,
+  "publicGeometryMatchesManifest": true,
+  "realFrozenInputHashesUnchanged": true,
+  "releaseApproval": false,
+  "scriptSha256": "1934a50ef13cf5200159efc9b13afa8fc847b238c97e347cbcecffd2d7266dc3"
+}

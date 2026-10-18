@@ -1,0 +1,48 @@
+[
+  {
+    "mall": "vincom-dong-khoi",
+    "publicStoreRoutesPerLocale": 203,
+    "dryRunExitCode": 0,
+    "wranglerVersion": "4.150.0",
+    "dryRunReadFiles": 891,
+    "bindings": 0,
+    "remoteWrites": false,
+    "releaseManifest": {
+      "mall": "vincom-dong-khoi",
+      "fixture": false,
+      "assetCount": 453,
+      "largestAsset": {
+        "path": "dist\\vincom-dong-khoi\\models\\exterior.glb",
+        "bytes": 4797176
+      },
+      "directoryApproval": "approved",
+      "siteOrigin": null,
+      "releaseApproved": false
+    },
+    "sourceFloorSha256": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e",
+    "builtFloorSha256": "f1ce41d6db46bc879b21ff47c7308c32dc4671a83dcca7df7347d9ac007ea2e5"
+  },
+  {
+    "mall": "saigon-centre",
+    "publicStoreRoutesPerLocale": 165,
+    "dryRunExitCode": 0,
+    "wranglerVersion": "4.150.0",
+    "dryRunReadFiles": 744,
+    "bindings": 0,
+    "remoteWrites": false,
+    "releaseManifest": {
+      "mall": "saigon-centre",
+      "fixture": false,
+      "assetCount": 380,
+      "largestAsset": {
+        "path": "dist\\saigon-centre\\data\\floor-geometry.json",
+        "bytes": 5166921
+      },
+      "directoryApproval": "approved",
+      "siteOrigin": null,
+      "releaseApproved": false
+    },
+    "sourceFloorSha256": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807",
+    "builtFloorSha256": "b18b04d26920f784d7e2cc441c418eda335b052803d48df680a85a8e451e6da0"
+  }
+]

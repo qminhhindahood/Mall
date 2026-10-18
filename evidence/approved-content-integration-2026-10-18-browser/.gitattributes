@@ -1,0 +1,3 @@
+# Preserve raw verification logs and diagnostic harness snapshots.
+*.log -text -whitespace
+*.mjs whitespace=-blank-at-eof

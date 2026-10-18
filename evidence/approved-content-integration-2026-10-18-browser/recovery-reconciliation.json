@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-18T22:27:01.815639+00:00",
+  "method": "Recovered prior completed results; recursively checked failure flags and independently SHA-256 reconciled each provenance source, both directory snapshots and all 1679 files across six outputs. No suite rerun or rebuild.",
+  "results": {
+    "approved-results.json": {
+      "cases": 8,
+      "assertions": 136,
+      "sha256": "9d1f32c2cfb0604311aba5b57b3ede1dc21fdfe069ae83ae866dca278cd5566e"
+    },
+    "journey/browser-results.json": {
+      "cases": 8,
+      "assertions": 224,
+      "sha256": "02826890571ea7d336f9e1ffc37108771ea338130c88fefbecf4233861044980"
+    },
+    "fixture-results.json": {
+      "cases": 4,
+      "assertions": 20,
+      "sha256": "806ff2f772a76ddd815f2c51aa4b41de88e53eead3fb415f68b384fe95d20e7e"
+    },
+    "fallback-results.json": {
+      "cases": 16,
+      "assertions": 126,
+      "sha256": "65113bbf09c0921eacd74e32a983808d1bb320eda94c125c66c3c08bda523563"
+    },
+    "interaction/browser-results.json": {
+      "cases": 8,
+      "assertions": 192,
+      "sha256": "cd144248386d0f0da182feae3dc929b8f29b4e7d47822784bee2d26f4321da2c"
+    },
+    "area-history-results.json": {
+      "cases": 4,
+      "assertions": 20,
+      "sha256": "a5cc632c8695b09fc41be23f78b905b9cbceaf86636b711569feee144902448c"
+    }
+  },
+  "failureEntries": [],
+  "provenanceSha256": "eba3e97a20023d5ffcc481520beeb0851a5073650977e7fc0aa0fffc83c7bb7b",
+  "sourceAndOutputMismatches": [],
+  "verifiedOutputFiles": 1679,
+  "browserCases": 48,
+  "browserAssertions": 718,
+  "staticRouteChecks": 752,
+  "releaseApproved": false
+}

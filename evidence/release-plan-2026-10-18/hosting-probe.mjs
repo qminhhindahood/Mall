@@ -1,0 +1,13 @@
+// Read-only Cloudflare GETs. Wrangler token/account stay in process memory only.
+import {spawnSync} from 'node:child_process';
+import {writeFile} from 'node:fs/promises';
+function cli(args){const r=spawnSync(process.execPath,['node_modules/wrangler/bin/wrangler.js',...args,'--json'],{encoding:'utf8',timeout:30000,env:{...process.env,CI:'true',WRANGLER_SEND_METRICS:'false'}});if(r.status!==0)throw Error('Local authentication command failed (raw output suppressed)');return JSON.parse(r.stdout);}
+const who=cli(['whoami']),auth=cli(['auth','token']);
+if(who.accounts?.length!==1||!auth.token)throw Error('Cannot unambiguously select existing account');
+const id=who.accounts[0].id,headers={Authorization:`Bearer ${auth.token}`};
+async function get(suffix){const response=await fetch(`https://api.cloudflare.com/client/v4/accounts/${id}${suffix}`,{headers,signal:AbortSignal.timeout(20000)});let json;try{json=await response.json()}catch{}return{status:response.status,success:json?.success===true,result:json?.result,errorCodes:json?.errors?.map(e=>e.code)??[]};}
+const subdomain=await get('/workers/subdomain'),subscriptions=await get('/subscriptions');
+const rows=Array.isArray(subscriptions.result)?subscriptions.result:[];
+const workers=rows.filter(r=>/worker/i.test(JSON.stringify(r.rate_plan??{}))).map(r=>({state:r.state,planId:r.rate_plan?.id,planName:r.rate_plan?.public_name??r.rate_plan?.name}));
+const result={at:new Date().toISOString(),scope:'GET workers/subdomain and account subscriptions only; no remote writes',accountCount:1,rawCredentialsStored:false,rawAccountIdentityStored:false,subdomain:{status:subdomain.status,success:subdomain.success,errorCodes:subdomain.errorCodes,value:subdomain.result?.subdomain??null},subscriptions:{status:subscriptions.status,success:subscriptions.success,errorCodes:subscriptions.errorCodes,workersPlans:workers,complete:subscriptions.success},zeroSpend:{staticOnlyConfig:true,paidBindings:false,assetsWithinFreeLimits:true,accountPlanVerified:subscriptions.success,qualification:'Static assets without Worker invocation are free under documented static-asset billing; no spending change/subscription action is requested. Account subscription facts are separate from projected zero-cost static delivery.'},targets:subdomain.result?.subdomain?['midterm-saigon-centre','midterm-vincom-dong-khoi'].map(name=>({name,proposedOrigin:`https://${name}.${subdomain.result.subdomain}.workers.dev`,publishedByThisWork:false})):[]};
+await writeFile('evidence/release-plan-2026-10-18/hosting-targets.json',JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result));

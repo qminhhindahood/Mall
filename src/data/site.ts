@@ -30,6 +30,10 @@ if (fs.existsSync(slabsPath)) {
 }
 const contentPath = path.join(process.cwd(),'data','malls',mallId,'directory.json');
 let snapshot: DirectorySnapshot = JSON.parse(fs.readFileSync(contentPath,'utf8'));
+if (!['research','1'].includes(process.env.INCLUDE_TEST_FIXTURES ?? '')) {
+  const { approvedGeometry } = await import('../../scripts/approved-overlay.mjs');
+  geometry = approvedGeometry(process.cwd(),mallId,geometry);
+}
 if (process.env.INCLUDE_TEST_FIXTURES === 'research') {
   const { researchGeometry } = await import('../../scripts/research-overlay.mjs');
   geometry = researchGeometry(process.cwd(),mallId,geometry);

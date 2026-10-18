@@ -1,0 +1,79 @@
+{
+  "at": "2026-10-18T22:26:39.829266+00:00",
+  "kind": "resumed evidence recovery; no suite rerun or rebuild",
+  "outputs": [
+    {
+      "mall": "saigon-centre",
+      "port": 4363,
+      "approval": "approved",
+      "listings": 165,
+      "bilingualDescriptions": 163,
+      "blankOfferingHolds": 2,
+      "checks": [
+        {
+          "url": "http://localhost:4363/en?view=discovery&review=approved-content-r1",
+          "status": 200,
+          "exactBuiltHome": true,
+          "sha256": "8d77a4a259ddd5ef399816e73d1e7e1136381423036142a95612a9a3a03f3b2b"
+        },
+        {
+          "url": "http://localhost:4363/en/stores/saigon-prototype-annamgourmet?view=discovery",
+          "status": 200,
+          "sampleId": "saigon-prototype-annamgourmet",
+          "exactApprovedDescriptionPresent": true,
+          "sha256": "dcd0bb43c0228b437b35826e9653a3e393e165983e1324118ec855eb15197635"
+        },
+        {
+          "url": "http://localhost:4363/vi?view=discovery&review=approved-content-r1",
+          "status": 200,
+          "exactBuiltHome": true,
+          "sha256": "9256ad8b86aa00cd5a97cbc7650767138e60df8fe4f505c98f522745458cfa4a"
+        },
+        {
+          "url": "http://localhost:4363/vi/cua-hang/saigon-prototype-annamgourmet?view=discovery",
+          "status": 200,
+          "sampleId": "saigon-prototype-annamgourmet",
+          "exactApprovedDescriptionPresent": true,
+          "sha256": "11a36154721c6203d36408bf005de1a021d026ed4de99f728a88b8e07787f1ef"
+        }
+      ]
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "port": 4364,
+      "approval": "approved",
+      "listings": 203,
+      "bilingualDescriptions": 198,
+      "blankOfferingHolds": 5,
+      "checks": [
+        {
+          "url": "http://localhost:4364/en?view=discovery&review=approved-content-r1",
+          "status": 200,
+          "exactBuiltHome": true,
+          "sha256": "db134bc96a51a79a02025230c8c99b3a3f6f0b7116992580a63a23ae6102de2e"
+        },
+        {
+          "url": "http://localhost:4364/en/stores/vincom-prototype-winmart?view=discovery",
+          "status": 200,
+          "sampleId": "vincom-prototype-winmart",
+          "exactApprovedDescriptionPresent": true,
+          "sha256": "328de7d3590ac213fd8a4203e732ea862643f758cca283453ca17bf34cf77e3e"
+        },
+        {
+          "url": "http://localhost:4364/vi?view=discovery&review=approved-content-r1",
+          "status": 200,
+          "exactBuiltHome": true,
+          "sha256": "34bb08c5698763cb79a18a1579a0495df1685513903b2e5aa3c831b9db6b3891"
+        },
+        {
+          "url": "http://localhost:4364/vi/cua-hang/vincom-prototype-winmart?view=discovery",
+          "status": 200,
+          "sampleId": "vincom-prototype-winmart",
+          "exactApprovedDescriptionPresent": true,
+          "sha256": "b5adf9bc743d778b9a9f321e12924d55105b00b94eeeb17fb743d588548a3a3e"
+        }
+      ]
+    }
+  ],
+  "releaseApproved": false
+}

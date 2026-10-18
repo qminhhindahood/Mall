@@ -1,0 +1,131 @@
+{
+  "revision": "owner-approved-directory-2026-10-18-r1",
+  "decidedAt": "2026-10-18",
+  "decidedBy": "Project owner (conversation participant)",
+  "recordedBy": "Codex (AI)",
+  "statement": "I think this is good now, i apporve",
+  "prompt": "The revised copy is ready at http://127.0.0.1:4371/revision-2/review.html, with 361 bilingual drafts and ten explicit holds. What would you like changed? If you accept the complete wording and roster, please say so explicitly; your earlier sample approval covered style only. Public release remains a separate decision.",
+  "provenance": {
+    "threadId": "a3ced64f-6d28-4cf6-ae29-1c22a669bcc1",
+    "position": 577,
+    "updatedAt": "2026-10-18T12:20:03.456Z",
+    "itemId": "turn-item:message:async-answer%3Aruntime-request%3Aprovider%3Acodex%3Aprovider-turn%3Aprovider-turn%253Aprovider%253Acodex%253Anative-turn%253A01a14ee5-4830-70c0-98ac-fd76179183ef%3Anative-request%3Aasync%253Acall_665e9bd8b4cc4755a7924d0969d54d70%3A42c8c531-3c19-4712-8ee6-5d94cd24f047"
+  },
+  "source": "docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+  "sourceSha256": "dddf720a429e6028817a3c19b3fd18c58c3704b45620e0790a7b0e3788aa823a",
+  "rosterApproval": true,
+  "wordingApprovals": {
+    "vi": true,
+    "en": true
+  },
+  "languageApprovalAuthority": "One owner explicitly approves both languages; no separate human reviewers inferred.",
+  "localPublicDataIntegrationApproved": true,
+  "releaseApproval": false,
+  "holds": [
+    {
+      "id": "saigon-prototype-rakthai",
+      "name": {
+        "vi": "RAK Thai",
+        "en": "RAK Thai"
+      },
+      "copyApproved": false,
+      "disposition": "basic-listing-empty-description",
+      "reason": "description-evidence-hold-r2"
+    },
+    {
+      "id": "saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c",
+      "name": {
+        "vi": "Sport Fair",
+        "en": "Sport Fair"
+      },
+      "copyApproved": false,
+      "disposition": "basic-listing-empty-description",
+      "reason": "description-evidence-hold-r2"
+    },
+    {
+      "id": "vincom-prototype-pangpang",
+      "name": {
+        "vi": "Pang Pang",
+        "en": "Pang Pang"
+      },
+      "copyApproved": false,
+      "disposition": "basic-listing-empty-description",
+      "reason": "description-evidence-hold-r2"
+    },
+    {
+      "id": "vincom-prototype-cara",
+      "name": {
+        "vi": "Cara",
+        "en": "Cara"
+      },
+      "copyApproved": false,
+      "disposition": "excluded-identity-hold",
+      "reason": "owner-null-hold"
+    },
+    {
+      "id": "vincom-candidate-vd-b2-012",
+      "name": {
+        "vi": "Catia",
+        "en": "Catia"
+      },
+      "copyApproved": false,
+      "disposition": "basic-listing-empty-description",
+      "reason": "description-evidence-hold-r2"
+    },
+    {
+      "id": "vincom-prototype-lizdnamat",
+      "name": {
+        "vi": "Lizd Namat",
+        "en": "Lizd Namat"
+      },
+      "copyApproved": false,
+      "disposition": "excluded-identity-hold",
+      "reason": "owner-null-hold"
+    },
+    {
+      "id": "vincom-prototype-sehaaccessories",
+      "name": {
+        "vi": "Seha Accessories",
+        "en": "Seha Accessories"
+      },
+      "copyApproved": false,
+      "disposition": "basic-listing-empty-description",
+      "reason": "description-evidence-hold-r2"
+    },
+    {
+      "id": "vincom-prototype-mujoshtedbaker",
+      "name": {
+        "vi": "Mujosh & Ted Baker",
+        "en": "Mujosh & Ted Baker"
+      },
+      "copyApproved": false,
+      "disposition": "excluded-identity-hold",
+      "reason": "owner-null-hold"
+    },
+    {
+      "id": "vincom-candidate-vd-x-070",
+      "name": {
+        "vi": "Studio 77",
+        "en": "Studio 77"
+      },
+      "copyApproved": false,
+      "disposition": "basic-listing-empty-description",
+      "reason": "description-evidence-hold-r2"
+    },
+    {
+      "id": "vincom-prototype-dessertplanet",
+      "name": {
+        "vi": "Dessert Planet",
+        "en": "Dessert Planet"
+      },
+      "copyApproved": false,
+      "disposition": "basic-listing-empty-description",
+      "reason": "description-evidence-hold-r2"
+    }
+  ],
+  "deferred": [
+    "Richer Discovery detail content",
+    "Restaurant/shop Highlights"
+  ],
+  "scope": "361 exact bilingual descriptions; seven basic listings keep empty descriptions; three identity holds excluded. No fresh stock/occupancy verification, media rights, fabricated map precision or release approval."
+}

@@ -1,0 +1,658 @@
+{
+  "at": "2026-10-18T12:29:07.401Z",
+  "scope": "Owner-approved content in local PUBLIC output; no deployment/release approval",
+  "static": [
+    {
+      "mall": "saigon-centre",
+      "records": 165,
+      "expanded": 2,
+      "checks": 338,
+      "held": [
+        "saigon-prototype-rakthai",
+        "saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c"
+      ],
+      "directorySha256": "ffade29ada11d158619a2d58758611b210423bd609b3a4bf4f82b1af88fd5b2c"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "records": 203,
+      "expanded": 63,
+      "checks": 414,
+      "held": [
+        "vincom-prototype-pangpang",
+        "vincom-candidate-vd-b2-012",
+        "vincom-prototype-sehaaccessories",
+        "vincom-candidate-vd-x-070",
+        "vincom-prototype-dessertplanet"
+      ],
+      "directorySha256": "b38b55ab32108efeef2a3cb751f2142fc04c61ba94c4825d50080786ad810c14"
+    }
+  ],
+  "runs": [
+    {
+      "mall": "saigon-centre",
+      "width": 1280,
+      "locale": "vi",
+      "expandedId": "saigon-candidate-374c0731-9167-461f-b83f-5300891cb7dd",
+      "checks": [
+        {
+          "label": "Expanded approved identity exact bilingual offering",
+          "pass": true
+        },
+        {
+          "label": "Public output contains no private/pending directory notice",
+          "pass": true
+        },
+        {
+          "label": "No unverified destination photo",
+          "pass": true
+        },
+        {
+          "label": "Floor-only expanded entry has no marker",
+          "pass": true
+        },
+        {
+          "label": "Expanded deep link retains detail through map controls",
+          "pass": true
+        },
+        {
+          "label": "Phone/desktop Expand works",
+          "pass": true
+        },
+        {
+          "label": "Escape closes approved detail",
+          "pass": true
+        },
+        {
+          "label": "Back restores approved detail",
+          "pass": true
+        },
+        {
+          "label": "Locale preserves identity and accepted alternate wording",
+          "pass": true
+        },
+        {
+          "label": "Offering hold remains accessible with pending description",
+          "pass": true
+        },
+        {
+          "label": "All category counts reflect complete approved roster",
+          "pass": true
+        },
+        {
+          "label": "Unapproved Highlights remain empty",
+          "pass": true
+        },
+        {
+          "label": "Real list pointer opens approved offering",
+          "pass": true
+        },
+        {
+          "label": "Map controls preserve actual selected identity/floor",
+          "pass": true
+        },
+        {
+          "label": "Close returns keyboard focus to originating listing",
+          "pass": true
+        },
+        {
+          "label": "No horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "No page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "width": 1280,
+      "locale": "en",
+      "expandedId": "saigon-candidate-374c0731-9167-461f-b83f-5300891cb7dd",
+      "checks": [
+        {
+          "label": "Expanded approved identity exact bilingual offering",
+          "pass": true
+        },
+        {
+          "label": "Public output contains no private/pending directory notice",
+          "pass": true
+        },
+        {
+          "label": "No unverified destination photo",
+          "pass": true
+        },
+        {
+          "label": "Floor-only expanded entry has no marker",
+          "pass": true
+        },
+        {
+          "label": "Expanded deep link retains detail through map controls",
+          "pass": true
+        },
+        {
+          "label": "Phone/desktop Expand works",
+          "pass": true
+        },
+        {
+          "label": "Escape closes approved detail",
+          "pass": true
+        },
+        {
+          "label": "Back restores approved detail",
+          "pass": true
+        },
+        {
+          "label": "Locale preserves identity and accepted alternate wording",
+          "pass": true
+        },
+        {
+          "label": "Offering hold remains accessible with pending description",
+          "pass": true
+        },
+        {
+          "label": "All category counts reflect complete approved roster",
+          "pass": true
+        },
+        {
+          "label": "Unapproved Highlights remain empty",
+          "pass": true
+        },
+        {
+          "label": "Real list pointer opens approved offering",
+          "pass": true
+        },
+        {
+          "label": "Map controls preserve actual selected identity/floor",
+          "pass": true
+        },
+        {
+          "label": "Close returns keyboard focus to originating listing",
+          "pass": true
+        },
+        {
+          "label": "No horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "No page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "width": 390,
+      "locale": "vi",
+      "expandedId": "saigon-candidate-374c0731-9167-461f-b83f-5300891cb7dd",
+      "checks": [
+        {
+          "label": "Expanded approved identity exact bilingual offering",
+          "pass": true
+        },
+        {
+          "label": "Public output contains no private/pending directory notice",
+          "pass": true
+        },
+        {
+          "label": "No unverified destination photo",
+          "pass": true
+        },
+        {
+          "label": "Floor-only expanded entry has no marker",
+          "pass": true
+        },
+        {
+          "label": "Expanded deep link retains detail through map controls",
+          "pass": true
+        },
+        {
+          "label": "Phone/desktop Expand works",
+          "pass": true
+        },
+        {
+          "label": "Escape closes approved detail",
+          "pass": true
+        },
+        {
+          "label": "Back restores approved detail",
+          "pass": true
+        },
+        {
+          "label": "Locale preserves identity and accepted alternate wording",
+          "pass": true
+        },
+        {
+          "label": "Offering hold remains accessible with pending description",
+          "pass": true
+        },
+        {
+          "label": "All category counts reflect complete approved roster",
+          "pass": true
+        },
+        {
+          "label": "Unapproved Highlights remain empty",
+          "pass": true
+        },
+        {
+          "label": "Real list pointer opens approved offering",
+          "pass": true
+        },
+        {
+          "label": "Map controls preserve actual selected identity/floor",
+          "pass": true
+        },
+        {
+          "label": "Close returns keyboard focus to originating listing",
+          "pass": true
+        },
+        {
+          "label": "No horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "No page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "width": 390,
+      "locale": "en",
+      "expandedId": "saigon-candidate-374c0731-9167-461f-b83f-5300891cb7dd",
+      "checks": [
+        {
+          "label": "Expanded approved identity exact bilingual offering",
+          "pass": true
+        },
+        {
+          "label": "Public output contains no private/pending directory notice",
+          "pass": true
+        },
+        {
+          "label": "No unverified destination photo",
+          "pass": true
+        },
+        {
+          "label": "Floor-only expanded entry has no marker",
+          "pass": true
+        },
+        {
+          "label": "Expanded deep link retains detail through map controls",
+          "pass": true
+        },
+        {
+          "label": "Phone/desktop Expand works",
+          "pass": true
+        },
+        {
+          "label": "Escape closes approved detail",
+          "pass": true
+        },
+        {
+          "label": "Back restores approved detail",
+          "pass": true
+        },
+        {
+          "label": "Locale preserves identity and accepted alternate wording",
+          "pass": true
+        },
+        {
+          "label": "Offering hold remains accessible with pending description",
+          "pass": true
+        },
+        {
+          "label": "All category counts reflect complete approved roster",
+          "pass": true
+        },
+        {
+          "label": "Unapproved Highlights remain empty",
+          "pass": true
+        },
+        {
+          "label": "Real list pointer opens approved offering",
+          "pass": true
+        },
+        {
+          "label": "Map controls preserve actual selected identity/floor",
+          "pass": true
+        },
+        {
+          "label": "Close returns keyboard focus to originating listing",
+          "pass": true
+        },
+        {
+          "label": "No horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "No page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "width": 1280,
+      "locale": "vi",
+      "expandedId": "vincom-candidate-vd-b3-002",
+      "checks": [
+        {
+          "label": "Expanded approved identity exact bilingual offering",
+          "pass": true
+        },
+        {
+          "label": "Public output contains no private/pending directory notice",
+          "pass": true
+        },
+        {
+          "label": "No unverified destination photo",
+          "pass": true
+        },
+        {
+          "label": "Floor-only expanded entry has no marker",
+          "pass": true
+        },
+        {
+          "label": "Expanded deep link retains detail through map controls",
+          "pass": true
+        },
+        {
+          "label": "Phone/desktop Expand works",
+          "pass": true
+        },
+        {
+          "label": "Escape closes approved detail",
+          "pass": true
+        },
+        {
+          "label": "Back restores approved detail",
+          "pass": true
+        },
+        {
+          "label": "Locale preserves identity and accepted alternate wording",
+          "pass": true
+        },
+        {
+          "label": "Offering hold remains accessible with pending description",
+          "pass": true
+        },
+        {
+          "label": "All category counts reflect complete approved roster",
+          "pass": true
+        },
+        {
+          "label": "Unapproved Highlights remain empty",
+          "pass": true
+        },
+        {
+          "label": "Real list pointer opens approved offering",
+          "pass": true
+        },
+        {
+          "label": "Map controls preserve actual selected identity/floor",
+          "pass": true
+        },
+        {
+          "label": "Close returns keyboard focus to originating listing",
+          "pass": true
+        },
+        {
+          "label": "No horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "No page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "width": 1280,
+      "locale": "en",
+      "expandedId": "vincom-candidate-vd-b3-002",
+      "checks": [
+        {
+          "label": "Expanded approved identity exact bilingual offering",
+          "pass": true
+        },
+        {
+          "label": "Public output contains no private/pending directory notice",
+          "pass": true
+        },
+        {
+          "label": "No unverified destination photo",
+          "pass": true
+        },
+        {
+          "label": "Floor-only expanded entry has no marker",
+          "pass": true
+        },
+        {
+          "label": "Expanded deep link retains detail through map controls",
+          "pass": true
+        },
+        {
+          "label": "Phone/desktop Expand works",
+          "pass": true
+        },
+        {
+          "label": "Escape closes approved detail",
+          "pass": true
+        },
+        {
+          "label": "Back restores approved detail",
+          "pass": true
+        },
+        {
+          "label": "Locale preserves identity and accepted alternate wording",
+          "pass": true
+        },
+        {
+          "label": "Offering hold remains accessible with pending description",
+          "pass": true
+        },
+        {
+          "label": "All category counts reflect complete approved roster",
+          "pass": true
+        },
+        {
+          "label": "Unapproved Highlights remain empty",
+          "pass": true
+        },
+        {
+          "label": "Real list pointer opens approved offering",
+          "pass": true
+        },
+        {
+          "label": "Map controls preserve actual selected identity/floor",
+          "pass": true
+        },
+        {
+          "label": "Close returns keyboard focus to originating listing",
+          "pass": true
+        },
+        {
+          "label": "No horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "No page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "width": 390,
+      "locale": "vi",
+      "expandedId": "vincom-candidate-vd-b3-002",
+      "checks": [
+        {
+          "label": "Expanded approved identity exact bilingual offering",
+          "pass": true
+        },
+        {
+          "label": "Public output contains no private/pending directory notice",
+          "pass": true
+        },
+        {
+          "label": "No unverified destination photo",
+          "pass": true
+        },
+        {
+          "label": "Floor-only expanded entry has no marker",
+          "pass": true
+        },
+        {
+          "label": "Expanded deep link retains detail through map controls",
+          "pass": true
+        },
+        {
+          "label": "Phone/desktop Expand works",
+          "pass": true
+        },
+        {
+          "label": "Escape closes approved detail",
+          "pass": true
+        },
+        {
+          "label": "Back restores approved detail",
+          "pass": true
+        },
+        {
+          "label": "Locale preserves identity and accepted alternate wording",
+          "pass": true
+        },
+        {
+          "label": "Offering hold remains accessible with pending description",
+          "pass": true
+        },
+        {
+          "label": "All category counts reflect complete approved roster",
+          "pass": true
+        },
+        {
+          "label": "Unapproved Highlights remain empty",
+          "pass": true
+        },
+        {
+          "label": "Real list pointer opens approved offering",
+          "pass": true
+        },
+        {
+          "label": "Map controls preserve actual selected identity/floor",
+          "pass": true
+        },
+        {
+          "label": "Close returns keyboard focus to originating listing",
+          "pass": true
+        },
+        {
+          "label": "No horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "No page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "width": 390,
+      "locale": "en",
+      "expandedId": "vincom-candidate-vd-b3-002",
+      "checks": [
+        {
+          "label": "Expanded approved identity exact bilingual offering",
+          "pass": true
+        },
+        {
+          "label": "Public output contains no private/pending directory notice",
+          "pass": true
+        },
+        {
+          "label": "No unverified destination photo",
+          "pass": true
+        },
+        {
+          "label": "Floor-only expanded entry has no marker",
+          "pass": true
+        },
+        {
+          "label": "Expanded deep link retains detail through map controls",
+          "pass": true
+        },
+        {
+          "label": "Phone/desktop Expand works",
+          "pass": true
+        },
+        {
+          "label": "Escape closes approved detail",
+          "pass": true
+        },
+        {
+          "label": "Back restores approved detail",
+          "pass": true
+        },
+        {
+          "label": "Locale preserves identity and accepted alternate wording",
+          "pass": true
+        },
+        {
+          "label": "Offering hold remains accessible with pending description",
+          "pass": true
+        },
+        {
+          "label": "All category counts reflect complete approved roster",
+          "pass": true
+        },
+        {
+          "label": "Unapproved Highlights remain empty",
+          "pass": true
+        },
+        {
+          "label": "Real list pointer opens approved offering",
+          "pass": true
+        },
+        {
+          "label": "Map controls preserve actual selected identity/floor",
+          "pass": true
+        },
+        {
+          "label": "Close returns keyboard focus to originating listing",
+          "pass": true
+        },
+        {
+          "label": "No horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "No page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    }
+  ],
+  "failed": []
+}

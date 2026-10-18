@@ -1,0 +1,44 @@
+{
+  "revision": "owner-approved-directory-2026-10-18-r1",
+  "sourceSha256": "dddf720a429e6028817a3c19b3fd18c58c3704b45620e0790a7b0e3788aa823a",
+  "inputs": {
+    "data/malls/saigon-centre/floor-geometry.json": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807",
+    "data/malls/vincom-dong-khoi/floor-geometry.json": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e",
+    "docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json": "dddf720a429e6028817a3c19b3fd18c58c3704b45620e0790a7b0e3788aa823a",
+    "data/research/saigon-centre.json": "659a3f20a4e8477b3b1faf7c4df34718f25b0b76cab30125b24584a0b4b8caf2",
+    "data/research/vincom-dong-khoi.json": "fd3adaf8d5fda9fe290f8b47cfe48a6a1d589e8cd68c3dd0523f5a7d71c264d4",
+    "data/research/location-holds-2026-10-18-r1.json": "f777c850befabc41c0051547f76ccce708f3498609d60ed4cd124d419bb3c6e3",
+    "docs/content-preparation/integration-candidate-2026-10-18-r2/saigon-centre.private.json": "668ab73f71a6c3233142f1f0796fc88fa30fbf57c9bad44182ee323d070426a1",
+    "docs/content-preparation/integration-candidate-2026-10-18-r2/vincom-dong-khoi.private.json": "21cd59607a1336320d2a7128f95ae19b1f0441da443e4a0ba367b35503db4c46",
+    "docs/content-preparation/integration-candidate-2026-10-18-r2/accepted-r4-geometry.json.gz": "89f5ac26720497a9dcbb74bdf89c770432d1e7974b5b1c99474c57698b397434"
+  },
+  "summary": {
+    "saigon-centre": {
+      "destinations": 165,
+      "descriptions": 163,
+      "emptyDescriptions": 2,
+      "areas": 157,
+      "areaConfirmedLocations": 157,
+      "addedRegions": 31
+    },
+    "vincom-dong-khoi": {
+      "destinations": 203,
+      "descriptions": 198,
+      "emptyDescriptions": 5,
+      "areas": 23,
+      "areaConfirmedLocations": 23,
+      "addedRegions": 0
+    }
+  },
+  "result": "PASS",
+  "tenHoldsPreserved": true,
+  "noPhotos": true,
+  "noHighlights": true,
+  "releaseApproval": false,
+  "outputs": {
+    "data/malls/saigon-centre/directory.json": "ffade29ada11d158619a2d58758611b210423bd609b3a4bf4f82b1af88fd5b2c",
+    "data/malls/saigon-centre/approved-regions.json": "0f59b506edbbc4ab634ceda632449bab30b08944a9c14296a04f9938fcf8a500",
+    "data/malls/vincom-dong-khoi/directory.json": "b38b55ab32108efeef2a3cb751f2142fc04c61ba94c4825d50080786ad810c14",
+    "data/malls/vincom-dong-khoi/approved-regions.json": "beb7ac03236e0abfc5721aae2015b8a1e985a2d9235bb5b8edb62c216ccfd8dc"
+  }
+}
