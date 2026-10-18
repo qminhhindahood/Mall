@@ -1,0 +1,57 @@
+{
+  "at": "2026-10-18T11:47:57.803Z",
+  "sharedCommit": "ddb955b1bd5262d4dab638812ecd8e0db34f55e4",
+  "scope": "Shop-detail selection/control stability and opaque reading; source geometry, content and motion unchanged",
+  "sites": [
+    {
+      "worktree": "D:\\Midterm\\.scratch\\mall-branch-bootstrap",
+      "branch": "vincom-dong-khoi",
+      "commit": "325d62389174c2832c54b799d0476381f3cce1d1",
+      "verifiedSharedFiles": 4,
+      "sha256Match": true,
+      "files": [
+        {
+          "path": "src/components/Discovery.tsx",
+          "sha256": "83f3a73629c1dfd7305ff6cae94b6fd9f2badf3b16a5fbbda13abe492dc07d03"
+        },
+        {
+          "path": "src/components/Explorer.tsx",
+          "sha256": "2e819179d6b00caa619f662e3e5fa36eda57bf8316c1f5353f82cb0400168e45"
+        },
+        {
+          "path": "src/components/FloorMap.tsx",
+          "sha256": "287b07cea6a3b54de2f3707273e1ceb3c129af0a1cb2616116b0264992d08461"
+        },
+        {
+          "path": "src/styles/discovery.css",
+          "sha256": "d61c4821421475695725a7c895f766ac36f1159aa8669db0640690d5e606cee9"
+        }
+      ]
+    },
+    {
+      "worktree": "D:\\Midterm\\.scratch\\issue-0005-takashimaya",
+      "branch": "takashimaya",
+      "commit": "d46447ec0cec43eb45d6404f983334f19ce4fbff",
+      "verifiedSharedFiles": 4,
+      "sha256Match": true,
+      "files": [
+        {
+          "path": "src/components/Discovery.tsx",
+          "sha256": "83f3a73629c1dfd7305ff6cae94b6fd9f2badf3b16a5fbbda13abe492dc07d03"
+        },
+        {
+          "path": "src/components/Explorer.tsx",
+          "sha256": "2e819179d6b00caa619f662e3e5fa36eda57bf8316c1f5353f82cb0400168e45"
+        },
+        {
+          "path": "src/components/FloorMap.tsx",
+          "sha256": "287b07cea6a3b54de2f3707273e1ceb3c129af0a1cb2616116b0264992d08461"
+        },
+        {
+          "path": "src/styles/discovery.css",
+          "sha256": "d61c4821421475695725a7c895f766ac36f1159aa8669db0640690d5e606cee9"
+        }
+      ]
+    }
+  ]
+}

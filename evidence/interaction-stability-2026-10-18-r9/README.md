@@ -28,3 +28,10 @@ T3 own-tab snapshots failed twice with `Preview automation snapshot timed out af
 
 Final pointer matrix: eight cases / 192 checks pass, no findings. Accepted motion-off CSS/timing remain unchanged. Source files are explicitly identified in provenance.json; generated source manifests were restored from byte-equivalent public output after verifying JSON equality to HEAD.
 
+
+## Delivery synchronization
+
+Implementation/evidence commit a40c24aeae85ccc621a6201e29658f26ac20b14e. Four tested source files were SHA-256 verified against provenance before copying. Both site branches were clean first, then committed: Vincom 325d62389174c2832c54b799d0476381f3cce1d1; Saigon/Takashimaya d46447ec0cec43eb45d6404f983334f19ce4fbff. All four bytes match on both branches; see propagation.json. No content docs, assets or geometry copied. Root progress index and0016/0017/0019 receive the scoped delivery record while owner review remains pending; preexisting dirty root work is preserved.
+
+Current review links: http://localhost:4355/en?review=interaction-r9 and http://localhost:4356/en?review=interaction-r9.
+
