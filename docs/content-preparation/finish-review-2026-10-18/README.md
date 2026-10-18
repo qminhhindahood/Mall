@@ -1,5 +1,7 @@
 # Complete content preparation for the finishing pass
 
+**Current revision: [description corrections r2](revision-2/README.md), with [editable reader](revision-2/review.html) and [CSV](revision-2/roster-review.csv).** The owner accepted the ten-example style and requested it throughout. R2 contains **361 informative bilingual drafts / 10 null evidence holds across 371 candidates**. This supersedes the r1 minimal-listing proposal and its batch-approval request below. Final wording/roster/language/publication remain unapproved. Richer Discovery detail content and restaurant/shop Highlights are deferred for later collaboration; the six historical nominations are not a launch requirement. The remainder of this page documents historical r1 evidence only.
+
 Revision **finish-review-2026-10-18-r1**, prepared by Codex (AI) on 18 October 2026. This is a consolidated private decision package, not a production directory import. No source code, asset, existing data ledger, approval, public snapshot or site branch changes.
 
 [Open the complete bilingual reader](review.html), [short decision sheet](DECISIONS.md), [371-row editable CSV](roster-review.csv), [machine-readable proposals](roster-proposals.json), [six sourced Highlights nominations](highlights.json), and [mapping audit](mapping-audit.json).

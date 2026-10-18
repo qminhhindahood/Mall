@@ -1,0 +1,11 @@
+[
+  {
+    "mall": "saigon-centre",
+    "locale": "en",
+    "width": 1280,
+    "checks": [],
+    "failed": [
+      "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.discovery-glass') to be visible\u001b[22m\n"
+    ]
+  }
+]

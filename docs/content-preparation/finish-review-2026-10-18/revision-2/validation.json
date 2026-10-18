@@ -1,0 +1,89 @@
+{
+  "revision": "finish-review-descriptions-r2",
+  "totalRecords": 371,
+  "bilingualDrafts": 361,
+  "nullDescriptionHolds": 10,
+  "mallCounts": {
+    "saigon-centre": 165,
+    "vincom-dong-khoi": 206
+  },
+  "vincomBatch": {
+    "rows": 111,
+    "drafts": 106,
+    "primaryAndSupplied": 80,
+    "ownerSuppliedOnly": 26,
+    "nullHolds": 5
+  },
+  "holds": [
+    {
+      "id": "saigon-prototype-rakthai",
+      "name": "RAK Thai",
+      "reason": "description-evidence-gap"
+    },
+    {
+      "id": "vincom-prototype-pangpang",
+      "name": "Pang Pang",
+      "reason": "hold-needs-evidence: Matching primary menu not established; new Crab Pot identity conflicts with supplied fast-food summary."
+    },
+    {
+      "id": "vincom-prototype-cara",
+      "name": "Cara",
+      "reason": "prior-identity-evidence-hold-preserved"
+    },
+    {
+      "id": "vincom-candidate-vd-b2-012",
+      "name": "Catia",
+      "reason": "hold-needs-evidence: Catia identity unresolved; searches collide with unrelated engineering software."
+    },
+    {
+      "id": "vincom-prototype-lizdnamat",
+      "name": "Lizd Namat",
+      "reason": "prior-identity-evidence-hold-preserved"
+    },
+    {
+      "id": "vincom-prototype-sehaaccessories",
+      "name": "Seha Accessories",
+      "reason": "hold-needs-evidence: Seha Accessories has no matched first-party catalogue describing products."
+    },
+    {
+      "id": "vincom-prototype-mujoshtedbaker",
+      "name": "Mujosh & Ted Baker",
+      "reason": "prior-identity-evidence-hold-preserved"
+    },
+    {
+      "id": "vincom-candidate-vd-x-070",
+      "name": "Studio 77",
+      "reason": "hold-needs-evidence: Studio77 fashion/cafe identity conflict; cannot safely borrow either product description."
+    },
+    {
+      "id": "vincom-prototype-dessertplanet",
+      "name": "Dessert Planet",
+      "reason": "hold-needs-evidence: DessertPlanet lacks a matched branch/brand menu; foreign same-name businesses excluded."
+    },
+    {
+      "id": "saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c",
+      "name": "Sport Fair",
+      "reason": "description-evidence-gap"
+    }
+  ],
+  "checks": {
+    "uniqueCompleteIdSet": true,
+    "inheritedIdentityLocationMediaIssuesPreserved": true,
+    "noNewApprovalOrImport": true,
+    "allDraftsHaveSourceReferences": true,
+    "allFreshReadinessRecordsRetained": true
+  },
+  "limitations": [
+    "Source references support drafting, not fresh branch inventory or occupancy.",
+    "26 Vincom drafts rely on supplied summaries only; no independent primary-detail verification is claimed.",
+    "No new source research performed by this assembly; archived and readiness checks retain their own provenance.",
+    "Style acceptance does not approve all final strings, roster, language or release."
+  ],
+  "inputHashes": {
+    "roster-proposals.json": "4ad46b365c8d06b53c44088d8edd27491f514b7242d22ee5b9a3dde67778676f",
+    "revision-2\\owned-rewrites.json": "2bcd1a5d128a99b890ac9cc06906f3326cefc76afa721c09506e60627fb5f3f5",
+    "revision-2\\vincom-minimal-rewrites.json": "5287ced3842b53dbefd05fa51ba25fc98a76cbcb38567f366765b17ed7641e97",
+    "revision-2\\source-checks-readiness.json": "b04addfe52590fc63160982bba82754990d31fcdf7022f453314aa64d1676891",
+    "revision-2\\style-decision.json": "f5df1fb243866dd913cfc6899d7166494f7ffdf659c026994ba9cf02872bfed0"
+  }
+}

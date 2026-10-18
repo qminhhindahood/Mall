@@ -1,0 +1,123 @@
+{
+  "at": "2026-10-18T12:10:41.100Z",
+  "packetSha256": "dddf720a429e6028817a3c19b3fd18c58c3704b45620e0790a7b0e3788aa823a",
+  "scope": "Private draft wording and preserved selected-detail controls; no owner/public approval",
+  "static": [
+    {
+      "mall": "saigon-centre",
+      "roster": 163,
+      "drafts": 162,
+      "holds": 1,
+      "publicSnapshotApproval": "pending",
+      "publicResearchRouteAbsent": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "roster": 143,
+      "drafts": 137,
+      "holds": 6,
+      "publicSnapshotApproval": "pending",
+      "publicResearchRouteAbsent": true
+    }
+  ],
+  "browser": [
+    {
+      "mall": "saigon-centre",
+      "width": 1280,
+      "locale": "vi",
+      "checks": [
+        {
+          "label": "Current bilingual informative draft shown",
+          "pass": true
+        },
+        {
+          "label": "Private draft notice retained",
+          "pass": true
+        },
+        {
+          "label": "Zoom retains selection and detail",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Zoom retains selection and detail"
+      ],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "width": 1280,
+      "locale": "en",
+      "checks": [
+        {
+          "label": "Current bilingual informative draft shown",
+          "pass": true
+        },
+        {
+          "label": "Private draft notice retained",
+          "pass": true
+        },
+        {
+          "label": "Zoom retains selection and detail",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Zoom retains selection and detail"
+      ],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "width": 390,
+      "locale": "vi",
+      "checks": [
+        {
+          "label": "Current bilingual informative draft shown",
+          "pass": true
+        },
+        {
+          "label": "Private draft notice retained",
+          "pass": true
+        },
+        {
+          "label": "Zoom retains selection and detail",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Zoom retains selection and detail"
+      ],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "width": 390,
+      "locale": "en",
+      "checks": [
+        {
+          "label": "Current bilingual informative draft shown",
+          "pass": true
+        },
+        {
+          "label": "Private draft notice retained",
+          "pass": true
+        },
+        {
+          "label": "Zoom retains selection and detail",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Zoom retains selection and detail"
+      ],
+      "pageErrors": []
+    }
+  ],
+  "failed": [
+    "saigon-centre/1280/vi: Zoom retains selection and detail",
+    "saigon-centre/1280/en: Zoom retains selection and detail",
+    "saigon-centre/390/vi: Zoom retains selection and detail",
+    "saigon-centre/390/en: Zoom retains selection and detail"
+  ]
+}

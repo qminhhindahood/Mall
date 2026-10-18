@@ -1,0 +1,3 @@
+# Preserve r2 hash-bound inputs and outputs across Windows checkouts.
+roster-proposals.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+revision-2/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

@@ -1,5 +1,7 @@
 # Final content decision sheet
 
+**Superseded for current review by [revision 2](revision-2/README.md).** The owner accepted the ten-example description style; all final wording is still draft. The current editable reader has **361 VI/EN drafts and 10 explicit evidence holds**. Use it to make corrections; no premature batch approval is requested. Richer Discovery detail content and restaurant/shop Highlights are explicitly deferred until later collaboration. The six nominations and recommended package below are historical r1 proposals, not current owner-approved selections or launch requirements. Existing no-photo/no-marker policy remains accepted; roster, currentness, final language and hosting/release remain separate actual decisions.
+
 Prepared 18 October 2026. This packet gives concrete choices; it does not record their acceptance.
 
 **Recommended package:** approve the proposed 368 basic listings and their VI/EN wording as one batch, excluding Cara, Lizd Namat and Mujosh & Ted Baker until identity evidence exists; use the six proposed Highlights; launch with the accepted no-photo/no-marker treatment and no unsupported facility claims. This is one reviewable package, with corrections by exception. No 371 separate decisions are requested. The three excluded identities remain in the audit roster with explicit null text, not in the proposed launch set.

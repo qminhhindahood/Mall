@@ -7,6 +7,22 @@ const packet = 'docs/content-preparation/integration-candidate-2026-10-18-r2';
 const read = path => JSON.parse(readFileSync(path, 'utf8'));
 const hash = path => createHash('sha256').update(readFileSync(path)).digest('hex');
 
+/** Draft wording is opt-in research data, never an approved directory snapshot. */
+export function researchDescriptions(root, mallId) {
+  if (process.env.INCLUDE_TEST_FIXTURES !== 'research') throw new Error('Draft descriptions are research-only');
+  const draft=read(resolve(root,'docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json'));
+  if (draft.revision!=='finish-review-descriptions-r2' || draft.fullWordingApproval!==false || draft.publicImportAllowed!==false) throw new Error('Unexpected draft description approval scope');
+  const descriptions=new Map();
+  for (const row of draft.records.filter(row=>row.mall===mallId)) {
+    if (descriptions.has(row.id)) throw new Error('Duplicate draft description identity');
+    const description=row.proposedDescription;
+    const held=description===null || (description?.vi===null && description?.en===null);
+    if (!held && (typeof description?.vi!=='string' || !description.vi.trim() || typeof description?.en!=='string' || !description.en.trim())) throw new Error('Draft requires both languages or an explicit hold');
+    descriptions.set(row.id,held?{vi:'',en:''}:description);
+  }
+  return descriptions;
+}
+
 /** @param {string} root @param {string} mallId */
 export function researchDecisionPacket(root, mallId) {
   if (process.env.INCLUDE_TEST_FIXTURES !== 'research') throw new Error('Owner decision overlay is research-only');

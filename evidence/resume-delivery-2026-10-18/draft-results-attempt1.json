@@ -1,0 +1,83 @@
+{
+  "at": "2026-10-18T12:09:35.564Z",
+  "packetSha256": "dddf720a429e6028817a3c19b3fd18c58c3704b45620e0790a7b0e3788aa823a",
+  "scope": "Private draft wording and preserved selected-detail controls; no owner/public approval",
+  "static": [
+    {
+      "mall": "saigon-centre",
+      "roster": 163,
+      "drafts": 162,
+      "holds": 1,
+      "publicSnapshotApproval": "pending",
+      "publicResearchRouteAbsent": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "roster": 143,
+      "drafts": 137,
+      "holds": 6,
+      "publicSnapshotApproval": "pending",
+      "publicResearchRouteAbsent": true
+    }
+  ],
+  "browser": [
+    {
+      "mall": "saigon-centre",
+      "width": 1280,
+      "locale": "vi",
+      "checks": [
+        {
+          "label": "Current bilingual informative draft shown",
+          "pass": true
+        },
+        {
+          "label": "Private draft notice retained",
+          "pass": true
+        }
+      ],
+      "failed": [
+        "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.map-controls button').first()\u001b[22m\n\u001b[2m    - locator resolved to <button disabled title=\"Thu nhỏ sơ đồ\" aria-label=\"Thu nhỏ sơ đồ\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    56 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+      ],
+      "pageErrors": []
+    }
+  ],
+  "failed": [
+    "saigon-centre/en/saigon-prototype-louisvuitton: draft missing from generated HTML",
+    "saigon-centre/en/saigon-prototype-grandseiko: draft missing from generated HTML",
+    "saigon-centre/en/saigon-prototype-zenith: draft missing from generated HTML",
+    "saigon-centre/en/saigon-prototype-chanel: draft missing from generated HTML",
+    "saigon-centre/en/saigon-prototype-lachcalachcach: draft missing from generated HTML",
+    "saigon-centre/en/saigon-prototype-asiancorner: draft missing from generated HTML",
+    "saigon-centre/en/saigon-prototype-annamcafe: draft missing from generated HTML",
+    "saigon-centre/en/saigon-prototype-oedoalley: draft missing from generated HTML",
+    "saigon-centre/en/saigon-prototype-tonkatsuwako: draft missing from generated HTML",
+    "saigon-centre/en/saigon-prototype-botejyuokonomiyaki: draft missing from generated HTML",
+    "saigon-centre/en/saigon-prototype-ramenichibanken: draft missing from generated HTML",
+    "saigon-centre/en/saigon-prototype-longjing: draft missing from generated HTML",
+    "saigon-centre/en/saigon-prototype-somtamthai: draft missing from generated HTML",
+    "saigon-centre/en/saigon-prototype-hla: draft missing from generated HTML",
+    "saigon-centre/en/saigon-prototype-armaniexchange: draft missing from generated HTML",
+    "saigon-centre/en/saigon-prototype-dsquared2: draft missing from generated HTML",
+    "saigon-centre/en/saigon-prototype-maxco: draft missing from generated HTML",
+    "saigon-centre/en/saigon-prototype-stanley1913: draft missing from generated HTML",
+    "vincom-dong-khoi/en/vincom-prototype-adidasoriginals: draft missing from generated HTML",
+    "vincom-dong-khoi/en/vincom-prototype-nikerise: draft missing from generated HTML",
+    "vincom-dong-khoi/vi/vincom-prototype-levis: draft missing from generated HTML",
+    "vincom-dong-khoi/en/vincom-prototype-levis: draft missing from generated HTML",
+    "vincom-dong-khoi/vi/vincom-prototype-victoriassecret: draft missing from generated HTML",
+    "vincom-dong-khoi/en/vincom-prototype-victoriassecret: draft missing from generated HTML",
+    "vincom-dong-khoi/en/vincom-prototype-vincy: draft missing from generated HTML",
+    "vincom-dong-khoi/en/vincom-prototype-karllagerfeld: draft missing from generated HTML",
+    "vincom-dong-khoi/en/vincom-prototype-runamboutique: draft missing from generated HTML",
+    "vincom-dong-khoi/en/vincom-prototype-haidilao: draft missing from generated HTML",
+    "vincom-dong-khoi/en/vincom-prototype-longwang: draft missing from generated HTML",
+    "vincom-dong-khoi/en/vincom-prototype-somthai: draft missing from generated HTML",
+    "vincom-dong-khoi/en/vincom-prototype-cafecong: draft missing from generated HTML",
+    "vincom-dong-khoi/en/vincom-prototype-matsuya: draft missing from generated HTML",
+    "vincom-dong-khoi/en/vincom-prototype-copenhaghen: draft missing from generated HTML",
+    "vincom-dong-khoi/en/vincom-prototype-tuttopiccolo: draft missing from generated HTML",
+    "vincom-dong-khoi/en/vincom-prototype-dior: draft missing from generated HTML",
+    "vincom-dong-khoi/en/vincom-prototype-honeecoffee: draft missing from generated HTML",
+    "saigon-centre/1280/vi: locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.map-controls button').first()\u001b[22m\n\u001b[2m    - locator resolved to <button disabled title=\"Thu nhỏ sơ đồ\" aria-label=\"Thu nhỏ sơ đồ\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    56 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+  ]
+}

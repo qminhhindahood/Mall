@@ -1,0 +1,29 @@
+{
+  "revision": "finish-review-descriptions-r2",
+  "tool": "T3 html_preview",
+  "widths": [390, 728],
+  "checksPerWidth": {
+    "initialRecords": 371,
+    "holdFilter": 10,
+    "suppliedOnlyFilter": 26,
+    "nameFilterResults": 1,
+    "editableRecordRetained": 1,
+    "horizontalOverflow": false,
+    "consoleErrors": 0
+  },
+  "visualInspection": "Inspected bilingual Annam Gourmet fields and responsive stacking at both widths. Explicit control text colors repaired a host-theme readability defect before final captures.",
+  "additional390Check": {
+    "rakThaiHoldVisible": true,
+    "correctionCaptured": "saigon-prototype-rakthai.vi = Owner correction",
+    "exportFilename": "description-corrections-r2.json",
+    "exportKind": "owner-corrections-not-approval",
+    "method": "Intercepted anchor click and object URL in the preview, then read the generated Blob JSON. Actual OS download persistence is not claimed."
+  },
+  "inlinePublish": {
+    "attempted": true,
+    "success": false,
+    "rawError": "{\"_tag\":\"OrchestratorMcpFailure\",\"code\":\"parent_not_active\",\"message\":\"The calling provider no longer owns an active thread run.\"}",
+    "nextStep": "Parent can publish checked review.html with html_render during its active run."
+  },
+  "scope": "Private packet reader checks only; no site or physical-device acceptance."
+}

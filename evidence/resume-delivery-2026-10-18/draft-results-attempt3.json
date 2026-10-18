@@ -1,0 +1,244 @@
+{
+  "at": "2026-10-18T12:11:13.009Z",
+  "packetSha256": "dddf720a429e6028817a3c19b3fd18c58c3704b45620e0790a7b0e3788aa823a",
+  "scope": "Private draft wording and preserved selected-detail controls; no owner/public approval",
+  "static": [
+    {
+      "mall": "saigon-centre",
+      "roster": 163,
+      "drafts": 162,
+      "holds": 1,
+      "publicSnapshotApproval": "pending",
+      "publicResearchRouteAbsent": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "roster": 143,
+      "drafts": 137,
+      "holds": 6,
+      "publicSnapshotApproval": "pending",
+      "publicResearchRouteAbsent": true
+    }
+  ],
+  "browser": [
+    {
+      "mall": "saigon-centre",
+      "width": 1280,
+      "locale": "vi",
+      "checks": [
+        {
+          "label": "Current bilingual informative draft shown",
+          "pass": true
+        },
+        {
+          "label": "Private draft notice retained",
+          "pass": true
+        },
+        {
+          "label": "Zoom retains selection and detail",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Zoom retains selection and detail"
+      ],
+      "pageErrors": [],
+      "controlDiagnostics": {
+        "before": "http://localhost:4355/vi/cua-hang/saigon-prototype-annamgourmet?view=discovery&floor=B2",
+        "after": "http://localhost:4355/vi/cua-hang/saigon-prototype-annamgourmet?floor=B2&view=map",
+        "floor": "B2",
+        "afterFloor": "B2",
+        "details": 0
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "width": 1280,
+      "locale": "en",
+      "checks": [
+        {
+          "label": "Current bilingual informative draft shown",
+          "pass": true
+        },
+        {
+          "label": "Private draft notice retained",
+          "pass": true
+        },
+        {
+          "label": "Zoom retains selection and detail",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Zoom retains selection and detail"
+      ],
+      "pageErrors": [],
+      "controlDiagnostics": {
+        "before": "http://localhost:4355/en/stores/saigon-prototype-annamgourmet?view=discovery&floor=B2",
+        "after": "http://localhost:4355/en/stores/saigon-prototype-annamgourmet?floor=B2&view=map",
+        "floor": "B2",
+        "afterFloor": "B2",
+        "details": 0
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "width": 390,
+      "locale": "vi",
+      "checks": [
+        {
+          "label": "Current bilingual informative draft shown",
+          "pass": true
+        },
+        {
+          "label": "Private draft notice retained",
+          "pass": true
+        },
+        {
+          "label": "Zoom retains selection and detail",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Zoom retains selection and detail"
+      ],
+      "pageErrors": [],
+      "controlDiagnostics": {
+        "before": "http://localhost:4355/vi/cua-hang/saigon-prototype-annamgourmet?view=discovery&floor=B2",
+        "after": "http://localhost:4355/vi/cua-hang/saigon-prototype-annamgourmet?floor=B2&view=map",
+        "floor": "B2",
+        "afterFloor": "B2",
+        "details": 0
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "width": 390,
+      "locale": "en",
+      "checks": [
+        {
+          "label": "Current bilingual informative draft shown",
+          "pass": true
+        },
+        {
+          "label": "Private draft notice retained",
+          "pass": true
+        },
+        {
+          "label": "Zoom retains selection and detail",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Zoom retains selection and detail"
+      ],
+      "pageErrors": [],
+      "controlDiagnostics": {
+        "before": "http://localhost:4355/en/stores/saigon-prototype-annamgourmet?view=discovery&floor=B2",
+        "after": "http://localhost:4355/en/stores/saigon-prototype-annamgourmet?floor=B2&view=map",
+        "floor": "B2",
+        "afterFloor": "B2",
+        "details": 0
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "width": 1280,
+      "locale": "vi",
+      "checks": [
+        {
+          "label": "Current bilingual informative draft shown",
+          "pass": true
+        },
+        {
+          "label": "Private draft notice retained",
+          "pass": true
+        },
+        {
+          "label": "Zoom retains selection and detail",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Zoom retains selection and detail"
+      ],
+      "pageErrors": [],
+      "controlDiagnostics": {
+        "before": "http://localhost:4356/vi/cua-hang/vincom-prototype-haidilao?view=discovery&floor=L3",
+        "after": "http://localhost:4356/vi/cua-hang/vincom-prototype-haidilao?floor=L3&view=map",
+        "floor": "L3",
+        "afterFloor": "L3",
+        "details": 0
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "width": 1280,
+      "locale": "en",
+      "checks": [
+        {
+          "label": "Current bilingual informative draft shown",
+          "pass": true
+        },
+        {
+          "label": "Private draft notice retained",
+          "pass": true
+        },
+        {
+          "label": "Zoom retains selection and detail",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Zoom retains selection and detail"
+      ],
+      "pageErrors": [],
+      "controlDiagnostics": {
+        "before": "http://localhost:4356/en/stores/vincom-prototype-haidilao?view=discovery&floor=L3",
+        "after": "http://localhost:4356/en/stores/vincom-prototype-haidilao?floor=L3&view=map",
+        "floor": "L3",
+        "afterFloor": "L3",
+        "details": 0
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "width": 390,
+      "locale": "vi",
+      "checks": [
+        {
+          "label": "Current bilingual informative draft shown",
+          "pass": true
+        },
+        {
+          "label": "Private draft notice retained",
+          "pass": true
+        },
+        {
+          "label": "Zoom retains selection and detail",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Zoom retains selection and detail"
+      ],
+      "pageErrors": [],
+      "controlDiagnostics": {
+        "before": "http://localhost:4356/vi/cua-hang/vincom-prototype-haidilao?view=discovery&floor=L3",
+        "after": "http://localhost:4356/vi/cua-hang/vincom-prototype-haidilao?floor=L3&view=map",
+        "floor": "L3",
+        "afterFloor": "L3",
+        "details": 0
+      }
+    }
+  ],
+  "failed": [
+    "saigon-centre/1280/vi: Zoom retains selection and detail",
+    "saigon-centre/1280/en: Zoom retains selection and detail",
+    "saigon-centre/390/vi: Zoom retains selection and detail",
+    "saigon-centre/390/en: Zoom retains selection and detail",
+    "vincom-dong-khoi/1280/vi: Zoom retains selection and detail",
+    "vincom-dong-khoi/1280/en: Zoom retains selection and detail",
+    "vincom-dong-khoi/390/vi: Zoom retains selection and detail"
+  ]
+}
