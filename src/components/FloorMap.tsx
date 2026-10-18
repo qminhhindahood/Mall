@@ -26,7 +26,7 @@ export default memo(function FloorMap({ floor, title, viewBounds, content, local
       if(slab?.referenceZonePaths.length&&!area)return null;
       const number=area&&areaNumbers?.[area.id];
       const label=area?[number,area.name[locale],...(content?.destinations.filter(d=>d.locations.some(l=>l.floorId===floor.id&&l.areaIds.includes(area.id))).map(d=>d.name[locale])??[])].filter(Boolean).join(' · '):undefined;
-      return <path key={region.id} fillRule="evenodd" data-selected={active} data-discovery-area={!!number} role={area&&onArea?'button':undefined} tabIndex={area&&onArea?0:undefined} aria-label={label} aria-pressed={area&&onArea?active:undefined} onClick={area&&onArea?event=>{event.currentTarget.focus();onArea(area.id);}:undefined} onKeyDown={area&&onArea?event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();onArea(area.id);}}:undefined} d={[region.outer,...region.holes].map(ring=>`M${ring.map(point=>point.join(',')).join(' L')} Z`).join(' ')} />;
+      return <path key={region.id} fillRule="evenodd" data-selected={active} data-discovery-area={!!number} role={area&&onArea?'button':undefined} tabIndex={area&&onArea?0:undefined} aria-label={label} aria-pressed={area&&onArea?active:undefined} onClick={area&&onArea?event=>{event.currentTarget.focus({preventScroll:true});onArea(area.id);}:undefined} onKeyDown={area&&onArea?event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();onArea(area.id);}}:undefined} d={[region.outer,...region.holes].map(ring=>`M${ring.map(point=>point.join(',')).join(' L')} Z`).join(' ')} />;
     })}
     {areaNumbers&&content?.areas.filter(area=>area.floorId===floor.id&&areaNumbers[area.id]).map(area=>{
       const point=areaLabelPoint(floor,area.regionIds);

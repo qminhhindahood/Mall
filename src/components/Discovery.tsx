@@ -44,7 +44,7 @@ export default function Discovery({site,selection,previewFloor,areaNumbers,activ
   useEffect(()=>{
     if(!visible)return;
     const key=(event:KeyboardEvent)=>{if(event.key==='Escape'){event.preventDefault();closeDetail();}};
-    const pointer=(event:PointerEvent)=>{const target=event.target;if(target instanceof Element&&!target.closest('.discovery-glass,[data-discovery-result],.map-transform,a[lang]'))closeDetail(false);};
+    const pointer=(event:PointerEvent)=>{const target=event.target;if(target instanceof Element&&!target.closest('.discovery-glass,[data-discovery-result],.persistent-map,a[lang]'))closeDetail(false);};
     window.addEventListener('keydown',key);document.addEventListener('pointerdown',pointer);
     return()=>{window.removeEventListener('keydown',key);document.removeEventListener('pointerdown',pointer);};
   },[visible,closeDetail]);
@@ -56,10 +56,14 @@ export default function Discovery({site,selection,previewFloor,areaNumbers,activ
       const rect=(anchor.current?.isConnected?anchor.current:list)?.getBoundingClientRect();
       if(!rect)return;
       const width=Math.min(450,list?.getBoundingClientRect().width??450);
-      setCardStyle({width,left:Math.max(18,Math.min(innerWidth-width-18,rect.left)),top:Math.max(136,Math.min(rect.top,innerHeight-(detailRef.current?.offsetHeight??360)-18))});
+      const next={width,left:Math.max(18,Math.min(innerWidth-width-18,rect.left)),top:Math.max(136,Math.min(rect.top,innerHeight-(detailRef.current?.offsetHeight??360)-18))};
+      setCardStyle(prior=>prior.width===next.width&&prior.left===next.left&&prior.top===next.top?prior:next);
     };
+    // Width/content changes can alter the card height after its first placement.
+    const observer=new ResizeObserver(place);
+    if(detailRef.current)observer.observe(detailRef.current);
     place();window.addEventListener('resize',place);window.addEventListener('scroll',place,{passive:true});
-    return()=>{window.removeEventListener('resize',place);window.removeEventListener('scroll',place);};
+    return()=>{observer.disconnect();window.removeEventListener('resize',place);window.removeEventListener('scroll',place);};
   },[visible,selected?.id,area?.id,portal,detailRef]);
   const select=(destination:Destination,floorId:string,event:MouseEvent<HTMLAnchorElement>)=>{
     anchor.current=event.currentTarget;setShare('');

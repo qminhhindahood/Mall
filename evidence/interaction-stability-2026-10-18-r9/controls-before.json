@@ -1,0 +1,70 @@
+[
+  {
+    "mall": "saigon",
+    "width": 1280,
+    "failed": [
+      "Map control dismissed shop or changed floor"
+    ],
+    "before": {
+      "url": "http://localhost:4355/en/stores/saigon-prototype-annamcafe?floor=B2&view=discovery",
+      "floor": "B2",
+      "card": true
+    },
+    "after": {
+      "url": "http://localhost:4355/en?floor=L5&view=discovery",
+      "floor": "L5",
+      "card": false
+    }
+  },
+  {
+    "mall": "saigon",
+    "width": 390,
+    "failed": [
+      "Map control dismissed shop or changed floor"
+    ],
+    "before": {
+      "url": "http://localhost:4355/en/stores/saigon-prototype-annamcafe?floor=B2&view=discovery",
+      "floor": "B2",
+      "card": true
+    },
+    "after": {
+      "url": "http://localhost:4355/en?floor=L5&view=discovery",
+      "floor": "L5",
+      "card": false
+    }
+  },
+  {
+    "mall": "vincom",
+    "width": 1280,
+    "failed": [
+      "Map control dismissed shop or changed floor"
+    ],
+    "before": {
+      "url": "http://localhost:4356/en/stores/vincom-prototype-bastahiro?floor=B3&view=discovery",
+      "floor": "B3",
+      "card": true
+    },
+    "after": {
+      "url": "http://localhost:4356/en?floor=B2&view=discovery",
+      "floor": "B3",
+      "card": false
+    }
+  },
+  {
+    "mall": "vincom",
+    "width": 390,
+    "failed": [
+      "Map control dismissed shop or changed floor"
+    ],
+    "before": {
+      "url": "http://localhost:4356/en/stores/vincom-prototype-bastahiro?floor=B3&view=discovery",
+      "floor": "B3",
+      "card": true
+    },
+    "after": {
+      "url": "http://localhost:4356/en?floor=B2&view=discovery",
+      "floor": "B3",
+      "card": false
+    }
+  }
+]

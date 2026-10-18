@@ -46,10 +46,11 @@
 .discovery-glass nav{display:flex;gap:8px;flex-wrap:wrap}.discovery-glass a{display:inline-flex;align-items:center;min-height:44px;color:var(--action)}.discovery-glass nav a{padding:6px 12px}
 .discovery-glass ul{list-style:none;margin:0;padding:0}.discovery-glass li a{width:100%;padding:12px 0;border-bottom:1px solid var(--line)}
 .discovery-glass .discovery-location-note{border-top:1px solid var(--line);padding-top:14px;font-size:13px;color:var(--muted)}
-@supports(backdrop-filter:blur(24px)){.visitor-guide .discovery-glass{background:rgb(255 253 250 / .82);backdrop-filter:blur(24px) saturate(1.35);-webkit-backdrop-filter:blur(24px) saturate(1.35)}}
+/* Detail copy is a reading surface; results must not show through it. */
 @media(min-width:701px) and (max-width:1200px){.discovery-layout{grid-template-columns:1fr}.discovery-category-heading{justify-content:flex-start}#discovery-category-list{flex-direction:row;overflow:auto;padding-bottom:8px}#discovery-category-list a{max-width:220px;flex-shrink:0;border:1px solid var(--line)}}
 @media(max-width:700px){
   .map-discovery-journey[data-discovery=true]{display:block}.map-discovery-journey[data-discovery=true] .persistent-map .scene-host{height:240px;min-height:240px}.persistent-map[data-expanded=true] .scene-host{height:420px!important}
+  .map-discovery-journey[data-discovery=true] .discovery-map-context{position:absolute;top:0;left:0;right:0;z-index:5;background:var(--paper)}
   .visitor-guide #scene-discovery{padding-top:28px;scroll-margin-top:calc(116px + 240px + 100px)}.discovery-intro{margin-bottom:18px}.discovery-intro p{font-size:14px}
   .discovery-layout{grid-template-columns:1fr;gap:18px}.discovery-category-heading{justify-content:flex-start;gap:14px;margin-bottom:8px}#discovery-category-list{flex-direction:row;overflow:auto;padding-bottom:8px;scrollbar-width:thin}#discovery-category-list a{flex-shrink:0;max-width:220px;border:1px solid var(--line);font-size:14px}
   .visitor-guide .discovery-collection-heading h3{font-size:28px}.discovery-floors{flex-wrap:nowrap;overflow:auto;padding-bottom:6px}.discovery-scope{font-size:13px}

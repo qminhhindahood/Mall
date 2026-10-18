@@ -1,0 +1,312 @@
+[
+  {
+    "mall": "saigon",
+    "width": 1280,
+    "locale": "en",
+    "failed": [],
+    "checks": [
+      {
+        "name": "Shop pointer opens details",
+        "pass": true
+      },
+      {
+        "name": "Map control 1 retains selected shop/floor",
+        "pass": true
+      },
+      {
+        "name": "Map control 1 retains selected shop/floor",
+        "pass": true
+      },
+      {
+        "name": "Map control 0 retains selected shop/floor",
+        "pass": true
+      },
+      {
+        "name": "Map control 2 retains selected shop/floor",
+        "pass": true
+      },
+      {
+        "name": "Map control 3 retains selected shop/floor",
+        "pass": true
+      },
+      {
+        "name": "Reachable expand true retains detail",
+        "pass": true
+      },
+      {
+        "name": "Reachable expand false retains detail",
+        "pass": true
+      },
+      {
+        "name": "Detail reading surface opaque",
+        "pass": true
+      },
+      {
+        "name": "Escape restores shop focus",
+        "pass": true
+      },
+      {
+        "name": "Hit-tested map area 0 reachable",
+        "pass": true
+      },
+      {
+        "name": "Map pointer opens details 0",
+        "pass": true
+      },
+      {
+        "name": "Map pointer preserves scroll 0",
+        "pass": true
+      },
+      {
+        "name": "Map selection highlighted 0",
+        "pass": true
+      },
+      {
+        "name": "Hit-tested map area 1 reachable",
+        "pass": true
+      },
+      {
+        "name": "Map pointer opens details 1",
+        "pass": true
+      },
+      {
+        "name": "Map pointer preserves scroll 1",
+        "pass": true
+      },
+      {
+        "name": "Map selection highlighted 1",
+        "pass": true
+      },
+      {
+        "name": "Hit-tested map area 2 reachable",
+        "pass": true
+      },
+      {
+        "name": "Map pointer opens details 2",
+        "pass": true
+      },
+      {
+        "name": "Map pointer preserves scroll 2",
+        "pass": true
+      },
+      {
+        "name": "Map selection highlighted 2",
+        "pass": true
+      },
+      {
+        "name": "Escape closes map detail",
+        "pass": true
+      },
+      {
+        "name": "Outside click dismisses intentionally",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "mall": "saigon",
+    "width": 1280,
+    "locale": "vi",
+    "failed": [],
+    "checks": [
+      {
+        "name": "Shop pointer opens details",
+        "pass": true
+      },
+      {
+        "name": "Map control 1 retains selected shop/floor",
+        "pass": true
+      },
+      {
+        "name": "Map control 1 retains selected shop/floor",
+        "pass": true
+      },
+      {
+        "name": "Map control 0 retains selected shop/floor",
+        "pass": true
+      },
+      {
+        "name": "Map control 2 retains selected shop/floor",
+        "pass": true
+      },
+      {
+        "name": "Map control 3 retains selected shop/floor",
+        "pass": true
+      },
+      {
+        "name": "Reachable expand true retains detail",
+        "pass": true
+      },
+      {
+        "name": "Reachable expand false retains detail",
+        "pass": true
+      },
+      {
+        "name": "Detail reading surface opaque",
+        "pass": true
+      },
+      {
+        "name": "Escape restores shop focus",
+        "pass": true
+      },
+      {
+        "name": "Hit-tested map area 0 reachable",
+        "pass": true
+      },
+      {
+        "name": "Map pointer opens details 0",
+        "pass": true
+      },
+      {
+        "name": "Map pointer preserves scroll 0",
+        "pass": true
+      },
+      {
+        "name": "Map selection highlighted 0",
+        "pass": true
+      },
+      {
+        "name": "Hit-tested map area 1 reachable",
+        "pass": true
+      },
+      {
+        "name": "Map pointer opens details 1",
+        "pass": true
+      },
+      {
+        "name": "Map pointer preserves scroll 1",
+        "pass": true
+      },
+      {
+        "name": "Map selection highlighted 1",
+        "pass": true
+      },
+      {
+        "name": "Hit-tested map area 2 reachable",
+        "pass": true
+      },
+      {
+        "name": "Map pointer opens details 2",
+        "pass": true
+      },
+      {
+        "name": "Map pointer preserves scroll 2",
+        "pass": true
+      },
+      {
+        "name": "Map selection highlighted 2",
+        "pass": true
+      },
+      {
+        "name": "Escape closes map detail",
+        "pass": true
+      },
+      {
+        "name": "Outside click dismisses intentionally",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "mall": "saigon",
+    "width": 390,
+    "locale": "en",
+    "failed": [
+      "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.discovery-collection-heading h3')\u001b[22m\n\u001b[2m    - locator resolved to <h3>Dining</h3>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"map-transform\">…</div> from <div data-expanded=\"false\" class=\"persistent-map\" data-travelling=\"false\" data-controls-hidden=\"false\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"discovery-glass-content\">…</div> from <article tabindex=\"-1\" class=\"discovery-glass\" aria-labelledby=\"discovery-glass-title\" aria-describedby=\"discovery-glass-description\">…</article> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <button disabled title=\"Zoom out on map\" aria-label=\"Zoom out on map\">…</button> from <div data-expanded=\"false\" class=\"persistent-map\" data-travelling=\"false\" data-controls-hidden=\"false\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <nav aria-label=\"Visitor guide\">…</nav> from <header data-visible=\"true\" class=\"journey-header\">…</header> subtree intercepts pointer events\u001b[22m\n\u001b[2m  14 × retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div class=\"discovery-glass-content\">…</div> from <article tabindex=\"-1\" class=\"discovery-glass\" aria-labelledby=\"discovery-glass-title\" aria-describedby=\"discovery-glass-description\">…</article> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <button disabled title=\"Zoom out on map\" aria-label=\"Zoom out on map\">…</button> from <div data-expanded=\"false\" class=\"persistent-map\" data-travelling=\"false\" data-controls-hidden=\"false\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <nav aria-label=\"Visitor guide\">…</nav> from <header data-visible=\"true\" class=\"journey-header\">…</header> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <nav aria-label=\"Visitor guide\">…</nav> from <header data-visible=\"true\" class=\"journey-header\">…</header> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n"
+    ],
+    "checks": [
+      {
+        "name": "Shop pointer opens details",
+        "pass": true
+      },
+      {
+        "name": "Map control 1 retains selected shop/floor",
+        "pass": true
+      },
+      {
+        "name": "Map control 1 retains selected shop/floor",
+        "pass": true
+      },
+      {
+        "name": "Map control 0 retains selected shop/floor",
+        "pass": true
+      },
+      {
+        "name": "Map control 2 retains selected shop/floor",
+        "pass": true
+      },
+      {
+        "name": "Map control 3 retains selected shop/floor",
+        "pass": true
+      },
+      {
+        "name": "Reachable expand true retains detail",
+        "pass": true
+      },
+      {
+        "name": "Reachable expand false retains detail",
+        "pass": true
+      },
+      {
+        "name": "Detail reading surface opaque",
+        "pass": true
+      },
+      {
+        "name": "Escape restores shop focus",
+        "pass": true
+      },
+      {
+        "name": "Hit-tested map area 0 reachable",
+        "pass": true
+      },
+      {
+        "name": "Map pointer opens details 0",
+        "pass": true
+      },
+      {
+        "name": "Map pointer preserves scroll 0",
+        "pass": true
+      },
+      {
+        "name": "Map selection highlighted 0",
+        "pass": true
+      },
+      {
+        "name": "Hit-tested map area 1 reachable",
+        "pass": true
+      },
+      {
+        "name": "Map pointer opens details 1",
+        "pass": true
+      },
+      {
+        "name": "Map pointer preserves scroll 1",
+        "pass": true
+      },
+      {
+        "name": "Map selection highlighted 1",
+        "pass": true
+      },
+      {
+        "name": "Hit-tested map area 2 reachable",
+        "pass": true
+      },
+      {
+        "name": "Map pointer opens details 2",
+        "pass": true
+      },
+      {
+        "name": "Map pointer preserves scroll 2",
+        "pass": true
+      },
+      {
+        "name": "Map selection highlighted 2",
+        "pass": true
+      },
+      {
+        "name": "Escape closes map detail",
+        "pass": true
+      }
+    ]
+  }
+]

@@ -393,7 +393,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     if(restoreFocus){closingDiscovery.current=true;restoreScroll.current=prior?.scrollY??window.scrollY;focusRequest.current=next;}
     setSelection(next);
   }
-  const change = (kind: SceneKind, floorId=selection.floorId): ExplorerSelection => ({...selection,kind,floorId,destinationId:undefined});
+  const change = (kind: SceneKind, floorId=selection.floorId): ExplorerSelection => ({...selection,kind,floorId,destinationId:undefined,areaId:undefined});
   return <>
     <div className="visitor-guide" data-mall={site.mallId} data-paused={paused} data-view={selection.kind}>
     <a className="skip-introduction" href={href(change('map'))} onClick={event=>navigate(change('map'),event)}>{c.skip}</a>
