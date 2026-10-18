@@ -1,0 +1,549 @@
+{
+  "revision": "motion-highlights-2026-10-19-r1",
+  "preparedAt": "2026-10-19",
+  "status": "proposal-only",
+  "ownerSelection": null,
+  "copyApproval": {
+    "vi": false,
+    "en": false
+  },
+  "sourcePolicy": "Uses supplied archived evidence and the later owner-approved directory; no fresh occupancy, availability, price or quality verification.",
+  "sourceHashes": {
+    "docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json": "dddf720a429e6028817a3c19b3fd18c58c3704b45620e0790a7b0e3788aa823a",
+    "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json": "166a618b62800b8957dcc762bf4015479a8a3b4aeae866f268b30b9ff4b67012",
+    "data/malls/saigon-centre/directory.json": "ffade29ada11d158619a2d58758611b210423bd609b3a4bf4f82b1af88fd5b2c",
+    "data/malls/vincom-dong-khoi/directory.json": "b38b55ab32108efeef2a3cb751f2142fc04c61ba94c4825d50080786ad810c14"
+  },
+  "records": [
+    {
+      "shortId": "SC1",
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-dimtutac",
+      "name": {
+        "vi": "Dim Tu Tac",
+        "en": "Dim Tu Tac"
+      },
+      "categoryId": "category-1",
+      "categoryName": {
+        "vi": "Ẩm thực",
+        "en": "Dining"
+      },
+      "floorId": "L5",
+      "location": {
+        "floorId": "L5",
+        "certainty": "area-confirmed",
+        "areaIds": [
+          "research-l5-l5-14"
+        ],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      },
+      "areas": [
+        {
+          "id": "research-l5-l5-14",
+          "floorId": "L5",
+          "regionIds": [
+            "L5-region-002"
+          ],
+          "name": {
+            "vi": "Khu vực trên sơ đồ",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "rationale": "Cantonese dining gives the initial selection a clear meal option; the approved description explicitly supports dim sum.",
+      "recommendation": {
+        "vi": "Ghé Dim Tu Tac ở L5 nếu bạn muốn khám phá dim sum và ẩm thực Quảng Đông.",
+        "en": "Explore dim sum and Cantonese cooking at Dim Tu Tac on L5."
+      },
+      "acceptedDescription": {
+        "vi": "Dim Tu Tac là nhà hàng chuyên ẩm thực Quảng Đông và dim sum. Thực đơn được xây dựng quanh cách kết hợp nguyên liệu, gia vị và kỹ thuật chế biến của truyền thống ẩm thực này.",
+        "en": "Dim Tu Tac is a restaurant specialising in Cantonese cuisine and dim sum. Its menu draws on the ingredients, seasoning and cooking techniques of that culinary tradition."
+      },
+      "source": {
+        "directory": "data/malls/saigon-centre/directory.json",
+        "packet": "docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+        "ownerDecision": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json",
+        "archivedReferences": [
+          {
+            "url": "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/dim-tu-tac",
+            "evidenceSummary": "Mall describes Cantonese/dim sum focus and ingredient, seasoning and preparation approach; no quality superlatives or obsolete L6 floor."
+          }
+        ],
+        "archivedPrimaryContext": [
+          {
+            "path": "../../completion-packet-2026-10-17/saigon-research/discoveries.json#currentOfficialMallRoster[officialId=2377a3a9-a73a-4d4e-b0be-9910adfe08c5]",
+            "urls": {
+              "en": "https://shopping.saigoncentre.com.vn/en/store-directory/dim-tu-tac/",
+              "vi": "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/dim-tu-tac/"
+            },
+            "excerpt": "Dim Tu Tac has always been about expanding new possibilities. The name itself carries the idea that anything is possible, a belief that has stayed with Dim Tu Tac from the beginning and continues to influence how they express Cantonese cuisine and dim sum through the craft of Cantonese gastronomy. The Master Chefs and team take pride in making every part of the guest experience a little better each day. From the ingredients and the condiments we choose to the way each dish is prepared and presented, Dim Tu Tac cares about the small details that are often overlooked. Their mission is to share the best of Cantonese cuisine with the world and show its sophistication as we continue to grow. They approach this with a relentless mindset, putting in the effort to improve continuously, even in the smallest ways."
+          }
+        ]
+      },
+      "eligibility": "Passes current open-destination/category/floor requirements; individual area supported in accepted local snapshot. Editorial nomination and new recommendation copy still pending.",
+      "caveats": [
+        "Stable IDs retain their historical prototype prefix; do not rename them.",
+        "No independent new occupancy or menu/stock check; source review date is 2026-10-18.",
+        "No photo added; no rejected shared-parent or L5-05 association used.",
+        "Current Highlight schema has no recommendation-copy field; approved text will need an explicit integration change in the release lane."
+      ],
+      "ownerSelected": false,
+      "recommendationApproval": {
+        "vi": false,
+        "en": false
+      },
+      "publishableNow": false
+    },
+    {
+      "shortId": "SC2",
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-phuongnambookstore",
+      "name": {
+        "vi": "Phuong Nam Bookstore",
+        "en": "Phuong Nam Bookstore"
+      },
+      "categoryId": "category-6",
+      "categoryName": {
+        "vi": "Nhà sách",
+        "en": "Bookshop"
+      },
+      "floorId": "L4",
+      "location": {
+        "floorId": "L4",
+        "certainty": "area-confirmed",
+        "areaIds": [
+          "research-l4-l4-20"
+        ],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      },
+      "areas": [
+        {
+          "id": "research-l4-l4-20",
+          "floorId": "L4",
+          "regionIds": [
+            "L4-region-003"
+          ],
+          "name": {
+            "vi": "Khu vực trên sơ đồ",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "rationale": "Adds a book-and-gift browsing option alongside dining, using the approved books, music, toys and gifts description.",
+      "recommendation": {
+        "vi": "Dành thời gian khám phá sách, đồ chơi và quà tặng tại Phuong Nam Bookstore ở L4.",
+        "en": "Browse books, toys and gifts at Phuong Nam Bookstore on L4."
+      },
+      "acceptedDescription": {
+        "vi": "Nhà sách Phương Nam kết hợp sách với những lựa chọn âm nhạc, đồ chơi và quà tặng. Mô hình cửa hàng hướng đến không gian để nhiều thành viên trong gia đình cùng tìm đọc và khám phá sản phẩm.",
+        "en": "Phuong Nam Bookstore combines books with music, toys and gifts. Its retail concept provides a space where different family members can browse and discover products together."
+      },
+      "source": {
+        "directory": "data/malls/saigon-centre/directory.json",
+        "packet": "docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+        "ownerDecision": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json",
+        "archivedReferences": [
+          {
+            "url": "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-phuongnambookstore]",
+            "evidenceSummary": "Existing record-level source reference; current branch stock/operating status is not inferred from this rewrite."
+          },
+          {
+            "url": "https://shopping.saigoncentre.com.vn/en/store-directory/phuong-nam-bookstore/",
+            "evidenceSummary": "Existing record-level source reference; current branch stock/operating status is not inferred from this rewrite."
+          }
+        ],
+        "archivedPrimaryContext": [
+          {
+            "path": "../../completion-packet-2026-10-17/saigon-research/discoveries.json#currentOfficialMallRoster[officialId=a8c2d82a-6cde-446d-bf49-a17641d61ed0]",
+            "urls": {
+              "en": "https://shopping.saigoncentre.com.vn/en/store-directory/phuong-nam-bookstore/",
+              "vi": "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/nha-sach-phuong-nam/"
+            },
+            "excerpt": "With more than 5 million customers per year, over the past 4 decades, Phuong Nam Bookstore has continuously cultivated and developed with an unyielding mission to accompany book lovers on the journey to nurture the Vietnamese spirit. In addition, the cozy, welcoming space on each bookshelf has made Phuong Nam Bookstore a favorite destination for families on weekends and holidays, where parents and children can enjoy a sense of peace and relaxation while experiencing books, music, toys, gifts and more."
+          }
+        ]
+      },
+      "eligibility": "Passes current open-destination/category/floor requirements; individual area supported in accepted local snapshot. Editorial nomination and new recommendation copy still pending.",
+      "caveats": [
+        "Stable IDs retain their historical prototype prefix; do not rename them.",
+        "No independent new occupancy or menu/stock check; source review date is 2026-10-18.",
+        "No photo added; no rejected shared-parent or L5-05 association used.",
+        "Current Highlight schema has no recommendation-copy field; approved text will need an explicit integration change in the release lane."
+      ],
+      "ownerSelected": false,
+      "recommendationApproval": {
+        "vi": false,
+        "en": false
+      },
+      "publishableNow": false
+    },
+    {
+      "shortId": "SC3",
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-annamgourmet",
+      "name": {
+        "vi": "Annam Gourmet",
+        "en": "Annam Gourmet"
+      },
+      "categoryId": "category-5",
+      "categoryName": {
+        "vi": "Siêu thị",
+        "en": "Supermarket"
+      },
+      "floorId": "B2",
+      "location": {
+        "floorId": "B2",
+        "certainty": "area-confirmed",
+        "areaIds": [
+          "research-b2-b2-11"
+        ],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      },
+      "areas": [
+        {
+          "id": "research-b2-b2-11",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-001"
+          ],
+          "name": {
+            "vi": "Khu vực trên sơ đồ",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "rationale": "Adds food shopping to the initial mix, supported by the accepted European-cuisine and gourmet-products description.",
+      "recommendation": {
+        "vi": "Khám phá thực phẩm và sản phẩm gourmet theo định hướng ẩm thực châu Âu tại Annam Gourmet ở B2.",
+        "en": "Explore European-oriented food and gourmet products at Annam Gourmet on B2."
+      },
+      "acceptedDescription": {
+        "vi": "Annam Gourmet là cửa hàng thực phẩm và sản phẩm gourmet với định hướng ẩm thực châu Âu. Thương hiệu phát triển từ một cửa hàng nhỏ thành hệ thống bán lẻ tại Việt Nam.",
+        "en": "Annam Gourmet is a food retailer with a focus on European cuisine and gourmet products. It grew from a small specialist store into a retail chain in Vietnam."
+      },
+      "source": {
+        "directory": "data/malls/saigon-centre/directory.json",
+        "packet": "docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+        "ownerDecision": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json",
+        "archivedReferences": [
+          {
+            "url": "https://shopping.saigoncentre.com.vn/en/store-directory/annam-gourmet/",
+            "evidenceSummary": "Mall profile explicitly states European cuisine, gourmet products, and development from small store to a Vietnam chain; opened18October2026."
+          }
+        ],
+        "archivedPrimaryContext": [
+          {
+            "path": "../../completion-packet-2026-10-17/saigon-research/discoveries.json#currentOfficialMallRoster[officialId=0e6ada86-42bf-492d-a5a1-1a93940d98d2]",
+            "urls": {
+              "en": "https://shopping.saigoncentre.com.vn/en/store-directory/annam-gourmet/",
+              "vi": "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/annam-gourmet/"
+            },
+            "excerpt": "Here at Annam Gourmet we are passionate about European Cuisine. From our humble beginnings as a small store, stocking just a handful of products, to a chain of stores across Vietnam, we have been providing the best in gourmet products for over 15 years."
+          }
+        ]
+      },
+      "eligibility": "Passes current open-destination/category/floor requirements; individual area supported in accepted local snapshot. Editorial nomination and new recommendation copy still pending.",
+      "caveats": [
+        "Stable IDs retain their historical prototype prefix; do not rename them.",
+        "No independent new occupancy or menu/stock check; source review date is 2026-10-18.",
+        "No photo added; no rejected shared-parent or L5-05 association used.",
+        "Current Highlight schema has no recommendation-copy field; approved text will need an explicit integration change in the release lane."
+      ],
+      "ownerSelected": false,
+      "recommendationApproval": {
+        "vi": false,
+        "en": false
+      },
+      "publishableNow": false
+    },
+    {
+      "shortId": "VC1",
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-chillithai",
+      "name": {
+        "vi": "Chilli Thai",
+        "en": "Chilli Thai"
+      },
+      "categoryId": "category-1",
+      "categoryName": {
+        "vi": "Ẩm thực",
+        "en": "Dining"
+      },
+      "floorId": "B3",
+      "location": {
+        "floorId": "B3",
+        "certainty": "area-confirmed",
+        "areaIds": [
+          "research-b3-b3-01a"
+        ],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      },
+      "areas": [
+        {
+          "id": "research-b3-b3-01a",
+          "floorId": "B3",
+          "regionIds": [
+            "B3-region-012"
+          ],
+          "name": {
+            "vi": "Khu vực trên sơ đồ",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "rationale": "Adds Thai dining and shareable dishes, supported by the approved hot-pot and curry description.",
+      "recommendation": {
+        "vi": "Khám phá lẩu, cà ri và các món Thái dùng chung tại Chilli Thai ở B3.",
+        "en": "Explore Thai hot pots, curries and dishes for sharing at Chilli Thai on B3."
+      },
+      "acceptedDescription": {
+        "vi": "Chilli Thai là nhà hàng giới thiệu ẩm thực Thái Lan qua các món lẩu, cà ri và những món dùng chung. Thực đơn khai thác sự kết hợp giữa vị cay, chua và các loại gia vị trong cách nấu Thái.",
+        "en": "Chilli Thai presents Thai cuisine through hot pots, curries and dishes for sharing. Its menu explores the combination of heat, sourness and seasoning associated with Thai cooking."
+      },
+      "source": {
+        "directory": "data/malls/vincom-dong-khoi/directory.json",
+        "packet": "docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+        "ownerDecision": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json",
+        "archivedReferences": [
+          {
+            "url": "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-chillithai]",
+            "evidenceSummary": "Existing record-level source reference; current branch stock/operating status is not inferred from this rewrite."
+          },
+          {
+            "url": "https://vincom.com.vn/store/chilli-thai-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+            "evidenceSummary": "Existing record-level source reference; current branch stock/operating status is not inferred from this rewrite."
+          }
+        ],
+        "archivedPrimaryContext": [
+          {
+            "path": "../../record-review-2026-10-18/vincom-source-extracts.json#vincom-prototype-chillithai",
+            "sourceFile": "store-pages/chilli-thai-vincom-center-dong-khoi.html",
+            "excerpt": "Chẳng cần phải du hí sang Thái mới được thưởng thức món ngon. Chilli Thái đã mang cả vương quốc ẩm thực xứ Chùa Vàng đến Việt Nam cho thực khách trải nghiệm. Tại bài viết này hãy cùng Vincom khám phá menu đặc sắc và khuyến mãi mới nhất tại Chilli Thái nhé! Giới thiệu về Chilli Thái Chilli Thái là sự hòa quyện của tinh hoa ẩm thực đầy tinh tế, ấn tượng giữa thảo mộc, gia vị của xứ Chùa Vàng và thực phẩm tươi sống. Chilli đã mang trọn tinh thần và hương vị của Krungthep Maha Nakon với hàng loạt món ngon cùng các món hải sản tươi sống tạo nên dấu ấn đáng nhớ đối với những người yêu ẩm thực Thái Mách nhỏ: Đừng quên đặt bàn trước tại Chilli Thái để có thể được hướng dẫn và phục vụ một cách chu đáo nhất nha. Số hotline đặt bàn: 028 3828 8282 (Chi nhánh Chilli Thái Vincom Đồng Khởi , Quận 1, TP.HCM) Khám phá hệ thống buffet Chilli Thái tại Vincom (nguồn: Internet) Menu và giá món tại Chilli Thái Menu ẩm thực đa dạng và không kém phần độc đáo với sự kết hợp hài hòa giữa độ chua, cay, mặn, ngọt tạo nên hương vị đậm đà đặc trưng của ẩm thực xứ Chùa Vàng. Dưới đây là menu của Chilli Thái cho bạn tham khảo: Menu gỏi cực kỳ hấp dẫn tại Chilli Thái Vincom (nguồn: internet) Mới lạ với gỏi sashimi (nguồn: internet) Các món “signature” của Chilli Thái Vincom (nguồn: internet) Hải sản đậm đà, tươi ngon (nguồn: internet) Các món Thái lan đặc biệt tại Chilli Thái Vincom (nguồn; internet) Các món c"
+          }
+        ]
+      },
+      "eligibility": "Passes current open-destination/category/floor requirements; individual area supported in accepted local snapshot. Editorial nomination and new recommendation copy still pending.",
+      "caveats": [
+        "Stable IDs retain their historical prototype prefix; do not rename them.",
+        "No independent new occupancy or menu/stock check; source review date is 2026-10-18.",
+        "No photo added; no rejected shared-parent or L5-05 association used.",
+        "Current Highlight schema has no recommendation-copy field; approved text will need an explicit integration change in the release lane."
+      ],
+      "ownerSelected": false,
+      "recommendationApproval": {
+        "vi": false,
+        "en": false
+      },
+      "publishableNow": false
+    },
+    {
+      "shortId": "VC2",
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-runamboutique",
+      "name": {
+        "vi": "Runam Boutique",
+        "en": "Runam Boutique"
+      },
+      "categoryId": "category-1",
+      "categoryName": {
+        "vi": "Ẩm thực",
+        "en": "Dining"
+      },
+      "floorId": "B2",
+      "location": {
+        "floorId": "B2",
+        "certainty": "area-confirmed",
+        "areaIds": [
+          "research-b2-b2-15"
+        ],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      },
+      "areas": [
+        {
+          "id": "research-b2-b2-15",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-006"
+          ],
+          "name": {
+            "vi": "Khu vực trên sơ đồ",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "rationale": "Provides a cafe option distinct from a full restaurant; approved copy supports Vietnamese phin coffee and meals.",
+      "recommendation": {
+        "vi": "Ghé Runam Boutique ở B2 để khám phá cà phê phin Việt Nam và các món ăn trong không gian quán cà phê.",
+        "en": "Explore Vietnamese phin coffee and cafe meals at Runam Boutique on B2."
+      },
+      "acceptedDescription": {
+        "vi": "RuNam Boutique kết hợp cà phê với các món ăn dùng trong không gian quán. Cà phê pha phin và các cách pha khác là một phần trong danh mục đồ uống của thương hiệu.",
+        "en": "RuNam Boutique combines coffee with meals served in a café setting. Vietnamese phin coffee and other brewing styles form part of the brand's drinks range."
+      },
+      "source": {
+        "directory": "data/malls/vincom-dong-khoi/directory.json",
+        "packet": "docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+        "ownerDecision": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json",
+        "archivedReferences": [
+          {
+            "url": "../../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-runamboutique]",
+            "evidenceSummary": "Owner-supplied product summary: Thưởng thức cà phê pha máy/pha phin cao cấp, dùng bữa sang trọng, tiếp khách. This is supplied evidence, not a fresh branch-availability check."
+          },
+          {
+            "url": "https://caferunam.com/",
+            "evidenceSummary": "Friends gather, fingers wrapped around cups of coffee - minds adrift into far depths of their memories. ... ## RUNAM'S LOCATIONS ... 1st Floor, 215 B10 Nguyen Van Huong Street, An Khanh Ward, Thu Duc City, Ho Chi Minh City, Vietnam. Image: background sublimation Alchemy of ## the mouche - dragon Set around a large lacquer table in the heart of a fast and ever-changing city. Friends gathe",
+            "retrieval": "first-party-search-extract-2026-10-18; brand-level only, not branch stock or current occupancy"
+          }
+        ],
+        "archivedPrimaryContext": []
+      },
+      "eligibility": "Passes current open-destination/category/floor requirements; individual area supported in accepted local snapshot. Editorial nomination and new recommendation copy still pending.",
+      "caveats": [
+        "Stable IDs retain their historical prototype prefix; do not rename them.",
+        "No independent new occupancy or menu/stock check; source review date is 2026-10-18.",
+        "No photo added; no rejected shared-parent or L5-05 association used.",
+        "Current Highlight schema has no recommendation-copy field; approved text will need an explicit integration change in the release lane."
+      ],
+      "ownerSelected": false,
+      "recommendationApproval": {
+        "vi": false,
+        "en": false
+      },
+      "publishableNow": false
+    },
+    {
+      "shortId": "VC3",
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-pullbear",
+      "name": {
+        "vi": "Pull & Bear",
+        "en": "Pull & Bear"
+      },
+      "categoryId": "category-0",
+      "categoryName": {
+        "vi": "Thời trang",
+        "en": "Fashion"
+      },
+      "floorId": "L2",
+      "location": {
+        "floorId": "L2",
+        "certainty": "area-confirmed",
+        "areaIds": [
+          "research-l2-l2-03"
+        ],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      },
+      "areas": [
+        {
+          "id": "research-l2-l2-03",
+          "floorId": "L2",
+          "regionIds": [
+            "L2-region-002"
+          ],
+          "name": {
+            "vi": "Khu vực trên sơ đồ",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "rationale": "Adds clothing to the initial dining/cafe mix, supported by the approved casual T-shirt, jeans and jacket description.",
+      "recommendation": {
+        "vi": "Khám phá áo thun, quần jeans và áo khoác phong cách trẻ trung tại Pull & Bear ở L2.",
+        "en": "Browse casual T-shirts, jeans and jackets at Pull & Bear on L2."
+      },
+      "acceptedDescription": {
+        "vi": "Pull&Bear là thương hiệu thời trang Tây Ban Nha ra đời năm 1991, thuộc tập đoàn Inditex. Trang phục thường ngày như áo thun, jeans và áo khoác được phát triển theo tinh thần trẻ trung.",
+        "en": "Pull&Bear is a Spanish fashion brand founded in 1991 within Inditex. Casual pieces such as T-shirts, jeans and jackets are developed with a youthful design approach."
+      },
+      "source": {
+        "directory": "data/malls/vincom-dong-khoi/directory.json",
+        "packet": "docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+        "ownerDecision": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json",
+        "archivedReferences": [
+          {
+            "url": "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-pullbear]",
+            "evidenceSummary": "Existing record-level source reference; current branch stock/operating status is not inferred from this rewrite."
+          },
+          {
+            "url": "https://vincom.com.vn/store/pull-bear-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+            "evidenceSummary": "Existing record-level source reference; current branch stock/operating status is not inferred from this rewrite."
+          }
+        ],
+        "archivedPrimaryContext": [
+          {
+            "path": "../../record-review-2026-10-18/vincom-source-extracts.json#vincom-prototype-pullbear",
+            "sourceFile": "store-pages/pull-bear-vincom-center-dong-khoi.html",
+            "excerpt": "Thương hiệu thời trang Tây Ban Nha nổi tiếng Pull&Bear. Ra đời từ năm 1991, Pull&Bear là thương hiệu thời trang nổi tiếng của Tây Ban Nha, hiện nay thuộc Tập đoàn Inditex, đơn vị sở hữu hàng loạt thương hiệu thời trang khác như Zara, Massimo Dutti, Bershka, Stradivarius, Oysho,… Luôn cho ra mắt những thiết kế đầy sức sống tuổi trẻ, sự tự do phóng khoáng. Bên cạnh những dòng sản phẩm chính như quần áo, giày dép, túi xách gần đây hãng còn cho ra mắt nước hoa, phụ kiện để phục vụ nhu cầu làm đẹp của các tín đồ. Giá Pull&Bear được nhận xét là khá dễ chịu để có thể sở hữu một item từ nhãn hãng."
+          }
+        ]
+      },
+      "eligibility": "Passes current open-destination/category/floor requirements; individual area supported in accepted local snapshot. Editorial nomination and new recommendation copy still pending.",
+      "caveats": [
+        "Stable IDs retain their historical prototype prefix; do not rename them.",
+        "No independent new occupancy or menu/stock check; source review date is 2026-10-18.",
+        "No photo added; no rejected shared-parent or L5-05 association used.",
+        "Current Highlight schema has no recommendation-copy field; approved text will need an explicit integration change in the release lane."
+      ],
+      "ownerSelected": false,
+      "recommendationApproval": {
+        "vi": false,
+        "en": false
+      },
+      "publishableNow": false
+    }
+  ]
+}

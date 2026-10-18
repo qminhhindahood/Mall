@@ -1,0 +1,47 @@
+{
+  "suites": {
+    "journey": {
+      "cases": 16,
+      "checks": 448,
+      "failed": []
+    },
+    "interaction": {
+      "cases": 8,
+      "checks": 192,
+      "failed": []
+    },
+    "approved": {
+      "cases": 8,
+      "checks": 136,
+      "failed": []
+    },
+    "area-history": {
+      "cases": 4,
+      "checks": 20,
+      "failed": []
+    },
+    "fallback": {
+      "cases": 16,
+      "checks": 126,
+      "failed": []
+    },
+    "fixtures": {
+      "cases": 4,
+      "checks": 20,
+      "failed": []
+    },
+    "rapid-reversals": {
+      "cases": 8,
+      "checks": 88,
+      "failed": []
+    },
+    "paced-recording": {
+      "cases": 4,
+      "checks": 44,
+      "failed": []
+    }
+  },
+  "failed": [],
+  "readerReferences": 17,
+  "proposalRecords": 6
+}

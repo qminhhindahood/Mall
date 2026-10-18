@@ -1,0 +1,219 @@
+{
+  "at": "2026-10-18T22:54:00.262Z",
+  "sourceRevision": "46f162a70da3fc7d4f6b632db7816e7801c790c9",
+  "branch": "integration/continuous-visitor-journey",
+  "sourceChanges": [],
+  "assetsRevised": false,
+  "publication": false,
+  "sourceChecks": [
+    {
+      "path": "src/components/Explorer.tsx",
+      "expected": "4a9159d42fa7cc4be205e68b7ae5ad2f1e3b89caa0849800859ccb1f18be431a",
+      "actual": "4a9159d42fa7cc4be205e68b7ae5ad2f1e3b89caa0849800859ccb1f18be431a",
+      "pass": true
+    },
+    {
+      "path": "src/data/research-fixtures.ts",
+      "expected": "910e5e2e2877486c3e15063c080ef456ecb41a558e2a71afbe7352d72bcc36e7",
+      "actual": "910e5e2e2877486c3e15063c080ef456ecb41a558e2a71afbe7352d72bcc36e7",
+      "pass": true
+    },
+    {
+      "path": "scripts/research-overlay.mjs",
+      "expected": "29b08689d41442e1d627067f8aadad8f24891156a71bcad742f30f7e6e0e0882",
+      "actual": "29b08689d41442e1d627067f8aadad8f24891156a71bcad742f30f7e6e0e0882",
+      "pass": true
+    },
+    {
+      "path": "src/data/site.ts",
+      "expected": "98b9c2cf1be3d0b053a12d3e4ef9787266902a34b1d70c555c26999c076dfdf1",
+      "actual": "98b9c2cf1be3d0b053a12d3e4ef9787266902a34b1d70c555c26999c076dfdf1",
+      "pass": true
+    },
+    {
+      "path": "scripts/prepare-assets.mjs",
+      "expected": "fba7e263a454ee25de98510e5296cbf28cb2d976859b18e9495d931acc3e0e80",
+      "actual": "fba7e263a454ee25de98510e5296cbf28cb2d976859b18e9495d931acc3e0e80",
+      "pass": true
+    },
+    {
+      "path": "scripts/approved-overlay.mjs",
+      "expected": "caafafcaa632422b140f06368b81c7b3e8203ed55234ba015245e99c595183c1",
+      "actual": "caafafcaa632422b140f06368b81c7b3e8203ed55234ba015245e99c595183c1",
+      "pass": true
+    },
+    {
+      "path": "scripts/import-approved-directory.py",
+      "expected": "1934a50ef13cf5200159efc9b13afa8fc847b238c97e347cbcecffd2d7266dc3",
+      "actual": "1934a50ef13cf5200159efc9b13afa8fc847b238c97e347cbcecffd2d7266dc3",
+      "pass": true
+    },
+    {
+      "path": "data/malls/saigon-centre/approved-regions.json",
+      "expected": "0f59b506edbbc4ab634ceda632449bab30b08944a9c14296a04f9938fcf8a500",
+      "actual": "0f59b506edbbc4ab634ceda632449bab30b08944a9c14296a04f9938fcf8a500",
+      "pass": true
+    },
+    {
+      "path": "data/malls/vincom-dong-khoi/approved-regions.json",
+      "expected": "beb7ac03236e0abfc5721aae2015b8a1e985a2d9235bb5b8edb62c216ccfd8dc",
+      "actual": "beb7ac03236e0abfc5721aae2015b8a1e985a2d9235bb5b8edb62c216ccfd8dc",
+      "pass": true
+    },
+    {
+      "path": "docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+      "expected": "dddf720a429e6028817a3c19b3fd18c58c3704b45620e0790a7b0e3788aa823a",
+      "actual": "dddf720a429e6028817a3c19b3fd18c58c3704b45620e0790a7b0e3788aa823a",
+      "pass": true
+    }
+  ],
+  "outputChecks": [
+    {
+      "mall": "saigon-centre",
+      "mode": "public",
+      "checked": 384
+    },
+    {
+      "mall": "saigon-centre",
+      "mode": "research",
+      "checked": 380
+    },
+    {
+      "mall": "saigon-centre",
+      "mode": "fixture",
+      "checked": 62
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "mode": "public",
+      "checked": 457
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "mode": "research",
+      "checked": 337
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "mode": "fixture",
+      "checked": 59
+    }
+  ],
+  "sites": [
+    {
+      "branch": "vincom-dong-khoi",
+      "head": "ff822020dc715954ae2adfc098557f1c3f9eb4ae",
+      "matches": [
+        {
+          "file": "src/components/Explorer.tsx",
+          "actual": "4a9159d42fa7cc4be205e68b7ae5ad2f1e3b89caa0849800859ccb1f18be431a",
+          "site": "4a9159d42fa7cc4be205e68b7ae5ad2f1e3b89caa0849800859ccb1f18be431a",
+          "pass": true
+        },
+        {
+          "file": "src/styles/journey.css",
+          "actual": "1c357cee8e1f56c93d58dfa20f45da98ca7fb55b2366371277eacb6269d6e6ef",
+          "site": "1c357cee8e1f56c93d58dfa20f45da98ca7fb55b2366371277eacb6269d6e6ef",
+          "pass": true
+        },
+        {
+          "file": "src/components/OverviewStack.tsx",
+          "actual": "22869080298593d201836a9ffefff5824a6b15d483a3b1fc57c533b0e51c3e16",
+          "site": "22869080298593d201836a9ffefff5824a6b15d483a3b1fc57c533b0e51c3e16",
+          "pass": true
+        },
+        {
+          "file": "src/data/content.ts",
+          "actual": "b4636d9b68c4228711a0adb3901326b24e9f7f85c3bd2b99bf12b1c769a67abb",
+          "site": "b4636d9b68c4228711a0adb3901326b24e9f7f85c3bd2b99bf12b1c769a67abb",
+          "pass": true
+        },
+        {
+          "file": "data/malls/saigon-centre/directory.json",
+          "actual": "ffade29ada11d158619a2d58758611b210423bd609b3a4bf4f82b1af88fd5b2c",
+          "site": "ffade29ada11d158619a2d58758611b210423bd609b3a4bf4f82b1af88fd5b2c",
+          "pass": true
+        },
+        {
+          "file": "data/malls/vincom-dong-khoi/directory.json",
+          "actual": "b38b55ab32108efeef2a3cb751f2142fc04c61ba94c4825d50080786ad810c14",
+          "site": "b38b55ab32108efeef2a3cb751f2142fc04c61ba94c4825d50080786ad810c14",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "branch": "takashimaya",
+      "head": "cb6516df7a79a1ce727d2492b803ca0329003f2d",
+      "matches": [
+        {
+          "file": "src/components/Explorer.tsx",
+          "actual": "4a9159d42fa7cc4be205e68b7ae5ad2f1e3b89caa0849800859ccb1f18be431a",
+          "site": "4a9159d42fa7cc4be205e68b7ae5ad2f1e3b89caa0849800859ccb1f18be431a",
+          "pass": true
+        },
+        {
+          "file": "src/styles/journey.css",
+          "actual": "1c357cee8e1f56c93d58dfa20f45da98ca7fb55b2366371277eacb6269d6e6ef",
+          "site": "1c357cee8e1f56c93d58dfa20f45da98ca7fb55b2366371277eacb6269d6e6ef",
+          "pass": true
+        },
+        {
+          "file": "src/components/OverviewStack.tsx",
+          "actual": "22869080298593d201836a9ffefff5824a6b15d483a3b1fc57c533b0e51c3e16",
+          "site": "22869080298593d201836a9ffefff5824a6b15d483a3b1fc57c533b0e51c3e16",
+          "pass": true
+        },
+        {
+          "file": "src/data/content.ts",
+          "actual": "b4636d9b68c4228711a0adb3901326b24e9f7f85c3bd2b99bf12b1c769a67abb",
+          "site": "b4636d9b68c4228711a0adb3901326b24e9f7f85c3bd2b99bf12b1c769a67abb",
+          "pass": true
+        },
+        {
+          "file": "data/malls/saigon-centre/directory.json",
+          "actual": "ffade29ada11d158619a2d58758611b210423bd609b3a4bf4f82b1af88fd5b2c",
+          "site": "ffade29ada11d158619a2d58758611b210423bd609b3a4bf4f82b1af88fd5b2c",
+          "pass": true
+        },
+        {
+          "file": "data/malls/vincom-dong-khoi/directory.json",
+          "actual": "b38b55ab32108efeef2a3cb751f2142fc04c61ba94c4825d50080786ad810c14",
+          "site": "b38b55ab32108efeef2a3cb751f2142fc04c61ba94c4825d50080786ad810c14",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "urls": [
+    {
+      "url": "http://localhost:4363/en",
+      "status": 200,
+      "actual": "8d77a4a259ddd5ef399816e73d1e7e1136381423036142a95612a9a3a03f3b2b",
+      "expected": "8d77a4a259ddd5ef399816e73d1e7e1136381423036142a95612a9a3a03f3b2b",
+      "pass": true
+    },
+    {
+      "url": "http://localhost:4363/vi",
+      "status": 200,
+      "actual": "9256ad8b86aa00cd5a97cbc7650767138e60df8fe4f505c98f522745458cfa4a",
+      "expected": "9256ad8b86aa00cd5a97cbc7650767138e60df8fe4f505c98f522745458cfa4a",
+      "pass": true
+    },
+    {
+      "url": "http://localhost:4364/en",
+      "status": 200,
+      "actual": "db134bc96a51a79a02025230c8c99b3a3f6f0b7116992580a63a23ae6102de2e",
+      "expected": "db134bc96a51a79a02025230c8c99b3a3f6f0b7116992580a63a23ae6102de2e",
+      "pass": true
+    },
+    {
+      "url": "http://localhost:4364/vi",
+      "status": 200,
+      "actual": "34bb08c5698763cb79a18a1579a0495df1685513903b2e5aa3c831b9db6b3891",
+      "expected": "34bb08c5698763cb79a18a1579a0495df1685513903b2e5aa3c831b9db6b3891",
+      "pass": true
+    }
+  ],
+  "failed": []
+}

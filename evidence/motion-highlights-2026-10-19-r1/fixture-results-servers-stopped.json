@@ -1,0 +1,38 @@
+[
+  {
+    "mall": "saigon-centre",
+    "locale": "en",
+    "width": 1280,
+    "checks": [],
+    "failed": [
+      "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:4337/en?view=discovery&floor=L1&collection=cafes\nCall log:\n\u001b[2m  - navigating to \"http://localhost:4337/en?view=discovery&floor=L1&collection=cafes\", waiting until \"load\"\u001b[22m\n"
+    ]
+  },
+  {
+    "mall": "saigon-centre",
+    "locale": "vi",
+    "width": 390,
+    "checks": [],
+    "failed": [
+      "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:4337/vi?view=discovery&floor=L1&collection=cafes\nCall log:\n\u001b[2m  - navigating to \"http://localhost:4337/vi?view=discovery&floor=L1&collection=cafes\", waiting until \"load\"\u001b[22m\n"
+    ]
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "en",
+    "width": 1280,
+    "checks": [],
+    "failed": [
+      "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:4338/en?view=discovery&floor=L1&collection=cafes\nCall log:\n\u001b[2m  - navigating to \"http://localhost:4338/en?view=discovery&floor=L1&collection=cafes\", waiting until \"load\"\u001b[22m\n"
+    ]
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "vi",
+    "width": 390,
+    "checks": [],
+    "failed": [
+      "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:4338/vi?view=discovery&floor=L1&collection=cafes\nCall log:\n\u001b[2m  - navigating to \"http://localhost:4338/vi?view=discovery&floor=L1&collection=cafes\", waiting until \"load\"\u001b[22m\n"
+    ]
+  }
+]

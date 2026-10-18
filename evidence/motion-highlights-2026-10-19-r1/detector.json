@@ -1,0 +1,60 @@
+[
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "D:\\Midterm\\implementation\\mall-visitor\\evidence\\motion-highlights-2026-10-19-r1\\review.html",
+    "line": 0,
+    "snippet": "text color rgb(0, 0, 0) on h1 \"Motion review · initial Highlights\" is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "rgb(0, 0, 0)"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "D:\\Midterm\\implementation\\mall-visitor\\evidence\\motion-highlights-2026-10-19-r1\\review.html",
+    "line": 1,
+    "snippet": "text color rgb(148, 64, 33) on a \"Saigon EN\" is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "rgb(148, 64, 33)"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "D:\\Midterm\\implementation\\mall-visitor\\evidence\\motion-highlights-2026-10-19-r1\\review.html",
+    "line": 1,
+    "snippet": "border-top rgb(211, 197, 184) on details \"SC1 · Dim Tu Tac · L5 · Dining saigon-pr\" is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "rgb(211, 197, 184)"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "D:\\Midterm\\implementation\\mall-visitor\\evidence\\motion-highlights-2026-10-19-r1\\review.html",
+    "line": 1,
+    "snippet": "font-size: 14px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "14px"
+  },
+  {
+    "antipattern": "flat-type-hierarchy",
+    "name": "Flat type hierarchy",
+    "description": "Dominant heading and body roles are separated by less than 1.25× at every step, leaving the size hierarchy flat. Add at least one stronger size step.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "D:\\Midterm\\implementation\\mall-visitor\\evidence\\motion-highlights-2026-10-19-r1\\review.html",
+    "line": 0,
+    "snippet": "Role sizes: body 16px, h1 16px, h2 16px (largest adjacent step 1.00:1; target 1.25:1)"
+  }
+]
