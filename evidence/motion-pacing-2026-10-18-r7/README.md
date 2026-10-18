@@ -23,3 +23,5 @@ T3 preview was checked and used for the live baseline; its prior phone resize mi
 ## Revisions and boundaries
 
 Only src/components/Explorer.tsx and src/styles/journey.css change. provenance.json records tested source and all six output hashes; propagation.json records exact byte copies to both primary site branches. Existing location holds and Highlights eligibility/empty states remain. Real recommended-place nominations remain pending. Source geometry, exterior assets, frozen acceptance packets, public directory snapshots and approval states are unchanged. No push or deployment.
+
+Source/evidence delivery **1f6376f**; exact two-file copies committed to Vincom **83e7dddd093a9a4ed10d9f74d11763b760148213** and Saigon/Takashimaya **b384fb791451cded768c1203b59dd29ebbdc9900**. Root tracker/specification notes updated locally, preserving unrelated root edits.

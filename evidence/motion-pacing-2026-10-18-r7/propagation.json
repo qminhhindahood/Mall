@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-18T10:42:35.823Z",
+  "sharedCommit": "1f6376f8cdb11c5261a5dcccfd41585cb3381ba3",
+  "scope": "Motion-on invitation spacing, coordinated map fade/return and control visibility; reduced-motion baseline, assets and content unchanged",
+  "sites": [
+    {
+      "worktree": "D:\\Midterm\\.scratch\\mall-branch-bootstrap",
+      "branch": "vincom-dong-khoi",
+      "commit": "83e7dddd093a9a4ed10d9f74d11763b760148213",
+      "verifiedSharedFiles": 2,
+      "sha256Match": true,
+      "files": [
+        {
+          "path": "src/components/Explorer.tsx",
+          "sha256": "f1671c205b18708b838d5fb709034c390f5cfd0f06891f2afbc9da22d5f0d5a1"
+        },
+        {
+          "path": "src/styles/journey.css",
+          "sha256": "5897db5fcb2958a92d7457097ee38443c74c9cd09efc8342f90d621b624f58e1"
+        }
+      ]
+    },
+    {
+      "worktree": "D:\\Midterm\\.scratch\\issue-0005-takashimaya",
+      "branch": "takashimaya",
+      "commit": "b384fb791451cded768c1203b59dd29ebbdc9900",
+      "verifiedSharedFiles": 2,
+      "sha256Match": true,
+      "files": [
+        {
+          "path": "src/components/Explorer.tsx",
+          "sha256": "f1671c205b18708b838d5fb709034c390f5cfd0f06891f2afbc9da22d5f0d5a1"
+        },
+        {
+          "path": "src/styles/journey.css",
+          "sha256": "5897db5fcb2958a92d7457097ee38443c74c9cd09efc8342f90d621b624f58e1"
+        }
+      ]
+    }
+  ]
+}
