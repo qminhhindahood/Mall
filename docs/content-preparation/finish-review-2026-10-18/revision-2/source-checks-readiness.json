@@ -1,0 +1,109 @@
+{
+  "revision": "finish-descriptions-source-checks-readiness-2026-10-18-r1",
+  "reviewedAt": "2026-10-18",
+  "reviewer": "Codex (AI), readiness lane",
+  "scope": "Primary mall/brand sources for factual 1–2-sentence description rewrites. No copy, roster, language, current occupancy or publication approval inferred.",
+  "method": "Web source reading/search, plus fresh HTTPS retrieval of first-party mall pages that the web reader could not access. Mall page descriptions and brand-wide product identity are distinguished from branch-specific inventory. Summaries below are paraphrases, not quotations.",
+  "ownerApproval": false,
+  "records": [
+    {
+      "recordID": "saigon-prototype-miana",
+      "URLs": ["https://shopping.saigoncentre.com.vn/en/store-directory/miana", "https://miana.com.vn/m/gioi-thieu.aspx"],
+      "status": "supported-brand-description",
+      "evidenceSummary": "The mall describes modern minimalist fashion collections. The brand's own introduction specializes its identity to women's officewear and elegant designs, and lists a Saigon Centre floor-3 store.",
+      "copyFacts": ["Women's officewear", "Modern, restrained styling and elegant silhouettes"],
+      "avoid": ["Unverified fabric composition or current product stock", "Unsupported claims of European manufacturing", "Repeating the brand's popularity/superlative marketing as independent fact"],
+      "branchQualification": "Mall and brand both list this branch; no in-person operating/stock verification."
+    },
+    {
+      "recordID": "saigon-prototype-qhome",
+      "URLs": ["https://shopping.saigoncentre.com.vn/en/store-directory/qhome"],
+      "status": "supported-branch-description",
+      "evidenceSummary": "The mall describes Qhome's ceramics/porcelain and tableware for household and professional use, distributing domestic and international names including Minh Long I, Cuong Phat, Wilmax, RAK and Noritake. This supports a table-setting/homeware introduction rather than a generic decoration-store description.",
+      "copyFacts": ["Ceramic and porcelain tableware", "Vietnamese and international tableware brands for home and professional use"],
+      "avoid": ["Inventing furniture, bedding or interior-design services", "Promising all listed brands are in stock"],
+      "branchQualification": "First-party mall listing shows L4-19B."
+    },
+    {
+      "recordID": "saigon-prototype-centuryhealthcare",
+      "URLs": ["https://shopping.saigoncentre.com.vn/en/store-directory/century-healthcare", "https://shopping.saigoncentre.com.vn/en/happening/temporary-mall-closure"],
+      "status": "supported-retailer-description",
+      "evidenceSummary": "Fresh mall description identifies Century as an Indonesian pharmacy-and-beauty retail chain with a wellness focus. A dated 2020 mall announcement explicitly calls its B2 outlet a pharmacy, but that historical notice is not fresh evidence of opening hours or current service breadth.",
+      "copyFacts": ["Health and beauty retailer with pharmacy roots", "Wellness and skin-care focus"],
+      "avoid": ["Inventing prescription dispensing, pharmacist consultation, clinical services or exact medicine range", "Using the ended 2020 notice as current hours/occupancy proof", "Medical efficacy or safety promises"],
+      "branchQualification": "Use the fresh mall listing for identity; historical pharmacy wording is explicitly dated."
+    },
+    {
+      "recordID": "saigon-prototype-dsquared2",
+      "URLs": ["https://shopping.saigoncentre.com.vn/en/store-directory/dsquared2", "https://www.dsquared2.com/ca/"],
+      "status": "supported-brand-description",
+      "evidenceSummary": "The mall characterizes Dsquared2 by Canadian influence and Italian craftsmanship. The official brand storefront shows men's and women's fashion, including jeans, knitwear, outerwear, shoes and bags; denim is a concrete distinguishing product focus.",
+      "copyFacts": ["Men's and women's designer fashion with a denim focus", "Bold styling combining Canadian influence and Italian craftsmanship"],
+      "avoid": ["Claiming every product is manufactured in Italy", "Claiming current Canadian flagship prices/ranges are available at this branch"],
+      "branchQualification": "Brand-wide offering evidence; branch stock not checked."
+    },
+    {
+      "recordID": "saigon-prototype-lacoste",
+      "URLs": ["https://shopping.saigoncentre.com.vn/en/store-directory/lacoste", "https://corporate.lacoste.com/our-history/", "https://corporate.lacoste.com/lacoste-the-polo-of-choice-since-1933/"],
+      "status": "supported-brand-description",
+      "evidenceSummary": "Mall copy mainly identifies the regional distributor. Lacoste's corporate history and polo feature support its tennis-derived fashion identity, signature petit-pique cotton polo and crocodile emblem; those details distinguish the introduction without inventing current branch collections.",
+      "copyFacts": ["Fashion rooted in tennis and everyday sports style", "Signature cotton pique polo and crocodile emblem"],
+      "avoid": ["Implying every garment is cotton pique", "Branch-specific seasonal availability", "Unverified claims about local sustainability practices"],
+      "branchQualification": "Brand history is stable identity evidence, not a local inventory check."
+    },
+    {
+      "recordID": "saigon-prototype-rakthai",
+      "URLs": ["https://shopping.saigoncentre.com.vn/en/store-directory/rak-thai"],
+      "status": "offering-detail-unsupported",
+      "evidenceSummary": "Fresh mall page lists RAK Thai as Food & Beverage at L5-12 with phone/hours, but supplies no menu or descriptive paragraph. Bounded first-party search did not establish dishes, service format or a matching independent restaurant-owned site.",
+      "copyFacts": ["Named F&B outlet in the official mall directory"],
+      "avoid": ["Inferring tom yum, pad thai, hotpot or specific Thai regional cuisine from the name", "Using another similarly named restaurant's menu", "Inventing a detailed overall restaurant description"],
+      "proposedTreatment": "Keep detailed copy unsupported pending a matched first-party menu/introduction; do not fill with generic prose."
+    },
+    {
+      "recordID": "saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c",
+      "URLs": ["https://shopping.saigoncentre.com.vn/en/store-directory/sport-fair"],
+      "status": "offering-detail-unsupported",
+      "evidenceSummary": "Fresh mall page identifies Sport Fair, but its descriptive body is only the letter S. No bounded first-party search result establishes a matching retailer offering or brand assortment.",
+      "copyFacts": ["Official mall directory identity only"],
+      "avoid": ["Inventing sports equipment, footwear, apparel, outdoor goods or named brands from the store name", "Treating letter S as a descriptive source"],
+      "proposedTreatment": "Keep offering copy unsupported until a matched first-party source or owner evidence is supplied."
+    },
+    {
+      "recordID": "saigon-prototype-fujifilm",
+      "URLs": ["https://shopping.saigoncentre.com.vn/en/store-directory/fujifilm", "https://www.fujifilm.com/vn/vi/consumer", "https://www.fujifilm.com/vn/en"],
+      "status": "supported-brand-description-branch-range-unverified",
+      "evidenceSummary": "Mall listing places Fujifilm in Electronics at L3-K8 but supplies no offering paragraph. Fujifilm Vietnam's official consumer portfolio covers digital photography, instax instant imaging and photo-printing solutions. This supports a brand introduction, without claiming all lines are sold at the mall kiosk.",
+      "copyFacts": ["Photography and imaging brand", "Digital cameras, instax instant photography and photo-printing product families"],
+      "avoid": ["Claiming kiosk printing services, camera repairs or every camera series is locally available", "Using the unrelated healthcare/cosmetics business to describe this Electronics listing"],
+      "branchQualification": "Product families are brand-wide; kiosk-specific range requires evidence."
+    },
+    {
+      "recordID": "saigon-prototype-pnj",
+      "URLs": ["https://shopping.saigoncentre.com.vn/en/store-directory/pnj", "https://www.pnj.com.vn/"],
+      "status": "supported-brand-description",
+      "evidenceSummary": "The mall lists PNJ under Jewelry & Watches at L2-32/32A. PNJ's official catalog supports gold, silver and gemstone jewelry, including rings, earrings, necklaces and wedding/engagement collections; those categories are stronger evidence than vague luxury or feng-shui claims.",
+      "copyFacts": ["Vietnamese jewelry brand offering gold, silver and gemstone designs", "Everyday jewelry and wedding/engagement collections"],
+      "avoid": ["Guaranteeing specific stones/karats or local stock", "Inventing feng-shui benefits or investment promises"],
+      "branchQualification": "Catalog describes the brand, not confirmed stock of this branch."
+    },
+    {
+      "recordID": "saigon-candidate-374c0731-9167-461f-b83f-5300891cb7dd",
+      "URLs": ["https://shopping.saigoncentre.com.vn/en/store-directory/aesop", "https://www.aesop.com/our-story.html?geo=false"],
+      "status": "supported-brand-description-opening-soon",
+      "evidenceSummary": "Aesop's own story supports skin, hair and body-care formulations, developed using plant-based and laboratory-made ingredients. Fresh mall page marks the Saigon Centre entry Opening Soon, so a brand introduction must not imply the branch is already open or that consultations are currently available there.",
+      "copyFacts": ["Skin, hair and body-care brand founded in Melbourne", "Formulations draw on both botanical and laboratory-made ingredients"],
+      "avoid": ["Presenting this branch as open", "Promising local consultation services, stock or opening date", "Independent efficacy/safety claims based on brand marketing"],
+      "branchQualification": "Opening Soon must remain visible in publication treatment; no opening date verified."
+    },
+    {
+      "recordID": "saigon-prototype-drmartens",
+      "URLs": ["https://shopping.saigoncentre.com.vn/en/store-directory/dr-martens", "https://www.drmartens.com/eu/en_eu/dms-world/article/sole-guide"],
+      "status": "supported-brand-description",
+      "evidenceSummary": "Mall page identifies Dr Martens but has no descriptive paragraph. The official brand sole guide documents boots/shoes, grooved air-cushioned soles and signature yellow welt stitching across its classic ranges, supporting a distinctive footwear introduction.",
+      "copyFacts": ["Footwear brand associated with boots and shoes", "Classic designs distinguished by grooved air-cushioned soles and yellow stitching"],
+      "avoid": ["Claiming every model uses yellow stitching or identical construction", "Promising current branch models, repairs or medical comfort benefits"],
+      "branchQualification": "Use wording about classic/recognizable designs rather than universal technical claims."
+    }
+  ]
+}
