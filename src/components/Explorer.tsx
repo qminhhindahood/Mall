@@ -132,19 +132,22 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       journey.style.setProperty('--discovery-progress',String(reducedMotion?(progress>.5?1:0):progress));
       const invitation=journey.querySelector<HTMLElement>('.discovery-introduction');
       if(invitation){
-        const exit=clamp((innerHeight*1.25-invitation.getBoundingClientRect().top)/(innerHeight*.4));
-        const start=innerWidth<=700?160:innerHeight*.45;
-        const end=innerWidth<=700?120:184;
+        const invitationTop=(reducedMotion?invitation:invitation.querySelector('h2')??invitation).getBoundingClientRect().top;
+        const exit=reducedMotion?clamp((innerHeight*1.25-invitationTop)/(innerHeight*.4)):clamp((innerHeight*.95-invitationTop)/(innerHeight*.3));
+        const start=reducedMotion?(innerWidth<=700?160:innerHeight*.45):innerHeight*.75;
+        const end=innerWidth<=700?(reducedMotion?120:innerHeight*.4):184;
         const returning=clamp((start-top)/Math.max(40,start-end));
         const presence=Math.max(1-exit,reducedMotion?Number(returning===1):returning*returning*(3-2*returning));
         journey.style.setProperty('--map-presence',String(presence));
-        const map=journey.querySelector<HTMLElement>('.persistent-map');if(map)map.inert=presence<.01;
+        const map=journey.querySelector<HTMLElement>('.persistent-map');
+        if(map){map.inert=presence<.01;map.dataset.controlsHidden=String(!reducedMotion&&presence<.99);}
       }
       if((load!=='ready'&&load!=='failed')||focusRequest.current)return;
       const mapTop=sections.current.map?.getBoundingClientRect().top??Infinity;
       const readingLine=innerWidth<=700?160:innerHeight*.55;
       const stageBottom=exteriorJourney.current?.getBoundingClientRect().bottom??Infinity;
-      const kind=stageBottom>innerHeight*.45?null:section.getBoundingClientRect().top<readingLine?'discovery':mapTop<readingLine?'map':null;
+      const discoveryLine=reducedMotion?readingLine:innerHeight*.8;
+      const kind=stageBottom>innerHeight*.45?null:section.getBoundingClientRect().top<discoveryLine?'discovery':mapTop<readingLine?'map':null;
       if(kind&&kind!==latest.current.kind){const next: ExplorerSelection={...latest.current,kind};beginRequest(next);history.replaceState({...history.state,scrollY:scrollY},'',href(next));setSelection(next);}
     };
     window.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update);

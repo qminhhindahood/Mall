@@ -267,3 +267,11 @@ html{overflow-anchor:none}
 .discovery-highlights a{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:52px;text-decoration:none}
 .discovery-highlights a span{color:var(--muted)}
 @media(max-width:700px){.exterior-floor-journey{margin-bottom:100svh}.journey-reading .map-reading{min-height:145svh}.journey-reading .discovery-introduction{margin-block:30svh 35svh}.discovery-highlights{margin-block:32px 40px}}
+
+/* Motion-on pacing: keep the invitation in view as the map clears.
+   The accepted reduced-motion composition retains its existing spacing. */
+@media(prefers-reduced-motion:no-preference){
+  .persistent-map[data-controls-hidden=true] .map-controls{visibility:hidden}
+  .journey-reading .map-reading{min-height:120svh}
+  .journey-reading .discovery-introduction{min-height:80svh;margin-block:8svh;background:transparent}
+}
