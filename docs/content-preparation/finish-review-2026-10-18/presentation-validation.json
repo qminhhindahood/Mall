@@ -1,0 +1,13 @@
+{
+  "reviewedAt": "2026-10-18",
+  "tool": "T3 html_preview; one batched desktop/phone inspection followed by html_render",
+  "cases": [
+    {"width":728,"contentHeight":1365,"horizontalOverflow":false,"highlightCards":6,"links":8,"consoleErrors":0},
+    {"width":390,"contentHeight":2509,"horizontalOverflow":false,"highlightCards":6,"links":8,"consoleErrors":0}
+  ],
+  "renderAttachmentId":"a3ced64f-6d28-4cf6-ae29-1c22a669bcc1-9cd72248-0763-43e8-ae53-723860f2aacc-html",
+  "page":"http://127.0.0.1:4371/decision-page.html",
+  "reader":"http://127.0.0.1:4371/review.html",
+  "server":"Python http.server,127.0.0.1:4371, packet folder only; actual listener PID25024 at inspection",
+  "scope":"Decision artifact readability only; not application/runtime/owner content acceptance"
+}

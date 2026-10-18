@@ -1,0 +1,36 @@
+{
+  "revision": "finish-review-promotion-dry-run-r1",
+  "contentHashes": {
+    "roster": "4ad46b365c8d06b53c44088d8edd27491f514b7242d22ee5b9a3dde67778676f",
+    "highlights": "a682a0045c66cb16d693ebb23530c8d969aea394d401ab28173dea10115d7961",
+    "holds": "f777c850befabc41c0051547f76ccce708f3498609d60ed4cd124d419bb3c6e3"
+  },
+  "approvalSupplied": false,
+  "productionFilesWritten": [],
+  "malls": [
+    {
+      "mallId": "saigon-centre",
+      "destinations": 165,
+      "areas": 157,
+      "highlights": 3,
+      "structuralFixtureValidation": "pass (software fixture, in memory only)",
+      "candidateValidation": "Directory saigon-centre: actual snapshot review date required",
+      "pendingValidation": "pass",
+      "fixtureFlags": false,
+      "missingMarkerTreatment": "floor-confirmed; no invented areas",
+      "note": "Approved-shaped private output is not release approval. Never copy unapproved-structural-proposal into production."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinations": 203,
+      "areas": 23,
+      "highlights": 3,
+      "structuralFixtureValidation": "pass (software fixture, in memory only)",
+      "candidateValidation": "Directory vincom-dong-khoi: actual snapshot review date required",
+      "pendingValidation": "pass",
+      "fixtureFlags": false,
+      "missingMarkerTreatment": "floor-confirmed; no invented areas",
+      "note": "Approved-shaped private output is not release approval. Never copy unapproved-structural-proposal into production."
+    }
+  ]
+}
