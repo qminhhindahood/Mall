@@ -124,10 +124,22 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     const update=()=>{
       const section=sections.current.discovery, journey=mapJourney.current;
       if(!section||!journey)return;
-      const progress=Math.max(0,Math.min(1,(innerHeight-section.getBoundingClientRect().top)/(innerHeight*.75)));
+      const clamp=(value:number)=>Math.max(0,Math.min(1,value));
+      const top=section.getBoundingClientRect().top;
+      // Settle the Discovery composition while the map is hidden. Returning it
+      // on the same clock exposes the old full-size plan and floor rail.
+      const progress=clamp((innerHeight*1.2-top)/(innerHeight*.4));
       journey.style.setProperty('--discovery-progress',String(reducedMotion?(progress>.5?1:0):progress));
       const invitation=journey.querySelector<HTMLElement>('.discovery-introduction');
-      if(invitation){const exit=Math.max(0,Math.min(1,(innerHeight*1.25-invitation.getBoundingClientRect().top)/(innerHeight*.4)));const presence=Math.max(1-exit,progress);journey.style.setProperty('--map-presence',String(presence));const map=journey.querySelector<HTMLElement>('.persistent-map');if(map)map.inert=presence<.01;}
+      if(invitation){
+        const exit=clamp((innerHeight*1.25-invitation.getBoundingClientRect().top)/(innerHeight*.4));
+        const start=innerWidth<=700?160:innerHeight*.45;
+        const end=innerWidth<=700?120:184;
+        const returning=clamp((start-top)/Math.max(40,start-end));
+        const presence=Math.max(1-exit,reducedMotion?Number(returning===1):returning*returning*(3-2*returning));
+        journey.style.setProperty('--map-presence',String(presence));
+        const map=journey.querySelector<HTMLElement>('.persistent-map');if(map)map.inert=presence<.01;
+      }
       if((load!=='ready'&&load!=='failed')||focusRequest.current)return;
       const mapTop=sections.current.map?.getBoundingClientRect().top??Infinity;
       const readingLine=innerWidth<=700?160:innerHeight*.55;
@@ -136,6 +148,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       if(kind&&kind!==latest.current.kind){const next: ExplorerSelection={...latest.current,kind};beginRequest(next);history.replaceState({...history.state,scrollY:scrollY},'',href(next));setSelection(next);}
     };
     window.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update);
+    update();
     return()=>{window.removeEventListener('scroll',update);window.removeEventListener('resize',update);};
   },[load,reducedMotion]);
 
