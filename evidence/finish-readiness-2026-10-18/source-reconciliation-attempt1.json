@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-18T11:50:23.957Z",
+  "testedApplicationCommit": "a40c24aeae85ccc621a6201e29658f26ac20b14e",
+  "rawReceiptPrecommitHead": "ad9723caf48c984334b50f3c8c71c9473b02ebad",
+  "files": [
+    {
+      "path": "src/components/Discovery.tsx",
+      "sha256": "83f3a73629c1dfd7305ff6cae94b6fd9f2badf3b16a5fbbda13abe492dc07d03",
+      "buildReceiptMatch": true,
+      "commitMatch": false,
+      "currentMatch": false
+    },
+    {
+      "path": "src/components/Explorer.tsx",
+      "sha256": "2e819179d6b00caa619f662e3e5fa36eda57bf8316c1f5353f82cb0400168e45",
+      "buildReceiptMatch": true,
+      "commitMatch": false,
+      "currentMatch": false
+    },
+    {
+      "path": "src/components/FloorMap.tsx",
+      "sha256": "287b07cea6a3b54de2f3707273e1ceb3c129af0a1cb2616116b0264992d08461",
+      "buildReceiptMatch": true,
+      "commitMatch": false,
+      "currentMatch": false
+    },
+    {
+      "path": "src/styles/discovery.css",
+      "sha256": "d61c4821421475695725a7c895f766ac36f1159aa8669db0640690d5e606cee9",
+      "buildReceiptMatch": true,
+      "commitMatch": false,
+      "currentMatch": false
+    }
+  ]
+}

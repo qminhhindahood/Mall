@@ -1,0 +1,174 @@
+{
+  "profile": "Headless installed Chrome/SwiftShader; CSS viewports, not native device or native hidden/return",
+  "browser": "149.0.7827.198",
+  "runs": [
+    {
+      "mall": "saigon",
+      "width": 1280,
+      "locale": "en",
+      "checks": [
+        "Map focus is keyboard reachable with contour-only indicator",
+        "Enter opens selected area and relevant list",
+        "Back restores prior map selection",
+        "Forward restores selected area/list",
+        "Space activates SVG area",
+        "Keyboard close clears area selection"
+      ],
+      "failed": [],
+      "errors": [],
+      "selectedUrl": "http://localhost:4355/en/floors/L5?floor=L5&view=map&area=research-l5-r4-l5-region-001"
+    },
+    {
+      "mall": "saigon",
+      "width": 1280,
+      "locale": "vi",
+      "checks": [
+        "Map focus is keyboard reachable with contour-only indicator",
+        "Enter opens selected area and relevant list",
+        "Back restores prior map selection",
+        "Forward restores selected area/list",
+        "Space activates SVG area",
+        "Keyboard close clears area selection"
+      ],
+      "failed": [],
+      "errors": [],
+      "selectedUrl": "http://localhost:4355/vi/tang/L5?floor=L5&view=map&area=research-l5-r4-l5-region-001"
+    },
+    {
+      "mall": "saigon",
+      "width": 390,
+      "locale": "en",
+      "checks": [
+        "Map focus is keyboard reachable with contour-only indicator",
+        "Enter opens selected area and relevant list",
+        "Back restores prior map selection",
+        "Forward restores selected area/list",
+        "Space activates SVG area",
+        "Keyboard close clears area selection"
+      ],
+      "failed": [],
+      "errors": [],
+      "selectedUrl": "http://localhost:4355/en/floors/L5?floor=L5&view=map&area=research-l5-r4-l5-region-001"
+    },
+    {
+      "mall": "saigon",
+      "width": 390,
+      "locale": "vi",
+      "checks": [
+        "Map focus is keyboard reachable with contour-only indicator",
+        "Enter opens selected area and relevant list",
+        "Back restores prior map selection",
+        "Forward restores selected area/list",
+        "Space activates SVG area",
+        "Keyboard close clears area selection"
+      ],
+      "failed": [],
+      "errors": [],
+      "selectedUrl": "http://localhost:4355/vi/tang/L5?floor=L5&view=map&area=research-l5-r4-l5-region-001"
+    },
+    {
+      "mall": "vincom",
+      "width": 1280,
+      "locale": "en",
+      "checks": [
+        "Map focus is keyboard reachable with contour-only indicator",
+        "Enter opens selected area and relevant list",
+        "Back restores prior map selection",
+        "Forward restores selected area/list",
+        "Space activates SVG area",
+        "Keyboard close clears area selection"
+      ],
+      "failed": [],
+      "errors": [],
+      "selectedUrl": "http://localhost:4356/en/floors/B2?floor=B2&view=map&area=research-b2-b2-15"
+    },
+    {
+      "mall": "vincom",
+      "width": 1280,
+      "locale": "vi",
+      "checks": [
+        "Map focus is keyboard reachable with contour-only indicator",
+        "Enter opens selected area and relevant list",
+        "Back restores prior map selection",
+        "Forward restores selected area/list",
+        "Space activates SVG area",
+        "Keyboard close clears area selection"
+      ],
+      "failed": [],
+      "errors": [],
+      "selectedUrl": "http://localhost:4356/vi/tang/B2?floor=B2&view=map&area=research-b2-b2-15"
+    },
+    {
+      "mall": "vincom",
+      "width": 390,
+      "locale": "en",
+      "checks": [
+        "Map focus is keyboard reachable with contour-only indicator",
+        "Enter opens selected area and relevant list",
+        "Back restores prior map selection",
+        "Forward restores selected area/list",
+        "Space activates SVG area",
+        "Keyboard close clears area selection"
+      ],
+      "failed": [],
+      "errors": [],
+      "selectedUrl": "http://localhost:4356/en/floors/B2?floor=B2&view=map&area=research-b2-b2-15"
+    },
+    {
+      "mall": "vincom",
+      "width": 390,
+      "locale": "vi",
+      "checks": [
+        "Map focus is keyboard reachable with contour-only indicator",
+        "Enter opens selected area and relevant list",
+        "Back restores prior map selection",
+        "Forward restores selected area/list",
+        "Space activates SVG area",
+        "Keyboard close clears area selection"
+      ],
+      "failed": [],
+      "errors": [],
+      "selectedUrl": "http://localhost:4356/vi/tang/B2?floor=B2&view=map&area=research-b2-b2-15"
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "mode": "no-JavaScript exact public output",
+      "checks": [
+        "Useful public guide/ordinary links without JavaScript",
+        "Ordinary floor navigation renders static SVG"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "mode": "no-JavaScript exact public output",
+      "checks": [
+        "Useful public guide/ordinary links without JavaScript",
+        "Ordinary floor navigation renders static SVG"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "mode": "no-JavaScript exact public output",
+      "checks": [
+        "Useful public guide/ordinary links without JavaScript",
+        "Ordinary floor navigation renders static SVG"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "mode": "no-JavaScript exact public output",
+      "checks": [
+        "Useful public guide/ordinary links without JavaScript",
+        "Ordinary floor navigation renders static SVG"
+      ],
+      "failed": []
+    }
+  ]
+}

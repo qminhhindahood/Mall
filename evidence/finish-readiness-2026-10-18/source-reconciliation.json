@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-18T11:50:42.707Z",
+  "testedApplicationCommit": "a40c24aeae85ccc621a6201e29658f26ac20b14e",
+  "rawReceiptPrecommitHead": "ad9723caf48c984334b50f3c8c71c9473b02ebad",
+  "lineEndingQualification": "Working tree uses CRLF; committed blob uses LF by repository attributes. Physical SHA matches tested outputs; normalized source matches committed blob.",
+  "files": [
+    {
+      "path": "src/components/Discovery.tsx",
+      "testedPhysicalSha256": "83f3a73629c1dfd7305ff6cae94b6fd9f2badf3b16a5fbbda13abe492dc07d03",
+      "gitBlobSha256": "daf684c05c6a738e63a43402068a291026c5e5b94764a5fb25a3774444a88455",
+      "buildReceiptMatch": true,
+      "currentPhysicalMatch": true,
+      "commitLFNormalizedMatch": true
+    },
+    {
+      "path": "src/components/Explorer.tsx",
+      "testedPhysicalSha256": "2e819179d6b00caa619f662e3e5fa36eda57bf8316c1f5353f82cb0400168e45",
+      "gitBlobSha256": "044da229933d89bac9017ec14d9dc9905919dd526e06ee67450193fb8db84857",
+      "buildReceiptMatch": true,
+      "currentPhysicalMatch": true,
+      "commitLFNormalizedMatch": true
+    },
+    {
+      "path": "src/components/FloorMap.tsx",
+      "testedPhysicalSha256": "287b07cea6a3b54de2f3707273e1ceb3c129af0a1cb2616116b0264992d08461",
+      "gitBlobSha256": "a602204a8baf9d36552aec66b14915c663a9ae89a601c975adb99108379ff286",
+      "buildReceiptMatch": true,
+      "currentPhysicalMatch": true,
+      "commitLFNormalizedMatch": true
+    },
+    {
+      "path": "src/styles/discovery.css",
+      "testedPhysicalSha256": "d61c4821421475695725a7c895f766ac36f1159aa8669db0640690d5e606cee9",
+      "gitBlobSha256": "a5158a9c8d3fffb1fa9028dd1bf415fda72042b3f0f24d37e9d57edf80ffaa4e",
+      "buildReceiptMatch": true,
+      "currentPhysicalMatch": true,
+      "commitLFNormalizedMatch": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-18T11:49:32.794Z",
+  "scope": "GET workers/subdomain and account subscriptions only; no remote writes",
+  "accountCount": 1,
+  "rawCredentialsStored": false,
+  "rawAccountIdentityStored": false,
+  "subdomain": {
+    "status": 200,
+    "success": true,
+    "errorCodes": [],
+    "value": "anothermiralph"
+  },
+  "subscriptions": {
+    "status": 403,
+    "success": false,
+    "errorCodes": [
+      10000
+    ],
+    "workersPlans": [],
+    "complete": false
+  },
+  "zeroSpend": {
+    "staticOnlyConfig": true,
+    "paidBindings": false,
+    "assetsWithinFreeLimits": true,
+    "accountPlanVerified": false,
+    "qualification": "Static assets without Worker invocation are free under documented static-asset billing; no spending change/subscription action is requested. Account subscription facts are separate from projected zero-cost static delivery."
+  },
+  "targets": [
+    {
+      "name": "midterm-saigon-centre",
+      "proposedOrigin": "https://midterm-saigon-centre.anothermiralph.workers.dev",
+      "publishedByThisWork": false
+    },
+    {
+      "name": "midterm-vincom-dong-khoi",
+      "proposedOrigin": "https://midterm-vincom-dong-khoi.anothermiralph.workers.dev",
+      "publishedByThisWork": false
+    }
+  ]
+}

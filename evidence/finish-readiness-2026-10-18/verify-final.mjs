@@ -8,7 +8,7 @@ const hash=b=>createHash('sha256').update(b).digest('hex');
 const git=(...args)=>execFileSync('git',args,{encoding:'utf8'}).trim();
 const result={at:new Date().toISOString(),head:git('rev-parse','HEAD'),scope:'localhost final-output static/transport and local Wrangler packaging only',sourceHashes:{},outputs:[],failed:[]};
 for(const p of git('ls-files','src','scripts','astro.config.mjs','package.json').split('\n').filter(Boolean))result.sourceHashes[p]=hash(await readFile(p));
-for(const [mall,port] of [['saigon-centre',4333],['vincom-dong-khoi',4334]]){
+for(const [mall,port] of [['saigon-centre',4363],['vincom-dong-khoi',4364]]){
  const root=`dist/${mall}`,base=`http://localhost:${port}`,manifest=JSON.parse(await readFile(`${root}/data/asset-manifest.json`)),geometry=JSON.parse(await readFile(`${root}/data/floor-geometry.json`));
  const row={mall,resources:[],routes:[],outputs:[],packaging:null};
  for(const [path,expected] of [['/models/exterior.glb',manifest.sha256],['/data/floor-geometry.json',manifest.floorGeometry.sha256]])for(const mode of ['identity','br']){
@@ -19,7 +19,7 @@ for(const [mall,port] of [['saigon-centre',4333],['vincom-dong-khoi',4334]]){
  }
  for(const locale of ['vi','en'])for(const floor of geometry.floors){
   const path=`/${locale}/${locale==='vi'?'tang':'floors'}/${floor.id}`,r=await fetch(base+path),html=await r.text(),disk=await readFile(`${root}${path}/index.html`,'utf8');
-  const pass=r.status===200&&html===disk&&html.includes('static-guide')&&html.includes('<svg');row.routes.push({path,status:r.status,pass});if(!pass)result.failed.push(`${mall}: route ${path}`);
+  const pass=r.status===200&&html===disk&&html.includes('static-guide')&&html.includes('<svg');row.routes.push({path,status:r.status,pass,sourceMarkupMatchesDisk:html===disk});if(!pass)result.failed.push(`${mall}: route ${path}`);
  }
  for(const path of ['/en/stores/loading-test-store','/en/stores/unknown-store','/vi/cua-hang/unknown-store']){const status=(await fetch(base+path)).status;if(status!==404)result.failed.push(`${mall}: false 404 ${path}`);row.routes.push({path,status,pass:status===404});}
  for(const mode of ['','fixtures/','research/']){
