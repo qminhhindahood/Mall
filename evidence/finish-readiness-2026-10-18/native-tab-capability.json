@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-18T11:52:51.590Z",
+  "profile": "Owned headed installed Chrome, starts minimized/offscreen via hidden Node helper; no OS restore, injected visibility or lifecycle override",
+  "attempts": 1,
+  "samples": [
+    {
+      "name": "initial",
+      "visibility": "visible",
+      "at": 32.600000001490116,
+      "focus": true
+    },
+    {
+      "name": "other-owned-tab-activated",
+      "visibility": "visible",
+      "at": 801.8999999985099,
+      "focus": true
+    },
+    {
+      "name": "original-owned-tab-activated",
+      "visibility": "visible",
+      "at": 1517.5,
+      "focus": true
+    }
+  ],
+  "events": [],
+  "actualNativeCycle": false,
+  "cleanup": true,
+  "browser": "149.0.7827.198",
+  "qualification": "Owned minimized browser did not produce a trusted hidden→visible cycle through tab activation. OS restore would expose a headed window and is excluded by the non-disruption constraint. No native-return acceptance."
+}
