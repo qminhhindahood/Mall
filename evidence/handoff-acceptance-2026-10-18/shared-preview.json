@@ -1,0 +1,136 @@
+{
+  "revision": "handoff-acceptance-2026-10-18-r1",
+  "tabId": "tab_3_082c36a8-1d77-4027-ac4a-5becb8be7ed5",
+  "url": "http://localhost:4353/en",
+  "steps": [
+    {
+      "operation": "preview_status",
+      "result": "available:false"
+    },
+    {
+      "operation": "preview_open",
+      "arguments": {
+        "reuseExistingTab": false,
+        "url": "about:blank",
+        "open": false
+      },
+      "error": "Preview automation open failed: Invalid preview URL (parse: https:; input length 11).",
+      "resolution": "Corrected by omitting URL; tab created successfully"
+    },
+    {
+      "operation": "preview_open",
+      "arguments": {
+        "reuseExistingTab": false,
+        "open": false
+      },
+      "result": "available:true; visible:false"
+    },
+    {
+      "operation": "preview_navigate",
+      "url": "http://localhost:4353/en",
+      "result": "available:true; visible:false; loading:false"
+    },
+    {
+      "operation": "preview_evaluate",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"toolIcon\":{\"_tag\":\"website\",\"pageUrl\":\"http://localhost:4353/en\"},\"value\":{\"at\":\"2026-10-18T07:03:40.617Z\",\"buttons\":[{\"id\":\"\",\"text\":\"\"},{\"id\":\"\",\"text\":\"Pause rotation\"},{\"id\":\"\",\"text\":\"\"},{\"id\":\"\",\"text\":\"\"},{\"id\":\"\",\"text\":\"Change map angle\"},{\"id\":\"\",\"text\":\"Reset map\"},{\"id\":\"\",\"text\":\"Search\"},{\"id\":\"\",\"text\":\"\"},{\"id\":\"\",\"text\":\"Search\"}],\"canvas\":[{\"engine\":\"three.js r186\",\"renderedFrames\":\"35\"}],\"dpr\":1.75,\"focus\":true,\"loader\":true,\"ready\":\"complete\",\"state\":\"hidden\",\"viewport\":[1280,800]}}"
+          }
+        ],
+        "structuredContent": {
+          "toolIcon": {
+            "_tag": "website",
+            "pageUrl": "http://localhost:4353/en"
+          },
+          "value": {
+            "at": "2026-10-18T07:03:40.617Z",
+            "buttons": [
+              {
+                "id": "",
+                "text": ""
+              },
+              {
+                "id": "",
+                "text": "Pause rotation"
+              },
+              {
+                "id": "",
+                "text": ""
+              },
+              {
+                "id": "",
+                "text": ""
+              },
+              {
+                "id": "",
+                "text": "Change map angle"
+              },
+              {
+                "id": "",
+                "text": "Reset map"
+              },
+              {
+                "id": "",
+                "text": "Search"
+              },
+              {
+                "id": "",
+                "text": ""
+              },
+              {
+                "id": "",
+                "text": "Search"
+              }
+            ],
+            "canvas": [
+              {
+                "engine": "three.js r186",
+                "renderedFrames": "35"
+              }
+            ],
+            "dpr": 1.75,
+            "focus": true,
+            "loader": true,
+            "ready": "complete",
+            "state": "hidden",
+            "viewport": [
+              1280,
+              800
+            ]
+          }
+        },
+        "isError": false
+      }
+    },
+    {
+      "operation": "preview_open",
+      "arguments": {
+        "open": true
+      },
+      "result": "available:true; visible:false"
+    },
+    {
+      "operation": "preview_snapshot",
+      "error": "Preview snapshot failed: Preview automation snapshot timed out after 15000ms."
+    },
+    {
+      "operation": "preview_evaluate",
+      "purpose": "Install native trusted visibility and draw observer",
+      "error": "Preview automation evaluate timed out after 15000ms.",
+      "qualification": "Installation not confirmed"
+    },
+    {
+      "operation": "preview_evaluate",
+      "purpose": "Bounded retry querying current visibility/readiness",
+      "error": "Preview automation evaluate timed out after 15000ms."
+    }
+  ],
+  "limits": [
+    "Probe precedes fresh final builds; it establishes shared-host availability limits only",
+    "Native hidden-to-visible return/pause/focus not accepted",
+    "No screenshot, stable shared-preview, owner rendered or production acceptance",
+    "Two consecutive evaluate timeouts permit documented Playwright fallback; no synthetic visibility used"
+  ]
+}

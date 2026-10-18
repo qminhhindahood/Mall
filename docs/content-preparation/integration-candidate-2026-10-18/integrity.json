@@ -1,0 +1,822 @@
+{
+  "revision": "integration-candidate-2026-10-18-r1",
+  "checks": [
+    {
+      "invariant": "Optional neutral proposals must remain unapproved",
+      "result": "pass"
+    },
+    {
+      "invariant": "r4 technical validation must pass",
+      "result": "pass"
+    },
+    {
+      "invariant": "Expected 371 distinct content identities",
+      "result": "pass"
+    },
+    {
+      "invariant": "Roster/content identity mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected copy overlay scope",
+      "result": "pass"
+    },
+    {
+      "invariant": "Expected 42 unique r4 locations",
+      "result": "pass"
+    },
+    {
+      "invariant": "Geometry ledger/association mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Original floor metadata changed",
+      "result": "pass"
+    },
+    {
+      "invariant": "Original geometry changed",
+      "result": "pass"
+    },
+    {
+      "invariant": "Original floor metadata changed",
+      "result": "pass"
+    },
+    {
+      "invariant": "Original geometry changed",
+      "result": "pass"
+    },
+    {
+      "invariant": "Original floor metadata changed",
+      "result": "pass"
+    },
+    {
+      "invariant": "Original geometry changed",
+      "result": "pass"
+    },
+    {
+      "invariant": "Original floor metadata changed",
+      "result": "pass"
+    },
+    {
+      "invariant": "Original geometry changed",
+      "result": "pass"
+    },
+    {
+      "invariant": "Original floor metadata changed",
+      "result": "pass"
+    },
+    {
+      "invariant": "Original geometry changed",
+      "result": "pass"
+    },
+    {
+      "invariant": "Original floor metadata changed",
+      "result": "pass"
+    },
+    {
+      "invariant": "Original geometry changed",
+      "result": "pass"
+    },
+    {
+      "invariant": "Original floor metadata changed",
+      "result": "pass"
+    },
+    {
+      "invariant": "Original geometry changed",
+      "result": "pass"
+    },
+    {
+      "invariant": "Original floor metadata changed",
+      "result": "pass"
+    },
+    {
+      "invariant": "Original geometry changed",
+      "result": "pass"
+    },
+    {
+      "invariant": "Public snapshot must remain pending/empty",
+      "result": "pass"
+    },
+    {
+      "invariant": "Public snapshot must remain pending/empty",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Hold mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Hold mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Hold mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Cross-mall or floor geometry association",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unknown candidate region",
+      "result": "pass"
+    },
+    {
+      "invariant": "Unexpected geometry approval state",
+      "result": "pass"
+    },
+    {
+      "invariant": "Neutral copy mall mismatch",
+      "result": "pass"
+    },
+    {
+      "invariant": "Missing geometry candidate",
+      "result": "pass"
+    },
+    {
+      "invariant": "Original gap denominator changed",
+      "result": "pass"
+    },
+    {
+      "invariant": "Scoped copy acceptance broadened",
+      "result": "pass"
+    }
+  ],
+  "scope": "Private assembly invariants, not application behavior or owner acceptance"
+}

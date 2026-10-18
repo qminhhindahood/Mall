@@ -1,0 +1,38 @@
+{
+  "revision": "owner-decisions-2026-10-18-r1",
+  "decisionDate": "2026-10-18",
+  "decidedBy": "Project owner (conversation participant)",
+  "recordedBy": "Codex (decision recorder; not substitute reviewer)",
+  "provenance": "Explicit owner statements in the active 18 October 2026 project conversation, relayed by coordinating parent agent",
+  "geometry": {
+    "exactStatement": "r4 geometry accept all",
+    "revision": "saigon-42-polygons-2026-10-18-r4",
+    "recordCount": 42,
+    "ownerApproval": true,
+    "scope": "Accept all 42 r4 geometry proposals; seven existing-region reuses and 35 new candidates",
+    "doesNotApprove": [
+      "Duplicate-code destination identities",
+      "Exclusive storefront or occupancy claims",
+      "Roster/category/facility completeness",
+      "Copy or independent Vietnamese/English review",
+      "Media rights/currentness",
+      "Rendered journey",
+      "Publication or deployment"
+    ]
+  },
+  "unresolvedTreatment": {
+    "exactStatement": "Approve no-photo and no-marker treatment for unresolved records.",
+    "ownerApproval": true,
+    "scope": "Use no photo where candidate media remains unapproved; retain floor/list access without precise markers where location evidence is unresolved",
+    "doesNotApprove": [
+      "Image rights or storefront/branch identity",
+      "A precise location or new region assignment",
+      "Publishing an unapproved roster or bilingual copy"
+    ]
+  },
+  "copyApproval": {
+    "newApproval": false,
+    "reason": "Owner asked for context; no approval given. Existing scoped Meat & Meet acceptance remains separate."
+  },
+  "releaseApproval": false
+}

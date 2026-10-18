@@ -10,6 +10,7 @@ export type FloorGeometry = {
   bounds: [number, number, number, number]; regions: FloorRegion[];
   sources: { path: string; sha256: string; width: number; height: number; transform: number[]; certainty: string }[];
   preview: { path: string; width: number; height: number } | null;
+  presentation?: { outline:[number,number][]; referenceZonePaths:string[] };
 };
 export type FloorDataset = {
   revision: string;

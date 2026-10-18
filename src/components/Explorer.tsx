@@ -250,7 +250,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       return fetchGeometry(site.geometryIdentityUrl);
     }).then(result=>{
       if (alive) {
-        setGeometry(result);
+        setGeometry({...result,floors:result.floors.map(floor=>({...floor,presentation:site.geometry.floors.find(item=>item.id===floor.id)?.presentation}))});
       }
       return result;
     });

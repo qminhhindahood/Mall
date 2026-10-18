@@ -1,0 +1,628 @@
+{
+  "revision": "handoff-acceptance-2026-10-18-r1",
+  "browser": "149.0.7827.198",
+  "profile": "Headless Chrome / SwiftShader; CSS viewports; local static HTTP; not physical devices",
+  "runs": [
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "width": 1280,
+      "mode": "normal-motion-public",
+      "checks": [
+        "Opening hero has no floor overlay",
+        "Discovery skip absent from opening hero",
+        "Every shopping level has a label",
+        "Intermediate exterior fade and floor reveal are simultaneously visible",
+        "All floor callouts readable together in overview",
+        "Every callout receives a measured connector",
+        "Localized Discovery skip visible after hero",
+        "Skip goes directly to focused Discovery",
+        "Skip needs no floor selection and retains default",
+        "Back restores skipped overview",
+        "Label selects L6",
+        "Source contours retained in L6 detailed map",
+        "Reverse scroll retains L6",
+        "Label selects L5",
+        "Source contours retained in L5 detailed map",
+        "Reverse scroll retains L5",
+        "Label selects L4",
+        "Source contours retained in L4 detailed map",
+        "Reverse scroll retains L4",
+        "Label selects L3",
+        "Source contours retained in L3 detailed map",
+        "Reverse scroll retains L3",
+        "Label selects L2",
+        "Source contours retained in L2 detailed map",
+        "Reverse scroll retains L2",
+        "Label selects L1",
+        "Source contours retained in L1 detailed map",
+        "Reverse scroll retains L1",
+        "Label selects B1",
+        "Source contours retained in B1 detailed map",
+        "Reverse scroll retains B1",
+        "Label selects B2",
+        "Source contours retained in B2 detailed map",
+        "Reverse scroll retains B2",
+        "Floor surface selects its level",
+        "Selected floor has a visible intermediate travel state",
+        "Same practical map persists into Discovery",
+        "Discovery reverse keeps selected floor",
+        "Reverse scroll restores exterior and selected floor",
+        "No horizontal overflow",
+        "Public content remains pending"
+      ],
+      "failed": [],
+      "frames": [
+        "frames/saigon-en-1280-hero.png",
+        "frames/saigon-en-1280-fade.png",
+        "frames/saigon-en-1280-stack.png",
+        "frames/saigon-en-1280-map-L6.png",
+        "frames/saigon-en-1280-map-L2.png",
+        "frames/saigon-en-1280-map-B2.png",
+        "frames/saigon-en-1280-travel.png",
+        "frames/saigon-en-1280-map.png",
+        "frames/saigon-en-1280-discovery.png",
+        "frames/saigon-en-1280-reverse-hero.png"
+      ],
+      "samples": [
+        {
+          "scrollY": 440,
+          "exteriorOpacity": 1,
+          "floorOpacity": 0
+        },
+        {
+          "scrollY": 536,
+          "exteriorOpacity": 0.784,
+          "floorOpacity": 0.216
+        },
+        {
+          "scrollY": 632,
+          "exteriorOpacity": 0.352,
+          "floorOpacity": 0.648
+        },
+        {
+          "flight": 0.2,
+          "hidden": false,
+          "transform": "matrix3d(0.992227, -0.0666786, -0.105069, 7.00458e-05, 0.124441, 0.531662, 0.837765, -0.00055851, 0, -0.844328, 0.535827, -0.000357218, 0, 0, 0, 1)",
+          "rect": {
+            "x": 605.6419067382812,
+            "y": 449.6186828613281,
+            "width": 465.22637939453125,
+            "height": 166.38107299804688,
+            "top": 449.6186828613281,
+            "right": 1070.8682861328125,
+            "bottom": 615.999755859375,
+            "left": 605.6419067382812
+          }
+        },
+        {
+          "flight": 0.5,
+          "hidden": false,
+          "transform": "matrix3d(0.996961, -0.0630213, -0.0457876, 3.05251e-05, 0.0778986, 0.806559, 0.585999, -0.000390666, 0, -0.587785, 0.809017, -0.000539345, 0, 0, 0, 1)",
+          "rect": {
+            "x": 555.58984375,
+            "y": 508.85235595703125,
+            "width": 585.2261962890625,
+            "height": 310.51580810546875,
+            "top": 508.85235595703125,
+            "right": 1140.8160400390625,
+            "bottom": 819.3681640625,
+            "left": 555.58984375
+          }
+        },
+        {
+          "flight": 0.8,
+          "hidden": false,
+          "transform": "matrix3d(0.999514, -0.0302062, -0.00775563, 5.17042e-06, 0.031186, 0.968112, 0.248569, -0.000165713, 0, -0.24869, 0.968583, -0.000645722, 0, 0, 0, 1)",
+          "rect": {
+            "x": 511.9180908203125,
+            "y": 355.8125915527344,
+            "width": 684.8736572265625,
+            "height": 431.0355529785156,
+            "top": 355.8125915527344,
+            "right": 1196.791748046875,
+            "bottom": 786.84814453125,
+            "left": 511.9180908203125
+          }
+        }
+      ],
+      "errors": [],
+      "labels": [
+        {
+          "text": "L6",
+          "top": 283.828125,
+          "bottom": 327.828125,
+          "left": 1183.984375,
+          "right": 1247.984375,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "L5",
+          "top": 330.828125,
+          "bottom": 374.828125,
+          "left": 1183.984375,
+          "right": 1247.984375,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "L4",
+          "top": 377.828125,
+          "bottom": 421.828125,
+          "left": 1183.984375,
+          "right": 1247.984375,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "L3",
+          "top": 424.828125,
+          "bottom": 468.828125,
+          "left": 1183.984375,
+          "right": 1247.984375,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "L2",
+          "top": 471.828125,
+          "bottom": 515.828125,
+          "left": 1183.984375,
+          "right": 1247.984375,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "L1",
+          "top": 518.828125,
+          "bottom": 562.828125,
+          "left": 1183.984375,
+          "right": 1247.984375,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "B1",
+          "top": 565.828125,
+          "bottom": 609.828125,
+          "left": 1183.984375,
+          "right": 1247.984375,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "B2",
+          "top": 612.828125,
+          "bottom": 656.828125,
+          "left": 1183.984375,
+          "right": 1247.984375,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        }
+      ]
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "width": 390,
+      "mode": "normal-motion-public",
+      "checks": [
+        "Opening hero has no floor overlay",
+        "Discovery skip absent from opening hero",
+        "Every shopping level has a label",
+        "Intermediate exterior fade and floor reveal are simultaneously visible",
+        "All floor callouts readable together in overview",
+        "Every callout receives a measured connector",
+        "Localized Discovery skip visible after hero",
+        "Skip goes directly to focused Discovery",
+        "Skip needs no floor selection and retains default",
+        "Back restores skipped overview",
+        "Label selects L6",
+        "Source contours retained in L6 detailed map",
+        "Reverse scroll retains L6",
+        "Label selects L5",
+        "Source contours retained in L5 detailed map",
+        "Reverse scroll retains L5",
+        "Label selects L4",
+        "Source contours retained in L4 detailed map",
+        "Reverse scroll retains L4",
+        "Label selects L3",
+        "Source contours retained in L3 detailed map",
+        "Reverse scroll retains L3",
+        "Label selects L2",
+        "Source contours retained in L2 detailed map",
+        "Reverse scroll retains L2",
+        "Label selects L1",
+        "Source contours retained in L1 detailed map",
+        "Reverse scroll retains L1",
+        "Label selects B1",
+        "Source contours retained in B1 detailed map",
+        "Reverse scroll retains B1",
+        "Label selects B2",
+        "Source contours retained in B2 detailed map",
+        "Reverse scroll retains B2",
+        "Floor surface selects its level",
+        "Selected floor has a visible intermediate travel state",
+        "Same practical map persists into Discovery",
+        "Discovery reverse keeps selected floor",
+        "Reverse scroll restores exterior and selected floor",
+        "No horizontal overflow",
+        "Public content remains pending"
+      ],
+      "failed": [],
+      "frames": [
+        "frames/saigon-en-390-hero.png",
+        "frames/saigon-en-390-fade.png",
+        "frames/saigon-en-390-stack.png",
+        "frames/saigon-en-390-map-L6.png",
+        "frames/saigon-en-390-map-L2.png",
+        "frames/saigon-en-390-map-B2.png",
+        "frames/saigon-en-390-travel.png",
+        "frames/saigon-en-390-map.png",
+        "frames/saigon-en-390-discovery.png",
+        "frames/saigon-en-390-reverse-hero.png"
+      ],
+      "samples": [
+        {
+          "scrollY": 854,
+          "exteriorOpacity": 1,
+          "floorOpacity": 0
+        },
+        {
+          "scrollY": 955,
+          "exteriorOpacity": 0.785789,
+          "floorOpacity": 0.214211
+        },
+        {
+          "scrollY": 1057,
+          "exteriorOpacity": 0.350977,
+          "floorOpacity": 0.649023
+        },
+        {
+          "flight": 0.2,
+          "hidden": false,
+          "transform": "matrix3d(0.996964, -0.046163, -0.0627001, 4.18e-05, 0.0778609, 0.591091, 0.802838, -0.000535225, 0, -0.805283, 0.592891, -0.000395261, 0, 0, 0, 1)",
+          "rect": {
+            "x": 32.82590103149414,
+            "y": 494.9480895996094,
+            "width": 288.8403015136719,
+            "height": 107.59866333007812,
+            "top": 494.9480895996094,
+            "right": 321.666202545166,
+            "bottom": 602.5467529296875,
+            "left": 32.82590103149414
+          }
+        },
+        {
+          "flight": 0.5,
+          "hidden": false,
+          "transform": "matrix3d(0.999285, -0.0339826, -0.016599, 1.1066e-05, 0.0378199, 0.897894, 0.438583, -0.000292389, 0, -0.438897, 0.898537, -0.000599025, 0, 0, 0, 1)",
+          "rect": {
+            "x": 31.999082565307617,
+            "y": 463.2414245605469,
+            "width": 309.82568359375,
+            "height": 167.53701782226562,
+            "top": 463.2414245605469,
+            "right": 341.8247661590576,
+            "bottom": 630.7784423828125,
+            "left": 31.999082565307617
+          }
+        },
+        {
+          "flight": 0.8,
+          "hidden": true,
+          "transform": "none",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        }
+      ],
+      "errors": [],
+      "labels": [
+        {
+          "text": "L6",
+          "top": 324.390625,
+          "bottom": 368.390625,
+          "left": 316,
+          "right": 370,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "L5",
+          "top": 369.390625,
+          "bottom": 413.390625,
+          "left": 316,
+          "right": 370,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "L4",
+          "top": 414.390625,
+          "bottom": 458.390625,
+          "left": 316,
+          "right": 370,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "L3",
+          "top": 459.390625,
+          "bottom": 503.390625,
+          "left": 316,
+          "right": 370,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "L2",
+          "top": 504.390625,
+          "bottom": 548.390625,
+          "left": 316,
+          "right": 370,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "L1",
+          "top": 549.390625,
+          "bottom": 593.390625,
+          "left": 316,
+          "right": 370,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "B1",
+          "top": 594.390625,
+          "bottom": 638.390625,
+          "left": 316,
+          "right": 370,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "B2",
+          "top": 639.390625,
+          "bottom": 683.390625,
+          "left": 316,
+          "right": 370,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        }
+      ]
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "width": 1280,
+      "mode": "normal-motion-public",
+      "checks": [
+        "Opening hero has no floor overlay",
+        "Discovery skip absent from opening hero",
+        "Every shopping level has a label",
+        "Intermediate exterior fade and floor reveal are simultaneously visible",
+        "All floor callouts readable together in overview",
+        "Every callout receives a measured connector",
+        "Localized Discovery skip visible after hero",
+        "Skip goes directly to focused Discovery",
+        "Skip needs no floor selection and retains default",
+        "Back restores skipped overview",
+        "Label selects L6",
+        "Source contours retained in L6 detailed map",
+        "Reverse scroll retains L6",
+        "Label selects L5",
+        "Source contours retained in L5 detailed map",
+        "Reverse scroll retains L5",
+        "Label selects L4",
+        "Source contours retained in L4 detailed map",
+        "Reverse scroll retains L4",
+        "Label selects L3",
+        "Source contours retained in L3 detailed map",
+        "Reverse scroll retains L3",
+        "Label selects L2",
+        "Source contours retained in L2 detailed map",
+        "Reverse scroll retains L2",
+        "Label selects L1",
+        "Source contours retained in L1 detailed map",
+        "Reverse scroll retains L1",
+        "Label selects B1",
+        "Source contours retained in B1 detailed map",
+        "Reverse scroll retains B1",
+        "Label selects B2",
+        "Source contours retained in B2 detailed map",
+        "Reverse scroll retains B2",
+        "Floor surface selects its level",
+        "Selected floor has a visible intermediate travel state",
+        "Same practical map persists into Discovery",
+        "Discovery reverse keeps selected floor",
+        "Reverse scroll restores exterior and selected floor",
+        "No horizontal overflow",
+        "Public content remains pending"
+      ],
+      "failed": [],
+      "frames": [
+        "frames/saigon-vi-1280-hero.png",
+        "frames/saigon-vi-1280-fade.png",
+        "frames/saigon-vi-1280-stack.png",
+        "frames/saigon-vi-1280-map-L6.png",
+        "frames/saigon-vi-1280-map-L2.png",
+        "frames/saigon-vi-1280-map-B2.png",
+        "frames/saigon-vi-1280-travel.png",
+        "frames/saigon-vi-1280-map.png",
+        "frames/saigon-vi-1280-discovery.png",
+        "frames/saigon-vi-1280-reverse-hero.png"
+      ],
+      "samples": [
+        {
+          "scrollY": 440,
+          "exteriorOpacity": 1,
+          "floorOpacity": 0
+        },
+        {
+          "scrollY": 536,
+          "exteriorOpacity": 0.784,
+          "floorOpacity": 0.216
+        },
+        {
+          "scrollY": 632,
+          "exteriorOpacity": 0.352,
+          "floorOpacity": 0.648
+        },
+        {
+          "flight": 0.2,
+          "hidden": false,
+          "transform": "matrix3d(0.98924, -0.0783937, -0.123529, 8.23525e-05, 0.146304, 0.530061, 0.835243, -0.000556828, 0, -0.844328, 0.535827, -0.000357218, 0, 0, 0, 1)",
+          "rect": {
+            "x": 602.999267578125,
+            "y": 447.6377258300781,
+            "width": 469.3873291015625,
+            "height": 171.18093872070312,
+            "top": 447.6377258300781,
+            "right": 1072.3865966796875,
+            "bottom": 618.8186645507812,
+            "left": 602.999267578125
+          }
+        },
+        {
+          "flight": 0.5,
+          "hidden": false,
+          "transform": "matrix3d(0.995792, -0.074139, -0.0538651, 3.59101e-05, 0.0916408, 0.805613, 0.585312, -0.000390208, 0, -0.587785, 0.809017, -0.000539345, 0, 0, 0, 1)",
+          "rect": {
+            "x": 558.0402221679688,
+            "y": 506.3566589355469,
+            "width": 584.4111938476562,
+            "height": 316.3887634277344,
+            "top": 506.3566589355469,
+            "right": 1142.451416015625,
+            "bottom": 822.7454223632812,
+            "left": 558.0402221679688
+          }
+        },
+        {
+          "flight": 0.8,
+          "hidden": false,
+          "transform": "matrix3d(0.999326, -0.0355466, -0.00912681, 6.08454e-06, 0.0366996, 0.967931, 0.248522, -0.000165682, 0, -0.24869, 0.968583, -0.000645722, 0, 0, 0, 1)",
+          "rect": {
+            "x": 513.0931396484375,
+            "y": 354.2066345214844,
+            "width": 684.732177734375,
+            "height": 434.5036926269531,
+            "top": 354.2066345214844,
+            "right": 1197.8253173828125,
+            "bottom": 788.7103271484375,
+            "left": 513.0931396484375
+          }
+        }
+      ],
+      "errors": [],
+      "labels": [
+        {
+          "text": "L6",
+          "top": 283.828125,
+          "bottom": 327.828125,
+          "left": 1183.984375,
+          "right": 1247.984375,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "L5",
+          "top": 330.828125,
+          "bottom": 374.828125,
+          "left": 1183.984375,
+          "right": 1247.984375,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "L4",
+          "top": 377.828125,
+          "bottom": 421.828125,
+          "left": 1183.984375,
+          "right": 1247.984375,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "L3",
+          "top": 424.828125,
+          "bottom": 468.828125,
+          "left": 1183.984375,
+          "right": 1247.984375,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "L2",
+          "top": 471.828125,
+          "bottom": 515.828125,
+          "left": 1183.984375,
+          "right": 1247.984375,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "L1",
+          "top": 518.828125,
+          "bottom": 562.828125,
+          "left": 1183.984375,
+          "right": 1247.984375,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "B1",
+          "top": 565.828125,
+          "bottom": 609.828125,
+          "left": 1183.984375,
+          "right": 1247.984375,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        },
+        {
+          "text": "B2",
+          "top": 612.828125,
+          "bottom": 656.828125,
+          "left": 1183.984375,
+          "right": 1247.984375,
+          "font": 16,
+          "opacity": 1,
+          "line": true
+        }
+      ]
+    }
+  ]
+}

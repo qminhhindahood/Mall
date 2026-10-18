@@ -1,0 +1,416 @@
+{
+  "at": "2026-10-18T07:33:10.257Z",
+  "branch": "integration/continuous-visitor-journey",
+  "entryHead": "1ee2c29785d4f3600d7ce95013e2121156e90be2",
+  "headAtCapture": "1ee2c29785d4f3600d7ce95013e2121156e90be2",
+  "latestApplicationSourceCommit": "aa38848cca5aa158da10e7f56c8c4e1a2d90d4a7",
+  "pendingTrackedChanges": "data/malls/saigon-centre/overview-slabs.json\ndata/malls/vincom-dong-khoi/overview-slabs.json\ndocs/content-preparation/evidence-follow-up-2026-10-18-r1/.gitattributes\ndocs/content-preparation/evidence-follow-up-2026-10-18-r1/README.md\ndocs/content-preparation/evidence-follow-up-2026-10-18-r1/browser-validation.json\ndocs/content-preparation/evidence-follow-up-2026-10-18-r1/build-packet.py\ndocs/content-preparation/evidence-follow-up-2026-10-18-r1/input-hashes.json\ndocs/content-preparation/evidence-follow-up-2026-10-18-r1/neutral-copy-proposals.json\ndocs/content-preparation/evidence-follow-up-2026-10-18-r1/owner-review.html\ndocs/content-preparation/evidence-follow-up-2026-10-18-r1/validation.json\ndocs/content-preparation/integration-candidate-2026-10-18-r2/.gitattributes\ndocs/content-preparation/integration-candidate-2026-10-18-r2/README.md\ndocs/content-preparation/integration-candidate-2026-10-18-r2/accepted-r4-geometry.json.gz\ndocs/content-preparation/integration-candidate-2026-10-18-r2/browser-validation.json\ndocs/content-preparation/integration-candidate-2026-10-18-r2/build-review.py\ndocs/content-preparation/integration-candidate-2026-10-18-r2/integrity.json\ndocs/content-preparation/integration-candidate-2026-10-18-r2/manifest.json\ndocs/content-preparation/integration-candidate-2026-10-18-r2/owner-decisions.json\ndocs/content-preparation/integration-candidate-2026-10-18-r2/prepare.py\ndocs/content-preparation/integration-candidate-2026-10-18-r2/review.html\ndocs/content-preparation/integration-candidate-2026-10-18-r2/saigon-centre.private.json\ndocs/content-preparation/integration-candidate-2026-10-18-r2/source-hashes.json\ndocs/content-preparation/integration-candidate-2026-10-18-r2/summary.json\ndocs/content-preparation/integration-candidate-2026-10-18-r2/vincom-dong-khoi.private.json\ndocs/content-preparation/integration-candidate-2026-10-18/.gitattributes\ndocs/content-preparation/integration-candidate-2026-10-18/README.md\ndocs/content-preparation/integration-candidate-2026-10-18/integrity.json\ndocs/content-preparation/integration-candidate-2026-10-18/manifest.json\ndocs/content-preparation/integration-candidate-2026-10-18/prepare.py\ndocs/content-preparation/integration-candidate-2026-10-18/saigon-centre.private.json\ndocs/content-preparation/integration-candidate-2026-10-18/source-hashes.json\ndocs/content-preparation/integration-candidate-2026-10-18/summary.json\ndocs/content-preparation/integration-candidate-2026-10-18/validation.md\ndocs/content-preparation/integration-candidate-2026-10-18/vincom-dong-khoi.private.json\ndocs/content-preparation/website-text-review-2026-10-18-r1/.gitattributes\ndocs/content-preparation/website-text-review-2026-10-18-r1/README.md\ndocs/content-preparation/website-text-review-2026-10-18-r1/branch-comparison.json\ndocs/content-preparation/website-text-review-2026-10-18-r1/browser-validation.json\ndocs/content-preparation/website-text-review-2026-10-18-r1/build-inventory.mjs\ndocs/content-preparation/website-text-review-2026-10-18-r1/editable-copy.csv\ndocs/content-preparation/website-text-review-2026-10-18-r1/effective-preview-labels.json\ndocs/content-preparation/website-text-review-2026-10-18-r1/inventory.json\ndocs/content-preparation/website-text-review-2026-10-18-r1/review-template.html\ndocs/content-preparation/website-text-review-2026-10-18-r1/review.html\ndocs/content-preparation/website-text-review-2026-10-18-r1/source-hashes.json\ndocs/content-preparation/website-text-review-2026-10-18-r1/summary.json\nevidence/slab-consolidation-2026-10-18/README.md\nscripts/import-overview-slabs.py\nscripts/prepare-assets.mjs\nscripts/research-overlay.mjs\nsrc/components/Discovery.tsx\nsrc/components/Explorer.tsx\nsrc/components/FloorMap.tsx\nsrc/components/floor-frame.ts\nsrc/components/journey-copy.ts\nsrc/data/research-fixtures.ts\nsrc/data/site.ts\nsrc/runtime/scene-contract.ts\nsrc/styles/journey.css\ntests/browser-discovery-checks.js\ntsconfig.json",
+  "publicBuilds": [
+    {
+      "mall": "saigon-centre",
+      "htmlSha256": "452a51b5d4b0776b50955fb3f8dd76a844b33d184bf0409fc0d78890fc31449a",
+      "manifest": {
+        "revision": "photo-polish-2026-10-12-delivery-r2",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "mallId": "saigon-centre",
+        "exteriorUrl": "/models/exterior.glb.br",
+        "identityUrl": "/models/exterior.glb",
+        "preferredExteriorUrl": "/models/exterior.glb.br",
+        "sha256": "f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050",
+        "bytes": 2000796,
+        "previewUrl": "/previews/exterior.webp",
+        "preview": {
+          "sha256": "72090fe1fc92a5ca318e5ab4915efecc98e6afc95d5f70f86d6b917f4e2a0179",
+          "bytes": 356868
+        },
+        "source": "implementation/takashimaya-exterior/public/models/saigon-centre.web.glb",
+        "compression": [
+          {
+            "encoding": "identity",
+            "url": "/models/exterior.glb",
+            "bytes": 2000796,
+            "sha256": "f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050",
+            "decodedSha256": "f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050",
+            "roundtripExact": true
+          },
+          {
+            "encoding": "br",
+            "url": "/models/exterior.glb.br",
+            "bytes": 205547,
+            "sha256": "9eff575af59ccd8820139e547dcb43f9a43a12fa7509f522e7ce747b5a3cf9a0",
+            "decodedSha256": "f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050",
+            "roundtripExact": true,
+            "quality": 5
+          },
+          {
+            "encoding": "gzip",
+            "url": "/models/exterior.glb.gz",
+            "bytes": 271536,
+            "sha256": "7389f4b960058a9047e9c2565f3a0f023c7170701b627e0c0a9bba54e3d28681",
+            "decodedSha256": "f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050",
+            "roundtripExact": true
+          }
+        ],
+        "hostingStatus": "explicit-static _headers prepared; local browser verified separately; production release host unverified",
+        "staticInputs": [
+          {
+            "url": "/maps/B1.png",
+            "bytes": 2951498,
+            "sha256": "eeda80dda33eb7ec301881b86603b04b0fd03a16750b14dee25c7a1d99ca4afe"
+          },
+          {
+            "url": "/maps/B2.png",
+            "bytes": 3124497,
+            "sha256": "92e959288b957497e3859fb2db80f0657ecb590fd2268c4948a57bdd18ea8497"
+          },
+          {
+            "url": "/maps/L1.png",
+            "bytes": 3184141,
+            "sha256": "d7c4697eb9399e8d768586b01139295cf90c3607ba44e690a031c0aaf5eba89b"
+          },
+          {
+            "url": "/maps/L2.png",
+            "bytes": 3031814,
+            "sha256": "4749dd738ea148407c334396183ef917711f4ff10fbfaa796a7ff6f31ede4fd5"
+          },
+          {
+            "url": "/maps/L3.png",
+            "bytes": 3301657,
+            "sha256": "905e5de4c90debbabddd8a7fadf9e47b5084bf6b01703ba5450b9e8603763ab8"
+          },
+          {
+            "url": "/maps/L4.png",
+            "bytes": 2374772,
+            "sha256": "e97069f721f384d6e37bc7896d8e95344d1f5cc153e17eb9d3c844a11c046f60"
+          },
+          {
+            "url": "/maps/L5.png",
+            "bytes": 2273771,
+            "sha256": "4abefc8f9c34f1fa3c0f9076e5b4b9c5689505d783d6a843a37078f2a6b712c5"
+          },
+          {
+            "url": "/maps/L6.png",
+            "bytes": 2130923,
+            "sha256": "94ecc7542a08d96cdf14fc43efcbd6c26ff753c59be135867d4092c33187e4f6"
+          },
+          {
+            "url": "/fonts/BeVietnamPro-OFL.txt",
+            "bytes": 4397,
+            "sha256": "6b7f8f73609a25ea78c891e34cf37b06f8a676b7ea986e941e43b009110f2a85"
+          },
+          {
+            "url": "/fonts/BeVietnamPro-Regular.ttf",
+            "bytes": 120228,
+            "sha256": "4ad53eac036092be79a34b5fa0aa32d0ebb3c7e5df4bc058764f5614fbf148a0"
+          },
+          {
+            "url": "/fonts/Manrope-OFL.txt",
+            "bytes": 4386,
+            "sha256": "d6a309fcfb963d329a93baf9df66fa5f3c23a4be2b5f67edf24d6cafecde12ac"
+          },
+          {
+            "url": "/fonts/Manrope.ttf",
+            "bytes": 164700,
+            "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+          }
+        ],
+        "floorGeometry": {
+          "revision": "source-palette-schematic-2026-10-13-r2",
+          "url": "/data/floor-geometry.json.br",
+          "identityUrl": "/data/floor-geometry.json",
+          "bytes": 5181012,
+          "sha256": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807",
+          "compression": [
+            {
+              "encoding": "identity",
+              "url": "/data/floor-geometry.json",
+              "bytes": 5181012,
+              "sha256": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807",
+              "decodedSha256": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807",
+              "roundtripExact": true
+            },
+            {
+              "encoding": "br",
+              "url": "/data/floor-geometry.json.br",
+              "bytes": 1084569,
+              "sha256": "58548a1dc88725e11437e681452f030d6e975eca7ccf06c6ef87e576f75c2e60",
+              "decodedSha256": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807",
+              "roundtripExact": true
+            },
+            {
+              "encoding": "gzip",
+              "url": "/data/floor-geometry.json.gz",
+              "bytes": 1152694,
+              "sha256": "be84b34fe74adeda15941ab53557053ddea402e2165228b1967405896dc8c43c",
+              "decodedSha256": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807",
+              "roundtripExact": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "htmlSha256": "97972b1bd3c7267250592133efe156800132d72f6074d16ab1162ffbc0286690",
+      "manifest": {
+        "revision": "photo-polish-2026-10-12-delivery-r2",
+        "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+        "mallId": "vincom-dong-khoi",
+        "exteriorUrl": "/models/exterior.glb.br",
+        "identityUrl": "/models/exterior.glb",
+        "preferredExteriorUrl": "/models/exterior.glb.br",
+        "sha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+        "bytes": 4797176,
+        "previewUrl": "/previews/exterior.webp",
+        "preview": {
+          "sha256": "7584abb6e0e0ed7d9867f614ecd957ce884711961d81a1504b30ba4815915473",
+          "bytes": 908232
+        },
+        "source": "implementation/vincom-exterior/public/models/vincom-dong-khoi.web.glb",
+        "compression": [
+          {
+            "encoding": "identity",
+            "url": "/models/exterior.glb",
+            "bytes": 4797176,
+            "sha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+            "decodedSha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+            "roundtripExact": true
+          },
+          {
+            "encoding": "br",
+            "url": "/models/exterior.glb.br",
+            "bytes": 1199582,
+            "sha256": "ebd671f8b7e275b152916c9cb39d66e7f247f05a63f293c842bc1aa1a2c98a42",
+            "decodedSha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+            "roundtripExact": true,
+            "quality": 5
+          },
+          {
+            "encoding": "gzip",
+            "url": "/models/exterior.glb.gz",
+            "bytes": 1400594,
+            "sha256": "34e5c6b8d959412de1f57b05ae6ab530216ef4720c702704b94abf7df19a5206",
+            "decodedSha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+            "roundtripExact": true
+          }
+        ],
+        "hostingStatus": "explicit-static _headers prepared; local browser verified separately; production release host unverified",
+        "staticInputs": [
+          {
+            "url": "/maps/B1.webp",
+            "bytes": 119288,
+            "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+          },
+          {
+            "url": "/maps/B2.webp",
+            "bytes": 109394,
+            "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+          },
+          {
+            "url": "/maps/B3.webp",
+            "bytes": 102024,
+            "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+          },
+          {
+            "url": "/maps/L1.webp",
+            "bytes": 72660,
+            "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+          },
+          {
+            "url": "/maps/L2.webp",
+            "bytes": 42898,
+            "sha256": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029"
+          },
+          {
+            "url": "/maps/L3.webp",
+            "bytes": 39802,
+            "sha256": "629d9860433bacc381daede046513190e2d6877bf88f99907eafb3f0794bbc70"
+          },
+          {
+            "url": "/maps/M.webp",
+            "bytes": 57294,
+            "sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+          },
+          {
+            "url": "/fonts/BeVietnamPro-OFL.txt",
+            "bytes": 4397,
+            "sha256": "6b7f8f73609a25ea78c891e34cf37b06f8a676b7ea986e941e43b009110f2a85"
+          },
+          {
+            "url": "/fonts/BeVietnamPro-Regular.ttf",
+            "bytes": 120228,
+            "sha256": "4ad53eac036092be79a34b5fa0aa32d0ebb3c7e5df4bc058764f5614fbf148a0"
+          },
+          {
+            "url": "/fonts/Manrope-OFL.txt",
+            "bytes": 4386,
+            "sha256": "d6a309fcfb963d329a93baf9df66fa5f3c23a4be2b5f67edf24d6cafecde12ac"
+          },
+          {
+            "url": "/fonts/Manrope.ttf",
+            "bytes": 164700,
+            "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+          }
+        ],
+        "floorGeometry": {
+          "revision": "source-palette-schematic-2026-10-13-r2",
+          "url": "/data/floor-geometry.json.br",
+          "identityUrl": "/data/floor-geometry.json",
+          "bytes": 243505,
+          "sha256": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e",
+          "compression": [
+            {
+              "encoding": "identity",
+              "url": "/data/floor-geometry.json",
+              "bytes": 243505,
+              "sha256": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e",
+              "decodedSha256": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e",
+              "roundtripExact": true
+            },
+            {
+              "encoding": "br",
+              "url": "/data/floor-geometry.json.br",
+              "bytes": 42221,
+              "sha256": "7104357b6b673310f92cc57022af1bb440cda8472b5431c8b7224d872859f704",
+              "decodedSha256": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e",
+              "roundtripExact": true
+            },
+            {
+              "encoding": "gzip",
+              "url": "/data/floor-geometry.json.gz",
+              "bytes": 46579,
+              "sha256": "d2aa98f4ed07ffee8a39d9213fc1364cb3a9859dad3cbd7673215df0ec8d5383",
+              "decodedSha256": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e",
+              "roundtripExact": true
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "harnessInputs": [
+    {
+      "path": "evidence/handoff-acceptance-2026-10-18-r2/final-matrix-script.mjs",
+      "sha256": "3bdfea34efdc512742a88c938e48c5e65f4fa797c88c065a052806e32a36a0e9"
+    },
+    {
+      "path": "evidence/handoff-acceptance-2026-10-18-r2/final-fallback-script.mjs",
+      "sha256": "dff70b91f76ba1bbe9953e0ff0f47f4448db9b4bb3468895c2380f148be4d3ca"
+    },
+    {
+      "path": "evidence/handoff-acceptance-2026-10-18-r2/final-fixture-current.mjs",
+      "sha256": "a3532af5dadb2800deb7cb49913aecc6ad3640a6f719a274b5d50495790e41a2"
+    },
+    {
+      "path": "evidence/handoff-acceptance-2026-10-18-r2/edge.mjs",
+      "sha256": "eee8858b767488c6dbc27e4cd84d3eb725bdff34207698dc3aefc57d31abd0fb"
+    },
+    {
+      "path": "evidence/handoff-acceptance-2026-10-18-r2/journey-current.js",
+      "sha256": "71a56021a0415d78a3f52aa7aefcf2ccac3aebe098b89b4787d8d2fb0d53374d"
+    },
+    {
+      "path": "evidence/handoff-acceptance-2026-10-18-r2/targeted.mjs",
+      "sha256": "f2504558c15b9c781a7342ff84c4188edc85b2386540d6fbe6e6230d2a4bf0df"
+    },
+    {
+      "path": "tests/browser-discovery-checks.js",
+      "sha256": "3062da39bbc3f409f047e1132c400dd4f651ea3b502f42c0b2e4ddd9e08a9855"
+    }
+  ],
+  "sourceFileHashes": {
+    "data/malls/saigon-centre/asset-manifest.json": "ce7fa5dc3d753bd033c8db0c07066ee9fdb25e99d6b17a03bbfc22344ad2d2de",
+    "data/malls/saigon-centre/directory.json": "36426de132ca81b552b51ed08982b2c8d69d5f11932d2c70663be347a6a9d32c",
+    "data/malls/saigon-centre/floor-geometry.json": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807",
+    "data/malls/saigon-centre/overview-slabs.json": "ab265b08d1b5ff28bd3f3086d7c0e5440724c752e1882f415d6f5893ae46b58e",
+    "data/malls/vincom-dong-khoi/asset-manifest.json": "aca63cd09f51a1c04c12c081fb45fb74e88043f076beaab3da6bde4efecdab91",
+    "data/malls/vincom-dong-khoi/directory.json": "655b60fc93a992c31c3d676cdd00f1baa3fd5892ca7ab648a5cd3cb5d0fcf80f",
+    "data/malls/vincom-dong-khoi/floor-geometry.json": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e",
+    "data/malls/vincom-dong-khoi/overview-slabs.json": "88999eb6f47256a0eb57f23a0c94ec58a8d713c04d5d1e1a5368204021911f40",
+    "scripts/capture-built-evidence.mjs": "a1ed08157daac7024326c7d25215470effd9235dbc466d433a3f39b2752c4f9a",
+    "scripts/capture-floor-inputs.py": "904a3a1cccd1de27d1bfe5682a90827f4f0026068c819a019f17c606b947dcff",
+    "scripts/import-overview-slabs.py": "2dc54aa1da4a326b0491f26f5608d51983cbd44f00e7d0b03d32e232fa860f62",
+    "scripts/prepare-assets.mjs": "51d4fae71fe0fd4d93c0be121dde4d76809254c0ebe658699dbf462b163135e2",
+    "scripts/prepare-static-release.mjs": "06587d3a77b7b327b700fcffbc6febb95792de7bcc4641d249980ac84f57b0e7",
+    "scripts/research-overlay.mjs": "0c3100ee430e5010431635bfadff7431b469579673c11a367ed5794a9dd76163",
+    "scripts/serve-static.mjs": "d498485e8a7f92b787d3056d2bfc8ce840de0ec717f614ff42b4c3619256c3bf",
+    "scripts/validate-inputs.mjs": "1f127bf02ae4e7dd092e2924ea21a50c3959257bff34315a9fe78aebaeca06c1",
+    "src/components/Directory.tsx": "9cc9579ebfbd9be87bf06a3876c8d515d1b8f7d69ea8642a5edc85adf79bce59",
+    "src/components/Discovery.tsx": "9440b5a87adc01c15a44d2458fbf15a7d533e87ea2dd29a811ddf603b5c3b8e8",
+    "src/components/Explorer.tsx": "90278fb5522714cc66a44a5da973da33bfa55d95f1b3e0efad04e1d8ed0d86bf",
+    "src/components/FloorMap.tsx": "b53e280579d8d17035bc1bda5b4a16766cf41a3fc5dd5b75246ca8e17ae9bd46",
+    "src/components/JourneyMotion.tsx": "658c97b0ab4538f0c33786bcc25affc5c9db2b9c48fe6006a6bcaaadec40edcb",
+    "src/components/MapControlIcon.tsx": "492deacc5a2c60c5333fc7b7f09acb3cbebddc6fad2ff18e49390460f965b9fa",
+    "src/components/OverviewStack.tsx": "22869080298593d201836a9ffefff5824a6b15d483a3b1fc57c533b0e51c3e16",
+    "src/components/copy.ts": "a21b4e482e2f99ad2b03d7e213a32391b9660aaf710f4a168974cd6c8086844e",
+    "src/components/discovery-map.ts": "1770f6dce78765a66d3b8696a8b6e04c6f520bacf6872980bfe4a752e554c0fb",
+    "src/components/floor-frame.ts": "683bf8ef0790282f875b0dee328b026d932e83bec678760545a3a165a12c4237",
+    "src/components/journey-copy.ts": "bc9e21495aa4f25c948d7f90b035a7fb8ba5326c90de73296c92456eb6c226ce",
+    "src/data/content.ts": "b4636d9b68c4228711a0adb3901326b24e9f7f85c3bd2b99bf12b1c769a67abb",
+    "src/data/discovery.ts": "d23247831b01284ced9ec9a207cd16a38aa2c918a46172a3af1fcf3ab7e21349",
+    "src/data/fixtures.ts": "d31ad919e11d5034c8a62037ecb8ccbf2d7a6950c8bf77b0b159ef0a79439a42",
+    "src/data/research-fixtures.ts": "5458d6f4db36e478bbee3007f11338cdce650d6f841091caac2b93c95733d67e",
+    "src/data/routes.ts": "d98b69714a1bbd3783d84e39b13d16a75b12a8b56c1609b0ab119212d7c30be8",
+    "src/data/site.ts": "73cebb02fb85940bba7fc30c605b6cafa4f77f5991d3c6a71a9d8b3df4e3c3ea",
+    "src/layouts/Guide.astro": "25d7470a75891e715892c8bac3905a7d627ee0a2898fcd827a3e6124cff375eb",
+    "src/pages/404.astro": "c1aa6681ad4cff91aacd9f27ac9079cca1e37e025cca8494559a771d6f0c212a",
+    "src/pages/[locale]/[...path].astro": "4e9c1d08a1bac020d96a937a03dc1123a2fa345ff10caa67eaf889b547583a65",
+    "src/pages/index.astro": "f2829a2d85af59f0f00b81224bebc625334c549a17ef5da3b650242fb4a3aae8",
+    "src/runtime/create-scene-runtime.ts": "cb952c141f62c480aa074216b13e06b2923e3476b502420b0f2fe450a4f0c675",
+    "src/runtime/loading-timing.ts": "79edfe31013808d7701e23be87ee932d73b0a00d87e2c41d0883b8d191a904e2",
+    "src/runtime/scene-contract.ts": "298f410cb5a8cdd48a005277c5e464610c2666f964e068290d1d5a06df27dc7b",
+    "src/runtime/validate-geometry.ts": "5ee017e4d5c9666fa5b512639491828fefe59e4393815ec66b5827d68552b0ca",
+    "src/styles/discovery.css": "74435bdca8ce26c6f175688c299272c3ec4a4f05399f86396f8ac95044bc540e",
+    "src/styles/guide.css": "dc1dad894268c2d94e08455eb66e466592ab5557a84f1c0fc803d6f41e995a7c",
+    "src/styles/introduction.css": "ade0a0c5ef392ac4f1d3c99bff145c43ed6d61b1fd4e32f02ba7ef2824a99e24",
+    "src/styles/journey.css": "0fd9b4ee34df2fca83cb82daea130b74f7ae22589bcce3e0cc14ac8b9cd2f115",
+    "tsconfig.json": "30035decb4cfabd402acef810f59841cbcdfe0ebb62d531f5b9793a1b2403bbd",
+    "docs/content-preparation/integration-candidate-2026-10-18-r2/manifest.json": "e8e2d289c3369d7ccc0e17de2329e8cf77ccbb18852bb886996220cda7f2d871",
+    "docs/content-preparation/integration-candidate-2026-10-18-r2/owner-decisions.json": "81beea22fa6ce9b6bb8c532bbc0c32581b351956d2e886a7285030db106335af"
+  },
+  "pendingSourceDiffSha256": "f1d96b8b3dc3e0949179ef01fd38022eb47c3c79237651e5a157cda1b6e95891",
+  "builtBundleHashes": {
+    "dist/saigon-centre/_astro/client.CdU5sA5O.js": "337a95b7a0f78b817cb7623cdc570c7632c8a9dbc9c6d3b920b82da21b0d3c8a",
+    "dist/saigon-centre/_astro/create-scene-runtime.DGzHxJfz.js": "499e228830cac43e6e85e8c11b2ad306157d5269cfc1b0a23f650d888a345ad4",
+    "dist/saigon-centre/_astro/Explorer.DTa15mLI.js": "7cad615503017175455cdda57aea6674199e83475c22d215231c2929878aadfe",
+    "dist/saigon-centre/_astro/loading-timing.BQ_g02j3.js": "23ac09e6d3982d7c2f52a0e69b8e5dc132d7db1494a74adf32c086bde9b2fd9f",
+    "dist/saigon-centre/_astro/react-dom.DwX89IcG.js": "188ae3fd03cd28f711faa87c681a536c6fdca4980c4594688cadf31c80356a97",
+    "dist/saigon-centre/_astro/scheduler.xDeNGwNe.js": "c3c0e557aa138e01e934d2aed76c2e1dda7cb73b74cb801c478c6fe9ebbce455",
+    "dist/saigon-centre/_astro/site.CIWy9lhi.css": "ad47f7e5eba38ccb40ed8050de2082ff912df9b0b46a5bc154c012536ef5ec49",
+    "dist/vincom-dong-khoi/_astro/client.CdU5sA5O.js": "337a95b7a0f78b817cb7623cdc570c7632c8a9dbc9c6d3b920b82da21b0d3c8a",
+    "dist/vincom-dong-khoi/_astro/create-scene-runtime.DGzHxJfz.js": "499e228830cac43e6e85e8c11b2ad306157d5269cfc1b0a23f650d888a345ad4",
+    "dist/vincom-dong-khoi/_astro/Explorer.DTa15mLI.js": "7cad615503017175455cdda57aea6674199e83475c22d215231c2929878aadfe",
+    "dist/vincom-dong-khoi/_astro/loading-timing.BQ_g02j3.js": "23ac09e6d3982d7c2f52a0e69b8e5dc132d7db1494a74adf32c086bde9b2fd9f",
+    "dist/vincom-dong-khoi/_astro/react-dom.DwX89IcG.js": "188ae3fd03cd28f711faa87c681a536c6fdca4980c4594688cadf31c80356a97",
+    "dist/vincom-dong-khoi/_astro/scheduler.xDeNGwNe.js": "c3c0e557aa138e01e934d2aed76c2e1dda7cb73b74cb801c478c6fe9ebbce455",
+    "dist/vincom-dong-khoi/_astro/site.CIWy9lhi.css": "ad47f7e5eba38ccb40ed8050de2082ff912df9b0b46a5bc154c012536ef5ec49",
+    "dist/fixtures/saigon-centre/_astro/client.CdU5sA5O.js": "337a95b7a0f78b817cb7623cdc570c7632c8a9dbc9c6d3b920b82da21b0d3c8a",
+    "dist/fixtures/saigon-centre/_astro/create-scene-runtime.DGzHxJfz.js": "499e228830cac43e6e85e8c11b2ad306157d5269cfc1b0a23f650d888a345ad4",
+    "dist/fixtures/saigon-centre/_astro/Explorer.DTa15mLI.js": "7cad615503017175455cdda57aea6674199e83475c22d215231c2929878aadfe",
+    "dist/fixtures/saigon-centre/_astro/loading-timing.BQ_g02j3.js": "23ac09e6d3982d7c2f52a0e69b8e5dc132d7db1494a74adf32c086bde9b2fd9f",
+    "dist/fixtures/saigon-centre/_astro/react-dom.DwX89IcG.js": "188ae3fd03cd28f711faa87c681a536c6fdca4980c4594688cadf31c80356a97",
+    "dist/fixtures/saigon-centre/_astro/scheduler.xDeNGwNe.js": "c3c0e557aa138e01e934d2aed76c2e1dda7cb73b74cb801c478c6fe9ebbce455",
+    "dist/fixtures/saigon-centre/_astro/site.CIWy9lhi.css": "ad47f7e5eba38ccb40ed8050de2082ff912df9b0b46a5bc154c012536ef5ec49",
+    "dist/fixtures/vincom-dong-khoi/_astro/client.CdU5sA5O.js": "337a95b7a0f78b817cb7623cdc570c7632c8a9dbc9c6d3b920b82da21b0d3c8a",
+    "dist/fixtures/vincom-dong-khoi/_astro/create-scene-runtime.DGzHxJfz.js": "499e228830cac43e6e85e8c11b2ad306157d5269cfc1b0a23f650d888a345ad4",
+    "dist/fixtures/vincom-dong-khoi/_astro/Explorer.DTa15mLI.js": "7cad615503017175455cdda57aea6674199e83475c22d215231c2929878aadfe",
+    "dist/fixtures/vincom-dong-khoi/_astro/loading-timing.BQ_g02j3.js": "23ac09e6d3982d7c2f52a0e69b8e5dc132d7db1494a74adf32c086bde9b2fd9f",
+    "dist/fixtures/vincom-dong-khoi/_astro/react-dom.DwX89IcG.js": "188ae3fd03cd28f711faa87c681a536c6fdca4980c4594688cadf31c80356a97",
+    "dist/fixtures/vincom-dong-khoi/_astro/scheduler.xDeNGwNe.js": "c3c0e557aa138e01e934d2aed76c2e1dda7cb73b74cb801c478c6fe9ebbce455",
+    "dist/fixtures/vincom-dong-khoi/_astro/site.CIWy9lhi.css": "ad47f7e5eba38ccb40ed8050de2082ff912df9b0b46a5bc154c012536ef5ec49",
+    "dist/research/saigon-centre/_astro/client.CdU5sA5O.js": "337a95b7a0f78b817cb7623cdc570c7632c8a9dbc9c6d3b920b82da21b0d3c8a",
+    "dist/research/saigon-centre/_astro/create-scene-runtime.DGzHxJfz.js": "499e228830cac43e6e85e8c11b2ad306157d5269cfc1b0a23f650d888a345ad4",
+    "dist/research/saigon-centre/_astro/Explorer.DTa15mLI.js": "7cad615503017175455cdda57aea6674199e83475c22d215231c2929878aadfe",
+    "dist/research/saigon-centre/_astro/loading-timing.BQ_g02j3.js": "23ac09e6d3982d7c2f52a0e69b8e5dc132d7db1494a74adf32c086bde9b2fd9f",
+    "dist/research/saigon-centre/_astro/react-dom.DwX89IcG.js": "188ae3fd03cd28f711faa87c681a536c6fdca4980c4594688cadf31c80356a97",
+    "dist/research/saigon-centre/_astro/scheduler.xDeNGwNe.js": "c3c0e557aa138e01e934d2aed76c2e1dda7cb73b74cb801c478c6fe9ebbce455",
+    "dist/research/saigon-centre/_astro/site.CIWy9lhi.css": "ad47f7e5eba38ccb40ed8050de2082ff912df9b0b46a5bc154c012536ef5ec49",
+    "dist/research/vincom-dong-khoi/_astro/client.CdU5sA5O.js": "337a95b7a0f78b817cb7623cdc570c7632c8a9dbc9c6d3b920b82da21b0d3c8a",
+    "dist/research/vincom-dong-khoi/_astro/create-scene-runtime.DGzHxJfz.js": "499e228830cac43e6e85e8c11b2ad306157d5269cfc1b0a23f650d888a345ad4",
+    "dist/research/vincom-dong-khoi/_astro/Explorer.DTa15mLI.js": "7cad615503017175455cdda57aea6674199e83475c22d215231c2929878aadfe",
+    "dist/research/vincom-dong-khoi/_astro/loading-timing.BQ_g02j3.js": "23ac09e6d3982d7c2f52a0e69b8e5dc132d7db1494a74adf32c086bde9b2fd9f",
+    "dist/research/vincom-dong-khoi/_astro/react-dom.DwX89IcG.js": "188ae3fd03cd28f711faa87c681a536c6fdca4980c4594688cadf31c80356a97",
+    "dist/research/vincom-dong-khoi/_astro/scheduler.xDeNGwNe.js": "c3c0e557aa138e01e934d2aed76c2e1dda7cb73b74cb801c478c6fe9ebbce455",
+    "dist/research/vincom-dong-khoi/_astro/site.CIWy9lhi.css": "ad47f7e5eba38ccb40ed8050de2082ff912df9b0b46a5bc154c012536ef5ec49"
+  }
+}

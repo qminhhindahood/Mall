@@ -75,7 +75,11 @@ for (const directory of [`assets/${mall}/maps`,'assets/shared/fonts']) for (cons
 // Canonical captured JSON uses LF. Legacy pre-attributes Windows checkouts can
 // retain CRLF; restoring that representation leaves every JSON value intact.
 const geometrySource = await readFile(resolve(root,`data/malls/${mall}/floor-geometry.json`));
-const geometry = Buffer.from(geometrySource.toString('utf8').replace(/\r\n/g,'\n'),'utf8');
+let geometry = Buffer.from(geometrySource.toString('utf8').replace(/\r\n/g,'\n'),'utf8');
+if (process.env.INCLUDE_TEST_FIXTURES === 'research') {
+  const { researchGeometry } = await import('./research-overlay.mjs');
+  geometry = Buffer.from(JSON.stringify(researchGeometry(root,mall,JSON.parse(geometry)))+'\n');
+}
 manifest.floorGeometry = {revision:JSON.parse(geometry).revision,url:'/data/floor-geometry.json.br',identityUrl:'/data/floor-geometry.json',bytes:geometry.length,sha256:hash(geometry),compression:[]};
 for (const [encoding,suffix,bytes] of [['identity','',geometry],['br','.br',brotliCompressSync(geometry,{params:{[constants.BROTLI_PARAM_QUALITY]:5}})],['gzip','.gz',gzipSync(geometry)]]) {
   const decoded=encoding==='br'?brotliDecompressSync(bytes):encoding==='gzip'?gunzipSync(bytes):bytes;

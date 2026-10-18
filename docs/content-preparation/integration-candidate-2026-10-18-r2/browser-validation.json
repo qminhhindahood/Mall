@@ -1,0 +1,25 @@
+{
+  "revision": "integration-candidate-2026-10-18-r2",
+  "renderer": "T3 HTML preview/render",
+  "widths": [
+    {
+      "width": 728,
+      "approvedPaths": 42,
+      "listedRecords": 42,
+      "photos": 0,
+      "overflow": false,
+      "consoleErrors": []
+    },
+    {
+      "width": 390,
+      "approvedPaths": 42,
+      "listedRecords": 42,
+      "photos": 0,
+      "overflow": false,
+      "consoleErrors": []
+    }
+  ],
+  "initialInvalidAttempt": "Shell HTML transfer was truncated at max_output_tokens 30000, corrupting one SVG path. Corrected by complete transfer at 100000 tokens; final HTML unchanged.",
+  "publishedAttachment": "a3ced64f-6d28-4cf6-ae29-1c22a669bcc1-c2fa24d1-b4b9-4813-8e0c-a05ae68dbf69-html",
+  "scope": "Private geometry/policy reader only; not directory approval or integrated rendered acceptance"
+}

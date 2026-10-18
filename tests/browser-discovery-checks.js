@@ -32,7 +32,7 @@ async function browserDiscoveryCheck(minimumResults) {
   assert(!!document.querySelector('.discovery-glass'), 'Locale pointer dismissed the card');
   assert(document.querySelector('[data-discovery-result][aria-current="true"]')?.dataset.destinationId === selectedId, 'Locale lost the selected destination');
   document.querySelector('.discovery-glass [data-close-discovery]').click();
-  await wait(() => !document.querySelector('.discovery-glass'), 'Description did not close');
+  await wait(() => !document.querySelector('.discovery-glass') && !document.querySelector('.loading-screen') && document.activeElement === destination, 'Description did not close and restore listing focus after preparation');
   assert(document.activeElement === destination, 'Closing must return focus to the selected listing');
   assert(document.documentElement.lang === nextLocale && location.pathname.startsWith('/'+nextLocale), 'Closing reverted the locale');
   assert(document.documentElement.scrollWidth <= innerWidth, 'Horizontal overflow');

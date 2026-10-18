@@ -154,6 +154,13 @@ html{overflow-anchor:none}
 .visitor-guide .registered-floors a[data-preview=true]{opacity:1}
 .visitor-guide .registered-floors a[data-preview=true] svg path{fill:var(--selected);stroke:var(--edge)}
 .visitor-guide .registered-floors .floor-rail a[data-preview=true]{background:var(--selected)}
+.visitor-guide .registered-floors .overview-stack>a.selected[data-dim=true]{opacity:.15;filter:drop-shadow(0 4px 0 #b9a895)}
+.visitor-guide .registered-floors .overview-stack>a.selected[data-dim=true] svg path{fill:var(--floor);stroke:#867363}
+/* The continuous plate and its source zones remain distinct at every floor. */
+.visitor-guide svg .floor-slab .slab-top{fill:var(--floor);stroke:#867363;stroke-width:.18}
+.visitor-guide svg .floor-slab .slab-side{fill:#cdbda9;stroke:#867363;stroke-width:.18}
+.visitor-guide svg .floor-slab .slab-reference-zone{fill:#fff9f1;stroke:#867363;stroke-width:.13}
+.visitor-guide .registered-floors .overview-stack>a:is(.selected:not([data-dim=true]),[data-preview=true]) .slab-top{fill:var(--selected);stroke:var(--edge)}
 .registered-floors .overview-stack[data-rotating=true]>a{will-change:transform}
 .overview-pause{display:grid;place-items:center;min-width:44px;padding:8px;border:0;background:transparent}
 .visitor-guide .overview-pause svg{width:24px;height:24px;background:none}

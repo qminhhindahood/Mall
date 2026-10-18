@@ -14,14 +14,25 @@ const mallId = (process.env.MALL_ID ?? 'saigon-centre') as MallId;
 if (!['saigon-centre', 'vincom-dong-khoi'].includes(mallId)) throw new Error('Unknown MALL_ID');
 const labels = mallId === 'saigon-centre' ? ['B2','B1','L1','L2','L3','L4','L5','L6'] : ['B3','B2','B1','L1','M','L2','L3'];
 const geometryPath = path.join(process.cwd(),'data','malls',mallId,'floor-geometry.json');
-const geometry: FloorDataset = fs.existsSync(geometryPath) ? JSON.parse(fs.readFileSync(geometryPath, 'utf8')) : {
+let geometry: FloorDataset = fs.existsSync(geometryPath) ? JSON.parse(fs.readFileSync(geometryPath, 'utf8')) : {
   revision: 'foundation-unavailable',
   frame: { version: 'unavailable', units: 'unavailable', scaleStatus: 'not established', orientationStatus: 'not established' },
   floors: labels.map((id, order) => ({ id, label: id, order, elevation: order, bounds: [0,0,1,1], regions: [], sources: [], preview: null })),
 };
+// Restore the reviewed schematic slab presentation independently of map-region identity.
+const slabsPath = path.join(process.cwd(),'data','malls',mallId,'overview-slabs.json');
+if (fs.existsSync(slabsPath)) {
+  const slabs: {floors:({floorId:string}&NonNullable<FloorDataset['floors'][number]['presentation']>)[]} = JSON.parse(fs.readFileSync(slabsPath,'utf8'));
+  for (const floor of geometry.floors) {
+    const slab = slabs.floors.find(item=>item.floorId===floor.id);
+    if (slab) floor.presentation={outline:slab.outline,referenceZonePaths:slab.referenceZonePaths};
+  }
+}
 const contentPath = path.join(process.cwd(),'data','malls',mallId,'directory.json');
 let snapshot: DirectorySnapshot = JSON.parse(fs.readFileSync(contentPath,'utf8'));
 if (process.env.INCLUDE_TEST_FIXTURES === 'research') {
+  const { researchGeometry } = await import('../../scripts/research-overlay.mjs');
+  geometry = researchGeometry(process.cwd(),mallId,geometry);
   const { createResearchFixtures } = await import('./research-fixtures');
   snapshot = createResearchFixtures(JSON.parse(fs.readFileSync(path.join(process.cwd(),'data','research',`${mallId}.json`),'utf8')),mallId,geometry);
 }

@@ -1,0 +1,99 @@
+{
+  "interface": 110,
+  "categories": 29,
+  "mall-floor": 17,
+  "store-names": 371,
+  "store-descriptions": 371,
+  "map-labels": 185,
+  "total": 1083,
+  "currentResearchIdentities": 306,
+  "expandedRoster": 371,
+  "storeEnglishBehavior": "All research-preview descriptions explicitly blank at importer; UI pending-description fallback is shown",
+  "returnedCopyNotInstalled": 20,
+  "withdrawnCopyIds": [
+    "vincom-prototype-cara",
+    "vincom-prototype-lizdnamat",
+    "vincom-prototype-mujoshtedbaker"
+  ],
+  "optionalNeutralProposals": 27,
+  "sourceInputs": 22,
+  "branchComparisons": [
+    {
+      "ref": "vincom-dong-khoi",
+      "path": "src/components/copy.ts",
+      "refPath": "visitor-app/src/components/copy.ts",
+      "sameBytes": false,
+      "sameTextIgnoringLineEndings": true,
+      "refSha256": "194e093d3fa58c0e08f1516b8136dd85a3b13e8f4fbe0fafa982b5c753e680bb",
+      "currentSha256": "a21b4e482e2f99ad2b03d7e213a32391b9660aaf710f4a168974cd6c8086844e"
+    },
+    {
+      "ref": "vincom-dong-khoi",
+      "path": "src/components/journey-copy.ts",
+      "refPath": "visitor-app/src/components/journey-copy.ts",
+      "sameBytes": false,
+      "sameTextIgnoringLineEndings": false,
+      "refSha256": "cab6275b86a8920db8e75fe75993e0b3c6a31319e138e303fd5e70e75c38235c",
+      "currentSha256": "bc9e21495aa4f25c948d7f90b035a7fb8ba5326c90de73296c92456eb6c226ce"
+    },
+    {
+      "ref": "vincom-dong-khoi",
+      "path": "src/components/Discovery.tsx",
+      "refPath": "visitor-app/src/components/Discovery.tsx",
+      "sameBytes": false,
+      "sameTextIgnoringLineEndings": false,
+      "refSha256": "ff6c57d6be3aa913e119912bb51e6361b7ceeaed91d087d8f80c8be629fd6407",
+      "currentSha256": "9440b5a87adc01c15a44d2458fbf15a7d533e87ea2dd29a811ddf603b5c3b8e8"
+    },
+    {
+      "ref": "takashimaya",
+      "path": "src/components/copy.ts",
+      "refPath": "visitor-app/src/components/copy.ts",
+      "sameBytes": false,
+      "sameTextIgnoringLineEndings": true,
+      "refSha256": "194e093d3fa58c0e08f1516b8136dd85a3b13e8f4fbe0fafa982b5c753e680bb",
+      "currentSha256": "a21b4e482e2f99ad2b03d7e213a32391b9660aaf710f4a168974cd6c8086844e"
+    },
+    {
+      "ref": "takashimaya",
+      "path": "src/components/journey-copy.ts",
+      "refPath": "visitor-app/src/components/journey-copy.ts",
+      "sameBytes": false,
+      "sameTextIgnoringLineEndings": false,
+      "refSha256": "cab6275b86a8920db8e75fe75993e0b3c6a31319e138e303fd5e70e75c38235c",
+      "currentSha256": "bc9e21495aa4f25c948d7f90b035a7fb8ba5326c90de73296c92456eb6c226ce"
+    },
+    {
+      "ref": "takashimaya",
+      "path": "src/components/Discovery.tsx",
+      "refPath": "visitor-app/src/components/Discovery.tsx",
+      "sameBytes": false,
+      "sameTextIgnoringLineEndings": false,
+      "refSha256": "ff6c57d6be3aa913e119912bb51e6361b7ceeaed91d087d8f80c8be629fd6407",
+      "currentSha256": "9440b5a87adc01c15a44d2458fbf15a7d533e87ea2dd29a811ddf603b5c3b8e8"
+    },
+    {
+      "ref": "prototype/0019-composition-2026-10-17",
+      "path": "src/components/copy.ts",
+      "refPath": "src/components/copy.ts",
+      "sameBytes": false,
+      "sameTextIgnoringLineEndings": true,
+      "refSha256": "194e093d3fa58c0e08f1516b8136dd85a3b13e8f4fbe0fafa982b5c753e680bb",
+      "currentSha256": "a21b4e482e2f99ad2b03d7e213a32391b9660aaf710f4a168974cd6c8086844e"
+    },
+    {
+      "ref": "prototype/0019-composition-2026-10-17",
+      "path": "src/components/journey-copy.ts",
+      "refPath": "src/components/journey-copy.ts",
+      "sameBytes": false,
+      "sameTextIgnoringLineEndings": false,
+      "refSha256": "764bd4dd107e5060eb750d2797607e9a700798ffabedcbe80dfe7be7e50c18d2",
+      "currentSha256": "bc9e21495aa4f25c948d7f90b035a7fb8ba5326c90de73296c92456eb6c226ce"
+    },
+    {
+      "ref": "prototype/0019-composition-2026-10-17",
+      "path": "src/components/Discovery.tsx",
+      "status": "Source path absent at ref; prototype artifacts differ from application"
+    }
+  ]
+}

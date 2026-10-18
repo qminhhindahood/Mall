@@ -1,0 +1,17 @@
+{
+  "revision": "integration-candidate-2026-10-18-r2",
+  "assemblyInvariants": 580,
+  "assemblyAllPassed": true,
+  "unchangedJsonRebuildByteIdentical": true,
+  "failClosedRegression": {
+    "method": "Import generator in isolated Python process, inject new source hash entry into SOURCES, invoke main without altering live inputs",
+    "result": "Expected Inputs changed rejection; hashes for every existing packet file unchanged, including packaged geometry"
+  },
+  "packagedGeometry": {
+    "encoding": "gzip (lossless)",
+    "source": "docs/polygon-review/result-2026-10-18-r4/floor-geometry-candidate.json",
+    "rawSourceSha256BoundBy": "source-hashes.json",
+    "portableWithinApp": true
+  },
+  "scope": "Private packet/build integrity, not application unit tests or owner/editorial/release acceptance"
+}

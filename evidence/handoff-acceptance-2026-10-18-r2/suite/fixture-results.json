@@ -1,0 +1,238 @@
+{
+  "sourceCommit": "c011906 + review fixes",
+  "browser": "149.0.7827.198",
+  "runs": [
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "width": 1280,
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Reverse to exterior dismisses destination and retains floor",
+        "Rapid selection keeps newest floor intent"
+      ],
+      "failed": [
+        "Missing control .categories a[href*=\"collection=cafes\"]"
+      ]
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "width": 390,
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Reverse to exterior dismisses destination and retains floor",
+        "Rapid selection keeps newest floor intent"
+      ],
+      "failed": [
+        "Missing control .categories a[href*=\"collection=cafes\"]"
+      ]
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "width": 1280,
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Reverse to exterior dismisses destination and retains floor",
+        "Rapid selection keeps newest floor intent"
+      ],
+      "failed": [
+        "Missing control .categories a[href*=\"collection=cafes\"]"
+      ]
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "width": 390,
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Reverse to exterior dismisses destination and retains floor",
+        "Rapid selection keeps newest floor intent"
+      ],
+      "failed": [
+        "Missing control .categories a[href*=\"collection=cafes\"]"
+      ]
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "width": 1280,
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Reverse to exterior dismisses destination and retains floor",
+        "Rapid selection keeps newest floor intent"
+      ],
+      "failed": [
+        "Missing control .categories a[href*=\"collection=cafes\"]"
+      ]
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "width": 390,
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Reverse to exterior dismisses destination and retains floor",
+        "Rapid selection keeps newest floor intent"
+      ],
+      "failed": [
+        "Missing control .categories a[href*=\"collection=cafes\"]"
+      ]
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "width": 1280,
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Reverse to exterior dismisses destination and retains floor",
+        "Rapid selection keeps newest floor intent"
+      ],
+      "failed": [
+        "Missing control .categories a[href*=\"collection=cafes\"]"
+      ]
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "width": 390,
+      "checks": [
+        "No horizontal overflow",
+        "Readable floor controls",
+        "All supported overview floor links",
+        "Fixture disclosure",
+        "Accent-insensitive mall-wide search",
+        "Independent destination link",
+        "Missing introduction preserves basic listing",
+        "Verified mapped area highlighted",
+        "Close preserves search",
+        "Close restores invoking result focus",
+        "Bounded typo suggestions",
+        "Suggestions never auto-select",
+        "Shared area exposes both destinations without arbitrary selection",
+        "One destination exposes both verified floors",
+        "Destination panel switches verified floor",
+        "Share copies destination link or supplies a usable copy fallback",
+        "Facilities stay separate from commercial destinations",
+        "Reverse to exterior dismisses destination and retains floor",
+        "Rapid selection keeps newest floor intent"
+      ],
+      "failed": [
+        "Missing control .categories a[href*=\"collection=cafes\"]"
+      ]
+    }
+  ]
+}

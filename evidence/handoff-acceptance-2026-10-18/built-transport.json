@@ -1,0 +1,431 @@
+{
+  "recordedAt": "2026-10-18T07:07:46.651Z",
+  "profile": "localhost HTTP; acceptance servers 4333/4334; no network throttling",
+  "malls": [
+    {
+      "mallId": "saigon-centre",
+      "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+      "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+      "resources": [
+        {
+          "path": "/models/exterior.glb",
+          "representation": "identity",
+          "decodedBytes": 2000796,
+          "encodedBytes": 2000796,
+          "sha256": "f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050",
+          "exact": true,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "connection": "keep-alive",
+            "content-length": "2000796",
+            "content-type": "model/gltf-binary",
+            "date": "Sun, 18 Oct 2026 07:07:46 GMT",
+            "etag": "\"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050\"",
+            "keep-alive": "timeout=5",
+            "vary": "Accept-Encoding"
+          },
+          "validatorStatus": 304
+        },
+        {
+          "path": "/models/exterior.glb",
+          "representation": "br",
+          "decodedBytes": 2000796,
+          "encodedBytes": 205547,
+          "sha256": "f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050",
+          "exact": true,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "connection": "keep-alive",
+            "content-encoding": "br",
+            "content-length": "205547",
+            "content-type": "model/gltf-binary",
+            "date": "Sun, 18 Oct 2026 07:07:46 GMT",
+            "etag": "\"9eff575af59ccd8820139e547dcb43f9a43a12fa7509f522e7ce747b5a3cf9a0\"",
+            "keep-alive": "timeout=5",
+            "vary": "Accept-Encoding"
+          },
+          "validatorStatus": 304
+        },
+        {
+          "path": "/data/floor-geometry.json",
+          "representation": "identity",
+          "decodedBytes": 5181012,
+          "encodedBytes": 5181012,
+          "sha256": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807",
+          "exact": true,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "connection": "keep-alive",
+            "content-length": "5181012",
+            "content-type": "application/json",
+            "date": "Sun, 18 Oct 2026 07:07:46 GMT",
+            "etag": "\"84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807\"",
+            "keep-alive": "timeout=5",
+            "vary": "Accept-Encoding"
+          },
+          "validatorStatus": 304
+        },
+        {
+          "path": "/data/floor-geometry.json",
+          "representation": "br",
+          "decodedBytes": 5181012,
+          "encodedBytes": 1084569,
+          "sha256": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807",
+          "exact": true,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "connection": "keep-alive",
+            "content-encoding": "br",
+            "content-length": "1084569",
+            "content-type": "application/json",
+            "date": "Sun, 18 Oct 2026 07:07:46 GMT",
+            "etag": "\"58548a1dc88725e11437e681452f030d6e975eca7ccf06c6ef87e576f75c2e60\"",
+            "keep-alive": "timeout=5",
+            "vary": "Accept-Encoding"
+          },
+          "validatorStatus": 304
+        }
+      ],
+      "bundles": [
+        {
+          "name": "client.CdU5sA5O.js",
+          "bytes": 205590,
+          "gzipEstimateBytes": 63721,
+          "lazy3D": false
+        },
+        {
+          "name": "create-scene-runtime.DGzHxJfz.js",
+          "bytes": 790347,
+          "gzipEstimateBytes": 209008,
+          "lazy3D": true
+        },
+        {
+          "name": "Explorer.B33OyW7q.js",
+          "bytes": 60301,
+          "gzipEstimateBytes": 18599,
+          "lazy3D": false
+        },
+        {
+          "name": "loading-timing.BQ_g02j3.js",
+          "bytes": 904,
+          "gzipEstimateBytes": 517,
+          "lazy3D": false
+        },
+        {
+          "name": "react-dom.DwX89IcG.js",
+          "bytes": 12201,
+          "gzipEstimateBytes": 4292,
+          "lazy3D": false
+        },
+        {
+          "name": "scheduler.xDeNGwNe.js",
+          "bytes": 3559,
+          "gzipEstimateBytes": 1564,
+          "lazy3D": false
+        }
+      ],
+      "routes": [
+        {
+          "path": "/vi/tang/B2",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/vi/tang/B1",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/vi/tang/L1",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/vi/tang/L2",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/vi/tang/L3",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/vi/tang/L4",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/vi/tang/L5",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/vi/tang/L6",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/en/floors/B2",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/en/floors/B1",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/en/floors/L1",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/en/floors/L2",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/en/floors/L3",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/en/floors/L4",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/en/floors/L5",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/en/floors/L6",
+          "status": 200,
+          "pass": true
+        }
+      ],
+      "unknownStatus": 404,
+      "productionFixtureStatus": 404,
+      "publicMapFiles": [
+        "B1.png",
+        "B2.png",
+        "L1.png",
+        "L2.png",
+        "L3.png",
+        "L4.png",
+        "L5.png",
+        "L6.png"
+      ],
+      "mallIsolation": true
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+      "geometryRevision": "source-palette-schematic-2026-10-13-r2",
+      "resources": [
+        {
+          "path": "/models/exterior.glb",
+          "representation": "identity",
+          "decodedBytes": 4797176,
+          "encodedBytes": 4797176,
+          "sha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+          "exact": true,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "connection": "keep-alive",
+            "content-length": "4797176",
+            "content-type": "model/gltf-binary",
+            "date": "Sun, 18 Oct 2026 07:07:47 GMT",
+            "etag": "\"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e\"",
+            "keep-alive": "timeout=5",
+            "vary": "Accept-Encoding"
+          },
+          "validatorStatus": 304
+        },
+        {
+          "path": "/models/exterior.glb",
+          "representation": "br",
+          "decodedBytes": 4797176,
+          "encodedBytes": 1199582,
+          "sha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+          "exact": true,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "connection": "keep-alive",
+            "content-encoding": "br",
+            "content-length": "1199582",
+            "content-type": "model/gltf-binary",
+            "date": "Sun, 18 Oct 2026 07:07:47 GMT",
+            "etag": "\"ebd671f8b7e275b152916c9cb39d66e7f247f05a63f293c842bc1aa1a2c98a42\"",
+            "keep-alive": "timeout=5",
+            "vary": "Accept-Encoding"
+          },
+          "validatorStatus": 304
+        },
+        {
+          "path": "/data/floor-geometry.json",
+          "representation": "identity",
+          "decodedBytes": 243505,
+          "encodedBytes": 243505,
+          "sha256": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e",
+          "exact": true,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "connection": "keep-alive",
+            "content-length": "243505",
+            "content-type": "application/json",
+            "date": "Sun, 18 Oct 2026 07:07:47 GMT",
+            "etag": "\"be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e\"",
+            "keep-alive": "timeout=5",
+            "vary": "Accept-Encoding"
+          },
+          "validatorStatus": 304
+        },
+        {
+          "path": "/data/floor-geometry.json",
+          "representation": "br",
+          "decodedBytes": 243505,
+          "encodedBytes": 42221,
+          "sha256": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e",
+          "exact": true,
+          "headers": {
+            "cache-control": "public, max-age=0, must-revalidate",
+            "connection": "keep-alive",
+            "content-encoding": "br",
+            "content-length": "42221",
+            "content-type": "application/json",
+            "date": "Sun, 18 Oct 2026 07:07:47 GMT",
+            "etag": "\"7104357b6b673310f92cc57022af1bb440cda8472b5431c8b7224d872859f704\"",
+            "keep-alive": "timeout=5",
+            "vary": "Accept-Encoding"
+          },
+          "validatorStatus": 304
+        }
+      ],
+      "bundles": [
+        {
+          "name": "client.CdU5sA5O.js",
+          "bytes": 205590,
+          "gzipEstimateBytes": 63721,
+          "lazy3D": false
+        },
+        {
+          "name": "create-scene-runtime.DGzHxJfz.js",
+          "bytes": 790347,
+          "gzipEstimateBytes": 209008,
+          "lazy3D": true
+        },
+        {
+          "name": "Explorer.B33OyW7q.js",
+          "bytes": 60301,
+          "gzipEstimateBytes": 18599,
+          "lazy3D": false
+        },
+        {
+          "name": "loading-timing.BQ_g02j3.js",
+          "bytes": 904,
+          "gzipEstimateBytes": 517,
+          "lazy3D": false
+        },
+        {
+          "name": "react-dom.DwX89IcG.js",
+          "bytes": 12201,
+          "gzipEstimateBytes": 4292,
+          "lazy3D": false
+        },
+        {
+          "name": "scheduler.xDeNGwNe.js",
+          "bytes": 3559,
+          "gzipEstimateBytes": 1564,
+          "lazy3D": false
+        }
+      ],
+      "routes": [
+        {
+          "path": "/vi/tang/B3",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/vi/tang/B2",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/vi/tang/B1",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/vi/tang/L1",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/vi/tang/M",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/vi/tang/L2",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/vi/tang/L3",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/en/floors/B3",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/en/floors/B2",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/en/floors/B1",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/en/floors/L1",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/en/floors/M",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/en/floors/L2",
+          "status": 200,
+          "pass": true
+        },
+        {
+          "path": "/en/floors/L3",
+          "status": 200,
+          "pass": true
+        }
+      ],
+      "unknownStatus": 404,
+      "productionFixtureStatus": 404,
+      "publicMapFiles": [
+        "B1.webp",
+        "B2.webp",
+        "B3.webp",
+        "L1.webp",
+        "L2.webp",
+        "L3.webp",
+        "M.webp"
+      ],
+      "mallIsolation": true
+    }
+  ]
+}

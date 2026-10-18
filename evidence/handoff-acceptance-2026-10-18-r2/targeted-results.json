@@ -1,0 +1,257 @@
+{
+  "at": "2026-10-18T07:26:32.027Z",
+  "browser": "149.0.7827.198",
+  "profile": "Headless Chrome/SwiftShader,localhost,CSS viewports; not owner/native/production acceptance",
+  "runs": [
+    {
+      "mall": "saigon",
+      "width": 1280,
+      "kind": "slab-hover-focus",
+      "checks": [
+        "Idle selected floor retained",
+        "Hover another floor dims and neutralizes selected",
+        "Leaving hover restores idle selection",
+        "Keyboard focus has same isolation",
+        "Reduced-motion change preserves focused preview",
+        "Every floor uses its recovered slab",
+        "Vincom recovered source zones retained",
+        "All slab side bottoms fit SVG viewBox"
+      ],
+      "failed": [],
+      "idle": {
+        "opacity": 1,
+        "dim": "false",
+        "selectedFill": "rgb(255, 230, 220)",
+        "otherFill": "rgb(239, 230, 220)",
+        "preview": "false"
+      },
+      "hover": {
+        "opacity": 0.15,
+        "dim": "true",
+        "selectedFill": "rgb(239, 230, 220)",
+        "otherFill": "rgb(255, 230, 220)",
+        "preview": "true"
+      },
+      "restored": {
+        "opacity": 1,
+        "dim": "false",
+        "selectedFill": "rgb(255, 230, 220)",
+        "otherFill": "rgb(239, 230, 220)",
+        "preview": "false"
+      },
+      "focus": {
+        "opacity": 0.15,
+        "dim": "true",
+        "selectedFill": "rgb(239, 230, 220)",
+        "otherFill": "rgb(255, 230, 220)",
+        "preview": "true"
+      },
+      "geometry": {
+        "slabs": 8,
+        "zones": 0
+      }
+    },
+    {
+      "mall": "saigon",
+      "width": 390,
+      "kind": "slab-hover-focus",
+      "checks": [
+        "Idle selected floor retained",
+        "Hover another floor dims and neutralizes selected",
+        "Leaving hover restores idle selection",
+        "Keyboard focus has same isolation",
+        "Reduced-motion change preserves focused preview",
+        "Every floor uses its recovered slab",
+        "Vincom recovered source zones retained",
+        "All slab side bottoms fit SVG viewBox"
+      ],
+      "failed": [],
+      "idle": {
+        "opacity": 1,
+        "dim": "false",
+        "selectedFill": "rgb(255, 230, 220)",
+        "otherFill": "rgb(239, 230, 220)",
+        "preview": "false"
+      },
+      "hover": {
+        "opacity": 0.15,
+        "dim": "true",
+        "selectedFill": "rgb(239, 230, 220)",
+        "otherFill": "rgb(255, 230, 220)",
+        "preview": "true"
+      },
+      "restored": {
+        "opacity": 1,
+        "dim": "false",
+        "selectedFill": "rgb(255, 230, 220)",
+        "otherFill": "rgb(239, 230, 220)",
+        "preview": "false"
+      },
+      "focus": {
+        "opacity": 0.15,
+        "dim": "true",
+        "selectedFill": "rgb(239, 230, 220)",
+        "otherFill": "rgb(255, 230, 220)",
+        "preview": "true"
+      },
+      "geometry": {
+        "slabs": 8,
+        "zones": 0
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 1280,
+      "kind": "slab-hover-focus",
+      "checks": [
+        "Idle selected floor retained",
+        "Hover another floor dims and neutralizes selected",
+        "Leaving hover restores idle selection",
+        "Keyboard focus has same isolation",
+        "Reduced-motion change preserves focused preview",
+        "Every floor uses its recovered slab",
+        "Vincom recovered source zones retained",
+        "All slab side bottoms fit SVG viewBox"
+      ],
+      "failed": [],
+      "idle": {
+        "opacity": 1,
+        "dim": "false",
+        "selectedFill": "rgb(245, 228, 191)",
+        "otherFill": "rgb(239, 232, 220)",
+        "preview": "false"
+      },
+      "hover": {
+        "opacity": 0.15,
+        "dim": "true",
+        "selectedFill": "rgb(239, 232, 220)",
+        "otherFill": "rgb(245, 228, 191)",
+        "preview": "true"
+      },
+      "restored": {
+        "opacity": 1,
+        "dim": "false",
+        "selectedFill": "rgb(245, 228, 191)",
+        "otherFill": "rgb(239, 232, 220)",
+        "preview": "false"
+      },
+      "focus": {
+        "opacity": 0.15,
+        "dim": "true",
+        "selectedFill": "rgb(239, 232, 220)",
+        "otherFill": "rgb(245, 228, 191)",
+        "preview": "true"
+      },
+      "geometry": {
+        "slabs": 7,
+        "zones": 107
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 390,
+      "kind": "slab-hover-focus",
+      "checks": [
+        "Idle selected floor retained",
+        "Hover another floor dims and neutralizes selected",
+        "Leaving hover restores idle selection",
+        "Keyboard focus has same isolation",
+        "Reduced-motion change preserves focused preview",
+        "Every floor uses its recovered slab",
+        "Vincom recovered source zones retained",
+        "All slab side bottoms fit SVG viewBox"
+      ],
+      "failed": [],
+      "idle": {
+        "opacity": 1,
+        "dim": "false",
+        "selectedFill": "rgb(245, 228, 191)",
+        "otherFill": "rgb(239, 232, 220)",
+        "preview": "false"
+      },
+      "hover": {
+        "opacity": 0.15,
+        "dim": "true",
+        "selectedFill": "rgb(239, 232, 220)",
+        "otherFill": "rgb(245, 228, 191)",
+        "preview": "true"
+      },
+      "restored": {
+        "opacity": 1,
+        "dim": "false",
+        "selectedFill": "rgb(245, 228, 191)",
+        "otherFill": "rgb(239, 232, 220)",
+        "preview": "false"
+      },
+      "focus": {
+        "opacity": 0.15,
+        "dim": "true",
+        "selectedFill": "rgb(239, 232, 220)",
+        "otherFill": "rgb(245, 228, 191)",
+        "preview": "true"
+      },
+      "geometry": {
+        "slabs": 7,
+        "zones": 107
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "kind": "private-discovery",
+      "checks": [
+        "Private research includes exact accepted35 candidate regions",
+        "Private Discovery has localized pending-publication notice",
+        "Actual Discovery has research results",
+        "No unresolved photos appear",
+        "Accepted geometry selection highlights real Discovery map",
+        "Unresolved location remains accessible with no selected precise marker"
+      ],
+      "failed": [],
+      "notice": "Bản xem riêng — chưa duyệt để xuất bản. Đã duyệt hình học r4; không dùng ảnh hoặc đánh dấu vị trí chưa rõ. Danh sách và nội dung VI/EN vẫn chờ duyệt.",
+      "unmarkedId": "saigon-prototype-takashimaya"
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "kind": "private-discovery",
+      "checks": [
+        "Private research includes exact accepted35 candidate regions",
+        "Private Discovery has localized pending-publication notice",
+        "Actual Discovery has research results",
+        "No unresolved photos appear",
+        "Accepted geometry selection highlights real Discovery map",
+        "Unresolved location remains accessible with no selected precise marker"
+      ],
+      "failed": [],
+      "notice": "Private research preview — not approved for publication. R4 geometry accepted; unresolved photos and precise markers omitted. Roster and VI/EN copy await approval.",
+      "unmarkedId": "saigon-prototype-takashimaya"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "kind": "private-discovery",
+      "checks": [
+        "Private research includes exact accepted35 candidate regions",
+        "Private Discovery has localized pending-publication notice",
+        "Actual Discovery has research results",
+        "No unresolved photos appear"
+      ],
+      "failed": [],
+      "notice": "Bản xem riêng — chưa duyệt để xuất bản. Đã duyệt hình học r4; không dùng ảnh hoặc đánh dấu vị trí chưa rõ. Danh sách và nội dung VI/EN vẫn chờ duyệt."
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "kind": "private-discovery",
+      "checks": [
+        "Private research includes exact accepted35 candidate regions",
+        "Private Discovery has localized pending-publication notice",
+        "Actual Discovery has research results",
+        "No unresolved photos appear"
+      ],
+      "failed": [],
+      "notice": "Private research preview — not approved for publication. R4 geometry accepted; unresolved photos and precise markers omitted. Roster and VI/EN copy await approval."
+    }
+  ]
+}

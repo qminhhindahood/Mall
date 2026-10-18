@@ -1,0 +1,43 @@
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { createHash } from 'node:crypto';
+import { gunzipSync } from 'node:zlib';
+
+const packet = 'docs/content-preparation/integration-candidate-2026-10-18-r2';
+const read = path => JSON.parse(readFileSync(path, 'utf8'));
+const hash = path => createHash('sha256').update(readFileSync(path)).digest('hex');
+
+/** @param {string} root @param {string} mallId */
+export function researchDecisionPacket(root, mallId) {
+  if (process.env.INCLUDE_TEST_FIXTURES !== 'research') throw new Error('Owner decision overlay is research-only');
+  const manifest = read(resolve(root, packet, 'manifest.json'));
+  const sources = read(resolve(root, packet, 'source-hashes.json'));
+  if (manifest.outputs[`${mallId}.private.json`] !== hash(resolve(root,packet,`${mallId}.private.json`))) throw new Error('Private candidate hash drift');
+  for (const name of ['owner-decisions.json']) {
+    const relative=`implementation/mall-visitor/${packet}/${name}`;
+    if (sources.files[relative] !== hash(resolve(root,packet,name))) throw new Error('Owner decision hash drift');
+  }
+  const decisions = read(resolve(root, packet, 'owner-decisions.json'));
+  if (!decisions.geometry.ownerApproval || !decisions.unresolvedTreatment.ownerApproval || decisions.releaseApproval) throw new Error('Unexpected research owner-decision scope');
+  const candidate = read(resolve(root, packet, `${mallId}.private.json`));
+  if (candidate.mallId !== mallId || candidate.publicationApproval || candidate.importableDirectorySnapshot) throw new Error('Private candidate cannot be published');
+  return candidate;
+}
+
+/** @param {string} root @param {string} mallId @param {import('../src/runtime/scene-contract').FloorDataset} source */
+export function researchGeometry(root, mallId, source) {
+  researchDecisionPacket(root, mallId);
+  if (mallId !== 'saigon-centre') return source;
+  const geometryPath='docs/polygon-review/result-2026-10-18-r4/floor-geometry-candidate.json';
+  const sources=read(resolve(root,packet,'source-hashes.json'));
+  const packagedPath=resolve(root,packet,'accepted-r4-geometry.json.gz');
+  const bytes=gunzipSync(readFileSync(packagedPath));
+  if (sources.files[geometryPath] !== createHash('sha256').update(bytes).digest('hex')) throw new Error('Accepted r4 geometry hash drift');
+  const r4 = JSON.parse(bytes.toString('utf8'));
+  const floors = source.floors.map(floor => {
+    const reviewed = r4.floors.find(item => item.id === floor.id);
+    if (!reviewed || JSON.stringify(reviewed.regions) !== JSON.stringify(floor.regions)) throw new Error('Research geometry baseline drift');
+    return {...floor, regions:[...floor.regions, ...reviewed.candidateRegions]};
+  });
+  return {...source, revision:`${source.revision}+owner-accepted-r4-private`, floors};
+}

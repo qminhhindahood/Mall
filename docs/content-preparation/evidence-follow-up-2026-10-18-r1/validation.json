@@ -1,0 +1,11 @@
+{
+  "revision": "evidence-follow-up-2026-10-18-r1",
+  "checks": {
+    "27_exact_prior_claim_holds": true,
+    "all_have_archived_source": true,
+    "all_language_approvals_false": true,
+    "all_owner_approvals_false": true,
+    "unique_mall_ids": true
+  },
+  "scope": "Private content evidence validation; no application unit test or rendered journey acceptance"
+}
