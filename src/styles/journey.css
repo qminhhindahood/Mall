@@ -275,3 +275,7 @@ html{overflow-anchor:none}
   .journey-reading .map-reading{min-height:120svh}
   .journey-reading .discovery-introduction{min-height:80svh;margin-block:8svh;background:transparent}
 }
+
+/* SVG focus uses its real contour, never a scaled rectangular CSS ring. */
+.visitor-guide .map-transform path[role=button]:focus{outline:none;box-shadow:none}
+.visitor-guide .map-transform path[role=button]:focus-visible{stroke:var(--edge);stroke-width:2.5px;vector-effect:non-scaling-stroke}
