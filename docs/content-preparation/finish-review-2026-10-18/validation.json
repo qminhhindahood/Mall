@@ -1,0 +1,32 @@
+{
+  "passed": 5,
+  "failed": 0,
+  "checks": [
+    "371 unique identities",
+    "three exact null holds",
+    "368 complete bilingual proposals",
+    "approval metadata remains false",
+    "170 mapping occurrences; no unsupported promotions"
+  ],
+  "summary": {
+    "identities": 371,
+    "byMall": {
+      "saigon-centre": 165,
+      "vincom-dong-khoi": 206
+    },
+    "copyTreatments": {
+      "prior-broad-summary": 203,
+      "prior-neutral-summary": 27,
+      "returned-owner-informed-rewrite": 17,
+      "minimal-floor-listing": 121,
+      "owner-null-hold": 3
+    },
+    "mappingOccurrences": 170,
+    "mappingGroups": {
+      "merged-contour-needs-individual-partition": 70,
+      "needs-source-or-boundary-evidence": 58,
+      "accepted-r4-shape-separate-identity-review": 42
+    },
+    "newPreciseAssociations": 0
+  }
+}

@@ -1,0 +1,17 @@
+# Final content decision sheet
+
+Prepared 18 October 2026. This packet gives concrete choices; it does not record their acceptance.
+
+**Recommended package:** approve the proposed 368 basic listings and their VI/EN wording as one batch, excluding Cara, Lizd Namat and Mujosh & Ted Baker until identity evidence exists; use the six proposed Highlights; launch with the accepted no-photo/no-marker treatment and no unsupported facility claims. This is one reviewable package, with corrections by exception. No 371 separate decisions are requested. The three excluded identities remain in the audit roster with explicit null text, not in the proposed launch set.
+
+1. **Roster and wording:** review the complete package in [the reader](review.html) or [CSV](roster-review.csv), then approve the batch or name exceptions. Proposed launch wording comprises 203 broad summaries, 27 neutral summaries, 17 prior returned rewrites, and 121 minimal name/floor listings. This choice needs actual roster/identity and VI/EN language approval, with reviewer names and real dates. Meat & Meet's prior narrow wording acceptance remains separately recorded; it is not release acceptance.
+
+2. **Highlights:** approve, edit or reject the six named nominations in [highlights.json](highlights.json): Dim Tu Tac, BreadTalk, UNIQLO; Haidilao, Starbucks, ZARA. Proposed copy and reasons are complete in both languages. The selections balance a meal, a short stop and shopping. No ranking of quality or claim of firsthand experience is intended. The owner has not endorsed them yet.
+
+3. **Identity exceptions:** Cara, Lizd Namat and Mujosh & Ted Baker retain null introductions and need identity/source evidence for rich copy. Saigon Irvins/llaollao B2-K5 and Label Lab/Moschino L2-17 cannot become shared storefronts just because their unit strings collide. Preserve all current no-marker holds, including Asian Corner/Oedo Alley/The Hour Glass/Moschino parent areas and L5-05. Recommended launch choice: preserve searchable basic records where roster/floor is accepted, omit precise markers and unverified copy; no replacement geometry.
+
+4. **Taxonomy and facilities:** the proposed package retains the incumbent per-mall category scheme and omits facility claims/markers. No verified facility roster exists; toilets, accessibility routes and services cannot be inferred from unlabeled schematic fragments. New facility research is optional future enrichment if this proposed launch scope is accepted.
+
+5. **Currentness and release:** the expanded 371-identity review roster differs from the 306-identity current private preview. Vincom's current mall introduction states 150 shops/13 sectors, while this reconciled expanded candidate has 206 identities, including counters and pending records. These counts have different scopes and cannot be reconciled by deleting 56 names. Approve the actual rows or identify removals; do not treat the new count as a verified complete current tenant census. Final publication and hosting approval are separate decisions after interaction/runtime verification.
+
+Suggested response format: `Proposed package: approve / approve except [IDs and corrections]; Highlights: approve / edits; VI reviewer/date: …; EN reviewer/date: …`. The exclusions/accepted unresolved-location treatment do not require new physical evidence to launch the remaining basic directory. Do not invent review identities/dates or backfill approval flags from silence.

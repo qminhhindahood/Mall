@@ -1,0 +1,4202 @@
+{
+  "revision": "finish-review-2026-10-18-r1",
+  "newPreciseAssociations": 0,
+  "reason": "No unambiguous new individual unit boundary established by existing gap ledger. Unit labels inside merged contours cannot become exact storefront highlights.",
+  "records": [
+    {
+      "id": "vincom-prototype-adidas",
+      "mall": "vincom-dong-khoi",
+      "name": "Adidas",
+      "floor": "B2",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-adidas]",
+        "https://vincom.com.vn/store/adidas-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://www.adidas.com.vn/vi/help/sea-adiclub/which-adidas-stores-are-participating-in-the-adiclub-program",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B2-05 anchor lies in B2-region-003, also containing ['B2-05', 'B2-03', 'B2-02', 'B2-02A']; source-supported unit partition is missing",
+        "Direct/current accessible first-party confirmation of historical or access-limited unit claim"
+      ],
+      "anchors": [
+        {
+          "floor": "B2",
+          "source_label": "B2-05",
+          "x": "250",
+          "y": "585",
+          "containing_regions": "B2-region-003",
+          "primary_region": "B2-region-003",
+          "source_path": "Vincom đồng khởi/map/tang-b2.webp",
+          "source_sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-adidasoriginals",
+      "mall": "vincom-dong-khoi",
+      "name": "Adidas Originals",
+      "floor": "B1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-adidasoriginals]",
+        "https://vincom.com.vn/store/adidas-originals-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://www.adidas.com.vn/vi/help/sea-adiclub/which-adidas-stores-are-participating-in-the-adiclub-program",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B1-56 anchor lies in B1-region-003, also containing ['B1-54', 'B1-55', 'B1-56']; source-supported unit partition is missing",
+        "Direct/current accessible first-party confirmation of historical or access-limited unit claim"
+      ],
+      "anchors": [
+        {
+          "floor": "B1",
+          "source_label": "B1-56",
+          "x": "620",
+          "y": "572",
+          "containing_regions": "B1-region-003",
+          "primary_region": "B1-region-003",
+          "source_path": "Vincom đồng khởi/map/tang-b1.webp",
+          "source_sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-anphuoc",
+      "mall": "vincom-dong-khoi",
+      "name": "An Phước",
+      "floor": "B2",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-anphuoc]",
+        "https://vincom.com.vn/store/an-phuoc-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B2-01C anchor lies in B2-region-004, also containing ['B2-01D', 'B2-01B', 'B2-01C']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B2",
+          "source_label": "B2-01C",
+          "x": "355",
+          "y": "790",
+          "containing_regions": "B2-region-004",
+          "primary_region": "B2-region-004",
+          "source_path": "Vincom đồng khởi/map/tang-b2.webp",
+          "source_sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-aristino",
+      "mall": "vincom-dong-khoi",
+      "name": "Aristino",
+      "floor": "B2",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-aristino]",
+        "https://vincom.com.vn/store/aristino-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B2; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-nike",
+      "mall": "vincom-dong-khoi",
+      "name": "Nike",
+      "floor": "B1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-nike]",
+        "https://vincom.com.vn/store/nike-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://www.acfc.com.vn/he-thong-cua-hang",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B1-55 anchor lies in B1-region-003, also containing ['B1-54', 'B1-55', 'B1-56']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B1",
+          "source_label": "B1-55",
+          "x": "620",
+          "y": "525",
+          "containing_regions": "B1-region-003",
+          "primary_region": "B1-region-003",
+          "source_path": "Vincom đồng khởi/map/tang-b1.webp",
+          "source_sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-nikerise",
+      "mall": "vincom-dong-khoi",
+      "name": "Nike Rise",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-nikerise]",
+        "https://vincom.com.vn/store/nike-rise-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B1; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-calvinklein",
+      "mall": "vincom-dong-khoi",
+      "name": "Calvin Klein",
+      "floor": "B1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-calvinklein]",
+        "https://vincom.com.vn/store/calvin-klein-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://www.acfc.com.vn/he-thong-cua-hang",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B1-54 anchor lies in B1-region-003, also containing ['B1-54', 'B1-55', 'B1-56']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B1",
+          "source_label": "B1-54",
+          "x": "610",
+          "y": "472",
+          "containing_regions": "B1-region-003",
+          "primary_region": "B1-region-003",
+          "source_path": "Vincom đồng khởi/map/tang-b1.webp",
+          "source_sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-cottonon",
+      "mall": "vincom-dong-khoi",
+      "name": "Cotton On",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-cottonon]",
+        "https://vincom.com.vn/store/cotton-on-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://www.acfc.com.vn/he-thong-cua-hang",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['B1-31-32A', 'B1_ B31.32, Trung Tâm Thương Mại Vincom B, Số 72 Lê Thánh Tôn,  P.Sài Gòn, Hồ Chí Minh'] on the saved B1 source image or obtain a newer labeled floor plan"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-thenewplayground",
+      "mall": "vincom-dong-khoi",
+      "name": "The New Playground",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-thenewplayground]",
+        "https://vincom.com.vn/store/the-new-playground-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['Lô 38-48'] on the saved B1 source image or obtain a newer labeled floor plan",
+        "Source conflict: {\"kind\": \"multi-floor-expansion\", \"officialIntro\": \"B1 and B2 mentioned; preview has B1 only\"}"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-gap",
+      "mall": "vincom-dong-khoi",
+      "name": "GAP",
+      "floor": "B1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-gap]",
+        "https://vincom.com.vn/store/gap-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://www.acfc.com.vn/he-thong-cua-hang",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B1-53 anchor lies in B1-region-001, also containing ['B1-38-46', 'B1-48', 'B1-49', 'B1-50-51', 'B1-10-11', 'B1-09', 'B1-07', 'B1-52', 'B1-53', 'B1-33-37', 'B1-32C', 'B1-32B', 'B1-32A', 'B1-31']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B1",
+          "source_label": "B1-53",
+          "x": "600",
+          "y": "375",
+          "containing_regions": "B1-region-001",
+          "primary_region": "B1-region-001",
+          "source_path": "Vincom đồng khởi/map/tang-b1.webp",
+          "source_sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-gigi",
+      "mall": "vincom-dong-khoi",
+      "name": "GiGi",
+      "floor": "B1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-gigi]",
+        "https://vincom.com.vn/store/gigi-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B1-10-11 anchor lies in B1-region-001, also containing ['B1-38-46', 'B1-48', 'B1-49', 'B1-50-51', 'B1-10-11', 'B1-09', 'B1-07', 'B1-52', 'B1-53', 'B1-33-37', 'B1-32C', 'B1-32B', 'B1-32A', 'B1-31']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B1",
+          "source_label": "B1-10-11",
+          "x": "265",
+          "y": "390",
+          "containing_regions": "B1-region-001",
+          "primary_region": "B1-region-001",
+          "source_path": "Vincom đồng khởi/map/tang-b1.webp",
+          "source_sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-guess",
+      "mall": "vincom-dong-khoi",
+      "name": "Guess",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-guess]",
+        "https://vincom.com.vn/store/guess-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B1; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-hm",
+      "mall": "vincom-dong-khoi",
+      "name": "H&M",
+      "floor": "L2",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-hm]",
+        "https://vincom.com.vn/store/h-m-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L2-02 anchor lies in L2-region-001, also containing ['L2-02', 'L2-07', 'L2-06']; source-supported unit partition is missing",
+        "Source conflict: {\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"M\", \"official\": \"Tầng 2\"}"
+      ],
+      "anchors": [
+        {
+          "floor": "L2",
+          "source_label": "L2-02",
+          "x": "457",
+          "y": "333",
+          "containing_regions": "L2-region-001",
+          "primary_region": "L2-region-001",
+          "source_path": "Vincom đồng khởi/map/tang-l2.webp",
+          "source_sha256": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-hm",
+      "mall": "vincom-dong-khoi",
+      "name": "H&M",
+      "floor": "M",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-hm]",
+        "https://vincom.com.vn/store/h-m-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "M-15-19 anchor lies in M-region-002, also containing ['M-15-19', 'M-31-32', 'M-33', 'M-34']; source-supported unit partition is missing",
+        "Source conflict: {\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"M\", \"official\": \"Tầng 2\"}"
+      ],
+      "anchors": [
+        {
+          "floor": "M",
+          "source_label": "M-15-19",
+          "x": "590",
+          "y": "350",
+          "containing_regions": "M-region-002",
+          "primary_region": "M-region-002",
+          "source_path": "Vincom đồng khởi/map/tang-m.webp",
+          "source_sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-levis",
+      "mall": "vincom-dong-khoi",
+      "name": "Levi’s",
+      "floor": "B1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-levis]",
+        "https://vincom.com.vn/store/levis-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://www.acfc.com.vn/he-thong-cua-hang",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B1-52 anchor lies in B1-region-001, also containing ['B1-38-46', 'B1-48', 'B1-49', 'B1-50-51', 'B1-10-11', 'B1-09', 'B1-07', 'B1-52', 'B1-53', 'B1-33-37', 'B1-32C', 'B1-32B', 'B1-32A', 'B1-31']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B1",
+          "source_label": "B1-52",
+          "x": "540",
+          "y": "313",
+          "containing_regions": "B1-region-001",
+          "primary_region": "B1-region-001",
+          "source_path": "Vincom đồng khởi/map/tang-b1.webp",
+          "source_sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-mlb",
+      "mall": "vincom-dong-khoi",
+      "name": "MLB",
+      "floor": "B1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-mlb]",
+        "https://vincom.com.vn/store/mlb-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://www.maisononline.vn/blogs/news/maison-loyalty-quet-payme-qr-tich-diem-me-ly",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B1-28D anchor lies in B1-region-002, also containing ['B1-28D', 'B1-28B', 'B1-28C', 'B1-28E']; source-supported unit partition is missing",
+        "Direct/current accessible first-party confirmation of historical or access-limited unit claim"
+      ],
+      "anchors": [
+        {
+          "floor": "B1",
+          "source_label": "B1-28D",
+          "x": "430",
+          "y": "790",
+          "containing_regions": "B1-region-002",
+          "primary_region": "B1-region-002",
+          "source_path": "Vincom đồng khởi/map/tang-b1.webp",
+          "source_sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-newbalance",
+      "mall": "vincom-dong-khoi",
+      "name": "New Balance",
+      "floor": "L2",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-newbalance]",
+        "https://vincom.com.vn/store/new-balance-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on L2; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-poloralphlauren",
+      "mall": "vincom-dong-khoi",
+      "name": "Polo Ralph Lauren",
+      "floor": "M",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-poloralphlauren]",
+        "https://vincom.com.vn/store/polo-ralph-lauren-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://www.acfc.com.vn/he-thong-cua-hang",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "M-04-05 anchor lies in M-region-003, also containing ['M-04-05', 'M-04B1', 'M-04B2', 'M-02B-03', 'M-01-02A']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "M",
+          "source_label": "M-04-05",
+          "x": "427",
+          "y": "735",
+          "containing_regions": "M-region-003",
+          "primary_region": "M-region-003",
+          "source_path": "Vincom đồng khởi/map/tang-m.webp",
+          "source_sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-skechers",
+      "mall": "vincom-dong-khoi",
+      "name": "Skechers",
+      "floor": "B1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-skechers]",
+        "https://vincom.com.vn/store/skechers-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://www.maisononline.vn/blogs/news/maison-loyalty-quet-payme-qr-tich-diem-me-ly",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B1-28E anchor lies in B1-region-002, also containing ['B1-28D', 'B1-28B', 'B1-28C', 'B1-28E']; source-supported unit partition is missing",
+        "Direct/current accessible first-party confirmation of historical or access-limited unit claim"
+      ],
+      "anchors": [
+        {
+          "floor": "B1",
+          "source_label": "B1-28E",
+          "x": "679",
+          "y": "725",
+          "containing_regions": "B1-region-002",
+          "primary_region": "B1-region-002",
+          "source_path": "Vincom đồng khởi/map/tang-b1.webp",
+          "source_sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-tommyhilfiger",
+      "mall": "vincom-dong-khoi",
+      "name": "Tommy Hilfiger",
+      "floor": "M",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-tommyhilfiger]",
+        "https://vincom.com.vn/store/tommy-hilfiger-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://www.acfc.com.vn/he-thong-cua-hang",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "M-01-02A anchor lies in M-region-003, also containing ['M-04-05', 'M-04B1', 'M-04B2', 'M-02B-03', 'M-01-02A']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "M",
+          "source_label": "M-01-02A",
+          "x": "707",
+          "y": "735",
+          "containing_regions": "M-region-003",
+          "primary_region": "M-region-003",
+          "source_path": "Vincom đồng khởi/map/tang-m.webp",
+          "source_sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-valentinocreations",
+      "mall": "vincom-dong-khoi",
+      "name": "Valentino Creations",
+      "floor": "L2",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-valentinocreations]",
+        "https://vincom.com.vn/store/valentino-creations-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://vincom.com.vn/store/valentino-creations-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L2-07 anchor lies in L2-region-001, also containing ['L2-02', 'L2-07', 'L2-06']; source-supported unit partition is missing",
+        "Source conflict: {\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"L2\", \"official\": \"Tầng hầm B2\"}"
+      ],
+      "anchors": [
+        {
+          "floor": "L2",
+          "source_label": "L2-07",
+          "x": "270",
+          "y": "410",
+          "containing_regions": "L2-region-001",
+          "primary_region": "L2-region-001",
+          "source_path": "Vincom đồng khởi/map/tang-l2.webp",
+          "source_sha256": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-victoriassecret",
+      "mall": "vincom-dong-khoi",
+      "name": "Victoria's Secret",
+      "floor": "M",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-victoriassecret]",
+        "https://vincom.com.vn/store/victorias-secret-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on M; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-vincy",
+      "mall": "vincom-dong-khoi",
+      "name": "Vincy",
+      "floor": "B2",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-vincy]",
+        "https://vincom.com.vn/store/vincy-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B2; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-wilson",
+      "mall": "vincom-dong-khoi",
+      "name": "Wilson",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-wilson]",
+        "https://vincom.com.vn/store/wilson-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['B1-51'] on the saved B1 source image or obtain a newer labeled floor plan"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-zara",
+      "mall": "vincom-dong-khoi",
+      "name": "ZARA",
+      "floor": "L1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-zara]",
+        "https://vincom.com.vn/store/zara-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['L1-2B'] on the saved L1 source image or obtain a newer labeled floor plan",
+        "Source conflict: {\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"M\", \"official\": \"Tầng 1\"}"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-zara",
+      "mall": "vincom-dong-khoi",
+      "name": "ZARA",
+      "floor": "M",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-zara]",
+        "https://vincom.com.vn/store/zara-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "M-06 anchor lies in M-region-001, also containing ['M-06', 'M-07']; source-supported unit partition is missing",
+        "Source conflict: {\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"M\", \"official\": \"Tầng 1\"}"
+      ],
+      "anchors": [
+        {
+          "floor": "M",
+          "source_label": "M-06",
+          "x": "215",
+          "y": "420",
+          "containing_regions": "M-region-001",
+          "primary_region": "M-region-001",
+          "source_path": "Vincom đồng khởi/map/tang-m.webp",
+          "source_sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-cobrapumagolf",
+      "mall": "vincom-dong-khoi",
+      "name": "Cobra Puma Golf",
+      "floor": "B2",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-cobrapumagolf]",
+        "https://vincom.com.vn/store/cobra-puma-golf-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B2; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-fredperry",
+      "mall": "vincom-dong-khoi",
+      "name": "Fred Perry",
+      "floor": "M",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-fredperry]",
+        "https://vincom.com.vn/store/fred-perry-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on M; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-karllagerfeld",
+      "mall": "vincom-dong-khoi",
+      "name": "Karl Lagerfeld",
+      "floor": "M",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-karllagerfeld]",
+        "https://vincom.com.vn/store/karl-lagerfeld-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://www.acfc.com.vn/he-thong-cua-hang",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "M-31-32 anchor lies in M-region-002, also containing ['M-15-19', 'M-31-32', 'M-33', 'M-34']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "M",
+          "source_label": "M-31-32",
+          "x": "563",
+          "y": "590",
+          "containing_regions": "M-region-002",
+          "primary_region": "M-region-002",
+          "source_path": "Vincom đồng khởi/map/tang-m.webp",
+          "source_sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-massimodutti",
+      "mall": "vincom-dong-khoi",
+      "name": "Massimo Dutti",
+      "floor": "L1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-massimodutti]",
+        "https://vincom.com.vn/store/massimo-dutti-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on L1; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-stradivarius",
+      "mall": "vincom-dong-khoi",
+      "name": "Stradivarius",
+      "floor": "L2",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-stradivarius]",
+        "https://vincom.com.vn/store/stradivarius-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L2-06 anchor lies in L2-region-001, also containing ['L2-02', 'L2-07', 'L2-06']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "L2",
+          "source_label": "L2-06",
+          "x": "236",
+          "y": "701",
+          "containing_regions": "L2-region-001",
+          "primary_region": "L2-region-001",
+          "source_path": "Vincom đồng khởi/map/tang-l2.webp",
+          "source_sha256": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-urbanrevivo",
+      "mall": "vincom-dong-khoi",
+      "name": "Urban Revivo",
+      "floor": "B1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-urbanrevivo]",
+        "https://vincom.com.vn/store/urban-revivo-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://www.maisononline.vn/blogs/news/maison-loyalty-quet-payme-qr-tich-diem-me-ly",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B1-28B anchor lies in B1-region-002, also containing ['B1-28D', 'B1-28B', 'B1-28C', 'B1-28E']; source-supported unit partition is missing",
+        "Direct/current accessible first-party confirmation of historical or access-limited unit claim"
+      ],
+      "anchors": [
+        {
+          "floor": "B1",
+          "source_label": "B1-28B",
+          "x": "600",
+          "y": "823",
+          "containing_regions": "B1-region-002",
+          "primary_region": "B1-region-002",
+          "source_path": "Vincom đồng khởi/map/tang-b1.webp",
+          "source_sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-highlandscoffee",
+      "mall": "vincom-dong-khoi",
+      "name": "Highlands Coffee",
+      "floor": "B3",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-highlandscoffee]",
+        "https://vincom.com.vn/store/highlands-coffee-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['B3-11, B3-12&14'] on the saved B3 source image or obtain a newer labeled floor plan"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-koithe",
+      "mall": "vincom-dong-khoi",
+      "name": "Koi Thé",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-koithe]",
+        "https://vincom.com.vn/store/koi-the-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-08-09 anchor lies in B3-region-003, also containing ['B3-10A', 'B3-10B', 'B3-10C', 'B3-08-09']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-08-09",
+          "x": "160",
+          "y": "680",
+          "containing_regions": "B3-region-003",
+          "primary_region": "B3-region-003",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-thematchatokyo",
+      "mall": "vincom-dong-khoi",
+      "name": "The Matcha Tokyo",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-thematchatokyo]",
+        "https://vincom.com.vn/store/the-matcha-tokyo-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-15C anchor lies in B3-region-010, also containing ['B3-15C', 'B3-15A', 'B3-15B']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-15C",
+          "x": "450",
+          "y": "480",
+          "containing_regions": "B3-region-010",
+          "primary_region": "B3-region-010",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-hachiban",
+      "mall": "vincom-dong-khoi",
+      "name": "Hachiban",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-hachiban]",
+        "https://vincom.com.vn/store/hachiban-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-18A anchor lies in B3-region-005, also containing ['B3-26', 'B3-18A', 'B3-18B']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-18A",
+          "x": "115",
+          "y": "290",
+          "containing_regions": "B3-region-005",
+          "primary_region": "B3-region-005",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-tianlong",
+      "mall": "vincom-dong-khoi",
+      "name": "Tian Long",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-tianlong]",
+        "https://vincom.com.vn/store/tian-long-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-18B anchor lies in B3-region-005, also containing ['B3-26', 'B3-18A', 'B3-18B']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-18B",
+          "x": "115",
+          "y": "370",
+          "containing_regions": "B3-region-005",
+          "primary_region": "B3-region-005",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-gogihouse",
+      "mall": "vincom-dong-khoi",
+      "name": "Gogi House",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-gogihouse]",
+        "https://vincom.com.vn/store/gogi-house-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-23-24 anchor lies in B3-region-004, also containing ['B3-23-24', 'B3-28C']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-23-24",
+          "x": "300",
+          "y": "225",
+          "containing_regions": "B3-region-004",
+          "primary_region": "B3-region-004",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-bastahiro",
+      "mall": "vincom-dong-khoi",
+      "name": "Basta Hiro",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-bastahiro]",
+        "https://vincom.com.vn/store/basta-hiro-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-06 anchor lies in B3-region-007, also containing ['B3-07', 'B3-06']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-06",
+          "x": "380",
+          "y": "685",
+          "containing_regions": "B3-region-007",
+          "primary_region": "B3-region-007",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-boatnoodle",
+      "mall": "vincom-dong-khoi",
+      "name": "Boat Noodle",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-boatnoodle]",
+        "https://vincom.com.vn/store/boat-noodle-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-20 anchor lies in B3-region-001, also containing ['B3-22', 'B3-21', 'B3-20', 'B3-27', 'B3-28A', 'B3-28B']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-20",
+          "x": "400",
+          "y": "410",
+          "containing_regions": "B3-region-001",
+          "primary_region": "B3-region-001",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-dahuhotpot",
+      "mall": "vincom-dong-khoi",
+      "name": "Dahu Hotpot",
+      "floor": "B3",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-dahuhotpot]",
+        "https://vincom.com.vn/store/dahu-hotpot-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B3; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-dookkidookki",
+      "mall": "vincom-dong-khoi",
+      "name": "Dookki Dookki",
+      "floor": "L3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-dookkidookki]",
+        "https://vincom.com.vn/store/dookki-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L3-06-07 anchor lies in L3-region-002, also containing ['L3-06-07', 'L3-08']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "L3",
+          "source_label": "L3-06-07",
+          "x": "434",
+          "y": "709",
+          "containing_regions": "L3-region-002",
+          "primary_region": "L3-region-002",
+          "source_path": "Vincom đồng khởi/map/tang-l3.webp",
+          "source_sha256": "629d9860433bacc381daede046513190e2d6877bf88f99907eafb3f0794bbc70"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-haidilao",
+      "mall": "vincom-dong-khoi",
+      "name": "Haidilao",
+      "floor": "L3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-haidilao]",
+        "https://vincom.com.vn/store/haidilao-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L3-08 anchor lies in L3-region-002, also containing ['L3-06-07', 'L3-08']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "L3",
+          "source_label": "L3-08",
+          "x": "616",
+          "y": "671",
+          "containing_regions": "L3-region-002",
+          "primary_region": "L3-region-002",
+          "source_path": "Vincom đồng khởi/map/tang-l3.webp",
+          "source_sha256": "629d9860433bacc381daede046513190e2d6877bf88f99907eafb3f0794bbc70"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-hokkaidosachi",
+      "mall": "vincom-dong-khoi",
+      "name": "Hokkaido Sachi",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-hokkaidosachi]",
+        "https://vincom.com.vn/store/hokkaido-sachi-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://vincom.com.vn/trend/nha-hang-nhat-quan-1",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-07 anchor lies in B3-region-007, also containing ['B3-07', 'B3-06']; source-supported unit partition is missing",
+        "Direct/current accessible first-party confirmation of historical or access-limited unit claim"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-07",
+          "x": "315",
+          "y": "685",
+          "containing_regions": "B3-region-007",
+          "primary_region": "B3-region-007",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-huedelights",
+      "mall": "vincom-dong-khoi",
+      "name": "Huế Delights",
+      "floor": "B3",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-huedelights]",
+        "https://vincom.com.vn/store/hue-delights-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B3; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-isushi",
+      "mall": "vincom-dong-khoi",
+      "name": "iSushi",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-isushi]",
+        "https://vincom.com.vn/store/isushi-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-17 anchor lies in B3-region-002, also containing ['B3-28D', 'B3-28E', 'B3-28F', 'B3-17']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-17",
+          "x": "650",
+          "y": "520",
+          "containing_regions": "B3-region-002",
+          "primary_region": "B3-region-002",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-kichikichi",
+      "mall": "vincom-dong-khoi",
+      "name": "Kichi Kichi",
+      "floor": "B3",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-kichikichi]",
+        "https://vincom.com.vn/store/kichi-kichi-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B3; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-kingbbq",
+      "mall": "vincom-dong-khoi",
+      "name": "King BBQ",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-kingbbq]",
+        "https://vincom.com.vn/store/king-bbq-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-10B anchor lies in B3-region-003, also containing ['B3-10A', 'B3-10B', 'B3-10C', 'B3-08-09']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-10B",
+          "x": "220",
+          "y": "520",
+          "containing_regions": "B3-region-003",
+          "primary_region": "B3-region-003",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-kohakuudonramen",
+      "mall": "vincom-dong-khoi",
+      "name": "Kohaku Udon Ramen",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-kohakuudonramen]",
+        "https://vincom.com.vn/store/kohaku-udon-ramen-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://vincom.com.vn/trend/nha-hang-nhat-quan-1",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-10C anchor lies in B3-region-003, also containing ['B3-10A', 'B3-10B', 'B3-10C', 'B3-08-09']; source-supported unit partition is missing",
+        "Direct/current accessible first-party confirmation of historical or access-limited unit claim"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-10C",
+          "x": "220",
+          "y": "570",
+          "containing_regions": "B3-region-003",
+          "primary_region": "B3-region-003",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-longwang",
+      "mall": "vincom-dong-khoi",
+      "name": "Long Wang",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-longwang]",
+        "https://vincom.com.vn/store/long-wang-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-19B anchor lies in B3-region-008, also containing ['B3-19B', 'B3-19A']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-19B",
+          "x": "260",
+          "y": "380",
+          "containing_regions": "B3-region-008",
+          "primary_region": "B3-region-008",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-manwah",
+      "mall": "vincom-dong-khoi",
+      "name": "Manwah",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-manwah]",
+        "https://vincom.com.vn/store/manwah-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-28C anchor lies in B3-region-004, also containing ['B3-23-24', 'B3-28C']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-28C",
+          "x": "440",
+          "y": "225",
+          "containing_regions": "B3-region-004",
+          "primary_region": "B3-region-004",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-meatmeet",
+      "mall": "vincom-dong-khoi",
+      "name": "Meat & Meet",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-meatmeet]",
+        "https://vincom.com.vn/store/meat-meet-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-26 anchor lies in B3-region-005, also containing ['B3-26', 'B3-18A', 'B3-18B']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-26",
+          "x": "135",
+          "y": "220",
+          "containing_regions": "B3-region-005",
+          "primary_region": "B3-region-005",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-mochisweet",
+      "mall": "vincom-dong-khoi",
+      "name": "Mochi Sweet",
+      "floor": "B3",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-mochisweet]",
+        "https://vincom.com.vn/store/mochi-sweet-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-M03 label anchor has no captured contour; trace the supported source boundary"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-M03",
+          "x": "375",
+          "y": "601",
+          "containing_regions": "",
+          "primary_region": "",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-sincetea",
+      "mall": "vincom-dong-khoi",
+      "name": "Since Tea",
+      "floor": "B3",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-sincetea]",
+        "https://vincom.com.vn/store/since-tea-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B3; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-somthai",
+      "mall": "vincom-dong-khoi",
+      "name": "Som Thái",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-somthai]",
+        "https://vincom.com.vn/store/som-tum-thai-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-05 anchor lies in B3-region-009, also containing ['B3-05', 'B3-04']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-05",
+          "x": "470",
+          "y": "665",
+          "containing_regions": "B3-region-009",
+          "primary_region": "B3-region-009",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-starbucks",
+      "mall": "vincom-dong-khoi",
+      "name": "Starbucks",
+      "floor": "B2",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-starbucks]",
+        "https://vincom.com.vn/store/starbucks-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['B2-02-02A'] on the saved B2 source image or obtain a newer labeled floor plan"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-yamazaki",
+      "mall": "vincom-dong-khoi",
+      "name": "Yamazaki",
+      "floor": "B3",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-yamazaki]",
+        "https://vincom.com.vn/store/yamazaki-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B3; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-bkkstreetdessert",
+      "mall": "vincom-dong-khoi",
+      "name": "BKK Street Dessert",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-bkkstreetdessert]",
+        "https://vincom.com.vn/store/bkk-street-dessert-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-20 anchor lies in B3-region-001, also containing ['B3-22', 'B3-21', 'B3-20', 'B3-27', 'B3-28A', 'B3-28B']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-20",
+          "x": "400",
+          "y": "410",
+          "containing_regions": "B3-region-001",
+          "primary_region": "B3-region-001",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-bybloscafe",
+      "mall": "vincom-dong-khoi",
+      "name": "Byblos Cafe",
+      "floor": "B3",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-bybloscafe]",
+        "https://vincom.com.vn/store/byblos-cafe-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B3; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-comtammoc",
+      "mall": "vincom-dong-khoi",
+      "name": "Cơm Tấm Mộc",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-comtammoc]",
+        "https://vincom.com.vn/store/com-tam-moc-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-04 anchor lies in B3-region-009, also containing ['B3-05', 'B3-04']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-04",
+          "x": "470",
+          "y": "712",
+          "containing_regions": "B3-region-009",
+          "primary_region": "B3-region-009",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-cafecong",
+      "mall": "vincom-dong-khoi",
+      "name": "Cafe Cộng",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-cafecong]",
+        "https://vincom.com.vn/store/cong-cafe-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-10A anchor lies in B3-region-003, also containing ['B3-10A', 'B3-10B', 'B3-10C', 'B3-08-09']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-10A",
+          "x": "230",
+          "y": "480",
+          "containing_regions": "B3-region-003",
+          "primary_region": "B3-region-003",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-dessertplanet",
+      "mall": "vincom-dong-khoi",
+      "name": "Dessert Planet",
+      "floor": "L3",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-dessertplanet]",
+        "https://vincom.com.vn/store/dessert-planet-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on L3; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-goldendynasty",
+      "mall": "vincom-dong-khoi",
+      "name": "Golden Dynasty",
+      "floor": "B3",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-goldendynasty]",
+        "https://vincom.com.vn/store/golden-dynasty-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B3; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-matsuya",
+      "mall": "vincom-dong-khoi",
+      "name": "Matsuya",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-matsuya]",
+        "https://vincom.com.vn/store/matsuya-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-28B anchor lies in B3-region-001, also containing ['B3-22', 'B3-21', 'B3-20', 'B3-27', 'B3-28A', 'B3-28B']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-28B",
+          "x": "555",
+          "y": "400",
+          "containing_regions": "B3-region-001",
+          "primary_region": "B3-region-001",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-morico",
+      "mall": "vincom-dong-khoi",
+      "name": "Morico",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-morico]",
+        "https://vincom.com.vn/store/morico-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-16B anchor lies in B3-region-006, also containing ['B3-16A', 'B3-16B']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-16B",
+          "x": "550",
+          "y": "570",
+          "containing_regions": "B3-region-006",
+          "primary_region": "B3-region-006",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-pangpang",
+      "mall": "vincom-dong-khoi",
+      "name": "Pang Pang",
+      "floor": "B3",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-pangpang]",
+        "https://vincom.com.vn/store/pang-pang-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['B3-27B'] on the saved B3 source image or obtain a newer labeled floor plan"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-sanfulou",
+      "mall": "vincom-dong-khoi",
+      "name": "San Fu Lou",
+      "floor": "B3",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-sanfulou]",
+        "https://vincom.com.vn/store/san-fu-lou-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['B3-28AB'] on the saved B3 source image or obtain a newer labeled floor plan"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-touslesjours",
+      "mall": "vincom-dong-khoi",
+      "name": "Tous Les Jours",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-touslesjours]",
+        "https://vincom.com.vn/store/tous-les-jours-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-19A anchor lies in B3-region-008, also containing ['B3-19B', 'B3-19A']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-19A",
+          "x": "270",
+          "y": "425",
+          "containing_regions": "B3-region-008",
+          "primary_region": "B3-region-008",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-wraproll",
+      "mall": "vincom-dong-khoi",
+      "name": "Wrap & Roll",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-wraproll]",
+        "https://vincom.com.vn/store/wrap-roll-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-22 anchor lies in B3-region-001, also containing ['B3-22', 'B3-21', 'B3-20', 'B3-27', 'B3-28A', 'B3-28B']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-22",
+          "x": "340",
+          "y": "310",
+          "containing_regions": "B3-region-001",
+          "primary_region": "B3-region-001",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-yakinikulike",
+      "mall": "vincom-dong-khoi",
+      "name": "Yakiniku Like",
+      "floor": "B3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-yakinikulike]",
+        "https://vincom.com.vn/store/yakiniku-like-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B3-16A anchor lies in B3-region-006, also containing ['B3-16A', 'B3-16B']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B3",
+          "source_label": "B3-16A",
+          "x": "550",
+          "y": "510",
+          "containing_regions": "B3-region-006",
+          "primary_region": "B3-region-006",
+          "source_path": "Vincom đồng khởi/map/tang-b3.webp",
+          "source_sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-phototime",
+      "mall": "vincom-dong-khoi",
+      "name": "Photo Time",
+      "floor": "B2",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-phototime]",
+        "https://vincom.com.vn/store/photo-time-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B2; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-timezone",
+      "mall": "vincom-dong-khoi",
+      "name": "Timezone",
+      "floor": "B2",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-timezone]",
+        "https://vincom.com.vn/store/timezone-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B2; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-tuttopiccolo",
+      "mall": "vincom-dong-khoi",
+      "name": "Tutto Piccolo",
+      "floor": "B2",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-tuttopiccolo]",
+        "https://vincom.com.vn/store/tutto-piccolo-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B2; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-amara",
+      "mall": "vincom-dong-khoi",
+      "name": "Amara",
+      "floor": "B2",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-amara]",
+        "https://vincom.com.vn/store/amara-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B2-01B anchor lies in B2-region-004, also containing ['B2-01D', 'B2-01B', 'B2-01C']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B2",
+          "source_label": "B2-01B",
+          "x": "325",
+          "y": "790",
+          "containing_regions": "B2-region-004",
+          "primary_region": "B2-region-004",
+          "source_path": "Vincom đồng khởi/map/tang-b2.webp",
+          "source_sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-lizdnamat",
+      "mall": "vincom-dong-khoi",
+      "name": "Lizd Namat",
+      "floor": "B2",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-lizdnamat]",
+        "https://vincom.com.vn/store/lizd-namat-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B2-01D anchor lies in B2-region-004, also containing ['B2-01D', 'B2-01B', 'B2-01C']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B2",
+          "source_label": "B2-01D",
+          "x": "290",
+          "y": "800",
+          "containing_regions": "B2-region-004",
+          "primary_region": "B2-region-004",
+          "source_path": "Vincom đồng khởi/map/tang-b2.webp",
+          "source_sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-sony",
+      "mall": "vincom-dong-khoi",
+      "name": "Sony",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-sony]",
+        "https://vincom.com.vn/store/sony-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['B1-21'] on the saved B1 source image or obtain a newer labeled floor plan"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-charleskeith",
+      "mall": "vincom-dong-khoi",
+      "name": "Charles & Keith",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-charleskeith]",
+        "https://vincom.com.vn/store/charles-keith-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://www.maisononline.vn/blogs/store/b1-03-04-05-vincom-dong-khoi-72-le-thanh-ton-quan-1-tp-hcm",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['B1-03-04, B1-05', 'B1-03-04-05'] on the saved B1 source image or obtain a newer labeled floor plan",
+        "Direct/current accessible first-party confirmation of historical or access-limited unit claim"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-crocs",
+      "mall": "vincom-dong-khoi",
+      "name": "Crocs",
+      "floor": "B2",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-crocs]",
+        "https://vincom.com.vn/store/crocs-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B2-49 anchor lies in B2-region-028, also containing ['B2-52', 'B2-51', 'B2-50', 'B2-49']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B2",
+          "source_label": "B2-49",
+          "x": "515",
+          "y": "650",
+          "containing_regions": "B2-region-028",
+          "primary_region": "B2-region-028",
+          "source_path": "Vincom đồng khởi/map/tang-b2.webp",
+          "source_sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-ecco",
+      "mall": "vincom-dong-khoi",
+      "name": "Ecco",
+      "floor": "B1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-ecco]",
+        "https://vincom.com.vn/store/ecco-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B1-25 anchor lies in B1-region-004, also containing ['B1-24', 'B1-25', 'B1-26', 'B1-27', 'B1-28A']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B1",
+          "source_label": "B1-25",
+          "x": "521",
+          "y": "650",
+          "containing_regions": "B1-region-004",
+          "primary_region": "B1-region-004",
+          "source_path": "Vincom đồng khởi/map/tang-b1.webp",
+          "source_sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-havaianas",
+      "mall": "vincom-dong-khoi",
+      "name": "Havaianas",
+      "floor": "B1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-havaianas]",
+        "https://vincom.com.vn/store/havaianas-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B1-28A anchor lies in B1-region-004, also containing ['B1-24', 'B1-25', 'B1-26', 'B1-27', 'B1-28A']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B1",
+          "source_label": "B1-28A",
+          "x": "530",
+          "y": "734",
+          "containing_regions": "B1-region-004",
+          "primary_region": "B1-region-004",
+          "source_path": "Vincom đồng khởi/map/tang-b1.webp",
+          "source_sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-lyn",
+      "mall": "vincom-dong-khoi",
+      "name": "Lyn",
+      "floor": "B1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-lyn]",
+        "https://vincom.com.vn/store/lyn-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B1-24 anchor lies in B1-region-004, also containing ['B1-24', 'B1-25', 'B1-26', 'B1-27', 'B1-28A']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B1",
+          "source_label": "B1-24",
+          "x": "521",
+          "y": "615",
+          "containing_regions": "B1-region-004",
+          "primary_region": "B1-region-004",
+          "source_path": "Vincom đồng khởi/map/tang-b1.webp",
+          "source_sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-pedro",
+      "mall": "vincom-dong-khoi",
+      "name": "Pedro",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-pedro]",
+        "https://vincom.com.vn/store/pedro-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['B1-26-27'] on the saved B1 source image or obtain a newer labeled floor plan"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-pucini",
+      "mall": "vincom-dong-khoi",
+      "name": "Pucini",
+      "floor": "B2",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-pucini]",
+        "https://vincom.com.vn/store/pucini-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B2-50 anchor lies in B2-region-028, also containing ['B2-52', 'B2-51', 'B2-50', 'B2-49']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B2",
+          "source_label": "B2-50",
+          "x": "515",
+          "y": "680",
+          "containing_regions": "B2-region-028",
+          "primary_region": "B2-region-028",
+          "source_path": "Vincom đồng khởi/map/tang-b2.webp",
+          "source_sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-samsonite",
+      "mall": "vincom-dong-khoi",
+      "name": "Samsonite",
+      "floor": "B2",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-samsonite]",
+        "https://vincom.com.vn/store/samsonite-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://samsonite-vietnam.com/pages/he-thong-cua-hang",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B2-55 anchor lies in B2-region-026, also containing ['B2-56', 'B2-55']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "B2",
+          "source_label": "B2-55",
+          "x": "430",
+          "y": "850",
+          "containing_regions": "B2-region-026",
+          "primary_region": "B2-region-026",
+          "source_path": "Vincom đồng khởi/map/tang-b2.webp",
+          "source_sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-longbeachpearl",
+      "mall": "vincom-dong-khoi",
+      "name": "Long Beach Pearl",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-longbeachpearl]",
+        "https://vincom.com.vn/store/long-beach-pearl-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['B1-C60'] on the saved B1 source image or obtain a newer labeled floor plan"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-lukfookjewellery",
+      "mall": "vincom-dong-khoi",
+      "name": "LukFook Jewellery",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-lukfookjewellery]",
+        "https://vincom.com.vn/store/lukfook-jewelry-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['B1-17AB'] on the saved B1 source image or obtain a newer labeled floor plan"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-mujoshtedbaker",
+      "mall": "vincom-dong-khoi",
+      "name": "Mujosh & Ted Baker",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-mujoshtedbaker]",
+        "https://vincom.com.vn/store/mujosh-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['B1-07, B1-09'] on the saved B1 source image or obtain a newer labeled floor plan",
+        "Source conflict: {\"kind\": \"combined-preview-identity\", \"official\": \"Mujosh only; Ted Baker association not established\"}"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-matviet",
+      "mall": "vincom-dong-khoi",
+      "name": "Mắt Việt",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-matviet]",
+        "https://vincom.com.vn/store/mat-viet-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['B1-18-19'] on the saved B1 source image or obtain a newer labeled floor plan"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-owndays",
+      "mall": "vincom-dong-khoi",
+      "name": "Owndays",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-owndays]",
+        "https://vincom.com.vn/store/owndays-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['B1-50'] on the saved B1 source image or obtain a newer labeled floor plan"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-pandora",
+      "mall": "vincom-dong-khoi",
+      "name": "Pandora",
+      "floor": "M",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-pandora]",
+        "https://vincom.com.vn/store/pandora-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "M-04B1 anchor lies in M-region-003, also containing ['M-04-05', 'M-04B1', 'M-04B2', 'M-02B-03', 'M-01-02A']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "M",
+          "source_label": "M-04B1",
+          "x": "487",
+          "y": "735",
+          "containing_regions": "M-region-003",
+          "primary_region": "M-region-003",
+          "source_path": "Vincom đồng khởi/map/tang-m.webp",
+          "source_sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-pnj",
+      "mall": "vincom-dong-khoi",
+      "name": "PNJ",
+      "floor": "B2",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-pnj]",
+        "https://vincom.com.vn/store/pnj-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['B2-17I, B2-17J'] on the saved B2 source image or obtain a newer labeled floor plan",
+        "Source conflict: {\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"B2\", \"official\": \"Tầng hầm B1\"}"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-swarovski",
+      "mall": "vincom-dong-khoi",
+      "name": "Swarovski",
+      "floor": "M",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-swarovski]",
+        "https://vincom.com.vn/store/swarovski-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://www.acfc.com.vn/he-thong-cua-hang",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "M-04B2 anchor lies in M-region-003, also containing ['M-04-05', 'M-04B1', 'M-04B2', 'M-02B-03', 'M-01-02A']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "M",
+          "source_label": "M-04B2",
+          "x": "526",
+          "y": "735",
+          "containing_regions": "M-region-003",
+          "primary_region": "M-region-003",
+          "source_path": "Vincom đồng khởi/map/tang-m.webp",
+          "source_sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-cara",
+      "mall": "vincom-dong-khoi",
+      "name": "Cara",
+      "floor": "B2",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-cara]",
+        "https://vincom.com.vn/store/cara-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B2-17K anchor lies in B2-region-027, also containing ['B2-18', 'B2-17J', 'B2-17K', 'B2-17L']; source-supported unit partition is missing",
+        "Source conflict: {\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"B2\", \"official\": \"Tầng hầm B1\"}"
+      ],
+      "anchors": [
+        {
+          "floor": "B2",
+          "source_label": "B2-17K",
+          "x": "410",
+          "y": "290",
+          "containing_regions": "B2-region-027",
+          "primary_region": "B2-region-027",
+          "source_path": "Vincom đồng khởi/map/tang-b2.webp",
+          "source_sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-primaart",
+      "mall": "vincom-dong-khoi",
+      "name": "Prima Art",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-primaart]",
+        "https://vincom.com.vn/store/prima-art-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B1; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-sehaaccessories",
+      "mall": "vincom-dong-khoi",
+      "name": "Seha Accessories",
+      "floor": "B2",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-sehaaccessories]",
+        "https://vincom.com.vn/store/seha-accessories-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B2; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-thebodyshop",
+      "mall": "vincom-dong-khoi",
+      "name": "The Body Shop",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-thebodyshop]",
+        "https://vincom.com.vn/store/the-body-shop-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B1; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-tgnhthegioinuochoa",
+      "mall": "vincom-dong-khoi",
+      "name": "TGNH – Thế Giới Nước Hoa",
+      "floor": "L1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-tgnhthegioinuochoa]",
+        "https://vincom.com.vn/store/the-gioi-nuoc-hoa-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L1-49 anchor lies in L1-region-005, also containing ['L1-49', 'L1-50']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "L1",
+          "source_label": "L1-49",
+          "x": "372",
+          "y": "642",
+          "containing_regions": "L1-region-005",
+          "primary_region": "L1-region-005",
+          "source_path": "Vincom đồng khởi/map/tang-l1.webp",
+          "source_sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-bathbodyworks",
+      "mall": "vincom-dong-khoi",
+      "name": "Bath & Body Works",
+      "floor": "L1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-bathbodyworks]",
+        "https://vincom.com.vn/store/bath-body-works-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on L1; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-dior",
+      "mall": "vincom-dong-khoi",
+      "name": "Dior",
+      "floor": "L1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-dior]",
+        "https://vincom.com.vn/store/christian-dior-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L1-51 anchor lies in L1-region-004, also containing ['L1-56', 'L1-54', 'L1-53', 'L1-52A', 'L1-52B', 'L1-51']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "L1",
+          "source_label": "L1-51",
+          "x": "275",
+          "y": "623",
+          "containing_regions": "L1-region-004",
+          "primary_region": "L1-region-004",
+          "source_path": "Vincom đồng khởi/map/tang-l1.webp",
+          "source_sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-clarins",
+      "mall": "vincom-dong-khoi",
+      "name": "Clarins",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-clarins]",
+        "https://vincom.com.vn/store/clarins-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B1; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-cledepeaubeaute",
+      "mall": "vincom-dong-khoi",
+      "name": "Clé de Peau Beauté",
+      "floor": "L1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-cledepeaubeaute]",
+        "https://vincom.com.vn/store/cle-de-peau-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L1-06 anchor lies in L1-region-002, also containing ['name:ZARA', 'name:Massimo Duti', 'L1-06', 'L1-05', 'L1-04']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "L1",
+          "source_label": "L1-06",
+          "x": "204",
+          "y": "709",
+          "containing_regions": "L1-region-002",
+          "primary_region": "L1-region-002",
+          "source_path": "Vincom đồng khởi/map/tang-l1.webp",
+          "source_sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-escentricsignature",
+      "mall": "vincom-dong-khoi",
+      "name": "Escentric Signature",
+      "floor": "L1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-escentricsignature]",
+        "https://vincom.com.vn/store/escentric-signature-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L1-46A anchor lies in L1-region-003, also containing ['L1-45', 'L1-46A', 'L1-46B', 'L1-46C', 'L1-47A', 'L1-47B', 'L1-48']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "L1",
+          "source_label": "L1-46A",
+          "x": "520",
+          "y": "500",
+          "containing_regions": "L1-region-003",
+          "primary_region": "L1-region-003",
+          "source_path": "Vincom đồng khởi/map/tang-l1.webp",
+          "source_sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-esteelauder",
+      "mall": "vincom-dong-khoi",
+      "name": "Estée Lauder",
+      "floor": "L1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-esteelauder]",
+        "https://vincom.com.vn/store/estee-lauder-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L1-52A anchor lies in L1-region-004, also containing ['L1-56', 'L1-54', 'L1-53', 'L1-52A', 'L1-52B', 'L1-51']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "L1",
+          "source_label": "L1-52A",
+          "x": "275",
+          "y": "552",
+          "containing_regions": "L1-region-004",
+          "primary_region": "L1-region-004",
+          "source_path": "Vincom đồng khởi/map/tang-l1.webp",
+          "source_sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-himalaya",
+      "mall": "vincom-dong-khoi",
+      "name": "Himalaya",
+      "floor": "B2",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-himalaya]",
+        "https://vincom.com.vn/store/himalaya-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B2; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-kiehls",
+      "mall": "vincom-dong-khoi",
+      "name": "Kiehl's",
+      "floor": "L1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-kiehls]",
+        "https://vincom.com.vn/store/kiehls-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L1-05 anchor lies in L1-region-002, also containing ['name:ZARA', 'name:Massimo Duti', 'L1-06', 'L1-05', 'L1-04']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "L1",
+          "source_label": "L1-05",
+          "x": "260",
+          "y": "709",
+          "containing_regions": "L1-region-002",
+          "primary_region": "L1-region-002",
+          "source_path": "Vincom đồng khởi/map/tang-l1.webp",
+          "source_sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-makeupforever",
+      "mall": "vincom-dong-khoi",
+      "name": "Make Up For Ever",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-makeupforever]",
+        "https://vincom.com.vn/store/make-up-forever-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B1; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-nars",
+      "mall": "vincom-dong-khoi",
+      "name": "NARS",
+      "floor": "L1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-nars]",
+        "https://vincom.com.vn/store/nars-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L1-54 anchor lies in L1-region-004, also containing ['L1-56', 'L1-54', 'L1-53', 'L1-52A', 'L1-52B', 'L1-51']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "L1",
+          "source_label": "L1-54",
+          "x": "275",
+          "y": "457",
+          "containing_regions": "L1-region-004",
+          "primary_region": "L1-region-004",
+          "source_path": "Vincom đồng khởi/map/tang-l1.webp",
+          "source_sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-shiseido",
+      "mall": "vincom-dong-khoi",
+      "name": "Shiseido",
+      "floor": "L1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-shiseido]",
+        "https://vincom.com.vn/store/shiseido-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L1-53 anchor lies in L1-region-004, also containing ['L1-56', 'L1-54', 'L1-53', 'L1-52A', 'L1-52B', 'L1-51']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "L1",
+          "source_label": "L1-53",
+          "x": "275",
+          "y": "509",
+          "containing_regions": "L1-region-004",
+          "primary_region": "L1-region-004",
+          "source_path": "Vincom đồng khởi/map/tang-l1.webp",
+          "source_sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-sulwhasoo",
+      "mall": "vincom-dong-khoi",
+      "name": "Sulwhasoo",
+      "floor": "L1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-sulwhasoo]",
+        "https://vincom.com.vn/store/sulwhasoo-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L1-47B anchor lies in L1-region-003, also containing ['L1-45', 'L1-46A', 'L1-46B', 'L1-46C', 'L1-47A', 'L1-47B', 'L1-48']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "L1",
+          "source_label": "L1-47B",
+          "x": "515",
+          "y": "648",
+          "containing_regions": "L1-region-003",
+          "primary_region": "L1-region-003",
+          "source_path": "Vincom đồng khởi/map/tang-l1.webp",
+          "source_sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-yvessaintlaurent",
+      "mall": "vincom-dong-khoi",
+      "name": "Yves Saint Laurent",
+      "floor": "L1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-yvessaintlaurent]",
+        "https://vincom.com.vn/store/yves-saint-laurent-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on L1; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-bobbibrown",
+      "mall": "vincom-dong-khoi",
+      "name": "Bobbi Brown",
+      "floor": "L1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-bobbibrown]",
+        "https://vincom.com.vn/store/bobbi-brown-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L1-56 anchor lies in L1-region-004, also containing ['L1-56', 'L1-54', 'L1-53', 'L1-52A', 'L1-52B', 'L1-51']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "L1",
+          "source_label": "L1-56",
+          "x": "180",
+          "y": "446",
+          "containing_regions": "L1-region-004",
+          "primary_region": "L1-region-004",
+          "source_path": "Vincom đồng khởi/map/tang-l1.webp",
+          "source_sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-innisfree",
+      "mall": "vincom-dong-khoi",
+      "name": "Innisfree",
+      "floor": "L1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-innisfree]",
+        "https://vincom.com.vn/store/innisfree-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L1-45 anchor lies in L1-region-003, also containing ['L1-45', 'L1-46A', 'L1-46B', 'L1-46C', 'L1-47A', 'L1-47B', 'L1-48']; source-supported unit partition is missing",
+        "Source conflict: {\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"L1\", \"official\": \"Tầng hầm B1\"}"
+      ],
+      "anchors": [
+        {
+          "floor": "L1",
+          "source_label": "L1-45",
+          "x": "520",
+          "y": "459",
+          "containing_regions": "L1-region-003",
+          "primary_region": "L1-region-003",
+          "source_path": "Vincom đồng khởi/map/tang-l1.webp",
+          "source_sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-jomalone",
+      "mall": "vincom-dong-khoi",
+      "name": "Jo Malone",
+      "floor": "L1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-jomalone]",
+        "https://vincom.com.vn/store/jo-malone-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on L1; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-lancome",
+      "mall": "vincom-dong-khoi",
+      "name": "Lancôme",
+      "floor": "L1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-lancome]",
+        "https://vincom.com.vn/store/lancome-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L1-04 anchor lies in L1-region-002, also containing ['name:ZARA', 'name:Massimo Duti', 'L1-06', 'L1-05', 'L1-04']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "L1",
+          "source_label": "L1-04",
+          "x": "335",
+          "y": "707",
+          "containing_regions": "L1-region-002",
+          "primary_region": "L1-region-002",
+          "source_path": "Vincom đồng khởi/map/tang-l1.webp",
+          "source_sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-lush",
+      "mall": "vincom-dong-khoi",
+      "name": "Lush",
+      "floor": "B1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-lush]",
+        "https://vincom.com.vn/store/lush-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "https://www.maisononline.vn/blogs/news/maison-loyalty-quet-payme-qr-tich-diem-me-ly",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "B1-02 anchor lies in B1-region-005, also containing ['B1-05', 'B1-03-04', 'B1-02', 'B1-01']; source-supported unit partition is missing",
+        "Direct/current accessible first-party confirmation of historical or access-limited unit claim"
+      ],
+      "anchors": [
+        {
+          "floor": "B1",
+          "source_label": "B1-02",
+          "x": "340",
+          "y": "685",
+          "containing_regions": "B1-region-005",
+          "primary_region": "B1-region-005",
+          "source_path": "Vincom đồng khởi/map/tang-b1.webp",
+          "source_sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-passifloresbeauty",
+      "mall": "vincom-dong-khoi",
+      "name": "Passiflores Beauty",
+      "floor": "L1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-passifloresbeauty]",
+        "https://vincom.com.vn/store/passiflores-beauty-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['L1-46B+C'] on the saved L1 source image or obtain a newer labeled floor plan"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-viinriicnicheperfume",
+      "mall": "vincom-dong-khoi",
+      "name": "Viin Riic Niche Perfume",
+      "floor": "L1",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-viinriicnicheperfume]",
+        "https://vincom.com.vn/store/viin-riic-niche-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L1-48 anchor lies in L1-region-003, also containing ['L1-45', 'L1-46A', 'L1-46B', 'L1-46C', 'L1-47A', 'L1-47B', 'L1-48']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "L1",
+          "source_label": "L1-48",
+          "x": "604",
+          "y": "648",
+          "containing_regions": "L1-region-003",
+          "primary_region": "L1-region-003",
+          "source_path": "Vincom đồng khởi/map/tang-l1.webp",
+          "source_sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-honeecoffee",
+      "mall": "vincom-dong-khoi",
+      "name": "Honee Coffee",
+      "floor": "B2",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-honeecoffee]",
+        "https://vincom.com.vn/store/honee-coffee-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B2; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-dyson",
+      "mall": "vincom-dong-khoi",
+      "name": "Dyson",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-dyson]",
+        "https://vincom.com.vn/store/dyson-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Locate the evidenced full code(s) ['B1-57-58'] on the saved B1 source image or obtain a newer labeled floor plan"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-coway",
+      "mall": "vincom-dong-khoi",
+      "name": "Coway",
+      "floor": "L3",
+      "group": "merged-contour-needs-individual-partition",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-coway]",
+        "https://vincom.com.vn/store/coway-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "L3-K1 anchor lies in L3-region-004, also containing ['L3-K1', 'L3-K2']; source-supported unit partition is missing"
+      ],
+      "anchors": [
+        {
+          "floor": "L3",
+          "source_label": "L3-K1",
+          "x": "400",
+          "y": "622",
+          "containing_regions": "L3-region-004",
+          "primary_region": "L3-region-004",
+          "source_path": "Vincom đồng khởi/map/tang-l3.webp",
+          "source_sha256": "629d9860433bacc381daede046513190e2d6877bf88f99907eafb3f0794bbc70"
+        }
+      ],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-facewashfox",
+      "mall": "vincom-dong-khoi",
+      "name": "Face Wash Fox",
+      "floor": "B2",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-facewashfox]",
+        "https://vincom.com.vn/store/face-wash-fox-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B2; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "vincom-prototype-fixifoot",
+      "mall": "vincom-dong-khoi",
+      "name": "Fixifoot",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=vincom-prototype-fixifoot]",
+        "https://vincom.com.vn/store/fixi-foot-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source-evidence/vincom-anchor-results.csv",
+        "../completion-packet-2026-10-17/vincom-research/discoveries.json"
+      ],
+      "missingEvidence": [
+        "Current branch-specific unit/area on B1; available owner/official evidence supplies no unit code"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-thehourglass",
+      "mall": "saigon-centre",
+      "name": "The Hour Glass",
+      "floor": "L1",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-2d5b055d-036d-48b0-98e5-144bf937bc96-l1",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-thehourglass]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/the-hour-glass/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-tudor",
+      "mall": "saigon-centre",
+      "name": "TUDOR",
+      "floor": "L1",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-56f17ee9-691a-4350-b735-87f9295dbcda-l1",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-tudor]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/tudor/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-cartier",
+      "mall": "saigon-centre",
+      "name": "CARTIER",
+      "floor": "L1",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-223d8afd-7869-4df0-8cf5-e7124972dd51-l1",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-cartier]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/cartier/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-grandseiko",
+      "mall": "saigon-centre",
+      "name": "GRAND SEIKO",
+      "floor": "L1",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-339a44df-11eb-4156-aebb-1cd50a50ac85-l1",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-grandseiko]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/grand-seiko/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-zenith",
+      "mall": "saigon-centre",
+      "name": "ZENITH",
+      "floor": "L1",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-f659bf1e-c916-4a12-9916-039b6f25c83a-l1",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-zenith]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/zenith/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-hublot",
+      "mall": "saigon-centre",
+      "name": "HUBLOT",
+      "floor": "L1",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-975fe646-a584-45d9-bfe1-ec35b7bf4780-l1",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-hublot]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/hublot/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-labellab",
+      "mall": "saigon-centre",
+      "name": "Label Lab",
+      "floor": "L2",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-b5d11a38-0ef0-4a3e-bb07-3610c8cc7422-l2",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-labellab]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/label-lab/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "Resolve duplicate printed unit claim against distinct official UUID polygons",
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-lachcalachcach",
+      "mall": "saigon-centre",
+      "name": "Lách Ca Lách Cách",
+      "floor": "L5",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-134e770a-4f93-422f-86eb-6365b3bea164-l5",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-lachcalachcach]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/lach-ca-lach-cach/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-sundubu",
+      "mall": "saigon-centre",
+      "name": "Sundubu",
+      "floor": "L5",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-6bddee96-0afd-4dde-b6be-1b54505bf21b-l5",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-sundubu]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/sundubu/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-asiancorner",
+      "mall": "saigon-centre",
+      "name": "Asian Corner",
+      "floor": "L5",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-84be54db-4a4a-4517-b085-060d83a970e5-l5",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-asiancorner]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/asian-corner/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-gogihouse",
+      "mall": "saigon-centre",
+      "name": "GoGi House",
+      "floor": "L5",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-b353159c-a7fc-4335-a4af-df15ffc07995-l5",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-gogihouse]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/gogi-house/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-llaollao",
+      "mall": "saigon-centre",
+      "name": "llaollao",
+      "floor": "B2",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-4bfd2211-b6bd-43a7-96c7-0f3af8df5f90-b2",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-llaollao]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/llaollao/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "Resolve duplicate printed unit claim against distinct official UUID polygons",
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-the350f",
+      "mall": "saigon-centre",
+      "name": "THE 350F",
+      "floor": "L5",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-1f06bdf8-3060-4553-baa9-5cc96ac937cf-l5",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-the350f]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/the-350f/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-irvins",
+      "mall": "saigon-centre",
+      "name": "Irvins",
+      "floor": "B2",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-bc38b282-da92-4115-a0fb-5662ce8eca51-b2",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-irvins]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/irvins/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "Resolve duplicate printed unit claim against distinct official UUID polygons",
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-manwahtaiwanesehotpot",
+      "mall": "saigon-centre",
+      "name": "Manwah - Taiwanese Hot Pot",
+      "floor": "L5",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-5164070a-bcee-431e-a775-8bec1e3bc196-l5",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-manwahtaiwanesehotpot]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/manwah-taiwanese-hot-pot/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-kichikichi",
+      "mall": "saigon-centre",
+      "name": "Kichi - Kichi",
+      "floor": "L5",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-aa000775-3136-4106-ac0b-1b4556902e56-l5",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-kichikichi]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/kichi-kichi/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-oedoalley",
+      "mall": "saigon-centre",
+      "name": "Oedo Alley",
+      "floor": "L5",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-b32ef3d1-41d7-42fb-97ea-7343d47863a1-l5",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-oedoalley]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/oedo-alley-japanese-food-village/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-asanoha",
+      "mall": "saigon-centre",
+      "name": "Asanoha",
+      "floor": "L5",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-50f7a5b4-af54-415c-8660-28999f7c922e-l5",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-asanoha]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/asanoha-modern-japanese-hotpot/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-botejyuokonomiyaki",
+      "mall": "saigon-centre",
+      "name": "Botejyu Okonomiyaki",
+      "floor": "L5",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-e650c3f3-e556-4970-8f7d-c745ff885d13-l5",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-botejyuokonomiyaki]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/botejyu-okonomiyaki/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-ramenichibanken",
+      "mall": "saigon-centre",
+      "name": "Ramen Ichibanken",
+      "floor": "L5",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-df8f1d81-229e-4eaa-8894-ee6df702eb5f-l5",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-ramenichibanken]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/ramen-ichibanken/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-longjing",
+      "mall": "saigon-centre",
+      "name": "LONGJING",
+      "floor": "L5",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-bc261c84-75d6-4637-8060-d83455db50eb-l5",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-longjing]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/longjing-restaurant/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-sunniesstudios",
+      "mall": "saigon-centre",
+      "name": "Sunnies Studios",
+      "floor": "L3",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-2d3297c8-2149-4846-8e1a-32282dd23c6d-l3",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-sunniesstudios]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/sunnies-studios/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-pinktree",
+      "mall": "saigon-centre",
+      "name": "Pinktree",
+      "floor": "L4",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-3490d18e-31c1-4ebb-acca-62835b5b1100-l4",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-pinktree]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/pinktree/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-memorylove",
+      "mall": "saigon-centre",
+      "name": "Memory & Love",
+      "floor": "L4",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-fdb888e0-ab5a-4013-94f8-d69e49afd5a5-l4",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-memorylove]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/memory-love/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-moschino",
+      "mall": "saigon-centre",
+      "name": "Moschino",
+      "floor": "L2",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-6190de79-9b80-4c88-af66-40e5181fdbe2-l2",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-moschino]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/moschino/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "Resolve duplicate printed unit claim against distinct official UUID polygons",
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-drmartens",
+      "mall": "saigon-centre",
+      "name": "Dr Martens",
+      "floor": "L3",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-75edf9c4-5635-4abc-8294-6e2204ec3b28-l3",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-drmartens]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/dr-martens/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-crocs",
+      "mall": "saigon-centre",
+      "name": "Crocs",
+      "floor": "L3",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-ab7e4a3c-98f0-402c-a89d-c12168435488-l3",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-crocs]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/crocs/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-matinkimvietnam",
+      "mall": "saigon-centre",
+      "name": "Matin Kim Vietnam",
+      "floor": "L3",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-matinkimvietnam]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/matin-kim/"
+      ],
+      "missingEvidence": [
+        "Official Matin Kim store polygon (mapData is null)",
+        "Resolve Matin Kim/Miana competing L3-12 claims and source-reported Opening Soon before occupancy or precise mapping"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-harnn",
+      "mall": "saigon-centre",
+      "name": "HARNN",
+      "floor": "L3",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-b9ed1426-ab5e-48d6-984d-baebd8f4e17c-l3",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-harnn]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/harnn/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-thebodyshop",
+      "mall": "saigon-centre",
+      "name": "The Body Shop",
+      "floor": "L2",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-5a2ebe52-ac2e-4590-8cdf-e91a24d8c262-l2",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-thebodyshop]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/the-body-shop-vietnam/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-bathbodyworks",
+      "mall": "saigon-centre",
+      "name": "Bath & Body Works",
+      "floor": "L3",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-192e961f-fdf6-4ea8-aba3-e48fe5abd4a2-l3",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-bathbodyworks]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/bath-body-works/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-sjc",
+      "mall": "saigon-centre",
+      "name": "SJC",
+      "floor": "L2",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-cb4afac6-9318-4983-baf5-3c69e41edd79-l2",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-sjc]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/sjc/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-tierradiamondjewelry",
+      "mall": "saigon-centre",
+      "name": "TIERRA DIAMOND JEWELRY",
+      "floor": "L2",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-8aea15f9-deb9-47a1-9a6e-68f8e32e3161-l2",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-tierradiamondjewelry]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/tierra-diamond-jewelry/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-takashimaya",
+      "mall": "saigon-centre",
+      "name": "Takashimaya",
+      "floor": "B1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-takashimaya]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya/",
+        "../completion-packet-2026-10-17/saigon-research/official-storeInfoTaka-en.json",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya"
+      ],
+      "missingEvidence": [
+        "Official unified Takashimaya department-store footprint on B1; store mapData is null",
+        "Counter polygons do not establish the complete department-store boundary; do not union counters into an invented footprint"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-takashimaya",
+      "mall": "saigon-centre",
+      "name": "Takashimaya",
+      "floor": "B2",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-takashimaya]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya/",
+        "../completion-packet-2026-10-17/saigon-research/official-storeInfoTaka-en.json",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya"
+      ],
+      "missingEvidence": [
+        "Official unified Takashimaya department-store footprint on B2; store mapData is null",
+        "Counter polygons do not establish the complete department-store boundary; do not union counters into an invented footprint"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-takashimaya",
+      "mall": "saigon-centre",
+      "name": "Takashimaya",
+      "floor": "L1",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-takashimaya]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya/",
+        "../completion-packet-2026-10-17/saigon-research/official-storeInfoTaka-en.json",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya"
+      ],
+      "missingEvidence": [
+        "Official unified Takashimaya department-store footprint on L1; store mapData is null",
+        "Counter polygons do not establish the complete department-store boundary; do not union counters into an invented footprint"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-takashimaya",
+      "mall": "saigon-centre",
+      "name": "Takashimaya",
+      "floor": "L2",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-takashimaya]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya/",
+        "../completion-packet-2026-10-17/saigon-research/official-storeInfoTaka-en.json",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya"
+      ],
+      "missingEvidence": [
+        "Official unified Takashimaya department-store footprint on L2; store mapData is null",
+        "Counter polygons do not establish the complete department-store boundary; do not union counters into an invented footprint"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-takashimaya",
+      "mall": "saigon-centre",
+      "name": "Takashimaya",
+      "floor": "L3",
+      "group": "needs-source-or-boundary-evidence",
+      "proposedRegion": null,
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-takashimaya]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya/",
+        "../completion-packet-2026-10-17/saigon-research/official-storeInfoTaka-en.json",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya"
+      ],
+      "missingEvidence": [
+        "Official unified Takashimaya department-store footprint on L3; store mapData is null",
+        "Counter polygons do not establish the complete department-store boundary; do not union counters into an invented footprint"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-ginsenghouse",
+      "mall": "saigon-centre",
+      "name": "GINSENG HOUSE",
+      "floor": "L5",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-976df14f-55ce-40e4-9d86-b100890b7339-l5",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-ginsenghouse]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/ginseng-house/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-atzorganicyankeecandle",
+      "mall": "saigon-centre",
+      "name": "ATZ Organic & Yankee Candle",
+      "floor": "L5",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-52f26e35-0836-4b23-a1b6-7460e360156c-l5",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-atzorganicyankeecandle]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/atz-organic-yankee-candle/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-himalaya",
+      "mall": "saigon-centre",
+      "name": "HIMALAYA",
+      "floor": "B1",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-ab1e2ae5-c5d3-4086-8f79-e2df4de7319a-b1",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-himalaya]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/himalaya/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-fujifilm",
+      "mall": "saigon-centre",
+      "name": "Fujifilm",
+      "floor": "L3",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-d39b1e0e-35f8-43b5-b8a4-dc5387b4cf48-l3",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-fujifilm]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/fujifilm/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-nihontoki",
+      "mall": "saigon-centre",
+      "name": "NIHON TOKI",
+      "floor": "B2",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-3a5595c0-e52c-4e30-9097-866c191caa35-b2",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-nihontoki]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/nihon-toki/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-currencyexchangesimcard",
+      "mall": "saigon-centre",
+      "name": "CURRENCY EXCHANGE & SIMCARD",
+      "floor": "B2",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-c9695334-c2d8-45a3-b318-24f84f1b6932-b2",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-currencyexchangesimcard]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/currency-exchange-simcard/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-thann",
+      "mall": "saigon-centre",
+      "name": "Thann",
+      "floor": "L3",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-d2f46418-5ffb-446a-8d80-df8b548a0013-l3",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-thann]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/thann/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-photoobjet",
+      "mall": "saigon-centre",
+      "name": "Photo Objet",
+      "floor": "L5",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-bccb95ef-4705-4bbc-a9ac-9e7fcb680760-l5",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-photoobjet]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/photo-objet/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-stanley1913",
+      "mall": "saigon-centre",
+      "name": "Stanley 1913",
+      "floor": "L3",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-0aebc2ae-b376-46ec-8ee8-96dc560dd1c2-l3",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-stanley1913]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/stanley-1913/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    },
+    {
+      "id": "saigon-prototype-exnihilo",
+      "mall": "saigon-centre",
+      "name": "EX NIHILO",
+      "floor": "L2",
+      "group": "accepted-r4-shape-separate-identity-review",
+      "proposedRegion": "review-20261018-official-0baf8468-1d45-46f2-b7df-929463361789-l2",
+      "sources": [
+        "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-exnihilo]",
+        "https://shopping.saigoncentre.com.vn/en/store-directory/ex-nihilo/",
+        "../completion-packet-2026-10-17/saigon-source-map.json",
+        "../../../data/malls/saigon-centre/floor-geometry.json",
+        "registration.json",
+        "source-evidence/regions.csv"
+      ],
+      "missingEvidence": [
+        "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+        "Owner mapping approval; current occupancy is not established by geometric registration"
+      ],
+      "anchors": [],
+      "promoteAdditionalExactAssociation": false
+    }
+  ]
+}

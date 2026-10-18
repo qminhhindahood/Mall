@@ -1,0 +1,25 @@
+# Complete content preparation for the finishing pass
+
+Revision **finish-review-2026-10-18-r1**, prepared by Codex (AI) on 18 October 2026. This is a consolidated private decision package, not a production directory import. No source code, asset, existing data ledger, approval, public snapshot or site branch changes.
+
+[Open the complete bilingual reader](review.html), [short decision sheet](DECISIONS.md), [371-row editable CSV](roster-review.csv), [machine-readable proposals](roster-proposals.json), [six sourced Highlights nominations](highlights.json), and [mapping audit](mapping-audit.json).
+
+Every expanded candidate identity has a concrete treatment: 203 prior broad summaries, 27 prior neutral proposals, 17 returned owner-informed rewrites, 121 new minimal floor-listing proposals, and three unchanged explicit null-copy holds. Thus **368 complete bilingual proposals / three preserved null holds**. The 121 minimal listings intentionally remove unsupported product/quality/currentness claims; they do not pretend to finish rich introductions. All source references, known issues and copy provenance remain per record. Existing Meat & Meet acceptance is preserved only as prior scoped metadata. New overall/language/publication approvals remain false.
+
+The expanded roster covers **165 Saigon Centre / 206 Vincom identities**, whereas the running private preview covers 163/143. These are review candidates, not 371 newly verified open stores. The reader gives a practical batch decision instead of requiring the owner to assemble multiple historical revisions.
+
+## Mapping result
+
+All 170 original gap occurrences are accounted for: 42 existing accepted r4 shape proposals, 70 gaps where a source unit anchor lies in a contour containing other distinct units, and 58 needing source or boundary evidence. **Zero new exact associations are safe to promote from this audit.** A unit code, source label anchor, or mall-profile link cannot establish an individual boundary inside a merged contour. The accepted no-photo/no-marker policy allows basic floor/list/detail access to remain useful. Existing r4 shared-parent and L5-05 display holds retain precedence over historical shape acceptance. No floor inferred from an obsolete map replaces the latest owner floor decision.
+
+## Fresh first-party checks for nominations
+
+On 18 October the browser research tool opened the current [BreadTalk profile](https://shopping.saigoncentre.com.vn/vi/thuong-hieu/breadtalk) (B2-14, bread/cake range), [Dim Tu Tac profile](https://shopping.saigoncentre.com.vn/vi/thuong-hieu/dim-tu-tac) (L5-14, Cantonese/dim sum), and [UNIQLO profile](https://shopping.saigoncentre.com.vn/en/store-directory/uniqlo) (L4, men's/women's/children's clothing). [Dim Tu Tac's own locations](https://dimtutac.com/Location) independently names floor 5 in the search result. Older 2022/2024 mall promotions call it L6; those historical campaigns do not override the current directory.
+
+[Vincom's Haidilao profile](https://vincom.com.vn/store/haidilao-vincom-center-dong-khoi) supports its branch and Chinese-hot-pot concept; [ZARA's profile](https://vincom.com.vn/store/zara-vincom-center-dong-khoi) supports its branch and broad apparel/accessory range. [The current mall introduction](https://vincom.com.vn/vincom-center-dong-khoi/gioi-thieu) names Starbucks and also exposes the incompatible aggregate 150-shop/13-sector scope. The [Starbucks locator](https://starbucks.vn/store-locator/) opens but its dynamic branch list is absent from extracted HTML. Thus Vincom nomination floors explicitly remain the existing owner-confirmed roster claims, not newly measured location facts. Search-only CGV/Dookki leads were not selected after direct browser extraction errors. Sources supply broad descriptive facts; nomination choices and copy are AI proposals. No hours/prices/free services, stock, awards or firsthand quality claims are copied into the cards.
+
+## Validation and reproduction
+
+Run `python -X utf8 docs/content-preparation/finish-review-2026-10-18/prepare.py` from the application checkout. [Input hashes](input-hashes.json) bind all six inherited evidence inputs. Five structural checks pass: complete unique 371-ID set; three unchanged null holds; 368 full bilingual pairs; false new approval metadata; complete 170-occurrence mapping audit without promotions. Generator also asserts six Highlights refer to real roster IDs and have false approval flags. No application build or runtime test is needed or claimed for this documentation-only packet. Fresh source facts were reviewed through the web tool; original source HTML bytes are not archived here, so these links are not immutable source captures.
+
+The remaining owner decisions are exactly those in [DECISIONS.md](DECISIONS.md). Interaction stability, rendering/runtime/hosting and release preparation belong to the parallel implementation/release streams. No full-project completion, deployment or public approval is inferred.
