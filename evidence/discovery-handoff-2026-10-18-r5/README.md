@@ -17,3 +17,5 @@ before.json, shared-saigon-wide.json and shared-unflushed-attempt.json preserve 
 ## Boundaries
 
 This supersedes r4's Discovery handoff timing only. Existing disputed-location holds, Highlights UI and pending real recommendation nominations remain. Source plans, geometry, exterior assets, public directory snapshots and content approvals are unchanged. Six built-output hashes and tested source hashes are in provenance.json. Local branch propagation is recorded in propagation.json. No push or deployment.
+
+Delivered source/evidence commit: **76f40e3**. Exact one-file propagation: Vincom **b8e00821fc8fd15dc48e35e26c7ab0ca9fcc4afb**, Saigon/Takashimaya **b3812c4f86bdaddc622fbcaa00abfb9d62acb751**. Both site checkouts were clean before propagation. Root issue/index/specification notes updated locally without committing unrelated root work.

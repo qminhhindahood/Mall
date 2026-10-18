@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-18T09:57:23.589Z",
+  "sharedCommit": "76f40e3b8aca7eaa02c8f545b5e1b43f552bdf90",
+  "scope": "Separate hidden Discovery composition from map reveal; assets and content unchanged",
+  "sites": [
+    {
+      "worktree": "D:\\Midterm\\.scratch\\mall-branch-bootstrap",
+      "branch": "vincom-dong-khoi",
+      "commit": "b8e00821fc8fd15dc48e35e26c7ab0ca9fcc4afb",
+      "verifiedSharedFiles": 1,
+      "sha256Match": true,
+      "files": [
+        {
+          "path": "src/components/Explorer.tsx",
+          "sha256": "4dd48fe702a2dff8f8b5f2ee5490674142f52e2c3465bd86fb4cbb66fded273e"
+        }
+      ]
+    },
+    {
+      "worktree": "D:\\Midterm\\.scratch\\issue-0005-takashimaya",
+      "branch": "takashimaya",
+      "commit": "b3812c4f86bdaddc622fbcaa00abfb9d62acb751",
+      "verifiedSharedFiles": 1,
+      "sha256Match": true,
+      "files": [
+        {
+          "path": "src/components/Explorer.tsx",
+          "sha256": "4dd48fe702a2dff8f8b5f2ee5490674142f52e2c3465bd86fb4cbb66fded273e"
+        }
+      ]
+    }
+  ]
+}
