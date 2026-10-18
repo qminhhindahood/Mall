@@ -252,3 +252,18 @@ html{overflow-anchor:none}
 .map-floor-rail{z-index:3}
 /* Reserve the phone map band in native flow, including direct Discovery entry. */
 @media(max-width:700px){.visitor-guide .journey-reading #scene-discovery{padding-top:392px;scroll-margin-top:120px}}
+
+/* Let each scene finish before the next reading surface enters. */
+.exterior-floor-journey{margin-bottom:110svh}
+.journey-reading .map-reading{min-height:150svh}
+.journey-reading .discovery-introduction{min-height:100svh;margin-block:35svh 40svh}
+.map-discovery-journey{--map-presence:1}
+.persistent-map{opacity:var(--map-presence)}
+.persistent-map[data-travelling=true] .map-floor-rail{opacity:0;pointer-events:none}
+.discovery-highlights{margin:40px 0 56px;padding-block:24px;border-block:1px solid var(--line)}
+.visitor-guide .discovery-highlights h3{font-size:24px;margin:0 0 16px}
+.discovery-highlights p{margin:0;color:var(--muted);font-size:16px}
+.discovery-highlights ul{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.discovery-highlights a{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:52px;text-decoration:none}
+.discovery-highlights a span{color:var(--muted)}
+@media(max-width:700px){.exterior-floor-journey{margin-bottom:100svh}.journey-reading .map-reading{min-height:145svh}.journey-reading .discovery-introduction{margin-block:30svh 35svh}.discovery-highlights{margin-block:32px 40px}}

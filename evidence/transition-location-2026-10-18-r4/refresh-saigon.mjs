@@ -1,0 +1,11 @@
+import {spawnSync} from 'node:child_process';
+import {readFileSync,writeFileSync} from 'node:fs';
+const out='evidence/transition-location-2026-10-18-r4';
+const rows=JSON.parse(readFileSync(`${out}/builds.json`));
+writeFileSync(`${out}/builds-before-inert-refresh.json`,JSON.stringify(rows,null,2)+'\n');
+const start=new Date().toISOString();
+const run=spawnSync('C:/node.exe',['C:/node_modules/npm/bin/npm-cli.js','run','build:saigon'],{env:{...process.env,INCLUDE_TEST_FIXTURES:'research'},encoding:'utf8',timeout:180000});
+writeFileSync(`${out}/build-research-saigon.log`,(run.stdout??'')+(run.stderr??''));
+const row={mode:'research',mall:'saigon',start,end:new Date().toISOString(),exitCode:run.status,reason:'Refresh first-built research output with hidden-map inert behavior included in all later outputs'};
+rows[rows.findIndex(r=>r.mode==='research'&&r.mall==='saigon')]=row;
+writeFileSync(`${out}/builds.json`,JSON.stringify(rows,null,2)+'\n');console.log(JSON.stringify(row));if(run.status!==0)process.exitCode=1;

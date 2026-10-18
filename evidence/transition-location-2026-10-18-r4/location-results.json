@@ -1,0 +1,125 @@
+{
+  "at": "2026-10-18T09:36:36.094Z",
+  "browser": "149.0.7827.198",
+  "parents": [
+    {
+      "id": "saigon-prototype-thehourglass",
+      "floor": "L1",
+      "region": "proposal-20261018-r4-2d5b055d-036d-48b0-98e5-144bf937bc96-l1"
+    },
+    {
+      "id": "saigon-prototype-moschino",
+      "floor": "L2",
+      "region": "proposal-20261018-r4-6190de79-9b80-4c88-af66-40e5181fdbe2-l2"
+    },
+    {
+      "id": "saigon-prototype-asiancorner",
+      "floor": "L5",
+      "region": "proposal-20261018-r4-84be54db-4a4a-4517-b085-060d83a970e5-l5"
+    },
+    {
+      "id": "saigon-prototype-oedoalley",
+      "floor": "L5",
+      "region": "proposal-20261018-r4-b32ef3d1-41d7-42fb-97ea-7343d47863a1-l5"
+    }
+  ],
+  "unitHold": "L5-05",
+  "runs": [
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "checks": [
+        "Dedicated Highlights section exists alongside the complete collection",
+        "No unapproved restaurant/shop recommendations invented",
+        "Empty recommendation state is localized and truthful",
+        "Expanded scroll space separates overview, map, invitation and Discovery",
+        "Four ambiguous parent polygons omitted from the effective private map",
+        "Other independent accepted candidate regions retained",
+        "saigon-prototype-thehourglass: no false precise-area highlight",
+        "saigon-prototype-thehourglass: floor/card access retained",
+        "saigon-prototype-moschino: no false precise-area highlight",
+        "saigon-prototype-moschino: floor/card access retained",
+        "saigon-prototype-asiancorner: no false precise-area highlight",
+        "saigon-prototype-asiancorner: floor/card access retained",
+        "saigon-prototype-oedoalley: no false precise-area highlight",
+        "saigon-prototype-oedoalley: floor/card access retained",
+        "saigon-prototype-yakinikulike: no false precise-area highlight",
+        "saigon-prototype-yakinikulike: floor/card access retained"
+      ],
+      "failed": [],
+      "spacing": {
+        "overviewGap": 990,
+        "mapHeight": 1350,
+        "before": 315,
+        "after": 360,
+        "h": 900
+      }
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "checks": [
+        "Dedicated Highlights section exists alongside the complete collection",
+        "No unapproved restaurant/shop recommendations invented",
+        "Empty recommendation state is localized and truthful",
+        "Expanded scroll space separates overview, map, invitation and Discovery",
+        "Four ambiguous parent polygons omitted from the effective private map",
+        "Other independent accepted candidate regions retained",
+        "saigon-prototype-thehourglass: no false precise-area highlight",
+        "saigon-prototype-thehourglass: floor/card access retained",
+        "saigon-prototype-moschino: no false precise-area highlight",
+        "saigon-prototype-moschino: floor/card access retained",
+        "saigon-prototype-asiancorner: no false precise-area highlight",
+        "saigon-prototype-asiancorner: floor/card access retained",
+        "saigon-prototype-oedoalley: no false precise-area highlight",
+        "saigon-prototype-oedoalley: floor/card access retained",
+        "saigon-prototype-yakinikulike: no false precise-area highlight",
+        "saigon-prototype-yakinikulike: floor/card access retained"
+      ],
+      "failed": [],
+      "spacing": {
+        "overviewGap": 990,
+        "mapHeight": 1350,
+        "before": 315,
+        "after": 360,
+        "h": 900
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "checks": [
+        "Dedicated Highlights section exists alongside the complete collection",
+        "No unapproved restaurant/shop recommendations invented",
+        "Empty recommendation state is localized and truthful",
+        "Expanded scroll space separates overview, map, invitation and Discovery"
+      ],
+      "failed": [],
+      "spacing": {
+        "overviewGap": 990,
+        "mapHeight": 1350,
+        "before": 315,
+        "after": 360,
+        "h": 900
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "checks": [
+        "Dedicated Highlights section exists alongside the complete collection",
+        "No unapproved restaurant/shop recommendations invented",
+        "Empty recommendation state is localized and truthful",
+        "Expanded scroll space separates overview, map, invitation and Discovery"
+      ],
+      "failed": [],
+      "spacing": {
+        "overviewGap": 990,
+        "mapHeight": 1350,
+        "before": 315,
+        "after": 360,
+        "h": 900
+      }
+    }
+  ]
+}

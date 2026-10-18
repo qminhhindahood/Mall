@@ -1,0 +1,11 @@
+{
+  "revision": "location-holds-2026-10-18-r1",
+  "recordedAt": "2026-10-18",
+  "provenance": "Owner screenshot feedback after journey-layout r3: rejects broad Asian Corner highlight and reports all L5-5 locations as wrong.",
+  "scope": "Research preview only. Supersedes location-display treatment, not frozen geometry/source evidence or public data.",
+  "sharedParentTreatment": "floor-and-list-only pending individual location/identity evidence",
+  "unitHolds": [
+    {"mallId":"saigon-centre","floor":"L5","code":"L5-05","disposition":"floor-and-list-only","reason":"Owner-reported incorrect broad location; no replacement coordinates inferred."}
+  ],
+  "recommendationsRequirement": "Discovery needs a dedicated Highlights section for recommended restaurants and shops, separate from complete category results. Nominations and recommendation text remain pending; do not manufacture an endorsed list."
+}

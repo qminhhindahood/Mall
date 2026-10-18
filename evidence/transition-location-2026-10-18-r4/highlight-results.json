@@ -1,0 +1,46 @@
+{
+  "at": "2026-10-18T09:40:11.753Z",
+  "scope": "Synthetic fixture recommendation only; no real endorsement",
+  "runs": [
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "checks": [
+        "Only supplied eligible fixture recommendation is shown",
+        "Highlight opens its specific destination and L2 within Discovery",
+        "Recommendation selection preserves usable map"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "checks": [
+        "Only supplied eligible fixture recommendation is shown",
+        "Highlight opens its specific destination and L2 within Discovery",
+        "Recommendation selection preserves usable map"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "checks": [
+        "Only supplied eligible fixture recommendation is shown",
+        "Highlight opens its specific destination and L2 within Discovery",
+        "Recommendation selection preserves usable map"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "checks": [
+        "Only supplied eligible fixture recommendation is shown",
+        "Highlight opens its specific destination and L2 within Discovery",
+        "Recommendation selection preserves usable map"
+      ],
+      "failed": []
+    }
+  ]
+}

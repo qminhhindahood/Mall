@@ -1,0 +1,919 @@
+{
+  "at": "2026-10-18T09:35:26.213Z",
+  "browser": "149.0.7827.198",
+  "profile": "Local Chrome/SwiftShader; CSS desktop and phone viewports, not physical devices",
+  "runs": [
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "width": 1440,
+      "reducedMotion": "no-preference",
+      "checks": [
+        "Hero scroll guide initially visible",
+        "First-section guide hidden and inert after overview reveal",
+        "Overview graphic and caption share the page center",
+        "No obsolete left-column overview paragraphs",
+        "Every supported floor remains in the vertical overview rail",
+        "Floor identity fades and loses its selected outline together with its slab",
+        "Overview floor selection enters the requested map",
+        "Map contains none of the removed directory, search, facilities, reference or banner blocks",
+        "Horizontal floor button row removed",
+        "Map floor rail stays vertical with 44px targets and the same floor order",
+        "Map and overview preserve identical descending floor labels",
+        "Map floor rail retains selected identity",
+        "Entire vertical map rail fits the viewport",
+        "Vertical map controls receive pointer input including reduced motion",
+        "Vertical rail switches the actual floor map",
+        "Discovery invitation is a separate section between map and Discovery",
+        "Map clears before the invitation reading surface",
+        "Invitation has the localized Discovery action",
+        "Invitation action enters Discovery with correct URL and focus",
+        "Same map element persists through invitation into Discovery",
+        "Discovery map remains visible above phone reading content",
+        "Discovery retains complete research listings",
+        "Map rail recedes in Discovery instead of covering collection controls",
+        "Store selection keeps the floating card and retained map in Discovery",
+        "Closing Discovery details restores listing focus",
+        "No horizontal overflow across the revised journey",
+        "Reverse scrolling returns to exterior without losing selected floor",
+        "Returning to the hero restores its guide"
+      ],
+      "failed": [],
+      "overview": {
+        "left": 170,
+        "right": 1270,
+        "center": 720,
+        "headingCenter": 720,
+        "stackCenter": 720,
+        "viewport": 1440
+      },
+      "floors": [
+        "L6",
+        "L5",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "B1",
+        "B2"
+      ],
+      "hover": {
+        "slab": 0.15,
+        "label": 0.15,
+        "shadow": "none"
+      },
+      "mapRail": [
+        {
+          "label": "L6",
+          "x": 1198,
+          "y": 317.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L5",
+          "x": 1198,
+          "y": 364.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L4",
+          "x": 1198,
+          "y": 411.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L3",
+          "x": 1198,
+          "y": 458.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L2",
+          "x": 1198,
+          "y": 505.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L1",
+          "x": 1198,
+          "y": 552.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B1",
+          "x": 1198,
+          "y": 599.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B2",
+          "x": 1198,
+          "y": 646.5,
+          "width": 72,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "width": 390,
+      "reducedMotion": "no-preference",
+      "checks": [
+        "Hero scroll guide initially visible",
+        "First-section guide hidden and inert after overview reveal",
+        "Overview graphic and caption share the page center",
+        "No obsolete left-column overview paragraphs",
+        "Every supported floor remains in the vertical overview rail",
+        "Floor identity fades and loses its selected outline together with its slab",
+        "Overview floor selection enters the requested map",
+        "Map contains none of the removed directory, search, facilities, reference or banner blocks",
+        "Horizontal floor button row removed",
+        "Map floor rail stays vertical with 44px targets and the same floor order",
+        "Map and overview preserve identical descending floor labels",
+        "Map floor rail retains selected identity",
+        "Entire vertical map rail fits the viewport",
+        "Vertical map controls receive pointer input including reduced motion",
+        "Vertical rail switches the actual floor map",
+        "Discovery invitation is a separate section between map and Discovery",
+        "Map clears before the invitation reading surface",
+        "Invitation has the localized Discovery action",
+        "Invitation action enters Discovery with correct URL and focus",
+        "Same map element persists through invitation into Discovery",
+        "Discovery map remains visible above phone reading content",
+        "Discovery retains complete research listings",
+        "Map rail recedes in Discovery instead of covering collection controls",
+        "Store selection keeps the floating card and retained map in Discovery",
+        "Closing Discovery details restores listing focus",
+        "No horizontal overflow across the revised journey",
+        "Reverse scrolling returns to exterior without losing selected floor",
+        "Returning to the hero restores its guide"
+      ],
+      "failed": [],
+      "overview": {
+        "left": 20,
+        "right": 370,
+        "center": 195,
+        "headingCenter": 195,
+        "stackCenter": 195,
+        "viewport": 390
+      },
+      "floors": [
+        "L6",
+        "L5",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "B1",
+        "B2"
+      ],
+      "hover": {
+        "slab": 0.15,
+        "label": 0.15,
+        "shadow": "none"
+      },
+      "mapRail": [
+        {
+          "label": "L6",
+          "x": 316,
+          "y": 197,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L5",
+          "x": 316,
+          "y": 243,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L4",
+          "x": 316,
+          "y": 289,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L3",
+          "x": 316,
+          "y": 335,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L2",
+          "x": 316,
+          "y": 381,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L1",
+          "x": 316,
+          "y": 427,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B1",
+          "x": 316,
+          "y": 473,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B2",
+          "x": 316,
+          "y": 519,
+          "width": 54,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "width": 1440,
+      "reducedMotion": "reduce",
+      "checks": [
+        "Hero scroll guide initially visible",
+        "First-section guide hidden and inert after overview reveal",
+        "Overview graphic and caption share the page center",
+        "No obsolete left-column overview paragraphs",
+        "Every supported floor remains in the vertical overview rail",
+        "Floor identity fades and loses its selected outline together with its slab",
+        "Overview floor selection enters the requested map",
+        "Map contains none of the removed directory, search, facilities, reference or banner blocks",
+        "Horizontal floor button row removed",
+        "Map floor rail stays vertical with 44px targets and the same floor order",
+        "Map and overview preserve identical descending floor labels",
+        "Map floor rail retains selected identity",
+        "Entire vertical map rail fits the viewport",
+        "Vertical map controls receive pointer input including reduced motion",
+        "Vertical rail switches the actual floor map",
+        "Discovery invitation is a separate section between map and Discovery",
+        "Map clears before the invitation reading surface",
+        "Invitation has the localized Discovery action",
+        "Invitation action enters Discovery with correct URL and focus",
+        "Same map element persists through invitation into Discovery",
+        "Discovery map remains visible above phone reading content",
+        "Discovery retains complete research listings",
+        "Map rail recedes in Discovery instead of covering collection controls",
+        "Store selection keeps the floating card and retained map in Discovery",
+        "Closing Discovery details restores listing focus",
+        "No horizontal overflow across the revised journey",
+        "Reverse scrolling returns to exterior without losing selected floor",
+        "Returning to the hero restores its guide"
+      ],
+      "failed": [],
+      "overview": {
+        "left": 170,
+        "right": 1270,
+        "center": 720,
+        "headingCenter": 720,
+        "stackCenter": 720,
+        "viewport": 1440
+      },
+      "floors": [
+        "L6",
+        "L5",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "B1",
+        "B2"
+      ],
+      "hover": {
+        "slab": 0.15,
+        "label": 0.15,
+        "shadow": "none"
+      },
+      "mapRail": [
+        {
+          "label": "L6",
+          "x": 1198,
+          "y": 317.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L5",
+          "x": 1198,
+          "y": 364.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L4",
+          "x": 1198,
+          "y": 411.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L3",
+          "x": 1198,
+          "y": 458.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L2",
+          "x": 1198,
+          "y": 505.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L1",
+          "x": 1198,
+          "y": 552.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B1",
+          "x": 1198,
+          "y": 599.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B2",
+          "x": 1198,
+          "y": 646.5,
+          "width": 72,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "width": 390,
+      "reducedMotion": "reduce",
+      "checks": [
+        "Hero scroll guide initially visible",
+        "First-section guide hidden and inert after overview reveal",
+        "Overview graphic and caption share the page center",
+        "No obsolete left-column overview paragraphs",
+        "Every supported floor remains in the vertical overview rail",
+        "Floor identity fades and loses its selected outline together with its slab",
+        "Overview floor selection enters the requested map",
+        "Map contains none of the removed directory, search, facilities, reference or banner blocks",
+        "Horizontal floor button row removed",
+        "Map floor rail stays vertical with 44px targets and the same floor order",
+        "Map and overview preserve identical descending floor labels",
+        "Map floor rail retains selected identity",
+        "Entire vertical map rail fits the viewport",
+        "Vertical map controls receive pointer input including reduced motion",
+        "Vertical rail switches the actual floor map",
+        "Discovery invitation is a separate section between map and Discovery",
+        "Map clears before the invitation reading surface",
+        "Invitation has the localized Discovery action",
+        "Invitation action enters Discovery with correct URL and focus",
+        "Same map element persists through invitation into Discovery",
+        "Discovery map remains visible above phone reading content",
+        "Discovery retains complete research listings",
+        "Map rail recedes in Discovery instead of covering collection controls",
+        "Store selection keeps the floating card and retained map in Discovery",
+        "Closing Discovery details restores listing focus",
+        "No horizontal overflow across the revised journey",
+        "Reverse scrolling returns to exterior without losing selected floor",
+        "Returning to the hero restores its guide"
+      ],
+      "failed": [],
+      "overview": {
+        "left": 20,
+        "right": 370,
+        "center": 195,
+        "headingCenter": 195,
+        "stackCenter": 195,
+        "viewport": 390
+      },
+      "floors": [
+        "L6",
+        "L5",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "B1",
+        "B2"
+      ],
+      "hover": {
+        "slab": 0.15,
+        "label": 0.15,
+        "shadow": "none"
+      },
+      "mapRail": [
+        {
+          "label": "L6",
+          "x": 316,
+          "y": 197,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L5",
+          "x": 316,
+          "y": 243,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L4",
+          "x": 316,
+          "y": 289,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L3",
+          "x": 316,
+          "y": 335,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L2",
+          "x": 316,
+          "y": 381,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L1",
+          "x": 316,
+          "y": 427,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B1",
+          "x": 316,
+          "y": 473,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B2",
+          "x": 316,
+          "y": 519,
+          "width": 54,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "width": 1440,
+      "reducedMotion": "no-preference",
+      "checks": [
+        "Hero scroll guide initially visible",
+        "First-section guide hidden and inert after overview reveal",
+        "Overview graphic and caption share the page center",
+        "No obsolete left-column overview paragraphs",
+        "Every supported floor remains in the vertical overview rail",
+        "Floor identity fades and loses its selected outline together with its slab",
+        "Overview floor selection enters the requested map",
+        "Map contains none of the removed directory, search, facilities, reference or banner blocks",
+        "Horizontal floor button row removed",
+        "Map floor rail stays vertical with 44px targets and the same floor order",
+        "Map and overview preserve identical descending floor labels",
+        "Map floor rail retains selected identity",
+        "Entire vertical map rail fits the viewport",
+        "Vertical map controls receive pointer input including reduced motion",
+        "Vertical rail switches the actual floor map",
+        "Discovery invitation is a separate section between map and Discovery",
+        "Map clears before the invitation reading surface",
+        "Invitation has the localized Discovery action",
+        "Invitation action enters Discovery with correct URL and focus",
+        "Same map element persists through invitation into Discovery",
+        "Discovery map remains visible above phone reading content",
+        "Discovery retains complete research listings",
+        "Map rail recedes in Discovery instead of covering collection controls",
+        "Store selection keeps the floating card and retained map in Discovery",
+        "Closing Discovery details restores listing focus",
+        "No horizontal overflow across the revised journey",
+        "Reverse scrolling returns to exterior without losing selected floor",
+        "Returning to the hero restores its guide"
+      ],
+      "failed": [],
+      "overview": {
+        "left": 170,
+        "right": 1270,
+        "center": 720,
+        "headingCenter": 720,
+        "stackCenter": 720,
+        "viewport": 1440
+      },
+      "floors": [
+        "L3",
+        "L2",
+        "M",
+        "L1",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "hover": {
+        "slab": 0.15,
+        "label": 0.15,
+        "shadow": "none"
+      },
+      "mapRail": [
+        {
+          "label": "L3",
+          "x": 1198,
+          "y": 341,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L2",
+          "x": 1198,
+          "y": 388,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "M",
+          "x": 1198,
+          "y": 435,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L1",
+          "x": 1198,
+          "y": 482,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B1",
+          "x": 1198,
+          "y": 529,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B2",
+          "x": 1198,
+          "y": 576,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B3",
+          "x": 1198,
+          "y": 623,
+          "width": 72,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "width": 390,
+      "reducedMotion": "no-preference",
+      "checks": [
+        "Hero scroll guide initially visible",
+        "First-section guide hidden and inert after overview reveal",
+        "Overview graphic and caption share the page center",
+        "No obsolete left-column overview paragraphs",
+        "Every supported floor remains in the vertical overview rail",
+        "Floor identity fades and loses its selected outline together with its slab",
+        "Overview floor selection enters the requested map",
+        "Map contains none of the removed directory, search, facilities, reference or banner blocks",
+        "Horizontal floor button row removed",
+        "Map floor rail stays vertical with 44px targets and the same floor order",
+        "Map and overview preserve identical descending floor labels",
+        "Map floor rail retains selected identity",
+        "Entire vertical map rail fits the viewport",
+        "Vertical map controls receive pointer input including reduced motion",
+        "Vertical rail switches the actual floor map",
+        "Discovery invitation is a separate section between map and Discovery",
+        "Map clears before the invitation reading surface",
+        "Invitation has the localized Discovery action",
+        "Invitation action enters Discovery with correct URL and focus",
+        "Same map element persists through invitation into Discovery",
+        "Discovery map remains visible above phone reading content",
+        "Discovery retains complete research listings",
+        "Map rail recedes in Discovery instead of covering collection controls",
+        "Store selection keeps the floating card and retained map in Discovery",
+        "Closing Discovery details restores listing focus",
+        "No horizontal overflow across the revised journey",
+        "Reverse scrolling returns to exterior without losing selected floor",
+        "Returning to the hero restores its guide"
+      ],
+      "failed": [],
+      "overview": {
+        "left": 20,
+        "right": 370,
+        "center": 195,
+        "headingCenter": 195,
+        "stackCenter": 195,
+        "viewport": 390
+      },
+      "floors": [
+        "L3",
+        "L2",
+        "M",
+        "L1",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "hover": {
+        "slab": 0.15,
+        "label": 0.15,
+        "shadow": "none"
+      },
+      "mapRail": [
+        {
+          "label": "L3",
+          "x": 316,
+          "y": 220,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L2",
+          "x": 316,
+          "y": 266,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "M",
+          "x": 316,
+          "y": 312,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L1",
+          "x": 316,
+          "y": 358,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B1",
+          "x": 316,
+          "y": 404,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B2",
+          "x": 316,
+          "y": 450,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B3",
+          "x": 316,
+          "y": 496,
+          "width": 54,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "width": 1440,
+      "reducedMotion": "reduce",
+      "checks": [
+        "Hero scroll guide initially visible",
+        "First-section guide hidden and inert after overview reveal",
+        "Overview graphic and caption share the page center",
+        "No obsolete left-column overview paragraphs",
+        "Every supported floor remains in the vertical overview rail",
+        "Floor identity fades and loses its selected outline together with its slab",
+        "Overview floor selection enters the requested map",
+        "Map contains none of the removed directory, search, facilities, reference or banner blocks",
+        "Horizontal floor button row removed",
+        "Map floor rail stays vertical with 44px targets and the same floor order",
+        "Map and overview preserve identical descending floor labels",
+        "Map floor rail retains selected identity",
+        "Entire vertical map rail fits the viewport",
+        "Vertical map controls receive pointer input including reduced motion",
+        "Vertical rail switches the actual floor map",
+        "Discovery invitation is a separate section between map and Discovery",
+        "Map clears before the invitation reading surface",
+        "Invitation has the localized Discovery action",
+        "Invitation action enters Discovery with correct URL and focus",
+        "Same map element persists through invitation into Discovery",
+        "Discovery map remains visible above phone reading content",
+        "Discovery retains complete research listings",
+        "Map rail recedes in Discovery instead of covering collection controls",
+        "Store selection keeps the floating card and retained map in Discovery",
+        "Closing Discovery details restores listing focus",
+        "No horizontal overflow across the revised journey",
+        "Reverse scrolling returns to exterior without losing selected floor",
+        "Returning to the hero restores its guide"
+      ],
+      "failed": [],
+      "overview": {
+        "left": 170,
+        "right": 1270,
+        "center": 720,
+        "headingCenter": 720,
+        "stackCenter": 720,
+        "viewport": 1440
+      },
+      "floors": [
+        "L3",
+        "L2",
+        "M",
+        "L1",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "hover": {
+        "slab": 0.15,
+        "label": 0.15,
+        "shadow": "none"
+      },
+      "mapRail": [
+        {
+          "label": "L3",
+          "x": 1198,
+          "y": 341,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L2",
+          "x": 1198,
+          "y": 388,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "M",
+          "x": 1198,
+          "y": 435,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L1",
+          "x": 1198,
+          "y": 482,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B1",
+          "x": 1198,
+          "y": 529,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B2",
+          "x": 1198,
+          "y": 576,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B3",
+          "x": 1198,
+          "y": 623,
+          "width": 72,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "width": 390,
+      "reducedMotion": "reduce",
+      "checks": [
+        "Hero scroll guide initially visible",
+        "First-section guide hidden and inert after overview reveal",
+        "Overview graphic and caption share the page center",
+        "No obsolete left-column overview paragraphs",
+        "Every supported floor remains in the vertical overview rail",
+        "Floor identity fades and loses its selected outline together with its slab",
+        "Overview floor selection enters the requested map",
+        "Map contains none of the removed directory, search, facilities, reference or banner blocks",
+        "Horizontal floor button row removed",
+        "Map floor rail stays vertical with 44px targets and the same floor order",
+        "Map and overview preserve identical descending floor labels",
+        "Map floor rail retains selected identity",
+        "Entire vertical map rail fits the viewport",
+        "Vertical map controls receive pointer input including reduced motion",
+        "Vertical rail switches the actual floor map",
+        "Discovery invitation is a separate section between map and Discovery",
+        "Map clears before the invitation reading surface",
+        "Invitation has the localized Discovery action",
+        "Invitation action enters Discovery with correct URL and focus",
+        "Same map element persists through invitation into Discovery",
+        "Discovery map remains visible above phone reading content",
+        "Discovery retains complete research listings",
+        "Map rail recedes in Discovery instead of covering collection controls",
+        "Store selection keeps the floating card and retained map in Discovery",
+        "Closing Discovery details restores listing focus",
+        "No horizontal overflow across the revised journey",
+        "Reverse scrolling returns to exterior without losing selected floor",
+        "Returning to the hero restores its guide"
+      ],
+      "failed": [],
+      "overview": {
+        "left": 20,
+        "right": 370,
+        "center": 195,
+        "headingCenter": 195,
+        "stackCenter": 195,
+        "viewport": 390
+      },
+      "floors": [
+        "L3",
+        "L2",
+        "M",
+        "L1",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "hover": {
+        "slab": 0.15,
+        "label": 0.15,
+        "shadow": "none"
+      },
+      "mapRail": [
+        {
+          "label": "L3",
+          "x": 316,
+          "y": 220,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L2",
+          "x": 316,
+          "y": 266,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "M",
+          "x": 316,
+          "y": 312,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L1",
+          "x": 316,
+          "y": 358,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B1",
+          "x": 316,
+          "y": 404,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B2",
+          "x": 316,
+          "y": 450,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B3",
+          "x": 316,
+          "y": 496,
+          "width": 54,
+          "height": 44
+        }
+      ]
+    }
+  ]
+}

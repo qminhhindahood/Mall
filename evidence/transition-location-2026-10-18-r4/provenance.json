@@ -1,0 +1,139 @@
+{
+  "at": "2026-10-18T09:40:29.719Z",
+  "baseline": "b108664",
+  "head": "b1086642bbafd48ba55bb58adc06bb14a495f43d",
+  "sourceFiles": {
+    "src/components/Explorer.tsx": "ef5f1c7863f95b126407089691be6aed9a3b697b5b3c52f1875497f9e231a09c",
+    "src/components/Discovery.tsx": "e60972d790478094683565aa4d7ecfc2fabb864b06bb9d3bedb4d09e989893cc",
+    "src/components/journey-copy.ts": "78b353bf54e145a93d7cba82bca9413b777bb65c3ad01c56f1d951aeb82ddad1",
+    "src/data/research-fixtures.ts": "111563c7867b0234f77edf4e5460c18763800e38441badd8236773f5dfb1fa34",
+    "src/styles/journey.css": "4587b08b59d9efbfaa4be33fa0f98c788a31ee36841a85870b25ab16fc22357d",
+    "scripts/research-overlay.mjs": "56274ded9b35ac1d8e9dbce20f319a5dab75779d0d3aff04d49bf5562c6738ab",
+    "data/research/location-holds-2026-10-18-r1.json": "f777c850befabc41c0051547f76ccce708f3498609d60ed4cd124d419bb3c6e3"
+  },
+  "builds": [
+    {
+      "mode": "research",
+      "mall": "saigon",
+      "start": "2026-10-18T09:37:57.903Z",
+      "end": "2026-10-18T09:38:40.005Z",
+      "exitCode": 0,
+      "reason": "Refresh first-built research output with hidden-map inert behavior included in all later outputs"
+    },
+    {
+      "mode": "research",
+      "mall": "vincom",
+      "start": "2026-10-18T09:34:34.961Z",
+      "end": "2026-10-18T09:35:08.754Z",
+      "exitCode": 0
+    },
+    {
+      "mode": "public",
+      "mall": "saigon",
+      "start": "2026-10-18T09:35:08.756Z",
+      "end": "2026-10-18T09:35:31.019Z",
+      "exitCode": 0
+    },
+    {
+      "mode": "public",
+      "mall": "vincom",
+      "start": "2026-10-18T09:35:31.020Z",
+      "end": "2026-10-18T09:35:50.891Z",
+      "exitCode": 0
+    },
+    {
+      "mode": "fixture",
+      "mall": "saigon",
+      "start": "2026-10-18T09:35:50.892Z",
+      "end": "2026-10-18T09:36:10.185Z",
+      "exitCode": 0
+    },
+    {
+      "mode": "fixture",
+      "mall": "vincom",
+      "start": "2026-10-18T09:36:10.186Z",
+      "end": "2026-10-18T09:36:32.706Z",
+      "exitCode": 0
+    }
+  ],
+  "outputs": {
+    "dist/saigon-centre": {
+      "en/index.html": "885a488842f7867b4d4bd7d396b4d92ed29c3ddf9b84ba0957a47b1304e5d19e",
+      "vi/index.html": "3d33f2ccae0f29cef4585b7dfef03055c3ec31cacfe7c5fc8373199a8cf9315e",
+      "data/asset-manifest.json": "ce7fa5dc3d753bd033c8db0c07066ee9fdb25e99d6b17a03bbfc22344ad2d2de",
+      "data/floor-geometry.json": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807",
+      "_astro/client.CdU5sA5O.js": "337a95b7a0f78b817cb7623cdc570c7632c8a9dbc9c6d3b920b82da21b0d3c8a",
+      "_astro/create-scene-runtime.DGzHxJfz.js": "499e228830cac43e6e85e8c11b2ad306157d5269cfc1b0a23f650d888a345ad4",
+      "_astro/Explorer.CJo74HoZ.js": "83ca8daae5f7eb3f538f0af980418b0c9d2191228f2d38471ffc891a98b6e8ae",
+      "_astro/loading-timing.BQ_g02j3.js": "23ac09e6d3982d7c2f52a0e69b8e5dc132d7db1494a74adf32c086bde9b2fd9f",
+      "_astro/react-dom.DwX89IcG.js": "188ae3fd03cd28f711faa87c681a536c6fdca4980c4594688cadf31c80356a97",
+      "_astro/scheduler.xDeNGwNe.js": "c3c0e557aa138e01e934d2aed76c2e1dda7cb73b74cb801c478c6fe9ebbce455",
+      "_astro/site.8ubYf0P9.css": "153fe869979bf0b04f6753b655ffed6bc9547d9f5566b6fa4c3220817971fdb3"
+    },
+    "dist/vincom-dong-khoi": {
+      "en/index.html": "b13e31a68fa44c8043f17f5449e3145a22238a874a9d980c62fdd8690dafe8a3",
+      "vi/index.html": "4cfae1954599f6631b3e7636da40c73b79fc791fcae2cbc1ab7160c47c37e8cd",
+      "data/asset-manifest.json": "aca63cd09f51a1c04c12c081fb45fb74e88043f076beaab3da6bde4efecdab91",
+      "data/floor-geometry.json": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e",
+      "_astro/client.CdU5sA5O.js": "337a95b7a0f78b817cb7623cdc570c7632c8a9dbc9c6d3b920b82da21b0d3c8a",
+      "_astro/create-scene-runtime.DGzHxJfz.js": "499e228830cac43e6e85e8c11b2ad306157d5269cfc1b0a23f650d888a345ad4",
+      "_astro/Explorer.CJo74HoZ.js": "83ca8daae5f7eb3f538f0af980418b0c9d2191228f2d38471ffc891a98b6e8ae",
+      "_astro/loading-timing.BQ_g02j3.js": "23ac09e6d3982d7c2f52a0e69b8e5dc132d7db1494a74adf32c086bde9b2fd9f",
+      "_astro/react-dom.DwX89IcG.js": "188ae3fd03cd28f711faa87c681a536c6fdca4980c4594688cadf31c80356a97",
+      "_astro/scheduler.xDeNGwNe.js": "c3c0e557aa138e01e934d2aed76c2e1dda7cb73b74cb801c478c6fe9ebbce455",
+      "_astro/site.8ubYf0P9.css": "153fe869979bf0b04f6753b655ffed6bc9547d9f5566b6fa4c3220817971fdb3"
+    },
+    "dist/fixtures/saigon-centre": {
+      "en/index.html": "201f5b2feb3b319c2aea49d87c8c2aa278937da580086069a2891c4ba158b235",
+      "vi/index.html": "19722a4705516a5df6f471e453c99c93a0149e92498765dcebb38d8c3c65a5c3",
+      "data/asset-manifest.json": "ce7fa5dc3d753bd033c8db0c07066ee9fdb25e99d6b17a03bbfc22344ad2d2de",
+      "data/floor-geometry.json": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807",
+      "_astro/client.CdU5sA5O.js": "337a95b7a0f78b817cb7623cdc570c7632c8a9dbc9c6d3b920b82da21b0d3c8a",
+      "_astro/create-scene-runtime.DGzHxJfz.js": "499e228830cac43e6e85e8c11b2ad306157d5269cfc1b0a23f650d888a345ad4",
+      "_astro/Explorer.CJo74HoZ.js": "83ca8daae5f7eb3f538f0af980418b0c9d2191228f2d38471ffc891a98b6e8ae",
+      "_astro/loading-timing.BQ_g02j3.js": "23ac09e6d3982d7c2f52a0e69b8e5dc132d7db1494a74adf32c086bde9b2fd9f",
+      "_astro/react-dom.DwX89IcG.js": "188ae3fd03cd28f711faa87c681a536c6fdca4980c4594688cadf31c80356a97",
+      "_astro/scheduler.xDeNGwNe.js": "c3c0e557aa138e01e934d2aed76c2e1dda7cb73b74cb801c478c6fe9ebbce455",
+      "_astro/site.8ubYf0P9.css": "153fe869979bf0b04f6753b655ffed6bc9547d9f5566b6fa4c3220817971fdb3"
+    },
+    "dist/fixtures/vincom-dong-khoi": {
+      "en/index.html": "f967635488452146d7fe467487ec39e78a5a2d5eb7a3e5600c293e46d10850ca",
+      "vi/index.html": "e56cc5139873fa78622293bf483cf6dca0eea31a88bbd1f2364fb8bbd671dc14",
+      "data/asset-manifest.json": "aca63cd09f51a1c04c12c081fb45fb74e88043f076beaab3da6bde4efecdab91",
+      "data/floor-geometry.json": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e",
+      "_astro/client.CdU5sA5O.js": "337a95b7a0f78b817cb7623cdc570c7632c8a9dbc9c6d3b920b82da21b0d3c8a",
+      "_astro/create-scene-runtime.DGzHxJfz.js": "499e228830cac43e6e85e8c11b2ad306157d5269cfc1b0a23f650d888a345ad4",
+      "_astro/Explorer.CJo74HoZ.js": "83ca8daae5f7eb3f538f0af980418b0c9d2191228f2d38471ffc891a98b6e8ae",
+      "_astro/loading-timing.BQ_g02j3.js": "23ac09e6d3982d7c2f52a0e69b8e5dc132d7db1494a74adf32c086bde9b2fd9f",
+      "_astro/react-dom.DwX89IcG.js": "188ae3fd03cd28f711faa87c681a536c6fdca4980c4594688cadf31c80356a97",
+      "_astro/scheduler.xDeNGwNe.js": "c3c0e557aa138e01e934d2aed76c2e1dda7cb73b74cb801c478c6fe9ebbce455",
+      "_astro/site.8ubYf0P9.css": "153fe869979bf0b04f6753b655ffed6bc9547d9f5566b6fa4c3220817971fdb3"
+    },
+    "dist/research/saigon-centre": {
+      "en/index.html": "509c12ed97c76fb45a3e71be92b20fb532dbfd0ea8995852b8b9bf6cdc0fa85d",
+      "vi/index.html": "9a93383e53dab1e03bf6aad4508f9c2e9c183bdce6cf1478bb8be51486805813",
+      "data/asset-manifest.json": "7f4f35a2b4faedcb07d47bc4a5161fbc5578dff5d31dd13269e8ecbdb23d938b",
+      "data/floor-geometry.json": "582a0f1deeced0e38e5bbea4ecfd919ff6fd96047627c2a6fcca45405c112b8e",
+      "_astro/client.CdU5sA5O.js": "337a95b7a0f78b817cb7623cdc570c7632c8a9dbc9c6d3b920b82da21b0d3c8a",
+      "_astro/create-scene-runtime.DGzHxJfz.js": "499e228830cac43e6e85e8c11b2ad306157d5269cfc1b0a23f650d888a345ad4",
+      "_astro/Explorer.CJo74HoZ.js": "83ca8daae5f7eb3f538f0af980418b0c9d2191228f2d38471ffc891a98b6e8ae",
+      "_astro/loading-timing.BQ_g02j3.js": "23ac09e6d3982d7c2f52a0e69b8e5dc132d7db1494a74adf32c086bde9b2fd9f",
+      "_astro/react-dom.DwX89IcG.js": "188ae3fd03cd28f711faa87c681a536c6fdca4980c4594688cadf31c80356a97",
+      "_astro/scheduler.xDeNGwNe.js": "c3c0e557aa138e01e934d2aed76c2e1dda7cb73b74cb801c478c6fe9ebbce455",
+      "_astro/site.8ubYf0P9.css": "153fe869979bf0b04f6753b655ffed6bc9547d9f5566b6fa4c3220817971fdb3"
+    },
+    "dist/research/vincom-dong-khoi": {
+      "en/index.html": "ba8faedcacd1f1fa2089b6aa01d74eb5d462408b822c4470ff657c087f1a28a3",
+      "vi/index.html": "4846eac207d5b18e132cd14826fcf5b8de3b89378d150227454b0d53cfb76d5d",
+      "data/asset-manifest.json": "ef3f76ecb449e21b26184628bb3cf38225ab1438f2dea006d4ae39d928f21b6b",
+      "data/floor-geometry.json": "1e10238dd6c8502d00b824978bbdce68c25fae49b356df84541a1987e4c36538",
+      "_astro/client.CdU5sA5O.js": "337a95b7a0f78b817cb7623cdc570c7632c8a9dbc9c6d3b920b82da21b0d3c8a",
+      "_astro/create-scene-runtime.DGzHxJfz.js": "499e228830cac43e6e85e8c11b2ad306157d5269cfc1b0a23f650d888a345ad4",
+      "_astro/Explorer.CJo74HoZ.js": "83ca8daae5f7eb3f538f0af980418b0c9d2191228f2d38471ffc891a98b6e8ae",
+      "_astro/loading-timing.BQ_g02j3.js": "23ac09e6d3982d7c2f52a0e69b8e5dc132d7db1494a74adf32c086bde9b2fd9f",
+      "_astro/react-dom.DwX89IcG.js": "188ae3fd03cd28f711faa87c681a536c6fdca4980c4594688cadf31c80356a97",
+      "_astro/scheduler.xDeNGwNe.js": "c3c0e557aa138e01e934d2aed76c2e1dda7cb73b74cb801c478c6fe9ebbce455",
+      "_astro/site.8ubYf0P9.css": "153fe869979bf0b04f6753b655ffed6bc9547d9f5566b6fa4c3220817971fdb3"
+    }
+  }
+}

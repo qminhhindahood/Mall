@@ -24,9 +24,16 @@ export function researchDecisionPacket(root, mallId) {
   return candidate;
 }
 
+/** Latest display holds override older accepted shape packets without rewriting them. */
+export function researchLocationHolds(root, mallId) {
+  if (process.env.INCLUDE_TEST_FIXTURES !== 'research') throw new Error('Location holds are research-only');
+  const policy=read(resolve(root,'data/research/location-holds-2026-10-18-r1.json'));
+  return policy.unitHolds.filter(hold=>hold.mallId===mallId);
+}
+
 /** @param {string} root @param {string} mallId @param {import('../src/runtime/scene-contract').FloorDataset} source */
 export function researchGeometry(root, mallId, source) {
-  researchDecisionPacket(root, mallId);
+  const candidate=researchDecisionPacket(root, mallId);
   if (mallId !== 'saigon-centre') return source;
   const geometryPath='docs/polygon-review/result-2026-10-18-r4/floor-geometry-candidate.json';
   const sources=read(resolve(root,packet,'source-hashes.json'));
@@ -34,10 +41,11 @@ export function researchGeometry(root, mallId, source) {
   const bytes=gunzipSync(readFileSync(packagedPath));
   if (sources.files[geometryPath] !== createHash('sha256').update(bytes).digest('hex')) throw new Error('Accepted r4 geometry hash drift');
   const r4 = JSON.parse(bytes.toString('utf8'));
+  const sharedParents=new Set(candidate.records.flatMap(record=>record.geometryCandidates.filter(area=>area.sharedAreaRole==='shared-parent-area').map(area=>area.regionId)));
   const floors = source.floors.map(floor => {
     const reviewed = r4.floors.find(item => item.id === floor.id);
     if (!reviewed || JSON.stringify(reviewed.regions) !== JSON.stringify(floor.regions)) throw new Error('Research geometry baseline drift');
-    return {...floor, regions:[...floor.regions, ...reviewed.candidateRegions]};
+    return {...floor, regions:[...floor.regions, ...reviewed.candidateRegions.filter(region=>!sharedParents.has(region.id))]};
   });
-  return {...source, revision:`${source.revision}+owner-accepted-r4-private`, floors};
+  return {...source, revision:`${source.revision}+owner-location-holds-r1-private`, floors};
 }

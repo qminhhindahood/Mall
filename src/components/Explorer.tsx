@@ -126,6 +126,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       if(!section||!journey)return;
       const progress=Math.max(0,Math.min(1,(innerHeight-section.getBoundingClientRect().top)/(innerHeight*.75)));
       journey.style.setProperty('--discovery-progress',String(reducedMotion?(progress>.5?1:0):progress));
+      const invitation=journey.querySelector<HTMLElement>('.discovery-introduction');
+      if(invitation){const exit=Math.max(0,Math.min(1,(innerHeight*1.25-invitation.getBoundingClientRect().top)/(innerHeight*.4)));const presence=Math.max(1-exit,progress);journey.style.setProperty('--map-presence',String(presence));const map=journey.querySelector<HTMLElement>('.persistent-map');if(map)map.inert=presence<.01;}
       if((load!=='ready'&&load!=='failed')||focusRequest.current)return;
       const mapTop=sections.current.map?.getBoundingClientRect().top??Infinity;
       const readingLine=innerWidth<=700?160:innerHeight*.55;
