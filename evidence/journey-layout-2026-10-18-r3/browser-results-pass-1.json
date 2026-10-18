@@ -1,0 +1,847 @@
+{
+  "at": "2026-10-18T07:51:31.226Z",
+  "browser": "149.0.7827.198",
+  "profile": "Local Chrome/SwiftShader; CSS desktop and phone viewports, not physical devices",
+  "runs": [
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "width": 1440,
+      "reducedMotion": "no-preference",
+      "checks": [
+        "Hero scroll guide initially visible",
+        "First-section guide hidden and inert after overview reveal",
+        "Overview graphic and caption share the page center",
+        "No obsolete left-column overview paragraphs",
+        "Every supported floor remains in the vertical overview rail",
+        "Floor identity fades and loses its selected outline together with its slab",
+        "Overview floor selection enters the requested map",
+        "Map contains none of the removed directory, search, facilities, reference or banner blocks",
+        "Horizontal floor button row removed",
+        "Map floor rail stays vertical with 44px targets and the same floor order",
+        "Map and overview preserve identical descending floor labels",
+        "Map floor rail retains selected identity",
+        "Entire vertical map rail fits the viewport",
+        "Vertical rail switches the actual floor map",
+        "Discovery invitation is a separate section between map and Discovery",
+        "Invitation has the localized Discovery action",
+        "Invitation action enters Discovery with correct URL and focus",
+        "Same map element persists through invitation into Discovery",
+        "Discovery retains complete research listings",
+        "Map rail recedes in Discovery instead of covering collection controls",
+        "Store selection keeps the floating card and retained map in Discovery",
+        "Closing Discovery details restores listing focus",
+        "No horizontal overflow across the revised journey",
+        "Reverse scrolling returns to exterior without losing selected floor",
+        "Returning to the hero restores its guide"
+      ],
+      "failed": [],
+      "overview": {
+        "left": 170,
+        "right": 1270,
+        "center": 720,
+        "headingCenter": 720,
+        "viewport": 1440
+      },
+      "floors": [
+        "L6",
+        "L5",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "B1",
+        "B2"
+      ],
+      "hover": {
+        "slab": 0.15,
+        "label": 0.15,
+        "shadow": "none"
+      },
+      "mapRail": [
+        {
+          "label": "L6",
+          "x": 1198,
+          "y": 317.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L5",
+          "x": 1198,
+          "y": 364.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L4",
+          "x": 1198,
+          "y": 411.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L3",
+          "x": 1198,
+          "y": 458.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L2",
+          "x": 1198,
+          "y": 505.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L1",
+          "x": 1198,
+          "y": 552.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B1",
+          "x": 1198,
+          "y": 599.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B2",
+          "x": 1198,
+          "y": 646.5,
+          "width": 72,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "width": 390,
+      "reducedMotion": "no-preference",
+      "checks": [
+        "Hero scroll guide initially visible",
+        "First-section guide hidden and inert after overview reveal",
+        "Overview graphic and caption share the page center",
+        "No obsolete left-column overview paragraphs",
+        "Every supported floor remains in the vertical overview rail",
+        "Floor identity fades and loses its selected outline together with its slab",
+        "Overview floor selection enters the requested map",
+        "Map contains none of the removed directory, search, facilities, reference or banner blocks",
+        "Horizontal floor button row removed",
+        "Map floor rail stays vertical with 44px targets and the same floor order",
+        "Map and overview preserve identical descending floor labels",
+        "Map floor rail retains selected identity",
+        "Entire vertical map rail fits the viewport",
+        "Vertical rail switches the actual floor map",
+        "Discovery invitation is a separate section between map and Discovery",
+        "Invitation has the localized Discovery action",
+        "Invitation action enters Discovery with correct URL and focus",
+        "Same map element persists through invitation into Discovery",
+        "Discovery retains complete research listings",
+        "Map rail recedes in Discovery instead of covering collection controls",
+        "Store selection keeps the floating card and retained map in Discovery",
+        "Closing Discovery details restores listing focus",
+        "No horizontal overflow across the revised journey",
+        "Reverse scrolling returns to exterior without losing selected floor",
+        "Returning to the hero restores its guide"
+      ],
+      "failed": [],
+      "overview": {
+        "left": 20,
+        "right": 370,
+        "center": 195,
+        "headingCenter": 195,
+        "viewport": 390
+      },
+      "floors": [
+        "L6",
+        "L5",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "B1",
+        "B2"
+      ],
+      "hover": {
+        "slab": 0.15,
+        "label": 0.15,
+        "shadow": "none"
+      },
+      "mapRail": [
+        {
+          "label": "L6",
+          "x": 316,
+          "y": 197,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L5",
+          "x": 316,
+          "y": 243,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L4",
+          "x": 316,
+          "y": 289,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L3",
+          "x": 316,
+          "y": 335,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L2",
+          "x": 316,
+          "y": 381,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L1",
+          "x": 316,
+          "y": 427,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B1",
+          "x": 316,
+          "y": 473,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B2",
+          "x": 316,
+          "y": 519,
+          "width": 54,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "width": 1440,
+      "reducedMotion": "reduce",
+      "checks": [
+        "Hero scroll guide initially visible",
+        "First-section guide hidden and inert after overview reveal",
+        "Overview graphic and caption share the page center",
+        "No obsolete left-column overview paragraphs",
+        "Every supported floor remains in the vertical overview rail",
+        "Floor identity fades and loses its selected outline together with its slab",
+        "Overview floor selection enters the requested map",
+        "Map contains none of the removed directory, search, facilities, reference or banner blocks",
+        "Horizontal floor button row removed",
+        "Map floor rail stays vertical with 44px targets and the same floor order",
+        "Map and overview preserve identical descending floor labels",
+        "Map floor rail retains selected identity",
+        "Entire vertical map rail fits the viewport"
+      ],
+      "failed": [
+        "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.map-floor-rail [data-floor-id=L1]')\u001b[22m\n\u001b[2m    - locator resolved to <a data-floor-id=\"L1\" href=\"/vi/tang/L1\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <section class=\"discovery-introduction\" aria-labelledby=\"discovery-invitation\">…</section> from <div class=\"journey-reading\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  4 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <section class=\"discovery-introduction\" aria-labelledby=\"discovery-invitation\">…</section> from <div class=\"journey-reading\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <section class=\"discovery-introduction\" aria-labelledby=\"discovery-invitation\">…</section> from <div class=\"journey-reading\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  45 × retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n"
+      ],
+      "overview": {
+        "left": 170,
+        "right": 1270,
+        "center": 720,
+        "headingCenter": 720,
+        "viewport": 1440
+      },
+      "floors": [
+        "L6",
+        "L5",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "B1",
+        "B2"
+      ],
+      "hover": {
+        "slab": 0.15,
+        "label": 0.15,
+        "shadow": "none"
+      },
+      "mapRail": [
+        {
+          "label": "L6",
+          "x": 1198,
+          "y": 317.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L5",
+          "x": 1198,
+          "y": 364.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L4",
+          "x": 1198,
+          "y": 411.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L3",
+          "x": 1198,
+          "y": 458.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L2",
+          "x": 1198,
+          "y": 505.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L1",
+          "x": 1198,
+          "y": 552.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B1",
+          "x": 1198,
+          "y": 599.5,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B2",
+          "x": 1198,
+          "y": 646.5,
+          "width": 72,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "width": 390,
+      "reducedMotion": "reduce",
+      "checks": [
+        "Hero scroll guide initially visible",
+        "First-section guide hidden and inert after overview reveal",
+        "Overview graphic and caption share the page center",
+        "No obsolete left-column overview paragraphs",
+        "Every supported floor remains in the vertical overview rail",
+        "Floor identity fades and loses its selected outline together with its slab",
+        "Overview floor selection enters the requested map",
+        "Map contains none of the removed directory, search, facilities, reference or banner blocks",
+        "Horizontal floor button row removed",
+        "Map floor rail stays vertical with 44px targets and the same floor order",
+        "Map and overview preserve identical descending floor labels",
+        "Map floor rail retains selected identity",
+        "Entire vertical map rail fits the viewport"
+      ],
+      "failed": [
+        "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.map-floor-rail [data-floor-id=L1]')\u001b[22m\n\u001b[2m    - locator resolved to <a data-floor-id=\"L1\" href=\"/vi/tang/L1\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    7 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    3 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <section class=\"discovery-introduction\" aria-labelledby=\"discovery-invitation\">…</section> from <div class=\"journey-reading\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <section class=\"discovery-introduction\" aria-labelledby=\"discovery-invitation\">…</section> from <div class=\"journey-reading\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <h2 id=\"discovery-invitation\">Muốn khám phá thêm về trung tâm này?</h2> from <div class=\"journey-reading\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <section class=\"discovery-introduction\" aria-labelledby=\"discovery-invitation\">…</section> from <div class=\"journey-reading\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <section class=\"discovery-introduction\" aria-labelledby=\"discovery-invitation\">…</section> from <div class=\"journey-reading\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  29 × retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n"
+      ],
+      "overview": {
+        "left": 20,
+        "right": 370,
+        "center": 195,
+        "headingCenter": 195,
+        "viewport": 390
+      },
+      "floors": [
+        "L6",
+        "L5",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "B1",
+        "B2"
+      ],
+      "hover": {
+        "slab": 0.15,
+        "label": 0.15,
+        "shadow": "none"
+      },
+      "mapRail": [
+        {
+          "label": "L6",
+          "x": 316,
+          "y": 197,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L5",
+          "x": 316,
+          "y": 243,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L4",
+          "x": 316,
+          "y": 289,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L3",
+          "x": 316,
+          "y": 335,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L2",
+          "x": 316,
+          "y": 381,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L1",
+          "x": 316,
+          "y": 427,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B1",
+          "x": 316,
+          "y": 473,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B2",
+          "x": 316,
+          "y": 519,
+          "width": 54,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "width": 1440,
+      "reducedMotion": "no-preference",
+      "checks": [
+        "Hero scroll guide initially visible",
+        "First-section guide hidden and inert after overview reveal",
+        "Overview graphic and caption share the page center",
+        "No obsolete left-column overview paragraphs",
+        "Every supported floor remains in the vertical overview rail",
+        "Floor identity fades and loses its selected outline together with its slab",
+        "Overview floor selection enters the requested map",
+        "Map contains none of the removed directory, search, facilities, reference or banner blocks",
+        "Horizontal floor button row removed",
+        "Map floor rail stays vertical with 44px targets and the same floor order",
+        "Map and overview preserve identical descending floor labels",
+        "Map floor rail retains selected identity",
+        "Entire vertical map rail fits the viewport",
+        "Vertical rail switches the actual floor map",
+        "Discovery invitation is a separate section between map and Discovery",
+        "Invitation has the localized Discovery action",
+        "Invitation action enters Discovery with correct URL and focus",
+        "Same map element persists through invitation into Discovery",
+        "Discovery retains complete research listings",
+        "Map rail recedes in Discovery instead of covering collection controls",
+        "Store selection keeps the floating card and retained map in Discovery",
+        "Closing Discovery details restores listing focus",
+        "No horizontal overflow across the revised journey",
+        "Reverse scrolling returns to exterior without losing selected floor",
+        "Returning to the hero restores its guide"
+      ],
+      "failed": [],
+      "overview": {
+        "left": 170,
+        "right": 1270,
+        "center": 720,
+        "headingCenter": 720,
+        "viewport": 1440
+      },
+      "floors": [
+        "L3",
+        "L2",
+        "M",
+        "L1",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "hover": {
+        "slab": 0.15,
+        "label": 0.15,
+        "shadow": "none"
+      },
+      "mapRail": [
+        {
+          "label": "L3",
+          "x": 1198,
+          "y": 341,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L2",
+          "x": 1198,
+          "y": 388,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "M",
+          "x": 1198,
+          "y": 435,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L1",
+          "x": 1198,
+          "y": 482,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B1",
+          "x": 1198,
+          "y": 529,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B2",
+          "x": 1198,
+          "y": 576,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B3",
+          "x": 1198,
+          "y": 623,
+          "width": 72,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "width": 390,
+      "reducedMotion": "no-preference",
+      "checks": [
+        "Hero scroll guide initially visible",
+        "First-section guide hidden and inert after overview reveal",
+        "Overview graphic and caption share the page center",
+        "No obsolete left-column overview paragraphs",
+        "Every supported floor remains in the vertical overview rail",
+        "Floor identity fades and loses its selected outline together with its slab",
+        "Overview floor selection enters the requested map",
+        "Map contains none of the removed directory, search, facilities, reference or banner blocks",
+        "Horizontal floor button row removed",
+        "Map floor rail stays vertical with 44px targets and the same floor order",
+        "Map and overview preserve identical descending floor labels",
+        "Map floor rail retains selected identity",
+        "Entire vertical map rail fits the viewport",
+        "Vertical rail switches the actual floor map",
+        "Discovery invitation is a separate section between map and Discovery",
+        "Invitation has the localized Discovery action",
+        "Invitation action enters Discovery with correct URL and focus",
+        "Same map element persists through invitation into Discovery",
+        "Discovery retains complete research listings",
+        "Map rail recedes in Discovery instead of covering collection controls",
+        "Store selection keeps the floating card and retained map in Discovery",
+        "Closing Discovery details restores listing focus",
+        "No horizontal overflow across the revised journey",
+        "Reverse scrolling returns to exterior without losing selected floor",
+        "Returning to the hero restores its guide"
+      ],
+      "failed": [],
+      "overview": {
+        "left": 20,
+        "right": 370,
+        "center": 195,
+        "headingCenter": 195,
+        "viewport": 390
+      },
+      "floors": [
+        "L3",
+        "L2",
+        "M",
+        "L1",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "hover": {
+        "slab": 0.15,
+        "label": 0.15,
+        "shadow": "none"
+      },
+      "mapRail": [
+        {
+          "label": "L3",
+          "x": 316,
+          "y": 220,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L2",
+          "x": 316,
+          "y": 266,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "M",
+          "x": 316,
+          "y": 312,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L1",
+          "x": 316,
+          "y": 358,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B1",
+          "x": 316,
+          "y": 404,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B2",
+          "x": 316,
+          "y": 450,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B3",
+          "x": 316,
+          "y": 496,
+          "width": 54,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "width": 1440,
+      "reducedMotion": "reduce",
+      "checks": [
+        "Hero scroll guide initially visible",
+        "First-section guide hidden and inert after overview reveal",
+        "Overview graphic and caption share the page center",
+        "No obsolete left-column overview paragraphs",
+        "Every supported floor remains in the vertical overview rail",
+        "Floor identity fades and loses its selected outline together with its slab",
+        "Overview floor selection enters the requested map",
+        "Map contains none of the removed directory, search, facilities, reference or banner blocks",
+        "Horizontal floor button row removed",
+        "Map floor rail stays vertical with 44px targets and the same floor order",
+        "Map and overview preserve identical descending floor labels",
+        "Map floor rail retains selected identity",
+        "Entire vertical map rail fits the viewport"
+      ],
+      "failed": [
+        "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.map-floor-rail [data-floor-id=L1]')\u001b[22m\n\u001b[2m    - locator resolved to <a data-floor-id=\"L1\" href=\"/vi/tang/L1\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    3 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <section class=\"discovery-introduction\" aria-labelledby=\"discovery-invitation\">…</section> from <div class=\"journey-reading\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <section class=\"discovery-introduction\" aria-labelledby=\"discovery-invitation\">…</section> from <div class=\"journey-reading\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <section class=\"discovery-introduction\" aria-labelledby=\"discovery-invitation\">…</section> from <div class=\"journey-reading\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  9 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <section class=\"discovery-introduction\" aria-labelledby=\"discovery-invitation\">…</section> from <div class=\"journey-reading\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  34 × retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m       - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n"
+      ],
+      "overview": {
+        "left": 170,
+        "right": 1270,
+        "center": 720,
+        "headingCenter": 720,
+        "viewport": 1440
+      },
+      "floors": [
+        "L3",
+        "L2",
+        "M",
+        "L1",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "hover": {
+        "slab": 0.15,
+        "label": 0.15,
+        "shadow": "none"
+      },
+      "mapRail": [
+        {
+          "label": "L3",
+          "x": 1198,
+          "y": 341,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L2",
+          "x": 1198,
+          "y": 388,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "M",
+          "x": 1198,
+          "y": 435,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "L1",
+          "x": 1198,
+          "y": 482,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B1",
+          "x": 1198,
+          "y": 529,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B2",
+          "x": 1198,
+          "y": 576,
+          "width": 72,
+          "height": 44
+        },
+        {
+          "label": "B3",
+          "x": 1198,
+          "y": 623,
+          "width": 72,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "width": 390,
+      "reducedMotion": "reduce",
+      "checks": [
+        "Hero scroll guide initially visible",
+        "First-section guide hidden and inert after overview reveal",
+        "Overview graphic and caption share the page center",
+        "No obsolete left-column overview paragraphs",
+        "Every supported floor remains in the vertical overview rail",
+        "Floor identity fades and loses its selected outline together with its slab",
+        "Overview floor selection enters the requested map",
+        "Map contains none of the removed directory, search, facilities, reference or banner blocks",
+        "Horizontal floor button row removed",
+        "Map floor rail stays vertical with 44px targets and the same floor order",
+        "Map and overview preserve identical descending floor labels",
+        "Map floor rail retains selected identity",
+        "Entire vertical map rail fits the viewport"
+      ],
+      "failed": [
+        "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.map-floor-rail [data-floor-id=L1]')\u001b[22m\n\u001b[2m    - locator resolved to <a data-floor-id=\"L1\" href=\"/vi/tang/L1\">…</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div class=\"map-transform\">…</div> from <div data-floor=\"L2\" data-scene-kind=\"map\" class=\"scene-host scene-host-map\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+      ],
+      "overview": {
+        "left": 20,
+        "right": 370,
+        "center": 195,
+        "headingCenter": 195,
+        "viewport": 390
+      },
+      "floors": [
+        "L3",
+        "L2",
+        "M",
+        "L1",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "hover": {
+        "slab": 0.15,
+        "label": 0.15,
+        "shadow": "none"
+      },
+      "mapRail": [
+        {
+          "label": "L3",
+          "x": 316,
+          "y": 220,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L2",
+          "x": 316,
+          "y": 266,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "M",
+          "x": 316,
+          "y": 312,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "L1",
+          "x": 316,
+          "y": 358,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B1",
+          "x": 316,
+          "y": 404,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B2",
+          "x": 316,
+          "y": 450,
+          "width": 54,
+          "height": 44
+        },
+        {
+          "label": "B3",
+          "x": 316,
+          "y": 496,
+          "width": 54,
+          "height": 44
+        }
+      ]
+    }
+  ]
+}

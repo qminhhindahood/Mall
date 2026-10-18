@@ -125,10 +125,10 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       const section=sections.current.discovery, journey=mapJourney.current;
       if(!section||!journey)return;
       const progress=Math.max(0,Math.min(1,(innerHeight-section.getBoundingClientRect().top)/(innerHeight*.75)));
-      journey.style.setProperty('--discovery-progress',String(reducedMotion?0:progress));
+      journey.style.setProperty('--discovery-progress',String(reducedMotion?(progress>.5?1:0):progress));
       if((load!=='ready'&&load!=='failed')||focusRequest.current)return;
       const mapTop=sections.current.map?.getBoundingClientRect().top??Infinity;
-      const readingLine=innerWidth<=700?Math.min(innerHeight-44,Math.max(innerHeight*.55,((journey.querySelector('.persistent-map')?.getBoundingClientRect().bottom??innerHeight*.5)+innerHeight)/2)):innerHeight*.55;
+      const readingLine=innerWidth<=700?160:innerHeight*.55;
       const stageBottom=exteriorJourney.current?.getBoundingClientRect().bottom??Infinity;
       const kind=stageBottom>innerHeight*.45?null:section.getBoundingClientRect().top<readingLine?'discovery':mapTop<readingLine?'map':null;
       if(kind&&kind!==latest.current.kind){const next: ExplorerSelection={...latest.current,kind};beginRequest(next);history.replaceState({...history.state,scrollY:scrollY},'',href(next));setSelection(next);}
@@ -335,7 +335,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     const target=focusTarget(requested);
     if(target?.isConnected){target.focus({preventScroll:true});if(restoreScroll.current!==null){window.scrollTo({top:restoreScroll.current,behavior:'instant'});restoreScroll.current=null;}else target.scrollIntoView({behavior:travelRequest.current&&!reducedMotion?'smooth':'instant',block:'start'});travelRequest.current=false;focusRequest.current=null;pendingFocus.current=null;closingDiscovery.current=false;}
   },[load,selection,presentation]);
-  function focusTarget(next: ExplorerSelection) { if(closingDiscovery.current&&returnFocus.current?.isConnected)return returnFocus.current; return next.destinationId || next.kind==='discovery'&&next.areaId ? destinationContent.current : next.kind==='map'&&(next.query||next.categoryId)?document.getElementById('directory-heading'):sections.current[next.kind] ?? null; }
+  function focusTarget(next: ExplorerSelection) { if(closingDiscovery.current&&returnFocus.current?.isConnected)return returnFocus.current; return next.destinationId || next.kind==='discovery'&&next.areaId ? destinationContent.current : next.kind==='map'&&(next.query||next.categoryId)?sections.current.map??null:sections.current[next.kind] ?? null; }
   function beginRequest(next: ExplorerSelection) {
     const effective=(value:ExplorerSelection)=>value.kind==='discovery'?discoveryFloor(site,value,geometry):value.floorId;
     if (!entered.current || next.kind===latest.current.kind && effective(next)===effective(latest.current)) return;
@@ -377,7 +377,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   }
   const change = (kind: SceneKind, floorId=selection.floorId): ExplorerSelection => ({...selection,kind,floorId,destinationId:undefined});
   return <>
-    <div className="visitor-guide" data-mall={site.mallId} data-paused={paused}>
+    <div className="visitor-guide" data-mall={site.mallId} data-paused={paused} data-view={selection.kind}>
     <a className="skip-introduction" href={href(change('map'))} onClick={event=>navigate(change('map'),event)}>{c.skip}</a>
     <header className="journey-header" inert={!headerVisible} data-visible={headerVisible}>
       <a className="wordmark" href={`/${selection.locale}`} onClick={event => navigate({locale:selection.locale,kind:'exterior',floorId:site.defaultFloor},event)}>{site.name}</a>
@@ -402,7 +402,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
             <div className="introduction-copy"><h1>{c.introduce}<span>{site.name}</span></h1><p>{site.mallId==='saigon-centre'?c.saigonIntroduction:c.vincomIntroduction}</p><p className="guide-identity">{c.independent}</p></div>
             <div className="introduction-bottom"><a className="scroll-guide" href="#scene-overview" onClick={event=>navigate(change('overview'),event)}><span className="scroll-cue" aria-hidden="true"/><span>{c.scrollInstruction}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div>
           </section>
-          <section id="scene-overview" ref={element=>{if(element)sections.current.overview=element;}} tabIndex={-1} className="overview-reading" aria-label={c.overview}><p className="disclosure">{c.uncertainty}</p><p className="disclosure">{j.registration}</p></section>
+          <section id="scene-overview" ref={element=>{if(element)sections.current.overview=element;}} tabIndex={-1} className="overview-reading" aria-label={c.overview}/>
         </div>
         <div className="registered-scene">
           <div className="scene-host scene-host-exterior" ref={element=>{if(element){sceneHosts.current.exterior=element;sceneHosts.current.overview=element;}}} data-scene-kind={selection.kind==='exterior'?'exterior':'overview'}>
@@ -428,20 +428,20 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
             <button aria-pressed={angled} title={j.angle} onClick={()=>setAngled(!angled)}><MapControlIcon kind="angle"/><span className="visually-hidden">{j.angle}</span></button>
             <button title={j.reset} onClick={()=>{setZoom(1);setAngled(false);}}><MapControlIcon kind="reset"/><span className="visually-hidden">{j.reset}</span></button>
           </div>
+          <nav className="floor-rail map-floor-rail" aria-label={c.floors}>{geometry.floors.slice().sort((a,b)=>b.order-a.order).map((item,index)=><a key={item.id} data-floor-id={item.id} style={{'--floor-index':index} as React.CSSProperties} href={floorRoute(selection.locale,item.id)} aria-current={routeResolved&&selection.floorId===item.id?'page':undefined} onClick={event=>navigate(change('map',item.id),event)}><span className="floor-callout-line" aria-hidden="true"/>{item.label}</a>)}</nav>
           {selection.kind==='discovery'&&<div className="discovery-map-context"><p>{Object.keys(areaNumbers).length} {j.areas} · {floor.id}</p><button type="button" aria-expanded={mapExpanded} onClick={()=>setMapExpanded(!mapExpanded)}>{selection.locale==='vi'?(mapExpanded?'Thu gọn sơ đồ':'Phóng lớn sơ đồ'):(mapExpanded?'Collapse map':'Expand map')}</button></div>}
-          <p className="disclosure">{c.uncertainty}</p>
         </div>
         <div className="journey-reading">
           <section id="scene-map" ref={element=>{if(element)sections.current.map=element;}} tabIndex={-1} className="map-reading" aria-label={c.map}>
             <h2>{c.map}{routeResolved?` · ${selection.floorId}`:''}</h2>
             {floorCorrected&&<p role="status">{c.floorCorrected}</p>}
-            <nav className="floors" aria-label={c.floors}>{geometry.floors.map(item=><a key={item.id} href={floorRoute(selection.locale,item.id)} aria-current={routeResolved&&selection.floorId===item.id?'page':undefined} onClick={event=>navigate(change('map',item.id),event)}>{item.label}</a>)}</nav>
-            <h3 id="directory-heading" tabIndex={-1}>{j.directory}{routeResolved?` · ${selection.floorId}`:''}</h3>
-            {site.content.areas.filter(a=>a.floorId===selection.floorId).map(area=><a className="area-link" key={area.id} href={href({...change('map'),areaId:area.id})} onClick={event=>navigate({...change('map'),areaId:area.id},event)}>{area.name[selection.locale]}</a>)}
-            {!site.content.areas.some(a=>a.floorId===selection.floorId)&&<p>{j.noAreas}</p>}
-            {selection.areaId&&<aside className="shared-area" aria-label={j.shared}><h3>{j.shared}</h3><ul>{site.destinations.filter(d=>d.locations.some(l=>l.floorId===selection.floorId&&l.areaIds.includes(selection.areaId!))).map(d=><li key={d.id}><a href={href({...selection,destinationId:d.id,areaId:undefined})} onClick={event=>navigate({...selection,destinationId:d.id,areaId:undefined},event)}>{d.name[selection.locale]}</a></li>)}</ul><a href={href({...selection,areaId:undefined})} onClick={event=>navigate({...selection,areaId:undefined},event)}>{j.close}</a></aside>}
-            {routeResolved&&<Directory site={site} selection={selection} navigate={navigate} detailRef={destinationContent} closeDetail={()=>{const next={...selection,destinationId:undefined};history.pushState({scrollY:window.scrollY},'',href(next));setSelection(next);requestAnimationFrame(()=>{const target=returnFocus.current?.isConnected?returnFocus.current:sections.current.map;target?.focus({preventScroll:true});});}}/>}
-            {routeResolved&&floor.preview&&<details><summary>{c.preview} · {floor.label}</summary><img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`} loading="lazy"/></details>}
+            {selection.kind==='map'&&selection.areaId&&<aside className="shared-area" aria-label={j.shared}><h3>{j.shared}</h3><ul>{site.destinations.filter(d=>d.locations.some(l=>l.floorId===selection.floorId&&l.areaIds.includes(selection.areaId!))).map(d=><li key={d.id}><a href={href({...selection,destinationId:d.id,areaId:undefined})} onClick={event=>navigate({...selection,destinationId:d.id,areaId:undefined},event)}>{d.name[selection.locale]}</a></li>)}</ul><a href={href({...selection,areaId:undefined})} onClick={event=>navigate({...selection,areaId:undefined},event)}>{j.close}</a></aside>}
+            {routeResolved&&selection.kind==='map'&&<Directory detailsOnly site={site} selection={selection} navigate={navigate} detailRef={destinationContent} closeDetail={()=>{const next={...selection,destinationId:undefined};history.pushState({scrollY:window.scrollY},'',href(next));setSelection(next);requestAnimationFrame(()=>{const target=returnFocus.current?.isConnected?returnFocus.current:sections.current.map;target?.focus({preventScroll:true});});}}/>}
+          </section>
+          <section className="discovery-introduction" aria-labelledby="discovery-invitation">
+            <h2 id="discovery-invitation">{j.exploreMore}</h2>
+            <p>{j.discoveryInvitation}</p>
+            <a className="discovery-entry" href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{j.enterDiscovery}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
           </section>
           <section id="scene-discovery" ref={element=>{if(element)sections.current.discovery=element;}} tabIndex={-1} className="discovery-reading" aria-label={c.discovery}>
             <Discovery site={site} selection={selection} previewFloor={previewFloor} areaNumbers={areaNumbers} active={selection.kind==='discovery'} navigate={navigate} detailRef={destinationContent} closeDetail={closeDiscovery}/>

@@ -1,0 +1,151 @@
+{
+  "at": "2026-10-18T07:59:32.810Z",
+  "browser": "149.0.7827.198",
+  "runs": [
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "mode": "no-js",
+      "checks": [
+        "Static localized floor route returns 200",
+        "No-JavaScript guide retains source map",
+        "No-JavaScript guide retains ordinary floor navigation",
+        "Public static guide invents no unapproved destination"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "mode": "import-failure",
+      "checks": [],
+      "failed": [
+        "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.error') to be visible\u001b[22m\n"
+      ]
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "mode": "direct-details",
+      "checks": [
+        "Direct destination link retains its requested floor",
+        "Compact details retain verified multi-floor choices",
+        "Direct details do not restore removed map clutter",
+        "Compact destination details switch verified floors",
+        "Compact destination details close normally"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "mode": "no-js",
+      "checks": [
+        "Static localized floor route returns 200",
+        "No-JavaScript guide retains source map",
+        "No-JavaScript guide retains ordinary floor navigation",
+        "Public static guide invents no unapproved destination"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "mode": "import-failure",
+      "checks": [
+        "SVG map survives unavailable 3D",
+        "Vertical map rail works after module failure",
+        "Invitation enters usable Discovery after module failure",
+        "Discovery listings survive unavailable 3D"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "mode": "direct-details",
+      "checks": [
+        "Direct destination link retains its requested floor",
+        "Compact details retain verified multi-floor choices",
+        "Direct details do not restore removed map clutter",
+        "Compact destination details switch verified floors",
+        "Compact destination details close normally"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "mode": "no-js",
+      "checks": [
+        "Static localized floor route returns 200",
+        "No-JavaScript guide retains source map",
+        "No-JavaScript guide retains ordinary floor navigation",
+        "Public static guide invents no unapproved destination"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "mode": "import-failure",
+      "checks": [
+        "SVG map survives unavailable 3D",
+        "Vertical map rail works after module failure",
+        "Invitation enters usable Discovery after module failure",
+        "Discovery listings survive unavailable 3D"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "mode": "direct-details",
+      "checks": [
+        "Direct destination link retains its requested floor",
+        "Compact details retain verified multi-floor choices",
+        "Direct details do not restore removed map clutter",
+        "Compact destination details switch verified floors",
+        "Compact destination details close normally"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "mode": "no-js",
+      "checks": [
+        "Static localized floor route returns 200",
+        "No-JavaScript guide retains source map",
+        "No-JavaScript guide retains ordinary floor navigation",
+        "Public static guide invents no unapproved destination"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "mode": "import-failure",
+      "checks": [
+        "SVG map survives unavailable 3D",
+        "Vertical map rail works after module failure",
+        "Invitation enters usable Discovery after module failure",
+        "Discovery listings survive unavailable 3D"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "mode": "direct-details",
+      "checks": [
+        "Direct destination link retains its requested floor",
+        "Compact details retain verified multi-floor choices",
+        "Direct details do not restore removed map clutter",
+        "Compact destination details switch verified floors",
+        "Compact destination details close normally"
+      ],
+      "failed": []
+    }
+  ]
+}

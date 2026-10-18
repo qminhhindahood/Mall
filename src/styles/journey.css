@@ -178,3 +178,77 @@ html{overflow-anchor:none}
 }
 @media(prefers-reduced-motion:reduce){.scroll-guide>span:nth-child(2){animation:none;opacity:1;transform:none}.overview-caption{transform:none}}
 @media(max-height:600px){.registered-scene{position:relative;top:auto;height:660px;max-height:none}}
+
+/* Owner revision: centered overview, continuous vertical rail and a quiet map. */
+.exterior-floor-journey .introduction{position:relative}
+.exterior-floor-journey .introduction-bottom[data-past=true]{visibility:hidden;pointer-events:none}
+.registered-scene{grid-column:1 / -1;pointer-events:none}
+.visitor-guide .registered-scene .scene-host-exterior{left:38%;width:62%}
+.registered-floors{inset:0 max(0px,calc((100% - 1100px)/2));grid-template-columns:minmax(0,1fr) 72px;column-gap:32px;pointer-events:none}
+.registered-floors .overview-caption{width:100%}
+.registered-floors .overview-caption h2{font-size:clamp(32px,4vw,52px)}
+.registered-floors .floor-rail{pointer-events:auto}
+.visitor-guide .registered-floors .floor-rail a[aria-current=page][data-dim=true]{background:var(--paper)!important;box-shadow:none;font-weight:400}
+.map-discovery-journey{--map-height:clamp(400px,calc(100svh - 240px),640px);display:block;position:relative}
+.persistent-map{top:184px;width:calc(100% - var(--discovery-progress)*54%);max-width:1100px;margin-left:calc(50% + var(--discovery-progress)*27%);transform:translateX(-50%);height:calc(var(--map-height) + 64px);padding:0;pointer-events:none}
+.persistent-map .scene-host{height:var(--map-height);transform-origin:50% 50%}
+.persistent-map .scene-host>.map-transform{padding:24px 104px 64px 24px;pointer-events:auto}
+.persistent-map .scene-host>.map-transform svg{background:transparent}
+.persistent-map .map-controls{top:auto;bottom:0;pointer-events:auto}
+.map-floor-rail{position:absolute;right:0;top:0;height:var(--map-height);display:flex;flex-direction:column;justify-content:center;gap:3px;width:72px;border:0;padding:0;pointer-events:auto;opacity:calc(1 - var(--discovery-progress))}
+.visitor-guide .map-floor-rail a{position:relative;display:flex;align-items:center;justify-content:center;min-height:44px;border:1px solid #88796c;border-radius:8px;text-decoration:none;font-size:16px;font-variant-numeric:tabular-nums;background:var(--paper);color:var(--ink)}
+.map-floor-rail .floor-callout-line{width:24px;transform:none}
+.map-discovery-journey[data-discovery=true] .map-floor-rail{visibility:hidden;pointer-events:none}
+.journey-reading{position:relative;margin-top:calc(-1*(var(--map-height) + 64px));background:transparent;pointer-events:none}
+.journey-reading .map-reading{min-height:110svh;padding:0 0 80px;scroll-margin-top:120px;pointer-events:none}
+.map-reading>h2{text-align:center;margin:0 0 24px}
+.map-reading .directory-panel[data-details-only=true]:empty{display:none}
+.map-reading .destination,.map-reading .shared-area{position:relative;z-index:4;max-width:360px;padding:24px;background:var(--paper);pointer-events:auto}
+.map-reading .directory-panel[data-details-only=true]{max-width:360px}
+.discovery-introduction{position:relative;z-index:3;min-height:90svh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;text-align:center;padding:80px 24px;background:var(--paper);pointer-events:auto}
+.discovery-introduction h2{max-width:20ch;font-size:clamp(36px,4.5vw,64px);line-height:1.14;letter-spacing:-.035em;margin:0;text-wrap:balance}
+.discovery-introduction p{max-width:48ch;margin:0;color:var(--muted)}
+.discovery-entry{display:inline-flex;align-items:center;gap:20px;min-height:48px;padding:12px 0;color:var(--action);text-underline-offset:8px;font-weight:600}
+.discovery-entry svg{width:24px;height:24px;background:none}
+.visitor-guide .discovery-entry svg path{fill:none;stroke:currentColor;stroke-width:1.6}
+.journey-reading .discovery-reading{width:50%;position:relative;z-index:3;background:var(--paper);pointer-events:auto;border:0}
+.discovery-map-context{pointer-events:auto}
+@media(max-width:700px){
+  .registered-scene{grid-column:1;grid-row:2;pointer-events:none}
+  .visitor-guide .registered-scene .scene-host-exterior{left:0;width:100%}
+  .registered-floors{inset:0;grid-template-columns:minmax(0,1fr) 54px;column-gap:12px}
+  .overview-caption h2{font-size:32px}
+  .map-discovery-journey{--map-height:calc(440px - var(--discovery-progress)*160px)}
+  .persistent-map{top:160px;width:100%;margin-left:50%;height:calc(var(--map-height) + 64px);background:var(--paper)}
+  .persistent-map .scene-host{height:var(--map-height);min-height:0}
+  .persistent-map .scene-host>.map-transform{padding:12px 70px 24px 0}
+  .map-floor-rail{width:54px;gap:2px}
+  .map-floor-rail .floor-callout-line{width:16px}
+  .persistent-map .map-controls{position:absolute;bottom:0;margin:0;left:50%;width:max-content;max-width:100%;transform:translateX(-50%)}
+  .map-controls>span{max-width:96px;font-size:16px}
+  .journey-reading .map-reading{min-height:105svh;scroll-margin-top:124px}
+  .journey-reading .discovery-introduction{min-height:85svh;padding:64px 0;scroll-margin-top:124px}
+  .journey-reading .discovery-reading{width:100%;padding-top:32px;scroll-margin-top:calc(160px + 280px + 80px)}
+  .map-reading>h2{font-size:28px}
+  .map-discovery-journey[data-discovery=true] .persistent-map .scene-host>.map-transform{padding-right:0}
+}
+@media(max-height:600px){.persistent-map{position:relative;top:auto}.map-discovery-journey{--map-height:400px}.journey-reading{margin-top:0}}
+/* Keep the graphic on the caption axis; the callout rail stays on its right. */
+.registered-floors .overview-stack{grid-column:1 / -1}
+@media(min-width:701px){.visitor-guide .registered-floors .overview-stack>a{width:min(100%,520px);height:280px;top:calc(var(--floor-index)*44px - 76px)}}
+@media(max-width:700px){
+  .registered-scene{top:144px}
+  .map-discovery-journey{--map-height:calc(440px - var(--discovery-progress)*200px)}
+  .map-discovery-journey[data-discovery=true]{--map-height:240px}
+  .persistent-map{z-index:4;height:calc(var(--map-height) + 96px)}
+  .journey-reading{margin-top:calc(-1*(var(--map-height) + 96px))}
+  .persistent-map .map-controls{bottom:40px}
+  .persistent-map .discovery-map-context{position:absolute;inset:auto 0 0;height:40px;margin:0}
+  .journey-reading .map-reading{scroll-margin-top:148px}
+  .discovery-introduction{z-index:5}
+  .visitor-guide .journey-reading #scene-discovery{scroll-margin-top:512px}
+}
+/* Raised above the SVG even when reduced motion removes its transform layer. */
+.map-floor-rail{z-index:3}
+/* Reserve the phone map band in native flow, including direct Discovery entry. */
+@media(max-width:700px){.visitor-guide .journey-reading #scene-discovery{padding-top:392px;scroll-margin-top:120px}}

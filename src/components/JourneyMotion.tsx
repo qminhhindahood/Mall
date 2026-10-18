@@ -33,7 +33,8 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
       const phone=innerWidth<=700;
       // A sticky element's offsetTop changes as it sticks. Derive the phone's
       // native-flow anchor from the preceding hero, never the moving visual.
-      const startApproach=container.offsetTop+(phone?hero.offsetTop+hero.offsetHeight+(parseFloat(getComputedStyle(visual).marginTop)||0)-116:0);
+      const visualTop=parseFloat(getComputedStyle(visual).top)||0;
+      const startApproach=container.offsetTop+(phone?hero.offsetTop+hero.offsetHeight+(parseFloat(getComputedStyle(visual).marginTop)||0)-visualTop:0);
       const approach=clamp((scrollY-startApproach)/innerHeight);
       const fade=clamp((approach-.55)/.4);
       const reveal=fade*fade*(3-2*fade);
@@ -43,7 +44,7 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
       const copy=container.querySelector<HTMLElement>('.introduction-copy');
       if(copy)copy.inert=revealed===1;
       const cue=container.querySelector<HTMLElement>('.introduction-bottom');
-      if(cue)cue.dataset.past=String(cue.getBoundingClientRect().bottom<0);
+      if(cue){const past=approach>.2;cue.dataset.past=String(past);cue.inert=past;cue.style.opacity=String(1-clamp(approach/.2));}
       visual.dataset.revealed=String(revealed>.08);
       visual.querySelector<HTMLElement>('.registered-floors')!.inert=revealed<1;
       runtime.current?.setJourneyProgress(approach,reducedMotion);
@@ -59,7 +60,7 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
         line.style.transform=`rotate(${-Math.atan2(dy,width)*180/Math.PI}deg)`;
       }
       const start=container.offsetTop+container.offsetHeight-innerHeight;
-      const end=destination.offsetTop-(phone?116:120);
+      const end=destination.offsetTop-(parseFloat(getComputedStyle(destination.querySelector<HTMLElement>('.persistent-map')!).top)||0);
       const progress=reducedMotion?0:clamp((scrollY-start)/Math.max(innerHeight*.45,end-start));
       container.style.setProperty('--floor-travel',String(progress));
       const inFlight=progress>0&&progress<1;

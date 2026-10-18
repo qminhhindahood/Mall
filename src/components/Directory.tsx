@@ -6,10 +6,10 @@ import type { ExplorerSelection } from './Explorer';
 import { selectionHref } from '../data/routes';
 import { journeyCopy } from './journey-copy';
 export type JourneySelection = ExplorerSelection;
-export default function Directory({site,selection,navigate,detailRef,closeDetail}: {
+export default function Directory({site,selection,navigate,detailRef,closeDetail,detailsOnly=false}: {
   site:SiteData; selection:JourneySelection;
   navigate:(next:JourneySelection,event?:MouseEvent<HTMLAnchorElement>)=>void;
-  detailRef:RefObject<HTMLElement|null>; closeDetail:()=>void;
+  detailRef:RefObject<HTMLElement|null>; closeDetail:()=>void; detailsOnly?:boolean;
 }) {
   const c=journeyCopy[selection.locale];
   const [shareStatus,setShareStatus]=useState('');
@@ -21,7 +21,8 @@ export default function Directory({site,selection,navigate,detailRef,closeDetail
   const link=(d:typeof site.destinations[number],floorId=selection.floorId)=>({...selection,kind:'map' as const,destinationId:d.id,floorId:d.floors.includes(floorId)?floorId:d.primaryFloor,areaId:undefined});
   const groups=query||categoryId?site.geometry.floors.map(f=>f.id):[selection.floorId];
   const list=(rows:typeof results,floorId:string)=><ul className="directory-results">{rows.map(d=><li key={d.id}><a href={selectionHref(link(d,floorId))} onClick={event=>{setShareStatus('');navigate(link(d,floorId),event);}}><span>{d.name[selection.locale]}</span><span>{d.floors.join(' · ')}{d.status!=='open'?` · ${c[d.status]}`:''}</span></a></li>)}</ul>;
-  return <div className="directory-panel">
+  return <div className="directory-panel" data-details-only={detailsOnly}>
+    {!detailsOnly&&<>
     {site.content.approval==='fixture'&&<p className="fixture-notice" role="note">{site.content.researchPreview?c.research:c.fixture}</p>}
     {site.content.approval==='pending'&&<p>{c.pending}</p>}
     {site.content.reviewedAt&&!site.content.researchPreview&&<p>{c.reviewed}: <time>{site.content.reviewedAt}</time></p>}
@@ -35,6 +36,7 @@ export default function Directory({site,selection,navigate,detailRef,closeDetail
     {!results.length&&<p>{c.empty}</p>}
     {groups.map(floorId=>{const rows=results.filter(d=>d.floors.includes(floorId));return rows.length?<div key={floorId}><h4>{floorId}</h4>{list(rows,floorId)}</div>:null;})}
     {suggestions.length>0&&<div><h4>{c.suggestions}</h4>{list(suggestions,selection.floorId)}</div>}
+    </>}
     {selected&&<article key={selected.id} ref={detailRef} tabIndex={-1} className="destination" aria-label={selected.name[selection.locale]}>
       <h3>{selected.name[selection.locale]}</h3><button onClick={()=>{setShareStatus('');closeDetail();}}>{c.close}</button>
       <p>{selected.description[selection.locale]||c.descriptionPending}</p>{!site.content.researchPreview&&<p>{c.status}: {selected.openingSoon?c.openingSoon:c[selected.status]}</p>}
@@ -43,6 +45,6 @@ export default function Directory({site,selection,navigate,detailRef,closeDetail
       {!site.content.researchPreview&&<p>{c.recordReviewed}: <time>{selected.reviewedAt}</time></p>}<p>{c.source}: {selected.review.source}</p>
       <button onClick={async()=>{const url=new URL(selectionHref({...selection,query:undefined,categoryId:undefined,areaId:undefined}),location.origin).href;try{await navigator.clipboard.writeText(url);setShareStatus(c.copied);}catch{setShareStatus(`${c.copyError} ${url}`);}}}>{c.share}</button><p role="status" className="share-status">{shareStatus}</p>
     </article>}
-    <details><summary>{c.facilities}</summary><label>{c.facilities}<input type="search" value={facilityQuery} onChange={event=>setFacilityQuery(event.target.value)} /></label>{site.content.facilities.filter(f=>(facilityQuery||f.floorId===selection.floorId)&&normalize(f.name[selection.locale]).includes(normalize(facilityQuery))).map(f=><p key={f.id}>{f.areaId?<a href={selectionHref({...selection,kind:'map',floorId:f.floorId,areaId:f.areaId,destinationId:undefined})} onClick={event=>navigate({...selection,kind:'map',floorId:f.floorId,areaId:f.areaId,destinationId:undefined},event)}>{f.name[selection.locale]}</a>:f.name[selection.locale]} · {f.floorId}{!f.areaId?` · ${c.floorOnly}`:''}</p>)}{!site.content.facilities.some(f=>f.floorId===selection.floorId)&&<p>{c.noFacilities}</p>}</details>
+    {!detailsOnly&&<details><summary>{c.facilities}</summary><label>{c.facilities}<input type="search" value={facilityQuery} onChange={event=>setFacilityQuery(event.target.value)} /></label>{site.content.facilities.filter(f=>(facilityQuery||f.floorId===selection.floorId)&&normalize(f.name[selection.locale]).includes(normalize(facilityQuery))).map(f=><p key={f.id}>{f.areaId?<a href={selectionHref({...selection,kind:'map',floorId:f.floorId,areaId:f.areaId,destinationId:undefined})} onClick={event=>navigate({...selection,kind:'map',floorId:f.floorId,areaId:f.areaId,destinationId:undefined},event)}>{f.name[selection.locale]}</a>:f.name[selection.locale]} · {f.floorId}{!f.areaId?` · ${c.floorOnly}`:''}</p>)}{!site.content.facilities.some(f=>f.floorId===selection.floorId)&&<p>{c.noFacilities}</p>}</details>}
   </div>;
 }

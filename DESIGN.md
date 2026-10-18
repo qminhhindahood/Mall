@@ -80,3 +80,9 @@ The full header appears only after the hero ends and is inert while hidden. Floo
 ## Do's and Don'ts
 
 Keep the approved building assets and concise bilingual introduction. Keep the keyboard skip link and bottom scroll instruction. Do not restore the removed hero-copy CTA buttons or add manual hero orbit/zoom. Do not treat schematic floor geometry or unreviewed directory content as verified visitor data.
+
+## Owner layout amendment — 18 October 2026
+
+The centered overview caption and floor stack now share the page axis, while the introduction keeps its existing copy/building arrangement. Its scroll cue is confined to the introduction and becomes hidden/inert after departure. Matching floor labels, connectors and slabs fade and neutralize together on hover/focus.
+
+The detailed map is a quiet full-width composition with the descending vertical floor rail and compact map tools. The area-link grid, map search/full directory, banner, facilities and reference-image blocks are removed from this interactive section; requested destination details and shared-area selection remain available. Static fallback listings remain independent. A spacious, centered bilingual invitation follows the map and leads to Discovery. Discovery restores browsing beside the same retained map; phone reading stays below the sticky map. This supersedes the earlier left-directory/right-map and four-section layout paragraphs for this revision, without changing the Porcelain palette, fonts, glass controls or content/geometry approval boundaries.

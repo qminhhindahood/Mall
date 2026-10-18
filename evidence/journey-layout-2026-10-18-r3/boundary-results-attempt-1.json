@@ -1,0 +1,154 @@
+{
+  "at": "2026-10-18T07:56:26.951Z",
+  "browser": "149.0.7827.198",
+  "runs": [
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "mode": "no-js",
+      "checks": [
+        "Static localized floor route returns 200",
+        "No-JavaScript guide retains source map",
+        "No-JavaScript guide retains ordinary floor navigation",
+        "Public static guide invents no unapproved destination"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "mode": "import-failure",
+      "checks": [
+        "SVG map survives unavailable 3D",
+        "Vertical map rail works after module failure",
+        "Invitation enters usable Discovery after module failure",
+        "Discovery listings survive unavailable 3D"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "mode": "direct-details",
+      "checks": [
+        "Direct destination link retains its requested floor",
+        "Compact details retain verified multi-floor choices",
+        "Direct details do not restore removed map clutter"
+      ],
+      "failed": [
+        "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.destination nav a[href*=\"floor=L1\"]')\u001b[22m\n\u001b[2m    - locator resolved to <a href=\"/en/stores/loading-test-store?floor=L1&view=map\">L1</a>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div role=\"dialog\" tabindex=\"-1\" aria-modal=\"true\" class=\"loading-screen\" aria-label=\"Preparing complete 3D detail…\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div role=\"dialog\" tabindex=\"-1\" aria-modal=\"true\" class=\"loading-screen\" aria-label=\"Preparing complete 3D detail…\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div role=\"dialog\" tabindex=\"-1\" aria-modal=\"true\" class=\"loading-screen\" aria-label=\"Preparing complete 3D detail…\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - element is not visible\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m  - element was detached from the DOM, retrying\u001b[22m\n"
+      ]
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "mode": "no-js",
+      "checks": [
+        "Static localized floor route returns 200",
+        "No-JavaScript guide retains source map",
+        "No-JavaScript guide retains ordinary floor navigation",
+        "Public static guide invents no unapproved destination"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "mode": "import-failure",
+      "checks": [
+        "SVG map survives unavailable 3D",
+        "Vertical map rail works after module failure",
+        "Invitation enters usable Discovery after module failure",
+        "Discovery listings survive unavailable 3D"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "mode": "direct-details",
+      "checks": [
+        "Direct destination link retains its requested floor",
+        "Compact details retain verified multi-floor choices",
+        "Direct details do not restore removed map clutter",
+        "Compact destination details switch verified floors",
+        "Compact destination details close normally"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "mode": "no-js",
+      "checks": [
+        "Static localized floor route returns 200",
+        "No-JavaScript guide retains source map",
+        "No-JavaScript guide retains ordinary floor navigation",
+        "Public static guide invents no unapproved destination"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "mode": "import-failure",
+      "checks": [
+        "SVG map survives unavailable 3D",
+        "Vertical map rail works after module failure",
+        "Invitation enters usable Discovery after module failure",
+        "Discovery listings survive unavailable 3D"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "mode": "direct-details",
+      "checks": [
+        "Direct destination link retains its requested floor",
+        "Compact details retain verified multi-floor choices",
+        "Direct details do not restore removed map clutter",
+        "Compact destination details switch verified floors",
+        "Compact destination details close normally"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "mode": "no-js",
+      "checks": [
+        "Static localized floor route returns 200",
+        "No-JavaScript guide retains source map",
+        "No-JavaScript guide retains ordinary floor navigation",
+        "Public static guide invents no unapproved destination"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "mode": "import-failure",
+      "checks": [
+        "SVG map survives unavailable 3D",
+        "Vertical map rail works after module failure",
+        "Invitation enters usable Discovery after module failure",
+        "Discovery listings survive unavailable 3D"
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "mode": "direct-details",
+      "checks": [
+        "Direct destination link retains its requested floor",
+        "Compact details retain verified multi-floor choices",
+        "Direct details do not restore removed map clutter",
+        "Compact destination details switch verified floors",
+        "Compact destination details close normally"
+      ],
+      "failed": []
+    }
+  ]
+}
