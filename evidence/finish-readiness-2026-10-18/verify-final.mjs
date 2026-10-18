@@ -34,6 +34,8 @@ for(const [mall,port] of [['saigon-centre',4333],['vincom-dong-khoi',4334]]){
  row.packaging={exitCode:dry.status,error:dry.error?.code??null};await writeFile(`${dir}/dry-run-${mall}.log`,(dry.stdout??'')+(dry.stderr??''));if(dry.status!==0)result.failed.push(`${mall}: dry-run`);
  result.outputs.push(row);
 }
+for(const [p,expected] of Object.entries(result.sourceHashes))if(hash(await readFile(p))!==expected)result.failed.push(`Source changed during verification: ${p}`);
+result.finishedAt=new Date().toISOString();
 await writeFile(`${dir}/final-output-results.json`,JSON.stringify(result,null,2)+'\n');
 console.log(JSON.stringify({head:result.head,malls:result.outputs.map(r=>({mall:r.mall,routes:r.routes.length,resources:r.resources.length,packaging:r.packaging})),failed:result.failed}));
 if(result.failed.length)process.exitCode=1;
