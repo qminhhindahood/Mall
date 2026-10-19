@@ -1,0 +1,609 @@
+{
+  "revision": "delegated-enrichment-review-2026-10-19-r1",
+  "checkedAtUtc": "2026-10-19T22:25:44.1420429Z",
+  "inputSha256": "AA85264FB32259C327BE0E51625B33C1B17080A4E6321919DDF2AF46AA18D458",
+  "authority": "Delegated technical/content review. User: so i cant do the review, you need to manage all of the work till you finish. Not personal owner appearance/content acceptance; local unpublished scope only.",
+  "summary": {
+    "holdOriginal": 9,
+    "usableFieldSlots": 32,
+    "reviewed": 39,
+    "acceptedReplacementLinks": 2,
+    "acceptUnchanged": 30
+  },
+  "limitations": [
+    "Web tool fresh retrieval may use recent crawl; not telephone confirmation or on-site verification.",
+    "Direct PowerShell HTTP fallback was blocked by local socket permissions; web remained available.",
+    "CGV and Dyson exact links remain held after unsuccessful fresh retrieval despite indexed official content.",
+    "Do not promote previous evidence-conflict-hold or unavailable-after-research records.",
+    "Preserve original proposal file and frozen directory; approved values require validated separate path."
+  ],
+  "decisions": [
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-cartier",
+      "field": "website",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/cartier",
+      "proposedValue": null,
+      "proposedUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/cartier",
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-cartier",
+      "field": "phone",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/cartier",
+      "proposedValue": {
+        "vi": "028 3636 9860",
+        "en": "028 3636 9860"
+      },
+      "proposedUrl": null,
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-cartier",
+      "field": "hours",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/cartier",
+      "proposedValue": {
+        "vi": "09:30 – 21:30",
+        "en": "09:30 – 21:30"
+      },
+      "proposedUrl": null,
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-owndays",
+      "field": "website",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/owndays",
+      "proposedValue": null,
+      "proposedUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/owndays",
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-owndays",
+      "field": "phone",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/owndays",
+      "proposedValue": {
+        "vi": "028 7300 9199",
+        "en": "028 7300 9199"
+      },
+      "proposedUrl": null,
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-owndays",
+      "field": "hours",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/owndays",
+      "proposedValue": {
+        "vi": "09:30 – 21:30",
+        "en": "09:30 – 21:30"
+      },
+      "proposedUrl": null,
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-owndays",
+      "field": "services",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/owndays",
+      "proposedValue": {
+        "vi": "Kiểm tra thị lực theo thông tin từ trung tâm thương mại.",
+        "en": "Vision testing listed by the mall."
+      },
+      "proposedUrl": null,
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-meatmeet",
+      "field": "website",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/meat-meet",
+      "proposedValue": null,
+      "proposedUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/meat-meet",
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-meatmeet",
+      "field": "phone",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/meat-meet",
+      "proposedValue": {
+        "vi": "028 6650 5058",
+        "en": "028 6650 5058"
+      },
+      "proposedUrl": null,
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-meatmeet",
+      "field": "hours",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/meat-meet",
+      "proposedValue": {
+        "vi": "09:30 – 21:30",
+        "en": "09:30 – 21:30"
+      },
+      "proposedUrl": null,
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-meatmeet",
+      "field": "menu",
+      "decision": "accept",
+      "sourceUrl": "https://meatandmeet.com.vn/vi/menu/",
+      "proposedValue": null,
+      "proposedUrl": "https://meatandmeet.com.vn/vi/menu/",
+      "applicability": "brand-wide",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval confirms official brand link and its content; accept only as brand-wide, with no branch availability, stock or price assertion."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-lush",
+      "field": "website",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/lush",
+      "proposedValue": null,
+      "proposedUrl": "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/lush",
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-lush",
+      "field": "phone",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/lush",
+      "proposedValue": {
+        "vi": "028 3535 8468",
+        "en": "028 3535 8468"
+      },
+      "proposedUrl": null,
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-lush",
+      "field": "hours",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/lush",
+      "proposedValue": {
+        "vi": "09:30 – 21:30",
+        "en": "09:30 – 21:30"
+      },
+      "proposedUrl": null,
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-annamgourmet",
+      "field": "website",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/annam-gourmet",
+      "proposedValue": null,
+      "proposedUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/annam-gourmet",
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-phuongnambookstore",
+      "field": "website",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/phuong-nam-bookstore",
+      "proposedValue": null,
+      "proposedUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/phuong-nam-bookstore",
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-phuongnambookstore",
+      "field": "phone",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/phuong-nam-bookstore",
+      "proposedValue": {
+        "vi": "091 550 1287",
+        "en": "091 550 1287"
+      },
+      "proposedUrl": null,
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-phuongnambookstore",
+      "field": "hours",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/phuong-nam-bookstore",
+      "proposedValue": {
+        "vi": "09:30 – 21:30",
+        "en": "09:30 – 21:30"
+      },
+      "proposedUrl": null,
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-dji",
+      "field": "website",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/dji",
+      "proposedValue": null,
+      "proposedUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/dji",
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-dji",
+      "field": "hours",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/dji",
+      "proposedValue": {
+        "vi": "09:30 – 21:30",
+        "en": "09:30 – 21:30"
+      },
+      "proposedUrl": null,
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-nike",
+      "field": "website",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nike",
+      "proposedValue": null,
+      "proposedUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nike",
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-nike",
+      "field": "phone",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nike",
+      "proposedValue": {
+        "vi": "028 7301 3634",
+        "en": "028 7301 3634"
+      },
+      "proposedUrl": null,
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-nike",
+      "field": "hours",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nike",
+      "proposedValue": {
+        "vi": "09:30 – 21:30",
+        "en": "09:30 – 21:30"
+      },
+      "proposedUrl": null,
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-nihontoki",
+      "field": "website",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nihon-toki",
+      "proposedValue": null,
+      "proposedUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nihon-toki",
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-nihontoki",
+      "field": "phone",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nihon-toki",
+      "proposedValue": {
+        "vi": "081 853 5959",
+        "en": "081 853 5959"
+      },
+      "proposedUrl": null,
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-nihontoki",
+      "field": "hours",
+      "decision": "accept",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nihon-toki",
+      "proposedValue": {
+        "vi": "09:30 – 21:30",
+        "en": "09:30 – 21:30"
+      },
+      "proposedUrl": null,
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval of official mall branch page confirms identity and exact value; hours are listed operating range, not a verified holiday/day-specific schedule."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-timezone",
+      "field": "website",
+      "decision": "hold",
+      "sourceUrl": "https://vincom.com.vn/vincom-center-dong-khoi/gioi-thieu",
+      "proposedValue": null,
+      "proposedUrl": "https://vincom.com.vn/vincom-center-dong-khoi/gioi-thieu",
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Official mall introduction names tenant but is not a store website. Retain as research evidence only; do not promote generic mall page as store website."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-crocs",
+      "field": "website",
+      "decision": "hold",
+      "sourceUrl": "https://vincom.com.vn/vincom-center-dong-khoi/gioi-thieu",
+      "proposedValue": null,
+      "proposedUrl": "https://vincom.com.vn/vincom-center-dong-khoi/gioi-thieu",
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Official mall introduction names tenant but is not a store website. Retain as research evidence only; do not promote generic mall page as store website."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-winmart",
+      "field": "website",
+      "decision": "hold",
+      "sourceUrl": "https://vincom.com.vn/vincom-center-dong-khoi/gioi-thieu",
+      "proposedValue": null,
+      "proposedUrl": "https://vincom.com.vn/vincom-center-dong-khoi/gioi-thieu",
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Official mall introduction names tenant but is not a store website. Retain as research evidence only; do not promote generic mall page as store website."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-003",
+      "field": "website",
+      "decision": "hold",
+      "sourceUrl": "https://vincom.com.vn/brand/ovs",
+      "proposedValue": null,
+      "proposedUrl": "https://vincom.com.vn/brand/ovs",
+      "applicability": "brand-wide",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Original OVS URL redirects to generic Vincom homepage; not a valid OVS information action."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-pnj",
+      "field": "website",
+      "decision": "hold",
+      "sourceUrl": "https://vincom.com.vn/brand/pnj",
+      "proposedValue": null,
+      "proposedUrl": "https://vincom.com.vn/brand/pnj",
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Original URL did not return readable source content on fresh open. Indexed search supports prior research but is not treated as live confirmation."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-watsons",
+      "field": "website",
+      "decision": "hold",
+      "sourceUrl": "https://vincom.com.vn/brand/watsons",
+      "proposedValue": null,
+      "proposedUrl": "https://vincom.com.vn/brand/watsons",
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Original URL did not return readable source content on fresh open. Indexed search supports prior research but is not treated as live confirmation."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-dyson",
+      "field": "website",
+      "decision": "hold",
+      "sourceUrl": "https://vincom.com.vn/brand/dyson",
+      "proposedValue": null,
+      "proposedUrl": "https://vincom.com.vn/brand/dyson",
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Original URL did not return readable source content on fresh open. Indexed search supports prior research but is not treated as live confirmation."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-mykingdom",
+      "field": "catalog",
+      "decision": "accept",
+      "sourceUrl": "https://www.mykingdom.com.vn/",
+      "proposedValue": null,
+      "proposedUrl": "https://www.mykingdom.com.vn/",
+      "applicability": "brand-wide",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval confirms official brand link and its content; accept only as brand-wide, with no branch availability, stock or price assertion."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-sony",
+      "field": "catalog",
+      "decision": "accept",
+      "sourceUrl": "https://www.sony.com.vn/",
+      "proposedValue": null,
+      "proposedUrl": "https://www.sony.com.vn/",
+      "applicability": "brand-wide",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval confirms official brand link and its content; accept only as brand-wide, with no branch availability, stock or price assertion."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-cgv",
+      "field": "programme",
+      "decision": "hold",
+      "sourceUrl": "https://www.cgv.vn/default/cinox/site/cgv-vincom-dong-khoi/",
+      "proposedValue": null,
+      "proposedUrl": "https://www.cgv.vn/default/cinox/site/cgv-vincom-dong-khoi/",
+      "applicability": "branch",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Original URL did not return readable source content on fresh open. Indexed search supports prior research but is not treated as live confirmation."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-cgv",
+      "field": "phone",
+      "decision": "hold",
+      "sourceUrl": "https://www.cgv.vn/default/cinox/site/cgv-vincom-dong-khoi/",
+      "proposedValue": {
+        "vi": "1900 6017",
+        "en": "1900 6017"
+      },
+      "proposedUrl": null,
+      "applicability": "brand-wide",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Original URL did not return readable source content on fresh open. Indexed search supports prior research but is not treated as live confirmation."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-meatmeet",
+      "field": "website",
+      "decision": "accept",
+      "sourceUrl": "https://meatandmeet.com.vn/vi/meat-meet/",
+      "proposedValue": null,
+      "proposedUrl": "https://meatandmeet.com.vn/vi/meat-meet/",
+      "applicability": "brand-wide",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval confirms official brand link and its content; accept only as brand-wide, with no branch availability, stock or price assertion."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-meatmeet",
+      "field": "menu",
+      "decision": "accept",
+      "sourceUrl": "https://meatandmeet.com.vn/vi/menu/",
+      "proposedValue": null,
+      "proposedUrl": "https://meatandmeet.com.vn/vi/menu/",
+      "applicability": "brand-wide",
+      "checkedAt": "2026-10-19",
+      "reviewer": "Codex delegated technical/content reviewer",
+      "reason": "Fresh web retrieval confirms official brand link and its content; accept only as brand-wide, with no branch availability, stock or price assertion."
+    }
+  ],
+  "replacements": [
+    {
+      "destinationId": "vincom-prototype-pnj",
+      "field": "website",
+      "decision": "accept-replacement",
+      "url": "https://vincom.com.vn/store/pnj-vincom-center-dong-khoi",
+      "sourceUrl": "https://vincom.com.vn/store/pnj-vincom-center-dong-khoi",
+      "applicability": "branch",
+      "branchMallId": "vincom-dong-khoi",
+      "reason": "Official mall store-detail page directly retrieved; title names PNJ Vincom Center Dong Khoi and branch list includes Dong Khoi. Accept link only, not copied prices/policies."
+    },
+    {
+      "destinationId": "vincom-prototype-watsons",
+      "field": "website",
+      "decision": "accept-replacement",
+      "url": "https://www.watsons.vn/vi/store/WTCVN_S0005_EN",
+      "sourceUrl": "https://www.watsons.vn/vi/store/WTCVN_S0005_EN",
+      "applicability": "branch",
+      "branchMallId": "vincom-dong-khoi",
+      "reason": "Official Watsons branch locator directly retrieved; heading identifies Vincom Dong Khoi and address 72 Le Thanh Ton. Link replaces inaccessible Vincom /brand page."
+    }
+  ],
+  "supplementalResearchLead": {
+    "sourceUrl": "https://www.watsons.vn/vi/store/WTCVN_S0005_EN",
+    "status": "Verified readable source; outside original 39. Parent may make separate bounded promotion decision.",
+    "hours": "Monday-Sunday 10:00-22:00, holidays may differ",
+    "phoneAsPublished": "+84-0971088853",
+    "destinationId": "vincom-prototype-watsons"
+  }
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "mall": "saigon-centre",
+    "locale": "en",
+    "width": 1280,
+    "checks": [
+      {
+        "label": "Fixture snapshot replaces approved data and preserves deterministic cafe collection",
+        "pass": true
+      },
+      {
+        "label": "Shared mapped area exposes both independent fixture identities",
+        "pass": true
+      },
+      {
+        "label": "Multi-floor destination exposes both verified floors",
+        "pass": true
+      },
+      {
+        "label": "Multi-floor switch opens verified alternate floor",
+        "pass": true
+      },
+      {
+        "label": "Unmapped fixture destination never invents highlight",
+        "pass": true
+      },
+      {
+        "label": "Synthetic alias finds destination across category and both floors, accent-insensitively",
+        "pass": true
+      },
+      {
+        "label": "Bounded typo suggestion never auto-selects",
+        "pass": true
+      },
+      {
+        "label": "Empty fixture category has truthful recovery",
+        "pass": true
+      }
+    ],
+    "failed": []
+  },
+  {
+    "mall": "saigon-centre",
+    "locale": "vi",
+    "width": 390,
+    "checks": [
+      {
+        "label": "Fixture snapshot replaces approved data and preserves deterministic cafe collection",
+        "pass": true
+      },
+      {
+        "label": "Shared mapped area exposes both independent fixture identities",
+        "pass": true
+      },
+      {
+        "label": "Multi-floor destination exposes both verified floors",
+        "pass": true
+      },
+      {
+        "label": "Multi-floor switch opens verified alternate floor",
+        "pass": true
+      },
+      {
+        "label": "Unmapped fixture destination never invents highlight",
+        "pass": true
+      },
+      {
+        "label": "Synthetic alias finds destination across category and both floors, accent-insensitively",
+        "pass": true
+      },
+      {
+        "label": "Bounded typo suggestion never auto-selects",
+        "pass": true
+      },
+      {
+        "label": "Empty fixture category has truthful recovery",
+        "pass": true
+      }
+    ],
+    "failed": []
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "en",
+    "width": 1280,
+    "checks": [
+      {
+        "label": "Fixture snapshot replaces approved data and preserves deterministic cafe collection",
+        "pass": true
+      },
+      {
+        "label": "Shared mapped area exposes both independent fixture identities",
+        "pass": true
+      },
+      {
+        "label": "Multi-floor destination exposes both verified floors",
+        "pass": true
+      },
+      {
+        "label": "Multi-floor switch opens verified alternate floor",
+        "pass": true
+      },
+      {
+        "label": "Unmapped fixture destination never invents highlight",
+        "pass": true
+      },
+      {
+        "label": "Synthetic alias finds destination across category and both floors, accent-insensitively",
+        "pass": true
+      },
+      {
+        "label": "Bounded typo suggestion never auto-selects",
+        "pass": true
+      },
+      {
+        "label": "Empty fixture category has truthful recovery",
+        "pass": true
+      }
+    ],
+    "failed": []
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "vi",
+    "width": 390,
+    "checks": [
+      {
+        "label": "Fixture snapshot replaces approved data and preserves deterministic cafe collection",
+        "pass": true
+      },
+      {
+        "label": "Shared mapped area exposes both independent fixture identities",
+        "pass": true
+      },
+      {
+        "label": "Multi-floor destination exposes both verified floors",
+        "pass": true
+      },
+      {
+        "label": "Multi-floor switch opens verified alternate floor",
+        "pass": true
+      },
+      {
+        "label": "Unmapped fixture destination never invents highlight",
+        "pass": true
+      },
+      {
+        "label": "Synthetic alias finds destination across category and both floors, accent-insensitively",
+        "pass": true
+      },
+      {
+        "label": "Bounded typo suggestion never auto-selects",
+        "pass": true
+      },
+      {
+        "label": "Empty fixture category has truthful recovery",
+        "pass": true
+      }
+    ],
+    "failed": []
+  }
+]

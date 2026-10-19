@@ -1,0 +1,62 @@
+{
+  "at": "2026-10-19T22:44:17.574Z",
+  "reason": "Inherited harness captures after locale switch; filenames now identify rendered locale, while result locale identifies starting route.",
+  "rows": [
+    {
+      "startingLocale": "en",
+      "renderedLocale": "vi",
+      "inputFile": "saigon-centre-en-1280.png",
+      "correctedFile": "saigon-centre-vi-1280.png",
+      "sha256": "87812052d45708f65aa17fccc301480d29e5a7f03966d0e0faf91b0b948929cb"
+    },
+    {
+      "startingLocale": "vi",
+      "renderedLocale": "en",
+      "inputFile": "saigon-centre-vi-1280.png",
+      "correctedFile": "saigon-centre-en-1280.png",
+      "sha256": "3568769a910450e70399a992caa13432758abeb6d0c61861e3e9284752d5d108"
+    },
+    {
+      "startingLocale": "en",
+      "renderedLocale": "vi",
+      "inputFile": "saigon-centre-en-390.png",
+      "correctedFile": "saigon-centre-vi-390.png",
+      "sha256": "6f6962605a94db1f02f51400b233f4dfcd0837ebfdbb23d015af3f73d3059a84"
+    },
+    {
+      "startingLocale": "vi",
+      "renderedLocale": "en",
+      "inputFile": "saigon-centre-vi-390.png",
+      "correctedFile": "saigon-centre-en-390.png",
+      "sha256": "a5e44f4ae71f6e73f5eabcc52137804b7166730a07a5020b9d322426c6aafb29"
+    },
+    {
+      "startingLocale": "en",
+      "renderedLocale": "vi",
+      "inputFile": "vincom-dong-khoi-en-1280.png",
+      "correctedFile": "vincom-dong-khoi-vi-1280.png",
+      "sha256": "9a44e46895e32f112cbd907a1f38548d449f9a2a9e82acf6d793185f93a6315e"
+    },
+    {
+      "startingLocale": "vi",
+      "renderedLocale": "en",
+      "inputFile": "vincom-dong-khoi-vi-1280.png",
+      "correctedFile": "vincom-dong-khoi-en-1280.png",
+      "sha256": "3089966f05d5eccfca8905c5ba203a20bc2b8d5403c814de3ef868c4b8308bd5"
+    },
+    {
+      "startingLocale": "en",
+      "renderedLocale": "vi",
+      "inputFile": "vincom-dong-khoi-en-390.png",
+      "correctedFile": "vincom-dong-khoi-vi-390.png",
+      "sha256": "466115d52f0a77631ea6bb6a99d77e56a015aaf399ad1565c9f7c703028aa52c"
+    },
+    {
+      "startingLocale": "vi",
+      "renderedLocale": "en",
+      "inputFile": "vincom-dong-khoi-vi-390.png",
+      "correctedFile": "vincom-dong-khoi-en-390.png",
+      "sha256": "ce6d90ae132d4d12f61e7cfb22d9162384400cbe1d6402099a22a2e6ed6e111f"
+    }
+  ]
+}

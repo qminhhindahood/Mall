@@ -1,0 +1,162 @@
+[
+  {
+    "mall": "saigon-centre",
+    "locale": "en",
+    "checks": [
+      {
+        "label": "Official menu source link, no copied prices",
+        "pass": true
+      },
+      {
+        "label": "Menu branch uncertainty explicit",
+        "pass": true
+      },
+      {
+        "label": "Approved additions have no provisional owner warning",
+        "pass": true
+      },
+      {
+        "label": "Saigon branch telephone exact source value",
+        "pass": true
+      },
+      {
+        "label": "Scrolling content cannot cover identity or close control",
+        "pass": true
+      },
+      {
+        "label": "Detail View on map opens same identity",
+        "pass": true
+      },
+      {
+        "label": "Back restores Discovery detail URL and body",
+        "pass": true
+      },
+      {
+        "label": "Failed 3D retains exact direct-store static description",
+        "pass": true
+      },
+      {
+        "label": "Map and Discovery detail bodies agree exactly",
+        "pass": true
+      },
+      {
+        "label": "Static/noJS body agrees exactly",
+        "pass": true
+      },
+      {
+        "label": "Missing-description hold remains useful basic listing",
+        "pass": true
+      },
+      {
+        "label": "Longest approved description intact",
+        "pass": true
+      },
+      {
+        "label": "Long details scroll to final share control",
+        "pass": true
+      },
+      {
+        "label": "Long detail does not overflow page",
+        "pass": true
+      }
+    ],
+    "failed": []
+  },
+  {
+    "mall": "saigon-centre",
+    "locale": "vi",
+    "checks": [
+      {
+        "label": "Official menu source link, no copied prices",
+        "pass": true
+      },
+      {
+        "label": "Menu branch uncertainty explicit",
+        "pass": false
+      }
+    ],
+    "failed": [
+      "Menu branch uncertainty explicit"
+    ]
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "en",
+    "checks": [
+      {
+        "label": "Official menu source link, no copied prices",
+        "pass": true
+      },
+      {
+        "label": "Menu branch uncertainty explicit",
+        "pass": true
+      },
+      {
+        "label": "Approved additions have no provisional owner warning",
+        "pass": true
+      },
+      {
+        "label": "Conflicting hotline withheld",
+        "pass": true
+      },
+      {
+        "label": "Scrolling content cannot cover identity or close control",
+        "pass": true
+      },
+      {
+        "label": "Detail View on map opens same identity",
+        "pass": true
+      },
+      {
+        "label": "Back restores Discovery detail URL and body",
+        "pass": true
+      },
+      {
+        "label": "Failed 3D retains exact direct-store static description",
+        "pass": true
+      },
+      {
+        "label": "Map and Discovery detail bodies agree exactly",
+        "pass": true
+      },
+      {
+        "label": "Static/noJS body agrees exactly",
+        "pass": true
+      },
+      {
+        "label": "Missing-description hold remains useful basic listing",
+        "pass": true
+      },
+      {
+        "label": "Longest approved description intact",
+        "pass": true
+      },
+      {
+        "label": "Long details scroll to final share control",
+        "pass": true
+      },
+      {
+        "label": "Long detail does not overflow page",
+        "pass": true
+      }
+    ],
+    "failed": []
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "vi",
+    "checks": [
+      {
+        "label": "Official menu source link, no copied prices",
+        "pass": true
+      },
+      {
+        "label": "Menu branch uncertainty explicit",
+        "pass": false
+      }
+    ],
+    "failed": [
+      "Menu branch uncertainty explicit"
+    ]
+  }
+]

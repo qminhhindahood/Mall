@@ -1,0 +1,30 @@
+{
+  "sourceCheckpoint": "370be91",
+  "broadBehaviorCheckpoint": "b114498",
+  "runs": [
+    {
+      "name": "builds",
+      "exitCode": 0,
+      "started": "2026-10-19T22:41:55.6794690Z",
+      "finished": "2026-10-19T22:43:05.5620439Z"
+    },
+    {
+      "name": "review",
+      "exitCode": 0,
+      "started": "2026-10-19T22:43:05.5788624Z",
+      "finished": "2026-10-19T22:43:47.6207356Z"
+    },
+    {
+      "name": "parity",
+      "exitCode": 0,
+      "started": "2026-10-19T22:43:47.6237817Z",
+      "finished": "2026-10-19T22:44:38.5604117Z"
+    },
+    {
+      "name": "type-measurement",
+      "exitCode": 0,
+      "started": "2026-10-19T22:44:38.5627791Z",
+      "finished": "2026-10-19T22:44:45.5546196Z"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "mall": "saigon-centre",
+    "locale": "en",
+    "width": 1280,
+    "checks": [
+      {
+        "label": "Direct area Discovery retains selected details through map control",
+        "pass": true
+      },
+      {
+        "label": "Escape closes direct area",
+        "pass": true
+      },
+      {
+        "label": "Back restores direct area detail",
+        "pass": true
+      },
+      {
+        "label": "Back restores Discovery scroll",
+        "pass": true
+      },
+      {
+        "label": "Locale retains Discovery detail",
+        "pass": true
+      }
+    ],
+    "failed": [],
+    "direct": "http://localhost:4401/en?floor=L5&view=discovery&area=research-l5-r4-l5-region-007",
+    "label": "13 · Mapped area · Manwah - Taiwanese Hot Pot"
+  },
+  {
+    "mall": "saigon-centre",
+    "locale": "vi",
+    "width": 390,
+    "checks": [],
+    "failed": [
+      "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.map-controls button').nth(1)\u001b[22m\n\u001b[2m    - locator resolved to <button title=\"Phóng to sơ đồ\" aria-label=\"Phóng to sơ đồ\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    56 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+    ],
+    "direct": "http://localhost:4401/vi?floor=L5&view=discovery&area=research-l5-r4-l5-region-007",
+    "label": "13 · Khu vực trên sơ đồ · Manwah - Taiwanese Hot Pot"
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "en",
+    "width": 1280,
+    "checks": [
+      {
+        "label": "Direct area Discovery retains selected details through map control",
+        "pass": true
+      },
+      {
+        "label": "Escape closes direct area",
+        "pass": true
+      },
+      {
+        "label": "Back restores direct area detail",
+        "pass": true
+      },
+      {
+        "label": "Back restores Discovery scroll",
+        "pass": true
+      },
+      {
+        "label": "Locale retains Discovery detail",
+        "pass": true
+      }
+    ],
+    "failed": [],
+    "direct": "http://localhost:4402/en?floor=B3&view=discovery&area=research-b3-b3-02-03",
+    "label": "2 · Mapped area · Chang Kang Kung"
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "vi",
+    "width": 390,
+    "checks": [],
+    "failed": [
+      "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.map-controls button').nth(1)\u001b[22m\n\u001b[2m    - locator resolved to <button title=\"Phóng to sơ đồ\" aria-label=\"Phóng to sơ đồ\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    59 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+    ],
+    "direct": "http://localhost:4402/vi?floor=B3&view=discovery&area=research-b3-b3-02-03",
+    "label": "2 · Khu vực trên sơ đồ · Chang Kang Kung"
+  }
+]

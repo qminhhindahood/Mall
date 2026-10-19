@@ -1,0 +1,7927 @@
+{
+  "at": "2026-10-19T22:40:22.783Z",
+  "browser": "149.0.7827.198",
+  "profile": "Local Chrome; renderer measured separately in paired capture receipts; exact CSS viewport verified; programmatic forward/reverse scrolling with scroll-event flush, not native-device smoothness acceptance",
+  "runs": [
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "width": 1280,
+      "height": 800,
+      "motion": "no-preference",
+      "failed": [],
+      "url": "http://localhost:4401/en/floors/L5?floor=L5&view=map",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "samples": [
+        {
+          "direction": "forward",
+          "target": 1040,
+          "top": 1040,
+          "opacity": 0.0364583,
+          "progress": 0,
+          "railOpacity": 0.0364583,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 880.0000000000001,
+          "top": 880,
+          "opacity": 0,
+          "progress": 0.25,
+          "railOpacity": 0,
+          "svg": {
+            "top": 224.223388671875,
+            "bottom": 672.218994140625,
+            "left": 236.3450927734375,
+            "right": 1130.3902587890625
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 760,
+          "top": 760,
+          "opacity": 0,
+          "progress": 0.625,
+          "railOpacity": 0,
+          "svg": {
+            "top": 249.0609130859375,
+            "bottom": 658.81884765625,
+            "left": 497.5834655761719,
+            "right": 1119.3792419433594
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 704,
+          "top": 704,
+          "opacity": 0,
+          "progress": 0.8,
+          "railOpacity": 0,
+          "svg": {
+            "top": 260.7357177734375,
+            "bottom": 651.916015625,
+            "left": 615.5245361328125,
+            "right": 1118.27783203125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 640,
+          "top": 640,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 274.0606689453125,
+            "bottom": 643.570068359375,
+            "left": 747.095458984375,
+            "right": 1120.3126220703125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 520,
+          "top": 520,
+          "opacity": 0.0967228,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 440.00000000000006,
+          "top": 440,
+          "opacity": 0.329995,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 400,
+          "top": 400,
+          "opacity": 0.471168,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 368,
+          "top": 368,
+          "opacity": 0.586154,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 320,
+          "top": 320,
+          "opacity": 0.749246,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 240,
+          "top": 240,
+          "opacity": 0.950515,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 140,
+          "top": 140,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 120,
+          "top": 120,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 100,
+          "top": 100,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 100,
+          "top": 100,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 120,
+          "top": 120,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 140,
+          "top": 140,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 240,
+          "top": 240,
+          "opacity": 0.950515,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 320,
+          "top": 320,
+          "opacity": 0.749246,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 368,
+          "top": 368,
+          "opacity": 0.586154,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 400,
+          "top": 400,
+          "opacity": 0.471168,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 440.00000000000006,
+          "top": 440,
+          "opacity": 0.329995,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 520,
+          "top": 520,
+          "opacity": 0.0967228,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 640,
+          "top": 640,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 274.0606689453125,
+            "bottom": 643.570068359375,
+            "left": 747.095458984375,
+            "right": 1120.3126220703125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 704,
+          "top": 704,
+          "opacity": 0,
+          "progress": 0.8,
+          "railOpacity": 0,
+          "svg": {
+            "top": 260.7357177734375,
+            "bottom": 651.916015625,
+            "left": 615.5245361328125,
+            "right": 1118.27783203125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 760,
+          "top": 760,
+          "opacity": 0,
+          "progress": 0.625,
+          "railOpacity": 0,
+          "svg": {
+            "top": 249.0609130859375,
+            "bottom": 658.81884765625,
+            "left": 497.5834655761719,
+            "right": 1119.3792419433594
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 880.0000000000001,
+          "top": 880,
+          "opacity": 0,
+          "progress": 0.25,
+          "railOpacity": 0,
+          "svg": {
+            "top": 224.223388671875,
+            "bottom": 672.218994140625,
+            "left": 236.3450927734375,
+            "right": 1130.3902587890625
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 1040,
+          "top": 1040,
+          "opacity": 0.0364583,
+          "progress": 0,
+          "railOpacity": 0.0364583,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        }
+      ]
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "width": 1280,
+      "height": 800,
+      "motion": "reduce",
+      "failed": [],
+      "url": "http://localhost:4401/en/floors/L5?floor=L5&view=map",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "samples": [
+        {
+          "direction": "forward",
+          "target": 1040,
+          "top": 1040,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 880.0000000000001,
+          "top": 880,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 760,
+          "top": 760,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 704,
+          "top": 704,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 640,
+          "top": 640,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 520,
+          "top": 520,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 440.00000000000006,
+          "top": 440,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 400,
+          "top": 400,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 368,
+          "top": 368,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 320,
+          "top": 320,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 240,
+          "top": 240,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 140,
+          "top": 140,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 120,
+          "top": 120,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 100,
+          "top": 100,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 100,
+          "top": 100,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 120,
+          "top": 120,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 140,
+          "top": 140,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 240,
+          "top": 240,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 320,
+          "top": 320,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 368,
+          "top": 368,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 400,
+          "top": 400,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 440.00000000000006,
+          "top": 440,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 520,
+          "top": 520,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 640,
+          "top": 640,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 704,
+          "top": 704,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 760,
+          "top": 760,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 880.0000000000001,
+          "top": 880,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 1040,
+          "top": 1040,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        }
+      ]
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "width": 1280,
+      "height": 800,
+      "motion": "no-preference",
+      "failed": [],
+      "url": "http://localhost:4401/vi/tang/L5?floor=L5&view=map",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "samples": [
+        {
+          "direction": "forward",
+          "target": 1040,
+          "top": 1040,
+          "opacity": 0.0364583,
+          "progress": 0,
+          "railOpacity": 0.0364583,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 880.0000000000001,
+          "top": 880,
+          "opacity": 0,
+          "progress": 0.25,
+          "railOpacity": 0,
+          "svg": {
+            "top": 224.223388671875,
+            "bottom": 672.218994140625,
+            "left": 236.3450927734375,
+            "right": 1130.3902587890625
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 760,
+          "top": 760,
+          "opacity": 0,
+          "progress": 0.625,
+          "railOpacity": 0,
+          "svg": {
+            "top": 249.0609130859375,
+            "bottom": 658.81884765625,
+            "left": 497.5834655761719,
+            "right": 1119.3792419433594
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 704,
+          "top": 704,
+          "opacity": 0,
+          "progress": 0.8,
+          "railOpacity": 0,
+          "svg": {
+            "top": 260.7357177734375,
+            "bottom": 651.916015625,
+            "left": 615.5245361328125,
+            "right": 1118.27783203125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 640,
+          "top": 640,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 274.0606689453125,
+            "bottom": 643.570068359375,
+            "left": 747.095458984375,
+            "right": 1120.3126220703125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 520,
+          "top": 520,
+          "opacity": 0.0967228,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 440.00000000000006,
+          "top": 440,
+          "opacity": 0.329995,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 400,
+          "top": 400,
+          "opacity": 0.471168,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 368,
+          "top": 368,
+          "opacity": 0.586154,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 320,
+          "top": 320,
+          "opacity": 0.749246,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 240,
+          "top": 240,
+          "opacity": 0.950515,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 140,
+          "top": 140,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 120,
+          "top": 120,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 100,
+          "top": 100,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 100,
+          "top": 100,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 120,
+          "top": 120,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 140,
+          "top": 140,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 240,
+          "top": 240,
+          "opacity": 0.950515,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 320,
+          "top": 320,
+          "opacity": 0.749246,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 368,
+          "top": 368,
+          "opacity": 0.586154,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 400,
+          "top": 400,
+          "opacity": 0.471168,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 440.00000000000006,
+          "top": 440,
+          "opacity": 0.329995,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 520,
+          "top": 520,
+          "opacity": 0.0967228,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 640,
+          "top": 640,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 274.0606689453125,
+            "bottom": 643.570068359375,
+            "left": 747.095458984375,
+            "right": 1120.3126220703125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 704,
+          "top": 704,
+          "opacity": 0,
+          "progress": 0.8,
+          "railOpacity": 0,
+          "svg": {
+            "top": 260.7357177734375,
+            "bottom": 651.916015625,
+            "left": 615.5245361328125,
+            "right": 1118.27783203125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 760,
+          "top": 760,
+          "opacity": 0,
+          "progress": 0.625,
+          "railOpacity": 0,
+          "svg": {
+            "top": 249.0609130859375,
+            "bottom": 658.81884765625,
+            "left": 497.5834655761719,
+            "right": 1119.3792419433594
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 880.0000000000001,
+          "top": 880,
+          "opacity": 0,
+          "progress": 0.25,
+          "railOpacity": 0,
+          "svg": {
+            "top": 224.223388671875,
+            "bottom": 672.218994140625,
+            "left": 236.3450927734375,
+            "right": 1130.3902587890625
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 1040,
+          "top": 1040,
+          "opacity": 0.0364583,
+          "progress": 0,
+          "railOpacity": 0.0364583,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        }
+      ]
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "width": 1280,
+      "height": 800,
+      "motion": "reduce",
+      "failed": [],
+      "url": "http://localhost:4401/vi/tang/L5?floor=L5&view=map",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "samples": [
+        {
+          "direction": "forward",
+          "target": 1040,
+          "top": 1040,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 880.0000000000001,
+          "top": 880,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 760,
+          "top": 760,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 704,
+          "top": 704,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 640,
+          "top": 640,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 520,
+          "top": 520,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 440.00000000000006,
+          "top": 440,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 400,
+          "top": 400,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 368,
+          "top": 368,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 320,
+          "top": 320,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 240,
+          "top": 240,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 140,
+          "top": 140,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 120,
+          "top": 120,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 100,
+          "top": 100,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 100,
+          "top": 100,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 120,
+          "top": 120,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 140,
+          "top": 140,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 240,
+          "top": 240,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 320,
+          "top": 320,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 368,
+          "top": 368,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 400,
+          "top": 400,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 440.00000000000006,
+          "top": 440,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 520,
+          "top": 520,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 640,
+          "top": 640,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 704,
+          "top": 704,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 760,
+          "top": 760,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 880.0000000000001,
+          "top": 880,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 1040,
+          "top": 1040,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        }
+      ]
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "motion": "no-preference",
+      "failed": [],
+      "url": "http://localhost:4401/en/floors/L5?floor=L5&view=map",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "samples": [
+        {
+          "direction": "forward",
+          "target": 1097.2,
+          "top": 1097.5625,
+          "opacity": 0.112288,
+          "progress": 0,
+          "railOpacity": 0.112288,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 928.4000000000001,
+          "top": 928.5625,
+          "opacity": 0,
+          "progress": 0.24951866113744062,
+          "railOpacity": 0,
+          "svg": {
+            "top": 183.0003662109375,
+            "bottom": 519.3197021484375,
+            "left": 26.09954261779785,
+            "right": 296.34026527404785
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 801.8,
+          "top": 801.5625,
+          "opacity": 0,
+          "progress": 0.6257034952606634,
+          "railOpacity": 0,
+          "svg": {
+            "top": 193.68701171875,
+            "bottom": 435.8671875,
+            "left": 36.48883056640625,
+            "right": 290.106689453125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 742.72,
+          "top": 742.5625,
+          "opacity": 0,
+          "progress": 0.8004665284360187,
+          "railOpacity": 0,
+          "svg": {
+            "top": 196.29541015625,
+            "bottom": 398.44482421875,
+            "left": 41.76145935058594,
+            "right": 286.943115234375
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 675.2,
+          "top": 675.5625,
+          "opacity": 0,
+          "progress": 0.9989262440758292,
+          "railOpacity": 0,
+          "svg": {
+            "top": 197.4779052734375,
+            "bottom": 357.264404296875,
+            "left": 48.05339813232422,
+            "right": 283.16796112060547
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 548.6,
+          "top": 276.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 464.20000000000005,
+          "top": 464.5625,
+          "opacity": 0.60461,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 422,
+          "top": 421.5625,
+          "opacity": 0.80356,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 388.24,
+          "top": 388.5625,
+          "opacity": 0.92098,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 337.6,
+          "top": 337.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 253.2,
+          "top": 253.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 168.8,
+          "top": 168.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 159.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 140,
+          "top": 139.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 120,
+          "top": 119.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 100,
+          "top": 99.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 100,
+          "top": 99.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 120,
+          "top": 119.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 140,
+          "top": 139.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 159.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 168.8,
+          "top": 168.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 253.2,
+          "top": 253.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 337.6,
+          "top": 337.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 388.24,
+          "top": 388.5625,
+          "opacity": 0.92098,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 422,
+          "top": 421.5625,
+          "opacity": 0.80356,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 464.20000000000005,
+          "top": 464.5625,
+          "opacity": 0.60461,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 548.6,
+          "top": 548.5625,
+          "opacity": 0.198406,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 675.2,
+          "top": 947.5625,
+          "opacity": 0,
+          "progress": 0.9989262440758292,
+          "railOpacity": 0,
+          "svg": {
+            "top": 197.4779052734375,
+            "bottom": 357.264404296875,
+            "left": 48.05339813232422,
+            "right": 283.16796112060547
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 742.72,
+          "top": 742.5625,
+          "opacity": 0,
+          "progress": 0.8004665284360187,
+          "railOpacity": 0,
+          "svg": {
+            "top": 196.29541015625,
+            "bottom": 398.44482421875,
+            "left": 41.76145935058594,
+            "right": 286.943115234375
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 801.8,
+          "top": 801.5625,
+          "opacity": 0,
+          "progress": 0.6257034952606634,
+          "railOpacity": 0,
+          "svg": {
+            "top": 193.68701171875,
+            "bottom": 435.8671875,
+            "left": 36.48883056640625,
+            "right": 290.106689453125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 928.4000000000001,
+          "top": 928.5625,
+          "opacity": 0,
+          "progress": 0.24951866113744062,
+          "railOpacity": 0,
+          "svg": {
+            "top": 183.0003662109375,
+            "bottom": 519.3197021484375,
+            "left": 26.09954261779785,
+            "right": 296.34026527404785
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 1097.2,
+          "top": 1097.5625,
+          "opacity": 0.112288,
+          "progress": 0,
+          "railOpacity": 0.112288,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        }
+      ]
+    },
+    {
+      "mall": "saigon",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "motion": "reduce",
+      "failed": [],
+      "url": "http://localhost:4401/en/floors/L5?floor=L5&view=map",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "samples": [
+        {
+          "direction": "forward",
+          "target": 1097.2,
+          "top": 1096.921875,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 928.4000000000001,
+          "top": 927.921875,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 801.8,
+          "top": 801.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 742.72,
+          "top": 742.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 675.2,
+          "top": 674.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 548.6,
+          "top": 548.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 464.20000000000005,
+          "top": 463.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 422,
+          "top": 421.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 388.24,
+          "top": 387.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 337.6,
+          "top": 337.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 253.2,
+          "top": 252.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 168.8,
+          "top": 168.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": -112.078125,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 140,
+          "top": 139.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 120,
+          "top": 119.921875,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 100,
+          "top": 99.921875,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 100,
+          "top": 99.921875,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 120,
+          "top": 119.921875,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 140,
+          "top": 139.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 159.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 168.8,
+          "top": 440.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 253.2,
+          "top": 252.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 337.6,
+          "top": 337.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 388.24,
+          "top": 387.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 422,
+          "top": 421.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 464.20000000000005,
+          "top": 463.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 548.6,
+          "top": 548.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 675.2,
+          "top": 674.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 742.72,
+          "top": 742.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 801.8,
+          "top": 801.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 928.4000000000001,
+          "top": 927.921875,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 1097.2,
+          "top": 1096.921875,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        }
+      ]
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "width": 390,
+      "height": 844,
+      "motion": "no-preference",
+      "failed": [],
+      "url": "http://localhost:4401/vi/tang/L5?floor=L5&view=map",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "samples": [
+        {
+          "direction": "forward",
+          "target": 1097.2,
+          "top": 1097.5625,
+          "opacity": 0.112288,
+          "progress": 0,
+          "railOpacity": 0.112288,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 928.4000000000001,
+          "top": 928.5625,
+          "opacity": 0,
+          "progress": 0.24951866113744062,
+          "railOpacity": 0,
+          "svg": {
+            "top": 183.0003662109375,
+            "bottom": 519.3197021484375,
+            "left": 26.09954261779785,
+            "right": 296.34026527404785
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 801.8,
+          "top": 801.5625,
+          "opacity": 0,
+          "progress": 0.6257034952606634,
+          "railOpacity": 0,
+          "svg": {
+            "top": 193.68701171875,
+            "bottom": 435.8671875,
+            "left": 36.48883056640625,
+            "right": 290.106689453125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 742.72,
+          "top": 742.5625,
+          "opacity": 0,
+          "progress": 0.8004665284360187,
+          "railOpacity": 0,
+          "svg": {
+            "top": 196.29541015625,
+            "bottom": 398.44482421875,
+            "left": 41.76145935058594,
+            "right": 286.943115234375
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 675.2,
+          "top": 675.5625,
+          "opacity": 0,
+          "progress": 0.9989262440758292,
+          "railOpacity": 0,
+          "svg": {
+            "top": 197.4779052734375,
+            "bottom": 357.264404296875,
+            "left": 48.05339813232422,
+            "right": 283.16796112060547
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 548.6,
+          "top": 276.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 464.20000000000005,
+          "top": 464.5625,
+          "opacity": 0.60461,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 422,
+          "top": 421.5625,
+          "opacity": 0.80356,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 388.24,
+          "top": 388.5625,
+          "opacity": 0.92098,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 337.6,
+          "top": 337.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 253.2,
+          "top": 253.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 168.8,
+          "top": 168.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 159.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 140,
+          "top": 139.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 120,
+          "top": 119.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 100,
+          "top": 99.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 100,
+          "top": 99.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 120,
+          "top": 119.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 140,
+          "top": 139.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 159.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 168.8,
+          "top": 168.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 253.2,
+          "top": 253.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 337.6,
+          "top": 337.5625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 388.24,
+          "top": 388.5625,
+          "opacity": 0.92098,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 422,
+          "top": 421.5625,
+          "opacity": 0.80356,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 464.20000000000005,
+          "top": 464.5625,
+          "opacity": 0.60461,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 548.6,
+          "top": 548.5625,
+          "opacity": 0.198406,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 675.2,
+          "top": 947.5625,
+          "opacity": 0,
+          "progress": 0.9989262440758292,
+          "railOpacity": 0,
+          "svg": {
+            "top": 197.4779052734375,
+            "bottom": 357.264404296875,
+            "left": 48.05339813232422,
+            "right": 283.16796112060547
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 742.72,
+          "top": 742.5625,
+          "opacity": 0,
+          "progress": 0.8004665284360187,
+          "railOpacity": 0,
+          "svg": {
+            "top": 196.29541015625,
+            "bottom": 398.44482421875,
+            "left": 41.76145935058594,
+            "right": 286.943115234375
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 801.8,
+          "top": 801.5625,
+          "opacity": 0,
+          "progress": 0.6257034952606634,
+          "railOpacity": 0,
+          "svg": {
+            "top": 193.68701171875,
+            "bottom": 435.8671875,
+            "left": 36.48883056640625,
+            "right": 290.106689453125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 928.4000000000001,
+          "top": 928.5625,
+          "opacity": 0,
+          "progress": 0.24951866113744062,
+          "railOpacity": 0,
+          "svg": {
+            "top": 183.0003662109375,
+            "bottom": 519.3197021484375,
+            "left": 26.09954261779785,
+            "right": 296.34026527404785
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 1097.2,
+          "top": 1097.5625,
+          "opacity": 0.112288,
+          "progress": 0,
+          "railOpacity": 0.112288,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        }
+      ]
+    },
+    {
+      "mall": "saigon",
+      "locale": "vi",
+      "width": 390,
+      "height": 844,
+      "motion": "reduce",
+      "failed": [],
+      "url": "http://localhost:4401/vi/tang/L5?floor=L5&view=map",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "samples": [
+        {
+          "direction": "forward",
+          "target": 1097.2,
+          "top": 1096.921875,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 928.4000000000001,
+          "top": 927.921875,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 801.8,
+          "top": 801.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 742.72,
+          "top": 742.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 675.2,
+          "top": 674.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 548.6,
+          "top": 548.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 464.20000000000005,
+          "top": 463.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 422,
+          "top": 421.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 388.24,
+          "top": 387.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 337.6,
+          "top": 337.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 253.2,
+          "top": 252.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 168.8,
+          "top": 168.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": -112.078125,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 140,
+          "top": 139.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 120,
+          "top": 119.921875,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 100,
+          "top": 99.921875,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 100,
+          "top": 99.921875,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 120,
+          "top": 119.921875,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 140,
+          "top": 139.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 159.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 168.8,
+          "top": 440.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 253.2,
+          "top": 252.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 337.6,
+          "top": 337.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 388.24,
+          "top": 387.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 422,
+          "top": 421.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 464.20000000000005,
+          "top": 463.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 548.6,
+          "top": 548.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 675.2,
+          "top": 674.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 742.72,
+          "top": 742.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 801.8,
+          "top": 801.921875,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 928.4000000000001,
+          "top": 927.921875,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 1097.2,
+          "top": 1096.921875,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        }
+      ]
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "width": 1280,
+      "height": 800,
+      "motion": "no-preference",
+      "failed": [],
+      "url": "http://localhost:4402/en/floors/B2?floor=B2&view=map",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "samples": [
+        {
+          "direction": "forward",
+          "target": 1040,
+          "top": 1040,
+          "opacity": 0.0364583,
+          "progress": 0,
+          "railOpacity": 0.0364583,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 880.0000000000001,
+          "top": 880,
+          "opacity": 0,
+          "progress": 0.25,
+          "railOpacity": 0,
+          "svg": {
+            "top": 224.223388671875,
+            "bottom": 672.218994140625,
+            "left": 236.3450927734375,
+            "right": 1130.3902587890625
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 760,
+          "top": 760,
+          "opacity": 0,
+          "progress": 0.625,
+          "railOpacity": 0,
+          "svg": {
+            "top": 249.0609130859375,
+            "bottom": 658.81884765625,
+            "left": 497.5834655761719,
+            "right": 1119.3792419433594
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 704,
+          "top": 704,
+          "opacity": 0,
+          "progress": 0.8,
+          "railOpacity": 0,
+          "svg": {
+            "top": 260.7357177734375,
+            "bottom": 651.916015625,
+            "left": 615.5245361328125,
+            "right": 1118.27783203125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 640,
+          "top": 640,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 274.0606689453125,
+            "bottom": 643.570068359375,
+            "left": 747.095458984375,
+            "right": 1120.3126220703125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 520,
+          "top": 520,
+          "opacity": 0.0967228,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 440.00000000000006,
+          "top": 440,
+          "opacity": 0.329995,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 400,
+          "top": 400,
+          "opacity": 0.471168,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 368,
+          "top": 368,
+          "opacity": 0.586154,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 320,
+          "top": 320,
+          "opacity": 0.749246,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 240,
+          "top": 240,
+          "opacity": 0.950515,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 140,
+          "top": 140,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 120,
+          "top": 120,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 100,
+          "top": 100,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 100,
+          "top": 100,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 120,
+          "top": 120,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 140,
+          "top": 140,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 240,
+          "top": 240,
+          "opacity": 0.950515,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 320,
+          "top": 320,
+          "opacity": 0.749246,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 368,
+          "top": 368,
+          "opacity": 0.586154,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 400,
+          "top": 400,
+          "opacity": 0.471168,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 440.00000000000006,
+          "top": 440,
+          "opacity": 0.329995,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 520,
+          "top": 520,
+          "opacity": 0.0967228,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 640,
+          "top": 640,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 274.0606689453125,
+            "bottom": 643.570068359375,
+            "left": 747.095458984375,
+            "right": 1120.3126220703125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 704,
+          "top": 704,
+          "opacity": 0,
+          "progress": 0.8,
+          "railOpacity": 0,
+          "svg": {
+            "top": 260.7357177734375,
+            "bottom": 651.916015625,
+            "left": 615.5245361328125,
+            "right": 1118.27783203125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 760,
+          "top": 760,
+          "opacity": 0,
+          "progress": 0.625,
+          "railOpacity": 0,
+          "svg": {
+            "top": 249.0609130859375,
+            "bottom": 658.81884765625,
+            "left": 497.5834655761719,
+            "right": 1119.3792419433594
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 880.0000000000001,
+          "top": 880,
+          "opacity": 0,
+          "progress": 0.25,
+          "railOpacity": 0,
+          "svg": {
+            "top": 224.223388671875,
+            "bottom": 672.218994140625,
+            "left": 236.3450927734375,
+            "right": 1130.3902587890625
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 1040,
+          "top": 1040,
+          "opacity": 0.0364583,
+          "progress": 0,
+          "railOpacity": 0.0364583,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        }
+      ]
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "width": 1280,
+      "height": 800,
+      "motion": "reduce",
+      "failed": [],
+      "url": "http://localhost:4402/en/floors/B2?floor=B2&view=map",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "samples": [
+        {
+          "direction": "forward",
+          "target": 1040,
+          "top": 1040,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 880.0000000000001,
+          "top": 880,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 760,
+          "top": 760,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 704,
+          "top": 704,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 640,
+          "top": 640,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 520,
+          "top": 520,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 440.00000000000006,
+          "top": 440,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 400,
+          "top": 400,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 368,
+          "top": 368,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 320,
+          "top": 320,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 240,
+          "top": 240,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 140,
+          "top": 140,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 120,
+          "top": 120,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 100,
+          "top": 100,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 100,
+          "top": 100,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 120,
+          "top": 120,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 140,
+          "top": 140,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 240,
+          "top": 240,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 320,
+          "top": 320,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 368,
+          "top": 368,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 400,
+          "top": 400,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 440.00000000000006,
+          "top": 440,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 520,
+          "top": 520,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 640,
+          "top": 640,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 704,
+          "top": 704,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 760,
+          "top": 760,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 880.0000000000001,
+          "top": 880,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 1040,
+          "top": 1040,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        }
+      ]
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "width": 1280,
+      "height": 800,
+      "motion": "no-preference",
+      "failed": [],
+      "url": "http://localhost:4402/vi/tang/B2?floor=B2&view=map",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "samples": [
+        {
+          "direction": "forward",
+          "target": 1040,
+          "top": 1040,
+          "opacity": 0.0364583,
+          "progress": 0,
+          "railOpacity": 0.0364583,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 880.0000000000001,
+          "top": 880,
+          "opacity": 0,
+          "progress": 0.25,
+          "railOpacity": 0,
+          "svg": {
+            "top": 224.223388671875,
+            "bottom": 672.218994140625,
+            "left": 236.3450927734375,
+            "right": 1130.3902587890625
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 760,
+          "top": 760,
+          "opacity": 0,
+          "progress": 0.625,
+          "railOpacity": 0,
+          "svg": {
+            "top": 249.0609130859375,
+            "bottom": 658.81884765625,
+            "left": 497.5834655761719,
+            "right": 1119.3792419433594
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 704,
+          "top": 704,
+          "opacity": 0,
+          "progress": 0.8,
+          "railOpacity": 0,
+          "svg": {
+            "top": 260.7357177734375,
+            "bottom": 651.916015625,
+            "left": 615.5245361328125,
+            "right": 1118.27783203125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 640,
+          "top": 640,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 274.0606689453125,
+            "bottom": 643.570068359375,
+            "left": 747.095458984375,
+            "right": 1120.3126220703125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 520,
+          "top": 520,
+          "opacity": 0.0967228,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 440.00000000000006,
+          "top": 440,
+          "opacity": 0.329995,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 400,
+          "top": 400,
+          "opacity": 0.471168,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 368,
+          "top": 368,
+          "opacity": 0.586154,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 320,
+          "top": 320,
+          "opacity": 0.749246,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 240,
+          "top": 240,
+          "opacity": 0.950515,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 140,
+          "top": 140,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 120,
+          "top": 120,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 100,
+          "top": 100,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 100,
+          "top": 100,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 120,
+          "top": 120,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 140,
+          "top": 140,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 240,
+          "top": 240,
+          "opacity": 0.950515,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 320,
+          "top": 320,
+          "opacity": 0.749246,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 368,
+          "top": 368,
+          "opacity": 0.586154,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 400,
+          "top": 400,
+          "opacity": 0.471168,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 440.00000000000006,
+          "top": 440,
+          "opacity": 0.329995,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 520,
+          "top": 520,
+          "opacity": 0.0967228,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 640,
+          "top": 640,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 274.0606689453125,
+            "bottom": 643.570068359375,
+            "left": 747.095458984375,
+            "right": 1120.3126220703125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 704,
+          "top": 704,
+          "opacity": 0,
+          "progress": 0.8,
+          "railOpacity": 0,
+          "svg": {
+            "top": 260.7357177734375,
+            "bottom": 651.916015625,
+            "left": 615.5245361328125,
+            "right": 1118.27783203125
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 760,
+          "top": 760,
+          "opacity": 0,
+          "progress": 0.625,
+          "railOpacity": 0,
+          "svg": {
+            "top": 249.0609130859375,
+            "bottom": 658.81884765625,
+            "left": 497.5834655761719,
+            "right": 1119.3792419433594
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 880.0000000000001,
+          "top": 880,
+          "opacity": 0,
+          "progress": 0.25,
+          "railOpacity": 0,
+          "svg": {
+            "top": 224.223388671875,
+            "bottom": 672.218994140625,
+            "left": 236.3450927734375,
+            "right": 1130.3902587890625
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 1040,
+          "top": 1040,
+          "opacity": 0.0364583,
+          "progress": 0,
+          "railOpacity": 0.0364583,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        }
+      ]
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "width": 1280,
+      "height": 800,
+      "motion": "reduce",
+      "failed": [],
+      "url": "http://localhost:4402/vi/tang/B2?floor=B2&view=map",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "samples": [
+        {
+          "direction": "forward",
+          "target": 1040,
+          "top": 1040,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 880.0000000000001,
+          "top": 880,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 760,
+          "top": 760,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 704,
+          "top": 704,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 640,
+          "top": 640,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 520,
+          "top": 520,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 440.00000000000006,
+          "top": 440,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 400,
+          "top": 400,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 368,
+          "top": 368,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 320,
+          "top": 320,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 240,
+          "top": 240,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 140,
+          "top": 140,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 120,
+          "top": 120,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 100,
+          "top": 100,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 100,
+          "top": 100,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 120,
+          "top": 120,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 140,
+          "top": 140,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 240,
+          "top": 240,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 320,
+          "top": 320,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 368,
+          "top": 368,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 400,
+          "top": 400,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 440.00000000000006,
+          "top": 440,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 204,
+            "bottom": 668,
+            "left": 704.6328125,
+            "right": 1231.9921875
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 520,
+          "top": 520,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 640,
+          "top": 640,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 704,
+          "top": 704,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 760,
+          "top": 760,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 712.6328125,
+            "right": 1143.9921875
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 880.0000000000001,
+          "top": 880,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 1040,
+          "top": 1040,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 208,
+            "bottom": 680,
+            "left": 114,
+            "right": 1086
+          },
+          "kind": "map"
+        }
+      ]
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "motion": "no-preference",
+      "failed": [],
+      "url": "http://localhost:4402/en/floors/B2?floor=B2&view=map",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "samples": [
+        {
+          "direction": "forward",
+          "target": 1097.2,
+          "top": 1097.15625,
+          "opacity": 0.110683,
+          "progress": 0,
+          "railOpacity": 0.110683,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 928.4000000000001,
+          "top": 928.15625,
+          "opacity": 0,
+          "progress": 0.2507220082938387,
+          "railOpacity": 0,
+          "svg": {
+            "top": 183.04541015625,
+            "bottom": 519.0390625,
+            "left": 26.130586624145508,
+            "right": 296.32165718078613
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 801.8,
+          "top": 802.15625,
+          "opacity": 0,
+          "progress": 0.6239447571090045,
+          "railOpacity": 0,
+          "svg": {
+            "top": 193.6539306640625,
+            "bottom": 436.2562255859375,
+            "left": 36.437034606933594,
+            "right": 290.13777923583984
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 742.72,
+          "top": 743.15625,
+          "opacity": 0,
+          "progress": 0.79870779028436,
+          "railOpacity": 0,
+          "svg": {
+            "top": 196.2757568359375,
+            "bottom": 398.808837890625,
+            "left": 41.70722198486328,
+            "right": 286.9756851196289
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 675.2,
+          "top": 403.15625,
+          "opacity": 0.874109,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 548.6,
+          "top": 548.15625,
+          "opacity": 0.200093,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 464.20000000000005,
+          "top": 464.15625,
+          "opacity": 0.606632,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 422,
+          "top": 422.15625,
+          "opacity": 0.801101,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 388.24,
+          "top": 388.15625,
+          "opacity": 0.922154,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 337.6,
+          "top": 337.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 253.2,
+          "top": 253.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 168.8,
+          "top": 169.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 140,
+          "top": 140.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 120,
+          "top": 120.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 100,
+          "top": 100.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 100,
+          "top": 100.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 120,
+          "top": 120.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 140,
+          "top": 140.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 168.8,
+          "top": 169.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 253.2,
+          "top": 253.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 337.6,
+          "top": 337.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 388.24,
+          "top": 388.15625,
+          "opacity": 0.922154,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 422,
+          "top": 422.15625,
+          "opacity": 0.801101,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 464.20000000000005,
+          "top": 464.15625,
+          "opacity": 0.606632,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 548.6,
+          "top": 548.15625,
+          "opacity": 0.200093,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 675.2,
+          "top": 675.15625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 742.72,
+          "top": 1015.15625,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 801.8,
+          "top": 802.15625,
+          "opacity": 0,
+          "progress": 0.6239447571090045,
+          "railOpacity": 0,
+          "svg": {
+            "top": 193.6539306640625,
+            "bottom": 436.2562255859375,
+            "left": 36.437034606933594,
+            "right": 290.13777923583984
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 928.4000000000001,
+          "top": 928.15625,
+          "opacity": 0,
+          "progress": 0.2507220082938387,
+          "railOpacity": 0,
+          "svg": {
+            "top": 183.04541015625,
+            "bottom": 519.0390625,
+            "left": 26.130586624145508,
+            "right": 296.32165718078613
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 1097.2,
+          "top": 1097.15625,
+          "opacity": 0.110683,
+          "progress": 0,
+          "railOpacity": 0.110683,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        }
+      ]
+    },
+    {
+      "mall": "vincom",
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "motion": "reduce",
+      "failed": [],
+      "url": "http://localhost:4402/en/floors/B2?floor=B2&view=map",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "samples": [
+        {
+          "direction": "forward",
+          "target": 1097.2,
+          "top": 1097.515625,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 928.4000000000001,
+          "top": 928.515625,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 801.8,
+          "top": 801.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 742.72,
+          "top": 742.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 675.2,
+          "top": 675.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 548.6,
+          "top": 548.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 464.20000000000005,
+          "top": 464.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 422,
+          "top": 421.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 388.24,
+          "top": 388.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 337.6,
+          "top": 337.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 253.2,
+          "top": 253.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 168.8,
+          "top": 168.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": -112.484375,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 140,
+          "top": 139.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 120,
+          "top": 119.515625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 100,
+          "top": 99.515625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 100,
+          "top": 99.515625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 120,
+          "top": 119.515625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 140,
+          "top": 139.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 159.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 168.8,
+          "top": 440.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 253.2,
+          "top": 253.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 337.6,
+          "top": 337.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 388.24,
+          "top": 388.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 422,
+          "top": 421.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 464.20000000000005,
+          "top": 464.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 548.6,
+          "top": 548.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 675.2,
+          "top": 675.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 742.72,
+          "top": 742.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 801.8,
+          "top": 801.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 928.4000000000001,
+          "top": 928.515625,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 1097.2,
+          "top": 1097.515625,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        }
+      ]
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "width": 390,
+      "height": 844,
+      "motion": "no-preference",
+      "failed": [],
+      "url": "http://localhost:4402/vi/tang/B2?floor=B2&view=map",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "samples": [
+        {
+          "direction": "forward",
+          "target": 1097.2,
+          "top": 1097.15625,
+          "opacity": 0.110683,
+          "progress": 0,
+          "railOpacity": 0.110683,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 928.4000000000001,
+          "top": 928.15625,
+          "opacity": 0,
+          "progress": 0.2507220082938387,
+          "railOpacity": 0,
+          "svg": {
+            "top": 183.04541015625,
+            "bottom": 519.0390625,
+            "left": 26.130586624145508,
+            "right": 296.32165718078613
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 801.8,
+          "top": 802.15625,
+          "opacity": 0,
+          "progress": 0.6239447571090045,
+          "railOpacity": 0,
+          "svg": {
+            "top": 193.6539306640625,
+            "bottom": 436.2562255859375,
+            "left": 36.437034606933594,
+            "right": 290.13777923583984
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 742.72,
+          "top": 743.15625,
+          "opacity": 0,
+          "progress": 0.79870779028436,
+          "railOpacity": 0,
+          "svg": {
+            "top": 196.2757568359375,
+            "bottom": 398.808837890625,
+            "left": 41.70722198486328,
+            "right": 286.9756851196289
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 675.2,
+          "top": 403.15625,
+          "opacity": 0.874109,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 548.6,
+          "top": 548.15625,
+          "opacity": 0.200093,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 464.20000000000005,
+          "top": 464.15625,
+          "opacity": 0.606632,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 422,
+          "top": 422.15625,
+          "opacity": 0.801101,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 388.24,
+          "top": 388.15625,
+          "opacity": 0.922154,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 337.6,
+          "top": 337.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 253.2,
+          "top": 253.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 168.8,
+          "top": 169.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": 160.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 140,
+          "top": 140.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 120,
+          "top": 120.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 100,
+          "top": 100.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 100,
+          "top": 100.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 120,
+          "top": 120.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 140,
+          "top": 140.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 160.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 168.8,
+          "top": 169.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 253.2,
+          "top": 253.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 337.6,
+          "top": 337.15625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 388.24,
+          "top": 388.15625,
+          "opacity": 0.922154,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 422,
+          "top": 422.15625,
+          "opacity": 0.801101,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 464.20000000000005,
+          "top": 464.15625,
+          "opacity": 0.606632,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 548.6,
+          "top": 548.15625,
+          "opacity": 0.200093,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 675.2,
+          "top": 675.15625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 742.72,
+          "top": 1015.15625,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 801.8,
+          "top": 802.15625,
+          "opacity": 0,
+          "progress": 0.6239447571090045,
+          "railOpacity": 0,
+          "svg": {
+            "top": 193.6539306640625,
+            "bottom": 436.2562255859375,
+            "left": 36.437034606933594,
+            "right": 290.13777923583984
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 928.4000000000001,
+          "top": 928.15625,
+          "opacity": 0,
+          "progress": 0.2507220082938387,
+          "railOpacity": 0,
+          "svg": {
+            "top": 183.04541015625,
+            "bottom": 519.0390625,
+            "left": 26.130586624145508,
+            "right": 296.32165718078613
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 1097.2,
+          "top": 1097.15625,
+          "opacity": 0.110683,
+          "progress": 0,
+          "railOpacity": 0.110683,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        }
+      ]
+    },
+    {
+      "mall": "vincom",
+      "locale": "vi",
+      "width": 390,
+      "height": 844,
+      "motion": "reduce",
+      "failed": [],
+      "url": "http://localhost:4402/vi/tang/B2?floor=B2&view=map",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "samples": [
+        {
+          "direction": "forward",
+          "target": 1097.2,
+          "top": 1097.515625,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 928.4000000000001,
+          "top": 928.515625,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 801.8,
+          "top": 801.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 742.72,
+          "top": 742.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 675.2,
+          "top": 675.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 548.6,
+          "top": 548.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 464.20000000000005,
+          "top": 464.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 422,
+          "top": 421.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 388.24,
+          "top": 388.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 337.6,
+          "top": 337.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 253.2,
+          "top": 253.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 168.8,
+          "top": 168.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "forward",
+          "target": 160,
+          "top": -112.484375,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 140,
+          "top": 139.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 120,
+          "top": 119.515625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "forward",
+          "target": 100,
+          "top": 99.515625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 100,
+          "top": 99.515625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 120,
+          "top": 119.515625,
+          "opacity": 1,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 140,
+          "top": 139.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 160,
+          "top": 159.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "kind": "discovery"
+        },
+        {
+          "direction": "reverse",
+          "target": 168.8,
+          "top": 440.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 253.2,
+          "top": 253.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 337.6,
+          "top": 337.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 388.24,
+          "top": 388.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 422,
+          "top": 421.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 464.20000000000005,
+          "top": 464.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 548.6,
+          "top": 548.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 675.2,
+          "top": 675.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 742.72,
+          "top": 742.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 801.8,
+          "top": 801.515625,
+          "opacity": 0,
+          "progress": 1,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 376,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 928.4000000000001,
+          "top": 928.515625,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        },
+        {
+          "direction": "reverse",
+          "target": 1097.2,
+          "top": 1097.515625,
+          "opacity": 0,
+          "progress": 0,
+          "railOpacity": 0,
+          "svg": {
+            "top": 172,
+            "bottom": 576,
+            "left": 20,
+            "right": 300
+          },
+          "kind": "map"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+
+> midterm-mall-guide@0.1.0 build:saigon
+> cross-env MALL_ID=saigon-centre npm run build
+
+
+> midterm-mall-guide@0.1.0 build
+> node scripts/prepare-assets.mjs && astro check && astro build && node scripts/prepare-static-release.mjs
+
+{"mall":"saigon-centre","sha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","variants":[{"encoding":"identity","url":"/models/exterior.glb","bytes":2000796,"sha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true},{"encoding":"br","url":"/models/exterior.glb.br","bytes":205547,"sha256":"9eff575af59ccd8820139e547dcb43f9a43a12fa7509f522e7ce747b5a3cf9a0","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true,"quality":5},{"encoding":"gzip","url":"/models/exterior.glb.gz","bytes":271536,"sha256":"7389f4b960058a9047e9c2565f3a0f023c7170701b627e0c0a9bba54e3d28681","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true}]}
+05:41:58 [types] Generated 72ms
+05:41:58 [check] Getting diagnostics for Astro files in D:\Midterm\.scratch\combined-discovery-motion-2026-10-19...
+Result (30 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+05:42:06 [types] Generated 60ms
+05:42:06 [build] output: "static"
+05:42:06 [build] mode: "static"
+05:42:06 [build] directory: D:\Midterm\.scratch\combined-discovery-motion-2026-10-19\dist\fixtures\saigon-centre\
+05:42:06 [build] Collecting build info...
+05:42:06 [build] ✓ Completed in 99ms.
+05:42:06 [build] Building static entrypoints...
+05:42:06 [vite] ✓ built in 179ms
+05:42:07 [WARN] [vite] [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+05:42:07 [vite] ✓ built in 259ms
+05:42:07 [build] Rearranging server assets...
+
+ generating static routes 
+05:42:07   ├─ /404.html (+16ms) 
+05:42:07   ├─ /vi/index.html (+28ms) 
+05:42:07   ├─ /vi/tang/B2/index.html (+33ms) 
+05:42:07   ├─ /vi/tang/B1/index.html (+16ms) 
+05:42:07   ├─ /vi/tang/L1/index.html (+14ms) 
+05:42:07   ├─ /vi/tang/L2/index.html (+16ms) 
+05:42:07   ├─ /vi/tang/L3/index.html (+17ms) 
+05:42:07   ├─ /vi/tang/L4/index.html (+9ms) 
+05:42:07   ├─ /vi/tang/L5/index.html (+16ms) 
+05:42:07   ├─ /vi/tang/L6/index.html (+12ms) 
+05:42:07   ├─ /vi/cua-hang/loading-test-store/index.html (+27ms) 
+05:42:07   ├─ /vi/cua-hang/test-cafe/index.html (+13ms) 
+05:42:07   ├─ /vi/cua-hang/test-coffee/index.html (+18ms) 
+05:42:07   ├─ /vi/cua-hang/test-unknown/index.html (+16ms) 
+05:42:07   ├─ /vi/404/index.html (+2ms) 
+05:42:07   ├─ /en/index.html (+12ms) 
+05:42:07   ├─ /en/floors/B2/index.html (+13ms) 
+05:42:07   ├─ /en/floors/B1/index.html (+14ms) 
+05:42:07   ├─ /en/floors/L1/index.html (+16ms) 
+05:42:07   ├─ /en/floors/L2/index.html (+14ms) 
+05:42:07   ├─ /en/floors/L3/index.html (+19ms) 
+05:42:07   ├─ /en/floors/L4/index.html (+11ms) 
+05:42:07   ├─ /en/floors/L5/index.html (+12ms) 
+05:42:07   ├─ /en/floors/L6/index.html (+7ms) 
+05:42:07   ├─ /en/stores/loading-test-store/index.html (+26ms) 
+05:42:07   ├─ /en/stores/test-cafe/index.html (+14ms) 
+05:42:07   ├─ /en/stores/test-coffee/index.html (+15ms) 
+05:42:07   ├─ /en/stores/test-unknown/index.html (+16ms) 
+05:42:07   ├─ /en/404/index.html (+1ms) 
+05:42:07   ├─ /index.html (+2ms) 
+05:42:07 ✓ Completed in 564ms.
+
+05:42:07 [build] ✓ Completed in 1.05s.
+05:42:07 [build] 30 page(s) built in 1.18s
+05:42:07 [build] Complete!
+{"mall":"saigon-centre","fixture":true,"assetCount":58,"largestAsset":{"path":"dist\\fixtures\\saigon-centre\\data\\floor-geometry.json","bytes":5181012},"directoryApproval":"fixture","siteOrigin":null,"releaseApproved":false}

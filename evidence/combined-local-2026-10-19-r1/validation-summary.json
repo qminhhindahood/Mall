@@ -1,0 +1,230 @@
+{
+  "at": "2026-10-19T22:45:20.590Z",
+  "sourceCheckpoint": "370be91",
+  "builds": [
+    {
+      "mode": "fixture",
+      "mall": "saigon",
+      "start": "2026-10-19T22:41:55.734Z",
+      "end": "2026-10-19T22:42:07.857Z",
+      "exitCode": 0
+    },
+    {
+      "mode": "fixture",
+      "mall": "vincom",
+      "start": "2026-10-19T22:42:07.859Z",
+      "end": "2026-10-19T22:42:18.692Z",
+      "exitCode": 0
+    },
+    {
+      "mode": "public",
+      "mall": "saigon",
+      "start": "2026-10-19T22:42:18.693Z",
+      "end": "2026-10-19T22:42:42.798Z",
+      "exitCode": 0
+    },
+    {
+      "mode": "public",
+      "mall": "vincom",
+      "start": "2026-10-19T22:42:42.800Z",
+      "end": "2026-10-19T22:43:05.552Z",
+      "exitCode": 0
+    }
+  ],
+  "browserCases": 132,
+  "browserAssertions": 1626,
+  "expectedBrowserCases": 132,
+  "suites": [
+    {
+      "name": "entry-controls",
+      "path": "entry-controls-results.json",
+      "expectedCases": 4,
+      "cases": 4,
+      "assertions": 44,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "detail-parity",
+      "path": "detail-parity-results.json",
+      "expectedCases": 4,
+      "cases": 4,
+      "assertions": 60,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "map-pointer",
+      "path": "interaction/browser-results.json",
+      "expectedCases": 8,
+      "cases": 8,
+      "assertions": 192,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "fixtures",
+      "path": "fixture-results.json",
+      "expectedCases": 4,
+      "cases": 4,
+      "assertions": 32,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "journey",
+      "path": "journey/browser-results.json",
+      "expectedCases": 16,
+      "cases": 16,
+      "assertions": 448,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "fallback",
+      "path": "fallback-results.json",
+      "expectedCases": 16,
+      "cases": 16,
+      "assertions": 126,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "area-history",
+      "path": "area-history-results.json",
+      "expectedCases": 4,
+      "cases": 4,
+      "assertions": 20,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "search-review",
+      "path": "review-results.json",
+      "expectedCases": 8,
+      "cases": 8,
+      "assertions": 92,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "rapid-reversals",
+      "path": "reversal-results.json",
+      "expectedCases": 8,
+      "cases": 8,
+      "assertions": 88,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "discovery",
+      "path": "discovery-results.json",
+      "expectedCases": 60,
+      "cases": 60,
+      "assertions": 524,
+      "failures": [],
+      "complete": true
+    }
+  ],
+  "staticRouteChecks": 752,
+  "boundaryChecks": [
+    {
+      "mall": "saigon-centre",
+      "mode": "public",
+      "provisionalSourceValuesInOutput": 0,
+      "approvedMenuFiles": 3,
+      "pass": true
+    },
+    {
+      "mall": "saigon-centre",
+      "mode": "fixtures",
+      "provisionalSourceValuesInOutput": 0,
+      "approvedMenuFiles": 0,
+      "pass": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "mode": "public",
+      "provisionalSourceValuesInOutput": 0,
+      "approvedMenuFiles": 3,
+      "pass": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "mode": "fixtures",
+      "provisionalSourceValuesInOutput": 0,
+      "approvedMenuFiles": 0,
+      "pass": true
+    }
+  ],
+  "motion": {
+    "transitionCases": 16,
+    "expectedTransitionCases": 16,
+    "transitionSamples": 512,
+    "transitionFailures": [],
+    "pacingCases": 8,
+    "expectedPacingCases": 8,
+    "pacingCompositions": 32,
+    "pacingFailures": []
+  },
+  "freshScreenshots": 140,
+  "initialFailures": {
+    "areaHistory": {
+      "cases": 2,
+      "reason": "Copied phone harness opened a fresh collapsed-map deep link then attempted a hidden map control. Targeted VI retry expands through visible control before exercising the same history assertions.",
+      "preserved": "area-history-initial-results.json"
+    },
+    "detailParity": {
+      "cases": 2,
+      "reason": "Copied Vietnamese assertion expected lowercase toàn thương hiệu; actual rendered scope starts Toàn thương hiệu. Only VI cases rerun with full scope and exact accepted uncertainty assertions.",
+      "preserved": "detail-parity-initial-results.json"
+    },
+    "provenance": {
+      "reason": "Git blob LF versus Windows checkout CRLF; raw and normalized SHA-256s retained.",
+      "preserved": "provenance-initial-line-endings.json"
+    }
+  },
+  "limitations": [
+    "Installed local Chrome and emulated CSS/touch/reduced-motion viewports; no physical-device or native background/return acceptance",
+    "No production, push, deployment or release acceptance"
+  ],
+  "cssFollowup": {
+    "sourceCheckpoint": "370be91",
+    "broadBehaviorCheckpoint": "b114498",
+    "runs": [
+      {
+        "name": "builds",
+        "exitCode": 0,
+        "started": "2026-10-19T22:41:55.6794690Z",
+        "finished": "2026-10-19T22:43:05.5620439Z"
+      },
+      {
+        "name": "review",
+        "exitCode": 0,
+        "started": "2026-10-19T22:43:05.5788624Z",
+        "finished": "2026-10-19T22:43:47.6207356Z"
+      },
+      {
+        "name": "parity",
+        "exitCode": 0,
+        "started": "2026-10-19T22:43:47.6237817Z",
+        "finished": "2026-10-19T22:44:38.5604117Z"
+      },
+      {
+        "name": "type-measurement",
+        "exitCode": 0,
+        "started": "2026-10-19T22:44:38.5627791Z",
+        "finished": "2026-10-19T22:44:45.5546196Z"
+      }
+    ],
+    "focusedCases": 12,
+    "focusedAssertions": 152,
+    "computedStyleMeasurementPages": 2,
+    "scope": "Four final builds plus eight responsive search/control/detail cases, four full detail-parity cases and two computed-style measurement pages. Broad behavior and motion remain frozen at b114498; only the twelve-line typography override differs.",
+    "initialBuilds": "pre-css/builds.json",
+    "initialProvenance": "pre-css/provenance.json",
+    "initialBehaviorSummary": "pre-css/validation-summary.json"
+  },
+  "complete": true,
+  "failures": []
+}

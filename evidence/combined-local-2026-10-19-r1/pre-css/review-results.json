@@ -1,0 +1,402 @@
+[
+  {
+    "mall": "saigon-centre",
+    "locale": "en",
+    "width": 1280,
+    "checks": [
+      {
+        "label": "Direct URL respects category restriction",
+        "pass": true
+      },
+      {
+        "label": "Outside-category recovery serializes global scope",
+        "pass": true
+      },
+      {
+        "label": "Retail result found from dining category",
+        "pass": true
+      },
+      {
+        "label": "Back restores restricted results",
+        "pass": true
+      },
+      {
+        "label": "Refresh restores global scope",
+        "pass": true
+      },
+      {
+        "label": "Locale preserves global query and scope",
+        "pass": true
+      },
+      {
+        "label": "Rich body, actions and provenance meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Close remains hit-testable after enlarged long body scroll",
+        "pass": true
+      },
+      {
+        "label": "No horizontal overflow",
+        "pass": true
+      }
+    ],
+    "failed": []
+  },
+  {
+    "mall": "saigon-centre",
+    "locale": "en",
+    "width": 390,
+    "checks": [
+      {
+        "label": "Direct URL respects category restriction",
+        "pass": true
+      },
+      {
+        "label": "Outside-category recovery serializes global scope",
+        "pass": true
+      },
+      {
+        "label": "Retail result found from dining category",
+        "pass": true
+      },
+      {
+        "label": "Back restores restricted results",
+        "pass": true
+      },
+      {
+        "label": "Refresh restores global scope",
+        "pass": true
+      },
+      {
+        "label": "Locale preserves global query and scope",
+        "pass": true
+      },
+      {
+        "label": "Rich body, actions and provenance meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Close remains hit-testable after enlarged long body scroll",
+        "pass": true
+      },
+      {
+        "label": "Expanded map remains reachable with detail open",
+        "pass": true
+      },
+      {
+        "label": "Mobile map expansion control meets 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Map tools retain detail with larger type",
+        "pass": true
+      },
+      {
+        "label": "No horizontal overflow",
+        "pass": true
+      }
+    ],
+    "failed": []
+  },
+  {
+    "mall": "saigon-centre",
+    "locale": "vi",
+    "width": 1280,
+    "checks": [
+      {
+        "label": "Direct URL respects category restriction",
+        "pass": true
+      },
+      {
+        "label": "Outside-category recovery serializes global scope",
+        "pass": true
+      },
+      {
+        "label": "Retail result found from dining category",
+        "pass": true
+      },
+      {
+        "label": "Back restores restricted results",
+        "pass": true
+      },
+      {
+        "label": "Refresh restores global scope",
+        "pass": true
+      },
+      {
+        "label": "Locale preserves global query and scope",
+        "pass": true
+      },
+      {
+        "label": "Rich body, actions and provenance meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Close remains hit-testable after enlarged long body scroll",
+        "pass": true
+      },
+      {
+        "label": "No horizontal overflow",
+        "pass": true
+      }
+    ],
+    "failed": []
+  },
+  {
+    "mall": "saigon-centre",
+    "locale": "vi",
+    "width": 390,
+    "checks": [
+      {
+        "label": "Direct URL respects category restriction",
+        "pass": true
+      },
+      {
+        "label": "Outside-category recovery serializes global scope",
+        "pass": true
+      },
+      {
+        "label": "Retail result found from dining category",
+        "pass": true
+      },
+      {
+        "label": "Back restores restricted results",
+        "pass": true
+      },
+      {
+        "label": "Refresh restores global scope",
+        "pass": true
+      },
+      {
+        "label": "Locale preserves global query and scope",
+        "pass": true
+      },
+      {
+        "label": "Rich body, actions and provenance meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Close remains hit-testable after enlarged long body scroll",
+        "pass": true
+      },
+      {
+        "label": "Expanded map remains reachable with detail open",
+        "pass": true
+      },
+      {
+        "label": "Mobile map expansion control meets 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Map tools retain detail with larger type",
+        "pass": true
+      },
+      {
+        "label": "No horizontal overflow",
+        "pass": true
+      }
+    ],
+    "failed": []
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "en",
+    "width": 1280,
+    "checks": [
+      {
+        "label": "Direct URL respects category restriction",
+        "pass": true
+      },
+      {
+        "label": "Outside-category recovery serializes global scope",
+        "pass": true
+      },
+      {
+        "label": "Retail result found from dining category",
+        "pass": true
+      },
+      {
+        "label": "Back restores restricted results",
+        "pass": true
+      },
+      {
+        "label": "Refresh restores global scope",
+        "pass": true
+      },
+      {
+        "label": "Locale preserves global query and scope",
+        "pass": true
+      },
+      {
+        "label": "Rich body, actions and provenance meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Close remains hit-testable after enlarged long body scroll",
+        "pass": true
+      },
+      {
+        "label": "No horizontal overflow",
+        "pass": true
+      }
+    ],
+    "failed": []
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "en",
+    "width": 390,
+    "checks": [
+      {
+        "label": "Direct URL respects category restriction",
+        "pass": true
+      },
+      {
+        "label": "Outside-category recovery serializes global scope",
+        "pass": true
+      },
+      {
+        "label": "Retail result found from dining category",
+        "pass": true
+      },
+      {
+        "label": "Back restores restricted results",
+        "pass": true
+      },
+      {
+        "label": "Refresh restores global scope",
+        "pass": true
+      },
+      {
+        "label": "Locale preserves global query and scope",
+        "pass": true
+      },
+      {
+        "label": "Rich body, actions and provenance meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Close remains hit-testable after enlarged long body scroll",
+        "pass": true
+      },
+      {
+        "label": "Expanded map remains reachable with detail open",
+        "pass": true
+      },
+      {
+        "label": "Mobile map expansion control meets 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Map tools retain detail with larger type",
+        "pass": true
+      },
+      {
+        "label": "No horizontal overflow",
+        "pass": true
+      }
+    ],
+    "failed": []
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "vi",
+    "width": 1280,
+    "checks": [
+      {
+        "label": "Direct URL respects category restriction",
+        "pass": true
+      },
+      {
+        "label": "Outside-category recovery serializes global scope",
+        "pass": true
+      },
+      {
+        "label": "Retail result found from dining category",
+        "pass": true
+      },
+      {
+        "label": "Back restores restricted results",
+        "pass": true
+      },
+      {
+        "label": "Refresh restores global scope",
+        "pass": true
+      },
+      {
+        "label": "Locale preserves global query and scope",
+        "pass": true
+      },
+      {
+        "label": "Rich body, actions and provenance meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Close remains hit-testable after enlarged long body scroll",
+        "pass": true
+      },
+      {
+        "label": "No horizontal overflow",
+        "pass": true
+      }
+    ],
+    "failed": []
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "vi",
+    "width": 390,
+    "checks": [
+      {
+        "label": "Direct URL respects category restriction",
+        "pass": true
+      },
+      {
+        "label": "Outside-category recovery serializes global scope",
+        "pass": true
+      },
+      {
+        "label": "Retail result found from dining category",
+        "pass": true
+      },
+      {
+        "label": "Back restores restricted results",
+        "pass": true
+      },
+      {
+        "label": "Refresh restores global scope",
+        "pass": true
+      },
+      {
+        "label": "Locale preserves global query and scope",
+        "pass": true
+      },
+      {
+        "label": "Rich body, actions and provenance meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Close remains hit-testable after enlarged long body scroll",
+        "pass": true
+      },
+      {
+        "label": "Expanded map remains reachable with detail open",
+        "pass": true
+      },
+      {
+        "label": "Mobile map expansion control meets 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Map tools retain detail with larger type",
+        "pass": true
+      },
+      {
+        "label": "No horizontal overflow",
+        "pass": true
+      }
+    ],
+    "failed": []
+  }
+]

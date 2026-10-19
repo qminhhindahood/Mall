@@ -1,0 +1,38 @@
+{
+  "revision": "combined-local-2026-10-19-r1",
+  "authority": {
+    "sourceThreadId": "01a15481-7e41-7389-adaa-ffbbc70d5026",
+    "userQuote": "so i cant do the review, you need to manage all of the work till you finish",
+    "scope": "Local isolated Discovery and motion integration, delegated review and validation; no publication or canonical propagation",
+    "personalOwnerReview": false
+  },
+  "content": {
+    "decision": "accept32-hold7",
+    "ledger": "content-decisions.json"
+  },
+  "sourceReview": {
+    "reviewer": "integrated_review",
+    "decision": "pass with fixture guard addressed",
+    "findingsFixed": [
+      "Selected-floor travel used offscreen target instead of settled sticky content position",
+      "Static fallback hydration replaced destination description",
+      "Fixture plus review flag could include provisional payload"
+    ]
+  },
+  "renderedReview": {
+    "decision": "accepted for local candidate under delegated judgment",
+    "reviewer": "Codex delegated integration reviewer",
+    "evidence": "integrated-review.md",
+    "frames": 8,
+    "limits": "Static compositions and browser behavior; not physical-device/native-GPU/production/release acceptance"
+  },
+  "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+  "dataRevision": "approved-directory-2026-10-18-r1",
+  "finalSource": "370be91",
+  "impeccableAudit": {
+    "report": "impeccable-audit.md",
+    "decision": "P2 typography resolved; no remaining significant scoped findings",
+    "confirmation": "28/28 measured text values16px;4viewports without overflow;4fresh frames"
+  },
+  "validation": "validation-summary.json"
+}

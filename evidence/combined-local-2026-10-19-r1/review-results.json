@@ -1,0 +1,1170 @@
+[
+  {
+    "mall": "saigon-centre",
+    "locale": "en",
+    "width": 1280,
+    "checks": [
+      {
+        "label": "Direct URL respects category restriction",
+        "pass": true
+      },
+      {
+        "label": "Outside-category recovery serializes global scope",
+        "pass": true
+      },
+      {
+        "label": "Retail result found from dining category",
+        "pass": true
+      },
+      {
+        "label": "Back restores restricted results",
+        "pass": true
+      },
+      {
+        "label": "Refresh restores global scope",
+        "pass": true
+      },
+      {
+        "label": "Locale preserves global query and scope",
+        "pass": true
+      },
+      {
+        "label": "Rich body, actions and provenance meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Practical category, floor, scope, metadata and map controls meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Close remains hit-testable after enlarged long body scroll",
+        "pass": true
+      },
+      {
+        "label": "No horizontal overflow",
+        "pass": true
+      }
+    ],
+    "failed": [],
+    "practicalTypography": [
+      {
+        "text": "Phóng lớn sơ đồ",
+        "fontSize": 16
+      },
+      {
+        "text": "Tìm nơi bạn muốn ghé, xem ngay trên bản đồ.",
+        "fontSize": 16
+      },
+      {
+        "text": "Tìm địa điểm trong trung tâm",
+        "fontSize": 16
+      },
+      {
+        "text": "Phạm vi tìm kiếmMọi danh mụcẨm thực",
+        "fontSize": 16
+      },
+      {
+        "text": "Thương hiệu cao cấp12",
+        "fontSize": 16
+      },
+      {
+        "text": "Ẩm thực49",
+        "fontSize": 16
+      },
+      {
+        "text": "Thời trang66",
+        "fontSize": 16
+      },
+      {
+        "text": "Mỹ phẩm9",
+        "fontSize": 16
+      },
+      {
+        "text": "Trang sức & đồng hồ13",
+        "fontSize": 16
+      },
+      {
+        "text": "Siêu thị2",
+        "fontSize": 16
+      },
+      {
+        "text": "Nhà sách1",
+        "fontSize": 16
+      },
+      {
+        "text": "Sức khỏe5",
+        "fontSize": 16
+      },
+      {
+        "text": "Điện tử2",
+        "fontSize": 16
+      },
+      {
+        "text": "Thể thao7",
+        "fontSize": 16
+      },
+      {
+        "text": "Trang trí nội thất2",
+        "fontSize": 16
+      },
+      {
+        "text": "Phong cách sống23",
+        "fontSize": 16
+      },
+      {
+        "text": "Chưa phân loại2",
+        "fontSize": 16
+      },
+      {
+        "text": "1 địa điểm",
+        "fontSize": 16
+      },
+      {
+        "text": "L3 · 1",
+        "fontSize": 16
+      },
+      {
+        "text": "Chỉ tầng L3",
+        "fontSize": 16
+      },
+      {
+        "text": "Thời trang · Thể thao",
+        "fontSize": 16
+      },
+      {
+        "text": "Tầng L3 · Có vị trí trên sơ đồ",
+        "fontSize": 16
+      }
+    ],
+    "renderedLocale": "vi",
+    "screenshot": "saigon-centre-vi-1280.png"
+  },
+  {
+    "mall": "saigon-centre",
+    "locale": "en",
+    "width": 390,
+    "checks": [
+      {
+        "label": "Direct URL respects category restriction",
+        "pass": true
+      },
+      {
+        "label": "Outside-category recovery serializes global scope",
+        "pass": true
+      },
+      {
+        "label": "Retail result found from dining category",
+        "pass": true
+      },
+      {
+        "label": "Back restores restricted results",
+        "pass": true
+      },
+      {
+        "label": "Refresh restores global scope",
+        "pass": true
+      },
+      {
+        "label": "Locale preserves global query and scope",
+        "pass": true
+      },
+      {
+        "label": "Rich body, actions and provenance meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Practical category, floor, scope, metadata and map controls meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Close remains hit-testable after enlarged long body scroll",
+        "pass": true
+      },
+      {
+        "label": "Expanded map remains reachable with detail open",
+        "pass": true
+      },
+      {
+        "label": "Mobile map expansion control meets 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Map tools retain detail with larger type",
+        "pass": true
+      },
+      {
+        "label": "No horizontal overflow",
+        "pass": true
+      }
+    ],
+    "failed": [],
+    "practicalTypography": [
+      {
+        "text": "Phóng lớn sơ đồ",
+        "fontSize": 16
+      },
+      {
+        "text": "Tìm nơi bạn muốn ghé, xem ngay trên bản đồ.",
+        "fontSize": 16
+      },
+      {
+        "text": "Tìm địa điểm trong trung tâm",
+        "fontSize": 16
+      },
+      {
+        "text": "Phạm vi tìm kiếmMọi danh mụcẨm thực",
+        "fontSize": 16
+      },
+      {
+        "text": "Thương hiệu cao cấp12",
+        "fontSize": 16
+      },
+      {
+        "text": "Ẩm thực49",
+        "fontSize": 16
+      },
+      {
+        "text": "Thời trang66",
+        "fontSize": 16
+      },
+      {
+        "text": "Mỹ phẩm9",
+        "fontSize": 16
+      },
+      {
+        "text": "Trang sức & đồng hồ13",
+        "fontSize": 16
+      },
+      {
+        "text": "Siêu thị2",
+        "fontSize": 16
+      },
+      {
+        "text": "Nhà sách1",
+        "fontSize": 16
+      },
+      {
+        "text": "Sức khỏe5",
+        "fontSize": 16
+      },
+      {
+        "text": "Điện tử2",
+        "fontSize": 16
+      },
+      {
+        "text": "Thể thao7",
+        "fontSize": 16
+      },
+      {
+        "text": "Trang trí nội thất2",
+        "fontSize": 16
+      },
+      {
+        "text": "Phong cách sống23",
+        "fontSize": 16
+      },
+      {
+        "text": "Chưa phân loại2",
+        "fontSize": 16
+      },
+      {
+        "text": "1 địa điểm",
+        "fontSize": 16
+      },
+      {
+        "text": "L3 · 1",
+        "fontSize": 16
+      },
+      {
+        "text": "Chỉ tầng L3",
+        "fontSize": 16
+      },
+      {
+        "text": "Thời trang · Thể thao",
+        "fontSize": 16
+      },
+      {
+        "text": "Tầng L3 · Có vị trí trên sơ đồ",
+        "fontSize": 16
+      }
+    ],
+    "renderedLocale": "vi",
+    "screenshot": "saigon-centre-vi-390.png"
+  },
+  {
+    "mall": "saigon-centre",
+    "locale": "vi",
+    "width": 1280,
+    "checks": [
+      {
+        "label": "Direct URL respects category restriction",
+        "pass": true
+      },
+      {
+        "label": "Outside-category recovery serializes global scope",
+        "pass": true
+      },
+      {
+        "label": "Retail result found from dining category",
+        "pass": true
+      },
+      {
+        "label": "Back restores restricted results",
+        "pass": true
+      },
+      {
+        "label": "Refresh restores global scope",
+        "pass": true
+      },
+      {
+        "label": "Locale preserves global query and scope",
+        "pass": true
+      },
+      {
+        "label": "Rich body, actions and provenance meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Practical category, floor, scope, metadata and map controls meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Close remains hit-testable after enlarged long body scroll",
+        "pass": true
+      },
+      {
+        "label": "No horizontal overflow",
+        "pass": true
+      }
+    ],
+    "failed": [],
+    "practicalTypography": [
+      {
+        "text": "Expand map",
+        "fontSize": 16
+      },
+      {
+        "text": "Find somewhere to visit and see it on the map.",
+        "fontSize": 16
+      },
+      {
+        "text": "Find a destination in this mall",
+        "fontSize": 16
+      },
+      {
+        "text": "Search scopeAll categoriesDining",
+        "fontSize": 16
+      },
+      {
+        "text": "Luxury brands12",
+        "fontSize": 16
+      },
+      {
+        "text": "Dining49",
+        "fontSize": 16
+      },
+      {
+        "text": "Fashion66",
+        "fontSize": 16
+      },
+      {
+        "text": "Beauty9",
+        "fontSize": 16
+      },
+      {
+        "text": "Jewellery & watches13",
+        "fontSize": 16
+      },
+      {
+        "text": "Supermarket2",
+        "fontSize": 16
+      },
+      {
+        "text": "Bookshop1",
+        "fontSize": 16
+      },
+      {
+        "text": "Health5",
+        "fontSize": 16
+      },
+      {
+        "text": "Electronics2",
+        "fontSize": 16
+      },
+      {
+        "text": "Sports7",
+        "fontSize": 16
+      },
+      {
+        "text": "Home decor2",
+        "fontSize": 16
+      },
+      {
+        "text": "Lifestyle23",
+        "fontSize": 16
+      },
+      {
+        "text": "Uncategorized2",
+        "fontSize": 16
+      },
+      {
+        "text": "1 places",
+        "fontSize": 16
+      },
+      {
+        "text": "L3 · 1",
+        "fontSize": 16
+      },
+      {
+        "text": "Only floor L3",
+        "fontSize": 16
+      },
+      {
+        "text": "Fashion · Sports",
+        "fontSize": 16
+      },
+      {
+        "text": "Floor L3 · Located on the map",
+        "fontSize": 16
+      }
+    ],
+    "renderedLocale": "en",
+    "screenshot": "saigon-centre-en-1280.png"
+  },
+  {
+    "mall": "saigon-centre",
+    "locale": "vi",
+    "width": 390,
+    "checks": [
+      {
+        "label": "Direct URL respects category restriction",
+        "pass": true
+      },
+      {
+        "label": "Outside-category recovery serializes global scope",
+        "pass": true
+      },
+      {
+        "label": "Retail result found from dining category",
+        "pass": true
+      },
+      {
+        "label": "Back restores restricted results",
+        "pass": true
+      },
+      {
+        "label": "Refresh restores global scope",
+        "pass": true
+      },
+      {
+        "label": "Locale preserves global query and scope",
+        "pass": true
+      },
+      {
+        "label": "Rich body, actions and provenance meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Practical category, floor, scope, metadata and map controls meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Close remains hit-testable after enlarged long body scroll",
+        "pass": true
+      },
+      {
+        "label": "Expanded map remains reachable with detail open",
+        "pass": true
+      },
+      {
+        "label": "Mobile map expansion control meets 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Map tools retain detail with larger type",
+        "pass": true
+      },
+      {
+        "label": "No horizontal overflow",
+        "pass": true
+      }
+    ],
+    "failed": [],
+    "practicalTypography": [
+      {
+        "text": "Expand map",
+        "fontSize": 16
+      },
+      {
+        "text": "Find somewhere to visit and see it on the map.",
+        "fontSize": 16
+      },
+      {
+        "text": "Find a destination in this mall",
+        "fontSize": 16
+      },
+      {
+        "text": "Search scopeAll categoriesDining",
+        "fontSize": 16
+      },
+      {
+        "text": "Luxury brands12",
+        "fontSize": 16
+      },
+      {
+        "text": "Dining49",
+        "fontSize": 16
+      },
+      {
+        "text": "Fashion66",
+        "fontSize": 16
+      },
+      {
+        "text": "Beauty9",
+        "fontSize": 16
+      },
+      {
+        "text": "Jewellery & watches13",
+        "fontSize": 16
+      },
+      {
+        "text": "Supermarket2",
+        "fontSize": 16
+      },
+      {
+        "text": "Bookshop1",
+        "fontSize": 16
+      },
+      {
+        "text": "Health5",
+        "fontSize": 16
+      },
+      {
+        "text": "Electronics2",
+        "fontSize": 16
+      },
+      {
+        "text": "Sports7",
+        "fontSize": 16
+      },
+      {
+        "text": "Home decor2",
+        "fontSize": 16
+      },
+      {
+        "text": "Lifestyle23",
+        "fontSize": 16
+      },
+      {
+        "text": "Uncategorized2",
+        "fontSize": 16
+      },
+      {
+        "text": "1 places",
+        "fontSize": 16
+      },
+      {
+        "text": "L3 · 1",
+        "fontSize": 16
+      },
+      {
+        "text": "Only floor L3",
+        "fontSize": 16
+      },
+      {
+        "text": "Fashion · Sports",
+        "fontSize": 16
+      },
+      {
+        "text": "Floor L3 · Located on the map",
+        "fontSize": 16
+      }
+    ],
+    "renderedLocale": "en",
+    "screenshot": "saigon-centre-en-390.png"
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "en",
+    "width": 1280,
+    "checks": [
+      {
+        "label": "Direct URL respects category restriction",
+        "pass": true
+      },
+      {
+        "label": "Outside-category recovery serializes global scope",
+        "pass": true
+      },
+      {
+        "label": "Retail result found from dining category",
+        "pass": true
+      },
+      {
+        "label": "Back restores restricted results",
+        "pass": true
+      },
+      {
+        "label": "Refresh restores global scope",
+        "pass": true
+      },
+      {
+        "label": "Locale preserves global query and scope",
+        "pass": true
+      },
+      {
+        "label": "Rich body, actions and provenance meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Practical category, floor, scope, metadata and map controls meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Close remains hit-testable after enlarged long body scroll",
+        "pass": true
+      },
+      {
+        "label": "No horizontal overflow",
+        "pass": true
+      }
+    ],
+    "failed": [],
+    "practicalTypography": [
+      {
+        "text": "Phóng lớn sơ đồ",
+        "fontSize": 16
+      },
+      {
+        "text": "Tìm nơi bạn muốn ghé, xem ngay trên bản đồ.",
+        "fontSize": 16
+      },
+      {
+        "text": "Tìm địa điểm trong trung tâm",
+        "fontSize": 16
+      },
+      {
+        "text": "Phạm vi tìm kiếmMọi danh mụcẨm thực",
+        "fontSize": 16
+      },
+      {
+        "text": "Thời trang69",
+        "fontSize": 16
+      },
+      {
+        "text": "Ẩm thực54",
+        "fontSize": 16
+      },
+      {
+        "text": "Vui chơi giải trí2",
+        "fontSize": 16
+      },
+      {
+        "text": "Rạp chiếu phim1",
+        "fontSize": 16
+      },
+      {
+        "text": "Mẹ & bé3",
+        "fontSize": 16
+      },
+      {
+        "text": "Nội thất, gia dụng & điện máy2",
+        "fontSize": 16
+      },
+      {
+        "text": "Giày dép & túi xách8",
+        "fontSize": 16
+      },
+      {
+        "text": "Trang sức, đồng hồ & mắt kính13",
+        "fontSize": 16
+      },
+      {
+        "text": "Mỹ phẩm & làm đẹp35",
+        "fontSize": 16
+      },
+      {
+        "text": "Đồ dùng & quà tặng2",
+        "fontSize": 16
+      },
+      {
+        "text": "Siêu thị1",
+        "fontSize": 16
+      },
+      {
+        "text": "Thể thao & wellness4",
+        "fontSize": 16
+      },
+      {
+        "text": "Chưa phân loại9",
+        "fontSize": 16
+      },
+      {
+        "text": "1 địa điểm",
+        "fontSize": 16
+      },
+      {
+        "text": "B1 · 1",
+        "fontSize": 16
+      },
+      {
+        "text": "Chỉ tầng B1",
+        "fontSize": 16
+      },
+      {
+        "text": "Nội thất, gia dụng & điện máy",
+        "fontSize": 16
+      },
+      {
+        "text": "Tầng B1 · Đang đối chiếu vị trí",
+        "fontSize": 16
+      }
+    ],
+    "renderedLocale": "vi",
+    "screenshot": "vincom-dong-khoi-vi-1280.png"
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "en",
+    "width": 390,
+    "checks": [
+      {
+        "label": "Direct URL respects category restriction",
+        "pass": true
+      },
+      {
+        "label": "Outside-category recovery serializes global scope",
+        "pass": true
+      },
+      {
+        "label": "Retail result found from dining category",
+        "pass": true
+      },
+      {
+        "label": "Back restores restricted results",
+        "pass": true
+      },
+      {
+        "label": "Refresh restores global scope",
+        "pass": true
+      },
+      {
+        "label": "Locale preserves global query and scope",
+        "pass": true
+      },
+      {
+        "label": "Rich body, actions and provenance meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Practical category, floor, scope, metadata and map controls meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Close remains hit-testable after enlarged long body scroll",
+        "pass": true
+      },
+      {
+        "label": "Expanded map remains reachable with detail open",
+        "pass": true
+      },
+      {
+        "label": "Mobile map expansion control meets 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Map tools retain detail with larger type",
+        "pass": true
+      },
+      {
+        "label": "No horizontal overflow",
+        "pass": true
+      }
+    ],
+    "failed": [],
+    "practicalTypography": [
+      {
+        "text": "Phóng lớn sơ đồ",
+        "fontSize": 16
+      },
+      {
+        "text": "Tìm nơi bạn muốn ghé, xem ngay trên bản đồ.",
+        "fontSize": 16
+      },
+      {
+        "text": "Tìm địa điểm trong trung tâm",
+        "fontSize": 16
+      },
+      {
+        "text": "Phạm vi tìm kiếmMọi danh mụcẨm thực",
+        "fontSize": 16
+      },
+      {
+        "text": "Thời trang69",
+        "fontSize": 16
+      },
+      {
+        "text": "Ẩm thực54",
+        "fontSize": 16
+      },
+      {
+        "text": "Vui chơi giải trí2",
+        "fontSize": 16
+      },
+      {
+        "text": "Rạp chiếu phim1",
+        "fontSize": 16
+      },
+      {
+        "text": "Mẹ & bé3",
+        "fontSize": 16
+      },
+      {
+        "text": "Nội thất, gia dụng & điện máy2",
+        "fontSize": 16
+      },
+      {
+        "text": "Giày dép & túi xách8",
+        "fontSize": 16
+      },
+      {
+        "text": "Trang sức, đồng hồ & mắt kính13",
+        "fontSize": 16
+      },
+      {
+        "text": "Mỹ phẩm & làm đẹp35",
+        "fontSize": 16
+      },
+      {
+        "text": "Đồ dùng & quà tặng2",
+        "fontSize": 16
+      },
+      {
+        "text": "Siêu thị1",
+        "fontSize": 16
+      },
+      {
+        "text": "Thể thao & wellness4",
+        "fontSize": 16
+      },
+      {
+        "text": "Chưa phân loại9",
+        "fontSize": 16
+      },
+      {
+        "text": "1 địa điểm",
+        "fontSize": 16
+      },
+      {
+        "text": "B1 · 1",
+        "fontSize": 16
+      },
+      {
+        "text": "Chỉ tầng B1",
+        "fontSize": 16
+      },
+      {
+        "text": "Nội thất, gia dụng & điện máy",
+        "fontSize": 16
+      },
+      {
+        "text": "Tầng B1 · Đang đối chiếu vị trí",
+        "fontSize": 16
+      }
+    ],
+    "renderedLocale": "vi",
+    "screenshot": "vincom-dong-khoi-vi-390.png"
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "vi",
+    "width": 1280,
+    "checks": [
+      {
+        "label": "Direct URL respects category restriction",
+        "pass": true
+      },
+      {
+        "label": "Outside-category recovery serializes global scope",
+        "pass": true
+      },
+      {
+        "label": "Retail result found from dining category",
+        "pass": true
+      },
+      {
+        "label": "Back restores restricted results",
+        "pass": true
+      },
+      {
+        "label": "Refresh restores global scope",
+        "pass": true
+      },
+      {
+        "label": "Locale preserves global query and scope",
+        "pass": true
+      },
+      {
+        "label": "Rich body, actions and provenance meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Practical category, floor, scope, metadata and map controls meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Close remains hit-testable after enlarged long body scroll",
+        "pass": true
+      },
+      {
+        "label": "No horizontal overflow",
+        "pass": true
+      }
+    ],
+    "failed": [],
+    "practicalTypography": [
+      {
+        "text": "Expand map",
+        "fontSize": 16
+      },
+      {
+        "text": "Find somewhere to visit and see it on the map.",
+        "fontSize": 16
+      },
+      {
+        "text": "Find a destination in this mall",
+        "fontSize": 16
+      },
+      {
+        "text": "Search scopeAll categoriesDining",
+        "fontSize": 16
+      },
+      {
+        "text": "Fashion69",
+        "fontSize": 16
+      },
+      {
+        "text": "Dining54",
+        "fontSize": 16
+      },
+      {
+        "text": "Entertainment2",
+        "fontSize": 16
+      },
+      {
+        "text": "Cinema1",
+        "fontSize": 16
+      },
+      {
+        "text": "Parent & baby3",
+        "fontSize": 16
+      },
+      {
+        "text": "Home & appliances2",
+        "fontSize": 16
+      },
+      {
+        "text": "Shoes & bags8",
+        "fontSize": 16
+      },
+      {
+        "text": "Jewellery, watches & eyewear13",
+        "fontSize": 16
+      },
+      {
+        "text": "Beauty35",
+        "fontSize": 16
+      },
+      {
+        "text": "Gifts & essentials2",
+        "fontSize": 16
+      },
+      {
+        "text": "Supermarket1",
+        "fontSize": 16
+      },
+      {
+        "text": "Sports & wellness4",
+        "fontSize": 16
+      },
+      {
+        "text": "Uncategorized9",
+        "fontSize": 16
+      },
+      {
+        "text": "1 places",
+        "fontSize": 16
+      },
+      {
+        "text": "B1 · 1",
+        "fontSize": 16
+      },
+      {
+        "text": "Only floor B1",
+        "fontSize": 16
+      },
+      {
+        "text": "Home & appliances",
+        "fontSize": 16
+      },
+      {
+        "text": "Floor B1 · Precise location pending",
+        "fontSize": 16
+      }
+    ],
+    "renderedLocale": "en",
+    "screenshot": "vincom-dong-khoi-en-1280.png"
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "vi",
+    "width": 390,
+    "checks": [
+      {
+        "label": "Direct URL respects category restriction",
+        "pass": true
+      },
+      {
+        "label": "Outside-category recovery serializes global scope",
+        "pass": true
+      },
+      {
+        "label": "Retail result found from dining category",
+        "pass": true
+      },
+      {
+        "label": "Back restores restricted results",
+        "pass": true
+      },
+      {
+        "label": "Refresh restores global scope",
+        "pass": true
+      },
+      {
+        "label": "Locale preserves global query and scope",
+        "pass": true
+      },
+      {
+        "label": "Rich body, actions and provenance meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Practical category, floor, scope, metadata and map controls meet 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Close remains hit-testable after enlarged long body scroll",
+        "pass": true
+      },
+      {
+        "label": "Expanded map remains reachable with detail open",
+        "pass": true
+      },
+      {
+        "label": "Mobile map expansion control meets 16px minimum",
+        "pass": true
+      },
+      {
+        "label": "Map tools retain detail with larger type",
+        "pass": true
+      },
+      {
+        "label": "No horizontal overflow",
+        "pass": true
+      }
+    ],
+    "failed": [],
+    "practicalTypography": [
+      {
+        "text": "Expand map",
+        "fontSize": 16
+      },
+      {
+        "text": "Find somewhere to visit and see it on the map.",
+        "fontSize": 16
+      },
+      {
+        "text": "Find a destination in this mall",
+        "fontSize": 16
+      },
+      {
+        "text": "Search scopeAll categoriesDining",
+        "fontSize": 16
+      },
+      {
+        "text": "Fashion69",
+        "fontSize": 16
+      },
+      {
+        "text": "Dining54",
+        "fontSize": 16
+      },
+      {
+        "text": "Entertainment2",
+        "fontSize": 16
+      },
+      {
+        "text": "Cinema1",
+        "fontSize": 16
+      },
+      {
+        "text": "Parent & baby3",
+        "fontSize": 16
+      },
+      {
+        "text": "Home & appliances2",
+        "fontSize": 16
+      },
+      {
+        "text": "Shoes & bags8",
+        "fontSize": 16
+      },
+      {
+        "text": "Jewellery, watches & eyewear13",
+        "fontSize": 16
+      },
+      {
+        "text": "Beauty35",
+        "fontSize": 16
+      },
+      {
+        "text": "Gifts & essentials2",
+        "fontSize": 16
+      },
+      {
+        "text": "Supermarket1",
+        "fontSize": 16
+      },
+      {
+        "text": "Sports & wellness4",
+        "fontSize": 16
+      },
+      {
+        "text": "Uncategorized9",
+        "fontSize": 16
+      },
+      {
+        "text": "1 places",
+        "fontSize": 16
+      },
+      {
+        "text": "B1 · 1",
+        "fontSize": 16
+      },
+      {
+        "text": "Only floor B1",
+        "fontSize": 16
+      },
+      {
+        "text": "Home & appliances",
+        "fontSize": 16
+      },
+      {
+        "text": "Floor B1 · Precise location pending",
+        "fontSize": 16
+      }
+    ],
+    "renderedLocale": "en",
+    "screenshot": "vincom-dong-khoi-en-390.png"
+  }
+]

@@ -1,0 +1,71 @@
+
+> midterm-mall-guide@0.1.0 build:saigon
+> cross-env MALL_ID=saigon-centre npm run build
+
+
+> midterm-mall-guide@0.1.0 build
+> node scripts/prepare-assets.mjs && astro check && astro build && node scripts/prepare-static-release.mjs
+
+{"mall":"saigon-centre","sha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","variants":[{"encoding":"identity","url":"/models/exterior.glb","bytes":2000796,"sha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true},{"encoding":"br","url":"/models/exterior.glb.br","bytes":205547,"sha256":"9eff575af59ccd8820139e547dcb43f9a43a12fa7509f522e7ce747b5a3cf9a0","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true,"quality":5},{"encoding":"gzip","url":"/models/exterior.glb.gz","bytes":271536,"sha256":"7389f4b960058a9047e9c2565f3a0f023c7170701b627e0c0a9bba54e3d28681","decodedSha256":"f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050","roundtripExact":true}]}
+05:30:28 [vite] Re-optimizing dependencies because vite config has changed
+05:30:29 [vite] [optimizer] bundling dependencies...
+05:30:29 [types] Generated 1.51s
+05:30:29 [check] Getting diagnostics for Astro files in D:\Midterm\.scratch\combined-discovery-motion-2026-10-19...
+Result (30 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+05:30:51 [types] Generated 49ms
+05:30:51 [build] output: "static"
+05:30:51 [build] mode: "static"
+05:30:51 [build] directory: D:\Midterm\.scratch\combined-discovery-motion-2026-10-19\dist\fixtures\saigon-centre\
+05:30:51 [build] Collecting build info...
+05:30:51 [build] ✓ Completed in 93ms.
+05:30:51 [build] Building static entrypoints...
+05:30:52 [vite] ✓ built in 1.44s
+05:30:52 [WARN] [vite] [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+05:30:52 [vite] ✓ built in 391ms
+05:30:52 [build] Rearranging server assets...
+
+ generating static routes 
+05:30:53   ├─ /404.html (+17ms) 
+05:30:53   ├─ /vi/index.html (+45ms) 
+05:30:53   ├─ /vi/tang/B2/index.html (+26ms) 
+05:30:53   ├─ /vi/tang/B1/index.html (+22ms) 
+05:30:53   ├─ /vi/tang/L1/index.html (+17ms) 
+05:30:53   ├─ /vi/tang/L2/index.html (+19ms) 
+05:30:53   ├─ /vi/tang/L3/index.html (+22ms) 
+05:30:53   ├─ /vi/tang/L4/index.html (+16ms) 
+05:30:53   ├─ /vi/tang/L5/index.html (+29ms) 
+05:30:53   ├─ /vi/tang/L6/index.html (+11ms) 
+05:30:53   ├─ /vi/cua-hang/loading-test-store/index.html (+41ms) 
+05:30:53   ├─ /vi/cua-hang/test-cafe/index.html (+17ms) 
+05:30:53   ├─ /vi/cua-hang/test-coffee/index.html (+16ms) 
+05:30:53   ├─ /vi/cua-hang/test-unknown/index.html (+17ms) 
+05:30:53   ├─ /vi/404/index.html (+1ms) 
+05:30:53   ├─ /en/index.html (+16ms) 
+05:30:53   ├─ /en/floors/B2/index.html (+16ms) 
+05:30:53   ├─ /en/floors/B1/index.html (+15ms) 
+05:30:53   ├─ /en/floors/L1/index.html (+17ms) 
+05:30:53   ├─ /en/floors/L2/index.html (+21ms) 
+05:30:53   ├─ /en/floors/L3/index.html (+21ms) 
+05:30:53   ├─ /en/floors/L4/index.html (+13ms) 
+05:30:53   ├─ /en/floors/L5/index.html (+15ms) 
+05:30:53   ├─ /en/floors/L6/index.html (+10ms) 
+05:30:53   ├─ /en/stores/loading-test-store/index.html (+36ms) 
+05:30:53   ├─ /en/stores/test-cafe/index.html (+16ms) 
+05:30:53   ├─ /en/stores/test-coffee/index.html (+19ms) 
+05:30:53   ├─ /en/stores/test-unknown/index.html (+18ms) 
+05:30:53   ├─ /en/404/index.html (+2ms) 
+05:30:53   ├─ /index.html (+3ms) 
+05:30:53 ✓ Completed in 926ms.
+
+05:30:53 [build] ✓ Completed in 2.81s.
+05:30:53 [build] 30 page(s) built in 2.90s
+05:30:53 [build] Complete!
+{"mall":"saigon-centre","fixture":true,"assetCount":58,"largestAsset":{"path":"dist\\fixtures\\saigon-centre\\data\\floor-geometry.json","bytes":5181012},"directoryApproval":"fixture","siteOrigin":null,"releaseApproved":false}
