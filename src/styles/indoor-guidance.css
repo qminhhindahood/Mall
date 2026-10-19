@@ -1,0 +1,10 @@
+.destination-details .indoor-guidance{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:20px 0;padding:4px 0}
+.indoor-guidance summary{padding:10px 0;min-height:44px;font-weight:600;color:var(--ink);font-size:16px}
+.indoor-guidance summary:hover{color:var(--action)}
+.indoor-guidance summary:focus-visible,.indoor-guidance select:focus-visible{outline:3px solid var(--action);outline-offset:3px}
+.indoor-guidance-start{display:grid;gap:8px;margin:16px 0}
+.indoor-guidance-start label{font-size:16px}
+.indoor-guidance-start select{width:100%;min-width:0;min-height:44px;padding:8px 12px;font:inherit;font-size:16px;color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:8px}
+.destination-details .indoor-guidance p{font-size:16px;line-height:1.6;margin:12px 0}
+.destination-details .indoor-guidance-start p{margin:0;color:var(--muted)}
+.indoor-guidance-limit{color:var(--muted)}

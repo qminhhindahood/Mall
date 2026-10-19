@@ -1,5 +1,9 @@
 import {readFile,writeFile,readdir,stat,copyFile} from 'node:fs/promises';
 import {join} from 'node:path';
+// Astro can load PUBLIC_* flags from env files without exporting them to this
+// later Node process. Fail closed rather than emit misleading public metadata.
+const envFiles=(await readdir('.')).filter(name=>/^\.env(?:\.|$)/i.test(name));
+if(envFiles.length)throw new Error(`Static release preparation requires no Astro env files: ${envFiles.join(', ')}`);
 const mall=process.env.MALL_ID??'saigon-centre';
 if(!['saigon-centre','vincom-dong-khoi'].includes(mall))throw new Error('Unknown mall');
 const fixture=['1','research'].includes(process.env.INCLUDE_TEST_FIXTURES);
@@ -33,6 +37,7 @@ await writeFile(`${root}/_headers`, `/*
 const origin=process.env.SITE_ORIGIN;
 if(origin){const url=new URL(origin);if(url.protocol!=='https:'||url.pathname!=='/'||url.search||url.hash||url.username||url.password)throw new Error('SITE_ORIGIN must be the approved HTTPS origin');const routes=files.filter(f=>f.path.endsWith('index.html')&&!f.path.includes('404')).map(f=>f.path.replaceAll('\\','/').slice(root.length).replace(/\/index.html$/,''));await writeFile(`${root}/sitemap.xml`,'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+routes.map(route=>`<url><loc>${new URL(route||'/',origin).href}</loc></url>`).join('')+'</urlset>');await writeFile(`${root}/robots.txt`,`User-agent: *\nAllow: /\nSitemap: ${origin.replace(/\/$/,'')}/sitemap.xml\n`);}
 const directory=JSON.parse(await readFile(`data/malls/${mall}/directory.json`,'utf8'));
-const result={mall,fixture,assetCount:files.length,largestAsset:files.reduce((a,b)=>a.bytes>b.bytes?a:b),directoryApproval:fixture?'fixture':directory.approval,siteOrigin:origin??null,releaseApproved:false};
+const enrichmentReview=process.env.PUBLIC_DISCOVERY_REVIEW==='1';
+const result={mall,fixture,enrichmentReview,assetCount:files.length,largestAsset:files.reduce((a,b)=>a.bytes>b.bytes?a:b),directoryApproval:fixture?'fixture':directory.approval,siteOrigin:origin??null,releaseApproved:false};
 await writeFile(`${root}/release-manifest.json`,JSON.stringify(result,null,2)+'\n');
 console.log(JSON.stringify(result));

@@ -4,6 +4,7 @@ import type { Locale } from '../runtime/scene-contract';
 import { destinationEnrichment, safeOfficialUrl } from '../data/enrichment';
 import { selectionHref } from '../data/routes';
 import { journeyCopy } from './journey-copy';
+import IndoorGuidance from './IndoorGuidance';
 import '../styles/destination-details.css';
 
 const labels = {
@@ -18,12 +19,13 @@ export default function DestinationDetails({site,destination,locale,floorId,desc
   const heading=accepted?(locale==='vi'?'Thông tin khách tham quan đã xác minh':'Verified visitor information'):c.proposal;
   const missingContact=!fields.some(item=>item.field==='phone')||!fields.some(item=>item.field==='hours');
   const mapped=destination.locations.find(l=>l.floorId===floorId)?.certainty==='area-confirmed';
-  const website=destination.website&&safeOfficialUrl(destination.website)?destination.website:undefined;
+  const website=!fields.some(item=>item.field==='website'&&item.state==='verified-agent')&&destination.website&&safeOfficialUrl(destination.website)?destination.website:undefined;
   return <div className="destination-details" data-destination-details={destination.id}>
     <p id={descriptionId}>{destination.description[locale]||j.descriptionPending}</p>
     <dl><dt>{c.floor}</dt><dd>{destination.floors.join(', ')}</dd><dt>{c.category}</dt><dd>{site.content.categories.filter(row=>destination.categories.includes(row.id)).map(row=>row.name[locale]).join(' · ')}</dd>{destination.cuisine&&<><dt>{c.cuisine}</dt><dd>{destination.cuisine[locale]}</dd></>}</dl>
     <p className="detail-location">{mapped?(site.content.researchPreview?j.researchMapped:j.mapped):j.floorOnly}</p>
     {destination.openingSoon&&<p>{j.openingSoon}</p>}
+    <IndoorGuidance site={site} destination={destination} locale={locale} floorId={floorId}/>
     {website&&<p><a href={website} target="_blank" rel="noopener noreferrer">{c.website}<span className="visually-hidden"> · {c.newTab}</span></a></p>}
     <p><a href={selectionHref({locale,floorId:destination.floors.includes(floorId)?floorId:destination.primaryFloor,kind:'map',destinationId:destination.id})}>{locale==='vi'?(mapped?'Xem trên sơ đồ':'Xem tầng'):(mapped?'View on map':'View floor')}</a></p>
     {missingContact&&<p className="detail-missing">{locale==='vi'?'Một số thông tin liên hệ hoặc giờ hoạt động chưa được xác minh. Hãy kiểm tra nguồn chính thức trước khi ghé.':'Some contact or opening-hour information is not yet verified. Check the official source before visiting.'}</p>}
