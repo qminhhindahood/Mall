@@ -79,7 +79,12 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
       const sourceTop=Math.max(stackRect.top,stickyTop+stack.offsetTop)+source.offsetTop;
       const paddingLeft=parseFloat(targetStyle.paddingLeft), paddingTop=parseFloat(targetStyle.paddingTop);
       const left=mix(sourceLeft,targetRect.left+paddingLeft,progress);
-      const top=mix(sourceTop,targetRect.top+paddingTop,progress);
+      const persistent=destination.querySelector<HTMLElement>('.persistent-map')!;
+      const persistentStyle=getComputedStyle(persistent);
+      const settledTop=persistentStyle.position==='sticky'
+        ? (parseFloat(persistentStyle.top)||0)+targetRect.top-persistent.getBoundingClientRect().top
+        : targetRect.top;
+      const top=mix(sourceTop,settledTop+paddingTop,progress);
       const width=mix(source.clientWidth,targetRect.width-paddingLeft-parseFloat(targetStyle.paddingRight),progress);
       const height=mix(source.clientHeight,targetRect.height-paddingTop-parseFloat(targetStyle.paddingBottom),progress);
       const angleX=parseFloat(sourceStyle.getPropertyValue('--floor-angle-x')), angleZ=(phone?-12:-18)+yaw.current*180/Math.PI;

@@ -58,3 +58,28 @@
   .visitor-guide .discovery-glass{left:18px!important;right:18px;top:auto!important;bottom:16px;width:auto!important;max-height:44dvh}.discovery-glass-content{padding:22px}.visitor-guide .discovery-glass h3{font-size:24px}.discovery-glass p{font-size:14px}.discovery-glass dl{grid-template-columns:76px minmax(0,1fr);font-size:13px}.discovery-map-context,.discovery-notice{font-size:13px}
 }
 @media(prefers-reduced-transparency:reduce){.visitor-guide .discovery-glass{background:#fffdfa;backdrop-filter:none;-webkit-backdrop-filter:none}}
+
+/* Discovery-only task hierarchy: search, category results, then optional recommendations. */
+.discovery-search{margin:0 0 24px}.discovery-search input{width:100%}
+.discovery-search-scope{display:flex!important;align-items:center;gap:12px;flex-wrap:wrap;margin-top:12px}
+.discovery-search-scope select{max-width:100%;min-height:44px;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px}
+.discovery-search>a,.discovery-other-floors a{display:inline-flex;align-items:center;min-height:44px}
+.discovery-highlights{margin-top:36px}
+@media(max-width:700px){
+  .map-discovery-journey[data-discovery=true] .persistent-map[data-expanded=false]{height:64px!important;min-height:64px!important}
+  .map-discovery-journey[data-discovery=true] .persistent-map[data-expanded=false] .scene-host,
+  .map-discovery-journey[data-discovery=true] .persistent-map[data-expanded=false] .map-controls,
+  .map-discovery-journey[data-discovery=true] .persistent-map[data-expanded=false] .map-floor-rail{display:none}
+  .map-discovery-journey[data-discovery=true] .discovery-map-context{min-height:64px;padding:4px 8px;gap:8px}
+  .map-discovery-journey[data-discovery=true] .discovery-map-context button{min-height:44px;max-width:55%;font-size:16px}
+  .visitor-guide .map-discovery-journey[data-discovery=true] .journey-reading #scene-discovery{padding-top:92px;scroll-margin-top:120px}
+  .visitor-guide .discovery-glass{max-height:44dvh;bottom:max(12px,env(safe-area-inset-bottom))}
+}
+
+/* Keep the identity and close control outside the scrolling reading area. */
+.visitor-guide .discovery-glass{display:flex;flex-direction:column}
+.discovery-detail-header{display:flex;align-items:flex-start;gap:12px;padding:20px 20px 12px 28px;flex-shrink:0}
+.visitor-guide .discovery-detail-header h3{flex:1;min-width:0;margin:0;font-size:24px}
+.visitor-guide .discovery-detail-header .discovery-close{position:static;flex-shrink:0}
+.discovery-glass-content{min-height:0;max-height:none;padding-top:0;flex-shrink:1}
+@media(max-width:700px){.discovery-detail-header{padding:16px 16px 12px 22px}.visitor-guide .discovery-detail-header h3{font-size:22px}}

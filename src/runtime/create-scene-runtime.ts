@@ -5,6 +5,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import type { FloorGeometry, SceneRequest, SceneRuntime, SceneRuntimeOptions } from './scene-contract';
 import { timing } from './loading-timing';
+import { mallMotion } from './mall-motion';
 
 type View = { scene: Scene; camera: PerspectiveCamera; group: Group; exteriorFit?: {center:Vector3;radius:number} };
 type Task = { request: SceneRequest; priority: number; resolve(): void; reject(error: unknown): void };
@@ -33,6 +34,7 @@ function floorBuffer(floor: FloorGeometry): BufferGeometry {
 
 export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<SceneRuntime> {
   const { canvas, data } = options;
+  const motion = mallMotion[options.mallId];
   const detail = { mallId: options.mallId, assetRevision: options.assetRevision, geometryRevision: data.revision };
   const setupDone = timing('renderer-setup', detail);
   let disposed=false, failed: Error|null=null, active=!document.hidden, paused=options.reducedMotion, raf=0, last=0, serial=0, journeyProgress=0, approachRotation=0;
@@ -114,11 +116,14 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
         const halfAngle=Math.atan(Math.tan(view.camera.fov*Math.PI/360)*Math.min(1,w/h));
         const distance=radius/Math.sin(halfAngle)*1.08;
         // Approach the estimated shopping podium in the exterior's own frame.
-        // A single camera retains its bearing; the floor presentation never resets it.
-        const shoppingCenter=center.clone().add(new Vector3(0,-radius*.65,0));
-        const approach=Math.min(1,journeyProgress/.55);
+        // The same camera stays in the incumbent front three-quarter quadrant.
+        const shoppingCenter=center.clone().add(new Vector3(...motion.shoppingFocus).multiplyScalar(radius));
+        const approach=Math.min(1,journeyProgress/motion.focusBy);
         const focus=center.clone().lerp(shoppingCenter,approach*approach*(3-2*approach));
-        view.camera.position.copy(focus).add(new Vector3(.72,.28,1).normalize().multiplyScalar(distance*Math.exp(-2.3*journeyProgress)));
+        const bearing=new Vector3(.72,.28,1).lerp(new Vector3(...motion.bearing),approach*approach*(3-2*approach));
+        // Zoom continues through the shared tower/copy fade. Reversal evaluates
+        // this same path directly, with no tween, hold or second scene clock.
+        view.camera.position.copy(focus).add(bearing.normalize().multiplyScalar(distance*Math.exp(-motion.zoomRate*journeyProgress)));
         view.camera.lookAt(focus);
       }
       view.camera.updateProjectionMatrix();target.setSize(Math.round(w*renderer.getPixelRatio()),Math.round(h*renderer.getPixelRatio()));};

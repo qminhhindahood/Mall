@@ -1,9 +1,10 @@
 import type { DirectorySnapshot } from '../data/content';
-import { normalize } from '../data/content';
+import { searchDirectory } from '../data/content';
 import type { FloorGeometry } from '../runtime/scene-contract';
 
-export function discoveryAreaNumbers(content:DirectorySnapshot, categoryId:string, query:string, floorId:string) {
-  const ids = new Set(content.destinations.filter(d=>d.status==='open'&&d.categories.includes(categoryId)&&normalize([d.name.vi,d.name.en,...d.aliases].join(' ')).includes(normalize(query))).flatMap(d=>d.locations.filter(l=>l.floorId===floorId).flatMap(l=>l.areaIds)));
+export function discoveryAreaNumbers(content:DirectorySnapshot, categoryId:string, query:string, floorId:string, scope?:'category') {
+  const matches=searchDirectory(content.destinations.filter(d=>d.status==='open'),content.categories,query,query.trim()&&scope!=='category'?'':categoryId,floorId).results;
+  const ids = new Set(matches.flatMap(d=>d.locations.filter(l=>l.floorId===floorId).flatMap(l=>l.areaIds)));
   return Object.fromEntries(content.areas.filter(area=>area.floorId===floorId&&ids.has(area.id)).map((area,index)=>[area.id,index+1]));
 }
 

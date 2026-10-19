@@ -1,3 +1,4 @@
+import DestinationDetails from './DestinationDetails';
 import { useState } from 'react';
 import type { RefObject, MouseEvent } from 'react';
 import type { SiteData } from '../data/site';
@@ -39,10 +40,8 @@ export default function Directory({site,selection,navigate,detailRef,closeDetail
     </>}
     {selected&&<article key={selected.id} ref={detailRef} tabIndex={-1} className="destination" aria-label={selected.name[selection.locale]}>
       <h3>{selected.name[selection.locale]}</h3><button onClick={()=>{setShareStatus('');closeDetail();}}>{c.close}</button>
-      <p>{selected.description[selection.locale]||c.descriptionPending}</p>{!site.content.researchPreview&&<p>{c.status}: {selected.openingSoon?c.openingSoon:c[selected.status]}</p>}
+      <DestinationDetails site={site} destination={selected} locale={selection.locale} floorId={selection.floorId}/>
       <nav className="floors" aria-label={selection.locale==='vi'?'Tầng của địa điểm':'Destination floors'}>{selected.floors.map(floorId=><a key={floorId} href={selectionHref(link(selected,floorId))} aria-current={floorId===selection.floorId?'page':undefined} onClick={event=>navigate(link(selected,floorId),event)}>{floorId}</a>)}</nav>
-      <p>{selected.locations.find(l=>l.floorId===selection.floorId)?.certainty==='area-confirmed'?site.content.researchPreview?c.researchMapped:c.mapped:c.floorOnly}</p>
-      {!site.content.researchPreview&&<p>{c.recordReviewed}: <time>{selected.reviewedAt}</time></p>}<p>{c.source}: {selected.review.source}</p>
       <button onClick={async()=>{const url=new URL(selectionHref({...selection,query:undefined,categoryId:undefined,areaId:undefined}),location.origin).href;try{await navigator.clipboard.writeText(url);setShareStatus(c.copied);}catch{setShareStatus(`${c.copyError} ${url}`);}}}>{c.share}</button><p role="status" className="share-status">{shareStatus}</p>
     </article>}
     {!detailsOnly&&<details><summary>{c.facilities}</summary><label>{c.facilities}<input type="search" value={facilityQuery} onChange={event=>setFacilityQuery(event.target.value)} /></label>{site.content.facilities.filter(f=>(facilityQuery||f.floorId===selection.floorId)&&normalize(f.name[selection.locale]).includes(normalize(facilityQuery))).map(f=><p key={f.id}>{f.areaId?<a href={selectionHref({...selection,kind:'map',floorId:f.floorId,areaId:f.areaId,destinationId:undefined})} onClick={event=>navigate({...selection,kind:'map',floorId:f.floorId,areaId:f.areaId,destinationId:undefined},event)}>{f.name[selection.locale]}</a>:f.name[selection.locale]} · {f.floorId}{!f.areaId?` · ${c.floorOnly}`:''}</p>)}{!site.content.facilities.some(f=>f.floorId===selection.floorId)&&<p>{c.noFacilities}</p>}</details>}

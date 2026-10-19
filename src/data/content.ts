@@ -1,3 +1,4 @@
+import { validateEnrichment } from './enrichment';
 import type { Locale, FloorDataset, MallId } from '../runtime/scene-contract';
 export type Bilingual = Record<Locale, string>;
 export type Review = { source: string; reviewedAt: string; reviewedBy: string; languages: Record<Locale, boolean> };
@@ -50,6 +51,7 @@ export function validateContent(snapshot: DirectorySnapshot, mallId: MallId, geo
   }
   for(const f of snapshot.facilities){floor(f.floorId);if(f.areaId&&!snapshot.areas.some(a=>a.id===f.areaId&&a.floorId===f.floorId))fail(`unsupported facility ${f.id}`);}
   for(const h of snapshot.highlights){review(h.review);if(!snapshot.destinations.some(d=>d.id===h.destinationId&&d.status==='open'&&d.floors.includes(h.floorId)&&d.categories.includes(h.categoryId)))fail('ineligible Highlight');}
+  if (snapshot.approval === 'approved') validateEnrichment(snapshot);
   return snapshot;
 }
 export const normalize = (text: string) => text.normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/đ/g,'d').replace(/Đ/g,'D').toLowerCase().trim().replace(/\s+/g,' ');

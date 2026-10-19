@@ -1,0 +1,12 @@
+.destination-details{overflow-wrap:anywhere;min-width:0}
+.destination-details dl{display:grid;grid-template-columns:minmax(76px,.3fr) minmax(0,1fr);gap:8px 16px;margin:20px 0;font-size:16px}
+.destination-details dt{color:var(--muted)}.destination-details dd{margin:0}
+.destination-details .detail-missing,.destination-details .detail-provenance,.destination-details .detail-location{font-size:16px;color:var(--muted);line-height:1.6}
+.destination-details .detail-proposals{border-top:1px solid var(--line);margin-top:20px;padding-top:16px}
+.visitor-guide .destination-details h4{font:600 16px/1.5 Guide,sans-serif;margin:0 0 14px}
+.detail-field{padding:14px 0;border-bottom:1px solid var(--line)}.detail-field p{margin:5px 0}
+.destination-details a{min-height:44px;display:inline-flex;align-items:center;color:var(--action);text-underline-offset:4px}
+.static-guide .destination-details{max-width:70ch}
+
+/* Factual body, actions and source disclosures follow the canonical 16px minimum. */
+.visitor-guide .destination-details p,.visitor-guide .destination-details dl,.visitor-guide .destination-details a{font-size:16px}

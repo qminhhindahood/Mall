@@ -16,7 +16,7 @@ import Discovery from './Discovery';
 import { discoveryAreaNumbers } from './discovery-map';
 import { timing } from '../runtime/loading-timing';
 
-export type ExplorerSelection = { locale: Locale; floorId: string; kind: SceneKind; destinationId?: string; query?: string; categoryId?: string; discoveryCategoryId?: string; discoveryFloorId?: string; discoveryQuery?: string; areaId?: string };
+export type ExplorerSelection = { locale: Locale; floorId: string; kind: SceneKind; destinationId?: string; query?: string; categoryId?: string; discoveryCategoryId?: string; discoveryFloorId?: string; discoveryQuery?: string; discoverySearchScope?: 'category'; areaId?: string };
 function defaultFloorId(site: SiteData, floors = site.geometry.floors) {
   if (floors.some(floor => floor.id === site.defaultFloor)) return site.defaultFloor;
   return floors.find(floor => floor.id === 'L1')?.id ?? floors[0]?.id ?? 'L1';
@@ -31,7 +31,7 @@ function selectionFromUrl(url: URL, site: SiteData, fallback: ExplorerSelection)
   const view = url.searchParams.get('view');
   const kind = ['exterior','overview','map','discovery'].includes(view ?? '') ? view as SceneKind : segments[1] ? 'map' : fallback.kind;
   const category=(key:string)=>site.content.categories.find(c=>c.id===url.searchParams.get(key))?.id;
-  return { locale, floorId, kind, destinationId: destination?.id, query:url.searchParams.get('q')?.slice(0,160)||undefined, categoryId:category('category'), discoveryCategoryId:category('collection'), discoveryFloorId:site.geometry.floors.find(f=>f.id===url.searchParams.get('collectionFloor'))?.id, discoveryQuery:url.searchParams.get('collectionQ')?.slice(0,160)||undefined, areaId:site.content.areas.find(a=>a.id===url.searchParams.get('area')&&a.floorId===floorId)?.id };
+  return { locale, floorId, kind, destinationId: destination?.id, query:url.searchParams.get('q')?.slice(0,160)||undefined, categoryId:category('category'), discoverySearchScope:url.searchParams.get('collectionScope')==='category'?'category':undefined, discoveryCategoryId:category('collection'), discoveryFloorId:site.geometry.floors.find(f=>f.id===url.searchParams.get('collectionFloor'))?.id, discoveryQuery:url.searchParams.get('collectionQ')?.slice(0,160)||undefined, areaId:site.content.areas.find(a=>a.id===url.searchParams.get('area')&&a.floorId===floorId)?.id };
 }
 
 export default function Explorer({ site, initial }: { site: SiteData; initial: ExplorerSelection }) {
@@ -80,7 +80,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const j = journeyCopy[selection.locale];
   const discoveryCategory=selection.discoveryCategoryId??defaultDiscoveryCategory(site);
   const previewFloor=discoveryFloor(site,selection,geometry);
-  const areaNumbers=discoveryAreaNumbers(site.content,discoveryCategory,selection.discoveryQuery??'',previewFloor);
+  const areaNumbers=discoveryAreaNumbers(site.content,discoveryCategory,selection.discoveryQuery??'',previewFloor,selection.discoverySearchScope);
   const displayedFloor=selection.kind==='discovery'?previewFloor:selection.floorId;
   const floor = geometry.floors.find(f => f.id === displayedFloor) ?? geometry.floors.find(f => f.id === defaultFloorId(site, geometry.floors)) ?? geometry.floors[0]!;
 
@@ -211,7 +211,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
         const id = anchor.getAttribute('href')?.split('/').pop();
         if (id) { anchor.href = floorRoute(selection.locale,id); anchor.textContent = `${copy[selection.locale].map} · ${id}`; }
       }
-      const disclosure = guide.querySelector('p');
+      const disclosure = guide.querySelector(':scope > p');
       if (disclosure) disclosure.textContent = copy[selection.locale].uncertainty;
     }
   }, [selection]);
