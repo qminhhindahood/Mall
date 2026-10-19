@@ -22,7 +22,7 @@ export default function DestinationDetails({site,destination,locale,floorId,desc
   const website=!fields.some(item=>item.field==='website'&&item.state==='verified-agent')&&destination.website&&safeOfficialUrl(destination.website)?destination.website:undefined;
   return <div className="destination-details" data-destination-details={destination.id}>
     <p id={descriptionId}>{destination.description[locale]||j.descriptionPending}</p>
-    <dl><dt>{c.floor}</dt><dd>{destination.floors.join(', ')}</dd><dt>{c.category}</dt><dd>{site.content.categories.filter(row=>destination.categories.includes(row.id)).map(row=>row.name[locale]).join(' · ')}</dd>{destination.cuisine&&<><dt>{c.cuisine}</dt><dd>{destination.cuisine[locale]}</dd></>}</dl>
+    <dl><dt>{c.floor}</dt><dd>{destination.floors.join(', ')}</dd><dt>{c.category}</dt><dd>{site.content.categories.filter(row=>destination.categories.includes(row.id)).map(row=>row.name[locale]).join(' · ')}</dd>{destination.categories.includes('category-1')&&destination.cuisine&&<><dt>{c.cuisine}</dt><dd>{destination.cuisine[locale]}</dd></>}</dl>
     <p className="detail-location">{mapped?(site.content.researchPreview?j.researchMapped:j.mapped):j.floorOnly}</p>
     {destination.openingSoon&&<p>{j.openingSoon}</p>}
     <IndoorGuidance site={site} destination={destination} locale={locale} floorId={floorId}/>
