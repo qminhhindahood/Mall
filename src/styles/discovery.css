@@ -83,3 +83,15 @@
 .visitor-guide .discovery-detail-header .discovery-close{position:static;flex-shrink:0}
 .discovery-glass-content{min-height:0;max-height:none;padding-top:0;flex-shrink:1}
 @media(max-width:700px){.discovery-detail-header{padding:16px 16px 12px 22px}.visitor-guide .discovery-detail-header h3{font-size:22px}}
+
+/* Practical Discovery copy and controls follow the established 16px minimum. */
+.visitor-guide #discovery-category-list a,
+.visitor-guide .discovery-floors a,
+.visitor-guide .discovery-scope,
+.visitor-guide .discovery-map-context button,
+.visitor-guide .discovery-search label,
+.visitor-guide .discovery-type,
+.visitor-guide .discovery-meta,
+.visitor-guide .discovery-collection-heading p,
+.visitor-guide .discovery-empty p,
+.visitor-guide .discovery-intro p{font-size:16px}
