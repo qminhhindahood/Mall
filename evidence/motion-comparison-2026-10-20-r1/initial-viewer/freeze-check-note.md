@@ -1,0 +1,1 @@
+The first new freeze-image assertion ran as soon as video seeking completed, before the separate image.decode promises resolved. All eight cases stopped at the same premature assertion. The harness now waits for the publicly rendered decoded images. No second product/source correction was necessary; the targeted same-case confirmation is retained at packet root.

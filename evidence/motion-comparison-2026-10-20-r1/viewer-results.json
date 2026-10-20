@@ -1,0 +1,632 @@
+{
+  "http": [
+    {
+      "video": "videos/saigon-1280-before.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/4996909"
+    },
+    {
+      "video": "videos/saigon-1280-after.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/4841945"
+    },
+    {
+      "video": "videos/saigon-390-before.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/2393552"
+    },
+    {
+      "video": "videos/saigon-390-after.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/2383779"
+    },
+    {
+      "video": "videos/vincom-1280-before.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/4849891"
+    },
+    {
+      "video": "videos/vincom-1280-after.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/4742871"
+    },
+    {
+      "video": "videos/vincom-390-before.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/2245592"
+    },
+    {
+      "video": "videos/vincom-390-after.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/2275673"
+    }
+  ],
+  "runs": [
+    {
+      "pageWidth": 1440,
+      "mall": "saigon",
+      "recordedWidth": 1280,
+      "checks": [
+        {
+          "label": "Before and after have exact matched decoded viewport",
+          "pass": true
+        },
+        {
+          "label": "No automatic playback; native replay controls present",
+          "pass": true
+        },
+        {
+          "label": "Initial matched podium moment and source selection exact",
+          "pass": true
+        },
+        {
+          "label": "Both recordings decode and advance at normal speed",
+          "pass": true
+        },
+        {
+          "label": "Pause both stops playback",
+          "pass": true
+        },
+        {
+          "label": "Moment jump seeks both to matching approach",
+          "pass": true
+        },
+        {
+          "label": "Freeze shows exact decoded captured frames rather than a stale paused-video image",
+          "pass": true
+        },
+        {
+          "label": "Half-speed inspection is an explicit optional control",
+          "pass": true
+        },
+        {
+          "label": "Review controls leave context motion preference unchanged",
+          "pass": true
+        },
+        {
+          "label": "Viewer does not write saved app preferences",
+          "pass": true
+        },
+        {
+          "label": "Responsive review page has no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "No review page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "playback": [
+        {
+          "id": "before",
+          "time": 0.40678,
+          "frames": 245,
+          "readyState": 4
+        },
+        {
+          "id": "after",
+          "time": 0.406764,
+          "frames": 245,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "pageWidth": 1440,
+      "mall": "saigon",
+      "recordedWidth": 390,
+      "checks": [
+        {
+          "label": "Before and after have exact matched decoded viewport",
+          "pass": true
+        },
+        {
+          "label": "No automatic playback; native replay controls present",
+          "pass": true
+        },
+        {
+          "label": "Initial matched podium moment and source selection exact",
+          "pass": true
+        },
+        {
+          "label": "Both recordings decode and advance at normal speed",
+          "pass": true
+        },
+        {
+          "label": "Pause both stops playback",
+          "pass": true
+        },
+        {
+          "label": "Moment jump seeks both to matching approach",
+          "pass": true
+        },
+        {
+          "label": "Freeze shows exact decoded captured frames rather than a stale paused-video image",
+          "pass": true
+        },
+        {
+          "label": "Half-speed inspection is an explicit optional control",
+          "pass": true
+        },
+        {
+          "label": "Review controls leave context motion preference unchanged",
+          "pass": true
+        },
+        {
+          "label": "Viewer does not write saved app preferences",
+          "pass": true
+        },
+        {
+          "label": "Responsive review page has no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "No review page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "playback": [
+        {
+          "id": "before",
+          "time": 0.406364,
+          "frames": 244,
+          "readyState": 4
+        },
+        {
+          "id": "after",
+          "time": 0.406251,
+          "frames": 244,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "pageWidth": 1440,
+      "mall": "vincom",
+      "recordedWidth": 1280,
+      "checks": [
+        {
+          "label": "Before and after have exact matched decoded viewport",
+          "pass": true
+        },
+        {
+          "label": "No automatic playback; native replay controls present",
+          "pass": true
+        },
+        {
+          "label": "Initial matched podium moment and source selection exact",
+          "pass": true
+        },
+        {
+          "label": "Both recordings decode and advance at normal speed",
+          "pass": true
+        },
+        {
+          "label": "Pause both stops playback",
+          "pass": true
+        },
+        {
+          "label": "Moment jump seeks both to matching approach",
+          "pass": true
+        },
+        {
+          "label": "Freeze shows exact decoded captured frames rather than a stale paused-video image",
+          "pass": true
+        },
+        {
+          "label": "Half-speed inspection is an explicit optional control",
+          "pass": true
+        },
+        {
+          "label": "Review controls leave context motion preference unchanged",
+          "pass": true
+        },
+        {
+          "label": "Viewer does not write saved app preferences",
+          "pass": true
+        },
+        {
+          "label": "Responsive review page has no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "No review page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "playback": [
+        {
+          "id": "before",
+          "time": 0.406772,
+          "frames": 239,
+          "readyState": 4
+        },
+        {
+          "id": "after",
+          "time": 0.406748,
+          "frames": 239,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "pageWidth": 1440,
+      "mall": "vincom",
+      "recordedWidth": 390,
+      "checks": [
+        {
+          "label": "Before and after have exact matched decoded viewport",
+          "pass": true
+        },
+        {
+          "label": "No automatic playback; native replay controls present",
+          "pass": true
+        },
+        {
+          "label": "Initial matched podium moment and source selection exact",
+          "pass": true
+        },
+        {
+          "label": "Both recordings decode and advance at normal speed",
+          "pass": true
+        },
+        {
+          "label": "Pause both stops playback",
+          "pass": true
+        },
+        {
+          "label": "Moment jump seeks both to matching approach",
+          "pass": true
+        },
+        {
+          "label": "Freeze shows exact decoded captured frames rather than a stale paused-video image",
+          "pass": true
+        },
+        {
+          "label": "Half-speed inspection is an explicit optional control",
+          "pass": true
+        },
+        {
+          "label": "Review controls leave context motion preference unchanged",
+          "pass": true
+        },
+        {
+          "label": "Viewer does not write saved app preferences",
+          "pass": true
+        },
+        {
+          "label": "Responsive review page has no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "No review page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "playback": [
+        {
+          "id": "before",
+          "time": 0.407042,
+          "frames": 236,
+          "readyState": 4
+        },
+        {
+          "id": "after",
+          "time": 0.406997,
+          "frames": 236,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "pageWidth": 390,
+      "mall": "saigon",
+      "recordedWidth": 1280,
+      "checks": [
+        {
+          "label": "Before and after have exact matched decoded viewport",
+          "pass": true
+        },
+        {
+          "label": "No automatic playback; native replay controls present",
+          "pass": true
+        },
+        {
+          "label": "Initial matched podium moment and source selection exact",
+          "pass": true
+        },
+        {
+          "label": "Both recordings decode and advance at normal speed",
+          "pass": true
+        },
+        {
+          "label": "Pause both stops playback",
+          "pass": true
+        },
+        {
+          "label": "Moment jump seeks both to matching approach",
+          "pass": true
+        },
+        {
+          "label": "Freeze shows exact decoded captured frames rather than a stale paused-video image",
+          "pass": true
+        },
+        {
+          "label": "Half-speed inspection is an explicit optional control",
+          "pass": true
+        },
+        {
+          "label": "Review controls leave context motion preference unchanged",
+          "pass": true
+        },
+        {
+          "label": "Viewer does not write saved app preferences",
+          "pass": true
+        },
+        {
+          "label": "Responsive review page has no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "No review page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "playback": [
+        {
+          "id": "before",
+          "time": 0.406738,
+          "frames": 245,
+          "readyState": 4
+        },
+        {
+          "id": "after",
+          "time": 0.40671,
+          "frames": 240,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "pageWidth": 390,
+      "mall": "saigon",
+      "recordedWidth": 390,
+      "checks": [
+        {
+          "label": "Before and after have exact matched decoded viewport",
+          "pass": true
+        },
+        {
+          "label": "No automatic playback; native replay controls present",
+          "pass": true
+        },
+        {
+          "label": "Initial matched podium moment and source selection exact",
+          "pass": true
+        },
+        {
+          "label": "Both recordings decode and advance at normal speed",
+          "pass": true
+        },
+        {
+          "label": "Pause both stops playback",
+          "pass": true
+        },
+        {
+          "label": "Moment jump seeks both to matching approach",
+          "pass": true
+        },
+        {
+          "label": "Freeze shows exact decoded captured frames rather than a stale paused-video image",
+          "pass": true
+        },
+        {
+          "label": "Half-speed inspection is an explicit optional control",
+          "pass": true
+        },
+        {
+          "label": "Review controls leave context motion preference unchanged",
+          "pass": true
+        },
+        {
+          "label": "Viewer does not write saved app preferences",
+          "pass": true
+        },
+        {
+          "label": "Responsive review page has no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "No review page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "playback": [
+        {
+          "id": "before",
+          "time": 0.406072,
+          "frames": 244,
+          "readyState": 4
+        },
+        {
+          "id": "after",
+          "time": 0.406046,
+          "frames": 239,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "pageWidth": 390,
+      "mall": "vincom",
+      "recordedWidth": 1280,
+      "checks": [
+        {
+          "label": "Before and after have exact matched decoded viewport",
+          "pass": true
+        },
+        {
+          "label": "No automatic playback; native replay controls present",
+          "pass": true
+        },
+        {
+          "label": "Initial matched podium moment and source selection exact",
+          "pass": true
+        },
+        {
+          "label": "Both recordings decode and advance at normal speed",
+          "pass": true
+        },
+        {
+          "label": "Pause both stops playback",
+          "pass": true
+        },
+        {
+          "label": "Moment jump seeks both to matching approach",
+          "pass": true
+        },
+        {
+          "label": "Freeze shows exact decoded captured frames rather than a stale paused-video image",
+          "pass": true
+        },
+        {
+          "label": "Half-speed inspection is an explicit optional control",
+          "pass": true
+        },
+        {
+          "label": "Review controls leave context motion preference unchanged",
+          "pass": true
+        },
+        {
+          "label": "Viewer does not write saved app preferences",
+          "pass": true
+        },
+        {
+          "label": "Responsive review page has no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "No review page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "playback": [
+        {
+          "id": "before",
+          "time": 0.406767,
+          "frames": 239,
+          "readyState": 4
+        },
+        {
+          "id": "after",
+          "time": 0.406716,
+          "frames": 234,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "pageWidth": 390,
+      "mall": "vincom",
+      "recordedWidth": 390,
+      "checks": [
+        {
+          "label": "Before and after have exact matched decoded viewport",
+          "pass": true
+        },
+        {
+          "label": "No automatic playback; native replay controls present",
+          "pass": true
+        },
+        {
+          "label": "Initial matched podium moment and source selection exact",
+          "pass": true
+        },
+        {
+          "label": "Both recordings decode and advance at normal speed",
+          "pass": true
+        },
+        {
+          "label": "Pause both stops playback",
+          "pass": true
+        },
+        {
+          "label": "Moment jump seeks both to matching approach",
+          "pass": true
+        },
+        {
+          "label": "Freeze shows exact decoded captured frames rather than a stale paused-video image",
+          "pass": true
+        },
+        {
+          "label": "Half-speed inspection is an explicit optional control",
+          "pass": true
+        },
+        {
+          "label": "Review controls leave context motion preference unchanged",
+          "pass": true
+        },
+        {
+          "label": "Viewer does not write saved app preferences",
+          "pass": true
+        },
+        {
+          "label": "Responsive review page has no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "No review page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "playback": [
+        {
+          "id": "before",
+          "time": 0.406779,
+          "frames": 236,
+          "readyState": 4
+        },
+        {
+          "id": "after",
+          "time": 0.406719,
+          "frames": 231,
+          "readyState": 4
+        }
+      ]
+    }
+  ],
+  "complete": true,
+  "assertions": 96
+}

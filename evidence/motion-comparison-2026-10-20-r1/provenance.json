@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-20T13:00:57.889Z",
+  "baselineSource": "19a9e34",
+  "baselineSourceFull": "19a9e34e7bec399f165ab704bcb0af803fab486e",
+  "finalSource": "71e5def12a781513efd115045ba4f2f3a4cbaa3c",
+  "evidenceSource": "8a21e160012926d9e9e950600a042078d6e47352",
+  "priorReceipt": "D:/Midterm/.scratch/mall-motion-refinement-2026-10-19/evidence/mall-motion-refinement-2026-10-19-r1/provenance.json",
+  "priorReceiptSha256": "4982ea8ee68753480e92264c20ab6ca600df5ad984a88e6e30eab5586e11cfd8",
+  "rows": [
+    {
+      "mall": "saigon-centre",
+      "baselineFiles": 384,
+      "finalFiles": 386,
+      "baselineManifestHash": "e087e48ceb4b8452d8516fd1cab25250a497a38c38edd7813e38a160ac615234",
+      "finalManifestHash": "6ff723fb59e5fff2f05b9431cb87b84d0f040ef52c639dd67779a20ad4d22966",
+      "baselineDirectory": "D:/Midterm/.scratch/mall-motion-refinement-2026-10-19/dist/baseline/saigon-centre",
+      "finalDirectory": "evidence/enrichment-exhaustion-2026-10-20-r3/release/package/saigon-centre"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "baselineFiles": 457,
+      "finalFiles": 459,
+      "baselineManifestHash": "f4357bbc95d8ae92817397a3a76c077e0fdadcc3575ef114352f06797d96684b",
+      "finalManifestHash": "67ab580a5a6ac60bf418d3b47da2292f8ffc5df28690c9e8dd09c802c6438bae",
+      "baselineDirectory": "D:/Midterm/.scratch/mall-motion-refinement-2026-10-19/dist/baseline/vincom-dong-khoi",
+      "finalDirectory": "evidence/enrichment-exhaustion-2026-10-20-r3/release/package/vincom-dong-khoi"
+    }
+  ],
+  "methods": "Every baseline file matched the frozen pre-refinement manifest, every final file matched the r3 package manifest; source module Git objects match the tested71e5def checkpoint. No rebuild or app source edit."
+}

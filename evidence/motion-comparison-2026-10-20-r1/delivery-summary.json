@@ -1,0 +1,150 @@
+{
+  "at": "2026-10-20T13:15:40.942553+00:00",
+  "url": "http://127.0.0.1:4450/review.html",
+  "baseline": "19a9e34e7bec399f165ab704bcb0af803fab486e",
+  "finalTested": "71e5def12a781513efd115045ba4f2f3a4cbaa3c",
+  "finalEvidence": "8a21e160012926d9e9e950600a042078d6e47352",
+  "freshClips": 8,
+  "captureChecks": 48,
+  "viewerCases": 8,
+  "viewerAssertions": 96,
+  "videoRangeChecks": 8,
+  "loopReplayPassed": true,
+  "entryConditionCases": 6,
+  "servedHtmlExactChecks": 4,
+  "appSourceUnchanged": true,
+  "published": false,
+  "videos": [
+    {
+      "id": "saigon-1280-before",
+      "path": "videos/saigon-1280-before.mp4",
+      "bytes": 4996909,
+      "sha256": "f2d418bd669d6cd4c639069a649cf3c9ed69a558712b72fb41ee34b653fb1d35",
+      "width": 1280,
+      "height": 800,
+      "durationSeconds": 20.04,
+      "normalMotion": true
+    },
+    {
+      "id": "saigon-1280-after",
+      "path": "videos/saigon-1280-after.mp4",
+      "bytes": 4841945,
+      "sha256": "80ce1ff4292f4e5ada1df6bfaf314221793ec5604260ac5ee1a79e8ebf1760f7",
+      "width": 1280,
+      "height": 800,
+      "durationSeconds": 20.04,
+      "normalMotion": true
+    },
+    {
+      "id": "saigon-390-before",
+      "path": "videos/saigon-390-before.mp4",
+      "bytes": 2393552,
+      "sha256": "e19eaa9b19149f14753d53348363c175293f4f43474053892e5cc1df1d9c29a3",
+      "width": 390,
+      "height": 844,
+      "durationSeconds": 19.76,
+      "normalMotion": true
+    },
+    {
+      "id": "saigon-390-after",
+      "path": "videos/saigon-390-after.mp4",
+      "bytes": 2383779,
+      "sha256": "3e149c99be7ac4eb6ebd6b6000f39df01d52c48e114675050d08ffa70255f7e4",
+      "width": 390,
+      "height": 844,
+      "durationSeconds": 19.76,
+      "normalMotion": true
+    },
+    {
+      "id": "vincom-1280-before",
+      "path": "videos/vincom-1280-before.mp4",
+      "bytes": 4849891,
+      "sha256": "c9a15dd93778c10c802c9516d4dd862435fa7d32f6dcc05f94143e9034ae8c65",
+      "width": 1280,
+      "height": 800,
+      "durationSeconds": 19.48,
+      "normalMotion": true
+    },
+    {
+      "id": "vincom-1280-after",
+      "path": "videos/vincom-1280-after.mp4",
+      "bytes": 4742871,
+      "sha256": "770256b808f26ac600f9c0d65c54b2afae26a789687c2b9f49db8b82e0340e3d",
+      "width": 1280,
+      "height": 800,
+      "durationSeconds": 19.52,
+      "normalMotion": true
+    },
+    {
+      "id": "vincom-390-before",
+      "path": "videos/vincom-390-before.mp4",
+      "bytes": 2245592,
+      "sha256": "147bb7e9a7cd476686b2492996c69f48e5b796e6bcf44aeee45f2ba9c8e594ef",
+      "width": 390,
+      "height": 844,
+      "durationSeconds": 19.24,
+      "normalMotion": true
+    },
+    {
+      "id": "vincom-390-after",
+      "path": "videos/vincom-390-after.mp4",
+      "bytes": 2275673,
+      "sha256": "ab976395dd8e596c91d0ade071373d2eff228ae60406e9acdc4b7a33cd8f1aa6",
+      "width": 390,
+      "height": 844,
+      "durationSeconds": 19.28,
+      "normalMotion": true
+    }
+  ],
+  "frozenLogs": [
+    {
+      "path": "review-server-error.frozen.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "review-server.frozen.log",
+      "sha256": "27aeef493a55e9f5aa3cd040485043c01a39067d712e455c1d208a0333ea97b8"
+    },
+    {
+      "path": "server-4451-error.frozen.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "server-4451.frozen.log",
+      "sha256": "2e405a06161fe17b971048d21838d42ccbaf38e48a094bed6293d4b8d068072a"
+    },
+    {
+      "path": "server-4452-error.frozen.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "server-4452.frozen.log",
+      "sha256": "575e3c50cd3c4c5f48e0e2119f5c0b39edaf4a40a1546a5cd098b4749bdce653"
+    },
+    {
+      "path": "server-4451.frozen.log",
+      "sha256": "2e405a06161fe17b971048d21838d42ccbaf38e48a094bed6293d4b8d068072a"
+    },
+    {
+      "path": "server-4451-error.frozen.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "server-4452.frozen.log",
+      "sha256": "575e3c50cd3c4c5f48e0e2119f5c0b39edaf4a40a1546a5cd098b4749bdce653"
+    },
+    {
+      "path": "server-4452-error.frozen.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "remainingBlockers": [],
+  "limits": [
+    "Fresh English normal-motion local Chrome recordings; emulated viewports, not physical-phone/native-smoothness evidence",
+    "Playback starts together and chapter jumps align scenes, but browser rendering/wait time is not frame-locked",
+    "Original models/shared fade/reveal remain; camera changes are refinements",
+    "Historical baseline bounds and original capture assertion are preserved as observations; no baseline repair",
+    "Viewer freeze uses exact still captures to avoid a stale decoded video frame immediately after seeking",
+    "Actual owner OS preference was not inspected or changed; isolated browser conditions tested and viewer reports its own browser preference"
+  ]
+}

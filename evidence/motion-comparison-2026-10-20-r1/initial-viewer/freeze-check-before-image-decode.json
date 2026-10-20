@@ -1,0 +1,488 @@
+{
+  "http": [
+    {
+      "video": "videos/saigon-1280-before.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/4996909"
+    },
+    {
+      "video": "videos/saigon-1280-after.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/4841945"
+    },
+    {
+      "video": "videos/saigon-390-before.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/2393552"
+    },
+    {
+      "video": "videos/saigon-390-after.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/2383779"
+    },
+    {
+      "video": "videos/vincom-1280-before.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/4849891"
+    },
+    {
+      "video": "videos/vincom-1280-after.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/4742871"
+    },
+    {
+      "video": "videos/vincom-390-before.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/2245592"
+    },
+    {
+      "video": "videos/vincom-390-after.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "contentType": "video/mp4",
+      "range": "bytes 0-1023/2275673"
+    }
+  ],
+  "runs": [
+    {
+      "pageWidth": 1440,
+      "mall": "saigon",
+      "recordedWidth": 1280,
+      "checks": [
+        {
+          "label": "Before and after have exact matched decoded viewport",
+          "pass": true
+        },
+        {
+          "label": "No automatic playback; native replay controls present",
+          "pass": true
+        },
+        {
+          "label": "Initial matched podium moment and source selection exact",
+          "pass": true
+        },
+        {
+          "label": "Both recordings decode and advance at normal speed",
+          "pass": true
+        },
+        {
+          "label": "Pause both stops playback",
+          "pass": true
+        },
+        {
+          "label": "Moment jump seeks both to matching approach",
+          "pass": true
+        },
+        {
+          "label": "Freeze shows exact decoded captured frames rather than a stale paused-video image",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Freeze shows exact decoded captured frames rather than a stale paused-video image"
+      ],
+      "pageErrors": [],
+      "playback": [
+        {
+          "id": "before",
+          "time": 0.409126,
+          "frames": 245,
+          "readyState": 4
+        },
+        {
+          "id": "after",
+          "time": 0.409056,
+          "frames": 245,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "pageWidth": 1440,
+      "mall": "saigon",
+      "recordedWidth": 390,
+      "checks": [
+        {
+          "label": "Before and after have exact matched decoded viewport",
+          "pass": true
+        },
+        {
+          "label": "No automatic playback; native replay controls present",
+          "pass": true
+        },
+        {
+          "label": "Initial matched podium moment and source selection exact",
+          "pass": true
+        },
+        {
+          "label": "Both recordings decode and advance at normal speed",
+          "pass": true
+        },
+        {
+          "label": "Pause both stops playback",
+          "pass": true
+        },
+        {
+          "label": "Moment jump seeks both to matching approach",
+          "pass": true
+        },
+        {
+          "label": "Freeze shows exact decoded captured frames rather than a stale paused-video image",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Freeze shows exact decoded captured frames rather than a stale paused-video image"
+      ],
+      "pageErrors": [],
+      "playback": [
+        {
+          "id": "before",
+          "time": 0.402462,
+          "frames": 244,
+          "readyState": 4
+        },
+        {
+          "id": "after",
+          "time": 0.402451,
+          "frames": 244,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "pageWidth": 1440,
+      "mall": "vincom",
+      "recordedWidth": 1280,
+      "checks": [
+        {
+          "label": "Before and after have exact matched decoded viewport",
+          "pass": true
+        },
+        {
+          "label": "No automatic playback; native replay controls present",
+          "pass": true
+        },
+        {
+          "label": "Initial matched podium moment and source selection exact",
+          "pass": true
+        },
+        {
+          "label": "Both recordings decode and advance at normal speed",
+          "pass": true
+        },
+        {
+          "label": "Pause both stops playback",
+          "pass": true
+        },
+        {
+          "label": "Moment jump seeks both to matching approach",
+          "pass": true
+        },
+        {
+          "label": "Freeze shows exact decoded captured frames rather than a stale paused-video image",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Freeze shows exact decoded captured frames rather than a stale paused-video image"
+      ],
+      "pageErrors": [],
+      "playback": [
+        {
+          "id": "before",
+          "time": 0.40701,
+          "frames": 239,
+          "readyState": 4
+        },
+        {
+          "id": "after",
+          "time": 0.406959,
+          "frames": 239,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "pageWidth": 1440,
+      "mall": "vincom",
+      "recordedWidth": 390,
+      "checks": [
+        {
+          "label": "Before and after have exact matched decoded viewport",
+          "pass": true
+        },
+        {
+          "label": "No automatic playback; native replay controls present",
+          "pass": true
+        },
+        {
+          "label": "Initial matched podium moment and source selection exact",
+          "pass": true
+        },
+        {
+          "label": "Both recordings decode and advance at normal speed",
+          "pass": true
+        },
+        {
+          "label": "Pause both stops playback",
+          "pass": true
+        },
+        {
+          "label": "Moment jump seeks both to matching approach",
+          "pass": true
+        },
+        {
+          "label": "Freeze shows exact decoded captured frames rather than a stale paused-video image",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Freeze shows exact decoded captured frames rather than a stale paused-video image"
+      ],
+      "pageErrors": [],
+      "playback": [
+        {
+          "id": "before",
+          "time": 0.4075,
+          "frames": 236,
+          "readyState": 4
+        },
+        {
+          "id": "after",
+          "time": 0.407495,
+          "frames": 236,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "pageWidth": 390,
+      "mall": "saigon",
+      "recordedWidth": 1280,
+      "checks": [
+        {
+          "label": "Before and after have exact matched decoded viewport",
+          "pass": true
+        },
+        {
+          "label": "No automatic playback; native replay controls present",
+          "pass": true
+        },
+        {
+          "label": "Initial matched podium moment and source selection exact",
+          "pass": true
+        },
+        {
+          "label": "Both recordings decode and advance at normal speed",
+          "pass": true
+        },
+        {
+          "label": "Pause both stops playback",
+          "pass": true
+        },
+        {
+          "label": "Moment jump seeks both to matching approach",
+          "pass": true
+        },
+        {
+          "label": "Freeze shows exact decoded captured frames rather than a stale paused-video image",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Freeze shows exact decoded captured frames rather than a stale paused-video image"
+      ],
+      "pageErrors": [],
+      "playback": [
+        {
+          "id": "before",
+          "time": 0.406992,
+          "frames": 245,
+          "readyState": 4
+        },
+        {
+          "id": "after",
+          "time": 0.406949,
+          "frames": 240,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "pageWidth": 390,
+      "mall": "saigon",
+      "recordedWidth": 390,
+      "checks": [
+        {
+          "label": "Before and after have exact matched decoded viewport",
+          "pass": true
+        },
+        {
+          "label": "No automatic playback; native replay controls present",
+          "pass": true
+        },
+        {
+          "label": "Initial matched podium moment and source selection exact",
+          "pass": true
+        },
+        {
+          "label": "Both recordings decode and advance at normal speed",
+          "pass": true
+        },
+        {
+          "label": "Pause both stops playback",
+          "pass": true
+        },
+        {
+          "label": "Moment jump seeks both to matching approach",
+          "pass": true
+        },
+        {
+          "label": "Freeze shows exact decoded captured frames rather than a stale paused-video image",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Freeze shows exact decoded captured frames rather than a stale paused-video image"
+      ],
+      "pageErrors": [],
+      "playback": [
+        {
+          "id": "before",
+          "time": 0.4068,
+          "frames": 244,
+          "readyState": 4
+        },
+        {
+          "id": "after",
+          "time": 0.406753,
+          "frames": 239,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "pageWidth": 390,
+      "mall": "vincom",
+      "recordedWidth": 1280,
+      "checks": [
+        {
+          "label": "Before and after have exact matched decoded viewport",
+          "pass": true
+        },
+        {
+          "label": "No automatic playback; native replay controls present",
+          "pass": true
+        },
+        {
+          "label": "Initial matched podium moment and source selection exact",
+          "pass": true
+        },
+        {
+          "label": "Both recordings decode and advance at normal speed",
+          "pass": true
+        },
+        {
+          "label": "Pause both stops playback",
+          "pass": true
+        },
+        {
+          "label": "Moment jump seeks both to matching approach",
+          "pass": true
+        },
+        {
+          "label": "Freeze shows exact decoded captured frames rather than a stale paused-video image",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Freeze shows exact decoded captured frames rather than a stale paused-video image"
+      ],
+      "pageErrors": [],
+      "playback": [
+        {
+          "id": "before",
+          "time": 0.407056,
+          "frames": 239,
+          "readyState": 4
+        },
+        {
+          "id": "after",
+          "time": 0.407042,
+          "frames": 234,
+          "readyState": 4
+        }
+      ]
+    },
+    {
+      "pageWidth": 390,
+      "mall": "vincom",
+      "recordedWidth": 390,
+      "checks": [
+        {
+          "label": "Before and after have exact matched decoded viewport",
+          "pass": true
+        },
+        {
+          "label": "No automatic playback; native replay controls present",
+          "pass": true
+        },
+        {
+          "label": "Initial matched podium moment and source selection exact",
+          "pass": true
+        },
+        {
+          "label": "Both recordings decode and advance at normal speed",
+          "pass": true
+        },
+        {
+          "label": "Pause both stops playback",
+          "pass": true
+        },
+        {
+          "label": "Moment jump seeks both to matching approach",
+          "pass": true
+        },
+        {
+          "label": "Freeze shows exact decoded captured frames rather than a stale paused-video image",
+          "pass": false
+        }
+      ],
+      "failed": [
+        "Freeze shows exact decoded captured frames rather than a stale paused-video image"
+      ],
+      "pageErrors": [],
+      "playback": [
+        {
+          "id": "before",
+          "time": 0.406982,
+          "frames": 236,
+          "readyState": 4
+        },
+        {
+          "id": "after",
+          "time": 0.406933,
+          "frames": 231,
+          "readyState": 4
+        }
+      ]
+    }
+  ],
+  "complete": false,
+  "assertions": 56
+}

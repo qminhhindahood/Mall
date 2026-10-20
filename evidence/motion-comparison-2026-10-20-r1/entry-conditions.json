@@ -1,0 +1,166 @@
+{
+  "http": [
+    {
+      "mall": "saigon-centre",
+      "version": "baseline",
+      "port": 4451,
+      "status": 200,
+      "servedSha256": "8d77a4a259ddd5ef399816e73d1e7e1136381423036142a95612a9a3a03f3b2b",
+      "diskSha256": "8d77a4a259ddd5ef399816e73d1e7e1136381423036142a95612a9a3a03f3b2b",
+      "exact": true
+    },
+    {
+      "mall": "saigon-centre",
+      "version": "final",
+      "port": 4441,
+      "status": 200,
+      "servedSha256": "7f948b6550d4b2b84842e8a13d451bb54ea42ed857687ced3a885a95544df955",
+      "diskSha256": "7f948b6550d4b2b84842e8a13d451bb54ea42ed857687ced3a885a95544df955",
+      "exact": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "version": "baseline",
+      "port": 4452,
+      "status": 200,
+      "servedSha256": "db134bc96a51a79a02025230c8c99b3a3f6f0b7116992580a63a23ae6102de2e",
+      "diskSha256": "db134bc96a51a79a02025230c8c99b3a3f6f0b7116992580a63a23ae6102de2e",
+      "exact": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "version": "final",
+      "port": 4442,
+      "status": 200,
+      "servedSha256": "0e14c5d838ee5322a75b86e372e4c1f152addda9b79ab8f6717016f33d8f7bba",
+      "diskSha256": "0e14c5d838ee5322a75b86e372e4c1f152addda9b79ab8f6717016f33d8f7bba",
+      "exact": true
+    }
+  ],
+  "runs": [
+    {
+      "port": 4441,
+      "condition": "saved-pause",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Saved Pause suppresses automatic introduction"
+        },
+        {
+          "pass": true,
+          "label": "Visible Resume restores normal automatic rotation"
+        }
+      ],
+      "failed": [],
+      "state": {
+        "paused": "true",
+        "view": "exterior",
+        "reduced": false,
+        "savedPause": "true",
+        "scrollY": 0
+      }
+    },
+    {
+      "port": 4441,
+      "condition": "reduced-motion",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Reduced-motion request pauses and disables automatic presentation"
+        },
+        {
+          "pass": true,
+          "label": "Preference handling did not rewrite isolated saved Pause choice"
+        }
+      ],
+      "failed": [],
+      "state": {
+        "paused": "true",
+        "view": "exterior",
+        "reduced": true,
+        "savedPause": "false",
+        "scrollY": 0
+      }
+    },
+    {
+      "port": 4441,
+      "condition": "direct-discovery",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Direct Discovery entry starts after the introduction"
+        }
+      ],
+      "failed": [],
+      "state": {
+        "paused": "false",
+        "view": "discovery",
+        "reduced": false,
+        "savedPause": "false",
+        "scrollY": 4563
+      }
+    },
+    {
+      "port": 4442,
+      "condition": "saved-pause",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Saved Pause suppresses automatic introduction"
+        },
+        {
+          "pass": true,
+          "label": "Visible Resume restores normal automatic rotation"
+        }
+      ],
+      "failed": [],
+      "state": {
+        "paused": "true",
+        "view": "exterior",
+        "reduced": false,
+        "savedPause": "true",
+        "scrollY": 0
+      }
+    },
+    {
+      "port": 4442,
+      "condition": "reduced-motion",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Reduced-motion request pauses and disables automatic presentation"
+        },
+        {
+          "pass": true,
+          "label": "Preference handling did not rewrite isolated saved Pause choice"
+        }
+      ],
+      "failed": [],
+      "state": {
+        "paused": "true",
+        "view": "exterior",
+        "reduced": true,
+        "savedPause": "false",
+        "scrollY": 0
+      }
+    },
+    {
+      "port": 4442,
+      "condition": "direct-discovery",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Direct Discovery entry starts after the introduction"
+        }
+      ],
+      "failed": [],
+      "state": {
+        "paused": "false",
+        "view": "discovery",
+        "reduced": false,
+        "savedPause": "false",
+        "scrollY": 4563
+      }
+    }
+  ]
+}

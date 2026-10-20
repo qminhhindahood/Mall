@@ -1,0 +1,681 @@
+{
+  "at": "2026-10-20T13:05:29.990Z",
+  "baseline": "19a9e34e7bec399f165ab704bcb0af803fab486e",
+  "final": "71e5def12a781513efd115045ba4f2f3a4cbaa3c",
+  "runs": [
+    {
+      "id": "saigon-1280-before",
+      "mall": "saigon",
+      "version": "before",
+      "width": 1280,
+      "height": 800,
+      "port": 4451,
+      "checks": [
+        {
+          "label": "Matched actual viewport and normal motion",
+          "pass": true
+        },
+        {
+          "label": "Automatic introduction rotation on",
+          "pass": true
+        },
+        {
+          "label": "Actual L2 selection and map entry",
+          "pass": true
+        },
+        {
+          "label": "No page errors",
+          "pass": true
+        },
+        {
+          "label": "Pre-roll marker detected and removed from replay",
+          "pass": true
+        },
+        {
+          "label": "Encoded video preserves exact matched viewport",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "errors": [],
+      "chapters": {
+        "opening": 0.054799999982118604,
+        "rotation": 2.7625999999940394,
+        "early": 4.679199999988079,
+        "approach": 6.5918999999761585,
+        "podium": 8.917,
+        "reveal": 10.862599999994039,
+        "overview": 12.80019999998808,
+        "travel": 12.898699999988079,
+        "map": 13.652899999976158,
+        "invitation": 15.611799999982118,
+        "discovery": 17.76169999998808,
+        "return": 19.961899999976158
+      },
+      "profile": {
+        "width": 1280,
+        "height": 800,
+        "reducedMotion": false,
+        "initialPause": "true",
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36"
+      },
+      "finalBounds": {
+        "width": 1280,
+        "documentWidth": 1328,
+        "scrollX": 0,
+        "observationOnly": true
+      },
+      "sequenceDuration": 20.038,
+      "trimStart": 3.36,
+      "video": "videos/saigon-1280-before.mp4",
+      "poster": "frames/saigon-1280-before-podium.png",
+      "videoSha256": "f2d418bd669d6cd4c639069a649cf3c9ed69a558712b72fb41ee34b653fb1d35",
+      "rawSha256": "22208f10e63d350440c1941cc0a1a7faf4bb395a704730c4371a1e48a6eb101e",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1280,
+            "height": 800,
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "20.040000"
+        }
+      }
+    },
+    {
+      "id": "saigon-1280-after",
+      "mall": "saigon",
+      "version": "after",
+      "width": 1280,
+      "height": 800,
+      "port": 4441,
+      "checks": [
+        {
+          "label": "Matched actual viewport and normal motion",
+          "pass": true
+        },
+        {
+          "label": "Automatic introduction rotation on",
+          "pass": true
+        },
+        {
+          "label": "Actual L2 selection and map entry",
+          "pass": true
+        },
+        {
+          "label": "No page errors",
+          "pass": true
+        },
+        {
+          "label": "Pre-roll marker detected and removed from replay",
+          "pass": true
+        },
+        {
+          "label": "Encoded video preserves exact matched viewport",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "errors": [],
+      "chapters": {
+        "opening": 0.05630000001192093,
+        "rotation": 2.762800000011921,
+        "early": 4.670200000017881,
+        "approach": 6.577100000023842,
+        "podium": 8.902,
+        "reveal": 10.832100000023841,
+        "overview": 12.755700000017882,
+        "travel": 12.848800000011922,
+        "map": 13.587200000017882,
+        "invitation": 15.54240000000596,
+        "discovery": 17.69740000000596,
+        "return": 19.957
+      },
+      "profile": {
+        "width": 1280,
+        "height": 800,
+        "reducedMotion": false,
+        "initialPause": "true",
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36"
+      },
+      "finalBounds": {
+        "width": 1280,
+        "documentWidth": 1328,
+        "scrollX": 0,
+        "observationOnly": true
+      },
+      "sequenceDuration": 20.02210000002384,
+      "trimStart": 2.36,
+      "video": "videos/saigon-1280-after.mp4",
+      "poster": "frames/saigon-1280-after-podium.png",
+      "videoSha256": "80ce1ff4292f4e5ada1df6bfaf314221793ec5604260ac5ee1a79e8ebf1760f7",
+      "rawSha256": "4a14fe731d382ffa93b26e53765b2f38b50682fce75b0ec9c4773a04f0b8d569",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1280,
+            "height": 800,
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "20.040000"
+        }
+      }
+    },
+    {
+      "id": "saigon-390-before",
+      "mall": "saigon",
+      "version": "before",
+      "width": 390,
+      "height": 844,
+      "port": 4451,
+      "checks": [
+        {
+          "label": "Matched actual viewport and normal motion",
+          "pass": true
+        },
+        {
+          "label": "Automatic introduction rotation on",
+          "pass": true
+        },
+        {
+          "label": "Actual L2 selection and map entry",
+          "pass": true
+        },
+        {
+          "label": "No page errors",
+          "pass": true
+        },
+        {
+          "label": "Pre-roll marker detected and removed from replay",
+          "pass": true
+        },
+        {
+          "label": "Encoded video preserves exact matched viewport",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "errors": [],
+      "chapters": {
+        "opening": 0.058,
+        "rotation": 2.781699999988079,
+        "early": 4.6675,
+        "approach": 6.552399999976158,
+        "podium": 8.848099999994039,
+        "reveal": 10.758,
+        "overview": 12.66559999999404,
+        "travel": 12.7415,
+        "map": 13.432199999988079,
+        "invitation": 15.373,
+        "discovery": 17.51719999998808,
+        "return": 19.703
+      },
+      "profile": {
+        "width": 390,
+        "height": 844,
+        "reducedMotion": false,
+        "initialPause": "true",
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36"
+      },
+      "finalBounds": {
+        "width": 390,
+        "documentWidth": 414,
+        "scrollX": 0,
+        "observationOnly": true
+      },
+      "sequenceDuration": 19.746699999988078,
+      "trimStart": 2.4,
+      "video": "videos/saigon-390-before.mp4",
+      "poster": "frames/saigon-390-before-podium.png",
+      "videoSha256": "e19eaa9b19149f14753d53348363c175293f4f43474053892e5cc1df1d9c29a3",
+      "rawSha256": "0921c5ba4f60f55812bee6c84535a62de4cea74409f424a9ebbc9bec496ee770",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 390,
+            "height": 844,
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "19.760000"
+        }
+      }
+    },
+    {
+      "id": "saigon-390-after",
+      "mall": "saigon",
+      "version": "after",
+      "width": 390,
+      "height": 844,
+      "port": 4441,
+      "checks": [
+        {
+          "label": "Matched actual viewport and normal motion",
+          "pass": true
+        },
+        {
+          "label": "Automatic introduction rotation on",
+          "pass": true
+        },
+        {
+          "label": "Actual L2 selection and map entry",
+          "pass": true
+        },
+        {
+          "label": "No page errors",
+          "pass": true
+        },
+        {
+          "label": "Pre-roll marker detected and removed from replay",
+          "pass": true
+        },
+        {
+          "label": "Encoded video preserves exact matched viewport",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "errors": [],
+      "chapters": {
+        "opening": 0.05919999998807907,
+        "rotation": 2.776399999976158,
+        "early": 4.662699999988079,
+        "approach": 6.548099999994039,
+        "podium": 8.8425,
+        "reveal": 10.7485,
+        "overview": 12.651,
+        "travel": 12.74359999999404,
+        "map": 13.4375,
+        "invitation": 15.377399999976157,
+        "discovery": 17.502299999982117,
+        "return": 19.683
+      },
+      "profile": {
+        "width": 390,
+        "height": 844,
+        "reducedMotion": false,
+        "initialPause": "true",
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36"
+      },
+      "finalBounds": {
+        "width": 390,
+        "documentWidth": 414,
+        "scrollX": 0,
+        "observationOnly": true
+      },
+      "sequenceDuration": 19.723899999976158,
+      "trimStart": 2.36,
+      "video": "videos/saigon-390-after.mp4",
+      "poster": "frames/saigon-390-after-podium.png",
+      "videoSha256": "3e149c99be7ac4eb6ebd6b6000f39df01d52c48e114675050d08ffa70255f7e4",
+      "rawSha256": "65c1f2270b28e1d8a61162d7e3fad4e0cd311a304fe534c76bf231e82c3e84d7",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 390,
+            "height": 844,
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "19.760000"
+        }
+      }
+    },
+    {
+      "id": "vincom-1280-before",
+      "mall": "vincom",
+      "version": "before",
+      "width": 1280,
+      "height": 800,
+      "port": 4452,
+      "checks": [
+        {
+          "label": "Matched actual viewport and normal motion",
+          "pass": true
+        },
+        {
+          "label": "Automatic introduction rotation on",
+          "pass": true
+        },
+        {
+          "label": "Actual L2 selection and map entry",
+          "pass": true
+        },
+        {
+          "label": "No page errors",
+          "pass": true
+        },
+        {
+          "label": "Pre-roll marker detected and removed from replay",
+          "pass": true
+        },
+        {
+          "label": "Encoded video preserves exact matched viewport",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "errors": [],
+      "chapters": {
+        "opening": 0.004399999976158142,
+        "rotation": 2.4770999999940395,
+        "early": 4.3935,
+        "approach": 6.318799999982119,
+        "podium": 8.658,
+        "reveal": 10.572799999982118,
+        "overview": 12.483899999976158,
+        "travel": 12.539699999988079,
+        "map": 13.11359999999404,
+        "invitation": 15.05779999998212,
+        "discovery": 17.19459999999404,
+        "return": 19.39389999997616
+      },
+      "profile": {
+        "width": 1280,
+        "height": 800,
+        "reducedMotion": false,
+        "initialPause": "true",
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36"
+      },
+      "finalBounds": {
+        "width": 1280,
+        "documentWidth": 1328,
+        "scrollX": 0,
+        "observationOnly": true
+      },
+      "sequenceDuration": 19.45359999999404,
+      "trimStart": 1.88,
+      "video": "videos/vincom-1280-before.mp4",
+      "poster": "frames/vincom-1280-before-podium.png",
+      "videoSha256": "c9a15dd93778c10c802c9516d4dd862435fa7d32f6dcc05f94143e9034ae8c65",
+      "rawSha256": "bf4a3bc82486622109acd96f8a6f30d089f9799cb180b071ad24d9fa37c47452",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1280,
+            "height": 800,
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "19.480000"
+        }
+      }
+    },
+    {
+      "id": "vincom-1280-after",
+      "mall": "vincom",
+      "version": "after",
+      "width": 1280,
+      "height": 800,
+      "port": 4442,
+      "checks": [
+        {
+          "label": "Matched actual viewport and normal motion",
+          "pass": true
+        },
+        {
+          "label": "Automatic introduction rotation on",
+          "pass": true
+        },
+        {
+          "label": "Actual L2 selection and map entry",
+          "pass": true
+        },
+        {
+          "label": "No page errors",
+          "pass": true
+        },
+        {
+          "label": "Pre-roll marker detected and removed from replay",
+          "pass": true
+        },
+        {
+          "label": "Encoded video preserves exact matched viewport",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "errors": [],
+      "chapters": {
+        "opening": 0.004699999988079071,
+        "rotation": 2.496399999976158,
+        "early": 4.408199999988079,
+        "approach": 6.337799999982119,
+        "podium": 8.663199999988079,
+        "reveal": 10.59269999998808,
+        "overview": 12.51419999998808,
+        "travel": 12.57229999998212,
+        "map": 13.144399999976159,
+        "invitation": 15.087599999994039,
+        "discovery": 17.222899999976157,
+        "return": 19.42759999999404
+      },
+      "profile": {
+        "width": 1280,
+        "height": 800,
+        "reducedMotion": false,
+        "initialPause": "true",
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36"
+      },
+      "finalBounds": {
+        "width": 1280,
+        "documentWidth": 1328,
+        "scrollX": 0,
+        "observationOnly": true
+      },
+      "sequenceDuration": 19.492599999994038,
+      "trimStart": 1.44,
+      "video": "videos/vincom-1280-after.mp4",
+      "poster": "frames/vincom-1280-after-podium.png",
+      "videoSha256": "770256b808f26ac600f9c0d65c54b2afae26a789687c2b9f49db8b82e0340e3d",
+      "rawSha256": "e0e04916c2c31ca3b38323baf3d467eadfb95bf2716acfa229d819388689e1c1",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 1280,
+            "height": 800,
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "19.520000"
+        }
+      }
+    },
+    {
+      "id": "vincom-390-before",
+      "mall": "vincom",
+      "version": "before",
+      "width": 390,
+      "height": 844,
+      "port": 4452,
+      "checks": [
+        {
+          "label": "Matched actual viewport and normal motion",
+          "pass": true
+        },
+        {
+          "label": "Automatic introduction rotation on",
+          "pass": true
+        },
+        {
+          "label": "Actual L2 selection and map entry",
+          "pass": true
+        },
+        {
+          "label": "No page errors",
+          "pass": true
+        },
+        {
+          "label": "Pre-roll marker detected and removed from replay",
+          "pass": true
+        },
+        {
+          "label": "Encoded video preserves exact matched viewport",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "errors": [],
+      "chapters": {
+        "opening": 0.005200000017881393,
+        "rotation": 2.452300000011921,
+        "early": 4.344300000011921,
+        "approach": 6.23959999999404,
+        "podium": 8.53959999999404,
+        "reveal": 10.439700000017881,
+        "overview": 12.33690000000596,
+        "travel": 12.38059999999404,
+        "map": 12.94080000001192,
+        "invitation": 14.874,
+        "discovery": 16.99940000000596,
+        "return": 19.184599999994038
+      },
+      "profile": {
+        "width": 390,
+        "height": 844,
+        "reducedMotion": false,
+        "initialPause": "true",
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36"
+      },
+      "finalBounds": {
+        "width": 390,
+        "documentWidth": 414,
+        "scrollX": 0,
+        "observationOnly": true
+      },
+      "sequenceDuration": 19.220200000017883,
+      "trimStart": 1.48,
+      "video": "videos/vincom-390-before.mp4",
+      "poster": "frames/vincom-390-before-podium.png",
+      "videoSha256": "147bb7e9a7cd476686b2492996c69f48e5b796e6bcf44aeee45f2ba9c8e594ef",
+      "rawSha256": "cb13fc8167483119055c50f8b58206fcd89862568a6bbd750b0aeb6090c12844",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 390,
+            "height": 844,
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "19.240000"
+        }
+      }
+    },
+    {
+      "id": "vincom-390-after",
+      "mall": "vincom",
+      "version": "after",
+      "width": 390,
+      "height": 844,
+      "port": 4442,
+      "checks": [
+        {
+          "label": "Matched actual viewport and normal motion",
+          "pass": true
+        },
+        {
+          "label": "Automatic introduction rotation on",
+          "pass": true
+        },
+        {
+          "label": "Actual L2 selection and map entry",
+          "pass": true
+        },
+        {
+          "label": "No page errors",
+          "pass": true
+        },
+        {
+          "label": "Pre-roll marker detected and removed from replay",
+          "pass": true
+        },
+        {
+          "label": "Encoded video preserves exact matched viewport",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "errors": [],
+      "chapters": {
+        "opening": 0.004800000011920929,
+        "rotation": 2.4526000000238417,
+        "early": 4.34740000000596,
+        "approach": 6.248,
+        "podium": 8.55240000000596,
+        "reveal": 10.453600000023842,
+        "overview": 12.350100000023842,
+        "travel": 12.39440000000596,
+        "map": 12.94980000001192,
+        "invitation": 14.888600000023843,
+        "discovery": 17.02830000001192,
+        "return": 19.20790000000596
+      },
+      "profile": {
+        "width": 390,
+        "height": 844,
+        "reducedMotion": false,
+        "initialPause": "true",
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Laptop GPU (0x00002D59) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36"
+      },
+      "finalBounds": {
+        "width": 390,
+        "documentWidth": 414,
+        "scrollX": 0,
+        "observationOnly": true
+      },
+      "sequenceDuration": 19.24760000002384,
+      "trimStart": 1.48,
+      "video": "videos/vincom-390-after.mp4",
+      "poster": "frames/vincom-390-after-podium.png",
+      "videoSha256": "ab976395dd8e596c91d0ade071373d2eff228ae60406e9acdc4b7a33cd8f1aa6",
+      "rawSha256": "2737c504dabe54a7084c0c49448ee838c9bf8886d32ed74720606bbada3abf1c",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "width": 390,
+            "height": 844,
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "19.280000"
+        }
+      }
+    }
+  ],
+  "method": "Fresh normal-motion browser recordings, same scripted sequence and CSS viewports. Intro turntable enabled by public Resume action in fresh isolated contexts. A temporary green pre-roll marker is removed before visible recording and used only for exact trim alignment. No app source changes, no OS preference changes. Native scene requests and waits preserved; timing is capture evidence, not a benchmark.",
+  "complete": true
+}
