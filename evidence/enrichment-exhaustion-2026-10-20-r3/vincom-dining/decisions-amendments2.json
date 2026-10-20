@@ -1,0 +1,580 @@
+{
+  "decisions": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-tianlong",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Tian Long\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-19.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Tian Long\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-19.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Tian Long\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-5.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tianlong.vn/lien-he.htm",
+          "evidenceFile": "source-follow-tianlong.txt",
+          "reference": "turn457view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Liên hệ - Tian Long (https://tianlong.vn/lien-he.htm)\nciteturn457view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://tianlong"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/tian-long-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Official contact-page embedded menu lists tomato hotpot, skirt steak, jade shrimp and cheese tofu. No mala claim retained.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://tianlong.vn/lien-he.htm",
+        "evidence": "Official contact-page embedded menu lists tomato hotpot, skirt steak, jade shrimp and cheese tofu. No mala claim retained.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "value": {
+          "vi": "Lẩu cà chua, diềm thăn, tôm bạch ngọc và đậu hũ phô mai theo thực đơn Tian Long.",
+          "en": "Tomato hotpot, skirt steak, jade shrimp and cheese tofu from Tian Long’s menu."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-yakinikulike",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Yakiniku Like\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-18.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Yakiniku Like\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-18.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Yakiniku Like\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-5.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://dining-innovation.com.sg/yakinikulike/country/vietnam",
+          "evidenceFile": "source-like.txt",
+          "reference": "turn479view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Vietnam | YAKINIKU LIKE | DINING INNOVATION Asia-Pacific PTE LTD (https://dining-innovation.com.sg/yakinikulike/country/vietnam)\nciteturn479view0 [wordlim: 200] Crawle"
+        },
+        {
+          "url": "https://kingbbq.vn/",
+          "evidenceFile": "source-extra-known.txt",
+          "reference": "turn652view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "KING BBQ – Vua Nướng Hàn Quốc (https://kingbbq.vn/)\nciteturn652view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://kingbbq.vn"
+        },
+        {
+          "url": "https://dining-innovation.com.sg/yakinikulike/",
+          "evidenceFile": "source-extra-known.txt",
+          "reference": "turn652view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "YAKINIKU LIKE | DINING INNOVATION Asia-Pacific PTE LTD (https://dining-innovation.com.sg/yakinikulike/)\nciteturn652view1 [wordlim: 200] Crawled: 3 weeks ago; Content t"
+        },
+        {
+          "url": "https://dining-innovation.com.sg/contact",
+          "evidenceFile": "source-kohaku-booking-contact.txt",
+          "reference": "turn745view0",
+          "section": "General Enquiries",
+          "result": "retrieved",
+          "support": "Inquiry form fields only; no published brand phone."
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "phone",
+      "reason": "Official exact Vietnam branch has blank Tel. The official regional general-contact page was additionally retrieved: it provides inquiry input fields, not a published contact telephone. Exact branch/brand phone queries yield no usable authenticated number. Other branch/franchise numbers excluded. This finding is bounded to these checked sources, including general-contact channels.",
+      "remainingAction": null,
+      "outcome": "unavailable-after-research",
+      "boundedScope": "Only the listed official pages/sections and targeted searches; not global absence."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-somthai",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Som Thái\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-06.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Som Thái\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-06.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Som Thái\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-2.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://somtumthai.com.vn/en/reservation/",
+          "evidenceFile": "source-somthai.txt",
+          "reference": "turn343view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Som ตำ Thai | Reservation (https://somtumthai.com.vn/en/reservation/)\nciteturn343view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\""
+        },
+        {
+          "url": "https://somtumthai.com.vn/en/",
+          "evidenceFile": "source-somthai.txt",
+          "reference": "turn343view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Som ตำ Thai (https://somtumthai.com.vn/en/)\nciteturn343view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://somtumthai.com.vn/"
+        },
+        {
+          "url": "https://somtumthai.com.vn/en/menu/",
+          "evidenceFile": "source-follow-menu-booking.txt",
+          "reference": "turn511view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn511view0 [wordlim: 200] Source: open({\"ref_id\":\"https://somtumthai.com.vn/en/menu/\",\"lineno\":null}); Total lines: 1\nL0: URL https://somtumtha"
+        },
+        {
+          "url": "https://bastahiro.com.vn/en/menu/",
+          "evidenceFile": "source-follow-menu-booking.txt",
+          "reference": "turn511view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn511view1 [wordlim: 200] Source: open({\"ref_id\":\"https://bastahiro.com.vn/en/menu/\",\"lineno\":null}); Total lines: 1\nL0: URL https://bastahiro."
+        },
+        {
+          "url": "https://longwang.vn/en/",
+          "evidenceFile": "source-follow-menu-booking.txt",
+          "reference": "turn511view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Home - Long Wang (https://longwang.vn/en/)\nciteturn511view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn391view0\",\"id\":7}); To"
+        },
+        {
+          "url": "https://longwang.vn/en/stores/",
+          "evidenceFile": "source-follow-menu-booking.txt",
+          "reference": "turn511view3",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Stores - Long Wang (https://longwang.vn/en/stores/)\nciteturn511view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn391view0\",\"id"
+        },
+        {
+          "url": "https://sushihokkaidosachi.com.vn/en/about-us/",
+          "evidenceFile": "source-follow-menu-booking.txt",
+          "reference": "turn511view4",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Sushi Hokkaido Sachi | Giới thiệu (https://sushihokkaidosachi.com.vn/en/about-us/)\nciteturn511view4 [wordlim: 200] Crawled: 4 days ago; Content type: text/html; Source"
+        },
+        {
+          "url": "https://caferunam.com/vi/he-thong",
+          "evidenceFile": "source-follow-menu-booking.txt",
+          "reference": "turn511view5",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Hệ Thống Cửa Hàng Trên Toàn Quốc - RuNam (https://caferunam.com/vi/he-thong)\nciteturn511view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"r"
+        },
+        {
+          "url": "https://somtumthai.com.vn/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Som ตำ Thai (https://somtumthai.com.vn/)\nciteturn655search0 [wordlim: 200] Content type: text/plain; \nSom ตํา Thai STORES Som ตํา Thai - Crescent Mall Som ตํา Thai - P"
+        },
+        {
+          "url": "https://bastahiro.com.vn/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Basta Hiro (https://bastahiro.com.vn/)\nciteturn655search1 [wordlim: 200] Content type: text/plain; \nBasta Hiro Trang chủ Location Tuyển dụng STORES Basta Hiro - Saigon"
+        },
+        {
+          "url": "https://www.old.langfarm.com/buffet-vn/menu",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Menu - L'angfarm Buffet — Langfarm - Đặc Sản Chất Lượng (https://www.old.langfarm.com/buffet-vn/menu)\nciteturn655search2 [wordlim: 200] Crawled: 2 days ago; Content ty"
+        },
+        {
+          "url": "https://somtumthai.com.vn/en/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search3",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Som ตำ Thai (https://somtumthai.com.vn/en/)\nciteturn655search3 [wordlim: 200] Content type: text/plain; \nSom ตํา Thai Som ตํา Thai - Crescent Mall Som ตํา Thai - Phan "
+        },
+        {
+          "url": "https://bastahiro.com.vn/en/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search4",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Basta Hiro (https://bastahiro.com.vn/en/)\nciteturn655search4 [wordlim: 200] Content type: text/plain; \nBasta Hiro STORES Basta Hiro - Saigon Centre Basta Hiro - Estell"
+        },
+        {
+          "url": "https://www.old.langfarm.com/langfarm-buffet",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search5",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Langfarm Buffet — Langfarm - Đặc Sản Chất Lượng (https://www.old.langfarm.com/langfarm-buffet)\nciteturn655search5 [wordlim: 200] Crawled: yesterday; Content type: text"
+        },
+        {
+          "url": "https://somtumthai.com.vn/location/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search6",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Som ตำ Thai | Địa Điểm (https://somtumthai.com.vn/location/)\nciteturn655search6 [wordlim: 200] Crawled: 3 days ago; Content type: text/plain; \nSom ตํา Thai | Địa Điểm "
+        },
+        {
+          "url": "https://bastahiro.com.vn/location/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search7",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Basta Hiro | Địa Điểm (https://bastahiro.com.vn/location/)\nciteturn655search7 [wordlim: 200] Crawled: today; Content type: text/plain; \nBasta Hiro | Địa Điểm Saigon Ce"
+        },
+        {
+          "url": "https://www.old.langfarm.com/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search8",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Langfarm - Đặc Sản Chất Lượng (https://www.old.langfarm.com/)\nciteturn655search8 [wordlim: 200] Content type: text/plain; \nLangfarm - Đặc Sản Chất Lượng SIÊU SALE 25.0"
+        },
+        {
+          "url": "https://somtumthai.com.vn/en/location/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search9",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Som ตำ Thai | Location (https://somtumthai.com.vn/en/location/)\nciteturn655search9 [wordlim: 200] Crawled: 3 days ago; Content type: text/plain;"
+        },
+        {
+          "url": "https://bastahiro.com.vn/en/location/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search10",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Basta Hiro | Location (https://bastahiro.com.vn/en/location/)\nciteturn655search10 [wordlim: 200] Crawled: today; Content type: text/plain;"
+        },
+        {
+          "url": "https://langfarm.com/blog/do-kho-dac-san-thom-ngon-dam-da-huong-vi-viet",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search11",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Đồ Khô Đặc Sản: Thơm Ngon, Đậm Đà Hương Vị Việt | Langfarm - Đặc Sản Đà Lạt (https://langfarm.com/blog/do-kho-dac-san-thom-ngon-dam-da-huong-vi-viet)\nciteturn655search1"
+        },
+        {
+          "url": "https://somtumthai.com.vn/en/",
+          "evidenceFile": "source-som-basta-last.txt",
+          "section": "Official brand introduction",
+          "result": "retrieved",
+          "support": "Official current Som Tum Thai introduction discusses papaya salads and four regional Thai cooking styles; brand-wide summary only."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/som-tum-thai-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "phone",
+          "sourceUrl": "https://somtumthai.com.vn/en/location/?current=Vincom+Center+Dong+Khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "hours",
+          "sourceUrl": "https://somtumthai.com.vn/en/location/?current=Vincom+Center+Dong+Khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Official current Som Tum Thai introduction discusses papaya salads and four regional Thai cooking styles; brand-wide summary only.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://somtumthai.com.vn/en/",
+        "evidence": "Official current Som Tum Thai introduction discusses papaya salads and four regional Thai cooking styles; brand-wide summary only.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "Các món Thái theo phong cách vùng miền, gồm gỏi đu đủ được giới thiệu trên trang thương hiệu.",
+          "en": "Regional Thai cooking, including the papaya salads described on the brand page."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-bastahiro",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Basta Hiro\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-07.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Basta Hiro\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-07.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Basta Hiro\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-2.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://bastahiro.com.vn/reservation/",
+          "evidenceFile": "source-basta.txt",
+          "reference": "turn344view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Basta Hiro | Reservation (https://bastahiro.com.vn/reservation/)\nciteturn344view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https"
+        },
+        {
+          "url": "https://bastahiro.com.vn/",
+          "evidenceFile": "source-basta.txt",
+          "reference": "turn344view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Basta Hiro (https://bastahiro.com.vn/)\nciteturn344view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://bastahiro.com.vn/\",\"lin"
+        },
+        {
+          "url": "https://somtumthai.com.vn/en/menu/",
+          "evidenceFile": "source-follow-menu-booking.txt",
+          "reference": "turn511view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn511view0 [wordlim: 200] Source: open({\"ref_id\":\"https://somtumthai.com.vn/en/menu/\",\"lineno\":null}); Total lines: 1\nL0: URL https://somtumtha"
+        },
+        {
+          "url": "https://bastahiro.com.vn/en/menu/",
+          "evidenceFile": "source-follow-menu-booking.txt",
+          "reference": "turn511view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn511view1 [wordlim: 200] Source: open({\"ref_id\":\"https://bastahiro.com.vn/en/menu/\",\"lineno\":null}); Total lines: 1\nL0: URL https://bastahiro."
+        },
+        {
+          "url": "https://longwang.vn/en/",
+          "evidenceFile": "source-follow-menu-booking.txt",
+          "reference": "turn511view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Home - Long Wang (https://longwang.vn/en/)\nciteturn511view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn391view0\",\"id\":7}); To"
+        },
+        {
+          "url": "https://longwang.vn/en/stores/",
+          "evidenceFile": "source-follow-menu-booking.txt",
+          "reference": "turn511view3",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Stores - Long Wang (https://longwang.vn/en/stores/)\nciteturn511view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn391view0\",\"id"
+        },
+        {
+          "url": "https://sushihokkaidosachi.com.vn/en/about-us/",
+          "evidenceFile": "source-follow-menu-booking.txt",
+          "reference": "turn511view4",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Sushi Hokkaido Sachi | Giới thiệu (https://sushihokkaidosachi.com.vn/en/about-us/)\nciteturn511view4 [wordlim: 200] Crawled: 4 days ago; Content type: text/html; Source"
+        },
+        {
+          "url": "https://caferunam.com/vi/he-thong",
+          "evidenceFile": "source-follow-menu-booking.txt",
+          "reference": "turn511view5",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Hệ Thống Cửa Hàng Trên Toàn Quốc - RuNam (https://caferunam.com/vi/he-thong)\nciteturn511view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"r"
+        },
+        {
+          "url": "https://somtumthai.com.vn/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Som ตำ Thai (https://somtumthai.com.vn/)\nciteturn655search0 [wordlim: 200] Content type: text/plain; \nSom ตํา Thai STORES Som ตํา Thai - Crescent Mall Som ตํา Thai - P"
+        },
+        {
+          "url": "https://bastahiro.com.vn/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Basta Hiro (https://bastahiro.com.vn/)\nciteturn655search1 [wordlim: 200] Content type: text/plain; \nBasta Hiro Trang chủ Location Tuyển dụng STORES Basta Hiro - Saigon"
+        },
+        {
+          "url": "https://www.old.langfarm.com/buffet-vn/menu",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Menu - L'angfarm Buffet — Langfarm - Đặc Sản Chất Lượng (https://www.old.langfarm.com/buffet-vn/menu)\nciteturn655search2 [wordlim: 200] Crawled: 2 days ago; Content ty"
+        },
+        {
+          "url": "https://somtumthai.com.vn/en/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search3",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Som ตำ Thai (https://somtumthai.com.vn/en/)\nciteturn655search3 [wordlim: 200] Content type: text/plain; \nSom ตํา Thai Som ตํา Thai - Crescent Mall Som ตํา Thai - Phan "
+        },
+        {
+          "url": "https://bastahiro.com.vn/en/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search4",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Basta Hiro (https://bastahiro.com.vn/en/)\nciteturn655search4 [wordlim: 200] Content type: text/plain; \nBasta Hiro STORES Basta Hiro - Saigon Centre Basta Hiro - Estell"
+        },
+        {
+          "url": "https://www.old.langfarm.com/langfarm-buffet",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search5",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Langfarm Buffet — Langfarm - Đặc Sản Chất Lượng (https://www.old.langfarm.com/langfarm-buffet)\nciteturn655search5 [wordlim: 200] Crawled: yesterday; Content type: text"
+        },
+        {
+          "url": "https://somtumthai.com.vn/location/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search6",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Som ตำ Thai | Địa Điểm (https://somtumthai.com.vn/location/)\nciteturn655search6 [wordlim: 200] Crawled: 3 days ago; Content type: text/plain; \nSom ตํา Thai | Địa Điểm "
+        },
+        {
+          "url": "https://bastahiro.com.vn/location/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search7",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Basta Hiro | Địa Điểm (https://bastahiro.com.vn/location/)\nciteturn655search7 [wordlim: 200] Crawled: today; Content type: text/plain; \nBasta Hiro | Địa Điểm Saigon Ce"
+        },
+        {
+          "url": "https://www.old.langfarm.com/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search8",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Langfarm - Đặc Sản Chất Lượng (https://www.old.langfarm.com/)\nciteturn655search8 [wordlim: 200] Content type: text/plain; \nLangfarm - Đặc Sản Chất Lượng SIÊU SALE 25.0"
+        },
+        {
+          "url": "https://somtumthai.com.vn/en/location/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search9",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Som ตำ Thai | Location (https://somtumthai.com.vn/en/location/)\nciteturn655search9 [wordlim: 200] Crawled: 3 days ago; Content type: text/plain;"
+        },
+        {
+          "url": "https://bastahiro.com.vn/en/location/",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search10",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Basta Hiro | Location (https://bastahiro.com.vn/en/location/)\nciteturn655search10 [wordlim: 200] Crawled: today; Content type: text/plain;"
+        },
+        {
+          "url": "https://langfarm.com/blog/do-kho-dac-san-thom-ngon-dam-da-huong-vi-viet",
+          "evidenceFile": "source-som-basta-menu-search.txt",
+          "reference": "turn655search11",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Đồ Khô Đặc Sản: Thơm Ngon, Đậm Đà Hương Vị Việt | Langfarm - Đặc Sản Đà Lạt (https://langfarm.com/blog/do-kho-dac-san-thom-ngon-dam-da-huong-vi-viet)\nciteturn655search1"
+        },
+        {
+          "url": "https://bastahiro.com.vn/en/",
+          "evidenceFile": "source-som-basta-last.txt",
+          "section": "Official brand introduction",
+          "result": "retrieved",
+          "support": "Official current Basta Hiro introduction explicitly describes Italian cuisine with Japanese ingredients and dishes prepared in traditional/modern styles; brand-wide concept only."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/basta-hiro-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "phone",
+          "sourceUrl": "https://bastahiro.com.vn/en/location/?current=Vincom+Center+Dong+Khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "hours",
+          "sourceUrl": "https://bastahiro.com.vn/en/location/?current=Vincom+Center+Dong+Khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Official current Basta Hiro introduction explicitly describes Italian cuisine with Japanese ingredients and dishes prepared in traditional/modern styles; brand-wide concept only.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://bastahiro.com.vn/en/",
+        "evidence": "Official current Basta Hiro introduction explicitly describes Italian cuisine with Japanese ingredients and dishes prepared in traditional/modern styles; brand-wide concept only.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "Các món kết hợp ẩm thực Ý với nguyên liệu Nhật Bản, theo phong cách truyền thống và hiện đại của thương hiệu.",
+          "en": "Italian dishes combined with Japanese ingredients in the brand’s traditional and modern styles."
+        }
+      }
+    }
+  ],
+  "supersedes": "Matching destinationId/field pairs only; exact-source refinement."
+}

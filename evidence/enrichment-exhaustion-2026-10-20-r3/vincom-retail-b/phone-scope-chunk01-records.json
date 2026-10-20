@@ -1,0 +1,461 @@
+{
+  "revision": "scoped-general-phone-fallback-01",
+  "records": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-beautybox",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://beautybox.com.vn/stores/BG012",
+          "evidence": "Official numeric contact in actual saved source body: turn403view3 L41. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "18006035",
+            "en": "18006035"
+          },
+          "uncertainty": {
+            "vi": "Beauty Box Việt Nam, tổng đài chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "Beauty Box Vietnam general hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-006",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://cathkidston.com.vn/",
+          "evidence": "Official numeric contact in actual saved source body: turn376view1 L284; also turn376view0 L105. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "0967588832",
+            "en": "0967588832"
+          },
+          "uncertainty": {
+            "vi": "Cath Kidston Việt Nam, liên hệ chung trên website. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "Cath Kidston Vietnam general website contact. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-017",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://ceci.vn/",
+          "evidence": "Official numeric contact in actual saved source body: turn802view1 L139/159. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "0789866225",
+            "en": "0789866225"
+          },
+          "uncertainty": {
+            "vi": "Céci Việt Nam, hotline chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "Céci Vietnam general hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-029",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.cutieland.vn/",
+          "evidence": "Official numeric contact in actual saved source body: turn812view1 L186; printed +84 397 8888 18. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "+84397888818",
+            "en": "+84397888818"
+          },
+          "uncertainty": {
+            "vi": "Cutieland Việt Nam, hotline chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "Cutieland Vietnam general hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-coway",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://cowayvina.com.vn/coway-vina",
+          "evidence": "Official numeric contact in actual saved source body: turn382view0 L32–33/131–132. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "1800556892",
+            "en": "1800556892"
+          },
+          "uncertainty": {
+            "vi": "Coway Vina, hotline chăm sóc khách hàng toàn quốc. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "Coway Vina national customer-care hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-fixifoot",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://fixifoot.vn/contact-us/",
+          "evidence": "Official numeric contact in actual saved source body: turn382view1 L14/27/40. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "0983000821",
+            "en": "0983000821"
+          },
+          "uncertainty": {
+            "vi": "Fixifoot Việt Nam, số liên hệ chung trên website. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "Fixifoot Vietnam general website contact. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-himalaya",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.himalaya-vn.com/",
+          "evidence": "Official numeric contact in actual saved source body: turn848view2 L424. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "0865772112",
+            "en": "0865772112"
+          },
+          "uncertainty": {
+            "vi": "Himalaya Việt Nam, hotline chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "Himalaya Vietnam general hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-lining",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://lining.com.vn/collections/giay-chay-bo-nam-2",
+          "evidence": "Official numeric contact in actual saved source body: turn814view0 L699–703 identifies Hải Long distributor and hotline. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "1900633083",
+            "en": "1900633083"
+          },
+          "uncertainty": {
+            "vi": "Hải Long, nhà phân phối Li-Ning tại Việt Nam, hotline chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "Hai Long, Li-Ning Vietnam distributor general hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-mykingdom",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.mykingdom.com.vn/pages/faqs",
+          "evidence": "Official numeric contact in actual saved source body: turn618view0 L255/270/283. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "19001208",
+            "en": "19001208"
+          },
+          "uncertainty": {
+            "vi": "Mykingdom Việt Nam, hotline hỗ trợ chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "Mykingdom Vietnam general support hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-matviet",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://matviet.vn/pages/about-us",
+          "evidence": "Official numeric contact in actual saved source body: turn797view1 L171/300/344. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "19006081",
+            "en": "19006081"
+          },
+          "uncertainty": {
+            "vi": "Mắt Việt, hotline chung toàn hệ thống. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "Mắt Việt general network hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-viinriicnicheperfume",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://viinriic.com/en/store-locator/",
+          "evidence": "Official numeric contact in actual saved source body: turn493view2 L175/221; independently repeated product-proof02 L402/448. Older0901982607 is identified with named Ngoc Quyen/regional block, not the generic contact@viinriic.com block. No branch line chosen.. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "+84909816771",
+            "en": "+84909816771"
+          },
+          "uncertainty": {
+            "vi": "VIINRIIC Việt Nam, hotline thương hiệu tại khối liên hệ chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "VIINRIIC Vietnam brand hotline in the general contact block. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-lush",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.lushvietnam.com/pages/lien-he",
+          "evidence": "Official numeric contact in actual saved source body: turn618view1 L23–25; operator Maison also product-proof03 L701–702. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "1900252538",
+            "en": "1900252538"
+          },
+          "uncertainty": {
+            "vi": "LUSH Việt Nam / Maison, hotline chăm sóc khách hàng chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "LUSH Vietnam / Maison general customer-care hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-charleskeith",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.charleskeith.vn/vn-en/contactus",
+          "evidence": "Official numeric contact in actual saved source body: turn717view5 L94/160/175. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "1900252538",
+            "en": "1900252538"
+          },
+          "uncertainty": {
+            "vi": "CHARLES & KEITH Việt Nam / Maison, hotline hỗ trợ chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "CHARLES & KEITH Vietnam / Maison general support hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-036",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://bhpc.com.vn/",
+          "evidence": "Official numeric contact in actual saved source body: turn893view3 L255–257 Kowil contact block. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "19008079",
+            "en": "19008079"
+          },
+          "uncertainty": {
+            "vi": "Kowil / Beverly Hills Polo Club Việt Nam, số hỗ trợ chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "Kowil / Beverly Hills Polo Club Vietnam general support contact. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-l1-001",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://vinfastauto.com/vn_vi",
+          "evidence": "Official numeric contact in actual saved source body: turn894view0 L1006–1008 customer service, extension1. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "1900232389",
+            "en": "1900232389"
+          },
+          "uncertainty": {
+            "vi": "VinFast Việt Nam, dịch vụ khách hàng chung — chọn nhánh 1. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "VinFast Vietnam general customer service — choose extension 1. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-pnj",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.pnj.com.vn/trang-suc/",
+          "evidence": "Official numeric contact in actual saved source body: turn894view3 L8 hotline. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "1800545457",
+            "en": "1800545457"
+          },
+          "uncertainty": {
+            "vi": "PNJ Việt Nam, hotline chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "PNJ Vietnam general hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-scentuals",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://scentuals.vn/",
+          "evidence": "Official numeric contact in actual saved source body: turn482view1 L322–324 office hotline. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "02873003889",
+            "en": "02873003889"
+          },
+          "uncertainty": {
+            "vi": "Scentuals Việt Nam, hotline văn phòng chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "Scentuals Vietnam general office hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-lancome",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.lancome.vn/vi_VN/stores",
+          "evidence": "Official numeric contact in actual saved source body: turn384view0 L285–287 general support footer; no branch row. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "1800545463",
+            "en": "1800545463"
+          },
+          "uncertainty": {
+            "vi": "Lancôme Việt Nam, số hỗ trợ chung công bố trên website. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "Lancôme Vietnam general support number published on its website. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-newbalance",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.newbalance.com/customerservice/",
+          "evidence": "Official numeric contact in actual saved source body: turn786view1; central-reviewed reusable brand-wide US customer-care source. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "8005959138",
+            "en": "8005959138"
+          },
+          "uncertainty": {
+            "vi": "New Balance Hoa Kỳ, số chăm sóc khách hàng website theo định dạng nội địa Hoa Kỳ. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "New Balance United States website customer care in its published US domestic format. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    }
+  ]
+}

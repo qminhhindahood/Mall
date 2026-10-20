@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-20",
+  "result": "pass",
+  "queueKeys": 143,
+  "uniqueDecisions": 143,
+  "exactQueueEquality": true,
+  "preservedAcceptedFields": 658,
+  "baselineKeyOverlap": 0,
+  "counts": {
+    "proposal": 85,
+    "bounded-unavailable": 8,
+    "hold": 50
+  },
+  "allHoldsHaveNextAction": true,
+  "sha256": {
+    "records-complete.json": "ad872175245e0ce16b2798855e4b0a24686304053be65f73ef183de82d3c461d",
+    "decisions-complete.json": "240ca6797578e444d1dc3025ac57ef736425d3f0a2f9500792dd6327f6a3f6ad",
+    "international-followthrough.json": "30a818f1fa41397daba8b7a10c4d83282a1bef1df7911344a70f20f06c78c3a7",
+    "phone-supplement.json": "30b7013ec5cb952882386ffe8dc43742bffe9848c706c56f0dd8bac5acb6b705"
+  }
+}

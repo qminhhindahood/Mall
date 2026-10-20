@@ -1,0 +1,3134 @@
+{
+  "decisions": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-002",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Pepper Lunch\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-01.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Pepper Lunch\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-01.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Pepper Lunch\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Pepper Lunch",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/pepper-lunch",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Readable official mall brand profile identifies Pepper Lunch Japanese steakhouse/teppan concept. Its current location list names TranDuyHung only, so website fallback is explicitly brand-wide, no current DongKhoi occupancy assertion."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/pepper-lunch",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex0; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "website",
+      "reason": "Readable official mall brand profile identifies Pepper Lunch Japanese steakhouse/teppan concept. Its current location list names TranDuyHung only, so website fallback is explicitly brand-wide, no current DongKhoi occupancy assertion.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Authenticated official brand/branch action URL, not generic mall landing.",
+      "proposedField": {
+        "field": "website",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/pepper-lunch",
+        "evidence": "Readable official mall brand profile identifies Pepper Lunch Japanese steakhouse/teppan concept. Its current location list names TranDuyHung only, so website fallback is explicitly brand-wide, no current DongKhoi occupancy assertion.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://vincom.com.vn/brand/pepper-lunch",
+        "uncertainty": {
+          "vi": "Thông tin tham khảo của thương hiệu; xác nhận món, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand reference information; confirm current dishes, products and details with the branch."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-005",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Lẩu MK\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-02.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Lẩu MK\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-02.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Lẩu MK\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Lẩu MK",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "redirected-generic-home-not-evidence"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mkrestaurant.com/en/contact-us",
+          "evidenceFile": "source-mk-contact.txt",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official MK Restaurant Group Bangkok company contact PHONE02-836-1000. Thailand corporate contact only, not Vietnamese branch or delivery1642. Office hours not transferred to restaurant hours."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/lau-mk",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex3; full rendered body,links and menu-image inventory",
+          "result": "redirected-generic-home-not-evidence",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "phone",
+      "reason": "Official MK Restaurant Group Bangkok company contact PHONE02-836-1000. Thailand corporate contact only, not Vietnamese branch or delivery1642. Office hours not transferred to restaurant hours.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "An explicitly published branch phone or clearly scoped general brand contact; never another branch.",
+      "proposedField": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.mkrestaurant.com/en/contact-us",
+        "evidence": "Official MK Restaurant Group Bangkok company contact PHONE02-836-1000. Thailand corporate contact only, not Vietnamese branch or delivery1642. Office hours not transferred to restaurant hours.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "02-836-1000",
+          "en": "02-836-1000"
+        },
+        "uncertainty": {
+          "vi": "Số liên hệ công ty tại Bangkok, Thái Lan; không phải số chi nhánh Đồng Khởi. Khả năng gọi từ Việt Nam chưa xác nhận.",
+          "en": "Corporate contact in Bangkok, Thailand; not the Dong Khoi branch number. Calling availability from Vietnam is unconfirmed."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-007",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Hoàng Yến\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-03.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Hoàng Yến\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-03.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Hoàng Yến\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Hoàng Yến",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "redirected-generic-home-not-evidence"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://hoangyenbuffet.com/lien-he/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official brand contact footer publishes company telephone T(028)3823.3220, distinguished from fax0283829.5334 and VanHanh branch02862760749. Corporate brand contact only."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/hoang-yen",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex5; full rendered body,links and menu-image inventory",
+          "result": "redirected-generic-home-not-evidence",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "phone",
+      "reason": "Official brand contact footer publishes company telephone T(028)3823.3220, distinguished from fax0283829.5334 and VanHanh branch02862760749. Corporate brand contact only.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "An explicitly published branch phone or clearly scoped general brand contact; never another branch.",
+      "proposedField": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://hoangyenbuffet.com/lien-he/",
+        "evidence": "Official brand contact footer publishes company telephone T(028)3823.3220, distinguished from fax0283829.5334 and VanHanh branch02862760749. Corporate brand contact only.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "02838233220",
+          "en": "02838233220"
+        },
+        "uncertainty": {
+          "vi": "Điện thoại công ty của thương hiệu; không xác nhận là số riêng chi nhánh Đồng Khởi. Chưa gọi thử.",
+          "en": "Brand corporate telephone; not confirmed as a dedicated Dong Khoi branch line. No call placed."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-comtammoc",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Cơm Tấm Mộc\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-06.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Cơm Tấm Mộc\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-06.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Cơm Tấm Mộc\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-2.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Cơm Tấm Mộc",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/com-tam-moc",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official mall full brand article contains actual named offerings and three menu-image collections. Downloaded menu-2 image visually inspected: rice/grilled-meat sets and clam/luffa soup; no prices copied."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/com-tam-moc",
+          "evidenceFile": "mall-menu-images.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official mall full brand article contains actual named offerings and three menu-image collections. Downloaded menu-2 image visually inspected: rice/grilled-meat sets and clam/luffa soup; no prices copied."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/com-tam-moc",
+          "evidenceFile": "comtam-menu.jpg",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official mall full brand article contains actual named offerings and three menu-image collections. Downloaded menu-2 image visually inspected: rice/grilled-meat sets and clam/luffa soup; no prices copied."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/com-tam-moc",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex11; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/com-tam-moc-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "menu",
+      "reason": "Official mall full brand article contains actual named offerings and three menu-image collections. Downloaded menu-2 image visually inspected: rice/grilled-meat sets and clam/luffa soup; no prices copied.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Actual menu/product content or actual menu asset, with market/branch scope.",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/com-tam-moc",
+        "evidence": "Official mall full brand article contains actual named offerings and three menu-image collections. Downloaded menu-2 image visually inspected: rice/grilled-meat sets and clam/luffa soup; no prices copied.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://vincom.com.vn/brand/com-tam-moc",
+        "uncertainty": {
+          "vi": "Tham khảo do Vincom đăng; hình ghi nguồn Internet, ngày áp dụng và thực đơn hiện tại ở chi nhánh chưa xác định. Xác nhận món và giá với nhà hàng.",
+          "en": "Reference published by Vincom; images credit Internet sources, and effective date/current branch menu are unconfirmed. Confirm dishes and prices with the restaurant."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-comtammoc",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Cơm Tấm Mộc\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-06.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Cơm Tấm Mộc\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-06.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Cơm Tấm Mộc\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-2.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Cơm Tấm Mộc",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/com-tam-moc",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual article names broken rice with grilled meat,ribs,soup,egg meatloaf and braised shrimp; product summary only."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/com-tam-moc",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex11; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/com-tam-moc-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Actual article names broken rice with grilled meat,ribs,soup,egg meatloaf and braised shrimp; product summary only.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Specific actual offerings/products; no invented amenities.",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/com-tam-moc",
+        "evidence": "Actual article names broken rice with grilled meat,ribs,soup,egg meatloaf and braised shrimp; product summary only.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "Cơm tấm với thịt nướng, sườn, chả trứng, canh và tôm kho theo giới thiệu của Vincom.",
+          "en": "Broken rice with grilled meat, ribs, egg meatloaf, soup and braised shrimp as described by Vincom."
+        },
+        "uncertainty": {
+          "vi": "Tham khảo do Vincom đăng; hình ghi nguồn Internet, ngày áp dụng và thực đơn hiện tại ở chi nhánh chưa xác định. Xác nhận món và giá với nhà hàng.",
+          "en": "Reference published by Vincom; images credit Internet sources, and effective date/current branch menu are unconfirmed. Confirm dishes and prices with the restaurant."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-chillithai",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Chilli Thai\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-07.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Chilli Thai\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-07.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Chilli Thai\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-2.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Chilli Thai",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/chilli-thai",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official mall article explicitly labels booking hotline02838288282 for ChilliThai VincomDongKhoi,Quan1,TPHCM. Wrong ChillThai domain excluded."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/chilli-thai",
+          "evidenceFile": "../holds/mall-menu-reference.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official mall article explicitly labels booking hotline02838288282 for ChilliThai VincomDongKhoi,Quan1,TPHCM. Wrong ChillThai domain excluded."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/chilli-thai",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex12; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/chilli-thai-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "phone",
+      "reason": "Official mall article explicitly labels booking hotline02838288282 for ChilliThai VincomDongKhoi,Quan1,TPHCM. Wrong ChillThai domain excluded.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "An explicitly published branch phone or clearly scoped general brand contact; never another branch.",
+      "proposedField": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/chilli-thai",
+        "evidence": "Official mall article explicitly labels booking hotline02838288282 for ChilliThai VincomDongKhoi,Quan1,TPHCM. Wrong ChillThai domain excluded.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "02838288282",
+          "en": "02838288282"
+        },
+        "branchMallId": "vincom-dong-khoi",
+        "uncertainty": {
+          "vi": "Hotline đặt bàn Đồng Khởi do Vincom công bố; chưa gọi thử, xác nhận thông tin hiện tại.",
+          "en": "Dong Khoi booking hotline published by Vincom; no call placed, confirm current details."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-chillithai",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Chilli Thai\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-07.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Chilli Thai\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-07.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Chilli Thai\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-2.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Chilli Thai",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/chilli-thai",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual mall-published phone-booking instructions advise reserving ahead and give02838288282 explicitly for DongKhoi. Informational call instructions, not an online form; no call or reservation submitted."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/chilli-thai",
+          "evidenceFile": "../holds/mall-menu-reference.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual mall-published phone-booking instructions advise reserving ahead and give02838288282 explicitly for DongKhoi. Informational call instructions, not an online form; no call or reservation submitted."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/chilli-thai",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex12; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/chilli-thai-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "booking",
+      "reason": "Actual mall-published phone-booking instructions advise reserving ahead and give02838288282 explicitly for DongKhoi. Informational call instructions, not an online form; no call or reservation submitted.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Actual reservation form/action/policy, not contact form or food delivery.",
+      "proposedField": {
+        "field": "booking",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/chilli-thai",
+        "evidence": "Actual mall-published phone-booking instructions advise reserving ahead and give02838288282 explicitly for DongKhoi. Informational call instructions, not an online form; no call or reservation submitted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://vincom.com.vn/brand/chilli-thai",
+        "branchMallId": "vincom-dong-khoi",
+        "uncertainty": {
+          "vi": "Hướng dẫn đặt bàn qua điện thoại; cần gọi hotline trong bài và xác nhận với nhà hàng.",
+          "en": "Telephone booking instructions; call the hotline in the article and confirm with the restaurant."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-chillithai",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Chilli Thai\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-07.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Chilli Thai\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-07.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Chilli Thai\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-2.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Chilli Thai",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/chilli-thai",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual correct-brand mall article and visually inspected menu reference support sashimi salad,seafood,rice and Thai noodle dishes. Images carry Internet attribution; no prices/current stock promised."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/chilli-thai",
+          "evidenceFile": "../holds/mall-menu-reference.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual correct-brand mall article and visually inspected menu reference support sashimi salad,seafood,rice and Thai noodle dishes. Images carry Internet attribution; no prices/current stock promised."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/chilli-thai",
+          "evidenceFile": "../holds/chilli-menu-reference.jpg",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual correct-brand mall article and visually inspected menu reference support sashimi salad,seafood,rice and Thai noodle dishes. Images carry Internet attribution; no prices/current stock promised."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/chilli-thai",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex12; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/chilli-thai-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Actual correct-brand mall article and visually inspected menu reference support sashimi salad,seafood,rice and Thai noodle dishes. Images carry Internet attribution; no prices/current stock promised.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Specific actual offerings/products; no invented amenities.",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/chilli-thai",
+        "evidence": "Actual correct-brand mall article and visually inspected menu reference support sashimi salad,seafood,rice and Thai noodle dishes. Images carry Internet attribution; no prices/current stock promised.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "Gỏi sashimi, hải sản, các món cơm và phở Thái theo giới thiệu của Vincom.",
+          "en": "Sashimi salad, seafood, rice and Thai noodle dishes as described by Vincom."
+        },
+        "uncertainty": {
+          "vi": "Tham khảo do Vincom đăng; hình ghi nguồn Internet, ngày áp dụng và thực đơn hiện tại ở chi nhánh chưa xác định. Xác nhận món và giá với nhà hàng.",
+          "en": "Reference published by Vincom; images credit Internet sources, and effective date/current branch menu are unconfirmed. Confirm dishes and prices with the restaurant."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-bastahiro",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Basta Hiro\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-07.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Basta Hiro\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-07.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Basta Hiro\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-2.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Basta Hiro",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/basta-hiro",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official mall article includes actual pizza/pasta/risotto/salad menu sections. Embedded pizza-menu image downloaded and visually inspected: four-cheese,mushroom,salmon and other named pizzas; menu role verified, not generic food photography."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/basta-hiro",
+          "evidenceFile": "mall-menu-images.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official mall article includes actual pizza/pasta/risotto/salad menu sections. Embedded pizza-menu image downloaded and visually inspected: four-cheese,mushroom,salmon and other named pizzas; menu role verified, not generic food photography."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/basta-hiro",
+          "evidenceFile": "basta-menu.jpg",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official mall article includes actual pizza/pasta/risotto/salad menu sections. Embedded pizza-menu image downloaded and visually inspected: four-cheese,mushroom,salmon and other named pizzas; menu role verified, not generic food photography."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/basta-hiro",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex13; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/basta-hiro-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "phone",
+          "sourceUrl": "https://bastahiro.com.vn/en/location/?current=Vincom+Center+Dong+Khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "hours",
+          "sourceUrl": "https://bastahiro.com.vn/en/location/?current=Vincom+Center+Dong+Khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "menu",
+      "reason": "Official mall article includes actual pizza/pasta/risotto/salad menu sections. Embedded pizza-menu image downloaded and visually inspected: four-cheese,mushroom,salmon and other named pizzas; menu role verified, not generic food photography.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Actual menu/product content or actual menu asset, with market/branch scope.",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/basta-hiro",
+        "evidence": "Official mall article includes actual pizza/pasta/risotto/salad menu sections. Embedded pizza-menu image downloaded and visually inspected: four-cheese,mushroom,salmon and other named pizzas; menu role verified, not generic food photography.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://vincom.com.vn/brand/basta-hiro",
+        "uncertainty": {
+          "vi": "Tham khảo do Vincom đăng; hình ghi nguồn Internet, ngày áp dụng và thực đơn hiện tại ở chi nhánh chưa xác định. Xác nhận món và giá với nhà hàng.",
+          "en": "Reference published by Vincom; images credit Internet sources, and effective date/current branch menu are unconfirmed. Confirm dishes and prices with the restaurant."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-bastahiro",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Basta Hiro\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-07.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Basta Hiro\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-07.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Basta Hiro\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-2.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Basta Hiro",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/basta-hiro",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official mall article explicitly names pizza,spaghetti,risotto,salad; actual pizza menu visually verified. Replaces generic fusion-only summary with useful sourced product types."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/basta-hiro",
+          "evidenceFile": "basta-menu.jpg",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official mall article explicitly names pizza,spaghetti,risotto,salad; actual pizza menu visually verified. Replaces generic fusion-only summary with useful sourced product types."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/basta-hiro",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex13; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/basta-hiro-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "phone",
+          "sourceUrl": "https://bastahiro.com.vn/en/location/?current=Vincom+Center+Dong+Khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "hours",
+          "sourceUrl": "https://bastahiro.com.vn/en/location/?current=Vincom+Center+Dong+Khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Official mall article explicitly names pizza,spaghetti,risotto,salad; actual pizza menu visually verified. Replaces generic fusion-only summary with useful sourced product types.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/basta-hiro",
+        "evidence": "Official mall article explicitly names pizza,spaghetti,risotto,salad; actual pizza menu visually verified. Replaces generic fusion-only summary with useful sourced product types.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "Pizza, spaghetti, risotto và salad theo thực đơn tham khảo do Vincom đăng.",
+          "en": "Pizza, spaghetti, risotto and salads from the menu reference published by Vincom."
+        },
+        "uncertainty": {
+          "vi": "Tham khảo do Vincom đăng; hình ghi nguồn Internet, ngày áp dụng và thực đơn hiện tại ở chi nhánh chưa xác định. Xác nhận món và giá với nhà hàng.",
+          "en": "Reference published by Vincom; images credit Internet sources, and effective date/current branch menu are unconfirmed. Confirm dishes and prices with the restaurant."
+        }
+      },
+      "fieldRequirement": "Specific actual offerings/products; no invented amenities."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-changkangkung",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Chang Kang Kung\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-08.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Chang Kang Kung\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-08.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Chang Kang Kung\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-2.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Chang Kang Kung",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/chang-kang-kung",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official mall full brand article explicitly says delivery ordering hotline1900.8084. Brand delivery contact, not a dedicated branch or table-reservation number."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/chang-kang-kung",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex14; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/chang-kang-kung-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "phone",
+      "reason": "Official mall full brand article explicitly says delivery ordering hotline1900.8084. Brand delivery contact, not a dedicated branch or table-reservation number.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "An explicitly published branch phone or clearly scoped general brand contact; never another branch.",
+      "proposedField": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/chang-kang-kung",
+        "evidence": "Official mall full brand article explicitly says delivery ordering hotline1900.8084. Brand delivery contact, not a dedicated branch or table-reservation number.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "19008084",
+          "en": "19008084"
+        },
+        "uncertainty": {
+          "vi": "Hotline đặt giao hàng của thương hiệu do Vincom đăng; xác nhận phạm vi giao hàng, không phải số riêng chi nhánh.",
+          "en": "Brand delivery-ordering hotline published by Vincom; confirm coverage, not a dedicated branch line."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-changkangkung",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Chang Kang Kung\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-08.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Chang Kang Kung\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-08.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Chang Kang Kung\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-2.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Chang Kang Kung",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/chang-kang-kung",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual official mall menu section embeds labelled dish collections; downloaded seafood menu image visually verified red snapper in black-bean sauce,Norwegian saba,crab,oysters and squid. No prices copied."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/chang-kang-kung",
+          "evidenceFile": "mall-menu-images.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual official mall menu section embeds labelled dish collections; downloaded seafood menu image visually verified red snapper in black-bean sauce,Norwegian saba,crab,oysters and squid. No prices copied."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/chang-kang-kung",
+          "evidenceFile": "chang-menu.jpg",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual official mall menu section embeds labelled dish collections; downloaded seafood menu image visually verified red snapper in black-bean sauce,Norwegian saba,crab,oysters and squid. No prices copied."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/chang-kang-kung",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex14; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/chang-kang-kung-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "menu",
+      "reason": "Actual official mall menu section embeds labelled dish collections; downloaded seafood menu image visually verified red snapper in black-bean sauce,Norwegian saba,crab,oysters and squid. No prices copied.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Actual menu/product content or actual menu asset, with market/branch scope.",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/chang-kang-kung",
+        "evidence": "Actual official mall menu section embeds labelled dish collections; downloaded seafood menu image visually verified red snapper in black-bean sauce,Norwegian saba,crab,oysters and squid. No prices copied.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://vincom.com.vn/brand/chang-kang-kung",
+        "uncertainty": {
+          "vi": "Tham khảo do Vincom đăng; hình ghi nguồn Internet, ngày áp dụng và thực đơn hiện tại ở chi nhánh chưa xác định. Xác nhận món và giá với nhà hàng.",
+          "en": "Reference published by Vincom; images credit Internet sources, and effective date/current branch menu are unconfirmed. Confirm dishes and prices with the restaurant."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-changkangkung",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Chang Kang Kung\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-08.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Chang Kang Kung\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-08.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Chang Kang Kung\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-2.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Chang Kang Kung",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/chang-kang-kung",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual mall article and visually verified labelled menu list hydrothermal-steamed fish,crab,oysters and squid; actual delivery hotline separately documented."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/chang-kang-kung",
+          "evidenceFile": "chang-menu.jpg",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual mall article and visually verified labelled menu list hydrothermal-steamed fish,crab,oysters and squid; actual delivery hotline separately documented."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/chang-kang-kung",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex14; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/chang-kang-kung-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Actual mall article and visually verified labelled menu list hydrothermal-steamed fish,crab,oysters and squid; actual delivery hotline separately documented.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Specific actual offerings/products; no invented amenities.",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/chang-kang-kung",
+        "evidence": "Actual mall article and visually verified labelled menu list hydrothermal-steamed fish,crab,oysters and squid; actual delivery hotline separately documented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "Các món hấp thủy nhiệt như cá hồng tàu xì, cá saba, cua, hàu và mực theo menu tham khảo.",
+          "en": "Hydrothermal-steamed dishes such as black-bean red snapper, saba, crab, oysters and squid in the menu reference."
+        },
+        "uncertainty": {
+          "vi": "Tham khảo do Vincom đăng; hình ghi nguồn Internet, ngày áp dụng và thực đơn hiện tại ở chi nhánh chưa xác định. Xác nhận món và giá với nhà hàng.",
+          "en": "Reference published by Vincom; images credit Internet sources, and effective date/current branch menu are unconfirmed. Confirm dishes and prices with the restaurant."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-boatnoodle",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Boat Noodle\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-09.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Boat Noodle\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-09.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Boat Noodle\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-3.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Boat Noodle",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/boat-noodle",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official mall profile is exact BoatNoodle identity and lists VincomDongKhoi. It contains no specific menu/contact offering, but provides an identity-bound official website fallback, not generic mall landing."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/boat-noodle",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex16; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "website",
+      "reason": "Official mall profile is exact BoatNoodle identity and lists VincomDongKhoi. It contains no specific menu/contact offering, but provides an identity-bound official website fallback, not generic mall landing.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Authenticated official brand/branch action URL, not generic mall landing.",
+      "proposedField": {
+        "field": "website",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/boat-noodle",
+        "evidence": "Official mall profile is exact BoatNoodle identity and lists VincomDongKhoi. It contains no specific menu/contact offering, but provides an identity-bound official website fallback, not generic mall landing.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://vincom.com.vn/brand/boat-noodle",
+        "uncertainty": {
+          "vi": "Thông tin tham khảo của thương hiệu; xác nhận món, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand reference information; confirm current dishes, products and details with the branch."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-hachiban",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Hachiban\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-10.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Hachiban\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-10.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Hachiban\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-3.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "evidenceFile": "search-international-identity.txt",
+          "query": "Exact brand official international menu and parent/Vietnam identity check; source query receipts retained.",
+          "result": "Actual official pages and country applicability checked; see per-field evidence."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Hachiban",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/hachiban",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official full Hachiban mall brand article publishes Hotline02862727219. No explicit dedicated-DongKhoi label, so brand-wide Vietnam contact only."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/hachiban",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex19; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/hachiban-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "phone",
+      "reason": "Official full Hachiban mall brand article publishes Hotline02862727219. No explicit dedicated-DongKhoi label, so brand-wide Vietnam contact only.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "An explicitly published branch phone or clearly scoped general brand contact; never another branch.",
+      "proposedField": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/hachiban",
+        "evidence": "Official full Hachiban mall brand article publishes Hotline02862727219. No explicit dedicated-DongKhoi label, so brand-wide Vietnam contact only.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "02862727219",
+          "en": "02862727219"
+        },
+        "uncertainty": {
+          "vi": "Hotline thương hiệu do Vincom công bố; chưa xác nhận là số riêng Đồng Khởi hoặc gọi thử.",
+          "en": "Brand hotline published by Vincom; not confirmed as a dedicated Dong Khoi line and no call placed."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-hachiban",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Hachiban\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-10.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Hachiban\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-10.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Hachiban\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-3.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "evidenceFile": "search-international-identity.txt",
+          "query": "Exact brand official international menu and parent/Vietnam identity check; source query receipts retained.",
+          "result": "Actual official pages and country applicability checked; see per-field evidence."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Hachiban",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/hachiban",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official mall Vietnam brand article embeds actual Vietnamese ramen menu. Downloaded image visually verified shio/miso/shoyu/tonkotsu ramen,kimchi ramen and char-siu variants. Japan menu remains an alternative receipt, no prices copied."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/hachiban",
+          "evidenceFile": "mall-menu-images.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official mall Vietnam brand article embeds actual Vietnamese ramen menu. Downloaded image visually verified shio/miso/shoyu/tonkotsu ramen,kimchi ramen and char-siu variants. Japan menu remains an alternative receipt, no prices copied."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/hachiban",
+          "evidenceFile": "hachiban-menu.jpeg",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official mall Vietnam brand article embeds actual Vietnamese ramen menu. Downloaded image visually verified shio/miso/shoyu/tonkotsu ramen,kimchi ramen and char-siu variants. Japan menu remains an alternative receipt, no prices copied."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/hachiban",
+          "evidenceFile": "source-international-products.txt",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official mall Vietnam brand article embeds actual Vietnamese ramen menu. Downloaded image visually verified shio/miso/shoyu/tonkotsu ramen,kimchi ramen and char-siu variants. Japan menu remains an alternative receipt, no prices copied."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/hachiban",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex19; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/hachiban-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "menu",
+      "reason": "Official mall Vietnam brand article embeds actual Vietnamese ramen menu. Downloaded image visually verified shio/miso/shoyu/tonkotsu ramen,kimchi ramen and char-siu variants. Japan menu remains an alternative receipt, no prices copied.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Actual menu/product content or actual menu asset, with market/branch scope.",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/hachiban",
+        "evidence": "Official mall Vietnam brand article embeds actual Vietnamese ramen menu. Downloaded image visually verified shio/miso/shoyu/tonkotsu ramen,kimchi ramen and char-siu variants. Japan menu remains an alternative receipt, no prices copied.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://vincom.com.vn/brand/hachiban",
+        "uncertainty": {
+          "vi": "Tham khảo do Vincom đăng; hình ghi nguồn Internet, ngày áp dụng và thực đơn hiện tại ở chi nhánh chưa xác định. Xác nhận món và giá với nhà hàng.",
+          "en": "Reference published by Vincom; images credit Internet sources, and effective date/current branch menu are unconfirmed. Confirm dishes and prices with the restaurant."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-hachiban",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Hachiban\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-10.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Hachiban\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-10.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Hachiban\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-3.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "evidenceFile": "search-international-identity.txt",
+          "query": "Exact brand official international menu and parent/Vietnam identity check; source query receipts retained.",
+          "result": "Actual official pages and country applicability checked; see per-field evidence."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Hachiban",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/hachiban",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual Vietnamese menu reference visually verifies thick/thin ramen,noodle soup variants and char-siu/kimchi options."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/hachiban",
+          "evidenceFile": "hachiban-menu.jpeg",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual Vietnamese menu reference visually verifies thick/thin ramen,noodle soup variants and char-siu/kimchi options."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/hachiban",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex19; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/hachiban-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Actual Vietnamese menu reference visually verifies thick/thin ramen,noodle soup variants and char-siu/kimchi options.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Specific actual offerings/products; no invented amenities.",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/hachiban",
+        "evidence": "Actual Vietnamese menu reference visually verifies thick/thin ramen,noodle soup variants and char-siu/kimchi options.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "Ramen sợi lớn hoặc nhỏ, các vị shio, miso, shoyu, tonkotsu cùng lựa chọn xá xíu hoặc kimchi trong menu tham khảo.",
+          "en": "Thick or thin ramen with shio, miso, shoyu or tonkotsu broth, plus char-siu or kimchi options in the menu reference."
+        },
+        "uncertainty": {
+          "vi": "Tham khảo do Vincom đăng; hình ghi nguồn Internet, ngày áp dụng và thực đơn hiện tại ở chi nhánh chưa xác định. Xác nhận món và giá với nhà hàng.",
+          "en": "Reference published by Vincom; images credit Internet sources, and effective date/current branch menu are unconfirmed. Confirm dishes and prices with the restaurant."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-sanfulou",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"San Fu Lou\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-12.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"San Fu Lou\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-12.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"San Fu Lou\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-3.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for San Fu Lou",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://d1-concepts.com/dat-ban/",
+          "evidenceFile": "source-sanfulou-reservation.txt",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official SanFuLou/en/reservation redirects to actual D1 Concepts form: SanFuLouHoChiMinh brand option,branch chooser,party,date,time,name,email,phone and special requests. Source says restaurant confirms within24h. Operator-wide chooser, no branch availability or reservation submission."
+        },
+        {
+          "url": "https://d1-concepts.com/dat-ban/",
+          "evidenceFile": "../holds/browser-held-followthrough.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official SanFuLou/en/reservation redirects to actual D1 Concepts form: SanFuLouHoChiMinh brand option,branch chooser,party,date,time,name,email,phone and special requests. Source says restaurant confirms within24h. Operator-wide chooser, no branch availability or reservation submission."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/san-fu-lou",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex23; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/san-fu-lou-vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "booking",
+      "reason": "Official SanFuLou/en/reservation redirects to actual D1 Concepts form: SanFuLouHoChiMinh brand option,branch chooser,party,date,time,name,email,phone and special requests. Source says restaurant confirms within24h. Operator-wide chooser, no branch availability or reservation submission.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Actual reservation form/action/policy, not contact form or food delivery.",
+      "proposedField": {
+        "field": "booking",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://d1-concepts.com/dat-ban/",
+        "evidence": "Official SanFuLou/en/reservation redirects to actual D1 Concepts form: SanFuLouHoChiMinh brand option,branch chooser,party,date,time,name,email,phone and special requests. Source says restaurant confirms within24h. Operator-wide chooser, no branch availability or reservation submission.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://d1-concepts.com/dat-ban/",
+        "uncertainty": {
+          "vi": "Thông tin tham khảo của thương hiệu; xác nhận món, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand reference information; confirm current dishes, products and details with the branch."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-sanfulou",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"San Fu Lou\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-12.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"San Fu Lou\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-12.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"San Fu Lou\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-3.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for San Fu Lou",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/san-fu-lou",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual full official mall brand article explicitly names shrimp/scallop dumplings,traditional noodles,Peking duck and other Cantonese offerings. Current official Cantonese buffet PDF independently retrieved by coordinator; product summary is brand-wide, not every branch/package."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/san-fu-lou",
+          "evidenceFile": "../holds/sanfulou-cantonese-buffet.pdf",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual full official mall brand article explicitly names shrimp/scallop dumplings,traditional noodles,Peking duck and other Cantonese offerings. Current official Cantonese buffet PDF independently retrieved by coordinator; product summary is brand-wide, not every branch/package."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/san-fu-lou",
+          "evidenceFile": "../holds/browser-held-final.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual full official mall brand article explicitly names shrimp/scallop dumplings,traditional noodles,Peking duck and other Cantonese offerings. Current official Cantonese buffet PDF independently retrieved by coordinator; product summary is brand-wide, not every branch/package."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/san-fu-lou",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex23; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/san-fu-lou-vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Actual full official mall brand article explicitly names shrimp/scallop dumplings,traditional noodles,Peking duck and other Cantonese offerings. Current official Cantonese buffet PDF independently retrieved by coordinator; product summary is brand-wide, not every branch/package.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Specific actual offerings/products; no invented amenities.",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/san-fu-lou",
+        "evidence": "Actual full official mall brand article explicitly names shrimp/scallop dumplings,traditional noodles,Peking duck and other Cantonese offerings. Current official Cantonese buffet PDF independently retrieved by coordinator; product summary is brand-wide, not every branch/package.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "Há cảo tôm sò điệp, mì truyền thống, vịt quay Bắc Kinh và các món Quảng Đông theo giới thiệu thương hiệu.",
+          "en": "Shrimp-and-scallop dumplings, traditional noodles, Peking duck and Cantonese dishes described for the brand."
+        },
+        "uncertainty": {
+          "vi": "Thông tin tham khảo của thương hiệu; xác nhận món, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand reference information; confirm current dishes, products and details with the branch."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-026",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Langfarm\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-13.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Langfarm\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-13.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Langfarm\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-4.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Langfarm",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "redirected-generic-home-not-evidence"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://langfarm.com/",
+          "evidenceFile": "source-langfarm.txt",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Current official Langfarm home has actual retail product catalogue: artichoke tea,dried sweet potatoes,persimmon,mango and other named products. Catalogue role only; not a buffet menu or DongKhoi inventory claim."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/langfarm",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex24; full rendered body,links and menu-image inventory",
+          "result": "redirected-generic-home-not-evidence",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "menu",
+      "reason": "Current official Langfarm home has actual retail product catalogue: artichoke tea,dried sweet potatoes,persimmon,mango and other named products. Catalogue role only; not a buffet menu or DongKhoi inventory claim.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Actual menu/product content or actual menu asset, with market/branch scope.",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://langfarm.com/",
+        "evidence": "Current official Langfarm home has actual retail product catalogue: artichoke tea,dried sweet potatoes,persimmon,mango and other named products. Catalogue role only; not a buffet menu or DongKhoi inventory claim.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://langfarm.com/",
+        "uncertainty": {
+          "vi": "Danh mục đặc sản bán lẻ của thương hiệu; không phải thực đơn buffet hay cam kết hàng có tại Đồng Khởi.",
+          "en": "Brand retail-specialty catalogue; not a buffet menu or Dong Khoi stock commitment."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-026",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Langfarm\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-13.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Langfarm\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-13.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Langfarm\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-4.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Langfarm",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "redirected-generic-home-not-evidence"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://langfarm.com/",
+          "evidenceFile": "source-langfarm.txt",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual official retail catalogue names artichoke tea,dried mango,persimmon and sweet-potato products. No medicinal claims,prices or branch inventory copied."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/langfarm",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex24; full rendered body,links and menu-image inventory",
+          "result": "redirected-generic-home-not-evidence",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "services",
+      "reason": "Actual official retail catalogue names artichoke tea,dried mango,persimmon and sweet-potato products. No medicinal claims,prices or branch inventory copied.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://langfarm.com/",
+        "evidence": "Actual official retail catalogue names artichoke tea,dried mango,persimmon and sweet-potato products. No medicinal claims,prices or branch inventory copied.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "Trà atisô, xoài sấy, hồng sấy dẻo và khoai lang sấy theo danh mục đặc sản Langfarm.",
+          "en": "Artichoke tea, dried mango, dried persimmon and dried sweet-potato products from Langfarm’s catalogue."
+        },
+        "uncertainty": {
+          "vi": "Thông tin tham khảo của thương hiệu; xác nhận món, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand reference information; confirm current dishes, products and details with the branch."
+        }
+      },
+      "fieldRequirement": "Specific actual offerings/products; no invented amenities."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-siamsugar",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Siam Sugar\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-15.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Siam Sugar\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-15.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Siam Sugar\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-4.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Siam Sugar",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/siam-sugar",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Readable official mall brand profile identifies Thai drinks/desserts brand and lists DongKhoi among four locations. Exact official brand website fallback, no guessed external operator."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/siam-sugar",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex28; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "website",
+      "reason": "Readable official mall brand profile identifies Thai drinks/desserts brand and lists DongKhoi among four locations. Exact official brand website fallback, no guessed external operator.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Authenticated official brand/branch action URL, not generic mall landing.",
+      "proposedField": {
+        "field": "website",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/siam-sugar",
+        "evidence": "Readable official mall brand profile identifies Thai drinks/desserts brand and lists DongKhoi among four locations. Exact official brand website fallback, no guessed external operator.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://vincom.com.vn/brand/siam-sugar",
+        "uncertainty": {
+          "vi": "Thông tin tham khảo của thương hiệu; xác nhận món, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand reference information; confirm current dishes, products and details with the branch."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-yakinikulike",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Yakiniku Like\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-18.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Yakiniku Like\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-18.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Yakiniku Like\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-5.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Yakiniku Like",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://yakiniku-like.com/menu.html",
+          "evidenceFile": "../saigon-dining/international-followthrough.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Reused independently accepted Saigon brand-wide official Japan menu evidence: actual endorsed menu media and26Sep2026 renewal article with named meat sets/side dishes. Auditor independently verified same-domain shop.html lists bothVincom+Saigon at readerlines509–510, not floors. Japan-market reference only."
+        },
+        {
+          "url": "https://yakiniku-like.com/menu.html",
+          "evidenceFile": "../content-audit/reviewed-chunks/saigon-dining-final63.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Reused independently accepted Saigon brand-wide official Japan menu evidence: actual endorsed menu media and26Sep2026 renewal article with named meat sets/side dishes. Auditor independently verified same-domain shop.html lists bothVincom+Saigon at readerlines509–510, not floors. Japan-market reference only."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/yakiniku-like",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex34; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "menu",
+      "reason": "Reused independently accepted Saigon brand-wide official Japan menu evidence: actual endorsed menu media and26Sep2026 renewal article with named meat sets/side dishes. Auditor independently verified same-domain shop.html lists bothVincom+Saigon at readerlines509–510, not floors. Japan-market reference only.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Actual menu/product content or actual menu asset, with market/branch scope.",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://yakiniku-like.com/menu.html",
+        "evidence": "Reused independently accepted Saigon brand-wide official Japan menu evidence: actual endorsed menu media and26Sep2026 renewal article with named meat sets/side dishes. Auditor independently verified same-domain shop.html lists bothVincom+Saigon at readerlines509–510, not floors. Japan-market reference only.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://yakiniku-like.com/menu.html",
+        "uncertainty": {
+          "vi": "Tham khảo thực đơn thị trường Nhật Bản; không cam kết món, giá hoặc khả năng phục vụ tại Đồng Khởi.",
+          "en": "Japanese-market menu reference; no Dong Khoi dish, price or availability commitment."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-dookkidookki",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Dookki Dookki\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-26.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Dookki Dookki\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-26.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Dookki Dookki\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-7.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "evidenceFile": "search-last-global.txt",
+          "query": "Exact brand official international menu and parent/Vietnam identity check; source query receipts retained.",
+          "result": "Actual official pages and country applicability checked; see per-field evidence."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Dookki Dookki",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieval-blocked"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.dookki.co.kr/menu/dookki",
+          "evidenceFile": "source-last-global.txt",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official parent brand Korean customer-service contact1670-7719 explicitly published beside registered company DifferentCoLtd. Korea general brand support only, not Vietnamese branch number. DongKhoi global locator phone remains blank."
+        },
+        {
+          "url": "https://www.dookki.co.kr/menu/dookki",
+          "evidenceFile": "browser-final-global.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official parent brand Korean customer-service contact1670-7719 explicitly published beside registered company DifferentCoLtd. Korea general brand support only, not Vietnamese branch number. DongKhoi global locator phone remains blank."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/dookki",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex51; full rendered body,links and menu-image inventory",
+          "result": "retrieval-blocked",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/dookki-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "phone",
+      "reason": "Official parent brand Korean customer-service contact1670-7719 explicitly published beside registered company DifferentCoLtd. Korea general brand support only, not Vietnamese branch number. DongKhoi global locator phone remains blank.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "An explicitly published branch phone or clearly scoped general brand contact; never another branch.",
+      "proposedField": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.dookki.co.kr/menu/dookki",
+        "evidence": "Official parent brand Korean customer-service contact1670-7719 explicitly published beside registered company DifferentCoLtd. Korea general brand support only, not Vietnamese branch number. DongKhoi global locator phone remains blank.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "1670-7719",
+          "en": "1670-7719"
+        },
+        "uncertainty": {
+          "vi": "Tổng đài chăm sóc khách hàng tại Hàn Quốc; không phải số Đồng Khởi. Khả năng gọi từ Việt Nam chưa xác nhận.",
+          "en": "Korea customer-support hotline; not the Dong Khoi number. Calling availability from Vietnam is unconfirmed."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-haidilao",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Haidilao\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-27.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Haidilao\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-27.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Haidilao\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-7.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "evidenceFile": "search-international-identity.txt",
+          "query": "Exact brand official international menu and parent/Vietnam identity check; source query receipts retained.",
+          "result": "Actual official pages and country applicability checked; see per-field evidence."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Haidilao",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/haidilao",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official full Vincom brand profile explicitly labels DongKhoi hotline02862731000/02862731001. First single actionable number proposed; no other-branch substitution or call placed."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/haidilao",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex52; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/haidilao-vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "phone",
+      "reason": "Official full Vincom brand profile explicitly labels DongKhoi hotline02862731000/02862731001. First single actionable number proposed; no other-branch substitution or call placed.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "An explicitly published branch phone or clearly scoped general brand contact; never another branch.",
+      "proposedField": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/haidilao",
+        "evidence": "Official full Vincom brand profile explicitly labels DongKhoi hotline02862731000/02862731001. First single actionable number proposed; no other-branch substitution or call placed.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "02862731000",
+          "en": "02862731000"
+        },
+        "branchMallId": "vincom-dong-khoi",
+        "uncertainty": {
+          "vi": "Số Đồng Khởi do Vincom đăng; số thay thế được ghi là02862731001. Chưa gọi thử, cần xác nhận thông tin hiện tại.",
+          "en": "Dong Khoi number published by Vincom; alternative listed is02862731001. No call placed; confirm current details."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-haidilao",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Haidilao\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-27.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Haidilao\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-27.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Haidilao\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-7.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "evidenceFile": "search-international-identity.txt",
+          "query": "Exact brand official international menu and parent/Vietnam identity check; source query receipts retained.",
+          "result": "Actual official pages and country applicability checked; see per-field evidence."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Haidilao",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/haidilao",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual official mall article has specific tomato,mala,Thai and mushroom broth menu descriptions plus combo-menu media. This authenticates Vietnam reference without relying on unverified local SEO or new international domain. No prices copied."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/haidilao",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex52; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/haidilao-vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "menu",
+      "reason": "Actual official mall article has specific tomato,mala,Thai and mushroom broth menu descriptions plus combo-menu media. This authenticates Vietnam reference without relying on unverified local SEO or new international domain. No prices copied.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Actual menu/product content or actual menu asset, with market/branch scope.",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/haidilao",
+        "evidence": "Actual official mall article has specific tomato,mala,Thai and mushroom broth menu descriptions plus combo-menu media. This authenticates Vietnam reference without relying on unverified local SEO or new international domain. No prices copied.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://vincom.com.vn/brand/haidilao",
+        "uncertainty": {
+          "vi": "Tham khảo do Vincom đăng; hình ghi nguồn Internet, ngày áp dụng và thực đơn hiện tại ở chi nhánh chưa xác định. Xác nhận món và giá với nhà hàng.",
+          "en": "Reference published by Vincom; images credit Internet sources, and effective date/current branch menu are unconfirmed. Confirm dishes and prices with the restaurant."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-haidilao",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Haidilao\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-27.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Haidilao\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-27.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Haidilao\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-7.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "evidenceFile": "search-international-identity.txt",
+          "query": "Exact brand official international menu and parent/Vietnam identity check; source query receipts retained.",
+          "result": "Actual official pages and country applicability checked; see per-field evidence."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Haidilao",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/haidilao",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual official mall instructions advise telephone reservation2–3h ahead and explicitly list DongKhoi hotline02862731000/02862731001. Informational telephone-booking action only, not an online form. No call or submission."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/haidilao",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex52; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/haidilao-vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "booking",
+      "reason": "Actual official mall instructions advise telephone reservation2–3h ahead and explicitly list DongKhoi hotline02862731000/02862731001. Informational telephone-booking action only, not an online form. No call or submission.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Actual reservation form/action/policy, not contact form or food delivery.",
+      "proposedField": {
+        "field": "booking",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/haidilao",
+        "evidence": "Actual official mall instructions advise telephone reservation2–3h ahead and explicitly list DongKhoi hotline02862731000/02862731001. Informational telephone-booking action only, not an online form. No call or submission.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://vincom.com.vn/brand/haidilao",
+        "branchMallId": "vincom-dong-khoi",
+        "uncertainty": {
+          "vi": "Hướng dẫn gọi đặt bàn do Vincom đăng; chọn hotline Đồng Khởi trong bài, xác nhận bàn và thông tin hiện tại.",
+          "en": "Telephone booking instructions published by Vincom; use the Dong Khoi hotline in the article and confirm availability/current details."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-haidilao",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Haidilao\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-27.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Haidilao\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-27.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Haidilao\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-7.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "evidenceFile": "search-international-identity.txt",
+          "query": "Exact brand official international menu and parent/Vietnam identity check; source query receipts retained.",
+          "result": "Actual official pages and country applicability checked; see per-field evidence."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Haidilao",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/haidilao",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Actual official mall article explicitly describes four broth types and meat,seafood,vegetable,mushroom hotpot ingredients. Product summary avoids unverified/free-service/current branch amenity promises."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/haidilao",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex52; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/haidilao-vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Actual official mall article explicitly describes four broth types and meat,seafood,vegetable,mushroom hotpot ingredients. Product summary avoids unverified/free-service/current branch amenity promises.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Specific actual offerings/products; no invented amenities.",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/haidilao",
+        "evidence": "Actual official mall article explicitly describes four broth types and meat,seafood,vegetable,mushroom hotpot ingredients. Product summary avoids unverified/free-service/current branch amenity promises.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "Lẩu cà chua, mala, Thái và nấm cùng các lựa chọn thịt, hải sản, rau, nấm theo menu tham khảo.",
+          "en": "Tomato, mala, Thai and mushroom hotpot broths with meat, seafood, vegetable and mushroom options in the menu reference."
+        },
+        "uncertainty": {
+          "vi": "Tham khảo do Vincom đăng; hình ghi nguồn Internet, ngày áp dụng và thực đơn hiện tại ở chi nhánh chưa xác định. Xác nhận món và giá với nhà hàng.",
+          "en": "Reference published by Vincom; images credit Internet sources, and effective date/current branch menu are unconfirmed. Confirm dishes and prices with the restaurant."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-koithe",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Koi Thé\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-17.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Koi Thé\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-17.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Koi Thé\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-5.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Koi Thé",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://koithe.com/en/menu.php",
+          "evidenceFile": "../content-audit/koi-vietnam-menu.jpg",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Independent auditor selected Vietnam28 in official global menu selector and downloaded actual bilingual Vietnam menu; own visual review confirms named drinks, not category-only shell. No branch-specific prices imported."
+        },
+        {
+          "url": "https://koithe.com/en/menu.php",
+          "evidenceFile": "source-official-cuisine.txt",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Independent auditor selected Vietnam28 in official global menu selector and downloaded actual bilingual Vietnam menu; own visual review confirms named drinks, not category-only shell. No branch-specific prices imported."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/koi-the",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex32; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/koi-the-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "menu",
+      "reason": "Independent auditor selected Vietnam28 in official global menu selector and downloaded actual bilingual Vietnam menu; own visual review confirms named drinks, not category-only shell. No branch-specific prices imported.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://koithe.com/en/menu.php",
+        "evidence": "Independent auditor selected Vietnam28 in official global menu selector and downloaded actual bilingual Vietnam menu; own visual review confirms named drinks, not category-only shell. No branch-specific prices imported.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://koithe.com/en/menu.php",
+        "uncertainty": {
+          "vi": "Chọn Việt Nam trong trang menu chính thức; menu tham khảo, xác nhận món, giá và sản phẩm tại chi nhánh.",
+          "en": "Choose Vietnam in the official menu page; reference menu, confirm dishes, prices and products with the branch."
+        }
+      },
+      "fieldRequirement": "Actual menu/product content or actual menu asset, with market/branch scope."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-koithe",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Koi Thé\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-17.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Koi Thé\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-17.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Koi Thé\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-5.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Koi Thé",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://koithe.com/en/menu.php",
+          "evidenceFile": "../content-audit/koi-vietnam-menu.jpg",
+          "section": "Actual official branch/brand field evidence",
+          "result": "source checked",
+          "support": "Official selected Vietnam menu image visually inspected: golden-bubble milk tea,oolong tea latte,mango green tea and fruit-tea products."
+        },
+        {
+          "url": "https://vincom.com.vn/brand/koi-the",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex32; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/koi-the-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Official selected Vietnam menu image visually inspected: golden-bubble milk tea,oolong tea latte,mango green tea and fruit-tea products.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://koithe.com/en/menu.php",
+        "evidence": "Official selected Vietnam menu image visually inspected: golden-bubble milk tea,oolong tea latte,mango green tea and fruit-tea products.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "Trà sữa trân châu hoàng kim, trà oolong latte và các lựa chọn trà trái cây theo menu Việt Nam.",
+          "en": "Golden-bubble milk tea, oolong tea latte and fruit-tea options from the Vietnam menu."
+        },
+        "uncertainty": {
+          "vi": "Thông tin tham khảo của thương hiệu; xác nhận món, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand reference information; confirm current dishes, products and details with the branch."
+        }
+      },
+      "fieldRequirement": "Specific actual offerings/products; no invented amenities."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-005",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Lẩu MK\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-02.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Lẩu MK\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-02.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Lẩu MK\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Lẩu MK",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "redirected-generic-home-not-evidence"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mkrestaurant.com/en",
+          "evidenceFile": "source-mk-final.txt",
+          "reference": "turn760view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Mkrestaurant.com | Fresh and Good MK Food for Everyone | Happy Moments (https://www.mkrestaurant.com/en)\nciteturn760view0 [wordlim: 200] Crawled: today; Content type: "
+        },
+        {
+          "url": "https://www.mkrestaurant.com/en/menu",
+          "evidenceFile": "source-mk-final.txt",
+          "reference": "turn760view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn760view1 [wordlim: 200] Source: open({\"ref_id\":\"https://www.mkrestaurant.com/en/menu\",\"lineno\":null}); Total lines: 1\nL0: URL https://www.mkr"
+        },
+        {
+          "url": "https://kingbbq.vn/tinh-hoa-am-thuc-nuong-han-quoc/",
+          "evidenceFile": "source-mk-final.txt",
+          "reference": "turn760view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn760view2 [wordlim: 200] Source: open({\"ref_id\":\"https://kingbbq.vn/tinh-hoa-am-thuc-nuong-han-quoc/\",\"lineno\":null}); Total lines: 1\nL0: URL "
+        },
+        {
+          "url": "https://www.mkrestaurant.com/en/mk-menu",
+          "evidenceFile": "source-mk-menu.txt",
+          "reference": "turn761view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Mkrestaurant.com | Delicious MK Menu | Happy Moments (https://www.mkrestaurant.com/en/mk-menu)\nciteturn761view0 [wordlim: 200] Crawled: yesterday; Content type: text/h"
+        },
+        {
+          "url": "https://vincom.com.vn/brand/lau-mk",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex3; full rendered body,links and menu-image inventory",
+          "result": "redirected-generic-home-not-evidence",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "cuisine",
+      "reason": "Official MK Restaurant Group homepage and actual mk-menu now readable at canonical/en routes. Thailand-market reference only; Vietnam franchise status, local menu and delivery availability not asserted.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "cuisine",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.mkrestaurant.com/en",
+        "evidence": "Official MK Restaurant Group homepage and actual mk-menu now readable at canonical/en routes. Thailand-market reference only; Vietnam franchise status, local menu and delivery availability not asserted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Tham khảo thông tin thương hiệu tại Thái Lan; không cam kết thực đơn, giá hoặc khả năng phục vụ ở Việt Nam.",
+          "en": "Brand reference for Thailand; no Vietnam menu, price or availability commitment."
+        },
+        "value": {
+          "vi": "Suki và món Thái theo thực đơn thương hiệu tại Thái Lan",
+          "en": "Suki and Thai dishes from the brand’s Thailand menu"
+        }
+      },
+      "fieldRequirement": "Source-supported bilingual cuisine; preserve taxonomy/applicability conflicts."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-005",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Lẩu MK\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-02.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Lẩu MK\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-02.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Lẩu MK\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Lẩu MK",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "redirected-generic-home-not-evidence"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mkrestaurant.com/en",
+          "evidenceFile": "source-mk-final.txt",
+          "reference": "turn760view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Mkrestaurant.com | Fresh and Good MK Food for Everyone | Happy Moments (https://www.mkrestaurant.com/en)\nciteturn760view0 [wordlim: 200] Crawled: today; Content type: "
+        },
+        {
+          "url": "https://www.mkrestaurant.com/en/menu",
+          "evidenceFile": "source-mk-final.txt",
+          "reference": "turn760view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn760view1 [wordlim: 200] Source: open({\"ref_id\":\"https://www.mkrestaurant.com/en/menu\",\"lineno\":null}); Total lines: 1\nL0: URL https://www.mkr"
+        },
+        {
+          "url": "https://kingbbq.vn/tinh-hoa-am-thuc-nuong-han-quoc/",
+          "evidenceFile": "source-mk-final.txt",
+          "reference": "turn760view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn760view2 [wordlim: 200] Source: open({\"ref_id\":\"https://kingbbq.vn/tinh-hoa-am-thuc-nuong-han-quoc/\",\"lineno\":null}); Total lines: 1\nL0: URL "
+        },
+        {
+          "url": "https://www.mkrestaurant.com/en/mk-menu",
+          "evidenceFile": "source-mk-menu.txt",
+          "reference": "turn761view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Mkrestaurant.com | Delicious MK Menu | Happy Moments (https://www.mkrestaurant.com/en/mk-menu)\nciteturn761view0 [wordlim: 200] Crawled: yesterday; Content type: text/h"
+        },
+        {
+          "url": "https://vincom.com.vn/brand/lau-mk",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex3; full rendered body,links and menu-image inventory",
+          "result": "redirected-generic-home-not-evidence",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "website",
+      "reason": "Official MK Restaurant Group homepage and actual mk-menu now readable at canonical/en routes. Thailand-market reference only; Vietnam franchise status, local menu and delivery availability not asserted.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "website",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.mkrestaurant.com/en",
+        "evidence": "Official MK Restaurant Group homepage and actual mk-menu now readable at canonical/en routes. Thailand-market reference only; Vietnam franchise status, local menu and delivery availability not asserted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Tham khảo thông tin thương hiệu tại Thái Lan; không cam kết thực đơn, giá hoặc khả năng phục vụ ở Việt Nam.",
+          "en": "Brand reference for Thailand; no Vietnam menu, price or availability commitment."
+        },
+        "url": "https://www.mkrestaurant.com/en"
+      },
+      "fieldRequirement": "Authenticated official brand/branch action URL, not generic mall landing."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-005",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Lẩu MK\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-02.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Lẩu MK\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-02.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Lẩu MK\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Lẩu MK",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "redirected-generic-home-not-evidence"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mkrestaurant.com/en",
+          "evidenceFile": "source-mk-final.txt",
+          "reference": "turn760view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Mkrestaurant.com | Fresh and Good MK Food for Everyone | Happy Moments (https://www.mkrestaurant.com/en)\nciteturn760view0 [wordlim: 200] Crawled: today; Content type: "
+        },
+        {
+          "url": "https://www.mkrestaurant.com/en/menu",
+          "evidenceFile": "source-mk-final.txt",
+          "reference": "turn760view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn760view1 [wordlim: 200] Source: open({\"ref_id\":\"https://www.mkrestaurant.com/en/menu\",\"lineno\":null}); Total lines: 1\nL0: URL https://www.mkr"
+        },
+        {
+          "url": "https://kingbbq.vn/tinh-hoa-am-thuc-nuong-han-quoc/",
+          "evidenceFile": "source-mk-final.txt",
+          "reference": "turn760view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn760view2 [wordlim: 200] Source: open({\"ref_id\":\"https://kingbbq.vn/tinh-hoa-am-thuc-nuong-han-quoc/\",\"lineno\":null}); Total lines: 1\nL0: URL "
+        },
+        {
+          "url": "https://www.mkrestaurant.com/en/mk-menu",
+          "evidenceFile": "source-mk-menu.txt",
+          "reference": "turn761view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Mkrestaurant.com | Delicious MK Menu | Happy Moments (https://www.mkrestaurant.com/en/mk-menu)\nciteturn761view0 [wordlim: 200] Crawled: yesterday; Content type: text/h"
+        },
+        {
+          "url": "https://vincom.com.vn/brand/lau-mk",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex3; full rendered body,links and menu-image inventory",
+          "result": "redirected-generic-home-not-evidence",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "menu",
+      "reason": "Official MK Restaurant Group homepage and actual mk-menu now readable at canonical/en routes. Thailand-market reference only; Vietnam franchise status, local menu and delivery availability not asserted.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.mkrestaurant.com/en/mk-menu",
+        "evidence": "Official MK Restaurant Group homepage and actual mk-menu now readable at canonical/en routes. Thailand-market reference only; Vietnam franchise status, local menu and delivery availability not asserted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Tham khảo thông tin thương hiệu tại Thái Lan; không cam kết thực đơn, giá hoặc khả năng phục vụ ở Việt Nam.",
+          "en": "Brand reference for Thailand; no Vietnam menu, price or availability commitment."
+        },
+        "url": "https://www.mkrestaurant.com/en/mk-menu"
+      },
+      "fieldRequirement": "Actual menu/product content or actual menu asset, with market/branch scope."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-005",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Lẩu MK\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-02.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Lẩu MK\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-02.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Lẩu MK\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Lẩu MK",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "redirected-generic-home-not-evidence"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mkrestaurant.com/en",
+          "evidenceFile": "source-mk-final.txt",
+          "reference": "turn760view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Mkrestaurant.com | Fresh and Good MK Food for Everyone | Happy Moments (https://www.mkrestaurant.com/en)\nciteturn760view0 [wordlim: 200] Crawled: today; Content type: "
+        },
+        {
+          "url": "https://www.mkrestaurant.com/en/menu",
+          "evidenceFile": "source-mk-final.txt",
+          "reference": "turn760view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn760view1 [wordlim: 200] Source: open({\"ref_id\":\"https://www.mkrestaurant.com/en/menu\",\"lineno\":null}); Total lines: 1\nL0: URL https://www.mkr"
+        },
+        {
+          "url": "https://kingbbq.vn/tinh-hoa-am-thuc-nuong-han-quoc/",
+          "evidenceFile": "source-mk-final.txt",
+          "reference": "turn760view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn760view2 [wordlim: 200] Source: open({\"ref_id\":\"https://kingbbq.vn/tinh-hoa-am-thuc-nuong-han-quoc/\",\"lineno\":null}); Total lines: 1\nL0: URL "
+        },
+        {
+          "url": "https://www.mkrestaurant.com/en/mk-menu",
+          "evidenceFile": "source-mk-menu.txt",
+          "reference": "turn761view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Mkrestaurant.com | Delicious MK Menu | Happy Moments (https://www.mkrestaurant.com/en/mk-menu)\nciteturn761view0 [wordlim: 200] Crawled: yesterday; Content type: text/h"
+        },
+        {
+          "url": "https://vincom.com.vn/brand/lau-mk",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex3; full rendered body,links and menu-image inventory",
+          "result": "redirected-generic-home-not-evidence",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "services",
+      "reason": "Official MK Restaurant Group homepage and actual mk-menu now readable at canonical/en routes. Thailand-market reference only; Vietnam franchise status, local menu and delivery availability not asserted.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.mkrestaurant.com/en",
+        "evidence": "Official MK Restaurant Group homepage and actual mk-menu now readable at canonical/en routes. Thailand-market reference only; Vietnam franchise status, local menu and delivery availability not asserted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Tham khảo thông tin thương hiệu tại Thái Lan; không cam kết thực đơn, giá hoặc khả năng phục vụ ở Việt Nam.",
+          "en": "Brand reference for Thailand; no Vietnam menu, price or availability commitment."
+        },
+        "value": {
+          "vi": "Suki, cơm vịt quay, mì và món tráng miệng theo danh mục tại Thái Lan; xác nhận thực đơn ở Việt Nam.",
+          "en": "Suki, roast-duck rice, noodles and desserts in the Thailand catalogue; confirm Vietnam offerings."
+        }
+      },
+      "fieldRequirement": "Specific actual offerings/products; no invented amenities."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-touslesjours",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Tous Les Jours\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-21.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Tous Les Jours\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-21.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Tous Les Jours\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-6.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Tous Les Jours",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://seoul-garden.hey-restaurants.com/menu",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Seoul Garden Menu (Latest Full Update 2026) (https://seoul-garden.hey-restaurants.com/menu)\nciteturn696search0 [wordlim: 200] Crawled: 3 weeks ago; Content type: text/"
+        },
+        {
+          "url": "https://tljus.com/menus/all",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Explore All Menu Items at Tous les Jours Bakery (https://tljus.com/menus/all)\nciteturn696search1 [wordlim: 200] Crawled: today; Content type: text/plain; \nExplore All "
+        },
+        {
+          "url": "https://tljus.com/menus/cakes",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Exquisite Korean Custom Cakes Menu | TOUS les JOURS (https://tljus.com/menus/cakes)\nciteturn696search2 [wordlim: 200] Crawled: today; Content type: text/plain; \nDream "
+        },
+        {
+          "url": "https://danhgiasao.com/seoul-garden-menu-thuong-thuc-lau-nuong-ngon-dung-dieu/",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search3",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Seoul Garden menu - Thưởng thức lẩu nướng ngon đúng điệu (https://danhgiasao.com/seoul-garden-menu-thuong-thuc-lau-nuong-ngon-dung-dieu/)\nciteturn696search3 [wordlim: "
+        },
+        {
+          "url": "https://tljus.com/menus/coffee-espresso",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search4",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Coffee & Espresso Menu | TOUS les JOURS (https://tljus.com/menus/coffee-espresso)\nciteturn696search4 [wordlim: 200] Crawled: today; Content type: text/plain; \nCoffee &"
+        },
+        {
+          "url": "https://www.menuxp.com/seoul-garden-korean-restaurant-menu",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search5",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Seoul Garden Korean Restaurant Menu with Prices (Updated October 2026) | MenuXP (https://www.menuxp.com/seoul-garden-korean-restaurant-menu)\nciteturn696search5 [wordli"
+        },
+        {
+          "url": "https://tljus.com/menus/pastryandpie",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search6",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "French Korean Inspired Pastries | TOUS les JOURS (https://tljus.com/menus/pastryandpie)\nciteturn696search6 [wordlim: 200] Crawled: 3 days ago; Content type: text/plain"
+        },
+        {
+          "url": "https://www.menuxp.com/seoul-garden-restaurant-menu",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search7",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Seoul Garden Restaurant Menu with Prices (Updated October 2026) | MenuXP (https://www.menuxp.com/seoul-garden-restaurant-menu)\nciteturn696search7 [wordlim: 200] Crawle"
+        },
+        {
+          "url": "https://tljus.com/menus/bread",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search8",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Bread Menu | TOUS les JOURS (https://tljus.com/menus/bread)\nciteturn696search8 [wordlim: 200] Crawled: today; Content type: text/plain; \nBread Menu | TOUS les JOURS..."
+        },
+        {
+          "url": "https://www.menuxp.com/seoul-garden-menu",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search9",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Seoul Garden Menu with Prices (Updated October 2026) | MenuXP (https://www.menuxp.com/seoul-garden-menu)\nciteturn696search9 [wordlim: 200] Crawled: today; Content type"
+        },
+        {
+          "url": "https://www.tljpleasanton.com/menu?menu=cakes",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search10",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Cakes | Tous les Jours (https://www.tljpleasanton.com/menu?menu=cakes)\nciteturn696search10 [wordlim: 200] Content type: text/plain;"
+        },
+        {
+          "url": "https://sol.com.vn/booking/",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Đặt Bàn - SOL (https://sol.com.vn/booking/)\nciteturn696view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://sol.com.vn/booking"
+        },
+        {
+          "url": "https://sol.com.vn/restaurant/kohaku-ramen-udon/",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Kohaku Ramen & Udon - SOL (https://sol.com.vn/restaurant/kohaku-ramen-udon/)\nciteturn696view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"re"
+        },
+        {
+          "url": "https://sol.com.vn/restaurant/date-nariya/",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Date Nariya - SOL (https://sol.com.vn/restaurant/date-nariya/)\nciteturn696view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https:/"
+        },
+        {
+          "url": "https://tljus.com/menus/all",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696view3",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Explore All Menu Items at Tous les Jours Bakery (https://tljus.com/menus/all)\nciteturn696view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"r"
+        },
+        {
+          "url": "https://sol.com.vn/booking/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Đặt Bàn - SOL (https://sol.com.vn/booking/)\nciteturn698view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn696view0\",\"lineno\":40}"
+        },
+        {
+          "url": "https://sol.com.vn/restaurant/kohaku-ramen-udon/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Kohaku Ramen & Udon - SOL (https://sol.com.vn/restaurant/kohaku-ramen-udon/)\nciteturn698view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"re"
+        },
+        {
+          "url": "https://sol.com.vn/restaurant/date-nariya/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Date Nariya - SOL (https://sol.com.vn/restaurant/date-nariya/)\nciteturn698view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn696"
+        },
+        {
+          "url": "https://seoulgarden.com.vn/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view3",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn698view3 [wordlim: 200] Source: open({\"ref_id\":\"https://seoulgarden.com.vn/\",\"lineno\":null}); Total lines: 1\nL0: URL https://seoulgarden.com."
+        },
+        {
+          "url": "https://www.tlj.com.vn/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view4",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn698view4 [wordlim: 200] Source: open({\"ref_id\":\"https://www.tlj.com.vn/\",\"lineno\":null}); Total lines: 1\nL0: URL https://www.tlj.com.vn/ is n"
+        },
+        {
+          "url": "https://vincom.com.vn/brand/tous-les-jours",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex41; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/tous-les-jours-vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "menu",
+      "reason": "Official US-market catalogue of bread,cakes,pastries,beverages; clearly other-market reference, no Vietnamese availability or prices.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://tljus.com/menus/all",
+        "evidence": "Official US-market catalogue of bread,cakes,pastries,beverages; clearly other-market reference, no Vietnamese availability or prices.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Tham khảo thông tin thương hiệu tại Mỹ; không cam kết thực đơn, giá hoặc khả năng phục vụ ở Việt Nam.",
+          "en": "Brand reference for United States; no Vietnam menu, price or availability commitment."
+        },
+        "url": "https://tljus.com/menus/all"
+      },
+      "fieldRequirement": "Actual menu/product content or actual menu asset, with market/branch scope."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-touslesjours",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Tous Les Jours\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-21.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Tous Les Jours\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-21.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Tous Les Jours\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-6.txt",
+          "result": "Exact field/branch source results retained."
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Tous Les Jours",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://seoul-garden.hey-restaurants.com/menu",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Seoul Garden Menu (Latest Full Update 2026) (https://seoul-garden.hey-restaurants.com/menu)\nciteturn696search0 [wordlim: 200] Crawled: 3 weeks ago; Content type: text/"
+        },
+        {
+          "url": "https://tljus.com/menus/all",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Explore All Menu Items at Tous les Jours Bakery (https://tljus.com/menus/all)\nciteturn696search1 [wordlim: 200] Crawled: today; Content type: text/plain; \nExplore All "
+        },
+        {
+          "url": "https://tljus.com/menus/cakes",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Exquisite Korean Custom Cakes Menu | TOUS les JOURS (https://tljus.com/menus/cakes)\nciteturn696search2 [wordlim: 200] Crawled: today; Content type: text/plain; \nDream "
+        },
+        {
+          "url": "https://danhgiasao.com/seoul-garden-menu-thuong-thuc-lau-nuong-ngon-dung-dieu/",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search3",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Seoul Garden menu - Thưởng thức lẩu nướng ngon đúng điệu (https://danhgiasao.com/seoul-garden-menu-thuong-thuc-lau-nuong-ngon-dung-dieu/)\nciteturn696search3 [wordlim: "
+        },
+        {
+          "url": "https://tljus.com/menus/coffee-espresso",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search4",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Coffee & Espresso Menu | TOUS les JOURS (https://tljus.com/menus/coffee-espresso)\nciteturn696search4 [wordlim: 200] Crawled: today; Content type: text/plain; \nCoffee &"
+        },
+        {
+          "url": "https://www.menuxp.com/seoul-garden-korean-restaurant-menu",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search5",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Seoul Garden Korean Restaurant Menu with Prices (Updated October 2026) | MenuXP (https://www.menuxp.com/seoul-garden-korean-restaurant-menu)\nciteturn696search5 [wordli"
+        },
+        {
+          "url": "https://tljus.com/menus/pastryandpie",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search6",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "French Korean Inspired Pastries | TOUS les JOURS (https://tljus.com/menus/pastryandpie)\nciteturn696search6 [wordlim: 200] Crawled: 3 days ago; Content type: text/plain"
+        },
+        {
+          "url": "https://www.menuxp.com/seoul-garden-restaurant-menu",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search7",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Seoul Garden Restaurant Menu with Prices (Updated October 2026) | MenuXP (https://www.menuxp.com/seoul-garden-restaurant-menu)\nciteturn696search7 [wordlim: 200] Crawle"
+        },
+        {
+          "url": "https://tljus.com/menus/bread",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search8",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Bread Menu | TOUS les JOURS (https://tljus.com/menus/bread)\nciteturn696search8 [wordlim: 200] Crawled: today; Content type: text/plain; \nBread Menu | TOUS les JOURS..."
+        },
+        {
+          "url": "https://www.menuxp.com/seoul-garden-menu",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search9",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Seoul Garden Menu with Prices (Updated October 2026) | MenuXP (https://www.menuxp.com/seoul-garden-menu)\nciteturn696search9 [wordlim: 200] Crawled: today; Content type"
+        },
+        {
+          "url": "https://www.tljpleasanton.com/menu?menu=cakes",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search10",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Cakes | Tous les Jours (https://www.tljpleasanton.com/menu?menu=cakes)\nciteturn696search10 [wordlim: 200] Content type: text/plain;"
+        },
+        {
+          "url": "https://sol.com.vn/booking/",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Đặt Bàn - SOL (https://sol.com.vn/booking/)\nciteturn696view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://sol.com.vn/booking"
+        },
+        {
+          "url": "https://sol.com.vn/restaurant/kohaku-ramen-udon/",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Kohaku Ramen & Udon - SOL (https://sol.com.vn/restaurant/kohaku-ramen-udon/)\nciteturn696view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"re"
+        },
+        {
+          "url": "https://sol.com.vn/restaurant/date-nariya/",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Date Nariya - SOL (https://sol.com.vn/restaurant/date-nariya/)\nciteturn696view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https:/"
+        },
+        {
+          "url": "https://tljus.com/menus/all",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696view3",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Explore All Menu Items at Tous les Jours Bakery (https://tljus.com/menus/all)\nciteturn696view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"r"
+        },
+        {
+          "url": "https://sol.com.vn/booking/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Đặt Bàn - SOL (https://sol.com.vn/booking/)\nciteturn698view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn696view0\",\"lineno\":40}"
+        },
+        {
+          "url": "https://sol.com.vn/restaurant/kohaku-ramen-udon/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Kohaku Ramen & Udon - SOL (https://sol.com.vn/restaurant/kohaku-ramen-udon/)\nciteturn698view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"re"
+        },
+        {
+          "url": "https://sol.com.vn/restaurant/date-nariya/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Date Nariya - SOL (https://sol.com.vn/restaurant/date-nariya/)\nciteturn698view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn696"
+        },
+        {
+          "url": "https://seoulgarden.com.vn/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view3",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn698view3 [wordlim: 200] Source: open({\"ref_id\":\"https://seoulgarden.com.vn/\",\"lineno\":null}); Total lines: 1\nL0: URL https://seoulgarden.com."
+        },
+        {
+          "url": "https://www.tlj.com.vn/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view4",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn698view4 [wordlim: 200] Source: open({\"ref_id\":\"https://www.tlj.com.vn/\",\"lineno\":null}); Total lines: 1\nL0: URL https://www.tlj.com.vn/ is n"
+        },
+        {
+          "url": "https://vincom.com.vn/brand/tous-les-jours",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex41; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/tous-les-jours-vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Official US catalogue supports brand-wide products with explicit market caveat.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://tljus.com/menus/all",
+        "evidence": "Official US catalogue supports brand-wide products with explicit market caveat.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Tham khảo thông tin thương hiệu tại Mỹ; không cam kết thực đơn, giá hoặc khả năng phục vụ ở Việt Nam.",
+          "en": "Brand reference for United States; no Vietnam menu, price or availability commitment."
+        },
+        "value": {
+          "vi": "Bánh mì, bánh ngọt và đồ uống theo danh mục thương hiệu tại Mỹ; xác nhận sản phẩm tại Việt Nam.",
+          "en": "Bread, cakes, pastries and drinks in the US brand catalogue; confirm Vietnam offerings."
+        }
+      },
+      "fieldRequirement": "Specific actual offerings/products; no invented amenities."
+    }
+  ],
+  "supersedes": "Matching keys only; complete official mall brand family, cross-lane reuse and exact market caveats."
+}

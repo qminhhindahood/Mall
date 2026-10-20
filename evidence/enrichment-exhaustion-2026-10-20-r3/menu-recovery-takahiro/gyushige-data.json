@@ -1,0 +1,1321 @@
+{
+  "layout": "default",
+  "data": [
+    {
+      "homeData": {
+        "id": 1,
+        "name": "home",
+        "slugVi": "home",
+        "slugEn": "home",
+        "slugJa": "home",
+        "commonContent": {
+          "banner": {
+            "bannerType": 1,
+            "desktop": {
+              "image": {
+                "id": 262,
+                "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/gyu-shige-prod/image/2026/2/5/7/Avc1770276198212.jpeg"
+              },
+              "video": {
+                "id": 70,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/4Cj1596192612700.mp4",
+                "masterId": 9
+              },
+              "slider": {
+                "images": []
+              }
+            },
+            "mobile": {
+              "image": {
+                "id": 263,
+                "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/gyu-shige-prod/image/2026/2/5/7/HQy1770276204800.jpeg"
+              },
+              "video": {
+                "id": 69,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/htn1596192620561.mp4",
+                "masterId": 8
+              },
+              "slider": {
+                "images": []
+              }
+            }
+          },
+          "widgets": {
+            "reservation": true,
+            "social": true,
+            "location": true,
+            "promotion": {
+              "enable": true,
+              "uuid": "ad5d1f8c-63b7-440a-b23138d4-f25c48600a08"
+            },
+            "story": true
+          }
+        },
+        "multilangContent": {
+          "en": {
+            "id": 1,
+            "content": "{\"story\":\"<p style=\\\"text-align:center;\\\">Gyu Shige – the long-standing Yakiniku restaurant chain has received a lot of favors from Japanese customers, with over 160 stores along across the famous cities of Asia.</p><p style=\\\"text-align:center;\\\">&nbsp;</p><p style=\\\"text-align:center;\\\">Carrying the quintessence from Japanese cuisine to Vietnam under the name of Gyu Shige, the restaurant uses the superior kinds of beef and seafood with the fresh ingredient sources imported from selective locals, also the vegetables are directly planted at the restaurant’s farm in Da Lat with the purpose of bringing the experience of Yakiniku’s pure taste closer to Vietnamese gourmets.</p>\"}"
+          }
+        },
+        "createAt": 1591686846000,
+        "updateAt": 1770276208000
+      }
+    }
+  ],
+  "fetch": {},
+  "error": null,
+  "state": {
+    "isMobileAgent": false,
+    "isMobileOrTabletAgent": false,
+    "isDisableLogoHeading": false,
+    "heading": null,
+    "footer": {
+      "id": 1,
+      "status": 1,
+      "logo": {
+        "id": 488,
+        "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-prod/image/2020/7/28/12/VCz1595939517686.svg"
+      },
+      "moit": {
+        "url": "#",
+        "icon": {
+          "id": 58,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-prod/file/2020/7/28/12/DnT1595939596727.png"
+        },
+        "isActive": 0
+      },
+      "multilangContent": {
+        "en": {
+          "id": 1,
+          "content1": "TAKAHIRO CORPORATION",
+          "content2": "Business Registration Certificate: 0315827587",
+          "content3": "Address: Floor 3rd, 180 Pasteur, Sai Gon Ward, HCMC, Vietnam",
+          "content4": "Hotline: +8428-3933-9999 | Contact: info@takahiro.com.vn"
+        }
+      },
+      "footerNavigations": []
+    },
+    "widgets": {
+      "story": {
+        "id": 1,
+        "name": "story",
+        "commonContent": {
+          "image": {
+            "id": 499,
+            "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-prod/image/2020/7/31/9/aaj1596188663806.svg"
+          }
+        },
+        "multilangContent": {
+          "en": {
+            "id": 1,
+            "content": "{\"text\":\"<p style=\\\"text-align:center;\\\">Gyu Shige – the long-standing Yakiniku restaurant chain has received a lot of favors from Japanese customers, with over 150 stores along across the famous cities of Asia.</p><p style=\\\"text-align:center;\\\">&nbsp;</p><p style=\\\"text-align:center;\\\">Carrying the quintessence from Japanese cuisine to Vietnam under the name of Gyu Shige, the restaurant uses the superior kinds of beef and seafood with the fresh ingredient sources imported from selective locals, also the vegetables are directly planted at the restaurant’s farm in Da Lat with the purpose of bringing the experience of Yakiniku’s pure taste closer to Vietnamese gourmets.</p>\"}"
+          }
+        },
+        "createAt": 1591776524000,
+        "updateAt": 1652692537000
+      },
+      "reservation": {
+        "id": 3,
+        "name": "reservation",
+        "commonContent": {
+          "selectedLocations": [
+            4,
+            5,
+            7,
+            2,
+            3,
+            1,
+            10,
+            11,
+            8,
+            12,
+            13,
+            14,
+            16,
+            17,
+            18,
+            15,
+            19
+          ],
+          "name": "reservation",
+          "content": [
+            {
+              "uuid": "b68733ec-9f74-49dd-a71db075-93ebf13ac54f",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Đồng Khởi",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Dong Khoi",
+                  "active": true,
+                  "link": "http://hokkaidosushi.com.vn/"
+                },
+                "ja": {
+                  "name": "Dong Khoi",
+                  "active": true,
+                  "link": "http://hokkaidosushi.com.vn/"
+                }
+              },
+              "name": "Tiếng việt"
+            },
+            {
+              "uuid": "44086038-39fa-427b-8dcb8552-06ed6f776060",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Pasteur",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Pasteur",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Pasteur",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                }
+              }
+            },
+            {
+              "uuid": "63db697a-d7ed-4758-aa963c12-703cda0ef831",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Nguyễn Đình Chiểu",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": " Nguyen Dinh Chieu",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Nguyen Dinh Chieu",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                }
+              }
+            },
+            {
+              "uuid": "876c457b-151a-4df6-ad4c6cd1-be139dd33fcb",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Đông Du",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Dong Du",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Dong Du",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                }
+              }
+            },
+            {
+              "uuid": "ea981997-fdb0-4bc9-88c003dd-d4b9fada0af5",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Nguyễn Trãi",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Nguyen Trai",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Nguyen Trai",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                }
+              }
+            },
+            {
+              "uuid": "4c952d94-432d-4064-af91b2a1-df182dcd1389",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Phan Xích Long",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Phan Xich Long",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Phan Xich Long",
+                  "link": "http://hokkaidosushi.com.vn/"
+                }
+              }
+            }
+          ]
+        },
+        "multilangContent": {
+          "en": {
+            "id": 3,
+            "content": "{}"
+          }
+        },
+        "createAt": 1591778751000,
+        "updateAt": 1791346853000
+      },
+      "social": {
+        "id": 4,
+        "name": "social",
+        "commonContent": {
+          "name": "social",
+          "content": [
+            {
+              "uuid": "24124e6f-935b-4978-a5cda2a1-e6537c244f36",
+              "icon": {
+                "id": 1,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/gyu-shige-stg/file/2020/12/15/6/DE71608013974948.svg"
+              },
+              "title": "Youtube",
+              "link": "https://www.youtube.com/channel/UCDur5tXBwaE5fCIwFtj4Crw",
+              "active": true
+            },
+            {
+              "uuid": "73cbb6a2-b08b-4463-a8e77fc1-3781b45cd885",
+              "icon": {
+                "id": 3,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/gyu-shige-stg/file/2020/12/15/6/m4b1608014001525.svg"
+              },
+              "title": "Instagram",
+              "link": "https://www.instagram.com/gyushigenguuphonvn/",
+              "active": true
+            },
+            {
+              "icon": {
+                "id": 4,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/gyu-shige-stg/file/2020/12/15/6/0rP1608014003617.svg"
+              },
+              "title": "Facebook",
+              "link": "https://www.facebook.com/gyushigenguuphonvn",
+              "active": true,
+              "uuid": "0e41cd20-c807-4f4d-aa8b2c9a-1d50f99e25e5"
+            }
+          ]
+        },
+        "multilangContent": {
+          "en": {
+            "id": 4,
+            "content": "{}"
+          }
+        },
+        "createAt": 1591778757000,
+        "updateAt": 1652692537000
+      },
+      "location": {
+        "id": 5,
+        "name": "location",
+        "commonContent": {
+          "selectedLocations": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            9,
+            10,
+            11,
+            8,
+            12,
+            13,
+            14,
+            15,
+            17,
+            16,
+            18,
+            19
+          ]
+        },
+        "multilangContent": {
+          "en": {
+            "id": 5,
+            "content": "{}"
+          }
+        },
+        "createAt": 1591778771000,
+        "updateAt": 1791346858000
+      }
+    },
+    "banner": {
+      "bannerType": 1,
+      "desktop": {
+        "image": {
+          "id": 262,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/gyu-shige-prod/image/2026/2/5/7/Avc1770276198212.jpeg"
+        },
+        "video": {
+          "id": 70,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/4Cj1596192612700.mp4",
+          "masterId": 9
+        },
+        "slider": {
+          "images": []
+        }
+      },
+      "mobile": {
+        "image": {
+          "id": 263,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/gyu-shige-prod/image/2026/2/5/7/HQy1770276204800.jpeg"
+        },
+        "video": {
+          "id": 69,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/htn1596192620561.mp4",
+          "masterId": 8
+        },
+        "slider": {
+          "images": []
+        }
+      }
+    },
+    "locationsList": [
+      {
+        "id": 10,
+        "areaId": 2,
+        "image": {
+          "id": 132,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/gyu-shige-prod/image/2024/5/27/9/YBr1716802972894.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/GyLNoxc3znwMKzRy6",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14896.664872358964!2d105.7992515!3d21.0260342!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab66fe2a0589%3A0x4a07757ede9e676f!2sLancaster%20Luminaire!5e0!3m2!1svi!2s!4v1710752485224!5m2!1svi!2s",
+        "storeCode": "woYXRJDblufxhLAX",
+        "timeRanges": [
+          {
+            "openAt": "10:30",
+            "closeAt": "00:00",
+            "lastOrder": "23:00"
+          }
+        ],
+        "offDays": [
+          {
+            "id": "mlbj3tmxv9jh3",
+            "name": "Tết",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "19-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 10,
+            "name": "Lancaster Ha Noi",
+            "address": "1152 Lang Street, Lang Ward, Ha Noi",
+            "openAt": "10:00",
+            "closeAt": "23:00",
+            "lastOrder": "22:15",
+            "phone1": "0911507006",
+            "phone2": ""
+          }
+        },
+        "createAt": 1710752722000,
+        "updateAt": 1789876724000
+      },
+      {
+        "id": 12,
+        "areaId": 3,
+        "image": {
+          "id": 241,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/gyu-shige-prod/image/2025/10/9/6/eEi1759991813335.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/V1mHAEWx5q86ySZb6",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3727.85661863198!2d106.7154183747105!3d20.877828692946544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b8d4f27a929%3A0xfe4f5c559e032e03!2sVincom%20Mega%20Mall%20Royal%20Island!5e0!3m2!1svi!2s!4v1757924917352!5m2!1svi!2s",
+        "storeCode": "1vpNZUKhWTDuZeR5",
+        "timeRanges": [
+          {
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30"
+          }
+        ],
+        "offDays": [
+          {
+            "id": "mlbj4whtj5a69",
+            "name": "Tết",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "19-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 12,
+            "name": "Royal Island Hai Phong",
+            "address": "Level 3 - Vincom Mega Mall Royal Island, Thuy Nguyen Ward, Hai Phong City",
+            "openAt": null,
+            "closeAt": null,
+            "lastOrder": null,
+            "phone1": "0911507056",
+            "phone2": null
+          }
+        },
+        "createAt": 1757926734000,
+        "updateAt": 1770421333000
+      },
+      {
+        "id": 16,
+        "areaId": 4,
+        "image": {
+          "id": 273,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/gyu-shige-prod/image/2026/7/10/7/eZQ1783668116788.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/nWsbeeVftsnCBbtr9",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5281.710213517756!2d108.2052191!3d16.066399899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31352736d6b0d8bb%3A0x5f247679b1b6e16a!2zR3l1IFNoaWdlIOKAkyBOZ8awdSBQaOG7k24gQWVvbiDEkMOgIE7hurVuZw!5e1!3m2!1svi!2s!4v1782272017690!5m2!1svi!2s",
+        "storeCode": "EHVvcae8s4L9x1bT",
+        "timeRanges": [
+          {
+            "openAt": "10:00",
+            "closeAt": "22:00",
+            "lastOrder": "21:30"
+          }
+        ],
+        "offDays": [
+          {
+            "id": "mqriwb62j4cn3",
+            "name": "Grand Opening",
+            "allDay": true,
+            "startDate": "24-06-2026",
+            "startTime": "00:00",
+            "endDate": "30-06-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 16,
+            "name": "Aeon Mall Da Nang Thanh Khe",
+            "address": "Level 4, Aeon Mall Da Nang Thanh Khe, 46 Dien Bien Phu Street, Thanh Khe Ward, Da Nang City",
+            "openAt": null,
+            "closeAt": null,
+            "lastOrder": null,
+            "phone1": "0917760027",
+            "phone2": null
+          }
+        },
+        "createAt": 1782272301000,
+        "updateAt": 1783668141000
+      },
+      {
+        "id": 17,
+        "areaId": 5,
+        "image": {
+          "id": 274,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/gyu-shige-prod/image/2026/7/10/7/Vfp1783668152800.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/9k5Jc6N9gE5fPNkn8",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5130.011068641459!2d106.07225910000001!3d21.1783315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31350d5df4e6033d%3A0x4e572c76c3c7e39e!2zR3l1IFNoaWdlIOKAkyBOZ8awdSBQaOG7k24gQuG6r2MgTmluaA!5e1!3m2!1svi!2s!4v1782272540765!5m2!1svi!2s",
+        "storeCode": "0UNisL9gr1qCR6ZO",
+        "timeRanges": [
+          {
+            "openAt": "10:00",
+            "closeAt": "23:00",
+            "lastOrder": "22:30"
+          }
+        ],
+        "offDays": [
+          {
+            "id": "mrd5rgsrnumid",
+            "name": "Grand Opening",
+            "allDay": true,
+            "startDate": "09-07-2026",
+            "startTime": "00:00",
+            "endDate": "17-07-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 17,
+            "name": "Vincom Plaza Ly Thai To",
+            "address": "Level 3, Vincom Plaza Ly Thai To, Ly Thai To Roundabout, Kinh Bac Ward, Bac Ninh Province",
+            "openAt": null,
+            "closeAt": null,
+            "lastOrder": null,
+            "phone1": "0917570027",
+            "phone2": null
+          }
+        },
+        "createAt": 1782272575000,
+        "updateAt": 1783771713000
+      },
+      {
+        "id": 18,
+        "areaId": 6,
+        "image": {
+          "id": 276,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/gyu-shige-prod/image/2026/9/15/6/BvN1789454245597.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/HYPaZ6uKFFXiVdreA",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5412.46575521139!2d105.7756477!3d10.0253054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a089c17d6f52d3%3A0x434a127c3129f4e2!2zR3l1IFNoaWdlIC0gTmfGsHUgUGjhu5NuIFZpbmNvbSBQbGF6YSBYdcOibiBLaMOhbmg!5e1!3m2!1svi!2s!4v1787025978384!5m2!1svi!2s",
+        "storeCode": "9PN0SQVH8RytehaO",
+        "timeRanges": [
+          {
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30"
+          }
+        ],
+        "offDays": [
+          {
+            "id": "mttglehd7qud3",
+            "name": "Opening",
+            "allDay": true,
+            "startDate": "09-09-2026",
+            "startTime": "00:00",
+            "endDate": "13-09-2026",
+            "endTime": "23:59"
+          },
+          {
+            "id": "mtwcj0nkg0n81",
+            "name": "Full bàn",
+            "allDay": false,
+            "isFull": true,
+            "startDate": "20-10-2026",
+            "startTime": "14:30",
+            "endDate": "20-10-2026",
+            "endTime": "22:30"
+          }
+        ],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 18,
+            "name": "Vincom Plaza Xuan Khanh",
+            "address": "Level 3, Vincom Plaza Xuan Khanh, 209 - 30/4 Street, Ninh Kieu District, Can Tho City",
+            "openAt": null,
+            "closeAt": null,
+            "lastOrder": null,
+            "phone1": "0969346649",
+            "phone2": null
+          }
+        },
+        "createAt": 1787025991000,
+        "updateAt": 1792404060000
+      },
+      {
+        "id": 19,
+        "areaId": 7,
+        "image": {
+          "id": 277,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/gyu-shige-prod/image/2026/10/7/4/H7E1791346834340.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/pjmNGaPgorXxrSyY6",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5172.194281732572!2d105.79368129999999!3d19.7770204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313657398037f643%3A0x7c38a170c03db120!2sGyu%20Shige%20Ng%C6%B0u%20Ph%E1%BB%93n%20-%20Aeon%20Mall%20Thanh%20H%C3%B3a!5e1!3m2!1svi!2s!4v1791346486468!5m2!1svi!2s",
+        "storeCode": "YiscE5z3PVT6pCcm",
+        "timeRanges": [
+          {
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30"
+          }
+        ],
+        "offDays": [
+          {
+            "id": "muxlidcutp90g",
+            "name": "Opening",
+            "allDay": true,
+            "isFull": false,
+            "startDate": "07-10-2026",
+            "startTime": "00:00",
+            "endDate": "14-10-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 19,
+            "name": "Aeon Mall Thanh Hoa",
+            "address": "4th Floor, Aeon Mall Thanh Hoa, Quang Phu Ward, Thanh Hoa Province",
+            "openAt": null,
+            "closeAt": null,
+            "lastOrder": null,
+            "phone1": "0917936362",
+            "phone2": null
+          }
+        },
+        "createAt": 1791346599000,
+        "updateAt": 1791346844000
+      },
+      {
+        "id": 1,
+        "areaId": 1,
+        "image": {
+          "id": 197,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/gyu-shige-prod/image/2025/6/9/2/9zu1749434661251.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/9mJBCCdk6n9iFgU68",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4920777743437!2d106.69891521539229!3d10.773573292323455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f47681328ff%3A0xac4703db3979f40e!2sGyu%20Shige%20-%20Ng%C6%B0u%20Ph%E1%BB%93n%20-%20L5-16%2C%20Saigon%20Centre!5e0!3m2!1sen!2s!4v1606298654340!5m2!1sen!2s",
+        "storeCode": null,
+        "timeRanges": [
+          {
+            "openAt": "10:30",
+            "closeAt": "23:00",
+            "lastOrder": "22:15"
+          }
+        ],
+        "offDays": [
+          {
+            "id": "mlbj2oi1btn4h",
+            "name": "Tết",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "18-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 1,
+        "multilangContent": {
+          "en": {
+            "id": 1,
+            "name": "Saigon Centre",
+            "address": "5th Floor (L5-02, 03), Saigon Centre, 67 Le Loi Street, Sai Gon Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "028 3821 8958",
+            "phone2": null
+          }
+        },
+        "createAt": 1608013531000,
+        "updateAt": 1770421231000
+      },
+      {
+        "id": 2,
+        "areaId": 1,
+        "image": {
+          "id": 6,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/gyu-shige-prod/image/2020/12/28/5/HZF1609132749960.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/YRBWKzQniSH4saW27",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5368473195113!2d106.68409391539224!3d10.770133392325805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f22e8aae483%3A0x2deda6faa513d965!2zR3l1IFNoaWdlIC0gTmfGsHUgUGjhu5NuIC0gTmd1eeG7hW4gVGjhu4sgTWluaCBLaGFp!5e0!3m2!1sen!2s!4v1606298715728!5m2!1sen!2s",
+        "storeCode": null,
+        "timeRanges": [
+          {
+            "openAt": "10:30",
+            "closeAt": "23:00",
+            "lastOrder": "22:15"
+          }
+        ],
+        "offDays": [
+          {
+            "id": "mlbizizn8ka82",
+            "name": "Tết",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "17-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 1,
+        "multilangContent": {
+          "en": {
+            "id": 2,
+            "name": "Nguyen Thi Minh Khai",
+            "address": "183A Nguyen Thi Minh Khai Street, Ben Thanh Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "23:00",
+            "lastOrder": "22:15",
+            "phone1": "028 3925 3368",
+            "phone2": null
+          }
+        },
+        "createAt": 1608013780000,
+        "updateAt": 1770421231000
+      },
+      {
+        "id": 14,
+        "areaId": 2,
+        "image": {
+          "id": 268,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/gyu-shige-prod/image/2026/3/11/2/TPz1773195573750.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/iLeqmaEmVbZM6b6t7",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.484551719015!2d105.8308186!3d21.031554399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab09e78e3a4b%3A0xb232efa0a6dfbb88!2sGyu%20Shige%20-%20Ng%C6%B0u%20Ph%E1%BB%93n%20Hanoi%20Centre!5e1!3m2!1svi!2s!4v1766548415939!5m2!1svi!2s",
+        "storeCode": "6KjeysrnyTDrioY0",
+        "timeRanges": [
+          {
+            "openAt": "10:30",
+            "closeAt": "22:30",
+            "lastOrder": "21:45"
+          }
+        ],
+        "offDays": [
+          {
+            "id": "mlbj5dyxk3t8z",
+            "name": "Tết",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "19-02-2026",
+            "endTime": "23:59"
+          },
+          {
+            "id": "mm8u2upab0g1b",
+            "name": "khai trương",
+            "allDay": true,
+            "startDate": "01-03-2026",
+            "startTime": "00:00",
+            "endDate": "06-03-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 1,
+        "multilangContent": {
+          "en": {
+            "id": 14,
+            "name": "Hanoi Centre",
+            "address": "B2 - 23&29, 175 Nguyen Thai Hoc Street, O Cho Dua Ward, Hanoi City",
+            "openAt": null,
+            "closeAt": null,
+            "lastOrder": null,
+            "phone1": "0971809580",
+            "phone2": null
+          }
+        },
+        "createAt": 1766548435000,
+        "updateAt": 1773195576000
+      },
+      {
+        "id": 3,
+        "areaId": 1,
+        "image": {
+          "id": 7,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/gyu-shige-prod/image/2020/12/28/5/pOY1609132761914.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/uJBXAJChmfyxGx2S7",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.546969558951!2d106.69401851539234!3d10.769355492326289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752faa0c081ef5%3A0xa19773f8eb275b8b!2zTmjDoCBow6BuZyBHeXUgU2hpZ2UgLSBOZ8awdSBQaOG7k24gLSBUcuG6p24gSMawbmcgxJDhuqFv!5e0!3m2!1sen!2s!4v1606298770424!5m2!1sen!2s",
+        "storeCode": null,
+        "timeRanges": [
+          {
+            "openAt": "10:30",
+            "closeAt": "23:00",
+            "lastOrder": "22:15"
+          }
+        ],
+        "offDays": [
+          {
+            "id": "mlbiz8jaa08ld",
+            "name": "Tết",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "17-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 2,
+        "multilangContent": {
+          "en": {
+            "id": 3,
+            "name": "Tran Hung Dao",
+            "address": "6A Tran Hung Dao, Pham Ngu Lao Ward, District 1, HCMC",
+            "openAt": "10:30",
+            "closeAt": "23:00",
+            "lastOrder": "22:15",
+            "phone1": "028 3821 3027",
+            "phone2": "028 3821 3327"
+          }
+        },
+        "createAt": 1608013780000,
+        "updateAt": 1770421231000
+      },
+      {
+        "id": 4,
+        "areaId": 1,
+        "image": {
+          "id": 8,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/gyu-shige-prod/image/2020/12/28/5/KcC1609132770541.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/HxjoxXmxMCjXjHCQ9",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.8438718984644!2d106.6901186153927!3d10.823257592289787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752900f89c190b%3A0x62f029c581d5f66e!2zR3l1IFNoaWdlIC0gTmfGsHUgUGjhu5NuIC0gUGhhbiBWxINuIFRy4buL!5e0!3m2!1sen!2s!4v1606298815635!5m2!1sen!2s",
+        "storeCode": null,
+        "timeRanges": [
+          {
+            "openAt": "10:30",
+            "closeAt": "23:00",
+            "lastOrder": "22:15"
+          }
+        ],
+        "offDays": [
+          {
+            "id": "mlbj1fc1oy1ln",
+            "name": "Tết",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "17-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 3,
+        "multilangContent": {
+          "en": {
+            "id": 4,
+            "name": "Phan Van Tri",
+            "address": "463 Phan Van Tri Street, An Nhon Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "23:00",
+            "lastOrder": "22:15",
+            "phone1": "028 3895 5588",
+            "phone2": "028 3985 5999"
+          }
+        },
+        "createAt": 1608013780000,
+        "updateAt": 1770421231000
+      },
+      {
+        "id": 5,
+        "areaId": 1,
+        "image": {
+          "id": 9,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/gyu-shige-prod/image/2020/12/28/5/Vdh1609132779634.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/yWEU7VTsqzXwqwab7",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4548877114194!2d106.7025621153925!3d10.776429992321559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fd7dfc260a3%3A0xa0fe7d7ac810d254!2zR3l1IFNoaWdlIC0gTmfGsHUgUGjhu5NuIC0gxJDDtG5nIER1!5e0!3m2!1sen!2s!4v1606298850934!5m2!1sen!2s",
+        "storeCode": null,
+        "timeRanges": [
+          {
+            "openAt": "10:30",
+            "closeAt": "23:00",
+            "lastOrder": "22:15"
+          }
+        ],
+        "offDays": [
+          {
+            "id": "mlbiyg6k3yydo",
+            "name": "Tết",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "17-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 4,
+        "multilangContent": {
+          "en": {
+            "id": 5,
+            "name": "Dong Du",
+            "address": "48–50 Dong Du Street, Sai Gon Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "23:00",
+            "lastOrder": "22:15",
+            "phone1": "028 3915 1627",
+            "phone2": "028 3915 1626"
+          }
+        },
+        "createAt": 1608013780000,
+        "updateAt": 1770421231000
+      },
+      {
+        "id": 7,
+        "areaId": 1,
+        "image": {
+          "id": 198,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/gyu-shige-prod/image/2025/6/9/2/N1E1749434683635.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/jrfdiJjQvi1d13sL6",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.070011072269!2d106.7188731!3d10.729083600000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f895c8cb82f%3A0xd6508f1395347075!2zQ3Jlc2NlbnQgTWFsbCwgMTAxIFTDtG4gROG6rXQgVGnDqm4sIFTDom4gUGhvbmcsIFF14bqtbiA3LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1686130396494!5m2!1svi!2s",
+        "storeCode": null,
+        "timeRanges": [
+          {
+            "openAt": "10:30",
+            "closeAt": "22:30",
+            "lastOrder": "21:45"
+          }
+        ],
+        "offDays": [
+          {
+            "id": "mlbj2ax2ub42e",
+            "name": "Tết",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "17-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 6,
+        "multilangContent": {
+          "en": {
+            "id": 7,
+            "name": "Crescent Mall ",
+            "address": "Level 2 (2F-38B, 39A) Crescent Mall, 101 Ton Dat Tien Street, Tan My Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:30",
+            "lastOrder": "21:45",
+            "phone1": "028 38387878",
+            "phone2": "028 36387878"
+          }
+        },
+        "createAt": 1686130425000,
+        "updateAt": 1770421231000
+      },
+      {
+        "id": 8,
+        "areaId": 1,
+        "image": {
+          "id": 199,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/gyu-shige-prod/image/2025/6/9/2/kQi1749434698926.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/Ur9H9wopLKgNr55g6",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.715275962584!2d106.6625573!3d10.756412899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f8b02548b51%3A0xc0d86f78c47fdf95!2zR3l1IFNoaWdlIC0gTmfGsHUgUGjhu5NuIC0gSMO5bmcgVsawxqFuZyBQbGF6YQ!5e0!3m2!1svi!2s!4v1692256577275!5m2!1svi!2s",
+        "storeCode": null,
+        "timeRanges": [
+          {
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30"
+          }
+        ],
+        "offDays": [
+          {
+            "id": "mlbiytbkc9w2g",
+            "name": "Tết",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "17-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 7,
+        "multilangContent": {
+          "en": {
+            "id": 8,
+            "name": "Hung Vuong Plaza ",
+            "address": "Floor 4 (4F-07) Hung Vuong Plaza, 126 Hong Bang Street, Cho Lon Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "028 3853 1177",
+            "phone2": " 028 3853 1199"
+          }
+        },
+        "createAt": 1690605645000,
+        "updateAt": 1770421231000
+      },
+      {
+        "id": 13,
+        "areaId": 1,
+        "image": {
+          "id": 261,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/gyu-shige-prod/image/2026/1/16/2/8uz1768529522258.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/GiBtznuvHYDQcXRCA",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.5815349611335!2d106.84251049999999!3d10.843301499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317521b596f21bef%3A0xacbd91fbe3a2dc16!2sVincom%20Mega%20Mall%20Grand%20Park!5e0!3m2!1svi!2s!4v1761881972623!5m2!1svi!2s",
+        "storeCode": "7hsCiQ0Yx8fIBM35",
+        "timeRanges": [
+          {
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30"
+          }
+        ],
+        "offDays": [
+          {
+            "id": "mlbj35mjpy51a",
+            "name": "Tết",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "19-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 8,
+        "multilangContent": {
+          "en": {
+            "id": 13,
+            "name": "Vincom Mega Mall Grand Park",
+            "address": "Level 5, Vincom Mega Mall Grand Park, 88 Phuoc Thien Street, Long Binh, Thu Duc, HCMC",
+            "openAt": null,
+            "closeAt": null,
+            "lastOrder": null,
+            "phone1": "0984355519",
+            "phone2": null
+          }
+        },
+        "createAt": 1762854759000,
+        "updateAt": 1770421232000
+      },
+      {
+        "id": 11,
+        "areaId": 1,
+        "image": {
+          "id": 146,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/gyu-shige-prod/image/2024/8/20/10/6lW1724148176623.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/WAqAW76dazTPgkvF7",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125411.96310337368!2d106.58675039726563!3d10.801825500000009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527e06c8a646f%3A0xe435f636a72e7fae!2sSachi%20Garden!5e0!3m2!1svi!2s!4v1724147955825!5m2!1svi!2s",
+        "storeCode": "2SrHu8BG1v7Taake",
+        "timeRanges": [
+          {
+            "openAt": "10:30",
+            "closeAt": "14:00",
+            "lastOrder": "14:00"
+          },
+          {
+            "openAt": "16:30",
+            "closeAt": "00:00",
+            "lastOrder": "23:00"
+          }
+        ],
+        "offDays": [
+          {
+            "id": "mlbj1qc73o1ai",
+            "name": "Tết",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "17-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 9,
+        "multilangContent": {
+          "en": {
+            "id": 11,
+            "name": "Thao Dien",
+            "address": "Sachi Garden, 109 Vo Nguyen Giap Street, An Khanh Ward, HCMC",
+            "openAt": null,
+            "closeAt": null,
+            "lastOrder": null,
+            "phone1": "0822118001",
+            "phone2": "0822118001"
+          }
+        },
+        "createAt": 1724148628000,
+        "updateAt": 1770421232000
+      },
+      {
+        "id": 15,
+        "areaId": 1,
+        "image": {
+          "id": 272,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/gyu-shige-prod/image/2026/4/6/6/UGN1775455536817.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/JQjwjv78QEvSiiWG7",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3097.090757488136!2d106.7786146!3d10.8449727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752760456d9bed%3A0xa775030ea6b636b1!2zVmluY29tIFBsYXphIEzDqiBWxINuIFZp4buHdA!5e1!3m2!1svi!2s!4v1772613979136!5m2!1svi!2s",
+        "storeCode": "bz2wZ9cU9bnkCI3E",
+        "timeRanges": [
+          {
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30"
+          }
+        ],
+        "offDays": [
+          {
+            "id": "mneeidmtbilvh",
+            "name": "Opening",
+            "allDay": true,
+            "startDate": "31-03-2026",
+            "startTime": "00:00",
+            "endDate": "01-04-2026",
+            "endTime": "23:59"
+          },
+          {
+            "id": "mttguutt8zo0r",
+            "name": "Full booking",
+            "allDay": true,
+            "isFull": false,
+            "startDate": "18-10-2026",
+            "startTime": "00:00",
+            "endDate": "18-10-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 9,
+        "multilangContent": {
+          "en": {
+            "id": 15,
+            "name": "Vincom Plaza Le Van Viet",
+            "address": "L4 - 16 Vincom Plaza Le Van Viet, 50 Le Van Viet Street, Tang Nhon Phu Ward, HCMC",
+            "openAt": null,
+            "closeAt": null,
+            "lastOrder": null,
+            "phone1": "0971809580",
+            "phone2": null
+          }
+        },
+        "createAt": 1772614027000,
+        "updateAt": 1792286677000
+      }
+    ],
+    "areasList": [
+      {
+        "id": 1,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Hồ Chí Minh"
+            },
+            "en": {
+              "name": "Ho Chi Minh"
+            },
+            "ja": {
+              "name": "Ho Chi Minh"
+            }
+          }
+        }
+      },
+      {
+        "id": 2,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Hà Nội"
+            },
+            "en": {
+              "name": "Ha Noi"
+            },
+            "ja": {
+              "name": "Ha Noi"
+            }
+          }
+        }
+      },
+      {
+        "id": 3,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Hải Phòng"
+            },
+            "en": {
+              "name": "Hai Phong"
+            },
+            "ja": {
+              "name": "Hai Phong"
+            }
+          }
+        }
+      },
+      {
+        "id": 4,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Đà Nẵng"
+            },
+            "en": {
+              "name": "Da Nang"
+            },
+            "ja": {
+              "name": "Da Nang"
+            }
+          }
+        }
+      },
+      {
+        "id": 5,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Bắc Ninh"
+            },
+            "en": {
+              "name": "Bac Ninh"
+            },
+            "ja": {
+              "name": "Bac Ninh"
+            }
+          }
+        }
+      },
+      {
+        "id": 6,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Cần Thơ"
+            },
+            "en": {
+              "name": "Can Tho City"
+            },
+            "ja": {
+              "name": "Can Tho City"
+            }
+          }
+        }
+      },
+      {
+        "id": 7,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Thanh Hóa"
+            },
+            "en": {
+              "name": "Thanh Hoa"
+            },
+            "ja": {
+              "name": "Thanh Hoa"
+            }
+          }
+        }
+      }
+    ],
+    "currentDomain": "gyushige.com.vn",
+    "currentPath": "/en/",
+    "mutations": {},
+    "getters": {},
+    "i18n": {
+      "routeParams": {}
+    }
+  },
+  "serverRendered": true,
+  "routePath": "/en/",
+  "config": {
+    "_app": {
+      "basePath": "/",
+      "assetsPath": "/_nuxt/",
+      "cdnURL": null
+    }
+  }
+}

@@ -1,0 +1,1219 @@
+{
+  "revision": "independent-vincom-dining-first13-proposals-and-one-bounded-negative",
+  "inputs": [
+    {
+      "file": "vincom-dining\\..\\..\\continuation-2026-10-19-r2\\research-vincom\\follow1.txt",
+      "sha256": "eae4cf69fa47a84f9f5d90454fa708f45881b8312e4c3846221fc4f1264a1023"
+    },
+    {
+      "file": "vincom-dining\\browser-goldengate-hcm.json",
+      "sha256": "ffcc02ec35766efc2325997bb344f1497d7e7ebcf3ad6eedfee914dd18107544"
+    },
+    {
+      "file": "vincom-dining\\browser-sources.json",
+      "sha256": "a48f297d7bc8b93ec1aa2e23c93f2673f527dc05608ae7223a580d001894a1b5"
+    },
+    {
+      "file": "vincom-dining\\decisions-chunk1.json",
+      "sha256": "c45e87aa3e7b8dd17bc1b3a80a20d8bf50ac4c9c07ac828760360362e5117e94"
+    },
+    {
+      "file": "vincom-dining\\records-chunk1.json",
+      "sha256": "daec7fab7bf1e8846f2775032e66cfdd1a6d1bc757b1dcbaf5e7b1a0d404d694"
+    },
+    {
+      "file": "vincom-dining\\source-follow-hoang-exact.txt",
+      "sha256": "573bbf157218b4485bb366e69506e97f26e20947b4c860cad7ed63f2a8e0f7cf"
+    },
+    {
+      "file": "vincom-dining\\source-follow-morico.txt",
+      "sha256": "69d2ad9811264998d48350b1cd15ca6186eaeb110935362698e3f9148e5f75fa"
+    },
+    {
+      "file": "vincom-dining\\source-gogi.txt",
+      "sha256": "f3632d52790ff9dae3e85835a7347d02aea9f793b05e42ef57c3abcd00b9541e"
+    },
+    {
+      "file": "vincom-dining\\source-hoangyen.txt",
+      "sha256": "6d762a1ab060f762c089a4b7b474f14d5b7b9d17d49405206e375dbde63a9907"
+    },
+    {
+      "file": "vincom-dining\\source-morico.txt",
+      "sha256": "3abfe577f2c8f7548f74d271dd555ee76d968cac506a5af3bb7fd93daf7563f9"
+    }
+  ],
+  "decisions": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-gogihouse",
+      "field": "phone",
+      "reason": "Chrome HCM row Gogi House Vincom Le Thanh Ton,70-72LeThanhTon:02873000917; browser-goldengate-hcm.json. Independent audit of complete saved browser HCM row verifies Vincom Le Thanh Ton B3-23-24 and exact phone/schedule; named menu combos appear in same official browser receipt. Independent text-reader fetch is empty, so no claim of independently re-rendering browser session.",
+      "evidenceBindings": [
+        {
+          "url": "https://gogi.com.vn/thuc-don",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/thuc-don)\nciteturn320view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"h",
+          "file": "vincom-dining\\source-gogi.txt"
+        },
+        {
+          "url": "https://gogi.com.vn/dat-ban",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/dat-ban)\nciteturn320view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"ht",
+          "file": "vincom-dining\\source-gogi.txt"
+        },
+        {
+          "evidenceFile": "browser-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained",
+          "file": "vincom-dining\\browser-sources.json"
+        },
+        {
+          "evidenceFile": "browser-goldengate-hcm.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained",
+          "file": "vincom-dining\\browser-goldengate-hcm.json"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://gogi.com.vn/dat-ban",
+        "evidence": "Chrome HCM row Gogi House Vincom Le Thanh Ton,70-72LeThanhTon:02873000917; browser-goldengate-hcm.json.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+          "en": "Information from the checked official source; confirm current details before visiting."
+        },
+        "branchMallId": "vincom-dong-khoi",
+        "value": {
+          "vi": "02873000917",
+          "en": "02873000917"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://gogi.com.vn/dat-ban",
+        "evidence": "Chrome HCM row Gogi House Vincom Le Thanh Ton,70-72LeThanhTon:02873000917; browser-goldengate-hcm.json.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+          "en": "Information from the checked official source; confirm current details before visiting."
+        },
+        "branchMallId": "vincom-dong-khoi",
+        "value": {
+          "vi": "02873000917",
+          "en": "02873000917"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-gogihouse",
+      "field": "hours",
+      "reason": "Same official HCM branch row: Open-Close09:00-22:00. Independent audit of complete saved browser HCM row verifies Vincom Le Thanh Ton B3-23-24 and exact phone/schedule; named menu combos appear in same official browser receipt. Independent text-reader fetch is empty, so no claim of independently re-rendering browser session.",
+      "evidenceBindings": [
+        {
+          "url": "https://gogi.com.vn/thuc-don",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/thuc-don)\nciteturn320view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"h",
+          "file": "vincom-dining\\source-gogi.txt"
+        },
+        {
+          "url": "https://gogi.com.vn/dat-ban",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/dat-ban)\nciteturn320view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"ht",
+          "file": "vincom-dining\\source-gogi.txt"
+        },
+        {
+          "evidenceFile": "browser-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained",
+          "file": "vincom-dining\\browser-sources.json"
+        },
+        {
+          "evidenceFile": "browser-goldengate-hcm.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained",
+          "file": "vincom-dining\\browser-goldengate-hcm.json"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "hours",
+        "state": "verified-agent",
+        "sourceUrl": "https://gogi.com.vn/dat-ban",
+        "evidence": "Same official HCM branch row: Open-Close09:00-22:00.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+          "en": "Information from the checked official source; confirm current details before visiting."
+        },
+        "branchMallId": "vincom-dong-khoi",
+        "value": {
+          "vi": "09:00–22:00",
+          "en": "09:00–22:00"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "hours",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://gogi.com.vn/dat-ban",
+        "evidence": "Same official HCM branch row: Open-Close09:00-22:00.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+          "en": "Information from the checked official source; confirm current details before visiting."
+        },
+        "branchMallId": "vincom-dong-khoi",
+        "value": {
+          "vi": "09:00–22:00",
+          "en": "09:00–22:00"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-gogihouse",
+      "field": "menu",
+      "reason": "Chrome renders HCM food categories and actual named combos, not navigation alone. No prices copied. Independent audit of complete saved browser HCM row verifies Vincom Le Thanh Ton B3-23-24 and exact phone/schedule; named menu combos appear in same official browser receipt. Independent text-reader fetch is empty, so no claim of independently re-rendering browser session.",
+      "evidenceBindings": [
+        {
+          "url": "https://gogi.com.vn/thuc-don",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/thuc-don)\nciteturn320view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"h",
+          "file": "vincom-dining\\source-gogi.txt"
+        },
+        {
+          "url": "https://gogi.com.vn/dat-ban",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/dat-ban)\nciteturn320view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"ht",
+          "file": "vincom-dining\\source-gogi.txt"
+        },
+        {
+          "evidenceFile": "browser-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained",
+          "file": "vincom-dining\\browser-sources.json"
+        },
+        {
+          "evidenceFile": "browser-goldengate-hcm.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained",
+          "file": "vincom-dining\\browser-goldengate-hcm.json"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://gogi.com.vn/thuc-don",
+        "evidence": "Chrome renders HCM food categories and actual named combos, not navigation alone. No prices copied.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "url": "https://gogi.com.vn/thuc-don",
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://gogi.com.vn/thuc-don",
+        "evidence": "Chrome renders HCM food categories and actual named combos, not navigation alone. No prices copied.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "url": "https://gogi.com.vn/thuc-don"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-gogihouse",
+      "field": "booking",
+      "reason": "Official HCM restaurant list exposes a Dat ban action for Vincom Le Thanh Ton. Link to chooser, no reservation submitted. Independent audit of complete saved browser HCM row verifies Vincom Le Thanh Ton B3-23-24 and exact phone/schedule; named menu combos appear in same official browser receipt. Independent text-reader fetch is empty, so no claim of independently re-rendering browser session.",
+      "evidenceBindings": [
+        {
+          "url": "https://gogi.com.vn/thuc-don",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/thuc-don)\nciteturn320view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"h",
+          "file": "vincom-dining\\source-gogi.txt"
+        },
+        {
+          "url": "https://gogi.com.vn/dat-ban",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/dat-ban)\nciteturn320view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"ht",
+          "file": "vincom-dining\\source-gogi.txt"
+        },
+        {
+          "evidenceFile": "browser-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained",
+          "file": "vincom-dining\\browser-sources.json"
+        },
+        {
+          "evidenceFile": "browser-goldengate-hcm.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained",
+          "file": "vincom-dining\\browser-goldengate-hcm.json"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "booking",
+        "state": "verified-agent",
+        "sourceUrl": "https://gogi.com.vn/dat-ban",
+        "evidence": "Official HCM restaurant list exposes a Dat ban action for Vincom Le Thanh Ton. Link to chooser, no reservation submitted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "url": "https://gogi.com.vn/dat-ban",
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "booking",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://gogi.com.vn/dat-ban",
+        "evidence": "Official HCM restaurant list exposes a Dat ban action for Vincom Le Thanh Ton. Link to chooser, no reservation submitted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "url": "https://gogi.com.vn/dat-ban"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-007",
+      "field": "cuisine",
+      "reason": "Official site identifies Buffet mon Viet, supported by actual main-course dish page.",
+      "evidenceBindings": [
+        {
+          "url": "https://hoangyencuisine.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Trang chủ - Hoang Yen Cuisine (https://hoangyencuisine.com/)\nciteturn330view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://h",
+          "file": "vincom-dining\\source-hoangyen.txt"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Buffet món Việt – TPHCM - Hoàng Yến Buffet (https://hoangyenbuffet.com/)\nciteturn330view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id",
+          "file": "vincom-dining\\source-hoangyen.txt"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/menu/mon-chinh/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Món chính - Hoàng Yến Buffet (https://hoangyenbuffet.com/menu/mon-chinh/)\nciteturn458view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_",
+          "file": "vincom-dining\\source-follow-hoang-exact.txt"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/lien-he/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Liên hệ - Hoàng Yến Buffet (https://hoangyenbuffet.com/lien-he/)\nciteturn458view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn",
+          "file": "vincom-dining\\source-follow-hoang-exact.txt"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "cuisine",
+        "state": "verified-agent",
+        "sourceUrl": "https://hoangyenbuffet.com/",
+        "evidence": "Official site identifies Buffet mon Viet, supported by actual main-course dish page.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "value": {
+          "vi": "Buffet món Việt",
+          "en": "Vietnamese buffet"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "cuisine",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://hoangyenbuffet.com/",
+        "evidence": "Official site identifies Buffet mon Viet, supported by actual main-course dish page.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "value": {
+          "vi": "Buffet món Việt",
+          "en": "Vietnamese buffet"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-007",
+      "field": "website",
+      "reason": "Official Buffet mon Viet brand home and corporate footer; this is brand-wide, not evidence that Dong Khoi remains in current locator.",
+      "evidenceBindings": [
+        {
+          "url": "https://hoangyencuisine.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Trang chủ - Hoang Yen Cuisine (https://hoangyencuisine.com/)\nciteturn330view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://h",
+          "file": "vincom-dining\\source-hoangyen.txt"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Buffet món Việt – TPHCM - Hoàng Yến Buffet (https://hoangyenbuffet.com/)\nciteturn330view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id",
+          "file": "vincom-dining\\source-hoangyen.txt"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/menu/mon-chinh/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Món chính - Hoàng Yến Buffet (https://hoangyenbuffet.com/menu/mon-chinh/)\nciteturn458view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_",
+          "file": "vincom-dining\\source-follow-hoang-exact.txt"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/lien-he/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Liên hệ - Hoàng Yến Buffet (https://hoangyenbuffet.com/lien-he/)\nciteturn458view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn",
+          "file": "vincom-dining\\source-follow-hoang-exact.txt"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "website",
+        "state": "verified-agent",
+        "sourceUrl": "https://hoangyenbuffet.com/",
+        "evidence": "Official Buffet mon Viet brand home and corporate footer; this is brand-wide, not evidence that Dong Khoi remains in current locator.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "url": "https://hoangyenbuffet.com/",
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "website",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://hoangyenbuffet.com/",
+        "evidence": "Official Buffet mon Viet brand home and corporate footer; this is brand-wide, not evidence that Dong Khoi remains in current locator.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "url": "https://hoangyenbuffet.com/"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-007",
+      "field": "menu",
+      "reason": "Official main-course page has actual named dishes, not empty menu navigation. Brand-wide only.",
+      "evidenceBindings": [
+        {
+          "url": "https://hoangyencuisine.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Trang chủ - Hoang Yen Cuisine (https://hoangyencuisine.com/)\nciteturn330view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://h",
+          "file": "vincom-dining\\source-hoangyen.txt"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Buffet món Việt – TPHCM - Hoàng Yến Buffet (https://hoangyenbuffet.com/)\nciteturn330view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id",
+          "file": "vincom-dining\\source-hoangyen.txt"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/menu/mon-chinh/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Món chính - Hoàng Yến Buffet (https://hoangyenbuffet.com/menu/mon-chinh/)\nciteturn458view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_",
+          "file": "vincom-dining\\source-follow-hoang-exact.txt"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/lien-he/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Liên hệ - Hoàng Yến Buffet (https://hoangyenbuffet.com/lien-he/)\nciteturn458view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn",
+          "file": "vincom-dining\\source-follow-hoang-exact.txt"
+        },
+        {
+          "sourceUrl": "https://hoangyenbuffet.com/menu/mon-chinh/",
+          "freshWebReference": "turn673view2"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://hoangyenbuffet.com/menu/mon-chinh/",
+        "evidence": "Official main-course page has actual named dishes, not empty menu navigation. Brand-wide only.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "url": "https://hoangyenbuffet.com/menu/mon-chinh/",
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://hoangyenbuffet.com/menu/mon-chinh/",
+        "evidence": "Official main-course page has actual named dishes, not empty menu navigation. Brand-wide only.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "url": "https://hoangyenbuffet.com/menu/mon-chinh/"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-morico",
+      "field": "phone",
+      "reason": "Official company Kamo Message us contact(+84)903667426. Brand contact only; not the Vincom branch phone.",
+      "evidenceBindings": [
+        {
+          "url": "https://morico.life/menu/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Menu - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/menu/)\nciteturn331view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open",
+          "file": "vincom-dining\\source-morico.txt"
+        },
+        {
+          "url": "https://morico.life/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Home - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/)\nciteturn331view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"re",
+          "file": "vincom-dining\\source-morico.txt"
+        },
+        {
+          "url": "https://morico.life/about/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "About - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/about/)\nciteturn459view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: cl",
+          "file": "vincom-dining\\source-follow-morico.txt"
+        },
+        {
+          "url": "https://morico.life/delivery/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Delivery - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/delivery/)\nciteturn459view1 [wordlim: 200] Crawled: last week; Content type: text/html; ",
+          "file": "vincom-dining\\source-follow-morico.txt"
+        },
+        {
+          "sourceUrl": "https://morico.life/menu/",
+          "freshWebReference": "turn673view0"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "brandContactScopeExplicit": true,
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://morico.life/menu/",
+        "evidence": "Official company Kamo Message us contact(+84)903667426. Brand contact only; not the Vincom branch phone.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Liên hệ chung của Morico/Kamo; không phải số điện thoại riêng của chi nhánh Vincom.",
+          "en": "Morico/Kamo general contact; this is not a dedicated Vincom branch line."
+        },
+        "value": {
+          "vi": "+84 90 366 74 26",
+          "en": "+84 90 366 74 26"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://morico.life/menu/",
+        "evidence": "Official company Kamo Message us contact(+84)903667426. Brand contact only; not the Vincom branch phone.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "value": {
+          "vi": "+84 90 366 74 26",
+          "en": "+84 90 366 74 26"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-morico",
+      "field": "menu",
+      "reason": "Official page exposes Vietnamese/English dessert menus and dining/lunch/seasonal menu image assets. No item availability or prices copied.",
+      "evidenceBindings": [
+        {
+          "url": "https://morico.life/menu/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Menu - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/menu/)\nciteturn331view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open",
+          "file": "vincom-dining\\source-morico.txt"
+        },
+        {
+          "url": "https://morico.life/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Home - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/)\nciteturn331view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"re",
+          "file": "vincom-dining\\source-morico.txt"
+        },
+        {
+          "url": "https://morico.life/about/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "About - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/about/)\nciteturn459view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: cl",
+          "file": "vincom-dining\\source-follow-morico.txt"
+        },
+        {
+          "url": "https://morico.life/delivery/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Delivery - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/delivery/)\nciteturn459view1 [wordlim: 200] Crawled: last week; Content type: text/html; ",
+          "file": "vincom-dining\\source-follow-morico.txt"
+        },
+        {
+          "sourceUrl": "https://morico.life/menu/",
+          "freshWebReference": "turn673view0"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://morico.life/menu/",
+        "evidence": "Official page exposes Vietnamese/English dessert menus and dining/lunch/seasonal menu image assets. No item availability or prices copied.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "url": "https://morico.life/menu/",
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://morico.life/menu/",
+        "evidence": "Official page exposes Vietnamese/English dessert menus and dining/lunch/seasonal menu image assets. No item availability or prices copied.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "url": "https://morico.life/menu/"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-morico",
+      "field": "booking",
+      "reason": "Checked official homepage/menu/about/delivery pages and targeted reservation/services query have food-delivery ordering but no table-reservation form/action or booking policy. Delivery ordering is not dining reservation; no other obvious reservation route in checked navigation.",
+      "evidenceBindings": [
+        {
+          "url": "https://morico.life/menu/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Menu - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/menu/)\nciteturn331view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open",
+          "file": "vincom-dining\\source-morico.txt"
+        },
+        {
+          "url": "https://morico.life/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Home - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/)\nciteturn331view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"re",
+          "file": "vincom-dining\\source-morico.txt"
+        },
+        {
+          "url": "https://morico.life/about/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "About - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/about/)\nciteturn459view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: cl",
+          "file": "vincom-dining\\source-follow-morico.txt"
+        },
+        {
+          "url": "https://morico.life/delivery/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Delivery - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/delivery/)\nciteturn459view1 [wordlim: 200] Crawled: last week; Content type: text/html; ",
+          "file": "vincom-dining\\source-follow-morico.txt"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "unavailable-after-research",
+      "boundedScope": "Only the listed official pages/sections and targeted searches; not global absence.",
+      "negativeCoverage": {
+        "officialSources": [
+          {
+            "url": "https://morico.life/menu/",
+            "evidenceFile": "source-morico.txt",
+            "reference": "turn331view0",
+            "section": "source response / referenced branch or field section",
+            "result": "retrieved",
+            "support": "Menu - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/menu/)\nciteturn331view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open"
+          },
+          {
+            "url": "https://morico.life/",
+            "evidenceFile": "source-morico.txt",
+            "reference": "turn331view1",
+            "section": "source response / referenced branch or field section",
+            "result": "retrieved",
+            "support": "Home - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/)\nciteturn331view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"re"
+          },
+          {
+            "url": "https://morico.life/about/",
+            "evidenceFile": "source-follow-morico.txt",
+            "reference": "turn459view0",
+            "section": "source response / referenced branch or field section",
+            "result": "retrieved",
+            "support": "About - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/about/)\nciteturn459view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: cl"
+          },
+          {
+            "url": "https://morico.life/delivery/",
+            "evidenceFile": "source-follow-morico.txt",
+            "reference": "turn459view1",
+            "section": "source response / referenced branch or field section",
+            "result": "retrieved",
+            "support": "Delivery - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/delivery/)\nciteturn459view1 [wordlim: 200] Crawled: last week; Content type: text/html; "
+          }
+        ],
+        "targetedSearches": [
+          {
+            "query": "\"Morico\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+            "evidenceFile": "search-04.txt",
+            "result": "Full returned results retained; nonofficial sources used only as leads."
+          },
+          {
+            "query": "\"Morico\" Việt Nam official thực đơn website đặt bàn",
+            "evidenceFile": "search-04.txt",
+            "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+          },
+          {
+            "query": "\"Morico\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+            "evidenceFile": "field-search-1.txt",
+            "result": "Exact field/branch source results retained."
+          }
+        ],
+        "finding": "No table-reservation action in the named checked homepage/menu/about/delivery navigation; ordering links are explicitly delivery only. This is bounded absence, not proof no booking exists."
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-morico",
+      "field": "services",
+      "reason": "Official delivery page specifically lists70-72LeThanhTon,Vincom Shopping Mall and See Menu&Order.",
+      "evidenceBindings": [
+        {
+          "url": "https://morico.life/menu/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Menu - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/menu/)\nciteturn331view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open",
+          "file": "vincom-dining\\source-morico.txt"
+        },
+        {
+          "url": "https://morico.life/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Home - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/)\nciteturn331view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"re",
+          "file": "vincom-dining\\source-morico.txt"
+        },
+        {
+          "url": "https://morico.life/about/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "About - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/about/)\nciteturn459view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: cl",
+          "file": "vincom-dining\\source-follow-morico.txt"
+        },
+        {
+          "url": "https://morico.life/delivery/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Delivery - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/delivery/)\nciteturn459view1 [wordlim: 200] Crawled: last week; Content type: text/html; ",
+          "file": "vincom-dining\\source-follow-morico.txt"
+        },
+        {
+          "sourceUrl": "https://morico.life/delivery/",
+          "freshWebReference": "turn673view1"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "services",
+        "state": "verified-agent",
+        "sourceUrl": "https://morico.life/delivery/",
+        "evidence": "Official delivery page specifically lists70-72LeThanhTon,Vincom Shopping Mall and See Menu&Order.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+          "en": "Information from the checked official source; confirm current details before visiting."
+        },
+        "branchMallId": "vincom-dong-khoi",
+        "value": {
+          "vi": "Đặt món giao hàng qua liên kết đặt hàng của Morico; xác nhận khu vực và khả năng phục vụ.",
+          "en": "Delivery ordering through Morico’s linked ordering channel; confirm delivery area and availability."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://morico.life/delivery/",
+        "evidence": "Official delivery page specifically lists70-72LeThanhTon,Vincom Shopping Mall and See Menu&Order.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+          "en": "Information from the checked official source; confirm current details before visiting."
+        },
+        "branchMallId": "vincom-dong-khoi",
+        "value": {
+          "vi": "Đặt món giao hàng qua liên kết đặt hàng của Morico; xác nhận khu vực và khả năng phục vụ.",
+          "en": "Delivery ordering through Morico’s linked ordering channel; confirm delivery area and availability."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-highlandscoffee",
+      "field": "cuisine",
+      "reason": "Reused audited r2 actual official menu categories coffee,tea,Freeze,bakery; source research-vincom/follow1.txt. Exact menu URL uses audited19Oct receipt; preserve actual source-check date19 with independent review20, also corroborated by fresh20Oct homepage categories.",
+      "evidenceBindings": [
+        {
+          "url": "https://wrap-roll.com/",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/follow1.txt",
+          "reference": "turn98view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Wrap & Roll (https://wrap-roll.com/)\nciteturn98view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn93view12\",\"lineno\":null}); Tot",
+          "file": "vincom-dining\\..\\..\\continuation-2026-10-19-r2\\research-vincom\\follow1.txt"
+        },
+        {
+          "url": "https://congcaphe.com/",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/follow1.txt",
+          "reference": "turn98view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Cộng Cà Phê (https://congcaphe.com/)\nciteturn98view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn93view16\",\"lineno\":null}); Tot",
+          "file": "vincom-dining\\..\\..\\continuation-2026-10-19-r2\\research-vincom\\follow1.txt"
+        },
+        {
+          "url": "https://gogi.com.vn/",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/follow1.txt",
+          "reference": "turn98view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/)\nciteturn98view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn93view",
+          "file": "vincom-dining\\..\\..\\continuation-2026-10-19-r2\\research-vincom\\follow1.txt"
+        },
+        {
+          "url": "https://www.highlandscoffee.com.vn/vn/san-pham.html",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/follow1.txt",
+          "reference": "turn98view3",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Thực đơn | Highlands Coffee (https://www.highlandscoffee.com.vn/vn/san-pham.html)\nciteturn98view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: click",
+          "file": "vincom-dining\\..\\..\\continuation-2026-10-19-r2\\research-vincom\\follow1.txt"
+        },
+        {
+          "url": "https://somtumthai.com.vn/en/location/?current=Vincom+Center+Dong+Khoi",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/follow1.txt",
+          "reference": "turn98view4",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Som ตำ Thai | Location (https://somtumthai.com.vn/en/location/?current=Vincom+Center+Dong+Khoi)\nciteturn98view4 [wordlim: 200] Crawled: 2 months ago; Content type: tex",
+          "file": "vincom-dining\\..\\..\\continuation-2026-10-19-r2\\research-vincom\\follow1.txt"
+        },
+        {
+          "url": "https://bastahiro.com.vn/en/location/?current=Vincom+Center+Dong+Khoi",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/follow1.txt",
+          "reference": "turn98view5",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Basta Hiro | Location (https://bastahiro.com.vn/en/location/?current=Vincom+Center+Dong+Khoi)\nciteturn98view5 [wordlim: 200] Crawled: last month; Content type: text/ht",
+          "file": "vincom-dining\\..\\..\\continuation-2026-10-19-r2\\research-vincom\\follow1.txt"
+        },
+        {
+          "url": "https://oddmenu.com/vi/p/chillthai",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/follow1.txt",
+          "reference": "turn98view6",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "OddMenu (https://oddmenu.com/vi/p/chillthai)\nciteturn98view6 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn93view8\",\"id\":3}); To",
+          "file": "vincom-dining\\..\\..\\continuation-2026-10-19-r2\\research-vincom\\follow1.txt"
+        },
+        {
+          "url": "https://www.starbucks.vn/store-locator/",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/follow1.txt",
+          "reference": "turn98view7",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Starbucks Coffee Company (https://www.starbucks.vn/store-locator/)\nciteturn98view7 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"tur",
+          "file": "vincom-dining\\..\\..\\continuation-2026-10-19-r2\\research-vincom\\follow1.txt"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "cuisine",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.highlandscoffee.com.vn/vn/san-pham.html",
+        "evidence": "Reused audited r2 actual official menu categories coffee,tea,Freeze,bakery; source research-vincom/follow1.txt.",
+        "checkedAt": "2026-10-19",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "value": {
+          "vi": "Cà phê, trà, đồ uống đá xay và bánh",
+          "en": "Coffee, tea, blended drinks and bakery items"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "cuisine",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.highlandscoffee.com.vn/vn/san-pham.html",
+        "evidence": "Reused audited r2 actual official menu categories coffee,tea,Freeze,bakery; source research-vincom/follow1.txt.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "value": {
+          "vi": "Cà phê, trà, đồ uống đá xay và bánh",
+          "en": "Coffee, tea, blended drinks and bakery items"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-highlandscoffee",
+      "field": "phone",
+      "reason": "Official brand homepage title explicitly advertises delivery hotline19001755. Brand-wide ordering hotline, not branch phone.",
+      "evidenceBindings": [
+        {
+          "evidenceFile": "browser-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained",
+          "file": "vincom-dining\\browser-sources.json"
+        },
+        {
+          "sourceUrl": "https://www.highlandscoffee.com.vn/",
+          "freshWebReference": "turn673view3"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "brandContactScopeExplicit": true,
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.highlandscoffee.com.vn/",
+        "evidence": "Official brand homepage title explicitly advertises delivery hotline19001755. Brand-wide ordering hotline, not branch phone.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Hotline đặt món giao hàng chung của Highlands; không phải số điện thoại riêng của chi nhánh.",
+          "en": "Highlands brand-wide delivery ordering hotline; this is not a dedicated branch line."
+        },
+        "value": {
+          "vi": "19001755",
+          "en": "19001755"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.highlandscoffee.com.vn/",
+        "evidence": "Official brand homepage title explicitly advertises delivery hotline19001755. Brand-wide ordering hotline, not branch phone.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "value": {
+          "vi": "19001755",
+          "en": "19001755"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-highlandscoffee",
+      "field": "services",
+      "reason": "Official homepage links DAT HANG to order.highlandscoffee.com.vn and advertises delivery; general brand service only.",
+      "evidenceBindings": [
+        {
+          "evidenceFile": "browser-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained",
+          "file": "vincom-dining\\browser-sources.json"
+        },
+        {
+          "sourceUrl": "https://www.highlandscoffee.com.vn/",
+          "freshWebReference": "turn673view3"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "services",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.highlandscoffee.com.vn/",
+        "evidence": "Official homepage links DAT HANG to order.highlandscoffee.com.vn and advertises delivery; general brand service only.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "value": {
+          "vi": "Đặt món qua kênh giao hàng của Highlands; xác nhận địa chỉ và phạm vi giao hàng.",
+          "en": "Order through Highlands’ delivery channel; confirm address and delivery coverage."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.highlandscoffee.com.vn/",
+        "evidence": "Official homepage links DAT HANG to order.highlandscoffee.com.vn and advertises delivery; general brand service only.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "value": {
+          "vi": "Đặt món qua kênh giao hàng của Highlands; xác nhận địa chỉ và phạm vi giao hàng.",
+          "en": "Order through Highlands’ delivery channel; confirm address and delivery coverage."
+        }
+      }
+    }
+  ],
+  "pendingFromWorkerChunk": "30 other decisions need final review; some products/services and broad holds returned for correction before accounting as final."
+}

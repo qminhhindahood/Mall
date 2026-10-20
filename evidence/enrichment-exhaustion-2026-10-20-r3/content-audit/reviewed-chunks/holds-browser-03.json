@@ -1,0 +1,537 @@
+{
+  "revision": "independent-root-browser-eight-recoveries",
+  "inputs": [
+    {
+      "file": "holds\\browser-held-detail.json",
+      "sha256": "6ce6d907921b6b0e34b35c94a650f99e00e0c02feb30f8f69dcb0fbc7ad25106"
+    },
+    {
+      "file": "holds\\browser-held-final.json",
+      "sha256": "9e7bac196cab2604e02a62088e33247ab5afcc27b5ef0fe8ad70ae4c30f47ed5"
+    },
+    {
+      "file": "holds\\browser-held-followthrough.json",
+      "sha256": "e34609b3ebf8c0a341ec9f4f1366dd353f00550bb5809c8142febe0d962e49c1"
+    },
+    {
+      "file": "holds\\chunk-browser-decisions.json",
+      "sha256": "31845bd5983524ffdfebc8fbb547a6b81d8e4f085b53c45cec41d207520518b6"
+    },
+    {
+      "file": "holds\\chunk-browser-records.json",
+      "sha256": "37fde9ef208765362fabd0be18fbf4f5b9012c1b0988798a3045d2ae39d5aa06"
+    },
+    {
+      "file": "holds\\lachca-food-5.jpg",
+      "sha256": "fa45ae2faea1291688b52a0a06530c5fe6212bfc34e281c05171e404f4d08bad"
+    },
+    {
+      "file": "holds\\lachca-food-8.jpg",
+      "sha256": "e2b2ae850703dc643be60c27daf279da784731b5a32f3ce0fe15f4de766e44cb"
+    },
+    {
+      "file": "holds\\lachca-menu-0.jpg",
+      "sha256": "82777be955c1a7b46b0f04d47bf7ca42f012e8a37f4361b6ae0f49b1ae2703d3"
+    },
+    {
+      "file": "holds\\sanfulou-cantonese-buffet-page1.png",
+      "sha256": "4139ad2ac755e635d2399a421a9ef906d1708d3299c048d509a446da5133f4e4"
+    },
+    {
+      "file": "holds\\sanfulou-cantonese-buffet.pdf",
+      "sha256": "6dcb2da5376f1175b9ad116eaf3dc1d80d4367716873b050a9c489bb10b4a35a"
+    },
+    {
+      "file": "holds\\sanfulou-dongkhoi-contact.png",
+      "sha256": "586fb7adfcb04c68fa42ff69abe8b65a52f74ae5589550eadbb7abfa118633bb"
+    }
+  ],
+  "decisions": [
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-gogihouse",
+      "field": "menu",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://gogi.com.vn/thuc-don",
+        "evidence": "Actual browser HCM menu displays named beef combos and menu categories; former text-reader shell limitation resolved.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thực đơn thương hiệu hiển thị khu vực TP.HCM; xác nhận món và giá tại Saigon Centre.",
+          "en": "Brand menu showing the HCM region; confirm dishes and prices at Saigon Centre."
+        },
+        "url": "https://gogi.com.vn/thuc-don",
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://gogi.com.vn/thuc-don",
+        "evidence": "Actual browser HCM menu displays named beef combos and menu categories; former text-reader shell limitation resolved.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thực đơn thương hiệu hiển thị khu vực TP.HCM; xác nhận món và giá tại Saigon Centre.",
+          "en": "Brand menu showing the HCM region; confirm dishes and prices at Saigon Centre."
+        },
+        "url": "https://gogi.com.vn/thuc-don"
+      },
+      "reason": "Actual browser HCM menu displays named beef combos and menu categories; former text-reader shell limitation resolved. Independent review of saved complete browser source/identity and specific value binding; no inference from status200 alone.",
+      "evidenceBindings": [
+        {
+          "url": "https://gogi.com.vn/thuc-don",
+          "evidenceFile": "browser-held-followthrough.json",
+          "result": "actual official content retrieved in installed Chromium or linked public menu media",
+          "file": "holds\\browser-held-followthrough.json"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "brandContactScopeExplicit": true
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-lachcalachcach",
+      "field": "menu",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://lachcalachcach.com.vn/thuc-don",
+        "evidence": "Actual official page renders Lách Ca menu image sequence, visually checked branded cover, pho dishes and appetizers. This is HN/Premium presentation, not the previously mismatched GoGi target.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thực đơn Lách Ca Lách Cách hiển thị khu vực Hà Nội/Premium; xác nhận món và giá tại Saigon Centre.",
+          "en": "Lách Ca Lách Cách menu showing Hanoi/Premium; confirm dishes and prices at Saigon Centre."
+        },
+        "url": "https://lachcalachcach.com.vn/thuc-don",
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://lachcalachcach.com.vn/thuc-don",
+        "evidence": "Actual official page renders Lách Ca menu image sequence, visually checked branded cover, pho dishes and appetizers. This is HN/Premium presentation, not the previously mismatched GoGi target.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thực đơn Lách Ca Lách Cách hiển thị khu vực Hà Nội/Premium; xác nhận món và giá tại Saigon Centre.",
+          "en": "Lách Ca Lách Cách menu showing Hanoi/Premium; confirm dishes and prices at Saigon Centre."
+        },
+        "url": "https://lachcalachcach.com.vn/thuc-don"
+      },
+      "reason": "Actual official page renders Lách Ca menu image sequence, visually checked branded cover, pho dishes and appetizers. This is HN/Premium presentation, not the previously mismatched GoGi target. Independent review of saved complete browser source/identity and specific value binding; no inference from status200 alone. Independently visually inspected pho food page, not just branded cover.",
+      "evidenceBindings": [
+        {
+          "url": "https://lachcalachcach.com.vn/thuc-don",
+          "evidenceFile": "browser-held-followthrough.json",
+          "result": "actual official content retrieved in installed Chromium or linked public menu media",
+          "file": "holds\\browser-held-followthrough.json"
+        },
+        {
+          "url": "https://lachcalachcach.com.vn/thuc-don",
+          "evidenceFile": "browser-held-final.json",
+          "result": "actual official content retrieved in installed Chromium or linked public menu media",
+          "file": "holds\\browser-held-final.json"
+        },
+        {
+          "url": "https://lachcalachcach.com.vn/thuc-don",
+          "evidenceFile": "lachca-menu-0.jpg",
+          "result": "actual official content retrieved in installed Chromium or linked public menu media",
+          "file": "holds\\lachca-menu-0.jpg"
+        },
+        {
+          "url": "https://lachcalachcach.com.vn/thuc-don",
+          "evidenceFile": "lachca-food-5.jpg",
+          "result": "actual official content retrieved in installed Chromium or linked public menu media",
+          "file": "holds\\lachca-food-5.jpg"
+        },
+        {
+          "url": "https://lachcalachcach.com.vn/thuc-don",
+          "evidenceFile": "lachca-food-8.jpg",
+          "result": "actual official content retrieved in installed Chromium or linked public menu media",
+          "file": "holds\\lachca-food-8.jpg"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "brandContactScopeExplicit": true
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-truffleco",
+      "field": "booking",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "booking",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.truffleco.vn/sgc-reservation-1-1",
+        "evidence": "Actual SGC reservation page now renders table size/date/time controls and Book Now for Saigon Centre B2; prior unavailable text-reader response preserved. No request submitted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Trang yêu cầu đặt bàn Saigon Centre đã tải được; tình trạng bàn và xác nhận đặt chỗ do nhà hàng quyết định. Phiên bản đọc văn bản cũng có thông báo dịch vụ không khả dụng; vui lòng xác nhận trực tiếp nếu không gửi được yêu cầu.",
+          "en": "Saigon Centre reservation-request page loaded; table availability and confirmation depend on the restaurant. A text-reader version also contains an unavailable-service message; confirm directly if the request cannot proceed."
+        },
+        "url": "https://www.truffleco.vn/sgc-reservation-1-1",
+        "branchMallId": "saigon-centre",
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "booking",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.truffleco.vn/sgc-reservation-1-1",
+        "evidence": "Actual SGC reservation page now renders table size/date/time controls and Book Now for Saigon Centre B2; prior unavailable text-reader response preserved. No request submitted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Trang yêu cầu đặt bàn Saigon Centre đã tải được; tình trạng bàn và xác nhận đặt chỗ do nhà hàng quyết định.",
+          "en": "Saigon Centre reservation-request page loaded; table availability and confirmation depend on the restaurant."
+        },
+        "url": "https://www.truffleco.vn/sgc-reservation-1-1",
+        "branchMallId": "saigon-centre"
+      },
+      "reason": "Actual SGC reservation page now renders table size/date/time controls and Book Now for Saigon Centre B2; prior unavailable text-reader response preserved. No request submitted. Independent review of saved complete browser source/identity and specific value binding; no inference from status200 alone. Fresh independent reader corroborates actual party/date/time controls and branch address, with conditional unavailable message disclosed rather than claiming a completed booking.",
+      "evidenceBindings": [
+        {
+          "url": "https://www.truffleco.vn/sgc-reservation-1-1",
+          "evidenceFile": "browser-held-followthrough.json",
+          "result": "actual official content retrieved in installed Chromium or linked public menu media",
+          "file": "holds\\browser-held-followthrough.json"
+        },
+        {
+          "sourceUrl": "https://www.truffleco.vn/sgc-reservation-1-1",
+          "freshWebReference": "turn819view0"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "brandContactScopeExplicit": false
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-cgv",
+      "field": "phone",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.cgv.vn/en/contacts/",
+        "evidence": "Official customer-service section explicitly prints19006017; actual browser content resolves text-reader retrieval failure.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Hotline chăm sóc khách hàng CGV Việt Nam; đây không phải số điện thoại riêng của rạp Đồng Khởi.",
+          "en": "CGV Vietnam customer-service hotline; this is not a direct Đồng Khởi cinema number."
+        },
+        "value": {
+          "vi": "19006017",
+          "en": "19006017"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.cgv.vn/en/contacts/",
+        "evidence": "Official customer-service section explicitly prints19006017; actual browser content resolves text-reader retrieval failure.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Hotline chăm sóc khách hàng CGV Việt Nam; đây không phải số điện thoại riêng của rạp Đồng Khởi.",
+          "en": "CGV Vietnam customer-service hotline; this is not a direct Đồng Khởi cinema number."
+        },
+        "value": {
+          "vi": "19006017",
+          "en": "19006017"
+        }
+      },
+      "reason": "Official customer-service section explicitly prints19006017; actual browser content resolves text-reader retrieval failure. Independent review of saved complete browser source/identity and specific value binding; no inference from status200 alone.",
+      "evidenceBindings": [
+        {
+          "url": "https://www.cgv.vn/en/contacts/",
+          "evidenceFile": "browser-held-followthrough.json",
+          "result": "actual official content retrieved in installed Chromium or linked public menu media",
+          "file": "holds\\browser-held-followthrough.json"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "brandContactScopeExplicit": true
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-cgv",
+      "field": "programme",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "programme",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.cgv.vn/default/cinox/site/cgv-vincom-dong-khoi/",
+        "evidence": "Actual branch page names CGV Vincom Đồng Khởi, L3/72LeThanhTon and renders dates, film titles and showtimes. No ticket purchase or availability guarantee.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Xem lịch chiếu trực tiếp của CGV Đồng Khởi; suất chiếu và vé có thể thay đổi.",
+          "en": "View the live CGV Đồng Khởi programme; showtimes and tickets may change."
+        },
+        "url": "https://www.cgv.vn/default/cinox/site/cgv-vincom-dong-khoi/",
+        "branchMallId": "vincom-dong-khoi",
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "programme",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.cgv.vn/default/cinox/site/cgv-vincom-dong-khoi/",
+        "evidence": "Actual branch page names CGV Vincom Đồng Khởi, L3/72LeThanhTon and renders dates, film titles and showtimes. No ticket purchase or availability guarantee.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Xem lịch chiếu trực tiếp của CGV Đồng Khởi; suất chiếu và vé có thể thay đổi.",
+          "en": "View the live CGV Đồng Khởi programme; showtimes and tickets may change."
+        },
+        "url": "https://www.cgv.vn/default/cinox/site/cgv-vincom-dong-khoi/",
+        "branchMallId": "vincom-dong-khoi"
+      },
+      "reason": "Actual branch page names CGV Vincom Đồng Khởi, L3/72LeThanhTon and renders dates, film titles and showtimes. No ticket purchase or availability guarantee. Independent review of saved complete browser source/identity and specific value binding; no inference from status200 alone.",
+      "evidenceBindings": [
+        {
+          "url": "https://www.cgv.vn/default/cinox/site/cgv-vincom-dong-khoi/",
+          "evidenceFile": "browser-held-followthrough.json",
+          "result": "actual official content retrieved in installed Chromium or linked public menu media",
+          "file": "holds\\browser-held-followthrough.json"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "brandContactScopeExplicit": false
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-sanfulou",
+      "field": "phone",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://sanfulou.com/en/contact/#1615431930682-d0881886-e8bf",
+        "evidence": "Selected official Vincom Dong Khoi tab names Lot28A,B3,72LeThanhTon and phone02839106586, distinct from defaultLeLai tab.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Số điện thoại theo mục chi nhánh Đồng Khởi trên website; chưa gọi thử.",
+          "en": "Number from the Đồng Khởi branch tab; no call was placed."
+        },
+        "value": {
+          "vi": "02839106586",
+          "en": "02839106586"
+        },
+        "branchMallId": "vincom-dong-khoi",
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://sanfulou.com/en/contact/#1615431930682-d0881886-e8bf",
+        "evidence": "Selected official Vincom Dong Khoi tab names Lot28A,B3,72LeThanhTon and phone02839106586, distinct from defaultLeLai tab.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Số điện thoại theo mục chi nhánh Đồng Khởi trên website; chưa gọi thử.",
+          "en": "Number from the Đồng Khởi branch tab; no call was placed."
+        },
+        "value": {
+          "vi": "02839106586",
+          "en": "02839106586"
+        },
+        "branchMallId": "vincom-dong-khoi"
+      },
+      "reason": "Selected official Vincom Dong Khoi tab names Lot28A,B3,72LeThanhTon and phone02839106586, distinct from defaultLeLai tab. Independent review of saved complete browser source/identity and specific value binding; no inference from status200 alone. Independently visually inspected selected Dong Khoi contact screenshot and read actual seven-page PDF dish text; default Le Lai tab is excluded.",
+      "evidenceBindings": [
+        {
+          "url": "https://sanfulou.com/en/contact/#1615431930682-d0881886-e8bf",
+          "evidenceFile": "browser-held-detail.json",
+          "result": "actual official content retrieved in installed Chromium or linked public menu media",
+          "file": "holds\\browser-held-detail.json"
+        },
+        {
+          "url": "https://sanfulou.com/en/contact/#1615431930682-d0881886-e8bf",
+          "evidenceFile": "sanfulou-dongkhoi-contact.png",
+          "result": "actual official content retrieved in installed Chromium or linked public menu media",
+          "file": "holds\\sanfulou-dongkhoi-contact.png"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "brandContactScopeExplicit": false
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-sanfulou",
+      "field": "hours",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "hours",
+        "state": "verified-agent",
+        "sourceUrl": "https://sanfulou.com/en/contact/#1615431930682-d0881886-e8bf",
+        "evidence": "Selected official Vincom Dong Khoi tab says Monday–Sunday09:30am–10pm; not defaultLeLai overnight hours.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Giờ theo mục chi nhánh Đồng Khởi; xác nhận lịch ngày lễ trước khi ghé.",
+          "en": "Hours from the Đồng Khởi branch tab; confirm holiday schedules before visiting."
+        },
+        "value": {
+          "vi": "Hằng ngày: 09:30–22:00",
+          "en": "Daily: 09:30–22:00"
+        },
+        "branchMallId": "vincom-dong-khoi",
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "hours",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://sanfulou.com/en/contact/#1615431930682-d0881886-e8bf",
+        "evidence": "Selected official Vincom Dong Khoi tab says Monday–Sunday09:30am–10pm; not defaultLeLai overnight hours.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Giờ theo mục chi nhánh Đồng Khởi; xác nhận lịch ngày lễ trước khi ghé.",
+          "en": "Hours from the Đồng Khởi branch tab; confirm holiday schedules before visiting."
+        },
+        "value": {
+          "vi": "Hằng ngày: 09:30–22:00",
+          "en": "Daily: 09:30–22:00"
+        },
+        "branchMallId": "vincom-dong-khoi"
+      },
+      "reason": "Selected official Vincom Dong Khoi tab says Monday–Sunday09:30am–10pm; not defaultLeLai overnight hours. Independent review of saved complete browser source/identity and specific value binding; no inference from status200 alone. Independently visually inspected selected Dong Khoi contact screenshot and read actual seven-page PDF dish text; default Le Lai tab is excluded.",
+      "evidenceBindings": [
+        {
+          "url": "https://sanfulou.com/en/contact/#1615431930682-d0881886-e8bf",
+          "evidenceFile": "browser-held-detail.json",
+          "result": "actual official content retrieved in installed Chromium or linked public menu media",
+          "file": "holds\\browser-held-detail.json"
+        },
+        {
+          "url": "https://sanfulou.com/en/contact/#1615431930682-d0881886-e8bf",
+          "evidenceFile": "sanfulou-dongkhoi-contact.png",
+          "result": "actual official content retrieved in installed Chromium or linked public menu media",
+          "file": "holds\\sanfulou-dongkhoi-contact.png"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "brandContactScopeExplicit": false
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-sanfulou",
+      "field": "menu",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://sanfulou.com/thuc-don/",
+        "evidence": "Official menu landing explicitly includes Vincom Dong Khoi among Cantonese Buffet branches; linked7pagePDF retrieved and text/cover inspected, actualdimsum,noodle/maincourse listings. Other restaurant/hotpot menus on landing have differentbranchscope.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thực đơn buffet Quảng Đông được website liệt kê cho Đồng Khởi; xác nhận gói buffet, món và giá hiện tại.",
+          "en": "Cantonese buffet menu listed by the website for Đồng Khởi; confirm current buffet options, dishes and prices."
+        },
+        "url": "https://sanfulou.com/wp-content/uploads/2026/03/MENU-CANTONESE-BUFFET.pdf",
+        "branchMallId": "vincom-dong-khoi",
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://sanfulou.com/thuc-don/",
+        "evidence": "Official menu landing explicitly includes Vincom Dong Khoi among Cantonese Buffet branches; linked7pagePDF retrieved and text/cover inspected, actualdimsum,noodle/maincourse listings. Other restaurant/hotpot menus on landing have differentbranchscope.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thực đơn buffet Quảng Đông được website liệt kê cho Đồng Khởi; xác nhận gói buffet, món và giá hiện tại.",
+          "en": "Cantonese buffet menu listed by the website for Đồng Khởi; confirm current buffet options, dishes and prices."
+        },
+        "url": "https://sanfulou.com/wp-content/uploads/2026/03/MENU-CANTONESE-BUFFET.pdf",
+        "branchMallId": "vincom-dong-khoi"
+      },
+      "reason": "Official menu landing explicitly includes Vincom Dong Khoi among Cantonese Buffet branches; linked7pagePDF retrieved and text/cover inspected, actualdimsum,noodle/maincourse listings. Other restaurant/hotpot menus on landing have differentbranchscope. Independent review of saved complete browser source/identity and specific value binding; no inference from status200 alone. Independently visually inspected selected Dong Khoi contact screenshot and read actual seven-page PDF dish text; default Le Lai tab is excluded.",
+      "evidenceBindings": [
+        {
+          "url": "https://sanfulou.com/thuc-don/",
+          "evidenceFile": "browser-held-followthrough.json",
+          "result": "actual official content retrieved in installed Chromium or linked public menu media",
+          "file": "holds\\browser-held-followthrough.json"
+        },
+        {
+          "url": "https://sanfulou.com/thuc-don/",
+          "evidenceFile": "browser-held-final.json",
+          "result": "actual official content retrieved in installed Chromium or linked public menu media",
+          "file": "holds\\browser-held-final.json"
+        },
+        {
+          "url": "https://sanfulou.com/thuc-don/",
+          "evidenceFile": "sanfulou-cantonese-buffet.pdf",
+          "result": "actual official content retrieved in installed Chromium or linked public menu media",
+          "file": "holds\\sanfulou-cantonese-buffet.pdf"
+        },
+        {
+          "url": "https://sanfulou.com/thuc-don/",
+          "evidenceFile": "sanfulou-cantonese-buffet-page1.png",
+          "result": "actual official content retrieved in installed Chromium or linked public menu media",
+          "file": "holds\\sanfulou-cantonese-buffet-page1.png"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "brandContactScopeExplicit": false
+    }
+  ]
+}

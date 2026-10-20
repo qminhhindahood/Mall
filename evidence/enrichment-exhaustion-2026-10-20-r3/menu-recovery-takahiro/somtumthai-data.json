@@ -1,0 +1,1875 @@
+{
+  "layout": "default",
+  "data": [
+    {
+      "homeData": {
+        "id": 1,
+        "name": "home",
+        "slugVi": "home",
+        "slugEn": "home",
+        "slugJa": "home",
+        "commonContent": {
+          "banner": {
+            "bannerType": 1,
+            "desktop": {
+              "image": {
+                "id": 311,
+                "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/6/12/9/A1u1781255269240.jpeg"
+              },
+              "video": {
+                "id": 70,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/4Cj1596192612700.mp4",
+                "masterId": 9
+              },
+              "slider": {
+                "images": []
+              }
+            },
+            "mobile": {
+              "image": {
+                "id": 312,
+                "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/6/12/9/3TB1781255277569.jpeg"
+              },
+              "video": {
+                "id": 69,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/htn1596192620561.mp4",
+                "masterId": 8
+              },
+              "slider": {
+                "images": []
+              }
+            }
+          },
+          "widgets": {
+            "reservation": true,
+            "social": true,
+            "location": true,
+            "promotion": {
+              "enable": true,
+              "uuid": "ad5d1f8c-63b7-440a-b23138d4-f25c48600a08"
+            },
+            "story": true
+          }
+        },
+        "multilangContent": {
+          "en": {
+            "id": 1,
+            "content": "{\"story\":\"<p>\\\"Easy to find a salad anywhere, but &nbsp;you may know that Thai's salad (Papaya Salads) is on the top 50 salad worth trying in the world. Thai Cusine has its own way with their own recipe and especially the way to combine many sophisticated and complex but subtle spices for highly-seasoned, tasty, balanced, unique flavor that is always loved around the world, specially authentic Thai from spice to. Thai cusine has 4 traditional styles from 4 regions of Thai: North, Eastern North, the Midland and South creating a colorful Thai cuisine from the tastes to the flavors.</p><p>&nbsp;</p><p>In Som ตำ Thai, food is cooked by Thai Head Chef has a wealth of experience, hereditary recipient, the original marinade imported from Thai and the sources of fresh ingredients in local all of which &nbsp;have created authentic Thai flavor.\\\"</p>\"}"
+          }
+        },
+        "createAt": 1591686846000,
+        "updateAt": 1781255287000
+      }
+    }
+  ],
+  "fetch": {},
+  "error": null,
+  "state": {
+    "isMobileAgent": false,
+    "isMobileOrTabletAgent": false,
+    "isDisableLogoHeading": false,
+    "heading": null,
+    "footer": {
+      "id": 1,
+      "status": 1,
+      "logo": {
+        "id": 488,
+        "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-prod/image/2020/7/28/12/VCz1595939517686.svg"
+      },
+      "moit": {
+        "url": "#",
+        "icon": {
+          "id": 58,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-prod/file/2020/7/28/12/DnT1595939596727.png"
+        },
+        "isActive": 0
+      },
+      "multilangContent": {
+        "en": {
+          "id": 1,
+          "content1": "SOM TUM THAI CORPORATION",
+          "content2": "Business Registration Certificate: 0315847456",
+          "content3": "Address: 180 Pasteur, Sai Gon Ward, HCMC, Vietnam",
+          "content4": "Hotline: +8428-3933-9999 | Contact: cs.somtumthai@somtumthai.com.vn"
+        }
+      },
+      "footerNavigations": [
+        {
+          "id": 3,
+          "status": 1,
+          "order": 0,
+          "multilangContent": {
+            "en": {
+              "id": 3,
+              "name": "Career",
+              "linkType": 1,
+              "link": "career"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "status": 1,
+          "order": 1,
+          "multilangContent": {
+            "en": {
+              "id": 5,
+              "name": "Privacy",
+              "linkType": 1,
+              "link": null
+            }
+          }
+        },
+        {
+          "id": 4,
+          "status": 1,
+          "order": 2,
+          "multilangContent": {
+            "en": {
+              "id": 4,
+              "name": "Terms of Service",
+              "linkType": 1,
+              "link": null
+            }
+          }
+        },
+        {
+          "id": 6,
+          "status": 1,
+          "order": 3,
+          "multilangContent": {
+            "en": {
+              "id": 6,
+              "name": "Contact",
+              "linkType": 1,
+              "link": null
+            }
+          }
+        }
+      ]
+    },
+    "widgets": {
+      "story": {
+        "id": 1,
+        "name": "story",
+        "commonContent": {
+          "image": {
+            "id": 499,
+            "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-prod/image/2020/7/31/9/aaj1596188663806.svg"
+          }
+        },
+        "multilangContent": {
+          "en": {
+            "id": 1,
+            "content": "{\"text\":\"<p>Easy to find a salad anywhere, but &nbsp;you may know that Thai's salad (Papaya Salads) is on the top 50 salad worth trying in the world. Thai Cusine has its own way with their own recipe and especially the way to combine many sophisticated and complex but subtle spices for highly-seasoned, tasty, balanced, unique flavor that is always loved around the world, specially authentic Thai from spice to. Thai cusine has 4 traditional styles from 4 regions of Thai: North, Eastern North, the Midland and South creating a colorful Thai cuisine from the tastes to the flavors.</p><p>&nbsp;</p><p>In Som ตำ Thai, food is cooked by Thai Head Chef has a wealth of experience, hereditary recipient, the original marinade imported from Thai and the sources of fresh ingredients in local all of which &nbsp;have created authentic Thai flavor.</p>\"}"
+          }
+        },
+        "createAt": 1591776524000,
+        "updateAt": 1652691499000
+      },
+      "reservation": {
+        "id": 3,
+        "name": "reservation",
+        "commonContent": {
+          "selectedLocations": [
+            7,
+            8,
+            9,
+            1,
+            2,
+            3,
+            11,
+            12,
+            13,
+            14,
+            16,
+            18,
+            19,
+            17,
+            22,
+            23,
+            24,
+            21,
+            25,
+            27,
+            28,
+            26,
+            30,
+            33,
+            32,
+            31,
+            34,
+            35,
+            37,
+            36,
+            39,
+            38
+          ],
+          "name": "reservation",
+          "content": [
+            {
+              "uuid": "b68733ec-9f74-49dd-a71db075-93ebf13ac54f",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Đồng Khởi",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Dong Khoi",
+                  "active": true,
+                  "link": "http://hokkaidosushi.com.vn/"
+                },
+                "ja": {
+                  "name": "Dong Khoi",
+                  "active": true,
+                  "link": "http://hokkaidosushi.com.vn/"
+                }
+              },
+              "name": "Tiếng việt"
+            },
+            {
+              "uuid": "44086038-39fa-427b-8dcb8552-06ed6f776060",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Pasteur",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Pasteur",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Pasteur",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                }
+              }
+            },
+            {
+              "uuid": "63db697a-d7ed-4758-aa963c12-703cda0ef831",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Nguyễn Đình Chiểu",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": " Nguyen Dinh Chieu",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Nguyen Dinh Chieu",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                }
+              }
+            },
+            {
+              "uuid": "876c457b-151a-4df6-ad4c6cd1-be139dd33fcb",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Đông Du",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Dong Du",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Dong Du",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                }
+              }
+            },
+            {
+              "uuid": "ea981997-fdb0-4bc9-88c003dd-d4b9fada0af5",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Nguyễn Trãi",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Nguyen Trai",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Nguyen Trai",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                }
+              }
+            },
+            {
+              "uuid": "4c952d94-432d-4064-af91b2a1-df182dcd1389",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Phan Xích Long",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Phan Xich Long",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Phan Xich Long",
+                  "link": "http://hokkaidosushi.com.vn/"
+                }
+              }
+            }
+          ]
+        },
+        "multilangContent": {
+          "en": {
+            "id": 3,
+            "content": "{}"
+          }
+        },
+        "createAt": 1591778751000,
+        "updateAt": 1791346711000
+      },
+      "social": {
+        "id": 4,
+        "name": "social",
+        "commonContent": {
+          "name": "social",
+          "content": [
+            {
+              "uuid": "24124e6f-935b-4978-a5cda2a1-e6537c244f36",
+              "icon": {
+                "id": 8,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/somtumthai-prod/file/2022/06/17/07/aB81655450704531.svg"
+              },
+              "title": "Youtube",
+              "link": "https://www.youtube.com/channel/UCvufoHjDftYB-QIRjkg-wow",
+              "active": true
+            },
+            {
+              "uuid": "73cbb6a2-b08b-4463-a8e77fc1-3781b45cd885",
+              "icon": {
+                "id": 9,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/somtumthai-prod/file/2022/06/17/07/jPY1655450715936.svg"
+              },
+              "title": "Instagram",
+              "link": "https://www.instagram.com/SomTumThaiVN",
+              "active": true
+            },
+            {
+              "uuid": "0e41cd20-c807-4f4d-aa8b2c9a-1d50f99e25e5",
+              "icon": {
+                "id": 10,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/somtumthai-prod/file/2022/06/17/07/Zjx1655450728967.svg"
+              },
+              "title": "Facebook",
+              "link": "https://www.facebook.com/SomTumThaiVN",
+              "active": true
+            },
+            {
+              "icon": {
+                "id": 11,
+                "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/file/2025/10/03/06/Yie1759473946431.svg"
+              },
+              "title": "Tiktok",
+              "link": "https://www.tiktok.com/@somtumthaivn",
+              "active": true,
+              "uuid": "18629320-da01-4f8e-9dfdbb44-15d614b079e1"
+            }
+          ]
+        },
+        "multilangContent": {
+          "en": {
+            "id": 4,
+            "content": "{}"
+          }
+        },
+        "createAt": 1591778757000,
+        "updateAt": 1759473978000
+      },
+      "location": {
+        "id": 5,
+        "name": "location",
+        "commonContent": {
+          "selectedLocations": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            8,
+            7,
+            9,
+            11,
+            12,
+            14,
+            13,
+            16,
+            18,
+            19,
+            17,
+            22,
+            23,
+            2,
+            21,
+            24,
+            25,
+            26,
+            27,
+            29,
+            28,
+            30,
+            31,
+            33,
+            32,
+            34,
+            35,
+            36,
+            38,
+            37,
+            39
+          ]
+        },
+        "multilangContent": {
+          "en": {
+            "id": 5,
+            "content": "{}"
+          }
+        },
+        "createAt": 1591778771000,
+        "updateAt": 1791346670000
+      }
+    },
+    "banner": {
+      "bannerType": 1,
+      "desktop": {
+        "image": {
+          "id": 311,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/6/12/9/A1u1781255269240.jpeg"
+        },
+        "video": {
+          "id": 70,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/4Cj1596192612700.mp4",
+          "masterId": 9
+        },
+        "slider": {
+          "images": []
+        }
+      },
+      "mobile": {
+        "image": {
+          "id": 312,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/6/12/9/3TB1781255277569.jpeg"
+        },
+        "video": {
+          "id": 69,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/htn1596192620561.mp4",
+          "masterId": 8
+        },
+        "slider": {
+          "images": []
+        }
+      }
+    },
+    "areasList": [
+      {
+        "id": 1,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Hồ Chí Minh"
+            },
+            "en": {
+              "name": "Ho Chi Minh"
+            },
+            "ja": {
+              "name": "Ho Chi Minh"
+            }
+          }
+        }
+      },
+      {
+        "id": 2,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Hà Nội"
+            },
+            "en": {
+              "name": "Ha Noi"
+            },
+            "ja": {
+              "name": "Ha Noi"
+            }
+          }
+        }
+      },
+      {
+        "id": 3,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Hải Phòng"
+            },
+            "en": {
+              "name": "Hai Phong"
+            },
+            "ja": {
+              "name": "Hai Phong"
+            }
+          }
+        }
+      },
+      {
+        "id": 4,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Đà Nẵng"
+            },
+            "en": {
+              "name": "Da Nang"
+            },
+            "ja": {
+              "name": "Da Nang"
+            }
+          }
+        }
+      },
+      {
+        "id": 5,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Nha Trang"
+            },
+            "en": {
+              "name": "Nha Trang"
+            },
+            "ja": {
+              "name": "Nha Trang"
+            }
+          }
+        }
+      },
+      {
+        "id": 6,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Bắc Ninh"
+            },
+            "en": {
+              "name": "Bac Ninh"
+            },
+            "ja": {
+              "name": "Bac Ninh"
+            }
+          }
+        }
+      },
+      {
+        "id": 7,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Cần Thơ"
+            },
+            "en": {
+              "name": "Can Tho City"
+            },
+            "ja": {
+              "name": "Can Tho City"
+            }
+          }
+        }
+      },
+      {
+        "id": 8,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Hạ Long"
+            },
+            "en": {
+              "name": "Ha Long"
+            },
+            "ja": {
+              "name": "Ha Long"
+            }
+          }
+        }
+      },
+      {
+        "id": 9,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Thanh Hóa"
+            },
+            "en": {
+              "name": "Thanh Hoa"
+            },
+            "ja": {
+              "name": "Thanh Hoa"
+            }
+          }
+        }
+      }
+    ],
+    "locationsList": [
+      {
+        "id": 11,
+        "areaId": 2,
+        "image": {
+          "id": 77,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/somtumthai-prod/image/2022/11/10/9/yBO1668072553672.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/oBSqQzsiwDU8Uevo8",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59584.55197138096!2d105.7446981!3d21.0313056!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abed8f3b9c6d%3A0x808dec0c58762023!2sSom%20Tum%20Thai%20-%20Vincom%20Metropolis!5e0!3m2!1svi!2s!4v1665396254760!5m2!1svi!2s",
+        "storeCode": null,
+        "offDays": [
+          {
+            "id": "mlkiudzwsnfdp",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "19-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 11,
+            "name": "Vincom Center Metropolis Ha Noi",
+            "address": "Level 2 (L2-02, 03) Vincom Center Metropolis, 29 Lieu Giai Street, Ngoc Ha Ward, Ha Noi.",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "024 3202 1388",
+            "phone2": "024 3202 9188"
+          }
+        },
+        "createAt": 1665457076000,
+        "updateAt": 1770965039000
+      },
+      {
+        "id": 22,
+        "areaId": 3,
+        "image": {
+          "id": 257,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2025/10/9/6/EwW1759991764683.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/V1mHAEWx5q86ySZb6",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3727.85661863198!2d106.7154183747105!3d20.877828692946544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b8d4f27a929%3A0xfe4f5c559e032e03!2sVincom%20Mega%20Mall%20Royal%20Island!5e0!3m2!1svi!2s!4v1757924917352!5m2!1svi!2s",
+        "storeCode": "WnltTCEMH000i0CH",
+        "offDays": [
+          {
+            "id": "mlkivboyrwe20",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "19-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 22,
+            "name": "Royal Island Hai Phong",
+            "address": "Tòa nhà Vincom Mega Mall Royal Island, Thuy Nguyen Ward, Hai Phong City",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0826283539",
+            "phone2": "0826283599"
+          }
+        },
+        "createAt": 1757925479000,
+        "updateAt": 1770965070000
+      },
+      {
+        "id": 25,
+        "areaId": 4,
+        "image": {
+          "id": 293,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/2/9/9/pWt1770628741922.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/wHXBKEqj7MysR2QE8",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3030.1640674961245!2d108.2299451!3d16.071643599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219317d12c619%3A0x5e5b10a33ff02e26!2zU29tIFR1bSBUaGFpIC0gVmluY29tIFBsYXphIE5nw7QgUXV54buBbiDEkMOgIE7hurVuZw!5e1!3m2!1svi!2s!4v1770262492982!5m2!1svi!2s",
+        "storeCode": "T3GREB9EyRqz73qg",
+        "offDays": [
+          {
+            "id": "mlkivlperw9eq",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "19-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 25,
+            "name": "Vincom Plaza Ngo Quyen Da Nang",
+            "address": "4th Floor, Vincom Plaza Ngo Quyen Da Nang, 910A Ngo Quyen Street, An Hai Ward, Da Nang City",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0888531699",
+            "phone2": null
+          }
+        },
+        "createAt": 1770262691000,
+        "updateAt": 1770965070000
+      },
+      {
+        "id": 27,
+        "areaId": 5,
+        "image": {
+          "id": 302,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/4/17/3/9Si1776396366822.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/73G4naCiWtsFAHRC8",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3081.8072909512066!2d109.1972188!3d12.233215000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317067862ca5147f%3A0x33fc9c9a451068ac!2zVmluY29tIFBsYXphIFRy4bqnbiBQaMO6!5e1!3m2!1svi!2s!4v1773735543112!5m2!1svi!2s",
+        "storeCode": "IaSaCWxBChIwmNcw",
+        "offDays": [
+          {
+            "id": "mno4tt0agxv5v",
+            "name": "Opening",
+            "allDay": true,
+            "startDate": "07-04-2026",
+            "startTime": "00:00",
+            "endDate": "16-04-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 27,
+            "name": "Vincom Plaza Tran Phu",
+            "address": "Level L3 Vincom Plaza Tran Phu, 78 - 80 Tran Phu, Nha Trang Ward, Khanh Hoa",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0828533689",
+            "phone2": "0829133689"
+          }
+        },
+        "createAt": 1773735701000,
+        "updateAt": 1776396395000
+      },
+      {
+        "id": 31,
+        "areaId": 6,
+        "image": {
+          "id": 317,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/7/20/9/xnF1784539852696.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/QDds5E3tAZSm2XATA",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5130.013042477993!2d106.0722385!3d21.1782746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31350de93141b2bf%3A0x1bed8bc5f098b421!2zU29tIOC4leC4syBUaGFpIC0gVmluY29tIFBsYXphIEzDvSBUaMOhaSBU4buVIELhuq9jIE5pbmg!5e1!3m2!1svi!2s!4v1781494409168!5m2!1svi!2s",
+        "storeCode": "63QBw6p1o4i5qmFM",
+        "offDays": [
+          {
+            "id": "mrd5pacxi3em0",
+            "name": "Grand Opening",
+            "allDay": true,
+            "startDate": "09-07-2026",
+            "startTime": "00:00",
+            "endDate": "17-07-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 31,
+            "name": "Vincom Plaza Ly Thai To",
+            "address": "Level 3, Vincom Plaza Ly Thai To, Ly Thai To Roundabout, Kinh Bac Ward, Bac Ninh Province",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0971809580",
+            "phone2": null
+          }
+        },
+        "createAt": 1781154362000,
+        "updateAt": 1784539859000
+      },
+      {
+        "id": 35,
+        "areaId": 7,
+        "image": {
+          "id": 323,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/9/15/6/NIy1789454222752.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/jWTiUmxLWraAztsCA",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5412.467396794938!2d105.77543229999999!3d10.025207100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a089791d011fa5%3A0x50bad1f13327ec9f!2sSom%20Tum%20Thai%20-%20Vincom%20Plaza%20Xu%C3%A2n%20Kh%C3%A1nh!5e1!3m2!1svi!2s!4v1787025824742!5m2!1svi!2s",
+        "storeCode": "JRA4wLgVugNunOEB",
+        "offDays": [
+          {
+            "id": "mttgjg6bt4744",
+            "name": "Opening",
+            "allDay": true,
+            "startDate": "09-09-2026",
+            "startTime": "00:00",
+            "endDate": "13-09-2026",
+            "endTime": "23:59"
+          },
+          {
+            "id": "mvdnwh5gcq6ip",
+            "name": "FULL BOOKING",
+            "allDay": false,
+            "isFull": true,
+            "startDate": "18-10-2026",
+            "startTime": "17:15",
+            "endDate": "18-10-2026",
+            "endTime": "19:00"
+          }
+        ],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 35,
+            "name": "Vincom Plaza Xuan Khanh",
+            "address": "Level 3, Vincom Plaza Xuan Khanh, 209 - 30/4 Street, Ninh Kieu District, Can Tho City",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0833235618",
+            "phone2": "0833235698"
+          }
+        },
+        "createAt": 1787025838000,
+        "updateAt": 1792318070000
+      },
+      {
+        "id": 38,
+        "areaId": 8,
+        "image": {
+          "id": 326,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/9/22/6/ZC11790059000751.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/PxhQDojhQyzX1Nqe8",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5133.021518877401!2d107.0845714!3d20.9505213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a59e15e93748f%3A0x3b098ce61ed3688e!2sSom%20Tum%20Thai%20-%20Vincom%20Plaza%20H%E1%BA%A1%20Long!5e1!3m2!1svi!2s!4v1790059016807!5m2!1svi!2s",
+        "storeCode": "XfO4fDJQULuk0Lub",
+        "offDays": [
+          {
+            "id": "mukm4jsa7tpkm",
+            "name": "Opening",
+            "allDay": true,
+            "isFull": false,
+            "startDate": "28-09-2026",
+            "startTime": "00:00",
+            "endDate": "13-10-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 38,
+            "name": "Vincom Plaza Ha Long",
+            "address": "Floor L4, Vincom Plaza Ha Long, Cot Dong Ho Area, Hong Gai Ward, Quang Ninh Province",
+            "openAt": "10:00",
+            "closeAt": "23:00",
+            "lastOrder": "22:30",
+            "phone1": "0823568965",
+            "phone2": "0823356865"
+          }
+        },
+        "createAt": 1790059150000,
+        "updateAt": 1791346701000
+      },
+      {
+        "id": 39,
+        "areaId": 9,
+        "image": {
+          "id": 328,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/10/7/4/m4Y1791346095770.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/RzHzssvAtQdfN9oCA",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4492.6732560180835!2d105.7938579!3d19.7769614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313657cfe81c92b5%3A0x9f5d06bd052185be!2sAEON%20MALL%20Thanh%20H%C3%B3a!5e1!3m2!1svi!2s!4v1791346144968!5m2!1svi!2s",
+        "storeCode": "R7xMYuv8mgNfftrq",
+        "offDays": [
+          {
+            "id": "muxld2z84i1p7",
+            "name": "Opening",
+            "allDay": true,
+            "isFull": false,
+            "startDate": "07-10-2026",
+            "startTime": "00:00",
+            "endDate": "14-10-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 39,
+            "name": "Aeon Mall Thanh Hoa",
+            "address": "4th Floor, Aeon Mall Thanh Hoa, Quang Phu Ward, Thanh Hoa Province",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0835668615",
+            "phone2": "0835668616"
+          }
+        },
+        "createAt": 1791346350000,
+        "updateAt": 1791346350000
+      },
+      {
+        "id": 1,
+        "areaId": 1,
+        "image": {
+          "id": 23,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/somtumthai-prod/image/2022/6/17/7/AOX1655450554543.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/BDSYtdb3hPq6JbXJ9",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.497089167162!2d106.6987307153152!3d10.773188292323738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f0194673921%3A0xbb8a476108a0c9a1!2sSom%20Tum%20Thai%20-%20Saigon%20Centre!5e0!3m2!1svi!2s!4v1648118270026!5m2!1svi!2s",
+        "storeCode": null,
+        "offDays": [
+          {
+            "id": "mlkim0acnodo8",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "18-02-2026",
+            "endTime": "23:59"
+          },
+          {
+            "id": "mpapmix9sz91s",
+            "name": "Restore",
+            "allDay": true,
+            "startDate": "21-05-2026",
+            "startTime": "00:00",
+            "endDate": "07-06-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 1,
+        "multilangContent": {
+          "en": {
+            "id": 1,
+            "name": "Saigon Centre",
+            "address": "Level 5 (L5-18), Saigon Centre, 67 Le Loi Street, Sai Gon Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "028 3915 1155  ",
+            "phone2": "028 3915 2266"
+          }
+        },
+        "createAt": 1608013531000,
+        "updateAt": 1780044332000
+      },
+      {
+        "id": 2,
+        "areaId": 1,
+        "image": {
+          "id": 24,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/somtumthai-prod/image/2022/6/17/7/TeE1655450569026.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/CmjReJNpmrZ781HH6",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.123933214561!2d106.74623081531543!3d10.801818892304293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752737574a4071%3A0xb32e5c106a6229c8!2sSom%20Tum%20Thai%20-%20Estella!5e0!3m2!1svi!2s!4v1648118693568!5m2!1svi!2s",
+        "storeCode": null,
+        "offDays": [
+          {
+            "id": "mlkimwq7tyjw5",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "18-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 1,
+        "multilangContent": {
+          "en": {
+            "id": 2,
+            "name": "Estella Place",
+            "address": "Level 2 (L2-10), Estella Place, 88 Song Hanh Street, Binh Trung Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "028 3898 9855",
+            "phone2": "028 3898 9866"
+          }
+        },
+        "createAt": 1608013780000,
+        "updateAt": 1770964807000
+      },
+      {
+        "id": 12,
+        "areaId": 2,
+        "image": {
+          "id": 86,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/somtumthai-prod/image/2023/1/8/6/Ewi1673159308880.jpeg"
+        },
+        "linkToShare": "https://www.google.com/maps/place/Som+Tum+Thai+-+Ph%E1%BA%A1m+Ng%E1%BB%8Dc+Th%E1%BA%A1ch/@21.007642,105.8327394,15z/data=!4m5!3m4!1s0x0:0x673f16363db926c7!8m2!3d21.007642!4d105.8327394?hl=vi",
+        "embedMap": "https://www.google.com/maps/embed/v1/place?q=Som+Tum+Thai+-+Phạm+Ngọc+Thạch,+Phố+Phạm+Ngọc+Thạch,+Trung+Tự,+Đống+Đa,+Hà+Nội,+Việt+Nam&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8",
+        "storeCode": null,
+        "offDays": [
+          {
+            "id": "mlkiuy2qsec81",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "19-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 1,
+        "multilangContent": {
+          "en": {
+            "id": 12,
+            "name": "Vincom Center Pham Ngoc Thach Ha Noi ",
+            "address": "Level 5 (L5-03, 04), Vincom Center Pham Ngoc Thach, 2 Pham Ngoc Thach Street, Kim Lien Ward, Ha Noi.",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "024 3203 1388",
+            "phone2": "024 3203 1288"
+          }
+        },
+        "createAt": 1673157788000,
+        "updateAt": 1770965039000
+      },
+      {
+        "id": 33,
+        "areaId": 4,
+        "image": {
+          "id": 316,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/7/20/9/y081784539829041.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/h3kE1dsi5AFPgmLu8",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5281.710213517756!2d108.2052191!3d16.066399899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a14b28dfa1a215%3A0x3469e9cdfd4c1dba!2zU29tIOC4leC4syBUaGFpIC0gQWVvbiBNYWxsIMSQw6AgTuG6tW5nIFRoYW5oIEtow6o!5e1!3m2!1svi!2s!4v1781494441808!5m2!1svi!2s",
+        "storeCode": "AwFZPoZNAvectRDI",
+        "offDays": [
+          {
+            "id": "mqrk57bwkclqd",
+            "name": "Grand Opening",
+            "allDay": true,
+            "startDate": "24-06-2026",
+            "startTime": "00:00",
+            "endDate": "30-06-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 1,
+        "multilangContent": {
+          "en": {
+            "id": 33,
+            "name": "Aeon Mall Da Nang Thanh Khe",
+            "address": "Level 4, Aeon Mall Da Nang Thanh Khe, 46 Dien Bien Phu Street, Thanh Khe Ward, Da Nang City",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0971809580",
+            "phone2": null
+          }
+        },
+        "createAt": 1781162549000,
+        "updateAt": 1784539830000
+      },
+      {
+        "id": 3,
+        "areaId": 1,
+        "image": {
+          "id": 58,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/somtumthai-prod/image/2022/8/30/8/GuK1661849511906.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/RmP8cnyRPT7cVkyUA",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.417449572002!2d106.70150771531526!3d10.77930499231956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f0dbd5d6e59%3A0x6c4968bc632ec09b!2zU29tIOC4leC4syBUaGFpIChTb20gVHVtIFRoYWkp!5e0!3m2!1svi!2s!4v1648118816937!5m2!1svi!2s",
+        "storeCode": null,
+        "offDays": [
+          {
+            "id": "mlkiquia389wb",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "17-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 2,
+        "multilangContent": {
+          "en": {
+            "id": 3,
+            "name": "Le Thanh Ton",
+            "address": "29 Le Thanh Ton Street, Sai Gon Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:30",
+            "lastOrder": "21:45",
+            "phone1": "028 3823 8588",
+            "phone2": "028 3828 2388"
+          }
+        },
+        "createAt": 1608013780000,
+        "updateAt": 1770964849000
+      },
+      {
+        "id": 14,
+        "areaId": 2,
+        "image": {
+          "id": 115,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/somtumthai-prod/image/2023/6/7/9/oDb1686130167855.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/4fjeVde5vC1qS2mv5",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.9236260880357!2d105.78284699999999!3d21.0357417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab4ab82e8a2d%3A0xe52fd6b755ba654c!2zMjQxIFh1w6JuIFRo4buneSwgROG7i2NoIFbhu41uZyBI4bqtdSwgQ-G6p3UgR2nhuqV5LCBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1686129215270!5m2!1svi!2s",
+        "storeCode": null,
+        "offDays": [
+          {
+            "id": "mlkiumzwejwx8",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "19-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 2,
+        "multilangContent": {
+          "en": {
+            "id": 14,
+            "name": "The Loop Ha Noi",
+            "address": "Level 1 (L1-114) The Loop IPH, 241 Xuan Thuy Street, Cau Giay Ward, Ha Noi",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "024 3312 0189",
+            "phone2": "024 3312 0089"
+          }
+        },
+        "createAt": 1686129329000,
+        "updateAt": 1770965039000
+      },
+      {
+        "id": 7,
+        "areaId": 1,
+        "image": {
+          "id": 26,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/somtumthai-prod/image/2022/6/17/7/pZZ1655450600081.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/8Bm6ujiWKqZrLyi7A",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.0700111713945!2d106.71668441531487!3d10.72908359235363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f385638d857%3A0xff488a01e9c92ee1!2sSom%20Tum%20Thai%20-%20Crescent%20Mall!5e0!3m2!1svi!2s!4v1653303970831!5m2!1svi!2s",
+        "storeCode": null,
+        "offDays": [
+          {
+            "id": "mlkipd0np6mc4",
+            "name": "Tết 2026",
+            "allDay": false,
+            "startDate": "16-02-2026",
+            "startTime": "18:01",
+            "endDate": "17-02-2026",
+            "endTime": "12:59"
+          }
+        ],
+        "order": 3,
+        "multilangContent": {
+          "en": {
+            "id": 7,
+            "name": "Crescent Mall",
+            "address": "Ground Floor (GF-01) Crescent Mall, 101 Ton Dat Tien Street, Tan My Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:30",
+            "lastOrder": "21:45",
+            "phone1": "028 35152288",
+            "phone2": "028 35152299"
+          }
+        },
+        "createAt": 1653304233000,
+        "updateAt": 1770964807000
+      },
+      {
+        "id": 8,
+        "areaId": 1,
+        "image": {
+          "id": 51,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/somtumthai-prod/image/2022/7/19/6/iO11658212624482.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/eoPg8rn1Rt1Sowio6",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.134040512632!2d106.68168691531537!3d10.801044392304838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528d09e017af9%3A0x52ce54d69860940!2zMTY3IFBoYW4gWMOtY2ggTG9uZywgUGjGsOG7nW5nIDIsIFBow7ogTmh14bqtbiwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1653304378621!5m2!1svi!2s",
+        "storeCode": null,
+        "offDays": [
+          {
+            "id": "mlkirhwpgcf7f",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "17-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 4,
+        "multilangContent": {
+          "en": {
+            "id": 8,
+            "name": "Phan Xich Long",
+            "address": "167 Phan Xich Long Street, Cau Kieu Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:30",
+            "lastOrder": "21:45",
+            "phone1": "028 3535 8733",
+            "phone2": "028 3535 8722"
+          }
+        },
+        "createAt": 1653304469000,
+        "updateAt": 1770964879000
+      },
+      {
+        "id": 16,
+        "areaId": 2,
+        "image": {
+          "id": 131,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/somtumthai-prod/image/2023/7/14/6/AUL1689315526875.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/zbiUAMS1Vw3kiGaj8",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.9088737813563!2d105.8117286!3d21.0763015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab2c07e705d5%3A0x9e56c6aa3a562882!2sSom%20Tum%20Thai%20-%20Lotte%20Mall%20West%20Lake!5e0!3m2!1svi!2s!4v1689310003794!5m2!1svi!2s",
+        "storeCode": null,
+        "offDays": [
+          {
+            "id": "mlkitnsrpzwyt",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "17-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 4,
+        "multilangContent": {
+          "en": {
+            "id": 16,
+            "name": "Lotte Mall West Lake",
+            "address": "Floor 3 (3F-322) Lotte Mall West Lake Hanoi, 272 Vo Chi Cong Street, Hong Ha Ward, Hanoi",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "024 3202 2916",
+            "phone2": "024 3202 2918"
+          }
+        },
+        "createAt": 1689315534000,
+        "updateAt": 1770964980000
+      },
+      {
+        "id": 9,
+        "areaId": 1,
+        "image": {
+          "id": 59,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/somtumthai-prod/image/2022/8/30/8/ooW1661849523923.jpeg"
+        },
+        "linkToShare": "https://www.google.com.vn/search?tbs=lf:1,lf_ui:4&tbm=lcl&sxsrf=ALiCzsabuC43acfx-XbpWE-Ug_PsHWtM1A:1661844024096&q=som+tum+thai+vincom&rflfq=1&num=10&rldimm=[object%20Object]&ved=2ahUKEwiFrum1g-75AhXTtlYBHd5wA8gQu9QIegQICRAK#rlfi=hd:;si:5169436772334422250,l,ChNzb20gdHVtIHRoYWkgdmluY29tIgOIAQFaFSITc29tIHR1bSB0aGFpIHZpbmNvbZIBCnJlc3RhdXJhbnQ;mv:[[10.790245852018405,106.71594831571346],[10.764866530183564,106.66530820951229],null,[10.777556458592496,106.69062826261288],15]",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125421.89380185041!2d106.56191441640622!3d10.778020200000022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f510dd5cb39%3A0x47bd875b07d5c8ea!2zU29tIFR1bSBUaGFpIC0gVmluY29tIMSQ4buTbmcgS2jhu59p!5e0!3m2!1svi!2s!4v1661844420709!5m2!1svi!2s",
+        "storeCode": null,
+        "offDays": [
+          {
+            "id": "mlkit8sqiok5g",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "19-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 5,
+        "multilangContent": {
+          "en": {
+            "id": 9,
+            "name": "Vincom Center Dong Khoi",
+            "address": "Basement B3 (B3-05) Vincom Center Dong Khoi, 72 Le Thanh Ton Street, Sai Gon Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "028 3620 1155",
+            "phone2": "028 3620 1100 "
+          }
+        },
+        "createAt": 1661737391000,
+        "updateAt": 1770964961000
+      },
+      {
+        "id": 18,
+        "areaId": 2,
+        "image": {
+          "id": 162,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/somtumthai-prod/image/2023/8/31/8/9vy1693472096102.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/LHbTmKQjCEkKYJ8d8",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.2350265271507!2d105.85550049999999!3d21.02328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abb3ac721fed%3A0xc060d4cfbaf4aaba!2sSom%20Tum%20Thai%20-%20Hai%20B%C3%A0%20Tr%C6%B0ng%20HN!5e0!3m2!1svi!2s!4v1693471795132!5m2!1svi!2s",
+        "storeCode": null,
+        "offDays": [
+          {
+            "id": "mlkitx5xc8lda",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "17-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 5,
+        "multilangContent": {
+          "en": {
+            "id": 18,
+            "name": "Hai Ba Trung Ha Noi ",
+            "address": "11B Hai Ba Trung Street, Hoan Kiem Ward, Hanoi. ",
+            "openAt": "10:30",
+            "closeAt": "22:30",
+            "lastOrder": "21:45",
+            "phone1": "024 3202 2609",
+            "phone2": "024 3202 2809"
+          }
+        },
+        "createAt": 1693471907000,
+        "updateAt": 1770965040000
+      },
+      {
+        "id": 26,
+        "areaId": 2,
+        "image": {
+          "id": 307,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/6/4/3/Dl41780543934488.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/CTZ21U9paFuy6bkh6",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.5839249779847!2d105.83085578119159!3d21.031680384993155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab8f22e35f8f%3A0xb28c1b39fb35ad7f!2sHanoi%20Centre!5e1!3m2!1svi!2s!4v1772615324215!5m2!1svi!2s",
+        "storeCode": "gQc36t5tLWDdeTMi",
+        "offDays": [
+          {
+            "id": "mpqod2y6yna4i",
+            "name": "Opening",
+            "allDay": true,
+            "startDate": "29-05-2026",
+            "startTime": "00:00",
+            "endDate": "05-06-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 5,
+        "multilangContent": {
+          "en": {
+            "id": 26,
+            "name": "Hanoi Centre",
+            "address": "L2-A02, Hanoi Centre, 175 Nguyen Thai Hoc, O Cho Dua Ward, Hanoi City",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0839632366",
+            "phone2": "0835833569"
+          }
+        },
+        "createAt": 1772615562000,
+        "updateAt": 1780543936000
+      },
+      {
+        "id": 13,
+        "areaId": 1,
+        "image": {
+          "id": 106,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/somtumthai-prod/image/2023/5/12/3/Gyn1683860886446.jpeg"
+        },
+        "linkToShare": "https://www.google.com/maps/place/Som+Tum+Thai+-+Nguy%E1%BB%85n+Tri+Ph%C6%B0%C6%A1ng/@10.7648781,106.667506,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fa826cd3847:0x9fd7cfe7fcd725a5!8m2!3d10.7648781!4d106.667506!16s%2Fg%2F11kk8z6gzm?hl=vi",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.605216518762!2d106.66750599999999!3d10.764878099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fa826cd3847%3A0x9fd7cfe7fcd725a5!2zU29tIFR1bSBUaGFpIC0gTmd1eeG7hW4gVHJpIFBoxrDGoW5n!5e0!3m2!1svi!2s!4v1683777879046!5m2!1svi!2s",
+        "storeCode": null,
+        "offDays": [
+          {
+            "id": "mlkira2wpebby",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "17-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 6,
+        "multilangContent": {
+          "en": {
+            "id": 13,
+            "name": "Nguyen Tri Phuong",
+            "address": "463A Nguyen Tri Phuong Street, Dien Hong Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:30",
+            "lastOrder": "21:45",
+            "phone1": "028 3856 5333",
+            "phone2": "028 3856 2999"
+          }
+        },
+        "createAt": 1683775188000,
+        "updateAt": 1770964879000
+      },
+      {
+        "id": 34,
+        "areaId": 2,
+        "image": {
+          "id": 322,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/8/28/9/TJD1787907829340.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/xUZxeVs82C4CPgMp8",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5130.2368794521935!2d105.8308186!3d21.031554299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abef7501b8e1%3A0x2d61d214422440e6!2sSom%20Tum%20Thai%20-%20Hanoi%20Centre!5e1!3m2!1svi!2s!4v1787025634646!5m2!1svi!2s",
+        "storeCode": "Mcdjqsk5GHsafnvo",
+        "offDays": [
+          {
+            "id": "mszl8m8vwl3xq",
+            "name": "Grand Opeing",
+            "allDay": true,
+            "startDate": "19-08-2026",
+            "startTime": "00:00",
+            "endDate": "27-08-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 6,
+        "multilangContent": {
+          "en": {
+            "id": 34,
+            "name": "Vincom Plaza Dan Phuong",
+            "address": "Level 3, Vincom Plaza Dan Phuong, O Dien, Hanoi City",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0833568891",
+            "phone2": "0833568895"
+          }
+        },
+        "createAt": 1787025653000,
+        "updateAt": 1787907832000
+      },
+      {
+        "id": 17,
+        "areaId": 1,
+        "image": {
+          "id": 149,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/somtumthai-prod/image/2023/7/29/4/VDo1690606225713.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/V6oJT6i8gRh885po7",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.715275962584!2d106.6625573!3d10.756412899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fa523681cb9%3A0x8c6e752b59fc75a0!2sSom%20Tum%20Thai%20-%20H%C3%B9ng%20V%C6%B0%C6%A1ng%20Plaza!5e0!3m2!1svi!2s!4v1692254725892!5m2!1svi!2s",
+        "storeCode": null,
+        "offDays": [
+          {
+            "id": "mlkipwllgrw9v",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "17-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 7,
+        "multilangContent": {
+          "en": {
+            "id": 17,
+            "name": "Hung Vuong Plaza ",
+            "address": "Floor 4 (4F-08) Hung Vuong Plaza, 126 Hong Bang Street, Cho Lon Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "028 3853 0077",
+            "phone2": "028 3853 0099"
+          }
+        },
+        "createAt": 1690606113000,
+        "updateAt": 1770964807000
+      },
+      {
+        "id": 36,
+        "areaId": 2,
+        "image": {
+          "id": 329,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/10/7/4/sdK1791348539305.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/78z4yTnqnAiCQLRh7",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5131.238727705661!2d105.81516309999999!3d21.002434899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad020f338fad%3A0xeefcd0684c701eea!2sSom%20Tum%20Thai%20-%20Vincom%20Mega%20Mall%20Royal%20City!5e1!3m2!1svi!2s!4v1790057332533!5m2!1svi!2s",
+        "storeCode": "sxVHnh6DEbppOjBt",
+        "offDays": [
+          {
+            "id": "muca0tfb0et3x",
+            "name": "Opening",
+            "allDay": true,
+            "isFull": false,
+            "startDate": "22-09-2026",
+            "startTime": "00:00",
+            "endDate": "24-09-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 7,
+        "multilangContent": {
+          "en": {
+            "id": 36,
+            "name": "Vincom Mega Mall Royal City",
+            "address": "Floor B2, Vincom Mega Mall Royal City, 72A Nguyen Trai Street, Thanh Xuan Ward, Hanoi City",
+            "openAt": "10:00",
+            "closeAt": "23:00",
+            "lastOrder": "22:30",
+            "phone1": "0823568955",
+            "phone2": "0823568922"
+          }
+        },
+        "createAt": 1790057519000,
+        "updateAt": 1791348540000
+      },
+      {
+        "id": 19,
+        "areaId": 1,
+        "image": {
+          "id": 199,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/somtumthai-prod/image/2024/8/20/10/n9x1724148290010.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/ARwfGj9xR8SBQpYL8",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.123778351053!2d106.73661077377528!3d10.801830758727185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527e06c8a646f%3A0xe435f636a72e7fae!2sSachi%20Garden!5e0!3m2!1sen!2s!4v1724148325729!5m2!1sen!2s",
+        "storeCode": "NVbCavKQqh91443W",
+        "offDays": [
+          {
+            "id": "mlkirs3maqgs7",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "17-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 8,
+        "multilangContent": {
+          "en": {
+            "id": 19,
+            "name": "Thao Dien",
+            "address": "Sachi Garden, 109 Vo Nguyen Giap Street, An Khanh Ward, HCMC.",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "028 3620 5639 ",
+            "phone2": "028 3620 5662"
+          }
+        },
+        "createAt": 1724148465000,
+        "updateAt": 1770964892000
+      },
+      {
+        "id": 21,
+        "areaId": 1,
+        "image": {
+          "id": 273,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2025/12/5/4/Q2O1764907755022.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/ojoNmm1kzvFrPUmH9",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3797539486745!2d106.7078404!3d10.782199000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f00053dd0e7%3A0xaf58e927803451d8!2sMarina%20Central!5e0!3m2!1svi!2s!4v1755763359446!5m2!1svi!2s",
+        "storeCode": "ur1wLSCqSuhWPM0k",
+        "offDays": [
+          {
+            "id": "mlkiqdobqux3z",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "17-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 9,
+        "multilangContent": {
+          "en": {
+            "id": 21,
+            "name": "Saigon Marina IFC",
+            "address": "Level 3 - Saigon Marina IFC, 02 Ton Duc Thang Street, Sai Gon Ward, HCMC",
+            "openAt": "10:00",
+            "closeAt": "23:00",
+            "lastOrder": "22:30",
+            "phone1": "02838838836",
+            "phone2": "02838838835"
+          }
+        },
+        "createAt": 1755763632000,
+        "updateAt": 1770964828000
+      },
+      {
+        "id": 23,
+        "areaId": 1,
+        "image": {
+          "id": 266,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2025/10/20/8/RBx1760948565100.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/QqtjZc83iJr72WES7",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.7656027431703!2d106.6726643!3d10.829241599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529a7f96d7295%3A0xaeded59535d18f5d!2sVincom%20Plaza%20Quang%20Trung!5e0!3m2!1svi!2s!4v1759979376517!5m2!1svi!2s",
+        "storeCode": "HWtwKDgtztg3dnHS",
+        "offDays": [
+          {
+            "id": "mlkisg92splcn",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "19-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 10,
+        "multilangContent": {
+          "en": {
+            "id": 23,
+            "name": "Vincom Plaza Quang Trung",
+            "address": "Level 2 (L2-10), Vincom Plaza Quang Trung, 190 Quang Trung, Go Vap Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0823893566",
+            "phone2": "0822893566"
+          }
+        },
+        "createAt": 1759979402000,
+        "updateAt": 1770964938000
+      },
+      {
+        "id": 24,
+        "areaId": 1,
+        "image": {
+          "id": 272,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2025/11/30/5/iJS1764479147468.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/GiBtznuvHYDQcXRCA",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.5815349611335!2d106.84251049999999!3d10.843301499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317521b596f21bef%3A0xacbd91fbe3a2dc16!2sVincom%20Mega%20Mall%20Grand%20Park!5e0!3m2!1svi!2s!4v1761881972623!5m2!1svi!2s",
+        "storeCode": "pypVwcgBsBYRXQr9",
+        "offDays": [
+          {
+            "id": "mlkisr8j0jbn5",
+            "name": "Tết 2026",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "19-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 11,
+        "multilangContent": {
+          "en": {
+            "id": 24,
+            "name": "Vincom Mega Mall Grand Park",
+            "address": "Level 1, Vincom Mega Mall Grand Park, 88 Phuoc Thien Street, Long Binh Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0826583699",
+            "phone2": "0826593699"
+          }
+        },
+        "createAt": 1761881997000,
+        "updateAt": 1770964938000
+      },
+      {
+        "id": 28,
+        "areaId": 1,
+        "image": {
+          "id": 303,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/4/29/7/V1b1777448787113.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/q6iXomaBCK9xCWpG9",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3098.2765691814966!2d106.7032856!3d10.7298577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f968de17b09%3A0x3291634aca6edb6e!2zU0MgVml2byBDaXR5LCAxMDU4IMSQxrDhu51uZyBOZ3V54buFbiBWxINuIExpbmgsIFTDom4gUGhvbmcsIFF14bqtbiA3LCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e1!3m2!1svi!2s!4v1773735797575!5m2!1svi!2s",
+        "storeCode": "3TkbEqRMqHAHD5H8",
+        "offDays": [
+          {
+            "id": "mob3nt99au3ps",
+            "name": "Opening",
+            "allDay": true,
+            "startDate": "23-04-2026",
+            "startTime": "00:00",
+            "endDate": "28-04-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 12,
+        "multilangContent": {
+          "en": {
+            "id": 28,
+            "name": "SC VivoCity",
+            "address": "1058 Nguyen Van Linh Street, Tan Hung Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0971809580",
+            "phone2": null
+          }
+        },
+        "createAt": 1773735907000,
+        "updateAt": 1777448794000
+      },
+      {
+        "id": 30,
+        "areaId": 1,
+        "image": {
+          "id": 306,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/6/4/3/WyC1780543830645.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/TZr5gsbUD6Ft76mP8",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5394.129190941281!2d106.68058669999999!3d11.0695467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174cf9ba2ae1459%3A0xcf25581a576e06b6!2sSom%20%E0%B8%95%E0%B8%B3%20Thai%20-%20Midori%20Park%20Square!5e1!3m2!1svi!2s!4v1778572850152!5m2!1svi!2s",
+        "storeCode": "LvVxtek2y79oKZ5j",
+        "offDays": [
+          {
+            "id": "mpqoapp9c5hxb",
+            "name": "Opening",
+            "allDay": true,
+            "startDate": "29-05-2026",
+            "startTime": "00:00",
+            "endDate": "04-06-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 14,
+        "multilangContent": {
+          "en": {
+            "id": 30,
+            "name": "Midori Park Square",
+            "address": "Block B1 - H8, MIDORI PARK SQUARE, Ly Thai To & Bui Thi Xuan Street, Binh Duong Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0825933569",
+            "phone2": "0825933569"
+          }
+        },
+        "createAt": 1778572877000,
+        "updateAt": 1780543834000
+      },
+      {
+        "id": 32,
+        "areaId": 1,
+        "image": {
+          "id": 315,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/7/7/3/6i31783393676701.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/5KhE94ASRdLa6Hks5",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5398.546169421052!2d106.6892817!3d10.8271138!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529da1a9ee607%3A0xe855562ba0dedf38!2zU29tIOC4leC4syBUaGFpIC0gVmluY29tIFBsYXphIFBoYW4gVsSDbiBUcuG7iw!5e1!3m2!1svi!2s!4v1781494371006!5m2!1svi!2s",
+        "storeCode": "5tB7vONUfGT6i5tV",
+        "offDays": [
+          {
+            "id": "mr0h3ge05o71t",
+            "name": "Grand Opening",
+            "allDay": true,
+            "startDate": "30-06-2026",
+            "startTime": "00:00",
+            "endDate": "06-07-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 15,
+        "multilangContent": {
+          "en": {
+            "id": 32,
+            "name": "Vincom Plaza Phan Van Tri",
+            "address": "Level 3, Vincom Plaza Phan Van Tri, 12 Phan Van Tri Street, Hanh Thong Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0838683569",
+            "phone2": null
+          }
+        },
+        "createAt": 1781160552000,
+        "updateAt": 1783393683000
+      },
+      {
+        "id": 37,
+        "areaId": 1,
+        "image": {
+          "id": 327,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/somtumthai-prod/image/2026/10/1/6/Z5q1790837370926.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/W9E4kRHdpGHoFyi36",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5399.117408625045!2d106.7217835!3d10.7953677!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529623976b70d%3A0xa6e5b3429fe7c208!2sSom%20Tum%20Thai%20-%20Vincom%20Center%20Landmark81!5e1!3m2!1svi!2s!4v1790058888768!5m2!1svi!2s",
+        "storeCode": "JYtqINYAzdI63Lh2",
+        "offDays": [
+          {
+            "id": "mucavkq33qc07",
+            "name": "Opening",
+            "allDay": true,
+            "isFull": false,
+            "startDate": "22-09-2026",
+            "startTime": "00:00",
+            "endDate": "28-09-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 15,
+        "multilangContent": {
+          "en": {
+            "id": 37,
+            "name": "Vincom Center Landmark 81",
+            "address": "Floor B1, Vincom Center Landmark 81, 772 Dien Bien Phu Street, Thanh My Tay Ward, Ho Chi Minh City",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0839853699",
+            "phone2": "0839803699"
+          }
+        },
+        "createAt": 1790058953000,
+        "updateAt": 1790837372000
+      }
+    ],
+    "currentDomain": "somtumthai.com.vn",
+    "currentPath": "/en/",
+    "mutations": {},
+    "getters": {},
+    "i18n": {
+      "routeParams": {}
+    }
+  },
+  "serverRendered": true,
+  "routePath": "/en/",
+  "config": {
+    "_app": {
+      "basePath": "/",
+      "assetsPath": "/_nuxt/",
+      "cdnURL": null
+    }
+  }
+}

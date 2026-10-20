@@ -1,0 +1,1117 @@
+{
+  "decisions": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-kingbbq",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"King BBQ\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-05.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"King BBQ\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-05.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"King BBQ\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-2.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "browser-remaining.json",
+          "url": "https://kingbbq.vn/lien-he/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "After official city selection locator resolves36rows, including exact King BBQ Buffet Vincom Center Dong Khoi72LeThanhTon/45ALyTuTrong and02873081779. Source writes floorLau3; floor/geometry not changed, telephone binding is exact named branch."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/king-bbq-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "phone",
+      "reason": "After official city selection locator resolves36rows, including exact King BBQ Buffet Vincom Center Dong Khoi72LeThanhTon/45ALyTuTrong and02873081779. Source writes floorLau3; floor/geometry not changed, telephone binding is exact named branch.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "An explicitly published branch phone or clearly scoped general brand contact; never another branch.",
+      "proposedField": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://kingbbq.vn/lien-he/",
+        "evidence": "After official city selection locator resolves36rows, including exact King BBQ Buffet Vincom Center Dong Khoi72LeThanhTon/45ALyTuTrong and02873081779. Source writes floorLau3; floor/geometry not changed, telephone binding is exact named branch.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "02873081779",
+          "en": "02873081779"
+        },
+        "branchMallId": "vincom-dong-khoi",
+        "uncertainty": {
+          "vi": "Thông tin từ nguồn chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information from the checked official source; confirm current details before visiting."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-kingbbq",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"King BBQ\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-05.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"King BBQ\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-05.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"King BBQ\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-2.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "browser-final-sources.json",
+          "url": "https://kingbbq.vn/thuc-don-mien-nam/menu-mix-dong-khoi/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official selector has distinct King BBQ Vincom Dong Khoi option pointing to this20page gallery. Browser200 and downloaded pages3/6 visually show actual beef/salmon/pork dishes; not the separate VincomB ALC option."
+        },
+        {
+          "evidenceFile": "king-menu.json",
+          "url": "https://kingbbq.vn/thuc-don-mien-nam/menu-mix-dong-khoi/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official selector has distinct King BBQ Vincom Dong Khoi option pointing to this20page gallery. Browser200 and downloaded pages3/6 visually show actual beef/salmon/pork dishes; not the separate VincomB ALC option."
+        },
+        {
+          "evidenceFile": "king-menu-3.jpg",
+          "url": "https://kingbbq.vn/thuc-don-mien-nam/menu-mix-dong-khoi/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official selector has distinct King BBQ Vincom Dong Khoi option pointing to this20page gallery. Browser200 and downloaded pages3/6 visually show actual beef/salmon/pork dishes; not the separate VincomB ALC option."
+        },
+        {
+          "evidenceFile": "king-menu-6.jpg",
+          "url": "https://kingbbq.vn/thuc-don-mien-nam/menu-mix-dong-khoi/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official selector has distinct King BBQ Vincom Dong Khoi option pointing to this20page gallery. Browser200 and downloaded pages3/6 visually show actual beef/salmon/pork dishes; not the separate VincomB ALC option."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/king-bbq-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "menu",
+      "reason": "Official selector has distinct King BBQ Vincom Dong Khoi option pointing to this20page gallery. Browser200 and downloaded pages3/6 visually show actual beef/salmon/pork dishes; not the separate VincomB ALC option.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Actual menu/product content or actual menu asset, with market/branch scope.",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://kingbbq.vn/thuc-don-mien-nam/menu-mix-dong-khoi/",
+        "evidence": "Official selector has distinct King BBQ Vincom Dong Khoi option pointing to this20page gallery. Browser200 and downloaded pages3/6 visually show actual beef/salmon/pork dishes; not the separate VincomB ALC option.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://kingbbq.vn/thuc-don-mien-nam/menu-mix-dong-khoi/",
+        "branchMallId": "vincom-dong-khoi",
+        "uncertainty": {
+          "vi": "Thông tin từ nguồn chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information from the checked official source; confirm current details before visiting."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-kingbbq",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"King BBQ\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-05.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"King BBQ\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-05.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"King BBQ\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-2.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "king-menu.json",
+          "url": "https://kingbbq.vn/thuc-don-mien-nam/menu-mix-dong-khoi/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Exact official Dong Khoi menu pages3/6 visually verified beef,ribs,porkcollar,porkbelly and cheese-wrapped pork offerings. No prices copied."
+        },
+        {
+          "evidenceFile": "king-menu-3.jpg",
+          "url": "https://kingbbq.vn/thuc-don-mien-nam/menu-mix-dong-khoi/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Exact official Dong Khoi menu pages3/6 visually verified beef,ribs,porkcollar,porkbelly and cheese-wrapped pork offerings. No prices copied."
+        },
+        {
+          "evidenceFile": "king-menu-6.jpg",
+          "url": "https://kingbbq.vn/thuc-don-mien-nam/menu-mix-dong-khoi/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Exact official Dong Khoi menu pages3/6 visually verified beef,ribs,porkcollar,porkbelly and cheese-wrapped pork offerings. No prices copied."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/king-bbq-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Exact official Dong Khoi menu pages3/6 visually verified beef,ribs,porkcollar,porkbelly and cheese-wrapped pork offerings. No prices copied.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://kingbbq.vn/thuc-don-mien-nam/menu-mix-dong-khoi/",
+        "evidence": "Exact official Dong Khoi menu pages3/6 visually verified beef,ribs,porkcollar,porkbelly and cheese-wrapped pork offerings. No prices copied.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "Thịt bò, dẻ sườn, nạc dăm heo, ba chỉ heo và ba chỉ cuộn phô mai theo thực đơn nướng.",
+          "en": "Beef, ribs, pork collar, pork belly and pork belly with cheese from the barbecue menu."
+        },
+        "branchMallId": "vincom-dong-khoi",
+        "uncertainty": {
+          "vi": "Thông tin từ nguồn chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information from the checked official source; confirm current details before visiting."
+        }
+      },
+      "fieldRequirement": "Specific actual offerings/products; no invented amenities."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-kichikichi",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Kichi Kichi\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-13.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Kichi Kichi\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-13.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Kichi Kichi\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-4.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "browser-menu-last.json",
+          "url": "https://kichi.com.vn/thuc-don",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official HCM selection and normal scrolling resolves3actual menu images. Downloaded HCM image2 visually verified beef cuts, seafood, cheese tofu and handmade items; no prices copied."
+        },
+        {
+          "evidenceFile": "kichi-menu.png",
+          "url": "https://kichi.com.vn/thuc-don",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official HCM selection and normal scrolling resolves3actual menu images. Downloaded HCM image2 visually verified beef cuts, seafood, cheese tofu and handmade items; no prices copied."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/kichi-kichi-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "menu",
+      "reason": "Official HCM selection and normal scrolling resolves3actual menu images. Downloaded HCM image2 visually verified beef cuts, seafood, cheese tofu and handmade items; no prices copied.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Actual menu/product content or actual menu asset, with market/branch scope.",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://kichi.com.vn/thuc-don",
+        "evidence": "Official HCM selection and normal scrolling resolves3actual menu images. Downloaded HCM image2 visually verified beef cuts, seafood, cheese tofu and handmade items; no prices copied.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://kichi.com.vn/thuc-don",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; xác nhận thực đơn, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand-wide information; confirm the branch menu, products and current details."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-kichikichi",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Kichi Kichi\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-13.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Kichi Kichi\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-13.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Kichi Kichi\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-4.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "browser-menu-last.json",
+          "url": "https://kichi.com.vn/thuc-don",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Actual HCM menu image2 visually lists American beef belly, Australian beef cuts, squid/shrimp/salmon and cheese tofu. Product options vary by buffet, no prices/tier promises copied."
+        },
+        {
+          "evidenceFile": "kichi-menu.png",
+          "url": "https://kichi.com.vn/thuc-don",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Actual HCM menu image2 visually lists American beef belly, Australian beef cuts, squid/shrimp/salmon and cheese tofu. Product options vary by buffet, no prices/tier promises copied."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/kichi-kichi-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Actual HCM menu image2 visually lists American beef belly, Australian beef cuts, squid/shrimp/salmon and cheese tofu. Product options vary by buffet, no prices/tier promises copied.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://kichi.com.vn/thuc-don",
+        "evidence": "Actual HCM menu image2 visually lists American beef belly, Australian beef cuts, squid/shrimp/salmon and cheese tofu. Product options vary by buffet, no prices/tier promises copied.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "Buffet lẩu băng chuyền với các lựa chọn thịt bò, hải sản và đậu hũ phô mai theo thực đơn.",
+          "en": "Conveyor hotpot buffet with beef, seafood and cheese-tofu options from the menu."
+        },
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; xác nhận thực đơn, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand-wide information; confirm the branch menu, products and current details."
+        }
+      },
+      "fieldRequirement": "Specific actual offerings/products; no invented amenities."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-longwang",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Long Wang\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-21.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Long Wang\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-21.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Long Wang\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-6.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "browser-remaining.json",
+          "url": "https://longwang.vn/en/stores/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official Book A Table action opens embedded Aladdin reservation form: name,phone,email,area,restaurant,date,time,party,message and request button. Restaurant field remains chooser; brand-wide form only, confirm branch. No submission."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/long-wang-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "booking",
+      "reason": "Official Book A Table action opens embedded Aladdin reservation form: name,phone,email,area,restaurant,date,time,party,message and request button. Restaurant field remains chooser; brand-wide form only, confirm branch. No submission.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Actual reservation form/action/policy, not contact form or food delivery.",
+      "proposedField": {
+        "field": "booking",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://longwang.vn/en/stores/",
+        "evidence": "Official Book A Table action opens embedded Aladdin reservation form: name,phone,email,area,restaurant,date,time,party,message and request button. Restaurant field remains chooser; brand-wide form only, confirm branch. No submission.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://longwang.vn/en/stores/",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; xác nhận thực đơn, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand-wide information; confirm the branch menu, products and current details."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-runamboutique",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Runam Boutique\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-25.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Runam Boutique\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-25.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Runam Boutique\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-7.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "browser-menu-last.json",
+          "url": "https://caferunam.com/vi/menu/runam-vietnam-menu-sang",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "After normal scrolling official Vietnam morning menu renders actual named dishes and drinks: soft-shell crab banhcanh,wonton noodles,rice dishes,desserts,eggcoffee. No prices copied."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/runam-boutique-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "menu",
+      "reason": "After normal scrolling official Vietnam morning menu renders actual named dishes and drinks: soft-shell crab banhcanh,wonton noodles,rice dishes,desserts,eggcoffee. No prices copied.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "fieldRequirement": "Actual menu/product content or actual menu asset, with market/branch scope.",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://caferunam.com/vi/menu/runam-vietnam-menu-sang",
+        "evidence": "After normal scrolling official Vietnam morning menu renders actual named dishes and drinks: soft-shell crab banhcanh,wonton noodles,rice dishes,desserts,eggcoffee. No prices copied.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://caferunam.com/vi/menu/runam-vietnam-menu-sang",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; xác nhận thực đơn, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand-wide information; confirm the branch menu, products and current details."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-gogihouse",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Gogi House\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-01.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Gogi House\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-01.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Gogi House\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "source-goldengate-booking-platform.txt",
+          "url": "https://datban.ggg.com.vn/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted."
+        },
+        {
+          "evidenceFile": "goldengate-booking-followup.json",
+          "url": "https://datban.ggg.com.vn/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted."
+        },
+        {
+          "evidenceFile": "browser-goldengate-hcm.json",
+          "url": "https://datban.ggg.com.vn/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted."
+        },
+        {
+          "evidenceFile": "browser-final-sources.json",
+          "url": "https://datban.ggg.com.vn/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/gogi-house-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "booking",
+      "reason": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "booking",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://datban.ggg.com.vn/",
+        "evidence": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://datban.ggg.com.vn/",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; xác nhận thực đơn, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand-wide information; confirm the branch menu, products and current details."
+        }
+      },
+      "fieldRequirement": "Actual reservation form/action/policy, not contact form or food delivery."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-manwah",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Manwah\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-10.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Manwah\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-10.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Manwah\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-3.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "source-goldengate-booking-platform.txt",
+          "url": "https://datban.ggg.com.vn/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted."
+        },
+        {
+          "evidenceFile": "goldengate-booking-followup.json",
+          "url": "https://datban.ggg.com.vn/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted."
+        },
+        {
+          "evidenceFile": "browser-goldengate-hcm.json",
+          "url": "https://datban.ggg.com.vn/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted."
+        },
+        {
+          "evidenceFile": "browser-final-sources.json",
+          "url": "https://datban.ggg.com.vn/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted."
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "booking",
+      "reason": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "booking",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://datban.ggg.com.vn/",
+        "evidence": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://datban.ggg.com.vn/",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; xác nhận thực đơn, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand-wide information; confirm the branch menu, products and current details."
+        }
+      },
+      "fieldRequirement": "Actual reservation form/action/policy, not contact form or food delivery."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-kichikichi",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Kichi Kichi\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-13.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Kichi Kichi\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-13.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Kichi Kichi\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-4.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "source-goldengate-booking-platform.txt",
+          "url": "https://datban.ggg.com.vn/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted."
+        },
+        {
+          "evidenceFile": "goldengate-booking-followup.json",
+          "url": "https://datban.ggg.com.vn/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted."
+        },
+        {
+          "evidenceFile": "browser-goldengate-hcm.json",
+          "url": "https://datban.ggg.com.vn/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted."
+        },
+        {
+          "evidenceFile": "browser-final-sources.json",
+          "url": "https://datban.ggg.com.vn/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/kichi-kichi-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "booking",
+      "reason": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "booking",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://datban.ggg.com.vn/",
+        "evidence": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://datban.ggg.com.vn/",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; xác nhận thực đơn, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand-wide information; confirm the branch menu, products and current details."
+        }
+      },
+      "fieldRequirement": "Actual reservation form/action/policy, not contact form or food delivery."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-isushi",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"iSushi\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-17.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"iSushi\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-17.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"iSushi\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-5.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "source-goldengate-booking-platform.txt",
+          "url": "https://datban.ggg.com.vn/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted."
+        },
+        {
+          "evidenceFile": "goldengate-booking-followup.json",
+          "url": "https://datban.ggg.com.vn/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted."
+        },
+        {
+          "evidenceFile": "browser-goldengate-hcm.json",
+          "url": "https://datban.ggg.com.vn/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted."
+        },
+        {
+          "evidenceFile": "browser-final-sources.json",
+          "url": "https://datban.ggg.com.vn/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/isushi-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "booking",
+      "reason": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "booking",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://datban.ggg.com.vn/",
+        "evidence": "Official Golden Gate brand pages link this actual operator reservation platform. Direct retrieval confirms brand/restaurant,party,date/time chooser and customer form with contact fields and reservation policies. Exact branch locator buttons unexpectedly open Google Maps, which is not promoted as booking. This is operator-wide chooser only; select and confirm correct brand/branch and available slot. No reservation submitted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://datban.ggg.com.vn/",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; xác nhận thực đơn, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand-wide information; confirm the branch menu, products and current details."
+        }
+      },
+      "fieldRequirement": "Actual reservation form/action/policy, not contact form or food delivery."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-hokkaidosachi",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Hokkaido Sachi\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-05.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Hokkaido Sachi\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-05.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Hokkaido Sachi\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-2.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "source-sachi.txt",
+          "url": "https://sushihokkaidosachi.com.vn/en/menu/",
+          "section": "Exact official branch/menu/action evidence",
+          "result": "retrieved and source-checked",
+          "support": "Actual official menu explicitly lists chutoro sashimi,ikura,komochi nishin sashimi,tai aranabe and other named dishes."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/hokkaido-sachi-vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Actual official menu explicitly lists chutoro sashimi,ikura,komochi nishin sashimi,tai aranabe and other named dishes.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://sushihokkaidosachi.com.vn/en/menu/",
+        "evidence": "Actual official menu explicitly lists chutoro sashimi,ikura,komochi nishin sashimi,tai aranabe and other named dishes.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "Sashimi cá ngừ, cá trích ép trứng, trứng cá hồi và các món Nhật theo thực đơn thương hiệu.",
+          "en": "Tuna sashimi, herring roe sashimi, salmon roe and Japanese dishes from the brand menu."
+        },
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; xác nhận thực đơn, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand-wide information; confirm the branch menu, products and current details."
+        }
+      },
+      "fieldRequirement": "Specific actual offerings/products; no invented amenities."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-kingbbq",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"King BBQ\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-05.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"King BBQ\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-05.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"King BBQ\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-2.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://kingbbq.vn/thuc-don-mien-nam/",
+          "evidenceFile": "source-kingbbq.txt",
+          "reference": "turn329view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Thực đơn miền Nam | KingBBQ (https://kingbbq.vn/thuc-don-mien-nam/)\nciteturn329view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"ht"
+        },
+        {
+          "url": "https://goldsunfood.vn/datban/dat-ban-tai-website/kingbbq",
+          "evidenceFile": "source-kingbbq.txt",
+          "reference": "turn329view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Đặt bàn | King BBQ (https://goldsunfood.vn/datban/dat-ban-tai-website/kingbbq)\nciteturn329view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\""
+        },
+        {
+          "url": "https://kingbbq.vn/",
+          "evidenceFile": "source-extra-known.txt",
+          "reference": "turn652view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "KING BBQ – Vua Nướng Hàn Quốc (https://kingbbq.vn/)\nciteturn652view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://kingbbq.vn"
+        },
+        {
+          "url": "https://dining-innovation.com.sg/yakinikulike/",
+          "evidenceFile": "source-extra-known.txt",
+          "reference": "turn652view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "YAKINIKU LIKE | DINING INNOVATION Asia-Pacific PTE LTD (https://dining-innovation.com.sg/yakinikulike/)\nciteturn652view1 [wordlim: 200] Crawled: 3 weeks ago; Content t"
+        },
+        {
+          "url": "https://sushihokkaidosachi.com.vn/en/reservation/",
+          "evidenceFile": "source-closing-paths.txt",
+          "reference": "turn680view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Sushi Hokkaido Sachi | Nhà hàng Nhật Bản số 1 Việt Nam (https://sushihokkaidosachi.com.vn/en/reservation/)\nciteturn680view0 [wordlim: 200] Crawled: today; Content type"
+        },
+        {
+          "url": "https://www.old.langfarm.com/buffet-vn/menu",
+          "evidenceFile": "source-closing-paths.txt",
+          "reference": "turn680view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Menu - L'angfarm Buffet — Langfarm - Đặc Sản Chất Lượng (https://www.old.langfarm.com/buffet-vn/menu)\nciteturn680view1 [wordlim: 200] Crawled: today; Content type: tex"
+        },
+        {
+          "url": "https://kingbbq.vn/lien-he/",
+          "evidenceFile": "source-closing-paths.txt",
+          "reference": "turn680view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "KING BBQ (https://kingbbq.vn/lien-he/)\nciteturn680view2 [wordlim: 200] Crawled: 3 weeks ago; Content type: text/html; Source: open({\"ref_id\":\"https://kingbbq.vn/lien-h"
+        },
+        {
+          "url": "https://caferunam.com/vi/",
+          "evidenceFile": "source-closing-paths.txt",
+          "reference": "turn680view3",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Cảm Hứng Bất Tận Lời Ru Nước Nam - Café RuNam (https://caferunam.com/vi/)\nciteturn680view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_i"
+        },
+        {
+          "url": "https://caferunam.com/vi/menu/runam-vietnam-menu-sang",
+          "evidenceFile": "source-closing-menu-booking.txt",
+          "reference": "turn682view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "caferunam.com (https://caferunam.com/vi/menu/runam-vietnam-menu-sang)\nciteturn682view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":"
+        },
+        {
+          "url": "https://booking.goldsunfood.vn/?brand=King+BBQ",
+          "evidenceFile": "source-closing-menu-booking.txt",
+          "reference": "turn682view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Goldsun Food Booking (https://booking.goldsunfood.vn/?brand=King+BBQ)\nciteturn682view1 [wordlim: 200] Crawled: last month; Content type: text/html; Source: click({\"ref"
+        },
+        {
+          "evidenceFile": "browser-final-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained"
+        },
+        {
+          "url": "https://kingbbq.vn/lien-he/",
+          "evidenceFile": "browser-remaining.json",
+          "section": "Exact DongKhoi branch row and complete36row locator",
+          "result": "retrieved",
+          "support": "Branch address/phone present; hours absent."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/king-bbq-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "hours",
+      "reason": "Official locator successfully loaded36rows and exact DongKhoi contact, but publishes no operating-hours block. Official home, southern menu selector and actual DongKhoi menu gallery were additionally checked, plus exact branch-hours search. No verified official branch schedule found in these checked sources; third-party opening times and mall hours excluded.",
+      "remainingAction": null,
+      "outcome": "unavailable-after-research",
+      "fieldRequirement": "Exact branch schedule, distinguishing hotline hours and mall opening times.",
+      "boundedScope": "Only listed official locator/home/menu and targeted exact branch-hours search, not global absence."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-highlandscoffee",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Highlands Coffee\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-04.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Highlands Coffee\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-04.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Highlands Coffee\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "browser-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained"
+        },
+        {
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/brand1.txt",
+          "url": "https://www.highlandscoffee.com.vn/",
+          "section": "Homepage delivery hotline/order link",
+          "result": "reused official r2 retrieval",
+          "support": "Actual homepage19001755 ordering hotline and ordering channel."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/highlands-coffee-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "menu",
+          "sourceUrl": "https://www.highlandscoffee.com.vn/vn/san-pham.html",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "phone",
+      "reason": "Official brand homepage title explicitly advertises delivery hotline19001755. Brand-wide ordering hotline, not branch phone.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.highlandscoffee.com.vn/",
+        "evidence": "Official brand homepage title explicitly advertises delivery hotline19001755. Brand-wide ordering hotline, not branch phone.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; xác nhận thực đơn, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand-wide information; confirm the branch menu, products and current details."
+        },
+        "value": {
+          "vi": "19001755",
+          "en": "19001755"
+        }
+      },
+      "fieldRequirement": "An explicitly published branch phone or clearly scoped general brand contact; never another branch."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-highlandscoffee",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Highlands Coffee\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-04.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Highlands Coffee\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-04.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Highlands Coffee\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "browser-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained"
+        },
+        {
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/brand1.txt",
+          "url": "https://www.highlandscoffee.com.vn/",
+          "section": "Homepage delivery hotline/order link",
+          "result": "reused official r2 retrieval",
+          "support": "Actual homepage19001755 ordering hotline and ordering channel."
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/highlands-coffee-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "menu",
+          "sourceUrl": "https://www.highlandscoffee.com.vn/vn/san-pham.html",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Verified official ordering hotline and ordering channel, normalized bilingual value.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.highlandscoffee.com.vn/",
+        "evidence": "Verified official ordering hotline and ordering channel, normalized bilingual value.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; xác nhận thực đơn, sản phẩm và thông tin hiện tại tại chi nhánh.",
+          "en": "Brand-wide information; confirm the branch menu, products and current details."
+        },
+        "value": {
+          "vi": "Đặt món qua kênh giao hàng Highlands; xác nhận địa chỉ và phạm vi giao hàng.",
+          "en": "Order through Highlands’ delivery channel; confirm address and delivery coverage."
+        }
+      },
+      "fieldRequirement": "Specific actual offerings/products; no invented amenities."
+    }
+  ],
+  "supersedes": "Matching keys only; final accessible browser follow-through."
+}

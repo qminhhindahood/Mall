@@ -1,0 +1,432 @@
+[
+  {
+    "brand": "asanoha",
+    "hits": [
+      {
+        "url": "https://asanoha.com.vn/_nuxt/cc9a14e60cecc2b06a3a.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://asanoha.com.vn/_nuxt/61976b5dd5155ddefc5b.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://asanoha.com.vn/_nuxt/d9f79b987a111d32315d.js",
+        "status": 200,
+        "matches": [
+          "w,h,j,y;return regeneratorRuntime.wrap((function(e){for(;;)switch(e.prev=e.next){case 0:return n=t.app,r=t.store,e.next=3,Promise.all([n.$axios.$get(\"/api/v2/surface/page/home?lang=\".concat(n.i18n.locale))]);case 3:return l=e.sent,d=Object(c.a)(l,1),f=(f=d[0]).result,m=JSON.parse(f.commonContent),v=Object.entries(m.widgets).filter((function(t){var e=Obj",
+          "ect(c.a)(t,2),n=(e[0],e[1]);return\"object\"===Object(o.a)(n)?n.enable:n})),e.next=11,Promise.all([n.$axios.$get(\"/api/v2/surface/widget?lang=\".concat(n.i18n.locale),{params:{names:v.map((function(t){var e=Object(c.a)(t,2),n=e[0];e[1];return n})).join(\",\")}}),n.$axios.$get(\"/api/v2/surface/location_area?lang=\".concat(",
+          "n.i18n.locale)),n.$axios.$get(\"/api/v2/surface/location?lang=\".concat(n.i18n.locale))]);case 11:return O=e.sent,w=Object(c.a)(O,3),h=w[0],j=w[1],y=w[2],h&&(h=h.result.map((function(t){return L(L({},t),{},{commonContent:JSON.parse(t.comm"
+        ]
+      },
+      {
+        "url": "https://asanoha.com.vn/_nuxt/56f7f84e649109b9c197.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://asanoha.com.vn/_nuxt/d6f6c311fb1c34dce7b9.js",
+        "status": 200,
+        "matches": [
+          "roup,table,thead,tbody,td,th,tr,button,datalist,fieldset,form,input,label,legend,meter,optgroup,option,output,progress,select,textarea,details,dialog,menu,menuitem,summary,content,element,shadow,template,blockquote,iframe,tfoot\"),Wo=k(\"svg,animate,circle,clippath,cursor,defs,desc,ellipse,filter,font-face,foreignobject,g,glyph,image,line,marker,mask,mis",
+          "HttpRequest;if(t.auth){var w=t.auth.username||\"\",x=unescape(encodeURIComponent(t.auth.password))||\"\";m.Authorization=\"Basic \"+btoa(w+\":\"+x)}var O=l(t.baseURL,t.url);if(_.open(t.method.toUpperCase(),f(O,t.params,t.paramsSerializer),!0),_.timeout=t.timeout,_.onreadystatechange=function(){if(_&&4===_.readyState&&(0!==_.status||_.responseURL&&0===_.responseUR",
+          "function(t,e,n){\"use strict\";var r=n(24);t.exports=function(t,e){e=e||{};var n={},o=[\"url\",\"method\",\"data\"],c=[\"headers\",\"auth\",\"proxy\",\"params\"],f=[\"baseURL\",\"transformRequest\",\"transformResponse\",\"paramsSerializer\",\"timeout\",\"timeoutMessage\",\"withCredentials\",\"adapter\",\"responseType\",\"xsrfCookieName\",\"xsrfHeaderName\",\"onUploadProgress\",\"onDownloadProgre"
+        ]
+      },
+      {
+        "url": "https://asanoha.com.vn/_nuxt/a189c9894a71087407ee.js",
+        "status": 200,
+        "matches": [
+          "yt(d),c=Et(v.appendChild(d),\"script\"),h&&kt(c),n)for($=0;d=c[$++];)St.test(d.type||\"\")&&n.push(d);return v}var Dt=/^key/,Nt=/^(?:mouse|pointer|contextmenu|drag|drop)|click/,Pt=/^([^.]*)(?:\\.(.+)|)/;function It(){return!0}function Mt(){return!1}function Lt(t,e){return t===function(){try{return S.activeElement}catch(t){}}()==(\"focus\"===e)}function Rt(t,e",
+          " resize scroll click dblclick mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave change select submit keydown keypress keyup contextmenu\".split(\" \"),(function(t,e){j.fn[e]=function(data,t){return arguments.length>0?this.on(e,null,data,t):this.trigger(e)}}));var on=/^[\\s\\uFEFF\\xA0]+|[\\s\\uFEFF\\xA0]+$/g;j.proxy=function(t,e){var n,r,o;if"
+        ]
+      },
+      {
+        "url": "https://asanoha.com.vn/_nuxt/a9033c7b4bb03db0ece1.js",
+        "status": 200,
+        "matches": [
+          "generatorRuntime.wrap((function(n){for(;;)switch(n.prev=n.next){case 0:return r=e.commit,o=t.app,c=t.req,footer=null,n.prev=3,n.next=6,o.$axios.$get(\"/api/v2/surface/footer/1?lang=\".concat(o.i18n.locale),{timeout:1e4});case 6:l=n.sent,footer=l&&l.result||null,n.next=13;break;case 10:n.prev=10,n.t0=n.catch(3),console.error(\"nuxtServerInit failed:\",n.t0.m",
+          "kieDomain:null,cookieKey:\"i18n_redirected\",cookieSecure:!1,fallbackLocale:\"\",onlyOnNoPrefix:!1,onlyOnRoot:!1,useCookie:!0},differentDomains:!1,seo:!1,baseUrl:\"https://asanoha.com.vn\",vuex:{moduleName:\"i18n\",syncLocale:!1,syncMessages:!1,syncRouteParams:!0},parsePages:!0,pages:{},skipSettingLocaleOnNavigate:!1,beforeLanguageSwitch:function(){return null},o",
+          "k=this.switchLocalePath(le.defaultLocale);k&&link.push({hid:\"i18n-xd\",rel:\"alternate\",href:y(k,t),hreflang:\"x-default\"})}}).bind(this)(m,this.$i18n.__baseUrl,c.link),function(e,link){var t=this.localeRoute(We(We({},this.$route),{},{name:this.getRouteBaseName()})),n=t?t.path:null;n&&link.push({hid:\"i18n-can\",rel:\"canonical\",href:y(n,e)})}.bind(this)(this.$",
+          "i18n.__baseUrl,c.link),function(e,t,meta){var n=e&&t;if(!n)return;meta.push({hid:\"i18n-og\",property:\"og:locale\",content:v(t)})}.bind(this)(l,h,c.meta),function(e,t,meta){var n=e.filter((function(e){var n=e.iso;retu",
+          " n.i18n.__redirect=null,e.abrupt(\"return\",[302,c]);case 9:if(l={differentDomains:le.differentDomains,normalizedLocales:le.normalizedLocales},n.i18n.__baseUrl=Ce(le.baseUrl,t,n.i18n.locale,l),f=le.detectBrowserLanguage&&D(r)||L(r)||n.i18n.locale||n.i18n.defaultLocale||\"\",!le.skipSettingLocaleOnNavigate){e.next=17;break}n.i18n.__pendingLocale=f,n.i18n.__pen",
+          "})},e.setLocale=function(e){return S(e)},e.getBrowserLocale=function(){return A()},e.finalizePendingLocaleChange=T,e.waitForPendingLocaleChange=$,e.__baseUrl=n.i18n.__baseUrl,e.__pendingLocale=n.i18n.__pendingLocale,e.__pendingLocalePromise=n.i18n.__pendingLocalePromise,e.__resolvePendingLocalePromise=n.i18n.__resolvePendingLocalePromise},\"function\"!=type",
+          "cale=\"\",n.i18n.fallbackLocale=N.fallbackLocale||\"\",I(n.i18n),M={differentDomains:le.differentDomains,normalizedLocales:le.normalizedLocales},n.i18n.__baseUrl=Ce(le.baseUrl,t,\"\",M),n.i18n.__onNavigate=R,c.default.prototype.$nuxtI18nSeo=nt,c.default.prototype.$nuxtI18nHead=tt,!l){e.next=58;break}if(l.$i18n=n.i18n,!l.state.localeDomains){e.next=58;break}H=at",
+          "n()}finally{if(l)throw o}}}}function mt(e,t){(null==t||t>e.length)&&(t=e.length);for(var i=0,n=new Array(t);i<t;i++)n[i]=e[i];return n}for(var vt={setBaseURL:function(e){this.defaults.baseURL=e},setHeader:function(e,t){var n,r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:\"common\",o=pt(Array.isArray(r)?r:[r]);try{for(o.s();!(n=o.n()).done;){var c",
+          ".min(100,progress))}};e.defaults.onUploadProgress=o,e.defaults.onDownloadProgress=o},_t=function(e,t){var n=e.$config&&e.$config.axios||{},r=n.browserBaseURL||n.baseURL||\"/\";var o=xt({baseURL:r,headers:{common:{Accept:\"application/json, text/plain, */*\"},delete:{},get:{},head:{},post:{},put:{},patch:{}}});e.$axios=o,t(\"axios\",o)},jt=n(52);var kt={};[\"requ"
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "bastahiro",
+    "hits": [
+      {
+        "url": "https://bastahiro.com.vn/_nuxt/c12f4920ac0a87eead31.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://bastahiro.com.vn/_nuxt/12e15f931d93b150a5f9.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://bastahiro.com.vn/_nuxt/7f5062a7795726764039.js",
+        "status": 200,
+        "matches": [
+          "O,w,j,y;return regeneratorRuntime.wrap((function(e){for(;;)switch(e.prev=e.next){case 0:return n=t.app,c=t.store,e.next=3,Promise.all([n.$axios.$get(\"/api/v2/surface/page/home?lang=\".concat(n.i18n.locale))]);case 3:return l=e.sent,d=Object(o.a)(l,1),f=(f=d[0]).result,h=JSON.parse(f.commonContent),m=Object.entries(h.widgets).filter((function(t){var e=Obj",
+          "ect(o.a)(t,2),n=(e[0],e[1]);return\"object\"===Object(r.a)(n)?n.enable:n})),e.next=11,Promise.all([n.$axios.$get(\"/api/v2/surface/widget?lang=\".concat(n.i18n.locale),{params:{names:m.map((function(t){var e=Object(o.a)(t,2),n=e[0];e[1];return n})).join(\",\")}}),n.$axios.$get(\"/api/v2/surface/location_area?lang=\".concat(",
+          "n.i18n.locale)),n.$axios.$get(\"/api/v2/surface/location?lang=\".concat(n.i18n.locale))]);case 11:return v=e.sent,O=Object(o.a)(v,3),w=O[0],j=O[1],y=O[2],w&&(w=w.result.map((function(t){return N(N({},t),{},{commonContent:JSON.parse(t.comm"
+        ]
+      },
+      {
+        "url": "https://bastahiro.com.vn/_nuxt/ddafa02de06f444bb98c.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://bastahiro.com.vn/_nuxt/0dc36fea3db876de33e6.js",
+        "status": 200,
+        "matches": [
+          "roup,table,thead,tbody,td,th,tr,button,datalist,fieldset,form,input,label,legend,meter,optgroup,option,output,progress,select,textarea,details,dialog,menu,menuitem,summary,content,element,shadow,template,blockquote,iframe,tfoot\"),Wo=k(\"svg,animate,circle,clippath,cursor,defs,desc,ellipse,filter,font-face,foreignobject,g,glyph,image,line,marker,mask,mis",
+          "HttpRequest;if(t.auth){var w=t.auth.username||\"\",x=unescape(encodeURIComponent(t.auth.password))||\"\";m.Authorization=\"Basic \"+btoa(w+\":\"+x)}var O=l(t.baseURL,t.url);if(_.open(t.method.toUpperCase(),f(O,t.params,t.paramsSerializer),!0),_.timeout=t.timeout,_.onreadystatechange=function(){if(_&&4===_.readyState&&(0!==_.status||_.responseURL&&0===_.responseUR",
+          "function(t,e,n){\"use strict\";var r=n(25);t.exports=function(t,e){e=e||{};var n={},o=[\"url\",\"method\",\"data\"],c=[\"headers\",\"auth\",\"proxy\",\"params\"],f=[\"baseURL\",\"transformRequest\",\"transformResponse\",\"paramsSerializer\",\"timeout\",\"timeoutMessage\",\"withCredentials\",\"adapter\",\"responseType\",\"xsrfCookieName\",\"xsrfHeaderName\",\"onUploadProgress\",\"onDownloadProgre"
+        ]
+      },
+      {
+        "url": "https://bastahiro.com.vn/_nuxt/53194f96f7e5d54d9043.js",
+        "status": 200,
+        "matches": [
+          "yt(d),c=Et(v.appendChild(d),\"script\"),h&&kt(c),n)for($=0;d=c[$++];)St.test(d.type||\"\")&&n.push(d);return v}var Dt=/^key/,Nt=/^(?:mouse|pointer|contextmenu|drag|drop)|click/,Pt=/^([^.]*)(?:\\.(.+)|)/;function It(){return!0}function Mt(){return!1}function Lt(t,e){return t===function(){try{return S.activeElement}catch(t){}}()==(\"focus\"===e)}function Rt(t,e",
+          " resize scroll click dblclick mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave change select submit keydown keypress keyup contextmenu\".split(\" \"),(function(t,e){j.fn[e]=function(data,t){return arguments.length>0?this.on(e,null,data,t):this.trigger(e)}}));var on=/^[\\s\\uFEFF\\xA0]+|[\\s\\uFEFF\\xA0]+$/g;j.proxy=function(t,e){var n,r,o;if"
+        ]
+      },
+      {
+        "url": "https://bastahiro.com.vn/_nuxt/948306438ca2fccfdc37.js",
+        "status": 200,
+        "matches": [
+          "ponents:{Desktop:m,Mobile:Object(d.a)(w,(function(){var e=this,t=e._self._c;return t(\"div\",{staticClass:\"header-mobile-wrapp\"},[t(\"nav\",{staticClass:\"menu\",attrs:{role:\"navigation\"}},[t(\"div\",{staticClass:\"navbar-toggle pos-rel cursor-pointer\",class:{active:e.isActiveNavbar},on:{click:e.onShowNavbar}},[t(\"span\",{staticClass:\"icon-bar pos-abs trans\"}),e",
+          "generatorRuntime.wrap((function(n){for(;;)switch(n.prev=n.next){case 0:return r=e.commit,o=t.app,c=t.req,footer=null,n.prev=3,n.next=6,o.$axios.$get(\"/api/v2/surface/footer/1?lang=\".concat(o.i18n.locale),{timeout:1e4});case 6:l=n.sent,footer=l&&l.result||null,n.next=13;break;case 10:n.prev=10,n.t0=n.catch(3),console.error(\"nuxtServerInit failed:\",n.t0.m",
+          "kieDomain:null,cookieKey:\"i18n_redirected\",cookieSecure:!1,fallbackLocale:\"\",onlyOnNoPrefix:!1,onlyOnRoot:!1,useCookie:!0},differentDomains:!1,seo:!1,baseUrl:\"https://bastahiro.com.vn\",vuex:{moduleName:\"i18n\",syncLocale:!1,syncMessages:!1,syncRouteParams:!0},parsePages:!0,pages:{},skipSettingLocaleOnNavigate:!1,beforeLanguageSwitch:function(){return null}",
+          "k=this.switchLocalePath(fe.defaultLocale);k&&link.push({hid:\"i18n-xd\",rel:\"alternate\",href:y(k,t),hreflang:\"x-default\"})}}).bind(this)(m,this.$i18n.__baseUrl,c.link),function(e,link){var t=this.localeRoute(Qe(Qe({},this.$route),{},{name:this.getRouteBaseName()})),n=t?t.path:null;n&&link.push({hid:\"i18n-can\",rel:\"canonical\",href:y(n,e)})}.bind(this)(this.$",
+          "i18n.__baseUrl,c.link),function(e,t,meta){var n=e&&t;if(!n)return;meta.push({hid:\"i18n-og\",property:\"og:locale\",content:v(t)})}.bind(this)(l,h,c.meta),function(e,t,meta){var n=e.filter((function(e){var n=e.iso;retu",
+          " n.i18n.__redirect=null,e.abrupt(\"return\",[302,c]);case 9:if(l={differentDomains:fe.differentDomains,normalizedLocales:fe.normalizedLocales},n.i18n.__baseUrl=Se(fe.baseUrl,t,n.i18n.locale,l),f=fe.detectBrowserLanguage&&D(r)||L(r)||n.i18n.locale||n.i18n.defaultLocale||\"\",!fe.skipSettingLocaleOnNavigate){e.next=17;break}n.i18n.__pendingLocale=f,n.i18n.__pen",
+          "})},e.setLocale=function(e){return S(e)},e.getBrowserLocale=function(){return A()},e.finalizePendingLocaleChange=T,e.waitForPendingLocaleChange=$,e.__baseUrl=n.i18n.__baseUrl,e.__pendingLocale=n.i18n.__pendingLocale,e.__pendingLocalePromise=n.i18n.__pendingLocalePromise,e.__resolvePendingLocalePromise=n.i18n.__resolvePendingLocalePromise},\"function\"!=type",
+          "cale=\"\",n.i18n.fallbackLocale=I.fallbackLocale||\"\",N(n.i18n),z={differentDomains:fe.differentDomains,normalizedLocales:fe.normalizedLocales},n.i18n.__baseUrl=Se(fe.baseUrl,t,\"\",z),n.i18n.__onNavigate=R,c.default.prototype.$nuxtI18nSeo=ot,c.default.prototype.$nuxtI18nHead=nt,!l){e.next=58;break}if(l.$i18n=n.i18n,!l.state.localeDomains){e.next=58;break}H=it",
+          "n()}finally{if(l)throw o}}}}function vt(e,t){(null==t||t>e.length)&&(t=e.length);for(var i=0,n=new Array(t);i<t;i++)n[i]=e[i];return n}for(var gt={setBaseURL:function(e){this.defaults.baseURL=e},setHeader:function(e,t){var n,r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:\"common\",o=mt(Array.isArray(r)?r:[r]);try{for(o.s();!(n=o.n()).done;){var c",
+          ".min(100,progress))}};e.defaults.onUploadProgress=o,e.defaults.onDownloadProgress=o},jt=function(e,t){var n=e.$config&&e.$config.axios||{},r=n.browserBaseURL||n.baseURL||\"/\";var o=Ot({baseURL:r,headers:{common:{Accept:\"application/json, text/plain, */*\"},delete:{},get:{},head:{},post:{},put:{},patch:{}}});e.$axios=o,t(\"axios\",o)},kt=n(52);var Pt={};[\"requ"
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "gyushige",
+    "hits": [
+      {
+        "url": "https://gyushige.com.vn/_nuxt/7505615964e74a215072.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://gyushige.com.vn/_nuxt/bb05f9060f7fdafc52f9.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://gyushige.com.vn/_nuxt/ceaa9695ed0dff948502.js",
+        "status": 200,
+        "matches": [
+          "w,O,y,j;return regeneratorRuntime.wrap((function(e){for(;;)switch(e.prev=e.next){case 0:return n=t.app,c=t.store,e.next=3,Promise.all([n.$axios.$get(\"/api/v2/surface/page/home?lang=\".concat(n.i18n.locale))]);case 3:return l=e.sent,f=Object(o.a)(l,1),d=(d=f[0]).result,h=JSON.parse(d.commonContent),m=Object.entries(h.widgets).filter((function(t){var e=Obj",
+          "ect(o.a)(t,2),n=(e[0],e[1]);return\"object\"===Object(r.a)(n)?n.enable:n})),e.next=11,Promise.all([n.$axios.$get(\"/api/v2/surface/widget?lang=\".concat(n.i18n.locale),{params:{names:m.map((function(t){var e=Object(o.a)(t,2),n=e[0];e[1];return n})).join(\",\")}}),n.$axios.$get(\"/api/v2/surface/location_area?lang=\".concat(",
+          "n.i18n.locale)),n.$axios.$get(\"/api/v2/surface/location?lang=\".concat(n.i18n.locale))]);case 11:return v=e.sent,w=Object(o.a)(v,3),O=w[0],y=w[1],j=w[2],O&&(O=O.result.map((function(t){return $($({},t),{},{commonContent:JSON.parse(t.comm"
+        ]
+      },
+      {
+        "url": "https://gyushige.com.vn/_nuxt/c7aaa32eed7157e09139.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://gyushige.com.vn/_nuxt/69013264871f7944fdf9.js",
+        "status": 200,
+        "matches": [
+          "roup,table,thead,tbody,td,th,tr,button,datalist,fieldset,form,input,label,legend,meter,optgroup,option,output,progress,select,textarea,details,dialog,menu,menuitem,summary,content,element,shadow,template,blockquote,iframe,tfoot\"),Wo=k(\"svg,animate,circle,clippath,cursor,defs,desc,ellipse,filter,font-face,foreignobject,g,glyph,image,line,marker,mask,mis",
+          "HttpRequest;if(t.auth){var w=t.auth.username||\"\",x=unescape(encodeURIComponent(t.auth.password))||\"\";m.Authorization=\"Basic \"+btoa(w+\":\"+x)}var O=l(t.baseURL,t.url);if(_.open(t.method.toUpperCase(),f(O,t.params,t.paramsSerializer),!0),_.timeout=t.timeout,_.onreadystatechange=function(){if(_&&4===_.readyState&&(0!==_.status||_.responseURL&&0===_.responseUR",
+          "function(t,e,n){\"use strict\";var r=n(26);t.exports=function(t,e){e=e||{};var n={},o=[\"url\",\"method\",\"data\"],c=[\"headers\",\"auth\",\"proxy\",\"params\"],f=[\"baseURL\",\"transformRequest\",\"transformResponse\",\"paramsSerializer\",\"timeout\",\"timeoutMessage\",\"withCredentials\",\"adapter\",\"responseType\",\"xsrfCookieName\",\"xsrfHeaderName\",\"onUploadProgress\",\"onDownloadProgre"
+        ]
+      },
+      {
+        "url": "https://gyushige.com.vn/_nuxt/d605d361583190d97845.js",
+        "status": 200,
+        "matches": [
+          "yt(d),c=Et(v.appendChild(d),\"script\"),h&&kt(c),n)for($=0;d=c[$++];)St.test(d.type||\"\")&&n.push(d);return v}var Dt=/^key/,Nt=/^(?:mouse|pointer|contextmenu|drag|drop)|click/,Pt=/^([^.]*)(?:\\.(.+)|)/;function It(){return!0}function Mt(){return!1}function Lt(t,e){return t===function(){try{return S.activeElement}catch(t){}}()==(\"focus\"===e)}function Rt(t,e",
+          " resize scroll click dblclick mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave change select submit keydown keypress keyup contextmenu\".split(\" \"),(function(t,e){j.fn[e]=function(data,t){return arguments.length>0?this.on(e,null,data,t):this.trigger(e)}}));var on=/^[\\s\\uFEFF\\xA0]+|[\\s\\uFEFF\\xA0]+$/g;j.proxy=function(t,e){var n,r,o;if"
+        ]
+      },
+      {
+        "url": "https://gyushige.com.vn/_nuxt/c56ece06e186026f06e1.js",
+        "status": 200,
+        "matches": [
+          "ponents:{Desktop:m,Mobile:Object(d.a)(w,(function(){var e=this,t=e._self._c;return t(\"div\",{staticClass:\"header-mobile-wrapp\"},[t(\"nav\",{staticClass:\"menu\",attrs:{role:\"navigation\"}},[t(\"div\",{staticClass:\"navbar-toggle pos-rel cursor-pointer\",class:{active:e.isActiveNavbar},on:{click:e.onShowNavbar}},[t(\"span\",{staticClass:\"icon-bar pos-abs trans\"}),e",
+          "ost,n=(e||\"\").match(/^(https?:)?\\/\\/([^/]+)/);return!n||t===n[2]}function k(e){var t=encodeURIComponent(e);return\"\".concat(\"https://gyushige.com.vn\",\"/api/v2/image-proxy?url=\").concat(t)}function P(e){var title=e.title,t=e.description;return[{hid:\"og:title\",property:\"og:title\",content:title},{hid:\"og:description\",property:\"og:description\",content:t},{hi",
+          "generatorRuntime.wrap((function(n){for(;;)switch(n.prev=n.next){case 0:return r=e.commit,o=t.app,c=t.req,footer=null,n.prev=3,n.next=6,o.$axios.$get(\"/api/v2/surface/footer/1?lang=\".concat(o.i18n.locale),{timeout:1e4});case 6:l=n.sent,footer=l&&l.result||null,n.next=13;break;case 10:n.prev=10,n.t0=n.catch(3),console.error(\"nuxtServerInit failed:\",n.t0.m",
+          "kieDomain:null,cookieKey:\"i18n_redirected\",cookieSecure:!1,fallbackLocale:\"\",onlyOnNoPrefix:!1,onlyOnRoot:!1,useCookie:!0},differentDomains:!1,seo:!1,baseUrl:\"https://gyushige.com.vn\",vuex:{moduleName:\"i18n\",syncLocale:!1,syncMessages:!1,syncRouteParams:!0},parsePages:!0,pages:{},skipSettingLocaleOnNavigate:!1,beforeLanguageSwitch:function(){return null},",
+          "k=this.switchLocalePath(fe.defaultLocale);k&&link.push({hid:\"i18n-xd\",rel:\"alternate\",href:y(k,t),hreflang:\"x-default\"})}}).bind(this)(m,this.$i18n.__baseUrl,c.link),function(e,link){var t=this.localeRoute(Qe(Qe({},this.$route),{},{name:this.getRouteBaseName()})),n=t?t.path:null;n&&link.push({hid:\"i18n-can\",rel:\"canonical\",href:y(n,e)})}.bind(this)(this.$",
+          "i18n.__baseUrl,c.link),function(e,t,meta){var n=e&&t;if(!n)return;meta.push({hid:\"i18n-og\",property:\"og:locale\",content:v(t)})}.bind(this)(l,h,c.meta),function(e,t,meta){var n=e.filter((function(e){var n=e.iso;retu",
+          " n.i18n.__redirect=null,e.abrupt(\"return\",[302,c]);case 9:if(l={differentDomains:fe.differentDomains,normalizedLocales:fe.normalizedLocales},n.i18n.__baseUrl=Se(fe.baseUrl,t,n.i18n.locale,l),f=fe.detectBrowserLanguage&&A(r)||L(r)||n.i18n.locale||n.i18n.defaultLocale||\"\",!fe.skipSettingLocaleOnNavigate){e.next=17;break}n.i18n.__pendingLocale=f,n.i18n.__pen",
+          "})},e.setLocale=function(e){return S(e)},e.getBrowserLocale=function(){return D()},e.finalizePendingLocaleChange=E,e.waitForPendingLocaleChange=$,e.__baseUrl=n.i18n.__baseUrl,e.__pendingLocale=n.i18n.__pendingLocale,e.__pendingLocalePromise=n.i18n.__pendingLocalePromise,e.__resolvePendingLocalePromise=n.i18n.__resolvePendingLocalePromise},\"function\"!=type",
+          "cale=\"\",n.i18n.fallbackLocale=I.fallbackLocale||\"\",N(n.i18n),M={differentDomains:fe.differentDomains,normalizedLocales:fe.normalizedLocales},n.i18n.__baseUrl=Se(fe.baseUrl,t,\"\",M),n.i18n.__onNavigate=T,c.default.prototype.$nuxtI18nSeo=ot,c.default.prototype.$nuxtI18nHead=nt,!l){e.next=58;break}if(l.$i18n=n.i18n,!l.state.localeDomains){e.next=58;break}H=it",
+          "n()}finally{if(l)throw o}}}}function vt(e,t){(null==t||t>e.length)&&(t=e.length);for(var i=0,n=new Array(t);i<t;i++)n[i]=e[i];return n}for(var gt={setBaseURL:function(e){this.defaults.baseURL=e},setHeader:function(e,t){var n,r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:\"common\",o=mt(Array.isArray(r)?r:[r]);try{for(o.s();!(n=o.n()).done;){var c",
+          ".min(100,progress))}};e.defaults.onUploadProgress=o,e.defaults.onDownloadProgress=o},jt=function(e,t){var n=e.$config&&e.$config.axios||{},r=n.browserBaseURL||n.baseURL||\"/\";var o=Ot({baseURL:r,headers:{common:{Accept:\"application/json, text/plain, */*\"},delete:{},get:{},head:{},post:{},put:{},patch:{}}});e.$axios=o,t(\"axios\",o)},kt=n(19);var Pt={};[\"requ"
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "ichibankenramen",
+    "hits": [
+      {
+        "url": "https://ichibankenramen.com.vn/_nuxt/cc2b07a0c40d4981838f.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://ichibankenramen.com.vn/_nuxt/e231b98de4fd7a328409.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://ichibankenramen.com.vn/_nuxt/24040fb495f35e7ceaa8.js",
+        "status": 200,
+        "matches": [
+          "h,O,y,j;return regeneratorRuntime.wrap((function(t){for(;;)switch(t.prev=t.next){case 0:return n=e.app,r=e.store,t.next=3,Promise.all([n.$axios.$get(\"/api/v2/surface/page/home?lang=\".concat(n.i18n.locale))]);case 3:return l=t.sent,f=Object(c.a)(l,1),d=(d=f[0]).result,m=JSON.parse(d.commonContent),v=Object.entries(m.widgets).filter((function(e){var t=Obj",
+          "ect(c.a)(e,2),n=(t[0],t[1]);return\"object\"===Object(o.a)(n)?n.enable:n})),t.next=11,Promise.all([n.$axios.$get(\"/api/v2/surface/widget?lang=\".concat(n.i18n.locale),{params:{names:v.map((function(e){var t=Object(c.a)(e,2),n=t[0];t[1];return n})).join(\",\")}}),n.$axios.$get(\"/api/v2/surface/location_area?lang=\".concat(",
+          "n.i18n.locale)),n.$axios.$get(\"/api/v2/surface/location?lang=\".concat(n.i18n.locale))]);case 11:return w=t.sent,h=Object(c.a)(w,3),O=h[0],y=h[1],j=h[2],O&&(O=O.result.map((function(e){return M(M({},e),{},{commonContent:JSON.parse(e.comm"
+        ]
+      },
+      {
+        "url": "https://ichibankenramen.com.vn/_nuxt/d21187ce44bdc68709cf.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://ichibankenramen.com.vn/_nuxt/fc1a1e5003074c8df8f7.js",
+        "status": 200,
+        "matches": [
+          "roup,table,thead,tbody,td,th,tr,button,datalist,fieldset,form,input,label,legend,meter,optgroup,option,output,progress,select,textarea,details,dialog,menu,menuitem,summary,content,element,shadow,template,blockquote,iframe,tfoot\"),Wo=k(\"svg,animate,circle,clippath,cursor,defs,desc,ellipse,filter,font-face,foreignobject,g,glyph,image,line,marker,mask,mis",
+          "HttpRequest;if(t.auth){var w=t.auth.username||\"\",x=unescape(encodeURIComponent(t.auth.password))||\"\";m.Authorization=\"Basic \"+btoa(w+\":\"+x)}var O=l(t.baseURL,t.url);if(_.open(t.method.toUpperCase(),f(O,t.params,t.paramsSerializer),!0),_.timeout=t.timeout,_.onreadystatechange=function(){if(_&&4===_.readyState&&(0!==_.status||_.responseURL&&0===_.responseUR",
+          "function(t,e,n){\"use strict\";var r=n(24);t.exports=function(t,e){e=e||{};var n={},o=[\"url\",\"method\",\"data\"],c=[\"headers\",\"auth\",\"proxy\",\"params\"],f=[\"baseURL\",\"transformRequest\",\"transformResponse\",\"paramsSerializer\",\"timeout\",\"timeoutMessage\",\"withCredentials\",\"adapter\",\"responseType\",\"xsrfCookieName\",\"xsrfHeaderName\",\"onUploadProgress\",\"onDownloadProgre"
+        ]
+      },
+      {
+        "url": "https://ichibankenramen.com.vn/_nuxt/65bf36336126b3c801bf.js",
+        "status": 200,
+        "matches": [
+          "yt(d),c=Et(v.appendChild(d),\"script\"),h&&kt(c),n)for($=0;d=c[$++];)St.test(d.type||\"\")&&n.push(d);return v}var Dt=/^key/,Nt=/^(?:mouse|pointer|contextmenu|drag|drop)|click/,Pt=/^([^.]*)(?:\\.(.+)|)/;function It(){return!0}function Mt(){return!1}function Lt(t,e){return t===function(){try{return S.activeElement}catch(t){}}()==(\"focus\"===e)}function Rt(t,e",
+          " resize scroll click dblclick mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave change select submit keydown keypress keyup contextmenu\".split(\" \"),(function(t,e){j.fn[e]=function(data,t){return arguments.length>0?this.on(e,null,data,t):this.trigger(e)}}));var on=/^[\\s\\uFEFF\\xA0]+|[\\s\\uFEFF\\xA0]+$/g;j.proxy=function(t,e){var n,r,o;if"
+        ]
+      },
+      {
+        "url": "https://ichibankenramen.com.vn/_nuxt/4a79ab07247fa2155cbe.js",
+        "status": 200,
+        "matches": [
+          ",c,footer,l;return regeneratorRuntime.wrap((function(n){for(;;)switch(n.prev=n.next){case 0:return r=e.commit,o=t.app,c=t.req,n.next=4,o.$axios.$get(\"/api/v2/surface/footer/1?lang=\".concat(o.i18n.locale));case 4:footer=n.sent,l=c.headers[\"user-agent\"]||\"\",r(\"SET_FOOTER\",footer.result),r(\"SET_IS_MOBILE_AGENT\",o.$utils.isAgentMobile(l)),r(\"SET_IS_MOBILE_O",
+          "kieDomain:null,cookieKey:\"i18n_redirected\",cookieSecure:!1,fallbackLocale:\"\",onlyOnNoPrefix:!1,onlyOnRoot:!1,useCookie:!0},differentDomains:!1,seo:!1,baseUrl:\"https://ichibankenramen.com.vn\",vuex:{moduleName:\"i18n\",syncLocale:!1,syncMessages:!1,syncRouteParams:!0},parsePages:!0,pages:{},skipSettingLocaleOnNavigate:!1,beforeLanguageSwitch:function(){return",
+          "k=this.switchLocalePath(ue.defaultLocale);k&&link.push({hid:\"i18n-xd\",rel:\"alternate\",href:y(k,t),hreflang:\"x-default\"})}}).bind(this)(m,this.$i18n.__baseUrl,c.link),function(e,link){var t=this.localeRoute(Je(Je({},this.$route),{},{name:this.getRouteBaseName()})),n=t?t.path:null;n&&link.push({hid:\"i18n-can\",rel:\"canonical\",href:y(n,e)})}.bind(this)(this.$",
+          "i18n.__baseUrl,c.link),function(e,t,meta){var n=e&&t;if(!n)return;meta.push({hid:\"i18n-og\",property:\"og:locale\",content:v(t)})}.bind(this)(l,h,c.meta),function(e,t,meta){var n=e.filter((function(e){var n=e.iso;retu",
+          " n.i18n.__redirect=null,e.abrupt(\"return\",[302,c]);case 9:if(l={differentDomains:ue.differentDomains,normalizedLocales:ue.normalizedLocales},n.i18n.__baseUrl=Pe(ue.baseUrl,t,n.i18n.locale,l),f=ue.detectBrowserLanguage&&D(r)||L(r)||n.i18n.locale||n.i18n.defaultLocale||\"\",!ue.skipSettingLocaleOnNavigate){e.next=17;break}n.i18n.__pendingLocale=f,n.i18n.__pen",
+          "})},e.setLocale=function(e){return C(e)},e.getBrowserLocale=function(){return A()},e.finalizePendingLocaleChange=T,e.waitForPendingLocaleChange=$,e.__baseUrl=n.i18n.__baseUrl,e.__pendingLocale=n.i18n.__pendingLocale,e.__pendingLocalePromise=n.i18n.__pendingLocalePromise,e.__resolvePendingLocalePromise=n.i18n.__resolvePendingLocalePromise},\"function\"!=type",
+          "cale=\"\",n.i18n.fallbackLocale=z.fallbackLocale||\"\",I(n.i18n),M={differentDomains:ue.differentDomains,normalizedLocales:ue.normalizedLocales},n.i18n.__baseUrl=Pe(ue.baseUrl,t,\"\",M),n.i18n.__onNavigate=E,c.default.prototype.$nuxtI18nSeo=tt,c.default.prototype.$nuxtI18nHead=et,!l){e.next=58;break}if(l.$i18n=n.i18n,!l.state.localeDomains){e.next=58;break}H=ot",
+          "n()}finally{if(l)throw o}}}}function pt(e,t){(null==t||t>e.length)&&(t=e.length);for(var i=0,n=new Array(t);i<t;i++)n[i]=e[i];return n}for(var mt={setBaseURL:function(e){this.defaults.baseURL=e},setHeader:function(e,t){var n,r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:\"common\",o=ht(Array.isArray(r)?r:[r]);try{for(o.s();!(n=o.n()).done;){var c",
+          ".min(100,progress))}};e.defaults.onUploadProgress=o,e.defaults.onDownloadProgress=o},Ot=function(e,t){var n=e.$config&&e.$config.axios||{},r=n.browserBaseURL||n.baseURL||\"/\";var o=wt({baseURL:r,headers:{common:{Accept:\"application/json, text/plain, */*\"},delete:{},get:{},head:{},post:{},put:{},patch:{}}});e.$axios=o,t(\"axios\",o)},_t=n(52);var jt={};[\"requ"
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "jindinrou",
+    "hits": [
+      {
+        "url": "https://jindinrou.com.vn/_nuxt/f492ae512122b5e2a97b.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://jindinrou.com.vn/_nuxt/5d8083a8a2846273f67d.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://jindinrou.com.vn/_nuxt/ae3afb1bbb1fb0a23831.js",
+        "status": 200,
+        "matches": [
+          "h,w,j,y;return regeneratorRuntime.wrap((function(e){for(;;)switch(e.prev=e.next){case 0:return n=t.app,r=t.store,e.next=3,Promise.all([n.$axios.$get(\"/api/v2/surface/page/home?lang=\".concat(n.i18n.locale))]);case 3:return l=e.sent,d=Object(c.a)(l,1),f=(f=d[0]).result,m=JSON.parse(f.commonContent),v=Object.entries(m.widgets).filter((function(t){var e=Obj",
+          "ect(c.a)(t,2),n=(e[0],e[1]);return\"object\"===Object(o.a)(n)?n.enable:n})),e.next=11,Promise.all([n.$axios.$get(\"/api/v2/surface/widget?lang=\".concat(n.i18n.locale),{params:{names:v.map((function(t){var e=Object(c.a)(t,2),n=e[0];e[1];return n})).join(\",\")}}),n.$axios.$get(\"/api/v2/surface/location_area?lang=\".concat(",
+          "n.i18n.locale)),n.$axios.$get(\"/api/v2/surface/location?lang=\".concat(n.i18n.locale))]);case 11:return O=e.sent,h=Object(c.a)(O,3),w=h[0],j=h[1],y=h[2],w&&(w=w.result.map((function(t){return E(E({},t),{},{commonContent:JSON.parse(t.comm"
+        ]
+      },
+      {
+        "url": "https://jindinrou.com.vn/_nuxt/3836b751564b28fc58af.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://jindinrou.com.vn/_nuxt/0c065f314bb9a9d6d21f.js",
+        "status": 200,
+        "matches": [
+          "roup,table,thead,tbody,td,th,tr,button,datalist,fieldset,form,input,label,legend,meter,optgroup,option,output,progress,select,textarea,details,dialog,menu,menuitem,summary,content,element,shadow,template,blockquote,iframe,tfoot\"),Wo=k(\"svg,animate,circle,clippath,cursor,defs,desc,ellipse,filter,font-face,foreignobject,g,glyph,image,line,marker,mask,mis",
+          "HttpRequest;if(t.auth){var w=t.auth.username||\"\",x=unescape(encodeURIComponent(t.auth.password))||\"\";m.Authorization=\"Basic \"+btoa(w+\":\"+x)}var O=l(t.baseURL,t.url);if(_.open(t.method.toUpperCase(),f(O,t.params,t.paramsSerializer),!0),_.timeout=t.timeout,_.onreadystatechange=function(){if(_&&4===_.readyState&&(0!==_.status||_.responseURL&&0===_.responseUR",
+          "function(t,e,n){\"use strict\";var r=n(24);t.exports=function(t,e){e=e||{};var n={},o=[\"url\",\"method\",\"data\"],c=[\"headers\",\"auth\",\"proxy\",\"params\"],f=[\"baseURL\",\"transformRequest\",\"transformResponse\",\"paramsSerializer\",\"timeout\",\"timeoutMessage\",\"withCredentials\",\"adapter\",\"responseType\",\"xsrfCookieName\",\"xsrfHeaderName\",\"onUploadProgress\",\"onDownloadProgre"
+        ]
+      },
+      {
+        "url": "https://jindinrou.com.vn/_nuxt/2d6cef911cb3e326aee9.js",
+        "status": 200,
+        "matches": [
+          "yt(d),c=Et(v.appendChild(d),\"script\"),h&&kt(c),n)for($=0;d=c[$++];)St.test(d.type||\"\")&&n.push(d);return v}var Dt=/^key/,Nt=/^(?:mouse|pointer|contextmenu|drag|drop)|click/,Pt=/^([^.]*)(?:\\.(.+)|)/;function It(){return!0}function Mt(){return!1}function Lt(t,e){return t===function(){try{return S.activeElement}catch(t){}}()==(\"focus\"===e)}function Rt(t,e",
+          " resize scroll click dblclick mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave change select submit keydown keypress keyup contextmenu\".split(\" \"),(function(t,e){j.fn[e]=function(data,t){return arguments.length>0?this.on(e,null,data,t):this.trigger(e)}}));var on=/^[\\s\\uFEFF\\xA0]+|[\\s\\uFEFF\\xA0]+$/g;j.proxy=function(t,e){var n,r,o;if"
+        ]
+      },
+      {
+        "url": "https://jindinrou.com.vn/_nuxt/65581cd4a823ebede7f3.js",
+        "status": 200,
+        "matches": [
+          "generatorRuntime.wrap((function(n){for(;;)switch(n.prev=n.next){case 0:return r=e.commit,o=t.app,c=t.req,footer=null,n.prev=3,n.next=6,o.$axios.$get(\"/api/v2/surface/footer/1?lang=\".concat(o.i18n.locale),{timeout:1e4});case 6:l=n.sent,footer=l&&l.result||null,n.next=13;break;case 10:n.prev=10,n.t0=n.catch(3),console.error(\"nuxtServerInit failed:\",n.t0.m",
+          "kieDomain:null,cookieKey:\"i18n_redirected\",cookieSecure:!1,fallbackLocale:\"\",onlyOnNoPrefix:!1,onlyOnRoot:!1,useCookie:!0},differentDomains:!1,seo:!1,baseUrl:\"https://jindinrou.com.vn\",vuex:{moduleName:\"i18n\",syncLocale:!1,syncMessages:!1,syncRouteParams:!0},parsePages:!0,pages:{},skipSettingLocaleOnNavigate:!1,beforeLanguageSwitch:function(){return null}",
+          "k=this.switchLocalePath(le.defaultLocale);k&&link.push({hid:\"i18n-xd\",rel:\"alternate\",href:y(k,t),hreflang:\"x-default\"})}}).bind(this)(m,this.$i18n.__baseUrl,c.link),function(e,link){var t=this.localeRoute(We(We({},this.$route),{},{name:this.getRouteBaseName()})),n=t?t.path:null;n&&link.push({hid:\"i18n-can\",rel:\"canonical\",href:y(n,e)})}.bind(this)(this.$",
+          "i18n.__baseUrl,c.link),function(e,t,meta){var n=e&&t;if(!n)return;meta.push({hid:\"i18n-og\",property:\"og:locale\",content:v(t)})}.bind(this)(l,h,c.meta),function(e,t,meta){var n=e.filter((function(e){var n=e.iso;retu",
+          " n.i18n.__redirect=null,e.abrupt(\"return\",[302,c]);case 9:if(l={differentDomains:le.differentDomains,normalizedLocales:le.normalizedLocales},n.i18n.__baseUrl=Ce(le.baseUrl,t,n.i18n.locale,l),f=le.detectBrowserLanguage&&A(r)||L(r)||n.i18n.locale||n.i18n.defaultLocale||\"\",!le.skipSettingLocaleOnNavigate){e.next=17;break}n.i18n.__pendingLocale=f,n.i18n.__pen",
+          "})},e.setLocale=function(e){return S(e)},e.getBrowserLocale=function(){return D()},e.finalizePendingLocaleChange=T,e.waitForPendingLocaleChange=$,e.__baseUrl=n.i18n.__baseUrl,e.__pendingLocale=n.i18n.__pendingLocale,e.__pendingLocalePromise=n.i18n.__pendingLocalePromise,e.__resolvePendingLocalePromise=n.i18n.__resolvePendingLocalePromise},\"function\"!=type",
+          "cale=\"\",n.i18n.fallbackLocale=N.fallbackLocale||\"\",I(n.i18n),M={differentDomains:le.differentDomains,normalizedLocales:le.normalizedLocales},n.i18n.__baseUrl=Ce(le.baseUrl,t,\"\",M),n.i18n.__onNavigate=E,c.default.prototype.$nuxtI18nSeo=nt,c.default.prototype.$nuxtI18nHead=tt,!l){e.next=58;break}if(l.$i18n=n.i18n,!l.state.localeDomains){e.next=58;break}H=at",
+          "n()}finally{if(l)throw o}}}}function mt(e,t){(null==t||t>e.length)&&(t=e.length);for(var i=0,n=new Array(t);i<t;i++)n[i]=e[i];return n}for(var vt={setBaseURL:function(e){this.defaults.baseURL=e},setHeader:function(e,t){var n,r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:\"common\",o=pt(Array.isArray(r)?r:[r]);try{for(o.s();!(n=o.n()).done;){var c",
+          ".min(100,progress))}};e.defaults.onUploadProgress=o,e.defaults.onDownloadProgress=o},_t=function(e,t){var n=e.$config&&e.$config.axios||{},r=n.browserBaseURL||n.baseURL||\"/\";var o=xt({baseURL:r,headers:{common:{Accept:\"application/json, text/plain, */*\"},delete:{},get:{},head:{},post:{},put:{},patch:{}}});e.$axios=o,t(\"axios\",o)},jt=n(52);var kt={};[\"requ"
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "oedoalley",
+    "hits": [
+      {
+        "url": "https://oedoalley.com.vn/_nuxt/e1c814f1fe7dbf31bf76.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://oedoalley.com.vn/_nuxt/44244618b5ccfcb549c7.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://oedoalley.com.vn/_nuxt/2dd2d781c2b5b666a408.js",
+        "status": 200,
+        "matches": [
+          "O,w,j,y;return regeneratorRuntime.wrap((function(e){for(;;)switch(e.prev=e.next){case 0:return n=t.app,r=t.store,e.next=3,Promise.all([n.$axios.$get(\"/api/v2/surface/page/home?lang=\".concat(n.i18n.locale))]);case 3:return l=e.sent,d=Object(c.a)(l,1),f=(f=d[0]).result,m=JSON.parse(f.commonContent),v=Object.entries(m.widgets).filter((function(t){var e=Obj",
+          "ect(c.a)(t,2),n=(e[0],e[1]);return\"object\"===Object(o.a)(n)?n.enable:n})),e.next=11,Promise.all([n.$axios.$get(\"/api/v2/surface/widget?lang=\".concat(n.i18n.locale),{params:{names:v.map((function(t){var e=Object(c.a)(t,2),n=e[0];e[1];return n})).join(\",\")}}),n.$axios.$get(\"/api/v2/surface/location_area?lang=\".concat(",
+          "n.i18n.locale)),n.$axios.$get(\"/api/v2/surface/location?lang=\".concat(n.i18n.locale))]);case 11:return h=e.sent,O=Object(c.a)(h,3),w=O[0],j=O[1],y=O[2],w&&(w=w.result.map((function(t){return x(x({},t),{},{commonContent:JSON.parse(t.comm"
+        ]
+      },
+      {
+        "url": "https://oedoalley.com.vn/_nuxt/0cf46f25685bdb02bd2d.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://oedoalley.com.vn/_nuxt/23ee49dd68fd5b2258ab.js",
+        "status": 200,
+        "matches": [
+          "roup,table,thead,tbody,td,th,tr,button,datalist,fieldset,form,input,label,legend,meter,optgroup,option,output,progress,select,textarea,details,dialog,menu,menuitem,summary,content,element,shadow,template,blockquote,iframe,tfoot\"),Wo=k(\"svg,animate,circle,clippath,cursor,defs,desc,ellipse,filter,font-face,foreignobject,g,glyph,image,line,marker,mask,mis",
+          "HttpRequest;if(t.auth){var w=t.auth.username||\"\",x=unescape(encodeURIComponent(t.auth.password))||\"\";m.Authorization=\"Basic \"+btoa(w+\":\"+x)}var O=l(t.baseURL,t.url);if(_.open(t.method.toUpperCase(),f(O,t.params,t.paramsSerializer),!0),_.timeout=t.timeout,_.onreadystatechange=function(){if(_&&4===_.readyState&&(0!==_.status||_.responseURL&&0===_.responseUR",
+          "function(t,e,n){\"use strict\";var r=n(24);t.exports=function(t,e){e=e||{};var n={},o=[\"url\",\"method\",\"data\"],c=[\"headers\",\"auth\",\"proxy\",\"params\"],f=[\"baseURL\",\"transformRequest\",\"transformResponse\",\"paramsSerializer\",\"timeout\",\"timeoutMessage\",\"withCredentials\",\"adapter\",\"responseType\",\"xsrfCookieName\",\"xsrfHeaderName\",\"onUploadProgress\",\"onDownloadProgre"
+        ]
+      },
+      {
+        "url": "https://oedoalley.com.vn/_nuxt/b6d8dcc27df67e5d5227.js",
+        "status": 200,
+        "matches": [
+          "yt(d),c=Et(v.appendChild(d),\"script\"),h&&kt(c),n)for($=0;d=c[$++];)St.test(d.type||\"\")&&n.push(d);return v}var Dt=/^key/,Nt=/^(?:mouse|pointer|contextmenu|drag|drop)|click/,Pt=/^([^.]*)(?:\\.(.+)|)/;function It(){return!0}function Mt(){return!1}function Lt(t,e){return t===function(){try{return S.activeElement}catch(t){}}()==(\"focus\"===e)}function Rt(t,e",
+          " resize scroll click dblclick mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave change select submit keydown keypress keyup contextmenu\".split(\" \"),(function(t,e){j.fn[e]=function(data,t){return arguments.length>0?this.on(e,null,data,t):this.trigger(e)}}));var on=/^[\\s\\uFEFF\\xA0]+|[\\s\\uFEFF\\xA0]+$/g;j.proxy=function(t,e){var n,r,o;if"
+        ]
+      },
+      {
+        "url": "https://oedoalley.com.vn/_nuxt/6c131777c2676dd0a581.js",
+        "status": 200,
+        "matches": [
+          "generatorRuntime.wrap((function(n){for(;;)switch(n.prev=n.next){case 0:return r=e.commit,o=t.app,c=t.req,footer=null,n.prev=3,n.next=6,o.$axios.$get(\"/api/v2/surface/footer/1?lang=\".concat(o.i18n.locale),{timeout:1e4});case 6:l=n.sent,footer=l&&l.result||null,n.next=13;break;case 10:n.prev=10,n.t0=n.catch(3),console.error(\"nuxtServerInit failed:\",n.t0.m",
+          "kieDomain:null,cookieKey:\"i18n_redirected\",cookieSecure:!1,fallbackLocale:\"\",onlyOnNoPrefix:!1,onlyOnRoot:!1,useCookie:!0},differentDomains:!1,seo:!1,baseUrl:\"https://oedoalley.com.vn\",vuex:{moduleName:\"i18n\",syncLocale:!1,syncMessages:!1,syncRouteParams:!0},parsePages:!0,pages:{},skipSettingLocaleOnNavigate:!1,beforeLanguageSwitch:function(){return null}",
+          "k=this.switchLocalePath(le.defaultLocale);k&&link.push({hid:\"i18n-xd\",rel:\"alternate\",href:y(k,t),hreflang:\"x-default\"})}}).bind(this)(m,this.$i18n.__baseUrl,c.link),function(e,link){var t=this.localeRoute(We(We({},this.$route),{},{name:this.getRouteBaseName()})),n=t?t.path:null;n&&link.push({hid:\"i18n-can\",rel:\"canonical\",href:y(n,e)})}.bind(this)(this.$",
+          "i18n.__baseUrl,c.link),function(e,t,meta){var n=e&&t;if(!n)return;meta.push({hid:\"i18n-og\",property:\"og:locale\",content:v(t)})}.bind(this)(l,h,c.meta),function(e,t,meta){var n=e.filter((function(e){var n=e.iso;retu",
+          " n.i18n.__redirect=null,e.abrupt(\"return\",[302,c]);case 9:if(l={differentDomains:le.differentDomains,normalizedLocales:le.normalizedLocales},n.i18n.__baseUrl=Se(le.baseUrl,t,n.i18n.locale,l),f=le.detectBrowserLanguage&&D(r)||L(r)||n.i18n.locale||n.i18n.defaultLocale||\"\",!le.skipSettingLocaleOnNavigate){e.next=17;break}n.i18n.__pendingLocale=f,n.i18n.__pen",
+          "})},e.setLocale=function(e){return C(e)},e.getBrowserLocale=function(){return A()},e.finalizePendingLocaleChange=T,e.waitForPendingLocaleChange=$,e.__baseUrl=n.i18n.__baseUrl,e.__pendingLocale=n.i18n.__pendingLocale,e.__pendingLocalePromise=n.i18n.__pendingLocalePromise,e.__resolvePendingLocalePromise=n.i18n.__resolvePendingLocalePromise},\"function\"!=type",
+          "cale=\"\",n.i18n.fallbackLocale=N.fallbackLocale||\"\",I(n.i18n),M={differentDomains:le.differentDomains,normalizedLocales:le.normalizedLocales},n.i18n.__baseUrl=Se(le.baseUrl,t,\"\",M),n.i18n.__onNavigate=R,c.default.prototype.$nuxtI18nSeo=nt,c.default.prototype.$nuxtI18nHead=tt,!l){e.next=58;break}if(l.$i18n=n.i18n,!l.state.localeDomains){e.next=58;break}H=at",
+          "n()}finally{if(l)throw o}}}}function mt(e,t){(null==t||t>e.length)&&(t=e.length);for(var i=0,n=new Array(t);i<t;i++)n[i]=e[i];return n}for(var vt={setBaseURL:function(e){this.defaults.baseURL=e},setHeader:function(e,t){var n,r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:\"common\",o=pt(Array.isArray(r)?r:[r]);try{for(o.s();!(n=o.n()).done;){var c",
+          ".min(100,progress))}};e.defaults.onUploadProgress=o,e.defaults.onDownloadProgress=o},_t=function(e,t){var n=e.$config&&e.$config.axios||{},r=n.browserBaseURL||n.baseURL||\"/\";var o=xt({baseURL:r,headers:{common:{Accept:\"application/json, text/plain, */*\"},delete:{},get:{},head:{},post:{},put:{},patch:{}}});e.$axios=o,t(\"axios\",o)},jt=n(52);var kt={};[\"requ"
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "somtumthai",
+    "hits": [
+      {
+        "url": "https://somtumthai.com.vn/_nuxt/e1c814f1fe7dbf31bf76.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://somtumthai.com.vn/_nuxt/7c2cef4222abd6a84f4d.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://somtumthai.com.vn/_nuxt/3247e28d138794708c6a.js",
+        "status": 200,
+        "matches": [
+          "O,w,j,y;return regeneratorRuntime.wrap((function(e){for(;;)switch(e.prev=e.next){case 0:return n=t.app,r=t.store,e.next=3,Promise.all([n.$axios.$get(\"/api/v2/surface/page/home?lang=\".concat(n.i18n.locale))]);case 3:return l=e.sent,d=Object(c.a)(l,1),f=(f=d[0]).result,m=JSON.parse(f.commonContent),v=Object.entries(m.widgets).filter((function(t){var e=Obj",
+          "ect(c.a)(t,2),n=(e[0],e[1]);return\"object\"===Object(o.a)(n)?n.enable:n})),e.next=11,Promise.all([n.$axios.$get(\"/api/v2/surface/widget?lang=\".concat(n.i18n.locale),{params:{names:v.map((function(t){var e=Object(c.a)(t,2),n=e[0];e[1];return n})).join(\",\")}}),n.$axios.$get(\"/api/v2/surface/location_area?lang=\".concat(",
+          "n.i18n.locale)),n.$axios.$get(\"/api/v2/surface/location?lang=\".concat(n.i18n.locale))]);case 11:return h=e.sent,O=Object(c.a)(h,3),w=O[0],j=O[1],y=O[2],w&&(w=w.result.map((function(t){return x(x({},t),{},{commonContent:JSON.parse(t.comm"
+        ]
+      },
+      {
+        "url": "https://somtumthai.com.vn/_nuxt/719a6261637c30dd0737.js",
+        "status": 200,
+        "matches": []
+      },
+      {
+        "url": "https://somtumthai.com.vn/_nuxt/23ee49dd68fd5b2258ab.js",
+        "status": 200,
+        "matches": [
+          "roup,table,thead,tbody,td,th,tr,button,datalist,fieldset,form,input,label,legend,meter,optgroup,option,output,progress,select,textarea,details,dialog,menu,menuitem,summary,content,element,shadow,template,blockquote,iframe,tfoot\"),Wo=k(\"svg,animate,circle,clippath,cursor,defs,desc,ellipse,filter,font-face,foreignobject,g,glyph,image,line,marker,mask,mis",
+          "HttpRequest;if(t.auth){var w=t.auth.username||\"\",x=unescape(encodeURIComponent(t.auth.password))||\"\";m.Authorization=\"Basic \"+btoa(w+\":\"+x)}var O=l(t.baseURL,t.url);if(_.open(t.method.toUpperCase(),f(O,t.params,t.paramsSerializer),!0),_.timeout=t.timeout,_.onreadystatechange=function(){if(_&&4===_.readyState&&(0!==_.status||_.responseURL&&0===_.responseUR",
+          "function(t,e,n){\"use strict\";var r=n(24);t.exports=function(t,e){e=e||{};var n={},o=[\"url\",\"method\",\"data\"],c=[\"headers\",\"auth\",\"proxy\",\"params\"],f=[\"baseURL\",\"transformRequest\",\"transformResponse\",\"paramsSerializer\",\"timeout\",\"timeoutMessage\",\"withCredentials\",\"adapter\",\"responseType\",\"xsrfCookieName\",\"xsrfHeaderName\",\"onUploadProgress\",\"onDownloadProgre"
+        ]
+      },
+      {
+        "url": "https://somtumthai.com.vn/_nuxt/b6d8dcc27df67e5d5227.js",
+        "status": 200,
+        "matches": [
+          "yt(d),c=Et(v.appendChild(d),\"script\"),h&&kt(c),n)for($=0;d=c[$++];)St.test(d.type||\"\")&&n.push(d);return v}var Dt=/^key/,Nt=/^(?:mouse|pointer|contextmenu|drag|drop)|click/,Pt=/^([^.]*)(?:\\.(.+)|)/;function It(){return!0}function Mt(){return!1}function Lt(t,e){return t===function(){try{return S.activeElement}catch(t){}}()==(\"focus\"===e)}function Rt(t,e",
+          " resize scroll click dblclick mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave change select submit keydown keypress keyup contextmenu\".split(\" \"),(function(t,e){j.fn[e]=function(data,t){return arguments.length>0?this.on(e,null,data,t):this.trigger(e)}}));var on=/^[\\s\\uFEFF\\xA0]+|[\\s\\uFEFF\\xA0]+$/g;j.proxy=function(t,e){var n,r,o;if"
+        ]
+      },
+      {
+        "url": "https://somtumthai.com.vn/_nuxt/a96344ea325140679858.js",
+        "status": 200,
+        "matches": [
+          "generatorRuntime.wrap((function(n){for(;;)switch(n.prev=n.next){case 0:return r=e.commit,o=t.app,c=t.req,footer=null,n.prev=3,n.next=6,o.$axios.$get(\"/api/v2/surface/footer/1?lang=\".concat(o.i18n.locale),{timeout:1e4});case 6:l=n.sent,footer=l&&l.result||null,n.next=13;break;case 10:n.prev=10,n.t0=n.catch(3),console.error(\"nuxtServerInit failed:\",n.t0.m",
+          "kieDomain:null,cookieKey:\"i18n_redirected\",cookieSecure:!1,fallbackLocale:\"\",onlyOnNoPrefix:!1,onlyOnRoot:!1,useCookie:!0},differentDomains:!1,seo:!1,baseUrl:\"https://somtumthai.com.vn\",vuex:{moduleName:\"i18n\",syncLocale:!1,syncMessages:!1,syncRouteParams:!0},parsePages:!0,pages:{},skipSettingLocaleOnNavigate:!1,beforeLanguageSwitch:function(){return null",
+          "k=this.switchLocalePath(le.defaultLocale);k&&link.push({hid:\"i18n-xd\",rel:\"alternate\",href:y(k,t),hreflang:\"x-default\"})}}).bind(this)(m,this.$i18n.__baseUrl,c.link),function(e,link){var t=this.localeRoute(We(We({},this.$route),{},{name:this.getRouteBaseName()})),n=t?t.path:null;n&&link.push({hid:\"i18n-can\",rel:\"canonical\",href:y(n,e)})}.bind(this)(this.$",
+          "i18n.__baseUrl,c.link),function(e,t,meta){var n=e&&t;if(!n)return;meta.push({hid:\"i18n-og\",property:\"og:locale\",content:v(t)})}.bind(this)(l,h,c.meta),function(e,t,meta){var n=e.filter((function(e){var n=e.iso;retu",
+          " n.i18n.__redirect=null,e.abrupt(\"return\",[302,c]);case 9:if(l={differentDomains:le.differentDomains,normalizedLocales:le.normalizedLocales},n.i18n.__baseUrl=Pe(le.baseUrl,t,n.i18n.locale,l),f=le.detectBrowserLanguage&&A(r)||L(r)||n.i18n.locale||n.i18n.defaultLocale||\"\",!le.skipSettingLocaleOnNavigate){e.next=17;break}n.i18n.__pendingLocale=f,n.i18n.__pen",
+          "})},e.setLocale=function(e){return C(e)},e.getBrowserLocale=function(){return D()},e.finalizePendingLocaleChange=R,e.waitForPendingLocaleChange=$,e.__baseUrl=n.i18n.__baseUrl,e.__pendingLocale=n.i18n.__pendingLocale,e.__pendingLocalePromise=n.i18n.__pendingLocalePromise,e.__resolvePendingLocalePromise=n.i18n.__resolvePendingLocalePromise},\"function\"!=type",
+          "cale=\"\",n.i18n.fallbackLocale=N.fallbackLocale||\"\",I(n.i18n),M={differentDomains:le.differentDomains,normalizedLocales:le.normalizedLocales},n.i18n.__baseUrl=Pe(le.baseUrl,t,\"\",M),n.i18n.__onNavigate=E,c.default.prototype.$nuxtI18nSeo=nt,c.default.prototype.$nuxtI18nHead=tt,!l){e.next=58;break}if(l.$i18n=n.i18n,!l.state.localeDomains){e.next=58;break}H=at",
+          "n()}finally{if(l)throw o}}}}function mt(e,t){(null==t||t>e.length)&&(t=e.length);for(var i=0,n=new Array(t);i<t;i++)n[i]=e[i];return n}for(var vt={setBaseURL:function(e){this.defaults.baseURL=e},setHeader:function(e,t){var n,r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:\"common\",o=pt(Array.isArray(r)?r:[r]);try{for(o.s();!(n=o.n()).done;){var c",
+          ".min(100,progress))}};e.defaults.onUploadProgress=o,e.defaults.onDownloadProgress=o},_t=function(e,t){var n=e.$config&&e.$config.axios||{},r=n.browserBaseURL||n.baseURL||\"/\";var o=xt({baseURL:r,headers:{common:{Accept:\"application/json, text/plain, */*\"},delete:{},get:{},head:{},post:{},put:{},patch:{}}});e.$axios=o,t(\"axios\",o)},jt=n(52);var kt={};[\"requ"
+        ]
+      }
+    ]
+  }
+]

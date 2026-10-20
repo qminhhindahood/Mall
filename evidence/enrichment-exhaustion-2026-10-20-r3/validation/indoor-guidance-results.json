@@ -1,0 +1,3327 @@
+{
+  "at": "2026-10-20T12:21:57.597Z",
+  "browser": "149.0.7827.198",
+  "scope": "Public browser guidance: manual saved starting floor, selected destination floor only; no walking topology, position detection or accessibility route claim.",
+  "runs": [
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "width": 1280,
+      "type": "manual",
+      "destinationId": "saigon-prototype-annamgourmet",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Native starting-floor control responds to keyboard",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Same-floor copy scopes the selected starting and destination floors",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Cross-floor copy scopes the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Manual start changes neither target URL nor map floor",
+          "pass": true
+        },
+        {
+          "label": "Starting floor is saved for this mall in the current tab",
+          "pass": true
+        },
+        {
+          "label": "Map control retains open guidance and saved start",
+          "pass": true
+        },
+        {
+          "label": "Destination map navigation retains saved starting floor",
+          "pass": true
+        },
+        {
+          "label": "Back restores selected destination and saved start",
+          "pass": true
+        },
+        {
+          "label": "Locale navigation retains selected destination floor and manual start",
+          "pass": true
+        },
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Locale Back retains manual start",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Unknown starting floor clears the saved value",
+          "pass": true
+        },
+        {
+          "label": "Cleared starting floor stays unknown after refresh",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "width": 1280,
+      "type": "multi-floor",
+      "destinationId": "saigon-prototype-takashimaya",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Every verified destination floor remains available",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Start is retained even when destination also occupies that floor",
+          "pass": true
+        },
+        {
+          "label": "Multi-floor wording compares only selected target; it does not claim absence from start",
+          "pass": true
+        },
+        {
+          "label": "Selected alternate destination floor controls guidance and map",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Switching target floor preserves the saved starting choice",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "startingFloor": "B2",
+      "comparedTargetFloor": "L3"
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "width": 1280,
+      "type": "floor-only",
+      "destinationId": "saigon-prototype-thehourglass",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Held location explicitly withholds exact storefront",
+          "pass": true
+        },
+        {
+          "label": "Floor-only destination invents no map marker",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Manual floor comparison adds no false location geometry",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "width": 1280,
+      "type": "no-javascript",
+      "destinationId": "saigon-prototype-annamgourmet",
+      "checks": [
+        {
+          "label": "Native noJS guidance disclosure opens by keyboard",
+          "pass": true
+        },
+        {
+          "label": "NoJS does not expose an inert manual selector",
+          "pass": true
+        },
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "NoJS destination-floor link preserves identity and floor",
+          "pass": true
+        },
+        {
+          "label": "NoJS destination-floor action has useful shipped HTML",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "width": 390,
+      "type": "manual",
+      "destinationId": "saigon-prototype-annamgourmet",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Native starting-floor control responds to keyboard",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Same-floor copy scopes the selected starting and destination floors",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Cross-floor copy scopes the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Manual start changes neither target URL nor map floor",
+          "pass": true
+        },
+        {
+          "label": "Starting floor is saved for this mall in the current tab",
+          "pass": true
+        },
+        {
+          "label": "Map control retains open guidance and saved start",
+          "pass": true
+        },
+        {
+          "label": "Destination map navigation retains saved starting floor",
+          "pass": true
+        },
+        {
+          "label": "Back restores selected destination and saved start",
+          "pass": true
+        },
+        {
+          "label": "Locale navigation retains selected destination floor and manual start",
+          "pass": true
+        },
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Locale Back retains manual start",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Unknown starting floor clears the saved value",
+          "pass": true
+        },
+        {
+          "label": "Cleared starting floor stays unknown after refresh",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "width": 390,
+      "type": "multi-floor",
+      "destinationId": "saigon-prototype-takashimaya",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Every verified destination floor remains available",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Start is retained even when destination also occupies that floor",
+          "pass": true
+        },
+        {
+          "label": "Multi-floor wording compares only selected target; it does not claim absence from start",
+          "pass": true
+        },
+        {
+          "label": "Selected alternate destination floor controls guidance and map",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Switching target floor preserves the saved starting choice",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "startingFloor": "B2",
+      "comparedTargetFloor": "L3"
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "width": 390,
+      "type": "floor-only",
+      "destinationId": "saigon-prototype-thehourglass",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Held location explicitly withholds exact storefront",
+          "pass": true
+        },
+        {
+          "label": "Floor-only destination invents no map marker",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Manual floor comparison adds no false location geometry",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "width": 390,
+      "type": "no-javascript",
+      "destinationId": "saigon-prototype-annamgourmet",
+      "checks": [
+        {
+          "label": "Native noJS guidance disclosure opens by keyboard",
+          "pass": true
+        },
+        {
+          "label": "NoJS does not expose an inert manual selector",
+          "pass": true
+        },
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "NoJS destination-floor link preserves identity and floor",
+          "pass": true
+        },
+        {
+          "label": "NoJS destination-floor action has useful shipped HTML",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "width": 1280,
+      "type": "manual",
+      "destinationId": "saigon-prototype-annamgourmet",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Native starting-floor control responds to keyboard",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Same-floor copy scopes the selected starting and destination floors",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Cross-floor copy scopes the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Manual start changes neither target URL nor map floor",
+          "pass": true
+        },
+        {
+          "label": "Starting floor is saved for this mall in the current tab",
+          "pass": true
+        },
+        {
+          "label": "Map control retains open guidance and saved start",
+          "pass": true
+        },
+        {
+          "label": "Destination map navigation retains saved starting floor",
+          "pass": true
+        },
+        {
+          "label": "Back restores selected destination and saved start",
+          "pass": true
+        },
+        {
+          "label": "Locale navigation retains selected destination floor and manual start",
+          "pass": true
+        },
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Locale Back retains manual start",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Unknown starting floor clears the saved value",
+          "pass": true
+        },
+        {
+          "label": "Cleared starting floor stays unknown after refresh",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "width": 1280,
+      "type": "multi-floor",
+      "destinationId": "saigon-prototype-takashimaya",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Every verified destination floor remains available",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Start is retained even when destination also occupies that floor",
+          "pass": true
+        },
+        {
+          "label": "Multi-floor wording compares only selected target; it does not claim absence from start",
+          "pass": true
+        },
+        {
+          "label": "Selected alternate destination floor controls guidance and map",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Switching target floor preserves the saved starting choice",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "startingFloor": "B2",
+      "comparedTargetFloor": "L3"
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "width": 1280,
+      "type": "floor-only",
+      "destinationId": "saigon-prototype-thehourglass",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Held location explicitly withholds exact storefront",
+          "pass": true
+        },
+        {
+          "label": "Floor-only destination invents no map marker",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Manual floor comparison adds no false location geometry",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "width": 1280,
+      "type": "no-javascript",
+      "destinationId": "saigon-prototype-annamgourmet",
+      "checks": [
+        {
+          "label": "Native noJS guidance disclosure opens by keyboard",
+          "pass": true
+        },
+        {
+          "label": "NoJS does not expose an inert manual selector",
+          "pass": true
+        },
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "NoJS destination-floor link preserves identity and floor",
+          "pass": true
+        },
+        {
+          "label": "NoJS destination-floor action has useful shipped HTML",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "width": 390,
+      "type": "manual",
+      "destinationId": "saigon-prototype-annamgourmet",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Native starting-floor control responds to keyboard",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Same-floor copy scopes the selected starting and destination floors",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Cross-floor copy scopes the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Manual start changes neither target URL nor map floor",
+          "pass": true
+        },
+        {
+          "label": "Starting floor is saved for this mall in the current tab",
+          "pass": true
+        },
+        {
+          "label": "Map control retains open guidance and saved start",
+          "pass": true
+        },
+        {
+          "label": "Destination map navigation retains saved starting floor",
+          "pass": true
+        },
+        {
+          "label": "Back restores selected destination and saved start",
+          "pass": true
+        },
+        {
+          "label": "Locale navigation retains selected destination floor and manual start",
+          "pass": true
+        },
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Locale Back retains manual start",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Unknown starting floor clears the saved value",
+          "pass": true
+        },
+        {
+          "label": "Cleared starting floor stays unknown after refresh",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "width": 390,
+      "type": "multi-floor",
+      "destinationId": "saigon-prototype-takashimaya",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Every verified destination floor remains available",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Start is retained even when destination also occupies that floor",
+          "pass": true
+        },
+        {
+          "label": "Multi-floor wording compares only selected target; it does not claim absence from start",
+          "pass": true
+        },
+        {
+          "label": "Selected alternate destination floor controls guidance and map",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Switching target floor preserves the saved starting choice",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "startingFloor": "B2",
+      "comparedTargetFloor": "L3"
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "width": 390,
+      "type": "floor-only",
+      "destinationId": "saigon-prototype-thehourglass",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Held location explicitly withholds exact storefront",
+          "pass": true
+        },
+        {
+          "label": "Floor-only destination invents no map marker",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Manual floor comparison adds no false location geometry",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "width": 390,
+      "type": "no-javascript",
+      "destinationId": "saigon-prototype-annamgourmet",
+      "checks": [
+        {
+          "label": "Native noJS guidance disclosure opens by keyboard",
+          "pass": true
+        },
+        {
+          "label": "NoJS does not expose an inert manual selector",
+          "pass": true
+        },
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "NoJS destination-floor link preserves identity and floor",
+          "pass": true
+        },
+        {
+          "label": "NoJS destination-floor action has useful shipped HTML",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "width": 1280,
+      "type": "manual",
+      "destinationId": "vincom-prototype-winmart",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Native starting-floor control responds to keyboard",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Same-floor copy scopes the selected starting and destination floors",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Cross-floor copy scopes the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Manual start changes neither target URL nor map floor",
+          "pass": true
+        },
+        {
+          "label": "Starting floor is saved for this mall in the current tab",
+          "pass": true
+        },
+        {
+          "label": "Map control retains open guidance and saved start",
+          "pass": true
+        },
+        {
+          "label": "Destination map navigation retains saved starting floor",
+          "pass": true
+        },
+        {
+          "label": "Back restores selected destination and saved start",
+          "pass": true
+        },
+        {
+          "label": "Locale navigation retains selected destination floor and manual start",
+          "pass": true
+        },
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Locale Back retains manual start",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Unknown starting floor clears the saved value",
+          "pass": true
+        },
+        {
+          "label": "Cleared starting floor stays unknown after refresh",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "width": 1280,
+      "type": "multi-floor",
+      "destinationId": "vincom-prototype-zara",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Every verified destination floor remains available",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Start is retained even when destination also occupies that floor",
+          "pass": true
+        },
+        {
+          "label": "Multi-floor wording compares only selected target; it does not claim absence from start",
+          "pass": true
+        },
+        {
+          "label": "Selected alternate destination floor controls guidance and map",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Switching target floor preserves the saved starting choice",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "startingFloor": "L1",
+      "comparedTargetFloor": "M"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "width": 1280,
+      "type": "floor-only",
+      "destinationId": "vincom-candidate-vd-b3-002",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Held location explicitly withholds exact storefront",
+          "pass": true
+        },
+        {
+          "label": "Floor-only destination invents no map marker",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Manual floor comparison adds no false location geometry",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "width": 1280,
+      "type": "no-javascript",
+      "destinationId": "vincom-prototype-winmart",
+      "checks": [
+        {
+          "label": "Native noJS guidance disclosure opens by keyboard",
+          "pass": true
+        },
+        {
+          "label": "NoJS does not expose an inert manual selector",
+          "pass": true
+        },
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "NoJS destination-floor link preserves identity and floor",
+          "pass": true
+        },
+        {
+          "label": "NoJS destination-floor action has useful shipped HTML",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "width": 390,
+      "type": "manual",
+      "destinationId": "vincom-prototype-winmart",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Native starting-floor control responds to keyboard",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Same-floor copy scopes the selected starting and destination floors",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Cross-floor copy scopes the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Manual start changes neither target URL nor map floor",
+          "pass": true
+        },
+        {
+          "label": "Starting floor is saved for this mall in the current tab",
+          "pass": true
+        },
+        {
+          "label": "Map control retains open guidance and saved start",
+          "pass": true
+        },
+        {
+          "label": "Destination map navigation retains saved starting floor",
+          "pass": true
+        },
+        {
+          "label": "Back restores selected destination and saved start",
+          "pass": true
+        },
+        {
+          "label": "Locale navigation retains selected destination floor and manual start",
+          "pass": true
+        },
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Locale Back retains manual start",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Unknown starting floor clears the saved value",
+          "pass": true
+        },
+        {
+          "label": "Cleared starting floor stays unknown after refresh",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "width": 390,
+      "type": "multi-floor",
+      "destinationId": "vincom-prototype-zara",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Every verified destination floor remains available",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Start is retained even when destination also occupies that floor",
+          "pass": true
+        },
+        {
+          "label": "Multi-floor wording compares only selected target; it does not claim absence from start",
+          "pass": true
+        },
+        {
+          "label": "Selected alternate destination floor controls guidance and map",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Switching target floor preserves the saved starting choice",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "startingFloor": "L1",
+      "comparedTargetFloor": "M"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "width": 390,
+      "type": "floor-only",
+      "destinationId": "vincom-candidate-vd-b3-002",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Held location explicitly withholds exact storefront",
+          "pass": true
+        },
+        {
+          "label": "Floor-only destination invents no map marker",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Manual floor comparison adds no false location geometry",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "width": 390,
+      "type": "no-javascript",
+      "destinationId": "vincom-prototype-winmart",
+      "checks": [
+        {
+          "label": "Native noJS guidance disclosure opens by keyboard",
+          "pass": true
+        },
+        {
+          "label": "NoJS does not expose an inert manual selector",
+          "pass": true
+        },
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "NoJS destination-floor link preserves identity and floor",
+          "pass": true
+        },
+        {
+          "label": "NoJS destination-floor action has useful shipped HTML",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "width": 1280,
+      "type": "manual",
+      "destinationId": "vincom-prototype-winmart",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Native starting-floor control responds to keyboard",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Same-floor copy scopes the selected starting and destination floors",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Cross-floor copy scopes the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Manual start changes neither target URL nor map floor",
+          "pass": true
+        },
+        {
+          "label": "Starting floor is saved for this mall in the current tab",
+          "pass": true
+        },
+        {
+          "label": "Map control retains open guidance and saved start",
+          "pass": true
+        },
+        {
+          "label": "Destination map navigation retains saved starting floor",
+          "pass": true
+        },
+        {
+          "label": "Back restores selected destination and saved start",
+          "pass": true
+        },
+        {
+          "label": "Locale navigation retains selected destination floor and manual start",
+          "pass": true
+        },
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Locale Back retains manual start",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Unknown starting floor clears the saved value",
+          "pass": true
+        },
+        {
+          "label": "Cleared starting floor stays unknown after refresh",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "width": 1280,
+      "type": "multi-floor",
+      "destinationId": "vincom-prototype-zara",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Every verified destination floor remains available",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Start is retained even when destination also occupies that floor",
+          "pass": true
+        },
+        {
+          "label": "Multi-floor wording compares only selected target; it does not claim absence from start",
+          "pass": true
+        },
+        {
+          "label": "Selected alternate destination floor controls guidance and map",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Switching target floor preserves the saved starting choice",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "startingFloor": "L1",
+      "comparedTargetFloor": "M"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "width": 1280,
+      "type": "floor-only",
+      "destinationId": "vincom-candidate-vd-b3-002",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Held location explicitly withholds exact storefront",
+          "pass": true
+        },
+        {
+          "label": "Floor-only destination invents no map marker",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Manual floor comparison adds no false location geometry",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "width": 1280,
+      "type": "no-javascript",
+      "destinationId": "vincom-prototype-winmart",
+      "checks": [
+        {
+          "label": "Native noJS guidance disclosure opens by keyboard",
+          "pass": true
+        },
+        {
+          "label": "NoJS does not expose an inert manual selector",
+          "pass": true
+        },
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "NoJS destination-floor link preserves identity and floor",
+          "pass": true
+        },
+        {
+          "label": "NoJS destination-floor action has useful shipped HTML",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "width": 390,
+      "type": "manual",
+      "destinationId": "vincom-prototype-winmart",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Native starting-floor control responds to keyboard",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Same-floor copy scopes the selected starting and destination floors",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Cross-floor copy scopes the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Manual start changes neither target URL nor map floor",
+          "pass": true
+        },
+        {
+          "label": "Starting floor is saved for this mall in the current tab",
+          "pass": true
+        },
+        {
+          "label": "Map control retains open guidance and saved start",
+          "pass": true
+        },
+        {
+          "label": "Destination map navigation retains saved starting floor",
+          "pass": true
+        },
+        {
+          "label": "Back restores selected destination and saved start",
+          "pass": true
+        },
+        {
+          "label": "Locale navigation retains selected destination floor and manual start",
+          "pass": true
+        },
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Locale Back retains manual start",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Unknown starting floor clears the saved value",
+          "pass": true
+        },
+        {
+          "label": "Cleared starting floor stays unknown after refresh",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "width": 390,
+      "type": "multi-floor",
+      "destinationId": "vincom-prototype-zara",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Every verified destination floor remains available",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is different-floor",
+          "pass": true
+        },
+        {
+          "label": "Start is retained even when destination also occupies that floor",
+          "pass": true
+        },
+        {
+          "label": "Multi-floor wording compares only selected target; it does not claim absence from start",
+          "pass": true
+        },
+        {
+          "label": "Selected alternate destination floor controls guidance and map",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Switching target floor preserves the saved starting choice",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "startingFloor": "L1",
+      "comparedTargetFloor": "M"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "width": 390,
+      "type": "floor-only",
+      "destinationId": "vincom-candidate-vd-b3-002",
+      "checks": [
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector has a unique associated label",
+          "pass": true
+        },
+        {
+          "label": "Starting-floor selector meets 44px target",
+          "pass": true
+        },
+        {
+          "label": "Guidance text and controls meet 16px minimum",
+          "pass": true
+        },
+        {
+          "label": "Fresh tab starts without an invented position",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is unknown",
+          "pass": true
+        },
+        {
+          "label": "Manual help explicitly denies position detection",
+          "pass": true
+        },
+        {
+          "label": "Manual start offers only supported mall floors",
+          "pass": true
+        },
+        {
+          "label": "Held location explicitly withholds exact storefront",
+          "pass": true
+        },
+        {
+          "label": "Floor-only destination invents no map marker",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Manual floor comparison adds no false location geometry",
+          "pass": true
+        },
+        {
+          "label": "Guidance never requests geolocation",
+          "pass": true
+        },
+        {
+          "label": "No uncaught guidance errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "width": 390,
+      "type": "no-javascript",
+      "destinationId": "vincom-prototype-winmart",
+      "checks": [
+        {
+          "label": "Native noJS guidance disclosure opens by keyboard",
+          "pass": true
+        },
+        {
+          "label": "NoJS does not expose an inert manual selector",
+          "pass": true
+        },
+        {
+          "label": "Guidance summary is exactly localized",
+          "pass": true
+        },
+        {
+          "label": "Target identifies the selected destination floor",
+          "pass": true
+        },
+        {
+          "label": "Unsupported walking routes remain explicitly withheld",
+          "pass": true
+        },
+        {
+          "label": "Guidance invents no walking-path visual",
+          "pass": true
+        },
+        {
+          "label": "Correct official mall fallback opens safely in a new tab",
+          "pass": true
+        },
+        {
+          "label": "Guidance causes no document overflow",
+          "pass": true
+        },
+        {
+          "label": "NoJS destination-floor link preserves identity and floor",
+          "pass": true
+        },
+        {
+          "label": "NoJS destination-floor action has useful shipped HTML",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "width": 390,
+      "type": "storage",
+      "checks": [
+        {
+          "label": "Invalid saved floor is cleared rather than treated as position",
+          "pass": true
+        },
+        {
+          "label": "Another mall key is ignored and retained separately",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Unavailable storage preserves mounted manual comparison",
+          "pass": true
+        },
+        {
+          "label": "Unavailable storage returns honestly to unknown on full reload",
+          "pass": true
+        },
+        {
+          "label": "Storage exceptions never become uncaught page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "width": 390,
+      "type": "storage",
+      "checks": [
+        {
+          "label": "Invalid saved floor is cleared rather than treated as position",
+          "pass": true
+        },
+        {
+          "label": "Another mall key is ignored and retained separately",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Unavailable storage preserves mounted manual comparison",
+          "pass": true
+        },
+        {
+          "label": "Unavailable storage returns honestly to unknown on full reload",
+          "pass": true
+        },
+        {
+          "label": "Storage exceptions never become uncaught page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "width": 390,
+      "type": "storage",
+      "checks": [
+        {
+          "label": "Invalid saved floor is cleared rather than treated as position",
+          "pass": true
+        },
+        {
+          "label": "Another mall key is ignored and retained separately",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Unavailable storage preserves mounted manual comparison",
+          "pass": true
+        },
+        {
+          "label": "Unavailable storage returns honestly to unknown on full reload",
+          "pass": true
+        },
+        {
+          "label": "Storage exceptions never become uncaught page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "width": 390,
+      "type": "storage",
+      "checks": [
+        {
+          "label": "Invalid saved floor is cleared rather than treated as position",
+          "pass": true
+        },
+        {
+          "label": "Another mall key is ignored and retained separately",
+          "pass": true
+        },
+        {
+          "label": "Manual comparison is same-floor",
+          "pass": true
+        },
+        {
+          "label": "Unavailable storage preserves mounted manual comparison",
+          "pass": true
+        },
+        {
+          "label": "Unavailable storage returns honestly to unknown on full reload",
+          "pass": true
+        },
+        {
+          "label": "Storage exceptions never become uncaught page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    }
+  ]
+}

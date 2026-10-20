@@ -1,0 +1,1191 @@
+{
+  "checkedAt": "2026-10-20",
+  "decisions": [
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-annamgourmet",
+      "field": "phone",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Mall branch contact/hours disagree with official Annam B2-11,12 branch source; unresolved.",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source.",
+      "evidenceFiles": [
+        "queue.json",
+        "search-1.json",
+        "search-2.json",
+        "open-1.json",
+        "open-2.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-annamgourmet",
+              "field": "phone",
+              "priorState": "evidence-conflict-hold",
+              "outcome": "hold",
+              "attempts": [
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/annam-gourmet",
+                  "checkedAt": "2026-10-19",
+                  "result": "full official branch page read",
+                  "scope": "branch"
+                }
+              ],
+              "reason": "Mall branch contact/hours disagree with official Annam B2-11,12 branch source; unresolved.",
+              "sourceValue": "028 3914 0515"
+            }
+          },
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-annamgourmet",
+              "field": "phone",
+              "priorState": "evidence-conflict-hold",
+              "outcome": "hold",
+              "attempts": [
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/annam-gourmet",
+                  "checkedAt": "2026-10-19",
+                  "result": "full official branch page read",
+                  "scope": "branch"
+                }
+              ],
+              "reason": "Mall branch contact/hours disagree with official Annam B2-11,12 branch source; unresolved.",
+              "sourceValue": "028 3914 0515"
+            }
+          }
+        ],
+        "holdReason": "Mall branch contact/hours disagree with official Annam B2-11,12 branch source; unresolved.",
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-annamgourmet",
+      "field": "hours",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Mall branch contact/hours disagree with official Annam B2-11,12 branch source; unresolved.",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source.",
+      "evidenceFiles": [
+        "queue.json",
+        "search-1.json",
+        "search-2.json",
+        "open-1.json",
+        "open-2.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-annamgourmet",
+              "field": "hours",
+              "priorState": "evidence-conflict-hold",
+              "outcome": "hold",
+              "attempts": [
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/annam-gourmet",
+                  "checkedAt": "2026-10-19",
+                  "result": "full official branch page read",
+                  "scope": "branch"
+                }
+              ],
+              "reason": "Mall branch contact/hours disagree with official Annam B2-11,12 branch source; unresolved.",
+              "sourceValue": "8:30 - 21:30"
+            }
+          },
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-annamgourmet",
+              "field": "hours",
+              "priorState": "evidence-conflict-hold",
+              "outcome": "hold",
+              "attempts": [
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/annam-gourmet",
+                  "checkedAt": "2026-10-19",
+                  "result": "full official branch page read",
+                  "scope": "branch"
+                }
+              ],
+              "reason": "Mall branch contact/hours disagree with official Annam B2-11,12 branch source; unresolved.",
+              "sourceValue": "8:30 - 21:30"
+            }
+          }
+        ],
+        "holdReason": "Mall branch contact/hours disagree with official Annam B2-11,12 branch source; unresolved.",
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-annamcafe",
+      "field": "phone",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Official Annam brand branch source explicitly covers B2-11,12 and differs from cafe mall page phone/weekend hours; scope cannot safely separate.",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source.",
+      "evidenceFiles": [
+        "queue.json",
+        "search-1.json",
+        "search-2.json",
+        "open-1.json",
+        "open-2.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-annamcafe",
+              "field": "phone",
+              "priorState": "unresearched",
+              "outcome": "hold",
+              "attempts": [
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/annam-cafe",
+                  "checkedAt": "2026-10-19",
+                  "result": "full official branch page read",
+                  "scope": "branch"
+                }
+              ],
+              "reason": "Official Annam brand branch source explicitly covers B2-11,12 and differs from cafe mall page phone/weekend hours; scope cannot safely separate.",
+              "sourceValue": "028 3825 8826"
+            }
+          },
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-annamcafe",
+              "field": "phone",
+              "priorState": "unresearched",
+              "outcome": "hold",
+              "attempts": [
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/annam-cafe",
+                  "checkedAt": "2026-10-19",
+                  "result": "full official branch page read",
+                  "scope": "branch"
+                }
+              ],
+              "reason": "Official Annam brand branch source explicitly covers B2-11,12 and differs from cafe mall page phone/weekend hours; scope cannot safely separate.",
+              "sourceValue": "028 3825 8826"
+            }
+          }
+        ],
+        "holdReason": "Official Annam brand branch source explicitly covers B2-11,12 and differs from cafe mall page phone/weekend hours; scope cannot safely separate.",
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-annamcafe",
+      "field": "hours",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Official Annam brand branch source explicitly covers B2-11,12 and differs from cafe mall page phone/weekend hours; scope cannot safely separate.",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source.",
+      "evidenceFiles": [
+        "queue.json",
+        "search-1.json",
+        "search-2.json",
+        "open-1.json",
+        "open-2.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-annamcafe",
+              "field": "hours",
+              "priorState": "unresearched",
+              "outcome": "hold",
+              "attempts": [
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/annam-cafe",
+                  "checkedAt": "2026-10-19",
+                  "result": "full official branch page read",
+                  "scope": "branch"
+                }
+              ],
+              "reason": "Official Annam brand branch source explicitly covers B2-11,12 and differs from cafe mall page phone/weekend hours; scope cannot safely separate.",
+              "sourceValue": "08:30 - 21:30"
+            }
+          },
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-annamcafe",
+              "field": "hours",
+              "priorState": "unresearched",
+              "outcome": "hold",
+              "attempts": [
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/annam-cafe",
+                  "checkedAt": "2026-10-19",
+                  "result": "full official branch page read",
+                  "scope": "branch"
+                }
+              ],
+              "reason": "Official Annam brand branch source explicitly covers B2-11,12 and differs from cafe mall page phone/weekend hours; scope cannot safely separate.",
+              "sourceValue": "08:30 - 21:30"
+            }
+          }
+        ],
+        "holdReason": "Official Annam brand branch source explicitly covers B2-11,12 and differs from cafe mall page phone/weekend hours; scope cannot safely separate.",
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-spicybox",
+      "field": "menu",
+      "checkedAt": "2026-10-20",
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://danangthanhkhe.aeonmall-vietnam.com/en/da-nang-unique/gia-ve-spicy-box.html",
+        "url": "https://danangthanhkhe.aeonmall-vietnam.com/en/da-nang-unique/gia-ve-spicy-box.html",
+        "evidence": "Actual official AEON mall article lists named sauces, rice-cake varieties, side dishes and extras. This is a July2026 Da Nang reference menu, not a Saigon Centre branch menu; no prices or policy transplanted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thực đơn tham khảo do AEON MALL Đà Nẵng Thanh Khê đăng, cập nhật tháng 7/2026; không phải thực đơn riêng của Saigon Centre. Xác nhận món và giá tại chi nhánh.",
+          "en": "Reference menu published by AEON MALL Da Nang Thanh Khe, updated July2026; not the Saigon Centre branch menu. Confirm local dishes and prices."
+        }
+      },
+      "reason": "Actual official AEON mall article lists named sauces, rice-cake varieties, side dishes and extras. This is a July2026 Da Nang reference menu, not a Saigon Centre branch menu; no prices or policy transplanted.",
+      "sources": [
+        {
+          "url": "https://danangthanhkhe.aeonmall-vietnam.com/en/da-nang-unique/gia-ve-spicy-box.html",
+          "evidenceFile": "mall-menu-reference.json",
+          "result": "actual official mall page body retrieved in installed Chromium; visual image inspection separate"
+        }
+      ],
+      "remainingAction": null
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-nespresso",
+      "field": "hours",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Mall daily09:30–21:30 omits brand locator Friday–Sunday09:30–22:00; source conflict remains explicit.",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source.",
+      "evidenceFiles": [
+        "queue.json",
+        "search-1.json",
+        "search-2.json",
+        "open-1.json",
+        "open-2.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-nespresso",
+              "field": "hours",
+              "priorState": "unresearched",
+              "outcome": "accepted",
+              "attempts": [
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nespresso",
+                  "checkedAt": "2026-10-19",
+                  "result": "full official branch page read",
+                  "scope": "branch"
+                }
+              ],
+              "sourceValue": "9:30 - 21:30"
+            }
+          },
+          {
+            "receipt": "research-saigon/followthrough-decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-nespresso",
+              "field": "hours",
+              "outcome": "hold",
+              "sourceUrls": [
+                "https://shopping.saigoncentre.com.vn/en/store-directory/nespresso",
+                "https://nespresso.vn/vn/vi/store-locator"
+              ],
+              "reason": "Brand Saigon branch specifies Mon-Thu09:30–21:30 and Fri-Sun09:30–22:00; frozen draft mallhours09:30–21:30 must be withheld pending reconciliation.",
+              "checkedAt": "2026-10-19"
+            }
+          },
+          {
+            "receipt": "research-saigon/followthrough-decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-nespresso",
+              "field": "hours",
+              "outcome": "hold",
+              "sourceUrls": [
+                "https://shopping.saigoncentre.com.vn/en/store-directory/nespresso",
+                "https://nespresso.vn/vn/vi/store-locator"
+              ],
+              "reason": "Brand Saigon branch specifies Mon-Thu09:30–21:30 and Fri-Sun09:30–22:00; frozen draft mallhours09:30–21:30 must be withheld pending reconciliation.",
+              "checkedAt": "2026-10-19"
+            }
+          },
+          {
+            "receipt": "content-audit/decisions.json",
+            "detail": {
+              "mallId": "saigon-centre",
+              "destinationId": "saigon-prototype-nespresso",
+              "field": "hours",
+              "decision": "hold",
+              "reason": "Mall daily09:30–21:30 omits brand locator Friday–Sunday09:30–22:00; source conflict remains explicit.",
+              "sourceBindings": [
+                {
+                  "file": "research-saigon/source-blocks.json",
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nespresso",
+                  "sourceName": "Nespresso",
+                  "reference": "turn20view1",
+                  "complete": true
+                },
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nespresso",
+                  "method": "Independent fresh official read"
+                },
+                {
+                  "sourceUrl": "https://nespresso.vn/vn/vi/store-locator",
+                  "method": "Independent fresh official read"
+                }
+              ],
+              "original": {
+                "field": "hours",
+                "state": "verified-agent",
+                "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nespresso",
+                "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+                "checkedAt": "2026-10-19",
+                "applicability": "branch",
+                "verification": "source-checked",
+                "approval": "agent-accepted",
+                "uncertainty": {
+                  "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+                  "en": "Information stated on the checked official branch page; confirm current details before visiting."
+                },
+                "branchMallId": "saigon-centre",
+                "value": {
+                  "vi": "9:30 - 21:30",
+                  "en": "9:30 - 21:30"
+                },
+                "reviewedBy": "Codex Saigon source reviewer",
+                "reviewedAt": "2026-10-19"
+              }
+            }
+          }
+        ],
+        "holdReason": "Mall daily09:30–21:30 omits brand locator Friday–Sunday09:30–22:00; source conflict remains explicit.",
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-lyn",
+      "field": "hours",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Fresh brand locator Saigon Centre block says10:00–22:00 daily, conflicting with core official mall9:30–21:30. Preserve frozen core receipt, remove this field from merged acceptance and retain both source values.",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source.",
+      "evidenceFiles": [
+        "queue.json",
+        "search-1.json",
+        "search-2.json",
+        "open-1.json",
+        "open-2.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-lyn",
+              "field": "hours",
+              "priorState": "unresearched",
+              "outcome": "accepted",
+              "attempts": [
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/lyn",
+                  "checkedAt": "2026-10-19",
+                  "result": "full official branch page read",
+                  "scope": "branch"
+                }
+              ],
+              "sourceValue": "9:30 - 21:30"
+            }
+          },
+          {
+            "receipt": "content-audit/core-amendments.json",
+            "detail": {
+              "mallId": "saigon-centre",
+              "destinationId": "saigon-prototype-lyn",
+              "field": "hours",
+              "priorCoreDecision": "accept",
+              "decision": "hold",
+              "state": "evidence-conflict-hold",
+              "reason": "Fresh brand locator Saigon Centre block says10:00–22:00 daily, conflicting with core official mall9:30–21:30. Preserve frozen core receipt, remove this field from merged acceptance and retain both source values.",
+              "sources": [
+                {
+                  "sourceUrl": "https://lynvn.com/pages/content-store-location",
+                  "freshWebReference": "turn205view0",
+                  "lines": "80-84",
+                  "value": "10:00–22:00 daily"
+                },
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/lyn",
+                  "savedEvidence": "research-saigon/source-blocks.json",
+                  "value": "9:30 - 21:30"
+                }
+              ]
+            }
+          }
+        ],
+        "holdReason": "Fresh brand locator Saigon Centre block says10:00–22:00 daily, conflicting with core official mall9:30–21:30. Preserve frozen core receipt, remove this field from merged acceptance and retain both source values.",
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-bastahiroitalianrestaurant",
+      "field": "hours",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Fresh official mall hours09:30–21:30 conflict with official brand Saigon Centre hours10:30–22:00, last order21:30. No authority silently selected.",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source.",
+      "evidenceFiles": [
+        "queue.json",
+        "search-1.json",
+        "search-2.json",
+        "open-1.json",
+        "open-2.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-bastahiroitalianrestaurant",
+              "field": "hours",
+              "priorState": "unresearched",
+              "outcome": "accepted",
+              "attempts": [
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/basta-hiro",
+                  "checkedAt": "2026-10-19",
+                  "result": "full official branch page read",
+                  "scope": "branch"
+                }
+              ],
+              "sourceValue": "9:30 - 21:30"
+            }
+          },
+          {
+            "receipt": "content-audit/decisions.json",
+            "detail": {
+              "mallId": "saigon-centre",
+              "destinationId": "saigon-prototype-bastahiroitalianrestaurant",
+              "field": "hours",
+              "decision": "hold",
+              "reason": "Fresh official mall hours09:30–21:30 conflict with official brand Saigon Centre hours10:30–22:00, last order21:30. No authority silently selected.",
+              "sourceBindings": [
+                {
+                  "file": "research-saigon/source-blocks.json",
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/basta-hiro",
+                  "sourceName": "BASTA HIRO - Italian Restaurant",
+                  "reference": "turn31view4",
+                  "complete": true
+                },
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/basta-hiro",
+                  "method": "Independent fresh official read"
+                },
+                {
+                  "sourceUrl": "https://bastahiro.com.vn/en/location/?current=Vincom+Center+Dong+Khoi",
+                  "method": "Independent fresh official read"
+                }
+              ],
+              "original": {
+                "field": "hours",
+                "state": "verified-agent",
+                "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/basta-hiro",
+                "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+                "checkedAt": "2026-10-19",
+                "applicability": "branch",
+                "verification": "source-checked",
+                "approval": "agent-accepted",
+                "uncertainty": {
+                  "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+                  "en": "Information stated on the checked official branch page; confirm current details before visiting."
+                },
+                "branchMallId": "saigon-centre",
+                "value": {
+                  "vi": "9:30 - 21:30",
+                  "en": "9:30 - 21:30"
+                },
+                "reviewedBy": "Codex Saigon source reviewer",
+                "reviewedAt": "2026-10-19"
+              }
+            }
+          }
+        ],
+        "holdReason": "Fresh official mall hours09:30–21:30 conflict with official brand Saigon Centre hours10:30–22:00, last order21:30. No authority silently selected.",
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-dimtutac",
+      "field": "hours",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Mall branch page says10:00-22:00; brand main menu branch block says Mon-Sun10:00-21:30. No precedence asserted.",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source.",
+      "evidenceFiles": [
+        "queue.json",
+        "search-1.json",
+        "search-2.json",
+        "open-1.json",
+        "open-2.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-dimtutac",
+              "field": "hours",
+              "priorState": "unresearched",
+              "outcome": "hold",
+              "attempts": [
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/dim-tu-tac",
+                  "checkedAt": "2026-10-19",
+                  "result": "full official branch page read",
+                  "scope": "branch"
+                }
+              ],
+              "reason": "Mall branch page says10:00-22:00; brand main menu branch block says Mon-Sun10:00-21:30. No precedence asserted.",
+              "sourceValue": "10:00 - 22:00"
+            }
+          },
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-dimtutac",
+              "field": "hours",
+              "priorState": "unresearched",
+              "outcome": "hold",
+              "attempts": [
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/dim-tu-tac",
+                  "checkedAt": "2026-10-19",
+                  "result": "full official branch page read",
+                  "scope": "branch"
+                }
+              ],
+              "reason": "Mall branch page says10:00-22:00; brand main menu branch block says Mon-Sun10:00-21:30. No precedence asserted.",
+              "sourceValue": "10:00 - 22:00"
+            }
+          }
+        ],
+        "holdReason": "Mall branch page says10:00-22:00; brand main menu branch block says Mon-Sun10:00-21:30. No precedence asserted.",
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-rakthai",
+      "field": "description",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Official mall profile has no useful offering description; independent searches find wrong-market RAK brands. Candidate Vietnam Facebook body is throttled and exact operator/offering remains unverified.",
+      "remainingAction": "Read an accessible first-party Vietnam RAK Thai offering statement tied to this tenant.",
+      "evidenceFiles": [
+        "open-7.json",
+        "search-9.json",
+        "../saigon-dining/source-receipts.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-rakthai",
+              "field": "description",
+              "priorState": "evidence-conflict-hold",
+              "outcome": "preserved-hold",
+              "attempts": [],
+              "reason": "Existing content/identity hold is preserved. Branch enrichment does not amend descriptions or roster."
+            }
+          },
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-rakthai",
+              "field": "description",
+              "priorState": "evidence-conflict-hold",
+              "outcome": "preserved-hold",
+              "attempts": [],
+              "reason": "Existing content/identity hold is preserved. Branch enrichment does not amend descriptions or roster."
+            }
+          }
+        ],
+        "holdReason": "Existing content/identity hold is preserved. Branch enrichment does not amend descriptions or roster.",
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-somtamthai",
+      "field": "hours",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Fresh official mall hours10:00–22:00 conflict with official brand Saigon Centre hours10:30–22:00, last order21:30.",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source.",
+      "evidenceFiles": [
+        "queue.json",
+        "search-1.json",
+        "search-2.json",
+        "open-1.json",
+        "open-2.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-prototype-somtamthai",
+              "field": "hours",
+              "priorState": "unresearched",
+              "outcome": "accepted",
+              "attempts": [
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/som-%E0%B8%95%E0%B8%B3-thai",
+                  "checkedAt": "2026-10-19",
+                  "result": "full official branch page read",
+                  "scope": "branch"
+                }
+              ],
+              "sourceValue": "10:00 - 22:00"
+            }
+          },
+          {
+            "receipt": "content-audit/decisions.json",
+            "detail": {
+              "mallId": "saigon-centre",
+              "destinationId": "saigon-prototype-somtamthai",
+              "field": "hours",
+              "decision": "hold",
+              "reason": "Fresh official mall hours10:00–22:00 conflict with official brand Saigon Centre hours10:30–22:00, last order21:30.",
+              "sourceBindings": [
+                {
+                  "file": "research-saigon/source-blocks.json",
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/som-%E0%B8%95%E0%B8%B3-thai",
+                  "sourceName": "Som ตำ Thai",
+                  "reference": "turn62view1",
+                  "complete": true
+                },
+                {
+                  "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/som-%E0%B8%95%E0%B8%B3-thai",
+                  "method": "Independent fresh official read"
+                },
+                {
+                  "sourceUrl": "https://somtumthai.com.vn/en/location/?current=Vincom+Center+Dong+Khoi",
+                  "method": "Independent fresh official read"
+                }
+              ],
+              "original": {
+                "field": "hours",
+                "state": "verified-agent",
+                "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/som-%E0%B8%95%E0%B8%B3-thai",
+                "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+                "checkedAt": "2026-10-19",
+                "applicability": "branch",
+                "verification": "source-checked",
+                "approval": "agent-accepted",
+                "uncertainty": {
+                  "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+                  "en": "Information stated on the checked official branch page; confirm current details before visiting."
+                },
+                "branchMallId": "saigon-centre",
+                "value": {
+                  "vi": "10:00 - 22:00",
+                  "en": "10:00 - 22:00"
+                },
+                "reviewedBy": "Codex Saigon source reviewer",
+                "reviewedAt": "2026-10-19"
+              }
+            }
+          }
+        ],
+        "holdReason": "Fresh official mall hours10:00–22:00 conflict with official brand Saigon Centre hours10:30–22:00, last order21:30.",
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c",
+      "field": "description",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "SportFair official mall source remains placeholder S/Opening Soon at L3-42; no specific operator or product offering is established by independent brand searches.",
+      "remainingAction": "Obtain exact SportFair operator identity and an actual official product/offering statement.",
+      "evidenceFiles": [
+        "search-9.json",
+        "../saigon-retail/source-033.txt",
+        "../saigon-retail/source-083.txt"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c",
+              "field": "description",
+              "priorState": "evidence-conflict-hold",
+              "outcome": "preserved-hold",
+              "attempts": [],
+              "reason": "Existing content/identity hold is preserved. Branch enrichment does not amend descriptions or roster."
+            }
+          },
+          {
+            "receipt": "research-saigon/decisions.json",
+            "detail": {
+              "destinationId": "saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c",
+              "field": "description",
+              "priorState": "evidence-conflict-hold",
+              "outcome": "preserved-hold",
+              "attempts": [],
+              "reason": "Existing content/identity hold is preserved. Branch enrichment does not amend descriptions or roster."
+            }
+          }
+        ],
+        "holdReason": "Existing content/identity hold is preserved. Branch enrichment does not amend descriptions or roster.",
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-meatmeet",
+      "field": "phone",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Previous official sources contain conflicting corporate hotline values. Fresh rendered home/contact pages show company 02866500868, but selecting the Dong Khoi accordion reveals no branch-specific number or dated reconciliation of the conflicting corporate value.",
+      "remainingAction": "Resolve the competing corporate contacts or obtain an explicitly verified Dong Khoi branch number.",
+      "evidenceFiles": [
+        "queue.json",
+        "browser-held-followthrough.json",
+        "browser-held-detail.json",
+        "browser-held-final.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "research": {
+          "field": "phone",
+          "state": "evidence-conflict-hold",
+          "sourceUrl": "https://meatandmeet.com.vn/vi/meat-meet/",
+          "evidence": "Two different corporate hotline values appear; neither establishes Dong Khoi branch contact.",
+          "checkedAt": "2026-10-19",
+          "applicability": "unresolved",
+          "verification": "held",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Nguồn đã kiểm tra; nội dung bổ sung chưa được chủ dự án duyệt. Vui lòng xác nhận trước khi ghé.",
+            "en": "Source checked; additions await owner approval. Confirm before visiting."
+          }
+        },
+        "researchObservations": [
+          {
+            "receipt": "research-vincom/decisions.json",
+            "detail": {
+              "destinationId": "vincom-prototype-meatmeet",
+              "name": {
+                "vi": "Meat & Meet",
+                "en": "Meat & Meet"
+              },
+              "field": "phone",
+              "state": "evidence-conflict-hold",
+              "reason": "Not resolved by this pass. A directory/homepage retrieval does not exhaust all field-specific official sources."
+            }
+          }
+        ],
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-chillithai",
+      "field": "menu",
+      "checkedAt": "2026-10-20",
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/chilli-thai",
+        "url": "https://vincom.com.vn/brand/chilli-thai",
+        "evidence": "Correct-brand official Vincom profile embeds actual named Thai menu dishes, visually inspected salad-menu spread. Images are attributed by Vincom to Internet; date and current branch applicability are not established. Wrong ChillThai domain excluded.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Hình thực đơn tham khảo do Vincom đăng, ghi nguồn Internet; ngày cập nhật và áp dụng tại Đồng Khởi chưa xác định. Xác nhận món và giá với nhà hàng.",
+          "en": "Reference menu images published by Vincom with Internet attribution; update date and Dong Khoi applicability are unconfirmed. Confirm dishes and prices with the restaurant."
+        }
+      },
+      "reason": "Correct-brand official Vincom profile embeds actual named Thai menu dishes, visually inspected salad-menu spread. Images are attributed by Vincom to Internet; date and current branch applicability are not established. Wrong ChillThai domain excluded.",
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/brand/chilli-thai",
+          "evidenceFile": "mall-menu-reference.json",
+          "result": "actual official mall page body retrieved in installed Chromium; visual image inspection separate"
+        }
+      ],
+      "remainingAction": null
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-pangpang",
+      "field": "description",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Official mall profile identifies a dining tenant without concrete offerings; unrelated third-party crab-hotpot claims do not resolve exact frozen fast-food identity.",
+      "remainingAction": "Verify exact PangPang operator and offerings from an accessible primary source.",
+      "evidenceFiles": [
+        "search-9.json",
+        "open-5.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-vincom/decisions.json",
+            "detail": {
+              "destinationId": "vincom-prototype-pangpang",
+              "name": {
+                "vi": "Pang Pang",
+                "en": "Pang Pang"
+              },
+              "field": "description",
+              "state": "evidence-conflict-hold",
+              "reason": "Not resolved by this pass. A directory/homepage retrieval does not exhaust all field-specific official sources."
+            }
+          }
+        ],
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-012",
+      "field": "description",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Catia independent searches resolve unrelated CATIA software and Katia marketplace identities, not the frozen mall tenant.",
+      "remainingAction": "Establish exact tenant operator identity and first-party product evidence.",
+      "evidenceFiles": [
+        "../vincom-retail-b/search-05.json",
+        "../vincom-retail-b/target-01.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-vincom/decisions.json",
+            "detail": {
+              "destinationId": "vincom-candidate-vd-b2-012",
+              "name": {
+                "vi": "Catia",
+                "en": "Catia"
+              },
+              "field": "description",
+              "state": "evidence-conflict-hold",
+              "reason": "Not resolved by this pass. A directory/homepage retrieval does not exhaust all field-specific official sources."
+            }
+          }
+        ],
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-sehaaccessories",
+      "field": "description",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Official mall profile only classifies jewellery without concrete offerings; independent brand searches do not authenticate an exact operator.",
+      "remainingAction": "Resolve the exact Seha Accessories operator and first-party offerings.",
+      "evidenceFiles": [
+        "../vincom-retail-a/source-text/detail-seha.json",
+        "../vincom-retail-a/source-text/s18.json",
+        "../vincom-retail-a/source-text/targeted-60.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-vincom/decisions.json",
+            "detail": {
+              "destinationId": "vincom-prototype-sehaaccessories",
+              "name": {
+                "vi": "Seha Accessories",
+                "en": "Seha Accessories"
+              },
+              "field": "description",
+              "state": "evidence-conflict-hold",
+              "reason": "Not resolved by this pass. A directory/homepage retrieval does not exhaust all field-specific official sources."
+            }
+          }
+        ],
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-primaart",
+      "field": "phone",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Official PRIMA locator identifies Dong Khoi floor M while frozen Prima Art identity is B1; no evidence establishes that these are the same counter. Jewellery warranty content does not resolve this identity/location conflict.",
+      "remainingAction": "Verify whether frozen Prima Art B1 and PRIMA floor M refer to the same tenant before attaching phone or hours.",
+      "evidenceFiles": [
+        "queue.json",
+        "../vincom-retail-b/service-search-15.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-vincom/decisions.json",
+            "detail": {
+              "destinationId": "vincom-prototype-primaart",
+              "name": {
+                "vi": "Prima Art",
+                "en": "Prima Art"
+              },
+              "field": "phone",
+              "state": "unresearched",
+              "reason": "Not resolved by this pass. A directory/homepage retrieval does not exhaust all field-specific official sources."
+            }
+          },
+          {
+            "receipt": "research-vincom/decisions-incremental.json",
+            "detail": {
+              "destinationId": "vincom-prototype-primaart",
+              "fields": [
+                "phone",
+                "hours"
+              ],
+              "decision": "hold",
+              "reason": "Official index names PRIMA Dong Khoi at floorM, while frozen identity is Prima Art B1. Could be related brand/counter but exact applicability not established; direct locator also failed. No roster/location correction inferred.",
+              "sources": [
+                "https://prima.com.vn/pages/store-locator"
+              ],
+              "evidenceFiles": [
+                "incremental-stores4.txt",
+                "incremental-direct2.txt"
+              ]
+            }
+          }
+        ],
+        "holdReason": "Official index names PRIMA Dong Khoi at floorM, while frozen identity is Prima Art B1. Could be related brand/counter but exact applicability not established; direct locator also failed. No roster/location correction inferred.",
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-primaart",
+      "field": "hours",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Official PRIMA locator identifies Dong Khoi floor M while frozen Prima Art identity is B1; no evidence establishes that these are the same counter. Jewellery warranty content does not resolve this identity/location conflict.",
+      "remainingAction": "Verify whether frozen Prima Art B1 and PRIMA floor M refer to the same tenant before attaching phone or hours.",
+      "evidenceFiles": [
+        "queue.json",
+        "../vincom-retail-b/service-search-15.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-vincom/decisions.json",
+            "detail": {
+              "destinationId": "vincom-prototype-primaart",
+              "name": {
+                "vi": "Prima Art",
+                "en": "Prima Art"
+              },
+              "field": "hours",
+              "state": "unresearched",
+              "reason": "Not resolved by this pass. A directory/homepage retrieval does not exhaust all field-specific official sources."
+            }
+          },
+          {
+            "receipt": "research-vincom/decisions-incremental.json",
+            "detail": {
+              "destinationId": "vincom-prototype-primaart",
+              "fields": [
+                "phone",
+                "hours"
+              ],
+              "decision": "hold",
+              "reason": "Official index names PRIMA Dong Khoi at floorM, while frozen identity is Prima Art B1. Could be related brand/counter but exact applicability not established; direct locator also failed. No roster/location correction inferred.",
+              "sources": [
+                "https://prima.com.vn/pages/store-locator"
+              ],
+              "evidenceFiles": [
+                "incremental-stores4.txt",
+                "incremental-direct2.txt"
+              ]
+            }
+          }
+        ],
+        "holdReason": "Official index names PRIMA Dong Khoi at floorM, while frozen identity is Prima Art B1. Could be related brand/counter but exact applicability not established; direct locator also failed. No roster/location correction inferred.",
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-x-070",
+      "field": "description",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Studio77 exact official-looking domain remains inaccessible; search results identify unrelated coffee/bedding businesses and cannot authenticate this tenant.",
+      "remainingAction": "Read authenticated Studio77 Vietnam tenant/operator product information.",
+      "evidenceFiles": [
+        "../vincom-retail-b/search-07.json",
+        "../vincom-retail-b/target-04.json",
+        "../vincom-retail-b/open-18.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-vincom/decisions.json",
+            "detail": {
+              "destinationId": "vincom-candidate-vd-x-070",
+              "name": {
+                "vi": "Studio 77",
+                "en": "Studio 77"
+              },
+              "field": "description",
+              "state": "evidence-conflict-hold",
+              "reason": "Not resolved by this pass. A directory/homepage retrieval does not exhaust all field-specific official sources."
+            }
+          }
+        ],
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-dessertplanet",
+      "field": "description",
+      "checkedAt": "2026-10-20",
+      "outcome": "hold",
+      "reason": "Current mall directory names Dessert Planet but does not establish specific offerings; foreign same-name dessert businesses are not evidence for this tenant.",
+      "remainingAction": "Find an authenticated tenant/operator offering statement linked to this exact mall identity.",
+      "evidenceFiles": [
+        "search-9.json",
+        "search-10.json",
+        "open-5.json"
+      ],
+      "priorEvidence": {
+        "state": "evidence-conflict-hold",
+        "researchObservations": [
+          {
+            "receipt": "research-vincom/decisions.json",
+            "detail": {
+              "destinationId": "vincom-prototype-dessertplanet",
+              "name": {
+                "vi": "Dessert Planet",
+                "en": "Dessert Planet"
+              },
+              "field": "description",
+              "state": "evidence-conflict-hold",
+              "reason": "Not resolved by this pass. A directory/homepage retrieval does not exhaust all field-specific official sources."
+            }
+          }
+        ],
+        "researchStage": "specific-evidence-or-applicability-hold",
+        "independentBrandResearchExhausted": false
+      },
+      "independentBrandResearchExhausted": false,
+      "limit": "Exact conflict/access/identity hold; no claim that all sources everywhere were exhausted. Original source-check dates preserved in priorEvidence."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "checkedAt": "2026-10-20",
+  "decisions": [
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-abcmartgrandstage",
+      "field": "phone",
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://abc-mart.com.vn/en/pages/lien-he",
+        "evidence": "Official ABC Mart Vietnam company contact block lists028-7109-7608; this resolves a company-contact fallback only, not conflicting direct branch numbers.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Điện thoại công ty ABC-MART Việt Nam; đây không phải số riêng của cửa hàng Saigon Centre.",
+          "en": "ABC-MART Vietnam company contact; this is not a direct Saigon Centre store line."
+        },
+        "value": {
+          "vi": "02871097608",
+          "en": "02871097608"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://abc-mart.com.vn/en/pages/lien-he",
+          "evidenceFile": "abc-contact-excerpt.json",
+          "result": "retrieved official supporting source"
+        }
+      ],
+      "reason": "Official ABC Mart Vietnam company contact block lists028-7109-7608; this resolves a company-contact fallback only, not conflicting direct branch numbers.",
+      "remainingAction": null
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-runamboutique",
+      "field": "menu",
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes",
+        "evidence": "Official menu HTML links published Nuxt menu script and publicCMSAPI. Published RuNam Vietnam Day Menu id1002 includes MAIN DISHES id1055. Actual menu data GET returned7dish records including Beef Stew Fettucine and Hanoi Crab Spring Rolls; no price or branch stock claim.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thực đơn ban ngày chung của RuNam Việt Nam; món và giá tại RuNam Boutique Saigon Centre cần được xác nhận.",
+          "en": "RuNam Vietnam daytime menu; confirm dishes and prices at RuNam Boutique Saigon Centre."
+        },
+        "url": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes"
+      },
+      "sources": [
+        {
+          "url": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes",
+          "evidenceFile": "runam-official-menu.html",
+          "result": "retrieved official supporting source"
+        },
+        {
+          "url": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes",
+          "evidenceFile": "runam-menu.yJsIqaVf.js",
+          "result": "retrieved official supporting source"
+        },
+        {
+          "url": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes",
+          "evidenceFile": "runam-public-menu-collections.json",
+          "result": "retrieved official supporting source"
+        },
+        {
+          "url": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes",
+          "evidenceFile": "runam-public-menu-collections-receipt.json",
+          "result": "retrieved official supporting source"
+        },
+        {
+          "url": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes",
+          "evidenceFile": "runam-public-main-dishes.json",
+          "result": "retrieved official supporting source"
+        },
+        {
+          "url": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes",
+          "evidenceFile": "runam-public-main-dishes-receipt.json",
+          "result": "retrieved official supporting source"
+        }
+      ],
+      "reason": "Official menu HTML links published Nuxt menu script and publicCMSAPI. Published RuNam Vietnam Day Menu id1002 includes MAIN DISHES id1055. Actual menu data GET returned7dish records including Beef Stew Fettucine and Hanoi Crab Spring Rolls; no price or branch stock claim.",
+      "remainingAction": null
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-017",
+      "field": "website",
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "website",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.gnc.com/",
+        "evidence": "Actual official GNC website displays GNC vitamins/supplements/protein categories and products, matching frozen approved brand description. This is the international/US site; gnc.com.vn is an unrelated agricultural company and excluded.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Website quốc tế của GNC hiển thị thị trường Hoa Kỳ; không xác nhận hàng hóa, giá hoặc dịch vụ tại Việt Nam.",
+          "en": "International GNC website showing the US market; Vietnamese products, prices and services are not confirmed."
+        },
+        "url": "https://www.gnc.com/"
+      },
+      "sources": [
+        {
+          "url": "https://www.gnc.com/",
+          "evidenceFile": "open-6.json",
+          "result": "retrieved official supporting source"
+        },
+        {
+          "url": "https://www.gnc.com/",
+          "evidenceFile": "../vincom-retail-a/source-text/catalog-gnc.json",
+          "result": "retrieved official supporting source"
+        },
+        {
+          "url": "https://www.gnc.com/",
+          "evidenceFile": "../vincom-retail-a/source-text/s6.json",
+          "result": "retrieved official supporting source"
+        }
+      ],
+      "reason": "Actual official GNC website displays GNC vitamins/supplements/protein categories and products, matching frozen approved brand description. This is the international/US site; gnc.com.vn is an unrelated agricultural company and excluded.",
+      "remainingAction": null
+    }
+  ]
+}

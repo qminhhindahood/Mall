@@ -1,0 +1,65 @@
+{
+  "revision": "r3-independent-content-audit-final-merge-contract",
+  "checkedAt": "2026-10-20",
+  "originalQueueKeys": 1315,
+  "reviewedKeys": 1315,
+  "pendingAuditKeys": 0,
+  "unresearchedKeys": 0,
+  "originalQueueDecisions": {
+    "accept": 815,
+    "hold": 476,
+    "unavailable-after-research": 24
+  },
+  "byLane": {
+    "holds": {
+      "accept": 24,
+      "hold": 19
+    },
+    "saigon-dining": {
+      "accept": 90,
+      "unavailable-after-research": 8,
+      "hold": 45
+    },
+    "saigon-retail": {
+      "accept": 208,
+      "hold": 18
+    },
+    "vincom-dining": {
+      "accept": 142,
+      "unavailable-after-research": 6,
+      "hold": 144
+    },
+    "vincom-retail-a": {
+      "accept": 171,
+      "hold": 140
+    },
+    "vincom-retail-b": {
+      "accept": 180,
+      "hold": 110,
+      "unavailable-after-research": 10
+    }
+  },
+  "baselineSnapshotFields": 658,
+  "explicitOutsideQueueBaselineHolds": 16,
+  "exactRetainedBaselineFields": 642,
+  "expandedReviewedKeys": 1331,
+  "newAcceptedFields": 815,
+  "expectedActiveAcceptedFields": 1457,
+  "expectedDestinationRecords": 350,
+  "expectedAcceptanceFile": "content-audit/expected-merged-acceptance.json",
+  "expectedAcceptanceSha256": "355497aaf7f0d243646724eacc9ca0ca47de87a81455e3e4d254cb5f33adaa47",
+  "reviewAmendmentsSha256": "c1b5e5f9eda67c0c3bd9e5277ca760372313752e7dfde8a06f2af92455a57c25",
+  "approvedDirectoriesExact": true,
+  "allBoundInputHashesValid": true,
+  "boundFileCount": 608,
+  "sourceIntegrationPending": true,
+  "reviewMethod": "Central independent full value/source binding and scope review; independent cross-lane retail reviewers; fresh primary reads concentrated on practical details/conflicts/identity and representative roles; saved complete browser receipts and actual menu/catalogue/form/PDF/image material reviewed. Does not claim every source was independently re-fetched. Hash/envelope checks aid reconciliation and do not establish factual truth.",
+  "remainingLimits": [
+    "Specific identity, authority, access, conflicting-value and field-applicability holds retain exact next actions.",
+    "Bounded unavailable concerns only the named checked public-source families and queries; it is not permanent/global nonexistence.",
+    "No branch telephone/hours copied between malls. Foreign/regional/subset/menu-reference scope remains explicit.",
+    "No live call, booking, purchase or publication performed. Source integration and runtime/build validation remain coordinator-owned."
+  ],
+  "preIntegrationAcceptedSha256": "25ac0766a17bb0f05af40967136f43c7bab737201f7b8ddbb0fe80c11832de94",
+  "sourceInputManifestSha256": "8aef7aacc7e71934984b251fff8ac23df5ebfbf271ca4eb8f06f5aa4edc523f0"
+}

@@ -1,0 +1,13 @@
+import json,pathlib,copy,hashlib
+ROOT=pathlib.Path(__file__).resolve().parent;PACKET=ROOT.parent
+def read(p):return json.loads(p.read_text(encoding='utf-8-sig'))
+def write(p,x):p.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+baseline=read(ROOT/'baseline-accepted.json');items=read(ROOT/'baseline-amendments.json')['records']
+src=PACKET/'vincom-dining/browser-final-sources.json';browser=read(src);row=next(x for x in browser if x['url']=='https://kichi.com.vn/dat-ban');text=row['text'];start=text.index('Kichi-Kichi Saigon Centre');end=text.index('Đặt bàn',start)
+evidence=[('saigon-prototype-kichikichi','09:00 - 22:00',{'sourceUrl':row['url'],'file':'content-audit/kichi-baseline-conflict-receipt.json','method':'Independently audited complete saved researcher browser row; independent text reader is empty, no independent browser rerender claimed.'}),('saigon-prototype-sushihokkaidosachi','10:30 - 22:00; last order21:30',{'sourceUrl':'https://sushihokkaidosachi.com.vn/en/location/?current=Vincom+Center+Dong+Khoi','freshWebReference':'turn749view0','section':'Saigon Centre separate branch block41-47: L5-16/17,67LeLoi, phone02838218944,10:30-22:00,lastorder21:30'})]
+for identity,new,binding in evidence:
+ old=next(f for r in baseline['records']if r['destinationId']==identity for f in r['fields']if f['field']=='hours')
+ d={'mallId':'saigon-centre','destinationId':identity,'field':'hours','auditDecision':'hold','originalAcceptedField':copy.deepcopy(old),'reason':'Competing official branch schedules: original mall-page accepted hours '+old['value']['en']+' versus official brand locator '+new+'. Exact Saigon Centre branch identity and phone match; retain conflict without selecting one schedule.','evidenceBindings':[{'sourceUrl':old['sourceUrl'],'method':'Exact field retained from frozen658 baseline.'},binding],'remainingAction':'Obtain dated official reconciliation of Saigon Centre operating hours from the mall or restaurant before restoring verified hours.','reviewedAt':'2026-10-20','reviewedBy':'Codex independent content auditor (AI)','authorization':'Parent authorized explicit evidence-warranted baseline corrections outside original1315 queue; no silent replacement.'}
+ items=[x for x in items if x['destinationId']!=identity]+[d]
+write(ROOT/'kichi-baseline-conflict-receipt.json',{'sourceUrl':row['url'],'checkedAt':row['checkedAt'],'branchText':text[start:end].strip(),'originalReceipt':str(src.relative_to(PACKET)),'sha256':hashlib.sha256(src.read_bytes()).hexdigest()});write(ROOT/'baseline-amendments.json',{'records':items})
+print('Kichi and Sachi hours explicitly held; total5outside-queue baseline amendments.')

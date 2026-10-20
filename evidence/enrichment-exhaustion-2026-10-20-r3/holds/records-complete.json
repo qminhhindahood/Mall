@@ -1,0 +1,544 @@
+{
+  "revision": "r3-held-lane-complete-proposals",
+  "records": [
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-beautybox",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "value": {
+            "vi": "1800 6035",
+            "en": "1800 6035"
+          },
+          "sourceUrl": "https://beautybox.com.vn/help-center",
+          "evidence": "Exact official contact evidence: open-1.json, turn304view0 lines47-53. Explicit scope and routing instructions retained. No call or connection verification.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Chăm sóc khách hàng BEAUTY BOX; đây không phải số điện thoại riêng của cửa hàng.",
+            "en": "BEAUTY BOX customer support; this is not a direct store line."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-christianlouboutin",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "value": {
+            "vi": "1900 2666",
+            "en": "1900 2666"
+          },
+          "sourceUrl": "https://www.dafc.com.vn/en/contact/",
+          "evidence": "Exact official contact evidence: open-2.json, turn350view1 lines4-28 and brandnav; r2mall identifiesDAFCdistributor. Explicit scope and routing instructions retained. No call or connection verification.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Chăm sóc khách hàng của nhà phân phối DAFC; đây không phải số điện thoại riêng của cửa hàng.",
+            "en": "DAFC distributor customer support; this is not a direct boutique line."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-aldo",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "value": {
+            "vi": "1900 066899",
+            "en": "1900 066899"
+          },
+          "sourceUrl": "https://aldoshoes.vn/pages/lien-he",
+          "evidence": "Exact official contact evidence: open-3.json, turn396view0 lines96-111. Explicit scope and routing instructions retained. No call or connection verification.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Tư vấn bán hàng trực tuyến và chăm sóc sau bán hàng ALDO Việt Nam; đây không phải số riêng của cửa hàng.",
+            "en": "ALDO Vietnam online sales and after-sales support; this is not a direct store line."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-labellab",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "value": {
+            "vi": "+84 814 112 589",
+            "en": "+84 814 112 589"
+          },
+          "sourceUrl": "https://www.dafc.com.vn/en/product_brand/label-lab/",
+          "evidence": "Exact official contact evidence: open-2.json, turn350view0 lines71-75. Explicit scope and routing instructions retained. No call or connection verification.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Nhà phân phối chính thức niêm yết số này cho Label Lab Saigon Centre, L2-17. Vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "The official distributor lists this contact specifically for Label Lab Saigon Centre, L2-17. Confirm current contact before visiting."
+          },
+          "branchMallId": "saigon-centre"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-tierradiamondjewelry",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "value": {
+            "vi": "1900 232 354",
+            "en": "1900 232 354"
+          },
+          "sourceUrl": "https://www.tierra.vn/kham-pha-cua-hang",
+          "evidence": "Exact official contact evidence: open-3.json, turn396view1 lines97,169-174; samehotlineonmultiplebranches. Explicit scope and routing instructions retained. No call or connection verification.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Hotline chăm sóc khách hàng Tierra dùng chung cho các cửa hàng; đây không phải số riêng của chi nhánh.",
+            "en": "Tierra customer hotline shared by its stores; this is not a dedicated branch line."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-gigi",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "value": {
+            "vi": "1900 252 538",
+            "en": "1900 252 538"
+          },
+          "sourceUrl": "https://gigi.com.vn/pages/lien-he",
+          "evidence": "Exact official contact evidence: open-2.json, turn350view2 lines80-93. Explicit scope and routing instructions retained. No call or connection verification.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Chăm sóc khách hàng GIGI Việt Nam; đây không phải số điện thoại riêng của cửa hàng.",
+            "en": "GIGI Vietnam customer support; this is not a direct store line."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-leejeans",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "value": {
+            "vi": "1900 299268",
+            "en": "1900 299268"
+          },
+          "sourceUrl": "https://leejeans.vn/pages/lien-he",
+          "evidence": "Exact official contact evidence: open-4.json, turn398view2 lines96-106; dedicatedLEEcontact distinctfromMaisonfooter1900252538. Explicit scope and routing instructions retained. No call or connection verification.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Chăm sóc khách hàng Lee Việt Nam; đây không phải số riêng của cửa hàng. Trang nguồn còn niêm yết hotline chung của nhà phân phối.",
+            "en": "Lee Vietnam customer support; this is not a direct store line. The page separately lists the distributor’s general hotline."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-levis",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "value": {
+            "vi": "1900 3038",
+            "en": "1900 3038"
+          },
+          "sourceUrl": "https://www.acfc.com.vn/contact",
+          "evidence": "Exact official contact evidence: find-1.json, turn405view1 lines86-92,172; Levi ACFC relationship open-4.json turn398view3 products. Explicit scope and routing instructions retained. No call or connection verification.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Chăm sóc khách hàng của nhà phân phối ACFC cho sản phẩm Levi’s; đây không phải số riêng của cửa hàng.",
+            "en": "ACFC distributor customer support for Levi’s purchases; this is not a direct store line."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-matinkimvietnam",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "value": {
+            "vi": "1900 63 64 01",
+            "en": "1900 63 64 01"
+          },
+          "sourceUrl": "https://matinkim.vn/",
+          "evidence": "Exact official contact evidence: find-1.json, turn405view0 lines358-373; excludes separateethicsline18001713. Explicit scope and routing instructions retained. No call or connection verification.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Hotline chăm sóc khách hàng Matin Kim Việt Nam; đây không phải số riêng của cửa hàng hoặc xác nhận tình trạng mở cửa của chi nhánh.",
+            "en": "Matin Kim Vietnam customer hotline; this is not a direct store line or confirmation of this branch’s opening status."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-thegioikimcuong",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "value": {
+            "vi": "1800 9298",
+            "en": "1800 9298"
+          },
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/diamond-world",
+          "evidence": "Exact official contact evidence: ../../continuation-2026-10-19-r2/research-saigon/source-blocks.json, turn81view1 completebranchread retained19Oct. Explicit scope and routing instructions retained. No call or connection verification.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Trang trung tâm niêm yết máy lẻ 130 cho chi nhánh này. Gọi số tổng đài rồi yêu cầu máy lẻ 130; liên kết chỉ quay số tổng đài.",
+            "en": "The mall lists extension 130 for this branch. Call the main number and request extension 130; the link dials the main number only."
+          },
+          "branchMallId": "saigon-centre"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-phuclongcoffeetea",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "value": {
+            "vi": "028 7100 1968",
+            "en": "028 7100 1968"
+          },
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/phuc-long-coffee-tea",
+          "evidence": "Exact official contact evidence: ../../continuation-2026-10-19-r2/research-saigon/source-blocks.json, turn88view0 completebranchread retained19Oct. Explicit scope and routing instructions retained. No call or connection verification.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Trang trung tâm niêm yết máy lẻ 20348 cho chi nhánh này. Gọi số tổng đài rồi yêu cầu máy lẻ 20348; liên kết chỉ quay số tổng đài.",
+            "en": "The mall lists extension 20348 for this branch. Call the main number and request extension 20348; the link dials the main number only."
+          },
+          "branchMallId": "saigon-centre"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-abcmartgrandstage",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://abc-mart.com.vn/en/pages/lien-he",
+          "evidence": "Official ABC Mart Vietnam company contact block lists028-7109-7608; this resolves a company-contact fallback only, not conflicting direct branch numbers.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Điện thoại công ty ABC-MART Việt Nam; đây không phải số riêng của cửa hàng Saigon Centre.",
+            "en": "ABC-MART Vietnam company contact; this is not a direct Saigon Centre store line."
+          },
+          "value": {
+            "vi": "02871097608",
+            "en": "02871097608"
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-runamboutique",
+      "fields": [
+        {
+          "field": "menu",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes",
+          "evidence": "Official menu HTML links published Nuxt menu script and publicCMSAPI. Published RuNam Vietnam Day Menu id1002 includes MAIN DISHES id1055. Actual menu data GET returned7dish records including Beef Stew Fettucine and Hanoi Crab Spring Rolls; no price or branch stock claim.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thực đơn ban ngày chung của RuNam Việt Nam; món và giá tại RuNam Boutique Saigon Centre cần được xác nhận.",
+            "en": "RuNam Vietnam daytime menu; confirm dishes and prices at RuNam Boutique Saigon Centre."
+          },
+          "url": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-017",
+      "fields": [
+        {
+          "field": "website",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://www.gnc.com/",
+          "evidence": "Actual official GNC website displays GNC vitamins/supplements/protein categories and products, matching frozen approved brand description. This is the international/US site; gnc.com.vn is an unrelated agricultural company and excluded.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Website quốc tế của GNC hiển thị thị trường Hoa Kỳ; không xác nhận hàng hóa, giá hoặc dịch vụ tại Việt Nam.",
+            "en": "International GNC website showing the US market; Vietnamese products, prices and services are not confirmed."
+          },
+          "url": "https://www.gnc.com/"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-gogihouse",
+      "fields": [
+        {
+          "field": "menu",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://gogi.com.vn/thuc-don",
+          "evidence": "Actual browser HCM menu displays named beef combos and menu categories; former text-reader shell limitation resolved.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thực đơn thương hiệu hiển thị khu vực TP.HCM; xác nhận món và giá tại Saigon Centre.",
+            "en": "Brand menu showing the HCM region; confirm dishes and prices at Saigon Centre."
+          },
+          "url": "https://gogi.com.vn/thuc-don"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-lachcalachcach",
+      "fields": [
+        {
+          "field": "menu",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://lachcalachcach.com.vn/thuc-don",
+          "evidence": "Actual official page renders Lách Ca menu image sequence, visually checked branded cover, pho dishes and appetizers. This is HN/Premium presentation, not the previously mismatched GoGi target.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thực đơn Lách Ca Lách Cách hiển thị khu vực Hà Nội/Premium; xác nhận món và giá tại Saigon Centre.",
+            "en": "Lách Ca Lách Cách menu showing Hanoi/Premium; confirm dishes and prices at Saigon Centre."
+          },
+          "url": "https://lachcalachcach.com.vn/thuc-don"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-truffleco",
+      "fields": [
+        {
+          "field": "booking",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://www.truffleco.vn/sgc-reservation-1-1",
+          "evidence": "Actual SGC reservation page now renders table size/date/time controls and Book Now for Saigon Centre B2; prior unavailable text-reader response preserved. No request submitted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Trang yêu cầu đặt bàn Saigon Centre đã tải được; tình trạng bàn và xác nhận đặt chỗ do nhà hàng quyết định.",
+            "en": "Saigon Centre reservation-request page loaded; table availability and confirmation depend on the restaurant."
+          },
+          "url": "https://www.truffleco.vn/sgc-reservation-1-1",
+          "branchMallId": "saigon-centre"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-cgv",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://www.cgv.vn/en/contacts/",
+          "evidence": "Official customer-service section explicitly prints19006017; actual browser content resolves text-reader retrieval failure.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Hotline chăm sóc khách hàng CGV Việt Nam; đây không phải số điện thoại riêng của rạp Đồng Khởi.",
+            "en": "CGV Vietnam customer-service hotline; this is not a direct Đồng Khởi cinema number."
+          },
+          "value": {
+            "vi": "19006017",
+            "en": "19006017"
+          }
+        },
+        {
+          "field": "programme",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://www.cgv.vn/default/cinox/site/cgv-vincom-dong-khoi/",
+          "evidence": "Actual branch page names CGV Vincom Đồng Khởi, L3/72LeThanhTon and renders dates, film titles and showtimes. No ticket purchase or availability guarantee.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Xem lịch chiếu trực tiếp của CGV Đồng Khởi; suất chiếu và vé có thể thay đổi.",
+            "en": "View the live CGV Đồng Khởi programme; showtimes and tickets may change."
+          },
+          "url": "https://www.cgv.vn/default/cinox/site/cgv-vincom-dong-khoi/",
+          "branchMallId": "vincom-dong-khoi"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-sanfulou",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://sanfulou.com/en/contact/#1615431930682-d0881886-e8bf",
+          "evidence": "Selected official Vincom Dong Khoi tab names Lot28A,B3,72LeThanhTon and phone02839106586, distinct from defaultLeLai tab.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Số điện thoại theo mục chi nhánh Đồng Khởi trên website; chưa gọi thử.",
+            "en": "Number from the Đồng Khởi branch tab; no call was placed."
+          },
+          "value": {
+            "vi": "02839106586",
+            "en": "02839106586"
+          },
+          "branchMallId": "vincom-dong-khoi"
+        },
+        {
+          "field": "hours",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://sanfulou.com/en/contact/#1615431930682-d0881886-e8bf",
+          "evidence": "Selected official Vincom Dong Khoi tab says Monday–Sunday09:30am–10pm; not defaultLeLai overnight hours.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Giờ theo mục chi nhánh Đồng Khởi; xác nhận lịch ngày lễ trước khi ghé.",
+            "en": "Hours from the Đồng Khởi branch tab; confirm holiday schedules before visiting."
+          },
+          "value": {
+            "vi": "Hằng ngày: 09:30–22:00",
+            "en": "Daily: 09:30–22:00"
+          },
+          "branchMallId": "vincom-dong-khoi"
+        },
+        {
+          "field": "menu",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://sanfulou.com/thuc-don/",
+          "evidence": "Official menu landing explicitly includes Vincom Dong Khoi among Cantonese Buffet branches; linked7pagePDF retrieved and text/cover inspected, actualdimsum,noodle/maincourse listings. Other restaurant/hotpot menus on landing have differentbranchscope.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thực đơn buffet Quảng Đông được website liệt kê cho Đồng Khởi; xác nhận gói buffet, món và giá hiện tại.",
+            "en": "Cantonese buffet menu listed by the website for Đồng Khởi; confirm current buffet options, dishes and prices."
+          },
+          "url": "https://sanfulou.com/wp-content/uploads/2026/03/MENU-CANTONESE-BUFFET.pdf",
+          "branchMallId": "vincom-dong-khoi"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-spicybox",
+      "fields": [
+        {
+          "field": "menu",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://danangthanhkhe.aeonmall-vietnam.com/en/da-nang-unique/gia-ve-spicy-box.html",
+          "url": "https://danangthanhkhe.aeonmall-vietnam.com/en/da-nang-unique/gia-ve-spicy-box.html",
+          "evidence": "Actual official AEON mall article lists named sauces, rice-cake varieties, side dishes and extras. This is a July2026 Da Nang reference menu, not a Saigon Centre branch menu; no prices or policy transplanted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thực đơn tham khảo do AEON MALL Đà Nẵng Thanh Khê đăng, cập nhật tháng 7/2026; không phải thực đơn riêng của Saigon Centre. Xác nhận món và giá tại chi nhánh.",
+            "en": "Reference menu published by AEON MALL Da Nang Thanh Khe, updated July2026; not the Saigon Centre branch menu. Confirm local dishes and prices."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-chillithai",
+      "fields": [
+        {
+          "field": "menu",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://vincom.com.vn/brand/chilli-thai",
+          "url": "https://vincom.com.vn/brand/chilli-thai",
+          "evidence": "Correct-brand official Vincom profile embeds actual named Thai menu dishes, visually inspected salad-menu spread. Images are attributed by Vincom to Internet; date and current branch applicability are not established. Wrong ChillThai domain excluded.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Hình thực đơn tham khảo do Vincom đăng, ghi nguồn Internet; ngày cập nhật và áp dụng tại Đồng Khởi chưa xác định. Xác nhận món và giá với nhà hàng.",
+            "en": "Reference menu images published by Vincom with Internet attribution; update date and Dong Khoi applicability are unconfirmed. Confirm dishes and prices with the restaurant."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "lane": "saigon-retail",
+  "checkedAt": "2026-10-20",
+  "status": "all-assigned-fields-reviewed-proposals-await-independent-audit",
+  "destinations": 113,
+  "queuedFields": 226,
+  "outcomes": {
+    "proposal": 206,
+    "hold": 20
+  },
+  "proposalFieldsByType": {
+    "catalog": 91,
+    "services": 109,
+    "phone": 6
+  },
+  "holdsByType": {
+    "operator/field-role identity": 1,
+    "incomplete product retrieval": 1,
+    "authority and retrieval": 2,
+    "catalogue authority unresolved": 1,
+    "incomplete branch-locator retrieval": 1,
+    "catalogue identity unresolved": 5,
+    "production authority unresolved": 1,
+    "incomplete retrieval and market authority": 1,
+    "JavaScript branch-locator retrieval": 2,
+    "action authority and role unresolved": 1,
+    "contact-action retrieval": 1,
+    "identity and offering hold": 3
+  },
+  "unresearched": 0,
+  "boundedUnavailable": 0,
+  "sourceReceiptFiles": 90,
+  "accepted658Preserved": true,
+  "sourceAcceptedSha256": "25ac0766a17bb0f05af40967136f43c7bab737201f7b8ddbb0fe80c11832de94",
+  "limits": [
+    "Indexed official representations and reader retrievals; no live occupancy, calls, stock, delivery, on-site or release acceptance.",
+    "No source/tracker/assets/build/frozen-preview changes.",
+    "All held actions expose no runtime value/action.",
+    "No personal owner approval fabricated; all positive fields remain proposals pending delegated audit."
+  ]
+}

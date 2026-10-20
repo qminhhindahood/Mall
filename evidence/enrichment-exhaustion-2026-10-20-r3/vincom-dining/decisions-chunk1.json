@@ -1,0 +1,2603 @@
+{
+  "lane": "vincom-dining",
+  "range": [
+    0,
+    8
+  ],
+  "decisions": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-002",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Pepper Lunch\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-01.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Pepper Lunch\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-01.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Pepper Lunch\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pepper-lunch.vn/",
+          "evidenceFile": "source-pepper.txt",
+          "reference": "turn319view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn319view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.pepper-lunch.vn/\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://www"
+        },
+        {
+          "url": "https://pepper-lunch.vn/en/menu/pepper-lunch.html",
+          "evidenceFile": "source-pepper.txt",
+          "reference": "turn319view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn319view1 [wordlim: 200] Source: open({\"ref_id\":\"https://pepper-lunch.vn/en/menu/pepper-lunch.html\",\"lineno\":null}); Total lines: 1\nL0: Failed"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "cuisine",
+      "reason": "Official Vietnam homepage and real menu path return403. Branch and official-menu/contact searches identify those paths but cannot supply readable current source content.",
+      "remainingAction": "Recover readable official Pepper Lunch Vietnam home/menu/store locator; confirm Dong Khoi row before branch phone/hours.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-002",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Pepper Lunch\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-01.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Pepper Lunch\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-01.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Pepper Lunch\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pepper-lunch.vn/",
+          "evidenceFile": "source-pepper.txt",
+          "reference": "turn319view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn319view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.pepper-lunch.vn/\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://www"
+        },
+        {
+          "url": "https://pepper-lunch.vn/en/menu/pepper-lunch.html",
+          "evidenceFile": "source-pepper.txt",
+          "reference": "turn319view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn319view1 [wordlim: 200] Source: open({\"ref_id\":\"https://pepper-lunch.vn/en/menu/pepper-lunch.html\",\"lineno\":null}); Total lines: 1\nL0: Failed"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "website",
+      "reason": "Official Vietnam homepage and real menu path return403. Branch and official-menu/contact searches identify those paths but cannot supply readable current source content.",
+      "remainingAction": "Recover readable official Pepper Lunch Vietnam home/menu/store locator; confirm Dong Khoi row before branch phone/hours.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-002",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Pepper Lunch\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-01.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Pepper Lunch\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-01.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Pepper Lunch\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pepper-lunch.vn/",
+          "evidenceFile": "source-pepper.txt",
+          "reference": "turn319view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn319view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.pepper-lunch.vn/\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://www"
+        },
+        {
+          "url": "https://pepper-lunch.vn/en/menu/pepper-lunch.html",
+          "evidenceFile": "source-pepper.txt",
+          "reference": "turn319view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn319view1 [wordlim: 200] Source: open({\"ref_id\":\"https://pepper-lunch.vn/en/menu/pepper-lunch.html\",\"lineno\":null}); Total lines: 1\nL0: Failed"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "phone",
+      "reason": "Official Vietnam homepage and real menu path return403. Branch and official-menu/contact searches identify those paths but cannot supply readable current source content.",
+      "remainingAction": "Recover readable official Pepper Lunch Vietnam home/menu/store locator; confirm Dong Khoi row before branch phone/hours.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-002",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Pepper Lunch\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-01.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Pepper Lunch\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-01.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Pepper Lunch\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pepper-lunch.vn/",
+          "evidenceFile": "source-pepper.txt",
+          "reference": "turn319view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn319view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.pepper-lunch.vn/\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://www"
+        },
+        {
+          "url": "https://pepper-lunch.vn/en/menu/pepper-lunch.html",
+          "evidenceFile": "source-pepper.txt",
+          "reference": "turn319view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn319view1 [wordlim: 200] Source: open({\"ref_id\":\"https://pepper-lunch.vn/en/menu/pepper-lunch.html\",\"lineno\":null}); Total lines: 1\nL0: Failed"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "hours",
+      "reason": "Official Vietnam homepage and real menu path return403. Branch and official-menu/contact searches identify those paths but cannot supply readable current source content.",
+      "remainingAction": "Recover readable official Pepper Lunch Vietnam home/menu/store locator; confirm Dong Khoi row before branch phone/hours.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-002",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Pepper Lunch\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-01.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Pepper Lunch\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-01.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Pepper Lunch\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pepper-lunch.vn/",
+          "evidenceFile": "source-pepper.txt",
+          "reference": "turn319view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn319view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.pepper-lunch.vn/\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://www"
+        },
+        {
+          "url": "https://pepper-lunch.vn/en/menu/pepper-lunch.html",
+          "evidenceFile": "source-pepper.txt",
+          "reference": "turn319view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn319view1 [wordlim: 200] Source: open({\"ref_id\":\"https://pepper-lunch.vn/en/menu/pepper-lunch.html\",\"lineno\":null}); Total lines: 1\nL0: Failed"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "menu",
+      "reason": "Official Vietnam homepage and real menu path return403. Branch and official-menu/contact searches identify those paths but cannot supply readable current source content.",
+      "remainingAction": "Recover readable official Pepper Lunch Vietnam home/menu/store locator; confirm Dong Khoi row before branch phone/hours.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-002",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Pepper Lunch\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-01.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Pepper Lunch\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-01.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Pepper Lunch\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pepper-lunch.vn/",
+          "evidenceFile": "source-pepper.txt",
+          "reference": "turn319view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn319view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.pepper-lunch.vn/\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://www"
+        },
+        {
+          "url": "https://pepper-lunch.vn/en/menu/pepper-lunch.html",
+          "evidenceFile": "source-pepper.txt",
+          "reference": "turn319view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn319view1 [wordlim: 200] Source: open({\"ref_id\":\"https://pepper-lunch.vn/en/menu/pepper-lunch.html\",\"lineno\":null}); Total lines: 1\nL0: Failed"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "booking",
+      "reason": "Official Vietnam homepage and real menu path return403. Branch and official-menu/contact searches identify those paths but cannot supply readable current source content.",
+      "remainingAction": "Recover readable official Pepper Lunch Vietnam home/menu/store locator; confirm Dong Khoi row before branch phone/hours.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-002",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Pepper Lunch\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-01.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Pepper Lunch\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-01.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Pepper Lunch\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.pepper-lunch.vn/",
+          "evidenceFile": "source-pepper.txt",
+          "reference": "turn319view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn319view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.pepper-lunch.vn/\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://www"
+        },
+        {
+          "url": "https://pepper-lunch.vn/en/menu/pepper-lunch.html",
+          "evidenceFile": "source-pepper.txt",
+          "reference": "turn319view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn319view1 [wordlim: 200] Source: open({\"ref_id\":\"https://pepper-lunch.vn/en/menu/pepper-lunch.html\",\"lineno\":null}); Total lines: 1\nL0: Failed"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "services",
+      "reason": "Official Vietnam homepage and real menu path return403. Branch and official-menu/contact searches identify those paths but cannot supply readable current source content.",
+      "remainingAction": "Recover readable official Pepper Lunch Vietnam home/menu/store locator; confirm Dong Khoi row before branch phone/hours.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-gogihouse",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Gogi House\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-01.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Gogi House\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-01.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Gogi House\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://gogi.com.vn/thuc-don",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/thuc-don)\nciteturn320view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"h"
+        },
+        {
+          "url": "https://gogi.com.vn/dat-ban",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/dat-ban)\nciteturn320view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"ht"
+        },
+        {
+          "evidenceFile": "browser-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained"
+        },
+        {
+          "evidenceFile": "browser-goldengate-hcm.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/gogi-house-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "phone",
+      "reason": "Chrome HCM row Gogi House Vincom Le Thanh Ton,70-72LeThanhTon:02873000917; browser-goldengate-hcm.json.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://gogi.com.vn/dat-ban",
+        "evidence": "Chrome HCM row Gogi House Vincom Le Thanh Ton,70-72LeThanhTon:02873000917; browser-goldengate-hcm.json.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+          "en": "Information from the checked official source; confirm current details before visiting."
+        },
+        "branchMallId": "vincom-dong-khoi",
+        "value": {
+          "vi": "02873000917",
+          "en": "02873000917"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-gogihouse",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Gogi House\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-01.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Gogi House\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-01.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Gogi House\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://gogi.com.vn/thuc-don",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/thuc-don)\nciteturn320view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"h"
+        },
+        {
+          "url": "https://gogi.com.vn/dat-ban",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/dat-ban)\nciteturn320view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"ht"
+        },
+        {
+          "evidenceFile": "browser-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained"
+        },
+        {
+          "evidenceFile": "browser-goldengate-hcm.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/gogi-house-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "hours",
+      "reason": "Same official HCM branch row: Open-Close09:00-22:00.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "hours",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://gogi.com.vn/dat-ban",
+        "evidence": "Same official HCM branch row: Open-Close09:00-22:00.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+          "en": "Information from the checked official source; confirm current details before visiting."
+        },
+        "branchMallId": "vincom-dong-khoi",
+        "value": {
+          "vi": "09:00–22:00",
+          "en": "09:00–22:00"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-gogihouse",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Gogi House\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-01.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Gogi House\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-01.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Gogi House\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://gogi.com.vn/thuc-don",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/thuc-don)\nciteturn320view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"h"
+        },
+        {
+          "url": "https://gogi.com.vn/dat-ban",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/dat-ban)\nciteturn320view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"ht"
+        },
+        {
+          "evidenceFile": "browser-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained"
+        },
+        {
+          "evidenceFile": "browser-goldengate-hcm.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/gogi-house-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "menu",
+      "reason": "Chrome renders HCM food categories and actual named combos, not navigation alone. No prices copied.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://gogi.com.vn/thuc-don",
+        "evidence": "Chrome renders HCM food categories and actual named combos, not navigation alone. No prices copied.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "url": "https://gogi.com.vn/thuc-don"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-gogihouse",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Gogi House\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-01.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Gogi House\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-01.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Gogi House\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://gogi.com.vn/thuc-don",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/thuc-don)\nciteturn320view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"h"
+        },
+        {
+          "url": "https://gogi.com.vn/dat-ban",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/dat-ban)\nciteturn320view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"ht"
+        },
+        {
+          "evidenceFile": "browser-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained"
+        },
+        {
+          "evidenceFile": "browser-goldengate-hcm.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/gogi-house-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "booking",
+      "reason": "Official HCM restaurant list exposes a Dat ban action for Vincom Le Thanh Ton. Link to chooser, no reservation submitted.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "booking",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://gogi.com.vn/dat-ban",
+        "evidence": "Official HCM restaurant list exposes a Dat ban action for Vincom Le Thanh Ton. Link to chooser, no reservation submitted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "url": "https://gogi.com.vn/dat-ban"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-gogihouse",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Gogi House\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-01.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Gogi House\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-01.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Gogi House\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://gogi.com.vn/thuc-don",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/thuc-don)\nciteturn320view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"h"
+        },
+        {
+          "url": "https://gogi.com.vn/dat-ban",
+          "evidenceFile": "source-gogi.txt",
+          "reference": "turn320view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/dat-ban)\nciteturn320view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"ht"
+        },
+        {
+          "evidenceFile": "browser-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained"
+        },
+        {
+          "evidenceFile": "browser-goldengate-hcm.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/gogi-house-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Checked official HCM menu, branch reservation locator and targeted services/contact search expose dining and reservation only; no separate named ancillary service found in these checked sources. Menu/booking are modeled separately; no inferred service facilities.",
+      "remainingAction": null,
+      "outcome": "unavailable-after-research",
+      "boundedScope": "Only the listed official pages/sections and targeted searches; not global absence."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-meatmeet",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Meat & Meet\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-02.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Meat & Meet\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-02.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Meat & Meet\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://meatandmeet.com.vn/vi/meat-meet/",
+          "evidenceFile": "source-meatmeet.txt",
+          "reference": "turn322view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Trang Chủ – Meat & Meet | (https://meatandmeet.com.vn/vi/meat-meet/)\nciteturn322view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"h"
+        },
+        {
+          "url": "https://meatandmeet.com.vn/contact-us/branch-vincom-dong-khoi/",
+          "evidenceFile": "source-follow-meat-hoang.txt",
+          "reference": "turn451view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn451view0 [wordlim: 200] Source: open({\"ref_id\":\"https://meatandmeet.com.vn/contact-us/branch-vincom-dong-khoi/\",\"lineno\":null}); Total lines:"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/vi/thuc-don/",
+          "evidenceFile": "source-follow-meat-hoang.txt",
+          "reference": "turn451view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn451view1 [wordlim: 200] Source: open({\"ref_id\":\"https://hoangyenbuffet.com/vi/thuc-don/\",\"lineno\":null}); Total lines: 1\nL0: URL https://hoan"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/vi/lien-he/",
+          "evidenceFile": "source-follow-meat-hoang.txt",
+          "reference": "turn451view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn451view2 [wordlim: 200] Source: open({\"ref_id\":\"https://hoangyenbuffet.com/vi/lien-he/\",\"lineno\":null}); Total lines: 1\nL0: URL https://hoang"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://meatandmeet.com.vn/vi/meat-meet/",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "menu",
+          "sourceUrl": "https://meatandmeet.com.vn/vi/menu/",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "hours",
+      "reason": "Official brand homepage has menu/footer but the official Dong Khoi contact path discovered by targeted search cannot be retrieved. Corporate footer contacts conflict and are not branch substitutes.",
+      "remainingAction": "Restore readable branch contact page or obtain branch-specific official opening-hours/reservation/service evidence.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-meatmeet",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Meat & Meet\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-02.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Meat & Meet\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-02.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Meat & Meet\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://meatandmeet.com.vn/vi/meat-meet/",
+          "evidenceFile": "source-meatmeet.txt",
+          "reference": "turn322view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Trang Chủ – Meat & Meet | (https://meatandmeet.com.vn/vi/meat-meet/)\nciteturn322view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"h"
+        },
+        {
+          "url": "https://meatandmeet.com.vn/contact-us/branch-vincom-dong-khoi/",
+          "evidenceFile": "source-follow-meat-hoang.txt",
+          "reference": "turn451view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn451view0 [wordlim: 200] Source: open({\"ref_id\":\"https://meatandmeet.com.vn/contact-us/branch-vincom-dong-khoi/\",\"lineno\":null}); Total lines:"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/vi/thuc-don/",
+          "evidenceFile": "source-follow-meat-hoang.txt",
+          "reference": "turn451view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn451view1 [wordlim: 200] Source: open({\"ref_id\":\"https://hoangyenbuffet.com/vi/thuc-don/\",\"lineno\":null}); Total lines: 1\nL0: URL https://hoan"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/vi/lien-he/",
+          "evidenceFile": "source-follow-meat-hoang.txt",
+          "reference": "turn451view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn451view2 [wordlim: 200] Source: open({\"ref_id\":\"https://hoangyenbuffet.com/vi/lien-he/\",\"lineno\":null}); Total lines: 1\nL0: URL https://hoang"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://meatandmeet.com.vn/vi/meat-meet/",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "menu",
+          "sourceUrl": "https://meatandmeet.com.vn/vi/menu/",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "booking",
+      "reason": "Official brand homepage has menu/footer but the official Dong Khoi contact path discovered by targeted search cannot be retrieved. Corporate footer contacts conflict and are not branch substitutes.",
+      "remainingAction": "Restore readable branch contact page or obtain branch-specific official opening-hours/reservation/service evidence.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-meatmeet",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Meat & Meet\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-02.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Meat & Meet\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-02.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Meat & Meet\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://meatandmeet.com.vn/vi/meat-meet/",
+          "evidenceFile": "source-meatmeet.txt",
+          "reference": "turn322view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Trang Chủ – Meat & Meet | (https://meatandmeet.com.vn/vi/meat-meet/)\nciteturn322view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"h"
+        },
+        {
+          "url": "https://meatandmeet.com.vn/contact-us/branch-vincom-dong-khoi/",
+          "evidenceFile": "source-follow-meat-hoang.txt",
+          "reference": "turn451view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn451view0 [wordlim: 200] Source: open({\"ref_id\":\"https://meatandmeet.com.vn/contact-us/branch-vincom-dong-khoi/\",\"lineno\":null}); Total lines:"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/vi/thuc-don/",
+          "evidenceFile": "source-follow-meat-hoang.txt",
+          "reference": "turn451view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn451view1 [wordlim: 200] Source: open({\"ref_id\":\"https://hoangyenbuffet.com/vi/thuc-don/\",\"lineno\":null}); Total lines: 1\nL0: URL https://hoan"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/vi/lien-he/",
+          "evidenceFile": "source-follow-meat-hoang.txt",
+          "reference": "turn451view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn451view2 [wordlim: 200] Source: open({\"ref_id\":\"https://hoangyenbuffet.com/vi/lien-he/\",\"lineno\":null}); Total lines: 1\nL0: URL https://hoang"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://meatandmeet.com.vn/vi/meat-meet/",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "menu",
+          "sourceUrl": "https://meatandmeet.com.vn/vi/menu/",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Official brand homepage has menu/footer but the official Dong Khoi contact path discovered by targeted search cannot be retrieved. Corporate footer contacts conflict and are not branch substitutes.",
+      "remainingAction": "Restore readable branch contact page or obtain branch-specific official opening-hours/reservation/service evidence.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-005",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Lẩu MK\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-02.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Lẩu MK\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-02.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Lẩu MK\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mkrestaurant.com/en/?lang=vi",
+          "evidenceFile": "source-mk.txt",
+          "reference": "turn321view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn321view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.mkrestaurant.com/en/?lang=vi\",\"lineno\":null}); Total lines: 1\nL0: URL https://www"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "cuisine",
+      "reason": "MK official international site cannot be accessed; Vietnamese branch searches return third-party records only. Thailand-market information does not establish Vietnam franchise scope.",
+      "remainingAction": "Identify readable official Vietnam operator/branch source; do not substitute unrelated MK branches.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-005",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Lẩu MK\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-02.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Lẩu MK\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-02.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Lẩu MK\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mkrestaurant.com/en/?lang=vi",
+          "evidenceFile": "source-mk.txt",
+          "reference": "turn321view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn321view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.mkrestaurant.com/en/?lang=vi\",\"lineno\":null}); Total lines: 1\nL0: URL https://www"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "website",
+      "reason": "MK official international site cannot be accessed; Vietnamese branch searches return third-party records only. Thailand-market information does not establish Vietnam franchise scope.",
+      "remainingAction": "Identify readable official Vietnam operator/branch source; do not substitute unrelated MK branches.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-005",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Lẩu MK\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-02.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Lẩu MK\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-02.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Lẩu MK\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mkrestaurant.com/en/?lang=vi",
+          "evidenceFile": "source-mk.txt",
+          "reference": "turn321view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn321view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.mkrestaurant.com/en/?lang=vi\",\"lineno\":null}); Total lines: 1\nL0: URL https://www"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "phone",
+      "reason": "MK official international site cannot be accessed; Vietnamese branch searches return third-party records only. Thailand-market information does not establish Vietnam franchise scope.",
+      "remainingAction": "Identify readable official Vietnam operator/branch source; do not substitute unrelated MK branches.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-005",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Lẩu MK\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-02.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Lẩu MK\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-02.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Lẩu MK\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mkrestaurant.com/en/?lang=vi",
+          "evidenceFile": "source-mk.txt",
+          "reference": "turn321view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn321view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.mkrestaurant.com/en/?lang=vi\",\"lineno\":null}); Total lines: 1\nL0: URL https://www"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "hours",
+      "reason": "MK official international site cannot be accessed; Vietnamese branch searches return third-party records only. Thailand-market information does not establish Vietnam franchise scope.",
+      "remainingAction": "Identify readable official Vietnam operator/branch source; do not substitute unrelated MK branches.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-005",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Lẩu MK\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-02.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Lẩu MK\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-02.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Lẩu MK\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mkrestaurant.com/en/?lang=vi",
+          "evidenceFile": "source-mk.txt",
+          "reference": "turn321view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn321view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.mkrestaurant.com/en/?lang=vi\",\"lineno\":null}); Total lines: 1\nL0: URL https://www"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "menu",
+      "reason": "MK official international site cannot be accessed; Vietnamese branch searches return third-party records only. Thailand-market information does not establish Vietnam franchise scope.",
+      "remainingAction": "Identify readable official Vietnam operator/branch source; do not substitute unrelated MK branches.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-005",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Lẩu MK\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-02.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Lẩu MK\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-02.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Lẩu MK\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mkrestaurant.com/en/?lang=vi",
+          "evidenceFile": "source-mk.txt",
+          "reference": "turn321view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn321view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.mkrestaurant.com/en/?lang=vi\",\"lineno\":null}); Total lines: 1\nL0: URL https://www"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "booking",
+      "reason": "MK official international site cannot be accessed; Vietnamese branch searches return third-party records only. Thailand-market information does not establish Vietnam franchise scope.",
+      "remainingAction": "Identify readable official Vietnam operator/branch source; do not substitute unrelated MK branches.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-005",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Lẩu MK\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-02.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Lẩu MK\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-02.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Lẩu MK\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mkrestaurant.com/en/?lang=vi",
+          "evidenceFile": "source-mk.txt",
+          "reference": "turn321view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn321view0 [wordlim: 200] Source: open({\"ref_id\":\"https://www.mkrestaurant.com/en/?lang=vi\",\"lineno\":null}); Total lines: 1\nL0: URL https://www"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "services",
+      "reason": "MK official international site cannot be accessed; Vietnamese branch searches return third-party records only. Thailand-market information does not establish Vietnam franchise scope.",
+      "remainingAction": "Identify readable official Vietnam operator/branch source; do not substitute unrelated MK branches.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-huedelights",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Huế Delights\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-03.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Huế Delights\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-03.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Huế Delights\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.facebook.com/NhahangHueDelights/?locale=vi_VN",
+          "evidenceFile": "source-hue.txt",
+          "reference": "turn333view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Facebook (https://www.facebook.com/NhahangHueDelights/?locale=vi_VN)\nciteturn333view0 [wordlim: 200] Crawled: 1.4 years ago; Content type: text/html; Source: open({\"re"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/hue-delights-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "phone",
+      "reason": "The supplied brand Facebook page returns Temporarily Blocked/login shell. Official branch/store searches yield mall identity and third-party practical details, which are not promoted.",
+      "remainingAction": "Recover public readable brand/branch Facebook information or independently verified official operator website.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-huedelights",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Huế Delights\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-03.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Huế Delights\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-03.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Huế Delights\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.facebook.com/NhahangHueDelights/?locale=vi_VN",
+          "evidenceFile": "source-hue.txt",
+          "reference": "turn333view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Facebook (https://www.facebook.com/NhahangHueDelights/?locale=vi_VN)\nciteturn333view0 [wordlim: 200] Crawled: 1.4 years ago; Content type: text/html; Source: open({\"re"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/hue-delights-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "hours",
+      "reason": "The supplied brand Facebook page returns Temporarily Blocked/login shell. Official branch/store searches yield mall identity and third-party practical details, which are not promoted.",
+      "remainingAction": "Recover public readable brand/branch Facebook information or independently verified official operator website.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-huedelights",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Huế Delights\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-03.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Huế Delights\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-03.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Huế Delights\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.facebook.com/NhahangHueDelights/?locale=vi_VN",
+          "evidenceFile": "source-hue.txt",
+          "reference": "turn333view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Facebook (https://www.facebook.com/NhahangHueDelights/?locale=vi_VN)\nciteturn333view0 [wordlim: 200] Crawled: 1.4 years ago; Content type: text/html; Source: open({\"re"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/hue-delights-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "menu",
+      "reason": "The supplied brand Facebook page returns Temporarily Blocked/login shell. Official branch/store searches yield mall identity and third-party practical details, which are not promoted.",
+      "remainingAction": "Recover public readable brand/branch Facebook information or independently verified official operator website.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-huedelights",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Huế Delights\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-03.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Huế Delights\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-03.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Huế Delights\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.facebook.com/NhahangHueDelights/?locale=vi_VN",
+          "evidenceFile": "source-hue.txt",
+          "reference": "turn333view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Facebook (https://www.facebook.com/NhahangHueDelights/?locale=vi_VN)\nciteturn333view0 [wordlim: 200] Crawled: 1.4 years ago; Content type: text/html; Source: open({\"re"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/hue-delights-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "booking",
+      "reason": "The supplied brand Facebook page returns Temporarily Blocked/login shell. Official branch/store searches yield mall identity and third-party practical details, which are not promoted.",
+      "remainingAction": "Recover public readable brand/branch Facebook information or independently verified official operator website.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-huedelights",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Huế Delights\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-03.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Huế Delights\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-03.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Huế Delights\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.facebook.com/NhahangHueDelights/?locale=vi_VN",
+          "evidenceFile": "source-hue.txt",
+          "reference": "turn333view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Facebook (https://www.facebook.com/NhahangHueDelights/?locale=vi_VN)\nciteturn333view0 [wordlim: 200] Crawled: 1.4 years ago; Content type: text/html; Source: open({\"re"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/hue-delights-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "The supplied brand Facebook page returns Temporarily Blocked/login shell. Official branch/store searches yield mall identity and third-party practical details, which are not promoted.",
+      "remainingAction": "Recover public readable brand/branch Facebook information or independently verified official operator website.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-007",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Hoàng Yến\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-03.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Hoàng Yến\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-03.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Hoàng Yến\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://hoangyencuisine.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Trang chủ - Hoang Yen Cuisine (https://hoangyencuisine.com/)\nciteturn330view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://h"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Buffet món Việt – TPHCM - Hoàng Yến Buffet (https://hoangyenbuffet.com/)\nciteturn330view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/menu/mon-chinh/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Món chính - Hoàng Yến Buffet (https://hoangyenbuffet.com/menu/mon-chinh/)\nciteturn458view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/lien-he/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Liên hệ - Hoàng Yến Buffet (https://hoangyenbuffet.com/lien-he/)\nciteturn458view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "cuisine",
+      "reason": "Official site identifies Buffet mon Viet, supported by actual main-course dish page.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "cuisine",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://hoangyenbuffet.com/",
+        "evidence": "Official site identifies Buffet mon Viet, supported by actual main-course dish page.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "value": {
+          "vi": "Buffet món Việt",
+          "en": "Vietnamese buffet"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-007",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Hoàng Yến\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-03.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Hoàng Yến\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-03.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Hoàng Yến\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://hoangyencuisine.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Trang chủ - Hoang Yen Cuisine (https://hoangyencuisine.com/)\nciteturn330view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://h"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Buffet món Việt – TPHCM - Hoàng Yến Buffet (https://hoangyenbuffet.com/)\nciteturn330view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/menu/mon-chinh/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Món chính - Hoàng Yến Buffet (https://hoangyenbuffet.com/menu/mon-chinh/)\nciteturn458view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/lien-he/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Liên hệ - Hoàng Yến Buffet (https://hoangyenbuffet.com/lien-he/)\nciteturn458view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "website",
+      "reason": "Official Buffet mon Viet brand home and corporate footer; this is brand-wide, not evidence that Dong Khoi remains in current locator.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "website",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://hoangyenbuffet.com/",
+        "evidence": "Official Buffet mon Viet brand home and corporate footer; this is brand-wide, not evidence that Dong Khoi remains in current locator.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "url": "https://hoangyenbuffet.com/"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-007",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Hoàng Yến\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-03.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Hoàng Yến\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-03.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Hoàng Yến\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://hoangyencuisine.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Trang chủ - Hoang Yen Cuisine (https://hoangyencuisine.com/)\nciteturn330view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://h"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Buffet món Việt – TPHCM - Hoàng Yến Buffet (https://hoangyenbuffet.com/)\nciteturn330view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/menu/mon-chinh/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Món chính - Hoàng Yến Buffet (https://hoangyenbuffet.com/menu/mon-chinh/)\nciteturn458view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/lien-he/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Liên hệ - Hoàng Yến Buffet (https://hoangyenbuffet.com/lien-he/)\nciteturn458view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "phone",
+      "reason": "Official contact page lists company telephone and Van Hanh branch only, with no confirmed Dong Khoi number.",
+      "remainingAction": "Obtain an official Dong Khoi branch contact; do not use company or Van Hanh number as branch phone.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-007",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Hoàng Yến\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-03.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Hoàng Yến\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-03.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Hoàng Yến\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://hoangyencuisine.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Trang chủ - Hoang Yen Cuisine (https://hoangyencuisine.com/)\nciteturn330view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://h"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Buffet món Việt – TPHCM - Hoàng Yến Buffet (https://hoangyenbuffet.com/)\nciteturn330view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/menu/mon-chinh/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Món chính - Hoàng Yến Buffet (https://hoangyenbuffet.com/menu/mon-chinh/)\nciteturn458view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/lien-he/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Liên hệ - Hoàng Yến Buffet (https://hoangyenbuffet.com/lien-he/)\nciteturn458view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "hours",
+      "reason": "Hoang Yen Buffet official home, actual main-course menu and contact locator read. Contact locator exposes Van Hanh Mall, not Dong Khoi; company T number is not a branch line.",
+      "remainingAction": "Resolve current Dong Khoi branch applicability from official branch source before phone/hours or branch service claims.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-007",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Hoàng Yến\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-03.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Hoàng Yến\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-03.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Hoàng Yến\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://hoangyencuisine.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Trang chủ - Hoang Yen Cuisine (https://hoangyencuisine.com/)\nciteturn330view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://h"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Buffet món Việt – TPHCM - Hoàng Yến Buffet (https://hoangyenbuffet.com/)\nciteturn330view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/menu/mon-chinh/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Món chính - Hoàng Yến Buffet (https://hoangyenbuffet.com/menu/mon-chinh/)\nciteturn458view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/lien-he/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Liên hệ - Hoàng Yến Buffet (https://hoangyenbuffet.com/lien-he/)\nciteturn458view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "menu",
+      "reason": "Official main-course page has actual named dishes, not empty menu navigation. Brand-wide only.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://hoangyenbuffet.com/menu/mon-chinh/",
+        "evidence": "Official main-course page has actual named dishes, not empty menu navigation. Brand-wide only.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "url": "https://hoangyenbuffet.com/menu/mon-chinh/"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-007",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Hoàng Yến\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-03.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Hoàng Yến\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-03.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Hoàng Yến\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://hoangyencuisine.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Trang chủ - Hoang Yen Cuisine (https://hoangyencuisine.com/)\nciteturn330view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://h"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Buffet món Việt – TPHCM - Hoàng Yến Buffet (https://hoangyenbuffet.com/)\nciteturn330view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/menu/mon-chinh/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Món chính - Hoàng Yến Buffet (https://hoangyenbuffet.com/menu/mon-chinh/)\nciteturn458view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/lien-he/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Liên hệ - Hoàng Yến Buffet (https://hoangyenbuffet.com/lien-he/)\nciteturn458view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "booking",
+      "reason": "Official contact form asks only name/email/message; it is not a table-booking form, and current locator omits Dong Khoi.",
+      "remainingAction": "Resolve Dong Khoi branch applicability and real reservation channel; do not repurpose general contact form.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-007",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Hoàng Yến\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-03.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Hoàng Yến\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-03.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Hoàng Yến\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://hoangyencuisine.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Trang chủ - Hoang Yen Cuisine (https://hoangyencuisine.com/)\nciteturn330view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://h"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/",
+          "evidenceFile": "source-hoangyen.txt",
+          "reference": "turn330view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Buffet món Việt – TPHCM - Hoàng Yến Buffet (https://hoangyenbuffet.com/)\nciteturn330view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/menu/mon-chinh/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Món chính - Hoàng Yến Buffet (https://hoangyenbuffet.com/menu/mon-chinh/)\nciteturn458view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_"
+        },
+        {
+          "url": "https://hoangyenbuffet.com/lien-he/",
+          "evidenceFile": "source-follow-hoang-exact.txt",
+          "reference": "turn458view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Liên hệ - Hoàng Yến Buffet (https://hoangyenbuffet.com/lien-he/)\nciteturn458view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn"
+        }
+      ],
+      "acceptedSourceReuse": [],
+      "field": "services",
+      "reason": "Current official locator has no Dong Khoi branch, while branded pages concern general buffet offerings.",
+      "remainingAction": "Confirm current branch service scope before copying delivery, group dining or other brand offerings to branch.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-morico",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Morico\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-04.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Morico\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-04.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Morico\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://morico.life/menu/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Menu - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/menu/)\nciteturn331view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open"
+        },
+        {
+          "url": "https://morico.life/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Home - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/)\nciteturn331view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"re"
+        },
+        {
+          "url": "https://morico.life/about/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "About - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/about/)\nciteturn459view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: cl"
+        },
+        {
+          "url": "https://morico.life/delivery/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Delivery - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/delivery/)\nciteturn459view1 [wordlim: 200] Crawled: last week; Content type: text/html; "
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/morico-vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "phone",
+      "reason": "Official company Kamo Message us contact(+84)903667426. Brand contact only; not the Vincom branch phone.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://morico.life/menu/",
+        "evidence": "Official company Kamo Message us contact(+84)903667426. Brand contact only; not the Vincom branch phone.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "value": {
+          "vi": "+84 90 366 74 26",
+          "en": "+84 90 366 74 26"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-morico",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Morico\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-04.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Morico\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-04.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Morico\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://morico.life/menu/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Menu - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/menu/)\nciteturn331view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open"
+        },
+        {
+          "url": "https://morico.life/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Home - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/)\nciteturn331view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"re"
+        },
+        {
+          "url": "https://morico.life/about/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "About - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/about/)\nciteturn459view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: cl"
+        },
+        {
+          "url": "https://morico.life/delivery/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Delivery - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/delivery/)\nciteturn459view1 [wordlim: 200] Crawled: last week; Content type: text/html; "
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/morico-vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "hours",
+      "reason": "Morico current official menu/about/delivery pages read; delivery listing explicitly includes70-72LeThanhTon Vincom Shopping Mall. General contact is brand-wide; no branch operating-hours block found.",
+      "remainingAction": "For branch hours recover actual official branch row; generic delivery and general contact must keep declared scope.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-morico",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Morico\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-04.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Morico\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-04.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Morico\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://morico.life/menu/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Menu - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/menu/)\nciteturn331view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open"
+        },
+        {
+          "url": "https://morico.life/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Home - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/)\nciteturn331view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"re"
+        },
+        {
+          "url": "https://morico.life/about/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "About - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/about/)\nciteturn459view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: cl"
+        },
+        {
+          "url": "https://morico.life/delivery/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Delivery - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/delivery/)\nciteturn459view1 [wordlim: 200] Crawled: last week; Content type: text/html; "
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/morico-vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "menu",
+      "reason": "Official page exposes Vietnamese/English dessert menus and dining/lunch/seasonal menu image assets. No item availability or prices copied.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://morico.life/menu/",
+        "evidence": "Official page exposes Vietnamese/English dessert menus and dining/lunch/seasonal menu image assets. No item availability or prices copied.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "url": "https://morico.life/menu/"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-morico",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Morico\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-04.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Morico\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-04.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Morico\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://morico.life/menu/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Menu - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/menu/)\nciteturn331view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open"
+        },
+        {
+          "url": "https://morico.life/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Home - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/)\nciteturn331view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"re"
+        },
+        {
+          "url": "https://morico.life/about/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "About - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/about/)\nciteturn459view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: cl"
+        },
+        {
+          "url": "https://morico.life/delivery/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Delivery - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/delivery/)\nciteturn459view1 [wordlim: 200] Crawled: last week; Content type: text/html; "
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/morico-vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "booking",
+      "reason": "Checked official homepage/menu/about/delivery pages and targeted reservation/services query have food-delivery ordering but no table-reservation form/action or booking policy. Delivery ordering is not dining reservation; no other obvious reservation route in checked navigation.",
+      "remainingAction": null,
+      "outcome": "unavailable-after-research",
+      "boundedScope": "Only the listed official pages/sections and targeted searches; not global absence."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-morico",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Morico\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-04.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Morico\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-04.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Morico\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://morico.life/menu/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Menu - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/menu/)\nciteturn331view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open"
+        },
+        {
+          "url": "https://morico.life/",
+          "evidenceFile": "source-morico.txt",
+          "reference": "turn331view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Home - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/)\nciteturn331view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"re"
+        },
+        {
+          "url": "https://morico.life/about/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "About - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/about/)\nciteturn459view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: cl"
+        },
+        {
+          "url": "https://morico.life/delivery/",
+          "evidenceFile": "source-follow-morico.txt",
+          "reference": "turn459view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Delivery - MORICO - Contemporary Japanese Restaurant Cafe (https://morico.life/delivery/)\nciteturn459view1 [wordlim: 200] Crawled: last week; Content type: text/html; "
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/morico-vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Official delivery page specifically lists70-72LeThanhTon,Vincom Shopping Mall and See Menu&Order.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://morico.life/delivery/",
+        "evidence": "Official delivery page specifically lists70-72LeThanhTon,Vincom Shopping Mall and See Menu&Order.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+          "en": "Information from the checked official source; confirm current details before visiting."
+        },
+        "branchMallId": "vincom-dong-khoi",
+        "value": {
+          "vi": "Đặt món giao hàng qua liên kết đặt hàng của Morico; xác nhận khu vực và khả năng phục vụ.",
+          "en": "Delivery ordering through Morico’s linked ordering channel; confirm delivery area and availability."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-highlandscoffee",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Highlands Coffee\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-04.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Highlands Coffee\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-04.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Highlands Coffee\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://wrap-roll.com/",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/follow1.txt",
+          "reference": "turn98view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Wrap & Roll (https://wrap-roll.com/)\nciteturn98view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn93view12\",\"lineno\":null}); Tot"
+        },
+        {
+          "url": "https://congcaphe.com/",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/follow1.txt",
+          "reference": "turn98view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Cộng Cà Phê (https://congcaphe.com/)\nciteturn98view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn93view16\",\"lineno\":null}); Tot"
+        },
+        {
+          "url": "https://gogi.com.vn/",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/follow1.txt",
+          "reference": "turn98view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Gogi House | Quán Thịt Nướng Hàn Quốc (https://gogi.com.vn/)\nciteturn98view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn93view"
+        },
+        {
+          "url": "https://www.highlandscoffee.com.vn/vn/san-pham.html",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/follow1.txt",
+          "reference": "turn98view3",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Thực đơn | Highlands Coffee (https://www.highlandscoffee.com.vn/vn/san-pham.html)\nciteturn98view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: click"
+        },
+        {
+          "url": "https://somtumthai.com.vn/en/location/?current=Vincom+Center+Dong+Khoi",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/follow1.txt",
+          "reference": "turn98view4",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Som ตำ Thai | Location (https://somtumthai.com.vn/en/location/?current=Vincom+Center+Dong+Khoi)\nciteturn98view4 [wordlim: 200] Crawled: 2 months ago; Content type: tex"
+        },
+        {
+          "url": "https://bastahiro.com.vn/en/location/?current=Vincom+Center+Dong+Khoi",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/follow1.txt",
+          "reference": "turn98view5",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Basta Hiro | Location (https://bastahiro.com.vn/en/location/?current=Vincom+Center+Dong+Khoi)\nciteturn98view5 [wordlim: 200] Crawled: last month; Content type: text/ht"
+        },
+        {
+          "url": "https://oddmenu.com/vi/p/chillthai",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/follow1.txt",
+          "reference": "turn98view6",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "OddMenu (https://oddmenu.com/vi/p/chillthai)\nciteturn98view6 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn93view8\",\"id\":3}); To"
+        },
+        {
+          "url": "https://www.starbucks.vn/store-locator/",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-vincom/follow1.txt",
+          "reference": "turn98view7",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Starbucks Coffee Company (https://www.starbucks.vn/store-locator/)\nciteturn98view7 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"tur"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/highlands-coffee-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "menu",
+          "sourceUrl": "https://www.highlandscoffee.com.vn/vn/san-pham.html",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "cuisine",
+      "reason": "Reused audited r2 actual official menu categories coffee,tea,Freeze,bakery; source research-vincom/follow1.txt.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "cuisine",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.highlandscoffee.com.vn/vn/san-pham.html",
+        "evidence": "Reused audited r2 actual official menu categories coffee,tea,Freeze,bakery; source research-vincom/follow1.txt.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "value": {
+          "vi": "Cà phê, trà, đồ uống đá xay và bánh",
+          "en": "Coffee, tea, blended drinks and bakery items"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-highlandscoffee",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Highlands Coffee\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-04.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Highlands Coffee\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-04.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Highlands Coffee\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "browser-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/highlands-coffee-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "menu",
+          "sourceUrl": "https://www.highlandscoffee.com.vn/vn/san-pham.html",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "phone",
+      "reason": "Official brand homepage title explicitly advertises delivery hotline19001755. Brand-wide ordering hotline, not branch phone.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.highlandscoffee.com.vn/",
+        "evidence": "Official brand homepage title explicitly advertises delivery hotline19001755. Brand-wide ordering hotline, not branch phone.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "value": {
+          "vi": "19001755",
+          "en": "19001755"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-highlandscoffee",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Highlands Coffee\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-04.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Highlands Coffee\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-04.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Highlands Coffee\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "browser-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/highlands-coffee-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "menu",
+          "sourceUrl": "https://www.highlandscoffee.com.vn/vn/san-pham.html",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "hours",
+      "reason": "Official Highlands home/menu reused from r2; current official locator returns403 Cloudflare in Chrome and text tool offers empty interactive results.",
+      "remainingAction": "Recover official branch locator data without bypassing access restrictions; delivery hotline remains brand-wide.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-highlandscoffee",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Highlands Coffee\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-04.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Highlands Coffee\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-04.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Highlands Coffee\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "browser-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/highlands-coffee-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "menu",
+          "sourceUrl": "https://www.highlandscoffee.com.vn/vn/san-pham.html",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "booking",
+      "reason": "Official home/menu/navigation has ordering, not reservation; branch locator is403 in Chrome, so local reservation policy cannot be checked.",
+      "remainingAction": "Recover official branch details and check reservation policy; do not relabel delivery ordering as booking.",
+      "outcome": "hold"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-highlandscoffee",
+      "checkedAt": "2026-10-20",
+      "searches": [
+        {
+          "query": "\"Highlands Coffee\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-04.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads."
+        },
+        {
+          "query": "\"Highlands Coffee\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-04.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded."
+        },
+        {
+          "query": "\"Highlands Coffee\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-1.txt",
+          "result": "Exact field/branch source results retained."
+        }
+      ],
+      "sources": [
+        {
+          "evidenceFile": "browser-sources.json",
+          "section": "saved browser text, links and inputs",
+          "result": "browser-retrieved; inspect per-row status/error",
+          "support": "Exact body text retained"
+        }
+      ],
+      "acceptedSourceReuse": [
+        {
+          "field": "website",
+          "sourceUrl": "https://vincom.com.vn/store/highlands-coffee-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "receipt": "../shared-accepted-source-index.json"
+        },
+        {
+          "field": "menu",
+          "sourceUrl": "https://www.highlandscoffee.com.vn/vn/san-pham.html",
+          "receipt": "../shared-accepted-source-index.json"
+        }
+      ],
+      "field": "services",
+      "reason": "Official homepage links DAT HANG to order.highlandscoffee.com.vn and advertises delivery; general brand service only.",
+      "remainingAction": null,
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "services",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.highlandscoffee.com.vn/",
+        "evidence": "Official homepage links DAT HANG to order.highlandscoffee.com.vn and advertises delivery; general brand service only.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+          "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+        },
+        "value": {
+          "vi": "Đặt món qua kênh giao hàng của Highlands; xác nhận địa chỉ và phạm vi giao hàng.",
+          "en": "Order through Highlands’ delivery channel; confirm address and delivery coverage."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-20",
+  "method": "Exact field-key set and full accepted-object equality against final independently reviewed expected merge;642 retained baseline objects exact,16 explicitly removed conflict objects absent; approved directory byte hashes unchanged. No inference from aggregate counts alone.",
+  "sourceFile": "D:\\Midterm\\.scratch\\combined-discovery-motion-2026-10-19\\src\\data\\enrichment-accepted.json",
+  "sourceSha256": "1a44f9f9b29e42341a9ab77b055a1a2cdfd4269d2dacf0396c87fc1f1b974297",
+  "expectedAcceptanceSha256": "355497aaf7f0d243646724eacc9ca0ca47de87a81455e3e4d254cb5f33adaa47",
+  "fields": 1457,
+  "records": 350,
+  "missingKeys": [],
+  "extraKeys": [],
+  "changedFieldObjects": [],
+  "retainedBaselineExactFields": 642,
+  "explicitBaselineConflictFieldsRemoved": 16,
+  "approvedDirectoryHashes": {
+    "data/malls/saigon-centre/directory.json": "ffade29ada11d158619a2d58758611b210423bd609b3a4bf4f82b1af88fd5b2c",
+    "data/malls/vincom-dong-khoi/directory.json": "b38b55ab32108efeef2a3cb751f2142fc04c61ba94c4825d50080786ad810c14"
+  },
+  "passed": true,
+  "sourceCommit": "71e5def12a781513efd115045ba4f2f3a4cbaa3c"
+}

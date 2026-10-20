@@ -1,0 +1,464 @@
+{
+  "revision": "independent-root-held-final21",
+  "inputs": [
+    {
+      "file": "holds/mall-menu-reference.json",
+      "sha256": "b3a261367d69d37b09fd41d69ee0a1a820b8f248c261844ebf397db3cbbd21e3"
+    },
+    {
+      "file": "holds/chilli-menu-reference.jpg",
+      "sha256": "6a54640953db25747e3ef0e0cf65d31db85347afad94359c24c7e6ab9ba1a840"
+    },
+    {
+      "file": "holds/chunk-final-decisions.json",
+      "sha256": "c8dbaa2cd6b4a9fb68ce0900dc4b65c608f34a23760dd319b5dc3eb40957d8be"
+    },
+    {
+      "file": "holds/decisions-complete.json",
+      "sha256": "ffa91bb5f47462876a6f5c304ec35fe946f86e5026b65fa7148d042d5a9d94cc"
+    },
+    {
+      "file": "holds/mall-menu-reference.json",
+      "sha256": "b3a261367d69d37b09fd41d69ee0a1a820b8f248c261844ebf397db3cbbd21e3"
+    },
+    {
+      "file": "holds/records-complete.json",
+      "sha256": "b1c0e00ce7590c5eead3da6c8434e0553dc15f8097a29a91cebd6f26417546ef"
+    },
+    {
+      "file": "holds/spicy-menu-reference.jpg",
+      "sha256": "f044f622f9a2ffe5186a66e7ce366fdacfbb18fdb14c601d8b43c51377c02240"
+    }
+  ],
+  "decisions": [
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-annamgourmet",
+      "field": "phone",
+      "reason": "Mall branch contact/hours disagree with official Annam B2-11,12 branch source; unresolved.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "saigon-prototype-annamgourmet/phone",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-annamgourmet",
+      "field": "hours",
+      "reason": "Mall branch contact/hours disagree with official Annam B2-11,12 branch source; unresolved.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "saigon-prototype-annamgourmet/hours",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-annamcafe",
+      "field": "phone",
+      "reason": "Official Annam brand branch source explicitly covers B2-11,12 and differs from cafe mall page phone/weekend hours; scope cannot safely separate.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "saigon-prototype-annamcafe/phone",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-annamcafe",
+      "field": "hours",
+      "reason": "Official Annam brand branch source explicitly covers B2-11,12 and differs from cafe mall page phone/weekend hours; scope cannot safely separate.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "saigon-prototype-annamcafe/hours",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-spicybox",
+      "field": "menu",
+      "reason": "Actual official AEON mall article lists named sauces, rice-cake varieties, side dishes and extras. This is a July2026 Da Nang reference menu, not a Saigon Centre branch menu; no prices or policy transplanted. Independent full mall-body review and saved-image visual inspection verify actual food/menu role. Mall publishing authority is attributed accurately; third-party image credit is disclosed, not promoted as a current brand-issued branch menu.",
+      "evidenceBindings": [
+        {
+          "url": "https://danangthanhkhe.aeonmall-vietnam.com/en/da-nang-unique/gia-ve-spicy-box.html",
+          "evidenceFile": "mall-menu-reference.json",
+          "result": "actual official mall page body retrieved in installed Chromium; visual image inspection separate",
+          "file": "holds/mall-menu-reference.json"
+        },
+        {
+          "file": "holds/spicy-menu-reference.jpg",
+          "result": "Independently visually inspected actual named Thai salad menu; or branded SpicyBox food image combined with named detailed menu in source body. No prices/policies imported."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://danangthanhkhe.aeonmall-vietnam.com/en/da-nang-unique/gia-ve-spicy-box.html",
+        "url": "https://danangthanhkhe.aeonmall-vietnam.com/en/da-nang-unique/gia-ve-spicy-box.html",
+        "evidence": "Actual official AEON mall article lists named sauces, rice-cake varieties, side dishes and extras. This is a July2026 Da Nang reference menu, not a Saigon Centre branch menu; no prices or policy transplanted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thực đơn tham khảo do AEON MALL Đà Nẵng Thanh Khê đăng, cập nhật tháng 7/2026; không phải thực đơn riêng của Saigon Centre. Xác nhận món và giá tại chi nhánh.",
+          "en": "Reference menu published by AEON MALL Da Nang Thanh Khe, updated July2026; not the Saigon Centre branch menu. Confirm local dishes and prices."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://danangthanhkhe.aeonmall-vietnam.com/en/da-nang-unique/gia-ve-spicy-box.html",
+        "url": "https://danangthanhkhe.aeonmall-vietnam.com/en/da-nang-unique/gia-ve-spicy-box.html",
+        "evidence": "Actual official AEON mall article lists named sauces, rice-cake varieties, side dishes and extras. This is a July2026 Da Nang reference menu, not a Saigon Centre branch menu; no prices or policy transplanted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thực đơn tham khảo do AEON MALL Đà Nẵng Thanh Khê đăng, cập nhật tháng 7/2026; không phải thực đơn riêng của Saigon Centre. Xác nhận món và giá tại chi nhánh.",
+          "en": "Reference menu published by AEON MALL Da Nang Thanh Khe, updated July2026; not the Saigon Centre branch menu. Confirm local dishes and prices."
+        }
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-nespresso",
+      "field": "hours",
+      "reason": "Mall daily09:30–21:30 omits brand locator Friday–Sunday09:30–22:00; source conflict remains explicit.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "saigon-prototype-nespresso/hours",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-lyn",
+      "field": "hours",
+      "reason": "Fresh brand locator Saigon Centre block says10:00–22:00 daily, conflicting with core official mall9:30–21:30. Preserve frozen core receipt, remove this field from merged acceptance and retain both source values.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "saigon-prototype-lyn/hours",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-bastahiroitalianrestaurant",
+      "field": "hours",
+      "reason": "Fresh official mall hours09:30–21:30 conflict with official brand Saigon Centre hours10:30–22:00, last order21:30. No authority silently selected.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "saigon-prototype-bastahiroitalianrestaurant/hours",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-dimtutac",
+      "field": "hours",
+      "reason": "Mall branch page says10:00-22:00; brand main menu branch block says Mon-Sun10:00-21:30. No precedence asserted.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "saigon-prototype-dimtutac/hours",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-rakthai",
+      "field": "description",
+      "reason": "Official mall profile has no useful offering description; independent searches find wrong-market RAK brands. Candidate Vietnam Facebook body is throttled and exact operator/offering remains unverified.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "saigon-prototype-rakthai/description",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Read an accessible first-party Vietnam RAK Thai offering statement tied to this tenant."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-somtamthai",
+      "field": "hours",
+      "reason": "Fresh official mall hours10:00–22:00 conflict with official brand Saigon Centre hours10:30–22:00, last order21:30.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "saigon-prototype-somtamthai/hours",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Reconcile the competing official branch values using an explicit dated correction or authoritative branch confirmation; do not silently select a source."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c",
+      "field": "description",
+      "reason": "SportFair official mall source remains placeholder S/Opening Soon at L3-42; no specific operator or product offering is established by independent brand searches.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c/description",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Obtain exact SportFair operator identity and an actual official product/offering statement."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-meatmeet",
+      "field": "phone",
+      "reason": "Previous official sources contain conflicting corporate hotline values. Fresh rendered home/contact pages show company 02866500868, but selecting the Dong Khoi accordion reveals no branch-specific number or dated reconciliation of the conflicting corporate value.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "vincom-prototype-meatmeet/phone",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Resolve the competing corporate contacts or obtain an explicitly verified Dong Khoi branch number."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-chillithai",
+      "field": "menu",
+      "reason": "Correct-brand official Vincom profile embeds actual named Thai menu dishes, visually inspected salad-menu spread. Images are attributed by Vincom to Internet; date and current branch applicability are not established. Wrong ChillThai domain excluded. Independent full mall-body review and saved-image visual inspection verify actual food/menu role. Mall publishing authority is attributed accurately; third-party image credit is disclosed, not promoted as a current brand-issued branch menu.",
+      "evidenceBindings": [
+        {
+          "url": "https://vincom.com.vn/brand/chilli-thai",
+          "evidenceFile": "mall-menu-reference.json",
+          "result": "actual official mall page body retrieved in installed Chromium; visual image inspection separate",
+          "file": "holds/mall-menu-reference.json"
+        },
+        {
+          "file": "holds/chilli-menu-reference.jpg",
+          "result": "Independently visually inspected actual named Thai salad menu; or branded SpicyBox food image combined with named detailed menu in source body. No prices/policies imported."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://vincom.com.vn/brand/chilli-thai",
+        "url": "https://vincom.com.vn/brand/chilli-thai",
+        "evidence": "Correct-brand official Vincom profile embeds actual named Thai menu dishes, visually inspected salad-menu spread. Images are attributed by Vincom to Internet; date and current branch applicability are not established. Wrong ChillThai domain excluded.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Hình thực đơn tham khảo do Vincom đăng, ghi nguồn Internet; ngày cập nhật và áp dụng tại Đồng Khởi chưa xác định. Xác nhận món và giá với nhà hàng.",
+          "en": "Reference menu images published by Vincom with Internet attribution; update date and Dong Khoi applicability are unconfirmed. Confirm dishes and prices with the restaurant."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://vincom.com.vn/brand/chilli-thai",
+        "url": "https://vincom.com.vn/brand/chilli-thai",
+        "evidence": "Correct-brand official Vincom profile embeds actual named Thai menu dishes, visually inspected salad-menu spread. Images are attributed by Vincom to Internet; date and current branch applicability are not established. Wrong ChillThai domain excluded.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Hình thực đơn tham khảo do Vincom đăng, ghi nguồn Internet; ngày cập nhật và áp dụng tại Đồng Khởi chưa xác định. Xác nhận món và giá với nhà hàng.",
+          "en": "Reference menu images published by Vincom with Internet attribution; update date and Dong Khoi applicability are unconfirmed. Confirm dishes and prices with the restaurant."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-pangpang",
+      "field": "description",
+      "reason": "Official mall profile identifies a dining tenant without concrete offerings; unrelated third-party crab-hotpot claims do not resolve exact frozen fast-food identity.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "vincom-prototype-pangpang/description",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Verify exact PangPang operator and offerings from an accessible primary source."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-012",
+      "field": "description",
+      "reason": "Catia independent searches resolve unrelated CATIA software and Katia marketplace identities, not the frozen mall tenant.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "vincom-candidate-vd-b2-012/description",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Establish exact tenant operator identity and first-party product evidence."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-sehaaccessories",
+      "field": "description",
+      "reason": "Official mall profile only classifies jewellery without concrete offerings; independent brand searches do not authenticate an exact operator.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "vincom-prototype-sehaaccessories/description",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Resolve the exact Seha Accessories operator and first-party offerings."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-primaart",
+      "field": "phone",
+      "reason": "Official PRIMA locator identifies Dong Khoi floor M while frozen Prima Art identity is B1; no evidence establishes that these are the same counter. Jewellery warranty content does not resolve this identity/location conflict.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "vincom-prototype-primaart/phone",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Verify whether frozen Prima Art B1 and PRIMA floor M refer to the same tenant before attaching phone or hours."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-primaart",
+      "field": "hours",
+      "reason": "Official PRIMA locator identifies Dong Khoi floor M while frozen Prima Art identity is B1; no evidence establishes that these are the same counter. Jewellery warranty content does not resolve this identity/location conflict.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "vincom-prototype-primaart/hours",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Verify whether frozen Prima Art B1 and PRIMA floor M refer to the same tenant before attaching phone or hours."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-x-070",
+      "field": "description",
+      "reason": "Studio77 exact official-looking domain remains inaccessible; search results identify unrelated coffee/bedding businesses and cannot authenticate this tenant.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "vincom-candidate-vd-x-070/description",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Read authenticated Studio77 Vietnam tenant/operator product information."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-dessertplanet",
+      "field": "description",
+      "reason": "Current mall directory names Dessert Planet but does not establish specific offerings; foreign same-name dessert businesses are not evidence for this tenant.",
+      "evidenceBindings": [
+        {
+          "file": "holds/decisions-complete.json",
+          "binding": "vincom-prototype-dessertplanet/description",
+          "method": "Full retained priorEvidence and fresh-source/search receipt chain reviewed; exact hold reason remains bounded."
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "auditDecision": "hold",
+      "remainingAction": "Find an authenticated tenant/operator offering statement linked to this exact mall identity."
+    }
+  ]
+}

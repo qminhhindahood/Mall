@@ -1,0 +1,2437 @@
+{
+  "base": "isolated candidate root",
+  "files": {
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\browser-held-detail.json": {
+      "sha256": "6ce6d907921b6b0e34b35c94a650f99e00e0c02feb30f8f69dcb0fbc7ad25106",
+      "bytes": 9247
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\browser-held-final.json": {
+      "sha256": "9e7bac196cab2604e02a62088e33247ab5afcc27b5ef0fe8ad70ae4c30f47ed5",
+      "bytes": 5032
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\browser-held-followthrough.json": {
+      "sha256": "e34609b3ebf8c0a341ec9f4f1366dd353f00550bb5809c8142febe0d962e49c1",
+      "bytes": 353191
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\chunk-browser-decisions.json": {
+      "sha256": "31845bd5983524ffdfebc8fbb547a6b81d8e4f085b53c45cec41d207520518b6",
+      "bytes": 14697
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\chunk-browser-records.json": {
+      "sha256": "37fde9ef208765362fabd0be18fbf4f5b9012c1b0988798a3045d2ae39d5aa06",
+      "bytes": 8065
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\lachca-food-5.jpg": {
+      "sha256": "fa45ae2faea1291688b52a0a06530c5fe6212bfc34e281c05171e404f4d08bad",
+      "bytes": 127834
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\lachca-food-8.jpg": {
+      "sha256": "e2b2ae850703dc643be60c27daf279da784731b5a32f3ce0fe15f4de766e44cb",
+      "bytes": 149554
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\lachca-menu-0.jpg": {
+      "sha256": "82777be955c1a7b46b0f04d47bf7ca42f012e8a37f4361b6ae0f49b1ae2703d3",
+      "bytes": 112006
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\sanfulou-cantonese-buffet-page1.png": {
+      "sha256": "4139ad2ac755e635d2399a421a9ef906d1708d3299c048d509a446da5133f4e4",
+      "bytes": 3864308
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\sanfulou-cantonese-buffet.pdf": {
+      "sha256": "6dcb2da5376f1175b9ad116eaf3dc1d80d4367716873b050a9c489bb10b4a35a",
+      "bytes": 5532246
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\sanfulou-dongkhoi-contact.png": {
+      "sha256": "586fb7adfcb04c68fa42ff69abe8b65a52f74ae5589550eadbb7abfa118633bb",
+      "bytes": 281507
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\mall-menu-reference.json": {
+      "sha256": "b3a261367d69d37b09fd41d69ee0a1a820b8f248c261844ebf397db3cbbd21e3",
+      "bytes": 72325
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\chilli-menu-reference.jpg": {
+      "sha256": "6a54640953db25747e3ef0e0cf65d31db85347afad94359c24c7e6ab9ba1a840",
+      "bytes": 546079
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\chunk-final-decisions.json": {
+      "sha256": "c8dbaa2cd6b4a9fb68ce0900dc4b65c608f34a23760dd319b5dc3eb40957d8be",
+      "bytes": 56938
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\decisions-complete.json": {
+      "sha256": "ffa91bb5f47462876a6f5c304ec35fe946f86e5026b65fa7148d042d5a9d94cc",
+      "bytes": 97234
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\records-complete.json": {
+      "sha256": "b1c0e00ce7590c5eead3da6c8434e0553dc15f8097a29a91cebd6f26417546ef",
+      "bytes": 26150
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\spicy-menu-reference.jpg": {
+      "sha256": "f044f622f9a2ffe5186a66e7ce366fdacfbb18fdb14c601d8b43c51377c02240",
+      "bytes": 3908291
+    },
+    "evidence\\continuation-2026-10-19-r2\\research-saigon\\source-blocks.json": {
+      "sha256": "587d2c7d5ba078c4669de3ab7930af2aa7ba04a93c817a3313ccb9474d603cce",
+      "bytes": 48732
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\chunk-phones-decisions.json": {
+      "sha256": "d58360b4e675372e6db336411b36a0d64e1d3a00e12158d55f0750020d9fb973",
+      "bytes": 19363
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\chunk-phones-records.json": {
+      "sha256": "674c63c3e20f834d3d95021bc0811f00c6d7b3baa2a47a97dc2423f7be0d2b69",
+      "bytes": 12388
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\find-1.json": {
+      "sha256": "1c87eb844a5d9fcc83be217b6374e98641d943c044a6efe020030922ef852234",
+      "bytes": 12215
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\open-1.json": {
+      "sha256": "508126f8023ba8f55fa9717728dd012ce65e70a6b4eb4481894b07645252f0e5",
+      "bytes": 13000
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\open-2.json": {
+      "sha256": "967a4dc753d2613472b6fa6f2907218f693596f32c163b53fd66975863e98d88",
+      "bytes": 26581
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\open-3.json": {
+      "sha256": "45bcb54f16f4b2734c1a9d27ba79f6d0652c1c9f409029885c7e0b2bf2859e0f",
+      "bytes": 24217
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\open-4.json": {
+      "sha256": "819dfb052d5640212af730df10d5e7aa7fa02f064b443586f2cef7d474d77fd2",
+      "bytes": 26717
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\abc-contact-excerpt.json": {
+      "sha256": "0b21cc1ecf29d43ee91e998b985ea9d97960a9fa07e997bbe27aa1b2d08fb153",
+      "bytes": 9052
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\open-6.json": {
+      "sha256": "ac0e275bf32a302bdea94eed429d0ae15478c94d19654c6e5b0209422c3aa65c",
+      "bytes": 24584
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\runam-menu.yJsIqaVf.js": {
+      "sha256": "8b40db05bf1c27f2273bf2bfea64244cabaff470d78544bc27db5ab889e689f3",
+      "bytes": 19582
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\runam-official-menu.html": {
+      "sha256": "bc30e6e6479889ed4cb3558e2d1b26fc4a74650da3f38dd1ab92bf8e844c56b0",
+      "bytes": 570875
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\runam-public-main-dishes-receipt.json": {
+      "sha256": "4a65e78e0c36c317c47d2e0ba8e6f6945ad6ee50fe73aa394f2a1464c027b5e2",
+      "bytes": 688
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\runam-public-main-dishes.json": {
+      "sha256": "233c05b709150e70c1665c7eac0870b97a6191a91a7b0f7a9f618cf7a04574cb",
+      "bytes": 18385
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\runam-public-menu-collections-receipt.json": {
+      "sha256": "b0e4c9e5ebe12a8e38f55d1e76ef744f419cf3b47d253b4bded1f5b0d6815afa",
+      "bytes": 652
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\runam-public-menu-collections.json": {
+      "sha256": "42285a9d3bccb453e9ed4db5a356256b7b0971f0b3b420b8b6a1a9d17e37141b",
+      "bytes": 6639
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-gnc.json": {
+      "sha256": "43eeb2b9d2f354e5558cc2f7758c1ed9c72bc2eb8b5a7776d1d6497d7cd8bc08",
+      "bytes": 17650
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\s6.json": {
+      "sha256": "934b1b4153e74c6b64d94025dd83bf2e616c8b132cb194c5a539b7ef319dc0a7",
+      "bytes": 27494
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\chunk-resolved-decisions.json": {
+      "sha256": "fbd45df066166f8b60214c8d557e0d684773796549e80a5271538f5adf5d8404",
+      "bytes": 6410
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\chunk-resolved-records.json": {
+      "sha256": "701447ea411f7e43123baa7d35be04dda2bfa0baecb77e12db2ef80b29b12414",
+      "bytes": 3351
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-dining\\chunk-03-proposals.json": {
+      "sha256": "3719df4c48ee52af034df231109b1b8b6c67a220a58579e63e1abdb51fe67a81",
+      "bytes": 277014
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-dining\\supporting-evidence.json": {
+      "sha256": "bb3569988ffc7a4e5e283a64ab924fc05a27768dca0e4bc360172bd4ec4bf417",
+      "bytes": 125797
+    },
+    "evidence\\continuation-2026-10-19-r2\\research-saigon\\followthrough-decisions.json": {
+      "sha256": "923da60171a8fa710e3322d494a3a36b87a58a7daa1c379e7e2e1845ea537560",
+      "bytes": 352884
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\genki-visual\\Core_Menu_May_2026.pdf": {
+      "sha256": "953c04fbcfbbb5bce9ec7ca05abf3d703792f8e7ab0a210ac3b7d347758d35e1",
+      "bytes": 377796
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-dining\\international-followthrough.json": {
+      "sha256": "30a818f1fa41397daba8b7a10c4d83282a1bef1df7911344a70f20f06c78c3a7",
+      "bytes": 13899
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-dining\\phone-supplement.json": {
+      "sha256": "30b7013ec5cb952882386ffe8dc43742bffe9848c706c56f0dd8bac5acb6b705",
+      "bytes": 3041
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-dining\\source-followthrough.json": {
+      "sha256": "3f94b60a9d135676070e107879a0a149d74ebd5389d9bc01baad71b488ce2140",
+      "bytes": 48265
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-dining\\source-receipts.json": {
+      "sha256": "750b9eae0df0d7ca51b7daf07325dc32e2b525ceec9fbaf24d0b1e5eb67ac02a",
+      "bytes": 47400
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-dining\\targeted-searches.json": {
+      "sha256": "0a2ce222bd1deedfcb7ebbde870166396d763c663c1d9244740bc66a942df7f0",
+      "bytes": 132460
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\genki-visual\\page-1.png": {
+      "sha256": "d79e90df24e1a0b0104fef561bb41f6dbd2f6ead152b4f0d7c5f232ab04465fd",
+      "bytes": 783700
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\genki-visual\\page-2.png": {
+      "sha256": "7e84835bec77c1d1510316cc5a80035c214818fd6faddb760c1255ba92f841f0",
+      "bytes": 971338
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\lusine-visual\\Main-Menu.pdf": {
+      "sha256": "7e763f383d5012bf6e54769501a549cfd589ff746585df5079480ff253978dec",
+      "bytes": 56948533
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\lusine-visual\\proof-1.png": {
+      "sha256": "2eb48f32b7bf977d1936eb3d30d51f0044e0dcface2b74b25f6f442a952b485f",
+      "bytes": 3825416
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-dining\\booking-searches.json": {
+      "sha256": "7151c420356820d51583f4284603800f11805e968c1961d5f717a4c58ba24d38",
+      "bytes": 43804
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-dining\\decisions-complete.json": {
+      "sha256": "240ca6797578e444d1dc3025ac57ef736425d3f0a2f9500792dd6327f6a3f6ad",
+      "bytes": 482056
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-dining\\records-complete.json": {
+      "sha256": "ad872175245e0ce16b2798855e4b0a24686304053be65f73ef183de82d3c461d",
+      "bytes": 100104
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\browser-close.json": {
+      "sha256": "f725bd7c3e789f9a01b96f0ac55fb4cec2abad09f0f4e01f2453f58b991bbd4b",
+      "bytes": 567892
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\browser-menu-last.json": {
+      "sha256": "9665c36e039f5431e57999126a282ec2a125591e8ff24671b515b1ad8b881909",
+      "bytes": 251283
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\kichi-menu.png": {
+      "sha256": "6338b2128f648c070e93baed45f51d33287c483e5ff8b856e6ef7465f10a481d",
+      "bytes": 1462538
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\manwah-menu-dishes.jpg": {
+      "sha256": "a6e31d27f5b83c49bf8b1224f0e8227614c2ead6d8a3e7b096e0b8512a37d72a",
+      "bytes": 109940
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-001.txt": {
+      "sha256": "314c69458b602e8549a45a926fc9546852decda93953e4a504181592f943576f",
+      "bytes": 26896
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-002.txt": {
+      "sha256": "ca0ce455099b5d095dcd10c090f0d01f260266c65e3c5d5b4a5eb86c30f98e12",
+      "bytes": 27320
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-003.txt": {
+      "sha256": "5584d2423e04a75d3329618f2b12f25bcb726653f2763a567471538858cc044c",
+      "bytes": 27205
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-004.txt": {
+      "sha256": "79349e4e46560e9f0f2ea0431f4957dc837c564800c4231835fb9a299bc11513",
+      "bytes": 34744
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-008.txt": {
+      "sha256": "07244d707aab9c6684a26223b4153fa9087b9fa045cb2aa2c62999939c18d5a8",
+      "bytes": 36993
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-011.txt": {
+      "sha256": "949993c981f7de7f229e9ae58fe827d210eb2264327bb469e57602bca5178cf5",
+      "bytes": 34169
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-012.txt": {
+      "sha256": "043a721b5eb4aa027bba03ce925336813bf1b385a5dc6e71995a6231d4d55f84",
+      "bytes": 28928
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-013.txt": {
+      "sha256": "50b6c060c2a0a9837e4589e9d4d93491e089ce03b48d9c5c04ba355b0a8ece57",
+      "bytes": 34726
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-014.txt": {
+      "sha256": "b8706e6a8b4bf2cde630f536ea77120852b53e1b8bd842feb69e360e7dd31ec0",
+      "bytes": 31695
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-015.txt": {
+      "sha256": "824f16fc6eac2054d6fdc2d1e522289926be4a8c17a885b16cf15a5930c10b15",
+      "bytes": 36369
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-016.txt": {
+      "sha256": "a11b34f096d6117554e7c2bc727ef01ebf8f14868b40db2edc0cdf8792cd0f30",
+      "bytes": 34182
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-018.txt": {
+      "sha256": "eba63d2cac5f2e9fc240390b36edfcf7885cc1d1184cf54e9576ada29b9a885f",
+      "bytes": 28854
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-021.txt": {
+      "sha256": "b753a3840761b16731104e335a56c15e66222e6af7b0aea5fe5060e3ed5ec804",
+      "bytes": 27929
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-022.txt": {
+      "sha256": "64c5d65146a142bff1311772e266783a372e948156edfa7893e18619be3bd132",
+      "bytes": 28052
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-023.txt": {
+      "sha256": "efbd239e3169ef402ca94dcaaff949ec037e1a303cc2e045231f296ab34d5bfc",
+      "bytes": 31717
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-024.txt": {
+      "sha256": "3bfda123ae96130729eff5af8f163e8e7b349dd46eb6bef48d588cdf368f65e9",
+      "bytes": 30844
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-025.txt": {
+      "sha256": "23d3b8211ebb32cb6b95f5e06ebf93f35286f1381636ce1b1ef1a545331d394a",
+      "bytes": 26620
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-027.txt": {
+      "sha256": "c1bf85a926acab6225180c9780520f3c7cde0d5fd81b29eadd7f5f912f3c74c7",
+      "bytes": 30622
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-029.txt": {
+      "sha256": "397eb9dc9e50945da6a2077ebd69c203297087bcbc9023d94595157ee273213a",
+      "bytes": 34628
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-030.txt": {
+      "sha256": "92e4ebdd701370ed06558e68c83a5e2c100bd0e2db2b375b052a6cc238ff1a20",
+      "bytes": 31338
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-033.txt": {
+      "sha256": "d80a332888658a6a6ccca857fcf5b9ca33f3ef2c36d451615df8a50ebe16c004",
+      "bytes": 29240
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-034.txt": {
+      "sha256": "9bd9e7c2fa0d92c3bfeb1ba4bb12cec433815c5b91958fc1abe2c00c5cd4294e",
+      "bytes": 32977
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-036.txt": {
+      "sha256": "7e4930dfb4a415a89353f6b88fa3fd75e5923f763cc1dc3b52cc8a0e9db4e3dd",
+      "bytes": 19049
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-037.txt": {
+      "sha256": "7c10577a2cbb18ef7520332c504e67b8b0b0436fd36914498fc8bdabbd95c26d",
+      "bytes": 27332
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-038.txt": {
+      "sha256": "293ef7177fd4fdacd3c8dd1724349b43ce7614ca33b6c4d79f12c457e4731eb1",
+      "bytes": 27973
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-039.txt": {
+      "sha256": "72acf04cadc0b792431692b995b295e4a65e80aa7c12401825b7eaea772c0263",
+      "bytes": 10305
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-040.txt": {
+      "sha256": "727ff14821bba88c0bbe48976554c462bdb4fb086166828590b01c6913a9964c",
+      "bytes": 14408
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-041.txt": {
+      "sha256": "3411c9fa2c225f53d80178908e6af5aaf361c2420cfa101297f4f18d1c965bc0",
+      "bytes": 20825
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-042.txt": {
+      "sha256": "59652c22e29d21e0a9b4b38195b37631c2f1b31eee917a31ce0e566351983b16",
+      "bytes": 13931
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-043.txt": {
+      "sha256": "87f685fe452d3fc5b20bc83738e71f17810bc21cc5ca5720cbb3d5863f276c2d",
+      "bytes": 19298
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-044.txt": {
+      "sha256": "279ed97c6add13c0fa0c89f36abb8f2daf53e1e81eed6329fe811063f6c3936b",
+      "bytes": 7128
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-045.txt": {
+      "sha256": "8277409b25b974e81dddadbb101f58e67aaac1c182374cdbd36fe3c99dea9ec1",
+      "bytes": 12492
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-046.txt": {
+      "sha256": "cce68256c65ec7e3913b2c29e3505c18e82867de4db76f6f11ff2bab86f4042d",
+      "bytes": 17942
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-047.txt": {
+      "sha256": "8284b7bcb0f3c203a75372d9d0864600b9ea8d55facb28d36f4d13aaa6f67a27",
+      "bytes": 15750
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-048.txt": {
+      "sha256": "2aec98d6bb26ef28c75c67ecf1e7134567005225b9af86565daaca292f933e75",
+      "bytes": 16835
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-049.txt": {
+      "sha256": "ea43f3144663f5414063d3f688c0f2ce90c604725fa24fe63c8e789e4ee7dc6e",
+      "bytes": 26617
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-050.txt": {
+      "sha256": "e591f51f0db8f321abee0b95a4a879ae433359010c56bba5a99e71d49b3f6248",
+      "bytes": 23384
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-051.txt": {
+      "sha256": "b372bad11fb3e17edda213a40fe52379c7e374ad6c6c4672f1fd67870cf39640",
+      "bytes": 23920
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-052.txt": {
+      "sha256": "23fb8d9ece14cf9d2a97dd619e0eba154c4c9c4deafc22e28de0e0c4bb5eb175",
+      "bytes": 27356
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-053.txt": {
+      "sha256": "81548a28abf117e3714d3032dada851fb286e9a7c7407d42c5cee15e3805851e",
+      "bytes": 29777
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-054.txt": {
+      "sha256": "cc71d3b5493ebf00b57223bfb1227bb9af342663d714d1d6e1c153f10ad7005b",
+      "bytes": 22259
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-055.txt": {
+      "sha256": "4882160511d2ebf88eb410a61372c495e95f7d6c97c70e1104229b55f62a34a9",
+      "bytes": 25914
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-056.txt": {
+      "sha256": "043761080630166765604132dfdb0c2f5dc371896f82876d77671b07142fa1de",
+      "bytes": 25039
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-057.txt": {
+      "sha256": "fff5b508f2df069cc2b036feb4891f837f2fb4195fa7f86ed4dafad2e585df70",
+      "bytes": 23470
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-058.txt": {
+      "sha256": "19df86c9c719f39da489e5b22e6181d055bc03d8cbf245dc0d44a2161840b4f0",
+      "bytes": 26314
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-059.txt": {
+      "sha256": "2f97fee33f41843b6cb0ce39807220d6cb308b395aa872d947cc0030a56104e2",
+      "bytes": 22848
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-060.txt": {
+      "sha256": "95d1fa186e2aee7c02c46d734fc7e254175afdc0ae092ca5044125dfa1adf301",
+      "bytes": 25763
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-061.txt": {
+      "sha256": "26444beb176930c9486937a24f8d615b8f03dcc185704e46ac96f1585ca734b7",
+      "bytes": 23817
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-062.txt": {
+      "sha256": "7dfb656003673b41ac257a9c29b3b5fa2ae5d27a2bbc0ea5795b2bafbfd3b839",
+      "bytes": 25136
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-063.txt": {
+      "sha256": "c4cc41a1108f02af924718d4dd7d1d12a8aa9164b55e8813073e5bfc3c2e0e66",
+      "bytes": 25186
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-064.txt": {
+      "sha256": "9e13a1e31bccc6dd5815abfb60873114f2e6915698906e4ce9801bc42ff4f1f7",
+      "bytes": 23769
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-065.txt": {
+      "sha256": "f216a9057f9874b63a6331e6d734340ef6a90fce23b2c94025a2e11cf9c404b4",
+      "bytes": 24755
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-066.txt": {
+      "sha256": "c591bba5ac814769653c0eddd0906040ac9e928a42b51ecebdad2b6bc5cad625",
+      "bytes": 26189
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-067.txt": {
+      "sha256": "c9fd838af3dcc11d52b9e1d8103a42143938c4dbb1575c40e5d410b7cb3e8c1a",
+      "bytes": 26572
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-068.txt": {
+      "sha256": "85cd3d4221b55514271c569b8ad2033cce85980e39c3d472ad20d8bdeda0af55",
+      "bytes": 25855
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-069.txt": {
+      "sha256": "6ffa43265691544582320641a7f17eef65f5c6dc7f90e1fe7c0793726f270537",
+      "bytes": 21096
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-070.txt": {
+      "sha256": "31d99fd54f93fc5cb6a6d73a5e68a11242fb7d98a54613947c92b65a14105389",
+      "bytes": 35300
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-071.txt": {
+      "sha256": "e738ab00526651b991fc24a66bd18e1115f5ee03bb37fdf417fec797bb12351b",
+      "bytes": 36537
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-072.txt": {
+      "sha256": "6ac67fa09aefed539a1e0e19037958db153d3d4a7de331356defdc29f179eb1e",
+      "bytes": 23884
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-073.txt": {
+      "sha256": "23ad5d69061c5f84ec95699ff6f3c92f2df9f29fb2f68880a8e843be9a496536",
+      "bytes": 31447
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-074.txt": {
+      "sha256": "b40e3aa517a71688b5e5e6c4764f020c1266171f45bf1b1886ca3af4ac2c9e6f",
+      "bytes": 22875
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-076.txt": {
+      "sha256": "fe74a9c06bceb58f9f86e731dc533709349f8ddad39524f048e460eda3ed3995",
+      "bytes": 28848
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-079.txt": {
+      "sha256": "ac158f38a2608945a29ae81e0f1830a14118fcb0ca6a6544b026543e04e2783c",
+      "bytes": 27086
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-080.txt": {
+      "sha256": "343ba1bd8df8af9a4c6383b7be30b1104eea4165835df243e6e41e4a07a86105",
+      "bytes": 24193
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-081.txt": {
+      "sha256": "af6a1262496f6c6439f2d72a319ae73e56a789f016a53160dba8fde368204fe6",
+      "bytes": 24704
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-084.txt": {
+      "sha256": "202ca6c649a8f48d2f6857c0aa65bc60e40eb16ad443ccda3b18959a08e9af8a",
+      "bytes": 26499
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-085.txt": {
+      "sha256": "05186a56d5bc1af8f9637393a64f87f30a0151b2a1894b259b91ddc4e26a034b",
+      "bytes": 27334
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-086.txt": {
+      "sha256": "15e1a684e02f0ede768ce523598ffd4d44f7cf60820aff94e42832e50c04e53d",
+      "bytes": 27183
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-087.txt": {
+      "sha256": "446f1e648a93925ba9cf02bd4070968b1d4de6c792fa8ec07dd6d123fd8e4e83",
+      "bytes": 25071
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-089.txt": {
+      "sha256": "1448acb712ed19a28ba6e7c3920b62f82dd8adb87a582490cc5a97caff4a5a88",
+      "bytes": 10746
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-090.txt": {
+      "sha256": "436d4ce041654727fa85e39f0af0cf96a35fdfcee129ee79c15b744a66571730",
+      "bytes": 29723
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\shared-accepted-source-index.json": {
+      "sha256": "25ac0766a17bb0f05af40967136f43c7bab737201f7b8ddbb0fe80c11832de94",
+      "bytes": 733973
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\decisions.json": {
+      "sha256": "522cae5905f37bdd9642824e7e91ce82cf56d75d6b6bea737ad0e5d5b48668ff",
+      "bytes": 1448955
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\field-support-excerpts.json": {
+      "sha256": "73bcf2687955c93e88493c2261df8d3423b7cb6988afee18d13466bbe571243a",
+      "bytes": 338387
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\records.json": {
+      "sha256": "aa19a629c5a44e769fbd72185ecfba49b9ee47906a0e56623c6326e225327ad0",
+      "bytes": 232041
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-005.txt": {
+      "sha256": "71d0ef48d8fe74819dcbeabfc4e464f7718702f1b30c14025133500b51113553",
+      "bytes": 33584
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-006.txt": {
+      "sha256": "7f0f7493fcd6cc1bb9c23e4c2af28aaa47465b96f1c9b8de86c2de8415b58ba7",
+      "bytes": 31285
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-007.txt": {
+      "sha256": "4495b10dc5b4bb2236bcb519a3bb5b10d5aa2b7737c316e3d4eb932e43836e8a",
+      "bytes": 28808
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-009.txt": {
+      "sha256": "dd00780d625f8dd3a38baa8c0b37faa51ca2ad1f4ba08312a5960a8621cfc942",
+      "bytes": 33956
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-010.txt": {
+      "sha256": "601b073e5a1ca3258efb4cdad5f87ed416811b24071bb82f2c5efa6b6983b15a",
+      "bytes": 37381
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-017.txt": {
+      "sha256": "2acf4560e15dacfeb8d7abcc861704888af8c29a761a10f995b7dd2cca4fd031",
+      "bytes": 32038
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-019.txt": {
+      "sha256": "191b0e1200727e160348921c93034374daa40b1d65384787d8fe70babc0313e4",
+      "bytes": 30310
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-020.txt": {
+      "sha256": "1f84ee01e017e412fc75f572d2cd847498f4738b766bdaea66027e3cbe2c45be",
+      "bytes": 31899
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-026.txt": {
+      "sha256": "9493a705c57c14b43c1a8d71e7c67c5fb003c59a562bc15a91e1f9df17f61487",
+      "bytes": 30916
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-028.txt": {
+      "sha256": "90dee27aeb8135c586b827d92615f903b2ca72d27cba1be000ac0ded269f387f",
+      "bytes": 28772
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-031.txt": {
+      "sha256": "9734c97432769fca630f778c1696b7e66a114a6aa94d5143bb926c4ab489e6d6",
+      "bytes": 34617
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-032.txt": {
+      "sha256": "54071f53ebaab17e568d15280857a80429a6e3cabc9cb22cef15772aab546453",
+      "bytes": 29812
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-035.txt": {
+      "sha256": "c2d26570b208bb4818dc341b9ebb77b4b73fc80b51572eb94a0105c58a78d2a1",
+      "bytes": 31247
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-075.txt": {
+      "sha256": "a2dc5d838739587489253eba6a4f22c88f11bc07aa961340198f06fa97d116c2",
+      "bytes": 32415
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-077.txt": {
+      "sha256": "945c6b4345d46f6c4eae2c3e4c5cf977a96ff459865981b0df9685cb415c094b",
+      "bytes": 30568
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-078.txt": {
+      "sha256": "3849f10bd951f9cb2808b85163708816e0a7b3a513a981263a984aff01b4f3df",
+      "bytes": 15742
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-082.txt": {
+      "sha256": "9436123710513c9a2e08df0d58132be654819a66deb215c804fe0a9026889744",
+      "bytes": 32294
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-083.txt": {
+      "sha256": "9b2077217dc347ae87eb4fbcfd357ff2101fec6549026aad8cf16dc529156493",
+      "bytes": 30916
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\saigon-retail\\source-088.txt": {
+      "sha256": "0306815d9727daf7589b1b38cf888dc1e0f654f258f9fa0be48f4a3dcab4425f",
+      "bytes": 3491
+    },
+    "evidence\\continuation-2026-10-19-r2\\research-vincom\\follow1.txt": {
+      "sha256": "eae4cf69fa47a84f9f5d90454fa708f45881b8312e4c3846221fc4f1264a1023",
+      "bytes": 24115
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\browser-goldengate-hcm.json": {
+      "sha256": "ffcc02ec35766efc2325997bb344f1497d7e7ebcf3ad6eedfee914dd18107544",
+      "bytes": 41128
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\browser-sources.json": {
+      "sha256": "a48f297d7bc8b93ec1aa2e23c93f2673f527dc05608ae7223a580d001894a1b5",
+      "bytes": 136518
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\decisions-chunk1.json": {
+      "sha256": "c45e87aa3e7b8dd17bc1b3a80a20d8bf50ac4c9c07ac828760360362e5117e94",
+      "bytes": 132756
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\records-chunk1.json": {
+      "sha256": "daec7fab7bf1e8846f2775032e66cfdd1a6d1bc757b1dcbaf5e7b1a0d404d694",
+      "bytes": 11887
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-follow-hoang-exact.txt": {
+      "sha256": "573bbf157218b4485bb366e69506e97f26e20947b4c860cad7ed63f2a8e0f7cf",
+      "bytes": 8301
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-follow-morico.txt": {
+      "sha256": "69d2ad9811264998d48350b1cd15ca6186eaeb110935362698e3f9148e5f75fa",
+      "bytes": 9554
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-gogi.txt": {
+      "sha256": "f3632d52790ff9dae3e85835a7347d02aea9f793b05e42ef57c3abcd00b9541e",
+      "bytes": 1914
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-hoangyen.txt": {
+      "sha256": "6d762a1ab060f762c089a4b7b474f14d5b7b9d17d49405206e375dbde63a9907",
+      "bytes": 6436
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-morico.txt": {
+      "sha256": "3abfe577f2c8f7548f74d271dd555ee76d968cac506a5af3bb7fd93daf7563f9",
+      "bytes": 4055
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\koi-vietnam-menu.jpg": {
+      "sha256": "3a8478a5e601e62d411674192aed3f826e67c1866d884a21cf841332a0c49cb2",
+      "bytes": 945925
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\reviewed-chunks\\saigon-dining-final63.json": {
+      "sha256": "869980e2ea88217c45a1f649e186e2da238607494e035273611bbb41df5bb33e",
+      "bytes": 211142
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\basta-menu.jpg": {
+      "sha256": "9ed251e772836c6a43db7590420f84122398ddea3b08fea190a26a6350f3b6ea",
+      "bytes": 181558
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\browser-final-global.json": {
+      "sha256": "3d8aa9ee9776c6efcfdcbebd390be3300d5b72e33ebf4eb9bf0a15027de5fc8c",
+      "bytes": 25259
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\browser-final-sources.json": {
+      "sha256": "4f5dbd65fcad5d622ed0cbbcff149f07b56cbbb9cddda9ec1c69a7d259b1610c",
+      "bytes": 509754
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\browser-international.json": {
+      "sha256": "cb098e9aacae66641ed5b2270e0777432bc44bf1982da9d9ce75093cbf16d85c",
+      "bytes": 46167
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\browser-remaining.json": {
+      "sha256": "845ac4cfa52f9dc307ac6764d426cfa5a655a0aab76d189843510a9d2a93f913",
+      "bytes": 313473
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\chang-menu.jpg": {
+      "sha256": "14250868d8e7b29d9ca9a67a6bd69a7294d67dad63c968ec01e80c3060dbc6e4",
+      "bytes": 146140
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\comtam-menu.jpg": {
+      "sha256": "5aa7e4b7ffebc91b7d6bb4779d8696aef8d9a9c3d82d0d9c9517a4db28516be6",
+      "bytes": 97550
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\decisions-amendments5.json": {
+      "sha256": "2fa30d9c4bf40c2019552e30eb2d12bdad07730683c65b650bd7dda06e66e488",
+      "bytes": 173703
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\decisions.json": {
+      "sha256": "4a541acd892d57942937d10ac39ccae3171c56ad88e17e75995edec9ff25e212",
+      "bytes": 1972273
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\field-search-1.txt": {
+      "sha256": "48c0a0f8f5827998bc498d6f5455615a6d0ae54926586ef130aa12dfbfa68a4f",
+      "bytes": 55284
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\field-search-2.txt": {
+      "sha256": "b97575394d10c6f478dbf2b0a17eb2ebfe3b40f8c58a7f00211541cf65706725",
+      "bytes": 54915
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\field-search-3.txt": {
+      "sha256": "f0dbcf7f6c4f9c775cdb1d59b7823054114cdf6da908ba95a43bb5e4e36d5bdf",
+      "bytes": 55434
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\field-search-4.txt": {
+      "sha256": "e4e9c37d968af9d2991266a70b136bb27dcae4fefb871303ac98e90b2f953eea",
+      "bytes": 54023
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\field-search-5.txt": {
+      "sha256": "5437f1d86e4d0d6e453aedbaa2c810bdc93484d3667cb8e9ab2d223068d14aa5",
+      "bytes": 48094
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\field-search-6.txt": {
+      "sha256": "6e5e5452858f6d956b9a3dc797f0c4a44a53ea467968274bc9a7d274e7a2465a",
+      "bytes": 55392
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\field-search-7.txt": {
+      "sha256": "2f9fbbc64d806df4584a8bcb347ff6c659821dff4d7c0b1cde180631b9e32a9a",
+      "bytes": 55056
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\goldengate-booking-followup.json": {
+      "sha256": "ab393fd782488720bb14b70eac069873d8755b8723ef2ba696b6744860a21619",
+      "bytes": 64744
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\hachiban-menu.jpeg": {
+      "sha256": "00e4a9b1929de3bec9653670cd2a7928d07faeb4e5455572660110ff1a5519e0",
+      "bytes": 512996
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\isushi-menu.jpeg": {
+      "sha256": "9120dc2114b786c273d146431b36eca56db9b30999d1f51689cc4fd75c76f06e",
+      "bytes": 237377
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\king-menu-3.jpg": {
+      "sha256": "9e7de25ed38c6512603d4fc65d54dd8858e4ab771f2ec4ad08cf37a0ef6f84e4",
+      "bytes": 997874
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\king-menu-6.jpg": {
+      "sha256": "3028eac52349a2c97cae55d729052bfaefa959af77ddd6cb56b19c10be171dd3",
+      "bytes": 619027
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\king-menu.json": {
+      "sha256": "72e31a8690a81ba7bed3bf85fc6df674a942d05b0ccd17bcd6277c1d24b28dc9",
+      "bytes": 3213
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\mall-brand-profiles.json": {
+      "sha256": "987e1ffab5ec6d72f50b5b4c96f7ee8a8a58225bf349cce1c3010c86b0ffdfe5",
+      "bytes": 1039569
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\mall-menu-images.json": {
+      "sha256": "e5b2ca5a8e1c0179b01975154eb5bb7bd0a11a022b2a20c6e253bf989a756b6f",
+      "bytes": 757
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\records-amendments5.json": {
+      "sha256": "6455d14639ae8c76acbd68444d941ee0373290de842640e822846a05eba9d3b1",
+      "bytes": 42296
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\records.json": {
+      "sha256": "5d106af33f5c644c8d2d616be35aebfd1ccbf4225bfdaa24b1f48353a09f5728",
+      "bytes": 139111
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-01.txt": {
+      "sha256": "c929d45ad96897b369d2d39c83c443fc062b228238693f5338adef6ecf844ff1",
+      "bytes": 31155
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-02.txt": {
+      "sha256": "244dafe49d5dce7108e73dcbe0005b8feb7d5061b70b976466c6c0d3dd76c63d",
+      "bytes": 34204
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-03.txt": {
+      "sha256": "602127b3c37daee2a0d9c55e37f2a30e90fe2c5f6b60401767a9fc98291ffec9",
+      "bytes": 26560
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-04.txt": {
+      "sha256": "1ef00c962a31ad086ee2b1ad835202706b8cd6bfab3e295782391decb52d5738",
+      "bytes": 29802
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-05.txt": {
+      "sha256": "416de43d49a4925a81599fc4f3acd6f18b58f127c232e960976588fe600578a9",
+      "bytes": 32856
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-06.txt": {
+      "sha256": "41b04cab9c9b3aa8b4941b05e14968661c116076ce8a249a949bc1aa0cb3e9a6",
+      "bytes": 29475
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-07.txt": {
+      "sha256": "3dcc5e2f91bed040ff08871b057be4019bf7869e299235218d2ad6c68c6eddc0",
+      "bytes": 32893
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-08.txt": {
+      "sha256": "ca6cc2070a2a5c132200e2577de30382d24931816682ac220ffcecf0b63ba323",
+      "bytes": 26927
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-09.txt": {
+      "sha256": "f6c03553e8e4b4ea209b1fe04fcf3d9767834f2c6f8c370e5945f308d25ea9e2",
+      "bytes": 30721
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-10.txt": {
+      "sha256": "5818d35eeb10a09a50f3e97a9750ffc2e65cb388679cdbf9e7903092e0735f15",
+      "bytes": 30573
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-11.txt": {
+      "sha256": "310aef33202ef435fed5e01f561bb210852d91a7ad06face5d0088f30cfb249c",
+      "bytes": 29748
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-12.txt": {
+      "sha256": "cdb0323438bc078d9ccdf7b760cbb24a9a8dd2e9d4e8d9451cc469f5668de397",
+      "bytes": 32036
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-13.txt": {
+      "sha256": "e2c73cd7aeda9f915bfedc12d44471f26bae9b3e188cf4dd48af64552fe4031c",
+      "bytes": 29508
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-14.txt": {
+      "sha256": "7b3e5d62edcbbcd25076ec3d7ecad8acce9925ffbf8782ae8b923d624dfa562f",
+      "bytes": 27870
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-15.txt": {
+      "sha256": "65c1941cb6365f35e6d161df3bbe028a6e2f0376fc1b95d2440e936e7e4e05ac",
+      "bytes": 29417
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-16.txt": {
+      "sha256": "035e4996dc4f86ffbc7add3d08f9ac4fdf29cc379f22cd0852712261e830a66e",
+      "bytes": 28915
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-17.txt": {
+      "sha256": "e9554dfce6830f2faf97604f2d2156ab865876d51f8ea3d2de36e32767283d6e",
+      "bytes": 27928
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-18.txt": {
+      "sha256": "058cecf627e327599e734e8b123c55f88043acb3c083d8a72b1eb26c7d568b8a",
+      "bytes": 25635
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-19.txt": {
+      "sha256": "f96334bd458c7e1032937f6e76865c30b5f54c4ae35381aa7be0aeec102e97eb",
+      "bytes": 21580
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-20.txt": {
+      "sha256": "78c99cdfafe82195e339a24a42a17708bd9d888ccf239b55f9d629736900a4c3",
+      "bytes": 27558
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-21.txt": {
+      "sha256": "ff94b1633e6663c60a63b2962d45311698c1a38ffc17bd8bec076755a5f03705",
+      "bytes": 28007
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-22.txt": {
+      "sha256": "9e1adf08dfb9bf2188b842d6fac119ef72e88b123c40a01f8712b3d8821af312",
+      "bytes": 29977
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-23.txt": {
+      "sha256": "cc2e86599dddedba7d8595ca979a97357f676e409dbd7d1d99eac032b6e12b3b",
+      "bytes": 26135
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-24.txt": {
+      "sha256": "134ab07fb8f19697e24def8658fff472462ada073978e4fe2f68d7d340d8a1fc",
+      "bytes": 32841
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-25.txt": {
+      "sha256": "47aeac5fb67edd2830284f7df546b6f868ce6f35224b49ab0552b67b6dbac54e",
+      "bytes": 29329
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-26.txt": {
+      "sha256": "614c44b9da26d6243786b6f704ed16476a21b03afa537c5350b56e8fb3e1efda",
+      "bytes": 27257
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-27.txt": {
+      "sha256": "c02bedc86774c9fd428ff31ed5d422c4747873740e5e928d64b2bb1d4795ecb1",
+      "bytes": 30715
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-global-a.txt": {
+      "sha256": "214855308914d93f0635038370579b17be88ccd72fcc3b71dd69a4b8f3747a1f",
+      "bytes": 29763
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-global-b.txt": {
+      "sha256": "f2f639f0d856ac44917a22fe8846a322e8e4d4ea157ca697e050a36223ae026c",
+      "bytes": 27293
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-global-c.txt": {
+      "sha256": "dbcd4356d131014a94aeabf1ffade023d78d897778722368d1a32378c69618f3",
+      "bytes": 29729
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-global-d.txt": {
+      "sha256": "61208c8f658e07884131701fef2a5307a26c3fca769a434fbc82cea87718f28d",
+      "bytes": 31497
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-international-identity.txt": {
+      "sha256": "b188d82fda6257f3a8da7c037c29d18938e10d43abb2b047961d9bb58cf34aa1",
+      "bytes": 25097
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\search-last-global.txt": {
+      "sha256": "4cb3dba13b8fc5490a899a1817ee92f6b4344e22ed5a716c824976b873960f47",
+      "bytes": 29566
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-basta.txt": {
+      "sha256": "ccae303bf23faa2ce3f7bc9faf5410c296e05291f28058cebe185c6315ae8245",
+      "bytes": 5254
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-beard.txt": {
+      "sha256": "7e7761c332a1bf412aa3092267da98e2c2d41b9776458653e896e42627efb8cf",
+      "bytes": 498
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-beauty.txt": {
+      "sha256": "77d72ca2691b81e9d78ef9300af331f0c3e728f43ad2c2f013daf1c1942c093f",
+      "bytes": 5026
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-chang.txt": {
+      "sha256": "7569eb471f5749b1b5312d8987277ec77a11807e54a6e4b5bbbeae4eca3cb8b6",
+      "bytes": 648
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-closing-menu-booking.txt": {
+      "sha256": "74efe5bc99c79c38616fc9ef3711976e09ac03a7f86ae9c6c8a23145eff0e32c",
+      "bytes": 3508
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-closing-paths.txt": {
+      "sha256": "4ff29ac75c887cb02599c2d32d9887f65bb6a9e3756e580046276889394c893d",
+      "bytes": 14228
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-dookki-global-branch.txt": {
+      "sha256": "73d4ea2178ca49573d98568b7283bcf4563db1c0c6e21fce9a5044eb95fa182b",
+      "bytes": 25547
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-dookki.txt": {
+      "sha256": "eefa151af7bac5446a03b68af473bacb2d220c6b5f9f6bda32047c3d2c5ff510",
+      "bytes": 8504
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-extra-known.txt": {
+      "sha256": "5a61e4dcdf4f281b4c6d3b42792fd41fcd19842f69d2ec69e304cf68bd09ab7e",
+      "bytes": 4523
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-fb-followups.txt": {
+      "sha256": "db7648cb52300c1b11dde6e54a3b06d4f9ba2d44c9afb5c22566fed593eb446a",
+      "bytes": 8107
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-final-brand-products.txt": {
+      "sha256": "76bcc4d8033b9c7b9de6fcda01416bd8dec466f0563d4e02e3d6f3b7486d6a1c",
+      "bytes": 29387
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-follow-a.txt": {
+      "sha256": "45e99bf7dc7eac08256d3a776404ab06270ba1e77738cec3e848df7762008f14",
+      "bytes": 10545
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-follow-final.txt": {
+      "sha256": "cb0bb9edc17f07d6899592ea37329325b13ecabff86d792fc7fa6b4e2c7ceab7",
+      "bytes": 3990
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-follow-locations.txt": {
+      "sha256": "74711119914ad3834af33b576743f201df679f0c5952380789ce47cc8fa6046a",
+      "bytes": 14583
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-follow-meat-hoang.txt": {
+      "sha256": "c143662f8a1513b1c5859affb5ba27ba4167813e3f7dc368c733b6e48908de6b",
+      "bytes": 918
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-follow-menu-booking.txt": {
+      "sha256": "cd639e52cd118d083cba7b876b085be55682f161b14e25b30cce72b976ae87c2",
+      "bytes": 19824
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-follow-other.txt": {
+      "sha256": "354e6ef57278a9a9c600ba39255dba64b6971ba20bd2834139f69a7af8677da2",
+      "bytes": 3351
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-follow-tianlong.txt": {
+      "sha256": "4edc31934cedb93d60b01257e3e4aad92f6545c045829f03315c562a70710271",
+      "bytes": 19463
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-goldengate-booking-platform.txt": {
+      "sha256": "a946f7c80e62bdfa6b048bb6d48341200ddedc943b8eeeb1f55c0704fd8ef05c",
+      "bytes": 15193
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-hue.txt": {
+      "sha256": "3b3b05324f39e182a673df6e5002fb84b7c24539d0e51afff32dcaa49d35d734",
+      "bytes": 2584
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-international-final.txt": {
+      "sha256": "c797145771a711e85fe863bda83677dc1e93dc1153b5978c54f5788989ef5d2d",
+      "bytes": 32330
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-international-products.txt": {
+      "sha256": "59bc3ca0ca0d6284097e551d7df3a35da3a46dd9c9ab59484ad4533dac41d21e",
+      "bytes": 4997
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-isushi.txt": {
+      "sha256": "627dae5edd1250b73fddd0a57a52ce9bef79428fc25abc60e8d3ed23c80f5cf0",
+      "bytes": 3296
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-kichi.txt": {
+      "sha256": "c41f399e6d75d1d5ab1462ac22db038e2515f494416f8eb10dc811f84640fa38",
+      "bytes": 3296
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-kingbbq.txt": {
+      "sha256": "77c1fec2c8185f920ff6bb652dc067ec832a8f35c28339bb92491b5616340c77",
+      "bytes": 1776
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-kohaku-booking-contact.txt": {
+      "sha256": "ef82c0ff8c54b2504b7d90d8b4f9acda6b9250bc1ded8246dec1d303eacbf297",
+      "bytes": 4134
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-langfarm.txt": {
+      "sha256": "1cf81ec78aa72d98d64879f38255845a9da09a1fac66e19565148456df378b57",
+      "bytes": 9924
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-last-global.txt": {
+      "sha256": "e513c09fff3b998ea0b34c6133121eccaf542a2a721c2e6ebf305818fd48e118",
+      "bytes": 4804
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-last-identity.txt": {
+      "sha256": "1f56353a714468ae4fd43010a456e18c5b8854f990ab1076030227e9d1bb04f4",
+      "bytes": 25350
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-like.txt": {
+      "sha256": "e4631dc250ab0a4111420748aed2e4defcb9a9d4fe7f684f6cbc967e142f33d2",
+      "bytes": 2181
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-longwang.txt": {
+      "sha256": "e8b9386e9decff9cded343376ad4120bbb176a5cb093c6bc7beab68b3fc1e981",
+      "bytes": 10576
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-mall-cuisine.txt": {
+      "sha256": "60936d3835b5d1543f9d6d43d87f0109620c352e83cad8e244bb3ac511c1f98b",
+      "bytes": 4039
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-manwah.txt": {
+      "sha256": "12cd0721d567e81f160591fa83dc9fc2e6084bb225b6f99410e41787dac4e8c8",
+      "bytes": 3268
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-matcha.txt": {
+      "sha256": "ea590aa0e0d9d3fe66bf61ca8eb82bd33812decfc89e1dbc4a1f743a4c99b1b3",
+      "bytes": 24119
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-matsuya.txt": {
+      "sha256": "b8b2ff8cb98f21a0097b2ac6089c23feb6cda2347edc5a026f838d7a7a2d7678",
+      "bytes": 4348
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-meatmeet.txt": {
+      "sha256": "fc0ee2286da5631fc04f697ad09f19728c5c8262cf118096c41bbe5d6ebff7bd",
+      "bytes": 2596
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-mk-contact.txt": {
+      "sha256": "32a07d60a42973fff04c754d2b87b5638e0a44d2a67c8577f4236605bbf8558a",
+      "bytes": 3924
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-mk-final.txt": {
+      "sha256": "a8bf72bdc725dd147ec1211dee7b60a9e10b47da4f977413ae67c6428ac20702",
+      "bytes": 14589
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-mk-menu.txt": {
+      "sha256": "bf27d8cc83bc49e4fde42dbf1a80aac99ff1eef32f74dc8221523ce02cab6cc1",
+      "bytes": 8711
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-mk.txt": {
+      "sha256": "4b41538c674f5c041ea2e7f745b2f73c59726e9468e4a3d4943dc9c6114e3118",
+      "bytes": 240
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-mochi.txt": {
+      "sha256": "91925b666bd71166384e1253554a9284b39e4db5d6ee86bb700c288cf355cb69",
+      "bytes": 538
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-official-cuisine.txt": {
+      "sha256": "0fbb0a04927b04dc2bae54f08764d41181e0af7bf0e0239d4a9d5b9d8b4fd1d5",
+      "bytes": 8478
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-pepper.txt": {
+      "sha256": "32d2b225a2591b79b906a38b62386b57a0a3bddd0141ad297873bb9836fdda16",
+      "bytes": 546
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-product-amendments.txt": {
+      "sha256": "a72564afd741a6ec5034881154a5814b2ec58fd0d5ec60705b91d466d331a4d7",
+      "bytes": 15768
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-runam.txt": {
+      "sha256": "405a5e434aba2858630d875fcd7c37a0b4327b77c5f0de9b3a7d502829269fdc",
+      "bytes": 6992
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-sachi.txt": {
+      "sha256": "b6d6d22712ffd3779c348c2310ca380c8381805f21a16814a5e1b3593a5555f2",
+      "bytes": 6991
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-sanfulou-reservation.txt": {
+      "sha256": "9819841183e4beb14873c61efe8f73889013ae94334688f2c48ec04d04f3fbe4",
+      "bytes": 5065
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-sol-details.txt": {
+      "sha256": "dba7cfe6163b7767415c0b0ba0b72389fbdc938095c6e8a33a9799bb3cf5ec6d",
+      "bytes": 16448
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-sol-tlj-seoul.txt": {
+      "sha256": "7d580955dc42034cd125a1725d3a21afd0094b27b2348b8dc9ea5b463ec75815",
+      "bytes": 34713
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-som-basta-last.txt": {
+      "sha256": "8d3b01ecee9e6c67841ce3f9b8f132beb7ccbc46b71a39b52d17f55e0fb30040",
+      "bytes": 6458
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-som-basta-menu-search.txt": {
+      "sha256": "154a47a9b8a4c7a72cfac9de2e20152354d797c77ed5736128791f3814ca1b58",
+      "bytes": 28872
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-somthai.txt": {
+      "sha256": "18040c17a23e314fcdc175eba15087c845c5ed5f21502a3dc3fb6a38963da369",
+      "bytes": 7301
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-specific-products.txt": {
+      "sha256": "bc9133d88c56aff21f30496395f47419ab671823ad29fc7f110553e6867a945f",
+      "bytes": 12558
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-tianlong.txt": {
+      "sha256": "29fc05f4c162b306d462352318ec72036304649ae05f863809c1425046e4dd12",
+      "bytes": 19660
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-wrap.txt": {
+      "sha256": "a54b1a4cb5c2000d3980efa5f412f0ac868ab2ddce42bacf784e3a8eedd97170",
+      "bytes": 4963
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\source-yamazaki.txt": {
+      "sha256": "28a6b2f1e21fc50322892d5ce17dd12531281e3a9702b9a52797878ddb562a86",
+      "bytes": 579
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\amendment-01-phones.json": {
+      "sha256": "ce84a97ad6c3f823152883cfba3a7b7d97e2f53585d826481cd4e0890598f937",
+      "bytes": 7190
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\chunk-01-decisions.json": {
+      "sha256": "d85232c36c8c2d680fab92240d805b26ddae399b4ea97883191f31228b6bde17",
+      "bytes": 37048
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\chunk-01-records.json": {
+      "sha256": "410f5f4c4ec6eb502b4e1bc224a369b0936e52f9907c819cee16345b16369bf1",
+      "bytes": 12325
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\find23.json": {
+      "sha256": "ab867263f8d22a115c43167f59f1ab769ead631cde498327518949e3076ea037",
+      "bytes": 25881
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\source3.json": {
+      "sha256": "df0f4dbd6d7b8a545232690219a594957d48f9f43aefd382254467b5497aae41",
+      "bytes": 24833
+    },
+    "evidence\\continuation-2026-10-19-r2\\research-vincom\\brand2.txt": {
+      "sha256": "0f4eb84e0296e4e111f75e3cc48da56b2cf96c8d6a2e389491ffe7208102c973",
+      "bytes": 25416
+    },
+    "evidence\\continuation-2026-10-19-r2\\research-vincom\\brand3.txt": {
+      "sha256": "e40eb4c522b58180660fe93fd376394004ec33229653962120632581f417221c",
+      "bytes": 25471
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\fresh-001.txt": {
+      "sha256": "60d53daa53d342aa41927d1b49c12eeac21a3c9158a59844876d35a843c62429",
+      "bytes": 24818
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\fresh-002.txt": {
+      "sha256": "bfda8d613714231ae5e4c153bae6397c6ff59de3dd722987679298469f7b0115",
+      "bytes": 33721
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\fresh-003.txt": {
+      "sha256": "464f95e7664463dd163a4d135c16915e8a414fa0c88152d5f7d2f253715d6515",
+      "bytes": 6146
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\fresh-005.txt": {
+      "sha256": "aba2c3e9e037e6a33c304d435b60bd72ed59dc91fdb3366a9ab5621a0e110f41",
+      "bytes": 1835
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\fresh-006.txt": {
+      "sha256": "aee604638a690b2db60a45840b3412754f9f3b7f692f181b5ec4079ed364077e",
+      "bytes": 29126
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\fresh-007.txt": {
+      "sha256": "d465d182318cf9a304ff006bdde22c9e3a4afd6113de27f300f895548ab9a0ea",
+      "bytes": 31363
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\fresh-008.txt": {
+      "sha256": "f8cbf186a0e9c5b4245c9a211b35e6d3b0be968cbdde07cd1c71506c51863ea8",
+      "bytes": 19303
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\fresh-009.txt": {
+      "sha256": "beb64d496b1a1fb522f470332e5a7dd3d4b837186f43c62af8c1d99a492f97b1",
+      "bytes": 8973
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\fresh-010.txt": {
+      "sha256": "ba9103c60d7bbdac6473546b71d14aa88e118d7779a06d07e9835b02a23e1297",
+      "bytes": 27656
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\fresh-011.txt": {
+      "sha256": "a0270d590f48981910a04287b72a0a098784ebc183748a2b16dd7c2176bd06d8",
+      "bytes": 26377
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\fresh-012.txt": {
+      "sha256": "360fa9f0e722edaa5a9fd6db8ebdb846200824a032f63b6c9db59c065f3fceab",
+      "bytes": 23093
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\reviewed-chunks\\vincom-retail-a-01.json": {
+      "sha256": "96236aaefc4ec9c5635cf1e56ab75a74e94f494de3cae3ec88b77e3840bcb433",
+      "bytes": 53411
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\amendment-03-identity-offerings.json": {
+      "sha256": "04d6847427f785555d4b3aaeb102a64bd85770bb94d6e8f1f6ac13e696af221a",
+      "bytes": 54204
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\decisions.json": {
+      "sha256": "237d0b3066982f8bec43036b5bc411809e9251838588086d7c3dc56c566aa253",
+      "bytes": 992129
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\records.json": {
+      "sha256": "83958a01806ffc93aad47fddb284b9f018fb028d6267511f49b78f7901c740fe",
+      "bytes": 201234
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\alternates33.json": {
+      "sha256": "933fd2a7b9d8d8a820f28696b19f0aa10adc4176a33803ed735cdba0f479576d",
+      "bytes": 11921
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\alternative-anphuoc.json": {
+      "sha256": "3fbb4d7463df8f9a98537e3da244f332d86d718fa52d8feb01549e96176a22a3",
+      "bytes": 14407
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\alternative-bobbibrown.json": {
+      "sha256": "95653dc7c292dd681ec40dae9e3432bd7e211dcce1815f9a1a948e4eeb75a3a3",
+      "bytes": 24687
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\alternative-cgv.json": {
+      "sha256": "9b275a98dfb9493b2d2cc1483e9cd129b69448780c557af82e201594bfbf64c3",
+      "bytes": 292
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\alternative-escentric.json": {
+      "sha256": "962a24d1c539d7540adef9147718dc44fc19384da4eb1922ade25d1dcc544c75",
+      "bytes": 15610
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\alternative-yslbeauty.json": {
+      "sha256": "cd0ca88efed0b634ce43f60e61528597765bc6eb5206cafd8b51cba1c4f0f9df",
+      "bytes": 25196
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\aqua-products41.json": {
+      "sha256": "5b33a8379010fa43b50720956995e920a6e61b70c69e24f401b44f952aa9d538",
+      "bytes": 16877
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-amm.json": {
+      "sha256": "9abe706c5ae3d3fba9d1437c8a466dd3a2a68418a06731326130639c29712c69",
+      "bytes": 22799
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-bathbodyworks.json": {
+      "sha256": "2efd74e52729d4efae8adbc670872acc13023d7c24be5e954e3148b74416a781",
+      "bytes": 13027
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-bodyshop.json": {
+      "sha256": "e0c3e4f6d2b43c8bf52f39cb99a20da8a396fba7051289b6c0d1a50bf930c02c",
+      "bytes": 229
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-cobrapuma.json": {
+      "sha256": "3ac8d3cfb0f7f8e7de3f9afbe984949f41cb36bbd9f519a7b81972a9f7c75c99",
+      "bytes": 17214
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-danielwellington.json": {
+      "sha256": "8290f0b6da0b8c21bfc0be0b4ac8563ae1869fcedd48be17d9784e18fe31e7ce",
+      "bytes": 11538
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-geox.json": {
+      "sha256": "1e9822118525656697eb27631bffa5953d2fe3bf6cdd3201e82f35ac1e3435fb",
+      "bytes": 1392
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-gigi.json": {
+      "sha256": "22912e0c8f7a98d2db0e6ec396b8c0d15871fda077b75d98ab8204d05bb72316",
+      "bytes": 13982
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-guerlain.json": {
+      "sha256": "81752bb2eaec14fb7650be16bc12d4290edc7cd7770c455d353894d7392959f8",
+      "bytes": 220
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-innisfree.json": {
+      "sha256": "8b6131635c669790741b8f3fdec277a62ff587b2426dbb433b61a4d6cf0385bc",
+      "bytes": 10924
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-karl.json": {
+      "sha256": "5f905a872a5aed06fd5bb4ec8c7a1d6756e1745e1f5837184c8fe7ffebbd8cac",
+      "bytes": 27128
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-kooples.json": {
+      "sha256": "66b77c5356cd2c2d1d6666c91f1bf7a131198a06611f8c9df857e42a26026235",
+      "bytes": 221
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-levis.json": {
+      "sha256": "891f4c026aff2ab43a90c0b5929417068a12242012bfb6bab128c9b67918dc86",
+      "bytes": 217
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-longbeach.json": {
+      "sha256": "8a9ff106460f97e626da2e0dd145cf3634f5e8c28fa037ce3c6a97fb7076470f",
+      "bytes": 17504
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-lukfook.json": {
+      "sha256": "6c078b603cc76189e56777ac98627520dc27398ee5d1cc4dae9ace02e0747377",
+      "bytes": 23881
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-lyn.json": {
+      "sha256": "03314fe69ccf530fb02a3fbcdf5fb55cea586aafa61dc4ab765c65f75009bcd3",
+      "bytes": 10929
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-makeupforever.json": {
+      "sha256": "599a3c033be37748c60f678ddfed95c712e8fbc0a3eddcefc6ee9fcf79ebf854",
+      "bytes": 6169
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-matsukiyo.json": {
+      "sha256": "265c6b8b7bd780b1580a07e518a37f5f0f2ce54ba5519a23843fa1ca957eed74",
+      "bytes": 10017
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-messy.json": {
+      "sha256": "1452b83829b26d395b168590e4766c2c247ad6ba0634322ff92373d1083c46f5",
+      "bytes": 7594
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-mlb.json": {
+      "sha256": "8d912e352aa389913ce6169154df931c9cf352482eca246ac7cb2fbf34e24368",
+      "bytes": 229
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-nars.json": {
+      "sha256": "bcfd8ead23c3a0ad50cdd78febb585d8f80fab7e1994b4f473b0ad0044d41d40",
+      "bytes": 229
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-new-lacoste.json": {
+      "sha256": "a3f37fecbd8ac187f7f900613f82061f194e49921b695486353453600aac8725",
+      "bytes": 25814
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-nike.json": {
+      "sha256": "1a2099f7451324cb1747f2a652e053c4159c921206bae3ef770931fe6c94c2df",
+      "bytes": 7771
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-northface.json": {
+      "sha256": "1364855b7db7cd2cdbdc2fc0798a0247ea348db3617faf255034602030a2dfc8",
+      "bytes": 225
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-owndays.json": {
+      "sha256": "9a3a961d16a3bdb746057b5280ef2dc1ec78a7deb2bd0f4c1b50ba28db6d6161",
+      "bytes": 9291
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-passiflores.json": {
+      "sha256": "b77e21f356572efc6b7a67586cba46e6e731c531d8883128d1d14df0629a8dad",
+      "bytes": 23904
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-phototime.json": {
+      "sha256": "c7a3d10ff716515f56d18e5fa690e1226575d694138eb0d472ca0ddb1dea1ebc",
+      "bytes": 3505
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-pnc.json": {
+      "sha256": "a2263717d449ea51fe826100b5a30867176780539a5266a38418d2089d789c63",
+      "bytes": 10805
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-polo.json": {
+      "sha256": "7ca1fdf09790d85ca320f7a6ef7c8c6a3c4d2e8b37d7ba93626fc113bea439eb",
+      "bytes": 9117
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-pucini.json": {
+      "sha256": "68fe49dc214cd1838a28d7fb1f6070a9a7887469d783c78e26cc5f76637e30ff",
+      "bytes": 7671
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-rabity.json": {
+      "sha256": "3cbe590920b827a0585546ae27fe158dabb3444825e737f7f5e4806e6ebf12d3",
+      "bytes": 14452
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-samsonite.json": {
+      "sha256": "d5590f87244ec4bb4a72b0c6f0b8cae6f6f5890208bb6c5bed997bfbc212fea1",
+      "bytes": 22229
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-sony.json": {
+      "sha256": "30af206a41fc4da8eb51082832925e3c213356b563f9addaca3d22109312ec3b",
+      "bytes": 7538
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-sulwhasoo.json": {
+      "sha256": "d7fe9b92597c742f30ae72ed8a6c7ddb7be094d8059af576892b23f9a3311e80",
+      "bytes": 7876
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-tgkc.json": {
+      "sha256": "75a573f782cd62a793f8d0d8e7c7a5c254005c0450cb74e73cb7fa1b0d7c532b",
+      "bytes": 223
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-tutto.json": {
+      "sha256": "c0d6d31b9711a4937bb26719886185eb01c437db1622cfa669c177ebc896b79e",
+      "bytes": 8158
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-urban.json": {
+      "sha256": "94f9d099ba14c852a72c6fc3e540eaae1ea7f490708d1e15a0bfbdc7fdb1b6e1",
+      "bytes": 15740
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-victoria.json": {
+      "sha256": "b4be33e2d44b8a959568b2de25d07fc63b84c434351752b1da4d19bdf41c0a16",
+      "bytes": 483
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-vincy.json": {
+      "sha256": "9248fbfdfdf4d78cb8c6dbf6d2ab5e4f6ec4904c6e231d1ece179d3478dd7d2c",
+      "bytes": 19365
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-weekend.json": {
+      "sha256": "5100e9046021dc1406b59e09d1b622d8d1ff3acd9b0e8cc753000faa68d822e5",
+      "bytes": 2763
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\catalog-wilson.json": {
+      "sha256": "ac308be08cd9e38701114c59ab3aecee10e3b9e60ec2a0e280e6ef623f4c0b21",
+      "bytes": 8756
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\contacts31.json": {
+      "sha256": "d114ff5e3729693ec83678307f24ca8d31c396941342f9fb8a801b43e6463f11",
+      "bytes": 28475
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\detail-facewash.json": {
+      "sha256": "62a580176c4510e593e7e158ecabc5da104445a48911cd12b089e574a2132be0",
+      "bytes": 3630
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\detail-seha.json": {
+      "sha256": "01d06cd794554d0d1bca8d79960ac52aa4297883ceb32f8cb739176eedac6b9a",
+      "bytes": 3057
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\details34.json": {
+      "sha256": "eaaca5ff8f8629fd288f2a5b7addb33951337a1245211ddf3327b05e8c3e7946",
+      "bytes": 728
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\find25.json": {
+      "sha256": "91ed567d166f6fbc91484b57a650c8bb0cc2d970022c95e3380076b4fe3836fa",
+      "bytes": 22242
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\find27.json": {
+      "sha256": "6a8dec81c53a6f458c5955198c9f1fe2e3a813ed9aa0dd932a3f884c38f4eb35",
+      "bytes": 25358
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\fred-product46.json": {
+      "sha256": "091c8a10ab059d52880a02eff1a3c187a969cffb094d61ed2013d1045e3c6956",
+      "bytes": 13849
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\gold-store-follow39.json": {
+      "sha256": "bca571717546e196c0b7df5b3c32504135a3e016d586a331c286829310da1436",
+      "bytes": 531
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\locator-follow36.json": {
+      "sha256": "12fab4de68ca5df70f77e395a8d30336fa3a195d84429e99ddd3905ca5d937aa",
+      "bytes": 24044
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\locator-messy.json": {
+      "sha256": "8c9da67cb8703dafc46b948531d5d4f1ee39d6a0a7119317019de0b7b331e8c7",
+      "bytes": 5714
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\locator-new-cotton.json": {
+      "sha256": "364aab4cea025fff70ad2219e2230ea6ca883637dba6a460db22eacf9c615852",
+      "bytes": 10149
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\locator-new-havaianas.json": {
+      "sha256": "3251887dba68c07b5a9472018f66178d76d5f6db6736886f10a12812f547e250",
+      "bytes": 9410
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\locator-pucini.json": {
+      "sha256": "a87e66fe1f3a70f788d88a0b450fc621de476cbfffe37b3777d1a22fb7cb83a7",
+      "bytes": 12668
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\locator-samsonite.json": {
+      "sha256": "3d87c393c6da76aec08134a1a8aa334b3c1fa6cb2989683a8e4c58fe21290e0b",
+      "bytes": 23040
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\locator-wilson.json": {
+      "sha256": "93b431c15d3ba458d1f3fa96373fa7cff43cc70dae991129e03c35d3c305511d",
+      "bytes": 12243
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\mall-guess.json": {
+      "sha256": "3c9fc80839ae42e14ac82790e6a08b0306563d3f74a9e47b6b0b96936ca5260a",
+      "bytes": 5465
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\mall-levis.json": {
+      "sha256": "8013c2089bc38a2ae977a086aa30ec5273e9f051c53cf498a247cd5380c3effb",
+      "bytes": 18437
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\mall-nars.json": {
+      "sha256": "8685a4b3ea9c82acf9519f11fa170743f88efafbc07686bfbc12af7e5bdbd7a8",
+      "bytes": 3899
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\mall-owndays.json": {
+      "sha256": "ff83d87bf6e4fe0762ecd151ca82f0e28307911e802b5374c4f33dea52479a52",
+      "bytes": 7091
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\mall-the-body-shop.json": {
+      "sha256": "87cac7981ad0bed3f73ae7c139f307f2be254e2ad72096dec892579024f75236",
+      "bytes": 7159
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\offering-read43.json": {
+      "sha256": "22a6dc51f6a5e6a224124c1b1284828c43018dbd7a14d95116d6e08ef2873520",
+      "bytes": 12660
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\open22.json": {
+      "sha256": "0f2722e0dddd0618c45910f56e95f266f7ff4b6e523fd870b26a1a0c9bc3ae42",
+      "bytes": 25370
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\open24.json": {
+      "sha256": "857d921aad0df66b4ddf00514f7552799206a93837d2543fc99283dc86ea034b",
+      "bytes": 25852
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\s11.json": {
+      "sha256": "bedae292ac347156b821bf002bdc1ce4c864acfb8f0e732b85ad7139e064d9e3",
+      "bytes": 32212
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\s8.json": {
+      "sha256": "8fcc2394c5e62f170d99ee44af2b6e51fdf9dd55eb0dc153f4d71a8c0e9a27eb",
+      "bytes": 33138
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\search28.json": {
+      "sha256": "fb4073c6b19144b6e53e9e674ebf425181cc73d58a07578dd91a0e02800517d7",
+      "bytes": 29948
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-a\\source-text\\search29.json": {
+      "sha256": "9c9309ba5f4fa4edf56629f927f8e3063cc414c26dfb323b714bd8552eeb3c6b",
+      "bytes": 26242
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\details-03.json": {
+      "sha256": "b408c4dae6a809e140356eb0c95bdd3982d9cab6aa58a086a4f6104395f60bf5",
+      "bytes": 25635
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\chunk-01-records.json": {
+      "sha256": "788b65498425fc9546fdf58e13fcd0e50c4abed46e4a8cb9e45c74c30ce5be67",
+      "bytes": 38063
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\locator-detail-01.json": {
+      "sha256": "5b20972cface0e6c5d14a6012df1ea0b2a5d7769affa3ecc1b11fee29080d6e8",
+      "bytes": 24348
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-01.json": {
+      "sha256": "1002536c18b640cae3ba4a258fc412ac902d19a77da025bc5e6c3955e5059e5c",
+      "bytes": 25080
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-02.json": {
+      "sha256": "26fb92332edc6e6d60a7c206d565eda9f9756bb45355e74d16432a4197db9e41",
+      "bytes": 24318
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-03.json": {
+      "sha256": "a02d9effca2a2b324f33d6b6687f2e985967459e5df3e974bba8fa4369f0be8b",
+      "bytes": 25511
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-04.json": {
+      "sha256": "0d0388910a99e04b0b5d460a7919b0f0ee9266adf601aefbb0ca2d11f72a2562",
+      "bytes": 25410
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-05.json": {
+      "sha256": "198b5db5da9a365a67bfa90f0980862208054f57d17bc8573f0775848990b0b0",
+      "bytes": 26501
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-06.json": {
+      "sha256": "52451e6ff9d937df4e883a88ee171843a43c6f2c734e55287928c22a9b44026a",
+      "bytes": 29098
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-09.json": {
+      "sha256": "7e095be14f0bc17b8bcb22b73bcde7aa5ce31451db6cb3601c1b3db2c89443d3",
+      "bytes": 29364
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-b-independent\\fresh-products-check.json": {
+      "sha256": "bbbf0bedf2fa91528e8b16e2cdd8a47bcc1223121f6719c0fc4bec913791d7f8",
+      "bytes": 998
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-b-independent\\fresh-source-checks.json": {
+      "sha256": "989fd13894665a3d629ff875c4a69a5fca34e255d4d4f7480d47551180a6bab9",
+      "bytes": 3288
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-b-independent\\selected-bindings.json": {
+      "sha256": "51d17ecf58a6523d94349dfaa3dc45ebdba6ef628a85b0d9e27e3cd4c2db4c8e",
+      "bytes": 56166
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\reviewed-chunks\\vincom-retail-b-01.json": {
+      "sha256": "73c5329ab6fd54dfea62566c1991a2d1dcb6816949b226820c6cc01578a36d9c",
+      "bytes": 112948
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\brand-profile-open-01.json": {
+      "sha256": "8a02eb02e9f45cf232002c7e4ead0110e117f1cb583fdc563c7562e69092a031",
+      "bytes": 1449
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\brand-profile-open-02.json": {
+      "sha256": "5dd639bc057fee59b48c1d78a2d6d03545fe39692fdef5308b361f48bd586b62",
+      "bytes": 5894
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\brand-profile-open-03.json": {
+      "sha256": "653af5a344b14ed0f01f96f3e8e2eaf256c926f38b9dcb01ffb7ad435074b93d",
+      "bytes": 1476
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\brand-profile-open-04.json": {
+      "sha256": "8841ca00741719fdf93d3a2828368c8fc6e7c7721d8c7b27c73fa2c39fb3e62f",
+      "bytes": 1089
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\brand-profile-search-01.json": {
+      "sha256": "62bbffeab138dc9dc8158cb6e20333cb8a5df84581812eaf918c4ff114844c30",
+      "bytes": 33539
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\brand-profile-search-02.json": {
+      "sha256": "7b885020e0a077df75bdc3c4942f92243e57d8b3513b49817ae143a10ca3ed05",
+      "bytes": 34231
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\brand-profile-search-03.json": {
+      "sha256": "684e9b1270b57ef5e320fdc14d9d2d0d954a25c8a44313c0ac73a2067e36c073",
+      "bytes": 32585
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\brand-profile-supplement-decisions.json": {
+      "sha256": "2e80e6811c58c19c0fc2ed61bf71bd713bdb636193c8360c028c44a33be74da3",
+      "bytes": 384096
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\brand-profile-supplement-records.json": {
+      "sha256": "0a0eb2e1cc07ac8fadf0532f152052dc41395e57ca6b65fbf8833f9f014ee914",
+      "bytes": 2396
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\chunk-01-amendment.json": {
+      "sha256": "592c9ae8dd4bc9ab25264339dcffa4be63802155eee093983f8f0923553fb72f",
+      "bytes": 2145
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\contact-search-01.json": {
+      "sha256": "a3b496e2d135f7fa255cce8ac81fddab9e3debd059e8a33fff95dce0b62f79f3",
+      "bytes": 25956
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\contact-search-02.json": {
+      "sha256": "19ae58d00126bb02ba94232a900ed7f6387f41995a667938b6f422684e0d2130",
+      "bytes": 30590
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\contact-search-03.json": {
+      "sha256": "2b4895fba5f8e79741d395a37565f781055fde5f83070817b618fa5a290bc534",
+      "bytes": 30541
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\contact-search-04.json": {
+      "sha256": "2c4b992db4f4e421cf51990245b72042e6509e441e96848d42df2eae9fc9f17f",
+      "bytes": 30666
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\contact-search-05.json": {
+      "sha256": "550f5e0870e93408a4c17ff153bab5de9359c587da7c7b346167872313edf8d5",
+      "bytes": 32266
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\contact-search-06.json": {
+      "sha256": "e043547317a1c2414bfee7f848fa8d38384f07172d3a5de00b1500aa12720496",
+      "bytes": 26609
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\contact-search-07.json": {
+      "sha256": "110f58c08d4dccd011fe88b2ae9d4f3cfa044cb788b0e5f217c80548f1431c5c",
+      "bytes": 32313
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\contact-search-08.json": {
+      "sha256": "da4a85badb70b3affa7a5f4c4ac040a27dd90b73fa11ba7bc5eb534e0e5ddfc3",
+      "bytes": 27965
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\contact-search-09.json": {
+      "sha256": "c3f5882c9b8644892feb917973d7417cfafb0ac2df7ff8c0c2412536a4e951be",
+      "bytes": 28052
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\contact-search-10.json": {
+      "sha256": "eb841a22ee37c2689c9c950e5593394ec37620017116c472d64aa679d0f02a61",
+      "bytes": 25861
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\contact-search-11.json": {
+      "sha256": "9e16442ea6ffcc2610622676668293407e5299156843b6b823a447d9571040d2",
+      "bytes": 25485
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\contact-search-12.json": {
+      "sha256": "be5494fe93422d445129428342ad99335785a089b8dee19572fdfa13578d068f",
+      "bytes": 30900
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\contact-search-13.json": {
+      "sha256": "199c7dab3e596deb7787029ab377a9046eb0124c08241b719b2d5dccbbaa66eb",
+      "bytes": 26109
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\contact-search-14.json": {
+      "sha256": "f3f555fe95922ef2ed02d765c5fbe3fe61e29fbf1e9d2d18a662a434b71a7664",
+      "bytes": 29805
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\contact-search-15.json": {
+      "sha256": "d4c25c56a2f5bac9cad8f408594460a9c48f43e634e112be50983f342a9575b1",
+      "bytes": 35799
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\contact-search-16.json": {
+      "sha256": "3e1888ee449b15a4c73be1d0b42337542bcfec7be3b47172e9cfec780c5764c5",
+      "bytes": 30150
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\contact-search-17.json": {
+      "sha256": "16d91ea0b756143409dc4047f8950d1c12f634680366bf5bc23ef22f5dea4e6e",
+      "bytes": 31653
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\decisions.json": {
+      "sha256": "55b6ea058c1c117921ba92b85ba7eb7c62e62a2503d21e81591075649d21981b",
+      "bytes": 1689246
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\details-04.json": {
+      "sha256": "3ee9b7eae5a444fe90443918724a1b85aab946b06599a91ac8000194f3705035",
+      "bytes": 25792
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\dior-beauty-locator.json": {
+      "sha256": "2b5c96b90c5bc4255f5dc4f6bc74e7a97e7960c3150cf3af849681e9cc55ac66",
+      "bytes": 15761
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\final-amendments.json": {
+      "sha256": "0bc8f3a302deceec52dc6be150a1b855d350e0b47bcabf84c854ab0305a27dea",
+      "bytes": 7706
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\final-research-01.json": {
+      "sha256": "d2ebb37dcd4ff2e24c73e6e9d0e562f47d3fe3a4495e7ba66dbe149c9ffeffff",
+      "bytes": 35732
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\final-research-02.json": {
+      "sha256": "4d0a0f6c64becb41aca8bc1c39fb444a94b7adc619fab627b55c45a3364a8664",
+      "bytes": 26067
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\final-research-03.json": {
+      "sha256": "7c884aeb24c99f47ad712ce96f274f7c036966291aef3618485f71b15c54d54f",
+      "bytes": 28711
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\follow-01.json": {
+      "sha256": "34fb481aa8ef3d5e7c6593be242719d5147d1ba48cd2afea578ef279b6d4cefa",
+      "bytes": 28584
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\follow-02.json": {
+      "sha256": "ed99c6ce30ead1ec8d29a789bd1d092bad0101d46f6411e8fadf30138d4ac811",
+      "bytes": 30020
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\follow-03.json": {
+      "sha256": "285a482a9168cc6c1c12ad11df70171960601b5a8f80834fde8a01b483efb9b1",
+      "bytes": 26715
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\follow-04.json": {
+      "sha256": "3f25b2f9d0ed0c3b57e030eafd42f5b00d0c5df5b4f717edff707b652bcd95f3",
+      "bytes": 12109
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\last-locators-01.json": {
+      "sha256": "229fe0c4c7d4b59499b4d745b797483469bf986f23f4008835810fac65d2e35e",
+      "bytes": 28661
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\last-locators-02.json": {
+      "sha256": "4e96b913252131f94a41f79c45b0dee3d7cd1f8c8d3e8d7bf009341eb5ac263e",
+      "bytes": 24876
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\last-locators-03.json": {
+      "sha256": "c724aed8b5974abfa37c396db7f28044b7984e47efe27d2b3d3570d586e415b1",
+      "bytes": 15713
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\locator-detail-02.json": {
+      "sha256": "6339df50d35a447f30d54d97bf67b541fbc6805be8b9bceb1d7a0132bcde6b6e",
+      "bytes": 26739
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\mall-product-01.json": {
+      "sha256": "18635daa9f7562e193c7b0e98fd1e33625c887903915f9e6b81178380f57ccdc",
+      "bytes": 6030
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\mall-product-02.json": {
+      "sha256": "5268c506b912cc32cd7a4219f4d778a2770fe3c697357cac18cd97758d7b7c9f",
+      "bytes": 23638
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\mall-product-03.json": {
+      "sha256": "16a23e259ab9f439a54b5b2416ddd41ba404f20ccbb6510ba74348045667ec5a",
+      "bytes": 17629
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\matviet-service.json": {
+      "sha256": "edc0e5478ce8b0ac5b021a2d86e54e4d31f5e58d930c87c6d5ee536beedcb4c5",
+      "bytes": 25537
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-07.json": {
+      "sha256": "27be42eaa659d21d06629ef66870359db0b8d78f1dbceb92241104daa38a643e",
+      "bytes": 29932
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-08.json": {
+      "sha256": "64a59698ba0dee44b71b2066e15cf7b74b425bdd69cb593055e4fc342a465276",
+      "bytes": 23865
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-09.json": {
+      "sha256": "c48ce0974f1195d6081920d32e650d0ebf7b6a1f14f84231720ce0688ef99a35",
+      "bytes": 24782
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-10.json": {
+      "sha256": "6c59a82e3d795f512cf53ce1b5c155af63a7a31a3570bf4ec9e25dbdf7dd3dc6",
+      "bytes": 25974
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-11.json": {
+      "sha256": "7c37332009c996d3fe9f92cd5432258f029e91d621dc6e2348aa9428bbf96a02",
+      "bytes": 24985
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-12.json": {
+      "sha256": "cfe72abf099cb1ba8a6c15de3824abf43d84b1c55909477a0aa4efd7cec7c0cb",
+      "bytes": 28471
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-13.json": {
+      "sha256": "7f254a76cbf1c9ec9e441a8c1e27775332352cf9fdb4e788563936f76459fc49",
+      "bytes": 25451
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-14.json": {
+      "sha256": "454e21989eb8d5b2cb51d1c483a80d7cc7147d6cd5fbcd7acffd0ce889ed6759",
+      "bytes": 25707
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-15.json": {
+      "sha256": "4416d002abc83b67f47d7d3320bbbe62e411148ff951a6485bd5c43af436bb1c",
+      "bytes": 30345
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-16.json": {
+      "sha256": "1ea83144c8423b52693aca09f0194e0648dd17ed570464957c1df3dca689425c",
+      "bytes": 30895
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-17.json": {
+      "sha256": "a387e7fa85c4d2c889c2ff153d0ad5741e9bfd5c3197e019a66bb29c5898cf77",
+      "bytes": 26368
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-18.json": {
+      "sha256": "8549dfe31c153f0e466e84db3ec6297dd36a15c2aae410abf4cf62bdc84f5ce2",
+      "bytes": 15235
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\open-19.json": {
+      "sha256": "7fef0ab2a65b47d87ee700cd95605cee2568531f408a1545bf07e595f75c43ae",
+      "bytes": 24615
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\product-proof-01.json": {
+      "sha256": "7f4f484cbd1786a9831bf83f6a4830f199deecd4189c7a22c789da8560394ac4",
+      "bytes": 24164
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\product-proof-02.json": {
+      "sha256": "260e2f7741886916332fd231ecea94cd59b7f63a0d42155b6f36d26e0729302f",
+      "bytes": 27572
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\product-proof-03.json": {
+      "sha256": "dec8426e7de61811f2ce57b0d28fdcdfad77151f8824ff86da0c531a3e4d621a",
+      "bytes": 26691
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\product-proof-04.json": {
+      "sha256": "b76bc69d414d3dc04508e6b905064ed05110b7bfb781b452f5c969a55ccc90db",
+      "bytes": 25418
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\product-proof-05.json": {
+      "sha256": "711a779390de2a71820d47f14288065ecfa1f01cc66096223fff601bdb5655b5",
+      "bytes": 12586
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\product-proof-06.json": {
+      "sha256": "946c488ce3b530b4000697a7b16fe81d1b6f40e4618ac20c9df495b530f27e23",
+      "bytes": 25089
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\product-proof-07.json": {
+      "sha256": "0828ccc6bbde39d554f0358837d16533dc9e2a4c2eee37ba682e70a51ae51a25",
+      "bytes": 25488
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\product-proof-08.json": {
+      "sha256": "34d388585e20ea5eb4ed43bd0d23dbaaf3e53b10b901579ddfe913eefed7b575",
+      "bytes": 25668
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\product-proof-10.json": {
+      "sha256": "75e524fd8cbfdf2bdadb082092c64efeeb541dc01037d916290459682f581989",
+      "bytes": 23896
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\product-service-01.json": {
+      "sha256": "5341b13d568b205802219690f0ce087abd2a0b5df86370f986366f00087bcc5f",
+      "bytes": 25976
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\product-service-03.json": {
+      "sha256": "ae1565c299d844c2b0f5ba6acd486f10576ac6fad103c94e9c972838d43565f7",
+      "bytes": 12661
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\product-service-04.json": {
+      "sha256": "569b4dae11405f5a3cfc901193628492e351ae5dd331ddc6233f8fc9492cbb20",
+      "bytes": 13175
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\product-service-05.json": {
+      "sha256": "a5589be9292d819bc035cefc7a768e660aabd567d824af13dde0b9774a06ffe2",
+      "bytes": 21798
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\product-service-06.json": {
+      "sha256": "3509bca1b97fa9a50c11e8411a9154372516f5e2eac69114a8aaa3ca01292ec9",
+      "bytes": 9925
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\records.json": {
+      "sha256": "c7c3bce48f69c73c13a3fd68df0010f05b1315be99d40fd0c18d14ca1373c27e",
+      "bytes": 155545
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-01.json": {
+      "sha256": "8540bac5eb014452c808b0422f7de04f6e8df9b9d493a4105c31fba96f9a4f98",
+      "bytes": 23598
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-02.json": {
+      "sha256": "6197f01488e381e07794d108aa29d868c047de2b7ec67fa0bbcde2be61b960ff",
+      "bytes": 29159
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-03.json": {
+      "sha256": "d82ef6115d823a19cf35e36bf5e13cfe6d9554be75eb893596cb8880af2b5067",
+      "bytes": 32154
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-04.json": {
+      "sha256": "c8653e83ac94abd40320c2aa7936d9f345425061db261ef15f2e24bde647b532",
+      "bytes": 28090
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-05.json": {
+      "sha256": "afa34ef8d8244f9c7a13699a15e3172aa44f7e33492d47fe72abb96fb9886b43",
+      "bytes": 25942
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-06.json": {
+      "sha256": "81f15558e249ad7e93ee05ac64c512d50b513f2537950f016b39cfb2596d5373",
+      "bytes": 31727
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-07.json": {
+      "sha256": "da0842264ce914f4b371363cc344b8b7eccaa655610d9baf60b275494c3ceeb0",
+      "bytes": 27524
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-08.json": {
+      "sha256": "7c1107a81e282e140405b20b0e4324245ca57e81d9bcdc1fe9b95fb72df52dc8",
+      "bytes": 30055
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-10.json": {
+      "sha256": "6dcda0aa626765c7104f8ebbbe50132cde81b29f4d523c9f92f0ab846879645d",
+      "bytes": 29199
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-11.json": {
+      "sha256": "d298f4583aa72fb8b4ce63caeb96d1e6d37cbc69145705153298aee5d2940e98",
+      "bytes": 31901
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-12.json": {
+      "sha256": "0993f9120b47718a142ceea5dc31a2b6223b4d8df5bb823f793deec1b595db40",
+      "bytes": 28558
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-13.json": {
+      "sha256": "178381cf61e9fb5ab31ef71ca1b08589f5f3baadd483ff2165ec967c4e135a51",
+      "bytes": 30454
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-14.json": {
+      "sha256": "872d1b725379b4ab6df52a3138e214a9c94de4f666f54909a8299f1dfabc5ba4",
+      "bytes": 22730
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-15.json": {
+      "sha256": "d2fcd4d4e49c7c1baa08838f9718ddab0a66899de8fa8119383178103a2ff62d",
+      "bytes": 27585
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-16.json": {
+      "sha256": "845ded21a9d199685a7d31e6c089b57f5bb38b71da674a9b7121b208a3c94096",
+      "bytes": 28735
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-17.json": {
+      "sha256": "aeec8320a5f56dfc29c9377d5c9c20cfee51a4e7bfc9c549b372b72ee351dd6b",
+      "bytes": 34512
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-18.json": {
+      "sha256": "4487b05b3f001e47ed84e6974f5669cc6d40becc9b21e9b26fb6445d1d09af63",
+      "bytes": 29745
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-19.json": {
+      "sha256": "a2eb022cc49a78418c5f0735bb408b6252f269832588afd4214b65a3b53c62fc",
+      "bytes": 27000
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\search-20.json": {
+      "sha256": "388a936301399265c60d46a4b8409b763adeb4fe5ecf58d2259f4b9723986efc",
+      "bytes": 23295
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\service-search-04.json": {
+      "sha256": "b496b5935034cce23a90f6bcb0c3c599ac0f4416899341aeaf7aa750e3168400",
+      "bytes": 28775
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\service-search-05.json": {
+      "sha256": "b69cc08a19be823f695544651007fcb931596d308810097ca9f6220256f7acfb",
+      "bytes": 30890
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\service-search-06.json": {
+      "sha256": "a25a8ee8fb4c6423e25247352e2fed9e9015cb9df00e87ad2b358de7aad132b1",
+      "bytes": 31712
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\service-search-09.json": {
+      "sha256": "ddb676d9296df8864c508531c8f54f820b956ac70d6516e620219036ddc05480",
+      "bytes": 34729
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\service-search-10.json": {
+      "sha256": "2c51d890c10954dafaf43293f036d7ec7b7db3b0b0e51729e6c9c37a3e56cfce",
+      "bytes": 34735
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\service-search-14.json": {
+      "sha256": "e2f7d9df34b0716eebb1ad119786720458d4b82566d13dcd4f901bfa0e436600",
+      "bytes": 36496
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\service-search-15.json": {
+      "sha256": "26aa02a5e6ee5da9c3cb87629cbc5cb77503a62e6b0cb8e2d5bc3bfd31f73f9e",
+      "bytes": 34861
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\service-search-16.json": {
+      "sha256": "012ae89fe4bbc1316d27e90acb8bc648ed47c0048aa5bca1f60b8ddbbd3634a5",
+      "bytes": 35503
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\service-search-17.json": {
+      "sha256": "29e33b487a39d8e2439ff435ae70447afaac64d813fba07d32c1d67bcc861b48",
+      "bytes": 32466
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\service-search-18.json": {
+      "sha256": "7bf43c77425c5476d35a1ff28a0f66c98d25abb0221a25153cdf58b8848652ea",
+      "bytes": 35817
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\target-01.json": {
+      "sha256": "c4a4c679ce8948f923eade179a83d037683ed5a7dea9c39e41ae1c326de4c7f6",
+      "bytes": 25298
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\target-03.json": {
+      "sha256": "57ef1018eef64c99be3cc9308352bbdefd86884d917834a1c0fc7b8476a0f67c",
+      "bytes": 26621
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\target-04.json": {
+      "sha256": "b95bc9a3ad6023c2ea736c3cb4b6c80e3c57e9906deb44a6e8b2c3a23aa1ac33",
+      "bytes": 28409
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\target-06.json": {
+      "sha256": "ce4ef33dc4d382b0b5e559755eac18bfae6a696b460263abf062b3226096693c",
+      "bytes": 28158
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\target-07.json": {
+      "sha256": "158e418adabf7fd72a4a62452cca82e4073ba3f3640ec410bafe554586e503aa",
+      "bytes": 25546
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\target-08.json": {
+      "sha256": "fc37a44abb43825977e053ce8bdd16d3ae2120a2648eafe124febff70ff3e19b",
+      "bytes": 28978
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\target-09.json": {
+      "sha256": "6fc6016acc0d23de6da081eec33b3f57f006ca28b602167865ced48340bbbcbf",
+      "bytes": 33009
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\target-10.json": {
+      "sha256": "4f8c2ab0a4aa79b54d8884f70c3ce2cb245ebd0b5a839b12a650873f0bf9177e",
+      "bytes": 28788
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\target-11.json": {
+      "sha256": "cb56c8406e32b6d0afae91200c7a94dd0eecae500a800c1627561586d1591033",
+      "bytes": 25929
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-rendered-recovery-snapshot.json": {
+      "sha256": "5e3a34a438456bbe133a3c50f26e31a233c6af9f2581f9d7597048af2c458dd9",
+      "bytes": 5596
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\miyama-menu.pdf": {
+      "sha256": "0008db4f439e27dff59fc689126a8eb701b436b94280e12731f0def6e13bb3be",
+      "bytes": 1014577
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\miyama-menu-extracted.txt": {
+      "sha256": "077cc2c6fd0f266d889741f0f23971b75473d686667aa0cb9c09bc7f2b9b7f2f",
+      "bytes": 26879
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\miyama-menu-page3.png": {
+      "sha256": "e02ba43ef0dd86fdea0c7ea1482e74da424c7fffd9a50b847b1b66577b8b410d",
+      "bytes": 538522
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\botejyu-miana-final.json": {
+      "sha256": "ecbe843283314c1b8be57f71b163a5c95b41bcebe3a552f47786e4cb895b450a",
+      "bytes": 1666
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\miana-product-detail.png": {
+      "sha256": "cd9623172ecee87fac1ab4ce86effd02936020b1986881a383a598b2096cb4e4",
+      "bytes": 315433
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\miana-proof-0.jpg": {
+      "sha256": "a1e604d5fe486adb98e32295490f781af1165016881ad7f985a1924e5abcca6c",
+      "bytes": 202855
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\additional-phone-followthrough.json": {
+      "sha256": "d1d100a728ec771f322ae90cb551a2a6b5ced94c87d1bbd36eb0057392b86874",
+      "bytes": 1188
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-b-independent\\phone-chunk01-source-review.json": {
+      "sha256": "f432721f7da1b7627db77a9d294b4afc0ab96de8d4d3e87c7a9f298e17257fcd",
+      "bytes": 1561
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\phone-scope-proof-01.json": {
+      "sha256": "1fd6f9f60c1f080f3cf59eaee00f62df7b22a1058d912b361d1a94fb949d30ae",
+      "bytes": 22067
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\phone-scope-proof-02.json": {
+      "sha256": "31499148a0651b980d53c440791a8437cdc100261e0cfed74519969ca8939f9b",
+      "bytes": 29201
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\results.json": {
+      "sha256": "52f32518fc62a1ed48148672738f04943dbd7345656ad935d1ef2f9001310456",
+      "bytes": 15102
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\asanoha.json": {
+      "sha256": "f5bbd92ea18fa363ca717dc4e1b30cd46f00ab43032df9481e66eafeaa2c6131",
+      "bytes": 35617
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\asanoha-data.json": {
+      "sha256": "01e3b8dc2c4e8262bdb191af2c37423c2acb79df161b7360f574513c4dfe3289",
+      "bytes": 15938
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\asanoha.png": {
+      "sha256": "899566a6fb119f35f99f1505421b527545c1416e55d017fb62c2268a9d47700e",
+      "bytes": 1405822
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\asanoha-vi-locale.json": {
+      "sha256": "1b05d8529ee88dce1eba8c7f99845020b1d0a21947c6ba1d5665540230a558a6",
+      "bytes": 39285
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\asanoha-vi-locale.png": {
+      "sha256": "0ff7d5e4eaf858703f00c781fb7f663b101527815801088972caf273e05b2fe1",
+      "bytes": 1400780
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\script-inspection.json": {
+      "sha256": "95ccc29564a05103feb02f90e7bdd1cb48c3ba1319c40174e9847610a7a10b5c",
+      "bytes": 51229
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\gyushige.json": {
+      "sha256": "98870ad86245eaf755202dd6767f3c19bba376c14c5b28eee714bf0743b95748",
+      "bytes": 86728
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\gyushige-data.json": {
+      "sha256": "9196a9785cd7715ef722a97a6173670b8c955db0173273cc1144ecec02bd8856",
+      "bytes": 43726
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\gyushige.png": {
+      "sha256": "7b25bc774c9edf1fc1d7cb535bfaa4fd9a1299e6a7a49f8f34b93689675e10d6",
+      "bytes": 536030
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\gyushige-vi-locale.json": {
+      "sha256": "99037a1dcfbc4a64a06cb5f3d54a91cbc7d3a2d1ced87557101c68b42a9d2499",
+      "bytes": 89111
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\gyushige-vi-locale.png": {
+      "sha256": "1b9b78388d70eee566e9bb6bd92455be55888c17e371de1c0be9140a9aee82ba",
+      "bytes": 547004
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\jindinrou.json": {
+      "sha256": "6ed7a02400277ef1675842d25057410a02cc4077b2af9619ce909b74e37ba1fa",
+      "bytes": 39158
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\jindinrou-data.json": {
+      "sha256": "480e9ef61ea86bcb0b65da2c2f81eca93f10b1e69d9d0433365512bdee6bfd1a",
+      "bytes": 16254
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\jindinrou.png": {
+      "sha256": "ab6b171adf168d66cec56c7b12656c2f46d9ec76f23734026268c9ff1b7bb9df",
+      "bytes": 2060823
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\jindinrou-vi-locale.json": {
+      "sha256": "558cf1ed48f07a3d1c6498b213bd026e995e7d9235451ee404265982269e443f",
+      "bytes": 43560
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\jindinrou-vi-locale.png": {
+      "sha256": "2892fef95f772ad254935f2eb8154701a024a0119ebe051fe4b9afba022ae916",
+      "bytes": 2135320
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\oedoalley.json": {
+      "sha256": "78032b72776d7b8d32ccf24e960f1ebad10ed573b0506cf9bac775547d24e936",
+      "bytes": 58692
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\oedoalley-data.json": {
+      "sha256": "f061bc742d451d8a98d135e8d5858b602b48948a251f2a9640f806ca38aec52b",
+      "bytes": 28914
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\oedoalley.png": {
+      "sha256": "f5c22df9fec617aee2fcf0b068f9b35bf288c1cd7a8c68cb81c79b6492b42827",
+      "bytes": 854249
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\oedoalley-vi-locale.json": {
+      "sha256": "1adf7a25fbb56f6f6d27bc3998b5f70e1fdd1f4448f07851467b740ff7105859",
+      "bytes": 62947
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\oedoalley-vi-locale.png": {
+      "sha256": "7d166fdabff5219eecbc84f10c8874c2b39f78cb660cf6d59e34aca882ddbd05",
+      "bytes": 846789
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\ichibankenramen.json": {
+      "sha256": "c2462797d6de3279beb5e0deae116f2392631038a7b09c3a8a670f8cc0ff7d6e",
+      "bytes": 39467
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\ichibankenramen-data.json": {
+      "sha256": "9656cba2d9c19a1a9c058a51e62a732d39dc8185aebb2ae5b807f28fc9c7cf58",
+      "bytes": 14713
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\ichibankenramen.png": {
+      "sha256": "3ac2e8738ed27bef6cf8999057ba7385ee7c4e7e7aec31c8b2032f522ce797df",
+      "bytes": 829587
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\ichibankenramen-vi-locale.json": {
+      "sha256": "2f23b5a08e6abe7698d499d7c505f602035367927973fa59f05842859866b726",
+      "bytes": 43344
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\ichibankenramen-vi-locale.png": {
+      "sha256": "c41fda0608c54a472673189321821d20662915c1d5e42007704b79a5e8036ffb",
+      "bytes": 813511
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\somtumthai.json": {
+      "sha256": "88ab6445ad77ec016a31f8a46b15fdb21ae39da20a5483f0979c7b0908d99730",
+      "bytes": 129624
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\somtumthai-data.json": {
+      "sha256": "6f0652121cfcc98eab8785c8e1f943c396bf0e36b7b62e887d9cb9c87f96f01a",
+      "bytes": 66384
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\somtumthai.png": {
+      "sha256": "c53128f4335cf1977e845ffbf00deef78cc45deda0acc35a2618c4092cd7d4da",
+      "bytes": 1961138
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\somtumthai-vi-locale.json": {
+      "sha256": "3cb09f13037fe4dc1087c36a91287f3e77dd00b0e99b6877d6ce2335b775fef4",
+      "bytes": 135366
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\menu-recovery-takahiro\\somtumthai-vi-locale.png": {
+      "sha256": "f4fb0596029e670c43cc139f43671d3bd58a11a0cad916a6087f74ce82ff5046",
+      "bytes": 2010352
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\converse-contact-final.json": {
+      "sha256": "98dba698911fe3951dc97175ba5705d3e754fade66bcc85f92fca904cf481bb8",
+      "bytes": 20226
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\phone-scope-proof-03.json": {
+      "sha256": "741f850aa81a8c454994c75e5ecf47e975533cc50bee4cc15c048997a89a1cba",
+      "bytes": 28352
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\mothercare-international.json": {
+      "sha256": "d1cba80004c08bb0b6d874fd8db90ccc74bf2e3445c76cfca40faacfc62b81d7",
+      "bytes": 10828
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\mothercare-singapore.json": {
+      "sha256": "089f12926d59e661e3df2d172768a4d987d2af8bc4a6df3e675ab185d3e0f851",
+      "bytes": 15538
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\mothercare-singapore-products.json": {
+      "sha256": "d02d819f4db449be9b632c35facefaf739b24e6f6f2e161349d89414bba497ed",
+      "bytes": 29081
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\mothercare-singapore-products-detail.json": {
+      "sha256": "c59dd97114d6dbcef3de2c0ef5a0ab94a3e2353cd0d7f78e66b89d0034617b01",
+      "bytes": 28472
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\phone-scope-proof-04.json": {
+      "sha256": "6d9f02bffc441eb61b5fc083c364c0bb8e3807c9342620a8af82a26a8b0fafc7",
+      "bytes": 28079
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-b-independent\\furla-catalog-source.txt": {
+      "sha256": "bba224a42c07a9394f2644df92c033d57738a79e3e2a4cc0743821b9b73a2073",
+      "bytes": 6283
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\adidas-general-contact-check.json": {
+      "sha256": "d8ccce44a9b4c4e89d58fc4193d0e1c04c4db0e28e06b7937e4d89606532061e",
+      "bytes": 448
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\phone-scope-all-phone-review.json": {
+      "sha256": "f1ff19b017ce0b00b2196b6708cdb09ce51079bdff739220448b6726c6d09388",
+      "bytes": 357726
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\holds\\adidas-contact-final.json": {
+      "sha256": "029b52fac008c3c200a8497d801be4f9c1218a90a5b4cbe09885cee213cc7905",
+      "bytes": 360
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\followthrough-001.txt": {
+      "sha256": "59031c83e692794aaed789c61b0c328848343f6d010327499d7df58b262b29cb",
+      "bytes": 25212
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\followthrough-002.txt": {
+      "sha256": "a9d0329c8bc5e42e619b1f527cd7b6a0f7e62eac71fa57d00f063ba8075412a8",
+      "bytes": 24638
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\followthrough-003.txt": {
+      "sha256": "d88630b5a63ca53afc69c06c18501d6c07db98455f9a34adb70d9e755fe3e7f0",
+      "bytes": 27166
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\followthrough-004.txt": {
+      "sha256": "7f4efd5abcefaa1edcf2e9921a096fc3295f741ab5bbd2372c76d056b0b79755",
+      "bytes": 22474
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\followthrough-005.txt": {
+      "sha256": "15b91a4c4cced6be6ff2362b47bf9e3430eba1c8443d61848341ac13d77b20c7",
+      "bytes": 22902
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\followthrough-006.txt": {
+      "sha256": "9b0797a37420868a9b0fae1a76af13e7e7450d57c0ee77b7f12c4fbd742f9f8c",
+      "bytes": 22399
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\tiny-contact-web-1.txt": {
+      "sha256": "f9ad7a6e437a1f9e71f42813b0b16ab4300635635d2c7d49fd5e0f4bd451f7fb",
+      "bytes": 26064
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\tiny-contact-web-2.txt": {
+      "sha256": "f4dd8feeec84296d4cd467da753f8266d7e48a9b2bd20f791ed1148e2137bdef",
+      "bytes": 25779
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\tiny-contact-web-3.txt": {
+      "sha256": "16436377a20506fc74696cfeb74b93c971fe255e430e196f30e7a2d733c326a0",
+      "bytes": 25121
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\tiny-contact-web-4.txt": {
+      "sha256": "5e9d819f51290453a388e7f983b1ac635fa0293968f60b60251d896ae71f30a9",
+      "bytes": 2962
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\tiny-contact-browser.json": {
+      "sha256": "02c10d0358a034e3639458200b044e0d3fd027bbf844cebd58ef49b705e785fc",
+      "bytes": 308057
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\tiny-final-decisions.json": {
+      "sha256": "6e0b2351ac7df7e4e25029a240b6e1656f1f21ffe23d305fa608b03e76380da6",
+      "bytes": 13087
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\tiny-final-records.json": {
+      "sha256": "287080f600d3376858663355cebca326ad593827538d4fdb1264c1290fbc3fa6",
+      "bytes": 5163
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\tiny-final-prior-audit.json": {
+      "sha256": "c5307fdf751a6bf29cf7f5504653861b5b0121d47c9a441ee640e341c0a4a208",
+      "bytes": 60256
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\goldengate-baseline-conflict-receipts.json": {
+      "sha256": "00638846004760539f24838dd2744d88369b4dabd47e915b0e937c719efe1881",
+      "bytes": 1452
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\kichi-baseline-conflict-receipt.json": {
+      "sha256": "8eba651e69d4970d764bfa5b58ac4befe1d1b378e4ecf0ca3d618a510ed8b3c5",
+      "bytes": 478
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\runam-baseline-conflict-receipt.json": {
+      "sha256": "b585a2a8944fda861701d899c1f15d0de8caaa2c45457c76a85511deb9ea848d",
+      "bytes": 432
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\baseline-accepted.json": {
+      "sha256": "25ac0766a17bb0f05af40967136f43c7bab737201f7b8ddbb0fe80c11832de94",
+      "bytes": 733973
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\takahiro-baseline-source-snapshot.json": {
+      "sha256": "e52a984ad4c223ae3edf72bfded5b6d6744e7698d777301900a935a65feed395",
+      "bytes": 5938
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\followthrough-prior-decisions.json": {
+      "sha256": "969ac979f606d0c0c068ffa292db3043bc362ae47cc42eeba7f01b40148daeac",
+      "bytes": 15762
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-a-independent\\followthrough-amendments.json": {
+      "sha256": "afde80648faf0392edc1754dc60676350bd0d652e6821eebe288a25f08cdb866",
+      "bytes": 39034
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-b-independent\\amendments.json": {
+      "sha256": "83fa98921a090bfc544caccca56de2f967b601f4fc9bde0f7454c6738c61cdca",
+      "bytes": 28865
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-b-independent\\reviewed-remaining.json": {
+      "sha256": "602477f0401be35435d21792fc1703c8d70c2bfbaef059610148840f882664d3",
+      "bytes": 1404210
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\mothercare-international-decisions.json": {
+      "sha256": "fc2ea9814e148ab4e369cfafa132733303237a44808344f755e4f5b3430d05af",
+      "bytes": 4787
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\mothercare-international-records.json": {
+      "sha256": "6f40e12c6d11b23bc7ef0decbfbdd607f30dd5d637521c7e67e82203c2e487d9",
+      "bytes": 3118
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\phone-scope-chunk02-decisions.json": {
+      "sha256": "5da71d590d96920e3089991e0f626ce4184bffa90d0cddae1e41302c391581e6",
+      "bytes": 6124
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\phone-scope-chunk02-records.json": {
+      "sha256": "dd76740e8b3cc8599d5c24708eee1388e90b88afd3004463ab3ecb340225a57c",
+      "bytes": 4171
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-b-independent\\final-amendments-02.json": {
+      "sha256": "9b3dd7e64e386f315c17a5d4b3fbeb68b2a22b4bc29dc77bac495b8c75505147",
+      "bytes": 69689
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\phone-scope-chunk01-decisions.json": {
+      "sha256": "f534133dd2549d3ec4abb968033c9c4f273b565be127e439c82a0d14e52dd15d",
+      "bytes": 48639
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-retail-b\\phone-scope-chunk01-records.json": {
+      "sha256": "6928590d08b6699ce032e52330f674de1bcc4f86f6b7ad70c3bf7f14b7f61989",
+      "bytes": 23911
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\retail-b-independent\\phone-amendments-01.json": {
+      "sha256": "8b7b96938bac30dd5204aee5785cc9b706b609cfd3864660cfa613c0a3c462f2",
+      "bytes": 148178
+    },
+    "data/malls/saigon-centre/directory.json": {
+      "sha256": "ffade29ada11d158619a2d58758611b210423bd609b3a4bf4f82b1af88fd5b2c",
+      "bytes": 399753
+    },
+    "data/malls/vincom-dong-khoi/directory.json": {
+      "sha256": "b38b55ab32108efeef2a3cb751f2142fc04c61ba94c4825d50080786ad810c14",
+      "bytes": 363102
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\baseline-integrity.json": {
+      "sha256": "e898a339ed17b64c90e4983bc3872acc02016e4e69099bc6bfd0e202f810a340",
+      "bytes": 1409
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\expected-keys.json": {
+      "sha256": "417a31a498ea419467fc16832a1e4c8dbd25331aebde8307b100ccbc7975470d",
+      "bytes": 310602
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\audit-decisions.json": {
+      "sha256": "5af49ba3ca3eb20b50129b163e432512cdda8bec659b3e60103e1fb26a4f68bf",
+      "bytes": 6493820
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\audit-summary.json": {
+      "sha256": "0a9277fe62f9e2ad371a0b05ee9c5fad943094d0fd53b3f6fe4fad5e2dbb4b22",
+      "bytes": 3137
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\review-amendments.json": {
+      "sha256": "c1b5e5f9eda67c0c3bd9e5277ca760372313752e7dfde8a06f2af92455a57c25",
+      "bytes": 458422
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\baseline-amendments.json": {
+      "sha256": "02ade905e871d23c8a4a41120bda478ed427ab670d13ce7e8daec5fe2b4dc562",
+      "bytes": 38588
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\accepted-incremental.json": {
+      "sha256": "ccd9ed27e8893ad36e1ee63b94cc870c2f14284c1727f044517f54e0442c19b8",
+      "bytes": 982437
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\expected-merged-acceptance.json": {
+      "sha256": "355497aaf7f0d243646724eacc9ca0ca47de87a81455e3e4d254cb5f33adaa47",
+      "bytes": 1666361
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\coverage-ledger.json": {
+      "sha256": "bd56b8230b06043ed8d9bf72629dcb95304d81629b8c38174e52df0e984a0370",
+      "bytes": 8892889
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\final-fresh-source-observations.json": {
+      "sha256": "d9eb7e82ca71e856793f932fd8b5810c461282281f7069018c39e96c613ff6fa",
+      "bytes": 3583
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\final-cross-lane-closure-receipt.json": {
+      "sha256": "71edb28297920a3cbaccd3bfbf3d64f2f2c6524df0ac2cfda9ca6a816c21c78e",
+      "bytes": 1474
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\reviewed-chunks\\holds-browser-03.json": {
+      "sha256": "9446d29fc5ce6cfd0099176f449ca1285f0b5d40c55cbcaf94acb4cc76b040e2",
+      "bytes": 28563
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\reviewed-chunks\\holds-final21.json": {
+      "sha256": "96f960f4cbb47140622fc6658a2e5c0daa63edf361cc2f04b7823d7167a4b115",
+      "bytes": 25679
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\reviewed-chunks\\holds-phones-01.json": {
+      "sha256": "41766a2461ed3aba75fa578a66c9ef5d2f1aaf20c733ce9ff5f72c5dbed2f4d5",
+      "bytes": 36229
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\reviewed-chunks\\holds-resolved-02.json": {
+      "sha256": "8aec3f2c22838c37da9d4f6ddaa8205d376f2de81bb99c89271e1a3485e0fc3e",
+      "bytes": 12929
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\reviewed-chunks\\saigon-dining-03.json": {
+      "sha256": "635b21fb820d14be85f28bbc95244adc45644b5712f0d42833ca1c43997e8b63",
+      "bytes": 308028
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\reviewed-chunks\\saigon-retail-v2.json": {
+      "sha256": "c0de93285d8faceef9ebf74c0a435c38b73db765ccb038384b6fc139e19116f8",
+      "bytes": 788384
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\reviewed-chunks\\vincom-dining-01-accepted-and-morico-negative.json": {
+      "sha256": "a185f5dc1b5e30ff70855163d7924e910a0fd6255c5404850cf6ca20708057f8",
+      "bytes": 64826
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\reviewed-chunks\\vincom-dining-final278.json": {
+      "sha256": "5e9654573451aa4fbaed186828d0312de78cec9edb4d1eeb838ab43e37db35f8",
+      "bytes": 2567091
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\reviewed-chunks\\vincom-retail-a-independent-remaining291.json": {
+      "sha256": "6c9cccbab2fd488212da83929641f02ad20aba25542675a30eafb753b6fba73b",
+      "bytes": 792012
+    },
+    "evidence\\enrichment-exhaustion-2026-10-20-r3\\content-audit\\reviewed-chunks\\vincom-retail-b-independent-remaining259.json": {
+      "sha256": "602477f0401be35435d21792fc1703c8d70c2bfbaef059610148840f882664d3",
+      "bytes": 1404210
+    }
+  }
+}

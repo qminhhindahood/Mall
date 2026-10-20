@@ -1,0 +1,159 @@
+{
+  "revision": "vincom-retail-a-r3-research-2026-10-20",
+  "decisions": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-001",
+      "name": {
+        "vi": "Aldo",
+        "en": "Aldo"
+      },
+      "field": "phone",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://aldoshoes.vn/",
+          "evidenceFile": "source-text/source3.json",
+          "reference": "turn274view1 L0",
+          "section": "phone content",
+          "result": "retrieved",
+          "support": "Official ALDO Vietnam page explicitly labels 1900066899 Hotline. Brand-wide customer support only; not a dedicated Vincom branch line."
+        }
+      ],
+      "searches": [
+        {
+          "query": "site.aldoshoes.vn Vincom Đồng Khởi cửa hàng",
+          "result": "Official indexed locator branch block; live retrieved locator contains only map iframe and no branch phone/hours."
+        }
+      ],
+      "reason": "Official ALDO Vietnam page explicitly labels 1900066899 Hotline. Brand-wide customer support only; not a dedicated Vincom branch line.",
+      "remainingAction": null,
+      "applicability": "brand-wide",
+      "attempts": [],
+      "proposedField": {
+        "field": "phone",
+        "state": "verified-proposal",
+        "sourceUrl": "https://aldoshoes.vn/",
+        "evidence": "Official ALDO Vietnam page explicitly labels 1900066899 Hotline. Brand-wide customer support only; not a dedicated Vincom branch line. Evidence: source-text/source3.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "Hỗ trợ chung: 1900 066 899",
+          "en": "General support: 1900 066 899"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-007",
+      "name": {
+        "vi": "Gold Element",
+        "en": "Gold Element"
+      },
+      "field": "phone",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://milensea.com.vn/pages/gold-elements-spa",
+          "evidenceFile": "source-text/source3.json",
+          "reference": "turn274view3 L13-L17",
+          "section": "phone content",
+          "result": "retrieved",
+          "support": "Official Gold Elements Vietnam distributor MilenSea page labels this number as support (Bạn cần hỗ trợ? Liên hệ). Distributor-wide contact only; not Gold Element Dong Khoi counter."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Gold Element\" Vietnam official mỹ phẩm",
+          "result": "Official exclusive distributor MilenSea Gold Elements collection retrieved; products match cosmetics identity."
+        }
+      ],
+      "reason": "Official Gold Elements Vietnam distributor MilenSea page labels this number as support (Bạn cần hỗ trợ? Liên hệ). Distributor-wide contact only; not Gold Element Dong Khoi counter.",
+      "remainingAction": null,
+      "applicability": "brand-wide",
+      "attempts": [],
+      "proposedField": {
+        "field": "phone",
+        "state": "verified-proposal",
+        "sourceUrl": "https://milensea.com.vn/pages/gold-elements-spa",
+        "evidence": "Official Gold Elements Vietnam distributor MilenSea page labels this number as support (Bạn cần hỗ trợ? Liên hệ). Distributor-wide contact only; not Gold Element Dong Khoi counter. Evidence: source-text/source3.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "Hỗ trợ chung: 028 3511 3525",
+          "en": "General support: 028 3511 3525"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-023",
+      "name": {
+        "vi": "PPP Clinic",
+        "en": "PPP Clinic"
+      },
+      "field": "phone",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://ppp.com.vn/lien-he/",
+          "evidenceFile": "source-text/find23.json",
+          "reference": "turn389view1 L27-L47",
+          "section": "phone content",
+          "result": "retrieved",
+          "support": "Actual official PPP contact page lists 1800 6220 for multiple cities and 24/7 contact section. Explicit brand-wide contact only; 24/7 is not clinic operating hours."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"PPP Clinic\" official Vincom Đồng Khởi dịch vụ",
+          "result": "Actual official clinic homepage and contact page retrieved; contact page names 72 Le Thanh Ton."
+        }
+      ],
+      "reason": "Actual official PPP contact page lists 1800 6220 for multiple cities and 24/7 contact section. Explicit brand-wide contact only; 24/7 is not clinic operating hours.",
+      "remainingAction": null,
+      "applicability": "brand-wide",
+      "attempts": [],
+      "proposedField": {
+        "field": "phone",
+        "state": "verified-proposal",
+        "sourceUrl": "https://ppp.com.vn/lien-he/",
+        "evidence": "Actual official PPP contact page lists 1800 6220 for multiple cities and 24/7 contact section. Explicit brand-wide contact only; 24/7 is not clinic operating hours. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "Hỗ trợ chung: 1800 6220",
+          "en": "General support: 1800 6220"
+        }
+      }
+    }
+  ],
+  "supersedes": "chunk-01-decisions.json corresponding 3 phone holds"
+}

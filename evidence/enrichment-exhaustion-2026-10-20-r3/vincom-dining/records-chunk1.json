@@ -1,0 +1,251 @@
+{
+  "revision": "vincom-dining-r3-chunk1",
+  "records": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-gogihouse",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://gogi.com.vn/dat-ban",
+          "evidence": "Chrome HCM row Gogi House Vincom Le Thanh Ton,70-72LeThanhTon:02873000917; browser-goldengate-hcm.json.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "02873000917",
+            "en": "02873000917"
+          }
+        },
+        {
+          "field": "hours",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://gogi.com.vn/dat-ban",
+          "evidence": "Same official HCM branch row: Open-Close09:00-22:00.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "09:00–22:00",
+            "en": "09:00–22:00"
+          }
+        },
+        {
+          "field": "menu",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://gogi.com.vn/thuc-don",
+          "evidence": "Chrome renders HCM food categories and actual named combos, not navigation alone. No prices copied.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "url": "https://gogi.com.vn/thuc-don"
+        },
+        {
+          "field": "booking",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://gogi.com.vn/dat-ban",
+          "evidence": "Official HCM restaurant list exposes a Dat ban action for Vincom Le Thanh Ton. Link to chooser, no reservation submitted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "url": "https://gogi.com.vn/dat-ban"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-007",
+      "fields": [
+        {
+          "field": "cuisine",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://hoangyenbuffet.com/",
+          "evidence": "Official site identifies Buffet mon Viet, supported by actual main-course dish page.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "value": {
+            "vi": "Buffet món Việt",
+            "en": "Vietnamese buffet"
+          }
+        },
+        {
+          "field": "website",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://hoangyenbuffet.com/",
+          "evidence": "Official Buffet mon Viet brand home and corporate footer; this is brand-wide, not evidence that Dong Khoi remains in current locator.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "url": "https://hoangyenbuffet.com/"
+        },
+        {
+          "field": "menu",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://hoangyenbuffet.com/menu/mon-chinh/",
+          "evidence": "Official main-course page has actual named dishes, not empty menu navigation. Brand-wide only.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "url": "https://hoangyenbuffet.com/menu/mon-chinh/"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-morico",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://morico.life/menu/",
+          "evidence": "Official company Kamo Message us contact(+84)903667426. Brand contact only; not the Vincom branch phone.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "value": {
+            "vi": "+84 90 366 74 26",
+            "en": "+84 90 366 74 26"
+          }
+        },
+        {
+          "field": "menu",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://morico.life/menu/",
+          "evidence": "Official page exposes Vietnamese/English dessert menus and dining/lunch/seasonal menu image assets. No item availability or prices copied.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "url": "https://morico.life/menu/"
+        },
+        {
+          "field": "services",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://morico.life/delivery/",
+          "evidence": "Official delivery page specifically lists70-72LeThanhTon,Vincom Shopping Mall and See Menu&Order.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "Đặt món giao hàng qua liên kết đặt hàng của Morico; xác nhận khu vực và khả năng phục vụ.",
+            "en": "Delivery ordering through Morico’s linked ordering channel; confirm delivery area and availability."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-highlandscoffee",
+      "fields": [
+        {
+          "field": "cuisine",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://www.highlandscoffee.com.vn/vn/san-pham.html",
+          "evidence": "Reused audited r2 actual official menu categories coffee,tea,Freeze,bakery; source research-vincom/follow1.txt.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "value": {
+            "vi": "Cà phê, trà, đồ uống đá xay và bánh",
+            "en": "Coffee, tea, blended drinks and bakery items"
+          }
+        },
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://www.highlandscoffee.com.vn/",
+          "evidence": "Official brand homepage title explicitly advertises delivery hotline19001755. Brand-wide ordering hotline, not branch phone.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "value": {
+            "vi": "19001755",
+            "en": "19001755"
+          }
+        },
+        {
+          "field": "services",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://www.highlandscoffee.com.vn/",
+          "evidence": "Official homepage links DAT HANG to order.highlandscoffee.com.vn and advertises delivery; general brand service only.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "value": {
+            "vi": "Đặt món qua kênh giao hàng của Highlands; xác nhận địa chỉ và phạm vi giao hàng.",
+            "en": "Order through Highlands’ delivery channel; confirm address and delivery coverage."
+          }
+        }
+      ]
+    }
+  ]
+}

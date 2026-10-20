@@ -1,0 +1,269 @@
+{
+  "checkedAt": "2026-10-20",
+  "supersedesKeys": [
+    {
+      "destinationId": "saigon-prototype-beardpapas",
+      "field": "menu",
+      "previousOutcome": "hold"
+    },
+    {
+      "destinationId": "saigon-prototype-yakinikulike",
+      "field": "menu",
+      "previousOutcome": "hold"
+    },
+    {
+      "destinationId": "saigon-prototype-mcdonalds",
+      "field": "booking",
+      "previousOutcome": "hold"
+    }
+  ],
+  "proposals": [
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-beardpapas",
+      "field": "menu",
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.beardpapas.com/menu/",
+        "evidence": "Official US-market menu contains actual cream-puff shell, filling and dessert items (original, chocolate/green-tea eclairs, vanilla/chocolate fillings). This is an international reference only, not the Saigon Centre assortment, ordering or prices.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thực đơn tham khảo tại thị trường Hoa Kỳ của thương hiệu; vui lòng xác nhận danh mục tại Việt Nam.",
+          "en": "US-market brand menu reference; confirm the Vietnam assortment."
+        },
+        "url": "https://www.beardpapas.com/menu/"
+      },
+      "sources": [
+        {
+          "url": "https://www.beardpapas.com/menu/",
+          "evidenceFile": "international-followthrough.json",
+          "reference": "turn769view0",
+          "section": "actual menu/form/documented offerings",
+          "result": "retrieved",
+          "support": "Official US-market menu contains actual cream-puff shell, filling and dessert items (original, chocolate/green-tea eclairs, vanilla/chocolate fillings). This is an international reference only, not the Saigon Centre assortment, ordering or prices.",
+          "scope": "brand-wide",
+          "checkedAt": "2026-10-20"
+        }
+      ],
+      "searches": [
+        {
+          "query": "Beard Papa's Vietnam official website menu reservation",
+          "result": "Candidates inspected according to field role; mismatched businesses, aggregators and unverified ordering platforms not adopted."
+        }
+      ],
+      "reason": "Official US-market menu contains actual cream-puff shell, filling and dessert items (original, chocolate/green-tea eclairs, vanilla/chocolate fillings). This is an international reference only, not the Saigon Centre assortment, ordering or prices.",
+      "remainingAction": null,
+      "checkedAt": "2026-10-20",
+      "scope": "brand-wide"
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-yakinikulike",
+      "field": "menu",
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://yakiniku-like.com/menu.html",
+        "evidence": "Official Japanese-market menu page contains endorsed menu media. Current official menu-renewal announcement (26 September 2026, turn772view1 L31–58) names actual meat sets and side dishes and specifies Japanese domestic stores. Official same-domain locator independently lists Saigon Centre L509–510 (turn769view1). Japan reference only, no Vietnam menu/price/availability claim.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thực đơn tham khảo tại thị trường Nhật Bản; không phải cam kết về thực đơn hay giá tại Saigon Centre.",
+          "en": "Japanese-market menu reference; no Saigon Centre menu or price commitment."
+        },
+        "url": "https://yakiniku-like.com/menu.html"
+      },
+      "sources": [
+        {
+          "url": "https://yakiniku-like.com/menu.html",
+          "evidenceFile": "international-followthrough.json",
+          "reference": "turn772view0 + turn772view1 + turn769view1",
+          "section": "actual menu/form/documented offerings",
+          "result": "retrieved",
+          "support": "Official Japanese-market menu page contains endorsed menu media. Current official menu-renewal announcement (26 September 2026, turn772view1 L31–58) names actual meat sets and side dishes and specifies Japanese domestic stores. Official same-domain locator independently lists Saigon Centre L509–510 (turn769view1). Japan reference only, no Vietnam menu/price/availability claim.",
+          "scope": "brand-wide",
+          "checkedAt": "2026-10-20"
+        }
+      ],
+      "searches": [
+        {
+          "query": "YAKINIKU LIKE Vietnam official website menu reservation",
+          "result": "Candidates inspected according to field role; mismatched businesses, aggregators and unverified ordering platforms not adopted."
+        }
+      ],
+      "reason": "Official Japanese-market menu page contains endorsed menu media. Current official menu-renewal announcement (26 September 2026, turn772view1 L31–58) names actual meat sets and side dishes and specifies Japanese domestic stores. Official same-domain locator independently lists Saigon Centre L509–510 (turn769view1). Japan reference only, no Vietnam menu/price/availability claim.",
+      "remainingAction": null,
+      "checkedAt": "2026-10-20",
+      "scope": "brand-wide"
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-mcdonalds",
+      "field": "booking",
+      "outcome": "proposal",
+      "proposedField": {
+        "field": "booking",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://mcdonalds.vn/restaurants.html",
+        "evidence": "Official Vietnam restaurant-information page explicitly provides Birthday Party Booking instructions by telephone (L76–78, turn666view3). This URL is booking information for birthday parties, not an online form or a Saigon Centre availability guarantee. Hotline not proposed as branch phone; no call or request submitted.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Trang hướng dẫn đặt tiệc sinh nhật qua điện thoại của thương hiệu; không phải biểu mẫu đặt bàn trực tuyến hay xác nhận dịch vụ tại Saigon Centre.",
+          "en": "Brand birthday-party booking instructions by phone; not an online table form or confirmation of service at Saigon Centre."
+        },
+        "url": "https://mcdonalds.vn/restaurants.html"
+      },
+      "sources": [
+        {
+          "url": "https://mcdonalds.vn/restaurants.html",
+          "evidenceFile": "international-followthrough.json",
+          "reference": "turn666view3",
+          "section": "actual menu/form/documented offerings",
+          "result": "retrieved",
+          "support": "Official Vietnam restaurant-information page explicitly provides Birthday Party Booking instructions by telephone (L76–78, turn666view3). This URL is booking information for birthday parties, not an online form or a Saigon Centre availability guarantee. Hotline not proposed as branch phone; no call or request submitted.",
+          "scope": "brand-wide",
+          "checkedAt": "2026-10-20"
+        }
+      ],
+      "searches": [
+        {
+          "query": "McDonald's Vietnam official website menu reservation",
+          "result": "Candidates inspected according to field role; mismatched businesses, aggregators and unverified ordering platforms not adopted."
+        }
+      ],
+      "reason": "Official Vietnam restaurant-information page explicitly provides Birthday Party Booking instructions by telephone (L76–78, turn666view3). This URL is booking information for birthday parties, not an online form or a Saigon Centre availability guarantee. Hotline not proposed as branch phone; no call or request submitted.",
+      "remainingAction": null,
+      "checkedAt": "2026-10-20",
+      "scope": "brand-wide"
+    }
+  ],
+  "sourceChecks": [
+    {
+      "sourceUrl": "https://www.beardpapas.com/menu/",
+      "reference": "turn769view0",
+      "checkedAt": "2026-10-20",
+      "scope": "US market",
+      "result": "retrieved",
+      "section": "Actual menu L9–72",
+      "sourceText": "Original cream puff … Chocolate Eclair … Green Tea Eclair … Vanilla filled eclair … Japanese Cheesecake",
+      "observation": "Actual named shells/fillings/desserts; brand foundedJapan1999 identity matches mall profile, market caveat retained."
+    },
+    {
+      "sourceUrl": "https://yakiniku-like.com/shop.html",
+      "reference": "turn769view1",
+      "checkedAt": "2026-10-20",
+      "scope": "global identity and Japan menu links",
+      "result": "retrieved",
+      "section": "Japan menu linksL21–27; Vietnam branchesL509–510",
+      "sourceText": "ベトナム(3店舗) … Vincom Dong Khoi・Estella Place・Saigon Centre",
+      "observation": "Same brand parent explicitly names Saigon Centre; menu link followed."
+    },
+    {
+      "sourceUrl": "https://yakiniku-like.com/menu.html",
+      "reference": "turn772view0",
+      "checkedAt": "2026-10-20",
+      "scope": "Japan market",
+      "result": "menu-media-page",
+      "section": "Actual menu imagesL1–9",
+      "observation": "Official page embeds two menu images with store/supply-change caveats. Article below independently confirms actual current menu dishes, no image details transcribed."
+    },
+    {
+      "sourceUrl": "https://www.yakiniku-like.com/2026/09/26/harapan-like-renewal/",
+      "reference": "turn772view1",
+      "checkedAt": "2026-10-20",
+      "scope": "Japan domestic stores",
+      "result": "retrieved",
+      "section": "Actual menu renewalL31–58",
+      "observation": "Current official announcement describes sliced beef short plate, Japanese pork/chicken-breast set and actual side dishes; rollout1Oct2026Japan domestic. No prices/portions imported."
+    },
+    {
+      "sourceUrl": "https://mcdonalds.vn/restaurants.html",
+      "reference": "turn666view3",
+      "checkedAt": "2026-10-20",
+      "scope": "Vietnam brand",
+      "result": "retrieved",
+      "section": "Booking instructionsL76–78",
+      "sourceText": "Birthday Party Booking: 1900 9001",
+      "observation": "Actual published birthday-party telephone booking instructions, not generic contact reclassified as branch phone."
+    },
+    {
+      "sourceUrl": "https://poulet.com.sg/",
+      "reference": "turn767view1",
+      "checkedAt": "2026-10-20",
+      "scope": "Singapore candidate",
+      "result": "retrieval-failure",
+      "observation": "Internal error, no actual menu content."
+    },
+    {
+      "sourceUrl": "https://www.poulet.com.sg/",
+      "reference": "turn770view0",
+      "checkedAt": "2026-10-20",
+      "scope": "Singapore candidate",
+      "result": "empty-reader",
+      "observation": "Zero reader lines. Site-restricted menu/PDF searches yield placeholder theme portfolio pages and no actual official menu."
+    },
+    {
+      "sourceUrl": "https://shop.mochisweets.com.vn/products/",
+      "reference": "turn769view3",
+      "checkedAt": "2026-10-20",
+      "scope": "Vietnam brand",
+      "result": "retrieval-failure",
+      "observation": "One new recovery justified by fresh indexed actual products (crawl3days,turn764search7); direct search-reference open still internal error and no actual source text. No further retry."
+    }
+  ],
+  "additionalSearches": [
+    {
+      "queries": [
+        "Beard Papa official menu products global US",
+        "Poulet Singapore official menu roast chicken",
+        "Yakiniku Like Japan official menu Vietnam global",
+        "Mochi Sweets official international menu Japan Vietnam"
+      ],
+      "checkedAt": "2026-10-20",
+      "result": "Beard Papa official actual US menu found; other actual official paths followed as recorded."
+    },
+    {
+      "queries": [
+        "\"Mochi Sweets\" official international menu website",
+        "site:yakiniku-like.com メニュー",
+        "site:poulet.com.sg menu",
+        "site:poulet.com.sg filetype:pdf menu",
+        "\"Mochi Sweets\" international official -site:wheree.com -site:mochi2.jp.net",
+        "site:poulet.com.sg \"Menu\" \"Chicken\""
+      ],
+      "checkedAt": "2026-10-20",
+      "result": "Yakiniku actual official Japan menu and identity bridge found. Mochi global results are unrelated Moishi/MOCHIMOCHI/Mochikichi/MochiFoods; no identity bridge. Poulet Singapore variants yield empty reader/placeholder theme results, no actual menu verified."
+    }
+  ],
+  "retainedHoldAmendments": [
+    {
+      "destinationId": "saigon-prototype-poulet",
+      "fields": [
+        "menu",
+        "booking"
+      ],
+      "additionalReason": "International Singapore official domain variants also checked: internal error or zero lines; site-restricted menu/PDF searches returned placeholder theme pages. No actual authenticated Singapore menu/booking content read.",
+      "remainingAction": "Inspect a readable actual official local or international Poulet menu/booking source. Empty Singapore candidate is a specific additional blocker, not global absence."
+    },
+    {
+      "destinationId": "saigon-prototype-mochisweets",
+      "fields": [
+        "menu",
+        "booking"
+      ],
+      "additionalReason": "Additional international first-party searches found distinct unrelated brands without an identity bridge. Newly indexed Vietnam product source recovery still yielded no actual readable content.",
+      "remainingAction": "Read the actual authenticated Mochi Sweets products/booking source; do not merge similarly named global mochi brands."
+    }
+  ]
+}

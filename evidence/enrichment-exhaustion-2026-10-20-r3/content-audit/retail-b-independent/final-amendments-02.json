@@ -1,0 +1,988 @@
+{
+  "revision": "retail-b-independent-final-role-and-phone-amendments",
+  "inputs": [
+    {
+      "file": "content-audit/retail-b-independent/furla-catalog-source.txt",
+      "sha256": "bba224a42c07a9394f2644df92c033d57738a79e3e2a4cc0743821b9b73a2073"
+    },
+    {
+      "file": "content-audit/retail-b-independent/reviewed-remaining.json",
+      "sha256": "602477f0401be35435d21792fc1703c8d70c2bfbaef059610148840f882664d3"
+    },
+    {
+      "file": "content-audit/reviewed-chunks/vincom-retail-b-01.json",
+      "sha256": "73c5329ab6fd54dfea62566c1991a2d1dcb6816949b226820c6cc01578a36d9c"
+    },
+    {
+      "file": "holds/adidas-contact-final.json",
+      "sha256": "029b52fac008c3c200a8497d801be4f9c1218a90a5b4cbe09885cee213cc7905"
+    },
+    {
+      "file": "vincom-retail-b/adidas-general-contact-check.json",
+      "sha256": "d8ccce44a9b4c4e89d58fc4193d0e1c04c4db0e28e06b7937e4d89606532061e"
+    },
+    {
+      "file": "vincom-retail-b/follow-02.json",
+      "sha256": "ed99c6ce30ead1ec8d29a789bd1d092bad0101d46f6411e8fadf30138d4ac811"
+    },
+    {
+      "file": "vincom-retail-b/locator-detail-02.json",
+      "sha256": "6339df50d35a447f30d54d97bf67b541fbc6805be8b9bceb1d7a0132bcde6b6e"
+    },
+    {
+      "file": "vincom-retail-b/mothercare-international-decisions.json",
+      "sha256": "fc2ea9814e148ab4e369cfafa132733303237a44808344f755e4f5b3430d05af"
+    },
+    {
+      "file": "vincom-retail-b/mothercare-international-records.json",
+      "sha256": "6f40e12c6d11b23bc7ef0decbfbdd607f30dd5d637521c7e67e82203c2e487d9"
+    },
+    {
+      "file": "vincom-retail-b/mothercare-international.json",
+      "sha256": "d1cba80004c08bb0b6d874fd8db90ccc74bf2e3445c76cfca40faacfc62b81d7"
+    },
+    {
+      "file": "vincom-retail-b/mothercare-singapore-products-detail.json",
+      "sha256": "c59dd97114d6dbcef3de2c0ef5a0ab94a3e2353cd0d7f78e66b89d0034617b01"
+    },
+    {
+      "file": "vincom-retail-b/mothercare-singapore-products.json",
+      "sha256": "d02d819f4db449be9b632c35facefaf739b24e6f6f2e161349d89414bba497ed"
+    },
+    {
+      "file": "vincom-retail-b/mothercare-singapore.json",
+      "sha256": "089f12926d59e661e3df2d172768a4d987d2af8bc4a6df3e675ab185d3e0f851"
+    },
+    {
+      "file": "vincom-retail-b/phone-scope-all-phone-review.json",
+      "sha256": "f1ff19b017ce0b00b2196b6708cdb09ce51079bdff739220448b6726c6d09388"
+    },
+    {
+      "file": "vincom-retail-b/phone-scope-chunk02-decisions.json",
+      "sha256": "5da71d590d96920e3089991e0f626ce4184bffa90d0cddae1e41302c391581e6"
+    },
+    {
+      "file": "vincom-retail-b/phone-scope-chunk02-records.json",
+      "sha256": "dd76740e8b3cc8599d5c24708eee1388e90b88afd3004463ab3ecb340225a57c"
+    },
+    {
+      "file": "vincom-retail-b/phone-scope-proof-03.json",
+      "sha256": "741f850aa81a8c454994c75e5ecf47e975533cc50bee4cc15c048997a89a1cba"
+    },
+    {
+      "file": "vincom-retail-b/phone-scope-proof-04.json",
+      "sha256": "6d9f02bffc441eb61b5fc083c364c0bb8e3807c9342620a8af82a26a8b0fafc7"
+    }
+  ],
+  "records": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-mac",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-mac",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "Vietnam brand gateway and global store-search sources did not expose a readable matching Vietnam branch result. International MAC store/support details cannot establish this counter’s contact or hours.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/search-14.json",
+            "reference": "turn342search0, turn342search1, turn342search2, turn342search3, turn342search4, turn342search5, turn342search6, turn342search7, turn342search8, turn342search9, turn342search10, turn342search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.maccosmetics.com.vn/",
+              "https://www.maccosmetics.com/pages/store-locator",
+              "https://stores.maccosmetics.com/search",
+              "https://vincom.com.vn/store/mac-vincom-center-dong-khoi"
+            ],
+            "support": "Vietnam brand gateway and global store-search sources did not expose a readable matching Vietnam branch result. International MAC store/support details cannot establish this counter’s contact or hours."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-12.json",
+            "reference": "turn650search0, turn650search1, turn650search2, turn650search3, turn650search4, turn650search5, turn650search6, turn650search7, turn650search8, turn650search9, turn650search10, turn650search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.maccosmetics.com.vn/",
+              "https://www.maccosmetics.com/pages/store-locator",
+              "https://stores.maccosmetics.com/search",
+              "https://vincom.com.vn/store/mac-vincom-center-dong-khoi"
+            ],
+            "support": "Vietnam brand gateway and global store-search sources did not expose a readable matching Vietnam branch result. International MAC store/support details cannot establish this counter’s contact or hours."
+          },
+          {
+            "file": "vincom-retail-b/open-11.json",
+            "reference": "turn481view0, turn481view1, turn481view2, turn481view3, turn481view4, turn481view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.maccosmetics.com.vn/",
+              "https://www.maccosmetics.com/pages/store-locator",
+              "https://stores.maccosmetics.com/search",
+              "https://vincom.com.vn/store/mac-vincom-center-dong-khoi"
+            ],
+            "support": "Vietnam brand gateway and global store-search sources did not expose a readable matching Vietnam branch result. International MAC store/support details cannot establish this counter’s contact or hours."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://www.maccosmetics.com.vn/",
+          "https://www.maccosmetics.com/pages/store-locator",
+          "https://stores.maccosmetics.com/search",
+          "https://vincom.com.vn/store/mac-vincom-center-dong-khoi"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:maccosmetics.com (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-12.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:prima.com.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-14.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:maccosmetics.com.vn \"Đồng Khởi\"",
+            "resultFile": "search-14.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:prima.com.vn dịch vụ",
+            "resultFile": "search-16.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:maccosmetics.com \"MAC\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-13.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:prima.com.vn \"Prima Art\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-15.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Read a current official Vietnam/Đồng Khởi counter row; maintain separation from international store results."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.maccosmetics.com/products",
+        "evidence": "Actual official saved contact body turn895view3 L500/547; also final-research03 turn780view6 L525/572 prints1-800-588-0070. General foreign-market website support; no Vietnam branch-direct claim.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "18005880070",
+          "en": "18005880070"
+        },
+        "uncertainty": {
+          "vi": "MAC, số hỗ trợ website thị trường Hoa Kỳ theo định dạng đã công bố. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối từ Việt Nam hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "MAC United States website support in its published domestic format. Not a verified direct Dong Khoi branch line; connectivity from Vietnam and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual saved-source reading confirms numeric customer-service contact and exact market/site scope. US domestic formats and Jo Malone's unconfirmed international country routing remain explicit; no country prefix, branch-direct claim or tested connectivity invented.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/phone-scope-proof-03.json",
+          "reference": "turn895view3 L500/547; also final-research03 turn780view6 L525/572 prints1-800-588-0070",
+          "sourceUrl": "https://www.maccosmetics.com/products",
+          "section": "Actual official numeric contact/product content and market/authority context"
+        }
+      ],
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20",
+      "brandContactScopeExplicit": true
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-005",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-candidate-vd-b2-005",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "Readable official US site has US customer support and no verified Vietnamese branch row. Official mall search returned Keds at another Vincom, not Đồng Khởi; local .com.vn source was not established.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/search-04.json",
+            "reference": "turn303search0, turn303search1, turn303search2, turn303search3, turn303search4, turn303search5, turn303search6, turn303search7, turn303search8, turn303search9, turn303search10, turn303search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.keds.com/"
+            ],
+            "support": "Readable official US site has US customer support and no verified Vietnamese branch row. Official mall search returned Keds at another Vincom, not Đồng Khởi; local .com.vn source was not established."
+          },
+          {
+            "file": "vincom-retail-b/target-10.json",
+            "reference": "turn454search0, turn454search1, turn454search2, turn454search3, turn454search4, turn454search5, turn454search6, turn454search7, turn454search8, turn454search9, turn454search10, turn454search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.keds.com/"
+            ],
+            "support": "Readable official US site has US customer support and no verified Vietnamese branch row. Official mall search returned Keds at another Vincom, not Đồng Khởi; local .com.vn source was not established."
+          },
+          {
+            "file": "vincom-retail-b/open-07.json",
+            "reference": "turn470view0, turn470view1, turn470view2, turn470view3, turn470view4, turn470view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.keds.com/"
+            ],
+            "support": "Readable official US site has US customer support and no verified Vietnamese branch row. Official mall search returned Keds at another Vincom, not Đồng Khởi; local .com.vn source was not established."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-03.json",
+            "reference": "turn629search0, turn629search1, turn629search2, turn629search3, turn629search4, turn629search5, turn629search6, turn629search7, turn629search8, turn629search9, turn629search10, turn629search11, turn629search12, turn629search13, turn629search14, turn629search15",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.keds.com/"
+            ],
+            "support": "Readable official US site has US customer support and no verified Vietnamese branch row. Official mall search returned Keds at another Vincom, not Đồng Khởi; local .com.vn source was not established."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://www.keds.com/"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:keds.com (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-03.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "Keds Vietnam official Vincom Dong Khoi",
+            "resultFile": "search-04.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:keds.com \"Keds\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-03.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Establish an official current Vietnam/Đồng Khởi branch source; do not transfer another mall or US contact/hours."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.keds.com/",
+        "evidence": "Actual official saved contact body turn493view5 L91/102 prints1-800-680-0966 besideContactUs/FAQs. General foreign-market website support; no Vietnam branch-direct claim.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "18006800966",
+          "en": "18006800966"
+        },
+        "uncertainty": {
+          "vi": "Keds, số chăm sóc khách hàng website thị trường Hoa Kỳ theo định dạng đã công bố. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối từ Việt Nam hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "Keds United States website customer care in its published domestic format. Not a verified direct Dong Khoi branch line; connectivity from Vietnam and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual saved-source reading confirms numeric customer-service contact and exact market/site scope. US domestic formats and Jo Malone's unconfirmed international country routing remain explicit; no country prefix, branch-direct claim or tested connectivity invented.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/locator-detail-02.json",
+          "reference": "turn493view5 L91/102 prints1-800-680-0966 besideContactUs/FAQs",
+          "sourceUrl": "https://www.keds.com/",
+          "section": "Actual official numeric contact/product content and market/authority context"
+        }
+      ],
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20",
+      "brandContactScopeExplicit": true
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-jomalone",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-jomalone",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "No official Vietnam branch row was exposed by the local/global branch searches. Reachable international boutique-service/contact pages cannot establish the Đồng Khởi counter’s telephone or hours.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/search-12.json",
+            "reference": "turn336search0, turn336search1, turn336search2, turn336search3, turn336search4, turn336search5, turn336search6, turn336search7, turn336search8, turn336search9, turn336search10, turn336search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.jomalone.com/stores/boutique-finder/services",
+              "https://www.jomalone.com/",
+              "https://vincom.com.vn/store/jo-malone-vincom-center-dong-khoi"
+            ],
+            "support": "No official Vietnam branch row was exposed by the local/global branch searches. Reachable international boutique-service/contact pages cannot establish the Đồng Khởi counter’s telephone or hours."
+          },
+          {
+            "file": "vincom-retail-b/target-09.json",
+            "reference": "turn452search0, turn452search1, turn452search2, turn452search3, turn452search4, turn452search5, turn452search6, turn452search7, turn452search8, turn452search9, turn452search10, turn452search11, turn452search12, turn452search13, turn452search14, turn452search15, turn452search16, turn452search17, turn452search18, turn452search19, turn452search20, turn452search21, turn452search22, turn452search23",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.jomalone.com/stores/boutique-finder/services",
+              "https://www.jomalone.com/",
+              "https://vincom.com.vn/store/jo-malone-vincom-center-dong-khoi"
+            ],
+            "support": "No official Vietnam branch row was exposed by the local/global branch searches. Reachable international boutique-service/contact pages cannot establish the Đồng Khởi counter’s telephone or hours."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-10.json",
+            "reference": "turn644search0, turn644search1, turn644search2, turn644search3, turn644search4, turn644search5, turn644search6, turn644search7, turn644search8, turn644search9, turn644search10, turn644search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.jomalone.com/stores/boutique-finder/services",
+              "https://www.jomalone.com/",
+              "https://vincom.com.vn/store/jo-malone-vincom-center-dong-khoi"
+            ],
+            "support": "No official Vietnam branch row was exposed by the local/global branch searches. Reachable international boutique-service/contact pages cannot establish the Đồng Khởi counter’s telephone or hours."
+          },
+          {
+            "file": "vincom-retail-b/open-15.json",
+            "reference": "turn614view0, turn614view1, turn614view2, turn614view3, turn614view4, turn614view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.jomalone.com/stores/boutique-finder/services",
+              "https://www.jomalone.com/",
+              "https://vincom.com.vn/store/jo-malone-vincom-center-dong-khoi"
+            ],
+            "support": "No official Vietnam branch row was exposed by the local/global branch searches. Reachable international boutique-service/contact pages cannot establish the Đồng Khởi counter’s telephone or hours."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://www.jomalone.com/stores/boutique-finder/services",
+          "https://www.jomalone.com/",
+          "https://vincom.com.vn/store/jo-malone-vincom-center-dong-khoi"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:jomalone.com (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-10.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:jomalone.com.vn \"Đồng Khởi\"",
+            "resultFile": "search-12.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:jomalone.com \"Jo Malone\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-11.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Read a matching official Vietnam boutique/counter locator result; foreign support information is excluded."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.jomalone.com/stores/boutique-finder/services",
+        "evidence": "Actual official saved contact body turn670view2 L215 Customer Service:(866)3054706; source titleUK while numericrouting unconfirmed; no country prefix added. General foreign-market website support; no Vietnam branch-direct claim.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "8663054706",
+          "en": "8663054706"
+        },
+        "uncertainty": {
+          "vi": "Jo Malone, số chăm sóc khách hàng công bố trên website quốc tế; chưa xác minh định tuyến quốc gia. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối từ Việt Nam hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "Jo Malone customer service published on the international website; country routing unconfirmed. Not a verified direct Dong Khoi branch line; connectivity from Vietnam and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual saved-source reading confirms numeric customer-service contact and exact market/site scope. US domestic formats and Jo Malone's unconfirmed international country routing remain explicit; no country prefix, branch-direct claim or tested connectivity invented.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/follow-02.json",
+          "reference": "turn670view2 L215 Customer Service:(866)3054706; source titleUK while numericrouting unconfirmed; no country prefix added",
+          "sourceUrl": "https://www.jomalone.com/stores/boutique-finder/services",
+          "section": "Actual official numeric contact/product content and market/authority context"
+        }
+      ],
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20",
+      "brandContactScopeExplicit": true
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-027",
+      "field": "catalog",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-candidate-vd-b2-027",
+        "field": "catalog",
+        "auditDecision": "hold",
+        "reason": "The official mothercare.com.vn site now explicitly says the website has ceased operation. Its policy/landing paths return that notice; the observed ACFC brand shopping link redirects to a generic retailer home. Current distributor branch phone evidence remains separate, but these requested practical fields lack a readable current source/action. Supplemental official /brand-family check: https://vincom.com.vn/brand/mothercare — Explicit access/timeout failure; no source body available for promotion.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/open-16.json",
+            "reference": "turn616view0, turn616view1, turn616view2, turn616view3, turn616view4, turn616view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.mothercare.com.vn/chinh-sach-giao-hang-mothercare",
+              "https://www.mothercare.com.vn/landing-page-1",
+              "https://www.acfc.com.vn/mothercare.html"
+            ],
+            "support": "The official mothercare.com.vn site now explicitly says the website has ceased operation. Its policy/landing paths return that notice; the observed ACFC brand shopping link redirects to a generic retailer home. Current distributor branch phone evidence remains separate, but these requested practical fields lack a readable current source/action."
+          },
+          {
+            "file": "vincom-retail-b/open-19.json",
+            "reference": "turn621view0, turn621view1, turn621view2, turn621view3, turn621view4, turn621view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.mothercare.com.vn/chinh-sach-giao-hang-mothercare",
+              "https://www.mothercare.com.vn/landing-page-1",
+              "https://www.acfc.com.vn/mothercare.html"
+            ],
+            "support": "The official mothercare.com.vn site now explicitly says the website has ceased operation. Its policy/landing paths return that notice; the observed ACFC brand shopping link redirects to a generic retailer home. Current distributor branch phone evidence remains separate, but these requested practical fields lack a readable current source/action."
+          },
+          {
+            "file": "vincom-retail-b/follow-03.json",
+            "reference": "turn672view0, turn672view1, turn672view2, turn672view3, turn672view4, turn672view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.mothercare.com.vn/chinh-sach-giao-hang-mothercare",
+              "https://www.mothercare.com.vn/landing-page-1",
+              "https://www.acfc.com.vn/mothercare.html"
+            ],
+            "support": "The official mothercare.com.vn site now explicitly says the website has ceased operation. Its policy/landing paths return that notice; the observed ACFC brand shopping link redirects to a generic retailer home. Current distributor branch phone evidence remains separate, but these requested practical fields lack a readable current source/action."
+          },
+          {
+            "file": "vincom-retail-b/final-research-02.json",
+            "reference": "turn766view0, turn766view1, turn766view2, turn766view3, turn766view4, turn766view5, turn670view4, turn766view6, turn674view4, turn766view7, turn672view1, turn766view8, turn757view0, turn766view9, turn757view1, turn766view10, turn674view3",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.mothercare.com.vn/chinh-sach-giao-hang-mothercare",
+              "https://www.mothercare.com.vn/landing-page-1",
+              "https://www.acfc.com.vn/mothercare.html"
+            ],
+            "support": "The official mothercare.com.vn site now explicitly says the website has ceased operation. Its policy/landing paths return that notice; the observed ACFC brand shopping link redirects to a generic retailer home. Current distributor branch phone evidence remains separate, but these requested practical fields lack a readable current source/action."
+          },
+          {
+            "file": "vincom-retail-b/brand-profile-open-03.json",
+            "reference": "https://vincom.com.vn/brand/mothercare",
+            "section": "Exact supplemental /brand request and returned body/error",
+            "support": "Explicit access/timeout failure; no source body available for promotion"
+          },
+          {
+            "file": "vincom-retail-b/brand-profile-search-01.json",
+            "reference": "Official exact-name /brand source-family search",
+            "support": "Search leads checked only as leads; failed direct body not promoted."
+          },
+          {
+            "file": "vincom-retail-b/brand-profile-search-02.json",
+            "reference": "Official exact-name /brand source-family search",
+            "support": "Search leads checked only as leads; failed direct body not promoted."
+          },
+          {
+            "file": "vincom-retail-b/brand-profile-search-03.json",
+            "reference": "Official exact-name /brand source-family search",
+            "support": "Search leads checked only as leads; failed direct body not promoted."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Official product/action applicability unresolved",
+        "attemptedPaths": [
+          "https://www.mothercare.com.vn/chinh-sach-giao-hang-mothercare",
+          "https://www.mothercare.com.vn/landing-page-1",
+          "https://www.acfc.com.vn/mothercare.html"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:mothercare.com.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-04.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "Mothercare Vietnam official Vincom Dong Khoi",
+            "resultFile": "search-06.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:mothercare.com.vn \"Mothercare\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-05.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Obtain a current official Mothercare product/service action and explicit branch hours from the continuing distributor. Website cessation is not a store-closure claim."
+      },
+      "acceptedField": {
+        "field": "catalog",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.mothercare.com.sg/",
+        "evidence": "Official globalmothercare.com links Singapore market at link17 (turn892view0 L62). Actual Singapore retailer product cards turn903view0 L467–619 name car seats, carriers, strollers, nursery furniture and clothing. International retailer catalogue action, not Vietnam inventory, prices or fulfilment.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Nguồn Mothercare quốc tế/nhà bán lẻ tại Singapore; danh mục, giá và dịch vụ có thể khác tại Việt Nam. Website Mothercare Việt Nam đã thông báo ngừng hoạt động; chưa xác minh tồn kho hoặc dịch vụ tại chi nhánh Đồng Khởi.",
+          "en": "Mothercare international / Singapore retailer source; range, prices and services may differ in Vietnam. The Mothercare Vietnam website reports that it has ceased operating; Dong Khoi branch inventory and services are unverified."
+        },
+        "url": "https://www.mothercare.com.sg/",
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent complete official source review confirms global Mothercare authority links Singapore at turn892view0 L62; root Singapore retailer exposes actual named product cards in turn903view0 L467–619. Global body L38/42/153/163 supports only the stated products. Explicit international/Singapore and Vietnam-website cessation caveats preserve unknown local availability; no parenting, medical or appointment service inferred.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/mothercare-international.json",
+          "reference": "Official globalmothercare.com links Singapore market at link17 (turn892view0 L62). Actual Singapore retailer product cards turn903view0 L467–619 name car seats, carriers, strollers, nursery furniture and clothing. International retailer catalogue action, not Vietnam inventory, prices or fulfilment.",
+          "sourceUrl": "https://www.mothercare.com.sg/",
+          "section": "Actual official numeric contact/product content and market/authority context"
+        },
+        {
+          "file": "vincom-retail-b/mothercare-singapore.json",
+          "reference": "Official globalmothercare.com links Singapore market at link17 (turn892view0 L62). Actual Singapore retailer product cards turn903view0 L467–619 name car seats, carriers, strollers, nursery furniture and clothing. International retailer catalogue action, not Vietnam inventory, prices or fulfilment.",
+          "sourceUrl": "https://www.mothercare.com.sg/",
+          "section": "Actual official numeric contact/product content and market/authority context"
+        },
+        {
+          "file": "vincom-retail-b/mothercare-singapore-products.json",
+          "reference": "Official globalmothercare.com links Singapore market at link17 (turn892view0 L62). Actual Singapore retailer product cards turn903view0 L467–619 name car seats, carriers, strollers, nursery furniture and clothing. International retailer catalogue action, not Vietnam inventory, prices or fulfilment.",
+          "sourceUrl": "https://www.mothercare.com.sg/",
+          "section": "Actual official numeric contact/product content and market/authority context"
+        },
+        {
+          "file": "vincom-retail-b/mothercare-singapore-products-detail.json",
+          "reference": "Official globalmothercare.com links Singapore market at link17 (turn892view0 L62). Actual Singapore retailer product cards turn903view0 L467–619 name car seats, carriers, strollers, nursery furniture and clothing. International retailer catalogue action, not Vietnam inventory, prices or fulfilment.",
+          "sourceUrl": "https://www.mothercare.com.sg/",
+          "section": "Actual official numeric contact/product content and market/authority context"
+        },
+        {
+          "file": "vincom-retail-b/phone-scope-proof-04.json",
+          "reference": "Official globalmothercare.com links Singapore market at link17 (turn892view0 L62). Actual Singapore retailer product cards turn903view0 L467–619 name car seats, carriers, strollers, nursery furniture and clothing. International retailer catalogue action, not Vietnam inventory, prices or fulfilment.",
+          "sourceUrl": "https://www.mothercare.com.sg/",
+          "section": "Actual official numeric contact/product content and market/authority context"
+        }
+      ],
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-027",
+      "field": "services",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-candidate-vd-b2-027",
+        "field": "services",
+        "auditDecision": "hold",
+        "reason": "The official mothercare.com.vn site now explicitly says the website has ceased operation. Its policy/landing paths return that notice; the observed ACFC brand shopping link redirects to a generic retailer home. Current distributor branch phone evidence remains separate, but these requested practical fields lack a readable current source/action. Supplemental official /brand-family check: https://vincom.com.vn/brand/mothercare — Explicit access/timeout failure; no source body available for promotion.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/open-16.json",
+            "reference": "turn616view0, turn616view1, turn616view2, turn616view3, turn616view4, turn616view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.mothercare.com.vn/chinh-sach-giao-hang-mothercare",
+              "https://www.mothercare.com.vn/landing-page-1",
+              "https://www.acfc.com.vn/mothercare.html"
+            ],
+            "support": "The official mothercare.com.vn site now explicitly says the website has ceased operation. Its policy/landing paths return that notice; the observed ACFC brand shopping link redirects to a generic retailer home. Current distributor branch phone evidence remains separate, but these requested practical fields lack a readable current source/action."
+          },
+          {
+            "file": "vincom-retail-b/open-19.json",
+            "reference": "turn621view0, turn621view1, turn621view2, turn621view3, turn621view4, turn621view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.mothercare.com.vn/chinh-sach-giao-hang-mothercare",
+              "https://www.mothercare.com.vn/landing-page-1",
+              "https://www.acfc.com.vn/mothercare.html"
+            ],
+            "support": "The official mothercare.com.vn site now explicitly says the website has ceased operation. Its policy/landing paths return that notice; the observed ACFC brand shopping link redirects to a generic retailer home. Current distributor branch phone evidence remains separate, but these requested practical fields lack a readable current source/action."
+          },
+          {
+            "file": "vincom-retail-b/follow-03.json",
+            "reference": "turn672view0, turn672view1, turn672view2, turn672view3, turn672view4, turn672view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.mothercare.com.vn/chinh-sach-giao-hang-mothercare",
+              "https://www.mothercare.com.vn/landing-page-1",
+              "https://www.acfc.com.vn/mothercare.html"
+            ],
+            "support": "The official mothercare.com.vn site now explicitly says the website has ceased operation. Its policy/landing paths return that notice; the observed ACFC brand shopping link redirects to a generic retailer home. Current distributor branch phone evidence remains separate, but these requested practical fields lack a readable current source/action."
+          },
+          {
+            "file": "vincom-retail-b/final-research-02.json",
+            "reference": "turn766view0, turn766view1, turn766view2, turn766view3, turn766view4, turn766view5, turn670view4, turn766view6, turn674view4, turn766view7, turn672view1, turn766view8, turn757view0, turn766view9, turn757view1, turn766view10, turn674view3",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.mothercare.com.vn/chinh-sach-giao-hang-mothercare",
+              "https://www.mothercare.com.vn/landing-page-1",
+              "https://www.acfc.com.vn/mothercare.html"
+            ],
+            "support": "The official mothercare.com.vn site now explicitly says the website has ceased operation. Its policy/landing paths return that notice; the observed ACFC brand shopping link redirects to a generic retailer home. Current distributor branch phone evidence remains separate, but these requested practical fields lack a readable current source/action."
+          },
+          {
+            "file": "vincom-retail-b/brand-profile-open-03.json",
+            "reference": "https://vincom.com.vn/brand/mothercare",
+            "section": "Exact supplemental /brand request and returned body/error",
+            "support": "Explicit access/timeout failure; no source body available for promotion"
+          },
+          {
+            "file": "vincom-retail-b/brand-profile-search-01.json",
+            "reference": "Official exact-name /brand source-family search",
+            "support": "Search leads checked only as leads; failed direct body not promoted."
+          },
+          {
+            "file": "vincom-retail-b/brand-profile-search-02.json",
+            "reference": "Official exact-name /brand source-family search",
+            "support": "Search leads checked only as leads; failed direct body not promoted."
+          },
+          {
+            "file": "vincom-retail-b/brand-profile-search-03.json",
+            "reference": "Official exact-name /brand source-family search",
+            "support": "Search leads checked only as leads; failed direct body not promoted."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Official product/action applicability unresolved",
+        "attemptedPaths": [
+          "https://www.mothercare.com.vn/chinh-sach-giao-hang-mothercare",
+          "https://www.mothercare.com.vn/landing-page-1",
+          "https://www.acfc.com.vn/mothercare.html"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:mothercare.com.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-04.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "Mothercare Vietnam official Vincom Dong Khoi",
+            "resultFile": "search-06.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:mothercare.com.vn \"Mothercare\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-05.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Obtain a current official Mothercare product/service action and explicit branch hours from the continuing distributor. Website cessation is not a store-closure claim."
+      },
+      "acceptedField": {
+        "field": "services",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.mothercare.com/",
+        "evidence": "Actual global Mothercare product narrative turn892view0 L38/42 and L153/163 supports newborn clothing, pushchairs, toys, nursery and feeding products. General international product summary only; local availability and any advisory/medical service unverified.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Nguồn Mothercare quốc tế/nhà bán lẻ tại Singapore; danh mục, giá và dịch vụ có thể khác tại Việt Nam. Website Mothercare Việt Nam đã thông báo ngừng hoạt động; chưa xác minh tồn kho hoặc dịch vụ tại chi nhánh Đồng Khởi.",
+          "en": "Mothercare international / Singapore retailer source; range, prices and services may differ in Vietnam. The Mothercare Vietnam website reports that it has ceased operating; Dong Khoi branch inventory and services are unverified."
+        },
+        "value": {
+          "vi": "Sản phẩm cho mẹ và bé như quần áo sơ sinh, xe đẩy, đồ chơi, đồ dùng phòng trẻ và đồ dùng cho ăn theo thông tin chung của Mothercare.",
+          "en": "Mother and baby products including newborn clothing, pushchairs, toys, nursery essentials and feeding products, as described by Mothercare."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent complete official source review confirms global Mothercare authority links Singapore at turn892view0 L62; root Singapore retailer exposes actual named product cards in turn903view0 L467–619. Global body L38/42/153/163 supports only the stated products. Explicit international/Singapore and Vietnam-website cessation caveats preserve unknown local availability; no parenting, medical or appointment service inferred.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/mothercare-international.json",
+          "reference": "Products/services product offering only. Actual global Mothercare body turn892view0 L35–43/161–163 explicitly describes newborn essentials, outfits, pushchairs, toys, nursery and feeding/sleep products. No local parenting consultation, medical outcome or appointment benefit inferred.",
+          "sourceUrl": "https://www.mothercare.com/",
+          "section": "Actual official numeric contact/product content and market/authority context"
+        },
+        {
+          "file": "vincom-retail-b/mothercare-singapore.json",
+          "reference": "Products/services product offering only. Actual global Mothercare body turn892view0 L35–43/161–163 explicitly describes newborn essentials, outfits, pushchairs, toys, nursery and feeding/sleep products. No local parenting consultation, medical outcome or appointment benefit inferred.",
+          "sourceUrl": "https://www.mothercare.com/",
+          "section": "Actual official numeric contact/product content and market/authority context"
+        },
+        {
+          "file": "vincom-retail-b/mothercare-singapore-products.json",
+          "reference": "Products/services product offering only. Actual global Mothercare body turn892view0 L35–43/161–163 explicitly describes newborn essentials, outfits, pushchairs, toys, nursery and feeding/sleep products. No local parenting consultation, medical outcome or appointment benefit inferred.",
+          "sourceUrl": "https://www.mothercare.com/",
+          "section": "Actual official numeric contact/product content and market/authority context"
+        },
+        {
+          "file": "vincom-retail-b/mothercare-singapore-products-detail.json",
+          "reference": "Products/services product offering only. Actual global Mothercare body turn892view0 L35–43/161–163 explicitly describes newborn essentials, outfits, pushchairs, toys, nursery and feeding/sleep products. No local parenting consultation, medical outcome or appointment benefit inferred.",
+          "sourceUrl": "https://www.mothercare.com/",
+          "section": "Actual official numeric contact/product content and market/authority context"
+        },
+        {
+          "file": "vincom-retail-b/phone-scope-proof-04.json",
+          "reference": "Products/services product offering only. Actual global Mothercare body turn892view0 L35–43/161–163 explicitly describes newborn essentials, outfits, pushchairs, toys, nursery and feeding/sleep products. No local parenting consultation, medical outcome or appointment benefit inferred.",
+          "sourceUrl": "https://www.mothercare.com/",
+          "section": "Actual official numeric contact/product content and market/authority context"
+        }
+      ],
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-x-074",
+      "field": "catalog",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-candidate-vd-x-074",
+        "field": "catalog",
+        "auditDecision": "accept",
+        "reason": "Official source identity, actual target role and scope reviewed. Brand-wide catalogue/product links preserve branch availability caveats; fresh practical locator values agree with proposed bilingual values. Furla locator contains an explicit product-category list, not merely global menu labels; retained as a brand-wide catalogue reference without local inventory claims.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b\\locator-detail-01.json",
+            "sourceUrl": "https://www.furla.com/int/en/eshop/storedetails/?StoreID=03AVN020--SO",
+            "method": "Saved official full source response reviewed."
+          },
+          {
+            "sourceUrl": "https://www.furla.com/int/en/eshop/storedetails/?StoreID=03AVN020--SO",
+            "freshWebReference": "turn441view1"
+          }
+        ],
+        "reviewedBy": "Codex independent content auditor (AI)",
+        "reviewedAt": "2026-10-20",
+        "acceptedField": {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.furla.com/int/en/eshop/storedetails/?StoreID=03AVN020--SO",
+          "evidence": "Official product/category presentation provides a brand-wide catalogue; no branch inventory, price or fulfilment promise.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://www.furla.com/int/en/eshop/storedetails/?StoreID=03AVN020--SO",
+          "reviewedBy": "Codex independent content auditor (delegated AI review)",
+          "reviewedAt": "2026-10-20"
+        },
+        "originalProposal": {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.furla.com/int/en/eshop/storedetails/?StoreID=03AVN020--SO",
+          "evidence": "Official product/category presentation provides a brand-wide catalogue; no branch inventory, price or fulfilment promise.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://www.furla.com/int/en/eshop/storedetails/?StoreID=03AVN020--SO"
+        }
+      },
+      "acceptedField": {
+        "field": "catalog",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.furla.com/int/en/eshop/woman/woman-bags/",
+        "evidence": "Actual official international bags catalogue turn907view0 L44–104 exposes bag-type/line filters and L118–203 named Dora, Goccia, Iride and other product cards. Replaces branch locator as catalogue target; no Vietnam stock, prices or fulfilment promise.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Danh mục quốc tế của Furla; sản phẩm, giá và tình trạng cung cấp có thể khác tại Việt Nam. Xác nhận danh mục tại chi nhánh.",
+          "en": "Furla international catalogue; products, prices and availability may differ in Vietnam. Confirm the branch range."
+        },
+        "url": "https://www.furla.com/int/en/eshop/woman/woman-bags/",
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "The previous branch-locator URL described goods but did not perform the catalogue action. Fresh actual official international e-shop product/category page directly resolves that role; international caveat added in VI/EN.",
+      "evidenceBindings": [
+        {
+          "file": "content-audit/retail-b-independent/furla-catalog-source.txt",
+          "reference": "turn907view0 L44–104; L118–203",
+          "sourceUrl": "https://www.furla.com/int/en/eshop/woman/woman-bags/",
+          "section": "Actual catalogue filters and named product cards"
+        }
+      ],
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-adidas",
+      "field": "phone",
+      "auditDecision": "hold",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-adidas",
+        "field": "phone",
+        "auditDecision": "unavailable-after-research",
+        "reason": "The exact B2-05 official store page lists address, hours and amenities but no phone. Official mall branch material and the contact-targeted brand search expose only the separate B1 Originals phone; that contact is excluded. No additional branch-contact action is exposed by the B2 page.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/details-04.json",
+            "reference": "turn751view0, turn738view0, turn751view1, turn707view0, turn751view2, turn707view1, turn751view3, turn707view2, turn751view4, turn707view3, turn751view5, turn707view4, turn751view6, turn707view5, turn751view7, turn716view0, turn751view8, turn716view1, turn751view9, turn672view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.adidas.com.vn/en/stores/vietnam/ho-chi-minh/b2-05-b2-floor-72-le-thanh-ton-streets-45a-ly-tu-trong-s/9990174501",
+              "https://vincom.com.vn/store/adidas-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "The exact B2-05 official store page lists address, hours and amenities but no phone. Official mall branch material and the contact-targeted brand search expose only the separate B1 Originals phone; that contact is excluded. No additional branch-contact action is exposed by the B2 page."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-06.json",
+            "reference": "turn637search0, turn637search1, turn637search2, turn637search3, turn637search4, turn637search5, turn637search6, turn637search7, turn637search8, turn637search9, turn637search10, turn637search11, turn637search12, turn637search13, turn637search14, turn637search15, turn637search16, turn637search17",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.adidas.com.vn/en/stores/vietnam/ho-chi-minh/b2-05-b2-floor-72-le-thanh-ton-streets-45a-ly-tu-trong-s/9990174501",
+              "https://vincom.com.vn/store/adidas-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "The exact B2-05 official store page lists address, hours and amenities but no phone. Official mall branch material and the contact-targeted brand search expose only the separate B1 Originals phone; that contact is excluded. No additional branch-contact action is exposed by the B2 page."
+          },
+          {
+            "file": "vincom-retail-b/search-08.json",
+            "reference": "turn314search0, turn314search1, turn314search2, turn314search3, turn314search4, turn314search5, turn314search6, turn314search7, turn314search8, turn314search9, turn314search10, turn314search11, turn314search12, turn314search14, turn314search15",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.adidas.com.vn/en/stores/vietnam/ho-chi-minh/b2-05-b2-floor-72-le-thanh-ton-streets-45a-ly-tu-trong-s/9990174501",
+              "https://vincom.com.vn/store/adidas-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "The exact B2-05 official store page lists address, hours and amenities but no phone. Official mall branch material and the contact-targeted brand search expose only the separate B1 Originals phone; that contact is excluded. No additional branch-contact action is exposed by the B2 page."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "unavailable-after-research",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://www.adidas.com.vn/en/stores/vietnam/ho-chi-minh/b2-05-b2-floor-72-le-thanh-ton-streets-45a-ly-tu-trong-s/9990174501",
+          "https://vincom.com.vn/store/adidas-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:adidas.com.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-06.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "Adidas official store Vincom Dong Khoi phone hours",
+            "resultFile": "search-08.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:adidas.com.vn \"Adidas\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-07.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "boundedScope": "Only the dedicated Vincom Center Dong Khoi branch phone in the named checked official sources; no claim of global nonexistence.",
+        "negativeCoverage": {
+          "checkedSources": [
+            "https://www.adidas.com.vn/en/stores/vietnam/ho-chi-minh/b2-05-b2-floor-72-le-thanh-ton-streets-45a-ly-tu-trong-s/9990174501",
+            "https://vincom.com.vn/store/adidas-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+          ],
+          "targetedOfficialQueries": [
+            {
+              "query": "site:adidas.com.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+              "resultFile": "contact-search-06.json",
+              "checkedAt": "2026-10-20",
+              "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+            },
+            {
+              "query": "Adidas official store Vincom Dong Khoi phone hours",
+              "resultFile": "search-08.json",
+              "checkedAt": "2026-10-20",
+              "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+            },
+            {
+              "query": "site:adidas.com.vn \"Adidas\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+              "resultFile": "service-search-07.json",
+              "checkedAt": "2026-10-20",
+              "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+            }
+          ],
+          "inspectedFinding": "The exact B2-05 official store page lists address, hours and amenities but no phone. Official mall branch material and the contact-targeted brand search expose only the separate B1 Originals phone; that contact is excluded. No additional branch-contact action is exposed by the B2 page.",
+          "excludedInformation": "General brand/corporate contacts, office schedules, different branches, foreign locators and historical material are not substituted.",
+          "recheckTrigger": "Recheck the named official sources if new branch evidence becomes available."
+        }
+      },
+      "reason": "The exact B2 branch page omits a phone; the single bounded official general-contact follow-through is inaccessible (turn905view0). Neither a branch phone nor a general fallback can be extracted from this checked source family. This supersedes the former branch-only unavailable finding, not a claim that Adidas publishes no general contact. Root independently attempted the same official contact target through browser rendering; page.goto timed out after25seconds, with no actual body or response status established. This is a source-access hold, not an approval blocker or a global absence finding.",
+      "remainingAction": "Retrieve a functioning official Adidas Vietnam/general customer-contact source or corrected B2 branch row; do not transfer the separate B1 Originals number.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/adidas-general-contact-check.json",
+          "reference": "turn905view0",
+          "sourceUrl": "https://www.adidas.com.vn/en/help/contact-us",
+          "section": "Exact official general-contact URL is inaccessible through the reader"
+        },
+        {
+          "file": "vincom-retail-b/phone-scope-all-phone-review.json",
+          "reference": "vincom-prototype-adidas/phone",
+          "section": "Systematic phone-scope followthrough; preserves B2/B1 identity separation"
+        },
+        {
+          "file": "holds/adidas-contact-final.json",
+          "reference": "Root exact official-contact browser retrieval,20October2026",
+          "sourceUrl": "https://www.adidas.com.vn/en/help/contact-us",
+          "section": "Bounded25-second page.goto timeout; no body/status verified"
+        }
+      ],
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    }
+  ]
+}

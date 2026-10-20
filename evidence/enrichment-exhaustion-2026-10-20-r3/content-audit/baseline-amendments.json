@@ -1,0 +1,736 @@
+{
+  "records": [
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-tierradiamondjewelry",
+      "field": "hours",
+      "auditDecision": "hold",
+      "reason": "Competing official branch schedules: original mall page says 09:30-21:30; freshly retrieved Tierra locator identifies Saigon Centre L2-K2 and says 10:00-22:00. Neither schedule can be represented as unqualified verified hours.",
+      "originalAcceptedField": {
+        "field": "hours",
+        "state": "verified-agent",
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/tierra-diamond-jewelry",
+        "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "value": {
+          "vi": "9:30 - 21:30",
+          "en": "9:30 - 21:30"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-19"
+      },
+      "evidenceBindings": [
+        {
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/tierra-diamond-jewelry",
+          "method": "Exact original accepted field preserved from frozen 658-field baseline."
+        },
+        {
+          "sourceUrl": "https://www.tierra.vn/kham-pha-cua-hang",
+          "freshWebReference": "turn510view2",
+          "section": "169-174",
+          "sourceValue": "10:00 - 22:00"
+        }
+      ],
+      "remainingAction": "Obtain reconciled current Saigon Centre hours from Tierra or the mall; retain explicit conflict hold until schedules agree or a dated authoritative correction resolves the difference.",
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "authorization": "Parent explicitly authorized evidence-warranted baseline correction on 2026-10-20, outside original 1315 queued keys."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-gogihouse",
+      "field": "hours",
+      "auditDecision": "hold",
+      "originalAcceptedField": {
+        "field": "hours",
+        "state": "verified-agent",
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/gogi-house",
+        "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "value": {
+          "vi": "9:30 - 21:30",
+          "en": "9:30 - 21:30"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-19"
+      },
+      "reason": "Competing official branch schedules: original mall-page accepted hours 9:30 - 21:30 versus official brand HCM restaurant row 09:00 - 22:00. Exact Saigon Centre address and phone match; retain conflict without selecting one schedule.",
+      "evidenceBindings": [
+        {
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/gogi-house",
+          "method": "Exact field object retained from frozen658 baseline."
+        },
+        {
+          "sourceUrl": "https://gogi.com.vn/dat-ban",
+          "file": "content-audit/goldengate-baseline-conflict-receipts.json",
+          "section": "Gogi House Saigon Centre",
+          "sourceValue": "09:00 - 22:00",
+          "method": "Complete saved official browser branch row independently reviewed."
+        }
+      ],
+      "remainingAction": "Obtain dated official reconciliation of Saigon Centre operating hours from the mall or restaurant before restoring a verified hours field.",
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "authorization": "Parent authorized explicit evidence-warranted baseline corrections outside original1315 queue; no silent replacement."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-manwahtaiwanesehotpot",
+      "field": "hours",
+      "auditDecision": "hold",
+      "originalAcceptedField": {
+        "field": "hours",
+        "state": "verified-agent",
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/manwah-taiwanese-hot-pot",
+        "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "value": {
+          "vi": "10:00 - 22:00",
+          "en": "10:00 - 22:00"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-19"
+      },
+      "reason": "Competing official branch schedules: original mall-page accepted hours 10:00 - 22:00 versus official brand HCM restaurant row 11:00 - 22:00. Exact Saigon Centre address and phone match; retain conflict without selecting one schedule.",
+      "evidenceBindings": [
+        {
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/manwah-taiwanese-hot-pot",
+          "method": "Exact field object retained from frozen658 baseline."
+        },
+        {
+          "sourceUrl": "https://manwah.com.vn/dat-ban",
+          "file": "content-audit/goldengate-baseline-conflict-receipts.json",
+          "section": "Manwah Saigon Centre",
+          "sourceValue": "11:00 - 22:00",
+          "method": "Complete saved official browser branch row independently reviewed."
+        }
+      ],
+      "remainingAction": "Obtain dated official reconciliation of Saigon Centre operating hours from the mall or restaurant before restoring a verified hours field.",
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "authorization": "Parent authorized explicit evidence-warranted baseline corrections outside original1315 queue; no silent replacement."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-kichikichi",
+      "field": "hours",
+      "auditDecision": "hold",
+      "originalAcceptedField": {
+        "field": "hours",
+        "state": "verified-agent",
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/kichi-kichi",
+        "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "value": {
+          "vi": "10:00 - 22:00",
+          "en": "10:00 - 22:00"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-19"
+      },
+      "reason": "Competing official branch schedules: original mall-page accepted hours 10:00 - 22:00 versus official brand locator 09:00 - 22:00. Exact Saigon Centre branch identity and phone match; retain conflict without selecting one schedule.",
+      "evidenceBindings": [
+        {
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/kichi-kichi",
+          "method": "Exact field retained from frozen658 baseline."
+        },
+        {
+          "sourceUrl": "https://kichi.com.vn/dat-ban",
+          "file": "content-audit/kichi-baseline-conflict-receipt.json",
+          "method": "Independently audited complete saved researcher browser row; independent text reader is empty, no independent browser rerender claimed."
+        }
+      ],
+      "remainingAction": "Obtain dated official reconciliation of Saigon Centre operating hours from the mall or restaurant before restoring verified hours.",
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "authorization": "Parent authorized explicit evidence-warranted baseline corrections outside original1315 queue; no silent replacement."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-sushihokkaidosachi",
+      "field": "hours",
+      "auditDecision": "hold",
+      "originalAcceptedField": {
+        "field": "hours",
+        "state": "verified-agent",
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/sushi-hokkaido-sachi",
+        "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "value": {
+          "vi": "10:00 - 22:00",
+          "en": "10:00 - 22:00"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-19"
+      },
+      "reason": "Competing official branch schedules: original mall-page accepted hours 10:00 - 22:00 versus official brand locator 10:30 - 22:00; last order21:30. Exact Saigon Centre branch identity and phone match; retain conflict without selecting one schedule.",
+      "evidenceBindings": [
+        {
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/sushi-hokkaido-sachi",
+          "method": "Exact field retained from frozen658 baseline."
+        },
+        {
+          "sourceUrl": "https://sushihokkaidosachi.com.vn/en/location/?current=Vincom+Center+Dong+Khoi",
+          "freshWebReference": "turn749view0",
+          "section": "Saigon Centre separate branch block41-47: L5-16/17,67LeLoi, phone02838218944,10:30-22:00,lastorder21:30"
+        }
+      ],
+      "remainingAction": "Obtain dated official reconciliation of Saigon Centre operating hours from the mall or restaurant before restoring verified hours.",
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "authorization": "Parent authorized explicit evidence-warranted baseline corrections outside original1315 queue; no silent replacement."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-tonkatsuwako",
+      "field": "hours",
+      "auditDecision": "hold",
+      "originalAcceptedField": {
+        "field": "hours",
+        "state": "verified-agent",
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/tonkatsu-wako",
+        "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "value": {
+          "vi": "09:30 - 21:30",
+          "en": "09:30 - 21:30"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-19"
+      },
+      "reason": "Competing official branch hours: original accepted mall value 09:30 - 21:30 versus official brand locator 10:00 - 22:00; last order21:30. Exact Saigon Centre branch identity established; no source precedence or reconciliation supports choosing one.",
+      "evidenceBindings": [
+        {
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/tonkatsu-wako",
+          "method": "Exact original accepted field retained from frozen658 snapshot."
+        },
+        {
+          "sourceUrl": "https://wako-group.co.jp/shop/detai/shop_5211/",
+          "freshWebReference": "turn763view0",
+          "section": "Exact Saigon Centre L5-06 address30; hours38-39"
+        }
+      ],
+      "remainingAction": "Obtain dated official reconciliation of Saigon Centre hours from restaurant or mall before restoring verified value/action.",
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "authorization": "Parent authorized explicit evidence-warranted baseline corrections outside original1315 queue; no silent replacement."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-tonkatsuwako",
+      "field": "phone",
+      "auditDecision": "hold",
+      "originalAcceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/tonkatsu-wako",
+        "evidence": "Number explicitly listed in branch Phone block. This may route through a brand or shared retailer contact; not verified by calling.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "value": {
+          "vi": "077 674 3625",
+          "en": "077 674 3625"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-19"
+      },
+      "reason": "Competing official branch phone: original accepted mall value 077 674 3625 versus official brand locator +84-77-574-3625 (=0775743625). Exact Saigon Centre branch identity established; no source precedence or reconciliation supports choosing one.",
+      "evidenceBindings": [
+        {
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/tonkatsu-wako",
+          "method": "Exact original accepted field retained from frozen658 snapshot."
+        },
+        {
+          "sourceUrl": "https://wako-group.co.jp/shop/detai/shop_5211/",
+          "freshWebReference": "turn763view0",
+          "section": "Exact Saigon Centre L5-06 address30; telephone32-33"
+        }
+      ],
+      "remainingAction": "Obtain dated official reconciliation of Saigon Centre phone from restaurant or mall before restoring verified value/action.",
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "authorization": "Parent authorized explicit evidence-warranted baseline corrections outside original1315 queue; no silent replacement."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-runamboutique",
+      "field": "hours",
+      "auditDecision": "hold",
+      "originalAcceptedField": {
+        "field": "hours",
+        "state": "verified-agent",
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/runam-boutique",
+        "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "value": {
+          "vi": "8:30 - 21:30",
+          "en": "8:30 - 21:30"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-19"
+      },
+      "reason": "Competing official branch hours: original accepted mall value 8:30 - 21:30 versus official brand locator 08:30 - 22:00. Exact Saigon Centre branch identity established; no source precedence or reconciliation supports choosing one.",
+      "evidenceBindings": [
+        {
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/runam-boutique",
+          "method": "Exact original accepted field retained from frozen658 snapshot."
+        },
+        {
+          "sourceUrl": "https://caferunam.com/vi/he-thong",
+          "file": "content-audit/runam-baseline-conflict-receipt.json",
+          "method": "Complete saved official browser row independently read; exact65LeLoi and02838212369 identity. No independent browser rerender claimed."
+        }
+      ],
+      "remainingAction": "Obtain dated official reconciliation of Saigon Centre hours from restaurant or mall before restoring verified value/action.",
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "authorization": "Parent authorized explicit evidence-warranted baseline corrections outside original1315 queue; no silent replacement."
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-truffleco",
+      "field": "hours",
+      "auditDecision": "hold",
+      "originalAcceptedField": {
+        "field": "hours",
+        "state": "verified-agent",
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/truffle-co",
+        "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "value": {
+          "vi": "09:30 - 21:30",
+          "en": "09:30 - 21:30"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-19"
+      },
+      "reason": "Conflicting official baseline hours versus brand branch schedule: 10:00-21:30 daily. Operation Hours/Last Order at exact Saigon Centre B2 branch; visible browser schedule and fresh reader businessHours10:00-21:30.",
+      "remainingAction": "Resolve competing official schedules with current branch authority before restoring verified hours; no silent preference or replacement.",
+      "evidenceBindings": [
+        {
+          "sourceUrl": "https://www.truffleco.vn/sgc-reservation-1-1",
+          "freshWebReference": "turn819view0",
+          "section": "Operation Hours/Last Order at exact Saigon Centre B2 branch; visible browser schedule and fresh reader businessHours10:00-21:30."
+        },
+        {
+          "file": "content-audit/baseline-accepted.json",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/truffle-co",
+          "originalValue": {
+            "vi": "09:30 - 21:30",
+            "en": "09:30 - 21:30"
+          }
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-rimowa",
+      "field": "hours",
+      "auditDecision": "hold",
+      "originalAcceptedField": {
+        "field": "hours",
+        "state": "verified-agent",
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/rimowa",
+        "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "value": {
+          "vi": "09:30 - 21:30",
+          "en": "09:30 - 21:30"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-19"
+      },
+      "reason": "Conflicting official baseline hours versus brand branch schedule: Mon-Fri09:30-21:30;Sat-Sun09:30-22:00. Exact L1-20/65LeLoi and same02836367080; named weekday schedule329-335 conflicts with mall all-days09:30-21:30.",
+      "remainingAction": "Resolve competing official schedules with current branch authority before restoring verified hours; no silent preference or replacement.",
+      "evidenceBindings": [
+        {
+          "sourceUrl": "https://www.rimowa.com/us/en/storedetails/ho-chi%20minh%20city/rimowa-ho%20chi%20minh%20-%20saigon%20centre-45",
+          "freshWebReference": "turn822view0",
+          "section": "Exact L1-20/65LeLoi and same02836367080; named weekday schedule329-335 conflicts with mall all-days09:30-21:30."
+        },
+        {
+          "file": "content-audit/baseline-accepted.json",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/rimowa",
+          "originalValue": {
+            "vi": "09:30 - 21:30",
+            "en": "09:30 - 21:30"
+          }
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-uniqlo",
+      "field": "hours",
+      "auditDecision": "hold",
+      "originalAcceptedField": {
+        "field": "hours",
+        "state": "verified-agent",
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/uniqlo",
+        "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "value": {
+          "vi": "9:30 - 21:30",
+          "en": "9:30 - 21:30"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-19"
+      },
+      "reason": "Exact official brand rendered Saigon Centre branch schedule listsMon-Thu09:30-21:30,Fri-Sunandholidays09:30-22:00, conflicting with baseline mall09:30-21:30all-days. No official-source precedence silently selected.",
+      "remainingAction": "Resolve competing official branch schedules before restoring verified hours.",
+      "evidenceBindings": [
+        {
+          "file": "content-audit/retail-rendered-recovery-snapshot.json",
+          "id": "uniqlo",
+          "sourceUrl": "https://map.uniqlo.com/vn/vi/detail/123748"
+        },
+        {
+          "file": "content-audit/baseline-accepted.json",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/uniqlo",
+          "originalValue": {
+            "vi": "9:30 - 21:30",
+            "en": "9:30 - 21:30"
+          }
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-asanoha",
+      "field": "hours",
+      "auditDecision": "hold",
+      "originalAcceptedField": {
+        "field": "hours",
+        "state": "verified-agent",
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/asanoha-modern-japanese-hotpot",
+        "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "value": {
+          "vi": "10:00 - 22:00",
+          "en": "10:00 - 22:00"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-19"
+      },
+      "reason": "Exact official brand Saigon Centre branch schedule 10:30-22:00,lastorder21:30 conflicts with baseline official mall10:00-22:00. Same67LeLoi branch and matching listed phone independently bound; no source-precedence assumption.",
+      "remainingAction": "Reconcile competing official branch schedules with a dated correction or branch authority before restoring verified hours.",
+      "evidenceBindings": [
+        {
+          "file": "content-audit/takahiro-baseline-source-snapshot.json",
+          "id": "saigon-prototype-asanoha",
+          "sourceUrl": "https://asanoha.com.vn/en/location/?current=Saigon+Centre",
+          "newValue": "10:30-22:00,lastorder21:30",
+          "freshWebReference": "turn884view0",
+          "method": "Complete saved rendered row independently reviewed; three representative independent fresh official reads corroborate the source family."
+        },
+        {
+          "file": "content-audit/baseline-accepted.json",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/asanoha-modern-japanese-hotpot",
+          "originalValue": {
+            "vi": "10:00 - 22:00",
+            "en": "10:00 - 22:00"
+          }
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-gyushigeyakiniku",
+      "field": "hours",
+      "auditDecision": "hold",
+      "originalAcceptedField": {
+        "field": "hours",
+        "state": "verified-agent",
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/gyu-shige-nguu-phon",
+        "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "value": {
+          "vi": "10:00 - 22:00",
+          "en": "10:00 - 22:00"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-19"
+      },
+      "reason": "Exact official brand Saigon Centre branch schedule 10:30-23:00,lastorder22:15 conflicts with baseline official mall10:00-22:00. Same67LeLoi branch and matching listed phone independently bound; no source-precedence assumption.",
+      "remainingAction": "Reconcile competing official branch schedules with a dated correction or branch authority before restoring verified hours.",
+      "evidenceBindings": [
+        {
+          "file": "content-audit/takahiro-baseline-source-snapshot.json",
+          "id": "saigon-prototype-gyushigeyakiniku",
+          "sourceUrl": "https://gyushige.com.vn/en/location/?current=Saigon+Centre",
+          "newValue": "10:30-23:00,lastorder22:15",
+          "freshWebReference": "turn884view1",
+          "method": "Complete saved rendered row independently reviewed; three representative independent fresh official reads corroborate the source family."
+        },
+        {
+          "file": "content-audit/baseline-accepted.json",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/gyu-shige-nguu-phon",
+          "originalValue": {
+            "vi": "10:00 - 22:00",
+            "en": "10:00 - 22:00"
+          }
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-jindinroutaiwaneserestaurant",
+      "field": "hours",
+      "auditDecision": "hold",
+      "originalAcceptedField": {
+        "field": "hours",
+        "state": "verified-agent",
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/jin-din-rou-%E4%BA%AC%E9%BC%8E%E6%A8%93",
+        "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "value": {
+          "vi": "10:00 - 22:00",
+          "en": "10:00 - 22:00"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-19"
+      },
+      "reason": "Exact official brand Saigon Centre branch schedule 10:30-22:00,lastorder21:30 conflicts with baseline official mall10:00-22:00. Same67LeLoi branch and matching listed phone independently bound; no source-precedence assumption.",
+      "remainingAction": "Reconcile competing official branch schedules with a dated correction or branch authority before restoring verified hours.",
+      "evidenceBindings": [
+        {
+          "file": "content-audit/takahiro-baseline-source-snapshot.json",
+          "id": "saigon-prototype-jindinroutaiwaneserestaurant",
+          "sourceUrl": "https://jindinrou.com.vn/en/location/?current=Saigon+Centre",
+          "newValue": "10:30-22:00,lastorder21:30",
+          "freshWebReference": null,
+          "method": "Complete saved rendered row independently reviewed; three representative independent fresh official reads corroborate the source family."
+        },
+        {
+          "file": "content-audit/baseline-accepted.json",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/jin-din-rou-%E4%BA%AC%E9%BC%8E%E6%A8%93",
+          "originalValue": {
+            "vi": "10:00 - 22:00",
+            "en": "10:00 - 22:00"
+          }
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-oedoalley",
+      "field": "hours",
+      "auditDecision": "hold",
+      "originalAcceptedField": {
+        "field": "hours",
+        "state": "verified-agent",
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/oedo-alley-japanese-food-village",
+        "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "value": {
+          "vi": "10:00 - 22:00",
+          "en": "10:00 - 22:00"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-19"
+      },
+      "reason": "Exact official brand Saigon Centre branch schedule 10:30-22:30,lastorder21:45 conflicts with baseline official mall10:00-22:00. Same67LeLoi branch and matching listed phone independently bound; no source-precedence assumption.",
+      "remainingAction": "Reconcile competing official branch schedules with a dated correction or branch authority before restoring verified hours.",
+      "evidenceBindings": [
+        {
+          "file": "content-audit/takahiro-baseline-source-snapshot.json",
+          "id": "saigon-prototype-oedoalley",
+          "sourceUrl": "https://oedoalley.com.vn/en/location/?current=Oedo+Alley+-+Saigon+Centre",
+          "newValue": "10:30-22:30,lastorder21:45",
+          "freshWebReference": "turn884view2",
+          "method": "Complete saved rendered row independently reviewed; three representative independent fresh official reads corroborate the source family."
+        },
+        {
+          "file": "content-audit/baseline-accepted.json",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/oedo-alley-japanese-food-village",
+          "originalValue": {
+            "vi": "10:00 - 22:00",
+            "en": "10:00 - 22:00"
+          }
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-ramenichibanken",
+      "field": "hours",
+      "auditDecision": "hold",
+      "originalAcceptedField": {
+        "field": "hours",
+        "state": "verified-agent",
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/ramen-ichibanken",
+        "evidence": "Hours explicitly listed in branch Operating hours block; no weekday/weekend or holiday schedule invented.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "value": {
+          "vi": "10:00 - 22:00",
+          "en": "10:00 - 22:00"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-19"
+      },
+      "reason": "Exact official brand Saigon Centre branch schedule 10:30-22:00,lastorder21:30 conflicts with baseline official mall10:00-22:00. Same67LeLoi branch and matching listed phone independently bound; no source-precedence assumption.",
+      "remainingAction": "Reconcile competing official branch schedules with a dated correction or branch authority before restoring verified hours.",
+      "evidenceBindings": [
+        {
+          "file": "content-audit/takahiro-baseline-source-snapshot.json",
+          "id": "saigon-prototype-ramenichibanken",
+          "sourceUrl": "https://ichibankenramen.com.vn/en/location/?current=Saigon+Centre",
+          "newValue": "10:30-22:00,lastorder21:30",
+          "freshWebReference": null,
+          "method": "Complete saved rendered row independently reviewed; three representative independent fresh official reads corroborate the source family."
+        },
+        {
+          "file": "content-audit/baseline-accepted.json",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/ramen-ichibanken",
+          "originalValue": {
+            "vi": "10:00 - 22:00",
+            "en": "10:00 - 22:00"
+          }
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20"
+    }
+  ]
+}

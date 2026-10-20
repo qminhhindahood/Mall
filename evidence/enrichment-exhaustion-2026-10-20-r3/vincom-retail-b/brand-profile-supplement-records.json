@@ -1,0 +1,44 @@
+{
+  "revision": "brand-profile-followup-2026-10-20-r3",
+  "records": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-026",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://vincom.com.vn/brand/pierre-cardin",
+          "evidence": "Actual Vincom brand profile lines11–15 identifies Pierre Cardin and An Phuoc operator/exclusive menswear distribution. Brand-wide informational action; current listed branches exclude Dong Khoi, so no branch availability claim.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung do Vincom giới thiệu về thương hiệu; xác nhận sản phẩm và tình trạng phục vụ với chi nhánh.",
+            "en": "General brand information described by Vincom; confirm products and availability with the branch."
+          },
+          "url": "https://vincom.com.vn/brand/pierre-cardin"
+        },
+        {
+          "field": "services",
+          "state": "verified-agent",
+          "sourceUrl": "https://vincom.com.vn/brand/pierre-cardin",
+          "evidence": "Products/services product offering only. Actual profile line14 explicitly describes the Pierre Cardin menswear brand and An Phuoc distribution. No specific garment types, inventory or treatment/alteration service inferred.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung do Vincom giới thiệu về thương hiệu; xác nhận sản phẩm và tình trạng phục vụ với chi nhánh.",
+            "en": "General brand information described by Vincom; confirm products and availability with the branch."
+          },
+          "value": {
+            "vi": "Thời trang nam Pierre Cardin theo giới thiệu thương hiệu của Vincom; xác nhận dòng sản phẩm tại chi nhánh.",
+            "en": "Pierre Cardin menswear as described in Vincom’s brand profile; confirm product lines with the branch."
+          }
+        }
+      ]
+    }
+  ]
+}

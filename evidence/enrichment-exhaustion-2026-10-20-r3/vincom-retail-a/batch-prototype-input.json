@@ -1,0 +1,434 @@
+[
+  [
+    26,
+    "https://www.adidas.com.vn/vi",
+    "../../continuation-2026-10-19-r2/research-vincom/brand2.txt",
+    "Giày dép, quần áo và phụ kiện adidas Originals (danh mục chung).",
+    "adidas Originals footwear, clothing and accessories (general range).",
+    false,
+    "Actual official B1-56 locator is exact Originals identity; source bound separately for phone/hours."
+  ],
+  [
+    27,
+    "https://anphuoc.com.vn/an-phuoc-menswear/ao-so-mi-nam",
+    "source-text/alternative-anphuoc.json",
+    "Áo sơ mi nam An Phước với các lựa chọn tay dài và tay ngắn (danh mục chung của thương hiệu).",
+    "An Phuoc men's shirts in long- and short-sleeve options (general brand range).",
+    true,
+    "Alternative actual official shirt category retrieved after root access failure. No actual Dong Khoi branch schedule retrieved; national1800 contact explicitly supported."
+  ],
+  [
+    28,
+    "https://www.bathandbodyworks.vn/",
+    "source-text/catalog-bathbodyworks.json",
+    "Xịt thơm và sản phẩm chăm sóc cơ thể, cùng hương thơm cho không gian sống (danh mục Bath & Body Works Việt Nam).",
+    "Fragrance mists and body care, plus home fragrance (Bath & Body Works Vietnam range).",
+    true,
+    "Actual Vietnam branch locator now exposes10:00–22:00 daily and national customer service. Cached oldbranchphone conflicts with current global locator; use explicit national customer support instead."
+  ],
+  [
+    29,
+    "https://www.bobbibrowncosmetics.com/",
+    "source-text/alternative-bobbibrown.json",
+    "Sản phẩm trang điểm nền, che khuyết điểm, mắt, môi và kem lót (danh mục quốc tế; cần xác nhận hàng tại chi nhánh).",
+    "Foundation, concealer, eye and lip makeup, and primer (international range; confirm branch stock).",
+    true,
+    "Vietnam brand root inaccessible; actual international official catalogue retrieved. No exact Dong Khoi contact/hours block from official sources."
+  ],
+  [
+    30,
+    "https://www.cgv.vn/en/cinox/site/cgv-vincom-dong-khoi",
+    "source-text/alternative-cgv.json",
+    null,
+    null,
+    false,
+    "Official English branch page inaccessible and Vietnamese counterpart times out. Search-only showtime/GoldClass leads are retained but not promoted as actual service retrieval; no official opening schedule read."
+  ],
+  [
+    31,
+    "https://www.clarinsusa.com/",
+    "source-text/alternates33.json",
+    "Double Serum Eye và Total Eye Lift thuộc các sản phẩm chăm sóc vùng mắt Clarins được giới thiệu trên website Hoa Kỳ; cần xác nhận hàng tại chi nhánh.",
+    "Clarins Double Serum Eye and Total Eye Lift eye care featured on its US website; confirm branch stock.",
+    true,
+    "Two Vietnam Clarins domains inaccessible; old mall alternate redirects home. Actual US official page features named eye-care products and collection link; international scope only, no branch contact/hours."
+  ],
+  [
+    32,
+    "https://www.cobragolf.com/",
+    "source-text/catalog-cobrapuma.json",
+    "Gậy driver, gậy sắt và phụ kiện COBRA Golf trong danh mục quốc tế; không xác nhận hàng COBRA/PUMA tại chi nhánh.",
+    "COBRA Golf drivers, irons and accessories in its international catalogue; COBRA/PUMA branch stock is not confirmed.",
+    true,
+    "Mall identifies composite Cobra Puma Golf; actual COBRA international equipment source retrieved and scoped to Cobra portion only. No Dong Khoi practical branch block retrieved."
+  ],
+  [
+    33,
+    "https://www.acfc.com.vn/blog/he-thong-cua-hang-cotton-on.html",
+    "source-text/locator-new-cotton.json",
+    "Trang phục nam, nữ và phụ kiện Cotton:On (danh mục chung tại nhà phân phối Việt Nam).",
+    "Cotton:On men's and women's clothing and accessories (Vietnam distributor's general range).",
+    true,
+    "Actual ACFC official distributor page identifies Cotton:On Vincom branch and lists product cards; CottonOn VN root inaccessible. Branchphone source direct actual ACFC block, hours not supplied."
+  ],
+  [
+    34,
+    "https://www.crocs.com.vn/",
+    "source-text/s11.json",
+    "Giày clog, sandals, dép và phụ kiện Jibbitz Crocs (danh mục Crocs Việt Nam).",
+    "Crocs clogs, sandals, slides and Jibbitz charms (Crocs Vietnam range).",
+    false,
+    "Actual official national product catalogue supports offerings. Actual Vietnam locator returns a dynamic interface without readable Dong Khoi branch rows, so its hours/contact payload cannot be inferred."
+  ],
+  [
+    35,
+    "https://www.dyson.vn/en-VN/store",
+    "source-text/s11.json",
+    null,
+    null,
+    false,
+    "Actual official Dyson store list confirms Vincom branch but supplies no phone/hours in branch block. Third-party1800646442 and10:00–22:00 are excluded; general brand contact needs actual official support-page retrieval."
+  ],
+  [
+    36,
+    "https://ahperfumes.vn/",
+    "source-text/alternative-escentric.json",
+    null,
+    null,
+    false,
+    "AH Perfumes catalogue is readable, but actual page does not bind Escentric Signature identity. Suggested EscentricSignature route is inaccessible and about-us route404; social aggregator cannot establish official distributorship/counter applicability."
+  ],
+  [
+    37,
+    "https://app.facewashfox.com/dich-vu-khach-hang/face-wash-fox",
+    "source-text/detail-facewash.json",
+    null,
+    null,
+    false,
+    "Actual official app locator has15-line navigation shell; official price article has no readable pricing/body (possibly image/dynamic). Mall name search describes facial wash but actual old branch URL is inaccessible. No exact branch facts or readable service catalogue verified."
+  ],
+  [
+    38,
+    "https://www.fredperry.com/sa-en/shop-finder/vincom-dong-khoi-hcm",
+    "source-text/find27.json",
+    null,
+    null,
+    false,
+    "Actual Fred Perry locator gives exact Dong Khoi branch phone/hours. International shopping homepage retrieved but product-list body/market-specific clothing range needs a concrete category read before a catalogue/action or offering summary."
+  ],
+  [
+    39,
+    "https://gigi.com.vn/",
+    "source-text/catalog-gigi.json",
+    "Áo, đầm, chân váy và quần nữ của GiGi (danh mục GiGi Việt Nam).",
+    "GiGi women's tops, dresses, skirts and trousers (GiGi Vietnam range).",
+    false,
+    "Official GiGi Vietnam product site retrieved; locator is a dynamic shell without exact Dong Khoi branch rows. National Maison/GiGi support can be labelled brand/distributor-wide."
+  ],
+  [
+    40,
+    "https://vincom.com.vn/store/guess-vincom-center-dong-khoi",
+    "source-text/mall-guess.json",
+    "Trang phục denim, quần áo và phụ kiện GUESS (thông tin chung được Vincom giới thiệu).",
+    "GUESS denim, clothing and accessories (general range described by Vincom).",
+    false,
+    "Actual mall branch page supports website/offering description; distributor /guess catalogue URL inaccessible. Actual official mall promotion supplies exact branchphone; no hours block."
+  ],
+  [
+    41,
+    "https://havaianas.com.vn/",
+    "../../continuation-2026-10-19-r2/research-vincom/brand2.txt",
+    "Dép xỏ ngón và giày dép Havaianas cho nam, nữ, trẻ em (danh mục chung của thương hiệu).",
+    "Havaianas flip-flops and footwear for men, women and children (general brand range).",
+    false,
+    "Already-audited brand-wide catalogue reused. Actual official Maison brand page provides exact Dong Khoi phone; retrieved branch row has no hours."
+  ],
+  [
+    42,
+    "https://www2.hm.com/vi_vn/index.html",
+    "../../continuation-2026-10-19-r2/research-vincom/brand3.txt",
+    "Quần áo và phụ kiện cho nữ, nam và trẻ em (danh mục H&M Việt Nam).",
+    "Clothing and accessories for women, men and children (H&M Vietnam range).",
+    false,
+    "Already-audited brand-wide catalogue reused; actual official exact branch locator supports weekday/weekend hours but no dedicated phone read."
+  ],
+  [
+    43,
+    "https://vn.innisfree.com/",
+    "source-text/catalog-innisfree.json",
+    "Serum, kem dưỡng, sản phẩm làm sạch và chăm sóc da innisfree (danh mục Việt Nam).",
+    "innisfree serums, moisturisers, cleansers and skin care (Vietnam range).",
+    false,
+    "Actual official national catalogue retrieved. Third-party branchphone/hours are excluded; actual official Vincom branch contact/schedule block not read."
+  ],
+  [
+    44,
+    "https://www.karllagerfeld.com/en-nl",
+    "source-text/catalog-karl.json",
+    "Quần áo, túi xách, giày dép và phụ kiện Karl Lagerfeld trong danh mục quốc tế; cần xác nhận hàng tại chi nhánh.",
+    "Karl Lagerfeld clothing, bags, footwear and accessories in its international catalogue; confirm branch stock.",
+    true,
+    "Official root redirects to Netherlands/EUR product catalogue. Mall promotion may contain a branch contact lead; no national/branch opening schedule read."
+  ],
+  [
+    45,
+    "https://www.lacoste.com.vn/",
+    "source-text/catalog-new-lacoste.json",
+    "Áo polo, quần áo, giày, túi và phụ kiện Lacoste (danh mục Việt Nam).",
+    "Lacoste polo shirts, clothing, shoes, bags and accessories (Vietnam range).",
+    true,
+    "Actual Vietnam catalogue retrieved after wrong /vn global route failed. Actual official locator is dynamic and no Dong Khoi block returned; generic hotline shows dash, not usable phone."
+  ],
+  [
+    46,
+    "https://levi.com.vn/",
+    "source-text/catalog-levis.json",
+    "Quần jeans và trang phục denim Levi’s cho nam và nữ (thông tin chung của thương hiệu).",
+    "Levi's jeans and denim clothing for men and women (general brand information).",
+    false,
+    "Official Levi Vietnam catalogue root503; actual mall page describes jeans and men's/women's product ranges but is not an actual product catalogue action. Third-party branchphone/hours excluded."
+  ],
+  [
+    47,
+    "https://longbeachpearl.com/",
+    "source-text/catalog-longbeach.json",
+    "Trang sức ngọc trai gồm chuỗi cổ, hoa tai, dây chuyền, nhẫn và vòng tay (danh mục Long Beach Pearl).",
+    "Pearl jewellery including necklaces, earrings, pendants, rings and bracelets (Long Beach Pearl range).",
+    true,
+    "Actual Vietnam product listings retrieved; actual store locator is dynamic shell though indexed branchphone/hours lead exists. General1900277299 brand contact is distinct from a branch line."
+  ],
+  [
+    48,
+    "https://www.lukfook.com/en",
+    "source-text/catalog-lukfook.json",
+    "Trang sức vàng, bạch kim và trang sức gắn đá; các loại nhẫn, dây chuyền, hoa tai và vòng tay trong danh mục quốc tế Lukfook.",
+    "Gold, platinum and gem-set jewellery, including rings, necklaces, earrings and bracelets in Lukfook's international range.",
+    true,
+    "Actual global official site has jewellery catalogue categories and current official Dong Khoi opening news. No branchphone/hours block in retrieved source; do not transplant Hong Kong contacts."
+  ],
+  [
+    49,
+    "https://lynvn.com/",
+    "source-text/catalog-lyn.json",
+    "Túi xách, ví, giày và phụ kiện LYN (danh mục Việt Nam).",
+    "LYN handbags, wallets, shoes and accessories (Vietnam range).",
+    false,
+    "Actual official national product catalogue retrieved; only services queued for this exact destination, no changes to existing acceptedphone/hours."
+  ],
+  [
+    50,
+    "https://www.makeupforever.com/us/en",
+    "source-text/catalog-makeupforever.json",
+    "Sản phẩm trang điểm mặt, mắt, môi và dụng cụ trang điểm Make Up For Ever trong danh mục Hoa Kỳ; cần xác nhận hàng tại chi nhánh.",
+    "Make Up For Ever face, eye and lip makeup and tools in its US catalogue; confirm branch stock.",
+    true,
+    "Official global site redirects to US catalogue with actual Artist ColorGlow Lip Balm product listing. No Vietnam branch practical contact/hour block read."
+  ],
+  [
+    51,
+    "https://www.matsukiyo.vn/",
+    "source-text/catalog-matsukiyo.json",
+    "Mỹ phẩm, sản phẩm chăm sóc da, chăm sóc tóc và chăm sóc cá nhân (danh mục Matsukiyo Việt Nam).",
+    "Cosmetics, skin care, hair care and personal-care products (Matsukiyo Vietnam range).",
+    false,
+    "Actual national product listings include INJESK serum and MQURE haircare; only services queued, preserve already acceptedpracticalfields."
+  ],
+  [
+    52,
+    "https://messyweekend.dk/",
+    "source-text/catalog-messy.json",
+    "Kính mát, kính lọc ánh sáng xanh và kính thể thao MESSYWEEKEND (danh mục quốc tế; cần xác nhận hàng tại chi nhánh).",
+    "MESSYWEEKEND sunglasses, blue-light glasses and sports eyewear (international range; confirm branch stock).",
+    true,
+    "Actual international catalogue and store-page Dong Khoi weekday/weekend schedule retrieved; branchphone not present."
+  ],
+  [
+    53,
+    "https://www.mlb-korea.com.vn/",
+    "source-text/catalog-mlb.json",
+    null,
+    null,
+    false,
+    "Official Vietnam root inaccessible and official MLB store locator returned zero lines. Indexed shoe/cap catalogue leads are not actual readable listings; do not substitute similarly named independent mlbvietnam.vn retailer without official authority proof."
+  ],
+  [
+    54,
+    "https://www.narscosmetics.vn/",
+    "source-text/catalog-nars.json",
+    "Phấn má, phấn tạo khối, son môi và bảng màu mắt NARS (thông tin chung được Vincom giới thiệu).",
+    "NARS blush, bronzer, lip colour and eyeshadow palettes (general range described by Vincom).",
+    false,
+    "Vietnam official brand root inaccessible; actual official mall page names specific product categories. It is descriptive brand content, not an actual readable catalogue action or branchphone/hours block."
+  ],
+  [
+    55,
+    "https://www.nike.com/vn/",
+    "source-text/catalog-nike.json",
+    "Giày, quần áo và phụ kiện thể thao Nike cho nam, nữ và trẻ em (danh mục Việt Nam).",
+    "Nike athletic footwear, clothing and accessories for men, women and children (Vietnam range).",
+    true,
+    "Actual Nike Vietnam catalogue retrieved and prior audited Saigon same-brand catalogue can be reused. ACFC official locator may support standard Nike branchphone; Nike Rise stays separate."
+  ],
+  [
+    56,
+    "https://www.owndays.com/vn/vi",
+    "../../continuation-2026-10-19-r2/research-saigon/brands1.txt",
+    "Gọng kính, tròng kính và kính mát OWNDAYS (danh mục chung; cần xác nhận sản phẩm tại chi nhánh).",
+    "OWNDAYS frames, lenses and sunglasses (general range; confirm branch products).",
+    true,
+    "Prior independently accepted same-brand Vietnam catalogue reused; actual Vietnam shop list has dynamic content and no readable Dong Khoi branch block. Brand-wide lens categories appear in actual source navigation."
+  ],
+  [
+    57,
+    "https://www.passifloresbeauty.com/",
+    "source-text/catalog-passiflores.json",
+    "Nước hoa, mỹ phẩm trang điểm và sản phẩm chăm sóc cơ thể (danh mục Passiflores Beauty Việt Nam).",
+    "Fragrances, makeup and body care (Passiflores Beauty Vietnam range).",
+    true,
+    "Actual product listings retrieved. Actual official store list gives no Dong Khoi row in readable response though indexed source shows02839826675 and hours undefined; indexed lead is not actual branch verification."
+  ],
+  [
+    58,
+    "https://phototimevn.com/vi/",
+    "source-text/catalog-phototime.json",
+    "Studio tự chụp phong cách Hàn Quốc với các phòng Color, Banbe và các lựa chọn ảnh cá nhân hoặc nhóm (thông tin chung của PHOTO TIME).",
+    "Korean-style self-photo studio with Color and Banbe rooms and options for individual or group photos (PHOTO TIME general information).",
+    false,
+    "Actual official homepage describes studio and room types. No exact Vincom Dong Khoi branch contact/hour or readable current programme action found; mall promotions mix PhotoTime/KoalaPhoto/PhotoObjet/PhotoEasel and cannot be conflated."
+  ],
+  [
+    59,
+    "https://www.ralphlauren.com/",
+    "source-text/catalog-polo.json",
+    null,
+    null,
+    false,
+    "Official global root redirects to India page with mixed UK delivery/region selector rather than a readable Vietnam branch product catalogue. Official mall Polo news needs inspection for precise products/contact; no contact/hour block read."
+  ],
+  [
+    60,
+    "https://pucini.vn/",
+    "source-text/catalog-pucini.json",
+    "Túi xách, ví, ba lô, giày dép và phụ kiện PUCINI (danh mục Việt Nam).",
+    "PUCINI bags, wallets, backpacks, footwear and accessories (Vietnam range).",
+    true,
+    "Actual PUCINI catalogue product cards retrieved; store list repeats e-commerce0868887095 for many branches, so any use is explicitly generalcontact not dedicatedbranch. No hours block."
+  ],
+  [
+    61,
+    "https://samsonite-vietnam.com/",
+    "source-text/catalog-samsonite.json",
+    "Vali, túi du lịch, túi xách và ba lô Samsonite (danh mục Việt Nam).",
+    "Samsonite luggage, travel bags, handbags and backpacks (Vietnam range).",
+    true,
+    "Actual official Vietnam catalogue and branchlocator B2-55 phone retrieved.17th-floor head-office02838247886 and national18006360 are not branch line; branch source specifically02835354636. No hours provided."
+  ],
+  [
+    62,
+    "https://vincom.com.vn/store/seha-accessories-vincom-center-dong-khoi",
+    "source-text/detail-seha.json",
+    null,
+    null,
+    false,
+    "Actual mall page names Seha Accessories and branch, but only broad jewellery/watch/eyewear classification without concrete offering descriptions; independent exact brand/operator remains unresolved. No readable branchcontact/hours/catalogue."
+  ],
+  [
+    63,
+    "https://www.sony.com.vn/",
+    "source-text/catalog-sony.json",
+    "Tivi, sản phẩm âm thanh, tai nghe và máy ảnh Sony (danh mục Việt Nam).",
+    "Sony televisions, audio products, headphones and cameras (Vietnam range).",
+    false,
+    "Actual Sony Vietnam product pages and branch-store title retrieved. Branchcontact/hours may be image/dynamic content, not exposed in actual readable branch block; generic support must be sourced explicitly if used."
+  ],
+  [
+    64,
+    "https://vn.sulwhasoo.com/",
+    "source-text/catalog-sulwhasoo.json",
+    "Sản phẩm chăm sóc da và trang điểm nền Sulwhasoo, cùng các liệu trình chăm sóc da được hãng giới thiệu (cần xác nhận lịch tại chi nhánh).",
+    "Sulwhasoo skin care and complexion makeup, plus the brand's listed skin-care treatments (confirm branch appointments).",
+    true,
+    "Actual Vietnam catalogue and exact Vincom spa reservation block retrieved with phone/schedule; product stock and appointment availability remain unverified."
+  ],
+  [
+    65,
+    "https://thegioikimcuong.vn/",
+    "source-text/catalog-tgkc.json",
+    "Kim cương và trang sức, gồm trang sức vàng và ổ trang sức (thông tin chung của Thế Giới Kim Cương).",
+    "Diamonds and jewellery, including gold jewellery and jewellery settings (The Gioi Kim Cuong general information).",
+    false,
+    "Actual brand root502; official brand reopening article indexed with national18009298 ext103. Need actual article retrieval before promoting generalcontact/offering; mall roster is not a productcatalogue action."
+  ],
+  [
+    66,
+    "https://www.thebodyshop.com.vn/",
+    "source-text/catalog-bodyshop.json",
+    "Sản phẩm chăm sóc cơ thể từ đầu đến chân và các dòng chăm sóc da The Body Shop (thông tin chung được Vincom giới thiệu).",
+    "The Body Shop head-to-toe body-care and skin-care products (general range described by Vincom).",
+    false,
+    "Brand Vietnam root403; actual official mall page describes body-care offerings but is not an actual product catalogue nor exact branchcontact/hourblock."
+  ],
+  [
+    67,
+    "https://www.timezonegames.com/vi-vn/dia-diem/tphcm/vincom-dong-khoi/",
+    "source-text/find27.json",
+    "Trò chơi arcade, đua xe Asphalt 9 Legends DX và trò chơi thực tế ảo như VR Paraglider, Combat Herosco-op, Rabbids VR The Big Ride tại Timezone Vincom Đồng Khởi.",
+    "Arcade games, Asphalt 9 Legends DX racing and VR games including VR Paraglider, Combat Herosco-op and Rabbids VR The Big Ride at Timezone Vincom Dong Khoi.",
+    false,
+    "Actual exact branch page lists named games. Programme role bound to that actual branch game listing; no live-event timetable invented."
+  ],
+  [
+    68,
+    "https://www.tuttopiccolo.com/",
+    "source-text/catalog-tutto.json",
+    "Quần áo trẻ sơ sinh và trẻ em, gồm váy, áo, quần, bộ đồ và đồ dệt kim Tutto Piccolo (danh mục quốc tế; cần xác nhận hàng tại chi nhánh).",
+    "Tutto Piccolo baby and children's dresses, tops, trousers, sets and knitwear (international range; confirm branch stock).",
+    true,
+    "Actual Spain/EUR official product listings retrieved; no readable Vietnam official locator branchphone/hours block. Do not relabel Spanish office contact as Vietnam phone."
+  ],
+  [
+    69,
+    "https://urbanrevivo.com.vn/",
+    "source-text/catalog-urban.json",
+    "Quần áo nữ, nam, giày, túi và phụ kiện Urban Revivo (danh mục Việt Nam).",
+    "Urban Revivo women's and men's clothing, shoes, bags and accessories (Vietnam range).",
+    true,
+    "Actual official national catalogue retrieved; locator actual response is dynamic and omits readable Dong Khoi row though indexed02836227748 exists. National Maison hotline1900252538 can be explicitly distributor-wide."
+  ],
+  [
+    70,
+    "https://www.victoriassecret.com/",
+    "source-text/catalog-victoria.json",
+    null,
+    null,
+    false,
+    "Official global source redirects to Italian loading/error shell; actual mall branch URL inaccessible. Searchonly listing establishes lead but not actual offerings/catalogue/contact/hours. Do not infer local assortment from brandname."
+  ],
+  [
+    71,
+    "https://vincy.com.vn/",
+    "source-text/catalog-vincy.json",
+    "Đồ mặc nhà, đồ bộ, đầm và đồ ngủ nữ cùng các dòng dành cho nam và trẻ em (danh mục VINCY Việt Nam).",
+    "Women's homewear, sets, dresses and sleepwear, plus men's and children's ranges (VINCY Vietnam catalogue).",
+    true,
+    "Actual national catalogue lists product cards; no exact Dong Khoi branch contact/hour block retrieved. Brand support may be separately scoped if actual number is found."
+  ],
+  [
+    72,
+    "https://www.wilsonsports.com.vn/",
+    "source-text/catalog-wilson.json",
+    "Vợt tennis, pickleball, padel, bóng rổ, giày, túi và quần áo thể thao Wilson (danh mục Việt Nam).",
+    "Wilson tennis, pickleball and padel rackets, basketballs, shoes, bags and sportswear (Vietnam range).",
+    true,
+    "Actual national catalogue has concrete category productcounts and exact official Dong Khoi locator provides phone and weekday/weekend schedule."
+  ],
+  [
+    73,
+    "https://www.yslbeautyus.com/",
+    "source-text/alternative-yslbeauty.json",
+    "Sản phẩm trang điểm môi, nền, nước hoa và chăm sóc da YSL Beauty trong danh mục Hoa Kỳ; cần xác nhận hàng tại chi nhánh.",
+    "YSL Beauty lip and complexion makeup, fragrances and skin care in its US catalogue; confirm branch stock.",
+    true,
+    "Beauty identity is scoped to YSL Beauty, not Saint Laurent fashion boutiques at Hotel Continental/Union Square. Actual US product listings exist despite siteerror/offline notice; Vietnamrootinaccessible. No exact Dong Khoi branchphone/hours block."
+  ]
+]

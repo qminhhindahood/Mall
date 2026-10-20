@@ -1,0 +1,208 @@
+{
+  "at": "2026-10-20T12:29:30.227Z",
+  "sourceCheckpoint": "71e5def12a781513efd115045ba4f2f3a4cbaa3c",
+  "builds": [
+    {
+      "mode": "fixture",
+      "mall": "saigon",
+      "start": "2026-10-20T12:19:33.728Z",
+      "end": "2026-10-20T12:19:47.283Z",
+      "exitCode": 0
+    },
+    {
+      "mode": "fixture",
+      "mall": "vincom",
+      "start": "2026-10-20T12:19:47.285Z",
+      "end": "2026-10-20T12:19:57.305Z",
+      "exitCode": 0
+    },
+    {
+      "mode": "public",
+      "mall": "saigon",
+      "start": "2026-10-20T12:19:57.305Z",
+      "end": "2026-10-20T12:20:19.176Z",
+      "exitCode": 0
+    },
+    {
+      "mode": "public",
+      "mall": "vincom",
+      "start": "2026-10-20T12:20:19.177Z",
+      "end": "2026-10-20T12:20:40.217Z",
+      "exitCode": 0
+    }
+  ],
+  "suites": [
+    {
+      "name": "accepted-cuisine",
+      "path": "accepted-cuisine-results.json",
+      "expectedCases": 8,
+      "cases": 8,
+      "assertions": 92,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "cuisine-website",
+      "path": "cuisine-website-results.json",
+      "expectedCases": 4,
+      "cases": 4,
+      "assertions": 70,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "guidance",
+      "path": "indoor-guidance-results.json",
+      "expectedCases": 36,
+      "cases": 36,
+      "assertions": 728,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "map-pointer",
+      "path": "interaction/browser-results.json",
+      "expectedCases": 8,
+      "cases": 8,
+      "assertions": 192,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "fixtures",
+      "path": "fixture-results.json",
+      "expectedCases": 4,
+      "cases": 4,
+      "assertions": 32,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "detail-parity",
+      "path": "detail-parity-results.json",
+      "expectedCases": 4,
+      "cases": 4,
+      "assertions": 64,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "search-review",
+      "path": "review-results.json",
+      "expectedCases": 8,
+      "cases": 8,
+      "assertions": 92,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "entry-controls",
+      "path": "entry-controls-results.json",
+      "expectedCases": 4,
+      "cases": 4,
+      "assertions": 44,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "area-history",
+      "path": "area-history-results.json",
+      "expectedCases": 4,
+      "cases": 4,
+      "assertions": 20,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "fallback",
+      "path": "fallback-results.json",
+      "expectedCases": 16,
+      "cases": 16,
+      "assertions": 126,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "journey",
+      "path": "journey/browser-results.json",
+      "expectedCases": 16,
+      "cases": 16,
+      "assertions": 448,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "rapid-reversals",
+      "path": "reversal-results.json",
+      "expectedCases": 8,
+      "cases": 8,
+      "assertions": 88,
+      "failures": [],
+      "complete": true
+    },
+    {
+      "name": "discovery",
+      "path": "discovery-results.json",
+      "expectedCases": 60,
+      "cases": 60,
+      "assertions": 524,
+      "failures": [],
+      "complete": true
+    }
+  ],
+  "expectedBrowserCases": 180,
+  "browserCases": 180,
+  "browserAssertions": 2520,
+  "staticRouteChecks": 752,
+  "enrichment": {
+    "records": 350,
+    "fields": 1457,
+    "renderedFieldChecks": 2914,
+    "failures": []
+  },
+  "outputBoundary": [
+    {
+      "mall": "saigon-centre",
+      "mode": "public",
+      "provisionalSourceValuesInOutput": 0,
+      "approvedMenuFiles": 3,
+      "pass": true
+    },
+    {
+      "mall": "saigon-centre",
+      "mode": "fixtures",
+      "provisionalSourceValuesInOutput": 0,
+      "approvedMenuFiles": 0,
+      "pass": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "mode": "public",
+      "provisionalSourceValuesInOutput": 0,
+      "approvedMenuFiles": 3,
+      "pass": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "mode": "fixtures",
+      "provisionalSourceValuesInOutput": 0,
+      "approvedMenuFiles": 0,
+      "pass": true
+    }
+  ],
+  "canonicalUnchanged": true,
+  "sourceFiles": 63,
+  "sourceMatchesCheckpoint": true,
+  "assetManifestsUnchanged": true,
+  "freshScreenshots": 132,
+  "historicalMotionEvidence": "Prior r1 512 transition samples / 32 pacing compositions retained; not claimed as fresh r3 runs.",
+  "limitations": [
+    "No verified walking topology, GPS or accessible route claim",
+    "Local installed Chrome with CSS/touch/reduced-motion emulation; physical-device, native lifecycle and production acceptance remain unverified",
+    "No push, deployment, canonical propagation or release acceptance"
+  ],
+  "failures": [],
+  "acceptedFieldsExpected": 1457,
+  "localizedAcceptedFieldsComplete": true,
+  "complete": true
+}

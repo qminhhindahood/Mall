@@ -1,0 +1,78 @@
+{
+  "revision": "independent-exhaustion-audit-r3",
+  "checkedAt": "2026-10-20",
+  "expectedKeys": 1315,
+  "reviewedKeys": 1315,
+  "pendingAuditKeys": 0,
+  "baselineAcceptedFields": 658,
+  "decisions": {
+    "accept": 815,
+    "hold": 476,
+    "unavailable-after-research": 24
+  },
+  "fieldStates": {
+    "verified-existing": 809,
+    "not-applicable": 1262,
+    "verified-agent": 1457,
+    "evidence-conflict-hold": 492,
+    "unavailable-after-research": 28
+  },
+  "remainingResearchOrHoldFields": 492,
+  "allQueuedFieldsReviewed": true,
+  "baselineMustRemainExact": false,
+  "chunkHashes": {
+    "holds-browser-03.json": "9446d29fc5ce6cfd0099176f449ca1285f0b5d40c55cbcaf94acb4cc76b040e2",
+    "holds-final21.json": "96f960f4cbb47140622fc6658a2e5c0daa63edf361cc2f04b7823d7167a4b115",
+    "holds-phones-01.json": "41766a2461ed3aba75fa578a66c9ef5d2f1aaf20c733ce9ff5f72c5dbed2f4d5",
+    "holds-resolved-02.json": "8aec3f2c22838c37da9d4f6ddaa8205d376f2de81bb99c89271e1a3485e0fc3e",
+    "saigon-dining-03.json": "635b21fb820d14be85f28bbc95244adc45644b5712f0d42833ca1c43997e8b63",
+    "saigon-dining-final63.json": "869980e2ea88217c45a1f649e186e2da238607494e035273611bbb41df5bb33e",
+    "saigon-retail-v2.json": "c0de93285d8faceef9ebf74c0a435c38b73db765ccb038384b6fc139e19116f8",
+    "vincom-dining-01-accepted-and-morico-negative.json": "a185f5dc1b5e30ff70855163d7924e910a0fd6255c5404850cf6ca20708057f8",
+    "vincom-dining-final278.json": "5e9654573451aa4fbaed186828d0312de78cec9edb4d1eeb838ab43e37db35f8",
+    "vincom-retail-a-01.json": "96236aaefc4ec9c5635cf1e56ab75a74e94f494de3cae3ec88b77e3840bcb433",
+    "vincom-retail-a-independent-remaining291.json": "6c9cccbab2fd488212da83929641f02ad20aba25542675a30eafb753b6fba73b",
+    "vincom-retail-b-01.json": "73c5329ab6fd54dfea62566c1991a2d1dcb6816949b226820c6cc01578a36d9c",
+    "vincom-retail-b-independent-remaining259.json": "602477f0401be35435d21792fc1703c8d70c2bfbaef059610148840f882664d3"
+  },
+  "byLane": {
+    "holds": {
+      "expected": 43,
+      "reviewed": 43
+    },
+    "saigon-dining": {
+      "expected": 143,
+      "reviewed": 143
+    },
+    "saigon-retail": {
+      "expected": 226,
+      "reviewed": 226
+    },
+    "vincom-dining": {
+      "expected": 292,
+      "reviewed": 292
+    },
+    "vincom-retail-a": {
+      "expected": 311,
+      "reviewed": 311
+    },
+    "vincom-retail-b": {
+      "expected": 300,
+      "reviewed": 300
+    }
+  },
+  "limits": [
+    "Pending audit is incomplete work, not a source blocker.",
+    "Bounded unavailable covers named inspected sources only.",
+    "Holds name exact remaining actions; no global search-exhaustion inference.",
+    "Cuisine schema integration and runtime validation are coordinator-owned; approved directory values remain frozen."
+  ],
+  "originalQueuedKeys": 1315,
+  "outsideQueueBaselineAmendments": 16,
+  "expandedQueueKeys": 1331,
+  "expandedReviewedKeys": 1331,
+  "baselineSnapshotFields": 658,
+  "baselineRetainedExactFields": 642,
+  "baselineMustRemainExactExceptExplicitAmendments": true,
+  "activeExpectedAcceptedFields": 1457
+}

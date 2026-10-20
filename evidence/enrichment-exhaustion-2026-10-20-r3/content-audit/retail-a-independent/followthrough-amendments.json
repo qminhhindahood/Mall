@@ -1,0 +1,609 @@
+{
+  "revision": "retail-a-six-observed-child-followthrough",
+  "inputs": [
+    {
+      "file": "content-audit/retail-a-independent/followthrough-prior-decisions.json",
+      "sha256": "969ac979f606d0c0c068ffa292db3043bc362ae47cc42eeba7f01b40148daeac"
+    },
+    {
+      "file": "content-audit/retail-a-independent/followthrough-001.txt",
+      "sha256": "59031c83e692794aaed789c61b0c328848343f6d010327499d7df58b262b29cb"
+    },
+    {
+      "file": "content-audit/retail-a-independent/followthrough-002.txt",
+      "sha256": "a9d0329c8bc5e42e619b1f527cd7b6a0f7e62eac71fa57d00f063ba8075412a8"
+    },
+    {
+      "file": "content-audit/retail-a-independent/followthrough-003.txt",
+      "sha256": "d88630b5a63ca53afc69c06c18501d6c07db98455f9a34adb70d9e755fe3e7f0"
+    },
+    {
+      "file": "content-audit/retail-a-independent/followthrough-004.txt",
+      "sha256": "7f4efd5abcefaa1edcf2e9921a096fc3295f741ab5bbd2372c76d056b0b79755"
+    },
+    {
+      "file": "content-audit/retail-a-independent/followthrough-005.txt",
+      "sha256": "15b91a4c4cced6be6ff2362b47bf9e3430eba1c8443d61848341ac13d77b20c7"
+    },
+    {
+      "file": "content-audit/retail-a-independent/followthrough-006.txt",
+      "sha256": "9b0797a37420868a9b0fae1a76af13e7e7450d57c0ee77b7f12c4fbd742f9f8c"
+    }
+  ],
+  "records": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-019",
+      "field": "catalog",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-candidate-vd-b2-019",
+        "field": "catalog",
+        "reviewedBy": "Codex independent content auditor (AI)",
+        "reviewedAt": "2026-10-20",
+        "reason": "Gintell brand massage-chair offering and general hotline 0932988080 verified; hero/model images alone do not establish usable catalogue body. Field review: Actual official catalogue presents product listings/categories supporting the general range. No Vietnam/Dong Khoi stock, prices or delivery promised. Independent rejection: available body does not demonstrate the proposed action role beyond navigation/hero/dynamic placeholder.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-a/source-text/find25.json",
+            "reference": "turn402view2",
+            "url": "https://gintell.vn/",
+            "support": "Actual official catalogue presents product listings/categories supporting the general range. No Vietnam/Dong Khoi stock, prices or delivery promised."
+          },
+          {
+            "file": "content-audit/retail-a-independent/fresh-006.txt",
+            "reference": "Official brand-profile request/actual response: https://vincom.com.vn/brand/gintell"
+          }
+        ],
+        "auditDecision": "hold",
+        "remainingAction": "Retrieve an actual official catalog body or collection/category listing for this exact identity and applicable market; rendered public official content or public payload required. Do not infer from navigation, hero or dummy cart.",
+        "originalProposal": {
+          "field": "catalog",
+          "state": "verified-proposal",
+          "sourceUrl": "https://gintell.vn/",
+          "evidence": "Actual official catalogue presents product listings/categories supporting the general range. No Vietnam/Dong Khoi stock, prices or delivery promised. Evidence: source-text/find25.json",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "pending-delegated-review",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "reviewedBy": "Codex Vincom A research agent (AI)",
+          "reviewedAt": "2026-10-20",
+          "url": "https://gintell.vn/"
+        }
+      },
+      "auditDecision": "accept",
+      "reason": "Actual named Black Panther, Spider-Man and S8 MAXX massage-chair cards with prices and order links.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-a/source-text/find25.json",
+          "reference": "turn402view2",
+          "url": "https://gintell.vn/",
+          "support": "Actual official catalogue presents product listings/categories supporting the general range. No Vietnam/Dong Khoi stock, prices or delivery promised."
+        },
+        {
+          "file": "content-audit/retail-a-independent/fresh-006.txt",
+          "reference": "Official brand-profile request/actual response: https://vincom.com.vn/brand/gintell"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-001.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-002.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-003.txt",
+          "reference": "turn910view3 L109-188"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-004.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-005.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-006.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "acceptedField": {
+        "field": "catalog",
+        "state": "verified-agent",
+        "sourceUrl": "https://gintell.vn/vi/nhom-san-pham/ghe-massage-1",
+        "url": "https://gintell.vn/vi/nhom-san-pham/ghe-massage-1",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "reviewedBy": "Codex independent content auditor (AI)",
+        "reviewedAt": "2026-10-20",
+        "evidence": "Actual named Black Panther, Spider-Man and S8 MAXX massage-chair cards with prices and order links. See immutable followthrough receipts and amendment bindings.",
+        "uncertainty": {
+          "vi": "Danh mục chung của thương hiệu; liên kết phần danh mục massage chairs. Xác nhận sản phẩm, giá và tồn kho với chi nhánh.",
+          "en": "Brand-wide catalogue; linked subset: massage chairs. Confirm products, prices and stock with the branch."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-lukfookjewellery",
+      "field": "catalog",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-lukfookjewellery",
+        "field": "catalog",
+        "reviewedBy": "Codex independent content auditor (AI)",
+        "reviewedAt": "2026-10-20",
+        "reason": "Actual Lukfook specific gold/platinum and gem-set ring categories establish international goods. News plus global navigation alone does not prove catalogue body. Field review: Actual official source presents concrete product listings or product-category collection content, supporting catalogue role. Actual global official site has jewellery catalogue categories and current official Dong Khoi opening news. No branchphone/hours block in retrieved source; do not transplant Hong Kong contacts. Independent rejection: available body does not demonstrate the proposed action role beyond navigation/hero/dynamic placeholder.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-a/source-text/catalog-lukfook.json",
+            "reference": "turn495view0",
+            "url": "https://www.lukfook.com/en",
+            "support": "Actual official source presents concrete product listings or product-category collection content, supporting catalogue role. Actual global official site has jewellery catalogue categories and current official Dong Khoi opening news. No branchphone/hours block in retrieved source; do not transplant Hong Kong contacts."
+          },
+          {
+            "file": "content-audit/retail-a-independent/fresh-008.txt",
+            "reference": "Official brand-profile request/actual response: https://vincom.com.vn/brand/lukfook-jewelry"
+          }
+        ],
+        "auditDecision": "hold",
+        "remainingAction": "Retrieve an actual official catalog body or collection/category listing for this exact identity and applicable market; rendered public official content or public payload required. Do not infer from navigation, hero or dummy cart.",
+        "originalProposal": {
+          "field": "catalog",
+          "state": "verified-proposal",
+          "sourceUrl": "https://www.lukfook.com/en",
+          "evidence": "Actual official source presents concrete product listings or product-category collection content, supporting catalogue role. Actual global official site has jewellery catalogue categories and current official Dong Khoi opening news. No branchphone/hours block in retrieved source; do not transplant Hong Kong contacts. Evidence: source-text/catalog-lukfook.json",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "pending-delegated-review",
+          "uncertainty": {
+            "vi": "Danh mục hoặc thông tin thương hiệu ở thị trường quốc tế; không xác nhận giá, hàng tồn, giao hàng hay dịch vụ tại chi nhánh Việt Nam.",
+            "en": "International-market brand information; Vietnam branch prices, stock, delivery and services are not confirmed."
+          },
+          "reviewedBy": "Codex Vincom A research agent (AI)",
+          "reviewedAt": "2026-10-20",
+          "url": "https://www.lukfook.com/en"
+        }
+      },
+      "auditDecision": "accept",
+      "reason": "Actual ring-product directory names Starry Flower 18K diamond ring and Beloved collection rings beyond site navigation.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-a/source-text/catalog-lukfook.json",
+          "reference": "turn495view0",
+          "url": "https://www.lukfook.com/en",
+          "support": "Actual official source presents concrete product listings or product-category collection content, supporting catalogue role. Actual global official site has jewellery catalogue categories and current official Dong Khoi opening news. No branchphone/hours block in retrieved source; do not transplant Hong Kong contacts."
+        },
+        {
+          "file": "content-audit/retail-a-independent/fresh-008.txt",
+          "reference": "Official brand-profile request/actual response: https://vincom.com.vn/brand/lukfook-jewelry"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-001.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-002.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-003.txt",
+          "reference": "turn910view5 L252-271"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-004.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-005.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-006.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "acceptedField": {
+        "field": "catalog",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.lukfook.com/en/product-line/all-product/category/ring",
+        "url": "https://www.lukfook.com/en/product-line/all-product/category/ring",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "reviewedBy": "Codex independent content auditor (AI)",
+        "reviewedAt": "2026-10-20",
+        "evidence": "Actual ring-product directory names Starry Flower 18K diamond ring and Beloved collection rings beyond site navigation. See immutable followthrough receipts and amendment bindings.",
+        "uncertainty": {
+          "vi": "Danh mục chung của thương hiệu; liên kết phần danh mục rings. Xác nhận sản phẩm, giá và tồn kho với chi nhánh. Danh mục thị trường international market; sản phẩm, giá và giao hàng có thể khác tại Việt Nam.",
+          "en": "Brand-wide catalogue; linked subset: rings. Confirm products, prices and stock with the branch. Catalogue for international market; products, prices and shipping may differ in Vietnam."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-tuttopiccolo",
+      "field": "catalog",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-tuttopiccolo",
+        "field": "catalog",
+        "reviewedBy": "Codex independent content auditor (AI)",
+        "reviewedAt": "2026-10-20",
+        "reason": "Actual Tutto Piccolo baby/children clothing categories establish international range; navigation and generic marketing alone do not prove usable actual catalogue listing. Field review: Actual official source presents concrete product listings or product-category collection content, supporting catalogue role. Actual Spain/EUR official product listings retrieved; no readable Vietnam official locator branchphone/hours block. Do not relabel Spanish office contact as Vietnam phone. Independent rejection: available body does not demonstrate the proposed action role beyond navigation/hero/dynamic placeholder.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-a/source-text/catalog-tutto.json",
+            "reference": "turn541view0",
+            "url": "https://www.tuttopiccolo.com/",
+            "support": "Actual official source presents concrete product listings or product-category collection content, supporting catalogue role. Actual Spain/EUR official product listings retrieved; no readable Vietnam official locator branchphone/hours block. Do not relabel Spanish office contact as Vietnam phone."
+          },
+          {
+            "file": "content-audit/retail-a-independent/fresh-009.txt",
+            "reference": "Official brand-profile request/actual response: https://vincom.com.vn/brand/tutto-piccolo"
+          }
+        ],
+        "auditDecision": "hold",
+        "remainingAction": "Retrieve an actual official catalog body or collection/category listing for this exact identity and applicable market; rendered public official content or public payload required. Do not infer from navigation, hero or dummy cart.",
+        "originalProposal": {
+          "field": "catalog",
+          "state": "verified-proposal",
+          "sourceUrl": "https://www.tuttopiccolo.com/",
+          "evidence": "Actual official source presents concrete product listings or product-category collection content, supporting catalogue role. Actual Spain/EUR official product listings retrieved; no readable Vietnam official locator branchphone/hours block. Do not relabel Spanish office contact as Vietnam phone. Evidence: source-text/catalog-tutto.json",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "pending-delegated-review",
+          "uncertainty": {
+            "vi": "Danh mục hoặc thông tin thương hiệu ở thị trường quốc tế; không xác nhận giá, hàng tồn, giao hàng hay dịch vụ tại chi nhánh Việt Nam.",
+            "en": "International-market brand information; Vietnam branch prices, stock, delivery and services are not confirmed."
+          },
+          "reviewedBy": "Codex Vincom A research agent (AI)",
+          "reviewedAt": "2026-10-20",
+          "url": "https://www.tuttopiccolo.com/"
+        }
+      },
+      "auditDecision": "accept",
+      "reason": "Homepage now renders priced Champiñón sets and tricot jerseys; observed Champiñón product child independently supplies SKU2710WW26G01, price45.95EUR and sizes.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-a/source-text/catalog-tutto.json",
+          "reference": "turn541view0",
+          "url": "https://www.tuttopiccolo.com/",
+          "support": "Actual official source presents concrete product listings or product-category collection content, supporting catalogue role. Actual Spain/EUR official product listings retrieved; no readable Vietnam official locator branchphone/hours block. Do not relabel Spanish office contact as Vietnam phone."
+        },
+        {
+          "file": "content-audit/retail-a-independent/fresh-009.txt",
+          "reference": "Official brand-profile request/actual response: https://vincom.com.vn/brand/tutto-piccolo"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-001.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-002.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-003.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-004.txt",
+          "reference": "turn911view3 L116-154; homepage turn909view0 L120-145 in followthrough-002.txt"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-005.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-006.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "acceptedField": {
+        "field": "catalog",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.tuttopiccolo.com/",
+        "url": "https://www.tuttopiccolo.com/",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "reviewedBy": "Codex independent content auditor (AI)",
+        "reviewedAt": "2026-10-20",
+        "evidence": "Homepage now renders priced Champiñón sets and tricot jerseys; observed Champiñón product child independently supplies SKU2710WW26G01, price45.95EUR and sizes. See immutable followthrough receipts and amendment bindings.",
+        "uncertainty": {
+          "vi": "Danh mục chung của thương hiệu; liên kết phần danh mục children’s clothing. Xác nhận sản phẩm, giá và tồn kho với chi nhánh. Danh mục thị trường Spain/EUR; sản phẩm, giá và giao hàng có thể khác tại Việt Nam.",
+          "en": "Brand-wide catalogue; linked subset: children’s clothing. Confirm products, prices and stock with the branch. Catalogue for Spain/EUR; products, prices and shipping may differ in Vietnam."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-urbanrevivo",
+      "field": "catalog",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-urbanrevivo",
+        "field": "catalog",
+        "reviewedBy": "Codex independent content auditor (AI)",
+        "reviewedAt": "2026-10-20",
+        "reason": "Actual Urban Revivo Maison national hotline1900252538 and specific clothing/footwear/bags categories. Dynamic empty sections and duplicated sample tank do not prove catalogue role. Field review: Actual official source presents concrete product listings or product-category collection content, supporting catalogue role. Actual official national catalogue retrieved; locator actual response is dynamic and omits readable Dong Khoi row though indexed02836227748 exists. National Maison hotline1900252538 can be explicitly distributor-wide. Independent rejection: available body does not demonstrate the proposed action role beyond navigation/hero/dynamic placeholder.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-a/source-text/catalog-urban.json",
+            "reference": "turn540view0",
+            "url": "https://urbanrevivo.com.vn/",
+            "support": "Actual official source presents concrete product listings or product-category collection content, supporting catalogue role. Actual official national catalogue retrieved; locator actual response is dynamic and omits readable Dong Khoi row though indexed02836227748 exists. National Maison hotline1900252538 can be explicitly distributor-wide."
+          },
+          {
+            "file": "content-audit/retail-a-independent/fresh-009.txt",
+            "reference": "Official brand-profile request/actual response: https://vincom.com.vn/brand/urban-revivo"
+          }
+        ],
+        "auditDecision": "hold",
+        "remainingAction": "Retrieve an actual official catalog body or collection/category listing for this exact identity and applicable market; rendered public official content or public payload required. Do not infer from navigation, hero or dummy cart.",
+        "originalProposal": {
+          "field": "catalog",
+          "state": "verified-proposal",
+          "sourceUrl": "https://urbanrevivo.com.vn/",
+          "evidence": "Actual official source presents concrete product listings or product-category collection content, supporting catalogue role. Actual official national catalogue retrieved; locator actual response is dynamic and omits readable Dong Khoi row though indexed02836227748 exists. National Maison hotline1900252538 can be explicitly distributor-wide. Evidence: source-text/catalog-urban.json",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "pending-delegated-review",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "reviewedBy": "Codex Vincom A research agent (AI)",
+          "reviewedAt": "2026-10-20",
+          "url": "https://urbanrevivo.com.vn/"
+        }
+      },
+      "auditDecision": "accept",
+      "reason": "Actual dresses/skirts collection body describes mini/midi/denim/pleated styles, reports385 results, nine pages and varied prices. Product names remain dynamic; dummy tank cart excluded.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-a/source-text/catalog-urban.json",
+          "reference": "turn540view0",
+          "url": "https://urbanrevivo.com.vn/",
+          "support": "Actual official source presents concrete product listings or product-category collection content, supporting catalogue role. Actual official national catalogue retrieved; locator actual response is dynamic and omits readable Dong Khoi row though indexed02836227748 exists. National Maison hotline1900252538 can be explicitly distributor-wide."
+        },
+        {
+          "file": "content-audit/retail-a-independent/fresh-009.txt",
+          "reference": "Official brand-profile request/actual response: https://vincom.com.vn/brand/urban-revivo"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-001.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-002.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-003.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-004.txt",
+          "reference": "turn911view4 L63-65 L128-320 L331-337"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-005.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-006.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "acceptedField": {
+        "field": "catalog",
+        "state": "verified-agent",
+        "sourceUrl": "https://urbanrevivo.com.vn/collections/dam-vay",
+        "url": "https://urbanrevivo.com.vn/collections/dam-vay",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "reviewedBy": "Codex independent content auditor (AI)",
+        "reviewedAt": "2026-10-20",
+        "evidence": "Actual dresses/skirts collection body describes mini/midi/denim/pleated styles, reports385 results, nine pages and varied prices. Product names remain dynamic; dummy tank cart excluded. See immutable followthrough receipts and amendment bindings.",
+        "uncertainty": {
+          "vi": "Danh mục chung của thương hiệu; liên kết phần danh mục women’s dresses and skirts. Xác nhận sản phẩm, giá và tồn kho với chi nhánh.",
+          "en": "Brand-wide catalogue; linked subset: women’s dresses and skirts. Confirm products, prices and stock with the branch."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-016",
+      "field": "catalog",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-candidate-vd-b1-016",
+        "field": "catalog",
+        "reviewedBy": "Codex independent content auditor (AI)",
+        "reviewedAt": "2026-10-20",
+        "reason": "Actual official PUMA Vietnam footwear, clothing and accessories categories retrieved. Dynamic locator does not expose branch phone/hours or actual catalogue listing. Field review: Actual official locator retrieval contains a dynamic store shell; indexed API lead names PUMA Flagship but direct API fetch fails. No readable branch phone/hours payload established. Field: catalog.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-a/source-text/open22.json",
+            "reference": "turn387view3",
+            "url": "https://vn.puma.com/vn/vi/storefinder?storepage=footer",
+            "support": "Actual official locator retrieval contains a dynamic store shell; indexed API lead names PUMA Flagship but direct API fetch fails. No readable branch phone/hours payload established. Field: catalog."
+          },
+          {
+            "file": "content-audit/retail-a-independent/fresh-006.txt",
+            "reference": "Official brand-profile request/actual response: https://vincom.com.vn/brand/puma"
+          }
+        ],
+        "auditDecision": "hold",
+        "remainingAction": "Obtain a readable authoritative Puma source for catalog with exact scope and branch applicability."
+      },
+      "auditDecision": "accept",
+      "reason": "Observed footwear link failed, but observed womens clothing child supplies814 products and actual McLaren James Hunt/T7 Always On/Powerpuff Girls clothing cards with VND prices.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-a/source-text/open22.json",
+          "reference": "turn387view3",
+          "url": "https://vn.puma.com/vn/vi/storefinder?storepage=footer",
+          "support": "Actual official locator retrieval contains a dynamic store shell; indexed API lead names PUMA Flagship but direct API fetch fails. No readable branch phone/hours payload established. Field: catalog."
+        },
+        {
+          "file": "content-audit/retail-a-independent/fresh-006.txt",
+          "reference": "Official brand-profile request/actual response: https://vincom.com.vn/brand/puma"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-001.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-002.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-003.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-004.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-005.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-006.txt",
+          "reference": "turn913view0 L573-577 L801-925"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "acceptedField": {
+        "field": "catalog",
+        "state": "verified-agent",
+        "sourceUrl": "https://vn.puma.com/vn/vi/n%E1%BB%AF/qu%E1%BA%A7n-%C3%A1o",
+        "url": "https://vn.puma.com/vn/vi/n%E1%BB%AF/qu%E1%BA%A7n-%C3%A1o",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "reviewedBy": "Codex independent content auditor (AI)",
+        "reviewedAt": "2026-10-20",
+        "evidence": "Observed footwear link failed, but observed womens clothing child supplies814 products and actual McLaren James Hunt/T7 Always On/Powerpuff Girls clothing cards with VND prices. See immutable followthrough receipts and amendment bindings.",
+        "uncertainty": {
+          "vi": "Danh mục chung của thương hiệu; liên kết phần danh mục women’s clothing category, including unisex listings. Xác nhận sản phẩm, giá và tồn kho với chi nhánh.",
+          "en": "Brand-wide catalogue; linked subset: women’s clothing category, including unisex listings. Confirm products, prices and stock with the branch."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-028",
+      "field": "catalog",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-candidate-vd-b2-028",
+        "field": "catalog",
+        "reviewedBy": "Codex independent content auditor (AI)",
+        "reviewedAt": "2026-10-20",
+        "reason": "Rabity exact Vincom Dong Khoi B2-15A block supplies phone 0327987022 and 10:00–22:00. Homepage collection hero/navigation does not prove catalogue listing. Field review: Actual official catalogue presents product listings/categories supporting the general range. No Vietnam/Dong Khoi stock, prices or delivery promised. Independent rejection: available body does not demonstrate the proposed action role beyond navigation/hero/dynamic placeholder.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-a/source-text/catalog-rabity.json",
+            "reference": "turn543view0",
+            "url": "https://rabity.vn/",
+            "support": "Actual official catalogue presents product listings/categories supporting the general range. No Vietnam/Dong Khoi stock, prices or delivery promised."
+          }
+        ],
+        "auditDecision": "hold",
+        "remainingAction": "Retrieve an actual official catalog body or collection/category listing for this exact identity and applicable market; rendered public official content or public payload required. Do not infer from navigation, hero or dummy cart.",
+        "originalProposal": {
+          "field": "catalog",
+          "state": "verified-proposal",
+          "sourceUrl": "https://rabity.vn/",
+          "evidence": "Actual official catalogue presents product listings/categories supporting the general range. No Vietnam/Dong Khoi stock, prices or delivery promised. Evidence: source-text/catalog-rabity.json",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "pending-delegated-review",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "reviewedBy": "Codex Vincom A research agent (AI)",
+          "reviewedAt": "2026-10-20",
+          "url": "https://rabity.vn/"
+        }
+      },
+      "auditDecision": "hold",
+      "reason": "Both observed Rabity Autumn Tales and girls-dresses child collections retrieve filter/sort controls but no named product cards, product count or listing body. This is a public-reader rendering blocker, not absence of a catalogue.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-a/source-text/catalog-rabity.json",
+          "reference": "turn543view0",
+          "url": "https://rabity.vn/",
+          "support": "Actual official catalogue presents product listings/categories supporting the general range. No Vietnam/Dong Khoi stock, prices or delivery promised."
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-001.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-002.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-003.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-004.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-005.txt",
+          "reference": "turn912view1 L110-240; turn912view2 L110-240; AutumnTales turn910view4 in followthrough-003.txt"
+        },
+        {
+          "file": "content-audit/retail-a-independent/followthrough-006.txt",
+          "reference": "Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "remainingAction": "Retrieve rendered public Rabity collection/product body or its public product payload for either observed Autumn Tales or girls-dresses category. Current reader returns controls only; do not infer inventory or global unavailability."
+    }
+  ],
+  "counts": {
+    "accept": 5,
+    "hold": 1
+  },
+  "limits": [
+    "Only six requested catalogue fields; exact prior central decisions preserved.",
+    "Prior imported packet and all source/runtime files remain unchanged.",
+    "PUMA first footwear child failed, alternative observed clothing category succeeded. Rabity both observed children remain rendering-blocked."
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "layout": "default",
+  "data": [
+    {
+      "homeData": {
+        "id": 1,
+        "name": "home",
+        "slugVi": "home",
+        "slugEn": "home",
+        "slugJa": "home",
+        "commonContent": {
+          "banner": {
+            "bannerType": 1,
+            "desktop": {
+              "image": {
+                "id": 102,
+                "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/ichibanken-prod/image/2025/12/31/9/I2C1767172648950.jpeg"
+              },
+              "video": {
+                "id": 70,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/4Cj1596192612700.mp4",
+                "masterId": 9
+              },
+              "slider": {
+                "images": []
+              }
+            },
+            "mobile": {
+              "image": {
+                "id": 103,
+                "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/ichibanken-prod/image/2025/12/31/9/kpK1767172655378.jpeg"
+              },
+              "video": {
+                "id": 69,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/htn1596192620561.mp4",
+                "masterId": 8
+              },
+              "slider": {
+                "images": []
+              }
+            }
+          },
+          "widgets": {
+            "reservation": false,
+            "social": true,
+            "location": true,
+            "promotion": {
+              "enable": true,
+              "uuid": "ad5d1f8c-63b7-440a-b23138d4-f25c48600a08"
+            },
+            "story": true
+          }
+        },
+        "multilangContent": {
+          "en": {
+            "id": 1,
+            "content": "{\"story\":\"<p>RAMEN ICHIBANKEN is a well-known ramen chain originating from Nagoya with nearly 30 stores around Japan now officially arrived in Vietnam.</p><p>&nbsp;</p><p>The story of Ichibanken's signature Tonkotsu broth will continue as it conquers the taste buds of Vietnamese customers and Japanese customers in Vietnam, offering a traditional dish rich in authentic local flavors</p>\"}"
+          }
+        },
+        "createAt": 1591686846000,
+        "updateAt": 1767172656000
+      }
+    }
+  ],
+  "fetch": {},
+  "error": null,
+  "state": {
+    "isMobileAgent": false,
+    "isMobileOrTabletAgent": false,
+    "isDisableLogoHeading": false,
+    "heading": null,
+    "footer": {
+      "id": 1,
+      "status": 1,
+      "logo": {
+        "id": 488,
+        "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-prod/image/2020/7/28/12/VCz1595939517686.svg"
+      },
+      "moit": {
+        "url": "#",
+        "icon": {
+          "id": 58,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-prod/file/2020/7/28/12/DnT1595939596727.png"
+        },
+        "isActive": 0
+      },
+      "multilangContent": {
+        "en": {
+          "id": 1,
+          "content1": "TAKAHIRO CORPORATION",
+          "content2": "Business Registration Certificate: 0315827587",
+          "content3": "Address: 180 Pasteur, Sai Gon Ward, HCMC, Vietnam",
+          "content4": "Hotline: +8428-3933-9999  |  Contact: info@takahiro.com.vn"
+        }
+      },
+      "footerNavigations": [
+        {
+          "id": 3,
+          "status": 1,
+          "order": 0,
+          "multilangContent": {
+            "en": {
+              "id": 3,
+              "name": "Career",
+              "linkType": 1,
+              "link": "career"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "status": 1,
+          "order": 1,
+          "multilangContent": {
+            "en": {
+              "id": 5,
+              "name": "Privacy",
+              "linkType": 1,
+              "link": null
+            }
+          }
+        },
+        {
+          "id": 4,
+          "status": 1,
+          "order": 2,
+          "multilangContent": {
+            "en": {
+              "id": 4,
+              "name": "Terms of Service",
+              "linkType": 1,
+              "link": null
+            }
+          }
+        },
+        {
+          "id": 6,
+          "status": 1,
+          "order": 3,
+          "multilangContent": {
+            "en": {
+              "id": 6,
+              "name": "Contact",
+              "linkType": 1,
+              "link": null
+            }
+          }
+        }
+      ]
+    },
+    "widgets": {
+      "story": {
+        "id": 1,
+        "name": "story",
+        "commonContent": {
+          "image": {
+            "id": 499,
+            "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-prod/image/2020/7/31/9/aaj1596188663806.svg"
+          }
+        },
+        "multilangContent": {
+          "en": {
+            "id": 1,
+            "content": "{\"text\":\"<p>Easy to find a salad anywhere, but &nbsp;you may know that Thai's salad (Papaya Salads) is on the top 50 salad worth trying in the world. Thai Cusine has its own way with their own recipe and especially the way to combine many sophisticated and complex but subtle spices for highly-seasoned, tasty, balanced, unique flavor that is always loved around the world, specially authentic Thai from spice to. Thai cusine has 4 traditional styles from 4 regions of Thai: North, Eastern North, the Midland and South creating a colorful Thai cuisine from the tastes to the flavors.</p><p>&nbsp;</p><p>In Som ตำ Thai, food is cooked by Thai Head Chef has a wealth of experience, hereditary recipient, the original marinade imported from Thai and the sources of fresh ingredients in local all of which &nbsp;have created authentic Thai flavor.</p>\"}"
+          }
+        },
+        "createAt": 1591776524000,
+        "updateAt": 1652691499000
+      },
+      "social": {
+        "id": 4,
+        "name": "social",
+        "commonContent": {
+          "name": "social",
+          "content": [
+            {
+              "uuid": "73cbb6a2-b08b-4463-a8e77fc1-3781b45cd885",
+              "icon": {
+                "id": 12,
+                "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/ichibanken-dev/file/2025/07/29/17/FDL1753810474333.svg"
+              },
+              "title": "Instagram",
+              "link": "https://www.instagram.com/ramen_ichibanken/",
+              "active": true
+            },
+            {
+              "uuid": "0e41cd20-c807-4f4d-aa8b2c9a-1d50f99e25e5",
+              "icon": {
+                "id": 13,
+                "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/ichibanken-dev/file/2025/07/29/17/bts1753810477753.svg"
+              },
+              "title": "Facebook",
+              "link": "https://www.facebook.com/Ichibankenramen",
+              "active": true
+            },
+            {
+              "uuid": "24124e6f-935b-4978-a5cda2a1-e6537c244f36",
+              "icon": {
+                "id": 14,
+                "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/ichibanken-dev/file/2025/07/29/17/Jcl1753810480926.svg"
+              },
+              "title": "Tiktok",
+              "link": "https://www.tiktok.com/Ichibankenramen",
+              "active": false
+            }
+          ]
+        },
+        "multilangContent": {
+          "en": {
+            "id": 4,
+            "content": "{}"
+          }
+        },
+        "createAt": 1591778757000,
+        "updateAt": 1759472495000
+      },
+      "location": {
+        "id": 5,
+        "name": "location",
+        "commonContent": {
+          "selectedLocations": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            7,
+            9,
+            19,
+            5,
+            4
+          ]
+        },
+        "multilangContent": {
+          "en": {
+            "id": 5,
+            "content": "{}"
+          }
+        },
+        "createAt": 1591778771000,
+        "updateAt": 1757991489000
+      }
+    },
+    "banner": {
+      "bannerType": 1,
+      "desktop": {
+        "image": {
+          "id": 102,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/ichibanken-prod/image/2025/12/31/9/I2C1767172648950.jpeg"
+        },
+        "video": {
+          "id": 70,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/4Cj1596192612700.mp4",
+          "masterId": 9
+        },
+        "slider": {
+          "images": []
+        }
+      },
+      "mobile": {
+        "image": {
+          "id": 103,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/ichibanken-prod/image/2025/12/31/9/kpK1767172655378.jpeg"
+        },
+        "video": {
+          "id": 69,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/htn1596192620561.mp4",
+          "masterId": 8
+        },
+        "slider": {
+          "images": []
+        }
+      }
+    },
+    "areasList": [
+      {
+        "id": 1,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Hồ Chí Minh"
+            },
+            "en": {
+              "name": "Ho Chi Minh"
+            },
+            "ja": {
+              "name": "Ho Chi Minh"
+            }
+          }
+        }
+      },
+      {
+        "id": 3,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Hải Phòng"
+            },
+            "en": {
+              "name": "Hai Phong"
+            },
+            "ja": {
+              "name": "Hai Phong"
+            }
+          }
+        }
+      },
+      {
+        "id": 4,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Hà Nội"
+            },
+            "en": {
+              "name": "Ha Noi"
+            },
+            "ja": {
+              "name": "Ha Noi"
+            }
+          }
+        }
+      }
+    ],
+    "locationsList": [
+      {
+        "id": 1,
+        "areaId": 1,
+        "image": {
+          "id": 89,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/ichibanken-prod/image/2025/9/10/7/hum1757489708232.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/rbTWfz5fRpNhMgct5",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31354.435030631153!2d106.68922885945186!3d10.787983476565477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fc6c148144b%3A0x2817163ab6ca4842!2sTONKOTSU%20RAMEN%20ICHIBANKEN!5e0!3m2!1sen!2s!4v1753209174146!5m2!1sen!2s",
+        "storeCode": null,
+        "offDays": [],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 1,
+            "name": "Saigon Centre",
+            "address": "5th Floor (L5-09) Saigon Centre, 67 Le Loi, Saigon Ward, Ho Chi Minh City",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "(028) 3821 8869",
+            "phone2": ""
+          }
+        },
+        "createAt": 1608013531000,
+        "updateAt": 1757489712000
+      },
+      {
+        "id": 5,
+        "areaId": 3,
+        "image": {
+          "id": 98,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/ichibanken-prod/image/2025/10/9/6/NP51759991891379.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/V1mHAEWx5q86ySZb6",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3727.85661863198!2d106.7154183747105!3d20.877828692946544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b8d4f27a929%3A0xfe4f5c559e032e03!2sVincom%20Mega%20Mall%20Royal%20Island!5e0!3m2!1svi!2s!4v1757924917352!5m2!1svi!2s",
+        "storeCode": "ss2TcaOAr4tVfqJR",
+        "offDays": [],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 5,
+            "name": "Royal Island Hai Phong",
+            "address": "Tòa nhà Vincom Mega Mall Royal Island, Thuy Nguyen Ward, Hai Phong City",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0835238928",
+            "phone2": null
+          }
+        },
+        "createAt": 1757925632000,
+        "updateAt": 1759991894000
+      },
+      {
+        "id": 6,
+        "areaId": 4,
+        "image": {
+          "id": 106,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/ichibanken-prod/image/2026/3/17/8/pRe1773736230965.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/P3qbRJgviXGeFBvq7",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.3380356653593!2d105.8307732!3d21.031656899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab8f22e35f8f%3A0xb28c1b39fb35ad7f!2sHanoi%20Centre!5e1!3m2!1svi!2s!4v1772614391195!5m2!1svi!2s",
+        "storeCode": "0h7LuB3cMxhrftfC",
+        "offDays": [],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 6,
+            "name": "Hanoi Centre",
+            "address": "L2-C02B,C - Hanoi Centre, 175 Nguyen Thai Hoc, O Cho Dua Ward, Hanoi City",
+            "openAt": "10:00",
+            "closeAt": "23:00",
+            "lastOrder": "22:30",
+            "phone1": "0888193166",
+            "phone2": null
+          }
+        },
+        "createAt": 1772614798000,
+        "updateAt": 1773736232000
+      },
+      {
+        "id": 4,
+        "areaId": 1,
+        "image": {
+          "id": 101,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/ichibanken-prod/image/2025/12/5/4/DWF1764907457403.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/ojoNmm1kzvFrPUmH9",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3797539486745!2d106.7078404!3d10.782199000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f00053dd0e7%3A0xaf58e927803451d8!2sMarina%20Central!5e0!3m2!1svi!2s!4v1755763359446!5m2!1svi!2s",
+        "storeCode": "fe7JFbJPfTeYgkXo",
+        "offDays": [],
+        "order": 1,
+        "multilangContent": {
+          "en": {
+            "id": 4,
+            "name": "Saigon Marina IFC",
+            "address": "L3A - 13 Marina Tower, 02 Ton Duc Thang, Sai Gon Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0888653566",
+            "phone2": null
+          }
+        },
+        "createAt": 1757489325000,
+        "updateAt": 1764907463000
+      }
+    ],
+    "currentDomain": "ichibankenramen.com.vn",
+    "currentPath": "/en/",
+    "mutations": {},
+    "getters": {},
+    "i18n": {
+      "routeParams": {}
+    }
+  },
+  "serverRendered": true,
+  "routePath": "/en/",
+  "config": {
+    "_app": {
+      "basePath": "/",
+      "assetsPath": "/_nuxt/",
+      "cdnURL": null
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "revision": "vincom-retail-a-r3-research-2026-10-20",
+  "decisions": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-035",
+      "name": {
+        "vi": "Daniel Wellington",
+        "en": "Daniel Wellington"
+      },
+      "field": "catalog",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.danielwellington.com/",
+          "evidenceFile": "source-text/catalog-danielwellington.json",
+          "reference": "turn461view0 L200-L220",
+          "section": "catalog content",
+          "result": "retrieved",
+          "support": "Actual official Finland/EUR storefront body features named watch collections Quadro Mini, Pathfinder, Margot, Classic, Cort, Corta, Pearl and Iconic Tachymeter, plus watch/jewellery collections. This is actual product collection content beyond navigation; international catalogue only."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Daniel Wellington\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-8.json",
+          "result": "See full preserved actual search response; only official sources considered for proposals, third-party contacts/hours excluded."
+        }
+      ],
+      "reason": "Actual official Finland/EUR storefront body features named watch collections Quadro Mini, Pathfinder, Margot, Classic, Cort, Corta, Pearl and Iconic Tachymeter, plus watch/jewellery collections. This is actual product collection content beyond navigation; international catalogue only.",
+      "remainingAction": null,
+      "applicability": "brand-wide",
+      "attempts": [
+        {
+          "action": "read prior r2 mall/brand receipts and r3 accepted source index",
+          "result": "Checked exact frozen identity; baseline field objects preserved."
+        },
+        {
+          "action": "search official brand plus exact mall/branch identity",
+          "evidenceFile": "source-text/catalog-danielwellington.json",
+          "result": "Global official site resolves to Finland/EUR catalogue; no exact Dong Khoi branch contact/hour block retrieved. Mall search names a combined Titan-Fossil-Daniel Wellington counter, so exact counter applicability is unresolved."
+        },
+        {
+          "action": "open official brand source",
+          "url": "https://www.danielwellington.com/",
+          "evidenceFile": "source-text/catalog-danielwellington.json",
+          "result": "See retained response including any exact HTTP/shell error."
+        },
+        {
+          "action": "exact branch phone/hours search",
+          "query": "\"Daniel Wellington\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-8.json",
+          "result": "Actual search response retained; no global absence claim."
+        }
+      ],
+      "proposedField": {
+        "field": "catalog",
+        "state": "verified-proposal",
+        "sourceUrl": "https://www.danielwellington.com/",
+        "evidence": "Actual official Finland/EUR storefront body features named watch collections Quadro Mini, Pathfinder, Margot, Classic, Cort, Corta, Pearl and Iconic Tachymeter, plus watch/jewellery collections. This is actual product collection content beyond navigation; international catalogue only. Evidence: source-text/catalog-danielwellington.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Danh mục quốc tế của Daniel Wellington; giá, tồn kho, giao hàng và dịch vụ tại chi nhánh Việt Nam chưa được xác nhận.",
+          "en": "Daniel Wellington international catalogue; Vietnam branch prices, stock, delivery and services are not confirmed."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://www.danielwellington.com/"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-vincy",
+      "name": {
+        "vi": "Vincy",
+        "en": "Vincy"
+      },
+      "field": "phone",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://vincy.com.vn/",
+          "evidenceFile": "source-text/locator-follow36.json",
+          "reference": "turn790view0 L973-L1004",
+          "section": "phone content",
+          "result": "retrieved",
+          "support": "Actual official VINCY footer explicitly labels customer care0909411449/cskh@vincy.com.vn and sales/complaints contacts. National brand support only;7:00–21:30/8:00–21:30 are support availability, not branch opening hours."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Vincy\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-68.json",
+          "result": "See full preserved actual search response; only official sources considered for proposals, third-party contacts/hours excluded."
+        }
+      ],
+      "reason": "Actual official VINCY footer explicitly labels customer care0909411449/cskh@vincy.com.vn and sales/complaints contacts. National brand support only;7:00–21:30/8:00–21:30 are support availability, not branch opening hours.",
+      "remainingAction": null,
+      "applicability": "brand-wide",
+      "attempts": [
+        {
+          "action": "review r2 research and independently accepted source index",
+          "result": "Exact identity/brand-wide reuse checked; accepted baseline objects remain untouched."
+        },
+        {
+          "action": "retrieve official source after exact branch/brand search",
+          "url": "https://vincy.com.vn/",
+          "evidenceFile": "source-text/catalog-vincy.json",
+          "result": "Actual national catalogue lists product cards; no exact Dong Khoi branch contact/hour block retrieved. Brand support may be separately scoped if actual number is found."
+        },
+        {
+          "action": "exact branch phone/hours search",
+          "query": "\"Vincy\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-68.json",
+          "result": "Actual search response retained; no global absence claim."
+        }
+      ],
+      "proposedField": {
+        "field": "phone",
+        "state": "verified-proposal",
+        "sourceUrl": "https://vincy.com.vn/",
+        "evidence": "Actual official VINCY footer explicitly labels customer care0909411449/cskh@vincy.com.vn and sales/complaints contacts. National brand support only;7:00–21:30/8:00–21:30 are support availability, not branch opening hours. Evidence: source-text/locator-follow36.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Liên hệ hỗ trợ chung của thương hiệu hoặc nhà phân phối; không phải số riêng của chi nhánh Vincom Đồng Khởi.",
+          "en": "General brand or distributor support contact; not a dedicated Vincom Dong Khoi branch line."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "0909 411 449",
+          "en": "0909 411 449"
+        }
+      }
+    }
+  ],
+  "supersedes": "chunk-02-decisions.json corresponding2holds only; supplementary locator receipts strengthen other unchanged holds."
+}

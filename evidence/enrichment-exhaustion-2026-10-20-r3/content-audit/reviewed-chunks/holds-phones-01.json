@@ -1,0 +1,730 @@
+{
+  "revision": "independent-held-phones-audit-r3",
+  "inputs": [
+    {
+      "file": "../continuation-2026-10-19-r2/research-saigon/source-blocks.json",
+      "sha256": "587d2c7d5ba078c4669de3ab7930af2aa7ba04a93c817a3313ccb9474d603cce"
+    },
+    {
+      "file": "holds/chunk-phones-decisions.json",
+      "sha256": "d58360b4e675372e6db336411b36a0d64e1d3a00e12158d55f0750020d9fb973"
+    },
+    {
+      "file": "holds/chunk-phones-records.json",
+      "sha256": "674c63c3e20f834d3d95021bc0811f00c6d7b3baa2a47a97dc2423f7be0d2b69"
+    },
+    {
+      "file": "holds/find-1.json",
+      "sha256": "1c87eb844a5d9fcc83be217b6374e98641d943c044a6efe020030922ef852234"
+    },
+    {
+      "file": "holds/open-1.json",
+      "sha256": "508126f8023ba8f55fa9717728dd012ce65e70a6b4eb4481894b07645252f0e5"
+    },
+    {
+      "file": "holds/open-2.json",
+      "sha256": "967a4dc753d2613472b6fa6f2907218f693596f32c163b53fd66975863e98d88"
+    },
+    {
+      "file": "holds/open-3.json",
+      "sha256": "45bcb54f16f4b2734c1a9d27ba79f6d0652c1c9f409029885c7e0b2bf2859e0f"
+    },
+    {
+      "file": "holds/open-4.json",
+      "sha256": "819dfb052d5640212af730df10d5e7aa7fa02f064b443586f2cef7d474d77fd2"
+    }
+  ],
+  "decisions": [
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-beautybox",
+      "field": "phone",
+      "auditDecision": "accept",
+      "brandContactScopeExplicit": true,
+      "reason": "Exact official contact matches proposed VI/EN digits. Brand/distributor-wide support is explicitly labelled and not promoted as a direct branch telephone; source authority and narrower applicability resolve earlier hold.",
+      "evidenceBindings": [
+        {
+          "url": "https://beautybox.com.vn/help-center",
+          "evidenceFile": "open-1.json",
+          "reference": "turn304view0 lines47-53",
+          "result": "retrieved official contact content",
+          "section": "explicit contact/branch block",
+          "support": "1800 6035",
+          "file": "holds/open-1.json"
+        },
+        {
+          "sourceUrl": "https://beautybox.com.vn/help-center",
+          "freshWebReference": "turn505view0"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "value": {
+          "vi": "1800 6035",
+          "en": "1800 6035"
+        },
+        "sourceUrl": "https://beautybox.com.vn/help-center",
+        "evidence": "Exact official contact evidence: open-1.json, turn304view0 lines47-53. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Chăm sóc khách hàng BEAUTY BOX; đây không phải số điện thoại riêng của cửa hàng.",
+          "en": "BEAUTY BOX customer support; this is not a direct store line."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "value": {
+          "vi": "1800 6035",
+          "en": "1800 6035"
+        },
+        "sourceUrl": "https://beautybox.com.vn/help-center",
+        "evidence": "Exact official contact evidence: open-1.json, turn304view0 lines47-53. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Chăm sóc khách hàng BEAUTY BOX; đây không phải số điện thoại riêng của cửa hàng.",
+          "en": "BEAUTY BOX customer support; this is not a direct store line."
+        }
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-christianlouboutin",
+      "field": "phone",
+      "auditDecision": "accept",
+      "brandContactScopeExplicit": true,
+      "reason": "Exact official contact matches proposed VI/EN digits. Brand/distributor-wide support is explicitly labelled and not promoted as a direct branch telephone; source authority and narrower applicability resolve earlier hold. Narrowed customer-support wording to distributor contact because source labels it head office.",
+      "evidenceBindings": [
+        {
+          "url": "https://www.dafc.com.vn/en/contact/",
+          "evidenceFile": "open-2.json",
+          "reference": "turn350view1 lines4-28 and brandnav; r2mall identifiesDAFCdistributor",
+          "result": "retrieved official contact content",
+          "section": "explicit contact/branch block",
+          "support": "1900 2666",
+          "file": "holds/open-2.json"
+        },
+        {
+          "sourceUrl": "https://www.dafc.com.vn/en/contact/",
+          "freshWebReference": "turn505view1"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "value": {
+          "vi": "1900 2666",
+          "en": "1900 2666"
+        },
+        "sourceUrl": "https://www.dafc.com.vn/en/contact/",
+        "evidence": "Exact official contact evidence: open-2.json, turn350view1 lines4-28 and brandnav; r2mall identifiesDAFCdistributor. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Liên hệ nhà phân phối DAFC; đây không phải số điện thoại riêng của boutique.",
+          "en": "DAFC distributor contact; this is not a direct boutique line."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "value": {
+          "vi": "1900 2666",
+          "en": "1900 2666"
+        },
+        "sourceUrl": "https://www.dafc.com.vn/en/contact/",
+        "evidence": "Exact official contact evidence: open-2.json, turn350view1 lines4-28 and brandnav; r2mall identifiesDAFCdistributor. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Chăm sóc khách hàng của nhà phân phối DAFC; đây không phải số điện thoại riêng của cửa hàng.",
+          "en": "DAFC distributor customer support; this is not a direct boutique line."
+        }
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-aldo",
+      "field": "phone",
+      "auditDecision": "accept",
+      "brandContactScopeExplicit": true,
+      "reason": "Exact official contact matches proposed VI/EN digits. Brand/distributor-wide support is explicitly labelled and not promoted as a direct branch telephone; source authority and narrower applicability resolve earlier hold.",
+      "evidenceBindings": [
+        {
+          "url": "https://aldoshoes.vn/pages/lien-he",
+          "evidenceFile": "open-3.json",
+          "reference": "turn396view0 lines96-111",
+          "result": "retrieved official contact content",
+          "section": "explicit contact/branch block",
+          "support": "1900 066899",
+          "file": "holds/open-3.json"
+        },
+        {
+          "sourceUrl": "https://aldoshoes.vn/pages/lien-he",
+          "freshWebReference": "turn527view0/turn527view2"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "value": {
+          "vi": "1900 066899",
+          "en": "1900 066899"
+        },
+        "sourceUrl": "https://aldoshoes.vn/pages/lien-he",
+        "evidence": "Exact official contact evidence: open-3.json, turn396view0 lines96-111. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Tư vấn bán hàng trực tuyến và chăm sóc sau bán hàng ALDO Việt Nam; đây không phải số riêng của cửa hàng.",
+          "en": "ALDO Vietnam online sales and after-sales support; this is not a direct store line."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "value": {
+          "vi": "1900 066899",
+          "en": "1900 066899"
+        },
+        "sourceUrl": "https://aldoshoes.vn/pages/lien-he",
+        "evidence": "Exact official contact evidence: open-3.json, turn396view0 lines96-111. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Tư vấn bán hàng trực tuyến và chăm sóc sau bán hàng ALDO Việt Nam; đây không phải số riêng của cửa hàng.",
+          "en": "ALDO Vietnam online sales and after-sales support; this is not a direct store line."
+        }
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-labellab",
+      "field": "phone",
+      "auditDecision": "accept",
+      "brandContactScopeExplicit": false,
+      "reason": "Fresh official DAFC Label Lab page explicitly names SaigonCentreL2-17 and prints+84814112589. Branch-specific source supersedes former generic distributor-phone proposal without altering accepted location/roster.",
+      "evidenceBindings": [
+        {
+          "url": "https://www.dafc.com.vn/en/product_brand/label-lab/",
+          "evidenceFile": "open-2.json",
+          "reference": "turn350view0 lines71-75",
+          "result": "retrieved official contact content",
+          "section": "explicit contact/branch block",
+          "support": "+84 814 112 589",
+          "file": "holds/open-2.json"
+        },
+        {
+          "sourceUrl": "https://www.dafc.com.vn/en/product_brand/label-lab/",
+          "freshWebReference": "turn510view1"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "value": {
+          "vi": "+84 814 112 589",
+          "en": "+84 814 112 589"
+        },
+        "sourceUrl": "https://www.dafc.com.vn/en/product_brand/label-lab/",
+        "evidence": "Exact official contact evidence: open-2.json, turn350view0 lines71-75. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Nhà phân phối chính thức niêm yết số này cho Label Lab Saigon Centre, L2-17. Vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+          "en": "The official distributor lists this contact specifically for Label Lab Saigon Centre, L2-17. Confirm current contact before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "value": {
+          "vi": "+84 814 112 589",
+          "en": "+84 814 112 589"
+        },
+        "sourceUrl": "https://www.dafc.com.vn/en/product_brand/label-lab/",
+        "evidence": "Exact official contact evidence: open-2.json, turn350view0 lines71-75. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Nhà phân phối chính thức niêm yết số này cho Label Lab Saigon Centre, L2-17. Vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+          "en": "The official distributor lists this contact specifically for Label Lab Saigon Centre, L2-17. Confirm current contact before visiting."
+        },
+        "branchMallId": "saigon-centre"
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-tierradiamondjewelry",
+      "field": "phone",
+      "auditDecision": "accept",
+      "brandContactScopeExplicit": true,
+      "reason": "Exact official contact matches proposed VI/EN digits. Brand/distributor-wide support is explicitly labelled and not promoted as a direct branch telephone; source authority and narrower applicability resolve earlier hold.",
+      "evidenceBindings": [
+        {
+          "url": "https://www.tierra.vn/kham-pha-cua-hang",
+          "evidenceFile": "open-3.json",
+          "reference": "turn396view1 lines97,169-174; samehotlineonmultiplebranches",
+          "result": "retrieved official contact content",
+          "section": "explicit contact/branch block",
+          "support": "1900 232 354",
+          "file": "holds/open-3.json"
+        },
+        {
+          "sourceUrl": "https://www.tierra.vn/kham-pha-cua-hang",
+          "freshWebReference": "turn510view2"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "value": {
+          "vi": "1900 232 354",
+          "en": "1900 232 354"
+        },
+        "sourceUrl": "https://www.tierra.vn/kham-pha-cua-hang",
+        "evidence": "Exact official contact evidence: open-3.json, turn396view1 lines97,169-174; samehotlineonmultiplebranches. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Hotline chăm sóc khách hàng Tierra dùng chung cho các cửa hàng; đây không phải số riêng của chi nhánh.",
+          "en": "Tierra customer hotline shared by its stores; this is not a dedicated branch line."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "value": {
+          "vi": "1900 232 354",
+          "en": "1900 232 354"
+        },
+        "sourceUrl": "https://www.tierra.vn/kham-pha-cua-hang",
+        "evidence": "Exact official contact evidence: open-3.json, turn396view1 lines97,169-174; samehotlineonmultiplebranches. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Hotline chăm sóc khách hàng Tierra dùng chung cho các cửa hàng; đây không phải số riêng của chi nhánh.",
+          "en": "Tierra customer hotline shared by its stores; this is not a dedicated branch line."
+        }
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-gigi",
+      "field": "phone",
+      "auditDecision": "accept",
+      "brandContactScopeExplicit": true,
+      "reason": "Exact official contact matches proposed VI/EN digits. Brand/distributor-wide support is explicitly labelled and not promoted as a direct branch telephone; source authority and narrower applicability resolve earlier hold.",
+      "evidenceBindings": [
+        {
+          "url": "https://gigi.com.vn/pages/lien-he",
+          "evidenceFile": "open-2.json",
+          "reference": "turn350view2 lines80-93",
+          "result": "retrieved official contact content",
+          "section": "explicit contact/branch block",
+          "support": "1900 252 538",
+          "file": "holds/open-2.json"
+        },
+        {
+          "sourceUrl": "https://gigi.com.vn/pages/lien-he",
+          "freshWebReference": "turn510view3"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "value": {
+          "vi": "1900 252 538",
+          "en": "1900 252 538"
+        },
+        "sourceUrl": "https://gigi.com.vn/pages/lien-he",
+        "evidence": "Exact official contact evidence: open-2.json, turn350view2 lines80-93. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Chăm sóc khách hàng GIGI Việt Nam; đây không phải số điện thoại riêng của cửa hàng.",
+          "en": "GIGI Vietnam customer support; this is not a direct store line."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "value": {
+          "vi": "1900 252 538",
+          "en": "1900 252 538"
+        },
+        "sourceUrl": "https://gigi.com.vn/pages/lien-he",
+        "evidence": "Exact official contact evidence: open-2.json, turn350view2 lines80-93. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Chăm sóc khách hàng GIGI Việt Nam; đây không phải số điện thoại riêng của cửa hàng.",
+          "en": "GIGI Vietnam customer support; this is not a direct store line."
+        }
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-leejeans",
+      "field": "phone",
+      "auditDecision": "accept",
+      "brandContactScopeExplicit": true,
+      "reason": "Exact official contact matches proposed VI/EN digits. Brand/distributor-wide support is explicitly labelled and not promoted as a direct branch telephone; source authority and narrower applicability resolve earlier hold.",
+      "evidenceBindings": [
+        {
+          "url": "https://leejeans.vn/pages/lien-he",
+          "evidenceFile": "open-4.json",
+          "reference": "turn398view2 lines96-106; dedicatedLEEcontact distinctfromMaisonfooter1900252538",
+          "result": "retrieved official contact content",
+          "section": "explicit contact/branch block",
+          "support": "1900 299268",
+          "file": "holds/open-4.json"
+        },
+        {
+          "sourceUrl": "https://leejeans.vn/pages/lien-he",
+          "freshWebReference": "turn523view1"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "value": {
+          "vi": "1900 299268",
+          "en": "1900 299268"
+        },
+        "sourceUrl": "https://leejeans.vn/pages/lien-he",
+        "evidence": "Exact official contact evidence: open-4.json, turn398view2 lines96-106; dedicatedLEEcontact distinctfromMaisonfooter1900252538. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Chăm sóc khách hàng Lee Việt Nam; đây không phải số riêng của cửa hàng. Trang nguồn còn niêm yết hotline chung của nhà phân phối.",
+          "en": "Lee Vietnam customer support; this is not a direct store line. The page separately lists the distributor’s general hotline."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "value": {
+          "vi": "1900 299268",
+          "en": "1900 299268"
+        },
+        "sourceUrl": "https://leejeans.vn/pages/lien-he",
+        "evidence": "Exact official contact evidence: open-4.json, turn398view2 lines96-106; dedicatedLEEcontact distinctfromMaisonfooter1900252538. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Chăm sóc khách hàng Lee Việt Nam; đây không phải số riêng của cửa hàng. Trang nguồn còn niêm yết hotline chung của nhà phân phối.",
+          "en": "Lee Vietnam customer support; this is not a direct store line. The page separately lists the distributor’s general hotline."
+        }
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-levis",
+      "field": "phone",
+      "auditDecision": "accept",
+      "brandContactScopeExplicit": true,
+      "reason": "Exact official contact matches proposed VI/EN digits. Brand/distributor-wide support is explicitly labelled and not promoted as a direct branch telephone; source authority and narrower applicability resolve earlier hold.",
+      "evidenceBindings": [
+        {
+          "url": "https://www.acfc.com.vn/contact",
+          "evidenceFile": "find-1.json",
+          "reference": "turn405view1 lines86-92,172; Levi ACFC relationship open-4.json turn398view3 products",
+          "result": "retrieved official contact content",
+          "section": "explicit contact/branch block",
+          "support": "1900 3038",
+          "file": "holds/find-1.json"
+        },
+        {
+          "sourceUrl": "https://www.acfc.com.vn/contact",
+          "freshWebReference": "turn510view5"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "value": {
+          "vi": "1900 3038",
+          "en": "1900 3038"
+        },
+        "sourceUrl": "https://www.acfc.com.vn/contact",
+        "evidence": "Exact official contact evidence: find-1.json, turn405view1 lines86-92,172; Levi ACFC relationship open-4.json turn398view3 products. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Chăm sóc khách hàng của nhà phân phối ACFC cho sản phẩm Levi’s; đây không phải số riêng của cửa hàng.",
+          "en": "ACFC distributor customer support for Levi’s purchases; this is not a direct store line."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "value": {
+          "vi": "1900 3038",
+          "en": "1900 3038"
+        },
+        "sourceUrl": "https://www.acfc.com.vn/contact",
+        "evidence": "Exact official contact evidence: find-1.json, turn405view1 lines86-92,172; Levi ACFC relationship open-4.json turn398view3 products. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Chăm sóc khách hàng của nhà phân phối ACFC cho sản phẩm Levi’s; đây không phải số riêng của cửa hàng.",
+          "en": "ACFC distributor customer support for Levi’s purchases; this is not a direct store line."
+        }
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-matinkimvietnam",
+      "field": "phone",
+      "auditDecision": "accept",
+      "brandContactScopeExplicit": true,
+      "reason": "Exact official contact matches proposed VI/EN digits. Brand/distributor-wide support is explicitly labelled and not promoted as a direct branch telephone; source authority and narrower applicability resolve earlier hold.",
+      "evidenceBindings": [
+        {
+          "url": "https://matinkim.vn/",
+          "evidenceFile": "find-1.json",
+          "reference": "turn405view0 lines358-373; excludes separateethicsline18001713",
+          "result": "retrieved official contact content",
+          "section": "explicit contact/branch block",
+          "support": "1900 63 64 01",
+          "file": "holds/find-1.json"
+        },
+        {
+          "sourceUrl": "https://matinkim.vn/",
+          "freshWebReference": "turn523view2"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "value": {
+          "vi": "1900 63 64 01",
+          "en": "1900 63 64 01"
+        },
+        "sourceUrl": "https://matinkim.vn/",
+        "evidence": "Exact official contact evidence: find-1.json, turn405view0 lines358-373; excludes separateethicsline18001713. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Hotline chăm sóc khách hàng Matin Kim Việt Nam; đây không phải số riêng của cửa hàng hoặc xác nhận tình trạng mở cửa của chi nhánh.",
+          "en": "Matin Kim Vietnam customer hotline; this is not a direct store line or confirmation of this branch’s opening status."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "value": {
+          "vi": "1900 63 64 01",
+          "en": "1900 63 64 01"
+        },
+        "sourceUrl": "https://matinkim.vn/",
+        "evidence": "Exact official contact evidence: find-1.json, turn405view0 lines358-373; excludes separateethicsline18001713. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Hotline chăm sóc khách hàng Matin Kim Việt Nam; đây không phải số riêng của cửa hàng hoặc xác nhận tình trạng mở cửa của chi nhánh.",
+          "en": "Matin Kim Vietnam customer hotline; this is not a direct store line or confirmation of this branch’s opening status."
+        }
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-thegioikimcuong",
+      "field": "phone",
+      "auditDecision": "accept",
+      "brandContactScopeExplicit": false,
+      "reason": "Reused complete19Oct official branch receipt explicitly prints base number plus extension. Base action dials only that number; both languages instruct manually requesting the extension. Source checkedAt19Oct is preserved, independent reviewedAt20Oct; no fabricated fresh read or automatic extension claim.",
+      "evidenceBindings": [
+        {
+          "url": "https://shopping.saigoncentre.com.vn/en/store-directory/diamond-world",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-saigon/source-blocks.json",
+          "reference": "turn81view1 completebranchread retained19Oct",
+          "result": "reused complete official branch receipt",
+          "section": "explicit contact/branch block",
+          "support": "1800 9298",
+          "file": "../continuation-2026-10-19-r2/research-saigon/source-blocks.json"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "value": {
+          "vi": "1800 9298",
+          "en": "1800 9298"
+        },
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/diamond-world",
+        "evidence": "Exact official contact evidence: ../../continuation-2026-10-19-r2/research-saigon/source-blocks.json, turn81view1 completebranchread retained19Oct. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Trang trung tâm niêm yết máy lẻ 130 cho chi nhánh này. Gọi số tổng đài rồi yêu cầu máy lẻ 130; liên kết chỉ quay số tổng đài.",
+          "en": "The mall lists extension 130 for this branch. Call the main number and request extension 130; the link dials the main number only."
+        },
+        "branchMallId": "saigon-centre",
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "value": {
+          "vi": "1800 9298",
+          "en": "1800 9298"
+        },
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/diamond-world",
+        "evidence": "Exact official contact evidence: ../../continuation-2026-10-19-r2/research-saigon/source-blocks.json, turn81view1 completebranchread retained19Oct. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Trang trung tâm niêm yết máy lẻ 130 cho chi nhánh này. Gọi số tổng đài rồi yêu cầu máy lẻ 130; liên kết chỉ quay số tổng đài.",
+          "en": "The mall lists extension 130 for this branch. Call the main number and request extension 130; the link dials the main number only."
+        },
+        "branchMallId": "saigon-centre"
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-phuclongcoffeetea",
+      "field": "phone",
+      "auditDecision": "accept",
+      "brandContactScopeExplicit": false,
+      "reason": "Reused complete19Oct official branch receipt explicitly prints base number plus extension. Base action dials only that number; both languages instruct manually requesting the extension. Source checkedAt19Oct is preserved, independent reviewedAt20Oct; no fabricated fresh read or automatic extension claim.",
+      "evidenceBindings": [
+        {
+          "url": "https://shopping.saigoncentre.com.vn/en/store-directory/phuc-long-coffee-tea",
+          "evidenceFile": "../../continuation-2026-10-19-r2/research-saigon/source-blocks.json",
+          "reference": "turn88view0 completebranchread retained19Oct",
+          "result": "reused complete official branch receipt",
+          "section": "explicit contact/branch block",
+          "support": "028 7100 1968",
+          "file": "../continuation-2026-10-19-r2/research-saigon/source-blocks.json"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "value": {
+          "vi": "028 7100 1968",
+          "en": "028 7100 1968"
+        },
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/phuc-long-coffee-tea",
+        "evidence": "Exact official contact evidence: ../../continuation-2026-10-19-r2/research-saigon/source-blocks.json, turn88view0 completebranchread retained19Oct. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Trang trung tâm niêm yết máy lẻ 20348 cho chi nhánh này. Gọi số tổng đài rồi yêu cầu máy lẻ 20348; liên kết chỉ quay số tổng đài.",
+          "en": "The mall lists extension 20348 for this branch. Call the main number and request extension 20348; the link dials the main number only."
+        },
+        "branchMallId": "saigon-centre",
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "value": {
+          "vi": "028 7100 1968",
+          "en": "028 7100 1968"
+        },
+        "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/phuc-long-coffee-tea",
+        "evidence": "Exact official contact evidence: ../../continuation-2026-10-19-r2/research-saigon/source-blocks.json, turn88view0 completebranchread retained19Oct. Explicit scope and routing instructions retained. No call or connection verification.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Trang trung tâm niêm yết máy lẻ 20348 cho chi nhánh này. Gọi số tổng đài rồi yêu cầu máy lẻ 20348; liên kết chỉ quay số tổng đài.",
+          "en": "The mall lists extension 20348 for this branch. Call the main number and request extension 20348; the link dials the main number only."
+        },
+        "branchMallId": "saigon-centre"
+      }
+    }
+  ]
+}

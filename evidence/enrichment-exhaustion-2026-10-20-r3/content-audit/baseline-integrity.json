@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-20",
+  "expectedFields": 1315,
+  "priorUnresearched": 1272,
+  "priorHolds": 43,
+  "baselineAcceptedFields": 658,
+  "lanes": {
+    "saigon-dining": 143,
+    "saigon-retail": 226,
+    "vincom-dining": 292,
+    "vincom-retail-a": 311,
+    "vincom-retail-b": 300,
+    "holds": 43
+  },
+  "hashes": {
+    "saigon-dining/queue.json": "e896206cc040fb150469d3a1b4976118cdfe7e1a624147a7ca8f1c0546f35049",
+    "saigon-retail/queue.json": "ffb3814fdadabf6c08cd75cc861decf11861a1377e57bec72011d00197bcbe65",
+    "vincom-dining/queue.json": "a4f05f38b2824c1f1f35ed8f978ab72b11ff586fc0a2104afc85c0abbe82aa6c",
+    "vincom-retail-a/queue.json": "4a7702bb400ba7d2465c4a241cf45d2b85253ce63dbeaaecd102724d29119b02",
+    "vincom-retail-b/queue.json": "4d095457460c618039b92b63d7f82cd7631bcdfa4a03d9b42687c12ded0b8747",
+    "holds/queue.json": "1613a8fdc461e6efceac3cf0f628879ba76a0fb71ac8493eaba30e65dc77a981",
+    "baseline-accepted.json": "25ac0766a17bb0f05af40967136f43c7bab737201f7b8ddbb0fe80c11832de94",
+    "baseline-coverage.json": "39249863551a26c9502ea341d8fd4260695aad53e48e6940f023f11ce2edd343",
+    "data/malls/saigon-centre/directory.json": "ffade29ada11d158619a2d58758611b210423bd609b3a4bf4f82b1af88fd5b2c",
+    "data/malls/vincom-dong-khoi/directory.json": "b38b55ab32108efeef2a3cb751f2142fc04c61ba94c4825d50080786ad810c14"
+  },
+  "exactQueueCoverage": true
+}

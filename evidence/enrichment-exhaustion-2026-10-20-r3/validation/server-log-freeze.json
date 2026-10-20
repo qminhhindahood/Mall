@@ -1,0 +1,54 @@
+{
+  "at": "2026-10-20T12:29:30.170Z",
+  "reason": "Keep mutable open server logs out of tracked evidence; frozen copies preserve receipts without restarting previews",
+  "rows": [
+    {
+      "live": "server-4431.log",
+      "frozen": "server-4431.frozen.log",
+      "bytes": 128,
+      "sha256": "ad7f42f2a0937bbec200f3e6a957c3fefe59cdd3c2b3760fd9aea072cbe2864c"
+    },
+    {
+      "live": "server-4431-error.log",
+      "frozen": "server-4431-error.frozen.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "live": "server-4432.log",
+      "frozen": "server-4432.frozen.log",
+      "bytes": 134,
+      "sha256": "96b1e50cf66928d91c49f32b698acf53179ec534f859928f94442852ca6c145b"
+    },
+    {
+      "live": "server-4432-error.log",
+      "frozen": "server-4432-error.frozen.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "live": "server-4433.log",
+      "frozen": "server-4433.frozen.log",
+      "bytes": 137,
+      "sha256": "12f3b1bcb96e605eee9c0b1375de603959ad810ed289173f5e8833815b88a0ac"
+    },
+    {
+      "live": "server-4433-error.log",
+      "frozen": "server-4433-error.frozen.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "live": "server-4434.log",
+      "frozen": "server-4434.frozen.log",
+      "bytes": 143,
+      "sha256": "9691503017e3635bc34c371330f231511677e3b951e4b7b3cde38a828941b5e3"
+    },
+    {
+      "live": "server-4434-error.log",
+      "frozen": "server-4434-error.frozen.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

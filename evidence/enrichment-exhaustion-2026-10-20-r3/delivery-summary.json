@@ -1,0 +1,42 @@
+{
+  "sourceCommit": "71e5def12a781513efd115045ba4f2f3a4cbaa3c",
+  "acceptedFields": 1457,
+  "acceptedDestinations": 350,
+  "newAcceptedFields": 815,
+  "retainedExactBaselineFields": 642,
+  "explicitBaselineConflictHolds": 16,
+  "queuedFieldsReviewed": 1315,
+  "queuedDecisions": {
+    "accept": 815,
+    "hold": 476,
+    "unavailable-after-research": 24
+  },
+  "buildsPassed": 4,
+  "regressionCases": 180,
+  "regressionAssertions": 2520,
+  "designReviewCases": 8,
+  "designReviewAssertions": 160,
+  "rawBrowserCases": 4,
+  "rawBrowserAssertions": 144,
+  "staticRoutes": 752,
+  "localizedFieldChecks": 2914,
+  "rawHttpChecks": 57,
+  "publicFixtureIsolationChecks": 4,
+  "canonicalUnchanged": true,
+  "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+  "floorRevision": "source-palette-schematic-2026-10-13-r2",
+  "packageSourceDigest": "60045937b0232c5dd85f18923c086303c48799518a45f87df3ad976540caa58e",
+  "previewUrls": [
+    "http://127.0.0.1:4441/en",
+    "http://127.0.0.1:4442/en"
+  ],
+  "published": false,
+  "remainingExecutionBlockers": [],
+  "resolvedExecutionLimit": "Host .ps1 execution policy blocked script launcher; unchanged policy, direct process commands and Node launcher used. Executor disconnection recovered before import.",
+  "limits": [
+    "492 precise content holds and28 bounded unavailable across full ledger remain excluded",
+    "No verified indoor walking topology, GPS, distance, timing or accessibility route claims",
+    "No new physical-device, native tab lifecycle, production-host timing or WCAG certification",
+    "Prior512 transition samples and32 pacing compositions are historical, not fresh r3 measurements"
+  ]
+}

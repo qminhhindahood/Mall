@@ -1,0 +1,635 @@
+{
+  "at": "2026-10-20T12:30:47.241Z",
+  "sourceCheckpoint": "71e5def12a781513efd115045ba4f2f3a4cbaa3c",
+  "browser": "149.0.7827.198",
+  "scope": "Four bounded direct-destination browser cases on final raw package previews without acceptance injection; separate from the180-case acceptance-server regression.",
+  "runs": [
+    {
+      "mall": "saigon-centre",
+      "port": 4441,
+      "locale": "en",
+      "width": 1280,
+      "destinationId": "saigon-prototype-annamcafe",
+      "checks": [
+        {
+          "label": "Raw packaged direct destination returns200",
+          "pass": true
+        },
+        {
+          "label": "Raw HTML has no acceptance helper injection",
+          "pass": true
+        },
+        {
+          "label": "Hydrated direct destination details usable",
+          "pass": true
+        },
+        {
+          "label": "Localized destination description exact",
+          "pass": true
+        },
+        {
+          "label": "website: one accepted detail",
+          "pass": true
+        },
+        {
+          "label": "website: exact action",
+          "pass": true
+        },
+        {
+          "label": "website: exact localized value",
+          "pass": true
+        },
+        {
+          "label": "website: exact source and caveat",
+          "pass": true
+        },
+        {
+          "label": "website: applicability scope visible and exact",
+          "pass": true
+        },
+        {
+          "label": "website: checked date",
+          "pass": true
+        },
+        {
+          "label": "cuisine: one accepted detail",
+          "pass": true
+        },
+        {
+          "label": "cuisine: exact action",
+          "pass": true
+        },
+        {
+          "label": "cuisine: exact localized value",
+          "pass": true
+        },
+        {
+          "label": "cuisine: exact source and caveat",
+          "pass": true
+        },
+        {
+          "label": "cuisine: applicability scope visible and exact",
+          "pass": true
+        },
+        {
+          "label": "cuisine: checked date",
+          "pass": true
+        },
+        {
+          "label": "services: one accepted detail",
+          "pass": true
+        },
+        {
+          "label": "services: exact action",
+          "pass": true
+        },
+        {
+          "label": "services: exact localized value",
+          "pass": true
+        },
+        {
+          "label": "services: exact source and caveat",
+          "pass": true
+        },
+        {
+          "label": "services: applicability scope visible and exact",
+          "pass": true
+        },
+        {
+          "label": "services: checked date",
+          "pass": true
+        },
+        {
+          "label": "menu: one accepted detail",
+          "pass": true
+        },
+        {
+          "label": "menu: exact action",
+          "pass": true
+        },
+        {
+          "label": "menu: exact localized value",
+          "pass": true
+        },
+        {
+          "label": "menu: exact source and caveat",
+          "pass": true
+        },
+        {
+          "label": "menu: applicability scope visible and exact",
+          "pass": true
+        },
+        {
+          "label": "menu: checked date",
+          "pass": true
+        },
+        {
+          "label": "Accepted cuisine has no duplicate baseline detail",
+          "pass": true
+        },
+        {
+          "label": "Raw listing uses accepted cuisine",
+          "pass": true
+        },
+        {
+          "label": "Native guidance disclosure opens by keyboard",
+          "pass": true
+        },
+        {
+          "label": "Fresh raw browser starts with unknown manual floor",
+          "pass": true
+        },
+        {
+          "label": "Packaged manual floor selector changes successfully",
+          "pass": true
+        },
+        {
+          "label": "Manual floor comparison preserves destination URL and selected target",
+          "pass": true
+        },
+        {
+          "label": "Manual starting floor persists in raw browser session",
+          "pass": true
+        },
+        {
+          "label": "Official fallback and unsupported-route limitation remain useful",
+          "pass": true
+        },
+        {
+          "label": "No acceptance helper loaded or requested",
+          "pass": true
+        },
+        {
+          "label": "No horizontal document overflow",
+          "pass": true
+        },
+        {
+          "label": "No uncaught raw package browser errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "acceptanceRequests": []
+    },
+    {
+      "mall": "saigon-centre",
+      "port": 4441,
+      "locale": "vi",
+      "width": 390,
+      "destinationId": "saigon-prototype-annamcafe",
+      "checks": [
+        {
+          "label": "Raw packaged direct destination returns200",
+          "pass": true
+        },
+        {
+          "label": "Raw HTML has no acceptance helper injection",
+          "pass": true
+        },
+        {
+          "label": "Hydrated direct destination details usable",
+          "pass": true
+        },
+        {
+          "label": "Localized destination description exact",
+          "pass": true
+        },
+        {
+          "label": "website: one accepted detail",
+          "pass": true
+        },
+        {
+          "label": "website: exact action",
+          "pass": true
+        },
+        {
+          "label": "website: exact localized value",
+          "pass": true
+        },
+        {
+          "label": "website: exact source and caveat",
+          "pass": true
+        },
+        {
+          "label": "website: applicability scope visible and exact",
+          "pass": true
+        },
+        {
+          "label": "website: checked date",
+          "pass": true
+        },
+        {
+          "label": "cuisine: one accepted detail",
+          "pass": true
+        },
+        {
+          "label": "cuisine: exact action",
+          "pass": true
+        },
+        {
+          "label": "cuisine: exact localized value",
+          "pass": true
+        },
+        {
+          "label": "cuisine: exact source and caveat",
+          "pass": true
+        },
+        {
+          "label": "cuisine: applicability scope visible and exact",
+          "pass": true
+        },
+        {
+          "label": "cuisine: checked date",
+          "pass": true
+        },
+        {
+          "label": "services: one accepted detail",
+          "pass": true
+        },
+        {
+          "label": "services: exact action",
+          "pass": true
+        },
+        {
+          "label": "services: exact localized value",
+          "pass": true
+        },
+        {
+          "label": "services: exact source and caveat",
+          "pass": true
+        },
+        {
+          "label": "services: applicability scope visible and exact",
+          "pass": true
+        },
+        {
+          "label": "services: checked date",
+          "pass": true
+        },
+        {
+          "label": "menu: one accepted detail",
+          "pass": true
+        },
+        {
+          "label": "menu: exact action",
+          "pass": true
+        },
+        {
+          "label": "menu: exact localized value",
+          "pass": true
+        },
+        {
+          "label": "menu: exact source and caveat",
+          "pass": true
+        },
+        {
+          "label": "menu: applicability scope visible and exact",
+          "pass": true
+        },
+        {
+          "label": "menu: checked date",
+          "pass": true
+        },
+        {
+          "label": "Accepted cuisine has no duplicate baseline detail",
+          "pass": true
+        },
+        {
+          "label": "Raw listing uses accepted cuisine",
+          "pass": true
+        },
+        {
+          "label": "Native guidance disclosure opens by keyboard",
+          "pass": true
+        },
+        {
+          "label": "Fresh raw browser starts with unknown manual floor",
+          "pass": true
+        },
+        {
+          "label": "Packaged manual floor selector changes successfully",
+          "pass": true
+        },
+        {
+          "label": "Manual floor comparison preserves destination URL and selected target",
+          "pass": true
+        },
+        {
+          "label": "Manual starting floor persists in raw browser session",
+          "pass": true
+        },
+        {
+          "label": "Official fallback and unsupported-route limitation remain useful",
+          "pass": true
+        },
+        {
+          "label": "No acceptance helper loaded or requested",
+          "pass": true
+        },
+        {
+          "label": "No horizontal document overflow",
+          "pass": true
+        },
+        {
+          "label": "No uncaught raw package browser errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "acceptanceRequests": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "port": 4442,
+      "locale": "en",
+      "width": 1280,
+      "destinationId": "vincom-candidate-vd-b3-002",
+      "checks": [
+        {
+          "label": "Raw packaged direct destination returns200",
+          "pass": true
+        },
+        {
+          "label": "Raw HTML has no acceptance helper injection",
+          "pass": true
+        },
+        {
+          "label": "Hydrated direct destination details usable",
+          "pass": true
+        },
+        {
+          "label": "Localized destination description exact",
+          "pass": true
+        },
+        {
+          "label": "cuisine: one accepted detail",
+          "pass": true
+        },
+        {
+          "label": "cuisine: exact action",
+          "pass": true
+        },
+        {
+          "label": "cuisine: exact localized value",
+          "pass": true
+        },
+        {
+          "label": "cuisine: exact source and caveat",
+          "pass": true
+        },
+        {
+          "label": "cuisine: applicability scope visible and exact",
+          "pass": true
+        },
+        {
+          "label": "cuisine: checked date",
+          "pass": true
+        },
+        {
+          "label": "website: one accepted detail",
+          "pass": true
+        },
+        {
+          "label": "website: exact action",
+          "pass": true
+        },
+        {
+          "label": "website: exact localized value",
+          "pass": true
+        },
+        {
+          "label": "website: exact source and caveat",
+          "pass": true
+        },
+        {
+          "label": "website: applicability scope visible and exact",
+          "pass": true
+        },
+        {
+          "label": "website: checked date",
+          "pass": true
+        },
+        {
+          "label": "services: one accepted detail",
+          "pass": true
+        },
+        {
+          "label": "services: exact action",
+          "pass": true
+        },
+        {
+          "label": "services: exact localized value",
+          "pass": true
+        },
+        {
+          "label": "services: exact source and caveat",
+          "pass": true
+        },
+        {
+          "label": "services: applicability scope visible and exact",
+          "pass": true
+        },
+        {
+          "label": "services: checked date",
+          "pass": true
+        },
+        {
+          "label": "Accepted cuisine has no duplicate baseline detail",
+          "pass": true
+        },
+        {
+          "label": "Raw listing uses accepted cuisine",
+          "pass": true
+        },
+        {
+          "label": "Native guidance disclosure opens by keyboard",
+          "pass": true
+        },
+        {
+          "label": "Fresh raw browser starts with unknown manual floor",
+          "pass": true
+        },
+        {
+          "label": "Packaged manual floor selector changes successfully",
+          "pass": true
+        },
+        {
+          "label": "Manual floor comparison preserves destination URL and selected target",
+          "pass": true
+        },
+        {
+          "label": "Manual starting floor persists in raw browser session",
+          "pass": true
+        },
+        {
+          "label": "Official fallback and unsupported-route limitation remain useful",
+          "pass": true
+        },
+        {
+          "label": "No acceptance helper loaded or requested",
+          "pass": true
+        },
+        {
+          "label": "No horizontal document overflow",
+          "pass": true
+        },
+        {
+          "label": "No uncaught raw package browser errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "acceptanceRequests": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "port": 4442,
+      "locale": "vi",
+      "width": 390,
+      "destinationId": "vincom-candidate-vd-b3-002",
+      "checks": [
+        {
+          "label": "Raw packaged direct destination returns200",
+          "pass": true
+        },
+        {
+          "label": "Raw HTML has no acceptance helper injection",
+          "pass": true
+        },
+        {
+          "label": "Hydrated direct destination details usable",
+          "pass": true
+        },
+        {
+          "label": "Localized destination description exact",
+          "pass": true
+        },
+        {
+          "label": "cuisine: one accepted detail",
+          "pass": true
+        },
+        {
+          "label": "cuisine: exact action",
+          "pass": true
+        },
+        {
+          "label": "cuisine: exact localized value",
+          "pass": true
+        },
+        {
+          "label": "cuisine: exact source and caveat",
+          "pass": true
+        },
+        {
+          "label": "cuisine: applicability scope visible and exact",
+          "pass": true
+        },
+        {
+          "label": "cuisine: checked date",
+          "pass": true
+        },
+        {
+          "label": "website: one accepted detail",
+          "pass": true
+        },
+        {
+          "label": "website: exact action",
+          "pass": true
+        },
+        {
+          "label": "website: exact localized value",
+          "pass": true
+        },
+        {
+          "label": "website: exact source and caveat",
+          "pass": true
+        },
+        {
+          "label": "website: applicability scope visible and exact",
+          "pass": true
+        },
+        {
+          "label": "website: checked date",
+          "pass": true
+        },
+        {
+          "label": "services: one accepted detail",
+          "pass": true
+        },
+        {
+          "label": "services: exact action",
+          "pass": true
+        },
+        {
+          "label": "services: exact localized value",
+          "pass": true
+        },
+        {
+          "label": "services: exact source and caveat",
+          "pass": true
+        },
+        {
+          "label": "services: applicability scope visible and exact",
+          "pass": true
+        },
+        {
+          "label": "services: checked date",
+          "pass": true
+        },
+        {
+          "label": "Accepted cuisine has no duplicate baseline detail",
+          "pass": true
+        },
+        {
+          "label": "Raw listing uses accepted cuisine",
+          "pass": true
+        },
+        {
+          "label": "Native guidance disclosure opens by keyboard",
+          "pass": true
+        },
+        {
+          "label": "Fresh raw browser starts with unknown manual floor",
+          "pass": true
+        },
+        {
+          "label": "Packaged manual floor selector changes successfully",
+          "pass": true
+        },
+        {
+          "label": "Manual floor comparison preserves destination URL and selected target",
+          "pass": true
+        },
+        {
+          "label": "Manual starting floor persists in raw browser session",
+          "pass": true
+        },
+        {
+          "label": "Official fallback and unsupported-route limitation remain useful",
+          "pass": true
+        },
+        {
+          "label": "No acceptance helper loaded or requested",
+          "pass": true
+        },
+        {
+          "label": "No horizontal document overflow",
+          "pass": true
+        },
+        {
+          "label": "No uncaught raw package browser errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "acceptanceRequests": []
+    }
+  ],
+  "complete": true,
+  "cases": 4,
+  "assertions": 144
+}

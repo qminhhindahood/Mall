@@ -1,0 +1,47 @@
+{
+  "withdraw": [
+    {
+      "destinationId": "vincom-candidate-vd-b1-024",
+      "field": "phone",
+      "reason": "Conflicting official phones; source brand02838230559 versus distributor02873014299. See open-01.json/details-03.json."
+    }
+  ],
+  "replace": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-008",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://botanifique.com/",
+          "evidence": "Official brand/source identifies this brand; branch scope only when the page explicitly identifies Đồng Khởi.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://botanifique.com/"
+        },
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://botanifique.com/",
+          "evidence": "Official product/category presentation provides a brand-wide catalogue; no branch inventory, price or fulfilment promise.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://botanifique.com/"
+        }
+      ]
+    }
+  ]
+}

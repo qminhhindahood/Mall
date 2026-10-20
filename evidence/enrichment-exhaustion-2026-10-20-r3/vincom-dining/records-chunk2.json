@@ -1,0 +1,550 @@
+{
+  "revision": "vincom-dining-r3-chunk2",
+  "records": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-kingbbq",
+      "fields": [
+        {
+          "field": "services",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://kingbbq.vn/",
+          "evidence": "Official home explicitly identifies Korean barbecue; no inferred amenities or branch menu availability.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "value": {
+            "vi": "Các món nướng Hàn Quốc.",
+            "en": "Korean barbecue dishes."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-hokkaidosachi",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://sushihokkaidosachi.com.vn/en/location/?current=Vincom+Center+Dong+Khoi",
+          "evidence": "Exact B3-07 branch row lists02838235935 and02838235936; first number proposed.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "02838235935",
+            "en": "02838235935"
+          }
+        },
+        {
+          "field": "hours",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://sushihokkaidosachi.com.vn/en/location/?current=Vincom+Center+Dong+Khoi",
+          "evidence": "Exact branch hours10:30-22:00; last order21:30.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "10:30–22:00; gọi món cuối 21:30",
+            "en": "10:30–22:00; last order21:30"
+          }
+        },
+        {
+          "field": "menu",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://sushihokkaidosachi.com.vn/en/menu/",
+          "evidence": "Official menu includes actual menu categories/assets; no prices or branch availability copied.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "url": "https://sushihokkaidosachi.com.vn/en/menu/"
+        },
+        {
+          "field": "booking",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://sushihokkaidosachi.com.vn/en/reservation/",
+          "evidence": "Actual form has area, store including Vincom Center Dong Khoi, party size,date,time and customer contacts. No submission.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "url": "https://sushihokkaidosachi.com.vn/en/reservation/"
+        },
+        {
+          "field": "services",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://sushihokkaidosachi.com.vn/en/menu/",
+          "evidence": "Official brand menu supports actual product summary.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "value": {
+            "vi": "Sushi và các món Nhật trong thực đơn thương hiệu.",
+            "en": "Sushi and Japanese dishes from the brand menu."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-somthai",
+      "fields": [
+        {
+          "field": "booking",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://somtumthai.com.vn/en/reservation/",
+          "evidence": "Real reservation form with Dong Khoi store choice and customer/date/party fields, no submission.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "url": "https://somtumthai.com.vn/en/reservation/"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-bastahiro",
+      "fields": [
+        {
+          "field": "booking",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://bastahiro.com.vn/en/reservation/",
+          "evidence": "Actual reservation form includes Dong Khoi store selection and customer/party/date/time inputs, no submission.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "url": "https://bastahiro.com.vn/en/reservation/"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-manwah",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://manwah.com.vn/dat-ban",
+          "evidence": "Chrome HCM row Vincom Le Thanh Ton B3-28C matches70-72LeThanhTon; phone02873007033.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "02873007033",
+            "en": "02873007033"
+          }
+        },
+        {
+          "field": "hours",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://manwah.com.vn/dat-ban",
+          "evidence": "Official HCM Vincom Le Thanh Ton branch row Open-Close11:00-22:00.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "11:00–22:00",
+            "en": "11:00–22:00"
+          }
+        },
+        {
+          "field": "booking",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://manwah.com.vn/dat-ban",
+          "evidence": "Official branch list has actual Dat ban action for matched Vincom Le Thanh Ton row.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "url": "https://manwah.com.vn/dat-ban"
+        },
+        {
+          "field": "services",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://manwah.com.vn/thuc-don",
+          "evidence": "Official rendered menu identifies Manwah buffet and Taiwanese hotpot brand offering; no prices copied.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "value": {
+            "vi": "Buffet lẩu Đài Loan.",
+            "en": "Taiwanese hotpot buffet."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-022",
+      "fields": [
+        {
+          "field": "cuisine",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://sol.com.vn/restaurant/date-nariya/",
+          "evidence": "Official operator explicitly identifies Sendai Japanese grilled beef tongue.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "value": {
+            "vi": "Ẩm thực Sendai Nhật Bản; lưỡi bò nướng",
+            "en": "Sendai Japanese cuisine; grilled beef tongue"
+          }
+        },
+        {
+          "field": "website",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://sol.com.vn/restaurant/date-nariya/",
+          "evidence": "Sense Of Life official operator restaurant brand page; brand-wide scope.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "url": "https://sol.com.vn/restaurant/date-nariya/"
+        },
+        {
+          "field": "services",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://sol.com.vn/restaurant/date-nariya/",
+          "evidence": "Actual named offerings on operator page; not a Dong Khoi availability guarantee.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "value": {
+            "vi": "Lưỡi bò nướng Gyutan, hàu Miyagi và cơm Pilaf theo giới thiệu thương hiệu.",
+            "en": "Gyutan grilled beef tongue, Miyagi oysters and pilaf described by the brand."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-wraproll",
+      "fields": [
+        {
+          "field": "booking",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://wrap-roll.com/dat-ban",
+          "evidence": "Official page explicitly instructs guests to call19001084 at least one hour before; this is phone-booking information, not a web form.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "url": "https://wrap-roll.com/dat-ban"
+        },
+        {
+          "field": "services",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://wrap-roll.com/thuc-don/thuc-don-nha-hang",
+          "evidence": "Reuses accepted official actual restaurant menu; no inferred ancillary facilities.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "value": {
+            "vi": "Các món cuốn Việt Nam theo thực đơn thương hiệu.",
+            "en": "Vietnamese rolls from the brand menu."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-026",
+      "fields": [
+        {
+          "field": "website",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://langfarm.com/",
+          "evidence": "Current official Langfarm corporate/product site; brand-wide only.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "url": "https://langfarm.com/"
+        },
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://langfarm.com/en/contact",
+          "evidence": "Official contact gives19009065 as general brand customer hotline; hotline working hours are not branch hours.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "value": {
+            "vi": "19009065",
+            "en": "19009065"
+          }
+        },
+        {
+          "field": "services",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://langfarm.com/",
+          "evidence": "Current official retail brand homepage product offering; not confirmation of buffet format or stock at Dong Khoi.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "value": {
+            "vi": "Đặc sản Đà Lạt đóng gói theo danh mục thương hiệu.",
+            "en": "Packaged Da Lat specialty products from the brand catalogue."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-kichikichi",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://kichi.com.vn/dat-ban",
+          "evidence": "Official HCM row B3-17 Vincom Le Thanh Ton:02873000205.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "02873000205",
+            "en": "02873000205"
+          }
+        },
+        {
+          "field": "hours",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://kichi.com.vn/dat-ban",
+          "evidence": "Same official branch row Open-Close09:00-22:00.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "09:00–22:00",
+            "en": "09:00–22:00"
+          }
+        },
+        {
+          "field": "booking",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://kichi.com.vn/dat-ban",
+          "evidence": "Real Dat ban action on exact matching HCM branch row.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "url": "https://kichi.com.vn/dat-ban"
+        },
+        {
+          "field": "services",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://kichi.com.vn/thuc-don",
+          "evidence": "Official brand/menu rendered buffet offering; no prices or amenities inferred.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "value": {
+            "vi": "Buffet lẩu băng chuyền.",
+            "en": "Conveyor hotpot buffet."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-cafecong",
+      "fields": [
+        {
+          "field": "cuisine",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://congcaphe.com/thucdon",
+          "evidence": "Reuses accepted actual official drinks menu.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "value": {
+            "vi": "Cà phê và đồ uống",
+            "en": "Coffee and drinks"
+          }
+        },
+        {
+          "field": "phone",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://congcaphe.com/store-detail/ho-chi-minh/351/cong-caphe-vincom-dong-khoi",
+          "evidence": "Exact official B3 Vincom72LeThanhTon row+84911811162.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "+84 91 181 11 62",
+            "en": "+84 91 181 11 62"
+          }
+        },
+        {
+          "field": "hours",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://congcaphe.com/store-detail/ho-chi-minh/351/cong-caphe-vincom-dong-khoi",
+          "evidence": "Exact branch page T2-CN07:00-22:00.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin từ nguồn chính thức; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "07:00–22:00 hằng ngày",
+            "en": "07:00–22:00 daily"
+          }
+        },
+        {
+          "field": "services",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://congcaphe.com/thucdon",
+          "evidence": "Actual accepted official drinks menu supports product summary.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "value": {
+            "vi": "Cà phê và đồ uống theo thực đơn Cộng.",
+            "en": "Coffee and drinks from Cộng’s menu."
+          }
+        }
+      ]
+    }
+  ]
+}

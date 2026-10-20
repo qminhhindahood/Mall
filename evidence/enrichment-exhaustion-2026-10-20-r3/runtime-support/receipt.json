@@ -1,0 +1,40 @@
+{
+  "recordedAt": "2026-10-20T00:45:42.881497+00:00",
+  "baseHead": "281f8d21a6fade42a179e5ed45cdabf21aee02d2",
+  "files": [
+    {
+      "path": "src/data/enrichment.ts",
+      "sha256": "3ae24b63dc955bb76952bf2a7f0e724d3994593a2fbb097029d30a5b735b20de"
+    },
+    {
+      "path": "src/components/Discovery.tsx",
+      "sha256": "fbde14a32432f5708e188898815b7010776549e83ef88aadca0ccb5e66f0e11b"
+    },
+    {
+      "path": "src/components/DestinationDetails.tsx",
+      "sha256": "10c68efe2dd72302f79527fbcf6f38b234914a2ac8c3b5d066c07e2cafb4223c"
+    }
+  ],
+  "scope": "Cuisine text enrichment and chronological review-date validation only",
+  "typecheck": {
+    "command": "C:\\node.exe C:\\node_modules\\npm\\bin\\npm-cli.js run check",
+    "exitCode": 0,
+    "filesChecked": 32,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "diffCheck": {
+    "command": "git diff --check -- src/data/enrichment.ts src/components/Discovery.tsx src/components/DestinationDetails.tsx",
+    "exitCode": 0
+  },
+  "runtimeTests": "Deferred to central integrated-data builds and existing browser seam; no helper/unit assertions or full build executed in this lane.",
+  "preserved": [
+    "accepted/proposal JSON not edited by this lane",
+    "approved directory taxonomy and descriptions",
+    "fixture/provisional import gates",
+    "unsafe URL and branch checks",
+    "IndoorGuidance and source assets/styles"
+  ],
+  "unresolved": "FaceShop and Clinique inherited Dining taxonomy remains an evidence hold; no record/category edits or cuisine additions made by this lane."
+}

@@ -1,0 +1,150 @@
+{
+  "at": "2026-10-20T12:29:12.141Z",
+  "pid": 23040,
+  "concurrency": 2,
+  "rows": [
+    {
+      "name": "accepted-cuisine",
+      "script": "check-accepted-cuisine.mjs",
+      "lane": 1,
+      "start": "2026-10-20T12:21:33.797Z",
+      "status": "passed",
+      "pid": 24568,
+      "exitCode": 0,
+      "signal": null,
+      "end": "2026-10-20T12:22:04.442Z"
+    },
+    {
+      "name": "cuisine-website",
+      "script": "check-cuisine-website.mjs",
+      "lane": 2,
+      "start": "2026-10-20T12:21:33.808Z",
+      "status": "passed",
+      "pid": 38380,
+      "exitCode": 0,
+      "signal": null,
+      "end": "2026-10-20T12:21:56.891Z"
+    },
+    {
+      "name": "guidance",
+      "script": "check-indoor-guidance.mjs",
+      "lane": 2,
+      "start": "2026-10-20T12:21:56.892Z",
+      "status": "passed",
+      "pid": 13980,
+      "exitCode": 0,
+      "signal": null,
+      "end": "2026-10-20T12:24:40.388Z"
+    },
+    {
+      "name": "discovery",
+      "script": "check-discovery.mjs",
+      "lane": 1,
+      "start": "2026-10-20T12:22:04.443Z",
+      "status": "passed",
+      "pid": 14820,
+      "exitCode": 0,
+      "signal": null,
+      "end": "2026-10-20T12:25:31.744Z"
+    },
+    {
+      "name": "map-pointer",
+      "script": "check-interaction.mjs",
+      "lane": 2,
+      "start": "2026-10-20T12:24:40.389Z",
+      "status": "passed",
+      "pid": 38380,
+      "exitCode": 0,
+      "signal": null,
+      "end": "2026-10-20T12:25:52.899Z"
+    },
+    {
+      "name": "fixtures",
+      "script": "check-fixtures.mjs",
+      "lane": 1,
+      "start": "2026-10-20T12:25:31.745Z",
+      "status": "passed",
+      "pid": 15520,
+      "exitCode": 0,
+      "signal": null,
+      "end": "2026-10-20T12:26:12.175Z"
+    },
+    {
+      "name": "detail-parity",
+      "script": "check-detail-parity.mjs",
+      "lane": 2,
+      "start": "2026-10-20T12:25:52.899Z",
+      "status": "passed",
+      "pid": 37228,
+      "exitCode": 0,
+      "signal": null,
+      "end": "2026-10-20T12:26:48.980Z"
+    },
+    {
+      "name": "search-review",
+      "script": "check-review.mjs",
+      "lane": 1,
+      "start": "2026-10-20T12:26:12.176Z",
+      "status": "passed",
+      "pid": 20592,
+      "exitCode": 0,
+      "signal": null,
+      "end": "2026-10-20T12:26:56.271Z"
+    },
+    {
+      "name": "entry-controls",
+      "script": "check-entry-controls.mjs",
+      "lane": 2,
+      "start": "2026-10-20T12:26:48.980Z",
+      "status": "passed",
+      "pid": 12440,
+      "exitCode": 0,
+      "signal": null,
+      "end": "2026-10-20T12:27:36.946Z"
+    },
+    {
+      "name": "area-history",
+      "script": "check-area-history.mjs",
+      "lane": 1,
+      "start": "2026-10-20T12:26:56.272Z",
+      "status": "passed",
+      "pid": 42700,
+      "exitCode": 0,
+      "signal": null,
+      "end": "2026-10-20T12:27:24.036Z"
+    },
+    {
+      "name": "fallback",
+      "script": "check-fallback.mjs",
+      "lane": 1,
+      "start": "2026-10-20T12:27:24.037Z",
+      "status": "passed",
+      "pid": 42132,
+      "exitCode": 0,
+      "signal": null,
+      "end": "2026-10-20T12:27:58.155Z"
+    },
+    {
+      "name": "journey",
+      "script": "check-journey.mjs",
+      "lane": 2,
+      "start": "2026-10-20T12:27:36.947Z",
+      "status": "passed",
+      "pid": 40424,
+      "exitCode": 0,
+      "signal": null,
+      "end": "2026-10-20T12:29:12.141Z"
+    },
+    {
+      "name": "rapid-reversals",
+      "script": "check-reversals.mjs",
+      "lane": 1,
+      "start": "2026-10-20T12:27:58.156Z",
+      "status": "passed",
+      "pid": 41372,
+      "exitCode": 0,
+      "signal": null,
+      "end": "2026-10-20T12:28:41.906Z"
+    }
+  ]
+}

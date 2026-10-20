@@ -1,0 +1,830 @@
+{
+  "layout": "default",
+  "data": [
+    {
+      "homeData": {
+        "id": 1,
+        "name": "home",
+        "slugVi": "home",
+        "slugEn": "home",
+        "slugJa": "home",
+        "commonContent": {
+          "banner": {
+            "bannerType": 1,
+            "desktop": {
+              "image": {
+                "id": 179,
+                "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/oedo-prod/image/2026/5/6/1/KjR1778032473170.jpeg"
+              },
+              "video": {
+                "id": 70,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/4Cj1596192612700.mp4",
+                "masterId": 9
+              },
+              "slider": {
+                "images": [
+                  {
+                    "uuid": "bf658266-dcd0-4d86-9c2820a0-f0c1865ff21f",
+                    "linkType": 1,
+                    "id": 66,
+                    "url": "https://5002121-s3user.s3.cloudstorage.com.vn/oedo-prod/image/2022/11/4/3/PZC1667532062689.jpeg"
+                  },
+                  {
+                    "uuid": "a6c76433-4e9f-4103-be04e52a-57e46b071b98",
+                    "linkType": 1,
+                    "id": 65,
+                    "url": "https://5002121-s3user.s3.cloudstorage.com.vn/oedo-prod/image/2022/11/4/3/2hS1667532061018.jpeg"
+                  },
+                  {
+                    "uuid": "c993825a-68c6-4dcd-93764311-c5a1ca340704",
+                    "linkType": 1,
+                    "id": 67,
+                    "url": "https://5002121-s3user.s3.cloudstorage.com.vn/oedo-prod/image/2022/11/4/3/ONh1667532064135.jpeg"
+                  },
+                  {
+                    "uuid": "2ddd9258-0c2c-46f5-bc07c12f-f541cab0b86a",
+                    "linkType": 1,
+                    "id": 106,
+                    "url": "https://5002121-s3user.s3.cloudstorage.com.vn/oedo-prod/image/2024/3/3/5/T3T1709443118757.jpeg"
+                  }
+                ]
+              }
+            },
+            "mobile": {
+              "image": {
+                "id": 173,
+                "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/oedo-prod/image/2025/11/18/1/zZV1763430408660.jpeg"
+              },
+              "video": {
+                "id": 69,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/htn1596192620561.mp4",
+                "masterId": 8
+              },
+              "slider": {
+                "images": [
+                  {
+                    "uuid": "8c8af9ad-2e58-47f4-bdcb1dc6-66d2fa122e88",
+                    "linkType": 1,
+                    "id": 107,
+                    "url": "https://5002121-s3user.s3.cloudstorage.com.vn/oedo-prod/image/2024/3/3/5/lQw1709443191535.jpeg"
+                  }
+                ]
+              }
+            }
+          },
+          "widgets": {
+            "reservation": true,
+            "social": true,
+            "location": true,
+            "promotion": {
+              "enable": true,
+              "uuid": "ad5d1f8c-63b7-440a-b23138d4-f25c48600a08"
+            },
+            "story": true
+          }
+        },
+        "multilangContent": {
+          "en": {
+            "id": 1,
+            "content": "{\"story\":\"<p>Originating in Japan, traveling through 5 countries and over 77 years of service, Botejyu brings the traditional Osaka flavor beyond the borders, bringing Okonomiyaki, Takoyaki counters from the comics into the real life.</p><p>&nbsp;</p><p>From the bustling metropolis of Osaka, Botejyu has affirmed its name and made its mark on the world map, with milestones in Taiwan, Thailand, Philippines, Singapore and Vietnam as the next destination on the culinary journey.</p><p>&nbsp;</p><p>Coming to Botejyu, the Japanese Head Chef invites you to enjoy delicious and delicious meals with performances of cutting ingredients, stir-frying, flipping, juggling with fire under skillful hands and years of experience.</p>\"}"
+          }
+        },
+        "createAt": 1591686846000,
+        "updateAt": 1778032475000
+      }
+    }
+  ],
+  "fetch": {},
+  "error": null,
+  "state": {
+    "isMobileAgent": false,
+    "isMobileOrTabletAgent": false,
+    "isDisableLogoHeading": false,
+    "heading": null,
+    "footer": {
+      "id": 1,
+      "status": 1,
+      "logo": {
+        "id": 488,
+        "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-prod/image/2020/7/28/12/VCz1595939517686.svg"
+      },
+      "moit": {
+        "url": "#",
+        "icon": {
+          "id": 58,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-prod/file/2020/7/28/12/DnT1595939596727.png"
+        },
+        "isActive": 0
+      },
+      "multilangContent": {
+        "en": {
+          "id": 1,
+          "content1": "TAKAHIRO CORPORATION",
+          "content2": "Business Registration Certificate: 0315827587",
+          "content3": "Address: 180 Pasteur, Sai Gon Ward, HCMC, Vietnam",
+          "content4": "Hotline: +8428-3933-9999 | Contact: info@takahiro.com.vn"
+        }
+      },
+      "footerNavigations": [
+        {
+          "id": 3,
+          "status": 1,
+          "order": 0,
+          "multilangContent": {
+            "en": {
+              "id": 3,
+              "name": "Career",
+              "linkType": 1,
+              "link": "career"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "status": 1,
+          "order": 1,
+          "multilangContent": {
+            "en": {
+              "id": 5,
+              "name": "Privacy",
+              "linkType": 1,
+              "link": null
+            }
+          }
+        },
+        {
+          "id": 4,
+          "status": 1,
+          "order": 2,
+          "multilangContent": {
+            "en": {
+              "id": 4,
+              "name": "Terms of Service",
+              "linkType": 1,
+              "link": null
+            }
+          }
+        },
+        {
+          "id": 6,
+          "status": 1,
+          "order": 3,
+          "multilangContent": {
+            "en": {
+              "id": 6,
+              "name": "Contact",
+              "linkType": 1,
+              "link": null
+            }
+          }
+        }
+      ]
+    },
+    "widgets": {
+      "story": {
+        "id": 1,
+        "name": "story",
+        "commonContent": {
+          "image": {
+            "id": 499,
+            "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-prod/image/2020/7/31/9/aaj1596188663806.svg"
+          }
+        },
+        "multilangContent": {
+          "en": {
+            "id": 1,
+            "content": "{\"text\":\"<p>Easy to find a salad anywhere, but &nbsp;you may know that Thai's salad (Papaya Salads) is on the top 50 salad worth trying in the world. Thai Cusine has its own way with their own recipe and especially the way to combine many sophisticated and complex but subtle spices for highly-seasoned, tasty, balanced, unique flavor that is always loved around the world, specially authentic Thai from spice to. Thai cusine has 4 traditional styles from 4 regions of Thai: North, Eastern North, the Midland and South creating a colorful Thai cuisine from the tastes to the flavors.</p><p>&nbsp;</p><p>In Som ตำ Thai, food is cooked by Thai Head Chef has a wealth of experience, hereditary recipient, the original marinade imported from Thai and the sources of fresh ingredients in local all of which &nbsp;have created authentic Thai flavor.</p>\"}"
+          }
+        },
+        "createAt": 1591776524000,
+        "updateAt": 1652691499000
+      },
+      "reservation": {
+        "id": 3,
+        "name": "reservation",
+        "commonContent": {
+          "selectedLocations": [
+            8,
+            2,
+            19,
+            25,
+            27,
+            28,
+            29
+          ],
+          "name": "reservation",
+          "content": [
+            {
+              "uuid": "b68733ec-9f74-49dd-a71db075-93ebf13ac54f",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Đồng Khởi",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Dong Khoi",
+                  "active": true,
+                  "link": "http://hokkaidosushi.com.vn/"
+                },
+                "ja": {
+                  "name": "Dong Khoi",
+                  "active": true,
+                  "link": "http://hokkaidosushi.com.vn/"
+                }
+              },
+              "name": "Tiếng việt"
+            },
+            {
+              "uuid": "44086038-39fa-427b-8dcb8552-06ed6f776060",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Pasteur",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Pasteur",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Pasteur",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                }
+              }
+            },
+            {
+              "uuid": "63db697a-d7ed-4758-aa963c12-703cda0ef831",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Nguyễn Đình Chiểu",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": " Nguyen Dinh Chieu",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Nguyen Dinh Chieu",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                }
+              }
+            },
+            {
+              "uuid": "876c457b-151a-4df6-ad4c6cd1-be139dd33fcb",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Đông Du",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Dong Du",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Dong Du",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                }
+              }
+            },
+            {
+              "uuid": "ea981997-fdb0-4bc9-88c003dd-d4b9fada0af5",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Nguyễn Trãi",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Nguyen Trai",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Nguyen Trai",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                }
+              }
+            },
+            {
+              "uuid": "4c952d94-432d-4064-af91b2a1-df182dcd1389",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Phan Xích Long",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Phan Xich Long",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Phan Xich Long",
+                  "link": "http://hokkaidosushi.com.vn/"
+                }
+              }
+            }
+          ]
+        },
+        "multilangContent": {
+          "en": {
+            "id": 3,
+            "content": "{}"
+          }
+        },
+        "createAt": 1591778751000,
+        "updateAt": 1784102285000
+      },
+      "social": {
+        "id": 4,
+        "name": "social",
+        "commonContent": {
+          "name": "social",
+          "content": [
+            {
+              "uuid": "24124e6f-935b-4978-a5cda2a1-e6537c244f36",
+              "icon": {
+                "id": 11,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/oedo-prod/file/2022/11/04/03/sKW1667532367005.svg"
+              },
+              "title": "Youtube",
+              "link": "https://www.youtube.com/channel/UC7zwbQ5-t-Xsf-AAdkA76dg",
+              "active": true
+            },
+            {
+              "uuid": "73cbb6a2-b08b-4463-a8e77fc1-3781b45cd885",
+              "icon": {
+                "id": 12,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/oedo-prod/file/2022/11/04/03/Jrp1667532371421.svg"
+              },
+              "title": "Instagram",
+              "link": "https://www.instagram.com/oedoalley/",
+              "active": true
+            },
+            {
+              "uuid": "0e41cd20-c807-4f4d-aa8b2c9a-1d50f99e25e5",
+              "icon": {
+                "id": 13,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/oedo-prod/file/2022/11/04/03/KrC1667532375427.svg"
+              },
+              "title": "Facebook",
+              "link": "https://www.facebook.com/oedoalley/",
+              "active": true
+            },
+            {
+              "uuid": "e32d8d70-af77-4230-b6ba07c2-2da961cd7af7",
+              "icon": {
+                "id": 14,
+                "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/oedo-prod/file/2025/10/03/06/rfL1759472965161.svg"
+              },
+              "title": "Tiktok",
+              "link": "https://www.tiktok.com/@oedoalley",
+              "active": true
+            }
+          ]
+        },
+        "multilangContent": {
+          "en": {
+            "id": 4,
+            "content": "{}"
+          }
+        },
+        "createAt": 1591778757000,
+        "updateAt": 1759472971000
+      },
+      "location": {
+        "id": 5,
+        "name": "location",
+        "commonContent": {
+          "selectedLocations": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            7,
+            9,
+            19,
+            25,
+            27,
+            28,
+            29,
+            30
+          ]
+        },
+        "multilangContent": {
+          "en": {
+            "id": 5,
+            "content": "{}"
+          }
+        },
+        "createAt": 1591778771000,
+        "updateAt": 1776417407000
+      }
+    },
+    "banner": {
+      "bannerType": 1,
+      "desktop": {
+        "image": {
+          "id": 179,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/oedo-prod/image/2026/5/6/1/KjR1778032473170.jpeg"
+        },
+        "video": {
+          "id": 70,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/4Cj1596192612700.mp4",
+          "masterId": 9
+        },
+        "slider": {
+          "images": [
+            {
+              "uuid": "bf658266-dcd0-4d86-9c2820a0-f0c1865ff21f",
+              "linkType": 1,
+              "id": 66,
+              "url": "https://5002121-s3user.s3.cloudstorage.com.vn/oedo-prod/image/2022/11/4/3/PZC1667532062689.jpeg"
+            },
+            {
+              "uuid": "a6c76433-4e9f-4103-be04e52a-57e46b071b98",
+              "linkType": 1,
+              "id": 65,
+              "url": "https://5002121-s3user.s3.cloudstorage.com.vn/oedo-prod/image/2022/11/4/3/2hS1667532061018.jpeg"
+            },
+            {
+              "uuid": "c993825a-68c6-4dcd-93764311-c5a1ca340704",
+              "linkType": 1,
+              "id": 67,
+              "url": "https://5002121-s3user.s3.cloudstorage.com.vn/oedo-prod/image/2022/11/4/3/ONh1667532064135.jpeg"
+            },
+            {
+              "uuid": "2ddd9258-0c2c-46f5-bc07c12f-f541cab0b86a",
+              "linkType": 1,
+              "id": 106,
+              "url": "https://5002121-s3user.s3.cloudstorage.com.vn/oedo-prod/image/2024/3/3/5/T3T1709443118757.jpeg"
+            }
+          ]
+        }
+      },
+      "mobile": {
+        "image": {
+          "id": 173,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/oedo-prod/image/2025/11/18/1/zZV1763430408660.jpeg"
+        },
+        "video": {
+          "id": 69,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/htn1596192620561.mp4",
+          "masterId": 8
+        },
+        "slider": {
+          "images": [
+            {
+              "uuid": "8c8af9ad-2e58-47f4-bdcb1dc6-66d2fa122e88",
+              "linkType": 1,
+              "id": 107,
+              "url": "https://5002121-s3user.s3.cloudstorage.com.vn/oedo-prod/image/2024/3/3/5/lQw1709443191535.jpeg"
+            }
+          ]
+        }
+      }
+    },
+    "areasList": [
+      {
+        "id": 1,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Hồ Chí Minh"
+            },
+            "en": {
+              "name": "Ho Chi Minh"
+            },
+            "ja": {
+              "name": "Ho Chi Minh"
+            }
+          }
+        }
+      },
+      {
+        "id": 10,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Hà Nội"
+            },
+            "en": {
+              "name": "Ha Noi"
+            },
+            "ja": {
+              "name": "Ha Noi"
+            }
+          }
+        }
+      },
+      {
+        "id": 13,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Hải Phòng"
+            },
+            "en": {
+              "name": "Hai Phong"
+            },
+            "ja": {
+              "name": "Hai Phong"
+            }
+          }
+        }
+      }
+    ],
+    "locationsList": [
+      {
+        "id": 8,
+        "areaId": 1,
+        "image": {
+          "id": 72,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/oedo-prod/image/2022/11/4/3/0ca1667532220384.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/Lv7VFEWFX5dwgBXt8",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15678.001336049601!2d106.7004885!3d10.772939!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3760ddccc84cf73!2sOedo%20Alley%20-%20Japanese%20Food%20Village!5e0!3m2!1svi!2s!4v1666843335631!5m2!1svi!2s",
+        "storeCode": "jWRaYArLSBbxQNQ1",
+        "offDays": [
+          {
+            "id": "mlbjj6z8zeb75",
+            "name": "Tết",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "18-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 8,
+            "name": "Oedo Alley - Saigon Centre",
+            "address": "Level 5 (L5-09) Saigon Centre, 67 Le Loi Street, Sai Gon Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:30",
+            "lastOrder": "21:45",
+            "phone1": "028 3821 8869",
+            "phone2": null
+          }
+        },
+        "createAt": 1653304469000,
+        "updateAt": 1770421977000
+      },
+      {
+        "id": 19,
+        "areaId": 10,
+        "image": {
+          "id": 74,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/oedo-prod/image/2022/11/4/3/XAW1667532258029.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/PD99cy59SjFdBror8",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14896.13799284524!2d105.8147359!3d21.0313056!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x410a36c3d4d97152!2sBotejyu%20-%20Vincom%20Metropolis!5e0!3m2!1svi!2s!4v1666843035496!5m2!1svi!2s",
+        "storeCode": "K4OoZxDvk8vSGeKy",
+        "offDays": [],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 19,
+            "name": "BOTEJYU - Vincom Center Metropolis Ha Noi",
+            "address": " Level 2 (L2-08) Vincom Center Metropolis, 29 Lieu Giai Street, Ngoc Ha Ward, Ha Noi.",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "024 3201 7188",
+            "phone2": null
+          }
+        },
+        "createAt": 1665396295000,
+        "updateAt": 1709191472000
+      },
+      {
+        "id": 27,
+        "areaId": 13,
+        "image": {
+          "id": 166,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/oedo-prod/image/2025/10/9/6/lM71759991854322.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/V1mHAEWx5q86ySZb6",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3727.85661863198!2d106.7154183747105!3d20.877828692946544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7b8d4f27a929%3A0xfe4f5c559e032e03!2sVincom%20Mega%20Mall%20Royal%20Island!5e0!3m2!1svi!2s!4v1757924917352!5m2!1svi!2s",
+        "storeCode": "rutF8bNOrMK9YbMF",
+        "offDays": [],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 27,
+            "name": "Botejyu - Royal Island Hai Phong",
+            "address": "Tòa nhà Vincom Mega Mall Royal Island, Thuy Nguyen Ward, Hai Phong City",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0835238928",
+            "phone2": null
+          }
+        },
+        "createAt": 1757926439000,
+        "updateAt": 1759991856000
+      },
+      {
+        "id": 2,
+        "areaId": 1,
+        "image": {
+          "id": 73,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/oedo-prod/image/2022/11/4/3/DRv1667532240134.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/TxZHGHzckrGaLR878",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15676.46294851648!2d106.740973!3d10.8024469!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfc765f86927776f3!2sBotejyu%20Thao%20Dien!5e0!3m2!1svi!2s!4v1666843627028!5m2!1svi!2s",
+        "storeCode": "BnvR1cNwzTtG1atM",
+        "offDays": [],
+        "order": 1,
+        "multilangContent": {
+          "en": {
+            "id": 2,
+            "name": "Botejyu - Vincom Mega Mall Thao Dien",
+            "address": "Level 4 (L4-11) Vincom Mega Mall Thao Dien, 161 Vo Nguyen Giap Street, An Khanh Ward, HCMC.",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "028 3519 0777",
+            "phone2": ""
+          }
+        },
+        "createAt": 1608013780000,
+        "updateAt": 1709191472000
+      },
+      {
+        "id": 29,
+        "areaId": 10,
+        "image": {
+          "id": 177,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/oedo-prod/image/2026/3/17/8/qyN1773736205246.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/P3qbRJgviXGeFBvq7",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.3380356653593!2d105.8307732!3d21.031656899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab8f22e35f8f%3A0xb28c1b39fb35ad7f!2sHanoi%20Centre!5e1!3m2!1svi!2s!4v1772614391195!5m2!1svi!2s",
+        "storeCode": "YtKDIXiobMHyWaH6",
+        "offDays": [
+          {
+            "id": "mmiywwuqx4cvf",
+            "name": "opening",
+            "allDay": true,
+            "startDate": "09-03-2026",
+            "startTime": "00:00",
+            "endDate": "15-03-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 1,
+        "multilangContent": {
+          "en": {
+            "id": 29,
+            "name": "Botejyu - Hanoi Centre",
+            "address": "L2-C02B,C - Hanoi Centre, 175 Nguyen Thai Hoc, O Cho Dua Ward, Hanoi City",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0888193166",
+            "phone2": null
+          }
+        },
+        "createAt": 1772614425000,
+        "updateAt": 1773736209000
+      },
+      {
+        "id": 25,
+        "areaId": 1,
+        "image": {
+          "id": 101,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/oedo-prod/image/2023/7/12/6/esz1689143225628.jpeg"
+        },
+        "linkToShare": "https://goo.gl/maps/jrfdiJjQvi1d13sL6",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.070011072269!2d106.7188731!3d10.729083600000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f895c8cb82f%3A0xd6508f1395347075!2zQ3Jlc2NlbnQgTWFsbCwgMTAxIFTDtG4gROG6rXQgVGnDqm4sIFTDom4gUGhvbmcsIFF14bqtbiA3LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1686130396494!5m2!1svi!2s",
+        "storeCode": "pT2DqwSE0093Jtjc",
+        "offDays": [],
+        "order": 2,
+        "multilangContent": {
+          "en": {
+            "id": 25,
+            "name": "Botejyu - Crescent Mall",
+            "address": "Level 2 (2F-37, 38A) Crescent Mall, 101 Ton Dat Tien Street, Tan My Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:30",
+            "lastOrder": "21:45",
+            "phone1": "028 35116363",
+            "phone2": "0785012788"
+          }
+        },
+        "createAt": 1686130734000,
+        "updateAt": 1709191472000
+      },
+      {
+        "id": 30,
+        "areaId": 10,
+        "image": {
+          "id": 181,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/oedo-prod/image/2026/6/4/3/k3x1780544160323.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/NNfsBsDyMxJ2YTt89",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4457.476884472447!2d105.75171689999999!3d20.9897037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab7bee9f7757%3A0x4ebf8ccfc24ec4ae!2zQWVvbiBNYWxsIEjDoCDEkMO0bmc!5e1!3m2!1svi!2s!4v1776417239064!5m2!1svi!2s",
+        "storeCode": "Bx5XNRbJ3I77HVhB",
+        "offDays": [
+          {
+            "id": "mob3qoal653w3",
+            "name": "Opening",
+            "allDay": true,
+            "startDate": "23-04-2026",
+            "startTime": "00:00",
+            "endDate": "27-04-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 2,
+        "multilangContent": {
+          "en": {
+            "id": 30,
+            "name": "Botejyu - Aeon Mall Ha Dong",
+            "address": "Level 03 - Aeon Mall Ha Dong, Duong Noi Ward, Hanoi City",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0971809580",
+            "phone2": null
+          }
+        },
+        "createAt": 1776417387000,
+        "updateAt": 1780544162000
+      },
+      {
+        "id": 28,
+        "areaId": 1,
+        "image": {
+          "id": 171,
+          "url": "https://5002121-s3user.vcos.cloudstorage.com.vn/oedo-prod/image/2025/10/20/8/ojK1760948583116.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/QqtjZc83iJr72WES7",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.7656027431703!2d106.6726643!3d10.829241599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529a7f96d7295%3A0xaeded59535d18f5d!2sVincom%20Plaza%20Quang%20Trung!5e0!3m2!1svi!2s!4v1759979376517!5m2!1svi!2s",
+        "storeCode": "CyynLusie0dYhslt",
+        "offDays": [],
+        "order": 3,
+        "multilangContent": {
+          "en": {
+            "id": 28,
+            "name": "Botejyu - Vincom Plaza Quang Trung",
+            "address": "Level 2 (L2-10), Vincom Plaza Quang Trung, 190 Quang Trung, Go Vap Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "0822523566",
+            "phone2": null
+          }
+        },
+        "createAt": 1759980346000,
+        "updateAt": 1760948584000
+      }
+    ],
+    "currentDomain": "oedoalley.com.vn",
+    "currentPath": "/en/",
+    "mutations": {},
+    "getters": {},
+    "i18n": {
+      "routeParams": {}
+    }
+  },
+  "serverRendered": true,
+  "routePath": "/en/",
+  "config": {
+    "_app": {
+      "basePath": "/",
+      "assetsPath": "/_nuxt/",
+      "cdnURL": null
+    }
+  }
+}

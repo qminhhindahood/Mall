@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-10-20",
+  "supersedesKey": {
+    "destinationId": "saigon-prototype-genkisushi",
+    "field": "menu",
+    "previousOutcome": "hold",
+    "reason": "Actual current PDF visual inspection resolved reader-only limitation"
+  },
+  "proposal": {
+    "mallId": "saigon-centre",
+    "destinationId": "saigon-prototype-genkisushi",
+    "field": "menu",
+    "outcome": "proposal",
+    "proposedField": {
+      "field": "menu",
+      "state": "newly-sourced-proposal",
+      "sourceUrl": "https://order.genkisushi.com.hk/media/dineinmenu/Core_Menu_May_2026.pdf",
+      "evidence": "Official Genki Sushi Hong Kong May 2026 two-page menu was downloaded/rendered by independent auditor and both saved pages visually inspected by researcher. Actual branded sushi, rolls, sashimi, udon, desserts and drinks are visible. Hong Kong-market reference only; no Saigon Centre menu, stock or prices imported.",
+      "checkedAt": "2026-10-20",
+      "applicability": "brand-wide",
+      "verification": "source-checked",
+      "approval": "provisional",
+      "uncertainty": {
+        "vi": "Thực đơn tham khảo tại thị trường Hồng Kông, tháng 5/2026; vui lòng xác nhận danh mục tại Saigon Centre.",
+        "en": "Hong Kong-market menu reference, May 2026; confirm the Saigon Centre assortment."
+      },
+      "url": "https://order.genkisushi.com.hk/media/dineinmenu/Core_Menu_May_2026.pdf"
+    },
+    "sources": [
+      {
+        "url": "https://order.genkisushi.com.hk/media/dineinmenu/Core_Menu_May_2026.pdf",
+        "evidenceFile": "../content-audit/genki-visual/Core_Menu_May_2026.pdf",
+        "reference": "turn554view0",
+        "renderFiles": [
+          "../content-audit/genki-visual/page-1.png",
+          "../content-audit/genki-visual/page-2.png"
+        ],
+        "section": "Both actual rendered menu pages",
+        "result": "visually-inspected",
+        "checkedAt": "2026-10-20",
+        "scope": "Hong Kong market",
+        "support": "Named/photo sushi, rolls, sashimi, udon, desserts and drinks; Genki brand logo. Foreign prices not transcribed."
+      }
+    ],
+    "searches": [
+      {
+        "query": "GENKI SUSHI Vietnam official website menu reservation",
+        "result": "Candidates inspected according to field role; mismatched businesses, aggregators and unverified ordering platforms not adopted."
+      }
+    ],
+    "reason": "Official Genki Sushi Hong Kong May 2026 two-page menu was downloaded/rendered by independent auditor and both saved pages visually inspected by researcher. Actual branded sushi, rolls, sashimi, udon, desserts and drinks are visible. Hong Kong-market reference only; no Saigon Centre menu, stock or prices imported.",
+    "remainingAction": null,
+    "checkedAt": "2026-10-20",
+    "scope": "brand-wide"
+  },
+  "sourceReceipt": {
+    "url": "https://order.genkisushi.com.hk/media/dineinmenu/Core_Menu_May_2026.pdf",
+    "evidenceFile": "../content-audit/genki-visual/Core_Menu_May_2026.pdf",
+    "reference": "turn554view0",
+    "renderFiles": [
+      "../content-audit/genki-visual/page-1.png",
+      "../content-audit/genki-visual/page-2.png"
+    ],
+    "section": "Both actual rendered menu pages",
+    "result": "visually-inspected",
+    "checkedAt": "2026-10-20",
+    "scope": "Hong Kong market",
+    "support": "Named/photo sushi, rolls, sashimi, udon, desserts and drinks; Genki brand logo. Foreign prices not transcribed."
+  },
+  "sourceAccess": "Auditor fetched public PDF with separately approved exact public-source download; researcher only viewed existing saved page PNGs. No private upload or new download by this researcher."
+}

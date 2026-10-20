@@ -1,0 +1,714 @@
+{
+  "result": "pass",
+  "queuedKeys": 311,
+  "uniqueDecisionKeys": 311,
+  "proposalKeys": 161,
+  "heldKeys": 150,
+  "unavailableKeys": 0,
+  "exactQueueCoverage": true,
+  "sourceFilesExist": true,
+  "proposalScopesValid": true,
+  "baselineRuntimeNotEdited": true,
+  "files": {
+    "add_candidates.py": {
+      "sha256": "e43017900c61e17ef07982d6d2785bbb57507617ed72c79938b214be3e35710f",
+      "bytes": 3914
+    },
+    "add_prototypes.py": {
+      "sha256": "eb557da10fde7ab01fbc4369e6f2ad6ea7ab855a23e786d368594555694bb781",
+      "bytes": 12803
+    },
+    "amendment-01-input.json": {
+      "sha256": "b0912383a340adc981791e589e352c5937675176179e4eb5b24243ed281a0d75",
+      "bytes": 1074
+    },
+    "amendment-01-phones.json": {
+      "sha256": "ce84a97ad6c3f823152883cfba3a7b7d97e2f53585d826481cd4e0890598f937",
+      "bytes": 7190
+    },
+    "amendment-02-new-phone-catalog.json": {
+      "sha256": "80729bfefa997af11036b35c52cc1fcff9d04630e205a07481f38cb0215df63e",
+      "bytes": 7898
+    },
+    "amendment-03-identity-offerings.json": {
+      "sha256": "04d6847427f785555d4b3aaeb102a64bd85770bb94d6e8f1f6ac13e696af221a",
+      "bytes": 54204
+    },
+    "amend_02.py": {
+      "sha256": "b9b8c48c09faf776b4c1dfc1bafcec617d91d467475214f59ebb43dcf1d544b4",
+      "bytes": 3374
+    },
+    "baseline-preservation.json": {
+      "sha256": "5247ad450088b3683811a4b0a887a98e59fc9a723b632fbd5dd108ede351df98",
+      "bytes": 320
+    },
+    "batch-candidate-input.json": {
+      "sha256": "4808ad6321bdf7064491d140c71632068c0ee46576b39b7e43299c80d9a25508",
+      "bytes": 9543
+    },
+    "batch-prototype-input.json": {
+      "sha256": "a671ec068ad553444d91f01309f7a612ec3674d8543dfe5dd1ff58e7d337d3a3",
+      "bytes": 23790
+    },
+    "build.py": {
+      "sha256": "31b438796338d5789e3731e92c5b8797f8ec4129f2823b2029ab799793a8b6ee",
+      "bytes": 3404
+    },
+    "chunk-01-decisions.json": {
+      "sha256": "d85232c36c8c2d680fab92240d805b26ddae399b4ea97883191f31228b6bde17",
+      "bytes": 37048
+    },
+    "chunk-01-records.json": {
+      "sha256": "410f5f4c4ec6eb502b4e1bc224a369b0936e52f9907c819cee16345b16369bf1",
+      "bytes": 12325
+    },
+    "chunk-02-decisions.json": {
+      "sha256": "d38356e9335e40a32a9e5bd402ddd05e934e455c647bcb3d40fea5618ab79480",
+      "bytes": 927374
+    },
+    "chunk-02-records.json": {
+      "sha256": "e7a4843335877f7896b50ff76becb299e963493adff8eccc2c782bb93e78903d",
+      "bytes": 168672
+    },
+    "decisions.json": {
+      "sha256": "237d0b3066982f8bec43036b5bc411809e9251838588086d7c3dc56c566aa253",
+      "bytes": 992129
+    },
+    "notes.json": {
+      "sha256": "de08aee72f519e85930ec6790312849ca32b5ed070069723459a192fc5b0dcd0",
+      "bytes": 311635
+    },
+    "pre-amend03-decisions.json": {
+      "sha256": "5c84813f5894713c516dd4b560a15bb6fb9d2a495c4c64ce79307def52613b49",
+      "bytes": 978518
+    },
+    "progress.json": {
+      "sha256": "533e7cdfc010f550ee8cb49dcf1ad92baf2378552b3c79927d9d6dff2b08a4d9",
+      "bytes": 223
+    },
+    "queue.json": {
+      "sha256": "4a7702bb400ba7d2465c4a241cf45d2b85253ce63dbeaaecd102724d29119b02",
+      "bytes": 371859
+    },
+    "README.md": {
+      "sha256": "e3017d1716d64a01905eb677e41a4e3778d68e483257810941ba69909df23a7c",
+      "bytes": 4811
+    },
+    "records.json": {
+      "sha256": "83958a01806ffc93aad47fddb284b9f018fb028d6267511f49b78f7901c740fe",
+      "bytes": 201234
+    },
+    "validate.py": {
+      "sha256": "0ff8ddd3c8f3d6823df73fa089aac814cc7f9430407bebc1d6a0f82a464f8946",
+      "bytes": 3052
+    },
+    "source-text/alternates32.json": {
+      "sha256": "acf01f9decf959933a6b138f7e798461539f1b284136dc079df7b86d0fadee65",
+      "bytes": 28665
+    },
+    "source-text/alternates33.json": {
+      "sha256": "933fd2a7b9d8d8a820f28696b19f0aa10adc4176a33803ed735cdba0f479576d",
+      "bytes": 11921
+    },
+    "source-text/alternative-anphuoc.json": {
+      "sha256": "3fbb4d7463df8f9a98537e3da244f332d86d718fa52d8feb01549e96176a22a3",
+      "bytes": 14407
+    },
+    "source-text/alternative-bobbibrown.json": {
+      "sha256": "95653dc7c292dd681ec40dae9e3432bd7e211dcce1815f9a1a948e4eeb75a3a3",
+      "bytes": 24687
+    },
+    "source-text/alternative-cgv.json": {
+      "sha256": "9b275a98dfb9493b2d2cc1483e9cd129b69448780c557af82e201594bfbf64c3",
+      "bytes": 292
+    },
+    "source-text/alternative-escentric.json": {
+      "sha256": "962a24d1c539d7540adef9147718dc44fc19384da4eb1922ade25d1dcc544c75",
+      "bytes": 15610
+    },
+    "source-text/alternative-yslbeauty.json": {
+      "sha256": "cd0ca88efed0b634ce43f60e61528597765bc6eb5206cafd8b51cba1c4f0f9df",
+      "bytes": 25196
+    },
+    "source-text/aqua-catalog40.json": {
+      "sha256": "839dab58c654cf8924c596b20b5f022f6756d8342ab0e16229b15e4444b6138c",
+      "bytes": 16842
+    },
+    "source-text/aqua-products41.json": {
+      "sha256": "5b33a8379010fa43b50720956995e920a6e61b70c69e24f401b44f952aa9d538",
+      "bytes": 16877
+    },
+    "source-text/catalog-amm.json": {
+      "sha256": "9abe706c5ae3d3fba9d1437c8a466dd3a2a68418a06731326130639c29712c69",
+      "bytes": 22799
+    },
+    "source-text/catalog-anphuoc.json": {
+      "sha256": "f79d19a4534f1eac1cf96a06ecbbae5364b20a15fd88e61618a359b78cf2e133",
+      "bytes": 225
+    },
+    "source-text/catalog-bathbodyworks.json": {
+      "sha256": "2efd74e52729d4efae8adbc670872acc13023d7c24be5e954e3148b74416a781",
+      "bytes": 13027
+    },
+    "source-text/catalog-bobbibrown.json": {
+      "sha256": "9d4e32b1b3d24e09d2cc2f4ba7e8d2195414bd124c79010334b684ed64649e7e",
+      "bytes": 223
+    },
+    "source-text/catalog-bodyshop.json": {
+      "sha256": "e0c3e4f6d2b43c8bf52f39cb99a20da8a396fba7051289b6c0d1a50bf930c02c",
+      "bytes": 229
+    },
+    "source-text/catalog-clarins.json": {
+      "sha256": "1b07b52d2ca5cfd7d420fb20500c83276ad317ba040a55af08e794574ffce079",
+      "bytes": 225
+    },
+    "source-text/catalog-cobrapuma.json": {
+      "sha256": "3ac8d3cfb0f7f8e7de3f9afbe984949f41cb36bbd9f519a7b81972a9f7c75c99",
+      "bytes": 17214
+    },
+    "source-text/catalog-cottonon.json": {
+      "sha256": "bdb9dd9c01232e59c54c7b2d7734ec5fd1aca57cfef56e761af4b2f980bee8c8",
+      "bytes": 219
+    },
+    "source-text/catalog-danielwellington.json": {
+      "sha256": "8290f0b6da0b8c21bfc0be0b4ac8563ae1869fcedd48be17d9784e18fe31e7ce",
+      "bytes": 11538
+    },
+    "source-text/catalog-escentric.json": {
+      "sha256": "c5acc96836a16e166faadc06b55cb17bb68b04dba4e31df76d9f277b9e661392",
+      "bytes": 251
+    },
+    "source-text/catalog-facewash.json": {
+      "sha256": "f7277b193ce13e731b46ef0837bac6d5968fa7e0df5d947d6fc164c0eee1550c",
+      "bytes": 4377
+    },
+    "source-text/catalog-geox.json": {
+      "sha256": "1e9822118525656697eb27631bffa5953d2fe3bf6cdd3201e82f35ac1e3435fb",
+      "bytes": 1392
+    },
+    "source-text/catalog-gigi.json": {
+      "sha256": "22912e0c8f7a98d2db0e6ec396b8c0d15871fda077b75d98ab8204d05bb72316",
+      "bytes": 13982
+    },
+    "source-text/catalog-gnc.json": {
+      "sha256": "43eeb2b9d2f354e5558cc2f7758c1ed9c72bc2eb8b5a7776d1d6497d7cd8bc08",
+      "bytes": 17650
+    },
+    "source-text/catalog-guerlain.json": {
+      "sha256": "81752bb2eaec14fb7650be16bc12d4290edc7cd7770c455d353894d7392959f8",
+      "bytes": 220
+    },
+    "source-text/catalog-guess.json": {
+      "sha256": "98166ed1a724b0458f3324c4d126261c3f3993606fca8ea4c4efd5cc71a3ee96",
+      "bytes": 229
+    },
+    "source-text/catalog-innisfree.json": {
+      "sha256": "8b6131635c669790741b8f3fdec277a62ff587b2426dbb433b61a4d6cf0385bc",
+      "bytes": 10924
+    },
+    "source-text/catalog-karl.json": {
+      "sha256": "5f905a872a5aed06fd5bb4ec8c7a1d6756e1745e1f5837184c8fe7ffebbd8cac",
+      "bytes": 27128
+    },
+    "source-text/catalog-kooples.json": {
+      "sha256": "66b77c5356cd2c2d1d6666c91f1bf7a131198a06611f8c9df857e42a26026235",
+      "bytes": 221
+    },
+    "source-text/catalog-lacoste.json": {
+      "sha256": "01156f13985ca0b4b2e085736ce98d36b639f1d61003d552b7c9e3761f238240",
+      "bytes": 225
+    },
+    "source-text/catalog-levis.json": {
+      "sha256": "891f4c026aff2ab43a90c0b5929417068a12242012bfb6bab128c9b67918dc86",
+      "bytes": 217
+    },
+    "source-text/catalog-longbeach.json": {
+      "sha256": "8a9ff106460f97e626da2e0dd145cf3634f5e8c28fa037ce3c6a97fb7076470f",
+      "bytes": 17504
+    },
+    "source-text/catalog-lukfook.json": {
+      "sha256": "6c078b603cc76189e56777ac98627520dc27398ee5d1cc4dae9ace02e0747377",
+      "bytes": 23881
+    },
+    "source-text/catalog-lyn.json": {
+      "sha256": "03314fe69ccf530fb02a3fbcdf5fb55cea586aafa61dc4ab765c65f75009bcd3",
+      "bytes": 10929
+    },
+    "source-text/catalog-makeupforever.json": {
+      "sha256": "599a3c033be37748c60f678ddfed95c712e8fbc0a3eddcefc6ee9fcf79ebf854",
+      "bytes": 6169
+    },
+    "source-text/catalog-matsukiyo.json": {
+      "sha256": "265c6b8b7bd780b1580a07e518a37f5f0f2ce54ba5519a23843fa1ca957eed74",
+      "bytes": 10017
+    },
+    "source-text/catalog-messy.json": {
+      "sha256": "1452b83829b26d395b168590e4766c2c247ad6ba0634322ff92373d1083c46f5",
+      "bytes": 7594
+    },
+    "source-text/catalog-mlb.json": {
+      "sha256": "8d912e352aa389913ce6169154df931c9cf352482eca246ac7cb2fbf34e24368",
+      "bytes": 229
+    },
+    "source-text/catalog-nars.json": {
+      "sha256": "bcfd8ead23c3a0ad50cdd78febb585d8f80fab7e1994b4f473b0ad0044d41d40",
+      "bytes": 229
+    },
+    "source-text/catalog-new-fredperry.json": {
+      "sha256": "23556efa8f8da791075ebf775bfc1ad8f2dbe30fae3a29da206fd3392f6775c9",
+      "bytes": 9083
+    },
+    "source-text/catalog-new-lacoste.json": {
+      "sha256": "a3f37fecbd8ac187f7f900613f82061f194e49921b695486353453600aac8725",
+      "bytes": 25814
+    },
+    "source-text/catalog-new-yslbeauty.json": {
+      "sha256": "a70368b0e5bb5f2bb651a82179ed0c39fbad9e75f1d80061e4d02d15af5e22c7",
+      "bytes": 221
+    },
+    "source-text/catalog-nike.json": {
+      "sha256": "1a2099f7451324cb1747f2a652e053c4159c921206bae3ef770931fe6c94c2df",
+      "bytes": 7771
+    },
+    "source-text/catalog-northface.json": {
+      "sha256": "1364855b7db7cd2cdbdc2fc0798a0247ea348db3617faf255034602030a2dfc8",
+      "bytes": 225
+    },
+    "source-text/catalog-owndays.json": {
+      "sha256": "9a3a961d16a3bdb746057b5280ef2dc1ec78a7deb2bd0f4c1b50ba28db6d6161",
+      "bytes": 9291
+    },
+    "source-text/catalog-passiflores.json": {
+      "sha256": "b77e21f356572efc6b7a67586cba46e6e731c531d8883128d1d14df0629a8dad",
+      "bytes": 23904
+    },
+    "source-text/catalog-phototime.json": {
+      "sha256": "c7a3d10ff716515f56d18e5fa690e1226575d694138eb0d472ca0ddb1dea1ebc",
+      "bytes": 3505
+    },
+    "source-text/catalog-pnc.json": {
+      "sha256": "a2263717d449ea51fe826100b5a30867176780539a5266a38418d2089d789c63",
+      "bytes": 10805
+    },
+    "source-text/catalog-polo.json": {
+      "sha256": "7ca1fdf09790d85ca320f7a6ef7c8c6a3c4d2e8b37d7ba93626fc113bea439eb",
+      "bytes": 9117
+    },
+    "source-text/catalog-pucini.json": {
+      "sha256": "68fe49dc214cd1838a28d7fb1f6070a9a7887469d783c78e26cc5f76637e30ff",
+      "bytes": 7671
+    },
+    "source-text/catalog-rabity.json": {
+      "sha256": "3cbe590920b827a0585546ae27fe158dabb3444825e737f7f5e4806e6ebf12d3",
+      "bytes": 14452
+    },
+    "source-text/catalog-samsonite.json": {
+      "sha256": "d5590f87244ec4bb4a72b0c6f0b8cae6f6f5890208bb6c5bed997bfbc212fea1",
+      "bytes": 22229
+    },
+    "source-text/catalog-sony.json": {
+      "sha256": "30af206a41fc4da8eb51082832925e3c213356b563f9addaca3d22109312ec3b",
+      "bytes": 7538
+    },
+    "source-text/catalog-sulwhasoo.json": {
+      "sha256": "d7fe9b92597c742f30ae72ed8a6c7ddb7be094d8059af576892b23f9a3311e80",
+      "bytes": 7876
+    },
+    "source-text/catalog-tgkc.json": {
+      "sha256": "75a573f782cd62a793f8d0d8e7c7a5c254005c0450cb74e73cb7fa1b0d7c532b",
+      "bytes": 223
+    },
+    "source-text/catalog-tutto.json": {
+      "sha256": "c0d6d31b9711a4937bb26719886185eb01c437db1622cfa669c177ebc896b79e",
+      "bytes": 8158
+    },
+    "source-text/catalog-urban.json": {
+      "sha256": "94f9d099ba14c852a72c6fc3e540eaae1ea7f490708d1e15a0bfbdc7fdb1b6e1",
+      "bytes": 15740
+    },
+    "source-text/catalog-victoria.json": {
+      "sha256": "b4be33e2d44b8a959568b2de25d07fc63b84c434351752b1da4d19bdf41c0a16",
+      "bytes": 483
+    },
+    "source-text/catalog-vincy.json": {
+      "sha256": "9248fbfdfdf4d78cb8c6dbf6d2ab5e4f6ec4904c6e231d1ece179d3478dd7d2c",
+      "bytes": 19365
+    },
+    "source-text/catalog-weekend.json": {
+      "sha256": "5100e9046021dc1406b59e09d1b622d8d1ff3acd9b0e8cc753000faa68d822e5",
+      "bytes": 2763
+    },
+    "source-text/catalog-wilson.json": {
+      "sha256": "ac308be08cd9e38701114c59ab3aecee10e3b9e60ec2a0e280e6ef623f4c0b21",
+      "bytes": 8756
+    },
+    "source-text/contact30.json": {
+      "sha256": "4c0d6b4f8dc7248e0f9a8fa7cc183038e2929415be3303f7b42adf33b7ce213d",
+      "bytes": 30641
+    },
+    "source-text/contacts31.json": {
+      "sha256": "d114ff5e3729693ec83678307f24ca8d31c396941342f9fb8a801b43e6463f11",
+      "bytes": 28475
+    },
+    "source-text/detail-cgv.json": {
+      "sha256": "899a06e6358e781f3f3977d7b2933382ad0e6759f23a5bac552fbe4dab53e45b",
+      "bytes": 281
+    },
+    "source-text/detail-clarins.json": {
+      "sha256": "28bc88a5ec5914ed645aa7ed7df745bb049ba96349164127be18a6fd29fdf3d6",
+      "bytes": 10056
+    },
+    "source-text/detail-cobrapuma.json": {
+      "sha256": "406cc7d4465cdea71d2bd75b10a9cb16d6216d996876b00e408d245e10193fa5",
+      "bytes": 305
+    },
+    "source-text/detail-facewash.json": {
+      "sha256": "62a580176c4510e593e7e158ecabc5da104445a48911cd12b089e574a2132be0",
+      "bytes": 3630
+    },
+    "source-text/detail-seha.json": {
+      "sha256": "01d06cd794554d0d1bca8d79960ac52aa4297883ceb32f8cb739176eedac6b9a",
+      "bytes": 3057
+    },
+    "source-text/detail-victoriassecret.json": {
+      "sha256": "8a19297f33041f340be5a1a7a8c2441d8b71e243c49c676732de98ef05261327",
+      "bytes": 307
+    },
+    "source-text/details34.json": {
+      "sha256": "eaaca5ff8f8629fd288f2a5b7addb33951337a1245211ddf3327b05e8c3e7946",
+      "bytes": 728
+    },
+    "source-text/find23.json": {
+      "sha256": "ab867263f8d22a115c43167f59f1ab769ead631cde498327518949e3076ea037",
+      "bytes": 25881
+    },
+    "source-text/find25.json": {
+      "sha256": "91ed567d166f6fbc91484b57a650c8bb0cc2d970022c95e3380076b4fe3836fa",
+      "bytes": 22242
+    },
+    "source-text/find27.json": {
+      "sha256": "6a8dec81c53a6f458c5955198c9f1fe2e3a813ed9aa0dd932a3f884c38f4eb35",
+      "bytes": 25358
+    },
+    "source-text/fred-product46.json": {
+      "sha256": "091c8a10ab059d52880a02eff1a3c187a969cffb094d61ed2013d1045e3c6956",
+      "bytes": 13849
+    },
+    "source-text/gold-store-follow39.json": {
+      "sha256": "bca571717546e196c0b7df5b3c32504135a3e016d586a331c286829310da1436",
+      "bytes": 531
+    },
+    "source-text/locator-follow35.json": {
+      "sha256": "2bf780ffa5f12383ad056b6c4189141f0733e87200308affaeafa52cf1524f3e",
+      "bytes": 23490
+    },
+    "source-text/locator-follow36.json": {
+      "sha256": "12fab4de68ca5df70f77e395a8d30336fa3a195d84429e99ddd3905ca5d937aa",
+      "bytes": 24044
+    },
+    "source-text/locator-follow37.json": {
+      "sha256": "2cb910d6f52c5581068f33d4213a277103304baea98c310ea285eee425aeb151",
+      "bytes": 25902
+    },
+    "source-text/locator-follow38.json": {
+      "sha256": "6517967cc422df158887f66ac7343cad0440ad75a607e4b1f52e6d75fdd257c6",
+      "bytes": 19232
+    },
+    "source-text/locator-hm.json": {
+      "sha256": "7079fd162abca8eef910b12cac9ec9c8d969f6cd82b964bccbc953f2899627fd",
+      "bytes": 27762
+    },
+    "source-text/locator-longbeach.json": {
+      "sha256": "9f2b0cc6dee41f853fe18605c80cfe39813b1ea64f4ff6fc10acfa48048a2a89",
+      "bytes": 4374
+    },
+    "source-text/locator-messy.json": {
+      "sha256": "8c9da67cb8703dafc46b948531d5d4f1ee39d6a0a7119317019de0b7b331e8c7",
+      "bytes": 5714
+    },
+    "source-text/locator-mlb.json": {
+      "sha256": "121b8a07db96a520c9855fc2ea500edc4ec16ebc917ddd091e66b2d2f26812b3",
+      "bytes": 452
+    },
+    "source-text/locator-new-cotton.json": {
+      "sha256": "364aab4cea025fff70ad2219e2230ea6ca883637dba6a460db22eacf9c615852",
+      "bytes": 10149
+    },
+    "source-text/locator-new-crocs.json": {
+      "sha256": "6c6ca8c947e27c012f49596fbd97a36f4545682d3cb2759a69c855f0cb7d9b01",
+      "bytes": 5834
+    },
+    "source-text/locator-new-gigi.json": {
+      "sha256": "2cadc6f14991827ae9d223683e294911b9335f0dfcae8b19f7b5176407af22a8",
+      "bytes": 12163
+    },
+    "source-text/locator-new-havaianas.json": {
+      "sha256": "3251887dba68c07b5a9472018f66178d76d5f6db6736886f10a12812f547e250",
+      "bytes": 9410
+    },
+    "source-text/locator-new-lacoste.json": {
+      "sha256": "3f19380dbaa7962f1bdcbc3127ea0f38fc940d5dd7f6dc330aaea009250c698f",
+      "bytes": 24545
+    },
+    "source-text/locator-pucini.json": {
+      "sha256": "a87e66fe1f3a70f788d88a0b450fc621de476cbfffe37b3777d1a22fb7cb83a7",
+      "bytes": 12668
+    },
+    "source-text/locator-samsonite.json": {
+      "sha256": "3d87c393c6da76aec08134a1a8aa334b3c1fa6cb2989683a8e4c58fe21290e0b",
+      "bytes": 23040
+    },
+    "source-text/locator-urban.json": {
+      "sha256": "b0f5a909462f6ec7b9ea0d6b36909d4f3a4437749c9587d6dfac299452b47617",
+      "bytes": 12542
+    },
+    "source-text/locator-wilson.json": {
+      "sha256": "93b431c15d3ba458d1f3fa96373fa7cff43cc70dae991129e03c35d3c305511d",
+      "bytes": 12243
+    },
+    "source-text/mall-an-phuoc.json": {
+      "sha256": "409d43ce54cd4dc52d9e3fc2edcfb18e66ae3cd360740c2b0074404d451e3269",
+      "bytes": 6549
+    },
+    "source-text/mall-bobbi-brown.json": {
+      "sha256": "f0a18c58b3d6f99f1820bd2d44cec3b8e0bb1159931a13dc2886366154cd413d",
+      "bytes": 10750
+    },
+    "source-text/mall-clarins.json": {
+      "sha256": "39e47688619113d0faf35a7e3ed12107bec01a5f7074059c1b97040d8d064405",
+      "bytes": 289
+    },
+    "source-text/mall-cotton-on.json": {
+      "sha256": "35fc95a05d86cfde2989c658f95fa41edf6a6fbe35570eb2edb2228fc60913c7",
+      "bytes": 293
+    },
+    "source-text/mall-face-wash-fox.json": {
+      "sha256": "a8eb15341d766c4855e9ea03ca6a99e64a8ff2682e9a7d8a2e2084b32cc35ca9",
+      "bytes": 301
+    },
+    "source-text/mall-guess.json": {
+      "sha256": "3c9fc80839ae42e14ac82790e6a08b0306563d3f74a9e47b6b0b96936ca5260a",
+      "bytes": 5465
+    },
+    "source-text/mall-lacoste.json": {
+      "sha256": "44a34699a2cc032787b3b1f824e4272ed92166764347c6a1931325675c5851b7",
+      "bytes": 11908
+    },
+    "source-text/mall-levis.json": {
+      "sha256": "8013c2089bc38a2ae977a086aa30ec5273e9f051c53cf498a247cd5380c3effb",
+      "bytes": 18437
+    },
+    "source-text/mall-nars.json": {
+      "sha256": "8685a4b3ea9c82acf9519f11fa170743f88efafbc07686bfbc12af7e5bdbd7a8",
+      "bytes": 3899
+    },
+    "source-text/mall-nike.json": {
+      "sha256": "36a516810458579c7c505cb3addf7aa197e44baf20bc11dac4c48506cde72b6e",
+      "bytes": 19106
+    },
+    "source-text/mall-owndays.json": {
+      "sha256": "ff83d87bf6e4fe0762ecd151ca82f0e28307911e802b5374c4f33dea52479a52",
+      "bytes": 7091
+    },
+    "source-text/mall-the-body-shop.json": {
+      "sha256": "87cac7981ad0bed3f73ae7c139f307f2be254e2ad72096dec892579024f75236",
+      "bytes": 7159
+    },
+    "source-text/offering-holds42.json": {
+      "sha256": "bb16b0d74f737c1d95bcb671b3ed4b4bd67dd29d527ced0f43dc30079dc77879",
+      "bytes": 29752
+    },
+    "source-text/offering-leads44.json": {
+      "sha256": "ea5fc75fcc5205a7e2d4ce0d26e94f995f2cf698b2f8b23b782e9841d30729e3",
+      "bytes": 28737
+    },
+    "source-text/offering-more45.json": {
+      "sha256": "b046fabeb961c005b0c789acc54dfe958c1ec09afac382c1ae9fdee1c2e6190e",
+      "bytes": 27102
+    },
+    "source-text/offering-read43.json": {
+      "sha256": "22a6dc51f6a5e6a224124c1b1284828c43018dbd7a14d95116d6e08ef2873520",
+      "bytes": 12660
+    },
+    "source-text/open22.json": {
+      "sha256": "0f2722e0dddd0618c45910f56e95f266f7ff4b6e523fd870b26a1a0c9bc3ae42",
+      "bytes": 25370
+    },
+    "source-text/open24.json": {
+      "sha256": "857d921aad0df66b4ddf00514f7552799206a93837d2543fc99283dc86ea034b",
+      "bytes": 25852
+    },
+    "source-text/open26.json": {
+      "sha256": "8c7051794fd0c763fcc1ab93ef8241d60a9e6befb9b704d6caa77a02b6a093d4",
+      "bytes": 28814
+    },
+    "source-text/s10.json": {
+      "sha256": "e7baa38bc780e96586a86b003427432fb210f2e22ef38cc05a13cdfa1d899a28",
+      "bytes": 30121
+    },
+    "source-text/s11.json": {
+      "sha256": "bedae292ac347156b821bf002bdc1ce4c864acfb8f0e732b85ad7139e064d9e3",
+      "bytes": 32212
+    },
+    "source-text/s12.json": {
+      "sha256": "f7ef9a10a46fa260a5d289099bcaa45bf058fa56bd751e66dabcbb85e4b46cd8",
+      "bytes": 27089
+    },
+    "source-text/s13.json": {
+      "sha256": "4612b03f06e31334a1b2bd2c071f6f00a689c5f27233c5b531f50444313a89e8",
+      "bytes": 30103
+    },
+    "source-text/s14.json": {
+      "sha256": "edc5b60fa2f5c3efb62513e873843f5b19feb2dc678e4ac6cffa99fba1eb4434",
+      "bytes": 26609
+    },
+    "source-text/s15.json": {
+      "sha256": "8a1d60cb766f6b6d4166ef7324d1a9110ec222d9057b9b2fd4ca863116ac65e4",
+      "bytes": 25834
+    },
+    "source-text/s16.json": {
+      "sha256": "f19bb0eec7da1859fec7f9ba6c5be470555dd75d49b3a7937ba71da2bf522028",
+      "bytes": 33878
+    },
+    "source-text/s17.json": {
+      "sha256": "554da88bc3bea6d6e4a63098416c9952073b126bd5c2f7447ed9085fc76534bc",
+      "bytes": 25942
+    },
+    "source-text/s18.json": {
+      "sha256": "eba750b736eb5f08af059b2ac661f6b17459e70d7b9d61f051cbc3410bb49fa4",
+      "bytes": 26106
+    },
+    "source-text/s19.json": {
+      "sha256": "3f14e52fc1a4684a63d13076b121598f096ebdfd8f817c4ef07c82be5f8fbed7",
+      "bytes": 28350
+    },
+    "source-text/s20.json": {
+      "sha256": "2bb0e40baf7b47df8bc892ca8f7e4770fac2becf19cfb76ce6c7634f279facbc",
+      "bytes": 23103
+    },
+    "source-text/s21.json": {
+      "sha256": "be036ed3cccbf43f57108bf491a2d704c9336b9781b02db213a7cd46522ad0fe",
+      "bytes": 27558
+    },
+    "source-text/s5.json": {
+      "sha256": "28f0ec50e9ae4218d959ad814951e0893d8aa31bf30846da3a929fa01b84fd0f",
+      "bytes": 27672
+    },
+    "source-text/s6.json": {
+      "sha256": "934b1b4153e74c6b64d94025dd83bf2e616c8b132cb194c5a539b7ef319dc0a7",
+      "bytes": 27494
+    },
+    "source-text/s7.json": {
+      "sha256": "035b9c11cbc8798e90f918f69d2a900c27df77af1563f8403eb7f73d59119881",
+      "bytes": 26482
+    },
+    "source-text/s8.json": {
+      "sha256": "8fcc2394c5e62f170d99ee44af2b6e51fdf9dd55eb0dc153f4d71a8c0e9a27eb",
+      "bytes": 33138
+    },
+    "source-text/s9.json": {
+      "sha256": "628fd296a99d9f99f5c8c7109f15fa829257203a0e4544cadb09598fcd7194e1",
+      "bytes": 32019
+    },
+    "source-text/search1.json": {
+      "sha256": "44933799d85329fa68d31b10007f904012c7b60c4eefffdebcb90e3dedf3b784",
+      "bytes": 28389
+    },
+    "source-text/search28.json": {
+      "sha256": "fb4073c6b19144b6e53e9e674ebf425181cc73d58a07578dd91a0e02800517d7",
+      "bytes": 29948
+    },
+    "source-text/search29.json": {
+      "sha256": "9c9309ba5f4fa4edf56629f927f8e3063cc414c26dfb323b714bd8552eeb3c6b",
+      "bytes": 26242
+    },
+    "source-text/search4.json": {
+      "sha256": "6e2780da32b7fab353f314826afe36a90059d05c379ab7f94f5fbe4f4d553eaf",
+      "bytes": 29858
+    },
+    "source-text/source2.json": {
+      "sha256": "924943ea0e56a7f8eb55cad0831cff688317d835df33edb546d46be8ef729542",
+      "bytes": 24785
+    },
+    "source-text/source3.json": {
+      "sha256": "df0f4dbd6d7b8a545232690219a594957d48f9f43aefd382254467b5497aae41",
+      "bytes": 24833
+    },
+    "source-text/targeted-0.json": {
+      "sha256": "399b1b96cd8065550a1e718d528c1742dd4a4eb974c39c89299782b28c9942e7",
+      "bytes": 30676
+    },
+    "source-text/targeted-12.json": {
+      "sha256": "02a6f5b51b8073877b7b9415228efeeb6fd6a072e8917e4dac199e3cc65bb760",
+      "bytes": 30954
+    },
+    "source-text/targeted-16.json": {
+      "sha256": "f01a55acd5765f4ee6123d8ca74db6671f7b5e0cdcbc18291fb1b9e535b6d84c",
+      "bytes": 28421
+    },
+    "source-text/targeted-20.json": {
+      "sha256": "2c4834acf4b04dcd3a2a6b142436fa2c3d4e580c98dadc67d0c53015119cc8eb",
+      "bytes": 32271
+    },
+    "source-text/targeted-24.json": {
+      "sha256": "cea7e0bf0d1efe41ff88908fb22fb7bd0aca4ac86700c281d63c551072046830",
+      "bytes": 31939
+    },
+    "source-text/targeted-28.json": {
+      "sha256": "05c1d852ff3a426a304cb81a0d4dc5576fbe621a86f48918a124304d63914d78",
+      "bytes": 31771
+    },
+    "source-text/targeted-32.json": {
+      "sha256": "e9e81a9ee16452655df50129437a156d327bca9f080d81357d7863bbafa5ebb8",
+      "bytes": 30813
+    },
+    "source-text/targeted-36.json": {
+      "sha256": "589a34078fb8547c2f66c650aed98692a3326d93175ad95c65f18d583f14dfca",
+      "bytes": 32415
+    },
+    "source-text/targeted-4.json": {
+      "sha256": "17294c3946c5e7a712bfaa60105044e12d5fcb1f3d1fcf91c1cf2920624bc3e1",
+      "bytes": 32134
+    },
+    "source-text/targeted-40.json": {
+      "sha256": "2946fa9c708c25bb0e9ad60010389ee522f339350d75624c863d6c018fa613e1",
+      "bytes": 28303
+    },
+    "source-text/targeted-44.json": {
+      "sha256": "3969482e6c5be6dc494b3afd68dcffe5f36fdbfdd31e5fb389610bd89d3fbe50",
+      "bytes": 25516
+    },
+    "source-text/targeted-48.json": {
+      "sha256": "0771949dd9200bbffe60511ec318fb8825a333aac1da7309c33374b4d2a298fb",
+      "bytes": 25414
+    },
+    "source-text/targeted-52.json": {
+      "sha256": "37049c4d87535de64c3b3081179673aa9d7be65427ceb39bedc84af05bc0b2e3",
+      "bytes": 31751
+    },
+    "source-text/targeted-56.json": {
+      "sha256": "f1caef61b46bf3af477fda4acea57a980dbab8cc55d449b8984c994f7d9e2a3d",
+      "bytes": 29174
+    },
+    "source-text/targeted-60.json": {
+      "sha256": "a17fd804565c1edc0a3ee0b0afc8bc4b666c5038c10d6edbc88b3f8a68fd57e1",
+      "bytes": 27985
+    },
+    "source-text/targeted-64.json": {
+      "sha256": "9275cd9f22dbcce9228e3b8ed8fc0a0cd33755d15b6d6e7865aa2c05e61789f9",
+      "bytes": 25525
+    },
+    "source-text/targeted-68.json": {
+      "sha256": "85586b2ed3d40c4a12bfca280610ea3b35f20774d74d320de78c64cc179496a0",
+      "bytes": 27180
+    },
+    "source-text/targeted-72.json": {
+      "sha256": "47ef11ed80a3a912b707fdad83324f32984b7396abcfd0fb8f233d121694383e",
+      "bytes": 30998
+    },
+    "source-text/targeted-8.json": {
+      "sha256": "c2b5a0bcf5efcfd72c30099c8e3dca49792903f545d430c3bf2cd8b1c30afc3e",
+      "bytes": 30815
+    }
+  }
+}

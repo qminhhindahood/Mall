@@ -1,0 +1,997 @@
+{
+  "revision": "vincom-retail-a-r3-research-2026-10-20",
+  "decisions": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-009",
+      "name": {
+        "vi": "Aqua",
+        "en": "Aqua"
+      },
+      "field": "website",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://milensea.com.vn/collections/aqua-mineral",
+          "evidenceFile": "source-text/aqua-products41.json",
+          "reference": "turn804view0",
+          "section": "website content",
+          "result": "retrieved",
+          "support": "Frozen accepted description explicitly identifies Aqua Mineral Dead Sea skincare, resolving the abbreviated Aqua name without roster changes. Actual official Vietnam distributor brand collection page, company MilenSea Retail identified in footer."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Aqua\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-0.json",
+          "result": "See full preserved actual search response; only official sources considered for proposals, third-party contacts/hours excluded."
+        }
+      ],
+      "reason": "Frozen accepted description explicitly identifies Aqua Mineral Dead Sea skincare, resolving the abbreviated Aqua name without roster changes. Actual official Vietnam distributor brand collection page, company MilenSea Retail identified in footer.",
+      "remainingAction": null,
+      "applicability": "brand-wide",
+      "attempts": [
+        {
+          "action": "read prior r2 mall/brand receipts and r3 accepted source index",
+          "result": "Checked exact frozen identity; baseline field objects preserved."
+        },
+        {
+          "action": "search official brand plus exact mall/branch identity",
+          "evidenceFile": "source-text/s21.json",
+          "result": "Identity unresolved: frozen Aqua has no unique official brand binding. Searches return unrelated Aqua fashion retailer, Aqua Mineral cosmetics and appliance names; no authoritative exact counter binding retrieved."
+        },
+        {
+          "action": "open official brand source",
+          "url": null,
+          "evidenceFile": "source-text/s21.json",
+          "result": "See retained response including any exact HTTP/shell error."
+        },
+        {
+          "action": "exact branch phone/hours search",
+          "query": "\"Aqua\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-0.json",
+          "result": "Actual search response retained; no global absence claim."
+        },
+        {
+          "action": "resolve abbreviated name from frozen accepted description and retrieve actual official distributor collection/locator",
+          "evidenceFile": "source-text/aqua-products41.json",
+          "result": "Aqua Mineral identity and actual products/support verified; proper store locator400 Timeout in source-text/gold-store-follow39.json."
+        }
+      ],
+      "proposedField": {
+        "field": "website",
+        "state": "verified-proposal",
+        "sourceUrl": "https://milensea.com.vn/collections/aqua-mineral",
+        "evidence": "Frozen accepted description explicitly identifies Aqua Mineral Dead Sea skincare, resolving the abbreviated Aqua name without roster changes. Actual official Vietnam distributor brand collection page, company MilenSea Retail identified in footer. Evidence: source-text/aqua-products41.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://milensea.com.vn/collections/aqua-mineral"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-009",
+      "name": {
+        "vi": "Aqua",
+        "en": "Aqua"
+      },
+      "field": "phone",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://milensea.com.vn/collections/aqua-mineral",
+          "evidenceFile": "source-text/aqua-products41.json",
+          "reference": "turn804view0",
+          "section": "phone content",
+          "result": "retrieved",
+          "support": "Frozen accepted description explicitly identifies Aqua Mineral Dead Sea skincare, resolving the abbreviated Aqua name without roster changes. Official distributor header explicitly labels02835113525 as support contact; general distributor contact only."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Aqua\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-0.json",
+          "result": "See full preserved actual search response; only official sources considered for proposals, third-party contacts/hours excluded."
+        }
+      ],
+      "reason": "Frozen accepted description explicitly identifies Aqua Mineral Dead Sea skincare, resolving the abbreviated Aqua name without roster changes. Official distributor header explicitly labels02835113525 as support contact; general distributor contact only.",
+      "remainingAction": null,
+      "applicability": "brand-wide",
+      "attempts": [
+        {
+          "action": "read prior r2 mall/brand receipts and r3 accepted source index",
+          "result": "Checked exact frozen identity; baseline field objects preserved."
+        },
+        {
+          "action": "search official brand plus exact mall/branch identity",
+          "evidenceFile": "source-text/s21.json",
+          "result": "Identity unresolved: frozen Aqua has no unique official brand binding. Searches return unrelated Aqua fashion retailer, Aqua Mineral cosmetics and appliance names; no authoritative exact counter binding retrieved."
+        },
+        {
+          "action": "open official brand source",
+          "url": null,
+          "evidenceFile": "source-text/s21.json",
+          "result": "See retained response including any exact HTTP/shell error."
+        },
+        {
+          "action": "exact branch phone/hours search",
+          "query": "\"Aqua\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-0.json",
+          "result": "Actual search response retained; no global absence claim."
+        },
+        {
+          "action": "resolve abbreviated name from frozen accepted description and retrieve actual official distributor collection/locator",
+          "evidenceFile": "source-text/aqua-products41.json",
+          "result": "Aqua Mineral identity and actual products/support verified; proper store locator400 Timeout in source-text/gold-store-follow39.json."
+        }
+      ],
+      "proposedField": {
+        "field": "phone",
+        "state": "verified-proposal",
+        "sourceUrl": "https://milensea.com.vn/collections/aqua-mineral",
+        "evidence": "Frozen accepted description explicitly identifies Aqua Mineral Dead Sea skincare, resolving the abbreviated Aqua name without roster changes. Official distributor header explicitly labels02835113525 as support contact; general distributor contact only. Evidence: source-text/aqua-products41.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Liên hệ hỗ trợ chung của thương hiệu hoặc nhà phân phối; không phải số riêng của chi nhánh Vincom Đồng Khởi.",
+          "en": "General brand or distributor support contact; not a dedicated Vincom Dong Khoi branch line."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "02835113525",
+          "en": "02835113525"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-009",
+      "name": {
+        "vi": "Aqua",
+        "en": "Aqua"
+      },
+      "field": "hours",
+      "outcome": "hold",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://milensea.com.vn/pages/dia-chi-cua-hang",
+          "evidenceFile": "source-text/gold-store-follow39.json",
+          "reference": "turn798view0",
+          "section": "hours content",
+          "result": "retrieved",
+          "support": "Frozen accepted description explicitly identifies Aqua Mineral Dead Sea skincare, resolving the abbreviated Aqua name without roster changes. The actual Cửa hàng locator link returns400 Timeout; readable catalogue has no exact Dong Khoi opening-hours block. Hours remain a branch-source access hold."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Aqua\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-0.json",
+          "result": "See full preserved actual search response; only official sources considered for proposals, third-party contacts/hours excluded."
+        }
+      ],
+      "reason": "Frozen accepted description explicitly identifies Aqua Mineral Dead Sea skincare, resolving the abbreviated Aqua name without roster changes. The actual Cửa hàng locator link returns400 Timeout; readable catalogue has no exact Dong Khoi opening-hours block. Hours remain a branch-source access hold.",
+      "remainingAction": "Retrieve the official distributor locator once accessible, and verify exact Aqua Mineral Dong Khoi branch hours.",
+      "applicability": "brand-wide",
+      "attempts": [
+        {
+          "action": "read prior r2 mall/brand receipts and r3 accepted source index",
+          "result": "Checked exact frozen identity; baseline field objects preserved."
+        },
+        {
+          "action": "search official brand plus exact mall/branch identity",
+          "evidenceFile": "source-text/s21.json",
+          "result": "Identity unresolved: frozen Aqua has no unique official brand binding. Searches return unrelated Aqua fashion retailer, Aqua Mineral cosmetics and appliance names; no authoritative exact counter binding retrieved."
+        },
+        {
+          "action": "open official brand source",
+          "url": null,
+          "evidenceFile": "source-text/s21.json",
+          "result": "See retained response including any exact HTTP/shell error."
+        },
+        {
+          "action": "exact branch phone/hours search",
+          "query": "\"Aqua\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-0.json",
+          "result": "Actual search response retained; no global absence claim."
+        },
+        {
+          "action": "resolve abbreviated name from frozen accepted description and retrieve actual official distributor collection/locator",
+          "evidenceFile": "source-text/aqua-products41.json",
+          "result": "Aqua Mineral identity and actual products/support verified; proper store locator400 Timeout in source-text/gold-store-follow39.json."
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-009",
+      "name": {
+        "vi": "Aqua",
+        "en": "Aqua"
+      },
+      "field": "catalog",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://milensea.com.vn/collections/aqua-mineral",
+          "evidenceFile": "source-text/aqua-products41.json",
+          "reference": "turn804view0",
+          "section": "catalog content",
+          "result": "retrieved",
+          "support": "Frozen accepted description explicitly identifies Aqua Mineral Dead Sea skincare, resolving the abbreviated Aqua name without roster changes. Actual Aqua Mineral product listings include body butter, shampoo, peeling gel, eye gel, facial cream, masks, serum and toner with prices; Vietnam distributor catalogue, not branch stock."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Aqua\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-0.json",
+          "result": "See full preserved actual search response; only official sources considered for proposals, third-party contacts/hours excluded."
+        }
+      ],
+      "reason": "Frozen accepted description explicitly identifies Aqua Mineral Dead Sea skincare, resolving the abbreviated Aqua name without roster changes. Actual Aqua Mineral product listings include body butter, shampoo, peeling gel, eye gel, facial cream, masks, serum and toner with prices; Vietnam distributor catalogue, not branch stock.",
+      "remainingAction": null,
+      "applicability": "brand-wide",
+      "attempts": [
+        {
+          "action": "read prior r2 mall/brand receipts and r3 accepted source index",
+          "result": "Checked exact frozen identity; baseline field objects preserved."
+        },
+        {
+          "action": "search official brand plus exact mall/branch identity",
+          "evidenceFile": "source-text/s21.json",
+          "result": "Identity unresolved: frozen Aqua has no unique official brand binding. Searches return unrelated Aqua fashion retailer, Aqua Mineral cosmetics and appliance names; no authoritative exact counter binding retrieved."
+        },
+        {
+          "action": "open official brand source",
+          "url": null,
+          "evidenceFile": "source-text/s21.json",
+          "result": "See retained response including any exact HTTP/shell error."
+        },
+        {
+          "action": "exact branch phone/hours search",
+          "query": "\"Aqua\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-0.json",
+          "result": "Actual search response retained; no global absence claim."
+        },
+        {
+          "action": "resolve abbreviated name from frozen accepted description and retrieve actual official distributor collection/locator",
+          "evidenceFile": "source-text/aqua-products41.json",
+          "result": "Aqua Mineral identity and actual products/support verified; proper store locator400 Timeout in source-text/gold-store-follow39.json."
+        }
+      ],
+      "proposedField": {
+        "field": "catalog",
+        "state": "verified-proposal",
+        "sourceUrl": "https://milensea.com.vn/collections/aqua-mineral",
+        "evidence": "Frozen accepted description explicitly identifies Aqua Mineral Dead Sea skincare, resolving the abbreviated Aqua name without roster changes. Actual Aqua Mineral product listings include body butter, shampoo, peeling gel, eye gel, facial cream, masks, serum and toner with prices; Vietnam distributor catalogue, not branch stock. Evidence: source-text/aqua-products41.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://milensea.com.vn/collections/aqua-mineral"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-009",
+      "name": {
+        "vi": "Aqua",
+        "en": "Aqua"
+      },
+      "field": "services",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://milensea.com.vn/collections/aqua-mineral",
+          "evidenceFile": "source-text/aqua-products41.json",
+          "reference": "turn804view0",
+          "section": "services content",
+          "result": "retrieved",
+          "support": "Frozen accepted description explicitly identifies Aqua Mineral Dead Sea skincare, resolving the abbreviated Aqua name without roster changes. Actual listed skincare, body-care and hair-care products support a product-offering summary; no branch treatment service inferred."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Aqua\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-0.json",
+          "result": "See full preserved actual search response; only official sources considered for proposals, third-party contacts/hours excluded."
+        }
+      ],
+      "reason": "Frozen accepted description explicitly identifies Aqua Mineral Dead Sea skincare, resolving the abbreviated Aqua name without roster changes. Actual listed skincare, body-care and hair-care products support a product-offering summary; no branch treatment service inferred.",
+      "remainingAction": null,
+      "applicability": "brand-wide",
+      "attempts": [
+        {
+          "action": "read prior r2 mall/brand receipts and r3 accepted source index",
+          "result": "Checked exact frozen identity; baseline field objects preserved."
+        },
+        {
+          "action": "search official brand plus exact mall/branch identity",
+          "evidenceFile": "source-text/s21.json",
+          "result": "Identity unresolved: frozen Aqua has no unique official brand binding. Searches return unrelated Aqua fashion retailer, Aqua Mineral cosmetics and appliance names; no authoritative exact counter binding retrieved."
+        },
+        {
+          "action": "open official brand source",
+          "url": null,
+          "evidenceFile": "source-text/s21.json",
+          "result": "See retained response including any exact HTTP/shell error."
+        },
+        {
+          "action": "exact branch phone/hours search",
+          "query": "\"Aqua\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-0.json",
+          "result": "Actual search response retained; no global absence claim."
+        },
+        {
+          "action": "resolve abbreviated name from frozen accepted description and retrieve actual official distributor collection/locator",
+          "evidenceFile": "source-text/aqua-products41.json",
+          "result": "Aqua Mineral identity and actual products/support verified; proper store locator400 Timeout in source-text/gold-store-follow39.json."
+        }
+      ],
+      "proposedField": {
+        "field": "services",
+        "state": "verified-proposal",
+        "sourceUrl": "https://milensea.com.vn/collections/aqua-mineral",
+        "evidence": "Frozen accepted description explicitly identifies Aqua Mineral Dead Sea skincare, resolving the abbreviated Aqua name without roster changes. Actual listed skincare, body-care and hair-care products support a product-offering summary; no branch treatment service inferred. Evidence: source-text/aqua-products41.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "Chăm sóc da mặt, cơ thể và tóc: kem dưỡng, mặt nạ, serum, toner, bơ dưỡng thể và dầu gội (danh mục Aqua Mineral của nhà phân phối tại Việt Nam).",
+          "en": "Face, body and hair care: creams, masks, serums, toner, body butter and shampoo (Aqua Mineral distributor range in Vietnam)."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-cgv",
+      "name": {
+        "vi": "CGV",
+        "en": "CGV"
+      },
+      "field": "hours",
+      "outcome": "hold",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.cgv.vn/en/cinox/site/cgv-vincom-dong-khoi",
+          "evidenceFile": "source-text/alternative-cgv.json",
+          "reference": "turn736view0",
+          "section": "hours content",
+          "result": "retrieved",
+          "support": "Official English branch page inaccessible and Vietnamese counterpart times out. Search-only showtime/GoldClass leads are retained but not promoted as actual service retrieval; no official opening schedule read. Specific unresolved field: hours."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"CGV\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-28.json",
+          "result": "See full preserved actual search response; only official sources considered for proposals, third-party contacts/hours excluded."
+        }
+      ],
+      "reason": "Official English branch page inaccessible and Vietnamese counterpart times out. Search-only showtime/GoldClass leads are retained but not promoted as actual service retrieval; no official opening schedule read. Specific unresolved field: hours.",
+      "remainingAction": "Retrieve readable official CGV hours source with exact frozen brand identity and stated branch or brand-wide applicability.",
+      "applicability": "brand-wide",
+      "attempts": [
+        {
+          "action": "open newly indexed encoded Vietnamese branch route",
+          "url": "https://www.cgv.vn/default/cinox/site/cgv-vincom-dong-khoi/%2Fdefault%2Fcinox%2Fsite%2Fcgv-vincom-dong-khoi%2F",
+          "evidenceFile": "source-text/offering-more45.json",
+          "result": "InternalError; showtime/ticket service content remains indexed-only, not actual retrieved source."
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-cgv",
+      "name": {
+        "vi": "CGV",
+        "en": "CGV"
+      },
+      "field": "services",
+      "outcome": "hold",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.cgv.vn/en/cinox/site/cgv-vincom-dong-khoi",
+          "evidenceFile": "source-text/alternative-cgv.json",
+          "reference": "turn736view0",
+          "section": "services content",
+          "result": "retrieved",
+          "support": "Official English branch page inaccessible and Vietnamese counterpart times out. Search-only showtime/GoldClass leads are retained but not promoted as actual service retrieval; no official opening schedule read. Specific unresolved field: services."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"CGV\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-28.json",
+          "result": "See full preserved actual search response; only official sources considered for proposals, third-party contacts/hours excluded."
+        }
+      ],
+      "reason": "Official English branch page inaccessible and Vietnamese counterpart times out. Search-only showtime/GoldClass leads are retained but not promoted as actual service retrieval; no official opening schedule read. Specific unresolved field: services.",
+      "remainingAction": "Retrieve readable official CGV services source with exact frozen brand identity and stated branch or brand-wide applicability.",
+      "applicability": "brand-wide",
+      "attempts": [
+        {
+          "action": "open newly indexed encoded Vietnamese branch route",
+          "url": "https://www.cgv.vn/default/cinox/site/cgv-vincom-dong-khoi/%2Fdefault%2Fcinox%2Fsite%2Fcgv-vincom-dong-khoi%2F",
+          "evidenceFile": "source-text/offering-more45.json",
+          "result": "InternalError; showtime/ticket service content remains indexed-only, not actual retrieved source."
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-facewashfox",
+      "name": {
+        "vi": "Face Wash Fox",
+        "en": "Face Wash Fox"
+      },
+      "field": "website",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.facewashfox.com/dich-vu",
+          "evidenceFile": "source-text/offering-read43.json",
+          "reference": "turn811view3",
+          "section": "website content",
+          "result": "retrieved",
+          "support": "Official Face Wash Fox service page supplies substantive brand identity and treatment offerings; branch availability not asserted."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Face Wash Fox\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-36.json",
+          "result": "See full preserved actual search response; only official sources considered for proposals, third-party contacts/hours excluded."
+        }
+      ],
+      "reason": "Official Face Wash Fox service page supplies substantive brand identity and treatment offerings; branch availability not asserted.",
+      "remainingAction": null,
+      "applicability": "brand-wide",
+      "attempts": [
+        {
+          "action": "review r2 research and independently accepted source index",
+          "result": "Exact identity/brand-wide reuse checked; accepted baseline objects remain untouched."
+        },
+        {
+          "action": "retrieve official source after exact branch/brand search",
+          "url": "https://app.facewashfox.com/dich-vu-khach-hang/face-wash-fox",
+          "evidenceFile": "source-text/detail-facewash.json",
+          "result": "Actual official app locator has15-line navigation shell; official price article has no readable pricing/body (possibly image/dynamic). Mall name search describes facial wash but actual old branch URL is inaccessible. No exact branch facts or readable service catalogue verified."
+        },
+        {
+          "action": "exact branch phone/hours search",
+          "query": "\"Face Wash Fox\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-36.json",
+          "result": "Actual search response retained; no global absence claim."
+        }
+      ],
+      "proposedField": {
+        "field": "website",
+        "state": "verified-proposal",
+        "sourceUrl": "https://www.facewashfox.com/dich-vu",
+        "evidence": "Official Face Wash Fox service page supplies substantive brand identity and treatment offerings; branch availability not asserted. Evidence: source-text/offering-read43.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://www.facewashfox.com/dich-vu"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-facewashfox",
+      "name": {
+        "vi": "Face Wash Fox",
+        "en": "Face Wash Fox"
+      },
+      "field": "phone",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.facewashfox.com/dich-vu",
+          "evidenceFile": "source-text/offering-read43.json",
+          "reference": "turn811view3",
+          "section": "phone content",
+          "result": "retrieved",
+          "support": "Official contact footer gives0889866666 as general company contact; no dedicated Dong Khoi line claimed."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Face Wash Fox\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-36.json",
+          "result": "See full preserved actual search response; only official sources considered for proposals, third-party contacts/hours excluded."
+        }
+      ],
+      "reason": "Official contact footer gives0889866666 as general company contact; no dedicated Dong Khoi line claimed.",
+      "remainingAction": null,
+      "applicability": "brand-wide",
+      "attempts": [
+        {
+          "action": "review r2 research and independently accepted source index",
+          "result": "Exact identity/brand-wide reuse checked; accepted baseline objects remain untouched."
+        },
+        {
+          "action": "retrieve official source after exact branch/brand search",
+          "url": "https://app.facewashfox.com/dich-vu-khach-hang/face-wash-fox",
+          "evidenceFile": "source-text/detail-facewash.json",
+          "result": "Actual official app locator has15-line navigation shell; official price article has no readable pricing/body (possibly image/dynamic). Mall name search describes facial wash but actual old branch URL is inaccessible. No exact branch facts or readable service catalogue verified."
+        },
+        {
+          "action": "exact branch phone/hours search",
+          "query": "\"Face Wash Fox\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-36.json",
+          "result": "Actual search response retained; no global absence claim."
+        }
+      ],
+      "proposedField": {
+        "field": "phone",
+        "state": "verified-proposal",
+        "sourceUrl": "https://www.facewashfox.com/dich-vu",
+        "evidence": "Official contact footer gives0889866666 as general company contact; no dedicated Dong Khoi line claimed. Evidence: source-text/offering-read43.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Liên hệ hỗ trợ chung của thương hiệu hoặc nhà phân phối; không phải số riêng của chi nhánh Vincom Đồng Khởi.",
+          "en": "General brand or distributor support contact; not a dedicated Vincom Dong Khoi branch line."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "0889866666",
+          "en": "0889866666"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-facewashfox",
+      "name": {
+        "vi": "Face Wash Fox",
+        "en": "Face Wash Fox"
+      },
+      "field": "catalog",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.facewashfox.com/dich-vu",
+          "evidenceFile": "source-text/offering-read43.json",
+          "reference": "turn811view3",
+          "section": "catalog content",
+          "result": "retrieved",
+          "support": "Actual official treatment catalogue names Deep Cleanse, Cryo Cleanse, Lumiglow, Gymming, Eye-revive and combination treatments with durations and prices; brand-wide service catalogue."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Face Wash Fox\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-36.json",
+          "result": "See full preserved actual search response; only official sources considered for proposals, third-party contacts/hours excluded."
+        }
+      ],
+      "reason": "Actual official treatment catalogue names Deep Cleanse, Cryo Cleanse, Lumiglow, Gymming, Eye-revive and combination treatments with durations and prices; brand-wide service catalogue.",
+      "remainingAction": null,
+      "applicability": "brand-wide",
+      "attempts": [
+        {
+          "action": "review r2 research and independently accepted source index",
+          "result": "Exact identity/brand-wide reuse checked; accepted baseline objects remain untouched."
+        },
+        {
+          "action": "retrieve official source after exact branch/brand search",
+          "url": "https://app.facewashfox.com/dich-vu-khach-hang/face-wash-fox",
+          "evidenceFile": "source-text/detail-facewash.json",
+          "result": "Actual official app locator has15-line navigation shell; official price article has no readable pricing/body (possibly image/dynamic). Mall name search describes facial wash but actual old branch URL is inaccessible. No exact branch facts or readable service catalogue verified."
+        },
+        {
+          "action": "exact branch phone/hours search",
+          "query": "\"Face Wash Fox\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-36.json",
+          "result": "Actual search response retained; no global absence claim."
+        }
+      ],
+      "proposedField": {
+        "field": "catalog",
+        "state": "verified-proposal",
+        "sourceUrl": "https://www.facewashfox.com/dich-vu",
+        "evidence": "Actual official treatment catalogue names Deep Cleanse, Cryo Cleanse, Lumiglow, Gymming, Eye-revive and combination treatments with durations and prices; brand-wide service catalogue. Evidence: source-text/offering-read43.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://www.facewashfox.com/dich-vu"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-facewashfox",
+      "name": {
+        "vi": "Face Wash Fox",
+        "en": "Face Wash Fox"
+      },
+      "field": "services",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.facewashfox.com/dich-vu",
+          "evidenceFile": "source-text/offering-read43.json",
+          "reference": "turn811view3",
+          "section": "services content",
+          "result": "retrieved",
+          "support": "Actual official service page lists deep facial cleansing, hydration, brightening, firming and eye-care treatments; broad service descriptions only, not medical outcomes."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Face Wash Fox\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-36.json",
+          "result": "See full preserved actual search response; only official sources considered for proposals, third-party contacts/hours excluded."
+        }
+      ],
+      "reason": "Actual official service page lists deep facial cleansing, hydration, brightening, firming and eye-care treatments; broad service descriptions only, not medical outcomes.",
+      "remainingAction": null,
+      "applicability": "brand-wide",
+      "attempts": [
+        {
+          "action": "review r2 research and independently accepted source index",
+          "result": "Exact identity/brand-wide reuse checked; accepted baseline objects remain untouched."
+        },
+        {
+          "action": "retrieve official source after exact branch/brand search",
+          "url": "https://app.facewashfox.com/dich-vu-khach-hang/face-wash-fox",
+          "evidenceFile": "source-text/detail-facewash.json",
+          "result": "Actual official app locator has15-line navigation shell; official price article has no readable pricing/body (possibly image/dynamic). Mall name search describes facial wash but actual old branch URL is inaccessible. No exact branch facts or readable service catalogue verified."
+        },
+        {
+          "action": "exact branch phone/hours search",
+          "query": "\"Face Wash Fox\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-36.json",
+          "result": "Actual search response retained; no global absence claim."
+        }
+      ],
+      "proposedField": {
+        "field": "services",
+        "state": "verified-proposal",
+        "sourceUrl": "https://www.facewashfox.com/dich-vu",
+        "evidence": "Actual official service page lists deep facial cleansing, hydration, brightening, firming and eye-care treatments; broad service descriptions only, not medical outcomes. Evidence: source-text/offering-read43.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "Liệu trình rửa mặt làm sạch sâu, cấp ẩm, chăm sóc sáng da, săn chắc và vùng mắt (danh mục chung của Face Wash Fox).",
+          "en": "Facial cleansing, hydration, brightening, firming and eye-care treatments (Face Wash Fox general service range)."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-fredperry",
+      "name": {
+        "vi": "Fred Perry",
+        "en": "Fred Perry"
+      },
+      "field": "catalog",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.fredperry.com/us/men/the-fred-perry-shirt/m12-m12-300.html",
+          "evidenceFile": "source-text/fred-product46.json",
+          "reference": "turn818view0",
+          "section": "catalog content",
+          "result": "retrieved",
+          "support": "Actual official US product page lists M12 polo shirt plus recommended shirts, cap and barrel bag with prices, beyond bare navigation. International catalogue scope."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Fred Perry\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-36.json",
+          "result": "See full preserved actual search response; only official sources considered for proposals, third-party contacts/hours excluded."
+        }
+      ],
+      "reason": "Actual official US product page lists M12 polo shirt plus recommended shirts, cap and barrel bag with prices, beyond bare navigation. International catalogue scope.",
+      "remainingAction": null,
+      "applicability": "brand-wide",
+      "attempts": [
+        {
+          "action": "review r2 research and independently accepted source index",
+          "result": "Exact identity/brand-wide reuse checked; accepted baseline objects remain untouched."
+        },
+        {
+          "action": "retrieve official source after exact branch/brand search",
+          "url": "https://www.fredperry.com/sa-en/shop-finder/vincom-dong-khoi-hcm",
+          "evidenceFile": "source-text/find27.json",
+          "result": "Actual Fred Perry locator gives exact Dong Khoi branch phone/hours. International shopping homepage retrieved but product-list body/market-specific clothing range needs a concrete category read before a catalogue/action or offering summary."
+        },
+        {
+          "action": "exact branch phone/hours search",
+          "query": "\"Fred Perry\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-36.json",
+          "result": "Actual search response retained; no global absence claim."
+        }
+      ],
+      "proposedField": {
+        "field": "catalog",
+        "state": "verified-proposal",
+        "sourceUrl": "https://www.fredperry.com/us/men/the-fred-perry-shirt/m12-m12-300.html",
+        "evidence": "Actual official US product page lists M12 polo shirt plus recommended shirts, cap and barrel bag with prices, beyond bare navigation. International catalogue scope. Evidence: source-text/fred-product46.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Danh mục quốc tế trên trang Mỹ/USD; không xác nhận giá, giao hàng hay tồn kho tại Việt Nam.",
+          "en": "International US/USD catalogue; Vietnam prices, delivery and branch inventory are not confirmed."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://www.fredperry.com/us/men/the-fred-perry-shirt/m12-m12-300.html"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-fredperry",
+      "name": {
+        "vi": "Fred Perry",
+        "en": "Fred Perry"
+      },
+      "field": "services",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://www.fredperry.com/us/men/the-fred-perry-shirt/m12-m12-300.html",
+          "evidenceFile": "source-text/fred-product46.json",
+          "reference": "turn818view0",
+          "section": "services content",
+          "result": "retrieved",
+          "support": "Actual official US product page documents polo shirts, shirts, a cap and a barrel bag; product offering only, no local assortment assertion."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Fred Perry\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-36.json",
+          "result": "See full preserved actual search response; only official sources considered for proposals, third-party contacts/hours excluded."
+        }
+      ],
+      "reason": "Actual official US product page documents polo shirts, shirts, a cap and a barrel bag; product offering only, no local assortment assertion.",
+      "remainingAction": null,
+      "applicability": "brand-wide",
+      "attempts": [
+        {
+          "action": "review r2 research and independently accepted source index",
+          "result": "Exact identity/brand-wide reuse checked; accepted baseline objects remain untouched."
+        },
+        {
+          "action": "retrieve official source after exact branch/brand search",
+          "url": "https://www.fredperry.com/sa-en/shop-finder/vincom-dong-khoi-hcm",
+          "evidenceFile": "source-text/find27.json",
+          "result": "Actual Fred Perry locator gives exact Dong Khoi branch phone/hours. International shopping homepage retrieved but product-list body/market-specific clothing range needs a concrete category read before a catalogue/action or offering summary."
+        },
+        {
+          "action": "exact branch phone/hours search",
+          "query": "\"Fred Perry\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-36.json",
+          "result": "Actual search response retained; no global absence claim."
+        }
+      ],
+      "proposedField": {
+        "field": "services",
+        "state": "verified-proposal",
+        "sourceUrl": "https://www.fredperry.com/us/men/the-fred-perry-shirt/m12-m12-300.html",
+        "evidence": "Actual official US product page documents polo shirts, shirts, a cap and a barrel bag; product offering only, no local assortment assertion. Evidence: source-text/fred-product46.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Danh mục quốc tế trên trang Mỹ/USD; không xác nhận giá, giao hàng hay tồn kho tại Việt Nam.",
+          "en": "International US/USD catalogue; Vietnam prices, delivery and branch inventory are not confirmed."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "Áo polo, áo sơ mi, mũ và túi trống; theo danh mục quốc tế Fred Perry tại Mỹ, cần xác nhận hàng có tại chi nhánh.",
+          "en": "Polo shirts, shirts, caps and barrel bags; from Fred Perry’s US catalogue, with branch availability to be confirmed."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-poloralphlauren",
+      "name": {
+        "vi": "Polo Ralph Lauren",
+        "en": "Polo Ralph Lauren"
+      },
+      "field": "phone",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/news/polo-ralph-lauren-or-new-arrivals-in-store-now",
+          "evidenceFile": "source-text/offering-read43.json",
+          "reference": "turn811view0",
+          "section": "phone content",
+          "result": "retrieved",
+          "support": "Actual official mall article labels exact M-04,05 Dong Khoi store hotline02873001948. Article datesJuly–August2026; contact is historical checked source, confirm current number."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Polo Ralph Lauren\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-56.json",
+          "result": "See full preserved actual search response; only official sources considered for proposals, third-party contacts/hours excluded."
+        }
+      ],
+      "reason": "Actual official mall article labels exact M-04,05 Dong Khoi store hotline02873001948. Article datesJuly–August2026; contact is historical checked source, confirm current number.",
+      "remainingAction": null,
+      "applicability": "branch",
+      "attempts": [
+        {
+          "action": "review r2 research and independently accepted source index",
+          "result": "Exact identity/brand-wide reuse checked; accepted baseline objects remain untouched."
+        },
+        {
+          "action": "retrieve official source after exact branch/brand search",
+          "url": "https://www.ralphlauren.com/",
+          "evidenceFile": "source-text/catalog-polo.json",
+          "result": "Official global root redirects to India page with mixed UK delivery/region selector rather than a readable Vietnam branch product catalogue. Official mall Polo news needs inspection for precise products/contact; no contact/hour block read."
+        },
+        {
+          "action": "exact branch phone/hours search",
+          "query": "\"Polo Ralph Lauren\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-56.json",
+          "result": "Actual search response retained; no global absence claim."
+        }
+      ],
+      "proposedField": {
+        "field": "phone",
+        "state": "verified-proposal",
+        "sourceUrl": "https://vincom.com.vn/news/polo-ralph-lauren-or-new-arrivals-in-store-now",
+        "evidence": "Actual official mall article labels exact M-04,05 Dong Khoi store hotline02873001948. Article datesJuly–August2026; contact is historical checked source, confirm current number. Evidence: source-text/offering-read43.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+          "en": "From the checked official source; confirm current details before visiting."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "branchMallId": "vincom-dong-khoi",
+        "value": {
+          "vi": "02873001948",
+          "en": "02873001948"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-poloralphlauren",
+      "name": {
+        "vi": "Polo Ralph Lauren",
+        "en": "Polo Ralph Lauren"
+      },
+      "field": "services",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "sources": [
+        {
+          "url": "https://vincom.com.vn/news/polo-ralph-lauren-or-new-arrivals-in-store-now",
+          "evidenceFile": "source-text/offering-read43.json",
+          "reference": "turn811view0",
+          "section": "services content",
+          "result": "retrieved",
+          "support": "Actual official mall article documents clothing in linen, knitwear and sweaters at exact Dong Khoi store; historical seasonal offering summary only."
+        }
+      ],
+      "searches": [
+        {
+          "query": "\"Polo Ralph Lauren\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-56.json",
+          "result": "See full preserved actual search response; only official sources considered for proposals, third-party contacts/hours excluded."
+        }
+      ],
+      "reason": "Actual official mall article documents clothing in linen, knitwear and sweaters at exact Dong Khoi store; historical seasonal offering summary only.",
+      "remainingAction": null,
+      "applicability": "branch",
+      "attempts": [
+        {
+          "action": "review r2 research and independently accepted source index",
+          "result": "Exact identity/brand-wide reuse checked; accepted baseline objects remain untouched."
+        },
+        {
+          "action": "retrieve official source after exact branch/brand search",
+          "url": "https://www.ralphlauren.com/",
+          "evidenceFile": "source-text/catalog-polo.json",
+          "result": "Official global root redirects to India page with mixed UK delivery/region selector rather than a readable Vietnam branch product catalogue. Official mall Polo news needs inspection for precise products/contact; no contact/hour block read."
+        },
+        {
+          "action": "exact branch phone/hours search",
+          "query": "\"Polo Ralph Lauren\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ mở cửa official",
+          "evidenceFile": "source-text/targeted-56.json",
+          "result": "Actual search response retained; no global absence claim."
+        }
+      ],
+      "proposedField": {
+        "field": "services",
+        "state": "verified-proposal",
+        "sourceUrl": "https://vincom.com.vn/news/polo-ralph-lauren-or-new-arrivals-in-store-now",
+        "evidence": "Actual official mall article documents clothing in linen, knitwear and sweaters at exact Dong Khoi store; historical seasonal offering summary only. Evidence: source-text/offering-read43.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+          "en": "From the checked official source; confirm current details before visiting."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "branchMallId": "vincom-dong-khoi",
+        "value": {
+          "vi": "Trang phục Polo Ralph Lauren bằng linen, hàng dệt kim và áo len; theo bài giới thiệu bộ sưu tập của Vincom tháng 7–8/2026, cần xác nhận mẫu hiện có.",
+          "en": "Polo Ralph Lauren linen clothing, knitwear and sweaters; documented in Vincom’s July–August2026 collection article, with current selection to be confirmed."
+        }
+      }
+    }
+  ]
+}

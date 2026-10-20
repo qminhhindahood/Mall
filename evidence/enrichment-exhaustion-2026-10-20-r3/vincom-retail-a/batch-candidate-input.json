@@ -1,0 +1,200 @@
+[
+  [
+    2,
+    null,
+    "source-text/s21.json",
+    null,
+    null,
+    false,
+    "Identity unresolved: frozen Aqua has no unique official brand binding. Searches return unrelated Aqua fashion retailer, Aqua Mineral cosmetics and appliance names; no authoritative exact counter binding retrieved."
+  ],
+  [
+    3,
+    "https://vn.puma.com/vn/vi/storefinder?storepage=footer",
+    "source-text/open22.json",
+    "Giày dép, quần áo và phụ kiện thể thao PUMA (danh mục chung của thương hiệu).",
+    "PUMA athletic footwear, clothing and accessories (general brand range).",
+    false,
+    "Actual official locator retrieval contains a dynamic store shell; indexed API lead names PUMA Flagship but direct API fetch fails. No readable branch phone/hours payload established."
+  ],
+  [
+    4,
+    null,
+    "source-text/search29.json",
+    null,
+    null,
+    false,
+    "Identity unresolved: Watch Me searches show marketplace sellers and other Vincom branches, without authoritative ownership binding to frozen Dong Khoi counter."
+  ],
+  [
+    6,
+    null,
+    "source-text/search29.json",
+    null,
+    null,
+    false,
+    "Authority/applicability unresolved: PLANET SPORTS.ASIA marketplace sellers found, but no independent official-source binding of that seller or an actual Vietnam branch locator to frozen Planet Sports counter."
+  ],
+  [
+    7,
+    null,
+    "source-text/search28.json",
+    null,
+    null,
+    false,
+    "Identity unresolved: Sky Optics/C2 Eyewear social lead concerns Sky Garden; no authoritative exact Sky Optic Vincom Dong Khoi counter binding retrieved. Sky Vietnam web agency/Skywatch are unrelated."
+  ],
+  [
+    8,
+    "https://www.danielwellington.com/",
+    "source-text/catalog-danielwellington.json",
+    "Đồng hồ, dây đồng hồ và trang sức như vòng tay, nhẫn, dây chuyền, hoa tai (danh mục quốc tế; cần xác nhận hàng tại chi nhánh).",
+    "Watches, watch straps and jewellery including bracelets, rings, necklaces and earrings (international range; confirm branch stock).",
+    false,
+    "Global official site resolves to Finland/EUR catalogue; no exact Dong Khoi branch contact/hour block retrieved. Mall search names a combined Titan-Fossil-Daniel Wellington counter, so exact counter applicability is unresolved."
+  ],
+  [
+    10,
+    "https://www.thenorthface.com/",
+    "source-text/catalog-northface.json",
+    null,
+    null,
+    false,
+    "Official The North Face site returns403 Forbidden; Vietnam searches yielded third-party articles rather than a readable official branch source. Cannot verify practical values from that access failure."
+  ],
+  [
+    11,
+    "https://shooz.vn/",
+    "source-text/open22.json",
+    "Giày dép cho nam, nữ và trẻ em (danh mục chung của SHOOZ Việt Nam).",
+    "Footwear for men, women and children (SHOOZ Vietnam general range).",
+    false,
+    "Official old Dong Khoi URL title names branch, but actual page body lists Shooz Da Nang and Native counters and generic support only. Indexed malformed04628 352186 is not accepted as branch phone; hours missing from actual branch block."
+  ],
+  [
+    12,
+    "https://vangcuulong.vn/",
+    "source-text/open24.json",
+    "Nhẫn cưới, nhẫn, hoa tai, mặt dây, lắc tay và trang sức bộ Cửu Long (danh mục chung).",
+    "Cuu Long wedding rings, rings, earrings, pendants, bracelets and jewellery sets (general range).",
+    true,
+    "Official Cuu Long contact block identifies Vincom HCM at70-72 Le Thanh Ton; branch hours are not supplied in retrieved contact block."
+  ],
+  [
+    13,
+    "https://www.pantio.vn/",
+    "source-text/find25.json",
+    "Trang phục nữ và nam gồm áo vest, đầm, áo polo và quần (danh mục chung của PANTIO).",
+    "Women's and men's clothing including blazers, dresses, polo shirts and trousers (PANTIO general range).",
+    true,
+    "Official relocation notice explicitly moves Vincom Dong Khoi showroom to85 Cach Mang Thang8 effective06/02/2025. Current frozen branch practical schedule cannot be asserted; brand-wide catalogue/support remain separately scoped."
+  ],
+  [
+    14,
+    "https://www.gnc.com/",
+    "source-text/catalog-gnc.json",
+    "Vitamin, thực phẩm bổ sung và sản phẩm dinh dưỡng thể thao trong danh mục GNC Hoa Kỳ; không xác nhận hàng hoặc dịch vụ tại Việt Nam.",
+    "Vitamins, supplements and sports nutrition in GNC's US catalogue; Vietnam stock and services are not confirmed.",
+    true,
+    "Actual gnc.com catalogue is US/Atlanta market, not a Vietnam branch locator. gnc.com.vn is an unrelated fertilizer company. No official nutrition-retailer Dong Khoi phone/hours block retrieved."
+  ],
+  [
+    15,
+    "https://gintell.vn/",
+    "source-text/find25.json",
+    "Ghế massage, máy tập thể dục, đệm massage và máy massage chân (danh mục GINTELL Việt Nam).",
+    "Massage chairs, exercise machines, massage cushions and foot massagers (GINTELL Vietnam range).",
+    true,
+    "Vietnam official site provides national sales/warranty contacts and operator address; no readable Dong Khoi branch schedule in retrieved source. National sales contact is separately labelled."
+  ],
+  [
+    16,
+    "https://albettaretail.vn/",
+    "source-text/find25.json",
+    "Quần áo cho bé, trang phục trẻ em ban ngày và đồ chơi thủ công (danh mục Albetta Việt Nam).",
+    "Babywear, children's daywear and handcrafted toys (Albetta Vietnam range).",
+    true,
+    "Vietnam official retail site lists general company contact at130 Duy Tan, without a Dong Khoi branch block/hours. This does not establish branch opening hours."
+  ],
+  [
+    17,
+    "https://rabity.vn/",
+    "source-text/catalog-rabity.json",
+    "Quần áo trẻ em gồm đầm, áo, quần, đồ bộ, giày dép và phụ kiện (danh mục Rabity Việt Nam).",
+    "Children's dresses, tops, trousers, sets, footwear and accessories (Rabity Vietnam range).",
+    true,
+    "Official Rabity PN-Vincom Dong Khoi page has an exact branch contact and schedule; separate source binding used for those values."
+  ],
+  [
+    18,
+    "https://nhasachphuongnam.com/",
+    "source-text/catalog-pnc.json",
+    "Sách tiếng Việt, sách ngoại văn, văn phòng phẩm, đồ chơi và quà tặng (danh mục chung của Phương Nam).",
+    "Vietnamese and foreign-language books, stationery, toys and gifts (Phuong Nam general range).",
+    true,
+    "Current official locator's Đồng Khởi row is113-115 Dong Khoi in Dong Nai, not Vincom Dong Khoi HCM. Saigon Centre row also belongs to another mall. Neither contact/hours may be transplanted to frozen destination."
+  ],
+  [
+    19,
+    "https://www.ammofficial.com/",
+    "source-text/catalog-amm.json",
+    "Quần áo nam, nữ, trẻ em và túi xách, phụ kiện (danh mục AMM Việt Nam).",
+    "Men's, women's and children's clothing, bags and accessories (AMM Vietnam range).",
+    true,
+    "Official AMM locator lists Smart City, Lotte Hanoi and Aeon Ha Dong only. No exact Vincom Dong Khoi practical contact/hour block retrieved; national hotline is separately scoped."
+  ],
+  [
+    20,
+    null,
+    "source-text/s8.json",
+    null,
+    null,
+    false,
+    "Identity unresolved: GEUMSAM/Geumsan/KUMSAM search leads do not bind exact frozen Sâm Geumsang counter to an official operator. Do not conflate transliterations or use unrelated ginseng sellers."
+  ],
+  [
+    21,
+    null,
+    "source-text/search29.json",
+    null,
+    null,
+    false,
+    "Identity unresolved: Paris France beauty retailer searches yielded third-party mall listings and unrelated French brands. No authoritative exact Paris & France operator, website or counter binding retrieved."
+  ],
+  [
+    22,
+    "https://www.guerlain.com/",
+    "source-text/catalog-guerlain.json",
+    null,
+    null,
+    false,
+    "Official Guerlain root returns401 Unauthorized; actual country locator lists other Vietnam counters but no readable Dong Khoi point-of-sale block. Cannot infer counter products/contact/hours from generic service filter options."
+  ],
+  [
+    23,
+    "https://www.thekooples.com/",
+    "source-text/catalog-kooples.json",
+    null,
+    null,
+    false,
+    "Official The Kooples site returns403 Forbidden; no accessible Vietnam Dong Khoi branch source returned by exact brand/mall search. Access and branch applicability remain unresolved."
+  ],
+  [
+    24,
+    "https://vn.weekendmaxmara.com/",
+    "source-text/catalog-weekend.json",
+    "Túi Pasticcino trong danh mục được Weekend Max Mara giới thiệu (thông tin chung; cần xác nhận hàng tại chi nhánh).",
+    "Pasticcino bags featured by Weekend Max Mara (general information; confirm branch stock).",
+    false,
+    "Actual official Vincom Centre locator is a rendered shell without address/phone/hours despite indexed contact lead. Do not promote cached+842871068979 to actual branch read."
+  ],
+  [
+    25,
+    "https://www.geox.com/en-US/",
+    "source-text/catalog-geox.json",
+    "Giày, sneakers, bốt và áo khoác cho nam, nữ, trẻ em trong danh mục quốc tế của Geox; cần xác nhận hàng tại chi nhánh.",
+    "Shoes, sneakers, boots and jackets for men, women and children in Geox's international range; confirm branch stock.",
+    false,
+    "Official source redirects to US market and gives brand-wide categories, not an exact Vietnam Dong Khoi branch contact/hour block. Official mall July2026 promotion confirms brand/mall relation but no practical block."
+  ]
+]

@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-20",
+  "result": "pass",
+  "assertions": {
+    "queueKeyCount": 143,
+    "uniqueDecisionKeyCount": 143,
+    "exactQueueEquality": true,
+    "proposalCount": 81,
+    "existing658Overlap": 0,
+    "allHoldsHaveNextAction": true,
+    "allNegativeKeysHaveSourceAttemptsAndQueries": true,
+    "allProposalsRemainProvisional": true,
+    "bilingualValues": true
+  },
+  "counts": {
+    "proposal": 81,
+    "bounded-unavailable": 8,
+    "hold": 54
+  },
+  "sha256": {
+    "records.json": "503a5f048281e2c07ded3f2d136dc00cc2ec30d65086f03892bdfdfa1dc5d9b2",
+    "decisions.json": "c015ed31eae65349cdffc1b0d3b5a88232262a86805e81acc1146a94f698e41b",
+    "terminal-decisions.json": "b98d2c10d6e63257bb0d1f94fb64f5e7018481c3b658468b71759883650bf472",
+    "phone-supplement.json": "30b7013ec5cb952882386ffe8dc43742bffe9848c706c56f0dd8bac5acb6b705",
+    "supporting-evidence.json": "bb3569988ffc7a4e5e283a64ab924fc05a27768dca0e4bc360172bd4ec4bf417",
+    "source-followthrough.json": "3f94b60a9d135676070e107879a0a149d74ebd5389d9bc01baad71b488ce2140",
+    "booking-searches.json": "7151c420356820d51583f4284603800f11805e968c1961d5f717a4c58ba24d38"
+  }
+}

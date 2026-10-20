@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-20",
+  "records": [
+    {
+      "destinationId": "saigon-candidate-374c0731-9167-461f-b83f-5300891cb7dd",
+      "field": "phone",
+      "sourceUrl": "https://www.aesop.com/customer-service/customer-service.html",
+      "freshReference": "turn875view1",
+      "observation": "Actual page customer-service block contains1-800-543-4572, but its Find a Store link294 goes towww.kiehls.com. Kiehls official indexed customer-service/telephone-order pages identify same number asKIEHLS-2. Incorrect-brand template attribution unresolved; no Aesop phone accepted.",
+      "corroboration": "turn876search0/1/3; directKiehltelephonepage reader inaccessible turn877view0."
+    },
+    {
+      "destinationId": "saigon-prototype-converse",
+      "field": "phone",
+      "sourceUrl": "https://www.converse.vn/contact-us",
+      "freshReference": "turn875view0",
+      "observation": "Actual contact route returns406. Official indexed text turn874search0 has header0283830111 and footer02838301111Ext0, different digit counts. Officialhomepageactualreader also406 turn872view0. Indexed-only discrepancy cannot support brand-contact acceptance."
+    }
+  ]
+}

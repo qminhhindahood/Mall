@@ -1,0 +1,1170 @@
+[
+  {
+    "mall": "saigon-centre",
+    "locale": "en",
+    "width": 1280,
+    "checks": [
+      {
+        "name": "dining: detail opens",
+        "pass": true
+      },
+      {
+        "name": "dining: document no overflow",
+        "pass": true
+      },
+      {
+        "name": "dining: same floor comparison",
+        "pass": true
+      },
+      {
+        "name": "dining: different floor comparison",
+        "pass": true
+      },
+      {
+        "name": "dining: truthful route limitation in expanded disclosure",
+        "pass": true
+      },
+      {
+        "name": "dining: persistent reachable close and identity",
+        "pass": true
+      },
+      {
+        "name": "dining: long detail contained and scrollable",
+        "pass": true
+      },
+      {
+        "name": "dining: sampled factual/control text minimum16px",
+        "pass": true
+      },
+      {
+        "name": "dining: accepted action link present",
+        "pass": true
+      },
+      {
+        "name": "dining: Escape dismisses long details",
+        "pass": true
+      },
+      {
+        "name": "retail: detail opens",
+        "pass": true
+      },
+      {
+        "name": "retail: document no overflow",
+        "pass": true
+      },
+      {
+        "name": "retail: same floor comparison",
+        "pass": true
+      },
+      {
+        "name": "retail: different floor comparison",
+        "pass": true
+      },
+      {
+        "name": "retail: truthful route limitation in expanded disclosure",
+        "pass": true
+      },
+      {
+        "name": "retail: persistent reachable close and identity",
+        "pass": true
+      },
+      {
+        "name": "retail: long detail contained and scrollable",
+        "pass": true
+      },
+      {
+        "name": "retail: sampled factual/control text minimum16px",
+        "pass": true
+      },
+      {
+        "name": "retail: accepted action link present",
+        "pass": true
+      },
+      {
+        "name": "retail: Escape dismisses long details",
+        "pass": true
+      }
+    ],
+    "captures": [
+      "frames/saigon-centre-en-1280-dining-top.png",
+      "frames/saigon-centre-en-1280-dining-guidance.png",
+      "frames/saigon-centre-en-1280-dining-bottom.png",
+      "frames/saigon-centre-en-1280-retail-top.png",
+      "frames/saigon-centre-en-1280-retail-guidance.png",
+      "frames/saigon-centre-en-1280-retail-bottom.png"
+    ],
+    "samples": [
+      {
+        "kind": "dining",
+        "id": "saigon-prototype-lusine",
+        "fieldCount": 7,
+        "textLength": 5566,
+        "measurements": {
+          "close": {
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          "headerVisible": true,
+          "withinViewport": true,
+          "panelOverflow": false,
+          "contentScrollable": true,
+          "minFont": 16,
+          "colors": [
+            "rgb(35, 28, 23)",
+            "rgb(100, 88, 78)",
+            "rgb(161, 43, 24)"
+          ],
+          "background": "rgb(255, 253, 250)"
+        }
+      },
+      {
+        "kind": "retail",
+        "id": "saigon-prototype-newbalance",
+        "fieldCount": 5,
+        "textLength": 4516,
+        "measurements": {
+          "close": {
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          "headerVisible": true,
+          "withinViewport": true,
+          "panelOverflow": false,
+          "contentScrollable": true,
+          "minFont": 16,
+          "colors": [
+            "rgb(35, 28, 23)",
+            "rgb(100, 88, 78)",
+            "rgb(161, 43, 24)"
+          ],
+          "background": "rgb(255, 253, 250)"
+        }
+      }
+    ],
+    "consoleErrors": []
+  },
+  {
+    "mall": "saigon-centre",
+    "locale": "en",
+    "width": 390,
+    "checks": [
+      {
+        "name": "dining: detail opens",
+        "pass": true
+      },
+      {
+        "name": "dining: document no overflow",
+        "pass": true
+      },
+      {
+        "name": "dining: same floor comparison",
+        "pass": true
+      },
+      {
+        "name": "dining: different floor comparison",
+        "pass": true
+      },
+      {
+        "name": "dining: truthful route limitation in expanded disclosure",
+        "pass": true
+      },
+      {
+        "name": "dining: persistent reachable close and identity",
+        "pass": true
+      },
+      {
+        "name": "dining: long detail contained and scrollable",
+        "pass": true
+      },
+      {
+        "name": "dining: sampled factual/control text minimum16px",
+        "pass": true
+      },
+      {
+        "name": "dining: accepted action link present",
+        "pass": true
+      },
+      {
+        "name": "dining: Escape dismisses long details",
+        "pass": true
+      },
+      {
+        "name": "retail: detail opens",
+        "pass": true
+      },
+      {
+        "name": "retail: document no overflow",
+        "pass": true
+      },
+      {
+        "name": "retail: same floor comparison",
+        "pass": true
+      },
+      {
+        "name": "retail: different floor comparison",
+        "pass": true
+      },
+      {
+        "name": "retail: truthful route limitation in expanded disclosure",
+        "pass": true
+      },
+      {
+        "name": "retail: persistent reachable close and identity",
+        "pass": true
+      },
+      {
+        "name": "retail: long detail contained and scrollable",
+        "pass": true
+      },
+      {
+        "name": "retail: sampled factual/control text minimum16px",
+        "pass": true
+      },
+      {
+        "name": "retail: accepted action link present",
+        "pass": true
+      },
+      {
+        "name": "retail: Escape dismisses long details",
+        "pass": true
+      }
+    ],
+    "captures": [
+      "frames/saigon-centre-en-390-dining-top.png",
+      "frames/saigon-centre-en-390-dining-guidance.png",
+      "frames/saigon-centre-en-390-dining-bottom.png",
+      "frames/saigon-centre-en-390-retail-top.png",
+      "frames/saigon-centre-en-390-retail-guidance.png",
+      "frames/saigon-centre-en-390-retail-bottom.png"
+    ],
+    "samples": [
+      {
+        "kind": "dining",
+        "id": "saigon-prototype-lusine",
+        "fieldCount": 7,
+        "textLength": 5566,
+        "measurements": {
+          "close": {
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          "headerVisible": true,
+          "withinViewport": true,
+          "panelOverflow": false,
+          "contentScrollable": true,
+          "minFont": 16,
+          "colors": [
+            "rgb(35, 28, 23)",
+            "rgb(100, 88, 78)",
+            "rgb(161, 43, 24)"
+          ],
+          "background": "rgb(255, 253, 250)"
+        }
+      },
+      {
+        "kind": "retail",
+        "id": "saigon-prototype-newbalance",
+        "fieldCount": 5,
+        "textLength": 4516,
+        "measurements": {
+          "close": {
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          "headerVisible": true,
+          "withinViewport": true,
+          "panelOverflow": false,
+          "contentScrollable": true,
+          "minFont": 16,
+          "colors": [
+            "rgb(35, 28, 23)",
+            "rgb(100, 88, 78)",
+            "rgb(161, 43, 24)"
+          ],
+          "background": "rgb(255, 253, 250)"
+        }
+      }
+    ],
+    "consoleErrors": []
+  },
+  {
+    "mall": "saigon-centre",
+    "locale": "vi",
+    "width": 1280,
+    "checks": [
+      {
+        "name": "dining: detail opens",
+        "pass": true
+      },
+      {
+        "name": "dining: document no overflow",
+        "pass": true
+      },
+      {
+        "name": "dining: same floor comparison",
+        "pass": true
+      },
+      {
+        "name": "dining: different floor comparison",
+        "pass": true
+      },
+      {
+        "name": "dining: truthful route limitation in expanded disclosure",
+        "pass": true
+      },
+      {
+        "name": "dining: persistent reachable close and identity",
+        "pass": true
+      },
+      {
+        "name": "dining: long detail contained and scrollable",
+        "pass": true
+      },
+      {
+        "name": "dining: sampled factual/control text minimum16px",
+        "pass": true
+      },
+      {
+        "name": "dining: accepted action link present",
+        "pass": true
+      },
+      {
+        "name": "dining: Escape dismisses long details",
+        "pass": true
+      },
+      {
+        "name": "retail: detail opens",
+        "pass": true
+      },
+      {
+        "name": "retail: document no overflow",
+        "pass": true
+      },
+      {
+        "name": "retail: same floor comparison",
+        "pass": true
+      },
+      {
+        "name": "retail: different floor comparison",
+        "pass": true
+      },
+      {
+        "name": "retail: truthful route limitation in expanded disclosure",
+        "pass": true
+      },
+      {
+        "name": "retail: persistent reachable close and identity",
+        "pass": true
+      },
+      {
+        "name": "retail: long detail contained and scrollable",
+        "pass": true
+      },
+      {
+        "name": "retail: sampled factual/control text minimum16px",
+        "pass": true
+      },
+      {
+        "name": "retail: accepted action link present",
+        "pass": true
+      },
+      {
+        "name": "retail: Escape dismisses long details",
+        "pass": true
+      }
+    ],
+    "captures": [
+      "frames/saigon-centre-vi-1280-dining-top.png",
+      "frames/saigon-centre-vi-1280-dining-guidance.png",
+      "frames/saigon-centre-vi-1280-dining-bottom.png",
+      "frames/saigon-centre-vi-1280-retail-top.png",
+      "frames/saigon-centre-vi-1280-retail-guidance.png",
+      "frames/saigon-centre-vi-1280-retail-bottom.png"
+    ],
+    "samples": [
+      {
+        "kind": "dining",
+        "id": "saigon-prototype-lusine",
+        "fieldCount": 7,
+        "textLength": 5566,
+        "measurements": {
+          "close": {
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          "headerVisible": true,
+          "withinViewport": true,
+          "panelOverflow": false,
+          "contentScrollable": true,
+          "minFont": 16,
+          "colors": [
+            "rgb(35, 28, 23)",
+            "rgb(100, 88, 78)",
+            "rgb(161, 43, 24)"
+          ],
+          "background": "rgb(255, 253, 250)"
+        }
+      },
+      {
+        "kind": "retail",
+        "id": "saigon-prototype-newbalance",
+        "fieldCount": 5,
+        "textLength": 4516,
+        "measurements": {
+          "close": {
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          "headerVisible": true,
+          "withinViewport": true,
+          "panelOverflow": false,
+          "contentScrollable": true,
+          "minFont": 16,
+          "colors": [
+            "rgb(35, 28, 23)",
+            "rgb(100, 88, 78)",
+            "rgb(161, 43, 24)"
+          ],
+          "background": "rgb(255, 253, 250)"
+        }
+      }
+    ],
+    "consoleErrors": []
+  },
+  {
+    "mall": "saigon-centre",
+    "locale": "vi",
+    "width": 390,
+    "checks": [
+      {
+        "name": "dining: detail opens",
+        "pass": true
+      },
+      {
+        "name": "dining: document no overflow",
+        "pass": true
+      },
+      {
+        "name": "dining: same floor comparison",
+        "pass": true
+      },
+      {
+        "name": "dining: different floor comparison",
+        "pass": true
+      },
+      {
+        "name": "dining: truthful route limitation in expanded disclosure",
+        "pass": true
+      },
+      {
+        "name": "dining: persistent reachable close and identity",
+        "pass": true
+      },
+      {
+        "name": "dining: long detail contained and scrollable",
+        "pass": true
+      },
+      {
+        "name": "dining: sampled factual/control text minimum16px",
+        "pass": true
+      },
+      {
+        "name": "dining: accepted action link present",
+        "pass": true
+      },
+      {
+        "name": "dining: Escape dismisses long details",
+        "pass": true
+      },
+      {
+        "name": "retail: detail opens",
+        "pass": true
+      },
+      {
+        "name": "retail: document no overflow",
+        "pass": true
+      },
+      {
+        "name": "retail: same floor comparison",
+        "pass": true
+      },
+      {
+        "name": "retail: different floor comparison",
+        "pass": true
+      },
+      {
+        "name": "retail: truthful route limitation in expanded disclosure",
+        "pass": true
+      },
+      {
+        "name": "retail: persistent reachable close and identity",
+        "pass": true
+      },
+      {
+        "name": "retail: long detail contained and scrollable",
+        "pass": true
+      },
+      {
+        "name": "retail: sampled factual/control text minimum16px",
+        "pass": true
+      },
+      {
+        "name": "retail: accepted action link present",
+        "pass": true
+      },
+      {
+        "name": "retail: Escape dismisses long details",
+        "pass": true
+      }
+    ],
+    "captures": [
+      "frames/saigon-centre-vi-390-dining-top.png",
+      "frames/saigon-centre-vi-390-dining-guidance.png",
+      "frames/saigon-centre-vi-390-dining-bottom.png",
+      "frames/saigon-centre-vi-390-retail-top.png",
+      "frames/saigon-centre-vi-390-retail-guidance.png",
+      "frames/saigon-centre-vi-390-retail-bottom.png"
+    ],
+    "samples": [
+      {
+        "kind": "dining",
+        "id": "saigon-prototype-lusine",
+        "fieldCount": 7,
+        "textLength": 5566,
+        "measurements": {
+          "close": {
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          "headerVisible": true,
+          "withinViewport": true,
+          "panelOverflow": false,
+          "contentScrollable": true,
+          "minFont": 16,
+          "colors": [
+            "rgb(35, 28, 23)",
+            "rgb(100, 88, 78)",
+            "rgb(161, 43, 24)"
+          ],
+          "background": "rgb(255, 253, 250)"
+        }
+      },
+      {
+        "kind": "retail",
+        "id": "saigon-prototype-newbalance",
+        "fieldCount": 5,
+        "textLength": 4516,
+        "measurements": {
+          "close": {
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          "headerVisible": true,
+          "withinViewport": true,
+          "panelOverflow": false,
+          "contentScrollable": true,
+          "minFont": 16,
+          "colors": [
+            "rgb(35, 28, 23)",
+            "rgb(100, 88, 78)",
+            "rgb(161, 43, 24)"
+          ],
+          "background": "rgb(255, 253, 250)"
+        }
+      }
+    ],
+    "consoleErrors": []
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "en",
+    "width": 1280,
+    "checks": [
+      {
+        "name": "dining: detail opens",
+        "pass": true
+      },
+      {
+        "name": "dining: document no overflow",
+        "pass": true
+      },
+      {
+        "name": "dining: same floor comparison",
+        "pass": true
+      },
+      {
+        "name": "dining: different floor comparison",
+        "pass": true
+      },
+      {
+        "name": "dining: truthful route limitation in expanded disclosure",
+        "pass": true
+      },
+      {
+        "name": "dining: persistent reachable close and identity",
+        "pass": true
+      },
+      {
+        "name": "dining: long detail contained and scrollable",
+        "pass": true
+      },
+      {
+        "name": "dining: sampled factual/control text minimum16px",
+        "pass": true
+      },
+      {
+        "name": "dining: accepted action link present",
+        "pass": true
+      },
+      {
+        "name": "dining: Escape dismisses long details",
+        "pass": true
+      },
+      {
+        "name": "retail: detail opens",
+        "pass": true
+      },
+      {
+        "name": "retail: document no overflow",
+        "pass": true
+      },
+      {
+        "name": "retail: same floor comparison",
+        "pass": true
+      },
+      {
+        "name": "retail: different floor comparison",
+        "pass": true
+      },
+      {
+        "name": "retail: truthful route limitation in expanded disclosure",
+        "pass": true
+      },
+      {
+        "name": "retail: persistent reachable close and identity",
+        "pass": true
+      },
+      {
+        "name": "retail: long detail contained and scrollable",
+        "pass": true
+      },
+      {
+        "name": "retail: sampled factual/control text minimum16px",
+        "pass": true
+      },
+      {
+        "name": "retail: accepted action link present",
+        "pass": true
+      },
+      {
+        "name": "retail: Escape dismisses long details",
+        "pass": true
+      }
+    ],
+    "captures": [
+      "frames/vincom-dong-khoi-en-1280-dining-top.png",
+      "frames/vincom-dong-khoi-en-1280-dining-guidance.png",
+      "frames/vincom-dong-khoi-en-1280-dining-bottom.png",
+      "frames/vincom-dong-khoi-en-1280-retail-top.png",
+      "frames/vincom-dong-khoi-en-1280-retail-guidance.png",
+      "frames/vincom-dong-khoi-en-1280-retail-bottom.png"
+    ],
+    "samples": [
+      {
+        "kind": "dining",
+        "id": "vincom-prototype-bastahiro",
+        "fieldCount": 6,
+        "textLength": 5162,
+        "measurements": {
+          "close": {
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          "headerVisible": true,
+          "withinViewport": true,
+          "panelOverflow": false,
+          "contentScrollable": true,
+          "minFont": 16,
+          "colors": [
+            "rgb(35, 28, 23)",
+            "rgb(100, 88, 78)",
+            "rgb(116, 70, 0)"
+          ],
+          "background": "rgb(255, 253, 250)"
+        }
+      },
+      {
+        "kind": "retail",
+        "id": "vincom-prototype-bathbodyworks",
+        "fieldCount": 5,
+        "textLength": 4534,
+        "measurements": {
+          "close": {
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          "headerVisible": true,
+          "withinViewport": true,
+          "panelOverflow": false,
+          "contentScrollable": true,
+          "minFont": 16,
+          "colors": [
+            "rgb(35, 28, 23)",
+            "rgb(100, 88, 78)",
+            "rgb(116, 70, 0)"
+          ],
+          "background": "rgb(255, 253, 250)"
+        }
+      }
+    ],
+    "consoleErrors": []
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "en",
+    "width": 390,
+    "checks": [
+      {
+        "name": "dining: detail opens",
+        "pass": true
+      },
+      {
+        "name": "dining: document no overflow",
+        "pass": true
+      },
+      {
+        "name": "dining: same floor comparison",
+        "pass": true
+      },
+      {
+        "name": "dining: different floor comparison",
+        "pass": true
+      },
+      {
+        "name": "dining: truthful route limitation in expanded disclosure",
+        "pass": true
+      },
+      {
+        "name": "dining: persistent reachable close and identity",
+        "pass": true
+      },
+      {
+        "name": "dining: long detail contained and scrollable",
+        "pass": true
+      },
+      {
+        "name": "dining: sampled factual/control text minimum16px",
+        "pass": true
+      },
+      {
+        "name": "dining: accepted action link present",
+        "pass": true
+      },
+      {
+        "name": "dining: Escape dismisses long details",
+        "pass": true
+      },
+      {
+        "name": "retail: detail opens",
+        "pass": true
+      },
+      {
+        "name": "retail: document no overflow",
+        "pass": true
+      },
+      {
+        "name": "retail: same floor comparison",
+        "pass": true
+      },
+      {
+        "name": "retail: different floor comparison",
+        "pass": true
+      },
+      {
+        "name": "retail: truthful route limitation in expanded disclosure",
+        "pass": true
+      },
+      {
+        "name": "retail: persistent reachable close and identity",
+        "pass": true
+      },
+      {
+        "name": "retail: long detail contained and scrollable",
+        "pass": true
+      },
+      {
+        "name": "retail: sampled factual/control text minimum16px",
+        "pass": true
+      },
+      {
+        "name": "retail: accepted action link present",
+        "pass": true
+      },
+      {
+        "name": "retail: Escape dismisses long details",
+        "pass": true
+      }
+    ],
+    "captures": [
+      "frames/vincom-dong-khoi-en-390-dining-top.png",
+      "frames/vincom-dong-khoi-en-390-dining-guidance.png",
+      "frames/vincom-dong-khoi-en-390-dining-bottom.png",
+      "frames/vincom-dong-khoi-en-390-retail-top.png",
+      "frames/vincom-dong-khoi-en-390-retail-guidance.png",
+      "frames/vincom-dong-khoi-en-390-retail-bottom.png"
+    ],
+    "samples": [
+      {
+        "kind": "dining",
+        "id": "vincom-prototype-bastahiro",
+        "fieldCount": 6,
+        "textLength": 5162,
+        "measurements": {
+          "close": {
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          "headerVisible": true,
+          "withinViewport": true,
+          "panelOverflow": false,
+          "contentScrollable": true,
+          "minFont": 16,
+          "colors": [
+            "rgb(35, 28, 23)",
+            "rgb(100, 88, 78)",
+            "rgb(116, 70, 0)"
+          ],
+          "background": "rgb(255, 253, 250)"
+        }
+      },
+      {
+        "kind": "retail",
+        "id": "vincom-prototype-bathbodyworks",
+        "fieldCount": 5,
+        "textLength": 4534,
+        "measurements": {
+          "close": {
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          "headerVisible": true,
+          "withinViewport": true,
+          "panelOverflow": false,
+          "contentScrollable": true,
+          "minFont": 16,
+          "colors": [
+            "rgb(35, 28, 23)",
+            "rgb(100, 88, 78)",
+            "rgb(116, 70, 0)"
+          ],
+          "background": "rgb(255, 253, 250)"
+        }
+      }
+    ],
+    "consoleErrors": []
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "vi",
+    "width": 1280,
+    "checks": [
+      {
+        "name": "dining: detail opens",
+        "pass": true
+      },
+      {
+        "name": "dining: document no overflow",
+        "pass": true
+      },
+      {
+        "name": "dining: same floor comparison",
+        "pass": true
+      },
+      {
+        "name": "dining: different floor comparison",
+        "pass": true
+      },
+      {
+        "name": "dining: truthful route limitation in expanded disclosure",
+        "pass": true
+      },
+      {
+        "name": "dining: persistent reachable close and identity",
+        "pass": true
+      },
+      {
+        "name": "dining: long detail contained and scrollable",
+        "pass": true
+      },
+      {
+        "name": "dining: sampled factual/control text minimum16px",
+        "pass": true
+      },
+      {
+        "name": "dining: accepted action link present",
+        "pass": true
+      },
+      {
+        "name": "dining: Escape dismisses long details",
+        "pass": true
+      },
+      {
+        "name": "retail: detail opens",
+        "pass": true
+      },
+      {
+        "name": "retail: document no overflow",
+        "pass": true
+      },
+      {
+        "name": "retail: same floor comparison",
+        "pass": true
+      },
+      {
+        "name": "retail: different floor comparison",
+        "pass": true
+      },
+      {
+        "name": "retail: truthful route limitation in expanded disclosure",
+        "pass": true
+      },
+      {
+        "name": "retail: persistent reachable close and identity",
+        "pass": true
+      },
+      {
+        "name": "retail: long detail contained and scrollable",
+        "pass": true
+      },
+      {
+        "name": "retail: sampled factual/control text minimum16px",
+        "pass": true
+      },
+      {
+        "name": "retail: accepted action link present",
+        "pass": true
+      },
+      {
+        "name": "retail: Escape dismisses long details",
+        "pass": true
+      }
+    ],
+    "captures": [
+      "frames/vincom-dong-khoi-vi-1280-dining-top.png",
+      "frames/vincom-dong-khoi-vi-1280-dining-guidance.png",
+      "frames/vincom-dong-khoi-vi-1280-dining-bottom.png",
+      "frames/vincom-dong-khoi-vi-1280-retail-top.png",
+      "frames/vincom-dong-khoi-vi-1280-retail-guidance.png",
+      "frames/vincom-dong-khoi-vi-1280-retail-bottom.png"
+    ],
+    "samples": [
+      {
+        "kind": "dining",
+        "id": "vincom-prototype-bastahiro",
+        "fieldCount": 6,
+        "textLength": 5162,
+        "measurements": {
+          "close": {
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          "headerVisible": true,
+          "withinViewport": true,
+          "panelOverflow": false,
+          "contentScrollable": true,
+          "minFont": 16,
+          "colors": [
+            "rgb(35, 28, 23)",
+            "rgb(100, 88, 78)",
+            "rgb(116, 70, 0)"
+          ],
+          "background": "rgb(255, 253, 250)"
+        }
+      },
+      {
+        "kind": "retail",
+        "id": "vincom-prototype-bathbodyworks",
+        "fieldCount": 5,
+        "textLength": 4534,
+        "measurements": {
+          "close": {
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          "headerVisible": true,
+          "withinViewport": true,
+          "panelOverflow": false,
+          "contentScrollable": true,
+          "minFont": 16,
+          "colors": [
+            "rgb(35, 28, 23)",
+            "rgb(100, 88, 78)",
+            "rgb(116, 70, 0)"
+          ],
+          "background": "rgb(255, 253, 250)"
+        }
+      }
+    ],
+    "consoleErrors": []
+  },
+  {
+    "mall": "vincom-dong-khoi",
+    "locale": "vi",
+    "width": 390,
+    "checks": [
+      {
+        "name": "dining: detail opens",
+        "pass": true
+      },
+      {
+        "name": "dining: document no overflow",
+        "pass": true
+      },
+      {
+        "name": "dining: same floor comparison",
+        "pass": true
+      },
+      {
+        "name": "dining: different floor comparison",
+        "pass": true
+      },
+      {
+        "name": "dining: truthful route limitation in expanded disclosure",
+        "pass": true
+      },
+      {
+        "name": "dining: persistent reachable close and identity",
+        "pass": true
+      },
+      {
+        "name": "dining: long detail contained and scrollable",
+        "pass": true
+      },
+      {
+        "name": "dining: sampled factual/control text minimum16px",
+        "pass": true
+      },
+      {
+        "name": "dining: accepted action link present",
+        "pass": true
+      },
+      {
+        "name": "dining: Escape dismisses long details",
+        "pass": true
+      },
+      {
+        "name": "retail: detail opens",
+        "pass": true
+      },
+      {
+        "name": "retail: document no overflow",
+        "pass": true
+      },
+      {
+        "name": "retail: same floor comparison",
+        "pass": true
+      },
+      {
+        "name": "retail: different floor comparison",
+        "pass": true
+      },
+      {
+        "name": "retail: truthful route limitation in expanded disclosure",
+        "pass": true
+      },
+      {
+        "name": "retail: persistent reachable close and identity",
+        "pass": true
+      },
+      {
+        "name": "retail: long detail contained and scrollable",
+        "pass": true
+      },
+      {
+        "name": "retail: sampled factual/control text minimum16px",
+        "pass": true
+      },
+      {
+        "name": "retail: accepted action link present",
+        "pass": true
+      },
+      {
+        "name": "retail: Escape dismisses long details",
+        "pass": true
+      }
+    ],
+    "captures": [
+      "frames/vincom-dong-khoi-vi-390-dining-top.png",
+      "frames/vincom-dong-khoi-vi-390-dining-guidance.png",
+      "frames/vincom-dong-khoi-vi-390-dining-bottom.png",
+      "frames/vincom-dong-khoi-vi-390-retail-top.png",
+      "frames/vincom-dong-khoi-vi-390-retail-guidance.png",
+      "frames/vincom-dong-khoi-vi-390-retail-bottom.png"
+    ],
+    "samples": [
+      {
+        "kind": "dining",
+        "id": "vincom-prototype-bastahiro",
+        "fieldCount": 6,
+        "textLength": 5162,
+        "measurements": {
+          "close": {
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          "headerVisible": true,
+          "withinViewport": true,
+          "panelOverflow": false,
+          "contentScrollable": true,
+          "minFont": 16,
+          "colors": [
+            "rgb(35, 28, 23)",
+            "rgb(100, 88, 78)",
+            "rgb(116, 70, 0)"
+          ],
+          "background": "rgb(255, 253, 250)"
+        }
+      },
+      {
+        "kind": "retail",
+        "id": "vincom-prototype-bathbodyworks",
+        "fieldCount": 5,
+        "textLength": 4534,
+        "measurements": {
+          "close": {
+            "width": 44,
+            "height": 44,
+            "visible": true
+          },
+          "headerVisible": true,
+          "withinViewport": true,
+          "panelOverflow": false,
+          "contentScrollable": true,
+          "minFont": 16,
+          "colors": [
+            "rgb(35, 28, 23)",
+            "rgb(100, 88, 78)",
+            "rgb(116, 70, 0)"
+          ],
+          "background": "rgb(255, 253, 250)"
+        }
+      }
+    ],
+    "consoleErrors": []
+  }
+]

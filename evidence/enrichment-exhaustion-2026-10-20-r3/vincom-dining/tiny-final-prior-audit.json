@@ -1,0 +1,938 @@
+{
+  "source": "content-audit/audit-decisions.json",
+  "sourceSha256": "565959d1630e2bae4afbc2576e48b256b835426831660cf771e96fea17072c42",
+  "records": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-024",
+      "field": "phone",
+      "reason": "Checked additional authenticated international brand menu/catalogue. It concerns another market and cannot establish Vietnam DongKhoi phone. Original Vietnam page/locator access blocker remains; no foreign branch number, hours or reservation flow transferred. Additional official mall brand-profile check: rendered profile read; no sufficient exact support for this remaining field, no value inferred from name/location list.",
+      "evidenceBindings": [
+        {
+          "url": "https://beardpapa.com.vn/en/",
+          "evidenceFile": "source-beard.txt",
+          "reference": "turn476view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn476view0 [wordlim: 200] Source: open({\"ref_id\":\"https://beardpapa.com.vn/en/\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://bea",
+          "file": "vincom-dining\\source-beard.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://beardpapa.com.vn/",
+          "evidenceFile": "source-beard.txt",
+          "reference": "turn476view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn476view1 [wordlim: 200] Source: open({\"ref_id\":\"https://beardpapa.com.vn/\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://beardp",
+          "file": "vincom-dining\\source-beard.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "evidenceFile": "browser-international.json",
+          "section": "Further official-source authority/access/applicability check",
+          "result": "checked; unresolved as explained",
+          "support": "Checked additional authenticated international brand menu/catalogue. It concerns another market and cannot establish Vietnam DongKhoi phone. Original Vietnam page/locator access blocker remains; no foreign branch number, hours or reservation flow transferred.",
+          "file": "vincom-dining\\browser-international.json",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "evidenceFile": "source-international-products.txt",
+          "section": "Further official-source authority/access/applicability check",
+          "result": "checked; unresolved as explained",
+          "support": "Checked additional authenticated international brand menu/catalogue. It concerns another market and cannot establish Vietnam DongKhoi phone. Original Vietnam page/locator access blocker remains; no foreign branch number, hours or reservation flow transferred.",
+          "file": "vincom-dining\\source-international-products.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://vincom.com.vn/brand/beard-papas",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex22; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded.",
+          "file": "vincom-dining\\mall-brand-profiles.json",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "query": "\"Beard Papa's\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-12.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads.",
+          "file": "vincom-dining\\search-12.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "\"Beard Papa's\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-12.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded.",
+          "file": "vincom-dining\\search-12.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "\"Beard Papa's\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-3.txt",
+          "result": "Exact field/branch source results retained.",
+          "file": "vincom-dining\\field-search-3.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "evidenceFile": "search-international-identity.txt",
+          "query": "Exact brand official international menu and parent/Vietnam identity check; source query receipts retained.",
+          "result": "Actual official pages and country applicability checked; see per-field evidence.",
+          "file": "vincom-dining\\search-international-identity.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Beard Papa's",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile",
+          "file": "vincom-dining\\mall-brand-profiles.json",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "hold",
+      "remainingAction": "Recover a readable authenticated Vietnam operator/branch source for this field; international catalogue alone is insufficient."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-028",
+      "field": "phone",
+      "reason": "Checked additional authenticated international brand menu/catalogue. It concerns another market and cannot establish Vietnam DongKhoi phone. Original Vietnam page/locator access blocker remains; no foreign branch number, hours or reservation flow transferred. Additional official mall brand-profile check: discovery path redirects to mall homepage and is not evidence; official alias searches retained.",
+      "evidenceBindings": [
+        {
+          "url": "https://sol.com.vn/booking/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Đặt Bàn - SOL (https://sol.com.vn/booking/)\nciteturn698view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn696view0\",\"lineno\":40}",
+          "file": "vincom-dining\\source-sol-details.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://sol.com.vn/restaurant/kohaku-ramen-udon/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Kohaku Ramen & Udon - SOL (https://sol.com.vn/restaurant/kohaku-ramen-udon/)\nciteturn698view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"re",
+          "file": "vincom-dining\\source-sol-details.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://sol.com.vn/restaurant/date-nariya/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Date Nariya - SOL (https://sol.com.vn/restaurant/date-nariya/)\nciteturn698view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn696",
+          "file": "vincom-dining\\source-sol-details.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://seoulgarden.com.vn/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view3",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn698view3 [wordlim: 200] Source: open({\"ref_id\":\"https://seoulgarden.com.vn/\",\"lineno\":null}); Total lines: 1\nL0: URL https://seoulgarden.com.",
+          "file": "vincom-dining\\source-sol-details.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://www.tlj.com.vn/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view4",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn698view4 [wordlim: 200] Source: open({\"ref_id\":\"https://www.tlj.com.vn/\",\"lineno\":null}); Total lines: 1\nL0: URL https://www.tlj.com.vn/ is n",
+          "file": "vincom-dining\\source-sol-details.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://boat-noodle-palace.wherevi.com/",
+          "evidenceFile": "search-global-b.txt",
+          "reference": "turn379search0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Boat Noodle Palace | Authentic Asian Flavors in Bangkok (https://boat-noodle-palace.wherevi.com/)\nciteturn379search0 [wordlim: 200] Crawled: 2 months ago; Content type",
+          "file": "vincom-dining\\search-global-b.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://mias.com.vn/wp-content/uploads/2026/01/Menu-Mias-Web-English.pdf",
+          "evidenceFile": "search-global-b.txt",
+          "reference": "turn379search1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "MENU (https://mias.com.vn/wp-content/uploads/2026/01/Menu-Mias-Web-English.pdf)\nciteturn379search1 [wordlim: 200] Crawled: last month; Content type: text/plain; \nMENU ",
+          "file": "vincom-dining\\search-global-b.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://residence.yamazaki.vn/en/danh-muc/new-items/",
+          "evidenceFile": "search-global-b.txt",
+          "reference": "turn379search2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "New Items – Vietnam Yamazaki (https://residence.yamazaki.vn/en/danh-muc/new-items/)\nciteturn379search2 [wordlim: 200] Crawled: 3 months ago; Content type: text/plain; ",
+          "file": "vincom-dining\\search-global-b.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://www.theoriginalboatnoodle.getz.co/",
+          "evidenceFile": "search-global-b.txt",
+          "reference": "turn379search4",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "The Original Boat Noodle | Islandwide Delivery or Pickup | Order Online (https://www.theoriginalboatnoodle.getz.co/)\nciteturn379search4 [wordlim: 200] Crawled: last we",
+          "file": "vincom-dining\\search-global-b.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://residence.yamazaki.vn/en/danh-muc/savory-bread/",
+          "evidenceFile": "search-global-b.txt",
+          "reference": "turn379search5",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Savory Bread – Vietnam Yamazaki (https://residence.yamazaki.vn/en/danh-muc/savory-bread/)\nciteturn379search5 [wordlim: 200] Crawled: 3 months ago; Content type: text/p",
+          "file": "vincom-dining\\search-global-b.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://www.goldenduckgroup.com/vn/contact-us/goldenduck-international-vietnam-co-ltd-2/",
+          "evidenceFile": "search-global-b.txt",
+          "reference": "turn379search6",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Công ty TNHH Goldenduck International Việt Nam - Goldenduck (https://www.goldenduckgroup.com/vn/contact-us/goldenduck-international-vietnam-co-ltd-2/)\nciteturn379search",
+          "file": "vincom-dining\\search-global-b.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://beacons.ai/boatnoodle.bangkok",
+          "evidenceFile": "search-global-b.txt",
+          "reference": "turn379search7",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "boatnoodle.bangkok (@boatnoodle.bangkok) | MENU MÓN, MENU NƯỚC (https://beacons.ai/boatnoodle.bangkok)\nciteturn379search7 [wordlim: 200] Crawled: yesterday; Content ty",
+          "file": "vincom-dining\\search-global-b.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://www.findglocal.com/VN/Ho-Chi-Minh-City/274640429565114/Vietnam-Yamazaki",
+          "evidenceFile": "search-global-b.txt",
+          "reference": "turn379search8",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Vietnam Yamazaki (2026) (https://www.findglocal.com/VN/Ho-Chi-Minh-City/274640429565114/Vietnam-Yamazaki)\nciteturn379search8 [wordlim: 200] Published: last month; Craw",
+          "file": "vincom-dining\\search-global-b.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://www.goldenduckgroup.com/vn/contact-us/",
+          "evidenceFile": "search-global-b.txt",
+          "reference": "turn379search9",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Contact Us Archive - Goldenduck (https://www.goldenduckgroup.com/vn/contact-us/)\nciteturn379search9 [wordlim: 200] Crawled: last month; Content type: text/plain; \nCont",
+          "file": "vincom-dining\\search-global-b.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://theoriginalboatnoodle.getz.co/Food",
+          "evidenceFile": "search-global-b.txt",
+          "reference": "turn379search10",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "The Original Boat Noodle | Islandwide Delivery or Pickup | Order Online (https://theoriginalboatnoodle.getz.co/Food)\nciteturn379search10 [wordlim: 200] Crawled: 3 mont",
+          "file": "vincom-dining\\search-global-b.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://anyflip.com/ebgei/bavz/basic",
+          "evidenceFile": "search-global-b.txt",
+          "reference": "turn379search11",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "SIAM SUGAR - MENU MỚI 2026 - ESTELLA - Flip eBook Pages 1-13 | AnyFlip (https://anyflip.com/ebgei/bavz/basic)\nciteturn379search11 [wordlim: 200] Crawled: 3 months ago;",
+          "file": "vincom-dining\\search-global-b.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://residence.yamazaki.vn/en/chocolate-mochi-bread/",
+          "evidenceFile": "search-global-b.txt",
+          "reference": "turn379search12",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Chocolate Sesame Mochi Bread – Vietnam Yamazaki (https://residence.yamazaki.vn/en/chocolate-mochi-bread/)\nciteturn379search12 [wordlim: 200] Crawled: 3 months ago; Con",
+          "file": "vincom-dining\\search-global-b.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://www.goldenduckgroup.com/cn/contact-us/goldenduck-international-vietnam-co-ltd-3/",
+          "evidenceFile": "search-global-b.txt",
+          "reference": "turn379search13",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "金鸭国际越南有限公司 - Goldenduck (https://www.goldenduckgroup.com/cn/contact-us/goldenduck-international-vietnam-co-ltd-3/)\nciteturn379search13 [wordlim: 200] Published: 8 mont",
+          "file": "vincom-dining\\search-global-b.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "evidenceFile": "browser-international.json",
+          "section": "Further official-source authority/access/applicability check",
+          "result": "checked; unresolved as explained",
+          "support": "Checked additional authenticated international brand menu/catalogue. It concerns another market and cannot establish Vietnam DongKhoi phone. Original Vietnam page/locator access blocker remains; no foreign branch number, hours or reservation flow transferred.",
+          "file": "vincom-dining\\browser-international.json",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "evidenceFile": "source-international-products.txt",
+          "section": "Further official-source authority/access/applicability check",
+          "result": "checked; unresolved as explained",
+          "support": "Checked additional authenticated international brand menu/catalogue. It concerns another market and cannot establish Vietnam DongKhoi phone. Original Vietnam page/locator access blocker remains; no foreign branch number, hours or reservation flow transferred.",
+          "file": "vincom-dining\\source-international-products.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://vincom.com.vn/brand/seoul-garden",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex26; full rendered body,links and menu-image inventory",
+          "result": "redirected-generic-home-not-evidence",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded.",
+          "file": "vincom-dining\\mall-brand-profiles.json",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "query": "\"Seoul Garden\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-14.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads.",
+          "file": "vincom-dining\\search-14.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "\"Seoul Garden\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-14.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded.",
+          "file": "vincom-dining\\search-14.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "\"Seoul Garden\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-4.txt",
+          "result": "Exact field/branch source results retained.",
+          "file": "vincom-dining\\field-search-4.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "evidenceFile": "search-international-identity.txt",
+          "query": "Exact brand official international menu and parent/Vietnam identity check; source query receipts retained.",
+          "result": "Actual official pages and country applicability checked; see per-field evidence.",
+          "file": "vincom-dining\\search-international-identity.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Seoul Garden",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "redirected-generic-home-not-evidence",
+          "file": "vincom-dining\\mall-brand-profiles.json",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "hold",
+      "remainingAction": "Recover a readable authenticated Vietnam operator/branch source for this field; international catalogue alone is insufficient."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-yamazaki",
+      "field": "phone",
+      "reason": "Checked additional authenticated international brand menu/catalogue. It concerns another market and cannot establish Vietnam DongKhoi phone. Original Vietnam page/locator access blocker remains; no foreign branch number, hours or reservation flow transferred. Additional official mall brand-profile check: rendered profile read; no sufficient exact support for this remaining field, no value inferred from name/location list.",
+      "evidenceBindings": [
+        {
+          "url": "https://residence.yamazaki.vn/en/",
+          "evidenceFile": "source-yamazaki.txt",
+          "reference": "turn393view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn393view0 [wordlim: 200] Source: open({\"ref_id\":\"https://residence.yamazaki.vn/en/\",\"lineno\":null}); Total lines: 1\nL0: URL https://residence.",
+          "file": "vincom-dining\\source-yamazaki.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://residence.yamazaki.vn/en/danh-muc/savory-bread/",
+          "evidenceFile": "source-yamazaki.txt",
+          "reference": "turn393view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn393view1 [wordlim: 200] Source: open({\"ref_id\":\"https://residence.yamazaki.vn/en/danh-muc/savory-bread/\",\"lineno\":null}); Total lines: 1\nL0: ",
+          "file": "vincom-dining\\source-yamazaki.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "evidenceFile": "browser-international.json",
+          "section": "Further official-source authority/access/applicability check",
+          "result": "checked; unresolved as explained",
+          "support": "Checked additional authenticated international brand menu/catalogue. It concerns another market and cannot establish Vietnam DongKhoi phone. Original Vietnam page/locator access blocker remains; no foreign branch number, hours or reservation flow transferred.",
+          "file": "vincom-dining\\browser-international.json",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "evidenceFile": "source-international-products.txt",
+          "section": "Further official-source authority/access/applicability check",
+          "result": "checked; unresolved as explained",
+          "support": "Checked additional authenticated international brand menu/catalogue. It concerns another market and cannot establish Vietnam DongKhoi phone. Original Vietnam page/locator access blocker remains; no foreign branch number, hours or reservation flow transferred.",
+          "file": "vincom-dining\\source-international-products.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://vincom.com.vn/brand/yamazaki",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex27; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded.",
+          "file": "vincom-dining\\mall-brand-profiles.json",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "query": "\"Yamazaki\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-14.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads.",
+          "file": "vincom-dining\\search-14.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "\"Yamazaki\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-14.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded.",
+          "file": "vincom-dining\\search-14.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "\"Yamazaki\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-4.txt",
+          "result": "Exact field/branch source results retained.",
+          "file": "vincom-dining\\field-search-4.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "evidenceFile": "search-international-identity.txt",
+          "query": "Exact brand official international menu and parent/Vietnam identity check; source query receipts retained.",
+          "result": "Actual official pages and country applicability checked; see per-field evidence.",
+          "file": "vincom-dining\\search-international-identity.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Yamazaki",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile",
+          "file": "vincom-dining\\mall-brand-profiles.json",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "hold",
+      "remainingAction": "Recover a readable authenticated Vietnam operator/branch source for this field; international catalogue alone is insufficient."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-touslesjours",
+      "field": "phone",
+      "reason": "Vietnam TLJ domain inaccessible. Official US brand catalogue readable; no US contact/hours/order flow attributed to Vietnam. Additional official mall brand-profile check: rendered profile read; no sufficient exact support for this remaining field, no value inferred from name/location list.",
+      "evidenceBindings": [
+        {
+          "url": "https://seoul-garden.hey-restaurants.com/menu",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Seoul Garden Menu (Latest Full Update 2026) (https://seoul-garden.hey-restaurants.com/menu)\nciteturn696search0 [wordlim: 200] Crawled: 3 weeks ago; Content type: text/",
+          "file": "vincom-dining\\source-sol-tlj-seoul.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://tljus.com/menus/all",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Explore All Menu Items at Tous les Jours Bakery (https://tljus.com/menus/all)\nciteturn696search1 [wordlim: 200] Crawled: today; Content type: text/plain; \nExplore All ",
+          "file": "vincom-dining\\source-sol-tlj-seoul.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://tljus.com/menus/cakes",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Exquisite Korean Custom Cakes Menu | TOUS les JOURS (https://tljus.com/menus/cakes)\nciteturn696search2 [wordlim: 200] Crawled: today; Content type: text/plain; \nDream ",
+          "file": "vincom-dining\\source-sol-tlj-seoul.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://danhgiasao.com/seoul-garden-menu-thuong-thuc-lau-nuong-ngon-dung-dieu/",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search3",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Seoul Garden menu - Thưởng thức lẩu nướng ngon đúng điệu (https://danhgiasao.com/seoul-garden-menu-thuong-thuc-lau-nuong-ngon-dung-dieu/)\nciteturn696search3 [wordlim: ",
+          "file": "vincom-dining\\source-sol-tlj-seoul.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://tljus.com/menus/coffee-espresso",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search4",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Coffee & Espresso Menu | TOUS les JOURS (https://tljus.com/menus/coffee-espresso)\nciteturn696search4 [wordlim: 200] Crawled: today; Content type: text/plain; \nCoffee &",
+          "file": "vincom-dining\\source-sol-tlj-seoul.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://www.menuxp.com/seoul-garden-korean-restaurant-menu",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search5",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Seoul Garden Korean Restaurant Menu with Prices (Updated October 2026) | MenuXP (https://www.menuxp.com/seoul-garden-korean-restaurant-menu)\nciteturn696search5 [wordli",
+          "file": "vincom-dining\\source-sol-tlj-seoul.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://tljus.com/menus/pastryandpie",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search6",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "French Korean Inspired Pastries | TOUS les JOURS (https://tljus.com/menus/pastryandpie)\nciteturn696search6 [wordlim: 200] Crawled: 3 days ago; Content type: text/plain",
+          "file": "vincom-dining\\source-sol-tlj-seoul.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://www.menuxp.com/seoul-garden-restaurant-menu",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search7",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Seoul Garden Restaurant Menu with Prices (Updated October 2026) | MenuXP (https://www.menuxp.com/seoul-garden-restaurant-menu)\nciteturn696search7 [wordlim: 200] Crawle",
+          "file": "vincom-dining\\source-sol-tlj-seoul.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://tljus.com/menus/bread",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search8",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Bread Menu | TOUS les JOURS (https://tljus.com/menus/bread)\nciteturn696search8 [wordlim: 200] Crawled: today; Content type: text/plain; \nBread Menu | TOUS les JOURS...",
+          "file": "vincom-dining\\source-sol-tlj-seoul.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://www.menuxp.com/seoul-garden-menu",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search9",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Seoul Garden Menu with Prices (Updated October 2026) | MenuXP (https://www.menuxp.com/seoul-garden-menu)\nciteturn696search9 [wordlim: 200] Crawled: today; Content type",
+          "file": "vincom-dining\\source-sol-tlj-seoul.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://www.tljpleasanton.com/menu?menu=cakes",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696search10",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Cakes | Tous les Jours (https://www.tljpleasanton.com/menu?menu=cakes)\nciteturn696search10 [wordlim: 200] Content type: text/plain;",
+          "file": "vincom-dining\\source-sol-tlj-seoul.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://sol.com.vn/booking/",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Đặt Bàn - SOL (https://sol.com.vn/booking/)\nciteturn696view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://sol.com.vn/booking",
+          "file": "vincom-dining\\source-sol-tlj-seoul.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://sol.com.vn/restaurant/kohaku-ramen-udon/",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Kohaku Ramen & Udon - SOL (https://sol.com.vn/restaurant/kohaku-ramen-udon/)\nciteturn696view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"re",
+          "file": "vincom-dining\\source-sol-tlj-seoul.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://sol.com.vn/restaurant/date-nariya/",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Date Nariya - SOL (https://sol.com.vn/restaurant/date-nariya/)\nciteturn696view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https:/",
+          "file": "vincom-dining\\source-sol-tlj-seoul.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://tljus.com/menus/all",
+          "evidenceFile": "source-sol-tlj-seoul.txt",
+          "reference": "turn696view3",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Explore All Menu Items at Tous les Jours Bakery (https://tljus.com/menus/all)\nciteturn696view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"r",
+          "file": "vincom-dining\\source-sol-tlj-seoul.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://sol.com.vn/booking/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Đặt Bàn - SOL (https://sol.com.vn/booking/)\nciteturn698view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn696view0\",\"lineno\":40}",
+          "file": "vincom-dining\\source-sol-details.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://sol.com.vn/restaurant/kohaku-ramen-udon/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Kohaku Ramen & Udon - SOL (https://sol.com.vn/restaurant/kohaku-ramen-udon/)\nciteturn698view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"re",
+          "file": "vincom-dining\\source-sol-details.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://sol.com.vn/restaurant/date-nariya/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Date Nariya - SOL (https://sol.com.vn/restaurant/date-nariya/)\nciteturn698view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"turn696",
+          "file": "vincom-dining\\source-sol-details.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://seoulgarden.com.vn/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view3",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn698view3 [wordlim: 200] Source: open({\"ref_id\":\"https://seoulgarden.com.vn/\",\"lineno\":null}); Total lines: 1\nL0: URL https://seoulgarden.com.",
+          "file": "vincom-dining\\source-sol-details.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://www.tlj.com.vn/",
+          "evidenceFile": "source-sol-details.txt",
+          "reference": "turn698view4",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn698view4 [wordlim: 200] Source: open({\"ref_id\":\"https://www.tlj.com.vn/\",\"lineno\":null}); Total lines: 1\nL0: URL https://www.tlj.com.vn/ is n",
+          "file": "vincom-dining\\source-sol-details.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://vincom.com.vn/brand/tous-les-jours",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex41; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded.",
+          "file": "vincom-dining\\mall-brand-profiles.json",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "query": "\"Tous Les Jours\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-21.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads.",
+          "file": "vincom-dining\\search-21.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "\"Tous Les Jours\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-21.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded.",
+          "file": "vincom-dining\\search-21.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "\"Tous Les Jours\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-6.txt",
+          "result": "Exact field/branch source results retained.",
+          "file": "vincom-dining\\field-search-6.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Tous Les Jours",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile",
+          "file": "vincom-dining\\mall-brand-profiles.json",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "hold",
+      "remainingAction": "Recover readable exact official branch/brand field evidence; do not substitute another branch or unrelated brand."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-thematchatokyo",
+      "field": "phone",
+      "reason": "Official global Matcha Tokyo site readable with actual matcha products; direct cafe menu path404. Vietnam branch contact/current hours not verified. Additional official mall brand-profile check: rendered profile read; no sufficient exact support for this remaining field, no value inferred from name/location list.",
+      "evidenceBindings": [
+        {
+          "url": "https://www.the-matcha.tokyo/en",
+          "evidenceFile": "source-matcha.txt",
+          "reference": "turn395view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "THE MATCHA TOKYO – THE MATCHA TOKYO ONLINE STORE (https://www.the-matcha.tokyo/en)\nciteturn395view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: ope",
+          "file": "vincom-dining\\source-matcha.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://koithe.com/en/menu.php",
+          "evidenceFile": "source-official-cuisine.txt",
+          "reference": "turn634view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "MENU | KOI Thé (https://koithe.com/en/menu.php)\nciteturn634view0 [wordlim: 200] Crawled: 6 days ago; Content type: text/html; Source: open({\"ref_id\":\"https://koithe.co",
+          "file": "vincom-dining\\source-official-cuisine.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://longwang.vn/en/brand-story/",
+          "evidenceFile": "source-official-cuisine.txt",
+          "reference": "turn634view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Brand Story - Long Wang (https://longwang.vn/en/brand-story/)\nciteturn634view1 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({\"ref_id\":\"htt",
+          "file": "vincom-dining\\source-official-cuisine.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://www.the-matcha.tokyo/pages/menu",
+          "evidenceFile": "source-official-cuisine.txt",
+          "reference": "turn634view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn634view2 [wordlim: 200] Source: open({\"ref_id\":\"https://www.the-matcha.tokyo/pages/menu\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch ",
+          "file": "vincom-dining\\source-official-cuisine.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://vincom.com.vn/brand/the-matcha-tokyo",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex42; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded.",
+          "file": "vincom-dining\\mall-brand-profiles.json",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "query": "\"The Matcha Tokyo\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-22.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads.",
+          "file": "vincom-dining\\search-22.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "\"The Matcha Tokyo\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-22.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded.",
+          "file": "vincom-dining\\search-22.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "\"The Matcha Tokyo\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-6.txt",
+          "result": "Exact field/branch source results retained.",
+          "file": "vincom-dining\\field-search-6.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for The Matcha Tokyo",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile",
+          "file": "vincom-dining\\mall-brand-profiles.json",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "hold",
+      "remainingAction": "Recover readable exact official branch/brand field evidence; do not substitute another branch or unrelated brand."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-thematchatokyo",
+      "field": "menu",
+      "reason": "Global retail matcha product catalogue is actual product content but not a verified Vietnam cafe menu; /pages/menu404. Additional official mall brand-profile check: rendered profile read; no sufficient exact support for this remaining field, no value inferred from name/location list.",
+      "evidenceBindings": [
+        {
+          "url": "https://www.the-matcha.tokyo/en",
+          "evidenceFile": "source-matcha.txt",
+          "reference": "turn395view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "THE MATCHA TOKYO – THE MATCHA TOKYO ONLINE STORE (https://www.the-matcha.tokyo/en)\nciteturn395view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: ope",
+          "file": "vincom-dining\\source-matcha.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://koithe.com/en/menu.php",
+          "evidenceFile": "source-official-cuisine.txt",
+          "reference": "turn634view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "MENU | KOI Thé (https://koithe.com/en/menu.php)\nciteturn634view0 [wordlim: 200] Crawled: 6 days ago; Content type: text/html; Source: open({\"ref_id\":\"https://koithe.co",
+          "file": "vincom-dining\\source-official-cuisine.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://longwang.vn/en/brand-story/",
+          "evidenceFile": "source-official-cuisine.txt",
+          "reference": "turn634view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Brand Story - Long Wang (https://longwang.vn/en/brand-story/)\nciteturn634view1 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({\"ref_id\":\"htt",
+          "file": "vincom-dining\\source-official-cuisine.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://www.the-matcha.tokyo/pages/menu",
+          "evidenceFile": "source-official-cuisine.txt",
+          "reference": "turn634view2",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieval-blocked",
+          "support": "Internal Error ()\nciteturn634view2 [wordlim: 200] Source: open({\"ref_id\":\"https://www.the-matcha.tokyo/pages/menu\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch ",
+          "file": "vincom-dining\\source-official-cuisine.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://vincom.com.vn/brand/the-matcha-tokyo",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex42; full rendered body,links and menu-image inventory",
+          "result": "retrieved-identity-bound-brand-profile",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded.",
+          "file": "vincom-dining\\mall-brand-profiles.json",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "query": "\"The Matcha Tokyo\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-22.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads.",
+          "file": "vincom-dining\\search-22.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "\"The Matcha Tokyo\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-22.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded.",
+          "file": "vincom-dining\\search-22.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "\"The Matcha Tokyo\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-6.txt",
+          "result": "Exact field/branch source results retained.",
+          "file": "vincom-dining\\field-search-6.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for The Matcha Tokyo",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "retrieved-identity-bound-brand-profile",
+          "file": "vincom-dining\\mall-brand-profiles.json",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "hold",
+      "remainingAction": "Recover actual official cafe menu with appropriate market/branch scope."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-l1-015",
+      "field": "phone",
+      "reason": "Official Clinique Vietnam landing links global official brand and authorized marketplace channels. Cosmetics identity conflicts with frozen dining taxonomy; no branch contact/hours verified. Additional official mall brand-profile check: discovery path redirects to mall homepage and is not evidence; official alias searches retained.",
+      "evidenceBindings": [
+        {
+          "url": "https://thefaceshop.com.vn/",
+          "evidenceFile": "source-beauty.txt",
+          "reference": "turn477view0",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "thefaceshop.com.vn (https://thefaceshop.com.vn/)\nciteturn477view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://thefaceshop.c",
+          "file": "vincom-dining\\source-beauty.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://www.clinique.vn/",
+          "evidenceFile": "source-beauty.txt",
+          "reference": "turn477view1",
+          "section": "source response / referenced branch or field section",
+          "result": "retrieved",
+          "support": "Clinique Vietnam | Dermatology Skincare, Makeup, Fragrances & Gifts (https://www.clinique.vn/)\nciteturn477view1 [wordlim: 200] Crawled: today; Content type: text/html;",
+          "file": "vincom-dining\\source-beauty.txt",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "url": "https://vincom.com.vn/brand/clinique",
+          "evidenceFile": "mall-brand-profiles.json",
+          "section": "queueIndex50; full rendered body,links and menu-image inventory",
+          "result": "redirected-generic-home-not-evidence",
+          "support": "Exact profile body manually reviewed for field facts; slugs used only for discovery. Generic redirects and footer contacts excluded.",
+          "file": "vincom-dining\\mall-brand-profiles.json",
+          "role": "source receipt; independently assess actual body and identity"
+        },
+        {
+          "query": "\"Clinique\" \"Vincom\" \"Đồng Khởi\" điện thoại giờ menu",
+          "evidenceFile": "search-26.txt",
+          "result": "Full returned results retained; nonofficial sources used only as leads.",
+          "file": "vincom-dining\\search-26.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "\"Clinique\" Việt Nam official thực đơn website đặt bàn",
+          "evidenceFile": "search-26.txt",
+          "result": "Official paths fetched where identified; unrelated brands/markets excluded.",
+          "file": "vincom-dining\\search-26.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "\"Clinique\" Vietnam official contact telephone opening hours reservation services Vincom Dong Khoi",
+          "evidenceFile": "field-search-7.txt",
+          "result": "Exact field/branch source results retained.",
+          "file": "vincom-dining\\field-search-7.txt",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        },
+        {
+          "query": "Official Vincom /brand profile discovery for Clinique",
+          "evidenceFile": "mall-brand-profiles.json",
+          "result": "redirected-generic-home-not-evidence",
+          "file": "vincom-dining\\mall-brand-profiles.json",
+          "role": "targeted discovery/negative coverage; third-party leads not factual authority"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "hold",
+      "remainingAction": "Recover readable exact official branch/brand field evidence; do not substitute another branch or unrelated brand."
+    }
+  ]
+}

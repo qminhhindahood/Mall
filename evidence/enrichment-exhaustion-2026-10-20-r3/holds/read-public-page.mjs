@@ -1,0 +1,6 @@
+import {chromium} from 'file:///D:/Midterm/.scratch/impeccable-browser/node_modules/playwright/index.mjs';
+import {writeFile} from 'node:fs/promises';
+const [url,name]=process.argv.slice(2);if(!/^https:\/\//.test(url)||!/^[a-z0-9-]+$/.test(name))throw Error('Expected public HTTPS URL and evidence basename');
+const base='evidence/enrichment-exhaustion-2026-10-20-r3/holds/';
+const b=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});const row={url,checkedAt:new Date().toISOString(),method:'Read-only installed Chromium public page; no submission'};
+try{const p=await b.newPage();try{row.status=(await p.goto(url,{waitUntil:'domcontentloaded',timeout:25000}))?.status();await p.waitForTimeout(2000);row.finalUrl=p.url();row.text=await p.locator('body').innerText();row.links=await p.locator('a[href]').evaluateAll(es=>es.map(e=>({text:e.textContent.trim(),href:e.href})));await p.screenshot({path:base+name+'.png',fullPage:true});}catch(e){row.error=e.message;}await writeFile(base+name+'.json',JSON.stringify(row,null,2));console.log(JSON.stringify({status:row.status,text:row.text?.slice(-6500),error:row.error}));}finally{await b.close();}

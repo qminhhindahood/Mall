@@ -1,0 +1,2257 @@
+{
+  "revision": "retail-b-independent-general-phone-01",
+  "inputs": [
+    {
+      "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+      "sha256": "f432721f7da1b7627db77a9d294b4afc0ab96de8d4d3e87c7a9f298e17257fcd"
+    },
+    {
+      "file": "content-audit/retail-b-independent/reviewed-remaining.json",
+      "sha256": "602477f0401be35435d21792fc1703c8d70c2bfbaef059610148840f882664d3"
+    },
+    {
+      "file": "saigon-retail/source-090.txt",
+      "sha256": "436d4ce041654727fa85e39f0af0cf96a35fdfcee129ee79c15b744a66571730"
+    },
+    {
+      "file": "vincom-retail-b/last-locators-03.json",
+      "sha256": "c724aed8b5974abfa37c396db7f28044b7984e47efe27d2b3d3570d586e415b1"
+    },
+    {
+      "file": "vincom-retail-b/locator-detail-01.json",
+      "sha256": "5b20972cface0e6c5d14a6012df1ea0b2a5d7769affa3ecc1b11fee29080d6e8"
+    },
+    {
+      "file": "vincom-retail-b/locator-detail-02.json",
+      "sha256": "6339df50d35a447f30d54d97bf67b541fbc6805be8b9bceb1d7a0132bcde6b6e"
+    },
+    {
+      "file": "vincom-retail-b/matviet-service.json",
+      "sha256": "edc0e5478ce8b0ac5b021a2d86e54e4d31f5e58d930c87c6d5ee536beedcb4c5"
+    },
+    {
+      "file": "vincom-retail-b/open-03.json",
+      "sha256": "a02d9effca2a2b324f33d6b6687f2e985967459e5df3e974bba8fa4369f0be8b"
+    },
+    {
+      "file": "vincom-retail-b/open-04.json",
+      "sha256": "0d0388910a99e04b0b5d460a7919b0f0ee9266adf601aefbb0ca2d11f72a2562"
+    },
+    {
+      "file": "vincom-retail-b/open-05.json",
+      "sha256": "198b5db5da9a365a67bfa90f0980862208054f57d17bc8573f0775848990b0b0"
+    },
+    {
+      "file": "vincom-retail-b/open-12.json",
+      "sha256": "cfe72abf099cb1ba8a6c15de3824abf43d84b1c55909477a0aa4efd7cec7c0cb"
+    },
+    {
+      "file": "vincom-retail-b/open-17.json",
+      "sha256": "a387e7fa85c4d2c889c2ff153d0ad5741e9bfd5c3197e019a66bb29c5898cf77"
+    },
+    {
+      "file": "vincom-retail-b/phone-scope-chunk01-decisions.json",
+      "sha256": "f534133dd2549d3ec4abb968033c9c4f273b565be127e439c82a0d14e52dd15d"
+    },
+    {
+      "file": "vincom-retail-b/phone-scope-chunk01-records.json",
+      "sha256": "6928590d08b6699ce032e52330f674de1bcc4f86f6b7ad70c3bf7f14b7f61989"
+    },
+    {
+      "file": "vincom-retail-b/phone-scope-proof-01.json",
+      "sha256": "1fd6f9f60c1f080f3cf59eaee00f62df7b22a1058d912b361d1a94fb949d30ae"
+    },
+    {
+      "file": "vincom-retail-b/phone-scope-proof-02.json",
+      "sha256": "31499148a0651b980d53c440791a8437cdc100261e0cfed74519969ca8939f9b"
+    },
+    {
+      "file": "vincom-retail-b/product-proof-10.json",
+      "sha256": "75e524fd8cbfdf2bdadb082092c64efeeb541dc01037d916290459682f581989"
+    },
+    {
+      "file": "vincom-retail-b/product-service-01.json",
+      "sha256": "5341b13d568b205802219690f0ce087abd2a0b5df86370f986366f00087bcc5f"
+    },
+    {
+      "file": "vincom-retail-b/product-service-05.json",
+      "sha256": "a5589be9292d819bc035cefc7a768e660aabd567d824af13dde0b9774a06ffe2"
+    },
+    {
+      "file": "vincom-retail-b/product-service-06.json",
+      "sha256": "3509bca1b97fa9a50c11e8411a9154372516f5e2eac69114a8aaa3ca01292ec9"
+    }
+  ],
+  "records": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-beautybox",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-beautybox",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "Official branch page lists 18006035, a general customer-service hotline; dedicated branch line not established. Do not use as branch-direct phone.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/locator-detail-01.json",
+            "reference": "turn403view0, turn372view1, turn403view1, turn372view2, turn403view2, turn372view3, turn403view3, turn372view5, turn403view4, turn375view1, turn403view5, turn375view2, turn403view6, turn375view3, turn403view7, turn375view4, turn403view8, turn382view3, turn403view9, turn384view2",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://beautybox.com.vn/stores/BG012",
+              "https://vincom.com.vn/store/beauty-box-vincom-center-dong-khoi"
+            ],
+            "support": "Official branch page lists 18006035, a general customer-service hotline; dedicated branch line not established. Do not use as branch-direct phone."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://beautybox.com.vn/stores/BG012",
+          "https://vincom.com.vn/store/beauty-box-vincom-center-dong-khoi"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:beautybox.com.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-07.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "Beauty Box Vietnam official store locator Dong Khoi",
+            "resultFile": "search-09.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:beautybox.com.vn \"Beauty Box\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-08.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Find an explicitly branch-specific contact; do not substitute the shared hotline."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://beautybox.com.vn/stores/BG012",
+        "evidence": "Official numeric contact in actual saved source body: turn403view3 L41. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "18006035",
+          "en": "18006035"
+        },
+        "uncertainty": {
+          "vi": "Beauty Box Việt Nam, tổng đài chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "Beauty Box Vietnam general hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/locator-detail-01.json",
+          "reference": "turn403view3 L41",
+          "sourceUrl": "https://beautybox.com.vn/stores/BG012",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-prototype-beautybox",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-006",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-candidate-vd-b1-006",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "Official store-list main content lists other branches and their phones, while footer still names an old Vincom boutique without phone/hours. Branch currentness and applicability of any contact are unresolved; other-branch numbers and corporate0967588832 are not substituted.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/open-03.json",
+            "reference": "turn376view0, turn376view1, turn376view2, turn376view3, turn376view4, turn376view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://cathkidston.com.vn/pages/he-thong-cua-hang",
+              "https://cathkidston.com.vn/pages/lien-he"
+            ],
+            "support": "Official store-list main content lists other branches and their phones, while footer still names an old Vincom boutique without phone/hours. Branch currentness and applicability of any contact are unresolved; other-branch numbers and corporate0967588832 are not substituted."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-01.json",
+            "reference": "turn625search0, turn625search1, turn625search2, turn625search3, turn625search4, turn625search5, turn625search6, turn625search7, turn625search8, turn625search9, turn625search10, turn625search11, turn625search12, turn625search13, turn625search14, turn625search15",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://cathkidston.com.vn/pages/he-thong-cua-hang",
+              "https://cathkidston.com.vn/pages/lien-he"
+            ],
+            "support": "Official store-list main content lists other branches and their phones, while footer still names an old Vincom boutique without phone/hours. Branch currentness and applicability of any contact are unresolved; other-branch numbers and corporate0967588832 are not substituted."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://cathkidston.com.vn/pages/he-thong-cua-hang",
+          "https://cathkidston.com.vn/pages/lien-he"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:cathkidston.com.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-01.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:cathkidston.com.vn \"Cath Kidston\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-01.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Obtain an unambiguous current official Đồng Khởi branch contact/hour block resolving the main-list/footer mismatch."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://cathkidston.com.vn/",
+        "evidence": "Official numeric contact in actual saved source body: turn376view1 L284; also turn376view0 L105. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "0967588832",
+          "en": "0967588832"
+        },
+        "uncertainty": {
+          "vi": "Cath Kidston Việt Nam, liên hệ chung trên website. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "Cath Kidston Vietnam general website contact. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/open-03.json",
+          "reference": "turn376view1 L284; also turn376view0 L105",
+          "sourceUrl": "https://cathkidston.com.vn/",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-candidate-vd-b1-006",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-017",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-candidate-vd-b1-017",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "Readable official store list does not include Đồng Khởi. Listed Takashimaya/other-branch numbers and the general hotline cannot establish this frozen branch contact or schedule.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/open-03.json",
+            "reference": "turn376view0, turn376view1, turn376view2, turn376view3, turn376view4, turn376view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://ceci.vn/he-thong-cua-hang/"
+            ],
+            "support": "Readable official store list does not include Đồng Khởi. Listed Takashimaya/other-branch numbers and the general hotline cannot establish this frozen branch contact or schedule."
+          },
+          {
+            "file": "vincom-retail-b/search-02.json",
+            "reference": "turn293search0, turn293search1, turn293search2, turn293search3, turn293search4, turn293search5, turn293search6, turn293search7, turn293search8, turn293search9, turn293search10, turn293search11, turn293search12, turn293search13, turn293search14",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://ceci.vn/he-thong-cua-hang/"
+            ],
+            "support": "Readable official store list does not include Đồng Khởi. Listed Takashimaya/other-branch numbers and the general hotline cannot establish this frozen branch contact or schedule."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://ceci.vn/he-thong-cua-hang/"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:ceci.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-01.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:ceci.vn \"Ceci\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-01.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Resolve the missing branch applicability with an official Céci Đồng Khởi contact/hour statement."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://ceci.vn/",
+        "evidence": "Official numeric contact in actual saved source body: turn802view1 L139/159. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "0789866225",
+          "en": "0789866225"
+        },
+        "uncertainty": {
+          "vi": "Céci Việt Nam, hotline chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "Céci Vietnam general hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/product-service-01.json",
+          "reference": "turn802view1 L139/159",
+          "sourceUrl": "https://ceci.vn/",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-candidate-vd-b1-017",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-029",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-candidate-vd-b2-029",
+        "field": "phone",
+        "auditDecision": "unavailable-after-research",
+        "reason": "Checked official About branch list names Đồng Khởi but supplies no branch phone/hours; the official contact material identifies headquarters/marketing contact, not a branch line. Exact branch-field search produced no further official branch contact/hour page. No separate branch detail link is exposed by the checked list.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/open-03.json",
+            "reference": "turn376view0, turn376view1, turn376view2, turn376view3, turn376view4, turn376view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.cutieland.vn/pages/about-us",
+              "https://www.cutieland.vn/pages/lien-he",
+              "https://www.cutieland.vn/"
+            ],
+            "support": "Checked official About branch list names Đồng Khởi but supplies no branch phone/hours; the official contact material identifies headquarters/marketing contact, not a branch line. Exact branch-field search produced no further official branch contact/hour page. No separate branch detail link is exposed by the checked list."
+          },
+          {
+            "file": "vincom-retail-b/open-06.json",
+            "reference": "turn385view0, turn385view1, turn385view2, turn385view3, turn385view4, turn385view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.cutieland.vn/pages/about-us",
+              "https://www.cutieland.vn/pages/lien-he",
+              "https://www.cutieland.vn/"
+            ],
+            "support": "Checked official About branch list names Đồng Khởi but supplies no branch phone/hours; the official contact material identifies headquarters/marketing contact, not a branch line. Exact branch-field search produced no further official branch contact/hour page. No separate branch detail link is exposed by the checked list."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-05.json",
+            "reference": "turn635search0, turn635search1, turn635search2, turn635search3, turn635search4, turn635search5, turn635search6, turn635search7, turn635search8, turn635search9, turn635search10, turn635search11, turn635search12, turn635search13, turn635search14, turn635search15",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.cutieland.vn/pages/about-us",
+              "https://www.cutieland.vn/pages/lien-he",
+              "https://www.cutieland.vn/"
+            ],
+            "support": "Checked official About branch list names Đồng Khởi but supplies no branch phone/hours; the official contact material identifies headquarters/marketing contact, not a branch line. Exact branch-field search produced no further official branch contact/hour page. No separate branch detail link is exposed by the checked list."
+          },
+          {
+            "file": "vincom-retail-b/search-06.json",
+            "reference": "turn311search0, turn311search1, turn311search2, turn311search3, turn311search4, turn311search5, turn311search6, turn311search7, turn311search8, turn311search9, turn311search10, turn311search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.cutieland.vn/pages/about-us",
+              "https://www.cutieland.vn/pages/lien-he",
+              "https://www.cutieland.vn/"
+            ],
+            "support": "Checked official About branch list names Đồng Khởi but supplies no branch phone/hours; the official contact material identifies headquarters/marketing contact, not a branch line. Exact branch-field search produced no further official branch contact/hour page. No separate branch detail link is exposed by the checked list."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "unavailable-after-research",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://www.cutieland.vn/pages/about-us",
+          "https://www.cutieland.vn/pages/lien-he",
+          "https://www.cutieland.vn/"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:cutieland.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-05.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "Cutie Land Vietnam official Vincom Dong Khoi",
+            "resultFile": "search-06.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:cutieland.vn \"Cutieland\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-05.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "boundedScope": "Only the dedicated Vincom Center Dong Khoi branch phone in the named checked official sources; no claim of global nonexistence.",
+        "negativeCoverage": {
+          "checkedSources": [
+            "https://www.cutieland.vn/pages/about-us",
+            "https://www.cutieland.vn/pages/lien-he",
+            "https://www.cutieland.vn/"
+          ],
+          "targetedOfficialQueries": [
+            {
+              "query": "site:cutieland.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+              "resultFile": "contact-search-05.json",
+              "checkedAt": "2026-10-20",
+              "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+            },
+            {
+              "query": "Cutie Land Vietnam official Vincom Dong Khoi",
+              "resultFile": "search-06.json",
+              "checkedAt": "2026-10-20",
+              "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+            },
+            {
+              "query": "site:cutieland.vn \"Cutieland\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+              "resultFile": "service-search-05.json",
+              "checkedAt": "2026-10-20",
+              "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+            }
+          ],
+          "inspectedFinding": "Checked official About branch list names Đồng Khởi but supplies no branch phone/hours; the official contact material identifies headquarters/marketing contact, not a branch line. Exact branch-field search produced no further official branch contact/hour page. No separate branch detail link is exposed by the checked list.",
+          "excludedInformation": "General brand/corporate contacts, office schedules, different branches, foreign locators and historical material are not substituted.",
+          "recheckTrigger": "Recheck the named official sources if new branch evidence becomes available."
+        }
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.cutieland.vn/",
+        "evidence": "Official numeric contact in actual saved source body: turn812view1 L186; printed +84 397 8888 18. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "+84397888818",
+          "en": "+84397888818"
+        },
+        "uncertainty": {
+          "vi": "Cutieland Việt Nam, hotline chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "Cutieland Vietnam general hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/product-service-05.json",
+          "reference": "turn812view1 L186; printed +84 397 8888 18",
+          "sourceUrl": "https://www.cutieland.vn/",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-candidate-vd-b2-029",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-coway",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-coway",
+        "field": "phone",
+        "auditDecision": "unavailable-after-research",
+        "reason": "Official Vietnam showroom list names Đồng Khởi but no dedicated row phone/hours. The source prints the same national1800556892 hotline separately; branch search yields no additional branch contact/hour action. Corporate support information is not assigned to the branch.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/open-04.json",
+            "reference": "turn382view0, turn382view1, turn382view2, turn382view3, turn382view4, turn382view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://cowayvina.com.vn/coway-vina",
+              "https://cowayvina.com.vn/service",
+              "https://vincom.com.vn/store/coway-vincom-center-dong-khoi"
+            ],
+            "support": "Official Vietnam showroom list names Đồng Khởi but no dedicated row phone/hours. The source prints the same national1800556892 hotline separately; branch search yields no additional branch contact/hour action. Corporate support information is not assigned to the branch."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-08.json",
+            "reference": "turn641search0, turn641search1, turn641search2, turn641search3, turn641search4, turn641search5, turn641search6, turn641search7, turn641search8, turn641search9, turn641search10, turn641search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://cowayvina.com.vn/coway-vina",
+              "https://cowayvina.com.vn/service",
+              "https://vincom.com.vn/store/coway-vincom-center-dong-khoi"
+            ],
+            "support": "Official Vietnam showroom list names Đồng Khởi but no dedicated row phone/hours. The source prints the same national1800556892 hotline separately; branch search yields no additional branch contact/hour action. Corporate support information is not assigned to the branch."
+          },
+          {
+            "file": "vincom-retail-b/details-04.json",
+            "reference": "turn751view0, turn738view0, turn751view1, turn707view0, turn751view2, turn707view1, turn751view3, turn707view2, turn751view4, turn707view3, turn751view5, turn707view4, turn751view6, turn707view5, turn751view7, turn716view0, turn751view8, turn716view1, turn751view9, turn672view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://cowayvina.com.vn/coway-vina",
+              "https://cowayvina.com.vn/service",
+              "https://vincom.com.vn/store/coway-vincom-center-dong-khoi"
+            ],
+            "support": "Official Vietnam showroom list names Đồng Khởi but no dedicated row phone/hours. The source prints the same national1800556892 hotline separately; branch search yields no additional branch contact/hour action. Corporate support information is not assigned to the branch."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "unavailable-after-research",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://cowayvina.com.vn/coway-vina",
+          "https://cowayvina.com.vn/service",
+          "https://vincom.com.vn/store/coway-vincom-center-dong-khoi"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:cowayvina.com.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-08.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "Coway Vietnam official Vincom Dong Khoi",
+            "resultFile": "search-10.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:cowayvina.com.vn \"Coway\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-09.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "boundedScope": "Only the dedicated Vincom Center Dong Khoi branch phone in the named checked official sources; no claim of global nonexistence.",
+        "negativeCoverage": {
+          "checkedSources": [
+            "https://cowayvina.com.vn/coway-vina",
+            "https://cowayvina.com.vn/service",
+            "https://vincom.com.vn/store/coway-vincom-center-dong-khoi"
+          ],
+          "targetedOfficialQueries": [
+            {
+              "query": "site:cowayvina.com.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+              "resultFile": "contact-search-08.json",
+              "checkedAt": "2026-10-20",
+              "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+            },
+            {
+              "query": "Coway Vietnam official Vincom Dong Khoi",
+              "resultFile": "search-10.json",
+              "checkedAt": "2026-10-20",
+              "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+            },
+            {
+              "query": "site:cowayvina.com.vn \"Coway\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+              "resultFile": "service-search-09.json",
+              "checkedAt": "2026-10-20",
+              "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+            }
+          ],
+          "inspectedFinding": "Official Vietnam showroom list names Đồng Khởi but no dedicated row phone/hours. The source prints the same national1800556892 hotline separately; branch search yields no additional branch contact/hour action. Corporate support information is not assigned to the branch.",
+          "excludedInformation": "General brand/corporate contacts, office schedules, different branches, foreign locators and historical material are not substituted.",
+          "recheckTrigger": "Recheck the named official sources if new branch evidence becomes available."
+        }
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://cowayvina.com.vn/coway-vina",
+        "evidence": "Official numeric contact in actual saved source body: turn382view0 L32–33/131–132. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "1800556892",
+          "en": "1800556892"
+        },
+        "uncertainty": {
+          "vi": "Coway Vina, hotline chăm sóc khách hàng toàn quốc. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "Coway Vina national customer-care hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/open-04.json",
+          "reference": "turn382view0 L32–33/131–132",
+          "sourceUrl": "https://cowayvina.com.vn/coway-vina",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-prototype-coway",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-fixifoot",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-fixifoot",
+        "field": "phone",
+        "auditDecision": "unavailable-after-research",
+        "reason": "Official contact page contains a repeated generic site phone0983000821, while inspected branch blocks print addresses without an explicitly branch-associated phone. No dedicated Dong Khoi contact is established; the shared site number is excluded from branch-direct contact.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/open-04.json",
+            "reference": "turn382view0, turn382view1, turn382view2, turn382view3, turn382view4, turn382view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://fixifoot.vn/contact-us/",
+              "https://fixifoot.vn/",
+              "https://vincom.com.vn/store/fixifoot-vincom-center-dong-khoi"
+            ],
+            "support": "Official contact page contains a repeated generic site phone0983000821, while inspected branch blocks print addresses without an explicitly branch-associated phone. No dedicated Dong Khoi contact is established; the shared site number is excluded from branch-direct contact."
+          },
+          {
+            "file": "vincom-retail-b/open-02.json",
+            "reference": "turn375view0, turn375view1, turn375view2, turn375view3, turn375view4, turn375view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://fixifoot.vn/contact-us/",
+              "https://fixifoot.vn/",
+              "https://vincom.com.vn/store/fixifoot-vincom-center-dong-khoi"
+            ],
+            "support": "Official contact page contains a repeated generic site phone0983000821, while inspected branch blocks print addresses without an explicitly branch-associated phone. No dedicated Dong Khoi contact is established; the shared site number is excluded from branch-direct contact."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-09.json",
+            "reference": "turn642search0, turn642search1, turn642search2, turn642search3, turn642search4, turn642search5, turn642search6, turn642search7, turn642search8, turn642search9, turn642search10, turn642search11, turn642search12, turn642search13, turn642search14, turn642search15",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://fixifoot.vn/contact-us/",
+              "https://fixifoot.vn/",
+              "https://vincom.com.vn/store/fixifoot-vincom-center-dong-khoi"
+            ],
+            "support": "Official contact page contains a repeated generic site phone0983000821, while inspected branch blocks print addresses without an explicitly branch-associated phone. No dedicated Dong Khoi contact is established; the shared site number is excluded from branch-direct contact."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "unavailable-after-research",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://fixifoot.vn/contact-us/",
+          "https://fixifoot.vn/",
+          "https://vincom.com.vn/store/fixifoot-vincom-center-dong-khoi"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:fixifoot.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-09.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "Fixifoot official Vietnam Vincom Dong Khoi",
+            "resultFile": "search-11.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:fixifoot.vn \"Fixifoot\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-10.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "boundedScope": "Only the dedicated Vincom Center Dong Khoi branch phone in the named checked official sources; no claim of global nonexistence.",
+        "negativeCoverage": {
+          "checkedSources": [
+            "https://fixifoot.vn/contact-us/",
+            "https://fixifoot.vn/",
+            "https://vincom.com.vn/store/fixifoot-vincom-center-dong-khoi"
+          ],
+          "targetedOfficialQueries": [
+            {
+              "query": "site:fixifoot.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+              "resultFile": "contact-search-09.json",
+              "checkedAt": "2026-10-20",
+              "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+            },
+            {
+              "query": "Fixifoot official Vietnam Vincom Dong Khoi",
+              "resultFile": "search-11.json",
+              "checkedAt": "2026-10-20",
+              "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+            },
+            {
+              "query": "site:fixifoot.vn \"Fixifoot\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+              "resultFile": "service-search-10.json",
+              "checkedAt": "2026-10-20",
+              "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+            }
+          ],
+          "inspectedFinding": "Official contact page contains a repeated generic site phone0983000821, while inspected branch blocks print addresses without an explicitly branch-associated phone. No dedicated Dong Khoi contact is established; the shared site number is excluded from branch-direct contact.",
+          "excludedInformation": "General brand/corporate contacts, office schedules, different branches, foreign locators and historical material are not substituted.",
+          "recheckTrigger": "Recheck the named official sources if new branch evidence becomes available."
+        }
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://fixifoot.vn/contact-us/",
+        "evidence": "Official numeric contact in actual saved source body: turn382view1 L14/27/40. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "0983000821",
+          "en": "0983000821"
+        },
+        "uncertainty": {
+          "vi": "Fixifoot Việt Nam, số liên hệ chung trên website. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "Fixifoot Vietnam general website contact. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/open-04.json",
+          "reference": "turn382view1 L14/27/40",
+          "sourceUrl": "https://fixifoot.vn/contact-us/",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-prototype-fixifoot",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-himalaya",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-himalaya",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "Official national store/dealer page does not establish a readable current Đồng Khởi contact/hour row. The checked mall and branch-targeted searches do not resolve that branch applicability; general online contacts cannot substitute.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/open-04.json",
+            "reference": "turn382view0, turn382view1, turn382view2, turn382view3, turn382view4, turn382view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.himalaya-vn.com/pages/he-thong-cua-hang-dai-ly",
+              "https://vincom.com.vn/store/himalaya-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Official national store/dealer page does not establish a readable current Đồng Khởi contact/hour row. The checked mall and branch-targeted searches do not resolve that branch applicability; general online contacts cannot substitute."
+          },
+          {
+            "file": "vincom-retail-b/search-12.json",
+            "reference": "turn336search0, turn336search1, turn336search2, turn336search3, turn336search4, turn336search5, turn336search6, turn336search7, turn336search8, turn336search9, turn336search10, turn336search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.himalaya-vn.com/pages/he-thong-cua-hang-dai-ly",
+              "https://vincom.com.vn/store/himalaya-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Official national store/dealer page does not establish a readable current Đồng Khởi contact/hour row. The checked mall and branch-targeted searches do not resolve that branch applicability; general online contacts cannot substitute."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-10.json",
+            "reference": "turn644search0, turn644search1, turn644search2, turn644search3, turn644search4, turn644search5, turn644search6, turn644search7, turn644search8, turn644search9, turn644search10, turn644search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.himalaya-vn.com/pages/he-thong-cua-hang-dai-ly",
+              "https://vincom.com.vn/store/himalaya-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Official national store/dealer page does not establish a readable current Đồng Khởi contact/hour row. The checked mall and branch-targeted searches do not resolve that branch applicability; general online contacts cannot substitute."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://www.himalaya-vn.com/pages/he-thong-cua-hang-dai-ly",
+          "https://vincom.com.vn/store/himalaya-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:himalaya-vn.com (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-10.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:himalaya-vn.com dịch vụ cửa hàng Đồng Khởi",
+            "resultFile": "search-12.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:himalaya-vn.com \"Himalaya\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-11.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Obtain an explicit current official Đồng Khởi store/dealer contact and schedule."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.himalaya-vn.com/",
+        "evidence": "Official numeric contact in actual saved source body: turn848view2 L424. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "0865772112",
+          "en": "0865772112"
+        },
+        "uncertainty": {
+          "vi": "Himalaya Việt Nam, hotline chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "Himalaya Vietnam general hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/product-proof-10.json",
+          "reference": "turn848view2 L424",
+          "sourceUrl": "https://www.himalaya-vn.com/",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-prototype-himalaya",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-lining",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-lining",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "Official Vietnam store locator exposes a province selector without readable branch rows. The search and contact source do not yield the actual Đồng Khởi row, so national support/retailer assumptions are excluded.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/open-13.json",
+            "reference": "turn529view0, turn529view1, turn529view2, turn529view3, turn529view4, turn529view5, turn529view6, turn529view7",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://lining.com.vn/pages/he-thong-cua-hang-2",
+              "https://vincom.com.vn/store/lining-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Official Vietnam store locator exposes a province selector without readable branch rows. The search and contact source do not yield the actual Đồng Khởi row, so national support/retailer assumptions are excluded."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-11.json",
+            "reference": "turn647search0, turn647search1, turn647search2, turn647search3, turn647search4, turn647search5, turn647search6, turn647search7, turn647search8, turn647search9, turn647search10, turn647search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://lining.com.vn/pages/he-thong-cua-hang-2",
+              "https://vincom.com.vn/store/lining-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Official Vietnam store locator exposes a province selector without readable branch rows. The search and contact source do not yield the actual Đồng Khởi row, so national support/retailer assumptions are excluded."
+          },
+          {
+            "file": "vincom-retail-b/target-06.json",
+            "reference": "turn448search0, turn448search1, turn448search2, turn448search3, turn448search4, turn448search5, turn448search6, turn448search7",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://lining.com.vn/pages/he-thong-cua-hang-2",
+              "https://vincom.com.vn/store/lining-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Official Vietnam store locator exposes a province selector without readable branch rows. The search and contact source do not yield the actual Đồng Khởi row, so national support/retailer assumptions are excluded."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://lining.com.vn/pages/he-thong-cua-hang-2",
+          "https://vincom.com.vn/store/lining-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:lining.com.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-11.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "Li Ning official Vietnam Vincom Dong Khoi",
+            "resultFile": "search-13.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:lining.com.vn \"Li-Ning\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-12.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Read the official selected Đồng Khởi locator result or an alternate official branch statement."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://lining.com.vn/collections/giay-chay-bo-nam-2",
+        "evidence": "Official numeric contact in actual saved source body: turn814view0 L699–703 identifies Hải Long distributor and hotline. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "1900633083",
+          "en": "1900633083"
+        },
+        "uncertainty": {
+          "vi": "Hải Long, nhà phân phối Li-Ning tại Việt Nam, hotline chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "Hai Long, Li-Ning Vietnam distributor general hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/product-service-06.json",
+          "reference": "turn814view0 L699–703 identifies Hải Long distributor and hotline",
+          "sourceUrl": "https://lining.com.vn/collections/giay-chay-bo-nam-2",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-prototype-lining",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-mykingdom",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-mykingdom",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "Official national locator retrieves an extensive list but exact Đồng Khởi searches/extraction do not establish this frozen branch row. A general1900contact and other branches cannot substitute for a matching branch contact/hour block.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/open-05.json",
+            "reference": "turn384view0, turn384view1, turn384view2, turn384view3, turn384view4, turn384view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.mykingdom.com.vn/pages/store-locator",
+              "https://vincom.com.vn/store/my-kingdom-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Official national locator retrieves an extensive list but exact Đồng Khởi searches/extraction do not establish this frozen branch row. A general1900contact and other branches cannot substitute for a matching branch contact/hour block."
+          },
+          {
+            "file": "vincom-retail-b/locator-detail-01.json",
+            "reference": "turn403view0, turn372view1, turn403view1, turn372view2, turn403view2, turn372view3, turn403view3, turn372view5, turn403view4, turn375view1, turn403view5, turn375view2, turn403view6, turn375view3, turn403view7, turn375view4, turn403view8, turn382view3, turn403view9, turn384view2",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.mykingdom.com.vn/pages/store-locator",
+              "https://vincom.com.vn/store/my-kingdom-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Official national locator retrieves an extensive list but exact Đồng Khởi searches/extraction do not establish this frozen branch row. A general1900contact and other branches cannot substitute for a matching branch contact/hour block."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-13.json",
+            "reference": "turn651search0, turn651search1, turn651search2, turn651search3, turn651search4, turn651search5, turn651search6, turn651search7, turn651search8, turn651search9, turn651search10, turn651search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.mykingdom.com.vn/pages/store-locator",
+              "https://vincom.com.vn/store/my-kingdom-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Official national locator retrieves an extensive list but exact Đồng Khởi searches/extraction do not establish this frozen branch row. A general1900contact and other branches cannot substitute for a matching branch contact/hour block."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://www.mykingdom.com.vn/pages/store-locator",
+          "https://vincom.com.vn/store/my-kingdom-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:mykingdom.com.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-13.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:mykingdom.com.vn \"Đồng Khởi\"",
+            "resultFile": "search-15.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:mykingdom.com.vn \"My Kingdom\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-14.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Resolve the missing exact current branch result using an official branch statement or locator entry; no closure is inferred from absence."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.mykingdom.com.vn/pages/faqs",
+        "evidence": "Official numeric contact in actual saved source body: turn618view0 L255/270/283. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "19001208",
+          "en": "19001208"
+        },
+        "uncertainty": {
+          "vi": "Mykingdom Việt Nam, hotline hỗ trợ chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "Mykingdom Vietnam general support hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/open-17.json",
+          "reference": "turn618view0 L255/270/283",
+          "sourceUrl": "https://www.mykingdom.com.vn/pages/faqs",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-prototype-mykingdom",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-matviet",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-matviet",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "Indexed official locator names hotline extension227 and10:00–22:00, but direct locator extraction omits that row. The readable2023 official article corroborates branch address only, not phone/hours. Indexed practical values remain leads until directly bound.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/search-14.json",
+            "reference": "turn342search0, turn342search1, turn342search2, turn342search3, turn342search4, turn342search5, turn342search6, turn342search7, turn342search8, turn342search9, turn342search10, turn342search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://matviet.vn/pages/he-thong-cua-hang",
+              "https://matviet.vn/blogs/news/cua-hang-mat-viet-o-dau",
+              "https://vincom.com.vn/store/mat-viet-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Indexed official locator names hotline extension227 and10:00–22:00, but direct locator extraction omits that row. The readable2023 official article corroborates branch address only, not phone/hours. Indexed practical values remain leads until directly bound."
+          },
+          {
+            "file": "vincom-retail-b/locator-detail-01.json",
+            "reference": "turn403view0, turn372view1, turn403view1, turn372view2, turn403view2, turn372view3, turn403view3, turn372view5, turn403view4, turn375view1, turn403view5, turn375view2, turn403view6, turn375view3, turn403view7, turn375view4, turn403view8, turn382view3, turn403view9, turn384view2",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://matviet.vn/pages/he-thong-cua-hang",
+              "https://matviet.vn/blogs/news/cua-hang-mat-viet-o-dau",
+              "https://vincom.com.vn/store/mat-viet-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Indexed official locator names hotline extension227 and10:00–22:00, but direct locator extraction omits that row. The readable2023 official article corroborates branch address only, not phone/hours. Indexed practical values remain leads until directly bound."
+          },
+          {
+            "file": "vincom-retail-b/details-04.json",
+            "reference": "turn751view0, turn738view0, turn751view1, turn707view0, turn751view2, turn707view1, turn751view3, turn707view2, turn751view4, turn707view3, turn751view5, turn707view4, turn751view6, turn707view5, turn751view7, turn716view0, turn751view8, turn716view1, turn751view9, turn672view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://matviet.vn/pages/he-thong-cua-hang",
+              "https://matviet.vn/blogs/news/cua-hang-mat-viet-o-dau",
+              "https://vincom.com.vn/store/mat-viet-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Indexed official locator names hotline extension227 and10:00–22:00, but direct locator extraction omits that row. The readable2023 official article corroborates branch address only, not phone/hours. Indexed practical values remain leads until directly bound."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-12.json",
+            "reference": "turn650search0, turn650search1, turn650search2, turn650search3, turn650search4, turn650search5, turn650search6, turn650search7, turn650search8, turn650search9, turn650search10, turn650search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://matviet.vn/pages/he-thong-cua-hang",
+              "https://matviet.vn/blogs/news/cua-hang-mat-viet-o-dau",
+              "https://vincom.com.vn/store/mat-viet-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Indexed official locator names hotline extension227 and10:00–22:00, but direct locator extraction omits that row. The readable2023 official article corroborates branch address only, not phone/hours. Indexed practical values remain leads until directly bound."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://matviet.vn/pages/he-thong-cua-hang",
+          "https://matviet.vn/blogs/news/cua-hang-mat-viet-o-dau",
+          "https://vincom.com.vn/store/mat-viet-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:matviet.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-12.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "Mat Viet official Vincom Dong Khoi",
+            "resultFile": "search-14.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:matviet.vn \"Mat Viet\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-13.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Retrieve the current official row with extension/hour details; preserve the distinction between shared hotline extension and a dedicated line."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://matviet.vn/pages/about-us",
+        "evidence": "Official numeric contact in actual saved source body: turn797view1 L171/300/344. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "19006081",
+          "en": "19006081"
+        },
+        "uncertainty": {
+          "vi": "Mắt Việt, hotline chung toàn hệ thống. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "Mắt Việt general network hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/matviet-service.json",
+          "reference": "turn797view1 L171/300/344",
+          "sourceUrl": "https://matviet.vn/pages/about-us",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-prototype-matviet",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-viinriicnicheperfume",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-viinriicnicheperfume",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "Official branch row lists address/hours without a branch phone; contact/footer numbers are general brand support and are not expressly assigned to Đồng Khởi.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/locator-detail-02.json",
+            "reference": "turn493view0, turn471view5, turn493view1, turn473view2, turn493view2, turn473view3, turn493view3, turn473view4, turn493view4, turn473view5, turn493view5, turn470view2, turn493view6, turn482view2",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://viinriic.com/en/store-locator/",
+              "https://viinriic.com/en/contact/",
+              "https://vincom.com.vn/store/viin-riic-niche-vincom-center-dong-khoi"
+            ],
+            "support": "Official branch row lists address/hours without a branch phone; contact/footer numbers are general brand support and are not expressly assigned to Đồng Khởi."
+          },
+          {
+            "file": "vincom-retail-b/open-17.json",
+            "reference": "turn618view0, turn618view1, turn618view2, turn618view3, turn618view4, turn618view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://viinriic.com/en/store-locator/",
+              "https://viinriic.com/en/contact/",
+              "https://vincom.com.vn/store/viin-riic-niche-vincom-center-dong-khoi"
+            ],
+            "support": "Official branch row lists address/hours without a branch phone; contact/footer numbers are general brand support and are not expressly assigned to Đồng Khởi."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-17.json",
+            "reference": "turn659search0, turn659search1, turn659search2, turn659search3, turn659search4, turn659search5, turn659search6, turn659search7, turn659search8, turn659search9, turn659search10, turn659search11, turn659search12, turn659search13, turn659search14, turn659search15, turn659search16, turn659search17, turn659search18, turn659search19, turn659search20",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://viinriic.com/en/store-locator/",
+              "https://viinriic.com/en/contact/",
+              "https://vincom.com.vn/store/viin-riic-niche-vincom-center-dong-khoi"
+            ],
+            "support": "Official branch row lists address/hours without a branch phone; contact/footer numbers are general brand support and are not expressly assigned to Đồng Khởi."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://viinriic.com/en/store-locator/",
+          "https://viinriic.com/en/contact/",
+          "https://vincom.com.vn/store/viin-riic-niche-vincom-center-dong-khoi"
+        ],
+        "attemptedQueries": [],
+        "remainingAction": "Obtain explicit phone-to-ĐồngKhởi association; do not label the general hotline as branch-direct."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://viinriic.com/en/store-locator/",
+        "evidence": "Actual official source general contact@viinriic.com blocks publish (+84)909816771. The same page also publishes (+84)901982607 beside a named-email company contact. Neither is assigned to this branch; no regional designation or chronological replacement is inferred. Saved turn493view2 L175/221 and product-proof-02.json L402/448; fresh independent turn901view0 confirms both contexts.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "+84909816771",
+          "en": "+84909816771"
+        },
+        "uncertainty": {
+          "vi": "VIINRIIC Việt Nam, hotline thương hiệu tại khối liên hệ chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "VIINRIIC Vietnam brand hotline in the general contact block. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/locator-detail-02.json",
+          "reference": "turn493view2 L175/221; independently repeated product-proof02 L402/448. Older0901982607 is identified with named Ngoc Quyen/regional block, not the generic contact@viinriic.com block. No branch line chosen.",
+          "sourceUrl": "https://viinriic.com/en/store-locator/",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-prototype-viinriicnicheperfume",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-lush",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-lush",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "Official search index exposes a Đồng Khởi phone02836205235, but directly retrieved locator/contact extraction does not expose the same branch row; hours are absent from the indexed row. Indexed lead is retained without promotion after the direct extraction gap.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/search-14.json",
+            "reference": "turn342search0, turn342search1, turn342search2, turn342search3, turn342search4, turn342search5, turn342search6, turn342search7, turn342search8, turn342search9, turn342search10, turn342search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.lushvietnam.com/pages/he-thong-cua-hang",
+              "https://www.lushvietnam.com/pages/lien-he",
+              "https://vincom.com.vn/store/lush-vincom-center-dong-khoi"
+            ],
+            "support": "Official search index exposes a Đồng Khởi phone02836205235, but directly retrieved locator/contact extraction does not expose the same branch row; hours are absent from the indexed row. Indexed lead is retained without promotion after the direct extraction gap."
+          },
+          {
+            "file": "vincom-retail-b/locator-detail-01.json",
+            "reference": "turn403view0, turn372view1, turn403view1, turn372view2, turn403view2, turn372view3, turn403view3, turn372view5, turn403view4, turn375view1, turn403view5, turn375view2, turn403view6, turn375view3, turn403view7, turn375view4, turn403view8, turn382view3, turn403view9, turn384view2",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.lushvietnam.com/pages/he-thong-cua-hang",
+              "https://www.lushvietnam.com/pages/lien-he",
+              "https://vincom.com.vn/store/lush-vincom-center-dong-khoi"
+            ],
+            "support": "Official search index exposes a Đồng Khởi phone02836205235, but directly retrieved locator/contact extraction does not expose the same branch row; hours are absent from the indexed row. Indexed lead is retained without promotion after the direct extraction gap."
+          },
+          {
+            "file": "vincom-retail-b/open-17.json",
+            "reference": "turn618view0, turn618view1, turn618view2, turn618view3, turn618view4, turn618view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.lushvietnam.com/pages/he-thong-cua-hang",
+              "https://www.lushvietnam.com/pages/lien-he",
+              "https://vincom.com.vn/store/lush-vincom-center-dong-khoi"
+            ],
+            "support": "Official search index exposes a Đồng Khởi phone02836205235, but directly retrieved locator/contact extraction does not expose the same branch row; hours are absent from the indexed row. Indexed lead is retained without promotion after the direct extraction gap."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-12.json",
+            "reference": "turn650search0, turn650search1, turn650search2, turn650search3, turn650search4, turn650search5, turn650search6, turn650search7, turn650search8, turn650search9, turn650search10, turn650search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.lushvietnam.com/pages/he-thong-cua-hang",
+              "https://www.lushvietnam.com/pages/lien-he",
+              "https://vincom.com.vn/store/lush-vincom-center-dong-khoi"
+            ],
+            "support": "Official search index exposes a Đồng Khởi phone02836205235, but directly retrieved locator/contact extraction does not expose the same branch row; hours are absent from the indexed row. Indexed lead is retained without promotion after the direct extraction gap."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://www.lushvietnam.com/pages/he-thong-cua-hang",
+          "https://www.lushvietnam.com/pages/lien-he",
+          "https://vincom.com.vn/store/lush-vincom-center-dong-khoi"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:lushvietnam.com (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-12.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "Lush Vietnam official Vincom Dong Khoi",
+            "resultFile": "search-14.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:lushvietnam.com \"Lush\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-13.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Read a directly retrievable current official branch contact/hour block; do not convert indexed-only evidence into a verified runtime value."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.lushvietnam.com/pages/lien-he",
+        "evidence": "Official numeric contact in actual saved source body: turn618view1 L23–25; operator Maison also product-proof03 L701–702. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "1900252538",
+          "en": "1900252538"
+        },
+        "uncertainty": {
+          "vi": "LUSH Việt Nam / Maison, hotline chăm sóc khách hàng chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "LUSH Vietnam / Maison general customer-care hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/open-17.json",
+          "reference": "turn618view1 L23–25; operator Maison also product-proof03 L701–702",
+          "sourceUrl": "https://www.lushvietnam.com/pages/lien-he",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-prototype-lush",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-charleskeith",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-charleskeith",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "Official Vietnam locator returns only a location selector, with no extracted store rows. Its footer has shared1900252538 support, not a branch number. The current branch row cannot be read through this retrieval surface.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/open-13.json",
+            "reference": "turn529view0, turn529view1, turn529view2, turn529view3, turn529view4, turn529view5, turn529view6, turn529view7",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.charleskeith.vn/vn-en/stores",
+              "https://vincom.com.vn/store/charles-keith-vincom-center-dong-khoi"
+            ],
+            "support": "Official Vietnam locator returns only a location selector, with no extracted store rows. Its footer has shared1900252538 support, not a branch number. The current branch row cannot be read through this retrieval surface."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-07.json",
+            "reference": "turn639search0, turn639search1, turn639search2, turn639search3, turn639search4, turn639search5, turn639search6, turn639search7, turn639search8, turn639search9, turn639search10, turn639search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.charleskeith.vn/vn-en/stores",
+              "https://vincom.com.vn/store/charles-keith-vincom-center-dong-khoi"
+            ],
+            "support": "Official Vietnam locator returns only a location selector, with no extracted store rows. Its footer has shared1900252538 support, not a branch number. The current branch row cannot be read through this retrieval surface."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://www.charleskeith.vn/vn-en/stores",
+          "https://vincom.com.vn/store/charles-keith-vincom-center-dong-khoi"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:charleskeith.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-07.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "Charles Keith Vietnam official store Dong Khoi services",
+            "resultFile": "search-09.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:charleskeith.vn \"Charles Keith\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-08.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Read the selected Đồng Khởi official locator result; do not promote the shared support contact or infer mall hours."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.charleskeith.vn/vn-en/contactus",
+        "evidence": "Official numeric contact in actual saved source body: turn717view5 L94/160/175. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "1900252538",
+          "en": "1900252538"
+        },
+        "uncertainty": {
+          "vi": "CHARLES & KEITH Việt Nam / Maison, hotline hỗ trợ chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "CHARLES & KEITH Vietnam / Maison general support hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/last-locators-03.json",
+          "reference": "turn717view5 L94/160/175",
+          "sourceUrl": "https://www.charleskeith.vn/vn-en/contactus",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-prototype-charleskeith",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-036",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-candidate-vd-b2-036",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "Official Vietnam locator extraction has no matched Đồng Khởi row. The product home supplies a Kowil general1900contact, which does not establish a dedicated branch line or opening schedule.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/last-locators-01.json",
+            "reference": "turn707view0, turn707view1, turn707view2, turn707view3, turn707view4, turn707view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://bhpc.com.vn/pages/he-thong-cua-hang",
+              "https://bhpc.com.vn/"
+            ],
+            "support": "Official Vietnam locator extraction has no matched Đồng Khởi row. The product home supplies a Kowil general1900contact, which does not establish a dedicated branch line or opening schedule."
+          },
+          {
+            "file": "vincom-retail-b/details-04.json",
+            "reference": "turn751view0, turn738view0, turn751view1, turn707view0, turn751view2, turn707view1, turn751view3, turn707view2, turn751view4, turn707view3, turn751view5, turn707view4, turn751view6, turn707view5, turn751view7, turn716view0, turn751view8, turn716view1, turn751view9, turn672view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://bhpc.com.vn/pages/he-thong-cua-hang",
+              "https://bhpc.com.vn/"
+            ],
+            "support": "Official Vietnam locator extraction has no matched Đồng Khởi row. The product home supplies a Kowil general1900contact, which does not establish a dedicated branch line or opening schedule."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-05.json",
+            "reference": "turn635search0, turn635search1, turn635search2, turn635search3, turn635search4, turn635search5, turn635search6, turn635search7, turn635search8, turn635search9, turn635search10, turn635search11, turn635search12, turn635search13, turn635search14, turn635search15",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://bhpc.com.vn/pages/he-thong-cua-hang",
+              "https://bhpc.com.vn/"
+            ],
+            "support": "Official Vietnam locator extraction has no matched Đồng Khởi row. The product home supplies a Kowil general1900contact, which does not establish a dedicated branch line or opening schedule."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://bhpc.com.vn/pages/he-thong-cua-hang",
+          "https://bhpc.com.vn/"
+        ],
+        "attemptedQueries": [],
+        "remainingAction": "Read a current matching branch row or official branch contact/hour statement; do not substitute the Kowil hotline."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://bhpc.com.vn/",
+        "evidence": "Official numeric contact in actual saved source body: turn893view3 L255–257 Kowil contact block. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "19008079",
+          "en": "19008079"
+        },
+        "uncertainty": {
+          "vi": "Kowil / Beverly Hills Polo Club Việt Nam, số hỗ trợ chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "Kowil / Beverly Hills Polo Club Vietnam general support contact. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/phone-scope-proof-01.json",
+          "reference": "turn893view3 L255–257 Kowil contact block",
+          "sourceUrl": "https://bhpc.com.vn/",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-candidate-vd-b2-036",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-l1-001",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-candidate-vd-l1-001",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "National contact and Showroom/Charging locator pages retrieve, but their extracted text does not expose a Đồng Khởi showroom result. General1900customer-support contacts and third-party dealer pages are not dedicated branch evidence.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/last-locators-01.json",
+            "reference": "turn707view0, turn707view1, turn707view2, turn707view3, turn707view4, turn707view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://vinfastauto.com/vn_vi/lien-he",
+              "https://vinfastauto.com/vn_vi/tim-kiem-showroom-tram-sac"
+            ],
+            "support": "National contact and Showroom/Charging locator pages retrieve, but their extracted text does not expose a Đồng Khởi showroom result. General1900customer-support contacts and third-party dealer pages are not dedicated branch evidence."
+          },
+          {
+            "file": "vincom-retail-b/details-04.json",
+            "reference": "turn751view0, turn738view0, turn751view1, turn707view0, turn751view2, turn707view1, turn751view3, turn707view2, turn751view4, turn707view3, turn751view5, turn707view4, turn751view6, turn707view5, turn751view7, turn716view0, turn751view8, turn716view1, turn751view9, turn672view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://vinfastauto.com/vn_vi/lien-he",
+              "https://vinfastauto.com/vn_vi/tim-kiem-showroom-tram-sac"
+            ],
+            "support": "National contact and Showroom/Charging locator pages retrieve, but their extracted text does not expose a Đồng Khởi showroom result. General1900customer-support contacts and third-party dealer pages are not dedicated branch evidence."
+          },
+          {
+            "file": "vincom-retail-b/final-research-02.json",
+            "reference": "turn766view0, turn766view1, turn766view2, turn766view3, turn766view4, turn766view5, turn670view4, turn766view6, turn674view4, turn766view7, turn672view1, turn766view8, turn757view0, turn766view9, turn757view1, turn766view10, turn674view3",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://vinfastauto.com/vn_vi/lien-he",
+              "https://vinfastauto.com/vn_vi/tim-kiem-showroom-tram-sac"
+            ],
+            "support": "National contact and Showroom/Charging locator pages retrieve, but their extracted text does not expose a Đồng Khởi showroom result. General1900customer-support contacts and third-party dealer pages are not dedicated branch evidence."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://vinfastauto.com/vn_vi/lien-he",
+          "https://vinfastauto.com/vn_vi/tim-kiem-showroom-tram-sac"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:vinfastauto.com (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-05.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "Vinfast official Vincom Dong Khoi showroom",
+            "resultFile": "search-07.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:vinfastauto.com \"VinFast\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-06.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Read the actual official Đồng Khởi showroom result through a functioning locator or alternate official branch statement."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://vinfastauto.com/vn_vi",
+        "evidence": "Official numeric contact in actual saved source body: turn894view0 L1006–1008 customer service, extension1. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "1900232389",
+          "en": "1900232389"
+        },
+        "uncertainty": {
+          "vi": "VinFast Việt Nam, dịch vụ khách hàng chung — chọn nhánh 1. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "VinFast Vietnam general customer service — choose extension 1. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/phone-scope-proof-02.json",
+          "reference": "turn894view0 L1006–1008 customer service, extension1",
+          "sourceUrl": "https://vinfastauto.com/vn_vi",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-candidate-vd-l1-001",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-pnj",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-pnj",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "Official branch-locator requests fail or expose index leads without a directly readable matching Đồng Khởi contact/hour block. The search also returns a different Đồng Khởi street in Vĩnh Long; no cross-city transfer is made.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/search-16.json",
+            "reference": "turn351search0, turn351search1, turn351search2, turn351search3, turn351search4, turn351search5, turn351search6, turn351search7, turn351search8",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.pnj.com.vn/ho-tro-mua-hang/he-thong-cua-hang/?store_code=000300",
+              "https://www.pnj.com.vn/cua-hang/shop",
+              "https://vincom.com.vn/store/pnj-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Official branch-locator requests fail or expose index leads without a directly readable matching Đồng Khởi contact/hour block. The search also returns a different Đồng Khởi street in Vĩnh Long; no cross-city transfer is made."
+          },
+          {
+            "file": "vincom-retail-b/open-11.json",
+            "reference": "turn481view0, turn481view1, turn481view2, turn481view3, turn481view4, turn481view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.pnj.com.vn/ho-tro-mua-hang/he-thong-cua-hang/?store_code=000300",
+              "https://www.pnj.com.vn/cua-hang/shop",
+              "https://vincom.com.vn/store/pnj-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Official branch-locator requests fail or expose index leads without a directly readable matching Đồng Khởi contact/hour block. The search also returns a different Đồng Khởi street in Vĩnh Long; no cross-city transfer is made."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-14.json",
+            "reference": "turn653search0, turn653search1, turn653search2, turn653search3, turn653search4, turn653search5, turn653search6, turn653search7, turn653search8, turn653search9",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.pnj.com.vn/ho-tro-mua-hang/he-thong-cua-hang/?store_code=000300",
+              "https://www.pnj.com.vn/cua-hang/shop",
+              "https://vincom.com.vn/store/pnj-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Official branch-locator requests fail or expose index leads without a directly readable matching Đồng Khởi contact/hour block. The search also returns a different Đồng Khởi street in Vĩnh Long; no cross-city transfer is made."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://www.pnj.com.vn/ho-tro-mua-hang/he-thong-cua-hang/?store_code=000300",
+          "https://www.pnj.com.vn/cua-hang/shop",
+          "https://vincom.com.vn/store/pnj-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:pnj.com.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-14.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:pnj.com.vn \"Đồng Khởi\"",
+            "resultFile": "search-16.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:pnj.com.vn \"PNJ\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-15.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Read the exact HCM Vincom branch locator result, distinguishing it from Vĩnh Long and national support."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.pnj.com.vn/trang-suc/",
+        "evidence": "Official numeric contact in actual saved source body: turn894view3 L8 hotline. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "1800545457",
+          "en": "1800545457"
+        },
+        "uncertainty": {
+          "vi": "PNJ Việt Nam, hotline chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "PNJ Vietnam general hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/phone-scope-proof-02.json",
+          "reference": "turn894view3 L8 hotline",
+          "sourceUrl": "https://www.pnj.com.vn/trang-suc/",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-prototype-pnj",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-scentuals",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-scentuals",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "Official contact page lists the Đồng Khởi showroom address but places telephone details in general/head-office/regional contact text rather than an unambiguous branch block. No dedicated branch association is established.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/open-09.json",
+            "reference": "turn473view0, turn473view1, turn473view2, turn473view3, turn473view4, turn473view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://scentuals.vn/en/lien-he.html",
+              "https://vincom.com.vn/store/scentuals-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Official contact page lists the Đồng Khởi showroom address but places telephone details in general/head-office/regional contact text rather than an unambiguous branch block. No dedicated branch association is established."
+          },
+          {
+            "file": "vincom-retail-b/locator-detail-02.json",
+            "reference": "turn493view0, turn471view5, turn493view1, turn473view2, turn493view2, turn473view3, turn493view3, turn473view4, turn493view4, turn473view5, turn493view5, turn470view2, turn493view6, turn482view2",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://scentuals.vn/en/lien-he.html",
+              "https://vincom.com.vn/store/scentuals-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Official contact page lists the Đồng Khởi showroom address but places telephone details in general/head-office/regional contact text rather than an unambiguous branch block. No dedicated branch association is established."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-15.json",
+            "reference": "turn656search0, turn656search1, turn656search2, turn656search3, turn656search4, turn656search5, turn656search6, turn656search7, turn656search9, turn656search10, turn656search11, turn656search12, turn656search13, turn656search14, turn656search15, turn656search16, turn656search17, turn656search18, turn656search19, turn656search20, turn656search21, turn656search22, turn656search23, turn656search25",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://scentuals.vn/en/lien-he.html",
+              "https://vincom.com.vn/store/scentuals-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+            ],
+            "support": "Official contact page lists the Đồng Khởi showroom address but places telephone details in general/head-office/regional contact text rather than an unambiguous branch block. No dedicated branch association is established."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://scentuals.vn/en/lien-he.html",
+          "https://vincom.com.vn/store/scentuals-vincom-center-dong-khoi?center=vincom-center-dong-khoi"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:scentuals.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-15.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "Scentuals Vietnam official Vincom Dong Khoi",
+            "resultFile": "search-17.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:scentuals.vn \"Scentuals\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-16.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Obtain explicit source wording tying a phone to the Đồng Khởi showroom, rather than company or Hanoi-area contacts."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://scentuals.vn/",
+        "evidence": "Official numeric contact in actual saved source body: turn482view1 L322–324 office hotline. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "02873003889",
+          "en": "02873003889"
+        },
+        "uncertainty": {
+          "vi": "Scentuals Việt Nam, hotline văn phòng chung. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "Scentuals Vietnam general office hotline. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/open-12.json",
+          "reference": "turn482view1 L322–324 office hotline",
+          "sourceUrl": "https://scentuals.vn/",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-prototype-scentuals",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-lancome",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-lancome",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "Official locator returns server-error/offline-mode text and no readable Đồng Khởi row; site-targeted branch search also did not expose a usable branch contact or hour block.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/search-13.json",
+            "reference": "turn338search0, turn338search1, turn338search2, turn338search3, turn338search4, turn338search5, turn338search6, turn338search7, turn338search8, turn338search9, turn338search10, turn338search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.lancome.vn/vi_VN/stores",
+              "https://vincom.com.vn/store/lancome-vincom-center-dong-khoi"
+            ],
+            "support": "Official locator returns server-error/offline-mode text and no readable Đồng Khởi row; site-targeted branch search also did not expose a usable branch contact or hour block."
+          },
+          {
+            "file": "vincom-retail-b/open-05.json",
+            "reference": "turn384view0, turn384view1, turn384view2, turn384view3, turn384view4, turn384view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://www.lancome.vn/vi_VN/stores",
+              "https://vincom.com.vn/store/lancome-vincom-center-dong-khoi"
+            ],
+            "support": "Official locator returns server-error/offline-mode text and no readable Đồng Khởi row; site-targeted branch search also did not expose a usable branch contact or hour block."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://www.lancome.vn/vi_VN/stores",
+          "https://vincom.com.vn/store/lancome-vincom-center-dong-khoi"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:lancome.vn (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-11.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:lancome.vn \"Đồng Khởi\"",
+            "resultFile": "search-13.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:lancome.vn \"Lancome\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-12.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Read a functioning official locator or alternate official branch detail; browser-dependent source retrieval remains unresolved."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.lancome.vn/vi_VN/stores",
+        "evidence": "Official numeric contact in actual saved source body: turn384view0 L285–287 general support footer; no branch row. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "1800545463",
+          "en": "1800545463"
+        },
+        "uncertainty": {
+          "vi": "Lancôme Việt Nam, số hỗ trợ chung công bố trên website. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+          "en": "Lancôme Vietnam general support number published on its website. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "vincom-retail-b/open-05.json",
+          "reference": "turn384view0 L285–287 general support footer; no branch row",
+          "sourceUrl": "https://www.lancome.vn/vi_VN/stores",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-prototype-lancome",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-newbalance",
+      "field": "phone",
+      "auditDecision": "accept",
+      "priorAuditedDecision": {
+        "mallId": "vincom-dong-khoi",
+        "destinationId": "vincom-prototype-newbalance",
+        "field": "phone",
+        "auditDecision": "hold",
+        "reason": "The official global locator/country-support material did not expose a readable Đồng Khởi result. The attempted presumed ACFC branch article was inaccessible and does not itself establish ownership/applicability; only the mall identity and international product source are verified.",
+        "evidenceBindings": [
+          {
+            "file": "vincom-retail-b/open-09.json",
+            "reference": "turn473view0, turn473view1, turn473view2, turn473view3, turn473view4, turn473view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://stores.newbalance.com/store-locator",
+              "https://www.newbalance.com/faqs/stores/",
+              "https://vincom.com.vn/store/new-balance-vincom-center-dong-khoi"
+            ],
+            "support": "The official global locator/country-support material did not expose a readable Đồng Khởi result. The attempted presumed ACFC branch article was inaccessible and does not itself establish ownership/applicability; only the mall identity and international product source are verified."
+          },
+          {
+            "file": "vincom-retail-b/contact-search-13.json",
+            "reference": "turn651search0, turn651search1, turn651search2, turn651search3, turn651search4, turn651search5, turn651search6, turn651search7, turn651search8, turn651search9, turn651search10, turn651search11",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://stores.newbalance.com/store-locator",
+              "https://www.newbalance.com/faqs/stores/",
+              "https://vincom.com.vn/store/new-balance-vincom-center-dong-khoi"
+            ],
+            "support": "The official global locator/country-support material did not expose a readable Đồng Khởi result. The attempted presumed ACFC branch article was inaccessible and does not itself establish ownership/applicability; only the mall identity and international product source are verified."
+          },
+          {
+            "file": "vincom-retail-b/last-locators-03.json",
+            "reference": "turn717view0, turn717view1, turn717view2, turn717view3, turn717view4, turn717view5",
+            "section": "Source body/locator/product/category blocks and any exact failure text preserved in this immutable receipt; factual support and exclusions are stated in reason.",
+            "sourceUrls": [
+              "https://stores.newbalance.com/store-locator",
+              "https://www.newbalance.com/faqs/stores/",
+              "https://vincom.com.vn/store/new-balance-vincom-center-dong-khoi"
+            ],
+            "support": "The official global locator/country-support material did not expose a readable Đồng Khởi result. The attempted presumed ACFC branch article was inaccessible and does not itself establish ownership/applicability; only the mall identity and international product source are verified."
+          }
+        ],
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20",
+        "researchDecision": "hold",
+        "checkedAt": "2026-10-20",
+        "sourceScope": "Branch association unresolved",
+        "attemptedPaths": [
+          "https://stores.newbalance.com/store-locator",
+          "https://www.newbalance.com/faqs/stores/",
+          "https://vincom.com.vn/store/new-balance-vincom-center-dong-khoi"
+        ],
+        "attemptedQueries": [
+          {
+            "query": "site:newbalance.com (\"Đồng Khởi\" OR \"Dong Khoi\" OR \"72 Lê Thánh Tôn\") (phone OR hours OR \"điện thoại\" OR \"giờ\")",
+            "resultFile": "contact-search-13.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "New Balance Vietnam official Vincom Dong Khoi",
+            "resultFile": "search-15.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          },
+          {
+            "query": "site:newbalance.com \"New Balance\" (services OR service OR \"dịch vụ\" OR \"tư vấn\" OR repair OR personalisation)",
+            "resultFile": "service-search-14.json",
+            "checkedAt": "2026-10-20",
+            "resultScope": "Official-only targeted search; raw returned results retained, snippets are leads and not promoted values."
+          }
+        ],
+        "remainingAction": "Obtain a readable official Vietnam retailer/brand branch row; do not assign an overseas contact."
+      },
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.newbalance.com/customerservice/",
+        "evidence": "Official numeric contact in actual saved source body: turn786view1; central-reviewed reusable brand-wide US customer-care source. General brand/operator/market contact fallback; no branch-direct claim or country prefix invented.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "value": {
+          "vi": "8005959138",
+          "en": "8005959138"
+        },
+        "uncertainty": {
+          "vi": "New Balance Hoa Kỳ, số chăm sóc khách hàng website theo định dạng nội địa Hoa Kỳ. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối hoặc xác nhận khả năng hỗ trợ tại trung tâm. Chưa xác nhận khả năng gọi từ Việt Nam; giữ định dạng số miễn phí nội địa Hoa Kỳ, không tự thêm mã quốc gia.",
+          "en": "New Balance United States website customer care in its published US domestic format. Not a verified direct Dong Khoi branch line; connectivity and ability to assist with this mall have not been tested. Calling access from Vietnam is unconfirmed; the published US domestic toll-free format is retained without adding a country code."
+        },
+        "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+        "reviewedAt": "2026-10-20"
+      },
+      "reason": "Independent actual-source review confirms this exact published general brand/operator/market contact. The earlier branch-only finding is superseded only for this explicitly scoped general fallback; no branch-direct or call-connectivity claim.",
+      "evidenceBindings": [
+        {
+          "file": "saigon-retail/source-090.txt",
+          "reference": "turn786view1; central-reviewed reusable brand-wide US customer-care source",
+          "sourceUrl": "https://www.newbalance.com/customerservice/",
+          "section": "Actual numeric contact and surrounding brand/operator/market identity"
+        },
+        {
+          "file": "content-audit/retail-b-independent/phone-chunk01-source-review.json",
+          "reference": "vincom-prototype-newbalance",
+          "section": "Independent complete saved-body check and sampled fresh scope checks"
+        }
+      ],
+      "brandContactScopeExplicit": true,
+      "reviewedBy": "Codex (AI) independent retail B reviewer /root/saigon_research",
+      "reviewedAt": "2026-10-20"
+    }
+  ]
+}

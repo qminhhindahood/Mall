@@ -1,0 +1,261 @@
+{
+  "revision": "independent-root-held-three-source-recoveries",
+  "inputs": [
+    {
+      "file": "holds/abc-contact-excerpt.json",
+      "sha256": "0b21cc1ecf29d43ee91e998b985ea9d97960a9fa07e997bbe27aa1b2d08fb153"
+    },
+    {
+      "file": "holds/open-6.json",
+      "sha256": "ac0e275bf32a302bdea94eed429d0ae15478c94d19654c6e5b0209422c3aa65c"
+    },
+    {
+      "file": "holds/runam-menu.yJsIqaVf.js",
+      "sha256": "8b40db05bf1c27f2273bf2bfea64244cabaff470d78544bc27db5ab889e689f3"
+    },
+    {
+      "file": "holds/runam-official-menu.html",
+      "sha256": "bc30e6e6479889ed4cb3558e2d1b26fc4a74650da3f38dd1ab92bf8e844c56b0"
+    },
+    {
+      "file": "holds/runam-public-main-dishes-receipt.json",
+      "sha256": "4a65e78e0c36c317c47d2e0ba8e6f6945ad6ee50fe73aa394f2a1464c027b5e2"
+    },
+    {
+      "file": "holds/runam-public-main-dishes.json",
+      "sha256": "233c05b709150e70c1665c7eac0870b97a6191a91a7b0f7a9f618cf7a04574cb"
+    },
+    {
+      "file": "holds/runam-public-menu-collections-receipt.json",
+      "sha256": "b0e4c9e5ebe12a8e38f55d1e76ef744f419cf3b47d253b4bded1f5b0d6815afa"
+    },
+    {
+      "file": "holds/runam-public-menu-collections.json",
+      "sha256": "42285a9d3bccb453e9ed4db5a356256b7b0971f0b3b420b8b6a1a9d17e37141b"
+    },
+    {
+      "file": "vincom-retail-a/source-text/catalog-gnc.json",
+      "sha256": "43eeb2b9d2f354e5558cc2f7758c1ed9c72bc2eb8b5a7776d1d6497d7cd8bc08"
+    },
+    {
+      "file": "vincom-retail-a/source-text/s6.json",
+      "sha256": "934b1b4153e74c6b64d94025dd83bf2e616c8b132cb194c5a539b7ef319dc0a7"
+    },
+    {
+      "file": "holds/chunk-resolved-decisions.json",
+      "sha256": "fbd45df066166f8b60214c8d557e0d684773796549e80a5271538f5adf5d8404"
+    },
+    {
+      "file": "holds/chunk-resolved-records.json",
+      "sha256": "701447ea411f7e43123baa7d35be04dda2bfa0baecb77e12db2ef80b29b12414"
+    }
+  ],
+  "decisions": [
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-abcmartgrandstage",
+      "field": "phone",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://abc-mart.com.vn/en/pages/lien-he",
+        "evidence": "Official ABC Mart Vietnam company contact block lists028-7109-7608; this resolves a company-contact fallback only, not conflicting direct branch numbers.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Điện thoại công ty ABC-MART Việt Nam; đây không phải số riêng của cửa hàng Saigon Centre.",
+          "en": "ABC-MART Vietnam company contact; this is not a direct Saigon Centre store line."
+        },
+        "value": {
+          "vi": "02871097608",
+          "en": "02871097608"
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://abc-mart.com.vn/en/pages/lien-he",
+        "evidence": "Official ABC Mart Vietnam company contact block lists028-7109-7608; this resolves a company-contact fallback only, not conflicting direct branch numbers.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Điện thoại công ty ABC-MART Việt Nam; đây không phải số riêng của cửa hàng Saigon Centre.",
+          "en": "ABC-MART Vietnam company contact; this is not a direct Saigon Centre store line."
+        },
+        "value": {
+          "vi": "02871097608",
+          "en": "02871097608"
+        }
+      },
+      "reason": "Official ABC Mart Vietnam company contact block lists028-7109-7608; this resolves a company-contact fallback only, not conflicting direct branch numbers.",
+      "evidenceBindings": [
+        {
+          "url": "https://abc-mart.com.vn/en/pages/lien-he",
+          "evidenceFile": "abc-contact-excerpt.json",
+          "result": "retrieved official supporting source",
+          "file": "holds/abc-contact-excerpt.json"
+        },
+        {
+          "sourceUrl": "https://abc-mart.com.vn/en/pages/lien-he",
+          "freshWebReference": "turn787view0"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "brandContactScopeExplicit": true
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-runamboutique",
+      "field": "menu",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes",
+        "evidence": "Official menu HTML links published Nuxt menu script and publicCMSAPI. Published RuNam Vietnam Day Menu id1002 includes MAIN DISHES id1055. Actual menu data GET returned7dish records including Beef Stew Fettucine and Hanoi Crab Spring Rolls; no price or branch stock claim.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thực đơn ban ngày chung của RuNam Việt Nam; món và giá tại RuNam Boutique Saigon Centre cần được xác nhận.",
+          "en": "RuNam Vietnam daytime menu; confirm dishes and prices at RuNam Boutique Saigon Centre."
+        },
+        "url": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes",
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes",
+        "evidence": "Official menu HTML links published Nuxt menu script and publicCMSAPI. Published RuNam Vietnam Day Menu id1002 includes MAIN DISHES id1055. Actual menu data GET returned7dish records including Beef Stew Fettucine and Hanoi Crab Spring Rolls; no price or branch stock claim.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Thực đơn ban ngày chung của RuNam Việt Nam; món và giá tại RuNam Boutique Saigon Centre cần được xác nhận.",
+          "en": "RuNam Vietnam daytime menu; confirm dishes and prices at RuNam Boutique Saigon Centre."
+        },
+        "url": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes"
+      },
+      "reason": "Official menu HTML links published Nuxt menu script and publicCMSAPI. Published RuNam Vietnam Day Menu id1002 includes MAIN DISHES id1055. Actual menu data GET returned7dish records including Beef Stew Fettucine and Hanoi Crab Spring Rolls; no price or branch stock claim. Independently inspected saved official HTML-to-published-script-to-public-CMS collection chain, published collection IDs1002/1055 and seven actual dish records. Saved completed retrieval is reviewed, not claimed as an additional independent network fetch.",
+      "evidenceBindings": [
+        {
+          "url": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes",
+          "evidenceFile": "runam-official-menu.html",
+          "result": "retrieved official supporting source",
+          "file": "holds/runam-official-menu.html"
+        },
+        {
+          "url": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes",
+          "evidenceFile": "runam-menu.yJsIqaVf.js",
+          "result": "retrieved official supporting source",
+          "file": "holds/runam-menu.yJsIqaVf.js"
+        },
+        {
+          "url": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes",
+          "evidenceFile": "runam-public-menu-collections.json",
+          "result": "retrieved official supporting source",
+          "file": "holds/runam-public-menu-collections.json"
+        },
+        {
+          "url": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes",
+          "evidenceFile": "runam-public-menu-collections-receipt.json",
+          "result": "retrieved official supporting source",
+          "file": "holds/runam-public-menu-collections-receipt.json"
+        },
+        {
+          "url": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes",
+          "evidenceFile": "runam-public-main-dishes.json",
+          "result": "retrieved official supporting source",
+          "file": "holds/runam-public-main-dishes.json"
+        },
+        {
+          "url": "https://caferunam.com/menu/runam-vietnam-day-menu/main-dishes",
+          "evidenceFile": "runam-public-main-dishes-receipt.json",
+          "result": "retrieved official supporting source",
+          "file": "holds/runam-public-main-dishes-receipt.json"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "brandContactScopeExplicit": true
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-017",
+      "field": "website",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "website",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.gnc.com/",
+        "evidence": "Actual official GNC website displays GNC vitamins/supplements/protein categories and products, matching frozen approved brand description. This is the international/US site; gnc.com.vn is an unrelated agricultural company and excluded.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Website quốc tế của GNC hiển thị thị trường Hoa Kỳ; không xác nhận hàng hóa, giá hoặc dịch vụ tại Việt Nam.",
+          "en": "International GNC website showing the US market; Vietnamese products, prices and services are not confirmed."
+        },
+        "url": "https://www.gnc.com/",
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20"
+      },
+      "originalProposal": {
+        "field": "website",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.gnc.com/",
+        "evidence": "Actual official GNC website displays GNC vitamins/supplements/protein categories and products, matching frozen approved brand description. This is the international/US site; gnc.com.vn is an unrelated agricultural company and excluded.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "uncertainty": {
+          "vi": "Website quốc tế của GNC hiển thị thị trường Hoa Kỳ; không xác nhận hàng hóa, giá hoặc dịch vụ tại Việt Nam.",
+          "en": "International GNC website showing the US market; Vietnamese products, prices and services are not confirmed."
+        },
+        "url": "https://www.gnc.com/"
+      },
+      "reason": "Actual official GNC website displays GNC vitamins/supplements/protein categories and products, matching frozen approved brand description. This is the international/US site; gnc.com.vn is an unrelated agricultural company and excluded.",
+      "evidenceBindings": [
+        {
+          "url": "https://www.gnc.com/",
+          "evidenceFile": "open-6.json",
+          "result": "retrieved official supporting source",
+          "file": "holds/open-6.json"
+        },
+        {
+          "url": "https://www.gnc.com/",
+          "evidenceFile": "../vincom-retail-a/source-text/catalog-gnc.json",
+          "result": "retrieved official supporting source",
+          "file": "vincom-retail-a/source-text/catalog-gnc.json"
+        },
+        {
+          "url": "https://www.gnc.com/",
+          "evidenceFile": "../vincom-retail-a/source-text/s6.json",
+          "result": "retrieved official supporting source",
+          "file": "vincom-retail-a/source-text/s6.json"
+        },
+        {
+          "sourceUrl": "https://www.gnc.com/",
+          "freshWebReference": "turn787view1"
+        }
+      ],
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "reviewedAt": "2026-10-20",
+      "brandContactScopeExplicit": true
+    }
+  ]
+}

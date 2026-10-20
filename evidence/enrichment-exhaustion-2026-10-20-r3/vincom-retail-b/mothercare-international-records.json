@@ -1,0 +1,44 @@
+{
+  "revision": "bounded-international-followthrough",
+  "records": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-027",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.mothercare.com.sg/",
+          "evidence": "Official globalmothercare.com links Singapore market at link17 (turn892view0 L62). Actual Singapore retailer product cards turn903view0 L467–619 name car seats, carriers, strollers, nursery furniture and clothing. International retailer catalogue action, not Vietnam inventory, prices or fulfilment.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Nguồn Mothercare quốc tế/nhà bán lẻ tại Singapore; danh mục, giá và dịch vụ có thể khác tại Việt Nam. Website Mothercare Việt Nam đã thông báo ngừng hoạt động; chưa xác minh tồn kho hoặc dịch vụ tại chi nhánh Đồng Khởi.",
+            "en": "Mothercare international / Singapore retailer source; range, prices and services may differ in Vietnam. The Mothercare Vietnam website reports that it has ceased operating; Dong Khoi branch inventory and services are unverified."
+          },
+          "url": "https://www.mothercare.com.sg/"
+        },
+        {
+          "field": "services",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.mothercare.com/",
+          "evidence": "Products/services product offering only. Actual global Mothercare body turn892view0 L35–43/161–163 explicitly describes newborn essentials, outfits, pushchairs, toys, nursery and feeding/sleep products. No local parenting consultation, medical outcome or appointment benefit inferred.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Nguồn Mothercare quốc tế/nhà bán lẻ tại Singapore; danh mục, giá và dịch vụ có thể khác tại Việt Nam. Website Mothercare Việt Nam đã thông báo ngừng hoạt động; chưa xác minh tồn kho hoặc dịch vụ tại chi nhánh Đồng Khởi.",
+            "en": "Mothercare international / Singapore retailer source; range, prices and services may differ in Vietnam. The Mothercare Vietnam website reports that it has ceased operating; Dong Khoi branch inventory and services are unverified."
+          },
+          "value": {
+            "vi": "Sản phẩm cho mẹ và bé như quần áo sơ sinh, xe đẩy, đồ chơi, đồ dùng phòng trẻ và đồ dùng cho ăn theo thông tin chung của Mothercare.",
+            "en": "Mother and baby products including newborn clothing, pushchairs, toys, nursery essentials and feeding products, as described by Mothercare."
+          }
+        }
+      ]
+    }
+  ]
+}

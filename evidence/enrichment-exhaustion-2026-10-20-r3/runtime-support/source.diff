@@ -1,0 +1,119 @@
+diff --git a/src/components/DestinationDetails.tsx b/src/components/DestinationDetails.tsx
+index 438b858..485dffd 100644
+--- a/src/components/DestinationDetails.tsx
++++ b/src/components/DestinationDetails.tsx
+@@ -1,7 +1,7 @@
+ import type { SiteData } from '../data/site';
+ import type { Destination } from '../data/content';
+ import type { Locale } from '../runtime/scene-contract';
+-import { destinationEnrichment, safeOfficialUrl } from '../data/enrichment';
++import { destinationCuisine, destinationEnrichment, safeOfficialUrl } from '../data/enrichment';
+ import { selectionHref } from '../data/routes';
+ import { journeyCopy } from './journey-copy';
+ import IndoorGuidance from './IndoorGuidance';
+@@ -15,6 +15,8 @@ const labels = {
+ export default function DestinationDetails({site,destination,locale,floorId,descriptionId}:{site:SiteData;destination:Destination;locale:Locale;floorId:string;descriptionId?:string}) {
+   const c=labels[locale],j=journeyCopy[locale];
+   const fields=destinationEnrichment(site.mallId,destination);
++  const cuisine=destinationCuisine(site.content,destination);
++  const enrichedCuisine=fields.some(item=>item.field==='cuisine'&&(item.state==='verified-agent'||item.state==='newly-sourced-proposal'));
+   const accepted=fields.some(item=>item.state==='verified-agent');
+   const heading=accepted?(locale==='vi'?'Thông tin khách tham quan đã xác minh':'Verified visitor information'):c.proposal;
+   const missingContact=!fields.some(item=>item.field==='phone')||!fields.some(item=>item.field==='hours');
+@@ -22,7 +24,7 @@ export default function DestinationDetails({site,destination,locale,floorId,desc
+   const website=!fields.some(item=>item.field==='website'&&item.state==='verified-agent')&&destination.website&&safeOfficialUrl(destination.website)?destination.website:undefined;
+   return <div className="destination-details" data-destination-details={destination.id}>
+     <p id={descriptionId}>{destination.description[locale]||j.descriptionPending}</p>
+-    <dl><dt>{c.floor}</dt><dd>{destination.floors.join(', ')}</dd><dt>{c.category}</dt><dd>{site.content.categories.filter(row=>destination.categories.includes(row.id)).map(row=>row.name[locale]).join(' · ')}</dd>{destination.categories.includes('category-1')&&destination.cuisine&&<><dt>{c.cuisine}</dt><dd>{destination.cuisine[locale]}</dd></>}</dl>
++    <dl><dt>{c.floor}</dt><dd>{destination.floors.join(', ')}</dd><dt>{c.category}</dt><dd>{site.content.categories.filter(row=>destination.categories.includes(row.id)).map(row=>row.name[locale]).join(' · ')}</dd>{cuisine&&!enrichedCuisine&&<><dt>{c.cuisine}</dt><dd>{cuisine[locale]}</dd></>}</dl>
+     <p className="detail-location">{mapped?(site.content.researchPreview?j.researchMapped:j.mapped):j.floorOnly}</p>
+     {destination.openingSoon&&<p>{j.openingSoon}</p>}
+     <IndoorGuidance site={site} destination={destination} locale={locale} floorId={floorId}/>
+diff --git a/src/components/Discovery.tsx b/src/components/Discovery.tsx
+index 5f45b99..241a648 100644
+--- a/src/components/Discovery.tsx
++++ b/src/components/Discovery.tsx
+@@ -4,6 +4,7 @@ import { createPortal } from 'react-dom';
+ import type { MouseEvent, RefObject } from 'react';
+ import type { SiteData } from '../data/site';
+ import type { Destination } from '../data/content';
++import { destinationCuisine } from '../data/enrichment';
+ 
+ import { selectionHref } from '../data/routes';
+ import { defaultDiscoveryCategory, discoveryMatches, type DiscoverySearchSelection } from '../data/discovery';
+@@ -78,7 +79,7 @@ export default function Discovery({site,selection,previewFloor,areaNumbers,activ
+   const listing=(destination:Destination,floorId:string)=>{
+     const location=destination.locations.find(row=>row.floorId===floorId);
+     return <li key={`${floorId}:${destination.id}`}><a data-discovery-result data-destination-id={destination.id} href={selectionHref(destinationLink(destination,floorId))} aria-current={selected?.id===destination.id?'true':undefined} onClick={event=>select(destination,floorId,event)}>
+-      <span className="discovery-number" aria-hidden="true">{number(destination,floorId)??'·'}</span><span><strong>{destination.name[locale]}</strong><span className="discovery-type">{(destination.categories.includes('category-1')?destination.cuisine?.[locale]:undefined)??site.content.categories.filter(c=>destination.categories.includes(c.id)).map(c=>c.name[locale]).join(' · ')}{destination.openingSoon?` · ${c.soon}`:''}</span><span className="discovery-meta">{c.floor} {floorId} · {location?.areaIds.length?c.location:c.pending}</span></span><DetailIcon/>
++      <span className="discovery-number" aria-hidden="true">{number(destination,floorId)??'·'}</span><span><strong>{destination.name[locale]}</strong><span className="discovery-type">{destinationCuisine(site.content,destination)?.[locale]??site.content.categories.filter(c=>destination.categories.includes(c.id)).map(c=>c.name[locale]).join(' · ')}{destination.openingSoon?` · ${c.soon}`:''}</span><span className="discovery-meta">{c.floor} {floorId} · {location?.areaIds.length?c.location:c.pending}</span></span><DetailIcon/>
+     </a></li>;
+   };
+   return <>
+diff --git a/src/data/enrichment.ts b/src/data/enrichment.ts
+index 68c6fde..f5f06bf 100644
+--- a/src/data/enrichment.ts
++++ b/src/data/enrichment.ts
+@@ -6,7 +6,7 @@ const proposals = import.meta.env.PUBLIC_CONTENT_FIXTURES !== '1' && import.meta
+ import type { Bilingual, Destination, DirectorySnapshot } from './content';
+ import type { MallId } from '../runtime/scene-contract';
+ 
+-export const detailFields = ['website','phone','hours','menu','catalog','programme','booking','services'] as const;
++export const detailFields = ['website','phone','hours','menu','catalog','programme','booking','services','cuisine'] as const;
+ export type DetailField = typeof detailFields[number];
+ export type CoverageState = 'verified-existing'|'verified-agent'|'newly-sourced-proposal'|'unavailable-after-research'|'evidence-conflict-hold'|'not-applicable'|'unresearched';
+ export type EnrichmentField = {
+@@ -21,11 +21,20 @@ const proposalRecords = proposals.records as EnrichmentRecord[];
+ export const enrichmentRecords: EnrichmentRecord[] = [...acceptedRecords, ...proposalRecords.filter(p=>!acceptedRecords.some(a=>a.mallId===p.mallId&&a.destinationId===p.destinationId))];
+ export const enrichmentReview = import.meta.env.PUBLIC_DISCOVERY_REVIEW === '1';
+ const linkFields: DetailField[] = ['website','menu','catalog','programme','booking'];
++function validDate(value: string|undefined): value is string {
++  if (!value || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
++  const date=new Date(value);
++  return Number.isFinite(date.getTime()) && date.toISOString().slice(0,10)===value;
++}
++function isDining(snapshot:DirectorySnapshot, destination:Destination) {
++  return destination.categories.some(id=>snapshot.categories.find(c=>c.id===id)?.name.en==='Dining');
++}
+ export function safeOfficialUrl(value: string) {
+   try { const url = new URL(value); return ['https:','http:'].includes(url.protocol) && !url.username && !url.password && !/^(localhost|127\.|.*\.invalid$|.*\.test$)/i.test(url.hostname); } catch { return false; }
+ }
+ export function validateEnrichment(snapshot: DirectorySnapshot) {
+   const fail = (message:string):never => { throw new Error(`Enrichment ${snapshot.mallId}: ${message}`); };
++  const today=new Date().toISOString().slice(0,10);
+   if (enrichmentRecords.some(r=>!['saigon-centre','vincom-dong-khoi'].includes(r.mallId))) fail('unknown mall identity');
+   const seen = new Set<string>();
+   for (const record of enrichmentRecords.filter(r=>r.mallId===snapshot.mallId)) {
+@@ -37,17 +46,18 @@ export function validateEnrichment(snapshot: DirectorySnapshot) {
+       if (!detailFields.includes(item.field) || fields.has(item.field)) fail('unknown/duplicate field');
+       fields.add(item.field);
+       if (!safeOfficialUrl(item.sourceUrl) || (item.url && !safeOfficialUrl(item.url))) fail('unsafe source/action URL');
+-      if (!/^\d{4}-\d{2}-\d{2}$/.test(item.checkedAt) || new Date(item.checkedAt).toISOString().slice(0,10)!==item.checkedAt || item.checkedAt>new Date().toISOString().slice(0,10)) fail('invalid/future check date');
+-      if (!item.evidence.trim() || !item.uncertainty?.vi?.trim() || !item.uncertainty?.en?.trim() || (item.state==='verified-agent' ? item.approval!=='agent-accepted'||!item.reviewedBy?.trim()||item.reviewedAt!==item.checkedAt : item.approval!=='provisional')) fail('provenance/uncertainty/provisional approval required');
++      if (!validDate(item.checkedAt) || item.checkedAt>today) fail('invalid/future check date');
++      if (item.state==='verified-agent' && (!validDate(item.reviewedAt) || item.reviewedAt<item.checkedAt || item.reviewedAt>today)) fail('invalid review date/order');
++      if (!item.evidence.trim() || !item.uncertainty?.vi?.trim() || !item.uncertainty?.en?.trim() || (item.state==='verified-agent' ? item.approval!=='agent-accepted'||!item.reviewedBy?.trim() : item.approval!=='provisional')) fail('provenance/uncertainty/provisional approval required');
+       if (!['branch','brand-wide','unresolved'].includes(item.applicability) || (item.applicability==='branch' && item.branchMallId!==snapshot.mallId) || (item.applicability!=='branch' && item.branchMallId)) fail('branch identity mismatch');
+       if (!['verified-agent','newly-sourced-proposal','unavailable-after-research','evidence-conflict-hold'].includes(item.state)) fail('invalid research state');
+       if (item.state==='newly-sourced-proposal'||item.state==='verified-agent') {
+         if (item.verification!=='source-checked' || item.applicability==='unresolved') fail('unverified proposal');
+         if (linkFields.includes(item.field) ? !item.url : !item.value?.vi?.trim() || !item.value?.en?.trim()) fail('missing field value');
++        if (item.field==='cuisine' && item.url) fail('cuisine must be a text value');
+         if (item.field==='phone' && (!/^\+?[0-9 ()-]{7,24}$/.test(item.value!.en) || item.value!.vi!==item.value!.en)) fail('invalid telephone');
+       } else if (item.url || item.value || item.verification!=='held') fail('held field must not expose an action/value');
+-      const dining=destination!.categories.some(id=>snapshot.categories.find(c=>c.id===id)?.name.en==='Dining');
+-      if (['menu','booking'].includes(item.field) && !dining) fail('dining field on unrelated category');
++      if (['menu','booking','cuisine'].includes(item.field) && !isDining(snapshot,destination!)) fail('dining field on unrelated category');
+       if (item.field==='programme' && !destination!.categories.some(id=>/Cinema|Entertainment/.test(snapshot.categories.find(c=>c.id===id)?.name.en??''))) fail('programme on unrelated category');
+     }
+   }
+@@ -56,3 +66,9 @@ export function validateEnrichment(snapshot: DirectorySnapshot) {
+ export function destinationEnrichment(mallId:MallId, destination:Destination) {
+   return !destination.fixture ? enrichmentRecords.find(r=>r.mallId===mallId&&r.destinationId===destination.id)?.fields??[] : [];
+ }
++/** Uses the same compile-time accepted/review gates as the shared detail body. */
++export function destinationCuisine(snapshot:DirectorySnapshot, destination:Destination) {
++  if (!isDining(snapshot,destination)) return undefined;
++  const field=destinationEnrichment(snapshot.mallId,destination).find(item=>item.field==='cuisine'&&(item.state==='verified-agent'||item.state==='newly-sourced-proposal'));
++  return field?.value??destination.cuisine;
++}

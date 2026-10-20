@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-20",
+  "reads": [
+    {
+      "sourceUrl": "https://coffee.phuclong.com.vn/",
+      "reference": "turn695view0",
+      "section": "Actual prepared coffee-drinks L21–64",
+      "result": "retrieved",
+      "observedFact": "Milk/black coffee, blended cappuccino, cappuccino and latte descriptions are actual content, not navigation."
+    },
+    {
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/irvins",
+      "reference": "turn732view0",
+      "section": "Phone L102–104",
+      "result": "retrieved",
+      "observedFact": "Branch Phone block explicitly lists089 947 7479."
+    }
+  ],
+  "browserInventory": {
+    "result": "No enabled browser or app surfaces",
+    "apps": [],
+    "browsers": [],
+    "consequence": "Image-only or JavaScript-required actual menu cannot be visually verified here; no install or credentials requested."
+  }
+}

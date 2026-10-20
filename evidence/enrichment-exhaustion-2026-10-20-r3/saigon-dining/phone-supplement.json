@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-10-20",
+  "queueOwnership": "queue.json saigon-prototype-irvins phone is one of owned143 fields",
+  "proposal": {
+    "mallId": "saigon-centre",
+    "destinationId": "saigon-prototype-irvins",
+    "field": "phone",
+    "outcome": "proposal",
+    "proposedField": {
+      "field": "phone",
+      "state": "newly-sourced-proposal",
+      "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/irvins",
+      "evidence": "Official mall Irvins branch page lists 089 947 7479 under Phone, separate from the mall footer. Mobile-format branch contact; no call placed and no current routing guarantee. Fresh full read L102–104.",
+      "checkedAt": "2026-10-20",
+      "applicability": "branch",
+      "verification": "source-checked",
+      "approval": "provisional",
+      "uncertainty": {
+        "vi": "Số điện thoại được trung tâm thương mại công bố cho cửa hàng; chưa xác minh qua cuộc gọi.",
+        "en": "Store telephone published by the mall; not verified by calling."
+      },
+      "branchMallId": "saigon-centre",
+      "value": {
+        "vi": "089 947 7479",
+        "en": "089 947 7479"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://shopping.saigoncentre.com.vn/en/store-directory/irvins",
+        "evidenceFile": "phone-supplement.json",
+        "reference": "saigon-prototype-irvins-phone",
+        "readerReference": "turn732view0",
+        "section": "Branch Phone block L102–104; separate from footer",
+        "result": "retrieved",
+        "checkedAt": "2026-10-20",
+        "scope": "branch",
+        "support": "089 947 7479 is explicitly listed for Irvins in the branch Phone block."
+      }
+    ],
+    "searches": [
+      {
+        "query": "Irvins Vietnam official website menu reservation",
+        "result": "Candidates inspected according to field role; mismatched businesses, aggregators and unverified ordering platforms not adopted."
+      }
+    ],
+    "reason": "Official mall Irvins branch page lists 089 947 7479 under Phone, separate from the mall footer. Mobile-format branch contact; no call placed and no current routing guarantee. Fresh full read L102–104.",
+    "remainingAction": null,
+    "checkedAt": "2026-10-20",
+    "scope": "branch"
+  },
+  "source": {
+    "evidenceId": "saigon-prototype-irvins-phone",
+    "url": "https://shopping.saigoncentre.com.vn/en/store-directory/irvins",
+    "reference": "turn732view0",
+    "section": "Phone L102–104",
+    "sourceText": "Phone … 089 947 7479",
+    "scope": "branch",
+    "checkedAt": "2026-10-20"
+  },
+  "attempts": [
+    {
+      "query": "site:eatirvins.com \"Saigon\" phone",
+      "checkedAt": "2026-10-20",
+      "result": "Official mall phone found; direct full source opened, third-party conflicting number not used."
+    },
+    {
+      "query": "IRVINS \"Saigon Centre\" official phone contact",
+      "checkedAt": "2026-10-20",
+      "result": "Official mall phone found; direct full source opened, third-party conflicting number not used."
+    }
+  ]
+}

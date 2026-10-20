@@ -1,0 +1,1036 @@
+{
+  "revision": "independent-vincom-retail-a-first20-including-explicit-phone-amendment",
+  "inputs": [
+    {
+      "file": "vincom-retail-a\\amendment-01-phones.json",
+      "sha256": "ce84a97ad6c3f823152883cfba3a7b7d97e2f53585d826481cd4e0890598f937"
+    },
+    {
+      "file": "vincom-retail-a\\chunk-01-decisions.json",
+      "sha256": "d85232c36c8c2d680fab92240d805b26ddae399b4ea97883191f31228b6bde17"
+    },
+    {
+      "file": "vincom-retail-a\\chunk-01-records.json",
+      "sha256": "410f5f4c4ec6eb502b4e1bc224a369b0936e52f9907c819cee16345b16369bf1"
+    },
+    {
+      "file": "vincom-retail-a\\source-text\\find23.json",
+      "sha256": "ab867263f8d22a115c43167f59f1ab769ead631cde498327518949e3076ea037"
+    },
+    {
+      "file": "vincom-retail-a\\source-text\\source3.json",
+      "sha256": "df0f4dbd6d7b8a545232690219a594957d48f9f43aefd382254467b5497aae41"
+    }
+  ],
+  "decisions": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-001",
+      "field": "website",
+      "reason": "Official ALDO Vietnam brand site; logo, legal operator and shoe/bag categories retrieved.",
+      "evidenceBindings": [
+        {
+          "url": "https://aldoshoes.vn/",
+          "evidenceFile": "source-text/source3.json",
+          "reference": "turn274view1",
+          "section": "website content",
+          "result": "retrieved",
+          "support": "Official ALDO Vietnam brand site; logo, legal operator and shoe/bag categories retrieved.",
+          "file": "vincom-retail-a\\source-text\\source3.json"
+        },
+        {
+          "sourceUrl": "https://aldoshoes.vn/",
+          "freshWebReference": "turn640view0"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "website",
+        "state": "verified-agent",
+        "sourceUrl": "https://aldoshoes.vn/",
+        "evidence": "Official ALDO Vietnam brand site; logo, legal operator and shoe/bag categories retrieved. Evidence: source-text/source3.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://aldoshoes.vn/"
+      },
+      "originalProposal": {
+        "field": "website",
+        "state": "verified-proposal",
+        "sourceUrl": "https://aldoshoes.vn/",
+        "evidence": "Official ALDO Vietnam brand site; logo, legal operator and shoe/bag categories retrieved. Evidence: source-text/source3.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://aldoshoes.vn/"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-001",
+      "field": "phone",
+      "reason": "Official ALDO Vietnam page explicitly labels 1900066899 Hotline. Brand-wide customer support only; not a dedicated Vincom branch line. Independent correction: numeric phone value preserved; localized support label moved into uncertainty for valid call action.",
+      "evidenceBindings": [
+        {
+          "url": "https://aldoshoes.vn/",
+          "evidenceFile": "source-text/source3.json",
+          "reference": "turn274view1 L0",
+          "section": "phone content",
+          "result": "retrieved",
+          "support": "Official ALDO Vietnam page explicitly labels 1900066899 Hotline. Brand-wide customer support only; not a dedicated Vincom branch line.",
+          "file": "vincom-retail-a\\source-text\\source3.json"
+        },
+        {
+          "sourceUrl": "https://aldoshoes.vn/",
+          "freshWebReference": "turn640view0"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "brandContactScopeExplicit": true,
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://aldoshoes.vn/",
+        "evidence": "Official ALDO Vietnam page explicitly labels 1900066899 Hotline. Brand-wide customer support only; not a dedicated Vincom branch line. Evidence: source-text/source3.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Liên hệ hỗ trợ chung của thương hiệu; không phải số riêng của chi nhánh Vincom Đồng Khởi.",
+          "en": "Brand-wide support contact; this is not a dedicated Vincom Dong Khoi branch line."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "1900 066 899",
+          "en": "1900 066 899"
+        }
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "verified-proposal",
+        "sourceUrl": "https://aldoshoes.vn/",
+        "evidence": "Official ALDO Vietnam page explicitly labels 1900066899 Hotline. Brand-wide customer support only; not a dedicated Vincom branch line. Evidence: source-text/source3.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "Hỗ trợ chung: 1900 066 899",
+          "en": "General support: 1900 066 899"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-001",
+      "field": "hours",
+      "reason": "Indexed official branch lead says Mon-Fri 10:00-22:00, weekend 09:30-22:00; live actual locator retrieval is an iframe shell, so branch schedule not independently retrieved.",
+      "evidenceBindings": [
+        {
+          "url": "https://aldoshoes.vn/pages/he-thong-cua-hang",
+          "evidenceFile": "source-text/source3.json",
+          "reference": "turn274view1",
+          "section": "hours content",
+          "result": "retrieved",
+          "support": "Indexed official branch lead says Mon-Fri 10:00-22:00, weekend 09:30-22:00; live actual locator retrieval is an iframe shell, so branch schedule not independently retrieved.",
+          "file": "vincom-retail-a\\source-text\\source3.json"
+        },
+        {
+          "sourceUrl": "https://aldoshoes.vn/pages/he-thong-cua-hang",
+          "freshWebReference": "turn640view1"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "hold",
+      "remainingAction": "Obtain readable official ALDO Dong Khoi locator branch payload."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-001",
+      "field": "catalog",
+      "reason": "Official site has actual footwear and bag collections (women's heels, sandals, men's dress shoes and bags); general Vietnam catalogue only.",
+      "evidenceBindings": [
+        {
+          "url": "https://aldoshoes.vn/",
+          "evidenceFile": "source-text/source3.json",
+          "reference": "turn274view1",
+          "section": "catalog content",
+          "result": "retrieved",
+          "support": "Official site has actual footwear and bag collections (women's heels, sandals, men's dress shoes and bags); general Vietnam catalogue only.",
+          "file": "vincom-retail-a\\source-text\\source3.json"
+        },
+        {
+          "sourceUrl": "https://aldoshoes.vn/",
+          "freshWebReference": "turn640view0"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "catalog",
+        "state": "verified-agent",
+        "sourceUrl": "https://aldoshoes.vn/",
+        "evidence": "Official site has actual footwear and bag collections (women's heels, sandals, men's dress shoes and bags); general Vietnam catalogue only. Evidence: source-text/source3.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://aldoshoes.vn/"
+      },
+      "originalProposal": {
+        "field": "catalog",
+        "state": "verified-proposal",
+        "sourceUrl": "https://aldoshoes.vn/",
+        "evidence": "Official site has actual footwear and bag collections (women's heels, sandals, men's dress shoes and bags); general Vietnam catalogue only. Evidence: source-text/source3.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://aldoshoes.vn/"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-001",
+      "field": "services",
+      "reason": "Official product categories offer footwear, handbags, wallets and fashion accessories; no branch inventory or operational service promised.",
+      "evidenceBindings": [
+        {
+          "url": "https://aldoshoes.vn/",
+          "evidenceFile": "source-text/source3.json",
+          "reference": "turn274view1",
+          "section": "services content",
+          "result": "retrieved",
+          "support": "Official product categories offer footwear, handbags, wallets and fashion accessories; no branch inventory or operational service promised.",
+          "file": "vincom-retail-a\\source-text\\source3.json"
+        },
+        {
+          "sourceUrl": "https://aldoshoes.vn/",
+          "freshWebReference": "turn640view0"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "services",
+        "state": "verified-agent",
+        "sourceUrl": "https://aldoshoes.vn/",
+        "evidence": "Official product categories offer footwear, handbags, wallets and fashion accessories; no branch inventory or operational service promised. Evidence: source-text/source3.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "Giày dép, túi xách, ví và phụ kiện thời trang (danh mục chung của ALDO Việt Nam).",
+          "en": "Footwear, handbags, wallets and fashion accessories (ALDO Vietnam's general range)."
+        }
+      },
+      "originalProposal": {
+        "field": "services",
+        "state": "verified-proposal",
+        "sourceUrl": "https://aldoshoes.vn/",
+        "evidence": "Official product categories offer footwear, handbags, wallets and fashion accessories; no branch inventory or operational service promised. Evidence: source-text/source3.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "Giày dép, túi xách, ví và phụ kiện thời trang (danh mục chung của ALDO Việt Nam).",
+          "en": "Footwear, handbags, wallets and fashion accessories (ALDO Vietnam's general range)."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-007",
+      "field": "website",
+      "reason": "Official distributor MilenSea identifies Gold Elements as its exclusive Vietnam brand; collection is the exact cosmetics brand, not an unrelated gold retailer.",
+      "evidenceBindings": [
+        {
+          "url": "https://milensea.com.vn/collections/gold-element",
+          "evidenceFile": "source-text/find23.json",
+          "reference": "turn389view7",
+          "section": "website content",
+          "result": "retrieved",
+          "support": "Official distributor MilenSea identifies Gold Elements as its exclusive Vietnam brand; collection is the exact cosmetics brand, not an unrelated gold retailer.",
+          "file": "vincom-retail-a\\source-text\\find23.json"
+        },
+        {
+          "sourceUrl": "https://milensea.com.vn/collections/gold-element",
+          "freshWebReference": "turn645view0/turn648view3"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "website",
+        "state": "verified-agent",
+        "sourceUrl": "https://milensea.com.vn/collections/gold-element",
+        "evidence": "Official distributor MilenSea identifies Gold Elements as its officially distributed Vietnam brand; collection is the exact cosmetics brand, not an unrelated gold retailer. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://milensea.com.vn/collections/gold-element"
+      },
+      "originalProposal": {
+        "field": "website",
+        "state": "verified-proposal",
+        "sourceUrl": "https://milensea.com.vn/collections/gold-element",
+        "evidence": "Official distributor MilenSea identifies Gold Elements as its exclusive Vietnam brand; collection is the exact cosmetics brand, not an unrelated gold retailer. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://milensea.com.vn/collections/gold-element"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-007",
+      "field": "phone",
+      "reason": "Official Gold Elements Vietnam distributor MilenSea page labels this number as support (Bạn cần hỗ trợ? Liên hệ). Distributor-wide contact only; not Gold Element Dong Khoi counter. Independent correction: numeric phone value preserved; localized support label moved into uncertainty for valid call action.",
+      "evidenceBindings": [
+        {
+          "url": "https://milensea.com.vn/pages/gold-elements-spa",
+          "evidenceFile": "source-text/source3.json",
+          "reference": "turn274view3 L13-L17",
+          "section": "phone content",
+          "result": "retrieved",
+          "support": "Official Gold Elements Vietnam distributor MilenSea page labels this number as support (Bạn cần hỗ trợ? Liên hệ). Distributor-wide contact only; not Gold Element Dong Khoi counter.",
+          "file": "vincom-retail-a\\source-text\\source3.json"
+        },
+        {
+          "sourceUrl": "https://milensea.com.vn/pages/gold-elements-spa",
+          "freshWebReference": "turn648view3 (same official distributor contact separately corroborated on collection page)"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "brandContactScopeExplicit": true,
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://milensea.com.vn/pages/gold-elements-spa",
+        "evidence": "Official Gold Elements Vietnam distributor MilenSea page labels this number as support (Bạn cần hỗ trợ? Liên hệ). Distributor-wide contact only; not Gold Element Dong Khoi counter. Evidence: source-text/source3.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Liên hệ hỗ trợ chung của nhà phân phối MilenSea; không phải số riêng của quầy tại Vincom Đồng Khởi.",
+          "en": "MilenSea distributor support contact; this is not a dedicated Vincom Dong Khoi counter line."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "028 3511 3525",
+          "en": "028 3511 3525"
+        }
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "verified-proposal",
+        "sourceUrl": "https://milensea.com.vn/pages/gold-elements-spa",
+        "evidence": "Official Gold Elements Vietnam distributor MilenSea page labels this number as support (Bạn cần hỗ trợ? Liên hệ). Distributor-wide contact only; not Gold Element Dong Khoi counter. Evidence: source-text/source3.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "Hỗ trợ chung: 028 3511 3525",
+          "en": "General support: 028 3511 3525"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-007",
+      "field": "hours",
+      "reason": "Official distributor store-locator URL is inaccessible and retrieved collection/spa page has no branch-specific schedule. Mall-wide hours do not establish counter hours.",
+      "evidenceBindings": [
+        {
+          "url": "https://milensea.com.vn/collections/gold-element",
+          "evidenceFile": "source-text/source3.json",
+          "reference": "turn389view7",
+          "section": "hours content",
+          "result": "retrieved",
+          "support": "Official distributor store-locator URL is inaccessible and retrieved collection/spa page has no branch-specific schedule. Mall-wide hours do not establish counter hours.",
+          "file": "vincom-retail-a\\source-text\\source3.json"
+        },
+        {
+          "sourceUrl": "https://milensea.com.vn/collections/gold-element",
+          "freshWebReference": "turn645view0/turn648view3"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "hold",
+      "remainingAction": "Retrieve official distributor Dong Khoi store record with schedule."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-007",
+      "field": "catalog",
+      "reason": "Readable official collection lists D'or Facial Cream, Golden Body Butter Precious and Hand and Nail Cream with product links.",
+      "evidenceBindings": [
+        {
+          "url": "https://milensea.com.vn/collections/gold-element",
+          "evidenceFile": "source-text/find23.json",
+          "reference": "turn389view7",
+          "section": "catalog content",
+          "result": "retrieved",
+          "support": "Readable official collection lists D'or Facial Cream, Golden Body Butter Precious and Hand and Nail Cream with product links.",
+          "file": "vincom-retail-a\\source-text\\find23.json"
+        },
+        {
+          "sourceUrl": "https://milensea.com.vn/collections/gold-element",
+          "freshWebReference": "turn645view0/turn648view3"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "catalog",
+        "state": "verified-agent",
+        "sourceUrl": "https://milensea.com.vn/collections/gold-element",
+        "evidence": "Readable official collection lists D'or Facial Cream, Golden Body Butter Precious and Hand and Nail Cream with product links. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://milensea.com.vn/collections/gold-element"
+      },
+      "originalProposal": {
+        "field": "catalog",
+        "state": "verified-proposal",
+        "sourceUrl": "https://milensea.com.vn/collections/gold-element",
+        "evidence": "Readable official collection lists D'or Facial Cream, Golden Body Butter Precious and Hand and Nail Cream with product links. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://milensea.com.vn/collections/gold-element"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-007",
+      "field": "services",
+      "reason": "Specific product offering listed by official Vietnam distributor, without clinical efficacy or branch-stock claims.",
+      "evidenceBindings": [
+        {
+          "url": "https://milensea.com.vn/collections/gold-element",
+          "evidenceFile": "source-text/find23.json",
+          "reference": "turn389view7",
+          "section": "services content",
+          "result": "retrieved",
+          "support": "Specific product offering listed by official Vietnam distributor, without clinical efficacy or branch-stock claims.",
+          "file": "vincom-retail-a\\source-text\\find23.json"
+        },
+        {
+          "sourceUrl": "https://milensea.com.vn/collections/gold-element",
+          "freshWebReference": "turn645view0/turn648view3"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "services",
+        "state": "verified-agent",
+        "sourceUrl": "https://milensea.com.vn/collections/gold-element",
+        "evidence": "Specific product offering listed by official Vietnam distributor, without clinical efficacy or branch-stock claims. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "Kem dưỡng da mặt, kem dưỡng thể, sữa rửa mặt và sản phẩm chăm sóc tay, móng (danh mục Gold Elements tại nhà phân phối Việt Nam).",
+          "en": "Face creams, body butter, facial cleansers and hand and nail care (Gold Elements range at its Vietnam distributor)."
+        }
+      },
+      "originalProposal": {
+        "field": "services",
+        "state": "verified-proposal",
+        "sourceUrl": "https://milensea.com.vn/collections/gold-element",
+        "evidence": "Specific product offering listed by official Vietnam distributor, without clinical efficacy or branch-stock claims. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "Kem dưỡng da mặt, kem dưỡng thể, sữa rửa mặt và sản phẩm chăm sóc tay, móng (danh mục Gold Elements tại nhà phân phối Việt Nam).",
+          "en": "Face creams, body butter, facial cleansers and hand and nail care (Gold Elements range at its Vietnam distributor)."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-023",
+      "field": "website",
+      "reason": "Official PPP contact page explicitly names PPP Vincom Center at 72 Le Thanh Ton, Saigon Ward.",
+      "evidenceBindings": [
+        {
+          "url": "https://ppp.com.vn/lien-he/",
+          "evidenceFile": "source-text/find23.json",
+          "reference": "turn389view2",
+          "section": "website content",
+          "result": "retrieved",
+          "support": "Official PPP contact page explicitly names PPP Vincom Center at 72 Le Thanh Ton, Saigon Ward.",
+          "file": "vincom-retail-a\\source-text\\find23.json"
+        },
+        {
+          "sourceUrl": "https://ppp.com.vn/lien-he/",
+          "freshWebReference": "turn645view2/turn645view3"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "website",
+        "state": "verified-agent",
+        "sourceUrl": "https://ppp.com.vn/lien-he/",
+        "evidence": "Official PPP contact page explicitly names PPP Vincom Center at 72 Le Thanh Ton, Saigon Ward. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+          "en": "From the checked official source; confirm current details before visiting."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20",
+        "branchMallId": "vincom-dong-khoi",
+        "url": "https://ppp.com.vn/lien-he/"
+      },
+      "originalProposal": {
+        "field": "website",
+        "state": "verified-proposal",
+        "sourceUrl": "https://ppp.com.vn/lien-he/",
+        "evidence": "Official PPP contact page explicitly names PPP Vincom Center at 72 Le Thanh Ton, Saigon Ward. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+          "en": "From the checked official source; confirm current details before visiting."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "branchMallId": "vincom-dong-khoi",
+        "url": "https://ppp.com.vn/lien-he/"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-023",
+      "field": "phone",
+      "reason": "Actual official PPP contact page lists 1800 6220 for multiple cities and 24/7 contact section. Explicit brand-wide contact only; 24/7 is not clinic operating hours. Independent correction: numeric phone value preserved; localized support label moved into uncertainty for valid call action.",
+      "evidenceBindings": [
+        {
+          "url": "https://ppp.com.vn/lien-he/",
+          "evidenceFile": "source-text/find23.json",
+          "reference": "turn389view1 L27-L47",
+          "section": "phone content",
+          "result": "retrieved",
+          "support": "Actual official PPP contact page lists 1800 6220 for multiple cities and 24/7 contact section. Explicit brand-wide contact only; 24/7 is not clinic operating hours.",
+          "file": "vincom-retail-a\\source-text\\find23.json"
+        },
+        {
+          "sourceUrl": "https://ppp.com.vn/lien-he/",
+          "freshWebReference": "turn645view2/turn645view3"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "brandContactScopeExplicit": true,
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://ppp.com.vn/lien-he/",
+        "evidence": "Actual official PPP contact page lists 1800 6220 for multiple cities and 24/7 contact section. Explicit brand-wide contact only; 24/7 is not clinic operating hours. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Liên hệ hỗ trợ chung của thương hiệu; không phải số riêng của chi nhánh Vincom Đồng Khởi.",
+          "en": "Brand-wide support contact; this is not a dedicated Vincom Dong Khoi branch line."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "1800 6220",
+          "en": "1800 6220"
+        }
+      },
+      "originalProposal": {
+        "field": "phone",
+        "state": "verified-proposal",
+        "sourceUrl": "https://ppp.com.vn/lien-he/",
+        "evidence": "Actual official PPP contact page lists 1800 6220 for multiple cities and 24/7 contact section. Explicit brand-wide contact only; 24/7 is not clinic operating hours. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "Hỗ trợ chung: 1800 6220",
+          "en": "General support: 1800 6220"
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-023",
+      "field": "hours",
+      "reason": "24/7 labels general contact availability; no actual clinic opening schedule in retrieved branch contact block. It cannot become branch operating hours.",
+      "evidenceBindings": [
+        {
+          "url": "https://ppp.com.vn/lien-he/",
+          "evidenceFile": "source-text/find23.json",
+          "reference": "turn389view2",
+          "section": "hours content",
+          "result": "retrieved",
+          "support": "24/7 labels general contact availability; no actual clinic opening schedule in retrieved branch contact block. It cannot become branch operating hours.",
+          "file": "vincom-retail-a\\source-text\\find23.json"
+        },
+        {
+          "sourceUrl": "https://ppp.com.vn/lien-he/",
+          "freshWebReference": "turn645view2/turn645view3"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "hold",
+      "remainingAction": "Retrieve official PPP Vincom clinic opening schedule."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-023",
+      "field": "catalog",
+      "reason": "Retrieved homepage exposes treatment names, but no actual retail product catalogue action was verified. Treatment offering summary belongs to services; article links are not a product catalogue.",
+      "evidenceBindings": [
+        {
+          "url": "https://ppp.com.vn/",
+          "evidenceFile": "source-text/find23.json",
+          "reference": "turn389view2",
+          "section": "catalog content",
+          "result": "retrieved",
+          "support": "Retrieved homepage exposes treatment names, but no actual retail product catalogue action was verified. Treatment offering summary belongs to services; article links are not a product catalogue.",
+          "file": "vincom-retail-a\\source-text\\find23.json"
+        },
+        {
+          "sourceUrl": "https://ppp.com.vn/",
+          "freshWebReference": "turn648view0"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "hold",
+      "remainingAction": "Find and retrieve an official product catalogue or explicit service catalogue action appropriate to this field."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-023",
+      "field": "services",
+      "reason": "Actual official homepage lists 5D Skin Rejuvenation, 4D Laser Sculpt and HydrO2 treatment offerings. Neutral names only; no safety, suitability or efficacy claim.",
+      "evidenceBindings": [
+        {
+          "url": "https://ppp.com.vn/",
+          "evidenceFile": "source-text/find23.json",
+          "reference": "turn389view2",
+          "section": "services content",
+          "result": "retrieved",
+          "support": "Actual official homepage lists 5D Skin Rejuvenation, 4D Laser Sculpt and HydrO2 treatment offerings. Neutral names only; no safety, suitability or efficacy claim.",
+          "file": "vincom-retail-a\\source-text\\find23.json"
+        },
+        {
+          "sourceUrl": "https://ppp.com.vn/",
+          "freshWebReference": "turn648view0"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "services",
+        "state": "verified-agent",
+        "sourceUrl": "https://ppp.com.vn/",
+        "evidence": "Actual official homepage lists 5D Skin Rejuvenation, 4D Laser Sculpt and HydrO2 treatment offerings. Neutral names only; no safety, suitability or efficacy claim. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "Các liệu trình được PPP giới thiệu gồm 5D Skin Rejuvenation, 4D Laser Sculpt và HydrO2; cần xác nhận liệu trình phù hợp và khả năng phục vụ với phòng khám.",
+          "en": "PPP lists 5D Skin Rejuvenation, 4D Laser Sculpt and HydrO2 treatments; confirm suitability and availability with the clinic."
+        }
+      },
+      "originalProposal": {
+        "field": "services",
+        "state": "verified-proposal",
+        "sourceUrl": "https://ppp.com.vn/",
+        "evidence": "Actual official homepage lists 5D Skin Rejuvenation, 4D Laser Sculpt and HydrO2 treatment offerings. Neutral names only; no safety, suitability or efficacy claim. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "Các liệu trình được PPP giới thiệu gồm 5D Skin Rejuvenation, 4D Laser Sculpt và HydrO2; cần xác nhận liệu trình phù hợp và khả năng phục vụ với phòng khám.",
+          "en": "PPP lists 5D Skin Rejuvenation, 4D Laser Sculpt and HydrO2 treatments; confirm suitability and availability with the clinic."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-001",
+      "field": "website",
+      "reason": "Official Dong Viet site identifies authorized RHYTHM clock distribution and lists real RHYTHM products.",
+      "evidenceBindings": [
+        {
+          "url": "https://dongviet.vn/",
+          "evidenceFile": "source-text/find23.json",
+          "reference": "turn389view4",
+          "section": "website content",
+          "result": "retrieved",
+          "support": "Official Dong Viet site identifies authorized RHYTHM clock distribution and lists real RHYTHM products.",
+          "file": "vincom-retail-a\\source-text\\find23.json"
+        },
+        {
+          "sourceUrl": "https://dongviet.vn/",
+          "freshWebReference": "turn648view1"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "website",
+        "state": "verified-agent",
+        "sourceUrl": "https://dongviet.vn/",
+        "evidence": "Official Dong Viet site identifies authorized RHYTHM clock distribution and lists real RHYTHM products. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://dongviet.vn/"
+      },
+      "originalProposal": {
+        "field": "website",
+        "state": "verified-proposal",
+        "sourceUrl": "https://dongviet.vn/",
+        "evidence": "Official Dong Viet site identifies authorized RHYTHM clock distribution and lists real RHYTHM products. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://dongviet.vn/"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-001",
+      "field": "phone",
+      "reason": "Retrieved locator lists 028 3936 9025 for B2-16 Vincom Dong Khoi, but labels this counter UNI.WATCH rather than RHYTHM. Exact destination applicability needs confirmation before attaching contact. Fresh locator317-324 gives generic STORE block, while footer361-363 calls exact B2-16 counter UNI.WATCH; current RHYTHM identity remains unresolved.",
+      "evidenceBindings": [
+        {
+          "url": "https://dongviet.vn/danh-sach-cua-hang/",
+          "evidenceFile": "source-text/find23.json",
+          "reference": "turn389view3",
+          "section": "phone content",
+          "result": "retrieved",
+          "support": "Retrieved locator lists 028 3936 9025 for B2-16 Vincom Dong Khoi, but labels this counter UNI.WATCH rather than RHYTHM. Exact destination applicability needs confirmation before attaching contact.",
+          "file": "vincom-retail-a\\source-text\\find23.json"
+        },
+        {
+          "sourceUrl": "https://dongviet.vn/danh-sach-cua-hang/",
+          "freshWebReference": "turn645view6"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "hold",
+      "remainingAction": "Confirm current RHYTHM destination and UNI.WATCH counter identity at B2-16 using official source."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-001",
+      "field": "hours",
+      "reason": "Locator gives 09:30-21:30 daily for B2-16 counter, but footer identifies UNI.WATCH. Do not silently apply another counter's schedule to RHYTHM. Fresh locator317-324 gives generic STORE block, while footer361-363 calls exact B2-16 counter UNI.WATCH; current RHYTHM identity remains unresolved.",
+      "evidenceBindings": [
+        {
+          "url": "https://dongviet.vn/danh-sach-cua-hang/",
+          "evidenceFile": "source-text/find23.json",
+          "reference": "turn389view3",
+          "section": "hours content",
+          "result": "retrieved",
+          "support": "Locator gives 09:30-21:30 daily for B2-16 counter, but footer identifies UNI.WATCH. Do not silently apply another counter's schedule to RHYTHM.",
+          "file": "vincom-retail-a\\source-text\\find23.json"
+        },
+        {
+          "sourceUrl": "https://dongviet.vn/danh-sach-cua-hang/",
+          "freshWebReference": "turn645view6"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "hold",
+      "remainingAction": "Resolve RHYTHM versus UNI.WATCH counter applicability."
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-001",
+      "field": "catalog",
+      "reason": "Actual product listings include Rhythm 4MJ413RH05 cuckoo clock, CRH218NR02 desk clock and CMG757NR06 wall clock.",
+      "evidenceBindings": [
+        {
+          "url": "https://dongviet.vn/",
+          "evidenceFile": "source-text/find23.json",
+          "reference": "turn389view4",
+          "section": "catalog content",
+          "result": "retrieved",
+          "support": "Actual product listings include Rhythm 4MJ413RH05 cuckoo clock, CRH218NR02 desk clock and CMG757NR06 wall clock.",
+          "file": "vincom-retail-a\\source-text\\find23.json"
+        },
+        {
+          "sourceUrl": "https://dongviet.vn/",
+          "freshWebReference": "turn648view1"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "catalog",
+        "state": "verified-agent",
+        "sourceUrl": "https://dongviet.vn/",
+        "evidence": "Actual product listings include Rhythm 4MJ413RH05 cuckoo clock, CRH218NR02 desk clock and CMG757NR06 wall clock. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://dongviet.vn/"
+      },
+      "originalProposal": {
+        "field": "catalog",
+        "state": "verified-proposal",
+        "sourceUrl": "https://dongviet.vn/",
+        "evidence": "Actual product listings include Rhythm 4MJ413RH05 cuckoo clock, CRH218NR02 desk clock and CMG757NR06 wall clock. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "url": "https://dongviet.vn/"
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-001",
+      "field": "services",
+      "reason": "Official catalogue supports RHYTHM wall clocks, desk clocks and cuckoo clocks as brand-wide product offerings.",
+      "evidenceBindings": [
+        {
+          "url": "https://dongviet.vn/",
+          "evidenceFile": "source-text/find23.json",
+          "reference": "turn389view4",
+          "section": "services content",
+          "result": "retrieved",
+          "support": "Official catalogue supports RHYTHM wall clocks, desk clocks and cuckoo clocks as brand-wide product offerings.",
+          "file": "vincom-retail-a\\source-text\\find23.json"
+        },
+        {
+          "sourceUrl": "https://dongviet.vn/",
+          "freshWebReference": "turn648view1"
+        }
+      ],
+      "reviewedAt": "2026-10-20",
+      "reviewedBy": "Codex independent content auditor (AI)",
+      "auditDecision": "accept",
+      "acceptedField": {
+        "field": "services",
+        "state": "verified-agent",
+        "sourceUrl": "https://dongviet.vn/",
+        "evidence": "Official catalogue supports RHYTHM wall clocks, desk clocks and cuckoo clocks as brand-wide product offerings. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex independent content auditor (delegated AI review)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "Đồng hồ treo tường, đồng hồ để bàn và đồng hồ cuckoo RHYTHM (danh mục chung của nhà phân phối Đồng Việt).",
+          "en": "RHYTHM wall clocks, desk clocks and cuckoo clocks (Dong Viet distributor's general range)."
+        }
+      },
+      "originalProposal": {
+        "field": "services",
+        "state": "verified-proposal",
+        "sourceUrl": "https://dongviet.vn/",
+        "evidence": "Official catalogue supports RHYTHM wall clocks, desk clocks and cuckoo clocks as brand-wide product offerings. Evidence: source-text/find23.json",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "pending-delegated-review",
+        "uncertainty": {
+          "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+          "en": "Brand-wide information; confirm products, prices and availability with the branch."
+        },
+        "reviewedBy": "Codex Vincom A research agent (AI)",
+        "reviewedAt": "2026-10-20",
+        "value": {
+          "vi": "Đồng hồ treo tường, đồng hồ để bàn và đồng hồ cuckoo RHYTHM (danh mục chung của nhà phân phối Đồng Việt).",
+          "en": "RHYTHM wall clocks, desk clocks and cuckoo clocks (Dong Viet distributor's general range)."
+        }
+      }
+    }
+  ]
+}

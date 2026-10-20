@@ -1,0 +1,25 @@
+import pathlib,json,hashlib,copy
+P=pathlib.Path(__file__).parent;R=P.parents[1]
+def read(p):return json.loads(p.read_text(encoding='utf-8-sig'))
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+central=read(R/'content-audit/audit-decisions.json')['records']
+targets=[('vincom-candidate-vd-b2-019','https://gintell.vn/vi/nhom-san-pham/ghe-massage-1',3,'turn910view3 L109-188','Actual named Black Panther, Spider-Man and S8 MAXX massage-chair cards with prices and order links.',None,'massage chairs'),('vincom-prototype-lukfookjewellery','https://www.lukfook.com/en/product-line/all-product/category/ring',3,'turn910view5 L252-271','Actual ring-product directory names Starry Flower 18K diamond ring and Beloved collection rings beyond site navigation.','international market','rings'),('vincom-prototype-tuttopiccolo','https://www.tuttopiccolo.com/',4,'turn911view3 L116-154; homepage turn909view0 L120-145 in followthrough-002.txt','Homepage now renders priced Champiñón sets and tricot jerseys; observed Champiñón product child independently supplies SKU2710WW26G01, price45.95EUR and sizes.','Spain/EUR','children’s clothing'),('vincom-prototype-urbanrevivo','https://urbanrevivo.com.vn/collections/dam-vay',4,'turn911view4 L63-65 L128-320 L331-337','Actual dresses/skirts collection body describes mini/midi/denim/pleated styles, reports385 results, nine pages and varied prices. Product names remain dynamic; dummy tank cart excluded.',None,'women’s dresses and skirts'),('vincom-candidate-vd-b1-016','https://vn.puma.com/vn/vi/n%E1%BB%AF/qu%E1%BA%A7n-%C3%A1o',6,'turn913view0 L573-577 L801-925','Observed footwear link failed, but observed womens clothing child supplies814 products and actual McLaren James Hunt/T7 Always On/Powerpuff Girls clothing cards with VND prices.',None,'women’s clothing category, including unisex listings'),('vincom-candidate-vd-b2-028',None,5,'turn912view1 L110-240; turn912view2 L110-240; AutumnTales turn910view4 in followthrough-003.txt','Both observed Rabity Autumn Tales and girls-dresses child collections retrieve filter/sort controls but no named product cards, product count or listing body. This is a public-reader rendering blocker, not absence of a catalogue.',None,None)]
+priors=[];out=[];by={(d['destinationId'],d['field']):d for d in central}
+for id,url,n,ref,reason,market,subset in targets:
+ prior=copy.deepcopy(by[(id,'catalog')]);assert prior['auditDecision']=='hold';priors.append(prior)
+ bindings=copy.deepcopy(prior['evidenceBindings'])
+ for file in sorted(P.glob('followthrough-00*.txt')):
+  bindings.append({'file':str(file.relative_to(R)).replace('\\','/'),'reference':ref if file.name==f'followthrough-{n:03d}.txt' else 'Observed official home/category traversal requests and actual responses; exact six-target bounded followthrough'})
+ d={'mallId':prior['mallId'],'destinationId':id,'field':'catalog','priorAuditedDecision':prior,'auditDecision':'accept'if url else'hold','reason':reason,'evidenceBindings':bindings,'reviewedBy':'Codex independent content auditor (AI)','reviewedAt':'2026-10-20'}
+ if url:
+  uncertainty={'vi':'Danh mục chung của thương hiệu; liên kết phần danh mục '+subset+'. Xác nhận sản phẩm, giá và tồn kho với chi nhánh.','en':'Brand-wide catalogue; linked subset: '+subset+'. Confirm products, prices and stock with the branch.'}
+  if market:
+   uncertainty['vi']+=' Danh mục thị trường '+market+'; sản phẩm, giá và giao hàng có thể khác tại Việt Nam.'
+   uncertainty['en']+=' Catalogue for '+market+'; products, prices and shipping may differ in Vietnam.'
+  d['acceptedField']={'field':'catalog','state':'verified-agent','sourceUrl':url,'url':url,'checkedAt':'2026-10-20','applicability':'brand-wide','verification':'source-checked','approval':'agent-accepted','reviewedBy':d['reviewedBy'],'reviewedAt':d['reviewedAt'],'evidence':reason+' See immutable followthrough receipts and amendment bindings.','uncertainty':uncertainty}
+ else:d['remainingAction']='Retrieve rendered public Rabity collection/product body or its public product payload for either observed Autumn Tales or girls-dresses category. Current reader returns controls only; do not infer inventory or global unavailability.'
+ out.append(d)
+snapshot=P/'followthrough-prior-decisions.json';snapshot.write_text(json.dumps({'records':priors},ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+files=[snapshot,*sorted(P.glob('followthrough-00*.txt'))]
+packet={'revision':'retail-a-six-observed-child-followthrough','inputs':[{'file':str(p.relative_to(R)).replace('\\','/'),'sha256':sha(p)}for p in files],'records':out,'counts':{'accept':5,'hold':1},'limits':['Only six requested catalogue fields; exact prior central decisions preserved.','Prior imported packet and all source/runtime files remain unchanged.','PUMA first footwear child failed, alternative observed clothing category succeeded. Rabity both observed children remain rendering-blocked.']}
+path=P/'followthrough-amendments.json';path.write_text(json.dumps(packet,ensure_ascii=False,indent=2)+'\n',encoding='utf8');print(json.dumps({'file':str(path),'sha256':sha(path),'accept':5,'hold':1,'exactPriorDecisions':6,'receiptFiles':6}))

@@ -1,0 +1,54 @@
+{
+  "lane": "vincom-dining",
+  "destinations": 54,
+  "queuedFields": 292,
+  "completedFieldDecisions": 292,
+  "unresearched": 0,
+  "outcomes": {
+    "proposal": 138,
+    "hold": 148,
+    "unavailable-after-research": 6
+  },
+  "acceptedFrozenFieldsPreserved": true,
+  "proposalStatus": "Pending independent audit; no src integration by researcher.",
+  "browserApproval": "First final script rejected on stale read-only scope; exact retry approved after parent supplied superseding trusted user history. Executed successfully; no remaining approval denial.",
+  "limitations": [
+    "Remaining profiles with name/location lists do not support guessed products/cuisine.",
+    "Specific403/login/timeouts,operator identity conflicts and missing exact branch applicability remain explicit holds.",
+    "International references carry country caveats; foreign company/customer contacts explicitly brand-wide and country-limited.",
+    "Longwang menu Updating remains held; generic contact forms and Map buttons not promoted as reservations.",
+    "All6unavailable findings remain bounded to checked sources; no global absence claim."
+  ],
+  "validation": [
+    "292 unique queue keys exactly accounted for.",
+    "No overlap with shared accepted field index.",
+    "All proposals have bilingual value or actual URL, source date and declared scope.",
+    "Every hold has reason and remaining action.",
+    "No frozen roster or accepted source fields changed."
+  ],
+  "files": {
+    "records.json": {
+      "sha256": "5d106af33f5c644c8d2d616be35aebfd1ccbf4225bfdaa24b1f48353a09f5728",
+      "bytes": 139111
+    },
+    "decisions.json": {
+      "sha256": "4a541acd892d57942937d10ac39ccae3171c56ad88e17e75995edec9ff25e212",
+      "bytes": 1972273
+    },
+    "records-amendments5.json": {
+      "sha256": "6455d14639ae8c76acbd68444d941ee0373290de842640e822846a05eba9d3b1",
+      "bytes": 42296
+    },
+    "decisions-amendments5.json": {
+      "sha256": "2fa30d9c4bf40c2019552e30eb2d12bdad07730683c65b650bd7dda06e66e488",
+      "bytes": 173703
+    }
+  },
+  "officialMallBrandProfileAttempts": 54,
+  "actualProfileReads": 39,
+  "profileTimeouts": 6,
+  "aliasSearchReceipts": [
+    "search-mall-brand-aliases1.txt",
+    "search-mall-brand-aliases2.txt"
+  ]
+}

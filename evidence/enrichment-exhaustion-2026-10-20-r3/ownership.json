@@ -1,0 +1,43 @@
+{
+  "startedAt": "2026-10-20T00:27:22.604436+00:00",
+  "baseHead": "281f8d2",
+  "baseSource": "3e505fb",
+  "baselineAccepted": 658,
+  "originalUnresolved": 1315,
+  "originalUnresearched": 1272,
+  "originalHolds": 43,
+  "ownership": {
+    "saigon-dining": {
+      "agent": "/root/saigon_research",
+      "fields": 143
+    },
+    "saigon-retail": {
+      "agent": "/root/saigon_retail_r3",
+      "fields": 226
+    },
+    "vincom-dining": {
+      "agent": "/root/vincom_research",
+      "fields": 292
+    },
+    "vincom-retail-a": {
+      "agent": "/root/vincom_retail_a_r3",
+      "fields": 311
+    },
+    "vincom-retail-b": {
+      "agent": "/root/vincom_retail_b_r3",
+      "fields": 300
+    },
+    "holds": {
+      "agent": "/root",
+      "fields": 43
+    },
+    "content-audit": {
+      "agent": "/root/content_audit_r2",
+      "role": "independent audit/reconciliation"
+    }
+  },
+  "stopBoundary": "Every original field has independently audited supported acceptance, bounded negative-source result or exact evidence/access/identity hold; no arbitrary batch/quota. Remaining ordinary source paths must be followed.",
+  "baselineAmendments": "Explicit newly evidenced contradictions are preserved as separate amendments, never silent changes; Tierra hours is the first identified outside-queue conflict.",
+  "frozenPackage": "r2 raw4411/4412 remains unchanged until a new source-bound package is complete.",
+  "publication": false
+}

@@ -1,0 +1,105 @@
+{
+  "records": [
+    {
+      "destinationId": "saigon-prototype-bastahiroitalianrestaurant",
+      "field": "menu",
+      "paths": [
+        "https://shopping.saigoncentre.com.vn/en/store-directory/basta-hiro",
+        "https://bastahiro.com.vn/en/",
+        "https://bastahiro.com.vn/en/location/?current=Saigon+Centre"
+      ],
+      "remainingAction": "Inspect the menu media or dynamic official menu in a browser with enabled rendering; no enabled browser surfaces are available in this execution environment."
+    },
+    {
+      "destinationId": "saigon-prototype-miyamamoderntokyorestaurantcafe",
+      "field": "menu",
+      "paths": [
+        "https://shopping.saigoncentre.com.vn/en/store-directory/miyama-modern-tokyo-restaurant-cafe",
+        "https://miyamacafe.com/",
+        "https://miyamacafe.com/menu/",
+        "https://miyamacafe.com/wp-content/uploads/2026/07/MIYAMA_MENU-10-NAM.pdf"
+      ],
+      "remainingAction": "Read the official menu/PDF after public access succeeds; do not infer actual dishes from snippets."
+    },
+    {
+      "destinationId": "saigon-prototype-asanoha",
+      "field": "menu",
+      "paths": [
+        "https://shopping.saigoncentre.com.vn/en/store-directory/asanoha-modern-japanese-hotpot",
+        "https://asanoha.com.vn/en/",
+        "https://asanoha.com.vn/en/location/?current=Saigon+Centre"
+      ],
+      "remainingAction": "Inspect the menu media or dynamic official menu in a browser with enabled rendering; no enabled browser surfaces are available in this execution environment."
+    },
+    {
+      "destinationId": "saigon-prototype-botejyuokonomiyaki",
+      "field": "menu",
+      "paths": [
+        "https://shopping.saigoncentre.com.vn/en/store-directory/botejyu-okonomiyaki",
+        "https://botejyu.co.jp/global_vietnam/",
+        "https://botejyu.co.jp/menu_botejyu/",
+        "https://botejyu.meclib.jp/library/books/botejyumenu/book/index.html"
+      ],
+      "remainingAction": "Inspect the actual endorsed menu viewer with rendering; retain market scope and do not reuse a different brand video."
+    },
+    {
+      "destinationId": "saigon-prototype-gyushigeyakiniku",
+      "field": "menu",
+      "paths": [
+        "https://shopping.saigoncentre.com.vn/en/store-directory/gyu-shige-nguu-phon",
+        "https://gyushige.com.vn/en/",
+        "https://gyushige.com.vn/en/location/?current=Saigon+Centre"
+      ],
+      "remainingAction": "Inspect the menu media or dynamic official menu in a browser with enabled rendering; no enabled browser surfaces are available in this execution environment."
+    },
+    {
+      "destinationId": "saigon-prototype-jindinroutaiwaneserestaurant",
+      "field": "menu",
+      "paths": [
+        "https://shopping.saigoncentre.com.vn/en/store-directory/jin-din-rou-%E4%BA%AC%E9%BC%8E%E6%A8%93",
+        "https://jindinrou.com.vn/en/",
+        "https://jindinrou.com.vn/en/location/?current=Saigon+Centre"
+      ],
+      "remainingAction": "Inspect the menu media or dynamic official menu in a browser with enabled rendering; no enabled browser surfaces are available in this execution environment."
+    },
+    {
+      "destinationId": "saigon-prototype-oedoalley",
+      "field": "menu",
+      "paths": [
+        "https://shopping.saigoncentre.com.vn/en/store-directory/oedo-alley-japanese-food-village",
+        "https://oedoalley.com.vn/en/",
+        "https://oedoalley.com.vn/en/location/?current=Oedo+Alley+-+Saigon+Centre"
+      ],
+      "remainingAction": "Inspect the menu media or dynamic official menu in a browser with enabled rendering; no enabled browser surfaces are available in this execution environment."
+    },
+    {
+      "destinationId": "saigon-prototype-ramenichibanken",
+      "field": "menu",
+      "paths": [
+        "https://shopping.saigoncentre.com.vn/en/store-directory/ramen-ichibanken",
+        "https://ichibankenramen.com.vn/en/",
+        "https://ichibankenramen.com.vn/en/location/?current=Saigon+Centre"
+      ],
+      "remainingAction": "Inspect the menu media or dynamic official menu in a browser with enabled rendering; no enabled browser surfaces are available in this execution environment."
+    },
+    {
+      "destinationId": "saigon-prototype-somtamthai",
+      "field": "menu",
+      "paths": [
+        "https://shopping.saigoncentre.com.vn/en/store-directory/som-%E0%B8%95%E0%B8%B3-thai",
+        "https://somtumthai.com.vn/en/",
+        "https://somtumthai.com.vn/en/location/?current=Saigon+Centre"
+      ],
+      "remainingAction": "Inspect the menu media or dynamic official menu in a browser with enabled rendering; no enabled browser surfaces are available in this execution environment."
+    },
+    {
+      "destinationId": "saigon-prototype-longjing",
+      "field": "menu",
+      "paths": [
+        "https://shopping.saigoncentre.com.vn/en/store-directory/longjing-restaurant",
+        "https://shopping.saigoncentre.com.vn/vi/dang-dien-ra/long-jing-khai-truong-cua-hang-dau-tien-tai-saigon-centre"
+      ],
+      "remainingAction": "Inspect the official announcement/menu image or authenticate the Vietnam operator menu; do not substitute Long Wang or another Longjing branch."
+    }
+  ]
+}

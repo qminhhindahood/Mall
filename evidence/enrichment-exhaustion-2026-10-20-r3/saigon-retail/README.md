@@ -1,0 +1,17 @@
+# Saigon retail enrichment research, round 3
+
+Research date: 2026-10-20. Amended after early independent review. All 113 assigned destinations and 226 queued fields have an explicit outcome: 206 provisional proposals and 20 precise holds. No field is classified unavailable merely because a page omits it. No queued field remains unresearched.
+
+`records.json` contains 91 catalogue actions, 109 bilingual product/service summaries and six phone numbers (one branch, five explicitly scoped general contacts). `decisions.json` covers every queue key, including attempted paths, targeted searches, receipt references, applicability, reason and unresolved next action. `holds.json` contains the 20 decisions exposing no runtime action/value. `progress.json` records counts and preservation checks.
+
+`source-001.txt` through `source-090.txt` preserve raw reader/search receipts. The request is saved on the first line of each receipt except source-001. `source-index.json` indexes those receipts without upgrading search candidates to authoritative evidence. Same-brand r2 catalogue evidence is referenced explicitly through the shared accepted source index. International markets, subset catalogues, branch stock uncertainty and source retrieval limitations are stated in each applicable proposal.
+
+The branch phone is Skechers. Its official mall profile also says Opening Soon; the proposal retains this limitation. Onitsuka Tiger, Bath & Body Works and Fujifilm have Vietnam general-contact fallbacks; VIVAIA and New Balance have explicitly U.S.-market customer-care fallbacks. No local routing or branch assistance is asserted. UNIQLO phone and services are held because the direct official locator returns a JavaScript shell; indexed values alone are not accepted. Operational services are asserted from explicit RIMOWA and Takashimaya branch-service sources. Other summaries describe specific goods, not inferred operational services. Aesop's global product summary has brand-wide scope; its placeholder mall profile is not used as offering evidence.
+
+The 20 holds concern 14 catalogue identities/retrievals, four phones and two service summaries. Sport Fair's mall profile contains only its name, placeholder S and Opening Soon; no product description, operating-brand identity or branch telephone is established. General contacts retain explicit brand-wide and market caveats.
+
+`field-support-excerpts.json` binds every proposed field to a short saved-text excerpt and full supporting source context. Six reused r2 catalogue URLs have only metadata in the old raw receipt; these expose no invented quotation and retain the independent accepted-evidence binding. The first handoff is preserved in `records.json.v1`, `decisions.json.v1`, `validation.json.v1` and `sha256-manifest.json.v1`; current files explicitly replace that handoff.
+
+All 658 original accepted field objects were checked unchanged. This lane changes only its assigned evidence folder; it performs no publication, outreach, source-data integration, tracker, build or frozen-preview edits. Proposals await delegated independent review, with no fabricated personal owner approval.
+
+`assemble.py` generates the JSON deliverables from the queue, receipt index and summaries; `index_sources.py` rebuilds the receipt index. Generator assertions check exact 226-key coverage, no proposal without provenance, and preservation of every accepted baseline field. `validation.json` and `sha256-manifest.json` capture the handoff checks and source hashes.

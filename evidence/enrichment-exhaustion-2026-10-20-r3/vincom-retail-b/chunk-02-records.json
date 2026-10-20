@@ -1,0 +1,1097 @@
+{
+  "revision": "vincom-retail-b-chunk-02",
+  "records": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-cledepeaubeaute",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.cledepeau-beaute.com.vn/vi/",
+          "evidence": "Official brand product/category presentation, read directly. General catalogue only; branch stock, prices and availability are not asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://www.cledepeau-beaute.com.vn/vi/"
+        },
+        {
+          "field": "services",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.cledepeau-beaute.com.vn/vi/counseling.html",
+          "evidence": "Readable multi-step online skincare questionnaire, not a branch appointment or medical assessment.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "value": {
+            "vi": "Công cụ tư vấn quy trình chăm sóc da trực tuyến của thương hiệu.",
+            "en": "Brand-wide online skincare-regimen consultation tool."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-beautybox",
+      "fields": [
+        {
+          "field": "services",
+          "state": "verified-agent",
+          "sourceUrl": "https://beautybox.com.vn/stores/BG012",
+          "evidence": "Official site advertises online ordering/store pickup; brand-wide information, not a promise of eligibility for every item or branch.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "value": {
+            "vi": "Thông tin đặt hàng trực tuyến và nhận tại cửa hàng; kiểm tra cửa hàng có thể chọn khi đặt hàng.",
+            "en": "Online ordering and store-pickup information; check which stores can be selected when ordering."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-coway",
+      "fields": [
+        {
+          "field": "services",
+          "state": "verified-agent",
+          "sourceUrl": "https://cowayvina.com.vn/service",
+          "evidence": "Official Coway service process describes scheduled maintenance and filter care; no repair workshop claimed at the mall.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "value": {
+            "vi": "Thông tin chung về dịch vụ chăm sóc, vệ sinh và bảo dưỡng máy lọc; xác nhận điều kiện và khu vực phục vụ với thương hiệu.",
+            "en": "Brand-wide purifier care, cleaning and maintenance information; confirm eligibility and service area with the brand."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-honeecoffee",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://honeecoffee.com/",
+          "evidence": "Official coffee product presentation names Arabica, Robusta, Peaberry, Moka and other product lines plus roasted-bean/ground-coffee categories; brand-wide product information, not a branch menu.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://honeecoffee.com/"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-kiehls",
+      "fields": [
+        {
+          "field": "services",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.kiehls.com.vn/vi_VN/customservice-services/customer-service-services.html",
+          "evidence": "Vietnam service page explicitly describes gift packaging and corporate gifting. No gift-card validity or free benefit inferred.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "value": {
+            "vi": "Thông tin chung về gói quà và quà tặng doanh nghiệp; xác nhận lựa chọn và điều kiện với chi nhánh.",
+            "en": "Brand-wide gift packaging and corporate gifting information; confirm options and conditions with the branch."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-028",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://oldnavy.gap.com/",
+          "evidence": "Official brand/source identifies this brand; branch scope only when the page explicitly identifies Đồng Khởi.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://oldnavy.gap.com/"
+        },
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://oldnavy.gap.com/",
+          "evidence": "Official product/category presentation provides a brand-wide catalogue; no branch inventory, price or fulfilment promise.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://oldnavy.gap.com/"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-005",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.keds.com/",
+          "evidence": "Official brand/source identifies this brand; branch scope only when the page explicitly identifies Đồng Khởi.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://www.keds.com/"
+        },
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.keds.com/",
+          "evidence": "Official product/category presentation provides a brand-wide catalogue; no branch inventory, price or fulfilment promise.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://www.keds.com/"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-007",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.timberland.com/en-us",
+          "evidence": "Official brand/source identifies this brand; branch scope only when the page explicitly identifies Đồng Khởi.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://www.timberland.com/en-us"
+        },
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.timberland.com/en-us",
+          "evidence": "Official product/category presentation provides a brand-wide catalogue; no branch inventory, price or fulfilment promise.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://www.timberland.com/en-us"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-018",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.locknlock.vn/",
+          "evidence": "Official brand/source identifies this brand; branch scope only when the page explicitly identifies Đồng Khởi.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://www.locknlock.vn/"
+        },
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.locknlock.vn/",
+          "evidence": "Official product/category presentation provides a brand-wide catalogue; no branch inventory, price or fulfilment promise.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://www.locknlock.vn/"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-l1-001",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://vinfastauto.com/vn_vi",
+          "evidence": "Official brand/source identifies this brand; branch scope only when the page explicitly identifies Đồng Khởi.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://vinfastauto.com/vn_vi"
+        },
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://vinfastauto.com/vn_vi",
+          "evidence": "Official product/category presentation provides a brand-wide catalogue; no branch inventory, price or fulfilment promise.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://vinfastauto.com/vn_vi"
+        },
+        {
+          "field": "services",
+          "state": "verified-agent",
+          "sourceUrl": "https://vinfastauto.com/vn_vi/dich-vu-sua-chua-oto",
+          "evidence": "Official repair-service process; source describes the national network, not the mall showroom.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "value": {
+            "vi": "Thông tin chung về sửa chữa và hỗ trợ qua mạng lưới dịch vụ VinFast; chưa xác minh showroom trong trung tâm là xưởng dịch vụ.",
+            "en": "Brand-wide repair and support through the VinFast service network; the mall showroom is not verified as a service workshop."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-x-065",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.maxandco.com/",
+          "evidence": "Official brand/source identifies this brand; branch scope only when the page explicitly identifies Đồng Khởi.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://www.maxandco.com/"
+        },
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.maxandco.com/",
+          "evidence": "Official product/category presentation provides a brand-wide catalogue; no branch inventory, price or fulfilment promise.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://www.maxandco.com/"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-021",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.shuuemura-usa.com/",
+          "evidence": "Official brand/source identifies this brand; branch scope only when the page explicitly identifies Đồng Khởi.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://www.shuuemura-usa.com/"
+        },
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.shuuemura-usa.com/",
+          "evidence": "Official product/category presentation provides a brand-wide catalogue; no branch inventory, price or fulfilment promise.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://www.shuuemura-usa.com/"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-dior",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.dior.com/en_vn/beauty",
+          "evidence": "Official brand product/category presentation, read directly. General catalogue only; branch stock, prices and availability are not asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://www.dior.com/en_vn/beauty"
+        },
+        {
+          "field": "services",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.dior.com/en_int/beauty/page/exclusive-services.html",
+          "evidence": "Official international beauty page describes online diagnostic tools; no local engraving/gift/branch-service entitlement asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "value": {
+            "vi": "Thông tin quốc tế về công cụ tư vấn chăm sóc da và nước hoa trực tuyến; dịch vụ tại Việt Nam có thể khác.",
+            "en": "International information on online skincare and fragrance diagnostic tools; services in Vietnam may differ."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-gap",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.gap.com/",
+          "evidence": "Official brand product/category presentation, read directly. General catalogue only; branch stock, prices and availability are not asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://www.gap.com/"
+        },
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.acfc.com.vn/blog/he-thong-cua-hang-gap-viet-nam.html",
+          "evidence": "Official branch locator row explicitly prints this contact; no corporate phone substituted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; xác nhận trước khi ghé.",
+            "en": "Information from the checked official branch page; confirm before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "028 3822 2408",
+            "en": "028 3822 2408"
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-gustavogano",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://gustavogano.com/",
+          "evidence": "Official brand product/category presentation, read directly. General catalogue only; branch stock, prices and availability are not asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://gustavogano.com/"
+        },
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://sites.google.com/view/gustavogano/ho-chi-minh",
+          "evidence": "Official branch locator row explicitly prints this contact; no corporate phone substituted. Authority: directly linked from official gustavogano.com/pages/he-thong-cua-hang, link68; open-04.json.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; xác nhận trước khi ghé.",
+            "en": "Information from the checked official branch page; confirm before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "028 3622 8840",
+            "en": "028 3622 8840"
+          }
+        },
+        {
+          "field": "hours",
+          "state": "verified-agent",
+          "sourceUrl": "https://sites.google.com/view/gustavogano/ho-chi-minh",
+          "evidence": "Official branch locator explicitly prints these hours; holiday variations may apply. Authority: directly linked from official gustavogano.com/pages/he-thong-cua-hang, link68; open-04.json.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; xác nhận trước khi ghé.",
+            "en": "Information from the checked official branch page; confirm before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "Thứ Hai–Thứ Sáu: 10:00–22:00; Thứ Bảy–Chủ nhật: 09:30–22:00.",
+            "en": "Monday–Friday: 10:00–22:00; Saturday–Sunday: 09:30–22:00."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-jomalone",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.jomalone.com/colognes/view-all-colognes",
+          "evidence": "Official brand product/category presentation, read directly. General catalogue only; branch stock, prices and availability are not asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://www.jomalone.com/colognes/view-all-colognes"
+        },
+        {
+          "field": "services",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.jomalone.com/stores/boutique-finder/services",
+          "evidence": "Official international boutique-service information. No booking action, duration, complimentary entitlement or Vietnamese branch availability asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "value": {
+            "vi": "Thông tin quốc tế về tư vấn lựa chọn nước hoa và mùi hương cho nhà; xác nhận dịch vụ tại chi nhánh Việt Nam.",
+            "en": "International information on fragrance and home-scent consultations; confirm services at the Vietnam branch."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-lush",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.lushvietnam.com/",
+          "evidence": "Official brand product/category presentation, read directly. General catalogue only; branch stock, prices and availability are not asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://www.lushvietnam.com/"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-mac",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.maccosmetics.com/products",
+          "evidence": "Official brand product/category presentation, read directly. General catalogue only; branch stock, prices and availability are not asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://www.maccosmetics.com/products"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-matviet",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://matviet.vn/",
+          "evidence": "Official brand product/category presentation, read directly. General catalogue only; branch stock, prices and availability are not asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://matviet.vn/"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-newbalance",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.newbalance.com/",
+          "evidence": "Official brand product/category presentation, read directly. General catalogue only; branch stock, prices and availability are not asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://www.newbalance.com/"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-scentuals",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://scentuals.vn/",
+          "evidence": "Official brand product/category presentation, read directly. General catalogue only; branch stock, prices and availability are not asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://scentuals.vn/"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-stradivarius",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.stradivarius.com/ww/women/clothing/jackets-n1943",
+          "evidence": "Official brand product/category presentation, read directly. General catalogue only; branch stock, prices and availability are not asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://www.stradivarius.com/ww/women/clothing/jackets-n1943"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-watsons",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.watsons.vn/vi/danh-m%E1%BB%A5c-s%E1%BA%A3n-ph%E1%BA%A9m/c/1",
+          "evidence": "Official brand product/category presentation, read directly. General catalogue only; branch stock, prices and availability are not asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://www.watsons.vn/vi/danh-m%E1%BB%A5c-s%E1%BA%A3n-ph%E1%BA%A9m/c/1"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-viinriicnicheperfume",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://viinriic.com/en/",
+          "evidence": "Official brand product/category presentation, read directly. General catalogue only; branch stock, prices and availability are not asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://viinriic.com/en/"
+        },
+        {
+          "field": "hours",
+          "state": "verified-agent",
+          "sourceUrl": "https://viinriic.com/en/store-locator/",
+          "evidence": "Official branch locator explicitly prints these hours; holiday variations may apply.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; xác nhận trước khi ghé.",
+            "en": "Information from the checked official branch page; confirm before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "Hằng ngày: 10:00–20:00.",
+            "en": "Daily: 10:00–20:00."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-skechers",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.skechers.com/",
+          "evidence": "Official brand product/category presentation, read directly. General catalogue only; branch stock, prices and availability are not asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://www.skechers.com/"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-aristino",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://aristino.com/blogs/ware-care-share-new/cua-hang-aristino-tai-tp-hcm",
+          "evidence": "Official branch locator row explicitly prints this contact; no corporate phone substituted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; xác nhận trước khi ghé.",
+            "en": "Information from the checked official branch page; confirm before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "0941072850",
+            "en": "0941072850"
+          }
+        },
+        {
+          "field": "hours",
+          "state": "verified-agent",
+          "sourceUrl": "https://aristino.com/blogs/ware-care-share-new/cua-hang-aristino-tai-tp-hcm",
+          "evidence": "Official branch locator explicitly prints these hours; holiday variations may apply.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; xác nhận trước khi ghé.",
+            "en": "Information from the checked official branch page; confirm before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "Theo trang showroom: 08:00–22:00.",
+            "en": "Published showroom schedule: 08:00–22:00."
+          }
+        },
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://aristino.com/blogs/ware-care-share-new/cua-hang-aristino-tai-tp-hcm",
+          "evidence": "Official brand article lists menswear categories including polo shirts, shirts, trousers, suits, jackets and accessories with an official shopping link; brand-wide.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://aristino.com/blogs/ware-care-share-new/cua-hang-aristino-tai-tp-hcm"
+        },
+        {
+          "field": "services",
+          "state": "verified-agent",
+          "sourceUrl": "https://aristino.com/blogs/tin-tuc/dich-vu-cham-soc-khach-hang-cua-aristino",
+          "evidence": "Official brand article explicitly lists shoe cleaning, alterations and member services. No universal free entitlement or precise branch availability claimed.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "value": {
+            "vi": "Thông tin chung về chăm sóc giày, chỉnh sửa trang phục và quyền lợi hội viên; xác nhận điều kiện và phạm vi tại showroom.",
+            "en": "Brand-wide shoe care, clothing alterations and membership service information; confirm conditions and showroom coverage."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-tommyhilfiger",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.acfc.com.vn/blog/he-thong-cua-hang-tommy-hilfiger.html",
+          "evidence": "Official branch locator row explicitly prints this contact; no corporate phone substituted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; xác nhận trước khi ghé.",
+            "en": "Information from the checked official branch page; confirm before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "028 3827 7447",
+            "en": "028 3827 7447"
+          }
+        },
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.acfc.com.vn/tommyhilfiger.html",
+          "evidence": "Official Vietnamese distributor product listing for Tommy Hilfiger; branch stock is not asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://www.acfc.com.vn/tommyhilfiger.html"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-lining",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://lining.com.vn/pages/he-thong-cua-hang-2",
+          "evidence": "Official Vietnam site exposes sporting footwear, apparel and accessories categories. Product browsing is brand-wide; branch inventory is not asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://lining.com.vn/pages/he-thong-cua-hang-2"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-033",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.daiso-sangyo.co.jp/",
+          "evidence": "Official brand/source identifies this brand; branch scope only when the page explicitly identifies Đồng Khởi.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang thương hiệu tại Nhật Bản; chủng loại, giá và tình trạng sản phẩm có thể khác tại Việt Nam. Xác nhận với chi nhánh.",
+            "en": "Japanese brand site; products, prices and availability may differ in Vietnam. Confirm with the branch."
+          },
+          "url": "https://www.daiso-sangyo.co.jp/"
+        },
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.daiso-sangyo.co.jp/",
+          "evidence": "Official product/category presentation provides a brand-wide catalogue; no branch inventory, price or fulfilment promise.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang thương hiệu tại Nhật Bản; chủng loại, giá và tình trạng sản phẩm có thể khác tại Việt Nam. Xác nhận với chi nhánh.",
+            "en": "Japanese brand site; products, prices and availability may differ in Vietnam. Confirm with the branch."
+          },
+          "url": "https://www.daiso-sangyo.co.jp/"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-pnj",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.pnj.com.vn/trang-suc/",
+          "evidence": "Official PNJ jewellery product listing; no branch stock or prices asserted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://www.pnj.com.vn/trang-suc/"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-longines",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.longines.com/store/id/watch-gallery-vincom-dong-khoi-ho-chi-minh-city-1734961",
+          "evidence": "Official branch locator row explicitly prints this contact; no corporate phone substituted. Longines identifies the retailer as Watch Gallery Vincom Dong Khoi; no separate standalone boutique or floor claim.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; xác nhận trước khi ghé.",
+            "en": "Information from the checked official branch page; confirm before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "028 2211 5823",
+            "en": "028 2211 5823"
+          }
+        },
+        {
+          "field": "hours",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.longines.com/store/id/watch-gallery-vincom-dong-khoi-ho-chi-minh-city-1734961",
+          "evidence": "Official branch locator explicitly prints these hours; holiday variations may apply. Longines identifies the retailer as Watch Gallery Vincom Dong Khoi; no separate standalone boutique or floor claim.",
+          "checkedAt": "2026-10-20",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; xác nhận trước khi ghé.",
+            "en": "Information from the checked official branch page; confirm before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "Thứ Hai–Thứ Sáu: 10:00–22:00; Thứ Bảy–Chủ nhật: 09:30–22:00.",
+            "en": "Monday–Friday: 10:00–22:00; Saturday–Sunday: 09:30–22:00."
+          }
+        },
+        {
+          "field": "services",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.longines.com/customer-service",
+          "evidence": "Official service page explains full service and restoration; no service-centre status claimed for this retailer.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "value": {
+            "vi": "Thông tin chung về bảo dưỡng toàn bộ và phục hồi đồng hồ; xác nhận nơi tiếp nhận và điều kiện dịch vụ.",
+            "en": "Brand-wide full watch servicing and restoration information; confirm service location and conditions."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-esteelauder",
+      "fields": [
+        {
+          "field": "services",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.esteelauder.com/virtual-beauty-services",
+          "evidence": "Official international page describes foundation-matching and virtual try-on tools; no local consultation, pricing or benefit promise.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "value": {
+            "vi": "Thông tin quốc tế về công cụ chọn màu nền và thử son trực tuyến; dịch vụ tại Việt Nam có thể khác.",
+            "en": "International information on online foundation matching and virtual lipstick try-on; services in Vietnam may differ."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-pandora",
+      "fields": [
+        {
+          "field": "services",
+          "state": "verified-agent",
+          "sourceUrl": "https://pandora.norbreeze.vn/pages/dich-vu-ve-sinh-lam-sach-trang-suc-pandora",
+          "evidence": "Official Vietnam policy describes jewellery cleaning through stores, eligibility and weekday schedule. No unverified branch capacity or price promoted.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "value": {
+            "vi": "Thông tin chung về vệ sinh trang sức Pandora; xác nhận điều kiện hội viên và lịch tiếp nhận với cửa hàng.",
+            "en": "Brand-wide Pandora jewellery-cleaning information; confirm membership conditions and intake timing with the store."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "records": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-tianlong",
+      "fields": [
+        {
+          "field": "services",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://tianlong.vn/lien-he.htm",
+          "evidence": "Official contact-page embedded menu lists tomato hotpot, skirt steak, jade shrimp and cheese tofu. No mala claim retained.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "uncertainty": {
+            "vi": "Thông tin thương hiệu; xác nhận khả năng phục vụ, giá và thông tin hiện tại với chi nhánh.",
+            "en": "Brand-wide information; confirm availability, prices and current details with the branch."
+          },
+          "value": {
+            "vi": "Lẩu cà chua, diềm thăn, tôm bạch ngọc và đậu hũ phô mai theo thực đơn Tian Long.",
+            "en": "Tomato hotpot, skirt steak, jade shrimp and cheese tofu from Tian Long’s menu."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-somthai",
+      "fields": [
+        {
+          "field": "services",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://somtumthai.com.vn/en/",
+          "evidence": "Official current Som Tum Thai introduction discusses papaya salads and four regional Thai cooking styles; brand-wide summary only.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "value": {
+            "vi": "Các món Thái theo phong cách vùng miền, gồm gỏi đu đủ được giới thiệu trên trang thương hiệu.",
+            "en": "Regional Thai cooking, including the papaya salads described on the brand page."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-bastahiro",
+      "fields": [
+        {
+          "field": "services",
+          "state": "newly-sourced-proposal",
+          "sourceUrl": "https://bastahiro.com.vn/en/",
+          "evidence": "Official current Basta Hiro introduction explicitly describes Italian cuisine with Japanese ingredients and dishes prepared in traditional/modern styles; brand-wide concept only.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "provisional",
+          "value": {
+            "vi": "Các món kết hợp ẩm thực Ý với nguyên liệu Nhật Bản, theo phong cách truyền thống và hiện đại của thương hiệu.",
+            "en": "Italian dishes combined with Japanese ingredients in the brand’s traditional and modern styles."
+          }
+        }
+      ]
+    }
+  ]
+}

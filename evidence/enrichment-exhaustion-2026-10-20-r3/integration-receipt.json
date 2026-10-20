@@ -1,0 +1,167 @@
+{
+  "revision": "r3-central-import",
+  "originalQueuedKeys": 1315,
+  "reviewedKeys": 1315,
+  "baselineAcceptedFields": 658,
+  "retainedExactBaselineFields": 642,
+  "explicitBaselineHolds": 16,
+  "acceptedFields": 1457,
+  "acceptedDestinations": 350,
+  "newAcceptedFields": 815,
+  "byMall": {
+    "saigon-centre": 794,
+    "vincom-dong-khoi": 663
+  },
+  "byField": {
+    "website": 339,
+    "phone": 266,
+    "hours": 182,
+    "catalog": 220,
+    "services": 325,
+    "menu": 64,
+    "cuisine": 27,
+    "booking": 32,
+    "programme": 2
+  },
+  "importSource": "evidence/enrichment-exhaustion-2026-10-20-r3/content-audit/expected-merged-acceptance.json",
+  "auditSummarySha256": "0a9277fe62f9e2ad371a0b05ee9c5fad943094d0fd53b3f6fe4fad5e2dbb4b22",
+  "baselineSourceSha256": "25ac0766a17bb0f05af40967136f43c7bab737201f7b8ddbb0fe80c11832de94",
+  "frozenAssetAndDirectoryFiles": [
+    {
+      "path": "assets/saigon-centre/maps/B1.png",
+      "sha256": "eeda80dda33eb7ec301881b86603b04b0fd03a16750b14dee25c7a1d99ca4afe"
+    },
+    {
+      "path": "assets/saigon-centre/maps/B2.png",
+      "sha256": "92e959288b957497e3859fb2db80f0657ecb590fd2268c4948a57bdd18ea8497"
+    },
+    {
+      "path": "assets/saigon-centre/maps/L1.png",
+      "sha256": "d7c4697eb9399e8d768586b01139295cf90c3607ba44e690a031c0aaf5eba89b"
+    },
+    {
+      "path": "assets/saigon-centre/maps/L2.png",
+      "sha256": "4749dd738ea148407c334396183ef917711f4ff10fbfaa796a7ff6f31ede4fd5"
+    },
+    {
+      "path": "assets/saigon-centre/maps/L3.png",
+      "sha256": "905e5de4c90debbabddd8a7fadf9e47b5084bf6b01703ba5450b9e8603763ab8"
+    },
+    {
+      "path": "assets/saigon-centre/maps/L4.png",
+      "sha256": "e97069f721f384d6e37bc7896d8e95344d1f5cc153e17eb9d3c844a11c046f60"
+    },
+    {
+      "path": "assets/saigon-centre/maps/L5.png",
+      "sha256": "4abefc8f9c34f1fa3c0f9076e5b4b9c5689505d783d6a843a37078f2a6b712c5"
+    },
+    {
+      "path": "assets/saigon-centre/maps/L6.png",
+      "sha256": "94ecc7542a08d96cdf14fc43efcbd6c26ff753c59be135867d4092c33187e4f6"
+    },
+    {
+      "path": "assets/saigon-centre/models/exterior.glb",
+      "sha256": "f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050"
+    },
+    {
+      "path": "assets/saigon-centre/previews/exterior.webp",
+      "sha256": "72090fe1fc92a5ca318e5ab4915efecc98e6afc95d5f70f86d6b917f4e2a0179"
+    },
+    {
+      "path": "assets/shared/fonts/BeVietnamPro-OFL.txt",
+      "sha256": "6b7f8f73609a25ea78c891e34cf37b06f8a676b7ea986e941e43b009110f2a85"
+    },
+    {
+      "path": "assets/shared/fonts/BeVietnamPro-Regular.ttf",
+      "sha256": "4ad53eac036092be79a34b5fa0aa32d0ebb3c7e5df4bc058764f5614fbf148a0"
+    },
+    {
+      "path": "assets/shared/fonts/Manrope-OFL.txt",
+      "sha256": "d6a309fcfb963d329a93baf9df66fa5f3c23a4be2b5f67edf24d6cafecde12ac"
+    },
+    {
+      "path": "assets/shared/fonts/Manrope.ttf",
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/maps/B1.webp",
+      "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/maps/B2.webp",
+      "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/maps/B3.webp",
+      "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/maps/L1.webp",
+      "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/maps/L2.webp",
+      "sha256": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/maps/L3.webp",
+      "sha256": "629d9860433bacc381daede046513190e2d6877bf88f99907eafb3f0794bbc70"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/maps/M.webp",
+      "sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/models/exterior.glb",
+      "sha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/previews/exterior.webp",
+      "sha256": "7584abb6e0e0ed7d9867f614ecd957ce884711961d81a1504b30ba4815915473"
+    },
+    {
+      "path": "data/malls/saigon-centre/approved-regions.json",
+      "sha256": "0f59b506edbbc4ab634ceda632449bab30b08944a9c14296a04f9938fcf8a500"
+    },
+    {
+      "path": "data/malls/saigon-centre/asset-manifest.json",
+      "sha256": "e582a5558d1285c3a6b93f0bb03cf105bd4321a0841f3dcd0184fb760bbd35cf"
+    },
+    {
+      "path": "data/malls/saigon-centre/directory.json",
+      "sha256": "ffade29ada11d158619a2d58758611b210423bd609b3a4bf4f82b1af88fd5b2c"
+    },
+    {
+      "path": "data/malls/saigon-centre/floor-geometry.json",
+      "sha256": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807"
+    },
+    {
+      "path": "data/malls/saigon-centre/overview-slabs.json",
+      "sha256": "7029a371e0f5ade737502350815432fc103448a2a38fad682ae42bc4bcac535e"
+    },
+    {
+      "path": "data/malls/vincom-dong-khoi/approved-regions.json",
+      "sha256": "beb7ac03236e0abfc5721aae2015b8a1e985a2d9235bb5b8edb62c216ccfd8dc"
+    },
+    {
+      "path": "data/malls/vincom-dong-khoi/asset-manifest.json",
+      "sha256": "72e205ab96780b6488f1c344e7bb7cffb844197f97e7e47405436ea96837b8cf"
+    },
+    {
+      "path": "data/malls/vincom-dong-khoi/directory.json",
+      "sha256": "b38b55ab32108efeef2a3cb751f2142fc04c61ba94c4825d50080786ad810c14"
+    },
+    {
+      "path": "data/malls/vincom-dong-khoi/floor-geometry.json",
+      "sha256": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e"
+    },
+    {
+      "path": "data/malls/vincom-dong-khoi/overview-slabs.json",
+      "sha256": "b438df35b412a3ac489041dbd9d378b0596a3532da1c759a0ae3aa2c8b7e2470"
+    }
+  ],
+  "limits": "Unpublished isolated import; source-checked facts only. Exact holds remain excluded, no roster/description/location/asset changes.",
+  "reviewedPacketSha256": "355497aaf7f0d243646724eacc9ca0ca47de87a81455e3e4d254cb5f33adaa47",
+  "importSha256": "1a44f9f9b29e42341a9ab77b055a1a2cdfd4269d2dacf0396c87fc1f1b974297",
+  "lineEndingPolicy": "Reviewed evidence bytes preserved; imported source uses LF to match its Git blob. JSON objects are identical."
+}

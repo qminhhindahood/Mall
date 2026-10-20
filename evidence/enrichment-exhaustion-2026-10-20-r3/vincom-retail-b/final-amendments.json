@@ -1,0 +1,150 @@
+{
+  "reason": "Explicit consolidated replacements to previously submitted chunks; preserves original chunk bytes. Mango phone remains withdrawn by chunk-01-amendment.json. Product action targets and international caveats corrected after independent review.",
+  "replace": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b1-008",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://botanifique.com/",
+          "evidence": "Official brand/source identifies this brand; branch scope only when the page explicitly identifies Đồng Khởi.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://botanifique.com/"
+        },
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://botanifique.com/",
+          "evidence": "Official product/category presentation provides a brand-wide catalogue; no branch inventory, price or fulfilment promise.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Trang quốc tế của thương hiệu; sản phẩm, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh trước khi ghé.",
+            "en": "International brand site; products, prices and services may differ in Vietnam. Confirm with the branch before visiting."
+          },
+          "url": "https://botanifique.com/"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-aristino",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://aristino.com/collections/ao-so-mi",
+          "evidence": "Actual official product collection: Aristino shirts with 553 products and filters; Li-Ning running shoes with named product cards (also product-service-06.json). Brand-wide; no branch stock claim.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://aristino.com/collections/ao-so-mi"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-lining",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://lining.com.vn/collections/giay-chay-bo-nam-2",
+          "evidence": "Actual official product collection: Aristino shirts with 553 products and filters; Li-Ning running shoes with named product cards (also product-service-06.json). Brand-wide; no branch stock claim.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; xác nhận sản phẩm, giá và tình trạng phục vụ với chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://lining.com.vn/collections/giay-chay-bo-nam-2"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-033",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.daiso-sangyo.co.jp/",
+          "evidence": "Official brand/source identifies this brand; branch scope only when the page explicitly identifies Đồng Khởi.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Nguồn sản phẩm/dịch vụ quốc tế; danh mục, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh.",
+            "en": "International product/service source; range, prices and services may differ in Vietnam. Confirm with the branch."
+          },
+          "url": "https://www.daiso-sangyo.co.jp/"
+        },
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.daiso-sangyo.co.jp/item",
+          "evidence": "Official new-product overview names seasonal decoration, sealing wax, yarn, drain brushes and craft clips (lines53–68). Japanese market; Vietnam range not established.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Nguồn sản phẩm/dịch vụ quốc tế; danh mục, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh.",
+            "en": "International product/service source; range, prices and services may differ in Vietnam. Confirm with the branch."
+          },
+          "url": "https://www.daiso-sangyo.co.jp/item"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-esteelauder",
+      "fields": [
+        {
+          "field": "services",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.esteelauder.com/virtual-beauty-services",
+          "evidence": "Official international page describes foundation-matching and virtual try-on tools; no local consultation, pricing or benefit promise.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "uncertainty": {
+            "vi": "Nguồn sản phẩm/dịch vụ quốc tế; danh mục, giá và dịch vụ có thể khác tại Việt Nam. Xác nhận với chi nhánh.",
+            "en": "International product/service source; range, prices and services may differ in Vietnam. Confirm with the branch."
+          },
+          "value": {
+            "vi": "Thông tin quốc tế về công cụ chọn màu nền và thử son trực tuyến; dịch vụ tại Việt Nam có thể khác.",
+            "en": "International information on online foundation matching and virtual lipstick try-on; services in Vietnam may differ."
+          }
+        }
+      ]
+    }
+  ],
+  "withdraw": [
+    {
+      "destinationId": "vincom-candidate-vd-b1-024",
+      "field": "phone",
+      "reason": "Conflicting official phones; source brand02838230559 versus distributor02873014299. See open-01.json/details-03.json."
+    }
+  ]
+}

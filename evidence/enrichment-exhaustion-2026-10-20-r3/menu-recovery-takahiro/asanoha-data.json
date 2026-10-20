@@ -1,0 +1,503 @@
+{
+  "layout": "default",
+  "data": [
+    {
+      "homeData": {
+        "id": 1,
+        "name": "home",
+        "slugVi": "home",
+        "slugEn": "home",
+        "slugJa": "home",
+        "commonContent": {
+          "banner": {
+            "bannerType": 1,
+            "desktop": {
+              "image": {
+                "id": 142,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/asanoha-prod/image/2025/4/10/3/eJH1744256222688.jpeg"
+              },
+              "video": {
+                "id": 70,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/4Cj1596192612700.mp4",
+                "masterId": 9
+              },
+              "slider": {
+                "images": []
+              }
+            },
+            "mobile": {
+              "image": {
+                "id": 143,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/asanoha-prod/image/2025/4/10/3/q7X1744256230014.jpeg"
+              },
+              "video": {
+                "id": 69,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/htn1596192620561.mp4",
+                "masterId": 8
+              },
+              "slider": {
+                "images": []
+              }
+            }
+          },
+          "widgets": {
+            "reservation": true,
+            "social": true,
+            "location": true,
+            "promotion": {
+              "enable": true,
+              "uuid": "ad5d1f8c-63b7-440a-b23138d4-f25c48600a08"
+            },
+            "story": true
+          }
+        },
+        "multilangContent": {
+          "en": {
+            "id": 1,
+            "content": "{\"story\":\"<p>With the criterion of bringing delicious hot pot from raw materials, complete health and beauty from the inside, Asanoha is a modern Japanese hot pot model that helps to enhance health, support resistance, healthy people, beautiful skin and keep in shape.</p><p>&nbsp;</p><p>The secret lies in the hot pot and premium mushrooms, using the Mizutaki method of refining 8 special broths and the source of fresh mushrooms grown at Asanoha's Sachi Farm</p>\"}"
+          }
+        },
+        "createAt": 1591686846000,
+        "updateAt": 1744256236000
+      }
+    }
+  ],
+  "fetch": {},
+  "error": null,
+  "state": {
+    "isMobileAgent": false,
+    "isMobileOrTabletAgent": false,
+    "isDisableLogoHeading": false,
+    "heading": null,
+    "footer": {
+      "id": 1,
+      "status": 1,
+      "logo": {
+        "id": 488,
+        "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-prod/image/2020/7/28/12/VCz1595939517686.svg"
+      },
+      "moit": {
+        "url": "#",
+        "icon": {
+          "id": 58,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-prod/file/2020/7/28/12/DnT1595939596727.png"
+        },
+        "isActive": 0
+      },
+      "multilangContent": {
+        "en": {
+          "id": 1,
+          "content1": "TAKAHIRO CORPORATION",
+          "content2": "Business Registration Certificate: 0315827587",
+          "content3": "Address: 180 Pasteur, Sai Gon Ward, HCMC, Vietnam",
+          "content4": "Hotline: +8428-3933-9999  |  Contact: asanoha@asanoha.com.vn"
+        }
+      },
+      "footerNavigations": [
+        {
+          "id": 3,
+          "status": 1,
+          "order": 0,
+          "multilangContent": {
+            "en": {
+              "id": 3,
+              "name": "Career",
+              "linkType": 1,
+              "link": "career"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "status": 1,
+          "order": 1,
+          "multilangContent": {
+            "en": {
+              "id": 5,
+              "name": "Privacy",
+              "linkType": 1,
+              "link": null
+            }
+          }
+        },
+        {
+          "id": 4,
+          "status": 1,
+          "order": 2,
+          "multilangContent": {
+            "en": {
+              "id": 4,
+              "name": "Terms of Service",
+              "linkType": 1,
+              "link": null
+            }
+          }
+        },
+        {
+          "id": 6,
+          "status": 1,
+          "order": 3,
+          "multilangContent": {
+            "en": {
+              "id": 6,
+              "name": "Contact",
+              "linkType": 1,
+              "link": null
+            }
+          }
+        }
+      ]
+    },
+    "widgets": {
+      "story": {
+        "id": 1,
+        "name": "story",
+        "commonContent": {
+          "image": {
+            "id": 499,
+            "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-prod/image/2020/7/31/9/aaj1596188663806.svg"
+          }
+        },
+        "multilangContent": {
+          "en": {
+            "id": 1,
+            "content": "{\"text\":\"<p>Easy to find a salad anywhere, but &nbsp;you may know that Thai's salad (Papaya Salads) is on the top 50 salad worth trying in the world. Thai Cusine has its own way with their own recipe and especially the way to combine many sophisticated and complex but subtle spices for highly-seasoned, tasty, balanced, unique flavor that is always loved around the world, specially authentic Thai from spice to. Thai cusine has 4 traditional styles from 4 regions of Thai: North, Eastern North, the Midland and South creating a colorful Thai cuisine from the tastes to the flavors.</p><p>&nbsp;</p><p>In Som ตำ Thai, food is cooked by Thai Head Chef has a wealth of experience, hereditary recipient, the original marinade imported from Thai and the sources of fresh ingredients in local all of which &nbsp;have created authentic Thai flavor.</p>\"}"
+          }
+        },
+        "createAt": 1591776524000,
+        "updateAt": 1652691499000
+      },
+      "reservation": {
+        "id": 3,
+        "name": "reservation",
+        "commonContent": {
+          "selectedLocations": [
+            4,
+            5
+          ],
+          "name": "reservation",
+          "content": [
+            {
+              "uuid": "b68733ec-9f74-49dd-a71db075-93ebf13ac54f",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Đồng Khởi",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Dong Khoi",
+                  "active": true,
+                  "link": "http://hokkaidosushi.com.vn/"
+                },
+                "ja": {
+                  "name": "Dong Khoi",
+                  "active": true,
+                  "link": "http://hokkaidosushi.com.vn/"
+                }
+              },
+              "name": "Tiếng việt"
+            },
+            {
+              "uuid": "44086038-39fa-427b-8dcb8552-06ed6f776060",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Pasteur",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Pasteur",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Pasteur",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                }
+              }
+            },
+            {
+              "uuid": "63db697a-d7ed-4758-aa963c12-703cda0ef831",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Nguyễn Đình Chiểu",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": " Nguyen Dinh Chieu",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Nguyen Dinh Chieu",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                }
+              }
+            },
+            {
+              "uuid": "876c457b-151a-4df6-ad4c6cd1-be139dd33fcb",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Đông Du",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Dong Du",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Dong Du",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                }
+              }
+            },
+            {
+              "uuid": "ea981997-fdb0-4bc9-88c003dd-d4b9fada0af5",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Nguyễn Trãi",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Nguyen Trai",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Nguyen Trai",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                }
+              }
+            },
+            {
+              "uuid": "4c952d94-432d-4064-af91b2a1-df182dcd1389",
+              "link": "http://hokkaidosushi.com.vn/",
+              "active": true,
+              "multilangContent": {
+                "vi": {
+                  "name": "Phan Xích Long",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "en": {
+                  "name": "Phan Xich Long",
+                  "link": "http://hokkaidosushi.com.vn/",
+                  "active": true
+                },
+                "ja": {
+                  "name": "Phan Xich Long",
+                  "link": "http://hokkaidosushi.com.vn/"
+                }
+              }
+            }
+          ]
+        },
+        "multilangContent": {
+          "en": {
+            "id": 3,
+            "content": "{}"
+          }
+        },
+        "createAt": 1591778751000,
+        "updateAt": 1721148403000
+      },
+      "social": {
+        "id": 4,
+        "name": "social",
+        "commonContent": {
+          "name": "social",
+          "content": [
+            {
+              "uuid": "73cbb6a2-b08b-4463-a8e77fc1-3781b45cd885",
+              "icon": {
+                "id": 11,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/asanoha-prod/file/2024/01/22/03/ev81705894216436.svg"
+              },
+              "title": "Instagram",
+              "link": "https://www.instagram.com/asanohavn/",
+              "active": true
+            },
+            {
+              "uuid": "0e41cd20-c807-4f4d-aa8b2c9a-1d50f99e25e5",
+              "icon": {
+                "id": 12,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/asanoha-prod/file/2024/01/22/03/Yh61705894220011.svg"
+              },
+              "title": "Facebook",
+              "link": "https://www.facebook.com/asanohavn",
+              "active": true
+            },
+            {
+              "uuid": "24124e6f-935b-4978-a5cda2a1-e6537c244f36",
+              "icon": {
+                "id": 13,
+                "url": "https://5002121-s3user.s3.cloudstorage.com.vn/asanoha-prod/file/2024/01/22/03/WQK1705894223519.svg"
+              },
+              "title": "Tiktok",
+              "link": "https://www.tiktok.com/@asanohahotpot",
+              "active": true
+            }
+          ]
+        },
+        "multilangContent": {
+          "en": {
+            "id": 4,
+            "content": "{}"
+          }
+        },
+        "createAt": 1591778757000,
+        "updateAt": 1705894225000
+      },
+      "location": {
+        "id": 5,
+        "name": "location",
+        "commonContent": {
+          "selectedLocations": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            7,
+            9,
+            19
+          ]
+        },
+        "multilangContent": {
+          "en": {
+            "id": 5,
+            "content": "{}"
+          }
+        },
+        "createAt": 1591778771000,
+        "updateAt": 1665396617000
+      }
+    },
+    "banner": {
+      "bannerType": 1,
+      "desktop": {
+        "image": {
+          "id": 142,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/asanoha-prod/image/2025/4/10/3/eJH1744256222688.jpeg"
+        },
+        "video": {
+          "id": 70,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/4Cj1596192612700.mp4",
+          "masterId": 9
+        },
+        "slider": {
+          "images": []
+        }
+      },
+      "mobile": {
+        "image": {
+          "id": 143,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/asanoha-prod/image/2025/4/10/3/q7X1744256230014.jpeg"
+        },
+        "video": {
+          "id": 69,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/hokkaido-sachi-stg/file/2020/7/31/10/htn1596192620561.mp4",
+          "masterId": 8
+        },
+        "slider": {
+          "images": []
+        }
+      }
+    },
+    "areasList": [
+      {
+        "id": 3,
+        "name": null,
+        "data": {
+          "multilangContent": {
+            "vi": {
+              "name": "Hồ Chí Minh"
+            },
+            "en": {
+              "name": "Ho Chi Minh"
+            },
+            "ja": {
+              "name": "Ho Chi Minh"
+            }
+          }
+        }
+      }
+    ],
+    "locationsList": [
+      {
+        "id": 4,
+        "areaId": 3,
+        "image": {
+          "id": 81,
+          "url": "https://5002121-s3user.s3.cloudstorage.com.vn/asanoha-prod/image/2024/1/22/3/bZk1705894095439.jpeg"
+        },
+        "linkToShare": "https://maps.app.goo.gl/CfJcaGXGFJNvs1cB7",
+        "embedMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.497055224666!2d106.7009212!3d10.773190899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fb527d932f1%3A0x51fca40ae11acac4!2sAsanoha%20-%20Modern%20Japanese%20Hotpot!5e0!3m2!1svi!2s!4v1705549326780!5m2!1svi!2s",
+        "storeCode": null,
+        "offDays": [
+          {
+            "id": "mlbid92dhozuz",
+            "name": "Tết",
+            "allDay": true,
+            "startDate": "16-02-2026",
+            "startTime": "00:00",
+            "endDate": "18-02-2026",
+            "endTime": "23:59"
+          }
+        ],
+        "order": 0,
+        "multilangContent": {
+          "en": {
+            "id": 4,
+            "name": "Saigon Centre",
+            "address": "Level 5 (L5-09), Saigon Centre, 67 Le Loi Street, Sai Gon Ward, HCMC",
+            "openAt": "10:30",
+            "closeAt": "22:00",
+            "lastOrder": "21:30",
+            "phone1": "(028) 3535 6866",
+            "phone2": null
+          }
+        },
+        "createAt": 1705546977000,
+        "updateAt": 1770420020000
+      }
+    ],
+    "currentDomain": "asanoha.com.vn",
+    "currentPath": "/en/",
+    "mutations": {},
+    "getters": {},
+    "i18n": {
+      "routeParams": {}
+    }
+  },
+  "serverRendered": true,
+  "routePath": "/en/",
+  "config": {
+    "_app": {
+      "basePath": "/",
+      "assetsPath": "/_nuxt/",
+      "cdnURL": null
+    }
+  }
+}

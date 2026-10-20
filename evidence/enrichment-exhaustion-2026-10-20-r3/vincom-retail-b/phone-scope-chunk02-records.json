@@ -1,0 +1,77 @@
+{
+  "revision": "scoped-general-phone-fallback-02",
+  "records": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-mac",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.maccosmetics.com/products",
+          "evidence": "Actual official saved contact body turn895view3 L500/547; also final-research03 turn780view6 L525/572 prints1-800-588-0070. General foreign-market website support; no Vietnam branch-direct claim.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "18005880070",
+            "en": "18005880070"
+          },
+          "uncertainty": {
+            "vi": "MAC, số hỗ trợ website thị trường Hoa Kỳ theo định dạng đã công bố. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối từ Việt Nam hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "MAC United States website support in its published domestic format. Not a verified direct Dong Khoi branch line; connectivity from Vietnam and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b2-005",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.keds.com/",
+          "evidence": "Actual official saved contact body turn493view5 L91/102 prints1-800-680-0966 besideContactUs/FAQs. General foreign-market website support; no Vietnam branch-direct claim.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "18006800966",
+            "en": "18006800966"
+          },
+          "uncertainty": {
+            "vi": "Keds, số chăm sóc khách hàng website thị trường Hoa Kỳ theo định dạng đã công bố. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối từ Việt Nam hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "Keds United States website customer care in its published domestic format. Not a verified direct Dong Khoi branch line; connectivity from Vietnam and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-jomalone",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.jomalone.com/stores/boutique-finder/services",
+          "evidence": "Actual official saved contact body turn670view2 L215 Customer Service:(866)3054706; source titleUK while numericrouting unconfirmed; no country prefix added. General foreign-market website support; no Vietnam branch-direct claim.",
+          "checkedAt": "2026-10-20",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "candidate-proposal",
+          "value": {
+            "vi": "8663054706",
+            "en": "8663054706"
+          },
+          "uncertainty": {
+            "vi": "Jo Malone, số chăm sóc khách hàng công bố trên website quốc tế; chưa xác minh định tuyến quốc gia. Không phải số trực tiếp đã xác minh của chi nhánh Đồng Khởi; chưa thử kết nối từ Việt Nam hoặc xác nhận khả năng hỗ trợ tại trung tâm.",
+            "en": "Jo Malone customer service published on the international website; country routing unconfirmed. Not a verified direct Dong Khoi branch line; connectivity from Vietnam and ability to assist with this mall have not been tested."
+          }
+        }
+      ]
+    }
+  ]
+}

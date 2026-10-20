@@ -1,0 +1,256 @@
+{
+  "revision": "tiny-final-contact-catalogue-2026-10-20",
+  "records": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-024",
+      "field": "phone",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "reason": "Official Beard Papa contact/footer directly links DAY TO LIFE corporate profile; rendered profile labels 06-6361-7000 as representative TEL of Japan head office. Fax excluded.",
+      "sources": [
+        {
+          "sourceUrl": "https://www.daytolife.co.jp/company/profile/",
+          "evidenceFile": "vincom-dining/tiny-contact-browser.json",
+          "sourceIndex": 1,
+          "status": 200,
+          "checkedAt": "2026-10-20T01:24:04.054Z"
+        }
+      ],
+      "searches": [
+        {
+          "url": "https://www.daytolife.co.jp/company/profile/",
+          "purpose": "Inspect exact official contact/corporate page and rendered body for published phone",
+          "result": "Actual rendered official body saved; no forms submitted"
+        }
+      ],
+      "priorAuditFile": "vincom-dining/tiny-final-prior-audit.json",
+      "remainingAction": "Independent content audit of this immutable amendment",
+      "proposedField": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.daytolife.co.jp/company/profile/",
+        "evidence": "Official Beard Papa contact/footer directly links DAY TO LIFE corporate profile; rendered profile labels 06-6361-7000 as representative TEL of Japan head office. Fax excluded.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "06-6361-7000",
+          "en": "06-6361-7000"
+        },
+        "uncertainty": {
+          "vi": "Văn phòng công ty mẹ DAY TO LIFE tại Osaka, Nhật Bản, được website Beard Papa liên kết; không phải số chi nhánh Việt Nam hay đường dây đặt hàng. Chưa thử gọi từ Việt Nam.",
+          "en": "DAY TO LIFE parent-company head office in Osaka, Japan, linked by Beard Papa’s official site; not a Vietnam branch or customer-order line. Calling from Vietnam has not been tested."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-yamazaki",
+      "field": "phone",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "reason": "Official Yamazaki Japan product-enquiry page explicitly publishes customer consultation free-dial 0120-811-114; rendered browser and reader agree.",
+      "sources": [
+        {
+          "sourceUrl": "https://www.yamazakipan.co.jp/otoiawase/index.html",
+          "evidenceFile": "vincom-dining/tiny-contact-browser.json",
+          "sourceIndex": 6,
+          "status": 200,
+          "checkedAt": "2026-10-20T01:24:24.159Z"
+        }
+      ],
+      "searches": [
+        {
+          "url": "https://www.yamazakipan.co.jp/otoiawase/index.html",
+          "purpose": "Inspect exact official contact/corporate page and rendered body for published phone",
+          "result": "Actual rendered official body saved; no forms submitted"
+        }
+      ],
+      "priorAuditFile": "vincom-dining/tiny-final-prior-audit.json",
+      "remainingAction": "Independent content audit of this immutable amendment",
+      "proposedField": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.yamazakipan.co.jp/otoiawase/index.html",
+        "evidence": "Official Yamazaki Japan product-enquiry page explicitly publishes customer consultation free-dial 0120-811-114; rendered browser and reader agree.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "0120-811-114",
+          "en": "0120-811-114"
+        },
+        "uncertainty": {
+          "vi": "Số miễn phí tư vấn sản phẩm của Yamazaki Baking tại Nhật Bản; không phải tiệm tại Vincom. Chưa xác minh khả năng gọi số miễn phí nội địa Nhật từ Việt Nam.",
+          "en": "Yamazaki Baking Japan customer consultation toll-free number for product enquiries; not the Vincom bakery. Domestic Japanese toll-free access from Vietnam is not verified."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-l1-015",
+      "field": "phone",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "reason": "Official Clinique.com rendered US site footer places 1-800-419-4041 under Need Help alongside customer services; source reader explicitly identifies market us/Country US.",
+      "sources": [
+        {
+          "sourceUrl": "https://www.clinique.com/",
+          "evidenceFile": "vincom-dining/tiny-contact-browser.json",
+          "sourceIndex": 7,
+          "status": 200,
+          "checkedAt": "2026-10-20T01:24:28.046Z"
+        }
+      ],
+      "searches": [
+        {
+          "url": "https://www.clinique.com/",
+          "purpose": "Inspect exact official contact/corporate page and rendered body for published phone",
+          "result": "Actual rendered official body saved; no forms submitted"
+        }
+      ],
+      "priorAuditFile": "vincom-dining/tiny-final-prior-audit.json",
+      "remainingAction": "Independent content audit of this immutable amendment",
+      "proposedField": {
+        "field": "phone",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.clinique.com/",
+        "evidence": "Official Clinique.com rendered US site footer places 1-800-419-4041 under Need Help alongside customer services; source reader explicitly identifies market us/Country US.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "value": {
+          "vi": "1-800-419-4041",
+          "en": "1-800-419-4041"
+        },
+        "uncertainty": {
+          "vi": "Hỗ trợ khách hàng trực tuyến Clinique thị trường Mỹ, công bố trong mục Need Help; không phải quầy tại Vincom. Chưa xác minh gọi miễn phí từ Việt Nam.",
+          "en": "Clinique US online customer support, as published under Need Help on the US-market official site; not the Vincom counter. Toll-free calling from Vietnam is not verified."
+        }
+      }
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-candidate-vd-b3-028",
+      "field": "phone",
+      "outcome": "hold",
+      "checkedAt": "2026-10-20",
+      "reason": "SeoulGarden Singapore official Contact Us page renders an enquiry form with optional mobile-number input for the sender, but no published destination telephone or tel link. No phone inferred from form fields; earlier Vietnam branch source gap remains.",
+      "sources": [
+        {
+          "sourceUrl": "https://www.seoulgarden.com.sg/contact",
+          "evidenceFile": "vincom-dining/tiny-contact-browser.json",
+          "sourceIndex": 2,
+          "status": 200,
+          "checkedAt": "2026-10-20T01:24:08.738Z"
+        }
+      ],
+      "searches": [
+        {
+          "url": "https://www.seoulgarden.com.sg/contact",
+          "purpose": "Inspect exact official contact/corporate page and rendered body for published phone",
+          "result": "Actual rendered official body saved; no forms submitted"
+        }
+      ],
+      "priorAuditFile": "vincom-dining/tiny-final-prior-audit.json",
+      "remainingAction": "Retain precise hold; resolve stated source gap or discrepancy before publishing a phone"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-touslesjours",
+      "field": "phone",
+      "outcome": "hold",
+      "checkedAt": "2026-10-20",
+      "reason": "TLJ US official Contact Us page renders enquiry form and Buena Park corporate postal address, but no destination phone or tel link. Order enquiries direct visitors to their local branch; no arbitrary foreign outlet substituted.",
+      "sources": [
+        {
+          "sourceUrl": "https://tljus.com/contact",
+          "evidenceFile": "vincom-dining/tiny-contact-browser.json",
+          "sourceIndex": 3,
+          "status": 200,
+          "checkedAt": "2026-10-20T01:24:11.995Z"
+        }
+      ],
+      "searches": [
+        {
+          "url": "https://tljus.com/contact",
+          "purpose": "Inspect exact official contact/corporate page and rendered body for published phone",
+          "result": "Actual rendered official body saved; no forms submitted"
+        }
+      ],
+      "priorAuditFile": "vincom-dining/tiny-final-prior-audit.json",
+      "remainingAction": "Retain precise hold; resolve stated source gap or discrepancy before publishing a phone"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-thematchatokyo",
+      "field": "phone",
+      "outcome": "hold",
+      "checkedAt": "2026-10-20",
+      "reason": "Exact language/version discrepancy: reader Japanese legal notice publishes 080-7171-6457 (tiny-contact-web-3.txt); live browser final English /en/policies/legal-notice publishes 050-5435-1201. Both describe THE MATCHA TOKYO Japan online-store legal contact. Retain hold until current applicable contact is reconciled, rather than choose digits silently.",
+      "sources": [
+        {
+          "sourceUrl": "https://www.the-matcha.tokyo/en/policies/legal-notice",
+          "evidenceFile": "vincom-dining/tiny-contact-browser.json",
+          "sourceIndex": 4,
+          "status": 200,
+          "checkedAt": "2026-10-20T01:24:15.934Z"
+        }
+      ],
+      "searches": [
+        {
+          "url": "https://www.the-matcha.tokyo/policies/legal-notice",
+          "purpose": "Inspect exact official contact/corporate page and rendered body for published phone",
+          "result": "Actual rendered official body saved; no forms submitted"
+        }
+      ],
+      "priorAuditFile": "vincom-dining/tiny-final-prior-audit.json",
+      "remainingAction": "Retain precise hold; resolve stated source gap or discrepancy before publishing a phone"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-thematchatokyo",
+      "field": "menu",
+      "outcome": "proposal",
+      "checkedAt": "2026-10-20",
+      "reason": "Official MATCHA FOODS retail catalogue renders actual organic-matcha energy-drink 6/30-bottle packs and MATCHA WATER 6-bottle pack, with Japan JPY market selector. This is an actual consumable product catalogue reference, not a restaurant menu shell. Cached reader exposes additional products, but live-item claim is limited to rendered drinks.",
+      "sources": [
+        {
+          "sourceUrl": "https://www.the-matcha.tokyo/en/collections/matcha-foods",
+          "evidenceFile": "vincom-dining/tiny-contact-browser.json",
+          "sourceIndex": 5,
+          "status": 200,
+          "checkedAt": "2026-10-20T01:24:20.800Z"
+        }
+      ],
+      "searches": [
+        {
+          "url": "https://www.the-matcha.tokyo/en/collections/matcha-foods",
+          "purpose": "Inspect actual food catalogue products and market selector",
+          "result": "Actual rendered official body saved; no forms submitted"
+        }
+      ],
+      "priorAuditFile": "vincom-dining/tiny-final-prior-audit.json",
+      "remainingAction": "Independent content audit of this immutable amendment",
+      "proposedField": {
+        "field": "menu",
+        "state": "newly-sourced-proposal",
+        "sourceUrl": "https://www.the-matcha.tokyo/en/collections/matcha-foods",
+        "evidence": "Official MATCHA FOODS retail catalogue renders actual organic-matcha energy-drink 6/30-bottle packs and MATCHA WATER 6-bottle pack, with Japan JPY market selector. This is an actual consumable product catalogue reference, not a restaurant menu shell. Cached reader exposes additional products, but live-item claim is limited to rendered drinks.",
+        "checkedAt": "2026-10-20",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "provisional",
+        "url": "https://www.the-matcha.tokyo/en/collections/matcha-foods",
+        "uncertainty": {
+          "vi": "Danh mục thực phẩm, đồ uống bán lẻ của thương hiệu cho thị trường Nhật Bản; chỉ là tài liệu tham khảo một phần, không phải thực đơn quán tại Vincom. Xác nhận sản phẩm và giá tại chi nhánh.",
+          "en": "Brand retail food/drink catalogue for the Japanese market; a partial product reference, not the Vincom cafe menu. Confirm branch products and prices."
+        }
+      }
+    }
+  ]
+}

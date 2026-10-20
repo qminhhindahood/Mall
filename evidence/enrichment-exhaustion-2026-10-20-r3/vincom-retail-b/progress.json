@@ -1,0 +1,19 @@
+{
+  "destinations": 74,
+  "queuedFields": 300,
+  "completedDecisions": 300,
+  "unresearched": [],
+  "counts": {
+    "candidate-proposal": 154,
+    "hold": 132,
+    "unavailable-after-research": 14
+  },
+  "proposalFields": 154,
+  "baselineFieldsPreservedExactly": 658,
+  "baselineFileSha256": "25ac0766a17bb0f05af40967136f43c7bab737201f7b8ddbb0fe80c11832de94",
+  "runtimeBaselineFieldsEqual": true,
+  "scope": "Only this research lane was written. No source/build/tracker/canonical/publish/push/outreach operations.",
+  "remainingBlockers": "Per-key holds identify source-access/extraction failures, exact brand/branch identity, contact currentness, general-vs-branch phone, or conflicting official values. Holds are not unavailable findings.",
+  "newChunkFields": 59,
+  "amendedFields": 7
+}

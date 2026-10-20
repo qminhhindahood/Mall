@@ -1,0 +1,490 @@
+{
+  "checkedAt": "2026-10-20",
+  "receiptLocation": "Original raw source receipts remain in the lane root; this index provides immutable pointers instead of duplicating them.",
+  "receipts": [
+    {
+      "path": "../contact-search-01.json",
+      "sha256": "a3b496e2d135f7fa255cce8ac81fddab9e3debd059e8a33fff95dce0b62f79f3"
+    },
+    {
+      "path": "../contact-search-02.json",
+      "sha256": "19ae58d00126bb02ba94232a900ed7f6387f41995a667938b6f422684e0d2130"
+    },
+    {
+      "path": "../contact-search-03.json",
+      "sha256": "2b4895fba5f8e79741d395a37565f781055fde5f83070817b618fa5a290bc534"
+    },
+    {
+      "path": "../contact-search-04.json",
+      "sha256": "2c4b992db4f4e421cf51990245b72042e6509e441e96848d42df2eae9fc9f17f"
+    },
+    {
+      "path": "../contact-search-05.json",
+      "sha256": "550f5e0870e93408a4c17ff153bab5de9359c587da7c7b346167872313edf8d5"
+    },
+    {
+      "path": "../contact-search-06.json",
+      "sha256": "e043547317a1c2414bfee7f848fa8d38384f07172d3a5de00b1500aa12720496"
+    },
+    {
+      "path": "../contact-search-07.json",
+      "sha256": "110f58c08d4dccd011fe88b2ae9d4f3cfa044cb788b0e5f217c80548f1431c5c"
+    },
+    {
+      "path": "../contact-search-08.json",
+      "sha256": "da4a85badb70b3affa7a5f4c4ac040a27dd90b73fa11ba7bc5eb534e0e5ddfc3"
+    },
+    {
+      "path": "../contact-search-09.json",
+      "sha256": "c3f5882c9b8644892feb917973d7417cfafb0ac2df7ff8c0c2412536a4e951be"
+    },
+    {
+      "path": "../contact-search-10.json",
+      "sha256": "eb841a22ee37c2689c9c950e5593394ec37620017116c472d64aa679d0f02a61"
+    },
+    {
+      "path": "../contact-search-11.json",
+      "sha256": "9e16442ea6ffcc2610622676668293407e5299156843b6b823a447d9571040d2"
+    },
+    {
+      "path": "../contact-search-12.json",
+      "sha256": "be5494fe93422d445129428342ad99335785a089b8dee19572fdfa13578d068f"
+    },
+    {
+      "path": "../contact-search-13.json",
+      "sha256": "199c7dab3e596deb7787029ab377a9046eb0124c08241b719b2d5dccbbaa66eb"
+    },
+    {
+      "path": "../contact-search-14.json",
+      "sha256": "f3f555fe95922ef2ed02d765c5fbe3fe61e29fbf1e9d2d18a662a434b71a7664"
+    },
+    {
+      "path": "../contact-search-15.json",
+      "sha256": "d4c25c56a2f5bac9cad8f408594460a9c48f43e634e112be50983f342a9575b1"
+    },
+    {
+      "path": "../contact-search-16.json",
+      "sha256": "3e1888ee449b15a4c73be1d0b42337542bcfec7be3b47172e9cfec780c5764c5"
+    },
+    {
+      "path": "../contact-search-17.json",
+      "sha256": "16d91ea0b756143409dc4047f8950d1c12f634680366bf5bc23ef22f5dea4e6e"
+    },
+    {
+      "path": "../details-03.json",
+      "sha256": "b408c4dae6a809e140356eb0c95bdd3982d9cab6aa58a086a4f6104395f60bf5"
+    },
+    {
+      "path": "../details-04.json",
+      "sha256": "3ee9b7eae5a444fe90443918724a1b85aab946b06599a91ac8000194f3705035"
+    },
+    {
+      "path": "../dior-beauty-locator.json",
+      "sha256": "2b5c96b90c5bc4255f5dc4f6bc74e7a97e7960c3150cf3af849681e9cc55ac66"
+    },
+    {
+      "path": "../final-research-01.json",
+      "sha256": "d2ebb37dcd4ff2e24c73e6e9d0e562f47d3fe3a4495e7ba66dbe149c9ffeffff"
+    },
+    {
+      "path": "../final-research-02.json",
+      "sha256": "4d0a0f6c64becb41aca8bc1c39fb444a94b7adc619fab627b55c45a3364a8664"
+    },
+    {
+      "path": "../final-research-03.json",
+      "sha256": "7c884aeb24c99f47ad712ce96f274f7c036966291aef3618485f71b15c54d54f"
+    },
+    {
+      "path": "../follow-01.json",
+      "sha256": "34fb481aa8ef3d5e7c6593be242719d5147d1ba48cd2afea578ef279b6d4cefa"
+    },
+    {
+      "path": "../follow-02.json",
+      "sha256": "ed99c6ce30ead1ec8d29a789bd1d092bad0101d46f6411e8fadf30138d4ac811"
+    },
+    {
+      "path": "../follow-03.json",
+      "sha256": "285a482a9168cc6c1c12ad11df70171960601b5a8f80834fde8a01b483efb9b1"
+    },
+    {
+      "path": "../follow-04.json",
+      "sha256": "3f25b2f9d0ed0c3b57e030eafd42f5b00d0c5df5b4f717edff707b652bcd95f3"
+    },
+    {
+      "path": "../last-locators-01.json",
+      "sha256": "229fe0c4c7d4b59499b4d745b797483469bf986f23f4008835810fac65d2e35e"
+    },
+    {
+      "path": "../last-locators-02.json",
+      "sha256": "4e96b913252131f94a41f79c45b0dee3d7cd1f8c8d3e8d7bf009341eb5ac263e"
+    },
+    {
+      "path": "../last-locators-03.json",
+      "sha256": "c724aed8b5974abfa37c396db7f28044b7984e47efe27d2b3d3570d586e415b1"
+    },
+    {
+      "path": "../locator-detail-01.json",
+      "sha256": "5b20972cface0e6c5d14a6012df1ea0b2a5d7769affa3ecc1b11fee29080d6e8"
+    },
+    {
+      "path": "../locator-detail-02.json",
+      "sha256": "6339df50d35a447f30d54d97bf67b541fbc6805be8b9bceb1d7a0132bcde6b6e"
+    },
+    {
+      "path": "../mall-product-01.json",
+      "sha256": "18635daa9f7562e193c7b0e98fd1e33625c887903915f9e6b81178380f57ccdc"
+    },
+    {
+      "path": "../mall-product-02.json",
+      "sha256": "5268c506b912cc32cd7a4219f4d778a2770fe3c697357cac18cd97758d7b7c9f"
+    },
+    {
+      "path": "../mall-product-03.json",
+      "sha256": "16a23e259ab9f439a54b5b2416ddd41ba404f20ccbb6510ba74348045667ec5a"
+    },
+    {
+      "path": "../matviet-service.json",
+      "sha256": "edc0e5478ce8b0ac5b021a2d86e54e4d31f5e58d930c87c6d5ee536beedcb4c5"
+    },
+    {
+      "path": "../open-01.json",
+      "sha256": "1002536c18b640cae3ba4a258fc412ac902d19a77da025bc5e6c3955e5059e5c"
+    },
+    {
+      "path": "../open-02.json",
+      "sha256": "26fb92332edc6e6d60a7c206d565eda9f9756bb45355e74d16432a4197db9e41"
+    },
+    {
+      "path": "../open-03.json",
+      "sha256": "a02d9effca2a2b324f33d6b6687f2e985967459e5df3e974bba8fa4369f0be8b"
+    },
+    {
+      "path": "../open-04.json",
+      "sha256": "0d0388910a99e04b0b5d460a7919b0f0ee9266adf601aefbb0ca2d11f72a2562"
+    },
+    {
+      "path": "../open-05.json",
+      "sha256": "198b5db5da9a365a67bfa90f0980862208054f57d17bc8573f0775848990b0b0"
+    },
+    {
+      "path": "../open-06.json",
+      "sha256": "52451e6ff9d937df4e883a88ee171843a43c6f2c734e55287928c22a9b44026a"
+    },
+    {
+      "path": "../open-07.json",
+      "sha256": "27be42eaa659d21d06629ef66870359db0b8d78f1dbceb92241104daa38a643e"
+    },
+    {
+      "path": "../open-08.json",
+      "sha256": "64a59698ba0dee44b71b2066e15cf7b74b425bdd69cb593055e4fc342a465276"
+    },
+    {
+      "path": "../open-09.json",
+      "sha256": "c48ce0974f1195d6081920d32e650d0ebf7b6a1f14f84231720ce0688ef99a35"
+    },
+    {
+      "path": "../open-10.json",
+      "sha256": "6c59a82e3d795f512cf53ce1b5c155af63a7a31a3570bf4ec9e25dbdf7dd3dc6"
+    },
+    {
+      "path": "../open-11.json",
+      "sha256": "7c37332009c996d3fe9f92cd5432258f029e91d621dc6e2348aa9428bbf96a02"
+    },
+    {
+      "path": "../open-12.json",
+      "sha256": "cfe72abf099cb1ba8a6c15de3824abf43d84b1c55909477a0aa4efd7cec7c0cb"
+    },
+    {
+      "path": "../open-13.json",
+      "sha256": "7f254a76cbf1c9ec9e441a8c1e27775332352cf9fdb4e788563936f76459fc49"
+    },
+    {
+      "path": "../open-14.json",
+      "sha256": "454e21989eb8d5b2cb51d1c483a80d7cc7147d6cd5fbcd7acffd0ce889ed6759"
+    },
+    {
+      "path": "../open-15.json",
+      "sha256": "4416d002abc83b67f47d7d3320bbbe62e411148ff951a6485bd5c43af436bb1c"
+    },
+    {
+      "path": "../open-16.json",
+      "sha256": "1ea83144c8423b52693aca09f0194e0648dd17ed570464957c1df3dca689425c"
+    },
+    {
+      "path": "../open-17.json",
+      "sha256": "a387e7fa85c4d2c889c2ff153d0ad5741e9bfd5c3197e019a66bb29c5898cf77"
+    },
+    {
+      "path": "../open-18.json",
+      "sha256": "8549dfe31c153f0e466e84db3ec6297dd36a15c2aae410abf4cf62bdc84f5ce2"
+    },
+    {
+      "path": "../open-19.json",
+      "sha256": "7fef0ab2a65b47d87ee700cd95605cee2568531f408a1545bf07e595f75c43ae"
+    },
+    {
+      "path": "../product-proof-01.json",
+      "sha256": "7f4f484cbd1786a9831bf83f6a4830f199deecd4189c7a22c789da8560394ac4"
+    },
+    {
+      "path": "../product-proof-02.json",
+      "sha256": "260e2f7741886916332fd231ecea94cd59b7f63a0d42155b6f36d26e0729302f"
+    },
+    {
+      "path": "../product-proof-03.json",
+      "sha256": "dec8426e7de61811f2ce57b0d28fdcdfad77151f8824ff86da0c531a3e4d621a"
+    },
+    {
+      "path": "../product-proof-04.json",
+      "sha256": "b76bc69d414d3dc04508e6b905064ed05110b7bfb781b452f5c969a55ccc90db"
+    },
+    {
+      "path": "../product-proof-05.json",
+      "sha256": "711a779390de2a71820d47f14288065ecfa1f01cc66096223fff601bdb5655b5"
+    },
+    {
+      "path": "../product-proof-06.json",
+      "sha256": "946c488ce3b530b4000697a7b16fe81d1b6f40e4618ac20c9df495b530f27e23"
+    },
+    {
+      "path": "../product-proof-07.json",
+      "sha256": "0828ccc6bbde39d554f0358837d16533dc9e2a4c2eee37ba682e70a51ae51a25"
+    },
+    {
+      "path": "../product-proof-08.json",
+      "sha256": "34d388585e20ea5eb4ed43bd0d23dbaaf3e53b10b901579ddfe913eefed7b575"
+    },
+    {
+      "path": "../product-proof-09.json",
+      "sha256": "430060e9584f40a144d30711d2ffcb5e6b19bdc7fa13587d8549d7679625db11"
+    },
+    {
+      "path": "../product-proof-10.json",
+      "sha256": "75e524fd8cbfdf2bdadb082092c64efeeb541dc01037d916290459682f581989"
+    },
+    {
+      "path": "../product-service-01.json",
+      "sha256": "5341b13d568b205802219690f0ce087abd2a0b5df86370f986366f00087bcc5f"
+    },
+    {
+      "path": "../product-service-02.json",
+      "sha256": "17c76ec1c7e417c961a22e3fae131e57b5e385406fc4ce1e40b52016539edced"
+    },
+    {
+      "path": "../product-service-03.json",
+      "sha256": "ae1565c299d844c2b0f5ba6acd486f10576ac6fad103c94e9c972838d43565f7"
+    },
+    {
+      "path": "../product-service-04.json",
+      "sha256": "569b4dae11405f5a3cfc901193628492e351ae5dd331ddc6233f8fc9492cbb20"
+    },
+    {
+      "path": "../product-service-05.json",
+      "sha256": "a5589be9292d819bc035cefc7a768e660aabd567d824af13dde0b9774a06ffe2"
+    },
+    {
+      "path": "../product-service-06.json",
+      "sha256": "3509bca1b97fa9a50c11e8411a9154372516f5e2eac69114a8aaa3ca01292ec9"
+    },
+    {
+      "path": "../search-01.json",
+      "sha256": "8540bac5eb014452c808b0422f7de04f6e8df9b9d493a4105c31fba96f9a4f98"
+    },
+    {
+      "path": "../search-02.json",
+      "sha256": "6197f01488e381e07794d108aa29d868c047de2b7ec67fa0bbcde2be61b960ff"
+    },
+    {
+      "path": "../search-03.json",
+      "sha256": "d82ef6115d823a19cf35e36bf5e13cfe6d9554be75eb893596cb8880af2b5067"
+    },
+    {
+      "path": "../search-04.json",
+      "sha256": "c8653e83ac94abd40320c2aa7936d9f345425061db261ef15f2e24bde647b532"
+    },
+    {
+      "path": "../search-05.json",
+      "sha256": "afa34ef8d8244f9c7a13699a15e3172aa44f7e33492d47fe72abb96fb9886b43"
+    },
+    {
+      "path": "../search-06.json",
+      "sha256": "81f15558e249ad7e93ee05ac64c512d50b513f2537950f016b39cfb2596d5373"
+    },
+    {
+      "path": "../search-07.json",
+      "sha256": "da0842264ce914f4b371363cc344b8b7eccaa655610d9baf60b275494c3ceeb0"
+    },
+    {
+      "path": "../search-08.json",
+      "sha256": "7c1107a81e282e140405b20b0e4324245ca57e81d9bcdc1fe9b95fb72df52dc8"
+    },
+    {
+      "path": "../search-09.json",
+      "sha256": "7e095be14f0bc17b8bcb22b73bcde7aa5ce31451db6cb3601c1b3db2c89443d3"
+    },
+    {
+      "path": "../search-10.json",
+      "sha256": "6dcda0aa626765c7104f8ebbbe50132cde81b29f4d523c9f92f0ab846879645d"
+    },
+    {
+      "path": "../search-11.json",
+      "sha256": "d298f4583aa72fb8b4ce63caeb96d1e6d37cbc69145705153298aee5d2940e98"
+    },
+    {
+      "path": "../search-12.json",
+      "sha256": "0993f9120b47718a142ceea5dc31a2b6223b4d8df5bb823f793deec1b595db40"
+    },
+    {
+      "path": "../search-13.json",
+      "sha256": "178381cf61e9fb5ab31ef71ca1b08589f5f3baadd483ff2165ec967c4e135a51"
+    },
+    {
+      "path": "../search-14.json",
+      "sha256": "872d1b725379b4ab6df52a3138e214a9c94de4f666f54909a8299f1dfabc5ba4"
+    },
+    {
+      "path": "../search-15.json",
+      "sha256": "d2fcd4d4e49c7c1baa08838f9718ddab0a66899de8fa8119383178103a2ff62d"
+    },
+    {
+      "path": "../search-16.json",
+      "sha256": "845ded21a9d199685a7d31e6c089b57f5bb38b71da674a9b7121b208a3c94096"
+    },
+    {
+      "path": "../search-17.json",
+      "sha256": "aeec8320a5f56dfc29c9377d5c9c20cfee51a4e7bfc9c549b372b72ee351dd6b"
+    },
+    {
+      "path": "../search-18.json",
+      "sha256": "4487b05b3f001e47ed84e6974f5669cc6d40becc9b21e9b26fb6445d1d09af63"
+    },
+    {
+      "path": "../search-19.json",
+      "sha256": "a2eb022cc49a78418c5f0735bb408b6252f269832588afd4214b65a3b53c62fc"
+    },
+    {
+      "path": "../search-20.json",
+      "sha256": "388a936301399265c60d46a4b8409b763adeb4fe5ecf58d2259f4b9723986efc"
+    },
+    {
+      "path": "../service-search-01.json",
+      "sha256": "bf846a447d938da7053345b7143c4907b799e7d16249ba89bb08ea8061378844"
+    },
+    {
+      "path": "../service-search-02.json",
+      "sha256": "3e3bc96ae98d65d6682f1a3a8934ee1e51cf35dd40e3d74d0c038002630871c7"
+    },
+    {
+      "path": "../service-search-03.json",
+      "sha256": "cba7692aa296203602b2bb651ad2cc0b2c71059af107cca2bc4d45538bce2806"
+    },
+    {
+      "path": "../service-search-04.json",
+      "sha256": "b496b5935034cce23a90f6bcb0c3c599ac0f4416899341aeaf7aa750e3168400"
+    },
+    {
+      "path": "../service-search-05.json",
+      "sha256": "b69cc08a19be823f695544651007fcb931596d308810097ca9f6220256f7acfb"
+    },
+    {
+      "path": "../service-search-06.json",
+      "sha256": "a25a8ee8fb4c6423e25247352e2fed9e9015cb9df00e87ad2b358de7aad132b1"
+    },
+    {
+      "path": "../service-search-07.json",
+      "sha256": "42ec89ffb8ad69f7dcfd46eb2fb8df15e811fb1799412aaedc59028d2d0c0ba0"
+    },
+    {
+      "path": "../service-search-08.json",
+      "sha256": "e1c5f0b7d96919d97a03c2dafce3e733fed1ea6a30ef54b90562448a8ef944c0"
+    },
+    {
+      "path": "../service-search-09.json",
+      "sha256": "ddb676d9296df8864c508531c8f54f820b956ac70d6516e620219036ddc05480"
+    },
+    {
+      "path": "../service-search-10.json",
+      "sha256": "2c51d890c10954dafaf43293f036d7ec7b7db3b0b0e51729e6c9c37a3e56cfce"
+    },
+    {
+      "path": "../service-search-11.json",
+      "sha256": "4b1d2e6058c2a648632441e3a53c96b392d80dbb1a131a1e8a3badf9b6009aec"
+    },
+    {
+      "path": "../service-search-12.json",
+      "sha256": "de2c9fc81a3ba3e12ca0737db3c13163244c03e8825166de55469931a1dd395a"
+    },
+    {
+      "path": "../service-search-13.json",
+      "sha256": "d78a9d9c9d2224d496adb243fc39845bcb49d6e7d82d93f411bad346210be099"
+    },
+    {
+      "path": "../service-search-14.json",
+      "sha256": "e2f7d9df34b0716eebb1ad119786720458d4b82566d13dcd4f901bfa0e436600"
+    },
+    {
+      "path": "../service-search-15.json",
+      "sha256": "26aa02a5e6ee5da9c3cb87629cbc5cb77503a62e6b0cb8e2d5bc3bfd31f73f9e"
+    },
+    {
+      "path": "../service-search-16.json",
+      "sha256": "012ae89fe4bbc1316d27e90acb8bc648ed47c0048aa5bca1f60b8ddbbd3634a5"
+    },
+    {
+      "path": "../service-search-17.json",
+      "sha256": "29e33b487a39d8e2439ff435ae70447afaac64d813fba07d32c1d67bcc861b48"
+    },
+    {
+      "path": "../service-search-18.json",
+      "sha256": "7bf43c77425c5476d35a1ff28a0f66c98d25abb0221a25153cdf58b8848652ea"
+    },
+    {
+      "path": "../service-search-19.json",
+      "sha256": "ee22b9be6ed4ac0f286605ef310b0f425a3d3c843b9ee8fab48a7cecf77ac951"
+    },
+    {
+      "path": "../target-01.json",
+      "sha256": "c4a4c679ce8948f923eade179a83d037683ed5a7dea9c39e41ae1c326de4c7f6"
+    },
+    {
+      "path": "../target-02.json",
+      "sha256": "b0301418ae83d34bbae9ccbb164357ecc349f6920a22ab911714621d7c2c86a2"
+    },
+    {
+      "path": "../target-03.json",
+      "sha256": "57ef1018eef64c99be3cc9308352bbdefd86884d917834a1c0fc7b8476a0f67c"
+    },
+    {
+      "path": "../target-04.json",
+      "sha256": "b95bc9a3ad6023c2ea736c3cb4b6c80e3c57e9906deb44a6e8b2c3a23aa1ac33"
+    },
+    {
+      "path": "../target-05.json",
+      "sha256": "dead6964061a6218cac41fff4e7af346161bc9ae64fd7851511f750dc535211b"
+    },
+    {
+      "path": "../target-06.json",
+      "sha256": "ce4ef33dc4d382b0b5e559755eac18bfae6a696b460263abf062b3226096693c"
+    },
+    {
+      "path": "../target-07.json",
+      "sha256": "158e418adabf7fd72a4a62452cca82e4073ba3f3640ec410bafe554586e503aa"
+    },
+    {
+      "path": "../target-08.json",
+      "sha256": "fc37a44abb43825977e053ce8bdd16d3ae2120a2648eafe124febff70ff3e19b"
+    },
+    {
+      "path": "../target-09.json",
+      "sha256": "6fc6016acc0d23de6da081eec33b3f57f006ca28b602167865ced48340bbbcbf"
+    },
+    {
+      "path": "../target-10.json",
+      "sha256": "4f8c2ab0a4aa79b54d8884f70c3ce2cb245ebd0b5a839b12a650873f0bf9177e"
+    },
+    {
+      "path": "../target-11.json",
+      "sha256": "cb56c8406e32b6d0afae91200c7a94dd0eecae500a800c1627561586d1591033"
+    }
+  ]
+}

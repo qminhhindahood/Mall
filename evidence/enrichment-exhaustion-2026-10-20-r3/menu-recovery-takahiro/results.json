@@ -1,0 +1,310 @@
+{
+  "revision": "takahiro-menu-rendering-recovery-2026-10-20",
+  "brandsChecked": 7,
+  "actualMenusRecovered": 0,
+  "results": [
+    {
+      "brand": "bastahiro",
+      "outcome": "held-no-menu-artifact-recovered",
+      "scope": "Official Vietnam operator site only; no global absence claim",
+      "checkedAt": "2026-10-20",
+      "urls": [
+        "https://bastahiro.com.vn/en/",
+        "https://bastahiro.com.vn/"
+      ],
+      "evidenceFiles": [
+        "bastahiro.json",
+        "bastahiro-data.json",
+        "bastahiro.png",
+        "bastahiro-vi-locale.json",
+        "bastahiro-vi-locale.png",
+        "script-inspection.json"
+      ],
+      "steps": [
+        "Rendered full English homepage; scrolled every700pixels to trigger lazy images; extracted full HTML, all anchors, image attributes, public inline state and referenced scripts.",
+        "Rendered linked root path; default English browser redirected to/en/, then Vietnamese locale successfully rendered native root.",
+        "Read actual script sources listed in public DOM; extracted route table and surface API strings.",
+        "Visually inspected full-page screenshot; hero asset downloading deliberately left to parent as assigned."
+      ],
+      "menuLinksEnglish": [],
+      "menuLinksVietnamese": [],
+      "observedRoutes": [
+        "/",
+        "/career/",
+        "/en/",
+        "/en/career/",
+        "/en/location/",
+        "/en/reservation/",
+        "/location/",
+        "/reservation/"
+      ],
+      "observedAPIs": [
+        "/api/v2/surface/footer/1?lang=",
+        "/api/v2/surface/location?lang=",
+        "/api/v2/surface/location_area?lang=",
+        "/api/v2/surface/page/home?lang=",
+        "/api/v2/surface/widget?lang="
+      ],
+      "reason": "No menu link, menu route, menu PDF or named menu-gallery asset was found in the rendered pages or referenced scripts. Loaded page content is introduction and branch locations, not a recoverable actual menu. Initial default-sandbox network errors were environment restrictions; escalated read-only execution succeeded.",
+      "remainingAction": "Require a newly evidenced official menu link or a readable exact menu asset; do not substitute homepage as menu action."
+    },
+    {
+      "brand": "asanoha",
+      "outcome": "held-no-menu-artifact-recovered",
+      "scope": "Official Vietnam operator site only; no global absence claim",
+      "checkedAt": "2026-10-20",
+      "urls": [
+        "https://asanoha.com.vn/en/",
+        "https://asanoha.com.vn/"
+      ],
+      "evidenceFiles": [
+        "asanoha.json",
+        "asanoha-data.json",
+        "asanoha.png",
+        "asanoha-vi-locale.json",
+        "asanoha-vi-locale.png",
+        "script-inspection.json"
+      ],
+      "steps": [
+        "Rendered full English homepage; scrolled every700pixels to trigger lazy images; extracted full HTML, all anchors, image attributes, public inline state and referenced scripts.",
+        "Rendered linked root path; default English browser redirected to/en/, then Vietnamese locale successfully rendered native root.",
+        "Read actual script sources listed in public DOM; extracted route table and surface API strings.",
+        "Visually inspected full-page screenshot; hero asset downloading deliberately left to parent as assigned."
+      ],
+      "menuLinksEnglish": [],
+      "menuLinksVietnamese": [],
+      "observedRoutes": [
+        "/",
+        "/en/",
+        "/en/location/",
+        "/en/reservation/",
+        "/location/",
+        "/reservation/"
+      ],
+      "observedAPIs": [
+        "/api/v2/surface/footer/1?lang=",
+        "/api/v2/surface/location?lang=",
+        "/api/v2/surface/location_area?lang=",
+        "/api/v2/surface/page/home?lang=",
+        "/api/v2/surface/widget?lang="
+      ],
+      "reason": "No menu link, menu route, menu PDF or named menu-gallery asset was found in the rendered pages or referenced scripts. Loaded page content is introduction and branch locations, not a recoverable actual menu. Initial default-sandbox network errors were environment restrictions; escalated read-only execution succeeded.",
+      "remainingAction": "Require a newly evidenced official menu link or a readable exact menu asset; do not substitute homepage as menu action."
+    },
+    {
+      "brand": "gyushige",
+      "outcome": "held-no-menu-artifact-recovered",
+      "scope": "Official Vietnam operator site only; no global absence claim",
+      "checkedAt": "2026-10-20",
+      "urls": [
+        "https://gyushige.com.vn/en/",
+        "https://gyushige.com.vn/"
+      ],
+      "evidenceFiles": [
+        "gyushige.json",
+        "gyushige-data.json",
+        "gyushige.png",
+        "gyushige-vi-locale.json",
+        "gyushige-vi-locale.png",
+        "script-inspection.json"
+      ],
+      "steps": [
+        "Rendered full English homepage; scrolled every700pixels to trigger lazy images; extracted full HTML, all anchors, image attributes, public inline state and referenced scripts.",
+        "Rendered linked root path; default English browser redirected to/en/, then Vietnamese locale successfully rendered native root.",
+        "Read actual script sources listed in public DOM; extracted route table and surface API strings.",
+        "Visually inspected full-page screenshot; hero asset downloading deliberately left to parent as assigned."
+      ],
+      "menuLinksEnglish": [],
+      "menuLinksVietnamese": [],
+      "observedRoutes": [
+        "/",
+        "/career/",
+        "/en/",
+        "/en/career/",
+        "/en/location/",
+        "/en/reservation/",
+        "/location/",
+        "/reservation/"
+      ],
+      "observedAPIs": [
+        "/api/v2/surface/footer/1?lang=",
+        "/api/v2/surface/location?lang=",
+        "/api/v2/surface/location_area?lang=",
+        "/api/v2/surface/page/home?lang=",
+        "/api/v2/surface/widget?lang="
+      ],
+      "reason": "No menu link, menu route, menu PDF or named menu-gallery asset was found in the rendered pages or referenced scripts. Loaded page content is introduction and branch locations, not a recoverable actual menu. Initial default-sandbox network errors were environment restrictions; escalated read-only execution succeeded.",
+      "remainingAction": "Require a newly evidenced official menu link or a readable exact menu asset; do not substitute homepage as menu action."
+    },
+    {
+      "brand": "jindinrou",
+      "outcome": "held-no-menu-artifact-recovered",
+      "scope": "Official Vietnam operator site only; no global absence claim",
+      "checkedAt": "2026-10-20",
+      "urls": [
+        "https://jindinrou.com.vn/en/",
+        "https://jindinrou.com.vn/"
+      ],
+      "evidenceFiles": [
+        "jindinrou.json",
+        "jindinrou-data.json",
+        "jindinrou.png",
+        "jindinrou-vi-locale.json",
+        "jindinrou-vi-locale.png",
+        "script-inspection.json"
+      ],
+      "steps": [
+        "Rendered full English homepage; scrolled every700pixels to trigger lazy images; extracted full HTML, all anchors, image attributes, public inline state and referenced scripts.",
+        "Rendered linked root path; default English browser redirected to/en/, then Vietnamese locale successfully rendered native root.",
+        "Read actual script sources listed in public DOM; extracted route table and surface API strings.",
+        "Visually inspected full-page screenshot; hero asset downloading deliberately left to parent as assigned."
+      ],
+      "menuLinksEnglish": [],
+      "menuLinksVietnamese": [],
+      "observedRoutes": [
+        "/",
+        "/en/",
+        "/en/location/",
+        "/en/reservation/",
+        "/location/",
+        "/reservation/"
+      ],
+      "observedAPIs": [
+        "/api/v2/surface/footer/1?lang=",
+        "/api/v2/surface/location?lang=",
+        "/api/v2/surface/location_area?lang=",
+        "/api/v2/surface/page/home?lang=",
+        "/api/v2/surface/widget?lang="
+      ],
+      "reason": "No menu link, menu route, menu PDF or named menu-gallery asset was found in the rendered pages or referenced scripts. Loaded page content is introduction and branch locations, not a recoverable actual menu. Initial default-sandbox network errors were environment restrictions; escalated read-only execution succeeded.",
+      "remainingAction": "Require a newly evidenced official menu link or a readable exact menu asset; do not substitute homepage as menu action."
+    },
+    {
+      "brand": "oedoalley",
+      "outcome": "held-no-menu-artifact-recovered",
+      "scope": "Official Vietnam operator site only; no global absence claim",
+      "checkedAt": "2026-10-20",
+      "urls": [
+        "https://oedoalley.com.vn/en/",
+        "https://oedoalley.com.vn/"
+      ],
+      "evidenceFiles": [
+        "oedoalley.json",
+        "oedoalley-data.json",
+        "oedoalley.png",
+        "oedoalley-vi-locale.json",
+        "oedoalley-vi-locale.png",
+        "script-inspection.json"
+      ],
+      "steps": [
+        "Rendered full English homepage; scrolled every700pixels to trigger lazy images; extracted full HTML, all anchors, image attributes, public inline state and referenced scripts.",
+        "Rendered linked root path; default English browser redirected to/en/, then Vietnamese locale successfully rendered native root.",
+        "Read actual script sources listed in public DOM; extracted route table and surface API strings.",
+        "Visually inspected full-page screenshot; hero asset downloading deliberately left to parent as assigned."
+      ],
+      "menuLinksEnglish": [],
+      "menuLinksVietnamese": [],
+      "observedRoutes": [
+        "/",
+        "/en/",
+        "/en/location/",
+        "/en/reservation/",
+        "/location/",
+        "/reservation/"
+      ],
+      "observedAPIs": [
+        "/api/v2/surface/footer/1?lang=",
+        "/api/v2/surface/location?lang=",
+        "/api/v2/surface/location_area?lang=",
+        "/api/v2/surface/page/home?lang=",
+        "/api/v2/surface/widget?lang="
+      ],
+      "reason": "No menu link, menu route, menu PDF or named menu-gallery asset was found in the rendered pages or referenced scripts. Loaded page content is introduction and branch locations, not a recoverable actual menu. Initial default-sandbox network errors were environment restrictions; escalated read-only execution succeeded. Additional applicability hold: current official homepage story and banner promote Botejyu and its locations alongside Oedo Alley; a Botejyu menu cannot automatically become the frozen Oedo Alley menu.",
+      "remainingAction": "Require a newly evidenced official menu link or a readable exact menu asset; do not substitute homepage as menu action."
+    },
+    {
+      "brand": "ichibankenramen",
+      "outcome": "held-no-menu-artifact-recovered",
+      "scope": "Official Vietnam operator site only; no global absence claim",
+      "checkedAt": "2026-10-20",
+      "urls": [
+        "https://ichibankenramen.com.vn/en/",
+        "https://ichibankenramen.com.vn/"
+      ],
+      "evidenceFiles": [
+        "ichibankenramen.json",
+        "ichibankenramen-data.json",
+        "ichibankenramen.png",
+        "ichibankenramen-vi-locale.json",
+        "ichibankenramen-vi-locale.png",
+        "script-inspection.json"
+      ],
+      "steps": [
+        "Rendered full English homepage; scrolled every700pixels to trigger lazy images; extracted full HTML, all anchors, image attributes, public inline state and referenced scripts.",
+        "Rendered linked root path; default English browser redirected to/en/, then Vietnamese locale successfully rendered native root.",
+        "Read actual script sources listed in public DOM; extracted route table and surface API strings.",
+        "Visually inspected full-page screenshot; hero asset downloading deliberately left to parent as assigned."
+      ],
+      "menuLinksEnglish": [],
+      "menuLinksVietnamese": [],
+      "observedRoutes": [
+        "/",
+        "/en/",
+        "/en/location/",
+        "/location/"
+      ],
+      "observedAPIs": [
+        "/api/v2/surface/footer/1?lang=",
+        "/api/v2/surface/location?lang=",
+        "/api/v2/surface/location_area?lang=",
+        "/api/v2/surface/page/home?lang=",
+        "/api/v2/surface/widget?lang="
+      ],
+      "reason": "No menu link, menu route, menu PDF or named menu-gallery asset was found in the rendered pages or referenced scripts. Loaded page content is introduction and branch locations, not a recoverable actual menu. Initial default-sandbox network errors were environment restrictions; escalated read-only execution succeeded.",
+      "remainingAction": "Require a newly evidenced official menu link or a readable exact menu asset; do not substitute homepage as menu action."
+    },
+    {
+      "brand": "somtumthai",
+      "outcome": "held-no-menu-artifact-recovered",
+      "scope": "Official Vietnam operator site only; no global absence claim",
+      "checkedAt": "2026-10-20",
+      "urls": [
+        "https://somtumthai.com.vn/en/",
+        "https://somtumthai.com.vn/"
+      ],
+      "evidenceFiles": [
+        "somtumthai.json",
+        "somtumthai-data.json",
+        "somtumthai.png",
+        "somtumthai-vi-locale.json",
+        "somtumthai-vi-locale.png",
+        "script-inspection.json"
+      ],
+      "steps": [
+        "Rendered full English homepage; scrolled every700pixels to trigger lazy images; extracted full HTML, all anchors, image attributes, public inline state and referenced scripts.",
+        "Rendered linked root path; default English browser redirected to/en/, then Vietnamese locale successfully rendered native root.",
+        "Read actual script sources listed in public DOM; extracted route table and surface API strings.",
+        "Visually inspected full-page screenshot; hero asset downloading deliberately left to parent as assigned."
+      ],
+      "menuLinksEnglish": [],
+      "menuLinksVietnamese": [],
+      "observedRoutes": [
+        "/",
+        "/en/",
+        "/en/location/",
+        "/en/reservation/",
+        "/location/",
+        "/reservation/"
+      ],
+      "observedAPIs": [
+        "/api/v2/surface/footer/1?lang=",
+        "/api/v2/surface/location?lang=",
+        "/api/v2/surface/location_area?lang=",
+        "/api/v2/surface/page/home?lang=",
+        "/api/v2/surface/widget?lang="
+      ],
+      "reason": "No menu link, menu route, menu PDF or named menu-gallery asset was found in the rendered pages or referenced scripts. Loaded page content is introduction and branch locations, not a recoverable actual menu. Initial default-sandbox network errors were environment restrictions; escalated read-only execution succeeded.",
+      "remainingAction": "Require a newly evidenced official menu link or a readable exact menu asset; do not substitute homepage as menu action."
+    }
+  ]
+}

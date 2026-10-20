@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-20T12:30:41.964Z",
+  "packageRoot": "D:\\Midterm\\.scratch\\combined-discovery-motion-2026-10-19\\evidence\\enrichment-exhaustion-2026-10-20-r3\\release\\package",
+  "serverMode": "raw public static; no --acceptance",
+  "passed": true,
+  "checks": 57,
+  "passedChecks": 57,
+  "results": [
+    {
+      "mall": "both",
+      "name": "completed package provenance",
+      "passed": true
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "root redirects to Vietnamese",
+      "passed": true,
+      "status": 302,
+      "location": "/vi"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "/en exact public HTML",
+      "passed": true,
+      "path": "/en",
+      "status": 200,
+      "bytes": 1426466,
+      "sha256": "7f948b6550d4b2b84842e8a13d451bb54ea42ed857687ced3a885a95544df955",
+      "diskSha256": "7f948b6550d4b2b84842e8a13d451bb54ea42ed857687ced3a885a95544df955"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "/en no acceptance injection",
+      "passed": true
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "en floors deep link exists",
+      "passed": true,
+      "file": "en/floors/B1/index.html"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "/en/floors/B1 exact public HTML",
+      "passed": true,
+      "path": "/en/floors/B1",
+      "status": 200,
+      "bytes": 1583247,
+      "sha256": "ddaccb82813882fafd4358d9ab2bae90f6b045c86b64bc6c1fff7f4337e0c2ce",
+      "diskSha256": "ddaccb82813882fafd4358d9ab2bae90f6b045c86b64bc6c1fff7f4337e0c2ce"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "/en/floors/B1 no acceptance injection",
+      "passed": true
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "en stores deep link exists",
+      "passed": true,
+      "file": "en/stores/saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c/index.html"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "/en/stores/saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c exact public HTML",
+      "passed": true,
+      "path": "/en/stores/saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c",
+      "status": 200,
+      "bytes": 1721617,
+      "sha256": "eb0313fab6936b4ece21a27271646423f87464ea71169806b8eb4459074a5481",
+      "diskSha256": "eb0313fab6936b4ece21a27271646423f87464ea71169806b8eb4459074a5481"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "/en/stores/saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c no acceptance injection",
+      "passed": true
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "en truthful exact 404",
+      "passed": true,
+      "path": "/en/__raw_preview_unknown_20261020",
+      "status": 404,
+      "sha256": "7efaf325752a5c9f3a48f4a23fc2b66b51f36ad49e3dbc5ebbbe1043e5bdc673",
+      "diskSha256": "7efaf325752a5c9f3a48f4a23fc2b66b51f36ad49e3dbc5ebbbe1043e5bdc673"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "/vi exact public HTML",
+      "passed": true,
+      "path": "/vi",
+      "status": 200,
+      "bytes": 1427906,
+      "sha256": "4bf3dc2b56fb4a2ea2b855d194a206dc060df3cdd252a0a44f04c505f2f1a577",
+      "diskSha256": "4bf3dc2b56fb4a2ea2b855d194a206dc060df3cdd252a0a44f04c505f2f1a577"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "/vi no acceptance injection",
+      "passed": true
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "vi tang deep link exists",
+      "passed": true,
+      "file": "vi/tang/B1/index.html"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "/vi/tang/B1 exact public HTML",
+      "passed": true,
+      "path": "/vi/tang/B1",
+      "status": 200,
+      "bytes": 1584689,
+      "sha256": "2ed7e012d7136deb291ebc9db495cd53645e6a9c405536e4cc1b6f85251a7c76",
+      "diskSha256": "2ed7e012d7136deb291ebc9db495cd53645e6a9c405536e4cc1b6f85251a7c76"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "/vi/tang/B1 no acceptance injection",
+      "passed": true
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "vi cua-hang deep link exists",
+      "passed": true,
+      "file": "vi/cua-hang/saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c/index.html"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "/vi/cua-hang/saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c exact public HTML",
+      "passed": true,
+      "path": "/vi/cua-hang/saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c",
+      "status": 200,
+      "bytes": 1723432,
+      "sha256": "95b428ca9d366d06f2e6782d3684ff8b6c37281df55514b4225bb800e34b573a",
+      "diskSha256": "95b428ca9d366d06f2e6782d3684ff8b6c37281df55514b4225bb800e34b573a"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "/vi/cua-hang/saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c no acceptance injection",
+      "passed": true
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "vi truthful exact 404",
+      "passed": true,
+      "path": "/vi/__raw_preview_unknown_20261020",
+      "status": 404,
+      "sha256": "8c7b57096574ff15ab744fe4ac25d8de19fa4e3a1bf08c3a73b12592e99dd176",
+      "diskSha256": "8c7b57096574ff15ab744fe4ac25d8de19fa4e3a1bf08c3a73b12592e99dd176"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "acceptance endpoint unavailable",
+      "passed": true,
+      "status": 404
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "models/exterior.glb exact identity",
+      "passed": true,
+      "status": 200,
+      "bytes": 2000796,
+      "sha256": "f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050",
+      "diskSha256": "f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "models/exterior.glb negotiated exact Brotli",
+      "passed": true,
+      "status": 200,
+      "encoding": "br",
+      "vary": "Accept-Encoding",
+      "bytes": 205547,
+      "sha256": "9eff575af59ccd8820139e547dcb43f9a43a12fa7509f522e7ce747b5a3cf9a0",
+      "diskSha256": "9eff575af59ccd8820139e547dcb43f9a43a12fa7509f522e7ce747b5a3cf9a0",
+      "decodedSha256": "f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "models/exterior.glb explicit exact Brotli",
+      "passed": true,
+      "status": 200,
+      "encoding": "br"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "models/exterior.glb Brotli validator 304",
+      "passed": true,
+      "status": 304
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "data/floor-geometry.json exact identity",
+      "passed": true,
+      "status": 200,
+      "bytes": 5166921,
+      "sha256": "b18b04d26920f784d7e2cc441c418eda335b052803d48df680a85a8e451e6da0",
+      "diskSha256": "b18b04d26920f784d7e2cc441c418eda335b052803d48df680a85a8e451e6da0"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "data/floor-geometry.json negotiated exact Brotli",
+      "passed": true,
+      "status": 200,
+      "encoding": "br",
+      "vary": "Accept-Encoding",
+      "bytes": 1092277,
+      "sha256": "c255d4e4fd79c12a10aae54556c33ba35f8ed171b8c0afef9af4f7afae364d7a",
+      "diskSha256": "c255d4e4fd79c12a10aae54556c33ba35f8ed171b8c0afef9af4f7afae364d7a",
+      "decodedSha256": "b18b04d26920f784d7e2cc441c418eda335b052803d48df680a85a8e451e6da0"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "data/floor-geometry.json explicit exact Brotli",
+      "passed": true,
+      "status": 200,
+      "encoding": "br"
+    },
+    {
+      "mall": "saigon-centre",
+      "name": "data/floor-geometry.json Brotli validator 304",
+      "passed": true,
+      "status": 304
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "root redirects to Vietnamese",
+      "passed": true,
+      "status": 302,
+      "location": "/vi"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "/en exact public HTML",
+      "passed": true,
+      "path": "/en",
+      "status": 200,
+      "bytes": 1024641,
+      "sha256": "0e14c5d838ee5322a75b86e372e4c1f152addda9b79ab8f6717016f33d8f7bba",
+      "diskSha256": "0e14c5d838ee5322a75b86e372e4c1f152addda9b79ab8f6717016f33d8f7bba"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "/en no acceptance injection",
+      "passed": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "en floors deep link exists",
+      "passed": true,
+      "file": "en/floors/B1/index.html"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "/en/floors/B1 exact public HTML",
+      "passed": true,
+      "path": "/en/floors/B1",
+      "status": 200,
+      "bytes": 1014185,
+      "sha256": "bb808daa9b25436d84c73ab94a95ef97f2a6b5cc1d7eb3063bd6553587b6ffc0",
+      "diskSha256": "bb808daa9b25436d84c73ab94a95ef97f2a6b5cc1d7eb3063bd6553587b6ffc0"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "/en/floors/B1 no acceptance injection",
+      "passed": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "en stores deep link exists",
+      "passed": true,
+      "file": "en/stores/vincom-candidate-vd-b1-001/index.html"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "/en/stores/vincom-candidate-vd-b1-001 exact public HTML",
+      "passed": true,
+      "path": "/en/stores/vincom-candidate-vd-b1-001",
+      "status": 200,
+      "bytes": 1018537,
+      "sha256": "ab6ab0fd14f31296376d3f6ba86ebe0ea8099602e202c04c7945ab62aba98647",
+      "diskSha256": "ab6ab0fd14f31296376d3f6ba86ebe0ea8099602e202c04c7945ab62aba98647"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "/en/stores/vincom-candidate-vd-b1-001 no acceptance injection",
+      "passed": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "en truthful exact 404",
+      "passed": true,
+      "path": "/en/__raw_preview_unknown_20261020",
+      "status": 404,
+      "sha256": "b52a076f75822007d06a541c6fa710251b2facc2e82b63eec0dba3a6c5e527e5",
+      "diskSha256": "b52a076f75822007d06a541c6fa710251b2facc2e82b63eec0dba3a6c5e527e5"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "/vi exact public HTML",
+      "passed": true,
+      "path": "/vi",
+      "status": 200,
+      "bytes": 1026007,
+      "sha256": "353d25f2fb1e792c22ece1edea972680495bfde71f9056718f0a9cda2422a1d9",
+      "diskSha256": "353d25f2fb1e792c22ece1edea972680495bfde71f9056718f0a9cda2422a1d9"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "/vi no acceptance injection",
+      "passed": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "vi tang deep link exists",
+      "passed": true,
+      "file": "vi/tang/B1/index.html"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "/vi/tang/B1 exact public HTML",
+      "passed": true,
+      "path": "/vi/tang/B1",
+      "status": 200,
+      "bytes": 1015551,
+      "sha256": "66cb621e62d3a6498d2fa7fe194a6ffe36f09bab9a6cef1214bd9ded6cc277e0",
+      "diskSha256": "66cb621e62d3a6498d2fa7fe194a6ffe36f09bab9a6cef1214bd9ded6cc277e0"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "/vi/tang/B1 no acceptance injection",
+      "passed": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "vi cua-hang deep link exists",
+      "passed": true,
+      "file": "vi/cua-hang/vincom-candidate-vd-b1-001/index.html"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "/vi/cua-hang/vincom-candidate-vd-b1-001 exact public HTML",
+      "passed": true,
+      "path": "/vi/cua-hang/vincom-candidate-vd-b1-001",
+      "status": 200,
+      "bytes": 1020584,
+      "sha256": "d4542c367e306a218511926d634ff5c25e4e77cf3e5c61ddfb8bcfac52623cc8",
+      "diskSha256": "d4542c367e306a218511926d634ff5c25e4e77cf3e5c61ddfb8bcfac52623cc8"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "/vi/cua-hang/vincom-candidate-vd-b1-001 no acceptance injection",
+      "passed": true
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "vi truthful exact 404",
+      "passed": true,
+      "path": "/vi/__raw_preview_unknown_20261020",
+      "status": 404,
+      "sha256": "55db99f4806d228603c0c8b97a5533312a31c481163374cbe4945f0767473dbb",
+      "diskSha256": "55db99f4806d228603c0c8b97a5533312a31c481163374cbe4945f0767473dbb"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "acceptance endpoint unavailable",
+      "passed": true,
+      "status": 404
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "models/exterior.glb exact identity",
+      "passed": true,
+      "status": 200,
+      "bytes": 4797176,
+      "sha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+      "diskSha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "models/exterior.glb negotiated exact Brotli",
+      "passed": true,
+      "status": 200,
+      "encoding": "br",
+      "vary": "Accept-Encoding",
+      "bytes": 1199582,
+      "sha256": "ebd671f8b7e275b152916c9cb39d66e7f247f05a63f293c842bc1aa1a2c98a42",
+      "diskSha256": "ebd671f8b7e275b152916c9cb39d66e7f247f05a63f293c842bc1aa1a2c98a42",
+      "decodedSha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "models/exterior.glb explicit exact Brotli",
+      "passed": true,
+      "status": 200,
+      "encoding": "br"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "models/exterior.glb Brotli validator 304",
+      "passed": true,
+      "status": 304
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "data/floor-geometry.json exact identity",
+      "passed": true,
+      "status": 200,
+      "bytes": 241327,
+      "sha256": "f1ce41d6db46bc879b21ff47c7308c32dc4671a83dcca7df7347d9ac007ea2e5",
+      "diskSha256": "f1ce41d6db46bc879b21ff47c7308c32dc4671a83dcca7df7347d9ac007ea2e5"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "data/floor-geometry.json negotiated exact Brotli",
+      "passed": true,
+      "status": 200,
+      "encoding": "br",
+      "vary": "Accept-Encoding",
+      "bytes": 42352,
+      "sha256": "83418842f7cbe883b453b06c4caffb8e07463ce583175d995421dc44c7a6841a",
+      "diskSha256": "83418842f7cbe883b453b06c4caffb8e07463ce583175d995421dc44c7a6841a",
+      "decodedSha256": "f1ce41d6db46bc879b21ff47c7308c32dc4671a83dcca7df7347d9ac007ea2e5"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "data/floor-geometry.json explicit exact Brotli",
+      "passed": true,
+      "status": 200,
+      "encoding": "br"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "name": "data/floor-geometry.json Brotli validator 304",
+      "passed": true,
+      "status": 304
+    }
+  ],
+  "limitations": "Local HTTP/disk equality and static response checks only; no production, native visibility, performance budget or owner acceptance."
+}
