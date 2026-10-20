@@ -1,0 +1,8 @@
+{
+  "checkedAt": "2026-10-20T00:13:47.651012+00:00",
+  "evidenceCommit": "dc73d8a",
+  "files": 506,
+  "mismatched": [],
+  "method": "Every committed r2 evidence blob compared with current file SHA256. Excludes this subsequently written receipt. Scoped -text preserves receipt bytes. The earlier staged check also included .gitattributes and flagged its expected text normalization; no r2 receipt mismatched.",
+  "packageAssetsCommitted": false
+}
