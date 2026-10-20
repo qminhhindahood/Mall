@@ -1,20 +1,22 @@
 import type { SiteData } from '../data/site';
 import type { Destination } from '../data/content';
 import type { Locale } from '../runtime/scene-contract';
-import { destinationEnrichment, safeOfficialUrl } from '../data/enrichment';
+import { destinationCuisine, destinationEnrichment, safeOfficialUrl } from '../data/enrichment';
 import { selectionHref } from '../data/routes';
 import { journeyCopy } from './journey-copy';
 import IndoorGuidance from './IndoorGuidance';
 import '../styles/destination-details.css';
 
 const labels = {
-  vi: { floor:'Tầng', category:'Danh mục', cuisine:'Ẩm thực', website:'Thông tin chính thức', phone:'Điện thoại', hours:'Giờ hoạt động', menu:'Thực đơn chính thức', catalog:'Danh mục sản phẩm', programme:'Lịch chiếu / vé chính thức', booking:'Đặt bàn trên website chính thức', services:'Sản phẩm / dịch vụ', branch:'Chi nhánh tại trung tâm này', brand:'Toàn thương hiệu; xác nhận thông tin chi nhánh', proposal:'Thông tin bổ sung để duyệt — chưa được chủ dự án chấp thuận', checked:'Kiểm tra nguồn', source:'Nguồn', missing:'Chưa có điện thoại hoặc giờ hoạt động đã được duyệt. Xem nguồn chính thức trước khi ghé.', held:'Thông tin đang chờ đối chiếu nguồn', unavailable:'Không tìm thấy trong nguồn đã kiểm tra', reviewed:'Duyệt danh sách / giới thiệu', newTab:'mở trong thẻ mới' },
-  en: { floor:'Floor', category:'Category', cuisine:'Cuisine', website:'Official information', phone:'Telephone', hours:'Opening hours', menu:'Official menu', catalog:'Product catalog', programme:'Official programme / tickets', booking:'Book on the official website', services:'Products / services', branch:'This mall branch', brand:'Brand-wide; confirm branch information', proposal:'Additions for review — not owner approved', checked:'Source checked', source:'Source', missing:'Approved telephone and opening hours are not yet available. Check official information before visiting.', held:'Source evidence needs clarification', unavailable:'Not found in the checked source', reviewed:'Roster / introduction reviewed', newTab:'opens in a new tab' },
+  vi: { floor:'Tầng', category:'Danh mục', cuisine:'Ẩm thực', website:'Thông tin chính thức', phone:'Điện thoại', hours:'Giờ hoạt động', menu:'Thực đơn', catalog:'Danh mục sản phẩm', programme:'Lịch chiếu / vé chính thức', booking:'Thông tin đặt bàn', services:'Sản phẩm / dịch vụ', branch:'Chi nhánh tại trung tâm này', brand:'Toàn thương hiệu; xác nhận thông tin chi nhánh', proposal:'Thông tin bổ sung để duyệt — chưa được chủ dự án chấp thuận', checked:'Kiểm tra nguồn', source:'Nguồn', missing:'Chưa có điện thoại hoặc giờ hoạt động đã được duyệt. Xem nguồn chính thức trước khi ghé.', held:'Thông tin đang chờ đối chiếu nguồn', unavailable:'Không tìm thấy trong nguồn đã kiểm tra', reviewed:'Duyệt danh sách / giới thiệu', newTab:'mở trong thẻ mới' },
+  en: { floor:'Floor', category:'Category', cuisine:'Cuisine', website:'Official information', phone:'Telephone', hours:'Opening hours', menu:'Menu', catalog:'Product catalog', programme:'Official programme / tickets', booking:'Booking information', services:'Products / services', branch:'This mall branch', brand:'Brand-wide; confirm branch information', proposal:'Additions for review — not owner approved', checked:'Source checked', source:'Source', missing:'Approved telephone and opening hours are not yet available. Check official information before visiting.', held:'Source evidence needs clarification', unavailable:'Not found in the checked source', reviewed:'Roster / introduction reviewed', newTab:'opens in a new tab' },
 };
 /** Identical essential information in Discovery, map details, and Astro/no-JS HTML. */
 export default function DestinationDetails({site,destination,locale,floorId,descriptionId}:{site:SiteData;destination:Destination;locale:Locale;floorId:string;descriptionId?:string}) {
   const c=labels[locale],j=journeyCopy[locale];
   const fields=destinationEnrichment(site.mallId,destination);
+  const cuisine=destinationCuisine(site.content,destination);
+  const enrichedCuisine=fields.some(item=>item.field==='cuisine'&&(item.state==='verified-agent'||item.state==='newly-sourced-proposal'));
   const accepted=fields.some(item=>item.state==='verified-agent');
   const heading=accepted?(locale==='vi'?'Thông tin khách tham quan đã xác minh':'Verified visitor information'):c.proposal;
   const missingContact=!fields.some(item=>item.field==='phone')||!fields.some(item=>item.field==='hours');
@@ -22,7 +24,7 @@ export default function DestinationDetails({site,destination,locale,floorId,desc
   const website=!fields.some(item=>item.field==='website'&&item.state==='verified-agent')&&destination.website&&safeOfficialUrl(destination.website)?destination.website:undefined;
   return <div className="destination-details" data-destination-details={destination.id}>
     <p id={descriptionId}>{destination.description[locale]||j.descriptionPending}</p>
-    <dl><dt>{c.floor}</dt><dd>{destination.floors.join(', ')}</dd><dt>{c.category}</dt><dd>{site.content.categories.filter(row=>destination.categories.includes(row.id)).map(row=>row.name[locale]).join(' · ')}</dd>{destination.categories.includes('category-1')&&destination.cuisine&&<><dt>{c.cuisine}</dt><dd>{destination.cuisine[locale]}</dd></>}</dl>
+    <dl><dt>{c.floor}</dt><dd>{destination.floors.join(', ')}</dd><dt>{c.category}</dt><dd>{site.content.categories.filter(row=>destination.categories.includes(row.id)).map(row=>row.name[locale]).join(' · ')}</dd>{cuisine&&!enrichedCuisine&&<><dt>{c.cuisine}</dt><dd>{cuisine[locale]}</dd></>}</dl>
     <p className="detail-location">{mapped?(site.content.researchPreview?j.researchMapped:j.mapped):j.floorOnly}</p>
     {destination.openingSoon&&<p>{j.openingSoon}</p>}
     <IndoorGuidance site={site} destination={destination} locale={locale} floorId={floorId}/>
