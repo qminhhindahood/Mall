@@ -1,0 +1,2959 @@
+{
+  "scope": "Archived local evidence; no on-site or fresh website verification",
+  "archive": "docs/content-preparation/completion-packet-2026-10-17/saigon-research/official-floorPlanMap-en.json",
+  "archiveSha256": "43ff12bae3ae8fd4bf346fff739d0f34eccb966152d922ca09e62a5ab1c0f99f",
+  "historicalSaigonFeatures": [
+    {
+      "floor": [
+        "L6"
+      ],
+      "features": 19,
+      "candidates": [
+        {
+          "id": "escalator-30",
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator L6",
+            "location": "Level L6",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#b7b7b7d6",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "textSize": 14,
+            "icon": "escalator",
+            "showText": false,
+            "showIcon": true,
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "exit-1",
+          "properties": {
+            "type": "exit",
+            "name": "Exit L6",
+            "location": "Level 6",
+            "popularLocation": false,
+            "icon": "exit",
+            "height": 0,
+            "color": "#ffffff",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "textSize": 14,
+            "showText": false,
+            "showIcon": false,
+            "hasBorder": true,
+            "clickable": false,
+            "iconBackgroundColor": "#f9f9f9",
+            "iconSize": 25
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "exit-2",
+          "properties": {
+            "type": "exit",
+            "name": "Exit L6",
+            "location": "Level 6",
+            "popularLocation": false,
+            "height": 0,
+            "color": "#ffffff",
+            "hasBorder": true,
+            "clickable": false
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "elevator-zone-a",
+          "properties": {
+            "type": "polygon",
+            "popularLocation": false,
+            "name": "Zone A",
+            "location": "L6",
+            "height": 0.8,
+            "color": "#ececdfd6",
+            "showText": false,
+            "showIcon": true,
+            "clickable": true,
+            "hasBorder": true,
+            "icon": "elevator",
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "elevator-zone-b",
+          "properties": {
+            "type": "polygon",
+            "name": "Zone b",
+            "location": "L6",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#ececdfd6",
+            "showText": false,
+            "showIcon": true,
+            "clickable": true,
+            "hasBorder": true,
+            "icon": "elevator",
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "line-1",
+          "properties": {
+            "type": "line",
+            "name": "Line",
+            "height": 0.8,
+            "color": "#B5B5B5"
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 5
+        },
+        {
+          "id": "line-2",
+          "properties": {
+            "type": "line",
+            "name": "Line",
+            "height": 0.8,
+            "color": "#B5B5B5",
+            "textAngle": 0,
+            "textColor": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "textSize": 6,
+            "showText": false,
+            "showIcon": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": null,
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": null,
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        }
+      ]
+    },
+    {
+      "floor": [
+        "L5"
+      ],
+      "features": 22,
+      "candidates": [
+        {
+          "id": "30",
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator to Level 4",
+            "location": "Level 5",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#b7b7b7d6",
+            "icon": "escalator",
+            "showText": false,
+            "showIcon": true,
+            "iconColor": "#FFFFFF",
+            "iconSize": 18,
+            "iconBackgroundColor": "#6e510b",
+            "iconPadding": 2,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "30",
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator to Level 6",
+            "location": "Level 5",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#b7b7b7d6",
+            "icon": "escalator",
+            "showText": false,
+            "showIcon": true,
+            "iconColor": "#FFFFFF",
+            "iconSize": 18,
+            "iconBackgroundColor": "#6e510b",
+            "iconPadding": 2,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "exit-fire-image-1",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "exit",
+          "properties": {
+            "type": "exit",
+            "name": "Exit L5",
+            "location": "Level 5",
+            "popularLocation": false,
+            "icon": "exit",
+            "height": 0,
+            "color": "#ffffff",
+            "showIcon": false,
+            "hasBorder": true,
+            "clickable": false
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "exit-fire-image-1",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "exit",
+          "properties": {
+            "type": "exit",
+            "name": "Exit L5",
+            "location": "Level 2",
+            "popularLocation": false,
+            "icon": "exit",
+            "height": 0,
+            "color": "#ffffff",
+            "textSize": 14,
+            "showText": false,
+            "showIcon": false,
+            "hasBorder": true,
+            "clickable": false
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "exit-fire-image-3",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "exit",
+          "properties": {
+            "type": "exit",
+            "name": "Exit L5",
+            "location": "Level L5",
+            "popularLocation": false,
+            "icon": "exit",
+            "height": 0,
+            "color": "#ffffff",
+            "showText": false,
+            "showIcon": false,
+            "hasBorder": true,
+            "clickable": false
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "elevator",
+          "properties": {
+            "type": "polygon",
+            "name": "Zone A",
+            "location": "L5",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#ececdfd6",
+            "showText": false,
+            "showIcon": true,
+            "clickable": true,
+            "hasBorder": true,
+            "icon": "elevator",
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "elevator-zone-b",
+          "properties": {
+            "type": "polygon",
+            "name": "Zone B",
+            "location": "L5",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#ececdfd6",
+            "showText": false,
+            "showIcon": true,
+            "clickable": true,
+            "hasBorder": true,
+            "icon": "elevator",
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        }
+      ]
+    },
+    {
+      "floor": [
+        "L4"
+      ],
+      "features": 16,
+      "candidates": [
+        {
+          "id": "30",
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator",
+            "location": "Level 4",
+            "description": "Escalator to Level L5",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#b7b7b7d6",
+            "icon": "escalator",
+            "showText": false,
+            "showIcon": true,
+            "iconColor": "#FFFFFF",
+            "iconSize": 18,
+            "iconBackgroundColor": "#6e510b",
+            "iconPadding": 2,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "elevator-zone-a",
+          "properties": {
+            "type": "polygon",
+            "name": "Zone B",
+            "location": "L3",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#ececdfd6",
+            "showText": false,
+            "showIcon": true,
+            "clickable": true,
+            "hasBorder": true,
+            "icon": "elevator",
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "exit-fire-image-1",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "exit-fire-image-2",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        }
+      ]
+    },
+    {
+      "floor": [
+        "L3"
+      ],
+      "features": 41,
+      "candidates": [
+        {
+          "id": "layout-l3-escalator-1",
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator",
+            "location": "Level 3",
+            "description": "Escalator to Level L1",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#b7b7b7d6",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": "#000000",
+            "textSize": 14,
+            "icon": "escalator",
+            "showText": false,
+            "showIcon": true,
+            "iconColor": "#FFFFFF",
+            "iconSize": 18,
+            "iconBackgroundColor": "#6e510b",
+            "iconPadding": 2,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "layout-l3-escalator-2",
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator",
+            "location": "Level 3",
+            "description": "Escalator to Level L2",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#b7b7b7d6",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": "#000000",
+            "textSize": 14,
+            "icon": "escalator",
+            "showText": false,
+            "showIcon": true,
+            "iconColor": "#FFFFFF",
+            "iconSize": 18,
+            "iconBackgroundColor": "#6e510b",
+            "iconPadding": 2,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "layout-l3-escalator-3",
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator",
+            "location": "Level 3",
+            "description": "Escalator to Level L4",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#b7b7b7d6",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": "#000000",
+            "textSize": 14,
+            "icon": "escalator",
+            "showText": false,
+            "showIcon": true,
+            "iconColor": "#FFFFFF",
+            "iconSize": 18,
+            "iconBackgroundColor": "#6e510b",
+            "iconPadding": 2,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "elevator-zone-b",
+          "properties": {
+            "type": "polygon",
+            "name": "Zone B",
+            "location": "L3",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#ececdfd6",
+            "showText": false,
+            "showIcon": true,
+            "clickable": true,
+            "hasBorder": true,
+            "icon": "elevator",
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "elevator-zone-a",
+          "properties": {
+            "type": "polygon",
+            "name": "Zone A",
+            "location": "L3",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#ececdfd6",
+            "showText": false,
+            "showIcon": true,
+            "clickable": true,
+            "hasBorder": true,
+            "icon": "elevator",
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "exit-fire-image-1",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "exit-fire-image-2",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "exit-fire-image-3",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "exit-fire-image-4",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "exit-fire-image-5",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "line-1",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0.8,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-2",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0.8,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-2",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0.8,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-3",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0.8,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 3
+        },
+        {
+          "id": "line-4",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0.8,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-4",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0.8,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-4",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0.8,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        }
+      ]
+    },
+    {
+      "floor": [
+        "L2"
+      ],
+      "features": 51,
+      "candidates": [
+        {
+          "id": null,
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator to Level L1",
+            "location": "Level 1",
+            "description": "Escalator to Level L1",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#b7b7b7d6",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": "#000000",
+            "textSize": 14,
+            "icon": "escalator",
+            "showText": false,
+            "showIcon": true,
+            "iconColor": "#FFFFFF",
+            "iconSize": 18,
+            "iconBackgroundColor": "#6e510b",
+            "iconPadding": 2,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": null,
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator to Level L3",
+            "location": "Level 1",
+            "description": "Escalator to Level L3",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#b7b7b7d6",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": "#000000",
+            "textSize": 14,
+            "icon": "escalator",
+            "showText": false,
+            "showIcon": true,
+            "iconColor": "#FFFFFF",
+            "iconSize": 18,
+            "iconBackgroundColor": "#6e510b",
+            "iconPadding": 2,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": null,
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator to Level L3",
+            "location": "Level 1",
+            "description": "Escalator to Level L3",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#b7b7b7d6",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": "#000000",
+            "textSize": 14,
+            "icon": "escalator",
+            "showText": false,
+            "showIcon": true,
+            "iconColor": "#FFFFFF",
+            "iconSize": 18,
+            "iconBackgroundColor": "#6e510b",
+            "iconPadding": 2,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "elevator-zone-a",
+          "properties": {
+            "type": "polygon",
+            "name": "Zone A",
+            "location": "L2",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#c7e8ffd6",
+            "showText": false,
+            "showIcon": true,
+            "clickable": true,
+            "hasBorder": true,
+            "icon": "elevator",
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "elevator-zone-b",
+          "properties": {
+            "type": "polygon",
+            "name": "Zone B",
+            "location": "L2",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#c7e8ffd6",
+            "showText": false,
+            "showIcon": true,
+            "clickable": true,
+            "hasBorder": true,
+            "icon": "elevator",
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "exit-fire-image-1",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "exit-fire-image-2",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "exit-fire-image-3",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "exit-fire-image-4",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "exit-fire-image-5",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "line-1",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 3
+        },
+        {
+          "id": "line-2",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 3
+        },
+        {
+          "id": "line-3",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-4",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-4",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-5",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-6",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 5
+        },
+        {
+          "id": "line-7",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-8",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-9",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-10",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-11",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-12",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-13",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-14",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-15",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-16",
+          "properties": {
+            "type": "line",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 4
+        }
+      ]
+    },
+    {
+      "floor": [
+        "L1"
+      ],
+      "features": 62,
+      "candidates": [
+        {
+          "id": "door-1",
+          "properties": {
+            "type": "door",
+            "name": "Main Entrance",
+            "location": "Nam Ky Khoi Nghia",
+            "popularLocation": true,
+            "height": 2,
+            "color": "#3a7fe87a",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": "#000000",
+            "textSize": 14,
+            "showText": false,
+            "showIcon": true,
+            "icon": "door",
+            "iconColor": "#515151",
+            "iconBackgroundColor": "#f9f9f9",
+            "iconSize": 22
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "door-2",
+          "properties": {
+            "type": "door",
+            "name": "Main Entrance",
+            "location": "Pasteur",
+            "popularLocation": true,
+            "height": 2,
+            "color": "#3a7fe87a",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": "#000000",
+            "textSize": 14,
+            "showText": false,
+            "showIcon": true,
+            "icon": "door",
+            "iconColor": "#515151",
+            "iconBackgroundColor": "#f9f9f9",
+            "iconSize": 22
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "door-3",
+          "properties": {
+            "type": "door",
+            "name": "Entrance",
+            "location": "Le Loi",
+            "popularLocation": true,
+            "height": 2,
+            "color": "#3a7fe87a",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": "#000000",
+            "textSize": 14,
+            "showText": false,
+            "showIcon": true,
+            "icon": "door",
+            "iconColor": "#515151",
+            "iconBackgroundColor": "#f9f9f9",
+            "iconSize": 22
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "door-4",
+          "properties": {
+            "type": "door",
+            "name": "Entrance",
+            "location": "Pasteur – Le Loi",
+            "popularLocation": true,
+            "height": 2,
+            "color": "#3a7fe87a",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": "#000000",
+            "textSize": 14,
+            "showText": false,
+            "showIcon": true,
+            "icon": "door",
+            "iconColor": "#515151",
+            "iconBackgroundColor": "#f9f9f9",
+            "iconSize": 22
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "escalator-1",
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator to Level B1",
+            "location": "Level 1",
+            "description": "Escalator to Level B1",
+            "popularLocation": false,
+            "height": 1,
+            "color": "#b7b7b7d6",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": "#000000",
+            "textSize": 14,
+            "icon": "escalator",
+            "showText": false,
+            "showIcon": true,
+            "iconColor": "#FFFFFF",
+            "iconSize": 18,
+            "iconBackgroundColor": "#6e510b",
+            "iconPadding": 2,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "escalator-2",
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator to Level 2",
+            "location": "Level 1",
+            "popularLocation": false,
+            "height": 1,
+            "color": "#b7b7b7d6",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": "#000000",
+            "textSize": 14,
+            "icon": "escalator",
+            "showText": false,
+            "showIcon": true,
+            "iconColor": "#FFFFFF",
+            "iconSize": 18,
+            "iconBackgroundColor": "#6e510b",
+            "iconPadding": 2,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "escalator-3",
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator to Level 3",
+            "location": "Level 2",
+            "popularLocation": false,
+            "icon": "escalator",
+            "height": 1,
+            "color": "#b7b7b7d6",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": "#000000",
+            "textSize": 14,
+            "showText": false,
+            "showIcon": true,
+            "iconColor": "#FFFFFF",
+            "iconSize": 18,
+            "iconBackgroundColor": "#6e510b",
+            "iconPadding": 2,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "arrow-1",
+          "properties": {
+            "type": "arrow",
+            "name": "111",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 44
+        },
+        {
+          "id": "arrow-2",
+          "properties": {
+            "type": "arrow",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "arrow-3",
+          "properties": {
+            "type": "arrow",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 27
+        },
+        {
+          "id": "arrow-4",
+          "properties": {
+            "type": "arrow",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": null,
+          "properties": {
+            "icon": "elevator",
+            "iconColor": "#FFFFFF",
+            "iconSize": 18,
+            "iconBackgroundColor": "#6e510b",
+            "iconPadding": 2,
+            "typeIcon": "square"
+          },
+          "geometryType": "Point",
+          "coordinateCount": 2
+        },
+        {
+          "id": null,
+          "properties": {
+            "icon": "elevator",
+            "iconColor": "#FFFFFF",
+            "iconSize": 18,
+            "iconBackgroundColor": "#6e510b",
+            "iconPadding": 2,
+            "typeIcon": "square"
+          },
+          "geometryType": "Point",
+          "coordinateCount": 2
+        },
+        {
+          "id": null,
+          "properties": {
+            "icon": "elevator",
+            "iconColor": "#FFFFFF",
+            "iconSize": 18,
+            "iconBackgroundColor": "#6e510b",
+            "iconPadding": 2,
+            "typeIcon": "square"
+          },
+          "geometryType": "Point",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-atum",
+          "properties": {
+            "type": "arrow",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 8
+        },
+        {
+          "id": "line-2",
+          "properties": {
+            "type": "arrow",
+            "name": "111",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 8
+        },
+        {
+          "id": "zone-b",
+          "properties": {
+            "type": "polygon",
+            "name": "ZONE B",
+            "popularLocation": true,
+            "height": 0,
+            "color": "#ececdf",
+            "textPosition": [
+              106.70058550410104,
+              10.773077031508414,
+              1.1
+            ],
+            "textAngle": 0,
+            "textColor": "#584006",
+            "textSize": 2,
+            "showText": true,
+            "showIcon": false,
+            "icon": "door",
+            "iconColor": "#515151",
+            "iconBackgroundColor": "#f9f9f9",
+            "iconSize": 22
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "zone-a",
+          "properties": {
+            "type": "polygon",
+            "name": "ZONE A",
+            "popularLocation": true,
+            "height": 0,
+            "color": "#ececdf",
+            "textPosition": [
+              106.70091682887701,
+              10.77324272230062,
+              1
+            ],
+            "textAngle": 0,
+            "textColor": "#584006",
+            "textSize": 2,
+            "showText": true,
+            "showIcon": false,
+            "icon": "door",
+            "iconColor": "#515151",
+            "iconBackgroundColor": "#f9f9f9",
+            "iconSize": 22
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "exit-fire-image-1",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 2
+        },
+        {
+          "id": "exit-fire-image-2",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 2
+        },
+        {
+          "id": "exit-fire-image-3",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "size": 1.5,
+            "clickable": false,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 2
+        },
+        {
+          "id": "exit-fire-image-4",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-1",
+          "properties": {
+            "type": "arrow",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 4
+        },
+        {
+          "id": "line-2",
+          "properties": {
+            "type": "arrow",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-2",
+          "properties": {
+            "type": "arrow",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-2",
+          "properties": {
+            "type": "arrow",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        },
+        {
+          "id": "line-5",
+          "properties": {
+            "type": "arrow",
+            "color": "#d7d7d7",
+            "height": 0,
+            "clickable": false
+          },
+          "geometryType": "LineString",
+          "coordinateCount": 2
+        }
+      ]
+    },
+    {
+      "floor": [
+        "B1"
+      ],
+      "features": 30,
+      "candidates": [
+        {
+          "id": "escalator",
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator B1",
+            "location": "Level B1",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#b7b7b7d6",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "textSize": 14,
+            "icon": "escalator",
+            "showText": false,
+            "showIcon": true,
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "Escalator",
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator B1",
+            "location": "Level 1",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#b7b7b7d6",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "textSize": 14,
+            "icon": "escalator",
+            "showText": false,
+            "showIcon": true,
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "exit",
+          "properties": {
+            "type": "exit",
+            "name": "Exit B2",
+            "location": "Level B2",
+            "popularLocation": false,
+            "icon": "exit",
+            "height": 0,
+            "color": "#ffffff",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "textSize": 14,
+            "showText": false,
+            "showIcon": false,
+            "clickable": false,
+            "hasBorder": true
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "exit",
+          "properties": {
+            "type": "exit",
+            "name": "Exit B2",
+            "location": "Level 2",
+            "popularLocation": false,
+            "icon": "exit",
+            "height": 0,
+            "color": "#ffffff",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "textSize": 14,
+            "showText": false,
+            "showIcon": false,
+            "clickable": false,
+            "hasBorder": true
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "exit",
+          "properties": {
+            "type": "exit",
+            "name": "Exit B1",
+            "location": "Level B1",
+            "popularLocation": false,
+            "icon": "exit",
+            "height": 0,
+            "color": "#ffffff",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "textSize": 14,
+            "showText": false,
+            "showIcon": false,
+            "clickable": false,
+            "hasBorder": true
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "elevator-zone-a",
+          "properties": {
+            "type": "polygon",
+            "popularLocation": false,
+            "name": "Zone A",
+            "location": "B1",
+            "height": 1,
+            "color": "#ecece0",
+            "showText": false,
+            "showIcon": true,
+            "clickable": true,
+            "hasBorder": true,
+            "icon": "elevator",
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "elevator-zone-b",
+          "properties": {
+            "type": "polygon",
+            "popularLocation": false,
+            "name": "Zone B",
+            "location": "B1",
+            "height": 1,
+            "color": "#ecece0",
+            "showText": false,
+            "showIcon": true,
+            "clickable": true,
+            "hasBorder": true,
+            "icon": "elevator",
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": null,
+          "properties": {},
+          "geometryType": "LineString",
+          "coordinateCount": 4
+        },
+        {
+          "id": "exit-fire-image-1",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "exit-fire-image-1",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "exit-fire-image-1",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        }
+      ]
+    },
+    {
+      "floor": [
+        "B2"
+      ],
+      "features": 34,
+      "candidates": [
+        {
+          "id": "31",
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator",
+            "location": "Level 1",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#b7b7b7d6",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "textSize": 14,
+            "icon": "escalator",
+            "showText": false,
+            "showIcon": true,
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "coordinateCount": 1
+        },
+        {
+          "id": "30",
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator to Level B2",
+            "location": "Level B1",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#b7b7b7d6",
+            "icon": "escalator",
+            "showText": false,
+            "showIcon": true,
+            "iconColor": "#FFFFFF",
+            "iconSize": 18,
+            "iconBackgroundColor": "#6e510b",
+            "iconPadding": 2,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "exit-fire-image-1",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "exit-fire-image-2",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "exit",
+          "properties": {
+            "type": "exit",
+            "name": "Exit B2",
+            "popularLocation": false,
+            "icon": "exit",
+            "height": 0.8,
+            "color": "#b7b7b7d6",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "textSize": 14,
+            "showText": false,
+            "showIcon": false,
+            "iconBackgroundColor": "#f9f9f9",
+            "iconSize": 25
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "elevator-zone-b",
+          "properties": {
+            "type": "polygon",
+            "popularLocation": false,
+            "name": "Zone B",
+            "location": "B2",
+            "height": 1,
+            "color": "#b7b7b7d6",
+            "showText": false,
+            "showIcon": true,
+            "clickable": true,
+            "hasBorder": false,
+            "icon": "elevator",
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "elevator-zone-a",
+          "properties": {
+            "type": "polygon",
+            "name": "Zone A",
+            "location": "B2",
+            "popularLocation": false,
+            "height": 1,
+            "color": "#b7b7b7d6",
+            "showText": false,
+            "showIcon": true,
+            "clickable": true,
+            "hasBorder": false,
+            "icon": "elevator",
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        },
+        {
+          "id": "exit-fire-image-1",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "exit-fire-image-2",
+          "properties": {
+            "type": "custom-icon",
+            "name": "Emergency Fire Exit",
+            "iconAtlas": "/map-icons/exit_fire.png",
+            "iconMapping": {
+              "marker": {
+                "x": 0,
+                "y": 0,
+                "width": 352,
+                "height": 200,
+                "anchorY": 80
+              }
+            },
+            "iconName": "marker",
+            "clickable": false,
+            "size": 1.5,
+            "angle": 0,
+            "color": [
+              0,
+              170,
+              174,
+              255
+            ]
+          },
+          "geometryType": "Point",
+          "coordinateCount": 3
+        },
+        {
+          "id": "escalator-right",
+          "properties": {
+            "type": "escalator",
+            "name": "Escalator B2",
+            "location": "Level B2",
+            "popularLocation": false,
+            "height": 0.8,
+            "color": "#b7b7b7d6",
+            "textPosition": [
+              106.70052,
+              10.7732,
+              2.1
+            ],
+            "textAngle": 0,
+            "textColor": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "textSize": 14,
+            "icon": "escalator",
+            "showText": false,
+            "showIcon": true,
+            "iconBackgroundColor": "#694e0b",
+            "iconSize": 20,
+            "iconColor": "#ffffff",
+            "iconPadding": 5,
+            "iconClickable": false,
+            "typeIcon": "square"
+          },
+          "geometryType": "Polygon",
+          "coordinateCount": 1
+        }
+      ]
+    }
+  ],
+  "malls": [
+    {
+      "mall": "saigon-centre",
+      "floors": [
+        "B2",
+        "B1",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "destinations": 165,
+      "locations": 170,
+      "floorOnlyLocations": 13,
+      "multiFloorDestinations": 2,
+      "publishedFacilities": [],
+      "frame": {
+        "version": "saigon-centre-schematic-canvas-v1",
+        "units": "schematic local units",
+        "scaleStatus": "fixed 0.02 units/source pixel across all levels; not metric",
+        "orientationStatus": "source image +x right/+z down; north and exterior alignment unverified",
+        "registrationStatus": "not-run; source translation centres rasters; cross-level alignment is an estimate",
+        "heightStatus": "5-unit schematic slots; M half slot; L1 zero, not construction heights"
+      },
+      "regionRoles": [
+        "unreviewed-reference-region",
+        "reference-context"
+      ],
+      "sources": [
+        {
+          "floor": "B2",
+          "sources": [
+            {
+              "path": "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-B2-2026-10-01.png",
+              "width": 5142,
+              "height": 5284,
+              "bytes": 3124497,
+              "sha256": "92e959288b957497e3859fb2db80f0657ecb590fd2268c4948a57bdd18ea8497",
+              "transform": [
+                0.02,
+                0,
+                0,
+                0.02,
+                -51.42,
+                -52.84
+              ],
+              "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+            }
+          ]
+        },
+        {
+          "floor": "B1",
+          "sources": [
+            {
+              "path": "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-B1-2026-10-01.png",
+              "width": 5142,
+              "height": 5258,
+              "bytes": 2951498,
+              "sha256": "eeda80dda33eb7ec301881b86603b04b0fd03a16750b14dee25c7a1d99ca4afe",
+              "transform": [
+                0.02,
+                0,
+                0,
+                0.02,
+                -51.42,
+                -52.58
+              ],
+              "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+            }
+          ]
+        },
+        {
+          "floor": "L1",
+          "sources": [
+            {
+              "path": "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L1-2026-10-01.png",
+              "width": 4782,
+              "height": 5304,
+              "bytes": 3184141,
+              "sha256": "d7c4697eb9399e8d768586b01139295cf90c3607ba44e690a031c0aaf5eba89b",
+              "transform": [
+                0.02,
+                0,
+                0,
+                0.02,
+                -47.82,
+                -53.04
+              ],
+              "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+            }
+          ]
+        },
+        {
+          "floor": "L2",
+          "sources": [
+            {
+              "path": "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L2-2026-10-01.png",
+              "width": 4608,
+              "height": 5082,
+              "bytes": 3031814,
+              "sha256": "4749dd738ea148407c334396183ef917711f4ff10fbfaa796a7ff6f31ede4fd5",
+              "transform": [
+                0.02,
+                0,
+                0,
+                0.02,
+                -46.08,
+                -50.82
+              ],
+              "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+            }
+          ]
+        },
+        {
+          "floor": "L3",
+          "sources": [
+            {
+              "path": "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L3-2026-10-01.png",
+              "width": 4712,
+              "height": 5142,
+              "bytes": 3301657,
+              "sha256": "905e5de4c90debbabddd8a7fadf9e47b5084bf6b01703ba5450b9e8603763ab8",
+              "transform": [
+                0.02,
+                0,
+                0,
+                0.02,
+                -47.12,
+                -51.42
+              ],
+              "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+            }
+          ]
+        },
+        {
+          "floor": "L4",
+          "sources": [
+            {
+              "path": "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L4-2026-10-01.png",
+              "width": 4832,
+              "height": 5132,
+              "bytes": 2374772,
+              "sha256": "e97069f721f384d6e37bc7896d8e95344d1f5cc153e17eb9d3c844a11c046f60",
+              "transform": [
+                0.02,
+                0,
+                0,
+                0.02,
+                -48.32,
+                -51.32
+              ],
+              "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+            }
+          ]
+        },
+        {
+          "floor": "L5",
+          "sources": [
+            {
+              "path": "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L5-2026-10-01.png",
+              "width": 4732,
+              "height": 4416,
+              "bytes": 2273771,
+              "sha256": "4abefc8f9c34f1fa3c0f9076e5b4b9c5689505d783d6a843a37078f2a6b712c5",
+              "transform": [
+                0.02,
+                0,
+                0,
+                0.02,
+                -47.32,
+                -44.160000000000004
+              ],
+              "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+            }
+          ]
+        },
+        {
+          "floor": "L6",
+          "sources": [
+            {
+              "path": "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L6-2026-10-01.png",
+              "width": 4902,
+              "height": 4848,
+              "bytes": 2130923,
+              "sha256": "94ecc7542a08d96cdf14fc43efcbd6c26ff753c59be135867d4092c33187e4f6",
+              "transform": [
+                0.02,
+                0,
+                0,
+                0.02,
+                -49.02,
+                -48.480000000000004
+              ],
+              "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+            }
+          ]
+        }
+      ],
+      "hashes": {
+        "data/malls/saigon-centre/directory.json": "ffade29ada11d158619a2d58758611b210423bd609b3a4bf4f82b1af88fd5b2c",
+        "data/malls/saigon-centre/floor-geometry.json": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807"
+      }
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "floors": [
+        "B3",
+        "B2",
+        "B1",
+        "L1",
+        "M",
+        "L2",
+        "L3"
+      ],
+      "destinations": 203,
+      "locations": 205,
+      "floorOnlyLocations": 182,
+      "multiFloorDestinations": 2,
+      "publishedFacilities": [],
+      "frame": {
+        "version": "vincom-dong-khoi-schematic-canvas-v1",
+        "units": "schematic local units",
+        "scaleStatus": "fixed 0.1 units/source pixel across all levels; not metric",
+        "orientationStatus": "source image +x right/+z down; north and exterior alignment unverified",
+        "registrationStatus": "not-run; source translation centres rasters; cross-level alignment is an estimate",
+        "heightStatus": "5-unit schematic slots; M half slot; L1 zero, not construction heights"
+      },
+      "regionRoles": [
+        "unreviewed-reference-region"
+      ],
+      "sources": [
+        {
+          "floor": "B3",
+          "sources": [
+            {
+              "path": "Vincom đồng khởi/map/tang-b3.webp",
+              "width": 1320,
+              "height": 1077,
+              "bytes": 102024,
+              "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+              "transform": [
+                0.1,
+                0,
+                0,
+                0.1,
+                -66,
+                -53.85
+              ],
+              "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+            }
+          ]
+        },
+        {
+          "floor": "B2",
+          "sources": [
+            {
+              "path": "Vincom đồng khởi/map/tang-b2.webp",
+              "width": 1319,
+              "height": 1083,
+              "bytes": 109394,
+              "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+              "transform": [
+                0.1,
+                0,
+                0,
+                0.1,
+                -65.95,
+                -54.150000000000006
+              ],
+              "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+            }
+          ]
+        },
+        {
+          "floor": "B1",
+          "sources": [
+            {
+              "path": "Vincom đồng khởi/map/tang-b1.webp",
+              "width": 1320,
+              "height": 1083,
+              "bytes": 119288,
+              "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+              "transform": [
+                0.1,
+                0,
+                0,
+                0.1,
+                -66,
+                -54.150000000000006
+              ],
+              "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+            }
+          ]
+        },
+        {
+          "floor": "L1",
+          "sources": [
+            {
+              "path": "Vincom đồng khởi/map/tang-l1.webp",
+              "width": 1320,
+              "height": 1083,
+              "bytes": 72660,
+              "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+              "transform": [
+                0.1,
+                0,
+                0,
+                0.1,
+                -66,
+                -54.150000000000006
+              ],
+              "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+            }
+          ]
+        },
+        {
+          "floor": "M",
+          "sources": [
+            {
+              "path": "Vincom đồng khởi/map/tang-m.webp",
+              "width": 1319,
+              "height": 1084,
+              "bytes": 57294,
+              "sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530",
+              "transform": [
+                0.1,
+                0,
+                0,
+                0.1,
+                -65.95,
+                -54.2
+              ],
+              "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+            }
+          ]
+        },
+        {
+          "floor": "L2",
+          "sources": [
+            {
+              "path": "Vincom đồng khởi/map/tang-l2.webp",
+              "width": 1320,
+              "height": 1084,
+              "bytes": 42898,
+              "sha256": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029",
+              "transform": [
+                0.1,
+                0,
+                0,
+                0.1,
+                -66,
+                -54.2
+              ],
+              "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+            }
+          ]
+        },
+        {
+          "floor": "L3",
+          "sources": [
+            {
+              "path": "Vincom đồng khởi/map/tang-l3.webp",
+              "width": 1319,
+              "height": 1081,
+              "bytes": 39802,
+              "sha256": "629d9860433bacc381daede046513190e2d6877bf88f99907eafb3f0794bbc70",
+              "transform": [
+                0.1,
+                0,
+                0,
+                0.1,
+                -65.95,
+                -54.050000000000004
+              ],
+              "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+            }
+          ]
+        }
+      ],
+      "hashes": {
+        "data/malls/vincom-dong-khoi/directory.json": "b38b55ab32108efeef2a3cb751f2142fc04c61ba94c4825d50080786ad810c14",
+        "data/malls/vincom-dong-khoi/floor-geometry.json": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e"
+      }
+    }
+  ],
+  "conclusion": "No validated walkable topology, paired floor connectors, accessibility attributes or surveyed registration. Ship floor comparison only."
+}

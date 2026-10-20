@@ -1,0 +1,267 @@
+{
+  "at": "2026-10-20T00:12:19.107Z",
+  "sourceCheckpoint": "3e505fb",
+  "browser": "149.0.7827.198",
+  "scope": "Four bounded direct-destination browser cases on final raw package previews without acceptance injection; separate from the172-case acceptance-server regression.",
+  "runs": [
+    {
+      "mall": "saigon-centre",
+      "port": 4411,
+      "locale": "en",
+      "width": 1280,
+      "destinationId": "saigon-prototype-meatmeet",
+      "checks": [
+        {
+          "label": "Raw packaged direct destination returns200",
+          "pass": true
+        },
+        {
+          "label": "Raw HTML has no acceptance helper injection",
+          "pass": true
+        },
+        {
+          "label": "Hydrated direct destination details usable",
+          "pass": true
+        },
+        {
+          "label": "Localized destination description exact",
+          "pass": true
+        },
+        {
+          "label": "Native guidance disclosure opens by keyboard",
+          "pass": true
+        },
+        {
+          "label": "Fresh raw browser starts with unknown manual floor",
+          "pass": true
+        },
+        {
+          "label": "Packaged manual floor selector changes successfully",
+          "pass": true
+        },
+        {
+          "label": "Manual floor comparison preserves destination URL and selected target",
+          "pass": true
+        },
+        {
+          "label": "Manual starting floor persists in raw browser session",
+          "pass": true
+        },
+        {
+          "label": "Official fallback and unsupported-route limitation remain useful",
+          "pass": true
+        },
+        {
+          "label": "No acceptance helper loaded or requested",
+          "pass": true
+        },
+        {
+          "label": "No horizontal document overflow",
+          "pass": true
+        },
+        {
+          "label": "No uncaught raw package browser errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "acceptanceRequests": []
+    },
+    {
+      "mall": "saigon-centre",
+      "port": 4411,
+      "locale": "vi",
+      "width": 390,
+      "destinationId": "saigon-prototype-meatmeet",
+      "checks": [
+        {
+          "label": "Raw packaged direct destination returns200",
+          "pass": true
+        },
+        {
+          "label": "Raw HTML has no acceptance helper injection",
+          "pass": true
+        },
+        {
+          "label": "Hydrated direct destination details usable",
+          "pass": true
+        },
+        {
+          "label": "Localized destination description exact",
+          "pass": true
+        },
+        {
+          "label": "Native guidance disclosure opens by keyboard",
+          "pass": true
+        },
+        {
+          "label": "Fresh raw browser starts with unknown manual floor",
+          "pass": true
+        },
+        {
+          "label": "Packaged manual floor selector changes successfully",
+          "pass": true
+        },
+        {
+          "label": "Manual floor comparison preserves destination URL and selected target",
+          "pass": true
+        },
+        {
+          "label": "Manual starting floor persists in raw browser session",
+          "pass": true
+        },
+        {
+          "label": "Official fallback and unsupported-route limitation remain useful",
+          "pass": true
+        },
+        {
+          "label": "No acceptance helper loaded or requested",
+          "pass": true
+        },
+        {
+          "label": "No horizontal document overflow",
+          "pass": true
+        },
+        {
+          "label": "No uncaught raw package browser errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "acceptanceRequests": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "port": 4412,
+      "locale": "en",
+      "width": 1280,
+      "destinationId": "vincom-prototype-meatmeet",
+      "checks": [
+        {
+          "label": "Raw packaged direct destination returns200",
+          "pass": true
+        },
+        {
+          "label": "Raw HTML has no acceptance helper injection",
+          "pass": true
+        },
+        {
+          "label": "Hydrated direct destination details usable",
+          "pass": true
+        },
+        {
+          "label": "Localized destination description exact",
+          "pass": true
+        },
+        {
+          "label": "Native guidance disclosure opens by keyboard",
+          "pass": true
+        },
+        {
+          "label": "Fresh raw browser starts with unknown manual floor",
+          "pass": true
+        },
+        {
+          "label": "Packaged manual floor selector changes successfully",
+          "pass": true
+        },
+        {
+          "label": "Manual floor comparison preserves destination URL and selected target",
+          "pass": true
+        },
+        {
+          "label": "Manual starting floor persists in raw browser session",
+          "pass": true
+        },
+        {
+          "label": "Official fallback and unsupported-route limitation remain useful",
+          "pass": true
+        },
+        {
+          "label": "No acceptance helper loaded or requested",
+          "pass": true
+        },
+        {
+          "label": "No horizontal document overflow",
+          "pass": true
+        },
+        {
+          "label": "No uncaught raw package browser errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "acceptanceRequests": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "port": 4412,
+      "locale": "vi",
+      "width": 390,
+      "destinationId": "vincom-prototype-meatmeet",
+      "checks": [
+        {
+          "label": "Raw packaged direct destination returns200",
+          "pass": true
+        },
+        {
+          "label": "Raw HTML has no acceptance helper injection",
+          "pass": true
+        },
+        {
+          "label": "Hydrated direct destination details usable",
+          "pass": true
+        },
+        {
+          "label": "Localized destination description exact",
+          "pass": true
+        },
+        {
+          "label": "Native guidance disclosure opens by keyboard",
+          "pass": true
+        },
+        {
+          "label": "Fresh raw browser starts with unknown manual floor",
+          "pass": true
+        },
+        {
+          "label": "Packaged manual floor selector changes successfully",
+          "pass": true
+        },
+        {
+          "label": "Manual floor comparison preserves destination URL and selected target",
+          "pass": true
+        },
+        {
+          "label": "Manual starting floor persists in raw browser session",
+          "pass": true
+        },
+        {
+          "label": "Official fallback and unsupported-route limitation remain useful",
+          "pass": true
+        },
+        {
+          "label": "No acceptance helper loaded or requested",
+          "pass": true
+        },
+        {
+          "label": "No horizontal document overflow",
+          "pass": true
+        },
+        {
+          "label": "No uncaught raw package browser errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": [],
+      "acceptanceRequests": []
+    }
+  ],
+  "complete": true,
+  "cases": 4,
+  "assertions": 52
+}

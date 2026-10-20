@@ -1,0 +1,224 @@
+{
+  "revision": "vincom-continuation-2026-10-19-r2-incremental",
+  "records": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-ecco",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://eccovietnam.vn/pages/stores-addresses",
+          "evidence": "Official store locator Dong Khoi row names72LeThanhTon and prints0919390342. incremental-direct.txt line148. No corporate contact substituted.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "reviewedBy": "Codex delegated Vincom research reviewer",
+          "reviewedAt": "2026-10-19",
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "0919390342",
+            "en": "0919390342"
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-lyn",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://lynvn.com/pages/content-store-location",
+          "evidence": "Official Dong Khoi row prints (+84)02838231332; domestic digits retained, redundant country prefix omitted. incremental-direct2.txt lines85-91.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "reviewedBy": "Codex delegated Vincom research reviewer",
+          "reviewedAt": "2026-10-19",
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "02838231332",
+            "en": "02838231332"
+          }
+        },
+        {
+          "field": "hours",
+          "state": "verified-agent",
+          "sourceUrl": "https://lynvn.com/pages/content-store-location",
+          "evidence": "Official Dong Khoi row distinguishes weekdays/weekends. incremental-direct2.txt lines85-91.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "reviewedBy": "Codex delegated Vincom research reviewer",
+          "reviewedAt": "2026-10-19",
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "Thứ Hai–Thứ Sáu: 10:00–22:00; Thứ Bảy–Chủ Nhật: 09:30–22:00.",
+            "en": "Monday–Friday: 10:00–22:00; Saturday–Sunday: 09:30–22:00."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-matsumotokiyoshi",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.matsukiyo.vn/access?lang=en",
+          "evidence": "Official Access locator Dong Khoi block prints this telephone. incremental-beauty-detail.txt lines26-31.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "reviewedBy": "Codex delegated Vincom research reviewer",
+          "reviewedAt": "2026-10-19",
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "028 7302 2212",
+            "en": "028 7302 2212"
+          }
+        },
+        {
+          "field": "hours",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.matsukiyo.vn/access?lang=en",
+          "evidence": "Official Access locator Dong Khoi hours, not inherited mall default. incremental-beauty-detail.txt lines26-31.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "reviewedBy": "Codex delegated Vincom research reviewer",
+          "reviewedAt": "2026-10-19",
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "Thứ Hai–Thứ Sáu: 10:00–22:00; Thứ Bảy, Chủ Nhật và ngày lễ: 09:30–22:00.",
+            "en": "Monday–Friday: 10:00–22:00; Saturday, Sunday and holidays: 09:30–22:00."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-shiseido",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.shiseido.com.vn/en/Storelocator",
+          "evidence": "Official Shiseido Dong Khoi counter row; incremental-beauty-detail.txt lines77-78.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "reviewedBy": "Codex delegated Vincom research reviewer",
+          "reviewedAt": "2026-10-19",
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "(028) 9999 0899",
+            "en": "(028) 9999 0899"
+          }
+        },
+        {
+          "field": "hours",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.shiseido.com.vn/en/Storelocator",
+          "evidence": "Official Shiseido Dong Khoi counter row explicitly lists weekdays/weekends; incremental-beauty-detail.txt lines77-78.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "reviewedBy": "Codex delegated Vincom research reviewer",
+          "reviewedAt": "2026-10-19",
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "Thứ Hai–Thứ Sáu: 10:00–22:00; Thứ Bảy–Chủ Nhật: 09:30–22:00.",
+            "en": "Monday–Friday: 10:00–22:00; Saturday–Sunday: 09:30–22:00."
+          }
+        },
+        {
+          "field": "services",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.shiseido.com.vn/en/Storelocator",
+          "evidence": "Dong Khoi row says Co Beauty Center. No treatment list, appointment availability or prices asserted. incremental-beauty-detail.txt lines77-78.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "reviewedBy": "Codex delegated Vincom research reviewer",
+          "reviewedAt": "2026-10-19",
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "Có Beauty Center theo danh sách quầy chính thức; xác nhận dịch vụ và lịch hẹn với quầy.",
+            "en": "Beauty Center listed in the official counter directory; confirm services and appointments with the counter."
+          }
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-tgnhthegioinuochoa",
+      "fields": [
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.thegioinuochoa.com.vn/store/index",
+          "evidence": "Official showroom locator Dong Khoi row prints this phone, separate from national hotline. incremental-beauty-detail.txt lines410-414.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "reviewedBy": "Codex delegated Vincom research reviewer",
+          "reviewedAt": "2026-10-19",
+          "branchMallId": "vincom-dong-khoi",
+          "value": {
+            "vi": "0917 397 708",
+            "en": "0917 397 708"
+          }
+        }
+      ]
+    }
+  ]
+}

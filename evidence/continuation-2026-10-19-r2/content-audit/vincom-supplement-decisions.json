@@ -1,0 +1,136 @@
+{
+  "checkedAt": "2026-10-19",
+  "inputSha256": "413300d23d03d0568c8eb602fae1dfff37f39a14988126897a1bc7794a489b23",
+  "acceptedFields": 9,
+  "heldProposedFields": 0,
+  "boundedUnavailableAccepted": 2,
+  "decisions": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-ecco",
+      "field": "phone",
+      "decision": "accept",
+      "reason": "Independent fresh official branch locator confirms exact value and branch scope; phone source normalization and bilingual schedule meaning reviewed. Shiseido Dong Khoi counterL1-53 agrees with frozenL1 identity; no floor/unit changes inferred.",
+      "sourceUrl": "https://eccovietnam.vn/pages/stores-addresses",
+      "freshWebReference": "turn204view0",
+      "lines": "148"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-lyn",
+      "field": "phone",
+      "decision": "accept",
+      "reason": "Independent fresh official branch locator confirms exact value and branch scope; phone source normalization and bilingual schedule meaning reviewed. Shiseido Dong Khoi counterL1-53 agrees with frozenL1 identity; no floor/unit changes inferred.",
+      "sourceUrl": "https://lynvn.com/pages/content-store-location",
+      "freshWebReference": "turn205view0",
+      "lines": "85-91"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-lyn",
+      "field": "hours",
+      "decision": "accept",
+      "reason": "Independent fresh official branch locator confirms exact value and branch scope; phone source normalization and bilingual schedule meaning reviewed. Shiseido Dong Khoi counterL1-53 agrees with frozenL1 identity; no floor/unit changes inferred.",
+      "sourceUrl": "https://lynvn.com/pages/content-store-location",
+      "freshWebReference": "turn205view0",
+      "lines": "85-91"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-matsumotokiyoshi",
+      "field": "phone",
+      "decision": "accept",
+      "reason": "Independent fresh official branch locator confirms exact value and branch scope; phone source normalization and bilingual schedule meaning reviewed. Shiseido Dong Khoi counterL1-53 agrees with frozenL1 identity; no floor/unit changes inferred.",
+      "sourceUrl": "https://www.matsukiyo.vn/access?lang=en",
+      "freshWebReference": "turn205view1",
+      "lines": "26-31"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-matsumotokiyoshi",
+      "field": "hours",
+      "decision": "accept",
+      "reason": "Independent fresh official branch locator confirms exact value and branch scope; phone source normalization and bilingual schedule meaning reviewed. Shiseido Dong Khoi counterL1-53 agrees with frozenL1 identity; no floor/unit changes inferred.",
+      "sourceUrl": "https://www.matsukiyo.vn/access?lang=en",
+      "freshWebReference": "turn205view1",
+      "lines": "26-31"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-shiseido",
+      "field": "phone",
+      "decision": "accept",
+      "reason": "Independent fresh official branch locator confirms exact value and branch scope; phone source normalization and bilingual schedule meaning reviewed. Shiseido Dong Khoi counterL1-53 agrees with frozenL1 identity; no floor/unit changes inferred.",
+      "sourceUrl": "https://www.shiseido.com.vn/en/Storelocator",
+      "freshWebReference": "turn205view2",
+      "lines": "77-78"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-shiseido",
+      "field": "hours",
+      "decision": "accept",
+      "reason": "Independent fresh official branch locator confirms exact value and branch scope; phone source normalization and bilingual schedule meaning reviewed. Shiseido Dong Khoi counterL1-53 agrees with frozenL1 identity; no floor/unit changes inferred.",
+      "sourceUrl": "https://www.shiseido.com.vn/en/Storelocator",
+      "freshWebReference": "turn205view2",
+      "lines": "77-78"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-shiseido",
+      "field": "services",
+      "decision": "accept",
+      "reason": "Independent fresh official branch locator confirms exact value and branch scope; phone source normalization and bilingual schedule meaning reviewed. Shiseido Dong Khoi counterL1-53 agrees with frozenL1 identity; no floor/unit changes inferred.",
+      "sourceUrl": "https://www.shiseido.com.vn/en/Storelocator",
+      "freshWebReference": "turn205view2",
+      "lines": "77-78"
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-tgnhthegioinuochoa",
+      "field": "phone",
+      "decision": "accept",
+      "reason": "Independent fresh official branch locator confirms exact value and branch scope; phone source normalization and bilingual schedule meaning reviewed. Shiseido Dong Khoi counterL1-53 agrees with frozenL1 identity; no floor/unit changes inferred.",
+      "sourceUrl": "https://www.thegioinuochoa.com.vn/store/index",
+      "freshWebReference": "turn205view3",
+      "lines": "410-414"
+    }
+  ],
+  "boundedUnavailable": [
+    {
+      "destinationId": "vincom-prototype-ecco",
+      "field": "hours",
+      "decision": "unavailable-after-research",
+      "sourceUrl": "https://eccovietnam.vn/pages/stores-addresses",
+      "checkedAt": "2026-10-19",
+      "boundedScope": "not found in checked official mall branch page, brand home and brand locator",
+      "reason": "Branch row has address/phone but no opening hours. Corporate support hours are separate and not substituted. This is not a claim that no official hours exist anywhere.",
+      "evidenceFiles": [
+        "brand2.txt",
+        "batch4.txt",
+        "incremental-direct.txt"
+      ],
+      "auditDecision": "accept-bounded-unavailable",
+      "auditReason": "Independent locator read confirms branch block has no hours; saved official mall branch/home receipts reviewed. Bounded to specified checked sources only; no claim that official hours cannot exist elsewhere.",
+      "freshWebReference": "turn204view0"
+    },
+    {
+      "destinationId": "vincom-prototype-tgnhthegioinuochoa",
+      "field": "hours",
+      "decision": "unavailable-after-research",
+      "sourceUrl": "https://www.thegioinuochoa.com.vn/store/index",
+      "checkedAt": "2026-10-19",
+      "boundedScope": "not found in checked official mall branch page, brand home and brand locator",
+      "reason": "Branch row has address/phone but no opening hours. Corporate support hours are separate and not substituted. This is not a claim that no official hours exist anywhere.",
+      "evidenceFiles": [
+        "brand3.txt",
+        "batch5.txt",
+        "incremental-beauty-detail.txt"
+      ],
+      "auditDecision": "accept-bounded-unavailable",
+      "auditReason": "Independent locator read confirms branch block has no hours; saved official mall branch/home receipts reviewed. Bounded to specified checked sources only; no claim that official hours cannot exist elsewhere.",
+      "freshWebReference": "turn205view3"
+    }
+  ],
+  "method": "All five official locators independently fetched; exact branch blocks read. Saved earlier mall/home evidence used for bounded negative claims. No runtime tests or source modifications."
+}

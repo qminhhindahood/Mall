@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-19",
+  "inputSha256": "1dff924cb4cdc947750f565a85334e2aacde9913ba4d4729a5da81e0cce57e17",
+  "acceptedFields": 5,
+  "heldFields": 0,
+  "method": "All four official brand targets independently fetched. CHANEL initial direct failure recovered through official-domain search reference and full page reopen.",
+  "decisions": [
+    {
+      "fields": [
+        "catalog",
+        "services"
+      ],
+      "decision": "accept",
+      "reason": "Vietnam actual product links and service paragraph125-127 support exact brand-wide wording; no branch fulfillment or stock claim.",
+      "destinationId": "saigon-prototype-louisvuitton",
+      "freshWebReference": "turn218view0"
+    },
+    {
+      "field": "catalog",
+      "reason": "Actual eyewear collection products; scope retains frozen eyewear specialty and brand-wide caveats.",
+      "destinationId": "saigon-prototype-chanel",
+      "freshWebReference": "turn220view0",
+      "decision": "accept"
+    },
+    {
+      "field": "catalog",
+      "reason": "Actual Vietnam running/sportstyle product links, without stock/prices imported.",
+      "destinationId": "saigon-prototype-asics",
+      "freshWebReference": "turn218view2",
+      "decision": "accept"
+    },
+    {
+      "field": "catalog",
+      "reason": "Global USA product categories and actual product links readable despite server/offline notice. Explicit USA/error/local-availability caveat retained; no reliable checkout or Vietnam availability claimed.",
+      "destinationId": "saigon-candidate-374c0731-9167-461f-b83f-5300891cb7dd",
+      "freshWebReference": "turn218view3/turn220view1",
+      "decision": "accept"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "at": "2026-10-19T23:57:13.4064763Z",
+  "reason": "Parent requested superseding first run for two-line cuisine guard repair",
+  "rootPid": 42656,
+  "processes": [
+    {
+      "id": 1976,
+      "parentId": 24920,
+      "name": "chrome",
+      "startUtc": "2026-10-19T23:56:18.3540411Z"
+    },
+    {
+      "id": 14440,
+      "parentId": 24920,
+      "name": "chrome",
+      "startUtc": "2026-10-19T23:57:06.7598086Z"
+    },
+    {
+      "id": 18476,
+      "parentId": 33116,
+      "name": "chrome",
+      "startUtc": "2026-10-19T23:57:08.2350153Z"
+    },
+    {
+      "id": 23432,
+      "parentId": 33116,
+      "name": "chrome",
+      "startUtc": "2026-10-19T23:57:08.2284995Z"
+    },
+    {
+      "id": 24756,
+      "parentId": 24920,
+      "name": "chrome",
+      "startUtc": "2026-10-19T23:56:18.0296646Z"
+    },
+    {
+      "id": 24920,
+      "parentId": 14204,
+      "name": "chrome",
+      "startUtc": "2026-10-19T23:56:18.0153125Z"
+    },
+    {
+      "id": 30352,
+      "parentId": 24920,
+      "name": "chrome",
+      "startUtc": "2026-10-19T23:56:18.3611435Z"
+    },
+    {
+      "id": 33116,
+      "parentId": 19596,
+      "name": "chrome",
+      "startUtc": "2026-10-19T23:56:35.0666453Z"
+    },
+    {
+      "id": 35740,
+      "parentId": 33116,
+      "name": "chrome",
+      "startUtc": "2026-10-19T23:56:35.0839826Z"
+    },
+    {
+      "id": 36208,
+      "parentId": 33116,
+      "name": "chrome",
+      "startUtc": "2026-10-19T23:56:35.4443786Z"
+    },
+    {
+      "id": 36444,
+      "parentId": 24920,
+      "name": "chrome",
+      "startUtc": "2026-10-19T23:57:06.7530254Z"
+    },
+    {
+      "id": 38604,
+      "parentId": 33116,
+      "name": "chrome",
+      "startUtc": "2026-10-19T23:56:35.4074724Z"
+    },
+    {
+      "id": 39212,
+      "parentId": 24920,
+      "name": "chrome",
+      "startUtc": "2026-10-19T23:56:18.3891091Z"
+    },
+    {
+      "id": 41964,
+      "parentId": 33116,
+      "name": "chrome",
+      "startUtc": "2026-10-19T23:56:35.4147148Z"
+    },
+    {
+      "id": 36128,
+      "parentId": 14204,
+      "name": "conhost",
+      "startUtc": "2026-10-19T23:56:17.7215780Z"
+    },
+    {
+      "id": 40500,
+      "parentId": 19596,
+      "name": "conhost",
+      "startUtc": "2026-10-19T23:56:34.7884793Z"
+    },
+    {
+      "id": 14204,
+      "parentId": 42656,
+      "name": "node",
+      "startUtc": "2026-10-19T23:56:17.7138176Z"
+    },
+    {
+      "id": 19596,
+      "parentId": 42656,
+      "name": "node",
+      "startUtc": "2026-10-19T23:56:34.7812275Z"
+    },
+    {
+      "id": 42656,
+      "parentId": 38180,
+      "name": "node",
+      "startUtc": "2026-10-19T23:53:30.5594922Z"
+    }
+  ]
+}

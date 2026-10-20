@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-19",
+  "accepted": [
+    {
+      "destinationId": "vincom-prototype-starbucks",
+      "field": "menu",
+      "sourceUrl": "https://www.starbucks.vn/thuc-don/",
+      "decision": "accepted",
+      "reason": "Official Starbucks Vietnam menu page directly retrieved; heading Thực đơn and food/beverage menu categories appear at lines150-169. Official home links this page. Brand-wide link only; branch availability/prices not asserted. supplemental-starbucks-source.txt."
+    }
+  ],
+  "reviewedAdditionalOpportunities": [
+    {
+      "sourceUrl": "https://www.starbucks.vn/store-locator/",
+      "fields": [
+        "phone",
+        "hours"
+      ],
+      "outcome": "Official locator page retrieved in original follow1.txt but exposed no branch contacts; interactive locator remains a browser follow-up, not exhausted global absence."
+    },
+    {
+      "sourceUrl": "https://www.highlandscoffee.com.vn/vn/he-thong-cua-hang.html",
+      "fields": [
+        "phone",
+        "hours"
+      ],
+      "outcome": "Read-only direct check shows interactive selectors and 'Tim duoc0quan', no branch results. Not proof of no branch or no hours; browser/filter path remains."
+    },
+    {
+      "sourceUrl": "https://manwah.com.vn/",
+      "fields": [
+        "menu"
+      ],
+      "outcome": "Fresh response shows generic Golden Gate shell and even Gogi House heading. Menu text has no actual menu link/data. Do not fabricate branch menu or use corporate phone."
+    },
+    {
+      "sourceUrl": "https://gogi.com.vn/",
+      "fields": [
+        "menu"
+      ],
+      "outcome": "Original and fresh accessible shell shows menu labels but no menu action/content; national booking platform link alone does not establish branch-specific booking."
+    },
+    {
+      "sourceUrl": "https://dookkivietnam.vn/",
+      "fields": [
+        "menu",
+        "phone",
+        "hours"
+      ],
+      "outcome": "Do not treat inherited URL as official: fresh footer explicitly says informational website, not claiming organizational ownership. Official Vincom branch link in accepted draft unaffected."
+    }
+  ],
+  "remainingMeaning": "Supplement adds1menu. Other remaining phone/hour/menu opportunities require actual locator interaction, identity proof or retrieval recovery. No new bounded-unavailable claims or quota applied."
+}

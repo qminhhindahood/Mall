@@ -1,0 +1,118 @@
+{
+  "revision": "saigon-priority-brand-additions-2026-10-19-r2",
+  "scope": "Five incremental brand-wide fields for parent independent audit; no branch claims; original463and16field packets unchanged.",
+  "records": [
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-louisvuitton",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://vn.louisvuitton.com/vie-vn/homepage",
+          "evidence": "Official Louis Vuitton country selector links to this Vietnam site. Full reader exposes handbags, accessories, footwear and actual product listings. Brand-wide only; no branch stock or prices imported.",
+          "checkedAt": "2026-10-19",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin áp dụng cho thương hiệu tại Việt Nam; sản phẩm và dịch vụ tại chi nhánh Saigon Centre có thể khác. Vui lòng xác nhận trực tiếp với cửa hàng.",
+            "en": "Vietnam brand-wide information; products and services at the Saigon Centre branch may differ. Confirm arrangements with the store."
+          },
+          "url": "https://vn.louisvuitton.com/vie-vn/homepage",
+          "reviewedBy": "Codex independent content auditor (delegated AI review)",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "services",
+          "state": "verified-agent",
+          "sourceUrl": "https://vn.louisvuitton.com/vie-vn/homepage",
+          "evidence": "Vietnam official homepage services section explicitly describes customer consultation, signature gift packaging and personalization. Does not establish availability or fulfillment at Saigon Centre.",
+          "checkedAt": "2026-10-19",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin áp dụng cho thương hiệu tại Việt Nam; sản phẩm và dịch vụ tại chi nhánh Saigon Centre có thể khác. Vui lòng xác nhận trực tiếp với cửa hàng.",
+            "en": "Vietnam brand-wide information; products and services at the Saigon Centre branch may differ. Confirm arrangements with the store."
+          },
+          "value": {
+            "vi": "Louis Vuitton Việt Nam giới thiệu tư vấn khách hàng, gói quà đặc trưng và dịch vụ cá nhân hóa; vui lòng xác nhận dịch vụ với cửa hàng.",
+            "en": "Louis Vuitton Vietnam describes customer consultation, signature gift packaging and personalization; confirm service arrangements with the store."
+          },
+          "reviewedBy": "Codex independent content auditor (delegated AI review)",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-chanel",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.chanel.com/vn/mat-kinh/fall-winter-2026-collection/",
+          "evidence": "Official CHANEL Vietnam homepage links to this eyewear collection. Full page lists sunglasses and optical frame products, preserving the frozen eyewear scope. No branch assortment or prices imported.",
+          "checkedAt": "2026-10-19",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin áp dụng cho thương hiệu tại Việt Nam; sản phẩm và dịch vụ tại chi nhánh Saigon Centre có thể khác. Vui lòng xác nhận trực tiếp với cửa hàng.",
+            "en": "Vietnam brand-wide information; products and services at the Saigon Centre branch may differ. Confirm arrangements with the store."
+          },
+          "url": "https://www.chanel.com/vn/mat-kinh/fall-winter-2026-collection/",
+          "reviewedBy": "Codex independent content auditor (delegated AI review)",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-asics",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.asics.com/vn/en-vn/",
+          "evidence": "Official ASICS Vietnam catalogue exposes actual running and sportstyle shoe listings with product links. No inventory, prices or branch service claims imported.",
+          "checkedAt": "2026-10-19",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin áp dụng cho thương hiệu tại Việt Nam; sản phẩm và dịch vụ tại chi nhánh Saigon Centre có thể khác. Vui lòng xác nhận trực tiếp với cửa hàng.",
+            "en": "Vietnam brand-wide information; products and services at the Saigon Centre branch may differ. Confirm arrangements with the store."
+          },
+          "url": "https://www.asics.com/vn/en-vn/",
+          "reviewedBy": "Codex independent content auditor (delegated AI review)",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-candidate-374c0731-9167-461f-b83f-5300891cb7dd",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.aesop.com/",
+          "evidence": "Official Aesop global entry currently presents the USA locale. Full reader contains skin, hand/body, fragrance, hair and home product navigation and actual product listings despite an error banner. Catalogue offered only as global brand reference; no Vietnam or Saigon availability inferred.",
+          "checkedAt": "2026-10-19",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Danh mục tham khảo của thương hiệu trên trang Aesop quốc tế, hiện hiển thị thị trường Hoa Kỳ. Trang có thông báo lỗi; danh mục, giá và dịch vụ tại Việt Nam hoặc Saigon Centre chưa được xác minh.",
+            "en": "Global brand catalogue reference on the Aesop site, currently showing the USA market. The page displays an error notice; Vietnam and Saigon Centre assortment, prices and services are unverified."
+          },
+          "url": "https://www.aesop.com/",
+          "reviewedBy": "Codex independent content auditor (delegated AI review)",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    }
+  ]
+}

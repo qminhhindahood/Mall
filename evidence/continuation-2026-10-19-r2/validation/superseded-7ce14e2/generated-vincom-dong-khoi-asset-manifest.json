@@ -1,0 +1,134 @@
+{
+  "revision": "photo-polish-2026-10-12-delivery-r2",
+  "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+  "mallId": "vincom-dong-khoi",
+  "exteriorUrl": "/models/exterior.glb.br",
+  "identityUrl": "/models/exterior.glb",
+  "preferredExteriorUrl": "/models/exterior.glb.br",
+  "sha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+  "bytes": 4797176,
+  "previewUrl": "/previews/exterior.webp",
+  "preview": {
+    "sha256": "7584abb6e0e0ed7d9867f614ecd957ce884711961d81a1504b30ba4815915473",
+    "bytes": 908232
+  },
+  "source": "implementation/vincom-exterior/public/models/vincom-dong-khoi.web.glb",
+  "compression": [
+    {
+      "encoding": "identity",
+      "url": "/models/exterior.glb",
+      "bytes": 4797176,
+      "sha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+      "decodedSha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+      "roundtripExact": true
+    },
+    {
+      "encoding": "br",
+      "url": "/models/exterior.glb.br",
+      "bytes": 1199582,
+      "sha256": "ebd671f8b7e275b152916c9cb39d66e7f247f05a63f293c842bc1aa1a2c98a42",
+      "decodedSha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+      "roundtripExact": true,
+      "quality": 5
+    },
+    {
+      "encoding": "gzip",
+      "url": "/models/exterior.glb.gz",
+      "bytes": 1400594,
+      "sha256": "34e5c6b8d959412de1f57b05ae6ab530216ef4720c702704b94abf7df19a5206",
+      "decodedSha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e",
+      "roundtripExact": true
+    }
+  ],
+  "hostingStatus": "explicit-static _headers prepared; local browser verified separately; production release host unverified",
+  "staticInputs": [
+    {
+      "url": "/maps/B1.webp",
+      "bytes": 119288,
+      "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "url": "/maps/B2.webp",
+      "bytes": 109394,
+      "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "url": "/maps/B3.webp",
+      "bytes": 102024,
+      "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "url": "/maps/L1.webp",
+      "bytes": 72660,
+      "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "url": "/maps/L2.webp",
+      "bytes": 42898,
+      "sha256": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029"
+    },
+    {
+      "url": "/maps/L3.webp",
+      "bytes": 39802,
+      "sha256": "629d9860433bacc381daede046513190e2d6877bf88f99907eafb3f0794bbc70"
+    },
+    {
+      "url": "/maps/M.webp",
+      "bytes": 57294,
+      "sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+    },
+    {
+      "url": "/fonts/BeVietnamPro-OFL.txt",
+      "bytes": 4397,
+      "sha256": "6b7f8f73609a25ea78c891e34cf37b06f8a676b7ea986e941e43b009110f2a85"
+    },
+    {
+      "url": "/fonts/BeVietnamPro-Regular.ttf",
+      "bytes": 120228,
+      "sha256": "4ad53eac036092be79a34b5fa0aa32d0ebb3c7e5df4bc058764f5614fbf148a0"
+    },
+    {
+      "url": "/fonts/Manrope-OFL.txt",
+      "bytes": 4386,
+      "sha256": "d6a309fcfb963d329a93baf9df66fa5f3c23a4be2b5f67edf24d6cafecde12ac"
+    },
+    {
+      "url": "/fonts/Manrope.ttf",
+      "bytes": 164700,
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    }
+  ],
+  "floorGeometry": {
+    "revision": "source-palette-schematic-2026-10-13-r2+owner-approved-directory-2026-10-18-r1-geometry",
+    "url": "/data/floor-geometry.json.br",
+    "identityUrl": "/data/floor-geometry.json",
+    "bytes": 241327,
+    "sha256": "f1ce41d6db46bc879b21ff47c7308c32dc4671a83dcca7df7347d9ac007ea2e5",
+    "compression": [
+      {
+        "encoding": "identity",
+        "url": "/data/floor-geometry.json",
+        "bytes": 241327,
+        "sha256": "f1ce41d6db46bc879b21ff47c7308c32dc4671a83dcca7df7347d9ac007ea2e5",
+        "decodedSha256": "f1ce41d6db46bc879b21ff47c7308c32dc4671a83dcca7df7347d9ac007ea2e5",
+        "roundtripExact": true
+      },
+      {
+        "encoding": "br",
+        "url": "/data/floor-geometry.json.br",
+        "bytes": 42352,
+        "sha256": "83418842f7cbe883b453b06c4caffb8e07463ce583175d995421dc44c7a6841a",
+        "decodedSha256": "f1ce41d6db46bc879b21ff47c7308c32dc4671a83dcca7df7347d9ac007ea2e5",
+        "roundtripExact": true
+      },
+      {
+        "encoding": "gzip",
+        "url": "/data/floor-geometry.json.gz",
+        "bytes": 46254,
+        "sha256": "33d2849a0448b32d1ec978f6a88b676c21898acd8b1eef0f1d0d8280854787b9",
+        "decodedSha256": "f1ce41d6db46bc879b21ff47c7308c32dc4671a83dcca7df7347d9ac007ea2e5",
+        "roundtripExact": true
+      }
+    ]
+  }
+}

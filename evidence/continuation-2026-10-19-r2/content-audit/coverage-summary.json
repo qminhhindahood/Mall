@@ -1,0 +1,99 @@
+{
+  "listings": 368,
+  "fieldSlots": 4048,
+  "fieldStates": {
+    "verified-existing": 809,
+    "not-applicable": 1262,
+    "verified-agent": 658,
+    "evidence-conflict-hold": 43,
+    "unresearched": 1272,
+    "unavailable-after-research": 4
+  },
+  "remainingFieldTasks": 1315,
+  "acceptedNewFields": 626,
+  "baselineAcceptedPreserved": 32,
+  "acceptedTotal": 658,
+  "byMall": {
+    "saigon-centre": {
+      "listings": 165,
+      "fieldStates": {
+        "verified-existing": 360,
+        "not-applicable": 562,
+        "verified-agent": 495,
+        "evidence-conflict-hold": 28,
+        "unresearched": 369,
+        "unavailable-after-research": 1
+      },
+      "remainingFieldTasks": 397
+    },
+    "vincom-dong-khoi": {
+      "listings": 203,
+      "fieldStates": {
+        "verified-existing": 449,
+        "not-applicable": 700,
+        "verified-agent": 163,
+        "unresearched": 903,
+        "evidence-conflict-hold": 15,
+        "unavailable-after-research": 3
+      },
+      "remainingFieldTasks": 918
+    }
+  },
+  "remainingByField": {
+    "phone": 217,
+    "hours": 200,
+    "catalog": 225,
+    "services": 360,
+    "cuisine": 39,
+    "menu": 85,
+    "booking": 99,
+    "description": 7,
+    "website": 80,
+    "programme": 3
+  },
+  "remainingByStateAndField": {
+    "unresearched": {
+      "catalog": 225,
+      "services": 360,
+      "cuisine": 39,
+      "menu": 79,
+      "booking": 98,
+      "phone": 199,
+      "hours": 191,
+      "website": 79,
+      "programme": 2
+    },
+    "evidence-conflict-hold": {
+      "phone": 18,
+      "hours": 9,
+      "menu": 6,
+      "booking": 1,
+      "description": 7,
+      "website": 1,
+      "programme": 1
+    }
+  },
+  "notGloballyExhausted": true,
+  "limits": [
+    "No percentages inferred.",
+    "Directory presence/absence or a contact block does not establish current occupancy.",
+    "All165Saigon mall branch sources and disclosed outbound links were checked; independent retail catalog/service/booking research remains incomplete.",
+    "Vincom203identities reconciled to directory attempts, but only retrieved branch/brand values accepted; missing index names and failed sources are unresolved.",
+    "Cuisine slots outside enrichment detailFields remain unchanged.",
+    "Bounded unavailable means absent from specified checked sources, not unavailable everywhere."
+  ],
+  "remainingByResearchStage": {
+    "specific-evidence-or-applicability-hold": 43,
+    "complete-mall-page-checked-independent-brand-field-unresearched": 320,
+    "outside-enrichment-schema-unresearched": 39,
+    "field-specific-search-without-accepted-full-evidence": 26,
+    "specific-source-retrieval-incomplete": 6,
+    "directory-or-home-source-attempted-independent-field-unresearched": 558,
+    "no-completed-field-specific-evidence": 323
+  },
+  "acceptedOverlayPriorStates": {
+    "unresearched": 565,
+    "evidence-conflict-hold": 8,
+    "verified-existing": 53
+  }
+}

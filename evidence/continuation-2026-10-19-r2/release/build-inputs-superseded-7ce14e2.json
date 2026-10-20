@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-19T23:51:08.515Z",
+  "sourceDigest": "f81ae82f6932eb830deaeb1fdeaaae753e9c9d9c4855fffbb7478a6202d7cacb",
+  "files": [
+    {
+      "path": "assets/saigon-centre/maps/B1.png",
+      "bytes": 2951498,
+      "sha256": "eeda80dda33eb7ec301881b86603b04b0fd03a16750b14dee25c7a1d99ca4afe"
+    },
+    {
+      "path": "assets/saigon-centre/maps/B2.png",
+      "bytes": 3124497,
+      "sha256": "92e959288b957497e3859fb2db80f0657ecb590fd2268c4948a57bdd18ea8497"
+    },
+    {
+      "path": "assets/saigon-centre/maps/L1.png",
+      "bytes": 3184141,
+      "sha256": "d7c4697eb9399e8d768586b01139295cf90c3607ba44e690a031c0aaf5eba89b"
+    },
+    {
+      "path": "assets/saigon-centre/maps/L2.png",
+      "bytes": 3031814,
+      "sha256": "4749dd738ea148407c334396183ef917711f4ff10fbfaa796a7ff6f31ede4fd5"
+    },
+    {
+      "path": "assets/saigon-centre/maps/L3.png",
+      "bytes": 3301657,
+      "sha256": "905e5de4c90debbabddd8a7fadf9e47b5084bf6b01703ba5450b9e8603763ab8"
+    },
+    {
+      "path": "assets/saigon-centre/maps/L4.png",
+      "bytes": 2374772,
+      "sha256": "e97069f721f384d6e37bc7896d8e95344d1f5cc153e17eb9d3c844a11c046f60"
+    },
+    {
+      "path": "assets/saigon-centre/maps/L5.png",
+      "bytes": 2273771,
+      "sha256": "4abefc8f9c34f1fa3c0f9076e5b4b9c5689505d783d6a843a37078f2a6b712c5"
+    },
+    {
+      "path": "assets/saigon-centre/maps/L6.png",
+      "bytes": 2130923,
+      "sha256": "94ecc7542a08d96cdf14fc43efcbd6c26ff753c59be135867d4092c33187e4f6"
+    },
+    {
+      "path": "assets/saigon-centre/models/exterior.glb",
+      "bytes": 2000796,
+      "sha256": "f04fee93c620b698874e67e319d2140cbed60796506f63213c5e57b6aad49050"
+    },
+    {
+      "path": "assets/saigon-centre/previews/exterior.webp",
+      "bytes": 356868,
+      "sha256": "72090fe1fc92a5ca318e5ab4915efecc98e6afc95d5f70f86d6b917f4e2a0179"
+    },
+    {
+      "path": "assets/shared/fonts/BeVietnamPro-OFL.txt",
+      "bytes": 4397,
+      "sha256": "6b7f8f73609a25ea78c891e34cf37b06f8a676b7ea986e941e43b009110f2a85"
+    },
+    {
+      "path": "assets/shared/fonts/BeVietnamPro-Regular.ttf",
+      "bytes": 120228,
+      "sha256": "4ad53eac036092be79a34b5fa0aa32d0ebb3c7e5df4bc058764f5614fbf148a0"
+    },
+    {
+      "path": "assets/shared/fonts/Manrope-OFL.txt",
+      "bytes": 4386,
+      "sha256": "d6a309fcfb963d329a93baf9df66fa5f3c23a4be2b5f67edf24d6cafecde12ac"
+    },
+    {
+      "path": "assets/shared/fonts/Manrope.ttf",
+      "bytes": 164700,
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/maps/B1.webp",
+      "bytes": 119288,
+      "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/maps/B2.webp",
+      "bytes": 109394,
+      "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/maps/B3.webp",
+      "bytes": 102024,
+      "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/maps/L1.webp",
+      "bytes": 72660,
+      "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/maps/L2.webp",
+      "bytes": 42898,
+      "sha256": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/maps/L3.webp",
+      "bytes": 39802,
+      "sha256": "629d9860433bacc381daede046513190e2d6877bf88f99907eafb3f0794bbc70"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/maps/M.webp",
+      "bytes": 57294,
+      "sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/models/exterior.glb",
+      "bytes": 4797176,
+      "sha256": "e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e"
+    },
+    {
+      "path": "assets/vincom-dong-khoi/previews/exterior.webp",
+      "bytes": 908232,
+      "sha256": "7584abb6e0e0ed7d9867f614ecd957ce884711961d81a1504b30ba4815915473"
+    },
+    {
+      "path": "astro.config.mjs",
+      "bytes": 674,
+      "sha256": "22b00c813001a83e91b03a0f10caf704e30743165378cf5a316cc9ef4de2d69a"
+    },
+    {
+      "path": "data/malls/saigon-centre/approved-regions.json",
+      "bytes": 28516,
+      "sha256": "0f59b506edbbc4ab634ceda632449bab30b08944a9c14296a04f9938fcf8a500"
+    },
+    {
+      "path": "data/malls/saigon-centre/asset-manifest.json",
+      "bytes": 4911,
+      "sha256": "e582a5558d1285c3a6b93f0bb03cf105bd4321a0841f3dcd0184fb760bbd35cf"
+    },
+    {
+      "path": "data/malls/saigon-centre/directory.json",
+      "bytes": 399753,
+      "sha256": "ffade29ada11d158619a2d58758611b210423bd609b3a4bf4f82b1af88fd5b2c"
+    },
+    {
+      "path": "data/malls/saigon-centre/floor-geometry.json",
+      "bytes": 5181012,
+      "sha256": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807"
+    },
+    {
+      "path": "data/malls/saigon-centre/overview-slabs.json",
+      "bytes": 14596,
+      "sha256": "7029a371e0f5ade737502350815432fc103448a2a38fad682ae42bc4bcac535e"
+    },
+    {
+      "path": "data/malls/vincom-dong-khoi/approved-regions.json",
+      "bytes": 344,
+      "sha256": "beb7ac03236e0abfc5721aae2015b8a1e985a2d9235bb5b8edb62c216ccfd8dc"
+    },
+    {
+      "path": "data/malls/vincom-dong-khoi/asset-manifest.json",
+      "bytes": 4754,
+      "sha256": "72e205ab96780b6488f1c344e7bb7cffb844197f97e7e47405436ea96837b8cf"
+    },
+    {
+      "path": "data/malls/vincom-dong-khoi/directory.json",
+      "bytes": 363102,
+      "sha256": "b38b55ab32108efeef2a3cb751f2142fc04c61ba94c4825d50080786ad810c14"
+    },
+    {
+      "path": "data/malls/vincom-dong-khoi/floor-geometry.json",
+      "bytes": 243505,
+      "sha256": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e"
+    },
+    {
+      "path": "data/malls/vincom-dong-khoi/overview-slabs.json",
+      "bytes": 62756,
+      "sha256": "b438df35b412a3ac489041dbd9d378b0596a3532da1c759a0ae3aa2c8b7e2470"
+    },
+    {
+      "path": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json",
+      "bytes": 4452,
+      "sha256": "166a618b62800b8957dcc762bf4015479a8a3b4aeae866f268b30b9ff4b67012"
+    },
+    {
+      "path": "docs/content-preparation/approved-directory-2026-10-18-r1/validation.json",
+      "bytes": 2431,
+      "sha256": "fce6a052a3ab3674f22cd5ec5050edbd450740781566064ece46f4a3c7115952"
+    },
+    {
+      "path": "docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+      "bytes": 1493537,
+      "sha256": "dddf720a429e6028817a3c19b3fd18c58c3704b45620e0790a7b0e3788aa823a"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 232390,
+      "sha256": "854172764047dc8c0ba6fa2b8729d35bfdeb36e38facb77d9bfb63a2a036920b"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1473,
+      "sha256": "19fcf28c5dfe03a3b9dfd30e33519f94daf554e9a63701dc419bf092c0bcc6a4"
+    },
+    {
+      "path": "scripts/approved-overlay.mjs",
+      "bytes": 2468,
+      "sha256": "caafafcaa632422b140f06368b81c7b3e8203ed55234ba015245e99c595183c1"
+    },
+    {
+      "path": "scripts/capture-built-evidence.mjs",
+      "bytes": 3438,
+      "sha256": "a1ed08157daac7024326c7d25215470effd9235dbc466d433a3f39b2752c4f9a"
+    },
+    {
+      "path": "scripts/capture-floor-inputs.py",
+      "bytes": 6783,
+      "sha256": "904a3a1cccd1de27d1bfe5682a90827f4f0026068c819a019f17c606b947dcff"
+    },
+    {
+      "path": "scripts/import-approved-directory.py",
+      "bytes": 12606,
+      "sha256": "1934a50ef13cf5200159efc9b13afa8fc847b238c97e347cbcecffd2d7266dc3"
+    },
+    {
+      "path": "scripts/import-overview-slabs.py",
+      "bytes": 1957,
+      "sha256": "2dc54aa1da4a326b0491f26f5608d51983cbd44f00e7d0b03d32e232fa860f62"
+    },
+    {
+      "path": "scripts/package-local-release.mjs",
+      "bytes": 10255,
+      "sha256": "c8e2e0a5d1e5484dc4ea6b9aeaec3345597e04d09399676b84647fb6ad18471e"
+    },
+    {
+      "path": "scripts/prepare-assets.mjs",
+      "bytes": 8921,
+      "sha256": "fba7e263a454ee25de98510e5296cbf28cb2d976859b18e9495d931acc3e0e80"
+    },
+    {
+      "path": "scripts/prepare-static-release.mjs",
+      "bytes": 3272,
+      "sha256": "ebeca816ced0bd50ec6d91b16d4fabddd45129e44496468322812a5a06cd4f4c"
+    },
+    {
+      "path": "scripts/research-overlay.mjs",
+      "bytes": 4665,
+      "sha256": "29b08689d41442e1d627067f8aadad8f24891156a71bcad742f30f7e6e0e0882"
+    },
+    {
+      "path": "scripts/serve-static.mjs",
+      "bytes": 5203,
+      "sha256": "d498485e8a7f92b787d3056d2bfc8ce840de0ec717f614ff42b4c3619256c3bf"
+    },
+    {
+      "path": "scripts/validate-inputs.mjs",
+      "bytes": 1800,
+      "sha256": "1f127bf02ae4e7dd092e2924ea21a50c3959257bff34315a9fe78aebaeca06c1"
+    },
+    {
+      "path": "src/components/DestinationDetails.tsx",
+      "bytes": 5900,
+      "sha256": "b23c0c9a88b81410d40c19093a38a61440d156e294d310805d8f284cbf1af0e4"
+    },
+    {
+      "path": "src/components/Directory.tsx",
+      "bytes": 5644,
+      "sha256": "0acda3983717c1a38aa583482e3d5ac15334d204769879b05a677b0e903aa161"
+    },
+    {
+      "path": "src/components/Discovery.tsx",
+      "bytes": 16989,
+      "sha256": "b2266ce4998236efb8cf593791310476a5a371c0aba7203e6ff8ac068cae2aba"
+    },
+    {
+      "path": "src/components/Explorer.tsx",
+      "bytes": 38234,
+      "sha256": "8e9bad31ecde8ada082f3b6b88f732c9fc8729cb2d313e907b32380bbd4898b8"
+    },
+    {
+      "path": "src/components/FloorMap.tsx",
+      "bytes": 3663,
+      "sha256": "287b07cea6a3b54de2f3707273e1ceb3c129af0a1cb2616116b0264992d08461"
+    },
+    {
+      "path": "src/components/IndoorGuidance.tsx",
+      "bytes": 5943,
+      "sha256": "764ce6efad2268417e088338f8a42e33d84580e04bc3ee824c295e31e083069f"
+    },
+    {
+      "path": "src/components/JourneyMotion.tsx",
+      "bytes": 9780,
+      "sha256": "78589ff57d6821045bea5330147c212a01911223e2a7d97ab4f7488970512b92"
+    },
+    {
+      "path": "src/components/MapControlIcon.tsx",
+      "bytes": 414,
+      "sha256": "e1aba3967655fe0a8d6be60d20a32539ce4576ea346cbb363b7e5ad99130c99e"
+    },
+    {
+      "path": "src/components/OverviewStack.tsx",
+      "bytes": 1383,
+      "sha256": "22869080298593d201836a9ffefff5824a6b15d483a3b1fc57c533b0e51c3e16"
+    },
+    {
+      "path": "src/components/copy.ts",
+      "bytes": 4235,
+      "sha256": "a21b4e482e2f99ad2b03d7e213a32391b9660aaf710f4a168974cd6c8086844e"
+    },
+    {
+      "path": "src/components/discovery-map.ts",
+      "bytes": 2114,
+      "sha256": "73ed3efeaa122feda34b0286f292d360ad8a7f8f8bc96580c772790d87826f95"
+    },
+    {
+      "path": "src/components/floor-frame.ts",
+      "bytes": 597,
+      "sha256": "683bf8ef0790282f875b0dee328b026d932e83bec678760545a3a165a12c4237"
+    },
+    {
+      "path": "src/components/journey-copy.ts",
+      "bytes": 4643,
+      "sha256": "78b353bf54e145a93d7cba82bca9413b777bb65c3ad01c56f1d951aeb82ddad1"
+    },
+    {
+      "path": "src/data/content.ts",
+      "bytes": 7565,
+      "sha256": "6467713110fe7c427561ba4074693dc23a64c3cd505c8cdff5786e3da3433bf7"
+    },
+    {
+      "path": "src/data/discovery.ts",
+      "bytes": 1760,
+      "sha256": "289f56908186b303c16a56f61bddd2da474b8a183bff60b301d1d37500bef05c"
+    },
+    {
+      "path": "src/data/enrichment-accepted.json",
+      "bytes": 733973,
+      "sha256": "25ac0766a17bb0f05af40967136f43c7bab737201f7b8ddbb0fe80c11832de94"
+    },
+    {
+      "path": "src/data/enrichment-proposals.json",
+      "bytes": 42429,
+      "sha256": "aa85264fb32259c327be0e51625b33c1b17080a4e6321919ddf2af46aa18d458"
+    },
+    {
+      "path": "src/data/enrichment.ts",
+      "bytes": 5505,
+      "sha256": "5cc419ee3e0f242d109fa43e93c8aa5f6618feeebfb2fc17086e3d6aa6628b2a"
+    },
+    {
+      "path": "src/data/fixtures.ts",
+      "bytes": 2101,
+      "sha256": "d31ad919e11d5034c8a62037ecb8ccbf2d7a6950c8bf77b0b159ef0a79439a42"
+    },
+    {
+      "path": "src/data/indoor-guidance.ts",
+      "bytes": 1198,
+      "sha256": "65a64a6f01fab208656b072d30dd98f7cb7af64f75299ba08c2823b45de14c9e"
+    },
+    {
+      "path": "src/data/research-fixtures.ts",
+      "bytes": 6120,
+      "sha256": "910e5e2e2877486c3e15063c080ef456ecb41a558e2a71afbe7352d72bcc36e7"
+    },
+    {
+      "path": "src/data/routes.ts",
+      "bytes": 1246,
+      "sha256": "167e5668a33912588e59b97a11fd4f4e311eb1f73198255615bb99689ca8d3fe"
+    },
+    {
+      "path": "src/data/site.ts",
+      "bytes": 4053,
+      "sha256": "98b9c2cf1be3d0b053a12d3e4ef9787266902a34b1d70c555c26999c076dfdf1"
+    },
+    {
+      "path": "src/layouts/Guide.astro",
+      "bytes": 1147,
+      "sha256": "25d7470a75891e715892c8bac3905a7d627ee0a2898fcd827a3e6124cff375eb"
+    },
+    {
+      "path": "src/pages/404.astro",
+      "bytes": 362,
+      "sha256": "c1aa6681ad4cff91aacd9f27ac9079cca1e37e025cca8494559a771d6f0c212a"
+    },
+    {
+      "path": "src/pages/[locale]/[...path].astro",
+      "bytes": 2299,
+      "sha256": "d7e2c43e84057e140f124ad60c5297006dedfab72a8905bafaadf12818fe8436"
+    },
+    {
+      "path": "src/pages/index.astro",
+      "bytes": 41,
+      "sha256": "f2829a2d85af59f0f00b81224bebc625334c549a17ef5da3b650242fb4a3aae8"
+    },
+    {
+      "path": "src/runtime/create-scene-runtime.ts",
+      "bytes": 19616,
+      "sha256": "b60021a9603936fed1bfcd3df1374b0fe2d9ad597ea43b9d5d465743d82f3bb2"
+    },
+    {
+      "path": "src/runtime/loading-timing.ts",
+      "bytes": 1008,
+      "sha256": "79edfe31013808d7701e23be87ee932d73b0a00d87e2c41d0883b8d191a904e2"
+    },
+    {
+      "path": "src/runtime/mall-motion.ts",
+      "bytes": 1136,
+      "sha256": "c0897895a03aa01455e3212cc058921ab9372544c4e8fcfbc091bb8adf614131"
+    },
+    {
+      "path": "src/runtime/scene-contract.ts",
+      "bytes": 1845,
+      "sha256": "298f410cb5a8cdd48a005277c5e464610c2666f964e068290d1d5a06df27dc7b"
+    },
+    {
+      "path": "src/runtime/validate-geometry.ts",
+      "bytes": 1354,
+      "sha256": "5ee017e4d5c9666fa5b512639491828fefe59e4393815ec66b5827d68552b0ca"
+    },
+    {
+      "path": "src/styles/destination-details.css",
+      "bytes": 1132,
+      "sha256": "9d854ec606cf5cac4b7031650591b48feed154b7b39343912b59e8a913fa5527"
+    },
+    {
+      "path": "src/styles/discovery.css",
+      "bytes": 11571,
+      "sha256": "a9bee3ebb73a7e65a4a2c9768a2886c5ea7e4908d3154f35df34cdaa7ba73a1a"
+    },
+    {
+      "path": "src/styles/guide.css",
+      "bytes": 5611,
+      "sha256": "dc1dad894268c2d94e08455eb66e466592ab5557a84f1c0fc803d6f41e995a7c"
+    },
+    {
+      "path": "src/styles/indoor-guidance.css",
+      "bytes": 933,
+      "sha256": "357153457ef725948f0bf8bcf12ac047949d6366076f1aa872270f3ba9add253"
+    },
+    {
+      "path": "src/styles/introduction.css",
+      "bytes": 5296,
+      "sha256": "ade0a0c5ef392ac4f1d3c99bff145c43ed6d61b1fd4e32f02ba7ef2824a99e24"
+    },
+    {
+      "path": "src/styles/journey.css",
+      "bytes": 32521,
+      "sha256": "b039a240b092011883ad8b22e9567921bd192dc00bc1273529b16f8b28c4c716"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 228,
+      "sha256": "30035decb4cfabd402acef810f59841cbcdfe0ebb62d531f5b9793a1b2403bbd"
+    },
+    {
+      "path": "wrangler.saigon-centre.jsonc",
+      "bytes": 286,
+      "sha256": "b838d2031d66d69f9a17d40b0898c9c38f1699cac5cb7e6537740d152a7224dd"
+    },
+    {
+      "path": "wrangler.vincom-dong-khoi.jsonc",
+      "bytes": 292,
+      "sha256": "775d7e331ddddb9572e37e0d57a85e3522a26db6181afeae8f9ad0a92cdb3c3f"
+    }
+  ]
+}

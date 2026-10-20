@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-19",
+  "sourceRevision": "7ce14e2",
+  "sourceFile": "src/data/enrichment-accepted.json",
+  "sourceSha256": "25ac0766a17bb0f05af40967136f43c7bab737201f7b8ddbb0fe80c11832de94",
+  "expectedFields": 658,
+  "actualFields": 658,
+  "actualRecords": 281,
+  "missingKeys": [],
+  "unexpectedKeys": [],
+  "changedFieldObjects": [],
+  "changedBaselineFields": [],
+  "method": "Exact parsed field-object equality: baseline32 + core598 - LYN1 + Vincom9 + Saigon14 + Starbucks1 + Saigon priority5 =658. All packet filenames and hashes recorded in coverage-ledger.json; no source mutation.",
+  "result": "pass"
+}

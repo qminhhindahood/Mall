@@ -1,0 +1,12 @@
+import {readFileSync,writeFileSync,existsSync,renameSync} from 'node:fs';
+const out='evidence/continuation-2026-10-19-r2/validation';
+for(const name of ['suite-execution.json','discovery-results.json','fixture-results.json','indoor-guidance-results.json','provenance.json'])if(existsSync(`${out}/${name}`))renameSync(`${out}/${name}`,`${out}/superseded-7ce14e2/root-${name}`);
+writeFileSync(`${out}/source-ready.json`,JSON.stringify({at:new Date().toISOString(),sourceCheckpoint:'3e505fb',acceptedFields:658,packageInputs:{files:91,digest:'0762d9f65cdfaf6f2b1f5c7e8f9c21016379dd5cc9348d95a128d4d7703a3aae',path:'frozen-build-inputs.json'},supersedes:'superseded-7ce14e2',authorizedBy:'Parent source-ready signal; 132 regression +36 guidance +4 cuisine/website browser cases'},null,2));
+let runner=readFileSync(`${out}/run-validation.mjs`,'utf8');
+runner=runner.replace("['guidance','check-indoor-guidance.mjs']","['cuisine-website','check-cuisine-website.mjs'],['guidance','check-indoor-guidance.mjs']");
+runner=runner.replace('concurrency:2,rows','pid:process.pid,concurrency:2,rows');
+runner=runner.replace('while(next<suites.length)','while(next<suites.length&&!existsSync(`${out}/cancel-queue`))');
+runner=runner.replace('child.stdout.pipe(log','row.pid=child.pid;persist();child.stdout.pipe(log');
+writeFileSync(`${out}/run-validation.mjs`,runner);
+let summary=readFileSync(`${out}/summarize.mjs`,'utf8').replace("[['guidance'","[['cuisine-website','cuisine-website-results.json',4],['guidance'").replace('expectedBrowserCases:168','expectedBrowserCases:172').replace('rows.length===11','rows.length===12').replace("e.isDirectory()?walk(`${dir}/${e.name}`)","e.isDirectory()&&!e.name.startsWith('superseded')&&!e.name.startsWith('previous')?walk(`${dir}/${e.name}`)");
+writeFileSync(`${out}/summarize.mjs`,summary);

@@ -1,0 +1,26 @@
+{
+  "inputFields": 611,
+  "acceptedNewFields": 598,
+  "acceptedUnchanged": 595,
+  "acceptedCorrected": 3,
+  "heldFields": 13,
+  "baselineFieldsPreserved": 32,
+  "combinedAcceptedFields": 630,
+  "byMall": {
+    "saigon-centre": {
+      "inputFields": 463,
+      "acceptedNewFields": 451,
+      "heldFields": 12
+    },
+    "vincom-dong-khoi": {
+      "inputFields": 148,
+      "acceptedNewFields": 147,
+      "heldFields": 1
+    }
+  },
+  "inputHashes": {
+    "research-saigon\\enrichment-records.json": "ddd4475aaef693da1b30b8d46afeeaf72fce505a3d74cfcbfcc672e3f8861b0d",
+    "research-vincom\\enrichment-records.json": "ed8e452e0915ecc31570a14b21ac91cd626d8ed9f939a38286c428dae23a1bed"
+  },
+  "baselineSha256": "22d73276c8ae529536665b2c54ec06236f088fd8ada80a07d57cb7d72c839b69"
+}

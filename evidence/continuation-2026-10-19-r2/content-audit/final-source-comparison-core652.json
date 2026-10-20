@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-19",
+  "sourceFile": "src/data/enrichment-accepted.json",
+  "sourceSha256": "1242d65fa738ab666b7accec82d9208f300c5f1c388a3b496618395a6730b650",
+  "expectedFields": 652,
+  "actualFields": 652,
+  "actualRecords": 281,
+  "missingKeys": [],
+  "unexpectedKeys": [],
+  "changedFieldObjects": [],
+  "changedBaselineFields": [],
+  "method": "Exact parsed field-object equality against frozen baseline + independently audited core - explicit LYN amendment + two audited supplements; no source mutation.",
+  "result": "pass"
+}

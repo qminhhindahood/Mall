@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-19",
+  "amendments": [
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-lyn",
+      "field": "hours",
+      "priorCoreDecision": "accept",
+      "decision": "hold",
+      "state": "evidence-conflict-hold",
+      "reason": "Fresh brand locator Saigon Centre block says10:00–22:00 daily, conflicting with core official mall9:30–21:30. Preserve frozen core receipt, remove this field from merged acceptance and retain both source values.",
+      "sources": [
+        {
+          "sourceUrl": "https://lynvn.com/pages/content-store-location",
+          "freshWebReference": "turn205view0",
+          "lines": "80-84",
+          "value": "10:00–22:00 daily"
+        },
+        {
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/lyn",
+          "savedEvidence": "research-saigon/source-blocks.json",
+          "value": "9:30 - 21:30"
+        }
+      ]
+    }
+  ],
+  "effectiveCoreAcceptedNewFields": 597,
+  "effectiveCoreHeldFields": 14,
+  "baselinePreserved": 32,
+  "acceptedAfterVincomSupplement": 638,
+  "formula": "32 baseline + (598 core - 1 LYN amendment) + 9 Vincom supplement =638; Saigon supplement excluded."
+}

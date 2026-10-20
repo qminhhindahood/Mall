@@ -1,0 +1,29 @@
+{
+  "result": "pass",
+  "records": 160,
+  "newFields": 463,
+  "fieldCounts": {
+    "website": 156,
+    "phone": 140,
+    "hours": 154,
+    "services": 2,
+    "menu": 4,
+    "catalog": 7
+  },
+  "frozenSaigonIdentities": 165,
+  "existingAcceptedFieldsPreserved": 32,
+  "noDuplicateOrExistingFieldReplacement": true,
+  "decisionOutcomes": {
+    "preserved-existing": 24,
+    "hold": 9,
+    "accepted": 463,
+    "attempted-unresearched": 15,
+    "unresearched": 378,
+    "preserved-hold": 2
+  },
+  "files": {
+    "enrichment-records.json": "ddd4475aaef693da1b30b8d46afeeaf72fce505a3d74cfcbfcc672e3f8861b0d",
+    "decisions.json": "4b8d2b5d7ac7432609f442b2bbc57892c83b1dc7b0be568d577219e944a23b61",
+    "source-blocks.json": "587d2c7d5ba078c4669de3ab7930af2aa7ba04a93c817a3313ccb9474d603cce"
+  }
+}

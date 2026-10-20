@@ -1,0 +1,67 @@
+
+> midterm-mall-guide@0.1.0 build:vincom
+> cross-env MALL_ID=vincom-dong-khoi npm run build
+
+
+> midterm-mall-guide@0.1.0 build
+> node scripts/prepare-assets.mjs && astro check && astro build && node scripts/prepare-static-release.mjs
+
+{"mall":"vincom-dong-khoi","sha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","variants":[{"encoding":"identity","url":"/models/exterior.glb","bytes":4797176,"sha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","decodedSha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","roundtripExact":true},{"encoding":"br","url":"/models/exterior.glb.br","bytes":1199582,"sha256":"ebd671f8b7e275b152916c9cb39d66e7f247f05a63f293c842bc1aa1a2c98a42","decodedSha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","roundtripExact":true,"quality":5},{"encoding":"gzip","url":"/models/exterior.glb.gz","bytes":1400594,"sha256":"34e5c6b8d959412de1f57b05ae6ab530216ef4720c702704b94abf7df19a5206","decodedSha256":"e2853dcf2fdf123ed897eb6f0e0014d12de6dfcf9ba81bc202d1ad8035c50c5e","roundtripExact":true}]}
+06:51:49 [types] Generated 76ms
+06:51:49 [check] Getting diagnostics for Astro files in D:\Midterm\.scratch\combined-discovery-motion-2026-10-19...
+Result (32 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+06:51:56 [types] Generated 58ms
+06:51:56 [build] output: "static"
+06:51:56 [build] mode: "static"
+06:51:56 [build] directory: D:\Midterm\.scratch\combined-discovery-motion-2026-10-19\dist\fixtures\vincom-dong-khoi\
+06:51:56 [build] Collecting build info...
+06:51:56 [build] ✓ Completed in 105ms.
+06:51:56 [build] Building static entrypoints...
+06:51:57 [vite] ✓ built in 177ms
+06:51:57 [WARN] [vite] [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+06:51:57 [vite] ✓ built in 250ms
+06:51:57 [build] Rearranging server assets...
+
+ generating static routes 
+06:51:57   ├─ /404.html (+8ms) 
+06:51:57   ├─ /vi/index.html (+20ms) 
+06:51:57   ├─ /vi/tang/B3/index.html (+9ms) 
+06:51:57   ├─ /vi/tang/B2/index.html (+15ms) 
+06:51:57   ├─ /vi/tang/B1/index.html (+6ms) 
+06:51:57   ├─ /vi/tang/L1/index.html (+6ms) 
+06:51:57   ├─ /vi/tang/M/index.html (+6ms) 
+06:51:57   ├─ /vi/tang/L2/index.html (+6ms) 
+06:51:57   ├─ /vi/tang/L3/index.html (+6ms) 
+06:51:57   ├─ /vi/cua-hang/loading-test-store/index.html (+7ms) 
+06:51:57   ├─ /vi/cua-hang/test-cafe/index.html (+6ms) 
+06:51:57   ├─ /vi/cua-hang/test-coffee/index.html (+6ms) 
+06:51:57   ├─ /vi/cua-hang/test-unknown/index.html (+6ms) 
+06:51:57   ├─ /vi/404/index.html (+2ms) 
+06:51:57   ├─ /en/index.html (+6ms) 
+06:51:57   ├─ /en/floors/B3/index.html (+9ms) 
+06:51:57   ├─ /en/floors/B2/index.html (+7ms) 
+06:51:57   ├─ /en/floors/B1/index.html (+9ms) 
+06:51:57   ├─ /en/floors/L1/index.html (+6ms) 
+06:51:57   ├─ /en/floors/M/index.html (+6ms) 
+06:51:57   ├─ /en/floors/L2/index.html (+5ms) 
+06:51:57   ├─ /en/floors/L3/index.html (+5ms) 
+06:51:57   ├─ /en/stores/loading-test-store/index.html (+7ms) 
+06:51:57   ├─ /en/stores/test-cafe/index.html (+7ms) 
+06:51:57   ├─ /en/stores/test-coffee/index.html (+5ms) 
+06:51:57   ├─ /en/stores/test-unknown/index.html (+7ms) 
+06:51:57   ├─ /en/404/index.html (+2ms) 
+06:51:57   ├─ /index.html (+3ms) 
+06:51:57 ✓ Completed in 263ms.
+
+06:51:57 [build] ✓ Completed in 739ms.
+06:51:57 [build] 28 page(s) built in 863ms
+06:51:57 [build] Complete!
+{"mall":"vincom-dong-khoi","fixture":true,"enrichmentReview":false,"assetCount":55,"largestAsset":{"path":"dist\\fixtures\\vincom-dong-khoi\\models\\exterior.glb","bytes":4797176},"directoryApproval":"fixture","siteOrigin":null,"releaseApproved":false}

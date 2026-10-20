@@ -1,0 +1,13 @@
+# Additional bounded official-source follow-through
+
+The original463field draft remains byte-identical for the independent audit. `enrichment-additional-records.json` supplies **16 further proposals**: ten menus, four booking links, the dedicated Nespresso Saigon branch phone and brand-wide machine services. `followthrough-validation.json` passes schema, duplicate and frozen-draft checks. These16still require parent independent source review before integration.
+
+`outbound-link-audit.json` reopens **all165complete mall branch-page source references** and extracts disclosed third-party domains. There are **zero direct brand/menu/catalog/booking links** after excluding the mall office/Sedona navigation and TermsFeed. The scope is the complete reader output; hidden browser endpoints are not claimed. The source opportunity from those mall-page external links is exhausted without inferring global lack of menus, catalogues or services.
+
+All **44 remaining dining-menu names** received targeted official-menu searches. Full-page follow-ups recovered useful official brand menus and reservation pages, while rejecting third-party leads and same-name mismatches. The Spicy Box candidate openly identifies itself as an unaffiliated blog. The Lách Ca Lách Cách candidate currently presents GoGi House content, so it is held. Miyama times out, L Usine PDF exceeds the reader limit, Mochi Sweets and Pepper Lunch return403, Poulet returns502, and Phuc Long targets expose a client-rendered shell. No snippets are promoted as checked full menus.
+
+**Mandatory merge corrections:** Nespresso brand locator now provides dedicated Saigon phone0917761054, but its Friday-Sunday22:00 closing conflicts with the frozen mall21:30 hours. Hold the original draft Nespresso hours. Truffle official branch booking exposes an unavailable-service message, so no booking action is proposed. General1800/1900contacts in the original draft should follow the coordinator/auditor dedicated-branch-contact hold policy. Existing32accepted fields remain unchanged.
+
+The original378unresearched field tasks now have a source-scope overlay in `followthrough-decisions.json`: 17cuisine tasks remain untouched outside the runtime detail-field schema; other remaining fields distinguish complete mall-source/no-direct-link checks from independent brand research not completed, plus the44dining searches and16new proposals. The original files are not rewritten while audit is active. No global bounded-unavailable claim is made, and broad independent retail-brand catalogue/service research remains explicitly open.
+
+No form was submitted, no external communication was sent, and no src, roster, tracker, asset, commit or deployment changed.

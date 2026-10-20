@@ -1,0 +1,39 @@
+{
+  "recordedAt": "2026-10-19T23:51:37.958901+00:00",
+  "baseHead": "c5658d2",
+  "sourceHead": "7ce14e29b48f451515792d28e4583ec387d9f986",
+  "sourceFiles": [
+    {
+      "path": "scripts/package-local-release.mjs",
+      "sha256": "c8e2e0a5d1e5484dc4ea6b9aeaec3345597e04d09399676b84647fb6ad18471e"
+    },
+    {
+      "path": "scripts/prepare-static-release.mjs",
+      "sha256": "ebeca816ced0bd50ec6d91b16d4fabddd45129e44496468322812a5a06cd4f4c"
+    },
+    {
+      "path": "src/components/DestinationDetails.tsx",
+      "sha256": "b23c0c9a88b81410d40c19093a38a61440d156e294d310805d8f284cbf1af0e4"
+    },
+    {
+      "path": "src/components/IndoorGuidance.tsx",
+      "sha256": "764ce6efad2268417e088338f8a42e33d84580e04bc3ee824c295e31e083069f"
+    },
+    {
+      "path": "src/data/enrichment-accepted.json",
+      "sha256": "25ac0766a17bb0f05af40967136f43c7bab737201f7b8ddbb0fe80c11832de94"
+    },
+    {
+      "path": "src/data/indoor-guidance.ts",
+      "sha256": "65a64a6f01fab208656b072d30dd98f7cb7af64f75299ba08c2823b45de14c9e"
+    },
+    {
+      "path": "src/styles/indoor-guidance.css",
+      "sha256": "357153457ef725948f0bf8bcf12ac047949d6366076f1aa872270f3ba9add253"
+    }
+  ],
+  "assetsRevision": "photo-polish-2026-10-12-delivery-r2",
+  "floorRevision": "source-palette-schematic-2026-10-13-r2",
+  "canonicalMutation": false,
+  "publication": false
+}

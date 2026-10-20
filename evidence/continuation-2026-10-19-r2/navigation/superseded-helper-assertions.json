@@ -1,0 +1,24 @@
+{
+  "status": "superseded-not-accepted-validation",
+  "reason": "Helper-level behavioral assertions violate the selected browser-only test seam; replaced by static inventory and browser validation.",
+  "historicalResult": {
+    "passed": true,
+    "assertions": 4108,
+    "malls": [
+      {
+        "mall": "saigon-centre",
+        "destinations": 165,
+        "locations": 170,
+        "floorOnlyLocations": 13,
+        "multiFloorDestinations": 2
+      },
+      {
+        "mall": "vincom-dong-khoi",
+        "destinations": 203,
+        "locations": 205,
+        "floorOnlyLocations": 182,
+        "multiFloorDestinations": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "revision": "vincom-continuation-2026-10-19-r2-supplemental",
+  "records": [
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-starbucks",
+      "fields": [
+        {
+          "field": "menu",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.starbucks.vn/thuc-don/",
+          "url": "https://www.starbucks.vn/thuc-don/",
+          "evidence": "Official Starbucks Vietnam menu page directly retrieved; heading Thực đơn and food/beverage menu categories appear at lines150-169. Official home links this page. Brand-wide link only; branch availability/prices not asserted. supplemental-starbucks-source.txt.",
+          "checkedAt": "2026-10-19",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thực đơn chung của thương hiệu; vui lòng xác nhận món, giá và tình trạng phục vụ tại chi nhánh.",
+            "en": "Brand-wide menu; confirm items, prices and availability with the branch."
+          },
+          "reviewedBy": "Codex independent content auditor (delegated AI review)",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "checkedAt": "2026-10-19",
+  "accepted": [
+    {
+      "destinationId": "vincom-prototype-ecco",
+      "field": "phone",
+      "decision": "accepted",
+      "sourceUrl": "https://eccovietnam.vn/pages/stores-addresses",
+      "reason": "Official store locator Dong Khoi row names72LeThanhTon and prints0919390342. incremental-direct.txt line148. No corporate contact substituted."
+    },
+    {
+      "destinationId": "vincom-prototype-lyn",
+      "field": "phone",
+      "decision": "accepted",
+      "sourceUrl": "https://lynvn.com/pages/content-store-location",
+      "reason": "Official Dong Khoi row prints (+84)02838231332; domestic digits retained, redundant country prefix omitted. incremental-direct2.txt lines85-91."
+    },
+    {
+      "destinationId": "vincom-prototype-lyn",
+      "field": "hours",
+      "decision": "accepted",
+      "sourceUrl": "https://lynvn.com/pages/content-store-location",
+      "reason": "Official Dong Khoi row distinguishes weekdays/weekends. incremental-direct2.txt lines85-91."
+    },
+    {
+      "destinationId": "vincom-prototype-matsumotokiyoshi",
+      "field": "phone",
+      "decision": "accepted",
+      "sourceUrl": "https://www.matsukiyo.vn/access?lang=en",
+      "reason": "Official Access locator Dong Khoi block prints this telephone. incremental-beauty-detail.txt lines26-31."
+    },
+    {
+      "destinationId": "vincom-prototype-matsumotokiyoshi",
+      "field": "hours",
+      "decision": "accepted",
+      "sourceUrl": "https://www.matsukiyo.vn/access?lang=en",
+      "reason": "Official Access locator Dong Khoi hours, not inherited mall default. incremental-beauty-detail.txt lines26-31."
+    },
+    {
+      "destinationId": "vincom-prototype-shiseido",
+      "field": "phone",
+      "decision": "accepted",
+      "sourceUrl": "https://www.shiseido.com.vn/en/Storelocator",
+      "reason": "Official Shiseido Dong Khoi counter row; incremental-beauty-detail.txt lines77-78."
+    },
+    {
+      "destinationId": "vincom-prototype-shiseido",
+      "field": "hours",
+      "decision": "accepted",
+      "sourceUrl": "https://www.shiseido.com.vn/en/Storelocator",
+      "reason": "Official Shiseido Dong Khoi counter row explicitly lists weekdays/weekends; incremental-beauty-detail.txt lines77-78."
+    },
+    {
+      "destinationId": "vincom-prototype-shiseido",
+      "field": "services",
+      "decision": "accepted",
+      "sourceUrl": "https://www.shiseido.com.vn/en/Storelocator",
+      "reason": "Dong Khoi row says Co Beauty Center. No treatment list, appointment availability or prices asserted. incremental-beauty-detail.txt lines77-78."
+    },
+    {
+      "destinationId": "vincom-prototype-tgnhthegioinuochoa",
+      "field": "phone",
+      "decision": "accepted",
+      "sourceUrl": "https://www.thegioinuochoa.com.vn/store/index",
+      "reason": "Official showroom locator Dong Khoi row prints this phone, separate from national hotline. incremental-beauty-detail.txt lines410-414."
+    }
+  ],
+  "hold": [
+    {
+      "destinationId": "vincom-prototype-sanfulou",
+      "fields": [
+        "phone",
+        "hours",
+        "menu"
+      ],
+      "decision": "hold",
+      "reason": "Indexed official branch contact/menu evidence is useful, but direct /en/contact/ and /thuc-don/ retrievals return403; retain leads, do not promote unverified current direct action.",
+      "sources": [
+        "https://sanfulou.com/en/contact/",
+        "https://sanfulou.com/thuc-don/"
+      ],
+      "evidenceFiles": [
+        "incremental-source1.txt",
+        "incremental-direct.txt"
+      ]
+    },
+    {
+      "destinationId": "vincom-prototype-primaart",
+      "fields": [
+        "phone",
+        "hours"
+      ],
+      "decision": "hold",
+      "reason": "Official index names PRIMA Dong Khoi at floorM, while frozen identity is Prima Art B1. Could be related brand/counter but exact applicability not established; direct locator also failed. No roster/location correction inferred.",
+      "sources": [
+        "https://prima.com.vn/pages/store-locator"
+      ],
+      "evidenceFiles": [
+        "incremental-stores4.txt",
+        "incremental-direct2.txt"
+      ]
+    },
+    {
+      "destinationId": "vincom-prototype-chillithai",
+      "fields": [
+        "menu"
+      ],
+      "decision": "hold-recommendation-for-frozen-draft",
+      "reason": "Independent reviewer found inherited ChillThai website presents different branch list/brand than Vincom ChilliThai. Recommend rejecting original draft menu slot; frozen148draft left untouched for audit."
+    }
+  ],
+  "boundedUnavailable": [
+    {
+      "destinationId": "vincom-prototype-ecco",
+      "field": "hours",
+      "decision": "unavailable-after-research",
+      "sourceUrl": "https://eccovietnam.vn/pages/stores-addresses",
+      "checkedAt": "2026-10-19",
+      "boundedScope": "not found in checked official mall branch page, brand home and brand locator",
+      "reason": "Branch row has address/phone but no opening hours. Corporate support hours are separate and not substituted. This is not a claim that no official hours exist anywhere.",
+      "evidenceFiles": [
+        "brand2.txt",
+        "batch4.txt",
+        "incremental-direct.txt"
+      ]
+    },
+    {
+      "destinationId": "vincom-prototype-tgnhthegioinuochoa",
+      "field": "hours",
+      "decision": "unavailable-after-research",
+      "sourceUrl": "https://www.thegioinuochoa.com.vn/store/index",
+      "checkedAt": "2026-10-19",
+      "boundedScope": "not found in checked official mall branch page, brand home and brand locator",
+      "reason": "Branch row has address/phone but no opening hours. Corporate support hours are separate and not substituted. This is not a claim that no official hours exist anywhere.",
+      "evidenceFiles": [
+        "brand3.txt",
+        "batch5.txt",
+        "incremental-beauty-detail.txt"
+      ]
+    }
+  ],
+  "additionalAttempts": [
+    {
+      "target": "morico.biz",
+      "outcome": "home fetch failed; site-restricted branch search returned no results",
+      "evidenceFiles": [
+        "brand1.txt",
+        "incremental-morico.txt"
+      ]
+    },
+    {
+      "target": "hokkaidosachi.com.vn",
+      "outcome": "home fetch failed; site-restricted branch search returned no results",
+      "evidenceFiles": [
+        "brand1.txt",
+        "incremental-sachi.txt"
+      ]
+    },
+    {
+      "target": "changkangkung.com.vn",
+      "outcome": "home fetch failed; site-restricted branch search returned no results",
+      "evidenceFiles": [
+        "brand1.txt",
+        "incremental-chang.txt"
+      ]
+    },
+    {
+      "target": "gigi.com.vn",
+      "outcome": "home catalog retrieved; site-restricted branch search yielded no branch result; branch contact/hours remain unresearched, not unavailable",
+      "evidenceFiles": [
+        "brand2.txt",
+        "incremental-stores2.txt"
+      ]
+    },
+    {
+      "target": "havaianas.com.vn",
+      "outcome": "home/catalog and branch promotion page found; no actual branch phone/hours in checked material; full locator not yet inspected",
+      "evidenceFiles": [
+        "brand2.txt",
+        "incremental-stores3.txt"
+      ]
+    },
+    {
+      "target": "lancome.vn",
+      "outcome": "official branch search returns brand pages but no branch contact/hour block; locator not exhausted",
+      "evidenceFiles": [
+        "brand2.txt",
+        "incremental-beauty2.txt"
+      ]
+    }
+  ],
+  "unresearchedRemainder": "Start with original decisions.json 929field tasks; remove9incremental accepted slots and2bounded-unavailable hour slots if independently accepted. Other source-specific holds do not imply exhausted research."
+}

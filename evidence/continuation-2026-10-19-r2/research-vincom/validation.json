@@ -1,0 +1,35 @@
+{
+  "result": "pass",
+  "records": 114,
+  "fields": 148,
+  "rosterIdentities": 203,
+  "retailIndexLinkIdsAttempted": 147,
+  "duplicateFields": 0,
+  "frozenFieldOverwrites": 0,
+  "baselineHashes": {
+    "src/data/enrichment-accepted.json": "22d73276c8ae529536665b2c54ec06236f088fd8ada80a07d57cb7d72c839b69",
+    "src/data/enrichment-proposals.json": "aa85264fb32259c327be0e51625b33c1b17080a4e6321919ddf2af46aa18d458",
+    "data/malls/vincom-dong-khoi/directory.json": "b38b55ab32108efeef2a3cb751f2142fc04c61ba94c4825d50080786ad810c14",
+    "data/malls/saigon-centre/directory.json": "ffade29ada11d158619a2d58758611b210423bd609b3a4bf4f82b1af88fd5b2c"
+  },
+  "evidenceHashes": {
+    "batch1.txt": "0e790041c4dbba4bd1441677e6b7abb0713cb369354f0b7df450d03c39ab594c",
+    "batch2.txt": "70bb6f2b9956032ba583a69dd25abdd928c2b4c9893a0edf3733c5432953e462",
+    "batch3.txt": "159b8d33b3e190409b5105e3e6b37208d5c38e900fd5862ea6818692fa526405",
+    "batch4.txt": "7a998d67f40174b82a98ec32a58a9147a824a44a56fe312278715ae866a47312",
+    "batch5.txt": "09846883fcfde17d98039e74524bd75b38debeb4e6dd5d9190b6a20a296dd15e",
+    "brand1.txt": "2306aa2a38326d7db55215ea3677ba039e6796df6093382c37b7f5906bfedf5e",
+    "brand2.txt": "0f4eb84e0296e4e111f75e3cc48da56b2cf96c8d6a2e389491ffe7208102c973",
+    "brand3.txt": "e40eb4c522b58180660fe93fd376394004ec33229653962120632581f417221c",
+    "cgv-indexed-lead.txt": "65e589be82d51fd38ba7d68681fc214ef1496e43090e2f4f80c35c34eb55ad82",
+    "directory-complete.txt": "e0d6915f55db366633efaf049808dce4d93dd6adb4cca4377ba72503d6246218",
+    "directory.txt": "cf09cfa5a4563c2a091285d45dc627fb59ef3eae64e3818d884f4d14495487de",
+    "follow1.txt": "eae4cf69fa47a84f9f5d90454fa708f45881b8312e4c3846221fc4f1264a1023",
+    "follow2.txt": "6ab473aa2255bebd943104fa57dd167fe9b04a5b6982900d2511c4bcef0b29e8",
+    "heldfollow.txt": "f640667649a9a7d1576f5cbc9316f9a7b092542d60d0045e44774d390820de18",
+    "initial.txt": "c484d4e34d508422616f8e3d13bedf76c042c83a58734e20a7cc7e5fd927d26b",
+    "retry1.txt": "0df606fb398c3273004bc17e315d585178ec0251376f2ac62a17fd22d01e8951",
+    "retry2.txt": "43a8e541219b723ed998e709b0e5706346c9c501b1574afcb28e68fba4b21252"
+  },
+  "limit": "Schema/identity/evidence artifact checks; independent content review and integration belong to parent."
+}

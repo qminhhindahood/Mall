@@ -1,0 +1,435 @@
+{
+  "checkedAt": "2026-10-19",
+  "inputSha256": "0a9ad66c16c7202ed5a23b517dc93e4e9cedb283445ba869a356c34ecb09b063",
+  "proposedFields": 16,
+  "acceptedFields": 14,
+  "heldFields": 2,
+  "method": "Every action target independently retrieved. llaollao direct failure recovered through official-domain search reference. Nespresso phone freshly reviewed in earlier same-session locator read. Shell-only menus withheld; brand-wide booking forms do not assert branch availability.",
+  "decisions": [
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-breadtalk",
+      "field": "menu",
+      "decision": "accept",
+      "reason": "Independent fresh official read confirms menu/product role or actual booking-request form. Brand-wide scope and local availability caveats retained; no prices imported or reservation made.",
+      "sourceUrl": "https://breadtalkvietnam.com/en/products/",
+      "freshWebReference": "turn207view0",
+      "original": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://breadtalkvietnam.com/en/products/",
+        "evidence": "Official Vietnam bakery product catalogue used as a brand food menu; no branch stock or prices imported.",
+        "checkedAt": "2026-10-19",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin áp dụng cho thương hiệu; thực đơn, hàng hóa và dịch vụ tại chi nhánh có thể khác.",
+          "en": "Brand-wide information; branch menus, stock and services may differ."
+        },
+        "url": "https://breadtalkvietnam.com/en/products/",
+        "reviewedBy": "Codex Saigon source reviewer",
+        "reviewedAt": "2026-10-19"
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-llaollao",
+      "field": "menu",
+      "decision": "accept",
+      "reason": "Initial direct read failed; official-domain search reference reopened full global menu with product/topping categories. Global scope retained; no Vietnam assortment or availability inferred.",
+      "sourceUrl": "https://llaollaoweb.com/en/menu/",
+      "freshWebReference": "turn209view0",
+      "original": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://llaollaoweb.com/en/menu/",
+        "evidence": "Global brand menu, with products and toppings. Global scope only; country and branch availability unverified.",
+        "checkedAt": "2026-10-19",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin áp dụng cho thương hiệu; thực đơn, hàng hóa và dịch vụ tại chi nhánh có thể khác.",
+          "en": "Brand-wide information; branch menus, stock and services may differ."
+        },
+        "url": "https://llaollaoweb.com/en/menu/",
+        "reviewedBy": "Codex Saigon source reviewer",
+        "reviewedAt": "2026-10-19"
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-nagocha",
+      "field": "menu",
+      "decision": "accept",
+      "reason": "Independent fresh official read confirms menu/product role or actual booking-request form. Brand-wide scope and local availability caveats retained; no prices imported or reservation made.",
+      "sourceUrl": "https://nagocha.com/vi/menu/",
+      "freshWebReference": "turn207view2",
+      "original": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://nagocha.com/vi/menu/",
+        "evidence": "Official NAGOCHA matcha menu with drink/dessert categories; site identifies Hanoi and HCM service regions.",
+        "checkedAt": "2026-10-19",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin áp dụng cho thương hiệu; thực đơn, hàng hóa và dịch vụ tại chi nhánh có thể khác.",
+          "en": "Brand-wide information; branch menus, stock and services may differ."
+        },
+        "url": "https://nagocha.com/vi/menu/",
+        "reviewedBy": "Codex Saigon source reviewer",
+        "reviewedAt": "2026-10-19"
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-truffleco",
+      "field": "menu",
+      "decision": "accept",
+      "reason": "Independent fresh official read confirms menu/product role or actual booking-request form. Brand-wide scope and local availability caveats retained; no prices imported or reservation made.",
+      "sourceUrl": "https://www.truffleco.vn/sgc-menu",
+      "freshWebReference": "turn209view5",
+      "original": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.truffleco.vn/sgc-menu",
+        "evidence": "Official brand page explicitly headed MENU SAIGON CENTRE; no prices imported.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "url": "https://www.truffleco.vn/sgc-menu",
+        "reviewedBy": "Codex Saigon source reviewer",
+        "reviewedAt": "2026-10-19"
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-runamboutique",
+      "field": "menu",
+      "decision": "hold",
+      "reason": "Fresh official target and menu navigation expose only navigation/footer shell, no actual dishes/menu categories/images. Actual menu content/action usability not verified by reader. Hold pending rendered or full menu evidence; not a global unavailability claim.",
+      "sourceUrl": "https://caferunam.com/vi/menu/runam-vietnam-menu-toi/main-dishes",
+      "freshWebReference": "turn209view1/turn209view2",
+      "original": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://caferunam.com/vi/menu/runam-vietnam-menu-toi/main-dishes",
+        "evidence": "Official RuNam Vietnam evening-menu navigation. Not an assertion that all cafe dishes are sold at the mall boutique.",
+        "checkedAt": "2026-10-19",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin áp dụng cho thương hiệu; thực đơn, hàng hóa và dịch vụ tại chi nhánh có thể khác.",
+          "en": "Brand-wide information; branch menus, stock and services may differ."
+        },
+        "url": "https://caferunam.com/vi/menu/runam-vietnam-menu-toi/main-dishes",
+        "reviewedBy": "Codex Saigon source reviewer",
+        "reviewedAt": "2026-10-19"
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-runamboutique",
+      "field": "booking",
+      "decision": "accept",
+      "reason": "Independent fresh official read confirms menu/product role or actual booking-request form. Brand-wide scope and local availability caveats retained; no prices imported or reservation made.",
+      "sourceUrl": "https://caferunam.com/vi/dat-ban",
+      "freshWebReference": "turn209view1/turn209view2",
+      "original": {
+        "field": "booking",
+        "state": "verified-agent",
+        "sourceUrl": "https://caferunam.com/vi/dat-ban",
+        "evidence": "Official RuNam Vietnam reservation request form; mall boutique inclusion not exposed to reader. Brand-wide only; confirm location.",
+        "checkedAt": "2026-10-19",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin áp dụng cho thương hiệu; thực đơn, hàng hóa và dịch vụ tại chi nhánh có thể khác.",
+          "en": "Brand-wide information; branch menus, stock and services may differ."
+        },
+        "url": "https://caferunam.com/vi/dat-ban",
+        "reviewedBy": "Codex Saigon source reviewer",
+        "reviewedAt": "2026-10-19"
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-starbucks",
+      "field": "menu",
+      "decision": "accept",
+      "reason": "Independent fresh official read confirms menu/product role or actual booking-request form. Brand-wide scope and local availability caveats retained; no prices imported or reservation made.",
+      "sourceUrl": "https://www.starbucks.vn/thuc-don/",
+      "freshWebReference": "turn207view6",
+      "original": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.starbucks.vn/thuc-don/",
+        "evidence": "Official Starbucks Vietnam menu; no branch availability imported.",
+        "checkedAt": "2026-10-19",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin áp dụng cho thương hiệu; thực đơn, hàng hóa và dịch vụ tại chi nhánh có thể khác.",
+          "en": "Brand-wide information; branch menus, stock and services may differ."
+        },
+        "url": "https://www.starbucks.vn/thuc-don/",
+        "reviewedBy": "Codex Saigon source reviewer",
+        "reviewedAt": "2026-10-19"
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-changkangkung",
+      "field": "menu",
+      "decision": "accept",
+      "reason": "Independent fresh official read confirms menu/product role or actual booking-request form. Brand-wide scope and local availability caveats retained; no prices imported or reservation made.",
+      "sourceUrl": "https://changkangkung.com/thuc-don",
+      "freshWebReference": "turn207view7/turn209view3",
+      "original": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://changkangkung.com/thuc-don",
+        "evidence": "Official brand menu page; site links to operator New Pearl for reservations.",
+        "checkedAt": "2026-10-19",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin áp dụng cho thương hiệu; thực đơn, hàng hóa và dịch vụ tại chi nhánh có thể khác.",
+          "en": "Brand-wide information; branch menus, stock and services may differ."
+        },
+        "url": "https://changkangkung.com/thuc-don",
+        "reviewedBy": "Codex Saigon source reviewer",
+        "reviewedAt": "2026-10-19"
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-changkangkung",
+      "field": "booking",
+      "decision": "accept",
+      "reason": "Independent fresh official read confirms menu/product role or actual booking-request form. Brand-wide scope and local availability caveats retained; no prices imported or reservation made.",
+      "sourceUrl": "https://newpearl.com.vn/lien-he-dat-ban",
+      "freshWebReference": "turn207view7/turn209view3",
+      "original": {
+        "field": "booking",
+        "state": "verified-agent",
+        "sourceUrl": "https://newpearl.com.vn/lien-he-dat-ban",
+        "evidence": "Reservation form reached through official Chang Kang Kung menu link. Branch options not exposed to reader; user must confirm appropriate location.",
+        "checkedAt": "2026-10-19",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin áp dụng cho thương hiệu; thực đơn, hàng hóa và dịch vụ tại chi nhánh có thể khác.",
+          "en": "Brand-wide information; branch menus, stock and services may differ."
+        },
+        "url": "https://newpearl.com.vn/lien-he-dat-ban",
+        "reviewedBy": "Codex Saigon source reviewer",
+        "reviewedAt": "2026-10-19"
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-gogihouse",
+      "field": "menu",
+      "decision": "hold",
+      "reason": "Fresh official target and menu navigation expose only navigation/footer shell, no actual dishes/menu categories/images. Actual menu content/action usability not verified by reader. Hold pending rendered or full menu evidence; not a global unavailability claim.",
+      "sourceUrl": "https://gogi.com.vn/thuc-don",
+      "freshWebReference": "turn209view4/turn208view5",
+      "original": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://gogi.com.vn/thuc-don",
+        "evidence": "Official Golden Gate GoGi House menu route. Reader exposes menu navigation and city choices; products require site interaction.",
+        "checkedAt": "2026-10-19",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin áp dụng cho thương hiệu; thực đơn, hàng hóa và dịch vụ tại chi nhánh có thể khác.",
+          "en": "Brand-wide information; branch menus, stock and services may differ."
+        },
+        "url": "https://gogi.com.vn/thuc-don",
+        "reviewedBy": "Codex Saigon source reviewer",
+        "reviewedAt": "2026-10-19"
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-gogihouse",
+      "field": "booking",
+      "decision": "accept",
+      "reason": "Independent fresh official read confirms menu/product role or actual booking-request form. Brand-wide scope and local availability caveats retained; no prices imported or reservation made.",
+      "sourceUrl": "https://datban.ggg.com.vn/",
+      "freshWebReference": "turn209view4/turn208view5",
+      "original": {
+        "field": "booking",
+        "state": "verified-agent",
+        "sourceUrl": "https://datban.ggg.com.vn/",
+        "evidence": "Official GoGi menu links to Golden Gate reservation portal with brand/restaurant selection. No Saigon availability or booking success asserted.",
+        "checkedAt": "2026-10-19",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin áp dụng cho thương hiệu; thực đơn, hàng hóa và dịch vụ tại chi nhánh có thể khác.",
+          "en": "Brand-wide information; branch menus, stock and services may differ."
+        },
+        "url": "https://datban.ggg.com.vn/",
+        "reviewedBy": "Codex Saigon source reviewer",
+        "reviewedAt": "2026-10-19"
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-sushihokkaidosachi",
+      "field": "menu",
+      "decision": "accept",
+      "reason": "Independent fresh official read confirms menu/product role or actual booking-request form. Brand-wide scope and local availability caveats retained; no prices imported or reservation made.",
+      "sourceUrl": "https://sushihokkaidosachi.com.vn/en/menu/",
+      "freshWebReference": "turn209view6",
+      "original": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://sushihokkaidosachi.com.vn/en/menu/",
+        "evidence": "Official Sushi Hokkaido Sachi menu; bilingual menu path redirects to official English page.",
+        "checkedAt": "2026-10-19",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin áp dụng cho thương hiệu; thực đơn, hàng hóa và dịch vụ tại chi nhánh có thể khác.",
+          "en": "Brand-wide information; branch menus, stock and services may differ."
+        },
+        "url": "https://sushihokkaidosachi.com.vn/en/menu/",
+        "reviewedBy": "Codex Saigon source reviewer",
+        "reviewedAt": "2026-10-19"
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-the350f",
+      "field": "menu",
+      "decision": "accept",
+      "reason": "Independent fresh official read confirms menu/product role or actual booking-request form. Brand-wide scope and local availability caveats retained; no prices imported or reservation made.",
+      "sourceUrl": "https://www.the350f.com/san-pham/",
+      "freshWebReference": "turn207view12",
+      "original": {
+        "field": "menu",
+        "state": "verified-agent",
+        "sourceUrl": "https://www.the350f.com/san-pham/",
+        "evidence": "Official cake product catalogue; site lists Saigon Centre flagship separately. No branch cake stock, prices or ordering guarantee.",
+        "checkedAt": "2026-10-19",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin áp dụng cho thương hiệu; thực đơn, hàng hóa và dịch vụ tại chi nhánh có thể khác.",
+          "en": "Brand-wide information; branch menus, stock and services may differ."
+        },
+        "url": "https://www.the350f.com/san-pham/",
+        "reviewedBy": "Codex Saigon source reviewer",
+        "reviewedAt": "2026-10-19"
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-dimtutac",
+      "field": "booking",
+      "decision": "accept",
+      "reason": "Fresh official actual reservation form location dropdown explicitly includes SaigonCentre. Booking request only; no form submitted or booking confirmed.",
+      "sourceUrl": "https://dimtutac.com/reservation",
+      "freshWebReference": "turn208view4",
+      "original": {
+        "field": "booking",
+        "state": "verified-agent",
+        "sourceUrl": "https://dimtutac.com/reservation",
+        "evidence": "Official reservation form location choices explicitly include Tầng5 Saigon Centre,65LêLợi. Request requires restaurant confirmation; no submission made.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "url": "https://dimtutac.com/reservation",
+        "reviewedBy": "Codex Saigon source reviewer",
+        "reviewedAt": "2026-10-19"
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-nespresso",
+      "field": "phone",
+      "decision": "accept",
+      "reason": "Fresh official Saigon Centre branch locator B1/67LeLoi prints0917761054. This resolves prior generic-mall-phone hold; accepted branch phone is not the national support hotline.",
+      "sourceUrl": "https://nespresso.vn/vn/vi/store-locator",
+      "freshWebReference": "turn149view0/turn208view6",
+      "original": {
+        "field": "phone",
+        "state": "verified-agent",
+        "sourceUrl": "https://nespresso.vn/vn/vi/store-locator",
+        "evidence": "Official brand locator explicitly labels Nespresso Boutique@Saigon Centre,B1,67LeLoi and lists this contact. Replaces withholding of generic mall hotline; no direct-call verification.",
+        "checkedAt": "2026-10-19",
+        "applicability": "branch",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin theo trang chi nhánh chính thức đã kiểm tra; vui lòng xác nhận trước khi ghé.",
+          "en": "Information stated on the checked official branch page; confirm current details before visiting."
+        },
+        "branchMallId": "saigon-centre",
+        "value": {
+          "vi": "091 776 1054",
+          "en": "091 776 1054"
+        },
+        "reviewedBy": "Codex Saigon source reviewer",
+        "reviewedAt": "2026-10-19"
+      }
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-nespresso",
+      "field": "services",
+      "decision": "accept",
+      "reason": "Fresh official Vietnam page explicitly contains machine-maintenance sections. Wording remains brand-wide information and does not assert branch repair availability.",
+      "sourceUrl": "https://nespresso.vn/vn/vi/service",
+      "freshWebReference": "turn149view0/turn208view6",
+      "original": {
+        "field": "services",
+        "state": "verified-agent",
+        "sourceUrl": "https://nespresso.vn/vn/vi/service",
+        "evidence": "Official Vietnam service page contains machine-care and maintenance service sections. Does not establish on-site repair or recycling collection at Saigon branch.",
+        "checkedAt": "2026-10-19",
+        "applicability": "brand-wide",
+        "verification": "source-checked",
+        "approval": "agent-accepted",
+        "uncertainty": {
+          "vi": "Thông tin áp dụng cho thương hiệu; thực đơn, hàng hóa và dịch vụ tại chi nhánh có thể khác.",
+          "en": "Brand-wide information; branch menus, stock and services may differ."
+        },
+        "value": {
+          "vi": "Thông tin chăm sóc và bảo trì máy pha cà phê từ Nespresso Việt Nam; vui lòng xác nhận dịch vụ tại chi nhánh.",
+          "en": "Coffee-machine care and maintenance information from Nespresso Vietnam; confirm service arrangements with the branch."
+        },
+        "reviewedBy": "Codex Saigon source reviewer",
+        "reviewedAt": "2026-10-19"
+      }
+    }
+  ]
+}

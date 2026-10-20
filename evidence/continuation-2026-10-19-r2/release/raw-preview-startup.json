@@ -1,0 +1,56 @@
+{
+  "startedAt": "2026-10-20T00:10:40.8353008Z",
+  "mode": "raw static; no acceptance injection",
+  "servers": [
+    {
+      "mall": "saigon-centre",
+      "port": 4411,
+      "processId": 29380,
+      "acceptance": false,
+      "url": "http://127.0.0.1:4411",
+      "directory": "evidence/continuation-2026-10-19-r2/release/package/saigon-centre",
+      "stdout": "D:\\Midterm\\.scratch\\combined-discovery-motion-2026-10-19\\evidence\\continuation-2026-10-19-r2\\release\\package\\saigon-centre.server.stdout.log",
+      "stderr": "D:\\Midterm\\.scratch\\combined-discovery-motion-2026-10-19\\evidence\\continuation-2026-10-19-r2\\release\\package\\saigon-centre.server.stderr.log"
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "port": 4412,
+      "processId": 10076,
+      "acceptance": false,
+      "url": "http://127.0.0.1:4412",
+      "directory": "evidence/continuation-2026-10-19-r2/release/package/vincom-dong-khoi",
+      "stdout": "D:\\Midterm\\.scratch\\combined-discovery-motion-2026-10-19\\evidence\\continuation-2026-10-19-r2\\release\\package\\vincom-dong-khoi.server.stdout.log",
+      "stderr": "D:\\Midterm\\.scratch\\combined-discovery-motion-2026-10-19\\evidence\\continuation-2026-10-19-r2\\release\\package\\vincom-dong-khoi.server.stderr.log"
+    }
+  ],
+  "manifestCopies": [
+    {
+      "file": "COMPLETE.json",
+      "sha256": "2fc800983b32ad6db2372d4a6581d6ee4616efaccadd37e7978934302b82aa44"
+    },
+    {
+      "file": "provenance.json",
+      "sha256": "15ace4fecf50fa7f9e7c361fc3d524110d80ab52b574276e740c99c8caa641ca"
+    },
+    {
+      "file": "source-inputs.json",
+      "sha256": "0762d9f65cdfaf6f2b1f5c7e8f9c21016379dd5cc9348d95a128d4d7703a3aae"
+    },
+    {
+      "file": "saigon-centre.files.json",
+      "sha256": "be0623e8651a490a7ce86f268047938c14ab1ff139e902144d0f226b87e7c105"
+    },
+    {
+      "file": "saigon-centre.sha256",
+      "sha256": "b5ce02f3337c9a614e6513be8e56930f0f35c66feeeb3a3e5150560e7ff41fc0"
+    },
+    {
+      "file": "vincom-dong-khoi.files.json",
+      "sha256": "27f40bddbe629d91a86c02fd8c6792115af79a82eb28fe4f6be868318abcc63a"
+    },
+    {
+      "file": "vincom-dong-khoi.sha256",
+      "sha256": "e0913ceb592bcc53cb1feea2defb51c8f4b7ac76e3989c7d5c5693ae3fed55c1"
+    }
+  ]
+}

@@ -4,3 +4,6 @@ data/**/*.json text eol=lf
 evidence/**/*.json text eol=lf
 scripts/** text eol=lf
 browser-checks/** text eol=lf
+
+# Preserve exact captured continuation receipts and source-response hashes.
+evidence/continuation-2026-10-19-r2/** -text

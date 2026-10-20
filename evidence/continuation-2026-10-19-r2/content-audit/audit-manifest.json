@@ -1,0 +1,167 @@
+{
+  "revision": "independent-content-audit-2026-10-19-r2-final",
+  "sourceRevision": "7ce14e2",
+  "checkedAt": "2026-10-19",
+  "files": [
+    {
+      "file": "audit.py",
+      "sha256": "64a2c12f63ba61ba63079b090b757af6fc97b0a36fb9d145f1afb6922a21ba65",
+      "bytes": 8214
+    },
+    {
+      "file": "audited-incremental-records.json",
+      "sha256": "0a77e9d5fac10f3e03aa44030efabb28bbb04d897481a6432ea9012647e5d260",
+      "bytes": 673224
+    },
+    {
+      "file": "audited-saigon-priority-brand-records.json",
+      "sha256": "85e37009ff7d41f01545b288f545015b7fbfc3adc4ade0c67f1def521db9191f",
+      "bytes": 7003
+    },
+    {
+      "file": "audited-saigon-supplement-records.json",
+      "sha256": "92dbfe815456a6c67e8a744f2140eae172f9e7e47d021e962a79c27a27c93fa0",
+      "bytes": 14967
+    },
+    {
+      "file": "audited-vincom-final-menu-records.json",
+      "sha256": "f1b5b8a932fe7461fe528536917413c0499f2c22dc50fbcd95f51ae3c5517188",
+      "bytes": 1291
+    },
+    {
+      "file": "audited-vincom-supplement-records.json",
+      "sha256": "c9454e37e890d83f545c82c47f268ead2ed6256fd0c719e5075eaa31aea29b82",
+      "bytes": 10660
+    },
+    {
+      "file": "baseline-accepted.json",
+      "sha256": "22d73276c8ae529536665b2c54ec06236f088fd8ada80a07d57cb7d72c839b69",
+      "bytes": 32274
+    },
+    {
+      "file": "core-amendments.json",
+      "sha256": "0da507b49c97fd0721cc2da7703878fdefbc3d647ad730284e07fe0171161314",
+      "bytes": 1240
+    },
+    {
+      "file": "coverage-ledger.json",
+      "sha256": "39249863551a26c9502ea341d8fd4260695aad53e48e6940f023f11ce2edd343",
+      "bytes": 3340848
+    },
+    {
+      "file": "coverage-summary.json",
+      "sha256": "055273f1bcf63cee21226d2cb5969038092f9d6c2679507c23f2bf76d1fd5507",
+      "bytes": 3019
+    },
+    {
+      "file": "decisions.json",
+      "sha256": "9f5fb064f28ab71a62e3bf2ab413b981b9726e7a1429f76339f89d92c8d369dd",
+      "bytes": 1006406
+    },
+    {
+      "file": "evidence-hashes.json",
+      "sha256": "21b855cd1b5b9599d6da9cfcb08bac1863c3312b0be87f350a0f568fea0e378e",
+      "bytes": 3263
+    },
+    {
+      "file": "final-source-comparison-core652.json",
+      "sha256": "ea8e4d937584165791e6323225d36dac863452690af5591f847ca06e5ec59ca7",
+      "bytes": 557
+    },
+    {
+      "file": "final-source-comparison.json",
+      "sha256": "1dc507fc27b814c7cd2a20640e1cf2486766ec32326e41c8f861eeb19956be88",
+      "bytes": 638
+    },
+    {
+      "file": "fresh-read-ledger.md",
+      "sha256": "47ba9dfe990e258b6112f5421e2d58c46ead7b82908c6ede39ed907e65fac549",
+      "bytes": 3853
+    },
+    {
+      "file": "held-fields.json",
+      "sha256": "fc20033029a26e704819401909d5942e355c55a90136eb4b5ee05f95cf315328",
+      "bytes": 5554
+    },
+    {
+      "file": "inspect.py",
+      "sha256": "1492fafcd14c5d841c7c595b08d36b1e08b2c8c92526997de6811666dfd1c7cc",
+      "bytes": 931
+    },
+    {
+      "file": "method.md",
+      "sha256": "2cf184f16a03eeacb2228b9ca2a1a9b22959cc0803cdd729adfba3a626c8cc9c",
+      "bytes": 5308
+    },
+    {
+      "file": "README.md",
+      "sha256": "5fe5099caaaf6d9089a503aa6a6939593206ccd95fb81c3b8ecfe67b38cce7b2",
+      "bytes": 3843
+    },
+    {
+      "file": "reconcile-coverage.py",
+      "sha256": "23e83b2b1078554b9eeb79d343bec4e59537654d000609627e2605a15b43aa85",
+      "bytes": 11375
+    },
+    {
+      "file": "reconciled-accepted-records.json",
+      "sha256": "8c2acfc36ca39b293f259ac25f8da59b8794280728166a83e59b3ab1c55c4fdc",
+      "bytes": 733977
+    },
+    {
+      "file": "remaining-field-tasks.json",
+      "sha256": "130400d9ebff41fb574c29261920c846716b5b38962c88de2968e47ab5267ea7",
+      "bytes": 1680385
+    },
+    {
+      "file": "remaining-work.md",
+      "sha256": "ced56e0a036993a264da6b905a11804949ddd5ea4843c7371d40333a514f7388",
+      "bytes": 4667
+    },
+    {
+      "file": "research-saigon-input.json",
+      "sha256": "32f49e58cc186fdbe2f434a2d4a9a63282dddb064b58cc3f4fdad8de436b7b62",
+      "bytes": 492811
+    },
+    {
+      "file": "research-vincom-input.json",
+      "sha256": "ed8e452e0915ecc31570a14b21ac91cd626d8ed9f939a38286c428dae23a1bed",
+      "bytes": 179260
+    },
+    {
+      "file": "saigon-priority-brand-decisions.json",
+      "sha256": "e1bf25890578c3c7c22cbfda84748167eba29f83bda341da24c9665ca3ad28fe",
+      "bytes": 1705
+    },
+    {
+      "file": "saigon-supplement-decisions.json",
+      "sha256": "6c0584a3fe59de23f219403e7fc6fe846ac62fe047207814bf7711a30e6480e0",
+      "bytes": 22583
+    },
+    {
+      "file": "summary.json",
+      "sha256": "c64c54e79a8858e482a577d6b73c26fedab275659970005ca96c00d1df1e007d",
+      "bytes": 804
+    },
+    {
+      "file": "supplement-saigon.py",
+      "sha256": "3747b214e6d1879a66086bb8358c67806e5630c1abd492c1483286dd345f9ceb",
+      "bytes": 3438
+    },
+    {
+      "file": "supplement-vincom.py",
+      "sha256": "5279a30f43374c9060d44639ead2920b80955f1a8b8a7b118e95287600d904c1",
+      "bytes": 3340
+    },
+    {
+      "file": "vincom-final-menu-decision.json",
+      "sha256": "bcb770f0dcd2b09b3ee77e1583818753078016a89064cb2dd35d49acbbcd26c2",
+      "bytes": 513
+    },
+    {
+      "file": "vincom-supplement-decisions.json",
+      "sha256": "e5265241a6b3f437045e80923aec728f52ec184f7cd2114d5b07ce16e4947921",
+      "bytes": 7481
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-19T23:56:34.771Z",
+  "concurrency": 2,
+  "rows": [
+    {
+      "name": "guidance",
+      "script": "check-indoor-guidance.mjs",
+      "lane": 1,
+      "start": "2026-10-19T23:53:30.607Z",
+      "status": "passed",
+      "exitCode": 0,
+      "signal": null,
+      "end": "2026-10-19T23:56:17.701Z"
+    },
+    {
+      "name": "discovery",
+      "script": "check-discovery.mjs",
+      "lane": 2,
+      "start": "2026-10-19T23:53:30.624Z",
+      "status": "failed",
+      "exitCode": 1,
+      "signal": null,
+      "end": "2026-10-19T23:56:34.770Z"
+    },
+    {
+      "name": "map-pointer",
+      "script": "check-interaction.mjs",
+      "lane": 1,
+      "start": "2026-10-19T23:56:17.701Z",
+      "status": "running"
+    },
+    {
+      "name": "fixtures",
+      "script": "check-fixtures.mjs",
+      "lane": 2,
+      "start": "2026-10-19T23:56:34.770Z",
+      "status": "running"
+    }
+  ]
+}

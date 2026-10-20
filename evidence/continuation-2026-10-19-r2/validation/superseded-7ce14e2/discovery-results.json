@@ -1,0 +1,2729 @@
+{
+  "at": "2026-10-19T23:53:30.978Z",
+  "static": [
+    {
+      "mall": "saigon-centre",
+      "checks": 338,
+      "failures": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "checks": 414,
+      "failures": [
+        "vincom-prototype-winmart/en existing website missing",
+        "vincom-prototype-winmart/vi existing website missing",
+        "vincom-prototype-gogihouse/en existing website missing",
+        "vincom-prototype-gogihouse/vi existing website missing",
+        "vincom-prototype-huedelights/en existing website missing",
+        "vincom-prototype-huedelights/vi existing website missing",
+        "vincom-prototype-morico/en existing website missing",
+        "vincom-prototype-morico/vi existing website missing",
+        "vincom-prototype-kingbbq/en existing website missing",
+        "vincom-prototype-kingbbq/vi existing website missing",
+        "vincom-prototype-hokkaidosachi/en existing website missing",
+        "vincom-prototype-hokkaidosachi/vi existing website missing",
+        "vincom-prototype-comtammoc/en existing website missing",
+        "vincom-prototype-comtammoc/vi existing website missing",
+        "vincom-prototype-chillithai/en existing website missing",
+        "vincom-prototype-chillithai/vi existing website missing",
+        "vincom-prototype-changkangkung/en existing website missing",
+        "vincom-prototype-changkangkung/vi existing website missing",
+        "vincom-prototype-hachiban/en existing website missing",
+        "vincom-prototype-hachiban/vi existing website missing",
+        "vincom-prototype-sanfulou/en existing website missing",
+        "vincom-prototype-sanfulou/vi existing website missing",
+        "vincom-prototype-kichikichi/en existing website missing",
+        "vincom-prototype-kichikichi/vi existing website missing",
+        "vincom-prototype-mochisweet/en existing website missing",
+        "vincom-prototype-mochisweet/vi existing website missing",
+        "vincom-prototype-koithe/en existing website missing",
+        "vincom-prototype-koithe/vi existing website missing",
+        "vincom-prototype-pnj/en existing website missing",
+        "vincom-prototype-pnj/vi existing website missing",
+        "vincom-prototype-tgkcthegioikimcuong/en existing website missing",
+        "vincom-prototype-tgkcthegioikimcuong/vi existing website missing",
+        "vincom-prototype-crocs/en existing website missing",
+        "vincom-prototype-crocs/vi existing website missing",
+        "vincom-prototype-anphuoc/en existing website missing",
+        "vincom-prototype-anphuoc/vi existing website missing",
+        "vincom-prototype-valentinocreations/en existing website missing",
+        "vincom-prototype-valentinocreations/vi existing website missing",
+        "vincom-prototype-skechers/en existing website missing",
+        "vincom-prototype-skechers/vi existing website missing",
+        "vincom-prototype-levis/en existing website missing",
+        "vincom-prototype-levis/vi existing website missing",
+        "vincom-prototype-gap/en existing website missing",
+        "vincom-prototype-gap/vi existing website missing",
+        "vincom-prototype-sulwhasoo/en existing website missing",
+        "vincom-prototype-sulwhasoo/vi existing website missing",
+        "vincom-prototype-viinriicnicheperfume/en existing website missing",
+        "vincom-prototype-viinriicnicheperfume/vi existing website missing",
+        "vincom-prototype-dior/en existing website missing",
+        "vincom-prototype-dior/vi existing website missing",
+        "vincom-prototype-esteelauder/en existing website missing",
+        "vincom-prototype-esteelauder/vi existing website missing",
+        "vincom-prototype-nars/en existing website missing",
+        "vincom-prototype-nars/vi existing website missing",
+        "vincom-prototype-bobbibrown/en existing website missing",
+        "vincom-prototype-bobbibrown/vi existing website missing",
+        "vincom-prototype-tommyhilfiger/en existing website missing",
+        "vincom-prototype-tommyhilfiger/vi existing website missing",
+        "vincom-prototype-stradivarius/en existing website missing",
+        "vincom-prototype-stradivarius/vi existing website missing",
+        "vincom-prototype-cgv/en existing website missing",
+        "vincom-prototype-cgv/vi existing website missing",
+        "vincom-prototype-dookkidookki/en existing website missing",
+        "vincom-prototype-dookkidookki/vi existing website missing",
+        "vincom-prototype-haidilao/en existing website missing",
+        "vincom-prototype-haidilao/vi existing website missing"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "categoryId": "category-0",
+      "destinationId": "saigon-prototype-cartier",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "categoryId": "category-1",
+      "destinationId": "saigon-prototype-annamcafe",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "categoryId": "category-2",
+      "destinationId": "saigon-prototype-abcmartgrandstage",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "categoryId": "category-3",
+      "destinationId": "saigon-prototype-beautybox",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "categoryId": "category-4",
+      "destinationId": "saigon-prototype-cartier",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "categoryId": "category-5",
+      "destinationId": "saigon-prototype-annamgourmet",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "categoryId": "category-6",
+      "destinationId": "saigon-prototype-phuongnambookstore",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "categoryId": "category-7",
+      "destinationId": "saigon-prototype-centuryhealthcare",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "categoryId": "category-8",
+      "destinationId": "saigon-prototype-fujifilm",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "categoryId": "category-9",
+      "destinationId": "saigon-prototype-crocs",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "categoryId": "category-10",
+      "destinationId": "saigon-prototype-nihontoki",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "categoryId": "category-11",
+      "destinationId": "saigon-prototype-currencyexchangesimcard",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "categoryId": "category-pending",
+      "destinationId": "saigon-candidate-374c0731-9167-461f-b83f-5300891cb7dd",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Floor-only has no false marker",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "categoryId": "category-0",
+      "destinationId": "saigon-prototype-cartier",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "categoryId": "category-1",
+      "destinationId": "saigon-prototype-annamcafe",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "categoryId": "category-2",
+      "destinationId": "saigon-prototype-abcmartgrandstage",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "categoryId": "category-3",
+      "destinationId": "saigon-prototype-beautybox",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "categoryId": "category-4",
+      "destinationId": "saigon-prototype-cartier",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "categoryId": "category-5",
+      "destinationId": "saigon-prototype-annamgourmet",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "categoryId": "category-6",
+      "destinationId": "saigon-prototype-phuongnambookstore",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "categoryId": "category-7",
+      "destinationId": "saigon-prototype-centuryhealthcare",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "categoryId": "category-8",
+      "destinationId": "saigon-prototype-fujifilm",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "categoryId": "category-9",
+      "destinationId": "saigon-prototype-crocs",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "categoryId": "category-10",
+      "destinationId": "saigon-prototype-nihontoki",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "categoryId": "category-11",
+      "destinationId": "saigon-prototype-currencyexchangesimcard",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "categoryId": "category-pending",
+      "destinationId": "saigon-candidate-374c0731-9167-461f-b83f-5300891cb7dd",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Floor-only has no false marker",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "categoryId": "category-0",
+      "destinationId": "vincom-candidate-vd-b2-001",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Floor-only has no false marker",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "categoryId": "category-1",
+      "destinationId": "vincom-candidate-vd-b3-002",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Floor-only has no false marker",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "categoryId": "category-2",
+      "destinationId": "vincom-prototype-timezone",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Floor-only has no false marker",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "categoryId": "category-3",
+      "destinationId": "vincom-prototype-cgv",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "categoryId": "category-4",
+      "destinationId": "vincom-prototype-copenhaghen",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "categoryId": "category-5",
+      "destinationId": "vincom-prototype-amara",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Floor-only has no false marker",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "categoryId": "category-6",
+      "destinationId": "vincom-prototype-crocs",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Floor-only has no false marker",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "categoryId": "category-7",
+      "destinationId": "vincom-prototype-tuyetkieu",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "categoryId": "category-8",
+      "destinationId": "vincom-prototype-watsons",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "categoryId": "category-9",
+      "destinationId": "vincom-prototype-minigood",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "categoryId": "category-10",
+      "destinationId": "vincom-prototype-winmart",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "categoryId": "category-11",
+      "destinationId": "vincom-prototype-facewashfox",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Floor-only has no false marker",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "categoryId": "category-pending",
+      "destinationId": "vincom-candidate-vd-b3-034",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Floor-only has no false marker",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "categoryId": "category-0",
+      "destinationId": "vincom-candidate-vd-b2-001",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Floor-only has no false marker",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "categoryId": "category-1",
+      "destinationId": "vincom-candidate-vd-b3-002",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Floor-only has no false marker",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "categoryId": "category-2",
+      "destinationId": "vincom-prototype-timezone",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Floor-only has no false marker",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "categoryId": "category-3",
+      "destinationId": "vincom-prototype-cgv",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "categoryId": "category-4",
+      "destinationId": "vincom-prototype-copenhaghen",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "categoryId": "category-5",
+      "destinationId": "vincom-prototype-amara",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Floor-only has no false marker",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "categoryId": "category-6",
+      "destinationId": "vincom-prototype-crocs",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Floor-only has no false marker",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "categoryId": "category-7",
+      "destinationId": "vincom-prototype-tuyetkieu",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "categoryId": "category-8",
+      "destinationId": "vincom-prototype-watsons",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "categoryId": "category-9",
+      "destinationId": "vincom-prototype-minigood",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "categoryId": "category-10",
+      "destinationId": "vincom-prototype-winmart",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "categoryId": "category-11",
+      "destinationId": "vincom-prototype-facewashfox",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Floor-only has no false marker",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "categoryId": "category-pending",
+      "destinationId": "vincom-candidate-vd-b3-034",
+      "checks": [
+        {
+          "label": "Category representative opens independent identity",
+          "pass": true
+        },
+        {
+          "label": "Exact accepted description or truthful hold",
+          "pass": true
+        },
+        {
+          "label": "Category label retained",
+          "pass": true
+        },
+        {
+          "label": "Menu restricted to dining",
+          "pass": true
+        },
+        {
+          "label": "No destination photo added",
+          "pass": true
+        },
+        {
+          "label": "Floor-only has no false marker",
+          "pass": true
+        },
+        {
+          "label": "Escape closes direct category detail",
+          "pass": true
+        }
+      ],
+      "failed": []
+    }
+  ],
+  "runs": [
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "width": 1280,
+      "checks": [
+        {
+          "label": "Name outside current category found globally",
+          "pass": true
+        },
+        {
+          "label": "Global scope explicit",
+          "pass": true
+        },
+        {
+          "label": "Locale retains explicit category scope and query",
+          "pass": true
+        },
+        {
+          "label": "Explicit category scope filters matches",
+          "pass": true
+        },
+        {
+          "label": "Outside-category recovery visible",
+          "pass": true
+        },
+        {
+          "label": "Scope recovery returns named match",
+          "pass": true
+        },
+        {
+          "label": "Refresh restores global query",
+          "pass": true
+        },
+        {
+          "label": "Result selection opens correct identity",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 1",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 2",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 3",
+          "pass": true
+        },
+        {
+          "label": "Selected floor retained",
+          "pass": true
+        },
+        {
+          "label": "Sharing copies selected identity",
+          "pass": true
+        },
+        {
+          "label": "Escape closes detail",
+          "pass": true
+        },
+        {
+          "label": "Escape restores result focus",
+          "pass": true
+        },
+        {
+          "label": "Back restores detail",
+          "pass": true
+        },
+        {
+          "label": "Forward restores closed results",
+          "pass": true
+        },
+        {
+          "label": "No-results state usable",
+          "pass": true
+        },
+        {
+          "label": "Clear query restores category browsing",
+          "pass": true
+        },
+        {
+          "label": "Accent-insensitive Vietnamese search retained",
+          "pass": true
+        },
+        {
+          "label": "Other-floor action restores full result scope",
+          "pass": true
+        },
+        {
+          "label": "No horizontal page overflow",
+          "pass": true
+        },
+        {
+          "label": "No uncaught page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "width": 390,
+      "checks": [
+        {
+          "label": "Mobile defaults to compact map summary",
+          "pass": true
+        },
+        {
+          "label": "Collapsed map yields room to results",
+          "pass": true
+        },
+        {
+          "label": "Name outside current category found globally",
+          "pass": true
+        },
+        {
+          "label": "Global scope explicit",
+          "pass": true
+        },
+        {
+          "label": "Locale retains explicit category scope and query",
+          "pass": true
+        },
+        {
+          "label": "Explicit category scope filters matches",
+          "pass": true
+        },
+        {
+          "label": "Outside-category recovery visible",
+          "pass": true
+        },
+        {
+          "label": "Scope recovery returns named match",
+          "pass": true
+        },
+        {
+          "label": "Refresh restores global query",
+          "pass": true
+        },
+        {
+          "label": "Result selection opens correct identity",
+          "pass": true
+        },
+        {
+          "label": "Mobile map expansion available",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 1",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 2",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 3",
+          "pass": true
+        },
+        {
+          "label": "Selected floor retained",
+          "pass": true
+        },
+        {
+          "label": "Collapse retains selection",
+          "pass": true
+        },
+        {
+          "label": "Sharing copies selected identity",
+          "pass": true
+        },
+        {
+          "label": "Escape closes detail",
+          "pass": true
+        },
+        {
+          "label": "Escape restores result focus",
+          "pass": true
+        },
+        {
+          "label": "Back restores detail",
+          "pass": true
+        },
+        {
+          "label": "Forward restores closed results",
+          "pass": true
+        },
+        {
+          "label": "No-results state usable",
+          "pass": true
+        },
+        {
+          "label": "Clear query restores category browsing",
+          "pass": true
+        },
+        {
+          "label": "Accent-insensitive Vietnamese search retained",
+          "pass": true
+        },
+        {
+          "label": "Other-floor action restores full result scope",
+          "pass": true
+        },
+        {
+          "label": "No horizontal page overflow",
+          "pass": true
+        },
+        {
+          "label": "No uncaught page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "width": 1280,
+      "checks": [
+        {
+          "label": "Name outside current category found globally",
+          "pass": true
+        },
+        {
+          "label": "Global scope explicit",
+          "pass": true
+        },
+        {
+          "label": "Locale retains explicit category scope and query",
+          "pass": true
+        },
+        {
+          "label": "Explicit category scope filters matches",
+          "pass": true
+        },
+        {
+          "label": "Outside-category recovery visible",
+          "pass": true
+        },
+        {
+          "label": "Scope recovery returns named match",
+          "pass": true
+        },
+        {
+          "label": "Refresh restores global query",
+          "pass": true
+        },
+        {
+          "label": "Result selection opens correct identity",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 1",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 2",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 3",
+          "pass": true
+        },
+        {
+          "label": "Selected floor retained",
+          "pass": true
+        },
+        {
+          "label": "Sharing copies selected identity",
+          "pass": true
+        },
+        {
+          "label": "Escape closes detail",
+          "pass": true
+        },
+        {
+          "label": "Escape restores result focus",
+          "pass": true
+        },
+        {
+          "label": "Back restores detail",
+          "pass": true
+        },
+        {
+          "label": "Forward restores closed results",
+          "pass": true
+        },
+        {
+          "label": "No-results state usable",
+          "pass": true
+        },
+        {
+          "label": "Clear query restores category browsing",
+          "pass": true
+        },
+        {
+          "label": "Accent-insensitive Vietnamese search retained",
+          "pass": true
+        },
+        {
+          "label": "Other-floor action restores full result scope",
+          "pass": true
+        },
+        {
+          "label": "No horizontal page overflow",
+          "pass": true
+        },
+        {
+          "label": "No uncaught page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "saigon-centre",
+      "locale": "vi",
+      "width": 390,
+      "checks": [
+        {
+          "label": "Mobile defaults to compact map summary",
+          "pass": true
+        },
+        {
+          "label": "Collapsed map yields room to results",
+          "pass": true
+        },
+        {
+          "label": "Name outside current category found globally",
+          "pass": true
+        },
+        {
+          "label": "Global scope explicit",
+          "pass": true
+        },
+        {
+          "label": "Locale retains explicit category scope and query",
+          "pass": true
+        },
+        {
+          "label": "Explicit category scope filters matches",
+          "pass": true
+        },
+        {
+          "label": "Outside-category recovery visible",
+          "pass": true
+        },
+        {
+          "label": "Scope recovery returns named match",
+          "pass": true
+        },
+        {
+          "label": "Refresh restores global query",
+          "pass": true
+        },
+        {
+          "label": "Result selection opens correct identity",
+          "pass": true
+        },
+        {
+          "label": "Mobile map expansion available",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 1",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 2",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 3",
+          "pass": true
+        },
+        {
+          "label": "Selected floor retained",
+          "pass": true
+        },
+        {
+          "label": "Collapse retains selection",
+          "pass": true
+        },
+        {
+          "label": "Sharing copies selected identity",
+          "pass": true
+        },
+        {
+          "label": "Escape closes detail",
+          "pass": true
+        },
+        {
+          "label": "Escape restores result focus",
+          "pass": true
+        },
+        {
+          "label": "Back restores detail",
+          "pass": true
+        },
+        {
+          "label": "Forward restores closed results",
+          "pass": true
+        },
+        {
+          "label": "No-results state usable",
+          "pass": true
+        },
+        {
+          "label": "Clear query restores category browsing",
+          "pass": true
+        },
+        {
+          "label": "Accent-insensitive Vietnamese search retained",
+          "pass": true
+        },
+        {
+          "label": "Other-floor action restores full result scope",
+          "pass": true
+        },
+        {
+          "label": "No horizontal page overflow",
+          "pass": true
+        },
+        {
+          "label": "No uncaught page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "width": 1280,
+      "checks": [
+        {
+          "label": "Name outside current category found globally",
+          "pass": true
+        },
+        {
+          "label": "Global scope explicit",
+          "pass": true
+        },
+        {
+          "label": "Locale retains explicit category scope and query",
+          "pass": true
+        },
+        {
+          "label": "Explicit category scope filters matches",
+          "pass": true
+        },
+        {
+          "label": "Outside-category recovery visible",
+          "pass": true
+        },
+        {
+          "label": "Scope recovery returns named match",
+          "pass": true
+        },
+        {
+          "label": "Refresh restores global query",
+          "pass": true
+        },
+        {
+          "label": "Result selection opens correct identity",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 1",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 2",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 3",
+          "pass": true
+        },
+        {
+          "label": "Selected floor retained",
+          "pass": true
+        },
+        {
+          "label": "Sharing copies selected identity",
+          "pass": true
+        },
+        {
+          "label": "Escape closes detail",
+          "pass": true
+        },
+        {
+          "label": "Escape restores result focus",
+          "pass": true
+        },
+        {
+          "label": "Back restores detail",
+          "pass": true
+        },
+        {
+          "label": "Forward restores closed results",
+          "pass": true
+        },
+        {
+          "label": "No-results state usable",
+          "pass": true
+        },
+        {
+          "label": "Clear query restores category browsing",
+          "pass": true
+        },
+        {
+          "label": "Accent-insensitive Vietnamese search retained",
+          "pass": true
+        },
+        {
+          "label": "No horizontal page overflow",
+          "pass": true
+        },
+        {
+          "label": "No uncaught page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "en",
+      "width": 390,
+      "checks": [
+        {
+          "label": "Mobile defaults to compact map summary",
+          "pass": true
+        },
+        {
+          "label": "Collapsed map yields room to results",
+          "pass": true
+        },
+        {
+          "label": "Name outside current category found globally",
+          "pass": true
+        },
+        {
+          "label": "Global scope explicit",
+          "pass": true
+        },
+        {
+          "label": "Locale retains explicit category scope and query",
+          "pass": true
+        },
+        {
+          "label": "Explicit category scope filters matches",
+          "pass": true
+        },
+        {
+          "label": "Outside-category recovery visible",
+          "pass": true
+        },
+        {
+          "label": "Scope recovery returns named match",
+          "pass": true
+        },
+        {
+          "label": "Refresh restores global query",
+          "pass": true
+        },
+        {
+          "label": "Result selection opens correct identity",
+          "pass": true
+        },
+        {
+          "label": "Mobile map expansion available",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 1",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 2",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 3",
+          "pass": true
+        },
+        {
+          "label": "Selected floor retained",
+          "pass": true
+        },
+        {
+          "label": "Collapse retains selection",
+          "pass": true
+        },
+        {
+          "label": "Sharing copies selected identity",
+          "pass": true
+        },
+        {
+          "label": "Escape closes detail",
+          "pass": true
+        },
+        {
+          "label": "Escape restores result focus",
+          "pass": true
+        },
+        {
+          "label": "Back restores detail",
+          "pass": true
+        },
+        {
+          "label": "Forward restores closed results",
+          "pass": true
+        },
+        {
+          "label": "No-results state usable",
+          "pass": true
+        },
+        {
+          "label": "Clear query restores category browsing",
+          "pass": true
+        },
+        {
+          "label": "Accent-insensitive Vietnamese search retained",
+          "pass": true
+        },
+        {
+          "label": "No horizontal page overflow",
+          "pass": true
+        },
+        {
+          "label": "No uncaught page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "width": 1280,
+      "checks": [
+        {
+          "label": "Name outside current category found globally",
+          "pass": true
+        },
+        {
+          "label": "Global scope explicit",
+          "pass": true
+        },
+        {
+          "label": "Locale retains explicit category scope and query",
+          "pass": true
+        },
+        {
+          "label": "Explicit category scope filters matches",
+          "pass": true
+        },
+        {
+          "label": "Outside-category recovery visible",
+          "pass": true
+        },
+        {
+          "label": "Scope recovery returns named match",
+          "pass": true
+        },
+        {
+          "label": "Refresh restores global query",
+          "pass": true
+        },
+        {
+          "label": "Result selection opens correct identity",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 1",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 2",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 3",
+          "pass": true
+        },
+        {
+          "label": "Selected floor retained",
+          "pass": true
+        },
+        {
+          "label": "Sharing copies selected identity",
+          "pass": true
+        },
+        {
+          "label": "Escape closes detail",
+          "pass": true
+        },
+        {
+          "label": "Escape restores result focus",
+          "pass": true
+        },
+        {
+          "label": "Back restores detail",
+          "pass": true
+        },
+        {
+          "label": "Forward restores closed results",
+          "pass": true
+        },
+        {
+          "label": "No-results state usable",
+          "pass": true
+        },
+        {
+          "label": "Clear query restores category browsing",
+          "pass": true
+        },
+        {
+          "label": "Accent-insensitive Vietnamese search retained",
+          "pass": true
+        },
+        {
+          "label": "No horizontal page overflow",
+          "pass": true
+        },
+        {
+          "label": "No uncaught page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "locale": "vi",
+      "width": 390,
+      "checks": [
+        {
+          "label": "Mobile defaults to compact map summary",
+          "pass": true
+        },
+        {
+          "label": "Collapsed map yields room to results",
+          "pass": true
+        },
+        {
+          "label": "Name outside current category found globally",
+          "pass": true
+        },
+        {
+          "label": "Global scope explicit",
+          "pass": true
+        },
+        {
+          "label": "Locale retains explicit category scope and query",
+          "pass": true
+        },
+        {
+          "label": "Explicit category scope filters matches",
+          "pass": true
+        },
+        {
+          "label": "Outside-category recovery visible",
+          "pass": true
+        },
+        {
+          "label": "Scope recovery returns named match",
+          "pass": true
+        },
+        {
+          "label": "Refresh restores global query",
+          "pass": true
+        },
+        {
+          "label": "Result selection opens correct identity",
+          "pass": true
+        },
+        {
+          "label": "Mobile map expansion available",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 1",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 2",
+          "pass": true
+        },
+        {
+          "label": "Map control retains detail 3",
+          "pass": true
+        },
+        {
+          "label": "Selected floor retained",
+          "pass": true
+        },
+        {
+          "label": "Collapse retains selection",
+          "pass": true
+        },
+        {
+          "label": "Sharing copies selected identity",
+          "pass": true
+        },
+        {
+          "label": "Escape closes detail",
+          "pass": true
+        },
+        {
+          "label": "Escape restores result focus",
+          "pass": true
+        },
+        {
+          "label": "Back restores detail",
+          "pass": true
+        },
+        {
+          "label": "Forward restores closed results",
+          "pass": true
+        },
+        {
+          "label": "No-results state usable",
+          "pass": true
+        },
+        {
+          "label": "Clear query restores category browsing",
+          "pass": true
+        },
+        {
+          "label": "Accent-insensitive Vietnamese search retained",
+          "pass": true
+        },
+        {
+          "label": "No horizontal page overflow",
+          "pass": true
+        },
+        {
+          "label": "No uncaught page errors",
+          "pass": true
+        }
+      ],
+      "failed": [],
+      "pageErrors": []
+    }
+  ],
+  "failed": [],
+  "enrichment": {
+    "records": 281,
+    "fields": 658,
+    "renderedFieldChecks": 1316,
+    "failures": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-19T23:36:03.854Z",
+  "directory": "C:\\Users\\PC\\AppData\\Local\\Temp\\midterm-delivered-preview-370be91-2026-10-19-r2",
+  "rows": [
+    {
+      "mall": "saigon-centre",
+      "port": 4401,
+      "previousPid": 25400,
+      "snapshot": "C:\\Users\\PC\\AppData\\Local\\Temp\\midterm-delivered-preview-370be91-2026-10-19-r2\\saigon-centre",
+      "sourceCheckpoint": "370be91",
+      "fileCount": 386,
+      "manifestSha256": "1e1c643aeeb29ad773b8c780e90b39ea2d0787f4b7030086256298568dce48ac",
+      "pages": [
+        {
+          "locale": "en",
+          "status": 200,
+          "sha256": "3d474e2370bac5791239a48789a6380c555cd3d65497bd762eff2da8d128b336",
+          "bytes": 1425307
+        },
+        {
+          "locale": "vi",
+          "status": 200,
+          "sha256": "688e67e80f3bc909e83ae44286b6c1b93c08000d1d41880977dd96d0eeea06ea",
+          "bytes": 1426742
+        }
+      ]
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "port": 4402,
+      "previousPid": 29732,
+      "snapshot": "C:\\Users\\PC\\AppData\\Local\\Temp\\midterm-delivered-preview-370be91-2026-10-19-r2\\vincom-dong-khoi",
+      "sourceCheckpoint": "370be91",
+      "fileCount": 459,
+      "manifestSha256": "8df441fb224c580f3ba4b5484519df8516822436ed03196884d8b058dabefcb4",
+      "pages": [
+        {
+          "locale": "en",
+          "status": 200,
+          "sha256": "c12211fcd8e776bccaec5b55e2c10f76a99c7ead7213dcb33ae3102e00a9e081",
+          "bytes": 1023451
+        },
+        {
+          "locale": "vi",
+          "status": 200,
+          "sha256": "3a4d7b54b8408c89fdaa8549db4de91c3e3d36f9bd33c074d2ae569f9824ffd4",
+          "bytes": 1024794
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,708 @@
+{
+  "revision": "delegated-approved-enrichment-2026-10-19-r1",
+  "records": [
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-cartier",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/cartier",
+          "evidence": "Mall-owned page names this destination and Saigon Centre branch.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "url": "https://shopping.saigoncentre.com.vn/en/store-directory/cartier",
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/cartier",
+          "evidence": "Telephone in the branch contact block.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "value": {
+            "vi": "028 3636 9860",
+            "en": "028 3636 9860"
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "hours",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/cartier",
+          "evidence": "Operating-hours block on this branch page.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "value": {
+            "vi": "09:30 – 21:30",
+            "en": "09:30 – 21:30"
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-owndays",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/owndays",
+          "evidence": "Mall-owned page names this destination and Saigon Centre branch.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "url": "https://shopping.saigoncentre.com.vn/en/store-directory/owndays",
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/owndays",
+          "evidence": "Telephone in the branch contact block.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "value": {
+            "vi": "028 7300 9199",
+            "en": "028 7300 9199"
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "hours",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/owndays",
+          "evidence": "Operating-hours block on this branch page.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "value": {
+            "vi": "09:30 – 21:30",
+            "en": "09:30 – 21:30"
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "services",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/owndays",
+          "evidence": "Page describes complimentary vision testing.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "value": {
+            "vi": "Kiểm tra thị lực theo thông tin từ trung tâm thương mại.",
+            "en": "Vision testing listed by the mall."
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-meatmeet",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/meat-meet",
+          "evidence": "Mall-owned page names this destination and Saigon Centre branch.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "url": "https://shopping.saigoncentre.com.vn/en/store-directory/meat-meet",
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/meat-meet",
+          "evidence": "Telephone in the branch contact block.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "value": {
+            "vi": "028 6650 5058",
+            "en": "028 6650 5058"
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "hours",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/meat-meet",
+          "evidence": "Operating-hours block on this branch page.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "value": {
+            "vi": "09:30 – 21:30",
+            "en": "09:30 – 21:30"
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "menu",
+          "state": "verified-agent",
+          "sourceUrl": "https://meatandmeet.com.vn/vi/menu/",
+          "url": "https://meatandmeet.com.vn/vi/menu/",
+          "evidence": "Official brand menu page; branch availability and prices not asserted.",
+          "checkedAt": "2026-10-19",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-lush",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/lush",
+          "evidence": "LUSH branch contact and operating-hours blocks.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "url": "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/lush",
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/lush",
+          "evidence": "LUSH branch contact and operating-hours blocks.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "value": {
+            "vi": "028 3535 8468",
+            "en": "028 3535 8468"
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "hours",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/vi/thuong-hieu/lush",
+          "evidence": "LUSH branch contact and operating-hours blocks.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "value": {
+            "vi": "09:30 – 21:30",
+            "en": "09:30 – 21:30"
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-annamgourmet",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/annam-gourmet",
+          "evidence": "Mall-owned page names this destination and Saigon Centre branch.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "url": "https://shopping.saigoncentre.com.vn/en/store-directory/annam-gourmet",
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-phuongnambookstore",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/phuong-nam-bookstore",
+          "evidence": "Mall-owned page names this destination and Saigon Centre branch.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "url": "https://shopping.saigoncentre.com.vn/en/store-directory/phuong-nam-bookstore",
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/phuong-nam-bookstore",
+          "evidence": "Telephone in the branch contact block.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "value": {
+            "vi": "091 550 1287",
+            "en": "091 550 1287"
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "hours",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/phuong-nam-bookstore",
+          "evidence": "Operating-hours block on this branch page.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "value": {
+            "vi": "09:30 – 21:30",
+            "en": "09:30 – 21:30"
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-dji",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/dji",
+          "evidence": "Mall-owned page names this destination and Saigon Centre branch.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "url": "https://shopping.saigoncentre.com.vn/en/store-directory/dji",
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "hours",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/dji",
+          "evidence": "Operating-hours block on this branch page.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "value": {
+            "vi": "09:30 – 21:30",
+            "en": "09:30 – 21:30"
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-nike",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nike",
+          "evidence": "Mall-owned page names this destination and Saigon Centre branch.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "url": "https://shopping.saigoncentre.com.vn/en/store-directory/nike",
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nike",
+          "evidence": "Telephone in the branch contact block.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "value": {
+            "vi": "028 7301 3634",
+            "en": "028 7301 3634"
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "hours",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nike",
+          "evidence": "Operating-hours block on this branch page.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "value": {
+            "vi": "09:30 – 21:30",
+            "en": "09:30 – 21:30"
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "mallId": "saigon-centre",
+      "destinationId": "saigon-prototype-nihontoki",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nihon-toki",
+          "evidence": "Mall-owned page names this destination and Saigon Centre branch.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "url": "https://shopping.saigoncentre.com.vn/en/store-directory/nihon-toki",
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "phone",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nihon-toki",
+          "evidence": "Telephone in the branch contact block.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "value": {
+            "vi": "081 853 5959",
+            "en": "081 853 5959"
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "hours",
+          "state": "verified-agent",
+          "sourceUrl": "https://shopping.saigoncentre.com.vn/en/store-directory/nihon-toki",
+          "evidence": "Operating-hours block on this branch page.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "saigon-centre",
+          "value": {
+            "vi": "09:30 – 21:30",
+            "en": "09:30 – 21:30"
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-pnj",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://vincom.com.vn/store/pnj-vincom-center-dong-khoi",
+          "evidence": "Official mall store-detail page directly retrieved; title names PNJ Vincom Center Dong Khoi and branch list includes Dong Khoi. Accept link only, not copied prices/policies.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "url": "https://vincom.com.vn/store/pnj-vincom-center-dong-khoi",
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-watsons",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.watsons.vn/vi/store/WTCVN_S0005_EN",
+          "evidence": "Official Watsons branch locator directly retrieved; heading identifies Vincom Dong Khoi and address 72 Le Thanh Ton. Link replaces inaccessible Vincom /brand page.",
+          "checkedAt": "2026-10-19",
+          "applicability": "branch",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin theo nguồn chính thức đã kiểm tra; vui lòng xác nhận thông tin hiện tại trước khi ghé.",
+            "en": "Information from the checked official source; confirm current details before visiting."
+          },
+          "branchMallId": "vincom-dong-khoi",
+          "url": "https://www.watsons.vn/vi/store/WTCVN_S0005_EN",
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-mykingdom",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.mykingdom.com.vn/",
+          "evidence": "Official national site presents product catalog; local stock not verified.",
+          "checkedAt": "2026-10-19",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://www.mykingdom.com.vn/",
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-sony",
+      "fields": [
+        {
+          "field": "catalog",
+          "state": "verified-agent",
+          "sourceUrl": "https://www.sony.com.vn/",
+          "evidence": "Official national site presents product catalog; local stock not verified.",
+          "checkedAt": "2026-10-19",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://www.sony.com.vn/",
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "destinationId": "vincom-prototype-meatmeet",
+      "fields": [
+        {
+          "field": "website",
+          "state": "verified-agent",
+          "sourceUrl": "https://meatandmeet.com.vn/vi/meat-meet/",
+          "evidence": "Official brand home; branch applicability not asserted.",
+          "checkedAt": "2026-10-19",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "url": "https://meatandmeet.com.vn/vi/meat-meet/",
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        },
+        {
+          "field": "menu",
+          "state": "verified-agent",
+          "sourceUrl": "https://meatandmeet.com.vn/vi/menu/",
+          "url": "https://meatandmeet.com.vn/vi/menu/",
+          "evidence": "Official brand menu page; branch availability and prices not asserted.",
+          "checkedAt": "2026-10-19",
+          "applicability": "brand-wide",
+          "verification": "source-checked",
+          "approval": "agent-accepted",
+          "uncertainty": {
+            "vi": "Thông tin chung của thương hiệu; vui lòng xác nhận sản phẩm, giá và tình trạng phục vụ tại chi nhánh.",
+            "en": "Brand-wide information; confirm products, prices and availability with the branch."
+          },
+          "reviewedBy": "Codex delegated content reviewer",
+          "reviewedAt": "2026-10-19"
+        }
+      ]
+    }
+  ]
+}

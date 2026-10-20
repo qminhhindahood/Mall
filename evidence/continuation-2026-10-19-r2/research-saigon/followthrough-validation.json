@@ -1,0 +1,135 @@
+{
+  "result": "pass",
+  "additionalFields": 16,
+  "fieldCounts": {
+    "menu": 10,
+    "booking": 4,
+    "phone": 1,
+    "services": 1
+  },
+  "frozen463DraftUnchanged": true,
+  "draftSha256": "ddd4475aaef693da1b30b8d46afeeaf72fce505a3d74cfcbfcc672e3f8861b0d",
+  "completeMallOutboundAudits": 165,
+  "diningMenuSearches": 44,
+  "mandatoryMergeOverrides": [
+    {
+      "destinationId": "saigon-prototype-nespresso",
+      "field": "hours",
+      "outcome": "hold",
+      "sourceUrls": [
+        "https://shopping.saigoncentre.com.vn/en/store-directory/nespresso",
+        "https://nespresso.vn/vn/vi/store-locator"
+      ],
+      "reason": "Brand Saigon branch specifies Mon-Thu09:30–21:30 and Fri-Sun09:30–22:00; frozen draft mallhours09:30–21:30 must be withheld pending reconciliation.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "destinationId": "saigon-prototype-nespresso",
+      "field": "phone",
+      "outcome": "supersede-hold-with-additional-proposal",
+      "sourceUrls": [
+        "https://nespresso.vn/vn/vi/store-locator"
+      ],
+      "reason": "Dedicated Saigon branch phone0917761054 replaces withholding of generic mall hotline. No existing accepted value changed.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "destinationId": "saigon-prototype-spicybox",
+      "field": "menu",
+      "outcome": "hold",
+      "sourceUrls": [
+        "https://spicyboxvietnam.com/menu-spicy-box/"
+      ],
+      "reason": "Candidate explicitly declares itself an unaffiliated information blog; reject as official menu evidence.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "destinationId": "saigon-prototype-lachcalachcach",
+      "field": "menu",
+      "outcome": "hold",
+      "sourceUrls": [
+        "https://lachcalachcach.com.vn/"
+      ],
+      "reason": "Retrieved page presents GoGi House title/brand rather than frozen LáchCaLáchCách. Do not attach mismatched menu.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "destinationId": "saigon-prototype-truffleco",
+      "field": "booking",
+      "outcome": "hold",
+      "sourceUrls": [
+        "https://www.truffleco.vn/sgc-reservation-1-1"
+      ],
+      "reason": "Official branch reservation page reader includes service currently unavailable message. No working-booking guarantee or action proposed.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "destinationId": "saigon-prototype-miyamamoderntokyorestaurantcafe",
+      "field": "menu",
+      "outcome": "attempted-unresearched",
+      "sourceUrls": [
+        "https://miyamacafe.com/menu/"
+      ],
+      "reason": "Direct and search-reference recovery failed; final read reports400timeout. OfficialPDFlead remains not fully inspected.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "destinationId": "saigon-prototype-lusine",
+      "field": "menu",
+      "outcome": "attempted-unresearched",
+      "sourceUrls": [
+        "https://lusinespace.com/view/Main-Menu.pdf"
+      ],
+      "reason": "Reader rejects56948533-byte PDF as too large. Search snippet alone not promoted.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "destinationId": "saigon-prototype-mochisweets",
+      "field": "menu",
+      "outcome": "attempted-unresearched",
+      "sourceUrls": [
+        "https://shop.mochisweets.com.vn/products/"
+      ],
+      "reason": "Official shop product page fetch returns403; source not accepted from snippet.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "destinationId": "saigon-prototype-pepperlunchvietnam",
+      "field": "menu",
+      "outcome": "attempted-unresearched",
+      "sourceUrls": [
+        "https://pepper-lunch.vn/en/menu.html",
+        "https://www.pepper-lunch.vn/menu.html"
+      ],
+      "reason": "Both official menu variants return403.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "destinationId": "saigon-prototype-poulet",
+      "field": "menu",
+      "outcome": "attempted-unresearched",
+      "sourceUrls": [
+        "https://poulet.com.vn/en",
+        "https://poulet.com.vn/"
+      ],
+      "reason": "Official homepage variants inaccessible; root returns502.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "destinationId": "saigon-prototype-phuclongcoffeetea",
+      "field": "menu",
+      "outcome": "attempted-unresearched",
+      "sourceUrls": [
+        "https://coffee.phuclong.com.vn/",
+        "https://phuclong.com.vn/menu/thuc-uong--c15/ca-phe--c01189"
+      ],
+      "reason": "Official coffee campaign links product-menu route but target exposes only shell/breadcrumb. No verified full menu action proposed.",
+      "checkedAt": "2026-10-19"
+    }
+  ],
+  "files": {
+    "enrichment-additional-records.json": "0a9ad66c16c7202ed5a23b517dc93e4e9cedb283445ba869a356c34ecb09b063",
+    "followthrough-decisions.json": "923da60171a8fa710e3322d494a3a36b87a58a7daa1c379e7e2e1845ea537560",
+    "outbound-link-audit.json": "0b0a1ce8e9307d41c89105c819313a53280f276abffeedca5f46f26716275172"
+  }
+}

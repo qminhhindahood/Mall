@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "localOnly": true,
+  "releaseApproved": false,
+  "sourceHead": "3e505fbb8c67ec5c389f39b7fce43461a11cc7f7",
+  "sourceDigest": "0762d9f65cdfaf6f2b1f5c7e8f9c21016379dd5cc9348d95a128d4d7703a3aae",
+  "inputSnapshot": "evidence/continuation-2026-10-19-r2/release/build-inputs.json",
+  "inputSnapshotSha256": "98685be61374943436fa1e52a3eacd73fade2703710268bc931a2ebbb4ac20ad",
+  "dirtyPaths": [],
+  "node": "v26.7.0",
+  "malls": [
+    {
+      "mall": "saigon-centre",
+      "siteOrigin": null,
+      "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+      "treeDigest": "be0623e8651a490a7ce86f268047938c14ab1ff139e902144d0f226b87e7c105",
+      "files": 386
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "siteOrigin": null,
+      "assetRevision": "photo-polish-2026-10-12-delivery-r2",
+      "treeDigest": "27f40bddbe629d91a86c02fd8c6792115af79a82eb28fe4f6be868318abcc63a",
+      "files": 459
+    }
+  ],
+  "note": "Package contains raw public static files only. No deployment/account/runtime acceptance is established."
+}

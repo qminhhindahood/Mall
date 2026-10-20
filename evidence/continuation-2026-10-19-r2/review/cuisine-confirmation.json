@@ -1,0 +1,51 @@
+{
+  "source": "3e505fb",
+  "capturedAt": "2026-10-20T00:01:29.803Z",
+  "browser": "149.0.7827.198",
+  "runs": [
+    {
+      "locale": "en",
+      "width": 1280,
+      "id": "vincom-prototype-shiseido",
+      "checks": [
+        {
+          "label": "Cuisine appears only for dining",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "id": "vincom-prototype-gogihouse",
+      "checks": [
+        {
+          "label": "Cuisine appears only for dining",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "locale": "vi",
+      "width": 390,
+      "id": "vincom-prototype-shiseido",
+      "checks": [
+        {
+          "label": "Cuisine appears only for dining",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "locale": "vi",
+      "width": 390,
+      "id": "vincom-prototype-gogihouse",
+      "checks": [
+        {
+          "label": "Cuisine appears only for dining",
+          "pass": true
+        }
+      ]
+    }
+  ]
+}
