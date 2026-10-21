@@ -1,3 +1,5 @@
+import { visitorHighlightIds } from '../data/visitor-highlights';
+import '../styles/visitor-highlights.css';
 import DestinationDetails from './DestinationDetails';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
@@ -37,7 +39,7 @@ export default function Discovery({site,selection,previewFloor,areaNumbers,activ
   const outsideCategory=selection.discoveryQuery?.trim()&&selection.discoverySearchScope==='category'?discoveryMatches(site,{...selection,discoverySearchScope:undefined}).results.filter(row=>!row.categories.includes(category?.id??'')):[];
   const globalSearch=!!selection.discoveryQuery?.trim()&&selection.discoverySearchScope!=='category';
   const rows=selection.discoveryFloorId?matches.filter(row=>row.floors.includes(selection.discoveryFloorId!)):matches;
-  const highlights=site.content.highlights.flatMap(item=>{const destination=site.destinations.find(row=>row.id===item.destinationId&&row.status==='open');return destination?[{...item,destination}]:[];});
+  const highlights=visitorHighlightIds[site.mallId].flatMap(id=>{const destination=site.destinations.find(row=>row.id===id&&row.status==='open');return destination?[destination]:[];});
   const selected=active?site.destinations.find(row=>row.id===selection.destinationId):undefined;
   const area=active?site.content.areas.find(row=>row.id===selection.areaId):undefined;
   const shared=area?site.destinations.filter(row=>row.locations.some(location=>location.floorId===area.floorId&&location.areaIds.includes(area.id))):[];
@@ -86,6 +88,11 @@ export default function Discovery({site,selection,previewFloor,areaNumbers,activ
     <div className="discovery-intro"><h2>{locale==='vi'?'Khám phá':'Discover'}</h2><p>{c.intro}</p></div>
     {site.content.approval==='pending'&&<p className="discovery-notice">{j.pending}</p>}
     {site.content.approval==='fixture'&&<p className="discovery-notice" role="note">{site.content.researchPreview?c.research:j.fixture}</p>}
+    <section className="visitor-highlights" data-mall={site.mallId} aria-labelledby="discovery-highlights-title">
+      <h3 id="discovery-highlights-title">{locale==='vi'?'Gợi ý cho chuyến ghé thăm':'Ideas for your visit'}</h3>
+      <p>{locale==='vi'?'Khám phá một vài điểm đến, rồi tìm thêm trong toàn bộ danh mục bên dưới.':'Start with a few places, then explore the full directory below.'}</p>
+      <ul>{highlights.map(destination=><li key={destination.id}><a data-discovery-result data-destination-id={destination.id} href={selectionHref(destinationLink(destination,destination.primaryFloor))} onClick={event=>select(destination,destination.primaryFloor,event)}><span className="highlight-category">{site.content.categories.filter(row=>destination.categories.includes(row.id)).map(row=>row.name[locale]).join(' · ')}</span><strong>{destination.name[locale]}</strong><span>{c.floor} {destination.floors.join(' · ')}</span><span className="highlight-action">{c.details} <span aria-hidden="true">↗</span></span></a></li>)}</ul>
+    </section>
     <form className="discovery-search" onSubmit={event=>{event.preventDefault();const data=new FormData(event.currentTarget);const query=String(data.get('collection-q')??'').trim();navigate({...base,discoveryQuery:query||undefined,discoverySearchScope:data.get('scope')==='category'?'category':undefined});}}>
       <label htmlFor="discovery-search">{locale==='vi'?'Tìm địa điểm trong trung tâm':'Find a destination in this mall'}</label>
       <div><input id="discovery-search" name="collection-q" type="search" maxLength={160} key={selection.discoveryQuery??''} defaultValue={selection.discoveryQuery??''}/><button type="submit">{locale==='vi'?'Tìm':'Search'}</button></div>
@@ -108,10 +115,6 @@ export default function Discovery({site,selection,previewFloor,areaNumbers,activ
         {!rows.length&&<div className="discovery-empty"><h4>{c.empty}</h4><p>{matches.length?c.other:j.empty}</p><a href={selectionHref({...base,discoveryFloorId:undefined,discoveryQuery:matches.length?selection.discoveryQuery:undefined})} onClick={event=>navigate({...base,discoveryFloorId:undefined,discoveryQuery:matches.length?selection.discoveryQuery:undefined},event)}>{matches.length?c.openOthers:c.clear}</a></div>}
       </div>
     </div>
-    <section className="discovery-highlights" aria-labelledby="discovery-highlights-title">
-      <h3 id="discovery-highlights-title">{j.highlights}</h3>
-      {highlights.length?<ul>{highlights.map(item=><li key={`${item.destinationId}:${item.floorId}:${item.categoryId}`}><a href={selectionHref(destinationLink(item.destination,item.floorId))} onClick={event=>select(item.destination,item.floorId,event)}><strong>{item.destination.name[locale]}</strong><span>{j.onFloor} {item.floorId}</span></a></li>)}</ul>:<p>{locale==='vi'?'Chưa có địa điểm được chọn để đề xuất.':'No recommended places have been selected yet.'}</p>}
-    </section>
     {portal&&visible&&createPortal(<article className="discovery-glass" ref={detailRef} style={cardStyle} tabIndex={-1} aria-labelledby="discovery-glass-title" aria-describedby="discovery-glass-description">
       <header className="discovery-detail-header"><h3 id="discovery-glass-title">{selected?.name[locale]??`${j.shared} · ${area?.name[locale]}`}</h3><button className="discovery-circle discovery-close" data-close-discovery aria-label={j.close} onClick={()=>closeDetail()}><DetailIcon close/></button></header>
       <div className="discovery-glass-content">

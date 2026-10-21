@@ -1,0 +1,17 @@
+.visitor-highlights { margin: 2rem 0 2.5rem; }
+.visitor-highlights h3 { margin: 0 0 .5rem; font-size: clamp(1.4rem, 2vw, 2rem); }
+.visitor-highlights > p { margin: 0 0 1.25rem; max-width: 48ch; }
+.visitor-highlights ul { display: grid; grid-template-columns: 1fr; gap: 1rem; padding: 0; list-style: none; }
+.visitor-highlights li { min-width: 0; }
+.visitor-highlights a { display: flex; flex-direction: column; align-items: flex-start; gap: .8rem; min-height: 12rem; padding: 1.25rem; border: 1px solid #c6cfc9; border-radius: 1.25rem; background: #fbfcf8; color: #173b31; text-decoration: none; transition: border-color 160ms, background-color 160ms; }
+.visitor-highlights a:hover { background: #eef3ed; border-color: #426556; }
+.visitor-highlights a:focus-visible { outline: 3px solid #173b31; outline-offset: 4px; }
+.visitor-highlights strong { font-size: 1.25rem; line-height: 1.25; overflow-wrap: anywhere; }
+.visitor-highlights .highlight-category { font-size: .875rem; line-height: 1.5; }
+.visitor-highlights .highlight-action { margin-top: auto; font-weight: 600; font-size: .95rem; }
+.visitor-highlights[data-mall="vincom-dong-khoi"] a { color: #203c5e; background: #f7f9fd; border-color: #c7d1df; }
+.visitor-highlights[data-mall="vincom-dong-khoi"] a:hover { background: #edf1f8; border-color: #526c8e; }
+.visitor-highlights[data-mall="vincom-dong-khoi"] a:focus-visible { outline-color: #203c5e; }
+@media (min-width: 700px) { .visitor-highlights ul { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1200px) { .visitor-highlights ul { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (prefers-reduced-motion: reduce) { .visitor-highlights a { transition: none; } }
