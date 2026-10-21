@@ -1,0 +1,117 @@
+{
+  "revision": "vincom-yamazaki-shared-unit-2026-10-22-r1",
+  "destinationId": "vincom-prototype-yamazaki",
+  "originalDestination": {
+    "id": "vincom-prototype-yamazaki",
+    "name": {
+      "vi": "Yamazaki",
+      "en": "Yamazaki"
+    },
+    "primaryFloor": "B3",
+    "floors": [
+      "B3"
+    ],
+    "description": {
+      "vi": "Yamazaki là thương hiệu bánh Nhật với các dòng bánh mì và bánh ngọt. Danh mục kết hợp bánh mặn dùng cho bữa ăn nhẹ với bánh ngọt để ăn riêng hoặc dùng cùng đồ uống.",
+      "en": "Yamazaki is a Japanese bakery brand with breads and sweet baked goods. Its range combines savoury options for a light meal with sweet pastries to eat on their own or with a drink."
+    },
+    "reviewedAt": "2026-10-18",
+    "review": {
+      "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+      "reviewedAt": "2026-10-18",
+      "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+      "languages": {
+        "vi": true,
+        "en": true
+      }
+    },
+    "categories": [
+      "category-1"
+    ],
+    "aliases": [],
+    "status": "open",
+    "locations": [
+      {
+        "floorId": "B3",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "openingSoon": false,
+    "cuisine": {
+      "vi": "Nhật Bản",
+      "en": "Japanese"
+    }
+  },
+  "anchorDestinationId": "vincom-candidate-vd-b3-024",
+  "originalAnchorLocations": [
+    {
+      "floorId": "B3",
+      "certainty": "area-confirmed",
+      "areaIds": [
+        "vincom-prompt1-area-vincom-candidate-vd-b3-024-b3"
+      ],
+      "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-mapping-prompt1-2026-10-21-r2.json; independently reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B3-21",
+      "associationDetail": {
+        "kind": "source-layout",
+        "note": {
+          "en": "Approximate area traced from the supplied plan (about 1–3 source pixels uncertainty). Plan date, current occupancy and exact doorway are not verified.",
+          "vi": "Khu vực ước lượng theo sơ đồ được cung cấp (sai số khoảng 1–3 điểm ảnh nguồn). Chưa xác minh ngày sơ đồ, đơn vị đang hoạt động và cửa ra vào chính xác."
+        }
+      }
+    }
+  ],
+  "originalArea": {
+    "id": "vincom-prompt1-area-vincom-candidate-vd-b3-024-b3",
+    "floorId": "B3",
+    "regionIds": [
+      "vincom-prompt1-b3-044"
+    ],
+    "name": {
+      "vi": "Beard Papa's",
+      "en": "Beard Papa's"
+    },
+    "review": {
+      "source": "data/research/vincom-mapping-prompt1-2026-10-21-r2.json; independently reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established",
+      "reviewedAt": "2026-10-21",
+      "reviewedBy": "Independent review subagent gpt-6.1-sol",
+      "languages": {
+        "vi": true,
+        "en": true
+      }
+    }
+  },
+  "floorId": "B3",
+  "areaId": "vincom-prompt1-area-vincom-candidate-vd-b3-024-b3",
+  "regionIds": [
+    "vincom-prompt1-b3-044"
+  ],
+  "printedUnits": [
+    "B3-21"
+  ],
+  "areaName": {
+    "en": "B3-21 shared source-unit reference",
+    "vi": "Khu tham chiếu chung theo sơ đồ B3-21"
+  },
+  "source": {
+    "path": "evidence/vincom-valiram-area-2026-10-22/yamazaki-employer.html",
+    "sha256": "731a55bcdcb7d141cbc1b069245bdabe2337ebc9d67afaf9d165264f73b1fcaf",
+    "url": "https://www.topcv.vn/viec-lam/nhan-vien-bep-banh/2310512.html",
+    "authority": "Employer-authored Vietnam Yamazaki recruitment notice; TopCV platform representation of authorship, not independent verification of employer account",
+    "branchClaim": "B3-21, Tầng hầm B3 - Vincom Center Đồng Khởi, Số 72 Lê Thánh Tôn",
+    "applicationDeadline": "2026-10-23"
+  },
+  "associationDetail": {
+    "kind": "source-layout",
+    "note": {
+      "en": "Approximate shared reference to source unit B3-21. Vietnam Yamazaki’s employer notice names B3-21; the supplied plan labels Beard Papa’s. This does not establish shared current occupancy, an exclusive current boundary or an exact doorway.",
+      "vi": "Khu tham chiếu chung gần đúng theo ô B3-21 trên sơ đồ. Tin tuyển dụng do Việt Nam Yamazaki đăng ghi B3-21; sơ đồ được cung cấp ghi Beard Papa’s. Chưa xác minh hai thương hiệu cùng hoạt động tại đây, ranh giới hiện tại riêng biệt hoặc cửa ra vào chính xác."
+    }
+  },
+  "reviewedAt": "2026-10-22",
+  "reviewedBy": "Codex single-session employer-source/unit correspondence review",
+  "exclusiveCurrentBoundaryVerified": false,
+  "decision": "accept-shared-source-unit-reference-only",
+  "baseDirectoryRevision": "owner-approved-directory-2026-10-18-r1+vincom-precision-holds-2026-10-21-r1+vincom-source-associations-2026-10-21-r1+vincom-derived-segmentation-2026-10-21-r7+vincom-source-associations-2026-10-21-r9+vincom-mapping-prompt1-2026-10-21-r2+vincom-completion-b3-b2-2026-10-21-r2+vincom-reopened-source-unit-2026-10-21-r1+vincom-max-source-units-2026-10-22-r1+vincom-verified-floor-correction-2026-10-22-r1+vincom-valiram-source-unit-2026-10-22-r1"
+}

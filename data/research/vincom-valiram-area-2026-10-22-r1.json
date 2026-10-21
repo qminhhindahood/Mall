@@ -1,0 +1,229 @@
+{
+  "revision": "vincom-valiram-source-unit-2026-10-22-r1",
+  "baseDirectoryRevision": "owner-approved-directory-2026-10-18-r1+vincom-precision-holds-2026-10-21-r1+vincom-source-associations-2026-10-21-r1+vincom-derived-segmentation-2026-10-21-r7+vincom-source-associations-2026-10-21-r9+vincom-mapping-prompt1-2026-10-21-r2+vincom-completion-b3-b2-2026-10-21-r2+vincom-reopened-source-unit-2026-10-21-r1+vincom-max-source-units-2026-10-22-r1+vincom-verified-floor-correction-2026-10-22-r1",
+  "baseGeometryRevision": "source-palette-schematic-2026-10-13-r2+owner-approved-directory-2026-10-18-r1-geometry+vincom-derived-segmentation-2026-10-21-r7+vincom-mapping-prompt1-2026-10-21-r2+vincom-completion-b3-b2-2026-10-21-r2+vincom-reopened-source-unit-2026-10-21-r1+vincom-max-source-units-2026-10-22-r1",
+  "destinationId": "vincom-prototype-bathbodyworks",
+  "floorId": "L1",
+  "printedUnits": [
+    "L1-45"
+  ],
+  "originalDestination": {
+    "id": "vincom-prototype-bathbodyworks",
+    "name": {
+      "vi": "Bath & Body Works",
+      "en": "Bath & Body Works"
+    },
+    "primaryFloor": "L1",
+    "floors": [
+      "L1"
+    ],
+    "description": {
+      "vi": "Bath & Body Works cung cấp sản phẩm tạo hương cho cơ thể và không gian sống, từ xịt thơm, lotion đến nến. Các bộ sưu tập được xây dựng quanh nhiều nhóm mùi để người dùng lựa chọn theo sở thích.",
+      "en": "Bath & Body Works offers fragrance products for the body and home, from mists and lotions to candles. Its collections are organised around different scent families and preferences."
+    },
+    "reviewedAt": "2026-10-18",
+    "review": {
+      "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+      "reviewedAt": "2026-10-18",
+      "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+      "languages": {
+        "vi": true,
+        "en": true
+      }
+    },
+    "categories": [
+      "category-8"
+    ],
+    "aliases": [],
+    "status": "open",
+    "locations": [
+      {
+        "floorId": "L1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "openingSoon": false
+  },
+  "region": {
+    "id": "L1-region-003",
+    "outer": [
+      [
+        -19,
+        -10.75
+      ],
+      [
+        -19.1,
+        -10.65
+      ],
+      [
+        -19.1,
+        -6.35
+      ],
+      [
+        -19,
+        -6.25
+      ],
+      [
+        -19,
+        -6.05
+      ],
+      [
+        -9,
+        -6.05
+      ],
+      [
+        -9,
+        -6.45
+      ],
+      [
+        -8.9,
+        -6.55
+      ],
+      [
+        -8.9,
+        -7.85
+      ],
+      [
+        -9,
+        -7.95
+      ],
+      [
+        -9,
+        -8.15
+      ],
+      [
+        -8.9,
+        -8.25
+      ],
+      [
+        -8.9,
+        -8.35
+      ],
+      [
+        -8.7,
+        -8.55
+      ],
+      [
+        -8.5,
+        -8.55
+      ],
+      [
+        -8.4,
+        -8.65
+      ],
+      [
+        -1.5,
+        -8.65
+      ],
+      [
+        -1.4,
+        -8.55
+      ],
+      [
+        -1.3,
+        -8.65
+      ],
+      [
+        -0.6,
+        -8.65
+      ],
+      [
+        -0.5,
+        -8.55
+      ],
+      [
+        -0.3,
+        -8.75
+      ],
+      [
+        -0.3,
+        -10.15
+      ],
+      [
+        -0.2,
+        -10.25
+      ],
+      [
+        -0.2,
+        -10.35
+      ],
+      [
+        -0.3,
+        -10.45
+      ],
+      [
+        -0.3,
+        -10.65
+      ],
+      [
+        -0.5,
+        -10.85
+      ],
+      [
+        -18.8,
+        -10.85
+      ],
+      [
+        -18.9,
+        -10.75
+      ]
+    ],
+    "holes": [],
+    "role": "neutral-source-residual",
+    "derivedFrom": "L1-region-003"
+  },
+  "sourceRaster": {
+    "path": "assets/vincom-dong-khoi/maps/L1.webp",
+    "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+  },
+  "locator": {
+    "path": "evidence/vincom-valiram-area-2026-10-22/valiram-stores.json",
+    "sha256": "578e5b15e5b6ccbde1623128b0bfdca3521103ed5056bea8f190819f2840c66c",
+    "pageUrl": "https://valiram.com/store-locator/",
+    "endpointUrl": "https://valiram.com/wp-admin/admin-ajax.php",
+    "action": "asl_load_stores",
+    "recordId": "2516",
+    "title": "Bath & Body Works - Vincom Center Dong Khoi",
+    "street": "L1 – 45, Vincom Center, 72 Lê Thánh Tôn, Sài Gòn"
+  },
+  "area": {
+    "id": "vincom-valiram-area-l1-45",
+    "floorId": "L1",
+    "regionIds": [
+      "L1-region-003"
+    ],
+    "name": {
+      "en": "L1-45 source-unit reference",
+      "vi": "Khu tham chiếu theo sơ đồ L1-45"
+    },
+    "review": {
+      "source": "data/research/vincom-valiram-area-2026-10-22-r1.json; https://valiram.com/store-locator/; primary locator record2516; supplied plan L1-45",
+      "reviewedAt": "2026-10-22",
+      "reviewedBy": "Codex single-session primary-source and contour review",
+      "languages": {
+        "en": true,
+        "vi": true
+      }
+    }
+  },
+  "associationDetail": {
+    "kind": "source-layout",
+    "note": {
+      "en": "Approximate reference to unit L1-45 on the supplied plan. Valiram’s locator names this unit for Bath & Body Works; the plan labels Innisfree, whose newer locator places it on B1. The plan date, current fit-out boundary and exact doorway are unverified.",
+      "vi": "Khu tham chiếu gần đúng theo ô L1-45 trên sơ đồ được cung cấp. Bộ định vị cửa hàng Valiram ghi ô này cho Bath & Body Works; sơ đồ ghi Innisfree, nhưng bộ định vị mới hơn của Innisfree ghi tầng B1. Chưa xác minh ngày sơ đồ, ranh giới bố trí hiện tại và cửa ra vào chính xác."
+    }
+  },
+  "review": {
+    "source": "data/research/vincom-valiram-area-2026-10-22-r1.json; https://valiram.com/store-locator/; primary locator record2516; supplied plan L1-45",
+    "reviewedAt": "2026-10-22",
+    "reviewedBy": "Codex single-session primary-source and contour review",
+    "languages": {
+      "en": true,
+      "vi": true
+    }
+  },
+  "newAreaLinks": 1,
+  "exclusiveCurrentBoundaryVerified": false
+}

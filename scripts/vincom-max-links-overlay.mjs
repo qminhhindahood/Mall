@@ -100,3 +100,47 @@ export function verifiedVincomFloor(root,snapshot) {
   });
   return {...snapshot,revision:`${snapshot.revision}+${correction.revision}`,destinations};
 }
+
+export function valiramSourceArea(root,snapshot,geometry) {
+  const sourcePath = 'data/research/vincom-valiram-area-2026-10-22-r1.json';
+  const bytes = readFileSync(resolve(root,sourcePath));
+  if (hash(bytes) !== '5d1072e5e0c57eb303dd530cdc24449761c74414fb072fb31555beb8d1094146') fail('Valiram packet drift');
+  const packet = JSON.parse(bytes);
+  if (snapshot.revision !== packet.baseDirectoryRevision || geometry.revision !== packet.baseGeometryRevision) fail('Valiram base revision drift');
+  for (const source of [packet.locator,packet.sourceRaster]) if (hash(readFileSync(resolve(root,source.path))) !== source.sha256) fail('Valiram source drift');
+  const records = JSON.parse(readFileSync(resolve(root,packet.locator.path),'utf8'));
+  const matches = records.filter(r => r.id === packet.locator.recordId);
+  if (matches.length !== 1 || matches[0].title !== packet.locator.title || matches[0].street !== packet.locator.street || matches[0].country !== 'Vietnam') fail('Valiram branch tuple drift');
+  if (!same(snapshot.destinations.find(d => d.id === packet.destinationId),packet.originalDestination) || packet.originalDestination.locations.some(l => l.areaIds.length)) fail('Valiram target drift');
+  const floor = geometry.floors.find(f => f.id === packet.floorId);
+  if (!same(floor?.regions.find(r => r.id === packet.region.id),packet.region)) fail('Valiram contour drift');
+  if (snapshot.areas.some(a => a.id === packet.area.id || a.floorId === packet.floorId && a.regionIds.includes(packet.region.id))) fail('Valiram area already owned');
+  const destinations = snapshot.destinations.map(d => d.id !== packet.destinationId ? d : {
+    ...d,locations:d.locations.map(l => l.floorId !== packet.floorId ? l : {
+      ...l,certainty:'area-confirmed',areaIds:[packet.area.id],associationDetail:packet.associationDetail,
+      source:`${l.source}; ${sourcePath}; approximate source-unit correspondence only; current fit-out and doorway unverified`,
+    }),
+  });
+  return {...snapshot,revision:`${snapshot.revision}+${packet.revision}`,destinations,areas:[...snapshot.areas,packet.area]};
+}
+
+export function yamazakiSharedArea(root,snapshot) {
+  const sourcePath = 'data/research/vincom-yamazaki-area-2026-10-22-r1.json';
+  const bytes = readFileSync(resolve(root,sourcePath));
+  if (hash(bytes) !== '19a92627de79f73b4c8ec18e6874bc85181507a74f7b0e740a29e96d9c70c76c') fail('Yamazaki packet drift');
+  const packet = JSON.parse(bytes);
+  if (snapshot.revision !== packet.baseDirectoryRevision) fail('Yamazaki base revision drift');
+  if (hash(readFileSync(resolve(root,packet.source.path))) !== packet.source.sha256) fail('Yamazaki employer source drift');
+  if (!same(snapshot.destinations.find(d => d.id === packet.destinationId),packet.originalDestination) || packet.originalDestination.locations.some(l => l.areaIds.length)) fail('Yamazaki target drift');
+  if (!same(snapshot.areas.find(a => a.id === packet.areaId),packet.originalArea) || !same(snapshot.destinations.find(d => d.id === packet.anchorDestinationId)?.locations,packet.originalAnchorLocations)) fail('Yamazaki shared anchor drift');
+  const destinations = snapshot.destinations.map(d => d.id !== packet.destinationId ? d : {
+    ...d,locations:d.locations.map(l => l.floorId !== packet.floorId ? l : {
+      ...l,certainty:'area-confirmed',areaIds:[packet.areaId],associationDetail:packet.associationDetail,
+      source:`${l.source}; ${sourcePath}; employer-claimed B3-21 shared source reference; current occupancy and doorway unverified`,
+    }),
+  });
+  const areas = snapshot.areas.map(a => a.id !== packet.areaId ? a : {
+    ...a,name:packet.areaName,review:{...a.review,source:`${a.review.source}; ${sourcePath}; shared source-unit reference`,reviewedAt:packet.reviewedAt,reviewedBy:packet.reviewedBy},
+  });
+  return {...snapshot,revision:`${snapshot.revision}+${packet.revision}`,destinations,areas};
+}
