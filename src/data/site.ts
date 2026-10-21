@@ -1,4 +1,5 @@
 import { completionSupplement, completionSharedDirectory } from '../../scripts/vincom-completion-overlay.mjs';
+import { relabelCategories } from './category-labels';
 import fs from 'node:fs';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
@@ -113,7 +114,7 @@ if (mallId === 'vincom-dong-khoi' && !['research','1'].includes(process.env.INCL
   prompt1Content = applyAssociationSupplement(prompt1Content,geometry,completion.supplement,completion.receipt);
   prompt1Content = completionSharedDirectory(process.cwd(),prompt1Content,geometry);
 }
-const content = validateContent(prompt1Content,mallId,geometry);
+const content = relabelCategories(validateContent(prompt1Content,mallId,geometry));
 const destinations = content.destinations;
 const manifestPath = path.join(process.cwd(),'data','malls',mallId,'asset-manifest.json');
 const manifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath,'utf8')) : {};
