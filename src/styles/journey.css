@@ -163,6 +163,10 @@ html{overflow-anchor:none}
 .visitor-guide .registered-floors .overview-stack>a:is(.selected:not([data-dim=true]),[data-preview=true]) .slab-top{fill:var(--selected);stroke:var(--edge)}
 .registered-floors .overview-stack[data-rotating=true]>a{will-change:transform}
 .overview-pause{display:grid;place-items:center;min-width:44px;padding:8px;border:0;background:transparent}
+.visitor-guide .replay-control{min-height:44px;padding:8px 14px;border:1px solid currentColor;border-radius:999px;background:transparent;color:var(--action);font-family:inherit;font-size:14px;font-weight:600;line-height:1.2;cursor:pointer}
+.visitor-guide .replay-control:disabled{opacity:.55;cursor:wait}
+.visitor-guide .replay-control:focus-visible{outline:3px solid var(--action);outline-offset:3px}
+.visitor-guide .introduction-controls .replay-control{border:1px solid var(--action);background:var(--paper);color:var(--action);padding:8px 14px}
 .visitor-guide .overview-pause svg{width:24px;height:24px;background:none}
 .visitor-guide .overview-pause svg path{fill:none;stroke:currentColor;stroke-width:2}
 .exterior-floor-journey .introduction-bottom{max-width:none;right:32px;text-align:center}
