@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-21T00:22:39.421Z",
+  "browser": "149.0.7827.198",
+  "runs": [
+    {
+      "mall": "saigon-centre",
+      "locale": "en",
+      "width": 1280,
+      "id": "saigon-prototype-dimtutac",
+      "checks": [
+        {
+          "pass": true,
+          "label": "Supported directions open by default"
+        },
+        {
+          "pass": true,
+          "label": "No route before manual start"
+        },
+        {
+          "pass": true,
+          "label": "Keyboard chooses named starting landmark"
+        },
+        {
+          "pass": true,
+          "label": "Steps accompany route"
+        },
+        {
+          "pass": true,
+          "label": "Route image has localized accessible name"
+        },
+        {
+          "pass": true,
+          "label": "Area endpoint limitation visible"
+        },
+        {
+          "pass": true,
+          "label": "No page overflow"
+        }
+      ]
+    }
+  ],
+  "error": "TypeError: apiRequestContext.get: Invalid URL"
+}
