@@ -5,6 +5,7 @@ import { destinationCuisine, destinationEnrichment, safeOfficialUrl } from '../d
 import { selectionHref } from '../data/routes';
 import { journeyCopy } from './journey-copy';
 import IndoorGuidance from './IndoorGuidance';
+import {sourcePlanReferenceLabel} from './association-copy';
 import '../styles/destination-details.css';
 
 const labels = {
@@ -23,6 +24,7 @@ export default function DestinationDetails({site,destination,locale,floorId,desc
   const missingContact=!fields.some(item=>item.field==='phone'&&item.state==='verified-agent')||!fields.some(item=>item.field==='hours'&&item.state==='verified-agent');
   const location=destination.locations.find(l=>l.floorId===floorId);
   const mapped=location?.certainty==='area-confirmed';
+  const sourcePlanOnly=location?.associationDetail?.referenceStatus==='source-plan-only';
   const website=!fields.some(item=>item.field==='website'&&item.state==='verified-agent')&&destination.website&&safeOfficialUrl(destination.website)?destination.website:undefined;
   const activeFloor=destination.floors.includes(floorId)?floorId:destination.primaryFloor;
   const back=returnTo??selectionHref({locale,floorId:activeFloor,kind:'discovery',destinationId:destination.id});
@@ -36,10 +38,10 @@ export default function DestinationDetails({site,destination,locale,floorId,desc
       <details className="detail-source-disclosure"><summary>{c.source} · {item.checkedAt}</summary><p className="detail-provenance">{c.checked}: <time dateTime={item.checkedAt}>{item.checkedAt}</time> · <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer">{c.source}<span className="visually-hidden"> · {c.newTab}</span></a></p><p className="detail-provenance">{item.uncertainty[locale]}</p></details>
     </div>);
   return <div className="destination-details" data-destination-details={destination.id}>
-    <div className="detail-location-summary"><strong>{c.floor} {destination.floors.join(' · ')}</strong><p>{locale==='vi'?(mapped?'Khu vực trên sơ đồ · chưa xác định cửa vào chính xác':'Đã biết tầng · chưa định vị khu vực cửa hàng'):(mapped?'Mapped area · exact doorway not identified':'Floor known · store area not mapped')}</p></div>
+    <div className="detail-location-summary"><strong>{c.floor} {destination.floors.join(' · ')}</strong><p>{sourcePlanOnly?sourcePlanReferenceLabel[locale]:locale==='vi'?(mapped?'Khu vực trên sơ đồ · chưa xác định cửa vào chính xác':'Đã biết tầng · chưa định vị khu vực cửa hàng'):(mapped?'Mapped area · exact doorway not identified':'Floor known · store area not mapped')}</p></div>
     {location?.associationDetail&&<p className="detail-association-note" data-association-kind={location.associationDetail.kind}>{location.associationDetail.note[locale]}</p>}
-    <nav className="detail-primary-actions" aria-label={locale==='vi'?'Chuẩn bị ghé thăm':'Plan your visit'}><a className="detail-directions" data-directions-handoff href={directionsUrl}>{locale==='vi'?'Chỉ đường':'Directions'} <span aria-hidden="true">↗</span></a><a href={selectionHref({locale,floorId:activeFloor,kind:'map',destinationId:destination.id})}>{locale==='vi'?'Xem sơ đồ':'View map'}</a></nav>
-    <p className="detail-route-help">{locale==='vi'?'Tiếp theo, chọn nơi bắt đầu. Chỉ hiển thị đường đi cho các kết nối đã được đối chiếu.':'Choose your starting place next. Walking guidance is available only for reviewed connections.'}</p>
+    <nav className="detail-primary-actions" aria-label={locale==='vi'?'Chuẩn bị ghé thăm':'Plan your visit'}><a className="detail-directions" data-directions-handoff href={directionsUrl}>{sourcePlanOnly?(locale==='vi'?'Xem tham chiếu':'View reference'):(locale==='vi'?'Chỉ đường':'Directions')} <span aria-hidden="true">↗</span></a><a href={selectionHref({locale,floorId:activeFloor,kind:'map',destinationId:destination.id})}>{locale==='vi'?'Xem sơ đồ':'View map'}</a></nav>
+    <p className="detail-route-help">{sourcePlanOnly?sourcePlanReferenceLabel[locale]:locale==='vi'?'Tiếp theo, chọn nơi bắt đầu. Chỉ hiển thị đường đi cho các kết nối đã được đối chiếu.':'Choose your starting place next. Walking guidance is available only for reviewed connections.'}</p>
     {fields.length>0&&<section className="detail-proposals" aria-label={heading}><h4>{heading}</h4>{renderFields(fields.filter(item=>item.state==='verified-agent'))}{fields.some(item=>item.state!=='verified-agent')&&<details className="detail-research-disclosure"><summary>{locale==='vi'?'Thông tin đang đối chiếu':'Information under review'}</summary>{renderFields(fields.filter(item=>item.state!=='verified-agent'))}</details>}</section>}
     <h4>{locale==='vi'?'Giới thiệu':'About this place'}</h4>
     <p id={descriptionId}>{destination.description[locale]||j.descriptionPending}</p>

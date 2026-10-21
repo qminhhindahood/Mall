@@ -5,6 +5,7 @@ import DestinationDetails from './DestinationDetails';
 import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import type { MouseEvent, RefObject } from 'react';
+import {sourcePlanReferenceLabel} from './association-copy';
 import type { SiteData } from '../data/site';
 import type { Destination } from '../data/content';
 import { destinationCuisine } from '../data/enrichment';
@@ -73,7 +74,7 @@ export default function Discovery({site,selection,previewFloor,areaNumbers,activ
   const listing=(destination:Destination,floorId:string)=>{
     const location=destination.locations.find(row=>row.floorId===floorId);
     return <li key={`${floorId}:${destination.id}`}><a data-discovery-result data-destination-id={destination.id} href={selectionHref(destinationLink(destination,floorId))} aria-current={selected?.id===destination.id?'true':undefined} onClick={event=>select(destination,floorId,event)}>
-      <span className="discovery-number" aria-hidden="true">{number(destination,floorId)??'·'}</span><span><strong>{destination.name[locale]}</strong><span className="discovery-type">{destinationCuisine(site.content,destination)?.[locale]??site.content.categories.filter(c=>destination.categories.includes(c.id)).map(c=>c.name[locale]).join(' · ')}{destination.openingSoon?` · ${c.soon}`:''}</span><span className="discovery-meta">{c.floor} {floorId} · {location?.areaIds.length?c.location:c.pending}</span></span><DetailIcon/>
+      <span className="discovery-number" aria-hidden="true">{number(destination,floorId)??'·'}</span><span><strong>{destination.name[locale]}</strong><span className="discovery-type">{destinationCuisine(site.content,destination)?.[locale]??site.content.categories.filter(c=>destination.categories.includes(c.id)).map(c=>c.name[locale]).join(' · ')}{destination.openingSoon?` · ${c.soon}`:''}</span><span className="discovery-meta">{c.floor} {floorId} · {location?.associationDetail?.referenceStatus==='source-plan-only'?sourcePlanReferenceLabel[locale]:location?.areaIds.length?c.location:c.pending}</span></span><DetailIcon/>
     </a></li>;
   };
   return <>

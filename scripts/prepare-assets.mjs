@@ -81,7 +81,9 @@ if (process.env.INCLUDE_TEST_FIXTURES === 'research') {
   geometry = Buffer.from(JSON.stringify(researchGeometry(root,mall,JSON.parse(geometry)))+'\n');
 } else if (process.env.INCLUDE_TEST_FIXTURES !== '1') {
   const { approvedGeometry } = await import('./approved-overlay.mjs');
-  geometry = Buffer.from(JSON.stringify(approvedGeometry(root,mall,JSON.parse(geometry)))+'\n');
+  const approved = approvedGeometry(root,mall,JSON.parse(geometry));
+  const { literalPlanGeometry } = await import('./vincom-plan-labels-overlay.mjs');
+  geometry = Buffer.from(JSON.stringify(mall==='vincom-dong-khoi'?literalPlanGeometry(root,approved):approved)+'\n');
 }
 manifest.floorGeometry = {revision:JSON.parse(geometry).revision,url:'/data/floor-geometry.json.br',identityUrl:'/data/floor-geometry.json',bytes:geometry.length,sha256:hash(geometry),compression:[]};
 for (const [encoding,suffix,bytes] of [['identity','',geometry],['br','.br',brotliCompressSync(geometry,{params:{[constants.BROTLI_PARAM_QUALITY]:5}})],['gzip','.gz',gzipSync(geometry)]]) {

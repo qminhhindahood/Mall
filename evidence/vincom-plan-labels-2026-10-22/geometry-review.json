@@ -1,0 +1,37 @@
+{
+  "newContourIds": [
+    "vincom-plan-pnj-17i",
+    "vincom-plan-pnj-17j"
+  ],
+  "newContours": [
+    {
+      "id": "vincom-plan-pnj-17i",
+      "vertices": 4,
+      "area": 7.105,
+      "traceInsideParentFraction": 0.9567,
+      "activeAreaSampleHits": 0
+    },
+    {
+      "id": "vincom-plan-pnj-17j",
+      "vertices": 4,
+      "area": 7.205,
+      "traceInsideParentFraction": 0.997,
+      "activeAreaSampleHits": 0
+    }
+  ],
+  "parent": {
+    "id": "B2-region-027-prompt1-residual-1",
+    "area": 18.277056,
+    "vertices": 58,
+    "ownedByActiveArea": false
+  },
+  "activeAreaOverlaps": 0,
+  "mutualOverlapSamples": 0,
+  "degenerateContours": 0,
+  "neutralCut": {
+    "originalId": "B2-region-027",
+    "residualId": "B2-region-027-plan-residual-1"
+  },
+  "method": "Reviewed literal 17I/17J printed-unit traces retained over the unchanged unowned source-palette parent B2-region-027-prompt1-residual-1; no active-area overlap; current fit-out boundary remains unconfirmed.",
+  "sampled": "101 x 101 points per contour; coverage and overlap figures are sampled, not a boolean-conservation proof."
+}

@@ -6,7 +6,7 @@ export type Destination = {
   id: string; name: Bilingual; primaryFloor: string; floors: string[];
   description: Bilingual; reviewedAt: string; fixture?: boolean;
   categories: string[]; aliases: string[]; status: 'open'|'closed'|'moved';
-  locations: { floorId: string; certainty: 'floor-confirmed'|'area-confirmed'; areaIds: string[]; source: string; associationDetail?: {kind:'source-layout'|'partial-source-layout';note:Bilingual} }[];
+  locations: { floorId: string; certainty: 'floor-confirmed'|'area-confirmed'; areaIds: string[]; source: string; associationDetail?: {kind:'source-layout'|'partial-source-layout';note:Bilingual;referenceStatus?:'source-plan-only'} }[];
   review: Review;
   cuisine?: Bilingual;
   website?: string;
@@ -49,6 +49,7 @@ export function validateContent(snapshot: DirectorySnapshot, mallId: MallId, geo
     if(d.locations.length!==d.floors.length||new Set(d.locations.map(l=>l.floorId)).size!==d.floors.length)fail(`one location per floor required ${d.id}`);
     for(const l of d.locations) {if(!d.floors.includes(l.floorId)||!l.source.trim()||!['floor-confirmed','area-confirmed'].includes(l.certainty))fail(`invalid location ${d.id}`);if((l.certainty==='floor-confirmed'&&l.areaIds.length)||(l.certainty==='area-confirmed'&&!l.areaIds.length)||l.areaIds.some(id=>!snapshot.areas.some(a=>a.id===id&&a.floorId===l.floorId)))fail(`unsupported precision ${d.id}`);}
   }
+  for(const d of snapshot.destinations)for(const l of d.locations)if(l.associationDetail?.referenceStatus!==undefined&&(l.associationDetail.referenceStatus!=='source-plan-only'||!l.areaIds.length||!l.associationDetail.note.en.trim()||!l.associationDetail.note.vi.trim()))fail(`invalid source-plan reference ${d.id}`);
   for(const f of snapshot.facilities){floor(f.floorId);if(f.areaId&&!snapshot.areas.some(a=>a.id===f.areaId&&a.floorId===f.floorId))fail(`unsupported facility ${f.id}`);}
   for(const h of snapshot.highlights){review(h.review);if(!snapshot.destinations.some(d=>d.id===h.destinationId&&d.status==='open'&&d.floors.includes(h.floorId)&&d.categories.includes(h.categoryId)))fail('ineligible Highlight');}
   if (snapshot.approval === 'approved') validateEnrichment(snapshot);

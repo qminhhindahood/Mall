@@ -1,6 +1,7 @@
 import { completionSupplement, completionSharedDirectory } from '../../scripts/vincom-completion-overlay.mjs';
 import { reopenedSupplement } from '../../scripts/vincom-reopened-overlay.mjs';
 import { beforeMaxLinksGeometry, maxLinksSupplement, maxLinksSharedDirectory, verifiedVincomFloor, valiramSourceArea, yamazakiSharedArea } from '../../scripts/vincom-max-links-overlay.mjs';
+import { literalPlanDirectory, literalPlanGeometry } from '../../scripts/vincom-plan-labels-overlay.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
@@ -122,6 +123,8 @@ if (mallId === 'vincom-dong-khoi' && !['research','1'].includes(process.env.INCL
   prompt1Content = verifiedVincomFloor(process.cwd(),prompt1Content);
   prompt1Content = valiramSourceArea(process.cwd(),prompt1Content,geometry);
   prompt1Content = yamazakiSharedArea(process.cwd(),prompt1Content);
+  prompt1Content = literalPlanDirectory(process.cwd(),prompt1Content,geometry);
+  geometry = literalPlanGeometry(process.cwd(),geometry);
 }
 const content = validateContent(prompt1Content,mallId,geometry);
 const destinations = content.destinations;

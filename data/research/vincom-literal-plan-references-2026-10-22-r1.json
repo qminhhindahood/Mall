@@ -1,0 +1,2436 @@
+{
+  "revision": "vincom-literal-plan-references-2026-10-22-r1",
+  "baseDirectoryRevision": "owner-approved-directory-2026-10-18-r1+vincom-precision-holds-2026-10-21-r1+vincom-source-associations-2026-10-21-r1+vincom-derived-segmentation-2026-10-21-r7+vincom-source-associations-2026-10-21-r9+vincom-mapping-prompt1-2026-10-21-r2+vincom-completion-b3-b2-2026-10-21-r2+vincom-reopened-source-unit-2026-10-21-r1+vincom-max-source-units-2026-10-22-r1+vincom-verified-floor-correction-2026-10-22-r1+vincom-valiram-source-unit-2026-10-22-r1+vincom-yamazaki-shared-unit-2026-10-22-r1",
+  "baseGeometryRevision": "source-palette-schematic-2026-10-13-r2+owner-approved-directory-2026-10-18-r1-geometry+vincom-derived-segmentation-2026-10-21-r7+vincom-mapping-prompt1-2026-10-21-r2+vincom-completion-b3-b2-2026-10-21-r2+vincom-reopened-source-unit-2026-10-21-r1+vincom-max-source-units-2026-10-22-r1",
+  "ownerScope": "Owner22Oct points to D:/Midterm/Vincom đồng khởi/map and asks whether those sources are enough. Implementation interpretation: literal plan references with prominent current-location uncertainty, preserving the five existing precision holds.",
+  "sourceRasters": [
+    {
+      "floorId": "B1",
+      "path": "assets/vincom-dong-khoi/maps/B1.webp",
+      "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "floorId": "B2",
+      "path": "assets/vincom-dong-khoi/maps/B2.webp",
+      "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "floorId": "B3",
+      "path": "assets/vincom-dong-khoi/maps/B3.webp",
+      "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "floorId": "L1",
+      "path": "assets/vincom-dong-khoi/maps/L1.webp",
+      "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "floorId": "M",
+      "path": "assets/vincom-dong-khoi/maps/M.webp",
+      "sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+    },
+    {
+      "floorId": "L2",
+      "path": "assets/vincom-dong-khoi/maps/L2.webp",
+      "sha256": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029"
+    },
+    {
+      "floorId": "L3",
+      "path": "assets/vincom-dong-khoi/maps/L3.webp",
+      "sha256": "629d9860433bacc381daede046513190e2d6877bf88f99907eafb3f0794bbc70"
+    }
+  ],
+  "rows": [
+    {
+      "destinationId": "vincom-candidate-vd-b3-005",
+      "originalDestination": {
+        "id": "vincom-candidate-vd-b3-005",
+        "name": {
+          "vi": "Lẩu MK",
+          "en": "Lẩu MK"
+        },
+        "primaryFloor": "B3",
+        "floors": [
+          "B3"
+        ],
+        "description": {
+          "vi": "MK tập trung vào lẩu suki kiểu Thái với thịt, rau và các loại viên nhúng; vịt quay là một nhóm món riêng của thương hiệu. Thực đơn còn có cơm và mì dùng kèm vịt quay.",
+          "en": "MK focuses on Thai-style suki hotpot with meat, vegetables and assorted hotpot items, alongside its roast-duck dishes. Rice and noodle meals with roast duck are also part of the brand's menu."
+        },
+        "reviewedAt": "2026-10-18",
+        "review": {
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+          "reviewedAt": "2026-10-18",
+          "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        },
+        "categories": [
+          "category-1"
+        ],
+        "aliases": [],
+        "status": "open",
+        "locations": [
+          {
+            "floorId": "B3",
+            "certainty": "floor-confirmed",
+            "areaIds": [],
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+          }
+        ]
+      },
+      "anchorDestinationId": "vincom-prototype-tianlong",
+      "originalAnchorLocations": [
+        {
+          "floorId": "B3",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "vincom-max-area-tianlong"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B3-18B",
+          "associationDetail": {
+            "kind": "source-layout",
+            "note": {
+              "en": "Approximate B3-18B reference area from the supplied plan. Current shop boundaries and occupancy are unconfirmed; check signs on arrival.",
+              "vi": "Khu vực tham chiếu gần đúng B3-18B theo sơ đồ được cung cấp. Chưa xác nhận ranh giới và cửa hàng đang hoạt động; vui lòng đối chiếu biển hiệu khi đến."
+            }
+          }
+        }
+      ],
+      "floorId": "B3",
+      "printedUnits": [
+        "B3-18B"
+      ],
+      "sourceLegendMatches": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-18B",
+          "printedName": "Lẩu MK",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "areaId": "vincom-max-area-tianlong",
+      "regionIds": [
+        "vincom-max-b3-040"
+      ],
+      "originalArea": {
+        "id": "vincom-max-area-tianlong",
+        "floorId": "B3",
+        "regionIds": [
+          "vincom-max-b3-040"
+        ],
+        "name": {
+          "vi": "Tian Long",
+          "en": "Tian Long"
+        },
+        "review": {
+          "source": "data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established",
+          "reviewedAt": "2026-10-22",
+          "reviewedBy": "Codex source review (single session)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        }
+      },
+      "areaName": {
+        "en": "B3-18B source-plan reference",
+        "vi": "Khu tham chiếu theo sơ đồ B3-18B"
+      },
+      "associationDetail": {
+        "kind": "source-layout",
+        "referenceStatus": "source-plan-only",
+        "note": {
+          "en": "The supplied plan labels Lẩu MK at B3-18B. This reference shares the source unit with Tian Long in the directory. The current store location, occupancy, exact doorway and plan date are unconfirmed.",
+          "vi": "Sơ đồ được cung cấp ghi Lẩu MK tại B3-18B. Đây là vị trí tham chiếu theo sơ đồ, dùng chung ô nguồn với Tian Long trong danh mục. Chưa xác minh vị trí cửa hàng hiện tại, đơn vị đang hoạt động, cửa ra vào chính xác và ngày sơ đồ."
+        }
+      }
+    },
+    {
+      "destinationId": "vincom-prototype-huedelights",
+      "originalDestination": {
+        "id": "vincom-prototype-huedelights",
+        "name": {
+          "vi": "Huế Delights",
+          "en": "Huế Delights"
+        },
+        "primaryFloor": "B3",
+        "floors": [
+          "B3"
+        ],
+        "description": {
+          "vi": "Huế Delights phục vụ bún bò và các loại bánh truyền thống của Huế. Món nước và bánh nhỏ tạo nên hai nhóm món để tìm hiểu hương vị miền Trung.",
+          "en": "Huế Delights serves beef noodle soup and traditional Huế rice cakes. Noodle dishes and small cakes offer two ways to explore central Vietnamese flavours."
+        },
+        "reviewedAt": "2026-10-18",
+        "review": {
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+          "reviewedAt": "2026-10-18",
+          "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        },
+        "categories": [
+          "category-1"
+        ],
+        "aliases": [],
+        "status": "open",
+        "locations": [
+          {
+            "floorId": "B3",
+            "certainty": "floor-confirmed",
+            "areaIds": [],
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+          }
+        ],
+        "website": "https://www.facebook.com/NhahangHueDelights/?locale=vi_VN",
+        "openingSoon": false,
+        "cuisine": {
+          "vi": "Việt Nam",
+          "en": "Vietnamese"
+        }
+      },
+      "anchorDestinationId": "vincom-prototype-touslesjours",
+      "originalAnchorLocations": [
+        {
+          "floorId": "B3",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "vincom-max-area-touslesjours"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B3-19A",
+          "associationDetail": {
+            "kind": "source-layout",
+            "note": {
+              "en": "Approximate B3-19A reference area from the supplied plan. Current shop boundaries and occupancy are unconfirmed; check signs on arrival.",
+              "vi": "Khu vực tham chiếu gần đúng B3-19A theo sơ đồ được cung cấp. Chưa xác nhận ranh giới và cửa hàng đang hoạt động; vui lòng đối chiếu biển hiệu khi đến."
+            }
+          }
+        }
+      ],
+      "floorId": "B3",
+      "printedUnits": [
+        "B3-19A"
+      ],
+      "sourceLegendMatches": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-19A",
+          "printedName": "Huế Delights",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "areaId": "vincom-max-area-touslesjours",
+      "regionIds": [
+        "vincom-max-b3-042"
+      ],
+      "originalArea": {
+        "id": "vincom-max-area-touslesjours",
+        "floorId": "B3",
+        "regionIds": [
+          "vincom-max-b3-042"
+        ],
+        "name": {
+          "vi": "Tous Les Jours",
+          "en": "Tous Les Jours"
+        },
+        "review": {
+          "source": "data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established",
+          "reviewedAt": "2026-10-22",
+          "reviewedBy": "Codex source review (single session)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        }
+      },
+      "areaName": {
+        "en": "B3-19A source-plan reference",
+        "vi": "Khu tham chiếu theo sơ đồ B3-19A"
+      },
+      "associationDetail": {
+        "kind": "source-layout",
+        "referenceStatus": "source-plan-only",
+        "note": {
+          "en": "The supplied plan labels Huế Delights at B3-19A. This reference shares the source unit with Tous Les Jours in the directory. The current store location, occupancy, exact doorway and plan date are unconfirmed.",
+          "vi": "Sơ đồ được cung cấp ghi Huế Delights tại B3-19A. Đây là vị trí tham chiếu theo sơ đồ, dùng chung ô nguồn với Tous Les Jours trong danh mục. Chưa xác minh vị trí cửa hàng hiện tại, đơn vị đang hoạt động, cửa ra vào chính xác và ngày sơ đồ."
+        }
+      }
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b3-022",
+      "originalDestination": {
+        "id": "vincom-candidate-vd-b3-022",
+        "name": {
+          "vi": "Date Nariya",
+          "en": "Date Nariya"
+        },
+        "primaryFloor": "B3",
+        "floors": [
+          "B3"
+        ],
+        "description": {
+          "vi": "Date Nariya là thương hiệu nhà hàng Nhật Bản gắn với gyutan, món lưỡi bò nướng của vùng Sendai. Thay vì chỉ giới thiệu chung về đồ Nhật, trọng tâm của thương hiệu là cách chế biến phần thịt này thành món nướng.",
+          "en": "Date Nariya is a Japanese restaurant brand associated with gyutan, the grilled beef-tongue speciality of Sendai. Its identity centres on this particular cut and preparation rather than a general Japanese menu."
+        },
+        "reviewedAt": "2026-10-18",
+        "review": {
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+          "reviewedAt": "2026-10-18",
+          "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        },
+        "categories": [
+          "category-1"
+        ],
+        "aliases": [],
+        "status": "open",
+        "locations": [
+          {
+            "floorId": "B3",
+            "certainty": "floor-confirmed",
+            "areaIds": [],
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+          }
+        ]
+      },
+      "anchorDestinationId": "vincom-prototype-longwang",
+      "originalAnchorLocations": [
+        {
+          "floorId": "B3",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "vincom-max-area-longwang"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B3-19B",
+          "associationDetail": {
+            "kind": "source-layout",
+            "note": {
+              "en": "Approximate B3-19B reference area from the supplied plan. Current shop boundaries and occupancy are unconfirmed; check signs on arrival.",
+              "vi": "Khu vực tham chiếu gần đúng B3-19B theo sơ đồ được cung cấp. Chưa xác nhận ranh giới và cửa hàng đang hoạt động; vui lòng đối chiếu biển hiệu khi đến."
+            }
+          }
+        }
+      ],
+      "floorId": "B3",
+      "printedUnits": [
+        "B3-19B"
+      ],
+      "sourceLegendMatches": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-19B",
+          "printedName": "Date Nariya",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "areaId": "vincom-max-area-longwang",
+      "regionIds": [
+        "vincom-max-b3-041"
+      ],
+      "originalArea": {
+        "id": "vincom-max-area-longwang",
+        "floorId": "B3",
+        "regionIds": [
+          "vincom-max-b3-041"
+        ],
+        "name": {
+          "vi": "Long Wang",
+          "en": "Long Wang"
+        },
+        "review": {
+          "source": "data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established",
+          "reviewedAt": "2026-10-22",
+          "reviewedBy": "Codex source review (single session)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        }
+      },
+      "areaName": {
+        "en": "B3-19B source-plan reference",
+        "vi": "Khu tham chiếu theo sơ đồ B3-19B"
+      },
+      "associationDetail": {
+        "kind": "source-layout",
+        "referenceStatus": "source-plan-only",
+        "note": {
+          "en": "The supplied plan labels Date Nariya at B3-19B. This reference shares the source unit with Long Wang in the directory. The current store location, occupancy, exact doorway and plan date are unconfirmed.",
+          "vi": "Sơ đồ được cung cấp ghi Date Nariya tại B3-19B. Đây là vị trí tham chiếu theo sơ đồ, dùng chung ô nguồn với Long Wang trong danh mục. Chưa xác minh vị trí cửa hàng hiện tại, đơn vị đang hoạt động, cửa ra vào chính xác và ngày sơ đồ."
+        }
+      }
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b3-026",
+      "originalDestination": {
+        "id": "vincom-candidate-vd-b3-026",
+        "name": {
+          "vi": "Langfarm",
+          "en": "Langfarm"
+        },
+        "primaryFloor": "B3",
+        "floors": [
+          "B3"
+        ],
+        "description": {
+          "vi": "L'angfarm tập trung vào đặc sản Đà Lạt như trái cây sấy, mứt và trà thảo mộc. Các sản phẩm đóng gói có thể được chọn để dùng tại nhà hoặc ghép thành quà tặng.",
+          "en": "L'angfarm focuses on Đà Lạt specialities including dried fruit, preserves and herbal teas. Its packaged products can be chosen for home use or assembled as gifts."
+        },
+        "reviewedAt": "2026-10-18",
+        "review": {
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+          "reviewedAt": "2026-10-18",
+          "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        },
+        "categories": [
+          "category-1"
+        ],
+        "aliases": [],
+        "status": "open",
+        "locations": [
+          {
+            "floorId": "B3",
+            "certainty": "floor-confirmed",
+            "areaIds": [],
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+          }
+        ]
+      },
+      "anchorDestinationId": "vincom-prototype-thematchatokyo",
+      "originalAnchorLocations": [
+        {
+          "floorId": "B3",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "vincom-max-area-thematchatokyo"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B3-15C",
+          "associationDetail": {
+            "kind": "source-layout",
+            "note": {
+              "en": "Approximate B3-15C reference area from the supplied plan. Current shop boundaries and occupancy are unconfirmed; check signs on arrival.",
+              "vi": "Khu vực tham chiếu gần đúng B3-15C theo sơ đồ được cung cấp. Chưa xác nhận ranh giới và cửa hàng đang hoạt động; vui lòng đối chiếu biển hiệu khi đến."
+            }
+          }
+        }
+      ],
+      "floorId": "B3",
+      "printedUnits": [
+        "B3-15C"
+      ],
+      "sourceLegendMatches": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-15C",
+          "printedName": "Langfarm",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "areaId": "vincom-max-area-thematchatokyo",
+      "regionIds": [
+        "vincom-max-b3-052"
+      ],
+      "originalArea": {
+        "id": "vincom-max-area-thematchatokyo",
+        "floorId": "B3",
+        "regionIds": [
+          "vincom-max-b3-052"
+        ],
+        "name": {
+          "vi": "The Matcha Tokyo",
+          "en": "The Matcha Tokyo"
+        },
+        "review": {
+          "source": "data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established",
+          "reviewedAt": "2026-10-22",
+          "reviewedBy": "Codex source review (single session)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        }
+      },
+      "areaName": {
+        "en": "B3-15C source-plan reference",
+        "vi": "Khu tham chiếu theo sơ đồ B3-15C"
+      },
+      "associationDetail": {
+        "kind": "source-layout",
+        "referenceStatus": "source-plan-only",
+        "note": {
+          "en": "The supplied plan labels Langfarm at B3-15C. This reference shares the source unit with The Matcha Tokyo in the directory. The current store location, occupancy, exact doorway and plan date are unconfirmed.",
+          "vi": "Sơ đồ được cung cấp ghi Langfarm tại B3-15C. Đây là vị trí tham chiếu theo sơ đồ, dùng chung ô nguồn với The Matcha Tokyo trong danh mục. Chưa xác minh vị trí cửa hàng hiện tại, đơn vị đang hoạt động, cửa ra vào chính xác và ngày sơ đồ."
+        }
+      }
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b3-028",
+      "originalDestination": {
+        "id": "vincom-candidate-vd-b3-028",
+        "name": {
+          "vi": "Seoul Garden",
+          "en": "Seoul Garden"
+        },
+        "primaryFloor": "B3",
+        "floors": [
+          "B3"
+        ],
+        "description": {
+          "vi": "Seoul Garden phục vụ buffet kết hợp nướng và lẩu, với các nhóm thịt, hải sản và nguyên liệu nhúng. Hai cách chế biến cho phép thay đổi giữa món nướng tại bàn và món nấu trong nước lẩu.",
+          "en": "Seoul Garden offers a buffet combining barbecue and hotpot, with meats, seafood and hotpot ingredients. The two cooking methods let diners alternate between tabletop grilling and simmering ingredients in broth."
+        },
+        "reviewedAt": "2026-10-18",
+        "review": {
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+          "reviewedAt": "2026-10-18",
+          "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        },
+        "categories": [
+          "category-1"
+        ],
+        "aliases": [],
+        "status": "open",
+        "locations": [
+          {
+            "floorId": "B3",
+            "certainty": "floor-confirmed",
+            "areaIds": [],
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+          }
+        ]
+      },
+      "anchorDestinationId": "vincom-prototype-yakinikulike",
+      "originalAnchorLocations": [
+        {
+          "floorId": "B3",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "vincom-max-area-yakinikulike"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B3-16A",
+          "associationDetail": {
+            "kind": "source-layout",
+            "note": {
+              "en": "Approximate B3-16A reference area from the supplied plan. Current shop boundaries and occupancy are unconfirmed; check signs on arrival.",
+              "vi": "Khu vực tham chiếu gần đúng B3-16A theo sơ đồ được cung cấp. Chưa xác nhận ranh giới và cửa hàng đang hoạt động; vui lòng đối chiếu biển hiệu khi đến."
+            }
+          }
+        }
+      ],
+      "floorId": "B3",
+      "printedUnits": [
+        "B3-16A"
+      ],
+      "sourceLegendMatches": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-16A",
+          "printedName": "Seoul Garden",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "areaId": "vincom-max-area-yakinikulike",
+      "regionIds": [
+        "vincom-max-b3-050"
+      ],
+      "originalArea": {
+        "id": "vincom-max-area-yakinikulike",
+        "floorId": "B3",
+        "regionIds": [
+          "vincom-max-b3-050"
+        ],
+        "name": {
+          "vi": "Yakiniku Like",
+          "en": "Yakiniku Like"
+        },
+        "review": {
+          "source": "data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established",
+          "reviewedAt": "2026-10-22",
+          "reviewedBy": "Codex source review (single session)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        }
+      },
+      "areaName": {
+        "en": "B3-16A source-plan reference",
+        "vi": "Khu tham chiếu theo sơ đồ B3-16A"
+      },
+      "associationDetail": {
+        "kind": "source-layout",
+        "referenceStatus": "source-plan-only",
+        "note": {
+          "en": "The supplied plan labels Seoul Garden at B3-16A. This reference shares the source unit with Yakiniku Like in the directory. The current store location, occupancy, exact doorway and plan date are unconfirmed.",
+          "vi": "Sơ đồ được cung cấp ghi Seoul Garden tại B3-16A. Đây là vị trí tham chiếu theo sơ đồ, dùng chung ô nguồn với Yakiniku Like trong danh mục. Chưa xác minh vị trí cửa hàng hiện tại, đơn vị đang hoạt động, cửa ra vào chính xác và ngày sơ đồ."
+        }
+      }
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b3-032",
+      "originalDestination": {
+        "id": "vincom-candidate-vd-b3-032",
+        "name": {
+          "vi": "Kyo Hananari",
+          "en": "Kyo Hananari"
+        },
+        "primaryFloor": "B3",
+        "floors": [
+          "B3"
+        ],
+        "description": {
+          "vi": "Kyo Hananari phục vụ các món ăn gia đình theo phong cách Nhật Bản.",
+          "en": "Kyo Hananari serves Japanese home-style dishes."
+        },
+        "reviewedAt": "2026-10-18",
+        "review": {
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+          "reviewedAt": "2026-10-18",
+          "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        },
+        "categories": [
+          "category-1"
+        ],
+        "aliases": [],
+        "status": "open",
+        "locations": [
+          {
+            "floorId": "B3",
+            "certainty": "floor-confirmed",
+            "areaIds": [],
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+          }
+        ]
+      },
+      "anchorDestinationId": "vincom-prototype-kohakuudonramen",
+      "originalAnchorLocations": [
+        {
+          "floorId": "B3",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "vincom-max-area-kohakuudonramen"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B3-10C",
+          "associationDetail": {
+            "kind": "source-layout",
+            "note": {
+              "en": "Approximate B3-10C reference area from the supplied plan. Current shop boundaries and occupancy are unconfirmed; check signs on arrival.",
+              "vi": "Khu vực tham chiếu gần đúng B3-10C theo sơ đồ được cung cấp. Chưa xác nhận ranh giới và cửa hàng đang hoạt động; vui lòng đối chiếu biển hiệu khi đến."
+            }
+          }
+        }
+      ],
+      "floorId": "B3",
+      "printedUnits": [
+        "B3-10C"
+      ],
+      "sourceLegendMatches": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-10C",
+          "printedName": "Kyo Hananari",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "areaId": "vincom-max-area-kohakuudonramen",
+      "regionIds": [
+        "vincom-max-b3-049"
+      ],
+      "originalArea": {
+        "id": "vincom-max-area-kohakuudonramen",
+        "floorId": "B3",
+        "regionIds": [
+          "vincom-max-b3-049"
+        ],
+        "name": {
+          "vi": "Kohaku Udon Ramen",
+          "en": "Kohaku Udon Ramen"
+        },
+        "review": {
+          "source": "data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established",
+          "reviewedAt": "2026-10-22",
+          "reviewedBy": "Codex source review (single session)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        }
+      },
+      "areaName": {
+        "en": "B3-10C source-plan reference",
+        "vi": "Khu tham chiếu theo sơ đồ B3-10C"
+      },
+      "associationDetail": {
+        "kind": "source-layout",
+        "referenceStatus": "source-plan-only",
+        "note": {
+          "en": "The supplied plan labels Kyo Hananari at B3-10C. This reference shares the source unit with Kohaku Udon Ramen in the directory. The current store location, occupancy, exact doorway and plan date are unconfirmed.",
+          "vi": "Sơ đồ được cung cấp ghi Kyo Hananari tại B3-10C. Đây là vị trí tham chiếu theo sơ đồ, dùng chung ô nguồn với Kohaku Udon Ramen trong danh mục. Chưa xác minh vị trí cửa hàng hiện tại, đơn vị đang hoạt động, cửa ra vào chính xác và ngày sơ đồ."
+        }
+      }
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-005",
+      "originalDestination": {
+        "id": "vincom-candidate-vd-b2-005",
+        "name": {
+          "vi": "Keds",
+          "en": "Keds"
+        },
+        "primaryFloor": "B2",
+        "floors": [
+          "B2"
+        ],
+        "description": {
+          "vi": "Keds tập trung vào giày sneaker, đặc biệt là các mẫu giày vải. Dòng Champion có phom buộc dây đơn giản, thể hiện thiết kế giày thường ngày gắn với thương hiệu.",
+          "en": "Keds focuses on sneakers, particularly canvas styles. The Champion line uses a simple lace-up shape associated with the brand's everyday footwear."
+        },
+        "reviewedAt": "2026-10-18",
+        "review": {
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+          "reviewedAt": "2026-10-18",
+          "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        },
+        "categories": [
+          "category-0"
+        ],
+        "aliases": [],
+        "status": "open",
+        "locations": [
+          {
+            "floorId": "B2",
+            "certainty": "floor-confirmed",
+            "areaIds": [],
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+          }
+        ]
+      },
+      "anchorDestinationId": "vincom-prototype-pucini",
+      "originalAnchorLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "vincom-max-area-pucini"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B2-50",
+          "associationDetail": {
+            "kind": "source-layout",
+            "note": {
+              "en": "Approximate B2-50 reference area from the supplied plan. Current shop boundaries and occupancy are unconfirmed; check signs on arrival.",
+              "vi": "Khu vực tham chiếu gần đúng B2-50 theo sơ đồ được cung cấp. Chưa xác nhận ranh giới và cửa hàng đang hoạt động; vui lòng đối chiếu biển hiệu khi đến."
+            }
+          }
+        }
+      ],
+      "floorId": "B2",
+      "printedUnits": [
+        "B2-50"
+      ],
+      "sourceLegendMatches": [
+        {
+          "floor": "B2",
+          "printedUnit": "B2-50",
+          "printedName": "Keds",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B2-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "areaId": "vincom-max-area-pucini",
+      "regionIds": [
+        "vincom-max-b2-064"
+      ],
+      "originalArea": {
+        "id": "vincom-max-area-pucini",
+        "floorId": "B2",
+        "regionIds": [
+          "vincom-max-b2-064"
+        ],
+        "name": {
+          "vi": "Pucini",
+          "en": "Pucini"
+        },
+        "review": {
+          "source": "data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established",
+          "reviewedAt": "2026-10-22",
+          "reviewedBy": "Codex source review (single session)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        }
+      },
+      "areaName": {
+        "en": "B2-50 source-plan reference",
+        "vi": "Khu tham chiếu theo sơ đồ B2-50"
+      },
+      "associationDetail": {
+        "kind": "source-layout",
+        "referenceStatus": "source-plan-only",
+        "note": {
+          "en": "The supplied plan labels Keds at B2-50. This reference shares the source unit with Pucini in the directory. The current store location, occupancy, exact doorway and plan date are unconfirmed.",
+          "vi": "Sơ đồ được cung cấp ghi Keds tại B2-50. Đây là vị trí tham chiếu theo sơ đồ, dùng chung ô nguồn với Pucini trong danh mục. Chưa xác minh vị trí cửa hàng hiện tại, đơn vị đang hoạt động, cửa ra vào chính xác và ngày sơ đồ."
+        }
+      }
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-016",
+      "originalDestination": {
+        "id": "vincom-candidate-vd-b2-016",
+        "name": {
+          "vi": "Sealy",
+          "en": "Sealy"
+        },
+        "primaryFloor": "B2",
+        "floors": [
+          "B2"
+        ],
+        "description": {
+          "vi": "Sealy chuyên nệm và các sản phẩm phục vụ giấc ngủ. Thương hiệu có các nhóm nệm lò xo, nệm foam và nệm kết hợp, khác nhau về cấu trúc nâng đỡ bên trong.",
+          "en": "Sealy specialises in mattresses and sleep products. Its ranges include spring, foam and hybrid mattresses, distinguished by their internal support structures."
+        },
+        "reviewedAt": "2026-10-18",
+        "review": {
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+          "reviewedAt": "2026-10-18",
+          "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        },
+        "categories": [
+          "category-pending"
+        ],
+        "aliases": [],
+        "status": "open",
+        "locations": [
+          {
+            "floorId": "B2",
+            "certainty": "floor-confirmed",
+            "areaIds": [],
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+          }
+        ]
+      },
+      "anchorDestinationId": "vincom-prototype-anphuoc",
+      "originalAnchorLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "vincom-max-area-anphuoc"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B2-01C",
+          "associationDetail": {
+            "kind": "source-layout",
+            "note": {
+              "en": "Approximate B2-01C reference area from the supplied plan. Current shop boundaries and occupancy are unconfirmed; check signs on arrival.",
+              "vi": "Khu vực tham chiếu gần đúng B2-01C theo sơ đồ được cung cấp. Chưa xác nhận ranh giới và cửa hàng đang hoạt động; vui lòng đối chiếu biển hiệu khi đến."
+            }
+          }
+        }
+      ],
+      "floorId": "B2",
+      "printedUnits": [
+        "B2-01C"
+      ],
+      "sourceLegendMatches": [
+        {
+          "floor": "B2",
+          "printedUnit": "B2-01C",
+          "printedName": "Sealy",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B2-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "areaId": "vincom-max-area-anphuoc",
+      "regionIds": [
+        "vincom-max-b2-068"
+      ],
+      "originalArea": {
+        "id": "vincom-max-area-anphuoc",
+        "floorId": "B2",
+        "regionIds": [
+          "vincom-max-b2-068"
+        ],
+        "name": {
+          "vi": "An Phước",
+          "en": "An Phước"
+        },
+        "review": {
+          "source": "data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established",
+          "reviewedAt": "2026-10-22",
+          "reviewedBy": "Codex source review (single session)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        }
+      },
+      "areaName": {
+        "en": "B2-01C source-plan reference",
+        "vi": "Khu tham chiếu theo sơ đồ B2-01C"
+      },
+      "associationDetail": {
+        "kind": "source-layout",
+        "referenceStatus": "source-plan-only",
+        "note": {
+          "en": "The supplied plan labels Sealy at B2-01C. This reference shares the source unit with An Phước in the directory. The current store location, occupancy, exact doorway and plan date are unconfirmed.",
+          "vi": "Sơ đồ được cung cấp ghi Sealy tại B2-01C. Đây là vị trí tham chiếu theo sơ đồ, dùng chung ô nguồn với An Phước trong danh mục. Chưa xác minh vị trí cửa hàng hiện tại, đơn vị đang hoạt động, cửa ra vào chính xác và ngày sơ đồ."
+        }
+      }
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-018",
+      "originalDestination": {
+        "id": "vincom-candidate-vd-b2-018",
+        "name": {
+          "vi": "Lock & Lock",
+          "en": "Lock & Lock"
+        },
+        "primaryFloor": "B2",
+        "floors": [
+          "B2"
+        ],
+        "description": {
+          "vi": "LocknLock cung cấp hộp bảo quản thực phẩm, hộp cơm, bình giữ nhiệt và đồ dùng bếp. Các nhóm sản phẩm tập trung vào việc cất trữ thức ăn và mang đồ ăn, thức uống theo khi đi làm hoặc ra ngoài.",
+          "en": "LocknLock offers food-storage containers, lunch boxes, insulated drinkware and kitchen products. Its core categories focus on storing food and carrying meals or drinks to work and other activities."
+        },
+        "reviewedAt": "2026-10-18",
+        "review": {
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+          "reviewedAt": "2026-10-18",
+          "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        },
+        "categories": [
+          "category-pending"
+        ],
+        "aliases": [],
+        "status": "open",
+        "locations": [
+          {
+            "floorId": "B2",
+            "certainty": "floor-confirmed",
+            "areaIds": [],
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+          }
+        ]
+      },
+      "anchorDestinationId": "vincom-prototype-adidas",
+      "originalAnchorLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "vincom-max-area-adidas"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B2-05",
+          "associationDetail": {
+            "kind": "source-layout",
+            "note": {
+              "en": "Approximate B2-05 reference area from the supplied plan. Current shop boundaries and occupancy are unconfirmed; check signs on arrival.",
+              "vi": "Khu vực tham chiếu gần đúng B2-05 theo sơ đồ được cung cấp. Chưa xác nhận ranh giới và cửa hàng đang hoạt động; vui lòng đối chiếu biển hiệu khi đến."
+            }
+          }
+        }
+      ],
+      "floorId": "B2",
+      "printedUnits": [
+        "B2-05"
+      ],
+      "sourceLegendMatches": [
+        {
+          "floor": "B2",
+          "printedUnit": "B2-05",
+          "printedName": "Lock & Lock",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B2-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "areaId": "vincom-max-area-adidas",
+      "regionIds": [
+        "vincom-max-b2-070"
+      ],
+      "originalArea": {
+        "id": "vincom-max-area-adidas",
+        "floorId": "B2",
+        "regionIds": [
+          "vincom-max-b2-070"
+        ],
+        "name": {
+          "vi": "Adidas",
+          "en": "Adidas"
+        },
+        "review": {
+          "source": "data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established",
+          "reviewedAt": "2026-10-22",
+          "reviewedBy": "Codex source review (single session)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        }
+      },
+      "areaName": {
+        "en": "B2-05 source-plan reference",
+        "vi": "Khu tham chiếu theo sơ đồ B2-05"
+      },
+      "associationDetail": {
+        "kind": "source-layout",
+        "referenceStatus": "source-plan-only",
+        "note": {
+          "en": "The supplied plan labels Lock & Lock at B2-05. This reference shares the source unit with Adidas in the directory. The current store location, occupancy, exact doorway and plan date are unconfirmed.",
+          "vi": "Sơ đồ được cung cấp ghi Lock & Lock tại B2-05. Đây là vị trí tham chiếu theo sơ đồ, dùng chung ô nguồn với Adidas trong danh mục. Chưa xác minh vị trí cửa hàng hiện tại, đơn vị đang hoạt động, cửa ra vào chính xác và ngày sơ đồ."
+        }
+      }
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-028",
+      "originalDestination": {
+        "id": "vincom-candidate-vd-b1-028",
+        "name": {
+          "vi": "Old Navy",
+          "en": "Old Navy"
+        },
+        "primaryFloor": "B1",
+        "floors": [
+          "B1"
+        ],
+        "description": {
+          "vi": "Old Navy kinh doanh quần áo và phụ kiện cho nam, nữ và trẻ em. Denim, áo thun và đồ mặc thường ngày là các nhóm sản phẩm cốt lõi trong danh mục gia đình của thương hiệu.",
+          "en": "Old Navy offers clothing and accessories for men, women and children. Denim, T-shirts and casual staples are core categories within its family-oriented range."
+        },
+        "reviewedAt": "2026-10-18",
+        "review": {
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+          "reviewedAt": "2026-10-18",
+          "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        },
+        "categories": [
+          "category-0"
+        ],
+        "aliases": [],
+        "status": "open",
+        "locations": [
+          {
+            "floorId": "B1",
+            "certainty": "floor-confirmed",
+            "areaIds": [],
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+          }
+        ]
+      },
+      "anchorDestinationId": "vincom-prototype-wilson",
+      "originalAnchorLocations": [
+        {
+          "floorId": "B1",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "vincom-max-area-wilson"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B1-50-51",
+          "associationDetail": {
+            "kind": "partial-source-layout",
+            "note": {
+              "en": "Approximate shared B1-50-51 reference area from the supplied plan. Individual shop boundaries and current occupancy are unconfirmed; check signs on arrival.",
+              "vi": "Khu vực tham chiếu chung gần đúng B1-50-51 theo sơ đồ được cung cấp. Chưa xác nhận ranh giới riêng và cửa hàng đang hoạt động; vui lòng đối chiếu biển hiệu khi đến."
+            }
+          }
+        }
+      ],
+      "floorId": "B1",
+      "printedUnits": [
+        "B1-50-51"
+      ],
+      "sourceLegendMatches": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-50-51",
+          "printedName": "Old Navy",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "areaId": "vincom-max-area-wilson",
+      "regionIds": [
+        "vincom-max-b1-50-51"
+      ],
+      "originalArea": {
+        "id": "vincom-max-area-wilson",
+        "floorId": "B1",
+        "regionIds": [
+          "vincom-max-b1-50-51"
+        ],
+        "name": {
+          "en": "B1-50-51 shared reference area",
+          "vi": "Khu vực tham chiếu chung B1-50-51"
+        },
+        "review": {
+          "source": "data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; data/research/vincom-max-source-units-2026-10-22-r1.json; shared source-unit reference only",
+          "reviewedAt": "2026-10-22",
+          "reviewedBy": "Codex source review (single session)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        }
+      },
+      "areaName": {
+        "en": "B1-50-51 source-plan reference",
+        "vi": "Khu tham chiếu theo sơ đồ B1-50-51"
+      },
+      "associationDetail": {
+        "kind": "source-layout",
+        "referenceStatus": "source-plan-only",
+        "note": {
+          "en": "The supplied plan labels Old Navy at B1-50-51. This reference shares the source unit with Wilson in the directory. The current store location, occupancy, exact doorway and plan date are unconfirmed.",
+          "vi": "Sơ đồ được cung cấp ghi Old Navy tại B1-50-51. Đây là vị trí tham chiếu theo sơ đồ, dùng chung ô nguồn với Wilson trong danh mục. Chưa xác minh vị trí cửa hàng hiện tại, đơn vị đang hoạt động, cửa ra vào chính xác và ngày sơ đồ."
+        }
+      }
+    },
+    {
+      "destinationId": "vincom-candidate-vd-l1-006",
+      "originalDestination": {
+        "id": "vincom-candidate-vd-l1-006",
+        "name": {
+          "vi": "The Face Shop",
+          "en": "The Face Shop"
+        },
+        "primaryFloor": "L1",
+        "floors": [
+          "L1"
+        ],
+        "description": {
+          "vi": "The Face Shop là thương hiệu mỹ phẩm Hàn Quốc với sản phẩm làm sạch, dưỡng da và trang điểm. Mặt nạ giấy là một nhóm sản phẩm trong danh mục, bên cạnh sữa rửa mặt và kem dưỡng.",
+          "en": "The Face Shop is a Korean beauty brand with cleansing, skincare and makeup products. Sheet masks form one category alongside facial cleansers and moisturisers."
+        },
+        "reviewedAt": "2026-10-18",
+        "review": {
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+          "reviewedAt": "2026-10-18",
+          "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        },
+        "categories": [
+          "category-1"
+        ],
+        "aliases": [],
+        "status": "open",
+        "locations": [
+          {
+            "floorId": "L1",
+            "certainty": "floor-confirmed",
+            "areaIds": [],
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+          }
+        ]
+      },
+      "anchorDestinationId": "vincom-prototype-escentricsignature",
+      "originalAnchorLocations": [
+        {
+          "floorId": "L1",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "vincom-max-area-escentricsignature"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units L1-46A",
+          "associationDetail": {
+            "kind": "source-layout",
+            "note": {
+              "en": "Approximate L1-46A reference area from the supplied plan. Current shop boundaries and occupancy are unconfirmed; check signs on arrival.",
+              "vi": "Khu vực tham chiếu gần đúng L1-46A theo sơ đồ được cung cấp. Chưa xác nhận ranh giới và cửa hàng đang hoạt động; vui lòng đối chiếu biển hiệu khi đến."
+            }
+          }
+        }
+      ],
+      "floorId": "L1",
+      "printedUnits": [
+        "L1-46A"
+      ],
+      "sourceLegendMatches": [
+        {
+          "floor": "L1",
+          "printedUnit": "L1-46A",
+          "printedName": "The Face Shop",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "areaId": "vincom-max-area-escentricsignature",
+      "regionIds": [
+        "vincom-max-l1-023"
+      ],
+      "originalArea": {
+        "id": "vincom-max-area-escentricsignature",
+        "floorId": "L1",
+        "regionIds": [
+          "vincom-max-l1-023"
+        ],
+        "name": {
+          "vi": "Escentric Signature",
+          "en": "Escentric Signature"
+        },
+        "review": {
+          "source": "data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established",
+          "reviewedAt": "2026-10-22",
+          "reviewedBy": "Codex source review (single session)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        }
+      },
+      "areaName": {
+        "en": "L1-46A source-plan reference",
+        "vi": "Khu tham chiếu theo sơ đồ L1-46A"
+      },
+      "associationDetail": {
+        "kind": "source-layout",
+        "referenceStatus": "source-plan-only",
+        "note": {
+          "en": "The supplied plan labels The Face Shop at L1-46A. This reference shares the source unit with Escentric Signature in the directory. The current store location, occupancy, exact doorway and plan date are unconfirmed.",
+          "vi": "Sơ đồ được cung cấp ghi The Face Shop tại L1-46A. Đây là vị trí tham chiếu theo sơ đồ, dùng chung ô nguồn với Escentric Signature trong danh mục. Chưa xác minh vị trí cửa hàng hiện tại, đơn vị đang hoạt động, cửa ra vào chính xác và ngày sơ đồ."
+        }
+      }
+    },
+    {
+      "destinationId": "vincom-candidate-vd-l1-007",
+      "originalDestination": {
+        "id": "vincom-candidate-vd-l1-007",
+        "name": {
+          "vi": "Paris & France",
+          "en": "Paris & France"
+        },
+        "primaryFloor": "L1",
+        "floors": [
+          "L1"
+        ],
+        "description": {
+          "vi": "Paris & France kinh doanh nước hoa và các sản phẩm làm đẹp.",
+          "en": "Paris & France retails fragrance and beauty products."
+        },
+        "reviewedAt": "2026-10-18",
+        "review": {
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+          "reviewedAt": "2026-10-18",
+          "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        },
+        "categories": [
+          "category-8"
+        ],
+        "aliases": [],
+        "status": "open",
+        "locations": [
+          {
+            "floorId": "L1",
+            "certainty": "floor-confirmed",
+            "areaIds": [],
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+          }
+        ]
+      },
+      "anchorDestinationId": "vincom-prototype-passifloresbeauty",
+      "originalAnchorLocations": [
+        {
+          "floorId": "L1",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "vincom-max-area-passifloresbeauty"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units L1-46B/C",
+          "associationDetail": {
+            "kind": "source-layout",
+            "note": {
+              "en": "Approximate L1-46B/C reference area from the supplied plan. Current shop boundaries and occupancy are unconfirmed; check signs on arrival.",
+              "vi": "Khu vực tham chiếu gần đúng L1-46B/C theo sơ đồ được cung cấp. Chưa xác nhận ranh giới và cửa hàng đang hoạt động; vui lòng đối chiếu biển hiệu khi đến."
+            }
+          }
+        }
+      ],
+      "floorId": "L1",
+      "printedUnits": [
+        "L1-46BC"
+      ],
+      "sourceLegendMatches": [
+        {
+          "floor": "L1",
+          "printedUnit": "L1-46BC",
+          "printedName": "Paris & France",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "areaId": "vincom-max-area-passifloresbeauty",
+      "regionIds": [
+        "vincom-max-l1-024"
+      ],
+      "originalArea": {
+        "id": "vincom-max-area-passifloresbeauty",
+        "floorId": "L1",
+        "regionIds": [
+          "vincom-max-l1-024"
+        ],
+        "name": {
+          "vi": "Passiflores Beauty",
+          "en": "Passiflores Beauty"
+        },
+        "review": {
+          "source": "data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established",
+          "reviewedAt": "2026-10-22",
+          "reviewedBy": "Codex source review (single session)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        }
+      },
+      "areaName": {
+        "en": "L1-46BC source-plan reference",
+        "vi": "Khu tham chiếu theo sơ đồ L1-46BC"
+      },
+      "associationDetail": {
+        "kind": "source-layout",
+        "referenceStatus": "source-plan-only",
+        "note": {
+          "en": "The supplied plan labels Paris & France at L1-46BC. This reference shares the source unit with Passiflores Beauty in the directory. The current store location, occupancy, exact doorway and plan date are unconfirmed.",
+          "vi": "Sơ đồ được cung cấp ghi Paris & France tại L1-46BC. Đây là vị trí tham chiếu theo sơ đồ, dùng chung ô nguồn với Passiflores Beauty trong danh mục. Chưa xác minh vị trí cửa hàng hiện tại, đơn vị đang hoạt động, cửa ra vào chính xác và ngày sơ đồ."
+        }
+      }
+    },
+    {
+      "destinationId": "vincom-candidate-vd-x-068",
+      "originalDestination": {
+        "id": "vincom-candidate-vd-x-068",
+        "name": {
+          "vi": "The Kooples",
+          "en": "The Kooples"
+        },
+        "primaryFloor": "M",
+        "floors": [
+          "M"
+        ],
+        "description": {
+          "vi": "The Kooples thiết kế quần áo và phụ kiện cho nam và nữ với ảnh hưởng rock và phong cách thành thị. Áo khoác da, đồ may đo và các trang phục tối màu là những nhóm gắn với ngôn ngữ thiết kế của nhãn.",
+          "en": "The Kooples designs men's and women's clothing and accessories with rock and urban influences. Leather jackets, tailoring and darker outfits are recurring parts of its design language."
+        },
+        "reviewedAt": "2026-10-18",
+        "review": {
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+          "reviewedAt": "2026-10-18",
+          "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        },
+        "categories": [
+          "category-0"
+        ],
+        "aliases": [],
+        "status": "open",
+        "locations": [
+          {
+            "floorId": "M",
+            "certainty": "floor-confirmed",
+            "areaIds": [],
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+          }
+        ]
+      },
+      "anchorDestinationId": "vincom-prototype-poloralphlauren",
+      "originalAnchorLocations": [
+        {
+          "floorId": "M",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "vincom-max-area-poloralphlauren"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units M-04-05",
+          "associationDetail": {
+            "kind": "source-layout",
+            "note": {
+              "en": "Approximate M-04-05 reference area from the supplied plan. Current shop boundaries and occupancy are unconfirmed; check signs on arrival.",
+              "vi": "Khu vực tham chiếu gần đúng M-04-05 theo sơ đồ được cung cấp. Chưa xác nhận ranh giới và cửa hàng đang hoạt động; vui lòng đối chiếu biển hiệu khi đến."
+            }
+          }
+        }
+      ],
+      "floorId": "M",
+      "printedUnits": [
+        "M-04-05"
+      ],
+      "sourceLegendMatches": [
+        {
+          "floor": "M",
+          "printedUnit": "M-04-05",
+          "printedName": "The Kooples",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "areaId": "vincom-max-area-poloralphlauren",
+      "regionIds": [
+        "vincom-max-m-012"
+      ],
+      "originalArea": {
+        "id": "vincom-max-area-poloralphlauren",
+        "floorId": "M",
+        "regionIds": [
+          "vincom-max-m-012"
+        ],
+        "name": {
+          "vi": "Polo Ralph Lauren",
+          "en": "Polo Ralph Lauren"
+        },
+        "review": {
+          "source": "data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established",
+          "reviewedAt": "2026-10-22",
+          "reviewedBy": "Codex source review (single session)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        }
+      },
+      "areaName": {
+        "en": "M-04-05 source-plan reference",
+        "vi": "Khu tham chiếu theo sơ đồ M-04-05"
+      },
+      "associationDetail": {
+        "kind": "source-layout",
+        "referenceStatus": "source-plan-only",
+        "note": {
+          "en": "The supplied plan labels The Kooples at M-04-05. This reference shares the source unit with Polo Ralph Lauren in the directory. The current store location, occupancy, exact doorway and plan date are unconfirmed.",
+          "vi": "Sơ đồ được cung cấp ghi The Kooples tại M-04-05. Đây là vị trí tham chiếu theo sơ đồ, dùng chung ô nguồn với Polo Ralph Lauren trong danh mục. Chưa xác minh vị trí cửa hàng hiện tại, đơn vị đang hoạt động, cửa ra vào chính xác và ngày sơ đồ."
+        }
+      }
+    },
+    {
+      "destinationId": "vincom-candidate-vd-x-073",
+      "originalDestination": {
+        "id": "vincom-candidate-vd-x-073",
+        "name": {
+          "vi": "Weekend Max Mara",
+          "en": "Weekend Max Mara"
+        },
+        "primaryFloor": "M",
+        "floors": [
+          "M"
+        ],
+        "description": {
+          "vi": "Weekend Max Mara là dòng thời trang nữ thiên về trang phục thường ngày và những dịp thư thả. Áo khoác, đồ dệt kim, váy và phụ kiện kết hợp cách phối lớp với chất liệu theo mùa.",
+          "en": "Weekend Max Mara is a womenswear line oriented towards everyday and off-duty dressing. Coats, knitwear, dresses and accessories combine layered styling with seasonal fabrics."
+        },
+        "reviewedAt": "2026-10-18",
+        "review": {
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+          "reviewedAt": "2026-10-18",
+          "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        },
+        "categories": [
+          "category-0"
+        ],
+        "aliases": [],
+        "status": "open",
+        "locations": [
+          {
+            "floorId": "M",
+            "certainty": "floor-confirmed",
+            "areaIds": [],
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+          }
+        ]
+      },
+      "anchorDestinationId": "vincom-prototype-karllagerfeld",
+      "originalAnchorLocations": [
+        {
+          "floorId": "M",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "vincom-max-area-karllagerfeld"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units M-31-32",
+          "associationDetail": {
+            "kind": "source-layout",
+            "note": {
+              "en": "Approximate M-31-32 reference area from the supplied plan. Current shop boundaries and occupancy are unconfirmed; check signs on arrival.",
+              "vi": "Khu vực tham chiếu gần đúng M-31-32 theo sơ đồ được cung cấp. Chưa xác nhận ranh giới và cửa hàng đang hoạt động; vui lòng đối chiếu biển hiệu khi đến."
+            }
+          }
+        }
+      ],
+      "floorId": "M",
+      "printedUnits": [
+        "M-31-32"
+      ],
+      "sourceLegendMatches": [
+        {
+          "floor": "M",
+          "printedUnit": "M-31-32",
+          "printedName": "Weekend Max Mara",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "areaId": "vincom-max-area-karllagerfeld",
+      "regionIds": [
+        "vincom-max-m-009"
+      ],
+      "originalArea": {
+        "id": "vincom-max-area-karllagerfeld",
+        "floorId": "M",
+        "regionIds": [
+          "vincom-max-m-009"
+        ],
+        "name": {
+          "vi": "Karl Lagerfeld",
+          "en": "Karl Lagerfeld"
+        },
+        "review": {
+          "source": "data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established",
+          "reviewedAt": "2026-10-22",
+          "reviewedBy": "Codex source review (single session)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        }
+      },
+      "areaName": {
+        "en": "M-31-32 source-plan reference",
+        "vi": "Khu tham chiếu theo sơ đồ M-31-32"
+      },
+      "associationDetail": {
+        "kind": "source-layout",
+        "referenceStatus": "source-plan-only",
+        "note": {
+          "en": "The supplied plan labels Weekend Max Mara at M-31-32. This reference shares the source unit with Karl Lagerfeld in the directory. The current store location, occupancy, exact doorway and plan date are unconfirmed.",
+          "vi": "Sơ đồ được cung cấp ghi Weekend Max Mara tại M-31-32. Đây là vị trí tham chiếu theo sơ đồ, dùng chung ô nguồn với Karl Lagerfeld trong danh mục. Chưa xác minh vị trí cửa hàng hiện tại, đơn vị đang hoạt động, cửa ra vào chính xác và ngày sơ đồ."
+        }
+      }
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-016",
+      "originalDestination": {
+        "id": "vincom-candidate-vd-b1-016",
+        "name": {
+          "vi": "Puma",
+          "en": "Puma"
+        },
+        "primaryFloor": "B1",
+        "floors": [
+          "B1"
+        ],
+        "description": {
+          "vi": "Puma sản xuất giày, quần áo và phụ kiện cho thể thao lẫn thời trang thường ngày. Danh mục kết hợp sản phẩm dành cho tập luyện với các mẫu sneaker và trang phục lấy cảm hứng thể thao.",
+          "en": "Puma makes footwear, clothing and accessories for sport and everyday fashion. Its range combines training products with sneakers and sports-inspired casual clothing."
+        },
+        "reviewedAt": "2026-10-18",
+        "review": {
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+          "reviewedAt": "2026-10-18",
+          "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        },
+        "categories": [
+          "category-0"
+        ],
+        "aliases": [],
+        "status": "open",
+        "locations": [
+          {
+            "floorId": "B1",
+            "certainty": "floor-confirmed",
+            "areaIds": [],
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+          }
+        ]
+      },
+      "anchorDestinationId": "vincom-prototype-urbanrevivo",
+      "originalAnchorLocations": [
+        {
+          "floorId": "B1",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "vincom-max-area-urbanrevivo"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B1-28B/C",
+          "associationDetail": {
+            "kind": "partial-source-layout",
+            "note": {
+              "en": "Approximate shared B1-28B/C reference area from the supplied plan. Individual shop boundaries and current occupancy are unconfirmed; check signs on arrival.",
+              "vi": "Khu vực tham chiếu chung gần đúng B1-28B/C theo sơ đồ được cung cấp. Chưa xác nhận ranh giới riêng và cửa hàng đang hoạt động; vui lòng đối chiếu biển hiệu khi đến."
+            }
+          }
+        }
+      ],
+      "floorId": "B1",
+      "printedUnits": [
+        "B1-28B-C"
+      ],
+      "sourceLegendMatches": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-28B-C",
+          "printedName": "Marhen J & Puma & Ceci",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "areaId": "vincom-max-area-urbanrevivo",
+      "regionIds": [
+        "vincom-max-b1-28b",
+        "vincom-max-b1-28c"
+      ],
+      "originalArea": {
+        "id": "vincom-max-area-urbanrevivo",
+        "floorId": "B1",
+        "regionIds": [
+          "vincom-max-b1-28b",
+          "vincom-max-b1-28c"
+        ],
+        "name": {
+          "en": "B1-28B/C shared reference area",
+          "vi": "Khu vực tham chiếu chung B1-28B/C"
+        },
+        "review": {
+          "source": "data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; data/research/vincom-max-source-units-2026-10-22-r1.json; shared source-unit reference only",
+          "reviewedAt": "2026-10-22",
+          "reviewedBy": "Codex source review (single session)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        }
+      },
+      "areaName": {
+        "en": "B1-28B-C source-plan reference",
+        "vi": "Khu tham chiếu theo sơ đồ B1-28B-C"
+      },
+      "associationDetail": {
+        "kind": "source-layout",
+        "referenceStatus": "source-plan-only",
+        "note": {
+          "en": "The supplied plan labels Puma at B1-28B-C. This reference shares the source unit with Urban Revivo in the directory. The current store location, occupancy, exact doorway and plan date are unconfirmed.",
+          "vi": "Sơ đồ được cung cấp ghi Puma tại B1-28B-C. Đây là vị trí tham chiếu theo sơ đồ, dùng chung ô nguồn với Urban Revivo trong danh mục. Chưa xác minh vị trí cửa hàng hiện tại, đơn vị đang hoạt động, cửa ra vào chính xác và ngày sơ đồ."
+        }
+      }
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-017",
+      "originalDestination": {
+        "id": "vincom-candidate-vd-b1-017",
+        "name": {
+          "vi": "Ceci",
+          "en": "Ceci"
+        },
+        "primaryFloor": "B1",
+        "floors": [
+          "B1"
+        ],
+        "description": {
+          "vi": "Ceci cung cấp nhẫn, bông tai, dây chuyền và phụ kiện tóc. Các nhóm sản phẩm có thể dùng để phối cùng trang phục hoặc tạo điểm nhấn riêng.",
+          "en": "Ceci offers rings, earrings, necklaces and hair accessories. These categories can be coordinated with outfits or worn as individual accents."
+        },
+        "reviewedAt": "2026-10-18",
+        "review": {
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+          "reviewedAt": "2026-10-18",
+          "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        },
+        "categories": [
+          "category-0"
+        ],
+        "aliases": [],
+        "status": "open",
+        "locations": [
+          {
+            "floorId": "B1",
+            "certainty": "floor-confirmed",
+            "areaIds": [],
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+          }
+        ]
+      },
+      "anchorDestinationId": "vincom-prototype-urbanrevivo",
+      "originalAnchorLocations": [
+        {
+          "floorId": "B1",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "vincom-max-area-urbanrevivo"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B1-28B/C",
+          "associationDetail": {
+            "kind": "partial-source-layout",
+            "note": {
+              "en": "Approximate shared B1-28B/C reference area from the supplied plan. Individual shop boundaries and current occupancy are unconfirmed; check signs on arrival.",
+              "vi": "Khu vực tham chiếu chung gần đúng B1-28B/C theo sơ đồ được cung cấp. Chưa xác nhận ranh giới riêng và cửa hàng đang hoạt động; vui lòng đối chiếu biển hiệu khi đến."
+            }
+          }
+        }
+      ],
+      "floorId": "B1",
+      "printedUnits": [
+        "B1-28B-C"
+      ],
+      "sourceLegendMatches": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-28B-C",
+          "printedName": "Marhen J & Puma & Ceci",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "areaId": "vincom-max-area-urbanrevivo",
+      "regionIds": [
+        "vincom-max-b1-28b",
+        "vincom-max-b1-28c"
+      ],
+      "originalArea": {
+        "id": "vincom-max-area-urbanrevivo",
+        "floorId": "B1",
+        "regionIds": [
+          "vincom-max-b1-28b",
+          "vincom-max-b1-28c"
+        ],
+        "name": {
+          "en": "B1-28B/C shared reference area",
+          "vi": "Khu vực tham chiếu chung B1-28B/C"
+        },
+        "review": {
+          "source": "data/research/vincom-max-source-units-2026-10-22-r1.json; source-reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; data/research/vincom-max-source-units-2026-10-22-r1.json; shared source-unit reference only",
+          "reviewedAt": "2026-10-22",
+          "reviewedBy": "Codex source review (single session)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        }
+      },
+      "areaName": {
+        "en": "B1-28B-C source-plan reference",
+        "vi": "Khu tham chiếu theo sơ đồ B1-28B-C"
+      },
+      "associationDetail": {
+        "kind": "source-layout",
+        "referenceStatus": "source-plan-only",
+        "note": {
+          "en": "The supplied plan labels Ceci at B1-28B-C. This reference shares the source unit with Urban Revivo in the directory. The current store location, occupancy, exact doorway and plan date are unconfirmed.",
+          "vi": "Sơ đồ được cung cấp ghi Ceci tại B1-28B-C. Đây là vị trí tham chiếu theo sơ đồ, dùng chung ô nguồn với Urban Revivo trong danh mục. Chưa xác minh vị trí cửa hàng hiện tại, đơn vị đang hoạt động, cửa ra vào chính xác và ngày sơ đồ."
+        }
+      }
+    },
+    {
+      "destinationId": "vincom-prototype-pnj",
+      "originalDestination": {
+        "id": "vincom-prototype-pnj",
+        "name": {
+          "vi": "PNJ",
+          "en": "PNJ"
+        },
+        "primaryFloor": "B2",
+        "floors": [
+          "B2"
+        ],
+        "description": {
+          "vi": "PNJ là thương hiệu trang sức Việt Nam với các sản phẩm bằng vàng, bạc và đá quý. Danh mục gồm nhiều kiểu nhẫn, dây chuyền và bông tai, bên cạnh các bộ sưu tập trang sức làm quà tặng.",
+          "en": "PNJ is a Vietnamese jewellery brand offering gold, silver and gemstone pieces. Its range includes rings, necklaces and earrings alongside jewellery intended for gifting."
+        },
+        "reviewedAt": "2026-10-18",
+        "review": {
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+          "reviewedAt": "2026-10-18",
+          "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+          "languages": {
+            "vi": true,
+            "en": true
+          }
+        },
+        "categories": [
+          "category-7"
+        ],
+        "aliases": [],
+        "status": "open",
+        "locations": [
+          {
+            "floorId": "B2",
+            "certainty": "floor-confirmed",
+            "areaIds": [],
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+          }
+        ],
+        "website": "https://www.pnj.com.vn/",
+        "openingSoon": false
+      },
+      "floorId": "B2",
+      "printedUnits": [
+        "B2-17I",
+        "B2-17J"
+      ],
+      "areaId": "vincom-plan-pnj-b2-reference",
+      "regionIds": [
+        "vincom-plan-pnj-17i",
+        "vincom-plan-pnj-17j"
+      ],
+      "newArea": {
+        "id": "vincom-plan-pnj-b2-reference",
+        "floorId": "B2",
+        "regionIds": [
+          "vincom-plan-pnj-17i",
+          "vincom-plan-pnj-17j"
+        ],
+        "name": {
+          "en": "B2-17I/17J source-plan reference",
+          "vi": "Khu tham chiếu theo sơ đồ B2-17I/17J"
+        },
+        "review": {
+          "source": "data/research/vincom-literal-plan-references-2026-10-22-r1.json; supplied B2 legend and printed17I/17J; current PNJ locator instead names B1-60C2",
+          "reviewedAt": "2026-10-22",
+          "reviewedBy": "Codex single-session literal plan/unit correspondence review",
+          "languages": {
+            "en": true,
+            "vi": true
+          }
+        }
+      },
+      "associationDetail": {
+        "kind": "source-layout",
+        "referenceStatus": "source-plan-only",
+        "note": {
+          "en": "The supplied B2 plan labels PNJ at 17I/17J. This is a source-plan reference only: the newer PNJ locator instead names B1-60C2. The current store location, occupancy, exact doorway and plan date are unconfirmed.",
+          "vi": "Sơ đồ B2 được cung cấp ghi PNJ tại 17I/17J. Đây chỉ là vị trí tham chiếu theo sơ đồ nguồn: bộ định vị PNJ mới hơn ghi B1-60C2. Chưa xác minh vị trí cửa hàng hiện tại, đơn vị đang hoạt động, cửa ra vào chính xác và ngày sơ đồ."
+        }
+      }
+    }
+  ],
+  "protectedHolds": [
+    {
+      "destinationId": "vincom-prototype-scentuals",
+      "floorId": "B2",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-b2-b2-12"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-b2-b2-12",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-023"
+          ],
+          "name": {
+            "vi": "Khu vá»±c trÃªn sÆ¡ Ä‘á»“",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "B2": [
+          {
+            "region": "B2-region-023",
+            "code": "B2-12",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "Himalaya",
+      "officialReferences": [
+        {
+          "id": "scentuals",
+          "url": "https://vincom.com.vn/store/scentuals-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B2"
+          ],
+          "floorText": "Táº§ng háº§m B2",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    },
+    {
+      "destinationId": "vincom-prototype-lining",
+      "floorId": "B2",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-b2-b2-46b"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-b2-b2-46b",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-025"
+          ],
+          "name": {
+            "vi": "Khu vá»±c trÃªn sÆ¡ Ä‘á»“",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "B2": [
+          {
+            "region": "B2-region-025",
+            "code": "B2-46B",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "OVS",
+      "officialReferences": [
+        {
+          "id": "lining",
+          "url": "https://vincom.com.vn/store/lining-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B2"
+          ],
+          "floorText": "Táº§ng háº§m B2",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    },
+    {
+      "destinationId": "vincom-prototype-messyweekend",
+      "floorId": "B2",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-b2-b2-16"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-b2-b2-16",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-033"
+          ],
+          "name": {
+            "vi": "Khu vá»±c trÃªn sÆ¡ Ä‘á»“",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "B2": [
+          {
+            "region": "B2-region-033",
+            "code": "B2-16",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "Rhythm",
+      "officialReferences": [
+        {
+          "id": "messyweekend",
+          "url": "https://vincom.com.vn/store/messyweekend-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B2"
+          ],
+          "floorText": "Táº§ng háº§m B2",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    },
+    {
+      "destinationId": "vincom-prototype-beautybox",
+      "floorId": "B2",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-b2-b2-17"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-b2-b2-17",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-007"
+          ],
+          "name": {
+            "vi": "Khu vá»±c trÃªn sÆ¡ Ä‘á»“",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "B2": [
+          {
+            "region": "B2-region-007",
+            "code": "B2-17",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "Pablo",
+      "officialReferences": [
+        {
+          "id": "beautybox",
+          "url": "https://vincom.com.vn/store/beauty-box-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B2"
+          ],
+          "floorText": "Táº§ng háº§m B2",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    },
+    {
+      "destinationId": "vincom-prototype-lacoste",
+      "floorId": "L1",
+      "originalLocations": [
+        {
+          "floorId": "L1",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-l1-l1-06a"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-l1-l1-06a",
+          "floorId": "L1",
+          "regionIds": [
+            "L1-region-001"
+          ],
+          "name": {
+            "vi": "Khu vá»±c trÃªn sÆ¡ Ä‘á»“",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "L1": [
+          {
+            "region": "L1-region-001",
+            "code": "L1-06A",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "Vinfast",
+      "officialReferences": [
+        {
+          "id": "lacoste",
+          "url": "https://vincom.com.vn/store/lacoste-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "L1"
+          ],
+          "floorText": "Táº§ng 1",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    }
+  ],
+  "reviewedAt": "2026-10-22",
+  "reviewedBy": "Codex single-session literal plan/unit correspondence review",
+  "currentLocationsConfirmed": false,
+  "newContours": 2,
+  "newGeometry": [
+    {
+      "floorId": "B2",
+      "sourceTrace": {
+        "id": "vincom-prompt1-b2-061",
+        "floorId": "B2",
+        "printedUnit": "B2-17I",
+        "printedNames": [
+          "PNJ"
+        ],
+        "sourcePath": "assets/vincom-dong-khoi/maps/B2.webp",
+        "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+        "transform": [
+          0.1,
+          0,
+          0,
+          0.1,
+          -65.95,
+          -54.150000000000006
+        ],
+        "sourcePixels": [
+          [
+            383,
+            280
+          ],
+          [
+            409,
+            258
+          ],
+          [
+            424,
+            272
+          ],
+          [
+            397,
+            295
+          ]
+        ],
+        "region": {
+          "id": "vincom-prompt1-b2-061",
+          "outer": [
+            [
+              -27.65,
+              -26.15
+            ],
+            [
+              -25.05,
+              -28.35
+            ],
+            [
+              -23.55,
+              -26.95
+            ],
+            [
+              -26.25,
+              -24.65
+            ]
+          ],
+          "holes": []
+        },
+        "overlappingExistingRegions": [
+          {
+            "regionId": "B2-region-027-prompt1-residual-1",
+            "intersectionArea": null,
+            "fractionOfProposal": 0.957,
+            "occupiedBy": []
+          }
+        ],
+        "matchingDestinationIds": [
+          "vincom-prototype-pnj"
+        ],
+        "scope": "visible supplied-plan source unit; publication date unknown; not current occupancy, exact door, wall or route",
+        "uncertaintySourcePixels": [
+          1,
+          3
+        ],
+        "vertexBasis": "Manual visible coloured perimeter / printed divider intersections, reviewed against unchanged raster; rounded to source pixels"
+      },
+      "region": {
+        "id": "vincom-plan-pnj-17i",
+        "outer": [
+          [
+            -27.65,
+            -26.15
+          ],
+          [
+            -25.05,
+            -28.35
+          ],
+          [
+            -23.55,
+            -26.95
+          ],
+          [
+            -26.25,
+            -24.65
+          ]
+        ],
+        "holes": []
+      },
+      "method": "Reviewed literal printed-unit trace over the unchanged unowned source-palette parent B2-region-027-prompt1-residual-1; no owned-region overlap; no current fit-out claim"
+    },
+    {
+      "floorId": "B2",
+      "sourceTrace": {
+        "id": "vincom-prompt1-b2-062",
+        "floorId": "B2",
+        "printedUnit": "B2-17J",
+        "printedNames": [
+          "PNJ"
+        ],
+        "sourcePath": "assets/vincom-dong-khoi/maps/B2.webp",
+        "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+        "transform": [
+          0.1,
+          0,
+          0,
+          0.1,
+          -65.95,
+          -54.150000000000006
+        ],
+        "sourcePixels": [
+          [
+            355,
+            311
+          ],
+          [
+            383,
+            282
+          ],
+          [
+            396,
+            296
+          ],
+          [
+            367,
+            323
+          ]
+        ],
+        "region": {
+          "id": "vincom-prompt1-b2-062",
+          "outer": [
+            [
+              -30.45,
+              -23.05
+            ],
+            [
+              -27.65,
+              -25.95
+            ],
+            [
+              -26.35,
+              -24.55
+            ],
+            [
+              -29.25,
+              -21.85
+            ]
+          ],
+          "holes": []
+        },
+        "overlappingExistingRegions": [
+          {
+            "regionId": "B2-region-027-prompt1-residual-1",
+            "intersectionArea": null,
+            "fractionOfProposal": 0.997,
+            "occupiedBy": []
+          }
+        ],
+        "matchingDestinationIds": [
+          "vincom-prototype-pnj"
+        ],
+        "scope": "visible supplied-plan source unit; publication date unknown; not current occupancy, exact door, wall or route",
+        "uncertaintySourcePixels": [
+          1,
+          3
+        ],
+        "vertexBasis": "Manual visible coloured perimeter / printed divider intersections, reviewed against unchanged raster; rounded to source pixels"
+      },
+      "region": {
+        "id": "vincom-plan-pnj-17j",
+        "outer": [
+          [
+            -30.45,
+            -23.05
+          ],
+          [
+            -27.65,
+            -25.95
+          ],
+          [
+            -26.35,
+            -24.55
+          ],
+          [
+            -29.25,
+            -21.85
+          ]
+        ],
+        "holes": []
+      },
+      "method": "Reviewed literal printed-unit trace over the unchanged unowned source-palette parent B2-region-027-prompt1-residual-1; no owned-region overlap; no current fit-out claim"
+    }
+  ],
+  "neutralCuts": [
+    {
+      "floorId": "B2",
+      "original": {
+        "id": "B2-region-027",
+        "outer": [
+          [
+            -20.15,
+            -34.25
+          ],
+          [
+            -10.15,
+            -34.25
+          ],
+          [
+            -10.25,
+            -34.35
+          ],
+          [
+            -20.05,
+            -34.35
+          ]
+        ],
+        "holes": [],
+        "role": "neutral-source-residual",
+        "derivedFrom": "B2-region-027"
+      },
+      "residuals": [
+        {
+          "id": "B2-region-027-plan-residual-1",
+          "outer": [
+            [
+              -10.15,
+              -34.25
+            ],
+            [
+              -10.25,
+              -34.35
+            ],
+            [
+              -20.05,
+              -34.35
+            ],
+            [
+              -20.15,
+              -34.25
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B2-region-027"
+        }
+      ]
+    }
+  ],
+  "ownerSourceFolder": "D:/Midterm/Vincom đồng khởi/map",
+  "ownerSourceMatch": "All seven supplied WebPs match assets/vincom-dong-khoi/maps/<floor>.webp by SHA-256. Five floors contribute the 17 rows; L2 and L3 were checked in the existing remaining-record review and yielded no additional supported literal unit reference (New Balance, Dessert Planet and Coway remain evidence-held)."
+}
