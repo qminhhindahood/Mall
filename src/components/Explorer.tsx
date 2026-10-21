@@ -1,3 +1,5 @@
+import HomeIntroductions from './HomeIntroductions';
+import '../styles/home-discovery.css';
 import ExteriorControls from './ExteriorControls';
 import '../styles/usable-shell.css';
 import '../styles/arrival-shell.css';
@@ -32,7 +34,8 @@ function selectionFromUrl(url: URL, site: SiteData, fallback: ExplorerSelection)
   const candidate = url.searchParams.get('floor') ?? (['floors','tang'].includes(segments[1]) ? segments[2] : destination?.primaryFloor) ?? fallbackFloor;
   const floorId = site.geometry.floors.some(f => f.id === candidate) && (!destination || destination.floors.includes(candidate)) ? candidate : destination?.primaryFloor && site.geometry.floors.some(f => f.id === destination.primaryFloor) ? destination.primaryFloor : fallbackFloor;
   const view = url.searchParams.get('view');
-  const kind = ['exterior','overview','map','discovery'].includes(view ?? '') ? view as SceneKind : segments[1] ? 'map' : fallback.kind;
+  const dedicatedDiscovery = ['discovery','kham-pha'].includes(segments[1]);
+  const kind = dedicatedDiscovery ? 'discovery' : ['exterior','overview','map','discovery'].includes(view ?? '') ? view as SceneKind : segments[1] ? 'map' : fallback.kind;
   const category=(key:string)=>site.content.categories.find(c=>c.id===url.searchParams.get(key))?.id;
   return { locale, floorId, kind, destinationId: destination?.id, query:url.searchParams.get('q')?.slice(0,160)||undefined, categoryId:category('category'), discoverySearchScope:url.searchParams.get('collectionScope')==='category'?'category':undefined, discoveryCategoryId:category('collection'), discoveryFloorId:site.geometry.floors.find(f=>f.id===url.searchParams.get('collectionFloor'))?.id, discoveryQuery:url.searchParams.get('collectionQ')?.slice(0,160)||undefined, areaId:site.content.areas.find(a=>a.id===url.searchParams.get('area')&&a.floorId===floorId)?.id };
 }
@@ -71,6 +74,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const [attempt,setAttempt] = useState(0);
   const [paused,setPaused] = useState(false);
   const [reducedMotion,setReducedMotion] = useState(false);
+  const [arrivalPhase,setArrivalPhase] = useState('ready');
 
   const [geometry,setGeometry] = useState(site.geometry);
   const [routeResolved,setRouteResolved] = useState(!initial.destinationId);
@@ -120,12 +124,11 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     const update = () => {
       frame=0;
       const hero=sections.current.exterior, overview=sections.current.overview;
-      if(!hero||!overview)return;
+      if(!hero||!overview||latest.current.kind!=='overview')return;
 
 
       if((load!=='ready'&&load!=='failed')||focusRequest.current||scrollSettling.current)return;
       // A fixed Discovery sheet owns navigation until explicitly dismissed.
-      if(latest.current.kind==='discovery'&&(latest.current.destinationId||latest.current.areaId))return;
       const stageBottom=exteriorJourney.current?.getBoundingClientRect().bottom??Infinity;
       const kind=hero.getBoundingClientRect().bottom>innerHeight*.45?'exterior':stageBottom>innerHeight*.45?'overview':null;
       if(kind&&kind!==latest.current.kind){
@@ -141,7 +144,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   useEffect(()=>{
     const update=()=>{
       const section=sections.current.discovery, journey=mapJourney.current;
-      if(!section||!journey)return;
+      if(!section||!journey||latest.current.kind!=='overview')return;
       const clamp=(value:number)=>Math.max(0,Math.min(1,value));
       const top=section.getBoundingClientRect().top;
       // Settle the Discovery composition while the map is hidden. Returning it
@@ -162,13 +165,12 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       }
       if((load!=='ready'&&load!=='failed')||focusRequest.current||scrollSettling.current)return;
       // A fixed Discovery sheet owns navigation until explicitly dismissed.
-      if(latest.current.kind==='discovery'&&(latest.current.destinationId||latest.current.areaId))return;
       const mapTop=sections.current.map?.getBoundingClientRect().top??Infinity;
       const readingLine=innerWidth<=700?160:innerHeight*.55;
       const stageBottom=exteriorJourney.current?.getBoundingClientRect().bottom??Infinity;
       const discoveryLine=reducedMotion?readingLine:innerHeight*.8;
       const kind=stageBottom>innerHeight*.45?null:section.getBoundingClientRect().top<discoveryLine?'discovery':mapTop<readingLine?'map':null;
-      if(kind&&kind!==latest.current.kind){const next: ExplorerSelection={...latest.current,kind};beginRequest(next);history.replaceState({...history.state,scrollY:scrollY},'',href(next));setSelection(next);}
+      if(kind){const next: ExplorerSelection={...latest.current,kind};beginRequest(next);history.replaceState({...history.state,scrollY:scrollY},'',href(next));setSelection(next);}
     };
     window.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update);
     update();
@@ -258,6 +260,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     const geometryController = new AbortController();
     // The shell owns one canvas per runtime attempt. React never reparents/remounts it.
     const ownedCanvas = document.createElement('canvas');
+    const arrivalObserver=new MutationObserver(()=>setArrivalPhase(ownedCanvas.dataset.arrival==='stopped'?'manual':ownedCanvas.dataset.arrivalStage??'ready'));
+    arrivalObserver.observe(ownedCanvas,{attributes:true,attributeFilter:['data-arrival','data-arrival-stage']});
     ownedCanvas.style.visibility = 'hidden';
     ownedCanvas.setAttribute('aria-hidden','true');
     parking.current!.append(ownedCanvas);
@@ -339,7 +343,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
         navigationDone?.('ready', { ...latest.current, completeFrame: ownedCanvas.dataset.completeFrame });
       }
     }).catch(() => { entryDone(alive ? 'failed' : 'cancelled'); navigationDone?.(alive ? 'failed' : 'cancelled'); if (alive) {controller.abort();runtime.current?.dispose();runtime.current=null;setLoad('failed');} });
-    return () => { alive=false; entryDone('cancelled'); navigationDone?.('cancelled'); controller.abort(); geometryController.abort(); requestSerial.current++; runtime.current?.dispose(); runtime.current=null; ownedCanvas.remove(); if(canvas.current===ownedCanvas) canvas.current=null; };
+    return () => { alive=false; arrivalObserver.disconnect(); entryDone('cancelled'); navigationDone?.('cancelled'); controller.abort(); geometryController.abort(); requestSerial.current++; runtime.current?.dispose(); runtime.current=null; ownedCanvas.remove(); if(canvas.current===ownedCanvas) canvas.current=null; };
   }, [attempt]);
   useEffect(()=>{
     if (!canvas.current) return;
@@ -431,7 +435,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   }
   const change = (kind: SceneKind, floorId=selection.floorId): ExplorerSelection => ({...selection,kind,floorId,destinationId:undefined,areaId:undefined});
   return <>
-    <div className="visitor-guide" data-mall={site.mallId} data-paused={paused} data-view={selection.kind}>
+    <div className="visitor-guide separate-surfaces" data-mall={site.mallId} data-paused={paused} data-view={selection.kind} data-arrival-phase={arrivalPhase}>
     <a className="skip-introduction" href={href(change('map'))} onClick={event=>navigate(change('map'),event)}>{c.skip}</a>
     <header className="journey-header" data-visible="true">
       <a className="wordmark" href={href(change('exterior'))} onClick={event=>navigate(change('exterior'),event)}><span className="brand-symbol" aria-hidden="true">{site.mallId==='saigon-centre'?'SC':'V'}</span>{site.name}</a>
@@ -450,13 +454,14 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       <div className="exterior-floor-journey" ref={exteriorJourney}>
         <div className="journey-introduction-reading">
           <section id="scene-exterior" ref={element=>{if(element)sections.current.exterior=element;}} tabIndex={-1} className="introduction" aria-label={c.exterior}>
-            <div className="introduction-copy"><p className="arrival-eyebrow">{selection.locale==='vi'?'KHÁM PHÁ THEO CÁCH CỦA BẠN':'YOUR DAY, YOUR DISCOVERY'}</p><h1><span>{site.name}</span></h1><p>{site.mallId==='saigon-centre'?c.saigonIntroduction:c.vincomIntroduction}</p><p className="guide-identity">{c.independent}</p><div className="arrival-actions"><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{j.enterDiscovery}<span aria-hidden="true"> ↗</span></a><a href={'/'+selection.locale+'/'+(selection.locale==='vi'?'chi-duong':'directions')}>{selection.locale==='vi'?'Tìm đường':'Find your way'}<span aria-hidden="true"> →</span></a></div></div>
-            <div className="introduction-bottom"><a className="scroll-guide" href="#scene-overview" onClick={event=>navigate(change('overview'),event)}><span className="scroll-cue" aria-hidden="true"/><span>{c.scrollInstruction}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div>
+            <div className="introduction-copy"><h1><span>{site.name}</span></h1><p>{site.mallId==='saigon-centre'?c.saigonIntroduction:c.vincomIntroduction}</p><p className="guide-identity">{c.independent}</p><div className="arrival-actions"><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{j.enterDiscovery}<span aria-hidden="true"> ↗</span></a><a href={'/'+selection.locale+'/'+(selection.locale==='vi'?'chi-duong':'directions')}>{selection.locale==='vi'?'Tìm đường':'Find your way'}<span aria-hidden="true"> →</span></a></div></div>
+            <div className="introduction-bottom"><a className="scroll-guide" href="#explore">{selection.locale==='vi'?'Khám phá trung tâm':'Explore the mall'}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div>
           </section>
           <section id="scene-overview" ref={element=>{if(element)sections.current.overview=element;}} tabIndex={-1} className="overview-reading" aria-label={c.overview}/>
         </div>
         <div className="registered-scene">
             <div className="introduction-controls">
+              <span className="arrival-stage-caption">{selection.locale==='vi'?(arrivalPhase==='establish'?'Toàn cảnh kiến trúc':arrivalPhase==='facade'?'Gần hơn với khối đế':arrivalPhase==='settle'?'Sẵn sàng khám phá':'Góc nhìn của bạn'):(arrivalPhase==='establish'?'The architecture':arrivalPhase==='facade'?'A closer look at the podium':arrivalPhase==='settle'?'Ready to explore':'Make the view yours')}</span>
               <ExteriorControls runtime={runtime} locale={selection.locale} enabled={load==='ready' && selection.kind==='exterior'}/>
               <button type="button" className="replay-control" disabled={load!=='ready'&&load!=='failed'} onClick={replayIntroduction}>{reducedMotion||load==='failed'?c.returnIntroduction:c.replayIntroduction}</button>
               <button className="pause-control" disabled={load!=='ready'} onClick={()=>{earlyInput.current=true;runtime.current?.stopAutomaticPresentation();runtime.current?.resetExterior();}}>{selection.locale==='vi'?'Bỏ qua phần mở đầu':'Skip arrival'}</button>
@@ -472,7 +477,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
           </div>
         </div>
       </div>
-      <JourneyMotion stage={exteriorJourney} mapJourney={mapJourney} floor={floor} floors={geometry.floors} title={c.map} reducedMotion={reducedMotion} paused={paused} runtime={runtime}/>
+      {selection.kind==='overview'&&<JourneyMotion stage={exteriorJourney} mapJourney={mapJourney} floor={floor} floors={geometry.floors} title={c.map} reducedMotion={reducedMotion} paused={paused} runtime={runtime}/>}
+      {selection.kind==='exterior'&&<HomeIntroductions site={{...site,geometry}} locale={selection.locale}/>}
       <div className="map-discovery-journey" data-discovery={selection.kind==='discovery'} ref={mapJourney}>
         <div className="persistent-map" data-expanded={mapExpanded}>
           <div className="scene-host scene-host-map" ref={element=>{if(element){sceneHosts.current.map=element;sceneHosts.current.discovery=element;}}} data-scene-kind={selection.kind==='discovery'?'discovery':'map'} data-floor={routeResolved?floor.id:undefined}>
@@ -506,7 +512,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
         </div>
       </div>
     </main>
-    <footer id="visit" tabIndex={-1} className="visit-footer"><div><p className="arrival-eyebrow">{selection.locale==='vi'?'LÊN KẾ HOẠCH':'PLAN YOUR VISIT'}</p><h2>{site.name}</h2><p>{c.independent}</p></div><div><h3>{selection.locale==='vi'?'Trước khi bạn đến':'Before you go'}</h3><p>{selection.locale==='vi'?'Xem thông tin cửa hàng và nguồn tham khảo trong Khám phá. Chọn điểm xuất phát thủ công để xem những tuyến đường đã được kiểm chứng.':'Find store details and their sources in Discovery. Choose your starting point manually to see the routes supported by our floor plans.'}</p><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{c.discovery} →</a></div></footer>
+    <footer id="visit" tabIndex={-1} className="visit-footer"><div><h2>{site.name}</h2><p>{c.independent}</p></div><div><h3>{selection.locale==='vi'?'Trước khi bạn đến':'Before you go'}</h3><p>{selection.locale==='vi'?'Xem thông tin cửa hàng và nguồn tham khảo trong Khám phá. Chọn điểm xuất phát thủ công để xem những tuyến đường đã được kiểm chứng.':'Find store details and their sources in Discovery. Choose your starting point manually to see the routes supported by our floor plans.'}</p><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{c.discovery} →</a></div></footer>
     </div>
     {load==='loading' && <aside className="scene-loading-status" role="status">{selection.locale==='vi'?'Đang chuẩn bị mô hình · bạn vẫn có thể khám phá danh mục và sơ đồ.':'Preparing the model · directory and maps remain available.'}</aside>}
   </>;

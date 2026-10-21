@@ -8,6 +8,6 @@ const { locale, title, noindex=false } = Astro.props as {locale: Locale; title: 
 const origin=import.meta.env.SITE_ORIGIN;
 const canonical=origin?new URL(Astro.url.pathname,origin).href:Astro.url.pathname;
 const alternate=Astro.url.pathname.replace(/^\/(vi|en)/,locale==='vi'?'/en':'/vi').replace('/tang/','/floors/').replace('/cua-hang/','/stores/');
-const translated=locale==='en'?alternate.replace('/floors/','/tang/').replace('/stores/','/cua-hang/'):alternate;
+const translated=locale==='en'?alternate.replace('/floors/','/tang/').replace('/stores/','/cua-hang/').replace('/discovery','/kham-pha'):alternate.replace('/kham-pha','/discovery');
 ---
 <!doctype html><html lang={locale}><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{title}</title><meta name="description" content={title}/><link rel="canonical" href={canonical}/><link rel="alternate" hreflang={locale==='vi'?'en':'vi'} href={origin?new URL(translated,origin).href:translated}/>{noindex&&<meta name="robots" content="noindex,follow"/>}</head><body><slot /></body></html>

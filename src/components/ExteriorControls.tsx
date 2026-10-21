@@ -12,12 +12,12 @@ export default function ExteriorControls({runtime,locale,enabled,onManualInput}:
     title:'Điều chỉnh góc nhìn',rotate:'Xoay',look:'Góc nhìn',zoom:'Thu phóng',
     left:'Xoay trái',right:'Xoay phải',up:'Nhìn lên',down:'Nhìn xuống',
     closer:'Phóng to',farther:'Thu nhỏ',reset:'Đặt lại',manual:'Góc nhìn thủ công',
-    help:'Điều chỉnh tòa nhà bằng các nút. Cuộn trang để khám phá các tầng.',
+    help:'Điều chỉnh tòa nhà bằng các nút. Chọn Sơ đồ tầng để khám phá bên trong.',
   }:{
     title:'Exterior controls',rotate:'Rotate',look:'Look',zoom:'Zoom',
     left:'Rotate left',right:'Rotate right',up:'Look up',down:'Look down',
     closer:'Zoom in',farther:'Zoom out',reset:'Reset view',manual:'Manual view',
-    help:'Use the buttons to inspect the building. Scroll to explore its floors.',
+    help:'Use the buttons to inspect the building. Use Floor map to explore inside.',
   };
   function takeControl(){runtime.current?.stopAutomaticPresentation();setManual(true);onManualInput?.();}
   function adjust(change:{rotate?:number;look?:number;zoom?:number}){takeControl();runtime.current?.adjustExterior(change);}

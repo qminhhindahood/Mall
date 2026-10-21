@@ -2,12 +2,12 @@ export type AtlasLocale = 'en' | 'vi';
 
 /** Discovery return links must stay on this origin, including after URL normalization. */
 export function discoveryReturn(value: string | null, locale: AtlasLocale, origin: string): string {
-  const fallback = `/${locale}?view=discovery`;
+  const fallback = `/${locale}/${locale==='vi'?'kham-pha':'discovery'}`;
   if (!value || !value.startsWith('/') || value.startsWith('//') || /[\\\u0000-\u0020]/.test(value)) return fallback;
   try {
     const url = new URL(value, origin);
-    const discoveryPath = /^\/(?:en(?:\/stores\/[a-z0-9-]+)?|vi(?:\/cua-hang\/[a-z0-9-]+)?)\/?$/i;
-    if (url.origin !== origin || !discoveryPath.test(url.pathname) || url.searchParams.get('view') !== 'discovery') return fallback;
+    const discoveryPath = /^\/(?:en(?:\/stores\/[a-z0-9-]+|\/discovery)?|vi(?:\/cua-hang\/[a-z0-9-]+|\/kham-pha)?)\/?$/i;
+    if (url.origin !== origin || !discoveryPath.test(url.pathname) || (url.searchParams.get('view') !== 'discovery' && !/\/(discovery|kham-pha)\/?$/.test(url.pathname))) return fallback;
     return url.pathname + url.search + url.hash;
   } catch { return fallback; }
 }

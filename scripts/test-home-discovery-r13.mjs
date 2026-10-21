@@ -1,0 +1,54 @@
+import {chromium} from 'file:///D:/Midterm/.scratch/impeccable-browser/node_modules/playwright/index.mjs';
+import fs from 'node:fs/promises';
+const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true,args:['--no-sandbox']});
+const results=[];
+for(const [mall,port,id] of [['saigon',4490,'saigon-prototype-meatmeet'],['vincom',4491,'vincom-prototype-zara']])for(const width of [1440,390])for(const locale of ['en','vi']){
+ const row={mall,width,locale,checks:[],errors:[]};results.push(row);
+ const page=await browser.newPage({viewport:{width,height:900},reducedMotion:'reduce'});page.on('pageerror',e=>row.errors.push(e.message));
+ const check=(ok,label)=>{row.checks.push({label,pass:!!ok});if(!ok)throw new Error(label)};
+ try{
+  const base=`http://127.0.0.1:${port}`,path=`/${locale}/${locale==='vi'?'kham-pha':'discovery'}`;
+  await page.goto(`${base}/${locale}`,{waitUntil:'networkidle'});
+  await page.waitForFunction(()=>!document.querySelector('.exterior-controls-toggle')?.disabled);
+  check(await page.locator('.home-introductions section').count()===2,'two Home introductions');
+  check(!await page.locator('#scene-discovery').isVisible(),'Home hides full Discovery');
+  check(await page.evaluate(()=>document.documentElement.scrollHeight<3500),'bounded Home height');
+  await page.locator('.primary-navigation a').nth(1).click();
+  await page.waitForURL(u=>u.pathname===path);
+  check(await page.locator('.visitor-guide').getAttribute('data-view')==='discovery','dedicated Discovery navigation');
+  check(!await page.locator('.exterior-floor-journey').isVisible(),'Discovery excludes Home');
+  check(await page.locator('.visitor-highlights a').count()===6,'six real highlights');
+  await page.locator('#discovery-search').fill(mall==='saigon'?'MEAT':'ZARA');
+  await page.locator('.discovery-search button').click();
+  await page.locator(`[data-discovery-results] [data-destination-id="${id}"]`).first().click();
+  await page.locator('[role=dialog]').waitFor();
+  check(await page.locator(`[data-destination-details="${id}"]`).isVisible(),'search opens matching details');
+  const detailUrl=page.url();
+  const handoff=await page.locator('[data-directions-handoff]').getAttribute('href');
+  check(new URL(handoff,base).searchParams.get('to')===id,'handoff preserves destination');
+  await page.locator('[data-directions-handoff]').click();
+  await page.waitForURL(/directions|chi-duong/);
+  await page.goBack({waitUntil:'networkidle'});
+  await page.locator('[role=dialog]').waitFor();
+  check(page.url()===detailUrl,'browser Back restores direct details');
+  await page.keyboard.press('Escape');
+  await page.locator('[role=dialog]').waitFor({state:'hidden'});
+  check(await page.locator('#discovery-search').inputValue()===(mall==='saigon'?'MEAT':'ZARA'),'close preserves query');
+  await page.locator('.shell-language').click();
+  const other=locale==='en'?'vi':'en';
+  check(new URL(page.url()).pathname===`/${other}/${other==='vi'?'kham-pha':'discovery'}`,'language translates dedicated path');
+  await page.goBack();
+  await page.waitForFunction(l=>document.documentElement.lang===l,locale);
+  check(await page.locator('.visitor-guide').getAttribute('data-view')==='discovery','language Back retains surface');
+  await page.goto(`${base}/${locale}?view=discovery`,{waitUntil:'networkidle'});
+  check(await page.locator('.visitor-guide').getAttribute('data-view')==='discovery','legacy Discovery link');
+  check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'no horizontal overflow');
+  check(row.errors.length===0,'no browser errors');
+ }catch(e){row.failure=e.message}
+ await page.close();
+}
+await fs.mkdir('evidence/home-discovery-r13',{recursive:true});
+await fs.writeFile('evidence/home-discovery-r13/flows.json',JSON.stringify(results,null,2));
+await browser.close();
+console.log(JSON.stringify(results.map(r=>({mall:r.mall,width:r.width,locale:r.locale,passed:r.checks.filter(c=>c.pass).length,failure:r.failure})),null,2));
+if(results.some(r=>r.failure))process.exitCode=1;

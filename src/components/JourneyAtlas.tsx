@@ -64,6 +64,7 @@ export default function JourneyAtlas({site,routing,locale='en',publicDirections=
   const back=new URL(discoveryUrl,location.origin);
   back.pathname=back.pathname.replace(/^\/(en|vi)/,`/${other}`).replace('/stores/','/cua-hang/');
   if(other==='en')back.pathname=back.pathname.replace('/cua-hang/','/stores/');
+  back.pathname=other==='vi'?back.pathname.replace('/discovery','/kham-pha'):back.pathname.replace('/kham-pha','/discovery');
   params.set('returnTo',back.pathname+back.search+back.hash);
   setLanguageUrl((other==='vi'?'/vi/chi-duong':'/en/directions')+'?'+params);
  },[from,to,discoveryUrl,handoffReady,publicDirections,locale]);

@@ -77,9 +77,9 @@ export default function Discovery({site,selection,previewFloor,areaNumbers,activ
     </a></li>;
   };
   return <>
-    <div className="discovery-intro"><h2>{locale==='vi'?'Khám phá':'Discover'}</h2><p>{c.intro}</p></div>
-    {site.content.approval==='pending'&&<p className="discovery-notice">{j.pending}</p>}
-    {site.content.approval==='fixture'&&<p className="discovery-notice" role="note">{site.content.researchPreview?c.research:j.fixture}</p>}
+    <div className="discovery-intro"><h1>{locale==='vi'?'Khám phá':'Discovery'}</h1><p>{locale==='vi'?'Ăn uống, mua sắm và những điểm dừng đáng ghé.':'Good food, favourite brands and places worth a look.'}</p><a className="discovery-browse-link" href="#discovery-search">{locale==='vi'?'Tìm trong toàn bộ danh mục':'Browse the directory'}</a></div>
+    {site.content.approval==='pending'&&<details className="discovery-notice"><summary>{locale==='vi'?'Về hướng dẫn này':'About this guide'}</summary><p>{j.pending}</p></details>}
+    {site.content.approval==='fixture'&&<details className="discovery-notice"><summary>{locale==='vi'?'Bản xem trước độc lập':'Independent preview guide'}</summary><p>{site.content.researchPreview?c.research:j.fixture}</p></details>}
     <section className="visitor-highlights" data-mall={site.mallId} aria-labelledby="discovery-highlights-title">
       <h3 id="discovery-highlights-title">{locale==='vi'?'Gợi ý cho chuyến ghé thăm':'Ideas for your visit'}</h3>
       <p>{locale==='vi'?'Khám phá một vài điểm đến, rồi tìm thêm trong toàn bộ danh mục bên dưới.':'Start with a few places, then explore the full directory below.'}</p>

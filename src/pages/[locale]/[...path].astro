@@ -9,6 +9,7 @@ import FloorMap from '../../components/FloorMap';
 export function getStaticPaths() {
   return ['vi','en'].flatMap(locale=>[
     {params:{locale,path:undefined},props:{floorId:site.defaultFloor,kind:'exterior'}},
+    {params:{locale,path:locale==='vi'?'kham-pha':'discovery'},props:{floorId:site.defaultFloor,kind:'discovery'}},
     ...site.geometry.floors.map(floor=>({params:{locale,path:`${locale==='vi'?'tang':'floors'}/${floor.id}`},props:{floorId:floor.id,kind:'map'}})),
     ...site.destinations.map(destination=>({params:{locale,path:`${locale==='vi'?'cua-hang':'stores'}/${destination.id}`},props:{floorId:destination.primaryFloor,kind:'map',destinationId:destination.id}})),
     {params:{locale,path:'404'},props:{notFound:true}},

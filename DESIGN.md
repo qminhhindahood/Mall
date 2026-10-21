@@ -1,88 +1,102 @@
 ---
 name: Mall visitor journey
-description: Porcelain and lacquer journey, tickets 01–03; content approval remains separate
+description: Architectural welcome and standalone Discovery; Home/Discovery r13 candidate
 colors:
-  paper: "#fff9f1"
-  vincom-paper: "#fffbf3"
-  ink: "#231c17"
-  muted: "#64584e"
-  divider: "#e0d3c4"
-  map-edge: "#7e6c59"
-  control-edge: "#88796c"
-  map-background: "#f0e7da"
-  floor-top: "#efe6dc"
-  vincom-floor-top: "#efe8dc"
-  overview-paper: "#f4eade"
-  overview-edge: "#cdbda9"
-  overview-map: "#ede2d3"
-  reading-paper: "#fffdfa"
-  fixture-background: "#f7e2b4"
-  fixture-ink: "#352614"
-  shadow: "#46322224"
-  saigon-action: "#a12b18"
-  saigon-selected: "#ffe6dc"
-  vincom-action: "#744600"
-  vincom-selected: "#f5e4bf"
-  saigon-lacquer: "#c63219"
-  vincom-gold: "#8a5400"
+  saigon-paper: "#f5f3eb"
+  saigon-ink: "#243a30"
+  saigon-muted: "#58675e"
+  saigon-action: "#315d47"
+  saigon-divider: "#d6ddd2"
+  saigon-selected: "#e0e9dc"
+  saigon-surface: "#fffefa"
+  vincom-paper: "#f4f5f7"
+  vincom-ink: "#243549"
+  vincom-muted: "#596879"
+  vincom-action: "#365d83"
+  vincom-divider: "#d5dee7"
+  vincom-selected: "#e1e9f2"
+  vincom-surface: "#fff"
 typography:
   display:
     fontFamily: "Manrope, Guide, sans-serif"
+    fontSize: "clamp(48px, 5.3vw, 76px)"
     fontWeight: 500
-    lineHeight: 1.14
+    lineHeight: 1.08
+    letterSpacing: "-0.035em"
+  headline:
+    fontFamily: "Manrope, Guide, sans-serif"
+    fontSize: "clamp(44px, 5vw, 68px)"
+    fontWeight: 500
+    lineHeight: 1.1
     letterSpacing: "-0.035em"
   body:
-    fontFamily: "Guide, system-ui, sans-serif"
+    fontFamily: "Guide, sans-serif"
     fontSize: "16px"
-    lineHeight: 1.6
+    lineHeight: 1.75
+rounded:
+  action: "4px"
+spacing:
+  phone-gutter: "24px"
+  reading-gutter: "48px"
+  section: "112px"
+  section-phone: "56px"
 ---
 
 # Design System: Mall visitor journey
 
 ## Overview
 
-The owner-approved Porcelain / lacquer world presents the isolated mall exterior on warm paper. The introduction uses the approved Daylight gallery composition. This record covers the integrated introduction, source-floor overview, practical map/directory and Discovery surfaces. Real directory data and release acceptance remain pending.
+**Creative North Star: "Architectural welcome."** The r13 Home/Discovery replacement places the actual exterior on soft daylight paper, followed by concise introductions to the two visitor tasks. Standalone Discovery uses readable editorial selections and a complete practical directory. Quiet typography, wide gutters and restrained green or blue accents replace the prior Porcelain / lacquer Home composition.
+
+This records the implemented isolated candidate, not official mall branding or new release acceptance. It supersedes the earlier post-hero glass header, continuous floor-stack journey and map-beside-Discovery guidance. Directions retains its existing combined glass origin/destination card, map and steps. Original approved assets and source qualifications remain intact; asset revision is still `photo-polish-2026-10-12-delivery-r2`.
 
 ## Colors
 
-Warm paper and dark ink support reading. Saigon uses red lacquer; Vincom uses brown gold. Accent identifies the mall name, current language, and scroll cue. Secondary text uses warm brown. The scene background matches its mall's paper.
+**The Mall Identity Rule.** Use warm mineral paper and forest green for Saigon, cool paper and architectural blue for Vincom. Each mall's ink, muted copy, fine divider and selected surface belong to the same palette. Action accents identify active navigation and practical actions; pale selected surfaces give highlights and the source-plan preview their grouping. Inputs use the brighter surface token. The normative values above come from `src/styles/home-discovery.css`.
 
 ## Typography
 
-Practical section headings use 28–42px, overview headings 32–52px, and directory subheadings 22px. Controls and floor labels use at least 16px. Supporting schematic disclosure uses 13px on narrow screens.
+Self-hosted Manrope supplies calm architectural headings; Guide is the self-hosted Be Vietnam Pro face for text and controls. Home display and Discovery headline roles use medium weight and tight tracking. At widths up to 700px both page titles use 44px; Home leading becomes 1.1. Home copy has a 34ch desktop measure and 38ch phone measure, with 14px phone text. Supporting labels are quieter (11-14px), so the old blanket 16px control-label rule no longer describes this implementation.
 
-Self-hosted Manrope gives headings their architectural scale. Guide is the self-hosted Be Vietnam Pro face used for copy and controls. Display size adapts from 40 to 76 CSS pixels on desktop; phone headings adapt from 40 to 60 pixels. Introduction copy has a 37-character measure and generous leading.
+Home section headings scale from 34px to 48px. Discovery selections use 26px medium headings (23px at the intermediate breakpoint); destination rows use 20px, weight 550, with 13px type and 12px metadata. Detail titles are 32px medium weight. **The Reading Hierarchy Rule.** Keep destination identity, location precision and actions prominent; unresolved research belongs in the disclosure below verified detail fields.
 
 ## Layout
 
-The map occupies the larger sticky right column (about two thirds) as the solid directory and Discovery reading sections scroll on the left, matching the approved prototype. Below 700px it becomes a compact sticky map above a single reading column. Scroll scales and tilts the preview without fading its independent glass controls; reduced motion removes the transform. At heights of 600px or less the map scrolls normally so enlarged/reflowed reading content stays reachable. The SVG carries area interactions in its source coordinate frame; unregistered 3D geometry does not establish destination positions.
+Home uses a 40:60 copy/exterior grid, a 1600px maximum width and responsive 24-80px gutters. Its unframed scene is in normal layout rather than a long sticky floor-transition track. The desktop introduction is one viewport high within 800-1100px bounds; a compact control shelf sits beneath the exterior. On phones, copy precedes a 350px scene region containing a 270px exterior viewport. The desktop scroll instruction is hidden on phones.
 
-The desktop introduction pairs copy and building in a 38:62 grid. At 700 pixels and below, copy precedes the scene vertically. The bottom scroll instruction follows the building. Phone composition can exceed one viewport to retain readable copy and model space. Practical sections and focus targets account for the fixed navigation.
+Below Home, two alternating preview sections introduce Discovery with real directory names and Directions with an actual supplied source-plan preview. The reading container is 1320px wide with 48px desktop and 24px phone gutters. Sections use 112px vertical padding, reduced to 56px on phones.
+
+Discovery is a separate full-page reading surface. It starts with its title and three editorial selections, then labelled search, scope, category browsing, floor choices and complete results. Desktop search pairs the field with a 240px scope column; browsing pairs a sticky 220px category rail with two-column destination rows. At 1050px the rail narrows to 180px and gaps reduce. At 700px the selections and results become single-column, search stacks, and categories become a horizontal scrolling rail. There is no persistent map beside this Discovery page.
+
+The shared solid header is present immediately, with an 88px desktop minimum height and a 108px phone minimum. Main content clears it; Discovery begins with 148px top padding. Directions keeps the existing desktop combined sidebar and phone card, map, then steps ordering.
 
 ## Elevation & Depth
 
-Compact map controls and the post-hero header use 62% white glass, 24px blur and 1.3 saturation, with dark ink and a fine white rim. The toolbar overlaps actual source-map polygons. These values remain an owner-reviewable trial, not a newly approved material specification. Unsupported blur and reduced transparency use solid porcelain. Reading panels stay opaque. Glass values are an implemented trial; rendered approval is separate.
+**The Quiet Surface Rule.** Home and Discovery rely on paper, pale tonal grouping and fine dividers. The header and exterior control shelf have no shadow or backdrop blur. The building is open and unframed; highlight cards are solid.
 
-The post-hero header is compact and elevated with an offset diffuse shadow. Supported browsers blur its backdrop; reduced transparency and unsupported blur use opaque paper. Reading areas remain solid.
-
-The overview presents the existing source polygons as separated CSS-perspective SVG layers using the union of the recorded schematic bounds, with a vertical floor rail on the right. No source polygon, physical elevation, inferred slab or scene-runtime camera is changed. The complete scene preparation contract remains intact; the source-layer presentation also works without JavaScript or after scene failure. Registration remains unverified.
+The retained Directions combined glass card remains a functional exception over the actual map. Its existing material, map controls, opaque/reduced-transparency fallbacks and source-coordinate interactions are not redesigned by this document. Unregistered 3D geometry never establishes a destination position. Do not propagate the retained Directions glass treatment to the new Home header or full reading surfaces.
 
 ## Shapes
 
-The building has an open, unframed scene. Language and Pause controls have minimal chrome. The floating header has gently curved corners; the bottom instruction uses a fine divider and authored arrow.
-
-Map tools use one authored 24px line-icon family, 44px targets, localized accessible names and title hints. Selected state retains an opaque pale inset and dark edge; keyboard focus adds a separate dark ring with a white separator.
+Actions, search inputs, highlight cards, filter links and detail location summaries use restrained 4px corners. The full-width header and control shelf have square edges, separated by fine rules. The small brand symbol stays circular. Use existing line icons and visible keyboard focus; preserve the 44px action-target baseline even when labels are smaller. Search fields and scope selects are at least 52px high.
 
 ## Components
 
-The full header appears only after the hero ends and is inert while hidden. Floor map precedes Discovery. VI/EN and Pause remain available within the introduction. Pause persists through navigation, reload and Retry. Reduced motion stops both rotation and the scroll cue and disables Resume while the preference is active. Native scrolling and page zoom remain available.
+**Navigation.** The solid full-width shell exposes Home, Discovery and Directions alongside VI/EN. Current-page navigation uses a 2px accent underline without a filled pill. Native links, focus and history remain part of the interaction.
+
+**Exterior arrival.** Preserve the existing three-stage establish/facade/settle camera arrival, direct rotate/look/zoom/reset controls, interruption on input and replay behavior. The new localized caption follows the stage beneath the building; the facade stage lifts the Home title by 6px and colors it with the action accent. Title transform transitions use 900ms with `cubic-bezier(.16,1,.3,1)` and color uses 900ms ease. Reduced motion removes title transition and transform and retains the existing motion-free camera behavior. This is added caption/title motion, not a new camera path or model revision.
+
+**Home previews.** Directory picks are typographic rows with a fine divider and arrow; the Directions preview shows supplied plan geometry on a pale selected surface. Both lead to full-page tasks instead of duplicating their complete tools on Home.
+
+**Discovery highlights and results.** Highlights use real directory names and category/location context, not fabricated store photography. Their pale panels have 28px desktop padding and a 220px minimum height; phones use 24px and 184px. Hover subtly deepens the selected surface. Complete destination rows are open, divided reading items whose names underline on hover. Search and category/floor controls remain separate from editorial selections.
+
+**Store detail.** Location precision and partial/shared-area qualifications remain immediate. Primary actions and location summaries share the small corner treatment. Verified fields precede a research disclosure with a 44px summary target. Existing deep links, locale and selection handoffs remain supported.
 
 ## Do's and Don'ts
 
-Keep the approved building assets and concise bilingual introduction. Keep the keyboard skip link and bottom scroll instruction. Do not restore the removed hero-copy CTA buttons or add manual hero orbit/zoom. Do not treat schematic floor geometry or unreviewed directory content as verified visitor data.
-
-## Owner layout amendment — 18 October 2026
-
-The centered overview caption and floor stack now share the page axis, while the introduction keeps its existing copy/building arrangement. Its scroll cue is confined to the introduction and becomes hidden/inert after departure. Matching floor labels, connectors and slabs fade and neutralize together on hover/focus.
-
-The detailed map is a quiet full-width composition with the descending vertical floor rail and compact map tools. The area-link grid, map search/full directory, banner, facilities and reference-image blocks are removed from this interactive section; requested destination details and shared-area selection remain available. Static fallback listings remain independent. A spacious, centered bilingual invitation follows the map and leads to Discovery. Discovery restores browsing beside the same retained map; phone reading stays below the sticky map. This supersedes the earlier left-directory/right-map and four-section layout paragraphs for this revision, without changing the Porcelain palette, fonts, glass controls or content/geometry approval boundaries.
+- Do retain original building models, supplied plans, accepted directory records and reviewed route connections. Preserve partial/shared-area, Opening Soon and unresolved-metadata qualifications.
+- Do keep practical navigation usable before the model and after model failure; retain reduced-motion and keyboard paths.
+- Do preserve the existing Directions combined glass card and source map behavior.
+- Don't restore the previous long floor-transition tracks or map-beside-Discovery layout in this replacement.
+- Don't remove direct exterior controls or immediate Discovery/Directions actions based on the superseded document.
+- Don't infer exact doors, universal routing, physical verification or publication approval from this visual redesign.

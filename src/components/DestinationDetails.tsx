@@ -27,19 +27,20 @@ export default function DestinationDetails({site,destination,locale,floorId,desc
   const activeFloor=destination.floors.includes(floorId)?floorId:destination.primaryFloor;
   const back=returnTo??selectionHref({locale,floorId:activeFloor,kind:'discovery',destinationId:destination.id});
   const directionsUrl=`/${locale}/${locale==='vi'?'chi-duong':'directions'}?${new URLSearchParams({to:destination.id,floor:activeFloor,returnTo:back})}`;
-  return <div className="destination-details" data-destination-details={destination.id}>
-    <div className="detail-location-summary"><strong>{c.floor} {destination.floors.join(' · ')}</strong><p>{locale==='vi'?(mapped?'Khu vực trên sơ đồ · chưa xác định cửa vào chính xác':'Đã biết tầng · chưa định vị khu vực cửa hàng'):(mapped?'Mapped area · exact doorway not identified':'Floor known · store area not mapped')}</p></div>
-    {location?.associationDetail&&<p className="detail-association-note" data-association-kind={location.associationDetail.kind}>{location.associationDetail.note[locale]}</p>}
-    <nav className="detail-primary-actions" aria-label={locale==='vi'?'Chuẩn bị ghé thăm':'Plan your visit'}><a className="detail-directions" data-directions-handoff href={directionsUrl}>{locale==='vi'?'Chỉ đường':'Directions'} <span aria-hidden="true">↗</span></a><a href={selectionHref({locale,floorId:activeFloor,kind:'map',destinationId:destination.id})}>{locale==='vi'?'Xem sơ đồ':'View map'}</a></nav>
-    <p className="detail-route-help">{locale==='vi'?'Tiếp theo, chọn nơi bắt đầu. Chỉ hiển thị đường đi cho các kết nối đã được đối chiếu.':'Choose your starting place next. Walking guidance is available only for reviewed connections.'}</p>
-    {fields.length>0&&<section className="detail-proposals" aria-label={heading}><h4>{heading}</h4>{fields.map(item=><div className="detail-field" key={item.field} data-detail-field={item.field}>
+  const renderFields=(items:typeof fields)=>items.map(item=><div className="detail-field" key={item.field} data-detail-field={item.field}>
       <strong>{c[item.field]}</strong>
       {(item.state==='newly-sourced-proposal'||item.state==='verified-agent')?<>
         <p>{item.url?<a href={item.url} target="_blank" rel="noopener noreferrer">{c[item.field]}<span className="visually-hidden"> · {c.newTab}</span></a>:item.field==='phone'?<a href={`tel:${item.value!.en.replace(/[ ()-]/g,'')}`}>{item.value![locale]}</a>:item.value![locale]}</p>
         <p>{item.applicability==='branch'?c.branch:c.brand}</p>
       </>:<p>{item.state==='unavailable-after-research'?c.unavailable:c.held}</p>}
       <details className="detail-source-disclosure"><summary>{c.source} · {item.checkedAt}</summary><p className="detail-provenance">{c.checked}: <time dateTime={item.checkedAt}>{item.checkedAt}</time> · <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer">{c.source}<span className="visually-hidden"> · {c.newTab}</span></a></p><p className="detail-provenance">{item.uncertainty[locale]}</p></details>
-    </div>)}</section>}
+    </div>);
+  return <div className="destination-details" data-destination-details={destination.id}>
+    <div className="detail-location-summary"><strong>{c.floor} {destination.floors.join(' · ')}</strong><p>{locale==='vi'?(mapped?'Khu vực trên sơ đồ · chưa xác định cửa vào chính xác':'Đã biết tầng · chưa định vị khu vực cửa hàng'):(mapped?'Mapped area · exact doorway not identified':'Floor known · store area not mapped')}</p></div>
+    {location?.associationDetail&&<p className="detail-association-note" data-association-kind={location.associationDetail.kind}>{location.associationDetail.note[locale]}</p>}
+    <nav className="detail-primary-actions" aria-label={locale==='vi'?'Chuẩn bị ghé thăm':'Plan your visit'}><a className="detail-directions" data-directions-handoff href={directionsUrl}>{locale==='vi'?'Chỉ đường':'Directions'} <span aria-hidden="true">↗</span></a><a href={selectionHref({locale,floorId:activeFloor,kind:'map',destinationId:destination.id})}>{locale==='vi'?'Xem sơ đồ':'View map'}</a></nav>
+    <p className="detail-route-help">{locale==='vi'?'Tiếp theo, chọn nơi bắt đầu. Chỉ hiển thị đường đi cho các kết nối đã được đối chiếu.':'Choose your starting place next. Walking guidance is available only for reviewed connections.'}</p>
+    {fields.length>0&&<section className="detail-proposals" aria-label={heading}><h4>{heading}</h4>{renderFields(fields.filter(item=>item.state==='verified-agent'))}{fields.some(item=>item.state!=='verified-agent')&&<details className="detail-research-disclosure"><summary>{locale==='vi'?'Thông tin đang đối chiếu':'Information under review'}</summary>{renderFields(fields.filter(item=>item.state!=='verified-agent'))}</details>}</section>}
     <h4>{locale==='vi'?'Giới thiệu':'About this place'}</h4>
     <p id={descriptionId}>{destination.description[locale]||j.descriptionPending}</p>
     <dl><dt>{c.floor}</dt><dd>{destination.floors.join(', ')}</dd><dt>{c.category}</dt><dd>{site.content.categories.filter(row=>destination.categories.includes(row.id)).map(row=>row.name[locale]).join(' · ')}</dd>{cuisine&&!enrichedCuisine&&<><dt>{c.cuisine}</dt><dd>{cuisine[locale]}</dd></>}</dl>
@@ -47,7 +48,6 @@ export default function DestinationDetails({site,destination,locale,floorId,desc
     {destination.openingSoon&&<p>{j.openingSoon}</p>}
     <details className="detail-source-disclosure"><summary>{locale==='vi'?'Hướng dẫn theo tầng':'Floor guidance'}</summary><IndoorGuidance site={site} destination={destination} locale={locale} floorId={floorId}/></details>
     {website&&<p><a href={website} target="_blank" rel="noopener noreferrer">{c.website}<span className="visually-hidden"> · {c.newTab}</span></a></p>}
-    <p><a href={selectionHref({locale,floorId:destination.floors.includes(floorId)?floorId:destination.primaryFloor,kind:'map',destinationId:destination.id})}>{locale==='vi'?(mapped?'Xem trên sơ đồ':'Xem tầng'):(mapped?'View on map':'View floor')}</a></p>
     {missingContact&&<p className="detail-missing">{locale==='vi'?'Một số thông tin liên hệ hoặc giờ hoạt động chưa được xác minh. Hãy kiểm tra nguồn chính thức trước khi ghé.':'Some contact or opening-hour information is not yet verified. Check the official source before visiting.'}</p>}
     {!site.content.researchPreview&&<p className="detail-provenance">{c.reviewed}: <time dateTime={destination.reviewedAt}>{destination.reviewedAt}</time></p>}
   </div>;
