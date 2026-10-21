@@ -1,0 +1,411 @@
+{
+  "reviewedAt": "2026-10-21",
+  "reviewedBy": "Codex GPT-6.1 Sol source review",
+  "basis": "Original supplied raster and existing contour visually compared with in-memory overlays. Archived geographic polygons establish identity/floor but are not directly imported. No separate independent reviewer or current operation claim.",
+  "registration": {
+    "archivedCandidate": "docs/content-preparation/record-review-2026-10-18/registration.json",
+    "use": "Existing raster contours only; no new affine fit or geographic-coordinate import."
+  },
+  "sources": [
+    {
+      "path": "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L1-2026-10-01.png",
+      "width": 4782,
+      "height": 5304,
+      "bytes": 3184141,
+      "sha256": "d7c4697eb9399e8d768586b01139295cf90c3607ba44e690a031c0aaf5eba89b",
+      "transform": [
+        0.02,
+        0,
+        0,
+        0.02,
+        -47.82,
+        -53.04
+      ],
+      "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+    },
+    {
+      "path": "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L3-2026-10-01.png",
+      "width": 4712,
+      "height": 5142,
+      "bytes": 3301657,
+      "sha256": "905e5de4c90debbabddd8a7fadf9e47b5084bf6b01703ba5450b9e8603763ab8",
+      "transform": [
+        0.02,
+        0,
+        0,
+        0.02,
+        -47.12,
+        -51.42
+      ],
+      "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+    }
+  ],
+  "decisions": [
+    {
+      "destinationId": "saigon-candidate-374c0731-9167-461f-b83f-5300891cb7dd",
+      "floor": "L1",
+      "regionIds": [
+        "L1-region-005"
+      ],
+      "printedUnits": "L1-05/06",
+      "reviewDecision": "accept-source-layout-area-only"
+    },
+    {
+      "destinationId": "saigon-candidate-175eb1fd-2de0-4649-8584-8435bacb798c",
+      "floor": "L3",
+      "regionIds": [
+        "L3-region-018"
+      ],
+      "printedUnits": "L3-42",
+      "reviewDecision": "accept-source-layout-area-only"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "saigon-prototype-thehourglass",
+      "name": "The Hour Glass",
+      "floor": "L1",
+      "nextAction": "Review the exact original hold and official UUID. Do not reuse a broad parent as an individual storefront or union counters into a department footprint.",
+      "officialGeometry": [
+        {
+          "officialId": "2d5b055d-036d-48b0-98e5-144bf937bc96",
+          "presentInArchive": true,
+          "mapDataAvailable": true,
+          "sourceFloors": [
+            "L1"
+          ],
+          "sourceKind": "official geographic mapData polygon, not schematic palette contour",
+          "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\saigon-research\\official-source-map.json"
+        }
+      ],
+      "priorMappingAudit": [
+        {
+          "id": "saigon-prototype-thehourglass",
+          "mall": "saigon-centre",
+          "name": "The Hour Glass",
+          "floor": "L1",
+          "group": "accepted-r4-shape-separate-identity-review",
+          "proposedRegion": "review-20261018-official-2d5b055d-036d-48b0-98e5-144bf937bc96-l1",
+          "sources": [
+            "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-thehourglass]",
+            "https://shopping.saigoncentre.com.vn/en/store-directory/the-hour-glass/",
+            "../completion-packet-2026-10-17/saigon-source-map.json",
+            "../../../data/malls/saigon-centre/floor-geometry.json",
+            "registration.json",
+            "source-evidence/regions.csv"
+          ],
+          "missingEvidence": [
+            "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+            "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+            "Owner mapping approval; current occupancy is not established by geometric registration"
+          ],
+          "anchors": [],
+          "promoteAdditionalExactAssociation": false
+        }
+      ]
+    },
+    {
+      "id": "saigon-prototype-moschino",
+      "name": "Moschino",
+      "floor": "L2",
+      "nextAction": "Review the exact original hold and official UUID. Do not reuse a broad parent as an individual storefront or union counters into a department footprint.",
+      "officialGeometry": [
+        {
+          "officialId": "6190de79-9b80-4c88-af66-40e5181fdbe2",
+          "presentInArchive": true,
+          "mapDataAvailable": true,
+          "sourceFloors": [
+            "L2"
+          ],
+          "sourceKind": "official geographic mapData polygon, not schematic palette contour",
+          "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\saigon-research\\official-source-map.json"
+        }
+      ],
+      "priorMappingAudit": [
+        {
+          "id": "saigon-prototype-moschino",
+          "mall": "saigon-centre",
+          "name": "Moschino",
+          "floor": "L2",
+          "group": "accepted-r4-shape-separate-identity-review",
+          "proposedRegion": "review-20261018-official-6190de79-9b80-4c88-af66-40e5181fdbe2-l2",
+          "sources": [
+            "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-moschino]",
+            "https://shopping.saigoncentre.com.vn/en/store-directory/moschino/",
+            "../completion-packet-2026-10-17/saigon-source-map.json",
+            "../../../data/malls/saigon-centre/floor-geometry.json",
+            "registration.json",
+            "source-evidence/regions.csv"
+          ],
+          "missingEvidence": [
+            "Resolve duplicate printed unit claim against distinct official UUID polygons",
+            "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+            "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+            "Owner mapping approval; current occupancy is not established by geometric registration"
+          ],
+          "anchors": [],
+          "promoteAdditionalExactAssociation": false
+        }
+      ]
+    },
+    {
+      "id": "saigon-prototype-asiancorner",
+      "name": "Asian Corner",
+      "floor": "L5",
+      "nextAction": "Review the exact original hold and official UUID. Do not reuse a broad parent as an individual storefront or union counters into a department footprint.",
+      "officialGeometry": [
+        {
+          "officialId": "84be54db-4a4a-4517-b085-060d83a970e5",
+          "presentInArchive": true,
+          "mapDataAvailable": true,
+          "sourceFloors": [
+            "L5"
+          ],
+          "sourceKind": "official geographic mapData polygon, not schematic palette contour",
+          "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\saigon-research\\official-source-map.json"
+        }
+      ],
+      "priorMappingAudit": [
+        {
+          "id": "saigon-prototype-asiancorner",
+          "mall": "saigon-centre",
+          "name": "Asian Corner",
+          "floor": "L5",
+          "group": "accepted-r4-shape-separate-identity-review",
+          "proposedRegion": "review-20261018-official-84be54db-4a4a-4517-b085-060d83a970e5-l5",
+          "sources": [
+            "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-asiancorner]",
+            "https://shopping.saigoncentre.com.vn/en/store-directory/asian-corner/",
+            "../completion-packet-2026-10-17/saigon-source-map.json",
+            "../../../data/malls/saigon-centre/floor-geometry.json",
+            "registration.json",
+            "source-evidence/regions.csv"
+          ],
+          "missingEvidence": [
+            "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+            "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+            "Owner mapping approval; current occupancy is not established by geometric registration"
+          ],
+          "anchors": [],
+          "promoteAdditionalExactAssociation": false
+        }
+      ]
+    },
+    {
+      "id": "saigon-prototype-oedoalley",
+      "name": "Oedo Alley",
+      "floor": "L5",
+      "nextAction": "Review the exact original hold and official UUID. Do not reuse a broad parent as an individual storefront or union counters into a department footprint.",
+      "officialGeometry": [
+        {
+          "officialId": "b32ef3d1-41d7-42fb-97ea-7343d47863a1",
+          "presentInArchive": true,
+          "mapDataAvailable": true,
+          "sourceFloors": [
+            "L5"
+          ],
+          "sourceKind": "official geographic mapData polygon, not schematic palette contour",
+          "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\saigon-research\\official-source-map.json"
+        }
+      ],
+      "priorMappingAudit": [
+        {
+          "id": "saigon-prototype-oedoalley",
+          "mall": "saigon-centre",
+          "name": "Oedo Alley",
+          "floor": "L5",
+          "group": "accepted-r4-shape-separate-identity-review",
+          "proposedRegion": "review-20261018-official-b32ef3d1-41d7-42fb-97ea-7343d47863a1-l5",
+          "sources": [
+            "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-oedoalley]",
+            "https://shopping.saigoncentre.com.vn/en/store-directory/oedo-alley-japanese-food-village/",
+            "../completion-packet-2026-10-17/saigon-source-map.json",
+            "../../../data/malls/saigon-centre/floor-geometry.json",
+            "registration.json",
+            "source-evidence/regions.csv"
+          ],
+          "missingEvidence": [
+            "A new candidate geometry region would be required; existing captured contour is fragmented, merged, or absent",
+            "Owner decision on overlapping parent/shared-area geometry; do not treat nested polygons as separate storefronts",
+            "Owner mapping approval; current occupancy is not established by geometric registration"
+          ],
+          "anchors": [],
+          "promoteAdditionalExactAssociation": false
+        }
+      ]
+    },
+    {
+      "id": "saigon-prototype-yakinikulike",
+      "name": "YAKINIKU LIKE",
+      "floor": "L5",
+      "nextAction": "Review the exact original hold and official UUID. Do not reuse a broad parent as an individual storefront or union counters into a department footprint.",
+      "officialGeometry": [
+        {
+          "officialId": "ff451ea9-998a-4e74-98a7-8f35156222fe",
+          "presentInArchive": true,
+          "mapDataAvailable": true,
+          "sourceFloors": [
+            "L5"
+          ],
+          "sourceKind": "official geographic mapData polygon, not schematic palette contour",
+          "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\saigon-research\\official-source-map.json"
+        }
+      ],
+      "priorMappingAudit": []
+    },
+    {
+      "id": "saigon-prototype-takashimaya",
+      "name": "Takashimaya",
+      "floor": "B2",
+      "nextAction": "Review the exact original hold and official UUID. Do not reuse a broad parent as an individual storefront or union counters into a department footprint.",
+      "officialGeometry": [
+        {
+          "officialId": "5bdd4a50-812f-42ae-bb64-9de61561eaf6",
+          "presentInArchive": true,
+          "mapDataAvailable": false,
+          "sourceFloors": [],
+          "sourceKind": "official geographic mapData polygon, not schematic palette contour",
+          "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\saigon-research\\official-source-map.json"
+        }
+      ],
+      "priorMappingAudit": [
+        {
+          "id": "saigon-prototype-takashimaya",
+          "mall": "saigon-centre",
+          "name": "Takashimaya",
+          "floor": "B1",
+          "group": "needs-source-or-boundary-evidence",
+          "proposedRegion": null,
+          "sources": [
+            "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-takashimaya]",
+            "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya/",
+            "../completion-packet-2026-10-17/saigon-research/official-storeInfoTaka-en.json",
+            "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya"
+          ],
+          "missingEvidence": [
+            "Official unified Takashimaya department-store footprint on B1; store mapData is null",
+            "Counter polygons do not establish the complete department-store boundary; do not union counters into an invented footprint"
+          ],
+          "anchors": [],
+          "promoteAdditionalExactAssociation": false
+        },
+        {
+          "id": "saigon-prototype-takashimaya",
+          "mall": "saigon-centre",
+          "name": "Takashimaya",
+          "floor": "B2",
+          "group": "needs-source-or-boundary-evidence",
+          "proposedRegion": null,
+          "sources": [
+            "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-takashimaya]",
+            "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya/",
+            "../completion-packet-2026-10-17/saigon-research/official-storeInfoTaka-en.json",
+            "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya"
+          ],
+          "missingEvidence": [
+            "Official unified Takashimaya department-store footprint on B2; store mapData is null",
+            "Counter polygons do not establish the complete department-store boundary; do not union counters into an invented footprint"
+          ],
+          "anchors": [],
+          "promoteAdditionalExactAssociation": false
+        },
+        {
+          "id": "saigon-prototype-takashimaya",
+          "mall": "saigon-centre",
+          "name": "Takashimaya",
+          "floor": "L1",
+          "group": "needs-source-or-boundary-evidence",
+          "proposedRegion": null,
+          "sources": [
+            "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-takashimaya]",
+            "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya/",
+            "../completion-packet-2026-10-17/saigon-research/official-storeInfoTaka-en.json",
+            "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya"
+          ],
+          "missingEvidence": [
+            "Official unified Takashimaya department-store footprint on L1; store mapData is null",
+            "Counter polygons do not establish the complete department-store boundary; do not union counters into an invented footprint"
+          ],
+          "anchors": [],
+          "promoteAdditionalExactAssociation": false
+        },
+        {
+          "id": "saigon-prototype-takashimaya",
+          "mall": "saigon-centre",
+          "name": "Takashimaya",
+          "floor": "L2",
+          "group": "needs-source-or-boundary-evidence",
+          "proposedRegion": null,
+          "sources": [
+            "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-takashimaya]",
+            "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya/",
+            "../completion-packet-2026-10-17/saigon-research/official-storeInfoTaka-en.json",
+            "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya"
+          ],
+          "missingEvidence": [
+            "Official unified Takashimaya department-store footprint on L2; store mapData is null",
+            "Counter polygons do not establish the complete department-store boundary; do not union counters into an invented footprint"
+          ],
+          "anchors": [],
+          "promoteAdditionalExactAssociation": false
+        },
+        {
+          "id": "saigon-prototype-takashimaya",
+          "mall": "saigon-centre",
+          "name": "Takashimaya",
+          "floor": "L3",
+          "group": "needs-source-or-boundary-evidence",
+          "proposedRegion": null,
+          "sources": [
+            "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-takashimaya]",
+            "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya/",
+            "../completion-packet-2026-10-17/saigon-research/official-storeInfoTaka-en.json",
+            "https://shopping.saigoncentre.com.vn/en/store-directory/takashimaya"
+          ],
+          "missingEvidence": [
+            "Official unified Takashimaya department-store footprint on L3; store mapData is null",
+            "Counter polygons do not establish the complete department-store boundary; do not union counters into an invented footprint"
+          ],
+          "anchors": [],
+          "promoteAdditionalExactAssociation": false
+        }
+      ]
+    },
+    {
+      "id": "saigon-prototype-matinkimvietnam",
+      "name": "Matin Kim Vietnam",
+      "floor": "L3",
+      "nextAction": "Review the exact original hold and official UUID. Do not reuse a broad parent as an individual storefront or union counters into a department footprint.",
+      "officialGeometry": [
+        {
+          "officialId": "1518e6f3-aa75-49d2-bca1-18a1dfc188a2",
+          "presentInArchive": true,
+          "mapDataAvailable": false,
+          "sourceFloors": [],
+          "sourceKind": "official geographic mapData polygon, not schematic palette contour",
+          "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\saigon-research\\official-source-map.json"
+        }
+      ],
+      "priorMappingAudit": [
+        {
+          "id": "saigon-prototype-matinkimvietnam",
+          "mall": "saigon-centre",
+          "name": "Matin Kim Vietnam",
+          "floor": "L3",
+          "group": "needs-source-or-boundary-evidence",
+          "proposedRegion": null,
+          "sources": [
+            "../completion-packet-2026-10-17/roster.json#records[id=saigon-prototype-matinkimvietnam]",
+            "https://shopping.saigoncentre.com.vn/en/store-directory/matin-kim/"
+          ],
+          "missingEvidence": [
+            "Official Matin Kim store polygon (mapData is null)",
+            "Resolve Matin Kim/Miana competing L3-12 claims and source-reported Opening Soon before occupancy or precise mapping"
+          ],
+          "anchors": [],
+          "promoteAdditionalExactAssociation": false
+        }
+      ]
+    }
+  ]
+}

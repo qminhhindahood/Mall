@@ -67,7 +67,15 @@ if (mallId === storeSupplement.mallId && storeSupplement.activation === 'accepte
   if (createHash('sha256').update(reviewBytes).digest('hex') !== storeSupplement.reviewEvidence.sha256) throw new Error('Store association review evidence drift');
   storeReview = JSON.parse(reviewBytes.toString('utf8'));
 }
-const content = validateContent(applyAssociationSupplement(derivedContent,geometry,storeSupplement,storeReview),mallId,geometry);
+const storeContent = applyAssociationSupplement(derivedContent,geometry,storeSupplement,storeReview);
+const saigonSupplement: AssociationSupplement = JSON.parse(fs.readFileSync(path.join(process.cwd(),'data','research','saigon-source-associations-2026-10-21-r10.json'),'utf8'));
+let saigonReview: AssociationReviewReceipt | undefined;
+if (mallId === saigonSupplement.mallId && saigonSupplement.activation === 'accepted-source-review') {
+  const reviewBytes = fs.readFileSync(path.join(process.cwd(),saigonSupplement.reviewEvidence.path));
+  if (createHash('sha256').update(reviewBytes).digest('hex') !== saigonSupplement.reviewEvidence.sha256) throw new Error('Saigon association review evidence drift');
+  saigonReview = JSON.parse(reviewBytes.toString('utf8'));
+}
+const content = validateContent(applyAssociationSupplement(storeContent,geometry,saigonSupplement,saigonReview),mallId,geometry);
 const destinations = content.destinations;
 const manifestPath = path.join(process.cwd(),'data','malls',mallId,'asset-manifest.json');
 const manifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath,'utf8')) : {};
