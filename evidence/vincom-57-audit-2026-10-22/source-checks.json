@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-22",
+  "baseCommit": "2668bb3",
+  "newAreaLinks": 0,
+  "checks": [
+    {
+      "url": "https://vincy.com.vn/",
+      "httpStatus": 200,
+      "localCache": "D:\\Midterm\\.scratch\\vincom-final-source-2026-10-22\\vincy-home.html",
+      "bytes": 1019904,
+      "sha256": "cb1da14a116a31f37f586e7d1166c8193ec4fed0e4cf5a496bd5a07e98bb6b79",
+      "finding": "Links the official store-list page"
+    },
+    {
+      "url": "https://vincy.com.vn/pages/danh-sach-cua-hang",
+      "httpStatus": 200,
+      "localCache": "D:\\Midterm\\.scratch\\vincom-final-source-2026-10-22\\vincy-stores.html",
+      "bytes": 540652,
+      "sha256": "8ac0db083ec8475ced4e409f4c67a81ab2de8c10d1cf1cf91eb62f55f4dd7cf4",
+      "finding": "Store list / brand-embedded map contain no Dong Khoi branch unit"
+    },
+    {
+      "url": "https://www.google.com/maps/d/kml?mid=18fETDXf_Dl9cyPAAyzyLVuDq2T0KlxZ3&forcekml=1",
+      "httpStatus": 200,
+      "localCache": "D:\\Midterm\\.scratch\\vincom-final-source-2026-10-22\\vincy-embedded-map.kml",
+      "bytes": 9833,
+      "sha256": "78499cee268be81c1b9e6931e40152baf4a558bd3450339a5e0404ac2ed217bc",
+      "finding": "Store list / brand-embedded map contain no Dong Khoi branch unit"
+    },
+    {
+      "url": "https://fixifoot.vn/contact-us/",
+      "mechanism": "web rendered primary page",
+      "finding": "B1 at72 Le Thanh Ton; no unit"
+    },
+    {
+      "url": "https://honeecoffee.com/",
+      "mechanism": "direct GET",
+      "result": "TooManyRedirects; no retry",
+      "finding": "No new unit evidence acquired"
+    },
+    {
+      "url": "https://www.foody.vn/ho-chi-minh/tim-kiem/vanilla-caf%C3%A9",
+      "authority": "third-party listing, not primary confirmation",
+      "finding": "Dessert Planet address L3-K2; lead only; not activated"
+    },
+    {
+      "url": "https://masothue.com/0317411584-002-cong-ty-tnhh-rak-thai-chi-nhanh-golden-dynasty",
+      "authority": "secondary registry transcription; previously retained lead",
+      "finding": "Primary branch/unit confirmation not established by targeted follow-up; not activated"
+    }
+  ]
+}
