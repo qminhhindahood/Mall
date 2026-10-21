@@ -5,6 +5,8 @@ import type { Locale } from '../runtime/scene-contract';
 import { destinationFloorGuidance, officialIndoorResource } from '../data/indoor-guidance';
 import { selectionHref } from '../data/routes';
 import '../styles/indoor-guidance.css';
+import AreaDirections from './AreaDirections';
+import {supportedNetwork} from '../data/area-routing';
 
 const copy = {
   en: {
@@ -61,8 +63,9 @@ export default function IndoorGuidance({ site, destination, locale, floorId }: {
     } catch { /* Keep the manual choice for this mounted detail view. */ }
   }
   const guidance = destinationFloorGuidance(destination, floorId, currentFloor, site.geometry.floors.map(floor => floor.id));
-  return <details className="indoor-guidance" data-indoor-guidance={destination.id}>
-    <summary>{c.title}</summary>
+  const network = supportedNetwork(site.mallId,destination,guidance.targetFloor);
+  return <details className="indoor-guidance" data-indoor-guidance={destination.id} open={network ? true : undefined}>
+    <summary>{network ? (locale==='vi'?'Chỉ đường đến khu vực này':'Directions to this area') : c.title}</summary>
     <p><strong>{c.target}: {guidance.targetFloor}</strong></p>
     {interactive && <div className="indoor-guidance-start">
       <label htmlFor={id}>{c.current}</label>
@@ -75,7 +78,7 @@ export default function IndoorGuidance({ site, destination, locale, floorId }: {
     <p role="status" data-floor-relation={guidance.relation}>{guidance.relation === 'same-floor' ? c.same : guidance.relation === 'different-floor' ? `${c.different} ${guidance.targetFloor}.` : c.unselected}</p>
     {!guidance.mapped && <p>{c.floorOnly}</p>}
     <p><a href={selectionHref({locale, floorId: guidance.targetFloor, kind: 'map', destinationId: destination.id})}>{guidance.mapped ? c.map : c.floor}</a></p>
-    <p className="indoor-guidance-limit">{c.limitation}</p>
+    {network ? (guidance.relation!=='different-floor' ? <AreaDirections key={`${site.mallId}:${destination.id}:${guidance.targetFloor}`} network={network} destinationId={destination.id} locale={locale}/> : <p className="indoor-guidance-limit">{locale==='vi'?'Tuyến đến khu vực chỉ có trên tầng đích. Chưa có tuyến kết nối giữa các tầng.':'The area route starts on the destination floor only. No cross-floor route is available.'}</p>) : <p className="indoor-guidance-limit">{c.limitation}</p>}
     <p><a data-indoor-official-link href={officialIndoorResource(site.mallId, locale)} target="_blank" rel="noopener noreferrer">{site.mallId === 'saigon-centre' ? c.officialPlan : c.officialInfo}<span className="visually-hidden"> — {c.newTab}</span></a></p>
   </details>;
 }

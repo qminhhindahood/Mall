@@ -8,3 +8,12 @@
 .destination-details .indoor-guidance p{font-size:16px;line-height:1.6;margin:12px 0}
 .destination-details .indoor-guidance-start p{margin:0;color:var(--muted)}
 .indoor-guidance-limit{color:var(--muted)}
+.area-directions{border-top:1px solid var(--line);padding-top:16px;margin-top:16px}
+.area-directions h3{font-size:20px;line-height:1.4}
+.area-directions label{display:block;font-size:16px;margin:12px 0 8px}
+.area-directions select{width:100%;min-height:44px;font:inherit;font-size:16px;padding:10px;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:8px}
+.area-directions figure{margin:16px 0;background:white;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.area-directions svg{display:block;width:100%;height:auto;min-height:170px}
+.area-directions figcaption{padding:10px;font-size:16px;line-height:1.5;color:var(--ink)}
+.area-directions ol{padding-left:24px;font-size:16px;line-height:1.6}
+.area-directions li+li{margin-top:12px}

@@ -97,3 +97,9 @@ await put(resolve(publicRoot,'_headers'),`/models/exterior.glb\n  Content-Type: 
 const headersPath=resolve(publicRoot,'_headers');
 await put(headersPath,(await readFile(headersPath,'utf8'))+`/data/floor-geometry.json\n  Content-Type: application/json\n  Cache-Control: public, max-age=0, must-revalidate\n/data/floor-geometry.json.br\n  Content-Type: application/json\n  Content-Encoding: br\n  Cache-Control: public, max-age=0, must-revalidate\n/data/floor-geometry.json.gz\n  Content-Type: application/json\n  Content-Encoding: gzip\n  Cache-Control: public, max-age=0, must-revalidate\n`);
 console.log(JSON.stringify({mall,sha256:manifest.sha256,variants:manifest.compression}));
+// Keep reference-plan routing assets mall-scoped and byte-exact.
+const routePlan = mall === 'saigon-centre' ? 'saigon-L5.png' : 'vincom-B3.webp';
+const routePlanHash = mall === 'saigon-centre' ? '4abefc8f9c34f1fa3c0f9076e5b4b9c5689505d783d6a843a37078f2a6b712c5' : 'ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89';
+const routePlanBytes = await readFile(resolve(root,'src/assets/routing',routePlan));
+if (hash(routePlanBytes) !== routePlanHash) throw new Error('Routing reference identity changed; review graph against the new plan before rebuilding');
+await put(resolve(publicRoot,'routing',routePlan),routePlanBytes);
