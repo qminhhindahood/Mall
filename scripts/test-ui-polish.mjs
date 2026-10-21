@@ -59,6 +59,10 @@ for(const {mall,port,store} of malls)for(const width of [1440,390])for(const loc
     check(!/JOURNEY ATLAS/i.test(dirText),'Directions brand line is the page name');
     check(await page.evaluate(()=>[...document.querySelectorAll('.atlas-app *')].every(e=>e.closest('svg')||!e.childNodes.length||![...e.childNodes].some(n=>n.nodeType===3&&n.textContent.trim())||parseFloat(getComputedStyle(e).fontSize)>=11)),'Directions text is at least 11px');
     check((dirText.match(/choose your start|chọn điểm bắt đầu/gi)||[]).length<=3&&await page.locator('.atlas-status').count()===0,'Directions asks for the start once (no empty status or START tile)');
+    // Map: shop names on units, facility icons and a key where the mall has source features.
+    check(await page.locator('.atlas-app .area-name').count()>=3,'Directions map names shops on their units');
+    check(mall==='saigon'?await page.locator('.atlas-app .plan-icons .plan-icon').count()>0&&await page.locator('.plan-legend li').count()>0:await page.locator('.plan-icons').count()===0,'facility icons and key appear only where source features exist');
+    check(await page.locator('.atlas-map-scale svg path[role=button]').count()>0&&await page.locator('.atlas-map-scale svg path').count()<200,'tiny plan fixtures are not drawn');
     // Vietnamese wording kept consistent.
     if(locale==='vi'){const html=await page.evaluate(()=>document.documentElement.outerHTML);check(!/xuất phát/.test(html),'one word for start: bắt đầu');}
   }catch(e){check(false,`flow threw: ${String(e.message).split('\n')[0]}`);}

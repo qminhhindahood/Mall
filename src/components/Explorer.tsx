@@ -7,6 +7,8 @@ import type { SiteData } from '../data/site';
 import type { Locale, SceneKind, SceneRuntime, FloorDataset } from '../runtime/scene-contract';
 import { copy } from './copy';
 import FloorMap from './FloorMap';
+import { PlanLegend } from './PlanIcons';
+import { planIcons } from '../data/plan-icons';
 import { floorRoute, selectionHref as href } from '../data/routes';
 import { validateGeometry } from '../runtime/validate-geometry';
 import Directory from './Directory';
@@ -477,8 +479,9 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       <div className="map-discovery-journey" data-discovery={selection.kind==='discovery'} ref={mapJourney}>
         <div className="persistent-map" data-expanded={mapExpanded}>
           <div className="scene-host scene-host-map" ref={element=>{if(element){sceneHosts.current.map=element;sceneHosts.current.discovery=element;}}} data-scene-kind={selection.kind==='discovery'?'discovery':'map'} data-floor={routeResolved?floor.id:undefined}>
-            <div className="map-transform" style={{transform:`scale(${zoom}) rotateX(${angled?25:0}deg)`}}>{!routeResolved?<p>{c.preparing}</p>:!floor.regions.length&&floor.preview?<img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`}/>:<FloorMap floor={floor} viewBounds={selection.kind==='discovery'?floor.bounds:sharedFloorBounds(geometry.floors)} title={c.map} content={site.content} locale={selection.locale} selectedDestination={selection.destinationId} selectedArea={selection.areaId} areaNumbers={selection.kind==='discovery'?areaNumbers:undefined} onArea={areaId=>{if(selection.kind!=='discovery'){navigate({...change('map',floor.id),areaId});return;}const destinations=site.destinations.filter(d=>d.locations.some(l=>l.floorId===floor.id&&l.areaIds.includes(areaId)));navigate({...selection,kind:'discovery',floorId:floor.id,areaId:destinations.length===1?undefined:areaId,destinationId:destinations.length===1?destinations[0].id:undefined});}}/>}</div>
+            <div className="map-transform" style={{transform:`scale(${zoom}) rotateX(${angled?25:0}deg)`}}>{!routeResolved?<p>{c.preparing}</p>:!floor.regions.length&&floor.preview?<img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`}/>:<FloorMap floor={floor} viewBounds={selection.kind==='discovery'?floor.bounds:sharedFloorBounds(geometry.floors)} title={c.map} icons={selection.kind==='discovery'?undefined:planIcons(site.mallId,floor.id)} showNames={selection.kind!=='discovery'} content={site.content} locale={selection.locale} selectedDestination={selection.destinationId} selectedArea={selection.areaId} areaNumbers={selection.kind==='discovery'?areaNumbers:undefined} onArea={areaId=>{if(selection.kind!=='discovery'){navigate({...change('map',floor.id),areaId});return;}const destinations=site.destinations.filter(d=>d.locations.some(l=>l.floorId===floor.id&&l.areaIds.includes(areaId)));navigate({...selection,kind:'discovery',floorId:floor.id,areaId:destinations.length===1?undefined:areaId,destinationId:destinations.length===1?destinations[0].id:undefined});}}/>}</div>
           </div>
+          {selection.kind==='map'&&routeResolved&&<div className="map-legend-host"><PlanLegend icons={planIcons(site.mallId,floor.id)} locale={selection.locale}/></div>}
           <div className="map-controls glass" role="group" aria-label={c.map}>
             <span>{selection.kind==='discovery'?j.preview:c.heading} {routeResolved?floor.id:''}</span>
             <button aria-label={j.zoomOut} title={j.zoomOut} disabled={zoom<=1} onClick={()=>setZoom(Math.max(1,zoom-.25))}><MapControlIcon kind="out"/></button>
