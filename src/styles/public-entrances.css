@@ -1,0 +1,6 @@
+.public-entrance .entrance-hit{fill:transparent;stroke:none;pointer-events:all}
+.public-entrance .entrance-disc{fill:#175b62;stroke:#fff;stroke-width:2}
+.public-entrance text{font-size:12px;font-family:Arial,sans-serif;font-weight:700;fill:#fff;pointer-events:none}
+.public-entrance[role=button]{cursor:pointer;outline:none}
+.public-entrance[role=button]:focus-visible .entrance-disc,.public-entrance[data-active=true] .entrance-disc{fill:#754018;stroke:#fff;stroke-width:3}
+.public-entrance[role=button]:focus-visible .entrance-hit{stroke:#754018;stroke-width:2}

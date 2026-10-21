@@ -1,0 +1,52 @@
+{
+  "coordinateSystem": "Saigon L1 original source raster pixels, top-left origin, x right/y down; approximate schematic anchors",
+  "source": {
+    "path": "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L1-2026-10-01.png",
+    "width": 4782,
+    "height": 5304,
+    "sha256": "d7c4697eb9399e8d768586b01139295cf90c3607ba44e690a031c0aaf5eba89b"
+  },
+  "candidates": [
+    {
+      "sourceFeatureId": "door-1",
+      "label": "Nam Kỳ Khởi Nghĩa main entrance",
+      "status": "confirmed_schematic_public_threshold",
+      "thresholdPixel": [690, 2760],
+      "firstInteriorAisleNodePixel": [800, 2767],
+      "sourceCrop": "door-1-nam-ky.png",
+      "sourceCropOriginPixel": [250, 2367]
+    },
+    {
+      "sourceFeatureId": "door-3",
+      "label": "Lê Lợi entrance",
+      "status": "confirmed_schematic_public_threshold",
+      "thresholdPixel": [1615, 1522],
+      "firstInteriorAisleNodePixel": [1740, 1582],
+      "sourceCrop": "door-3-le-loi.png",
+      "sourceCropOriginPixel": [1170, 1122]
+    },
+    {
+      "sourceFeatureId": "door-4",
+      "label": "Pasteur–Lê Lợi entrance",
+      "status": "confirmed_schematic_public_threshold",
+      "thresholdPixel": [2640, 644],
+      "firstInteriorAisleNodePixel": [2635, 699],
+      "sourceCrop": "door-4-pasteur-le-loi.png",
+      "sourceCropOriginPixel": [2205, 244]
+    },
+    {
+      "sourceFeatureId": "door-2",
+      "label": "Pasteur main entrance by drop-off",
+      "status": "confirmed_mall_threshold_external_pedestrian_approach_unverified",
+      "thresholdPixel": [3360, 2400],
+      "firstInteriorAisleNodePixel": [3165, 2412],
+      "sourceCrop": "door-2-pasteur.png",
+      "sourceCropOriginPixel": [2915, 2012]
+    }
+  ],
+  "vincomDongKhoi": {
+    "status": "missing_public_exterior_entrance_evidence",
+    "reviewedPlans": ["tang-b1.webp", "tang-b2.webp", "tang-b3.webp", "tang-l1.webp", "tang-m.webp", "tang-l2.webp", "tang-l3.webp"],
+    "reason": "No exterior wall or threshold, street context, door icon, or entrance label in the supplied plans."
+  }
+}

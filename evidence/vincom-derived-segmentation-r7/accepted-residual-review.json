@@ -1,0 +1,128 @@
+{
+  "status": "accepted",
+  "reviewedBy": "Codex independent content/geometry auditor",
+  "reviewedAt": "2026-10-21",
+  "derivationSha256": "1e4171e2162ae3998708d98dca4a59f28be881b55d62aec2230f30a2e627900c",
+  "inputHashes": [
+    {
+      "path": "D:\\Midterm\\.scratch\\redesign-readiness-2026-10-21\\data\\research\\vincom-derived-segmentation-2026-10-21-r7.json",
+      "sha256": "caa2a2e874f6e60d8f04070283186e3337733712fc78485f9515c043c83e6ce7"
+    },
+    {
+      "path": "D:\\Midterm\\.scratch\\redesign-readiness-2026-10-21\\evidence\\vincom-derived-segmentation-r7\\staged-geometry.json",
+      "sha256": "cc2c7bf93dbf7aa737d22179e4f840dcb46f47eae1d0eb662653b3561a6e7ea9"
+    },
+    {
+      "path": "D:\\Midterm\\.scratch\\redesign-readiness-2026-10-21\\scripts\\vincom-segmentation-overlay.mjs",
+      "sha256": "015c3262633166c85947822a78cc9713cdd2d82aa49d36d34de6261cf5906a30"
+    },
+    {
+      "path": "D:\\Midterm\\.scratch\\redesign-readiness-2026-10-21\\scripts\\approved-overlay.mjs",
+      "sha256": "bd3d161347d9bd08e139c2f06f1e89a4902decb9e42ca65196cc7f7d97a72690"
+    },
+    {
+      "path": "D:\\Midterm\\.scratch\\redesign-readiness-2026-10-21\\src\\data\\site.ts",
+      "sha256": "3b7489263f0552f51b21a87cc747fd50ed15c2e51ef32428f4d24bcc2bc943db"
+    },
+    {
+      "path": "D:\\Midterm\\.scratch\\redesign-readiness-2026-10-21\\evidence\\vincom-derived-segmentation-r7\\residual-review.json",
+      "sha256": "064b78379601ec58be85318b7ac25393c6aabb608a8aae06327f77b3bce61dfd"
+    },
+    {
+      "path": "D:\\Midterm\\.scratch\\redesign-readiness-2026-10-21\\data\\malls\\vincom-dong-khoi\\floor-geometry.json",
+      "sha256": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e"
+    },
+    {
+      "path": "D:\\Midterm\\.scratch\\redesign-readiness-2026-10-21\\data\\malls\\vincom-dong-khoi\\approved-regions.json",
+      "sha256": "beb7ac03236e0abfc5721aae2015b8a1e985a2d9235bb5b8edb62c216ccfd8dc"
+    }
+  ],
+  "parents": [
+    {
+      "id": "B3-region-001",
+      "originalValid": true,
+      "normalizedArea": 415.74,
+      "removedIntersectionArea": 94.47000000000001,
+      "residualArea": 321.27,
+      "positivePieces": 1,
+      "pieceAreas": [
+        321.27
+      ],
+      "symmetricDifferenceError": 0.0,
+      "zeroAreaFragments": []
+    },
+    {
+      "id": "B3-region-002",
+      "originalValid": false,
+      "normalizedArea": 260.485,
+      "removedIntersectionArea": 75.73,
+      "residualArea": 184.75499999999997,
+      "positivePieces": 3,
+      "pieceAreas": [
+        184.71000000000012,
+        0.04000000000000002,
+        0.005000000000000031
+      ],
+      "symmetricDifferenceError": 0.0,
+      "zeroAreaFragments": [
+        "LINESTRING (1.5 -9.45, 1.6 -9.55)",
+        "LINESTRING (1.6 -20.85, 1.6 -20.35)",
+        "LINESTRING (1.6 -28.65, 1.6 -28.05)"
+      ]
+    },
+    {
+      "id": "B3-region-004",
+      "originalValid": true,
+      "normalizedArea": 208.80499999999998,
+      "removedIntersectionArea": 208.2849999999999,
+      "residualArea": 0.5200000000000063,
+      "positivePieces": 4,
+      "pieceAreas": [
+        0.44000000000000616,
+        0.0300000000000005,
+        0.030000000000000318,
+        0.019999999999999504
+      ],
+      "symmetricDifferenceError": 0.0,
+      "zeroAreaFragments": []
+    },
+    {
+      "id": "B3-region-034",
+      "originalValid": false,
+      "normalizedArea": 1.6800000000000077,
+      "removedIntersectionArea": 0.020000000000000212,
+      "residualArea": 1.6600000000000072,
+      "positivePieces": 4,
+      "pieceAreas": [
+        1.6400000000000072,
+        0.010000000000000285,
+        0.0049999999999999645,
+        0.004999999999999787
+      ],
+      "symmetricDifferenceError": 0.0,
+      "zeroAreaFragments": [
+        "LINESTRING (-41.7 -30.25, -42.4 -30.25)",
+        "LINESTRING (-41.5 -30.25, -41.3 -30.25)",
+        "LINESTRING (-39.1 -29.75, -39 -29.75)"
+      ]
+    }
+  ],
+  "allChildAgainstFullStagedB3PositiveAreaOverlaps": [],
+  "stagedRegionPayloadMatchesExactParentsResidualsChildren": true,
+  "unaffectedFloorsExactRegionObjectsPreserved": true,
+  "sourcePixelChildrenReviewedSeparately": true,
+  "scope": "Accepted four parent residual subtractions only; not routing or build/UI acceptance. Both inherited invalid rings normalized with make_valid polygon surfaces, zero-area line fragments explicitly recorded. All twelve positive-area pieces retained; no arbitrary sliver area cutoff.",
+  "sharedPipelineReview": "approvedGeometry calls derivedGeometry; site.ts uses approvedGeometry and applies derivedDirectory after precision holds and r6 associations, then validates content. scripts/prepare-assets.mjs:83-84 uses the same approvedGeometry result for public transport. Build/browser parity remains for parent; no builds run here.",
+  "activationReview": "Current packet pending; acceptance is of exact source/parents/children derivation, not blind approval of subsequent bytes. Activation must bind this receipt and update packet pin.",
+  "remainingRequirements": [
+    "Parent must run pipeline/transport/build checks and verify final protected holds and four intended associations after activation.",
+    "No exact doorway, current occupancy or route acceptance follows from derived geometry."
+  ],
+  "helperExecution": {
+    "result": "pass",
+    "script": "check-helper.mjs",
+    "derivationDigestIndependentlyRecomputedWithNode": true,
+    "helperGeneratedGeometryExactlyEqualsStagedPayload": true,
+    "pendingActivationReturnsApprovedBaseGeometry": true
+  }
+}

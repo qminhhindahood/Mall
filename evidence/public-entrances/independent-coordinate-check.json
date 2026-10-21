@@ -1,0 +1,131 @@
+[
+  {
+    "id": "door-1",
+    "threshold": [
+      690,
+      2760
+    ],
+    "thresholdRgb": [
+      81,
+      81,
+      81
+    ],
+    "proposedInterior": [
+      800,
+      2767
+    ],
+    "interiorRgb": [
+      255,
+      255,
+      255
+    ],
+    "thresholdAffine": [
+      -34.02,
+      2.16
+    ],
+    "interiorAffine": [
+      -31.82,
+      2.3
+    ]
+  },
+  {
+    "id": "door-3",
+    "threshold": [
+      1615,
+      1522
+    ],
+    "thresholdRgb": [
+      81,
+      81,
+      81
+    ],
+    "proposedInterior": [
+      1740,
+      1582
+    ],
+    "interiorRgb": [
+      255,
+      255,
+      255
+    ],
+    "thresholdAffine": [
+      -15.52,
+      -22.6
+    ],
+    "interiorAffine": [
+      -13.02,
+      -21.4
+    ]
+  },
+  {
+    "id": "door-4",
+    "threshold": [
+      2640,
+      644
+    ],
+    "thresholdRgb": [
+      81,
+      81,
+      81
+    ],
+    "proposedInterior": [
+      2635,
+      699
+    ],
+    "interiorRgb": [
+      255,
+      255,
+      255
+    ],
+    "thresholdAffine": [
+      4.98,
+      -40.16
+    ],
+    "interiorAffine": [
+      4.88,
+      -39.06
+    ]
+  },
+  {
+    "id": "door-2",
+    "threshold": [
+      3360,
+      2400
+    ],
+    "thresholdRgb": [
+      190,
+      190,
+      190
+    ],
+    "proposedInterior": [
+      3165,
+      2412
+    ],
+    "interiorRgb": [
+      255,
+      255,
+      255
+    ],
+    "thresholdAffine": [
+      19.38,
+      -5.04
+    ],
+    "interiorAffine": [
+      15.48,
+      -4.8
+    ],
+    "supersededInterior": [
+      3285,
+      2392
+    ],
+    "supersededRgb": [
+      168,
+      168,
+      168
+    ],
+    "supersededAffine": [
+      17.88,
+      -5.2
+    ]
+  }
+]

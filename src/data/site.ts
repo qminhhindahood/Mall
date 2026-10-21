@@ -5,6 +5,7 @@ import type { FloorDataset, MallId } from '../runtime/scene-contract';
 import { validateContent, type DirectorySnapshot } from './content';
 import { applyPrecisionHolds, type PrecisionHolds } from './precision-holds';
 import { applyAssociationSupplement, type AssociationSupplement, type AssociationReviewReceipt } from './association-supplement';
+import { derivedDirectory } from '../../scripts/vincom-segmentation-overlay.mjs';
 export type { Destination } from './content';
 import type { Destination } from './content';
 export type SiteData = {
@@ -57,7 +58,8 @@ if (mallId === associationSupplement.mallId && associationSupplement.activation 
   if (createHash('sha256').update(reviewBytes).digest('hex') !== associationSupplement.reviewEvidence.sha256) throw new Error('Association independent review evidence drift');
   associationReview = JSON.parse(reviewBytes.toString('utf8'));
 }
-const content = validateContent(applyAssociationSupplement(heldContent,geometry,associationSupplement,associationReview),mallId,geometry);
+const associatedContent = applyAssociationSupplement(heldContent,geometry,associationSupplement,associationReview);
+const content = validateContent(derivedDirectory(process.cwd(),associatedContent,geometry),mallId,geometry);
 const destinations = content.destinations;
 const manifestPath = path.join(process.cwd(),'data','malls',mallId,'asset-manifest.json');
 const manifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath,'utf8')) : {};

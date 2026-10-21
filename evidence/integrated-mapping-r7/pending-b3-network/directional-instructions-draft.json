@@ -1,0 +1,106 @@
+{
+  "status": "draft-pending-independent-instruction-review",
+  "scope": "Explicit source-plan directions for reviewed bidirectional aisle geometry; no exact door, walking distance, arrival detection or operation claim",
+  "floor": "B3",
+  "rows": [
+    {
+      "edge": "E1",
+      "forward": {
+        "en": "Follow the public aisle upward on the map to the side of B3-13.",
+        "vi": "Theo lối đi chung lên phía trên sơ đồ đến cạnh B3-13."
+      },
+      "reverse": {
+        "en": "Follow the public aisle downward on the map to the side of the escalator beside B3-13.",
+        "vi": "Theo lối đi chung xuống phía dưới sơ đồ đến cạnh thang cuốn bên B3-13."
+      }
+    },
+    {
+      "edge": "E2",
+      "forward": {
+        "en": "Continue upward on the map to the crossing aisle above B3-13.",
+        "vi": "Đi tiếp lên phía trên sơ đồ đến lối đi ngang phía trên B3-13."
+      },
+      "reverse": {
+        "en": "Follow the aisle downward on the map to the side of B3-13.",
+        "vi": "Theo lối đi xuống phía dưới sơ đồ đến cạnh B3-13."
+      }
+    },
+    {
+      "edge": "E3",
+      "forward": {
+        "en": "Follow the crossing aisle rightward on the map, below B3-20, B3-27 and B3-28B.",
+        "vi": "Theo lối đi ngang sang phải trên sơ đồ, phía dưới B3-20, B3-27 và B3-28B."
+      },
+      "reverse": {
+        "en": "Follow the crossing aisle leftward on the map, below B3-28B, B3-27 and B3-20.",
+        "vi": "Theo lối đi ngang sang trái trên sơ đồ, phía dưới B3-28B, B3-27 và B3-20."
+      }
+    },
+    {
+      "edge": "E4",
+      "forward": {
+        "en": "Follow the aisle upward on the map beside B3-28B and B3-28A, toward the San Fu Lou area frontage.",
+        "vi": "Theo lối đi lên phía trên sơ đồ bên cạnh B3-28B và B3-28A, về phía trước khu San Fu Lou."
+      },
+      "reverse": {
+        "en": "Follow the aisle downward on the map beside B3-28A and B3-28B to the crossing aisle.",
+        "vi": "Theo lối đi xuống phía dưới sơ đồ bên cạnh B3-28A và B3-28B đến lối đi ngang."
+      }
+    },
+    {
+      "edge": "E5",
+      "forward": {
+        "en": "Continue upward on the map beside B3-28A to the aisle below B3-28C.",
+        "vi": "Đi tiếp lên phía trên sơ đồ bên cạnh B3-28A đến lối đi phía dưới B3-28C."
+      },
+      "reverse": {
+        "en": "Follow the aisle downward on the map beside B3-28A, toward the San Fu Lou area frontage.",
+        "vi": "Theo lối đi xuống phía dưới sơ đồ bên cạnh B3-28A, về phía trước khu San Fu Lou."
+      }
+    },
+    {
+      "edge": "E6",
+      "forward": {
+        "en": "Follow the aisle leftward on the map below B3-28C, toward the Manwah area frontage.",
+        "vi": "Theo lối đi sang trái trên sơ đồ phía dưới B3-28C, về phía trước khu Manwah."
+      },
+      "reverse": {
+        "en": "Follow the aisle rightward on the map below B3-28C to the aisle junction.",
+        "vi": "Theo lối đi sang phải trên sơ đồ phía dưới B3-28C đến giao lối đi."
+      }
+    },
+    {
+      "edge": "E7",
+      "forward": {
+        "en": "Continue leftward on the map along the aisle below B3-23-24, toward the GoGi House area frontage.",
+        "vi": "Đi tiếp sang trái trên sơ đồ theo lối đi phía dưới B3-23-24, về phía trước khu GoGi House."
+      },
+      "reverse": {
+        "en": "Follow the aisle rightward on the map below B3-23-24 and B3-28C, toward the Manwah area frontage.",
+        "vi": "Theo lối đi sang phải trên sơ đồ phía dưới B3-23-24 và B3-28C, về phía trước khu Manwah."
+      }
+    },
+    {
+      "edge": "E8",
+      "forward": {
+        "en": "Follow the short crossing aisle rightward on the map to the passage beside B3-17.",
+        "vi": "Theo đoạn lối đi ngang ngắn sang phải trên sơ đồ đến lối đi bên cạnh B3-17."
+      },
+      "reverse": {
+        "en": "Follow the short crossing aisle leftward on the map to the junction beside B3-28B.",
+        "vi": "Theo đoạn lối đi ngang ngắn sang trái trên sơ đồ đến giao lối đi bên cạnh B3-28B."
+      }
+    },
+    {
+      "edge": "E9",
+      "forward": {
+        "en": "Follow the aisle downward on the map between B3-16A and B3-17, toward the Kichi-Kichi area frontage.",
+        "vi": "Theo lối đi xuống phía dưới sơ đồ giữa B3-16A và B3-17, về phía trước khu Kichi-Kichi."
+      },
+      "reverse": {
+        "en": "Follow the aisle upward on the map between B3-17 and B3-16A to the crossing aisle.",
+        "vi": "Theo lối đi lên phía trên sơ đồ giữa B3-17 và B3-16A đến lối đi ngang."
+      }
+    }
+  ]
+}

@@ -49,7 +49,21 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const restoreScroll=useRef<number|null>(null);
   const discoveryReturn=useRef<{selection:ExplorerSelection;scrollY:number}|null>(null);
   const closingDiscovery=useRef(false);
-  const localeScroll=useRef<number|null>(null);
+  const localeScroll=useRef<{top:number;kind:SceneKind;offset:number|null}|null>(null);
+  const scrollSettling=useRef(false);
+  const scrollEpoch=useRef(0);
+  function settleViewport(position?:()=>void){
+    const epoch=++scrollEpoch.current;scrollSettling.current=true;
+    requestAnimationFrame(()=>{
+      if(epoch!==scrollEpoch.current)return;
+      position?.();
+      requestAnimationFrame(()=>{
+        if(epoch!==scrollEpoch.current)return;
+        scrollSettling.current=false;
+        window.dispatchEvent(new Event('scroll'));
+      });
+    });
+  }
   const [load,setLoad] = useState<'static'|'loading'|'ready'|'failed'>('static');
   // Cached shows can finish in one React batch without changing `load`.
   // Each accepted presentation must still commit its requested keyboard focus.
@@ -109,7 +123,9 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       if(!hero||!overview)return;
 
 
-      if((load!=='ready'&&load!=='failed')||focusRequest.current)return;
+      if((load!=='ready'&&load!=='failed')||focusRequest.current||scrollSettling.current)return;
+      // A fixed Discovery sheet owns navigation until explicitly dismissed.
+      if(latest.current.kind==='discovery'&&(latest.current.destinationId||latest.current.areaId))return;
       const stageBottom=exteriorJourney.current?.getBoundingClientRect().bottom??Infinity;
       const kind=hero.getBoundingClientRect().bottom>innerHeight*.45?'exterior':stageBottom>innerHeight*.45?'overview':null;
       if(kind&&kind!==latest.current.kind){
@@ -144,7 +160,9 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
         const map=journey.querySelector<HTMLElement>('.persistent-map');
         if(map){map.inert=presence<.01;map.dataset.controlsHidden=String(!reducedMotion&&presence<.99);}
       }
-      if((load!=='ready'&&load!=='failed')||focusRequest.current)return;
+      if((load!=='ready'&&load!=='failed')||focusRequest.current||scrollSettling.current)return;
+      // A fixed Discovery sheet owns navigation until explicitly dismissed.
+      if(latest.current.kind==='discovery'&&(latest.current.destinationId||latest.current.areaId))return;
       const mapTop=sections.current.map?.getBoundingClientRect().top??Infinity;
       const readingLine=innerWidth<=700?160:innerHeight*.55;
       const stageBottom=exteriorJourney.current?.getBoundingClientRect().bottom??Infinity;
@@ -190,7 +208,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     setSelection(initialRoute);
     setRouteResolved(true);
     history.scrollRestoration='manual';
-    const savePosition=()=>{if(!focusRequest.current)history.replaceState({...history.state,scrollY:window.scrollY},'');};
+    const savePosition=()=>{if(!focusRequest.current&&!scrollSettling.current)history.replaceState({...history.state,scrollY:window.scrollY},'');};
     window.addEventListener('scroll',savePosition,{passive:true});
     const pop = () => {
       const next=resolveRoute();
@@ -204,10 +222,16 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   }, []);
   useLayoutEffect(()=>{
     if(localeScroll.current===null)return;
-    const top=localeScroll.current;localeScroll.current=null;
-    window.scrollTo({top,behavior:'instant'});
-    const frame=requestAnimationFrame(()=>window.scrollTo({top,behavior:'instant'}));
-    return()=>cancelAnimationFrame(frame);
+    const saved=localeScroll.current;localeScroll.current=null;
+    // Translated content above this section can change height. Preserve the
+    // section's viewport position, rather than an absolute document pixel.
+    const restore=()=>{
+      const section=sections.current[saved.kind];
+      const top=section&&saved.offset!==null?window.scrollY+section.getBoundingClientRect().top-saved.offset:saved.top;
+      window.scrollTo({top,behavior:'instant'});
+    };
+    restore();
+    settleViewport(restore);
   },[selection.locale]);
   useEffect(() => {
     document.documentElement.lang = selection.locale;
@@ -348,17 +372,20 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   },[selection.kind,load]);
   useEffect(()=>{
     if(!routeResolved)return;
+    // Keep the requested section authoritative through loading-related layout
+    // changes. The ready scene or failed-scene fallback settles its final size.
+    if(load!=='ready'&&load!=='failed')return;
     const requested=focusRequest.current;
     if(!requested)return;
     const floorKey=requested.kind==='exterior'||requested.kind==='overview'?'all':requested.kind==='discovery'?previewFloor:requested.floorId;
     if(load==='ready'&&!canvas.current?.dataset.sceneKey?.endsWith(`:${requested.kind}:${floorKey}`))return;
     const target=focusTarget(requested);
-    if(target?.isConnected){target.focus({preventScroll:true});if(restoreScroll.current!==null){window.scrollTo({top:restoreScroll.current,behavior:'instant'});restoreScroll.current=null;}else {
+    if(target?.isConnected){target.focus({preventScroll:true});const savedTop=restoreScroll.current;const smooth=travelRequest.current&&!reducedMotion;const position=()=>{if(savedTop!==null){window.scrollTo({top:savedTop,behavior:'instant'});}else {
       // A fixed Discovery detail card has no document scroll position. Direct
       // detail links must enter its section before the scroll observer resumes.
       const scrollTarget=requested.kind==='discovery'&&(requested.destinationId||requested.areaId)?sections.current.discovery:target;
-      scrollTarget?.scrollIntoView({behavior:travelRequest.current&&!reducedMotion?'smooth':'instant',block:'start'});
-    }travelRequest.current=false;focusRequest.current=null;pendingFocus.current=null;closingDiscovery.current=false;}
+      scrollTarget?.scrollIntoView({behavior:smooth?'smooth':'instant',block:'start'});
+    }};position();restoreScroll.current=null;settleViewport(smooth?undefined:position);travelRequest.current=false;focusRequest.current=null;pendingFocus.current=null;closingDiscovery.current=false;}
   },[load,selection,presentation]);
   function focusTarget(next: ExplorerSelection) { if(closingDiscovery.current&&returnFocus.current?.isConnected)return returnFocus.current; return next.destinationId || next.kind==='discovery'&&next.areaId ? destinationContent.current : next.kind==='map'&&(next.query||next.categoryId)?sections.current.map??null:sections.current[next.kind] ?? null; }
   function beginRequest(next: ExplorerSelection) {
@@ -373,7 +400,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     if (event && (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey)) return;
     event?.preventDefault();
     travelRequest.current=next.kind==='map'&&selection.kind==='overview'&&!next.destinationId;
-    if(next.locale!==selection.locale)localeScroll.current=window.scrollY;
+    if(next.locale!==selection.locale)localeScroll.current={top:window.scrollY,kind:selection.kind,offset:sections.current[selection.kind]?.getBoundingClientRect().top??null};
     if(next.kind==='discovery'&&(next.destinationId||next.areaId)&&!selection.destinationId&&!selection.areaId) {
       discoveryReturn.current={selection:{...selection},scrollY:window.scrollY};
       returnFocus.current=event?.currentTarget??document.activeElement as HTMLElement;
@@ -396,8 +423,10 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     const next={...(prior?.selection??selection),locale:selection.locale,destinationId:undefined,areaId:undefined,kind:'discovery' as const};
     discoveryReturn.current=null;
     beginRequest(next);
-    history.pushState({scrollY:prior?.scrollY??window.scrollY},'',href(next));
-    if(restoreFocus){closingDiscovery.current=true;restoreScroll.current=prior?.scrollY??window.scrollY;focusRequest.current=next;}
+    history.pushState(prior?{scrollY:prior.scrollY}:{},'',href(next));
+    // Direct detail returns have no saved reading position. Enter Discovery
+    // after the fixed sheet closes instead of preserving its stale scroll.
+    if(restoreFocus){closingDiscovery.current=true;restoreScroll.current=prior?.scrollY??null;focusRequest.current=next;}
     setSelection(next);
   }
   const change = (kind: SceneKind, floorId=selection.floorId): ExplorerSelection => ({...selection,kind,floorId,destinationId:undefined,areaId:undefined});

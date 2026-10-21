@@ -1,0 +1,527 @@
+{
+  "reviewedAt": "2026-10-21",
+  "independentReview": true,
+  "scope": "Original raster visually reviewed, unannotated crop and overlay compared, accepted four polygon boundaries checked, source pixel samples independently re-read. Pixel color alone is not walkability proof.",
+  "inputs": [
+    {
+      "path": "D:\\Midterm\\Vincom đồng khởi\\map\\tang-b3.webp",
+      "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "path": "D:\\Midterm\\.scratch\\route-expansion-review-r7\\network-proposal.json",
+      "sha256": "cbe3bd9eb6bbfbd632c9a9928bc4590be228dc541cf24e5d9d4cd982dd4d12bb"
+    },
+    {
+      "path": "D:\\Midterm\\.scratch\\route-expansion-review-r7\\README.md",
+      "sha256": "545b1cbf2955fcb3c6ed820ad5fffbc016df32dc87a71550804c9479baa60610"
+    },
+    {
+      "path": "D:\\Midterm\\.scratch\\route-expansion-review-r7\\source-crop-unannotated.png",
+      "sha256": "ebf9d3102e46032fe48803f3affa7d62af7cab0ff228dbe1da417a3ad4c99e0a"
+    },
+    {
+      "path": "D:\\Midterm\\.scratch\\route-expansion-review-r7\\connected-aisles-overlay.png",
+      "sha256": "b8d12fe2b391f2101ae0ee93ee3621ea99ab3b62009e0635de92c72e9ec444f1"
+    },
+    {
+      "path": "D:\\Midterm\\.scratch\\vincom-segmentation-r7\\proposals.json",
+      "sha256": "4fe8cf108567f730ed4db9836eda58b9b403cb7af638c872bd99831337059bdb"
+    },
+    {
+      "path": "D:\\Midterm\\.scratch\\vincom-segmentation-r7\\independent-review.md",
+      "sha256": "f78c4d0b7b0c59944134db83d40bbb1bd3a1f64fdce54166dafd5e5771c2ef53"
+    },
+    {
+      "path": "D:\\Midterm\\.scratch\\redesign-readiness-2026-10-21\\src\\data\\area-routing.ts",
+      "sha256": "7e27ed6f139e99481552d37b764ce020bc42169ccec49d5317f9309f300015d5"
+    }
+  ],
+  "sourcePublicationDate": "not established",
+  "edgeCounts": {
+    "acceptedGeometry": 9,
+    "revisedGeometry": 0,
+    "heldGeometry": 0,
+    "bidirectionalPlanGeometry": 9,
+    "directionalTextAbsentFromProposal": 9
+  },
+  "edges": [
+    {
+      "edgeId": "E1",
+      "from": "b3-13-east-aisle",
+      "to": "b3-13-east-frontage",
+      "sourcePixels": [
+        [
+          405,
+          507
+        ],
+        [
+          405,
+          480
+        ]
+      ],
+      "geometryDecision": "accept",
+      "traversability": "both-directions-plan-based",
+      "reason": "Pale aisle east of the B3-13/escalator island, west of B3-15A; does not use the escalator symbol as an aisle.",
+      "acceptedChildIntersectionLengthPixels": {
+        "vincom-prototype-gogihouse": 0.0,
+        "vincom-prototype-manwah": 0.0,
+        "vincom-prototype-sanfulou": 0.0,
+        "vincom-prototype-kichikichi": 0.0
+      },
+      "minimumDistanceToAcceptedChildrenPixels": {
+        "vincom-prototype-gogihouse": 228.32,
+        "vincom-prototype-manwah": 223.0,
+        "vincom-prototype-sanfulou": 126.531,
+        "vincom-prototype-kichikichi": 220.0
+      },
+      "instructionReview": {
+        "proposalContainsDirectionalText": false,
+        "decision": "required-before-activation",
+        "forwardDraft": {
+          "en": "Follow the public aisle upward on the plan to Siam Sugar B3-13 frontage. Stay in the aisle.",
+          "vi": "Theo lối đi chung lên phía trên trên sơ đồ đến điểm (405, 480). Tiếp tục ở trong lối đi chung."
+        },
+        "reverseDraft": {
+          "en": "Follow the public aisle downward on the plan to Public aisle east of escalator beside B3-13. Stay in the aisle.",
+          "vi": "Theo lối đi chung xuống phía dưới trên sơ đồ đến điểm (405, 507). Tiếp tục ở trong lối đi chung."
+        },
+        "draftLimit": "VI coordinate identifiers are reviewer scaffolding, not final visitor-facing copy; replace with independently checked bilingual node names. Direction drafts do not assume prior heading or mechanically reverse turn-left/right instructions."
+      }
+    },
+    {
+      "edgeId": "E2",
+      "from": "b3-13-east-frontage",
+      "to": "central-cross-aisle",
+      "sourcePixels": [
+        [
+          405,
+          480
+        ],
+        [
+          405,
+          454
+        ]
+      ],
+      "geometryDecision": "accept",
+      "traversability": "both-directions-plan-based",
+      "reason": "Same aisle past B3-13 to the open crossing above B3-15C; no boundary closes the crossing.",
+      "acceptedChildIntersectionLengthPixels": {
+        "vincom-prototype-gogihouse": 0.0,
+        "vincom-prototype-manwah": 0.0,
+        "vincom-prototype-sanfulou": 0.0,
+        "vincom-prototype-kichikichi": 0.0
+      },
+      "minimumDistanceToAcceptedChildrenPixels": {
+        "vincom-prototype-gogihouse": 203.002,
+        "vincom-prototype-manwah": 197.0,
+        "vincom-prototype-sanfulou": 121.499,
+        "vincom-prototype-kichikichi": 220.0
+      },
+      "instructionReview": {
+        "proposalContainsDirectionalText": false,
+        "decision": "required-before-activation",
+        "forwardDraft": {
+          "en": "Follow the public aisle upward on the plan to Cross-aisle north of B3-13 / B3-15C. Stay in the aisle.",
+          "vi": "Theo lối đi chung lên phía trên trên sơ đồ đến điểm (405, 454). Tiếp tục ở trong lối đi chung."
+        },
+        "reverseDraft": {
+          "en": "Follow the public aisle downward on the plan to Siam Sugar B3-13 frontage. Stay in the aisle.",
+          "vi": "Theo lối đi chung xuống phía dưới trên sơ đồ đến điểm (405, 480). Tiếp tục ở trong lối đi chung."
+        },
+        "draftLimit": "VI coordinate identifiers are reviewer scaffolding, not final visitor-facing copy; replace with independently checked bilingual node names. Direction drafts do not assume prior heading or mechanically reverse turn-left/right instructions."
+      }
+    },
+    {
+      "edgeId": "E3",
+      "from": "central-cross-aisle",
+      "to": "east-cross-aisle",
+      "sourcePixels": [
+        [
+          405,
+          454
+        ],
+        [
+          594,
+          454
+        ]
+      ],
+      "geometryDecision": "accept",
+      "traversability": "both-directions-plan-based",
+      "reason": "Continuous horizontal pale passage below B3-20/27/28B and above B3-15C/16A; stays outside yellow units.",
+      "acceptedChildIntersectionLengthPixels": {
+        "vincom-prototype-gogihouse": 0.0,
+        "vincom-prototype-manwah": 0.0,
+        "vincom-prototype-sanfulou": 0.0,
+        "vincom-prototype-kichikichi": 0.0
+      },
+      "minimumDistanceToAcceptedChildrenPixels": {
+        "vincom-prototype-gogihouse": 203.002,
+        "vincom-prototype-manwah": 197.0,
+        "vincom-prototype-sanfulou": 11.0,
+        "vincom-prototype-kichikichi": 31.0
+      },
+      "instructionReview": {
+        "proposalContainsDirectionalText": false,
+        "decision": "required-before-activation",
+        "forwardDraft": {
+          "en": "Follow the public aisle rightward on the plan to Cross-aisle below B3-28B. Stay in the aisle.",
+          "vi": "Theo lối đi chung sang phải trên sơ đồ đến điểm (594, 454). Tiếp tục ở trong lối đi chung."
+        },
+        "reverseDraft": {
+          "en": "Follow the public aisle leftward on the plan to Cross-aisle north of B3-13 / B3-15C. Stay in the aisle.",
+          "vi": "Theo lối đi chung sang trái trên sơ đồ đến điểm (405, 454). Tiếp tục ở trong lối đi chung."
+        },
+        "draftLimit": "VI coordinate identifiers are reviewer scaffolding, not final visitor-facing copy; replace with independently checked bilingual node names. Direction drafts do not assume prior heading or mechanically reverse turn-left/right instructions."
+      }
+    },
+    {
+      "edgeId": "E4",
+      "from": "east-cross-aisle",
+      "to": "san-fu-lou-frontage",
+      "sourcePixels": [
+        [
+          594,
+          454
+        ],
+        [
+          594,
+          330
+        ]
+      ],
+      "geometryDecision": "accept",
+      "traversability": "both-directions-plan-based",
+      "reason": "Continuous vertical pale aisle between San Fu Lou B3-28A/B and B3-28E/F; the internal 28A/B line is not used.",
+      "acceptedChildIntersectionLengthPixels": {
+        "vincom-prototype-gogihouse": 0.0,
+        "vincom-prototype-manwah": 0.0,
+        "vincom-prototype-sanfulou": 0.0,
+        "vincom-prototype-kichikichi": 0.0
+      },
+      "minimumDistanceToAcceptedChildrenPixels": {
+        "vincom-prototype-gogihouse": 248.944,
+        "vincom-prototype-manwah": 73.682,
+        "vincom-prototype-sanfulou": 10.0,
+        "vincom-prototype-kichikichi": 31.0
+      },
+      "instructionReview": {
+        "proposalContainsDirectionalText": false,
+        "decision": "required-before-activation",
+        "forwardDraft": {
+          "en": "Follow the public aisle upward on the plan to San Fu Lou B3-28A/B east frontage. Stay in the aisle.",
+          "vi": "Theo lối đi chung lên phía trên trên sơ đồ đến điểm (594, 330). Tiếp tục ở trong lối đi chung."
+        },
+        "reverseDraft": {
+          "en": "Follow the public aisle downward on the plan to Cross-aisle below B3-28B. Stay in the aisle.",
+          "vi": "Theo lối đi chung xuống phía dưới trên sơ đồ đến điểm (594, 454). Tiếp tục ở trong lối đi chung."
+        },
+        "draftLimit": "VI coordinate identifiers are reviewer scaffolding, not final visitor-facing copy; replace with independently checked bilingual node names. Direction drafts do not assume prior heading or mechanically reverse turn-left/right instructions."
+      }
+    },
+    {
+      "edgeId": "E5",
+      "from": "san-fu-lou-frontage",
+      "to": "upper-east-junction",
+      "sourcePixels": [
+        [
+          594,
+          330
+        ],
+        [
+          594,
+          267
+        ]
+      ],
+      "geometryDecision": "accept",
+      "traversability": "both-directions-plan-based",
+      "reason": "Same public aisle continues above the San Fu Lou frontage to the open junction below B3-28C.",
+      "acceptedChildIntersectionLengthPixels": {
+        "vincom-prototype-gogihouse": 0.0,
+        "vincom-prototype-manwah": 0.0,
+        "vincom-prototype-sanfulou": 0.0,
+        "vincom-prototype-kichikichi": 0.0
+      },
+      "minimumDistanceToAcceptedChildrenPixels": {
+        "vincom-prototype-gogihouse": 238.21,
+        "vincom-prototype-manwah": 14.142,
+        "vincom-prototype-sanfulou": 10.0,
+        "vincom-prototype-kichikichi": 119.105
+      },
+      "instructionReview": {
+        "proposalContainsDirectionalText": false,
+        "decision": "required-before-activation",
+        "forwardDraft": {
+          "en": "Follow the public aisle upward on the plan to Junction east of B3-28C. Stay in the aisle.",
+          "vi": "Theo lối đi chung lên phía trên trên sơ đồ đến điểm (594, 267). Tiếp tục ở trong lối đi chung."
+        },
+        "reverseDraft": {
+          "en": "Follow the public aisle downward on the plan to San Fu Lou B3-28A/B east frontage. Stay in the aisle.",
+          "vi": "Theo lối đi chung xuống phía dưới trên sơ đồ đến điểm (594, 330). Tiếp tục ở trong lối đi chung."
+        },
+        "draftLimit": "VI coordinate identifiers are reviewer scaffolding, not final visitor-facing copy; replace with independently checked bilingual node names. Direction drafts do not assume prior heading or mechanically reverse turn-left/right instructions."
+      }
+    },
+    {
+      "edgeId": "E6",
+      "from": "upper-east-junction",
+      "to": "manwah-frontage",
+      "sourcePixels": [
+        [
+          594,
+          267
+        ],
+        [
+          470,
+          267
+        ]
+      ],
+      "geometryDecision": "accept",
+      "traversability": "both-directions-plan-based",
+      "reason": "Horizontal pale passage below Manwah B3-28C and above B3-27/28A; junction is not inside either unit.",
+      "acceptedChildIntersectionLengthPixels": {
+        "vincom-prototype-gogihouse": 0.0,
+        "vincom-prototype-manwah": 0.0,
+        "vincom-prototype-sanfulou": 0.0,
+        "vincom-prototype-kichikichi": 0.0
+      },
+      "minimumDistanceToAcceptedChildrenPixels": {
+        "vincom-prototype-gogihouse": 114.438,
+        "vincom-prototype-manwah": 10.0,
+        "vincom-prototype-sanfulou": 9.0,
+        "vincom-prototype-kichikichi": 180.679
+      },
+      "instructionReview": {
+        "proposalContainsDirectionalText": false,
+        "decision": "required-before-activation",
+        "forwardDraft": {
+          "en": "Follow the public aisle leftward on the plan to Manwah B3-28C south frontage. Stay in the aisle.",
+          "vi": "Theo lối đi chung sang trái trên sơ đồ đến điểm (470, 267). Tiếp tục ở trong lối đi chung."
+        },
+        "reverseDraft": {
+          "en": "Follow the public aisle rightward on the plan to Junction east of B3-28C. Stay in the aisle.",
+          "vi": "Theo lối đi chung sang phải trên sơ đồ đến điểm (594, 267). Tiếp tục ở trong lối đi chung."
+        },
+        "draftLimit": "VI coordinate identifiers are reviewer scaffolding, not final visitor-facing copy; replace with independently checked bilingual node names. Direction drafts do not assume prior heading or mechanically reverse turn-left/right instructions."
+      }
+    },
+    {
+      "edgeId": "E7",
+      "from": "manwah-frontage",
+      "to": "gogi-frontage",
+      "sourcePixels": [
+        [
+          470,
+          267
+        ],
+        [
+          310,
+          267
+        ]
+      ],
+      "geometryDecision": "accept",
+      "traversability": "both-directions-plan-based",
+      "reason": "Same passage below B3-28C and GoGi B3-23-24, ending before the western circular escalator/step region.",
+      "acceptedChildIntersectionLengthPixels": {
+        "vincom-prototype-gogihouse": 0.0,
+        "vincom-prototype-manwah": 0.0,
+        "vincom-prototype-sanfulou": 0.0,
+        "vincom-prototype-kichikichi": 0.0
+      },
+      "minimumDistanceToAcceptedChildrenPixels": {
+        "vincom-prototype-gogihouse": 10.0,
+        "vincom-prototype-manwah": 10.0,
+        "vincom-prototype-sanfulou": 56.719,
+        "vincom-prototype-kichikichi": 236.028
+      },
+      "instructionReview": {
+        "proposalContainsDirectionalText": false,
+        "decision": "required-before-activation",
+        "forwardDraft": {
+          "en": "Follow the public aisle leftward on the plan to GoGi House B3-23-24 south frontage. Stay in the aisle.",
+          "vi": "Theo lối đi chung sang trái trên sơ đồ đến điểm (310, 267). Tiếp tục ở trong lối đi chung."
+        },
+        "reverseDraft": {
+          "en": "Follow the public aisle rightward on the plan to Manwah B3-28C south frontage. Stay in the aisle.",
+          "vi": "Theo lối đi chung sang phải trên sơ đồ đến điểm (470, 267). Tiếp tục ở trong lối đi chung."
+        },
+        "draftLimit": "VI coordinate identifiers are reviewer scaffolding, not final visitor-facing copy; replace with independently checked bilingual node names. Direction drafts do not assume prior heading or mechanically reverse turn-left/right instructions."
+      }
+    },
+    {
+      "edgeId": "E8",
+      "from": "east-cross-aisle",
+      "to": "kichi-north-junction",
+      "sourcePixels": [
+        [
+          594,
+          454
+        ],
+        [
+          615,
+          454
+        ]
+      ],
+      "geometryDecision": "accept",
+      "traversability": "both-directions-plan-based",
+      "reason": "Open short crossing below B3-28F and above B3-16A connects to the western side of B3-17.",
+      "acceptedChildIntersectionLengthPixels": {
+        "vincom-prototype-gogihouse": 0.0,
+        "vincom-prototype-manwah": 0.0,
+        "vincom-prototype-sanfulou": 0.0,
+        "vincom-prototype-kichikichi": 0.0
+      },
+      "minimumDistanceToAcceptedChildrenPixels": {
+        "vincom-prototype-gogihouse": 308.955,
+        "vincom-prototype-manwah": 197.254,
+        "vincom-prototype-sanfulou": 14.866,
+        "vincom-prototype-kichikichi": 10.0
+      },
+      "instructionReview": {
+        "proposalContainsDirectionalText": false,
+        "decision": "required-before-activation",
+        "forwardDraft": {
+          "en": "Follow the public aisle rightward on the plan to Junction west of B3-17. Stay in the aisle.",
+          "vi": "Theo lối đi chung sang phải trên sơ đồ đến điểm (615, 454). Tiếp tục ở trong lối đi chung."
+        },
+        "reverseDraft": {
+          "en": "Follow the public aisle leftward on the plan to Cross-aisle below B3-28B. Stay in the aisle.",
+          "vi": "Theo lối đi chung sang trái trên sơ đồ đến điểm (594, 454). Tiếp tục ở trong lối đi chung."
+        },
+        "draftLimit": "VI coordinate identifiers are reviewer scaffolding, not final visitor-facing copy; replace with independently checked bilingual node names. Direction drafts do not assume prior heading or mechanically reverse turn-left/right instructions."
+      }
+    },
+    {
+      "edgeId": "E9",
+      "from": "kichi-north-junction",
+      "to": "kichi-frontage",
+      "sourcePixels": [
+        [
+          615,
+          454
+        ],
+        [
+          615,
+          525
+        ]
+      ],
+      "geometryDecision": "accept",
+      "traversability": "both-directions-plan-based",
+      "reason": "Vertical pale aisle between B3-16A and B3-17; stops before the separate grey B3-17A area.",
+      "acceptedChildIntersectionLengthPixels": {
+        "vincom-prototype-gogihouse": 0.0,
+        "vincom-prototype-manwah": 0.0,
+        "vincom-prototype-sanfulou": 0.0,
+        "vincom-prototype-kichikichi": 0.0
+      },
+      "minimumDistanceToAcceptedChildrenPixels": {
+        "vincom-prototype-gogihouse": 325.407,
+        "vincom-prototype-manwah": 199.424,
+        "vincom-prototype-sanfulou": 32.894,
+        "vincom-prototype-kichikichi": 10.0
+      },
+      "instructionReview": {
+        "proposalContainsDirectionalText": false,
+        "decision": "required-before-activation",
+        "forwardDraft": {
+          "en": "Follow the public aisle downward on the plan to Kichi-Kichi B3-17 west frontage. Stay in the aisle.",
+          "vi": "Theo lối đi chung xuống phía dưới trên sơ đồ đến điểm (615, 525). Tiếp tục ở trong lối đi chung."
+        },
+        "reverseDraft": {
+          "en": "Follow the public aisle upward on the plan to Junction west of B3-17. Stay in the aisle.",
+          "vi": "Theo lối đi chung lên phía trên trên sơ đồ đến điểm (615, 454). Tiếp tục ở trong lối đi chung."
+        },
+        "draftLimit": "VI coordinate identifiers are reviewer scaffolding, not final visitor-facing copy; replace with independently checked bilingual node names. Direction drafts do not assume prior heading or mechanically reverse turn-left/right instructions."
+      }
+    }
+  ],
+  "frontages": [
+    {
+      "destinationId": "vincom-prototype-gogihouse",
+      "printedUnits": "B3-23-24",
+      "segmentationProposalId": "proposal-r7-gogihouse",
+      "node": "gogi-frontage",
+      "bindingStatus": "resolve final accepted area ID before runtime activation",
+      "decision": "accept-public-frontage-only",
+      "sourcePixel": [
+        310,
+        267
+      ],
+      "outsideAcceptedChild": true,
+      "distanceToAcceptedChildPixels": 10.0,
+      "doorClaimSupported": false
+    },
+    {
+      "destinationId": "vincom-prototype-manwah",
+      "printedUnits": "B3-28C",
+      "segmentationProposalId": "proposal-r7-manwah",
+      "node": "manwah-frontage",
+      "bindingStatus": "resolve final accepted area ID before runtime activation",
+      "decision": "accept-public-frontage-only",
+      "sourcePixel": [
+        470,
+        267
+      ],
+      "outsideAcceptedChild": true,
+      "distanceToAcceptedChildPixels": 10.0,
+      "doorClaimSupported": false
+    },
+    {
+      "destinationId": "vincom-prototype-sanfulou",
+      "printedUnits": "B3-28A/B",
+      "segmentationProposalId": "proposal-r7-sanfulou",
+      "node": "san-fu-lou-frontage",
+      "bindingStatus": "resolve final accepted area ID before runtime activation",
+      "decision": "accept-public-frontage-only",
+      "sourcePixel": [
+        594,
+        330
+      ],
+      "outsideAcceptedChild": true,
+      "distanceToAcceptedChildPixels": 10.0,
+      "doorClaimSupported": false
+    },
+    {
+      "destinationId": "vincom-prototype-kichikichi",
+      "printedUnits": "B3-17",
+      "segmentationProposalId": "proposal-r7-kichikichi",
+      "node": "kichi-frontage",
+      "bindingStatus": "resolve final accepted area ID before runtime activation",
+      "decision": "accept-public-frontage-only",
+      "sourcePixel": [
+        615,
+        525
+      ],
+      "outsideAcceptedChild": true,
+      "distanceToAcceptedChildPixels": 10.0,
+      "doorClaimSupported": false
+    }
+  ],
+  "graph": {
+    "nodeCount": 10,
+    "undirectedEdgeCount": 9,
+    "components": 1,
+    "allFourFrontagesAndExistingStartConnected": true,
+    "oldStartExactCoordinateMatch": [
+      405,
+      507
+    ],
+    "oldSiamExactCoordinateMatch": [
+      405,
+      480
+    ],
+    "oldE1ForwardGeometryMatch": true,
+    "oldE1ReverseSeparatelyAcceptedHere": true,
+    "fourFrontageOrderedPairs": 12,
+    "startToOrFromFourFrontagesOrderedPairs": 8,
+    "totalThoseDirectedPairs": 20,
+    "implementedPairCoverageClaim": false,
+    "existingSouthboundEdgesReverseReviewedHere": false
+  },
+  "activationRequirements": [
+    "Bind anchors to accepted final child IDs and source hash; proposal IDs alone are not runtime associations.",
+    "Supply separate forward and reverse bilingual edge instructions and check generated route instructions against movement direction. Drafts here are review aids, not approved final localized visitor copy.",
+    "Expand map viewport: existing B3 viewport starts y=440 and excludes upper four-frontage network.",
+    "Do not infer reverse traversability for other pre-existing B3 edges from this review.",
+    "Preserve manual public-frontage start, no exact door, live obstruction, accessibility, shortest-path, metric-distance or current-occupancy claim."
+  ],
+  "conclusion": "Accept E1-E9 and all four anchors as a connected bidirectional source-plan public-aisle geometry. Activation still requires final area bindings, directional bilingual text and viewport/UI verification; no runtime implementation reviewed."
+}

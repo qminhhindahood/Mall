@@ -1,0 +1,600 @@
+{
+  "scope": "Three priority groups, four named destinations; source-pixel geometry proposals only. No candidate/source/parent polygons mutated.",
+  "source": {
+    "path": "D:\\Midterm\\Vincom đồng khởi\\map\\tang-b3.webp",
+    "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+    "width": 1320,
+    "height": 1077,
+    "matchesExistingGeometrySource": true,
+    "transform": [
+      0.1,
+      0,
+      0,
+      0.1,
+      -66.0,
+      -53.85
+    ],
+    "publicationDate": "not established"
+  },
+  "proposals": [
+    {
+      "destinationId": "vincom-prototype-gogihouse",
+      "floorId": "B3",
+      "printedUnits": "B3-23-24",
+      "parentRegionId": "B3-region-004",
+      "proposalRegionId": "proposal-r7-gogihouse",
+      "coordinateSystem": "original raster pixels; origin top-left; x right, y down",
+      "outer": [
+        [
+          248,
+          187
+        ],
+        [
+          356,
+          187
+        ],
+        [
+          356,
+          257
+        ],
+        [
+          273,
+          257
+        ],
+        [
+          273,
+          238
+        ],
+        [
+          248,
+          238
+        ]
+      ],
+      "holes": [],
+      "vertexRationale": [
+        {
+          "vertex": 0,
+          "pixel": [
+            248,
+            187
+          ],
+          "reason": "top-left printed unit corner"
+        },
+        {
+          "vertex": 1,
+          "pixel": [
+            356,
+            187
+          ],
+          "reason": "top boundary meets visible Gogi/Manwah divider"
+        },
+        {
+          "vertex": 2,
+          "pixel": [
+            356,
+            257
+          ],
+          "reason": "divider meets bottom unit edge"
+        },
+        {
+          "vertex": 3,
+          "pixel": [
+            273,
+            257
+          ],
+          "reason": "bottom-left step corner"
+        },
+        {
+          "vertex": 4,
+          "pixel": [
+            273,
+            238
+          ],
+          "reason": "inner step corner above corridor"
+        },
+        {
+          "vertex": 5,
+          "pixel": [
+            248,
+            238
+          ],
+          "reason": "left boundary step toward B3-25; B3-25 excluded"
+        }
+      ],
+      "frameOuter": [
+        [
+          -41.2,
+          -35.15
+        ],
+        [
+          -30.4,
+          -35.15
+        ],
+        [
+          -30.4,
+          -28.15
+        ],
+        [
+          -38.7,
+          -28.15
+        ],
+        [
+          -38.7,
+          -30.05
+        ],
+        [
+          -41.2,
+          -30.05
+        ]
+      ],
+      "precision": "approximate trace of visible printed boundary centerlines; raster anti-aliasing about 1-3 pixels; not surveyed",
+      "status": "pending-independent-review; no runtime use",
+      "extent": "complete visible coloured source unit only; no physical doorway or actual wall claim",
+      "officialFloorReferences": [
+        {
+          "id": "gogihouse",
+          "url": "https://vincom.com.vn/store/gogi-house-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B3"
+          ],
+          "floorText": "Tầng hầm B3",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "destinationId": "vincom-prototype-manwah",
+      "floorId": "B3",
+      "printedUnits": "B3-28C",
+      "parentRegionId": "B3-region-004",
+      "proposalRegionId": "proposal-r7-manwah",
+      "coordinateSystem": "original raster pixels; origin top-left; x right, y down",
+      "outer": [
+        [
+          356,
+          187
+        ],
+        [
+          562,
+          187
+        ],
+        [
+          562,
+          200
+        ],
+        [
+          525,
+          200
+        ],
+        [
+          525,
+          220
+        ],
+        [
+          584,
+          220
+        ],
+        [
+          584,
+          257
+        ],
+        [
+          356,
+          257
+        ]
+      ],
+      "holes": [],
+      "vertexRationale": [
+        {
+          "vertex": 0,
+          "pixel": [
+            356,
+            187
+          ],
+          "reason": "top Gogi/Manwah divider intersection"
+        },
+        {
+          "vertex": 1,
+          "pixel": [
+            562,
+            187
+          ],
+          "reason": "top-right projecting printed corner"
+        },
+        {
+          "vertex": 2,
+          "pixel": [
+            562,
+            200
+          ],
+          "reason": "outer corner of narrow projecting upper tip"
+        },
+        {
+          "vertex": 3,
+          "pixel": [
+            525,
+            200
+          ],
+          "reason": "upper-left concave notch corner"
+        },
+        {
+          "vertex": 4,
+          "pixel": [
+            525,
+            220
+          ],
+          "reason": "lower-left concave notch corner"
+        },
+        {
+          "vertex": 5,
+          "pixel": [
+            584,
+            220
+          ],
+          "reason": "lower notch edge meets outer-right boundary"
+        },
+        {
+          "vertex": 6,
+          "pixel": [
+            584,
+            257
+          ],
+          "reason": "bottom-right corner beside vertical public aisle"
+        },
+        {
+          "vertex": 7,
+          "pixel": [
+            356,
+            257
+          ],
+          "reason": "bottom Gogi/Manwah divider intersection"
+        }
+      ],
+      "frameOuter": [
+        [
+          -30.4,
+          -35.15
+        ],
+        [
+          -9.8,
+          -35.15
+        ],
+        [
+          -9.8,
+          -33.85
+        ],
+        [
+          -13.5,
+          -33.85
+        ],
+        [
+          -13.5,
+          -31.85
+        ],
+        [
+          -7.6,
+          -31.85
+        ],
+        [
+          -7.6,
+          -28.15
+        ],
+        [
+          -30.4,
+          -28.15
+        ]
+      ],
+      "precision": "approximate trace of visible printed boundary centerlines; raster anti-aliasing about 1-3 pixels; not surveyed",
+      "status": "pending-independent-review; no runtime use",
+      "extent": "complete visible coloured source unit only; no physical doorway or actual wall claim",
+      "officialFloorReferences": [
+        {
+          "id": "manwah",
+          "url": "https://vincom.com.vn/store/manwah-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B3"
+          ],
+          "floorText": "Tầng hầm B3",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "destinationId": "vincom-prototype-sanfulou",
+      "floorId": "B3",
+      "printedUnits": "B3-28A; B3-28B",
+      "parentRegionId": "B3-region-001",
+      "proposalRegionId": "proposal-r7-sanfulou",
+      "coordinateSystem": "original raster pixels; origin top-left; x right, y down",
+      "outer": [
+        [
+          526,
+          276
+        ],
+        [
+          584,
+          276
+        ],
+        [
+          584,
+          443
+        ],
+        [
+          526,
+          443
+        ]
+      ],
+      "holes": [],
+      "vertexRationale": [
+        {
+          "vertex": 0,
+          "pixel": [
+            526,
+            276
+          ],
+          "reason": "top intersection of printed Hoang Yen/28A divider"
+        },
+        {
+          "vertex": 1,
+          "pixel": [
+            584,
+            276
+          ],
+          "reason": "top-right corner beside public vertical aisle"
+        },
+        {
+          "vertex": 2,
+          "pixel": [
+            584,
+            443
+          ],
+          "reason": "bottom-right corner of 28B above horizontal aisle"
+        },
+        {
+          "vertex": 3,
+          "pixel": [
+            526,
+            443
+          ],
+          "reason": "bottom intersection of printed Hoang Yen/28B divider"
+        }
+      ],
+      "frameOuter": [
+        [
+          -13.4,
+          -26.25
+        ],
+        [
+          -7.6,
+          -26.25
+        ],
+        [
+          -7.6,
+          -9.55
+        ],
+        [
+          -13.4,
+          -9.55
+        ]
+      ],
+      "precision": "approximate trace of visible printed boundary centerlines; raster anti-aliasing about 1-3 pixels; not surveyed",
+      "status": "pending-independent-review; no runtime use",
+      "extent": "complete visible coloured source unit only; no physical doorway or actual wall claim",
+      "officialFloorReferences": [
+        {
+          "id": "sanfulou",
+          "url": "https://vincom.com.vn/store/san-fu-lou-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B3"
+          ],
+          "floorText": "Tầng hầm B3",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "destinationId": "vincom-prototype-kichikichi",
+      "floorId": "B3",
+      "printedUnits": "B3-17",
+      "parentRegionId": "B3-region-002",
+      "proposalRegionId": "proposal-r7-kichikichi",
+      "coordinateSystem": "original raster pixels; origin top-left; x right, y down",
+      "outer": [
+        [
+          625,
+          445
+        ],
+        [
+          677,
+          445
+        ],
+        [
+          677,
+          598
+        ],
+        [
+          625,
+          598
+        ]
+      ],
+      "holes": [],
+      "vertexRationale": [
+        {
+          "vertex": 0,
+          "pixel": [
+            625,
+            445
+          ],
+          "reason": "left corner beneath printed B3-28F bottom boundary"
+        },
+        {
+          "vertex": 1,
+          "pixel": [
+            677,
+            445
+          ],
+          "reason": "right corner at outer yellow unit edge"
+        },
+        {
+          "vertex": 2,
+          "pixel": [
+            677,
+            598
+          ],
+          "reason": "bottom-right yellow/grey boundary; grey B3-17A excluded"
+        },
+        {
+          "vertex": 3,
+          "pixel": [
+            625,
+            598
+          ],
+          "reason": "bottom-left corner beside public aisle"
+        }
+      ],
+      "frameOuter": [
+        [
+          -3.5,
+          -9.35
+        ],
+        [
+          1.7,
+          -9.35
+        ],
+        [
+          1.7,
+          5.95
+        ],
+        [
+          -3.5,
+          5.95
+        ]
+      ],
+      "precision": "approximate trace of visible printed boundary centerlines; raster anti-aliasing about 1-3 pixels; not surveyed",
+      "status": "pending-independent-review; no runtime use",
+      "extent": "complete visible coloured source unit only; no physical doorway or actual wall claim",
+      "officialFloorReferences": [
+        {
+          "id": "kichikichi",
+          "url": "https://vincom.com.vn/store/kichi-kichi-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B3"
+          ],
+          "floorText": "Tầng hầm B3",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ]
+    }
+  ],
+  "archivedUnitReferences": [
+    {
+      "file": "D:\\Midterm\\.scratch\\redesign-readiness-2026-10-21\\evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\browser-goldengate-hcm.json",
+      "sha256": "ffcc02ec35766efc2325997bb344f1497d7e7ebcf3ad6eedfee914dd18107544",
+      "checkedAt": "2026-10-20T00:26:45.814Z",
+      "url": "https://gogi.com.vn/dat-ban",
+      "field": "bookingText",
+      "unit": "B3-23-24",
+      "excerpt": "pen - Close: 09:00 - 22:00\n\n02873002633\nĐặt bàn\nGogi House Vincom Lê Thánh Tôn\n\nB3-23-24 Tòa nhà Vincom Center, 70-72 Lê Thánh Tôn, Phường Sài Gòn, Thành phố Hồ Chí Minh, Việt Nam\nOpen - Close: 09:00 - 22:00\n\n02873000917\nĐặt bàn\nGogi House Saigon Centre Lê Lợi\n\nGian hàng L5-08C, Trung tâm mua sắm Saigon Centre, 67 Lê Lợi, Phường"
+    },
+    {
+      "file": "D:\\Midterm\\.scratch\\redesign-readiness-2026-10-21\\evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\browser-goldengate-hcm.json",
+      "sha256": "ffcc02ec35766efc2325997bb344f1497d7e7ebcf3ad6eedfee914dd18107544",
+      "checkedAt": "2026-10-20T00:26:53.481Z",
+      "url": "https://manwah.com.vn/dat-ban",
+      "field": "bookingText",
+      "unit": "B3-28C",
+      "excerpt": "en - Close: 11:00 - 22:00\n\n02873007981\nĐặt bàn\nManwah Vincom Lê Thánh Tôn\n\nTầng B3-28C Tòa nhà Vincom Center, 70-72 Lê Thánh Tôn, Phường Sài Gòn, Thành phố Hồ Chí Minh, Việt Nam\nOpen - Close: 11:00 - 22:00\n\n02873007033\nĐặt bàn\nManwah An Dương Vương\n\n65 An Dương Vương, Phường An Đông, Thành phố Hồ Chí Minh, Việt Nam\nOpen - Close:"
+    },
+    {
+      "file": "D:\\Midterm\\.scratch\\redesign-readiness-2026-10-21\\evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\browser-final-sources.json",
+      "sha256": "4f5dbd65fcad5d622ed0cbbcff149f07b56cbbb9cddda9ec1c69a7d259b1610c",
+      "checkedAt": "2026-10-20T00:28:13.198Z",
+      "url": "https://kichi.com.vn/dat-ban",
+      "field": "text",
+      "unit": "B3-17",
+      "excerpt": "Close: 09:00 - 22:00\n\n02873001817\nĐặt bàn\nKichi-Kichi Vincom Lê Thánh Tôn\n\nTầng B3-17, Tòa nhà Vincom Center, 70-72 Lê Thánh Tôn, Phường Sài Gòn, Thành phố Hồ Chí Minh, Việt Nam\nOpen - Close: 09:00 - 22:00\n\n02873000205\nĐặt bàn\nKichi-Kichi Saigon Centre Lê Lợi\n\nGian hàng L5-08B, Trung tâm mua sắm Saigon Centre, 67 Lê Lợi, Phường "
+    },
+    {
+      "file": "D:\\Midterm\\.scratch\\redesign-readiness-2026-10-21\\evidence\\enrichment-exhaustion-2026-10-20-r3\\vincom-dining\\browser-final-sources.json",
+      "sha256": "4f5dbd65fcad5d622ed0cbbcff149f07b56cbbb9cddda9ec1c69a7d259b1610c",
+      "checkedAt": "2026-10-20T00:28:17.898Z",
+      "url": "https://isushi.com.vn/dat-ban",
+      "field": "text",
+      "unit": "B3-17",
+      "excerpt": "Open - Close: 09:00 - 22:00\n\n02873005335\nĐặt bàn\niSushi Vincom Lê Thánh Tôn\n\nLô B3-17A, tầng B3 Trung Tâm Thương Mại Vincom Center Đồng Khởi, số 72 Lê Thánh Tôn và 45A Lý Tự Trọng, Phường Sài Gòn, Thành phố Hồ Chí Minh, Việt Nam\nOpen - Close: 09:00 - 22:00\n\n02873004363\nĐặt bàn\niSushi Hùng Vương Plaza\n\nÔ số 4F-09, Tầng 04, Khu Tr"
+    }
+  ],
+  "corridorsAndHoles": [
+    "Gogi lower-left step excludes B3-25 and pale circulation below/left.",
+    "Manwah upper-right open concavity is an exterior notch, not a closed hole. Keep it and the public vertical aisle right of584 outside the polygon.",
+    "San Fu Lou union includes printed internal 28A/28B divider at y359, not a circulation corridor: same named brand on both sides. Excludes Hoang Yen left of526 and public vertical aisle right of584.",
+    "Kichi excludes grey B3-17A below598 and pale public aisle left of625; no route connection inferred from adjacency.",
+    "No closed interior holes visible in these four source areas; text is not carved into polygon boundaries."
+  ],
+  "limits": [
+    "Printed plan identity plus archived unit text does not independently establish current occupancy or operational status.",
+    "Rounded corners/shadows simplified to visible boundary intersections at approximately1-3pixel uncertainty.",
+    "Review overlay corners and line centering before activation; no automatic parent replacement.",
+    "San Fu Lou archived official reference has floor only, unit null; source legend supplies28AB identity."
+  ],
+  "baseline": "Current candidate untouched; proposals are not counts of completed mappings.",
+  "structuralChecks": [
+    {
+      "destinationId": "vincom-prototype-gogihouse",
+      "vertices": 6,
+      "signedPixelArea": 7085.0,
+      "simpleRing": true,
+      "withinRaster": true,
+      "holes": 0
+    },
+    {
+      "destinationId": "vincom-prototype-manwah",
+      "vertices": 8,
+      "signedPixelArea": 14494.0,
+      "simpleRing": true,
+      "withinRaster": true,
+      "holes": 0
+    },
+    {
+      "destinationId": "vincom-prototype-sanfulou",
+      "vertices": 4,
+      "signedPixelArea": 9686.0,
+      "simpleRing": true,
+      "withinRaster": true,
+      "holes": 0
+    },
+    {
+      "destinationId": "vincom-prototype-kichikichi",
+      "vertices": 4,
+      "signedPixelArea": 7956.0,
+      "simpleRing": true,
+      "withinRaster": true,
+      "holes": 0
+    }
+  ],
+  "independentReview": "pending; reviewer deferred until r6 delivery checks finish",
+  "integrationProposal": {
+    "strategy": "separate immutable-hash-bound derived overlay, not a rewrite of approved geometry",
+    "steps": [
+      "Store pixel polygons, source raster SHA-256, frame transform, parent geometry SHA-256, independently reviewed exact vertex tuples and limitation text in versioned derived overlay data.",
+      "Require separate independent review of these exact proposed vertices before constructing any runtime region.",
+      "After approvedGeometry returns unchanged approved base, append derived region IDs in one shared pure transformation consumed both by site.ts and static public/scene geometry preparation. Do not apply a site-only overlay that diverges from public generated geometry.",
+      "Preserve merged source regions as evidence. Prevent overlapping interactive tenant regions by validating source-region occupancy and excluding unbound parents from selection, not deleting source shapes.",
+      "Bind destination associations to exact reviewed derived-region IDs, source hash and transform; fail closed for drift, collisions, missing review or coordinate change. Preserve five existing holds.",
+      "Rebuild both static data transport and app after later authorization; verify rendered map alignment and all current route regressions. No automatic route network expansion."
+    ],
+    "scopeNow": "proposal only; no candidate file changed"
+  }
+}
