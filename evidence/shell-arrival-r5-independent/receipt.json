@@ -1,0 +1,4014 @@
+{
+  "profile": "Installed Chrome headless; CSS viewport emulation; SwiftShader for WebGL. Not physical-device or production acceptance.",
+  "cases": [
+    {
+      "mall": "saigon",
+      "width": 1280,
+      "locale": "en",
+      "mode": "noWebGL+reducedMotion",
+      "checks": [
+        {
+          "name": "five shell navigation links visible without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Discovery usable without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Map usable without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Visit target reached",
+          "pass": true
+        },
+        {
+          "name": "Home navigation returns exterior",
+          "pass": true
+        },
+        {
+          "name": "Language switch preserves Home",
+          "pass": true
+        },
+        {
+          "name": "Directions asks for explicit start",
+          "pass": true
+        },
+        {
+          "name": "No horizontal overflow in shell/tasks",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "home": {
+        "url": "http://127.0.0.1:4490/en",
+        "view": "exterior",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": 146.375,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": 846.375,
+          "visible": true
+        },
+        "actions": {
+          "x": 32,
+          "y": 710.109375,
+          "width": 380.34375,
+          "height": 110,
+          "bottom": 820.109375,
+          "visible": true
+        },
+        "map": {
+          "x": 90,
+          "y": 3476.375,
+          "width": 1100,
+          "height": 704,
+          "bottom": 4180.375,
+          "visible": false
+        },
+        "controls": {
+          "x": 494.296875,
+          "y": 4118.375,
+          "width": 291.40625,
+          "height": 62,
+          "bottom": 4180.375,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": "page"
+          },
+          {
+            "text": "Discovery",
+            "current": null
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "discovery": {
+        "url": "http://127.0.0.1:4490/en?floor=L5&view=discovery",
+        "view": "discovery",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": -4489.625,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": -3789.625,
+          "visible": false
+        },
+        "actions": {
+          "x": 32,
+          "y": -5565.890625,
+          "width": 380.34375,
+          "height": 110,
+          "bottom": -5455.890625,
+          "visible": false
+        },
+        "map": {
+          "x": 688.6328125,
+          "y": 184,
+          "width": 559.359375,
+          "height": 704,
+          "bottom": 888,
+          "visible": true
+        },
+        "controls": {
+          "x": 791.9375,
+          "y": 826,
+          "width": 352.734375,
+          "height": 62,
+          "bottom": 888,
+          "visible": true
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": null
+          },
+          {
+            "text": "Discovery",
+            "current": "page"
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "map": {
+        "url": "http://127.0.0.1:4490/en/floors/L5?floor=L5&view=map",
+        "view": "map",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": -1569.625,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": -869.625,
+          "visible": false
+        },
+        "actions": {
+          "x": 32,
+          "y": -2645.890625,
+          "width": 380.34375,
+          "height": 110,
+          "bottom": -2535.890625,
+          "visible": false
+        },
+        "map": {
+          "x": 90,
+          "y": 184,
+          "width": 1100,
+          "height": 704,
+          "bottom": 888,
+          "visible": true
+        },
+        "controls": {
+          "x": 494.296875,
+          "y": 826,
+          "width": 291.40625,
+          "height": 62,
+          "bottom": 888,
+          "visible": true
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": null
+          },
+          {
+            "text": "Discovery",
+            "current": null
+          },
+          {
+            "text": "Floor map",
+            "current": "page"
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "visit": {
+        "url": "http://127.0.0.1:4490/en?floor=L5&view=discovery",
+        "view": "discovery",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": -12646.625,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": -11946.625,
+          "visible": false
+        },
+        "actions": {
+          "x": 32,
+          "y": -13722.890625,
+          "width": 380.34375,
+          "height": 110,
+          "bottom": -13612.890625,
+          "visible": false
+        },
+        "map": {
+          "x": 688.6328125,
+          "y": -664.328125,
+          "width": 559.359375,
+          "height": 704,
+          "bottom": 39.671875,
+          "visible": true
+        },
+        "controls": {
+          "x": 791.9375,
+          "y": -22.328125,
+          "width": 352.734375,
+          "height": 62,
+          "bottom": 39.671875,
+          "visible": true
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": null
+          },
+          {
+            "text": "Discovery",
+            "current": "page"
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "language": {
+        "url": "http://127.0.0.1:4490/vi?floor=L5&view=exterior",
+        "view": "exterior",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": 120,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": 820,
+          "visible": true
+        },
+        "actions": {
+          "x": 32,
+          "y": 594.109375,
+          "width": 380.34375,
+          "height": 50,
+          "bottom": 644.109375,
+          "visible": true
+        },
+        "map": {
+          "x": 90,
+          "y": 3330.375,
+          "width": 1100,
+          "height": 704,
+          "bottom": 4034.375,
+          "visible": false
+        },
+        "controls": {
+          "x": 495.4453125,
+          "y": 3972.375,
+          "width": 289.109375,
+          "height": 62,
+          "bottom": 4034.375,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": "page"
+          },
+          {
+            "text": "Khám phá",
+            "current": null
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "directions": {
+        "url": "http://127.0.0.1:4490/vi/chi-duong",
+        "status": "Chọn điểm bắt đầu",
+        "disabled": true,
+        "route": false
+      }
+    },
+    {
+      "mall": "saigon",
+      "width": 1280,
+      "locale": "vi",
+      "mode": "noWebGL+reducedMotion",
+      "checks": [
+        {
+          "name": "five shell navigation links visible without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Discovery usable without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Map usable without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Visit target reached",
+          "pass": true
+        },
+        {
+          "name": "Home navigation returns exterior",
+          "pass": true
+        },
+        {
+          "name": "Language switch preserves Home",
+          "pass": true
+        },
+        {
+          "name": "Directions asks for explicit start",
+          "pass": true
+        },
+        {
+          "name": "No horizontal overflow in shell/tasks",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "home": {
+        "url": "http://127.0.0.1:4490/vi",
+        "view": "exterior",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": 146.375,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": 846.375,
+          "visible": true
+        },
+        "actions": {
+          "x": 32,
+          "y": 740.109375,
+          "width": 380.34375,
+          "height": 50,
+          "bottom": 790.109375,
+          "visible": true
+        },
+        "map": {
+          "x": 90,
+          "y": 3476.375,
+          "width": 1100,
+          "height": 704,
+          "bottom": 4180.375,
+          "visible": false
+        },
+        "controls": {
+          "x": 495.4453125,
+          "y": 4118.375,
+          "width": 289.109375,
+          "height": 62,
+          "bottom": 4180.375,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": "page"
+          },
+          {
+            "text": "Khám phá",
+            "current": null
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "discovery": {
+        "url": "http://127.0.0.1:4490/vi?floor=L5&view=discovery",
+        "view": "discovery",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": -4489.625,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": -3789.625,
+          "visible": false
+        },
+        "actions": {
+          "x": 32,
+          "y": -5535.890625,
+          "width": 380.34375,
+          "height": 50,
+          "bottom": -5485.890625,
+          "visible": false
+        },
+        "map": {
+          "x": 688.6328125,
+          "y": 184,
+          "width": 559.359375,
+          "height": 704,
+          "bottom": 888,
+          "visible": true
+        },
+        "controls": {
+          "x": 782.4921875,
+          "y": 826,
+          "width": 371.625,
+          "height": 62,
+          "bottom": 888,
+          "visible": true
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": null
+          },
+          {
+            "text": "Khám phá",
+            "current": "page"
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "map": {
+        "url": "http://127.0.0.1:4490/vi/tang/L5?floor=L5&view=map",
+        "view": "map",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": -1569.625,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": -869.625,
+          "visible": false
+        },
+        "actions": {
+          "x": 32,
+          "y": -2615.890625,
+          "width": 380.34375,
+          "height": 50,
+          "bottom": -2565.890625,
+          "visible": false
+        },
+        "map": {
+          "x": 90,
+          "y": 184,
+          "width": 1100,
+          "height": 704,
+          "bottom": 888,
+          "visible": true
+        },
+        "controls": {
+          "x": 495.4453125,
+          "y": 826,
+          "width": 289.109375,
+          "height": 62,
+          "bottom": 888,
+          "visible": true
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": null
+          },
+          {
+            "text": "Khám phá",
+            "current": null
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": "page"
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "visit": {
+        "url": "http://127.0.0.1:4490/vi?floor=L5&view=discovery",
+        "view": "discovery",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": -12671.625,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": -11971.625,
+          "visible": false
+        },
+        "actions": {
+          "x": 32,
+          "y": -13717.890625,
+          "width": 380.34375,
+          "height": 50,
+          "bottom": -13667.890625,
+          "visible": false
+        },
+        "map": {
+          "x": 688.6328125,
+          "y": -663.734375,
+          "width": 559.359375,
+          "height": 704,
+          "bottom": 40.265625,
+          "visible": true
+        },
+        "controls": {
+          "x": 782.4921875,
+          "y": -21.734375,
+          "width": 371.625,
+          "height": 62,
+          "bottom": 40.265625,
+          "visible": true
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": null
+          },
+          {
+            "text": "Khám phá",
+            "current": "page"
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "language": {
+        "url": "http://127.0.0.1:4490/en?floor=L5&view=exterior",
+        "view": "exterior",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": 120,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": 820,
+          "visible": true
+        },
+        "actions": {
+          "x": 32,
+          "y": 564.109375,
+          "width": 380.34375,
+          "height": 110,
+          "bottom": 674.109375,
+          "visible": true
+        },
+        "map": {
+          "x": 90,
+          "y": 3330.375,
+          "width": 1100,
+          "height": 704,
+          "bottom": 4034.375,
+          "visible": false
+        },
+        "controls": {
+          "x": 494.296875,
+          "y": 3972.375,
+          "width": 291.40625,
+          "height": 62,
+          "bottom": 4034.375,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": "page"
+          },
+          {
+            "text": "Discovery",
+            "current": null
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "directions": {
+        "url": "http://127.0.0.1:4490/en/directions",
+        "status": "Choose your start",
+        "disabled": true,
+        "route": false
+      }
+    },
+    {
+      "mall": "saigon",
+      "width": 390,
+      "locale": "en",
+      "mode": "noWebGL+reducedMotion",
+      "checks": [
+        {
+          "name": "five shell navigation links visible without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Discovery usable without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Map usable without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Visit target reached",
+          "pass": true
+        },
+        {
+          "name": "Home navigation returns exterior",
+          "pass": true
+        },
+        {
+          "name": "Language switch preserves Home",
+          "pass": true
+        },
+        {
+          "name": "Directions asks for explicit start",
+          "pass": true
+        },
+        {
+          "name": "No horizontal overflow in shell/tasks",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "home": {
+        "url": "http://127.0.0.1:4490/en",
+        "view": "exterior",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": 562.265625,
+          "width": 350,
+          "height": 360,
+          "bottom": 922.265625,
+          "visible": true
+        },
+        "actions": {
+          "x": 20,
+          "y": 498.265625,
+          "width": 350,
+          "height": 48,
+          "bottom": 546.265625,
+          "visible": true
+        },
+        "map": {
+          "x": 20,
+          "y": 3281.0625,
+          "width": 350,
+          "height": 536,
+          "bottom": 3817.0625,
+          "visible": false
+        },
+        "controls": {
+          "x": 61.296875,
+          "y": 3723.0625,
+          "width": 267.40625,
+          "height": 54,
+          "bottom": 3777.0625,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": "page"
+          },
+          {
+            "text": "Discovery",
+            "current": null
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "discovery": {
+        "url": "http://127.0.0.1:4490/en?floor=L5&view=discovery",
+        "view": "discovery",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": -3507.9375,
+          "width": 350,
+          "height": 360,
+          "bottom": -3147.9375,
+          "visible": false
+        },
+        "actions": {
+          "x": 20,
+          "y": -5006.734375,
+          "width": 350,
+          "height": 48,
+          "bottom": -4958.734375,
+          "visible": false
+        },
+        "map": {
+          "x": 20,
+          "y": 160,
+          "width": 350,
+          "height": 64,
+          "bottom": 224,
+          "visible": true
+        },
+        "controls": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": null
+          },
+          {
+            "text": "Discovery",
+            "current": "page"
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "map": {
+        "url": "http://127.0.0.1:4490/en/floors/L5?floor=L5&view=map",
+        "view": "map",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": -1135.9375,
+          "width": 350,
+          "height": 360,
+          "bottom": -775.9375,
+          "visible": false
+        },
+        "actions": {
+          "x": 20,
+          "y": -2634.734375,
+          "width": 350,
+          "height": 48,
+          "bottom": -2586.734375,
+          "visible": false
+        },
+        "map": {
+          "x": 20,
+          "y": 160,
+          "width": 350,
+          "height": 536,
+          "bottom": 696,
+          "visible": true
+        },
+        "controls": {
+          "x": 61.296875,
+          "y": 602,
+          "width": 267.40625,
+          "height": 54,
+          "bottom": 656,
+          "visible": true
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": null
+          },
+          {
+            "text": "Discovery",
+            "current": null
+          },
+          {
+            "text": "Floor map",
+            "current": "page"
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "visit": {
+        "url": "http://127.0.0.1:4490/en?floor=L5&view=discovery",
+        "view": "discovery",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": -13310.9375,
+          "width": 350,
+          "height": 360,
+          "bottom": -12950.9375,
+          "visible": false
+        },
+        "actions": {
+          "x": 20,
+          "y": -14809.734375,
+          "width": 350,
+          "height": 48,
+          "bottom": -14761.734375,
+          "visible": false
+        },
+        "map": {
+          "x": 20,
+          "y": -455.265625,
+          "width": 350,
+          "height": 64,
+          "bottom": -391.265625,
+          "visible": false
+        },
+        "controls": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": null
+          },
+          {
+            "text": "Discovery",
+            "current": "page"
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "language": {
+        "url": "http://127.0.0.1:4490/vi?floor=L5&view=exterior",
+        "view": "exterior",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": 415.859375,
+          "width": 350,
+          "height": 360,
+          "bottom": 775.859375,
+          "visible": true
+        },
+        "actions": {
+          "x": 20,
+          "y": 351.859375,
+          "width": 350,
+          "height": 48,
+          "bottom": 399.859375,
+          "visible": true
+        },
+        "map": {
+          "x": 20,
+          "y": 3134.65625,
+          "width": 350,
+          "height": 536,
+          "bottom": 3670.65625,
+          "visible": false
+        },
+        "controls": {
+          "x": 62.4453125,
+          "y": 3576.65625,
+          "width": 265.109375,
+          "height": 54,
+          "bottom": 3630.65625,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": "page"
+          },
+          {
+            "text": "Khám phá",
+            "current": null
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "directions": {
+        "url": "http://127.0.0.1:4490/vi/chi-duong",
+        "status": "Chọn điểm bắt đầu",
+        "disabled": true,
+        "route": false
+      }
+    },
+    {
+      "mall": "saigon",
+      "width": 390,
+      "locale": "vi",
+      "mode": "noWebGL+reducedMotion",
+      "checks": [
+        {
+          "name": "five shell navigation links visible without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Discovery usable without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Map usable without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Visit target reached",
+          "pass": true
+        },
+        {
+          "name": "Home navigation returns exterior",
+          "pass": true
+        },
+        {
+          "name": "Language switch preserves Home",
+          "pass": true
+        },
+        {
+          "name": "Directions asks for explicit start",
+          "pass": true
+        },
+        {
+          "name": "No horizontal overflow in shell/tasks",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "home": {
+        "url": "http://127.0.0.1:4490/vi",
+        "view": "exterior",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": 587.859375,
+          "width": 350,
+          "height": 360,
+          "bottom": 947.859375,
+          "visible": true
+        },
+        "actions": {
+          "x": 20,
+          "y": 523.859375,
+          "width": 350,
+          "height": 48,
+          "bottom": 571.859375,
+          "visible": true
+        },
+        "map": {
+          "x": 20,
+          "y": 3306.65625,
+          "width": 350,
+          "height": 536,
+          "bottom": 3842.65625,
+          "visible": false
+        },
+        "controls": {
+          "x": 62.4453125,
+          "y": 3748.65625,
+          "width": 265.109375,
+          "height": 54,
+          "bottom": 3802.65625,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": "page"
+          },
+          {
+            "text": "Khám phá",
+            "current": null
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "discovery": {
+        "url": "http://127.0.0.1:4490/vi?floor=L5&view=discovery",
+        "view": "discovery",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": -3508.34375,
+          "width": 350,
+          "height": 360,
+          "bottom": -3148.34375,
+          "visible": false
+        },
+        "actions": {
+          "x": 20,
+          "y": -5007.140625,
+          "width": 350,
+          "height": 48,
+          "bottom": -4959.140625,
+          "visible": false
+        },
+        "map": {
+          "x": 20,
+          "y": 160,
+          "width": 350,
+          "height": 64,
+          "bottom": 224,
+          "visible": true
+        },
+        "controls": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": null
+          },
+          {
+            "text": "Khám phá",
+            "current": "page"
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "map": {
+        "url": "http://127.0.0.1:4490/vi/tang/L5?floor=L5&view=map",
+        "view": "map",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": -1136.34375,
+          "width": 350,
+          "height": 360,
+          "bottom": -776.34375,
+          "visible": false
+        },
+        "actions": {
+          "x": 20,
+          "y": -2635.140625,
+          "width": 350,
+          "height": 48,
+          "bottom": -2587.140625,
+          "visible": false
+        },
+        "map": {
+          "x": 20,
+          "y": 160,
+          "width": 350,
+          "height": 536,
+          "bottom": 696,
+          "visible": true
+        },
+        "controls": {
+          "x": 62.4453125,
+          "y": 602,
+          "width": 265.109375,
+          "height": 54,
+          "bottom": 656,
+          "visible": true
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": null
+          },
+          {
+            "text": "Khám phá",
+            "current": null
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": "page"
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "visit": {
+        "url": "http://127.0.0.1:4490/vi?floor=L5&view=discovery",
+        "view": "discovery",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": -13334.34375,
+          "width": 350,
+          "height": 360,
+          "bottom": -12974.34375,
+          "visible": false
+        },
+        "actions": {
+          "x": 20,
+          "y": -14833.140625,
+          "width": 350,
+          "height": 48,
+          "bottom": -14785.140625,
+          "visible": false
+        },
+        "map": {
+          "x": 20,
+          "y": -454.671875,
+          "width": 350,
+          "height": 64,
+          "bottom": -390.671875,
+          "visible": false
+        },
+        "controls": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": null
+          },
+          {
+            "text": "Khám phá",
+            "current": "page"
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "language": {
+        "url": "http://127.0.0.1:4490/en?floor=L5&view=exterior",
+        "view": "exterior",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": 364.265625,
+          "width": 350,
+          "height": 360,
+          "bottom": 724.265625,
+          "visible": true
+        },
+        "actions": {
+          "x": 20,
+          "y": 300.265625,
+          "width": 350,
+          "height": 48,
+          "bottom": 348.265625,
+          "visible": true
+        },
+        "map": {
+          "x": 20,
+          "y": 3083.0625,
+          "width": 350,
+          "height": 536,
+          "bottom": 3619.0625,
+          "visible": false
+        },
+        "controls": {
+          "x": 61.296875,
+          "y": 3525.0625,
+          "width": 267.40625,
+          "height": 54,
+          "bottom": 3579.0625,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": "page"
+          },
+          {
+            "text": "Discovery",
+            "current": null
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "directions": {
+        "url": "http://127.0.0.1:4490/en/directions",
+        "status": "Choose your start",
+        "disabled": true,
+        "route": false
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 1280,
+      "locale": "en",
+      "mode": "noWebGL+reducedMotion",
+      "checks": [
+        {
+          "name": "five shell navigation links visible without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Discovery usable without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Map usable without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Visit target reached",
+          "pass": true
+        },
+        {
+          "name": "Home navigation returns exterior",
+          "pass": true
+        },
+        {
+          "name": "Language switch preserves Home",
+          "pass": true
+        },
+        {
+          "name": "Directions asks for explicit start",
+          "pass": true
+        },
+        {
+          "name": "No horizontal overflow in shell/tasks",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "home": {
+        "url": "http://127.0.0.1:4491/en",
+        "view": "exterior",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": 146.375,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": 846.375,
+          "visible": true
+        },
+        "actions": {
+          "x": 32,
+          "y": 746.359375,
+          "width": 380.34375,
+          "height": 110,
+          "bottom": 856.359375,
+          "visible": true
+        },
+        "map": {
+          "x": 90,
+          "y": 3476.375,
+          "width": 1100,
+          "height": 704,
+          "bottom": 4180.375,
+          "visible": false
+        },
+        "controls": {
+          "x": 493.96875,
+          "y": 4118.375,
+          "width": 292.0625,
+          "height": 62,
+          "bottom": 4180.375,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": "page"
+          },
+          {
+            "text": "Discovery",
+            "current": null
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "discovery": {
+        "url": "http://127.0.0.1:4491/en?floor=B2&view=discovery",
+        "view": "discovery",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": -4489.625,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": -3789.625,
+          "visible": false
+        },
+        "actions": {
+          "x": 32,
+          "y": -5529.640625,
+          "width": 380.34375,
+          "height": 110,
+          "bottom": -5419.640625,
+          "visible": false
+        },
+        "map": {
+          "x": 688.6328125,
+          "y": 184,
+          "width": 559.359375,
+          "height": 704,
+          "bottom": 888,
+          "visible": true
+        },
+        "controls": {
+          "x": 791.53125,
+          "y": 826,
+          "width": 353.546875,
+          "height": 62,
+          "bottom": 888,
+          "visible": true
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": null
+          },
+          {
+            "text": "Discovery",
+            "current": "page"
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "map": {
+        "url": "http://127.0.0.1:4491/en/floors/B2?floor=B2&view=map",
+        "view": "map",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": -1569.625,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": -869.625,
+          "visible": false
+        },
+        "actions": {
+          "x": 32,
+          "y": -2609.640625,
+          "width": 380.34375,
+          "height": 110,
+          "bottom": -2499.640625,
+          "visible": false
+        },
+        "map": {
+          "x": 90,
+          "y": 184,
+          "width": 1100,
+          "height": 704,
+          "bottom": 888,
+          "visible": true
+        },
+        "controls": {
+          "x": 493.96875,
+          "y": 826,
+          "width": 292.0625,
+          "height": 62,
+          "bottom": 888,
+          "visible": true
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": null
+          },
+          {
+            "text": "Discovery",
+            "current": null
+          },
+          {
+            "text": "Floor map",
+            "current": "page"
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "visit": {
+        "url": "http://127.0.0.1:4491/en?floor=B2&view=discovery",
+        "view": "discovery",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": -13125.625,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": -12425.625,
+          "visible": false
+        },
+        "actions": {
+          "x": 32,
+          "y": -14165.640625,
+          "width": 380.34375,
+          "height": 110,
+          "bottom": -14055.640625,
+          "visible": false
+        },
+        "map": {
+          "x": 688.6328125,
+          "y": -664.3125,
+          "width": 559.359375,
+          "height": 704,
+          "bottom": 39.6875,
+          "visible": true
+        },
+        "controls": {
+          "x": 791.53125,
+          "y": -22.3125,
+          "width": 353.546875,
+          "height": 62,
+          "bottom": 39.6875,
+          "visible": true
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": null
+          },
+          {
+            "text": "Discovery",
+            "current": "page"
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "language": {
+        "url": "http://127.0.0.1:4491/vi?floor=B2&view=exterior",
+        "view": "exterior",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": 120,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": 820,
+          "visible": true
+        },
+        "actions": {
+          "x": 32,
+          "y": 630.359375,
+          "width": 380.34375,
+          "height": 50,
+          "bottom": 680.359375,
+          "visible": true
+        },
+        "map": {
+          "x": 90,
+          "y": 3330.375,
+          "width": 1100,
+          "height": 704,
+          "bottom": 4034.375,
+          "visible": false
+        },
+        "controls": {
+          "x": 495.1171875,
+          "y": 3972.375,
+          "width": 289.765625,
+          "height": 62,
+          "bottom": 4034.375,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": "page"
+          },
+          {
+            "text": "Khám phá",
+            "current": null
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "directions": {
+        "url": "http://127.0.0.1:4491/vi/chi-duong",
+        "status": "Chọn điểm bắt đầu",
+        "disabled": true,
+        "route": false
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 1280,
+      "locale": "vi",
+      "mode": "noWebGL+reducedMotion",
+      "checks": [
+        {
+          "name": "five shell navigation links visible without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Discovery usable without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Map usable without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Visit target reached",
+          "pass": true
+        },
+        {
+          "name": "Home navigation returns exterior",
+          "pass": true
+        },
+        {
+          "name": "Language switch preserves Home",
+          "pass": true
+        },
+        {
+          "name": "Directions asks for explicit start",
+          "pass": true
+        },
+        {
+          "name": "No horizontal overflow in shell/tasks",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "home": {
+        "url": "http://127.0.0.1:4491/vi",
+        "view": "exterior",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": 146.375,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": 846.375,
+          "visible": true
+        },
+        "actions": {
+          "x": 32,
+          "y": 776.359375,
+          "width": 380.34375,
+          "height": 50,
+          "bottom": 826.359375,
+          "visible": true
+        },
+        "map": {
+          "x": 90,
+          "y": 3476.375,
+          "width": 1100,
+          "height": 704,
+          "bottom": 4180.375,
+          "visible": false
+        },
+        "controls": {
+          "x": 495.1171875,
+          "y": 4118.375,
+          "width": 289.765625,
+          "height": 62,
+          "bottom": 4180.375,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": "page"
+          },
+          {
+            "text": "Khám phá",
+            "current": null
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "discovery": {
+        "url": "http://127.0.0.1:4491/vi?floor=B2&view=discovery",
+        "view": "discovery",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": -4489.625,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": -3789.625,
+          "visible": false
+        },
+        "actions": {
+          "x": 32,
+          "y": -5499.640625,
+          "width": 380.34375,
+          "height": 50,
+          "bottom": -5449.640625,
+          "visible": false
+        },
+        "map": {
+          "x": 688.6328125,
+          "y": 184,
+          "width": 559.359375,
+          "height": 704,
+          "bottom": 888,
+          "visible": true
+        },
+        "controls": {
+          "x": 782.0859375,
+          "y": 826,
+          "width": 372.4375,
+          "height": 62,
+          "bottom": 888,
+          "visible": true
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": null
+          },
+          {
+            "text": "Khám phá",
+            "current": "page"
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "map": {
+        "url": "http://127.0.0.1:4491/vi/tang/B2?floor=B2&view=map",
+        "view": "map",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": -1569.625,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": -869.625,
+          "visible": false
+        },
+        "actions": {
+          "x": 32,
+          "y": -2579.640625,
+          "width": 380.34375,
+          "height": 50,
+          "bottom": -2529.640625,
+          "visible": false
+        },
+        "map": {
+          "x": 90,
+          "y": 184,
+          "width": 1100,
+          "height": 704,
+          "bottom": 888,
+          "visible": true
+        },
+        "controls": {
+          "x": 495.1171875,
+          "y": 826,
+          "width": 289.765625,
+          "height": 62,
+          "bottom": 888,
+          "visible": true
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": null
+          },
+          {
+            "text": "Khám phá",
+            "current": null
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": "page"
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "visit": {
+        "url": "http://127.0.0.1:4491/vi?floor=B2&view=discovery",
+        "view": "discovery",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": -13126.625,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": -12426.625,
+          "visible": false
+        },
+        "actions": {
+          "x": 32,
+          "y": -14136.640625,
+          "width": 380.34375,
+          "height": 50,
+          "bottom": -14086.640625,
+          "visible": false
+        },
+        "map": {
+          "x": 688.6328125,
+          "y": -663.71875,
+          "width": 559.359375,
+          "height": 704,
+          "bottom": 40.28125,
+          "visible": true
+        },
+        "controls": {
+          "x": 782.0859375,
+          "y": -21.71875,
+          "width": 372.4375,
+          "height": 62,
+          "bottom": 40.28125,
+          "visible": true
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": null
+          },
+          {
+            "text": "Khám phá",
+            "current": "page"
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "language": {
+        "url": "http://127.0.0.1:4491/en?floor=B2&view=exterior",
+        "view": "exterior",
+        "width": 1280,
+        "overflow": 0,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": 120,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": 820,
+          "visible": true
+        },
+        "actions": {
+          "x": 32,
+          "y": 600.359375,
+          "width": 380.34375,
+          "height": 110,
+          "bottom": 710.359375,
+          "visible": true
+        },
+        "map": {
+          "x": 90,
+          "y": 3330.375,
+          "width": 1100,
+          "height": 704,
+          "bottom": 4034.375,
+          "visible": false
+        },
+        "controls": {
+          "x": 493.96875,
+          "y": 3972.375,
+          "width": 292.0625,
+          "height": 62,
+          "bottom": 4034.375,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": "page"
+          },
+          {
+            "text": "Discovery",
+            "current": null
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "directions": {
+        "url": "http://127.0.0.1:4491/en/directions",
+        "status": "Choose your start",
+        "disabled": true,
+        "route": false
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 390,
+      "locale": "en",
+      "mode": "noWebGL+reducedMotion",
+      "checks": [
+        {
+          "name": "five shell navigation links visible without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Discovery usable without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Map usable without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Visit target reached",
+          "pass": true
+        },
+        {
+          "name": "Home navigation returns exterior",
+          "pass": true
+        },
+        {
+          "name": "Language switch preserves Home",
+          "pass": true
+        },
+        {
+          "name": "Directions asks for explicit start",
+          "pass": true
+        },
+        {
+          "name": "No horizontal overflow in shell/tasks",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "home": {
+        "url": "http://127.0.0.1:4491/en",
+        "view": "exterior",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": 600.0625,
+          "width": 350,
+          "height": 360,
+          "bottom": 960.0625,
+          "visible": true
+        },
+        "actions": {
+          "x": 20,
+          "y": 536.0625,
+          "width": 350,
+          "height": 48,
+          "bottom": 584.0625,
+          "visible": true
+        },
+        "map": {
+          "x": 20,
+          "y": 3318.859375,
+          "width": 350,
+          "height": 536,
+          "bottom": 3854.859375,
+          "visible": false
+        },
+        "controls": {
+          "x": 60.96875,
+          "y": 3760.859375,
+          "width": 268.0625,
+          "height": 54,
+          "bottom": 3814.859375,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": "page"
+          },
+          {
+            "text": "Discovery",
+            "current": null
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "discovery": {
+        "url": "http://127.0.0.1:4491/en?floor=B2&view=discovery",
+        "view": "discovery",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": -3508.140625,
+          "width": 350,
+          "height": 360,
+          "bottom": -3148.140625,
+          "visible": false
+        },
+        "actions": {
+          "x": 20,
+          "y": -5006.9375,
+          "width": 350,
+          "height": 48,
+          "bottom": -4958.9375,
+          "visible": false
+        },
+        "map": {
+          "x": 20,
+          "y": 160,
+          "width": 350,
+          "height": 64,
+          "bottom": 224,
+          "visible": true
+        },
+        "controls": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": null
+          },
+          {
+            "text": "Discovery",
+            "current": "page"
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "map": {
+        "url": "http://127.0.0.1:4491/en/floors/B2?floor=B2&view=map",
+        "view": "map",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": -1136.140625,
+          "width": 350,
+          "height": 360,
+          "bottom": -776.140625,
+          "visible": false
+        },
+        "actions": {
+          "x": 20,
+          "y": -2634.9375,
+          "width": 350,
+          "height": 48,
+          "bottom": -2586.9375,
+          "visible": false
+        },
+        "map": {
+          "x": 20,
+          "y": 160,
+          "width": 350,
+          "height": 536,
+          "bottom": 696,
+          "visible": true
+        },
+        "controls": {
+          "x": 60.96875,
+          "y": 602,
+          "width": 268.0625,
+          "height": 54,
+          "bottom": 656,
+          "visible": true
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": null
+          },
+          {
+            "text": "Discovery",
+            "current": null
+          },
+          {
+            "text": "Floor map",
+            "current": "page"
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "visit": {
+        "url": "http://127.0.0.1:4491/en?floor=B2&view=discovery",
+        "view": "discovery",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": -13849.140625,
+          "width": 350,
+          "height": 360,
+          "bottom": -13489.140625,
+          "visible": false
+        },
+        "actions": {
+          "x": 20,
+          "y": -15347.9375,
+          "width": 350,
+          "height": 48,
+          "bottom": -15299.9375,
+          "visible": false
+        },
+        "map": {
+          "x": 20,
+          "y": -509.65625,
+          "width": 350,
+          "height": 64,
+          "bottom": -445.65625,
+          "visible": false
+        },
+        "controls": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": null
+          },
+          {
+            "text": "Discovery",
+            "current": "page"
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "language": {
+        "url": "http://127.0.0.1:4491/vi?floor=B2&view=exterior",
+        "view": "exterior",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": 453.65625,
+          "width": 350,
+          "height": 360,
+          "bottom": 813.65625,
+          "visible": true
+        },
+        "actions": {
+          "x": 20,
+          "y": 389.65625,
+          "width": 350,
+          "height": 48,
+          "bottom": 437.65625,
+          "visible": true
+        },
+        "map": {
+          "x": 20,
+          "y": 3172.453125,
+          "width": 350,
+          "height": 536,
+          "bottom": 3708.453125,
+          "visible": false
+        },
+        "controls": {
+          "x": 62.1171875,
+          "y": 3614.453125,
+          "width": 265.765625,
+          "height": 54,
+          "bottom": 3668.453125,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": "page"
+          },
+          {
+            "text": "Khám phá",
+            "current": null
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "directions": {
+        "url": "http://127.0.0.1:4491/vi/chi-duong",
+        "status": "Chọn điểm bắt đầu",
+        "disabled": true,
+        "route": false
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 390,
+      "locale": "vi",
+      "mode": "noWebGL+reducedMotion",
+      "checks": [
+        {
+          "name": "five shell navigation links visible without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Discovery usable without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Map usable without WebGL",
+          "pass": true
+        },
+        {
+          "name": "Visit target reached",
+          "pass": true
+        },
+        {
+          "name": "Home navigation returns exterior",
+          "pass": true
+        },
+        {
+          "name": "Language switch preserves Home",
+          "pass": true
+        },
+        {
+          "name": "Directions asks for explicit start",
+          "pass": true
+        },
+        {
+          "name": "No horizontal overflow in shell/tasks",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "home": {
+        "url": "http://127.0.0.1:4491/vi",
+        "view": "exterior",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": 625.65625,
+          "width": 350,
+          "height": 360,
+          "bottom": 985.65625,
+          "visible": true
+        },
+        "actions": {
+          "x": 20,
+          "y": 561.65625,
+          "width": 350,
+          "height": 48,
+          "bottom": 609.65625,
+          "visible": true
+        },
+        "map": {
+          "x": 20,
+          "y": 3344.453125,
+          "width": 350,
+          "height": 536,
+          "bottom": 3880.453125,
+          "visible": false
+        },
+        "controls": {
+          "x": 62.1171875,
+          "y": 3786.453125,
+          "width": 265.765625,
+          "height": 54,
+          "bottom": 3840.453125,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": "page"
+          },
+          {
+            "text": "Khám phá",
+            "current": null
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "discovery": {
+        "url": "http://127.0.0.1:4491/vi?floor=B2&view=discovery",
+        "view": "discovery",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": -3508.546875,
+          "width": 350,
+          "height": 360,
+          "bottom": -3148.546875,
+          "visible": false
+        },
+        "actions": {
+          "x": 20,
+          "y": -5007.34375,
+          "width": 350,
+          "height": 48,
+          "bottom": -4959.34375,
+          "visible": false
+        },
+        "map": {
+          "x": 20,
+          "y": 160,
+          "width": 350,
+          "height": 64,
+          "bottom": 224,
+          "visible": true
+        },
+        "controls": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": null
+          },
+          {
+            "text": "Khám phá",
+            "current": "page"
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "map": {
+        "url": "http://127.0.0.1:4491/vi/tang/B2?floor=B2&view=map",
+        "view": "map",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": -1135.546875,
+          "width": 350,
+          "height": 360,
+          "bottom": -775.546875,
+          "visible": false
+        },
+        "actions": {
+          "x": 20,
+          "y": -2634.34375,
+          "width": 350,
+          "height": 48,
+          "bottom": -2586.34375,
+          "visible": false
+        },
+        "map": {
+          "x": 20,
+          "y": 160,
+          "width": 350,
+          "height": 536,
+          "bottom": 696,
+          "visible": true
+        },
+        "controls": {
+          "x": 62.1171875,
+          "y": 602,
+          "width": 265.765625,
+          "height": 54,
+          "bottom": 656,
+          "visible": true
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": null
+          },
+          {
+            "text": "Khám phá",
+            "current": null
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": "page"
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "visit": {
+        "url": "http://127.0.0.1:4491/vi?floor=B2&view=discovery",
+        "view": "discovery",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": -13848.546875,
+          "width": 350,
+          "height": 360,
+          "bottom": -13488.546875,
+          "visible": false
+        },
+        "actions": {
+          "x": 20,
+          "y": -15347.34375,
+          "width": 350,
+          "height": 48,
+          "bottom": -15299.34375,
+          "visible": false
+        },
+        "map": {
+          "x": 20,
+          "y": -509.0625,
+          "width": 350,
+          "height": 64,
+          "bottom": -445.0625,
+          "visible": false
+        },
+        "controls": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": null
+          },
+          {
+            "text": "Khám phá",
+            "current": "page"
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "language": {
+        "url": "http://127.0.0.1:4491/en?floor=B2&view=exterior",
+        "view": "exterior",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": 402.0625,
+          "width": 350,
+          "height": 360,
+          "bottom": 762.0625,
+          "visible": true
+        },
+        "actions": {
+          "x": 20,
+          "y": 338.0625,
+          "width": 350,
+          "height": 48,
+          "bottom": 386.0625,
+          "visible": true
+        },
+        "map": {
+          "x": 20,
+          "y": 3120.859375,
+          "width": 350,
+          "height": 536,
+          "bottom": 3656.859375,
+          "visible": false
+        },
+        "controls": {
+          "x": 60.96875,
+          "y": 3562.859375,
+          "width": 268.0625,
+          "height": 54,
+          "bottom": 3616.859375,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": "page"
+          },
+          {
+            "text": "Discovery",
+            "current": null
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186"
+        }
+      },
+      "directions": {
+        "url": "http://127.0.0.1:4491/en/directions",
+        "status": "Choose your start",
+        "disabled": true,
+        "route": false
+      }
+    },
+    {
+      "mall": "saigon",
+      "width": 1280,
+      "locale": "en",
+      "mode": "actual-model",
+      "samples": [],
+      "checks": [
+        {
+          "name": "exterior panel stays within viewport horizontally",
+          "pass": true
+        }
+      ],
+      "ready": {
+        "url": "http://127.0.0.1:4490/en",
+        "view": "exterior",
+        "width": 1280,
+        "overflow": 48,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": 120,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": 820,
+          "visible": true
+        },
+        "actions": {
+          "x": 32,
+          "y": 563.734375,
+          "width": 380.34375,
+          "height": 110,
+          "bottom": 673.734375,
+          "visible": true
+        },
+        "map": {
+          "x": 90,
+          "y": 3330,
+          "width": 1100,
+          "height": 704,
+          "bottom": 4034,
+          "visible": false
+        },
+        "controls": {
+          "x": 494.296875,
+          "y": 3972,
+          "width": 291.40625,
+          "height": 62,
+          "bottom": 4034,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": "page"
+          },
+          {
+            "text": "Discovery",
+            "current": null
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186",
+          "exteriorClearance": "3.9167730424282907",
+          "arrivalStage": "establish",
+          "arrivalProgress": "0.0027272727272727275",
+          "arrivalDistance": "1.179958968658892",
+          "arrivalFocusY": "0",
+          "renderedFrames": "40",
+          "sceneKey": "saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2+owner-approved-directory-2026-10-18-r1-geometry:exterior:all",
+          "completeFrame": "37",
+          "arrival": "playing"
+        }
+      },
+      "controls": {
+        "rect": {
+          "x": 700.25,
+          "y": 442.390625,
+          "width": 280,
+          "height": 312.609375,
+          "top": 442.390625,
+          "right": 980.25,
+          "bottom": 755,
+          "left": 700.25
+        },
+        "buttons": [
+          {
+            "label": "Rotate left",
+            "rect": {
+              "x": 867.25,
+              "y": 507.203125,
+              "width": 44,
+              "height": 44,
+              "top": 507.203125,
+              "right": 911.25,
+              "bottom": 551.203125,
+              "left": 867.25
+            }
+          },
+          {
+            "label": "Rotate right",
+            "rect": {
+              "x": 919.25,
+              "y": 507.203125,
+              "width": 44,
+              "height": 44,
+              "top": 507.203125,
+              "right": 963.25,
+              "bottom": 551.203125,
+              "left": 919.25
+            }
+          },
+          {
+            "label": "Look down",
+            "rect": {
+              "x": 867.25,
+              "y": 559.203125,
+              "width": 44,
+              "height": 44,
+              "top": 559.203125,
+              "right": 911.25,
+              "bottom": 603.203125,
+              "left": 867.25
+            }
+          },
+          {
+            "label": "Look up",
+            "rect": {
+              "x": 919.25,
+              "y": 559.203125,
+              "width": 44,
+              "height": 44,
+              "top": 559.203125,
+              "right": 963.25,
+              "bottom": 603.203125,
+              "left": 919.25
+            }
+          },
+          {
+            "label": "Zoom out",
+            "rect": {
+              "x": 867.25,
+              "y": 611.203125,
+              "width": 44,
+              "height": 44,
+              "top": 611.203125,
+              "right": 911.25,
+              "bottom": 655.203125,
+              "left": 867.25
+            }
+          },
+          {
+            "label": "Zoom in",
+            "rect": {
+              "x": 919.25,
+              "y": 611.203125,
+              "width": 44,
+              "height": 44,
+              "top": 611.203125,
+              "right": 963.25,
+              "bottom": 655.203125,
+              "left": 919.25
+            }
+          },
+          {
+            "label": "Reset view",
+            "rect": {
+              "x": 717.25,
+              "y": 667.203125,
+              "width": 246,
+              "height": 44,
+              "top": 667.203125,
+              "right": 963.25,
+              "bottom": 711.203125,
+              "left": 717.25
+            }
+          }
+        ]
+      }
+    },
+    {
+      "mall": "saigon",
+      "width": 390,
+      "locale": "vi",
+      "mode": "actual-model",
+      "samples": [],
+      "checks": [
+        {
+          "name": "exterior panel stays within viewport horizontally",
+          "pass": true
+        }
+      ],
+      "ready": {
+        "url": "http://127.0.0.1:4490/vi",
+        "view": "exterior",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": 390.296875,
+          "width": 350,
+          "height": 360,
+          "bottom": 750.296875,
+          "visible": true
+        },
+        "actions": {
+          "x": 20,
+          "y": 326.296875,
+          "width": 350,
+          "height": 48,
+          "bottom": 374.296875,
+          "visible": true
+        },
+        "map": {
+          "x": 20,
+          "y": 3109.09375,
+          "width": 350,
+          "height": 536,
+          "bottom": 3645.09375,
+          "visible": false
+        },
+        "controls": {
+          "x": 62.4453125,
+          "y": 3551.09375,
+          "width": 265.109375,
+          "height": 54,
+          "bottom": 3605.09375,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": "page"
+          },
+          {
+            "text": "Khám phá",
+            "current": null
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186",
+          "exteriorClearance": "4.016900300146564",
+          "arrivalStage": "establish",
+          "arrivalProgress": "0.002745454545454529",
+          "arrivalDistance": "1.1799584217449854",
+          "arrivalFocusY": "0",
+          "renderedFrames": "40",
+          "sceneKey": "saigon-centre:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2+owner-approved-directory-2026-10-18-r1-geometry:exterior:all",
+          "completeFrame": "37",
+          "arrival": "playing"
+        }
+      },
+      "controls": {
+        "rect": {
+          "x": 38.703125,
+          "y": 414.6875,
+          "width": 270,
+          "height": 312.609375,
+          "top": 414.6875,
+          "right": 308.703125,
+          "bottom": 727.296875,
+          "left": 38.703125
+        },
+        "buttons": [
+          {
+            "label": "Xoay trái",
+            "rect": {
+              "x": 195.703125,
+              "y": 479.5,
+              "width": 44,
+              "height": 44,
+              "top": 479.5,
+              "right": 239.703125,
+              "bottom": 523.5,
+              "left": 195.703125
+            }
+          },
+          {
+            "label": "Xoay phải",
+            "rect": {
+              "x": 247.703125,
+              "y": 479.5,
+              "width": 44,
+              "height": 44,
+              "top": 479.5,
+              "right": 291.703125,
+              "bottom": 523.5,
+              "left": 247.703125
+            }
+          },
+          {
+            "label": "Nhìn xuống",
+            "rect": {
+              "x": 195.703125,
+              "y": 531.5,
+              "width": 44,
+              "height": 44,
+              "top": 531.5,
+              "right": 239.703125,
+              "bottom": 575.5,
+              "left": 195.703125
+            }
+          },
+          {
+            "label": "Nhìn lên",
+            "rect": {
+              "x": 247.703125,
+              "y": 531.5,
+              "width": 44,
+              "height": 44,
+              "top": 531.5,
+              "right": 291.703125,
+              "bottom": 575.5,
+              "left": 247.703125
+            }
+          },
+          {
+            "label": "Thu nhỏ",
+            "rect": {
+              "x": 195.703125,
+              "y": 583.5,
+              "width": 44,
+              "height": 44,
+              "top": 583.5,
+              "right": 239.703125,
+              "bottom": 627.5,
+              "left": 195.703125
+            }
+          },
+          {
+            "label": "Phóng to",
+            "rect": {
+              "x": 247.703125,
+              "y": 583.5,
+              "width": 44,
+              "height": 44,
+              "top": 583.5,
+              "right": 291.703125,
+              "bottom": 627.5,
+              "left": 247.703125
+            }
+          },
+          {
+            "label": "Đặt lại",
+            "rect": {
+              "x": 55.703125,
+              "y": 639.5,
+              "width": 236,
+              "height": 44,
+              "top": 639.5,
+              "right": 291.703125,
+              "bottom": 683.5,
+              "left": 55.703125
+            }
+          }
+        ]
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 1280,
+      "locale": "en",
+      "mode": "actual-model",
+      "samples": [],
+      "checks": [
+        {
+          "name": "exterior panel stays within viewport horizontally",
+          "pass": true
+        }
+      ],
+      "ready": {
+        "url": "http://127.0.0.1:4491/en",
+        "view": "exterior",
+        "width": 1280,
+        "overflow": 48,
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "bottom": 88,
+          "visible": true
+        },
+        "model": {
+          "x": 494.0625,
+          "y": 120,
+          "width": 753.90625,
+          "height": 700,
+          "bottom": 820,
+          "visible": true
+        },
+        "actions": {
+          "x": 32,
+          "y": 599.984375,
+          "width": 380.34375,
+          "height": 110,
+          "bottom": 709.984375,
+          "visible": true
+        },
+        "map": {
+          "x": 90,
+          "y": 3330,
+          "width": 1100,
+          "height": 704,
+          "bottom": 4034,
+          "visible": false
+        },
+        "controls": {
+          "x": 493.96875,
+          "y": 3972,
+          "width": 292.0625,
+          "height": 62,
+          "bottom": 4034,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Home",
+            "current": "page"
+          },
+          {
+            "text": "Discovery",
+            "current": null
+          },
+          {
+            "text": "Floor map",
+            "current": null
+          },
+          {
+            "text": "Directions",
+            "current": null
+          },
+          {
+            "text": "Visit",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186",
+          "exteriorClearance": "3.916938387219967",
+          "arrivalStage": "establish",
+          "arrivalProgress": "0",
+          "arrivalDistance": "1.18",
+          "arrivalFocusY": "0",
+          "renderedFrames": "39",
+          "sceneKey": "vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2+owner-approved-directory-2026-10-18-r1-geometry:exterior:all",
+          "completeFrame": "37",
+          "arrival": "playing"
+        }
+      },
+      "controls": {
+        "rect": {
+          "x": 700.25,
+          "y": 442.390625,
+          "width": 280,
+          "height": 312.609375,
+          "top": 442.390625,
+          "right": 980.25,
+          "bottom": 755,
+          "left": 700.25
+        },
+        "buttons": [
+          {
+            "label": "Rotate left",
+            "rect": {
+              "x": 867.25,
+              "y": 507.203125,
+              "width": 44,
+              "height": 44,
+              "top": 507.203125,
+              "right": 911.25,
+              "bottom": 551.203125,
+              "left": 867.25
+            }
+          },
+          {
+            "label": "Rotate right",
+            "rect": {
+              "x": 919.25,
+              "y": 507.203125,
+              "width": 44,
+              "height": 44,
+              "top": 507.203125,
+              "right": 963.25,
+              "bottom": 551.203125,
+              "left": 919.25
+            }
+          },
+          {
+            "label": "Look down",
+            "rect": {
+              "x": 867.25,
+              "y": 559.203125,
+              "width": 44,
+              "height": 44,
+              "top": 559.203125,
+              "right": 911.25,
+              "bottom": 603.203125,
+              "left": 867.25
+            }
+          },
+          {
+            "label": "Look up",
+            "rect": {
+              "x": 919.25,
+              "y": 559.203125,
+              "width": 44,
+              "height": 44,
+              "top": 559.203125,
+              "right": 963.25,
+              "bottom": 603.203125,
+              "left": 919.25
+            }
+          },
+          {
+            "label": "Zoom out",
+            "rect": {
+              "x": 867.25,
+              "y": 611.203125,
+              "width": 44,
+              "height": 44,
+              "top": 611.203125,
+              "right": 911.25,
+              "bottom": 655.203125,
+              "left": 867.25
+            }
+          },
+          {
+            "label": "Zoom in",
+            "rect": {
+              "x": 919.25,
+              "y": 611.203125,
+              "width": 44,
+              "height": 44,
+              "top": 611.203125,
+              "right": 963.25,
+              "bottom": 655.203125,
+              "left": 919.25
+            }
+          },
+          {
+            "label": "Reset view",
+            "rect": {
+              "x": 717.25,
+              "y": 667.203125,
+              "width": 246,
+              "height": 44,
+              "top": 667.203125,
+              "right": 963.25,
+              "bottom": 711.203125,
+              "left": 717.25
+            }
+          }
+        ]
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 390,
+      "locale": "vi",
+      "mode": "actual-model",
+      "samples": [],
+      "checks": [
+        {
+          "name": "exterior panel stays within viewport horizontally",
+          "pass": true
+        }
+      ],
+      "ready": {
+        "url": "http://127.0.0.1:4491/vi",
+        "view": "exterior",
+        "width": 390,
+        "overflow": 0,
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "bottom": 112,
+          "visible": true
+        },
+        "model": {
+          "x": 20,
+          "y": 428.09375,
+          "width": 350,
+          "height": 360,
+          "bottom": 788.09375,
+          "visible": true
+        },
+        "actions": {
+          "x": 20,
+          "y": 364.09375,
+          "width": 350,
+          "height": 48,
+          "bottom": 412.09375,
+          "visible": true
+        },
+        "map": {
+          "x": 20,
+          "y": 3146.890625,
+          "width": 350,
+          "height": 536,
+          "bottom": 3682.890625,
+          "visible": false
+        },
+        "controls": {
+          "x": 62.1171875,
+          "y": 3588.890625,
+          "width": 265.765625,
+          "height": 54,
+          "bottom": 3642.890625,
+          "visible": false
+        },
+        "nav": [
+          {
+            "text": "Trang chủ",
+            "current": "page"
+          },
+          {
+            "text": "Khám phá",
+            "current": null
+          },
+          {
+            "text": "Sơ đồ tầng",
+            "current": null
+          },
+          {
+            "text": "Chỉ đường",
+            "current": null
+          },
+          {
+            "text": "Ghé thăm",
+            "current": null
+          }
+        ],
+        "canvas": {
+          "engine": "three.js r186",
+          "exteriorClearance": "4.017071239505988",
+          "arrivalStage": "establish",
+          "arrivalProgress": "0",
+          "arrivalDistance": "1.18",
+          "arrivalFocusY": "0",
+          "renderedFrames": "39",
+          "sceneKey": "vincom-dong-khoi:photo-polish-2026-10-12-delivery-r2:source-palette-schematic-2026-10-13-r2+owner-approved-directory-2026-10-18-r1-geometry:exterior:all",
+          "completeFrame": "37",
+          "arrival": "playing"
+        }
+      },
+      "controls": {
+        "rect": {
+          "x": 38.703125,
+          "y": 452.484375,
+          "width": 270,
+          "height": 312.609375,
+          "top": 452.484375,
+          "right": 308.703125,
+          "bottom": 765.09375,
+          "left": 38.703125
+        },
+        "buttons": [
+          {
+            "label": "Xoay trái",
+            "rect": {
+              "x": 195.703125,
+              "y": 517.296875,
+              "width": 44,
+              "height": 44,
+              "top": 517.296875,
+              "right": 239.703125,
+              "bottom": 561.296875,
+              "left": 195.703125
+            }
+          },
+          {
+            "label": "Xoay phải",
+            "rect": {
+              "x": 247.703125,
+              "y": 517.296875,
+              "width": 44,
+              "height": 44,
+              "top": 517.296875,
+              "right": 291.703125,
+              "bottom": 561.296875,
+              "left": 247.703125
+            }
+          },
+          {
+            "label": "Nhìn xuống",
+            "rect": {
+              "x": 195.703125,
+              "y": 569.296875,
+              "width": 44,
+              "height": 44,
+              "top": 569.296875,
+              "right": 239.703125,
+              "bottom": 613.296875,
+              "left": 195.703125
+            }
+          },
+          {
+            "label": "Nhìn lên",
+            "rect": {
+              "x": 247.703125,
+              "y": 569.296875,
+              "width": 44,
+              "height": 44,
+              "top": 569.296875,
+              "right": 291.703125,
+              "bottom": 613.296875,
+              "left": 247.703125
+            }
+          },
+          {
+            "label": "Thu nhỏ",
+            "rect": {
+              "x": 195.703125,
+              "y": 621.296875,
+              "width": 44,
+              "height": 44,
+              "top": 621.296875,
+              "right": 239.703125,
+              "bottom": 665.296875,
+              "left": 195.703125
+            }
+          },
+          {
+            "label": "Phóng to",
+            "rect": {
+              "x": 247.703125,
+              "y": 621.296875,
+              "width": 44,
+              "height": 44,
+              "top": 621.296875,
+              "right": 291.703125,
+              "bottom": 665.296875,
+              "left": 247.703125
+            }
+          },
+          {
+            "label": "Đặt lại",
+            "rect": {
+              "x": 55.703125,
+              "y": 677.296875,
+              "width": 236,
+              "height": 44,
+              "top": 677.296875,
+              "right": 291.703125,
+              "bottom": 721.296875,
+              "left": 55.703125
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "findings": []
+}

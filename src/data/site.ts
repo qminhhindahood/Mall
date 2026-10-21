@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import type { FloorDataset, MallId } from '../runtime/scene-contract';
 import { validateContent, type DirectorySnapshot } from './content';
+import { applyPrecisionHolds, type PrecisionHolds } from './precision-holds';
 export type { Destination } from './content';
 import type { Destination } from './content';
 export type SiteData = {
@@ -44,7 +45,9 @@ if (process.env.INCLUDE_TEST_FIXTURES === '1') {
   const { createFixtures } = await import('./fixtures');
   snapshot = createFixtures(mallId,geometry);
 }
-const content = validateContent(snapshot,mallId,geometry);
+const approvedContent = validateContent(snapshot,mallId,geometry);
+const precisionHolds: PrecisionHolds = JSON.parse(fs.readFileSync(path.join(process.cwd(),'data','research','vincom-precision-holds-2026-10-21-r1.json'),'utf8'));
+const content = validateContent(applyPrecisionHolds(approvedContent,precisionHolds),mallId,geometry);
 const destinations = content.destinations;
 const manifestPath = path.join(process.cwd(),'data','malls',mallId,'asset-manifest.json');
 const manifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath,'utf8')) : {};

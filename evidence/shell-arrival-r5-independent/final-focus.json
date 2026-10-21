@@ -1,0 +1,207 @@
+{
+  "scope": "Final rebuild focused confirmation only; earlier 12-case receipt retained separately.",
+  "cases": [
+    {
+      "mall": "saigon",
+      "width": 1280,
+      "mode": "noWebGL",
+      "checks": [
+        {
+          "name": "Failure explanation below fixed header and in viewport",
+          "pass": true
+        },
+        {
+          "name": "Exterior controls hidden in Map",
+          "pass": true
+        },
+        {
+          "name": "Exterior controls hidden in Discovery",
+          "pass": true
+        },
+        {
+          "name": "No page errors",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "alert": {
+        "text": "3D could not be prepared. The guide and static previews below remain usable.Retry 3D",
+        "paragraph": {
+          "x": 49,
+          "y": 131,
+          "width": 1182,
+          "height": 25.59375,
+          "top": 131,
+          "right": 1231,
+          "bottom": 156.59375,
+          "left": 49
+        },
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 1232,
+          "height": 72,
+          "top": 16,
+          "right": 1256,
+          "bottom": 88,
+          "left": 24
+        },
+        "visible": true
+      },
+      "mapControls": {
+        "visibility": "hidden",
+        "display": "flex"
+      },
+      "discoveryControls": {
+        "visibility": "hidden",
+        "display": "flex"
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 390,
+      "mode": "noWebGL",
+      "checks": [
+        {
+          "name": "Failure explanation below fixed header and in viewport",
+          "pass": true
+        },
+        {
+          "name": "Exterior controls hidden in Map",
+          "pass": true
+        },
+        {
+          "name": "Exterior controls hidden in Discovery",
+          "pass": true
+        },
+        {
+          "name": "No page errors",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "alert": {
+        "text": "3D could not be prepared. The guide and static previews below remain usable.Retry 3D",
+        "paragraph": {
+          "x": 45,
+          "y": 147,
+          "width": 300,
+          "height": 76.78125,
+          "top": 147,
+          "right": 345,
+          "bottom": 223.78125,
+          "left": 45
+        },
+        "header": {
+          "x": 12,
+          "y": 8,
+          "width": 366,
+          "height": 104,
+          "top": 8,
+          "right": 378,
+          "bottom": 112,
+          "left": 12
+        },
+        "visible": true
+      },
+      "mapControls": {
+        "visibility": "hidden",
+        "display": "flex"
+      },
+      "discoveryControls": {
+        "visibility": "hidden",
+        "display": "flex"
+      }
+    },
+    {
+      "mall": "saigon",
+      "width": 390,
+      "mode": "actual-model",
+      "checks": [
+        {
+          "name": "Actual model complete frame present",
+          "pass": true
+        },
+        {
+          "name": "Exterior controls hidden in Map",
+          "pass": true
+        },
+        {
+          "name": "Exterior controls hidden in Discovery",
+          "pass": true
+        },
+        {
+          "name": "No page errors",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "palette": {
+        "paper": "#f7f6ef",
+        "canvas": {
+          "x": 20,
+          "y": 390.296875,
+          "width": 350,
+          "height": 360,
+          "top": 390.296875,
+          "right": 370,
+          "bottom": 750.296875,
+          "left": 20
+        }
+      },
+      "mapControls": {
+        "visibility": "hidden",
+        "display": "flex"
+      },
+      "discoveryControls": {
+        "visibility": "hidden",
+        "display": "flex"
+      }
+    },
+    {
+      "mall": "vincom",
+      "width": 1280,
+      "mode": "actual-model",
+      "checks": [
+        {
+          "name": "Actual model complete frame present",
+          "pass": true
+        },
+        {
+          "name": "Exterior controls hidden in Map",
+          "pass": true
+        },
+        {
+          "name": "Exterior controls hidden in Discovery",
+          "pass": true
+        },
+        {
+          "name": "No page errors",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "palette": {
+        "paper": "#f5f6f8",
+        "canvas": {
+          "x": 494.0625,
+          "y": 120,
+          "width": 753.90625,
+          "height": 700,
+          "top": 120,
+          "right": 1247.96875,
+          "bottom": 820,
+          "left": 494.0625
+        }
+      },
+      "mapControls": {
+        "visibility": "hidden",
+        "display": "flex"
+      },
+      "discoveryControls": {
+        "visibility": "hidden",
+        "display": "flex"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "revision": "vincom-precision-holds-2026-10-21-r1",
+  "scope": "Five runtime precision holds only; no additions, geometry edits, builds or commits",
+  "checks": {
+    "astroCheck": {
+      "files": 43,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "approvedGeometryHashValidationBothMalls": "pass",
+    "originalSnapshotMutation": "none",
+    "fiveHeldLocations": "floor-confirmed with empty areaIds",
+    "fiveUnoccupiedHeldAreas": "not in runtime selectable areas",
+    "heldIdsAgainstAllPlanRoutePairs": "none",
+    "heldIdsSupportedNetwork": "none",
+    "directoryRevisionDrift": "throws"
+  },
+  "runtimeCounts": {
+    "saigon": {
+      "listings": 165,
+      "areaLinkedListings": 156,
+      "floorOnlyListings": 9,
+      "mappedFloorAssociations": 157
+    },
+    "vincom": {
+      "listings": 203,
+      "areaLinkedListings": 18,
+      "floorOnlyListings": 185,
+      "mappedFloorAssociations": 18
+    },
+    "combined": {
+      "listings": 368,
+      "areaLinkedListings": 174,
+      "floorOnlyListings": 194,
+      "mappedFloorAssociations": 175
+    }
+  },
+  "baseline": "Immutable input remains179 area-linked listings; runtime deliberately suppresses five uncertain associations.",
+  "remaining": "Parent sequential builds/browser validation pending; no current occupant conclusion."
+}

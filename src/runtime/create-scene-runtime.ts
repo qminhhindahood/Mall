@@ -3,7 +3,7 @@ import { createRoot, useFrame, type RootStore } from '@react-three/fiber';
 import { AmbientLight, Box3, BufferAttribute, BufferGeometry, Color, DirectionalLight, Group, LoadingManager, Mesh, MeshStandardMaterial, PerspectiveCamera, PMREMGenerator, Scene, ShapeUtils, Texture, Vector2, Vector3, WebGLRenderTarget, WebGLRenderer, SRGBColorSpace } from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
-import type { FloorGeometry, SceneRequest, SceneRuntime, SceneRuntimeOptions } from './scene-contract';
+import type { ExteriorArrivalStage, FloorGeometry, SceneRequest, SceneRuntime, SceneRuntimeOptions } from './scene-contract';
 import { timing } from './loading-timing';
 import { mallMotion } from './mall-motion';
 
@@ -39,10 +39,27 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
   const setupDone = timing('renderer-setup', detail);
   let disposed=false, failed: Error|null=null, active=!document.hidden, paused=options.reducedMotion, raf=0, last=0, serial=0, journeyProgress=0, approachRotation=0;
   const arrivalDuration=5500;
-  let arrivalElapsed=0, automaticStopped=options.reducedMotion, manualLook=0, manualZoom=1;
+  let arrivalElapsed=options.reducedMotion?arrivalDuration:0, automaticStopped=options.reducedMotion, manualLook=0, manualZoom=1;
   const clamp=(value:number,min:number,max:number)=>Math.max(min,Math.min(max,value));
+  type ArrivalPose={yaw:number;distance:number;focus:Vector3;bearing:Vector3};
+  const neutral:ArrivalPose={yaw:0,distance:1,focus:new Vector3(),bearing:new Vector3(.72,.28,1)};
+  const saigon=options.mallId==='saigon-centre';
+  // Fractions of the fitted model sphere, not surveyed façade coordinates.
+  // The tall Saigon silhouette descends toward its podium; Vincom keeps a
+  // shallower, wider-frontage emphasis. Neither path visits the rear or roof.
+  const opening:ArrivalPose={yaw:saigon ? -.34 : -.28,distance:1.18,focus:new Vector3(),bearing:new Vector3(.80,.36,1)};
+  const established:ArrivalPose={yaw:saigon ? -.20 : -.17,distance:1.06,focus:new Vector3(),bearing:new Vector3(.72,.28,1)};
+  const facade:ArrivalPose={yaw:saigon ? .16 : .10,distance:saigon ? .72 : .80,focus:new Vector3(saigon ? 0 : -.035,saigon ? -.46 : -.18,0),bearing:new Vector3(saigon ? .35 : .42,saigon ? .15 : .20,1)};
+  const arrivalPose=():ArrivalPose&{stage:ExteriorArrivalStage}=>{
+    const t=clamp(arrivalElapsed,0,arrivalDuration);
+    const stage:ExteriorArrivalStage=t<1400?'establish':t<3900?'facade':t<arrivalDuration?'settle':'complete';
+    const [from,to,start,end]=t<1400?[opening,established,0,1400] as const:t<3900?[established,facade,1400,3900] as const:[facade,neutral,3900,arrivalDuration] as const;
+    const u=clamp((t-start)/(end-start),0,1),ease=u*u*(3-2*u);
+    return {stage,yaw:from.yaw+(to.yaw-from.yaw)*ease,distance:from.distance+(to.distance-from.distance)*ease,focus:from.focus.clone().lerp(to.focus,ease),bearing:from.bearing.clone().lerp(to.bearing,ease)};
+  };
   const stopAutomaticPresentation=()=>{
-    if(!automaticStopped)manualZoom*=1+.08*Math.pow(1-clamp(arrivalElapsed/arrivalDuration,0,1),2);
+    // Freeze elapsed time: retaining target, bearing, distance and yaw avoids
+    // a camera jump when any input interrupts the middle façade close-up.
     automaticStopped=true;cancelAnimationFrame(raf);raf=0;
     canvas.dataset.arrival='stopped';
   };
@@ -136,16 +153,32 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
         // The same camera stays in the incumbent front three-quarter quadrant.
         const shoppingCenter=center.clone().add(new Vector3(...motion.shoppingFocus).multiplyScalar(radius));
         const approach=Math.min(1,journeyProgress/motion.focusBy);
-        const focus=center.clone().lerp(shoppingCenter,approach*approach*(3-2*approach));
-        const bearing=new Vector3(.72,.28,1).lerp(new Vector3(...motion.bearing),approach*approach*(3-2*approach));
+        const pose=arrivalPose();
+        const approachEase=approach*approach*(3-2*approach);
+        const manualWeight=1-approachEase;
+        const focus=center.clone().lerp(shoppingCenter,approachEase).addScaledVector(pose.focus,radius*manualWeight);
+        const bearing=pose.bearing.lerp(new Vector3(...motion.bearing),approachEase);
         // Zoom continues through the shared tower/copy fade. Reversal evaluates
         // this same path directly, with no tween, hold or second scene clock.
-        const manualWeight=1-approach*approach*(3-2*approach);
         bearing.y+=manualLook*manualWeight;
-        const arrival=clamp(arrivalElapsed/arrivalDuration,0,1);
-        const settle=automaticStopped?1:1+.08*(1-arrival)*(1-arrival);
-        const zoom=1+(manualZoom-1)*manualWeight;
-        view.camera.position.copy(focus).add(bearing.normalize().multiplyScalar(distance*Math.exp(-motion.zoomRate*journeyProgress)*zoom*(1+(settle-1)*manualWeight)));
+        const zoom=1+(pose.distance*manualZoom-1)*manualWeight;
+        view.camera.position.copy(focus).add(bearing.normalize().multiplyScalar(distance*Math.exp(-motion.zoomRate*journeyProgress)*zoom));
+        if(journeyProgress===0){
+          // A rigid yaw preserves this sphere. Its center follows the group's
+          // rotation, so off-origin model exports receive the same guarantee.
+          // Restrict only exterior inspection: preserve the established floor
+          // reveal camera once native scrolling begins.
+          const boundsCenter=center.clone().applyEuler(view.group.rotation);
+          const offset=view.camera.position.clone().sub(boundsCenter);
+          const safeDistance=Math.max(radius*1.25,radius+view.camera.near*2);
+          if(offset.lengthSq()===0)offset.set(0,0,1);
+          if(offset.length()<safeDistance)view.camera.position.copy(boundsCenter).add(offset.normalize().multiplyScalar(safeDistance));
+          canvas.dataset.exteriorClearance=String(view.camera.position.distanceTo(boundsCenter)/radius);
+        }
+        canvas.dataset.arrivalStage=pose.stage;
+        canvas.dataset.arrivalProgress=String(clamp(arrivalElapsed/arrivalDuration,0,1));
+        canvas.dataset.arrivalDistance=String(pose.distance);
+        canvas.dataset.arrivalFocusY=String(pose.focus.y);
         view.camera.lookAt(focus);
       }
       view.camera.updateProjectionMatrix();target.setSize(Math.round(w*renderer.getPixelRatio()),Math.round(h*renderer.getPixelRatio()));};
@@ -159,11 +192,11 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
       const bounds=new Box3().setFromObject(group),center=bounds.getCenter(new Vector3()),size=bounds.getSize(new Vector3());
       if(bounds.isEmpty()) throw new Error('Empty scene');
       const camera=new PerspectiveCamera(38,width()/height(),.1,3000);
-      if(isExterior&&!automaticStopped&&arrivalElapsed===0)group.rotation.y=-.24;
+      if(isExterior)group.rotation.y=arrivalPose().yaw;
       const radius=Math.max(size.x,size.y,size.z),distance=radius*1.8/Math.min(1,camera.aspect);
       camera.position.copy(center).add(new Vector3(distance*.72,distance*.65,distance)); camera.lookAt(center);
       scene.add(group,new AmbientLight(0xffffff,.7));
-      const light=new DirectionalLight(0xffffff,2.6); light.position.set(40,100,70); scene.add(light); scene.environment=environment; scene.background=new Color(options.mallId==='saigon-centre'?0xfff9f1:0xfffbf3);
+      const light=new DirectionalLight(0xffffff,2.6); light.position.set(40,100,70); scene.add(light); scene.environment=environment; scene.background=new Color(options.mallId==='saigon-centre'?0xf7f6ef:0xf5f6f8);
       return {scene,camera,group,...(isExterior?{exteriorFit:{center,radius:size.length()/2}}:{})};
     };
     const bytes=options.modelBytes ?? fetch(options.exteriorUrl).then(response=>{if(!response.ok)throw new Error('Model unavailable');return response.arrayBuffer();});
@@ -229,7 +262,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
       if(journeyProgress>0)return;
       arrivalElapsed=Math.min(arrivalDuration,arrivalElapsed+delta);
       const arrival=arrivalElapsed/arrivalDuration;
-      current.group.rotation.y=-.24*(1-arrival)*(1-arrival);
+      current.group.rotation.y=arrivalPose().yaw;
       canvas.dataset.arrival=arrival===1?'complete':'playing';
       try {if(!gpuBusy)draw(current,false);if(arrivalElapsed<arrivalDuration||gpuBusy)raf=requestAnimationFrame(animate);}
       catch(error){failVisible(error,'runtime');}
@@ -295,7 +328,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
         redrawExterior();
       },
       resetExterior(){
-        stopAutomaticPresentation();manualLook=0;manualZoom=1;
+        stopAutomaticPresentation();arrivalElapsed=arrivalDuration;manualLook=0;manualZoom=1;
         const view=views.get(key({kind:'exterior',floorId:''}));if(view)view.group.rotation.y=0;
         canvas.dataset.exteriorRotate='0';canvas.dataset.exteriorLook='0';canvas.dataset.exteriorZoom='1';
         redrawExterior();
@@ -303,7 +336,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
       replayArrival(){
         if(options.reducedMotion||journeyProgress>0||disposed||failed)return;
         automaticStopped=false;arrivalElapsed=0;manualLook=0;manualZoom=1;
-        const view=views.get(key({kind:'exterior',floorId:''}));if(view)view.group.rotation.y=-.24;
+        const view=views.get(key({kind:'exterior',floorId:''}));if(view)view.group.rotation.y=opening.yaw;
         refreshAnimation();redrawExterior();
       },
       setJourneyProgress(value,reducedMotion){const previous=journeyProgress;journeyProgress=reducedMotion?0:Math.max(0,Math.min(1,value));const exteriorView=views.get(key({kind:'exterior',floorId:''}));if(exteriorView){if(previous===0&&journeyProgress>0)approachRotation=Math.atan2(Math.sin(exteriorView.group.rotation.y),Math.cos(exteriorView.group.rotation.y));if(journeyProgress>0)exteriorView.group.rotation.y=approachRotation*(1-journeyProgress);}if(journeyProgress>0){cancelAnimationFrame(raf);raf=0;}else if(previous>0)refreshAnimation();if(previous!==journeyProgress&&journeyProgress<.95&&active&&current?.exteriorFit&&!disposed&&!failed&&!gpuBusy){try{draw(current,false);}catch(error){failVisible(error,'runtime');}}},

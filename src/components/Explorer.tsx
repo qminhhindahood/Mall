@@ -1,5 +1,6 @@
 import ExteriorControls from './ExteriorControls';
 import '../styles/usable-shell.css';
+import '../styles/arrival-shell.css';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import type { SiteData } from '../data/site';
 import type { Locale, SceneKind, SceneRuntime, FloorDataset } from '../runtime/scene-contract';
@@ -56,7 +57,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const [attempt,setAttempt] = useState(0);
   const [paused,setPaused] = useState(false);
   const [reducedMotion,setReducedMotion] = useState(false);
-  const [headerVisible,setHeaderVisible] = useState(initial.kind !== 'exterior');
+
   const [geometry,setGeometry] = useState(site.geometry);
   const [routeResolved,setRouteResolved] = useState(!initial.destinationId);
   const [floorCorrected,setFloorCorrected] = useState(false);
@@ -106,8 +107,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       frame=0;
       const hero=sections.current.exterior, overview=sections.current.overview;
       if(!hero||!overview)return;
-      const pastHero=hero.getBoundingClientRect().bottom<=120;
-      setHeaderVisible(pastHero);
+
+
       if((load!=='ready'&&load!=='failed')||focusRequest.current)return;
       const stageBottom=exteriorJourney.current?.getBoundingClientRect().bottom??Infinity;
       const kind=hero.getBoundingClientRect().bottom>innerHeight*.45?'exterior':stageBottom>innerHeight*.45?'overview':null;
@@ -403,17 +404,16 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   return <>
     <div className="visitor-guide" data-mall={site.mallId} data-paused={paused} data-view={selection.kind}>
     <a className="skip-introduction" href={href(change('map'))} onClick={event=>navigate(change('map'),event)}>{c.skip}</a>
-    <header className="journey-header" data-visible={headerVisible||load!=='ready'}>
-      <a className="wordmark" href={`/${selection.locale}`} onClick={event => navigate({locale:selection.locale,kind:'exterior',floorId:site.defaultFloor},event)}>{site.name}</a>
-      <nav aria-label={c.guide}>
-        <a href={href(change('map'))} onClick={event=>navigate(change('map'),event)}>{c.map}</a>
-        <a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{c.discovery}</a>
+    <header className="journey-header" data-visible="true">
+      <a className="wordmark" href={href(change('exterior'))} onClick={event=>navigate(change('exterior'),event)}><span className="brand-symbol" aria-hidden="true">{site.mallId==='saigon-centre'?'SC':'V'}</span>{site.name}</a>
+      <nav className="primary-navigation" aria-label={c.guide}>
+        <a href={href(change('exterior'))} aria-current={selection.kind==='exterior'?'page':undefined} onClick={event=>navigate(change('exterior'),event)}>{selection.locale==='vi'?'Trang chủ':'Home'}</a>
+        <a href={href(change('discovery'))} aria-current={selection.kind==='discovery'?'page':undefined} onClick={event=>navigate(change('discovery'),event)}>{c.discovery}</a>
+        <a href={href(change('map'))} aria-current={selection.kind==='map'?'page':undefined} onClick={event=>navigate(change('map'),event)}>{c.map}</a>
         <a href={'/'+selection.locale+'/'+(selection.locale==='vi'?'chi-duong':'directions')}>{selection.locale==='vi'?'Chỉ đường':'Directions'}</a>
-        <a className="skip-discovery" href={href(change('discovery'))} onClick={event=>{travelRequest.current=false;navigate(change('discovery'),event);}}>{j.skipDiscovery}</a>
-        <button type="button" className="replay-control" disabled={load!=='ready'&&load!=='failed'} onClick={replayIntroduction}>{reducedMotion||load==='failed'?c.returnIntroduction:c.replayIntroduction}</button>
-        <button className="overview-pause" disabled={load!=='ready'||reducedMotion} aria-label={reducedMotion?c.motionOff:paused?c.resume:c.pause} title={reducedMotion?c.motionOff:paused?c.resume:c.pause} aria-pressed={paused} onClick={togglePause}><svg viewBox="0 0 24 24" aria-hidden="true"><path d={paused?'M8 5 19 12 8 19Z':'M7 5v14M17 5v14'}/></svg></button>
-        <a href={href({...selection,locale:selection.locale==='vi'?'en':'vi'})} lang={selection.locale==='vi'?'en':'vi'} onClick={event => navigate({...selection,locale:selection.locale==='vi'?'en':'vi'},event)}>{selection.locale==='vi'?'EN':'VI'}</a>
+        <a href="#visit">{selection.locale==='vi'?'Ghé thăm':'Visit'}</a>
       </nav>
+      <a className="shell-language" href={href({...selection,locale:selection.locale==='vi'?'en':'vi'})} lang={selection.locale==='vi'?'en':'vi'} aria-label={c.language} onClick={event=>navigate({...selection,locale:selection.locale==='vi'?'en':'vi'},event)}>{selection.locale==='vi'?'EN':'VI'}</a>
     </header>
     <main>
       {load==='failed' && <aside className="error" role="alert"><p>{c.error}</p><button onClick={() => {if(moduleFailed.current)location.assign(href(latest.current));else setAttempt(attempt+1);}}>{c.retry}</button></aside>}
@@ -421,18 +421,18 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       <div className="exterior-floor-journey" ref={exteriorJourney}>
         <div className="journey-introduction-reading">
           <section id="scene-exterior" ref={element=>{if(element)sections.current.exterior=element;}} tabIndex={-1} className="introduction" aria-label={c.exterior}>
-            <div className="introduction-controls">
-              <ExteriorControls runtime={runtime} locale={selection.locale} enabled={load==='ready' && selection.kind==='exterior'}/>
-              <button type="button" className="replay-control" disabled={load!=='ready'&&load!=='failed'} onClick={replayIntroduction}>{reducedMotion||load==='failed'?c.returnIntroduction:c.replayIntroduction}</button>
-              <button className="pause-control" disabled={load!=='ready'} onClick={()=>{earlyInput.current=true;runtime.current?.stopAutomaticPresentation();runtime.current?.resetExterior();}}>{selection.locale==='vi'?'Bỏ qua phần mở đầu':'Skip arrival'}</button>
-              <nav aria-label={c.language}>{(['vi','en'] as Locale[]).map(locale=><a key={locale} href={href({...selection,locale})} lang={locale} aria-current={selection.locale===locale?'true':undefined} onClick={event=>navigate({...selection,locale},event)}>{locale.toUpperCase()}</a>)}</nav>
-            </div>
-            <div className="introduction-copy"><h1>{c.introduce}<span>{site.name}</span></h1><p>{site.mallId==='saigon-centre'?c.saigonIntroduction:c.vincomIntroduction}</p><p className="guide-identity">{c.independent}</p></div>
+            <div className="introduction-copy"><p className="arrival-eyebrow">{selection.locale==='vi'?'KHÁM PHÁ THEO CÁCH CỦA BẠN':'YOUR DAY, YOUR DISCOVERY'}</p><h1><span>{site.name}</span></h1><p>{site.mallId==='saigon-centre'?c.saigonIntroduction:c.vincomIntroduction}</p><p className="guide-identity">{c.independent}</p><div className="arrival-actions"><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{j.enterDiscovery}<span aria-hidden="true"> ↗</span></a><a href={'/'+selection.locale+'/'+(selection.locale==='vi'?'chi-duong':'directions')}>{selection.locale==='vi'?'Tìm đường':'Find your way'}<span aria-hidden="true"> →</span></a></div></div>
             <div className="introduction-bottom"><a className="scroll-guide" href="#scene-overview" onClick={event=>navigate(change('overview'),event)}><span className="scroll-cue" aria-hidden="true"/><span>{c.scrollInstruction}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div>
           </section>
           <section id="scene-overview" ref={element=>{if(element)sections.current.overview=element;}} tabIndex={-1} className="overview-reading" aria-label={c.overview}/>
         </div>
         <div className="registered-scene">
+            <div className="introduction-controls">
+              <ExteriorControls runtime={runtime} locale={selection.locale} enabled={load==='ready' && selection.kind==='exterior'}/>
+              <button type="button" className="replay-control" disabled={load!=='ready'&&load!=='failed'} onClick={replayIntroduction}>{reducedMotion||load==='failed'?c.returnIntroduction:c.replayIntroduction}</button>
+              <button className="pause-control" disabled={load!=='ready'} onClick={()=>{earlyInput.current=true;runtime.current?.stopAutomaticPresentation();runtime.current?.resetExterior();}}>{selection.locale==='vi'?'Bỏ qua phần mở đầu':'Skip arrival'}</button>
+            </div>
+
           <div className="scene-host scene-host-exterior" ref={element=>{if(element){sceneHosts.current.exterior=element;sceneHosts.current.overview=element;}}} data-scene-kind={selection.kind==='exterior'?'exterior':'overview'}>
             <img src="/previews/exterior.webp" alt={`${site.name} · ${c.exterior}`} width="1200" height="1200" />
           </div>
@@ -477,7 +477,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
         </div>
       </div>
     </main>
-    <footer>{site.name} · {c.guide}</footer>
+    <footer id="visit" tabIndex={-1} className="visit-footer"><div><p className="arrival-eyebrow">{selection.locale==='vi'?'LÊN KẾ HOẠCH':'PLAN YOUR VISIT'}</p><h2>{site.name}</h2><p>{c.independent}</p></div><div><h3>{selection.locale==='vi'?'Trước khi bạn đến':'Before you go'}</h3><p>{selection.locale==='vi'?'Xem thông tin cửa hàng và nguồn tham khảo trong Khám phá. Chọn điểm xuất phát thủ công để xem những tuyến đường đã được kiểm chứng.':'Find store details and their sources in Discovery. Choose your starting point manually to see the routes supported by our floor plans.'}</p><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{c.discovery} →</a></div></footer>
     </div>
     {load==='loading' && <aside className="scene-loading-status" role="status">{selection.locale==='vi'?'Đang chuẩn bị mô hình · bạn vẫn có thể khám phá danh mục và sơ đồ.':'Preparing the model · directory and maps remain available.'}</aside>}
   </>;

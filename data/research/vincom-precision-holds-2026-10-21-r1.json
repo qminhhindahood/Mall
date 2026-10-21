@@ -1,0 +1,346 @@
+{
+  "revision": "vincom-precision-holds-2026-10-21-r1",
+  "mallId": "vincom-dong-khoi",
+  "baseDirectoryRevision": "owner-approved-directory-2026-10-18-r1",
+  "recordedAt": "2026-10-21",
+  "scope": "Runtime display precision correction only. Preserve immutable approved directory and geometry. Retain floor/listing; suppress disputed area selection and routing. Not a claim that a current tenant is wrong.",
+  "chronology": "Official listing references retrieved 2026-10-17; roster/language approval 2026-10-18. These are not unit-level map corrections. Supplied plan publication date unknown. No newest-occupant conclusion.",
+  "sources": [
+    {
+      "floor": "B2",
+      "path": "D:\\Midterm\\Vincom đồng khởi\\map\\tang-b2.webp",
+      "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+      "matchesGeometrySource": true,
+      "planPublicationDate": "not printed/established; filesystem date is not publication date",
+      "transform": [
+        0.1,
+        0,
+        0,
+        0.1,
+        -65.95,
+        -54.150000000000006
+      ]
+    },
+    {
+      "floor": "L1",
+      "path": "D:\\Midterm\\Vincom đồng khởi\\map\\tang-l1.webp",
+      "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+      "matchesGeometrySource": true,
+      "planPublicationDate": "not printed/established; filesystem date is not publication date",
+      "transform": [
+        0.1,
+        0,
+        0,
+        0.1,
+        -66.0,
+        -54.150000000000006
+      ]
+    }
+  ],
+  "holds": [
+    {
+      "destinationId": "vincom-prototype-scentuals",
+      "floorId": "B2",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-b2-b2-12"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-b2-b2-12",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-023"
+          ],
+          "name": {
+            "vi": "Khu vực trên sơ đồ",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "B2": [
+          {
+            "region": "B2-region-023",
+            "code": "B2-12",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "Himalaya",
+      "officialReferences": [
+        {
+          "id": "scentuals",
+          "url": "https://vincom.com.vn/store/scentuals-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B2"
+          ],
+          "floorText": "Tầng hầm B2",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    },
+    {
+      "destinationId": "vincom-prototype-lining",
+      "floorId": "B2",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-b2-b2-46b"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-b2-b2-46b",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-025"
+          ],
+          "name": {
+            "vi": "Khu vực trên sơ đồ",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "B2": [
+          {
+            "region": "B2-region-025",
+            "code": "B2-46B",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "OVS",
+      "officialReferences": [
+        {
+          "id": "lining",
+          "url": "https://vincom.com.vn/store/lining-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B2"
+          ],
+          "floorText": "Tầng hầm B2",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    },
+    {
+      "destinationId": "vincom-prototype-messyweekend",
+      "floorId": "B2",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-b2-b2-16"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-b2-b2-16",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-033"
+          ],
+          "name": {
+            "vi": "Khu vực trên sơ đồ",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "B2": [
+          {
+            "region": "B2-region-033",
+            "code": "B2-16",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "Rhythm",
+      "officialReferences": [
+        {
+          "id": "messyweekend",
+          "url": "https://vincom.com.vn/store/messyweekend-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B2"
+          ],
+          "floorText": "Tầng hầm B2",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    },
+    {
+      "destinationId": "vincom-prototype-beautybox",
+      "floorId": "B2",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-b2-b2-17"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-b2-b2-17",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-007"
+          ],
+          "name": {
+            "vi": "Khu vực trên sơ đồ",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "B2": [
+          {
+            "region": "B2-region-007",
+            "code": "B2-17",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "Pablo",
+      "officialReferences": [
+        {
+          "id": "beautybox",
+          "url": "https://vincom.com.vn/store/beauty-box-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B2"
+          ],
+          "floorText": "Tầng hầm B2",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    },
+    {
+      "destinationId": "vincom-prototype-lacoste",
+      "floorId": "L1",
+      "originalLocations": [
+        {
+          "floorId": "L1",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-l1-l1-06a"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-l1-l1-06a",
+          "floorId": "L1",
+          "regionIds": [
+            "L1-region-001"
+          ],
+          "name": {
+            "vi": "Khu vực trên sơ đồ",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "L1": [
+          {
+            "region": "L1-region-001",
+            "code": "L1-06A",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "Vinfast",
+      "officialReferences": [
+        {
+          "id": "lacoste",
+          "url": "https://vincom.com.vn/store/lacoste-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "L1"
+          ],
+          "floorText": "Tầng 1",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    }
+  ]
+}

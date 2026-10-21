@@ -1,0 +1,46 @@
+/* Reversible mall identities; existing maps, model assets and routes are unchanged. */
+.visitor-guide[data-mall=saigon-centre]{--paper:#f7f6ef;--ink:#182e27;--muted:#52635b;--accent:#285643;--action:#285643;--line:#d4ddd3;--selected:#d8e5d9;--edge:#456b51}
+.visitor-guide[data-mall=vincom-dong-khoi]{--paper:#f5f6f8;--ink:#1b2940;--muted:#536174;--accent:#284b76;--action:#284b76;--line:#d6dde8;--selected:#dce5f2;--edge:#456284}
+.visitor-guide .journey-header{inset:16px 24px auto;transform:none!important;width:auto;max-width:none;min-height:72px;visibility:visible;border:1px solid var(--line);border-radius:20px;background:var(--paper);padding:10px 20px;box-shadow:0 6px 24px #172d2310;gap:20px}
+.visitor-guide .journey-header .wordmark{display:flex;gap:10px;white-space:nowrap;font-size:16px;font-weight:700}
+.brand-symbol{display:grid;place-items:center;width:36px;height:36px;border-radius:10px;background:var(--action);color:#fff;font-size:13px;letter-spacing:.04em}
+.visitor-guide .journey-header .primary-navigation{display:flex;gap:4px;flex-wrap:nowrap;margin-left:auto}
+.visitor-guide .journey-header .primary-navigation a{padding:8px 14px;border-radius:10px;font-size:14px;white-space:nowrap;min-height:44px}
+.visitor-guide .journey-header [aria-current=page]{background:var(--action)!important;color:#fff!important}
+.visitor-guide .shell-language{padding:8px 10px;border:1px solid var(--line);border-radius:10px;min-width:44px;justify-content:center}
+.visitor-guide .exterior-floor-journey .introduction{padding-top:140px;padding-bottom:160px}
+.visitor-guide .introduction-copy{position:relative;z-index:2}
+.visitor-guide .introduction-copy .arrival-eyebrow,.visitor-guide .arrival-eyebrow{font:600 11px/1.5 Manrope,Guide,sans-serif;letter-spacing:.15em;margin:0 0 24px;color:var(--accent)}
+.visitor-guide .introduction-copy h1{font-size:clamp(44px,5.5vw,78px);line-height:1.03;letter-spacing:-.055em}
+.visitor-guide .introduction-copy h1 span{margin:0;color:var(--ink)}
+.visitor-guide .introduction-copy p{line-height:1.65;font-size:17px;margin-top:24px}
+.visitor-guide .introduction-copy .guide-identity{font-size:12px;margin-top:16px}
+.arrival-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.visitor-guide .arrival-actions a{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:48px;border-radius:12px;padding:12px 18px;background:var(--action);color:#fff;text-decoration:none;font-size:15px;font-weight:600}
+.visitor-guide .arrival-actions a+ a{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.visitor-guide .registered-scene .introduction-controls{position:absolute;top:auto;bottom:0;left:40%;right:0;display:flex;justify-content:center;gap:4px;flex-wrap:wrap;z-index:9;pointer-events:auto;margin:0;padding:8px;border:1px solid var(--line);border-radius:16px;background:var(--paper)}
+.visitor-guide .registered-scene .introduction-controls button{font-size:12px;color:var(--ink);min-height:44px;padding:8px}
+.visitor-guide .registered-scene .exterior-controls-panel{top:auto;bottom:calc(100% + 12px)}
+.visitor-guide .visit-footer{display:grid;grid-template-columns:1fr 1fr;gap:64px;padding:64px max(24px,calc((100% - 1100px)/2));background:var(--ink);color:var(--paper);scroll-margin-top:120px;line-height:1.7;font-size:16px}
+.visitor-guide .visit-footer .arrival-eyebrow{color:inherit;opacity:.8}.visit-footer a{display:inline-flex;min-height:44px;align-items:center}.visit-footer h2{font-size:32px}
+@supports(backdrop-filter:blur(16px)){.visitor-guide .journey-header,.visitor-guide .registered-scene .introduction-controls{background:color-mix(in srgb,var(--paper) 94%,transparent);backdrop-filter:blur(16px)}}
+@media(max-width:900px){.visitor-guide .journey-header .primary-navigation a{padding:8px}.visitor-guide .journey-header .wordmark{font-size:14px}.brand-symbol{display:none}}
+@media(max-width:700px){
+.visitor-guide .journey-header{inset:8px 12px auto;padding:8px 10px;min-height:104px;display:grid;grid-template-columns:1fr 44px;gap:4px 8px;border-radius:16px}
+.visitor-guide .journey-header .wordmark{display:flex;min-height:36px;font-size:14px}.visitor-guide .journey-header .shell-language{grid-column:2;grid-row:1;min-height:36px;padding:4px}
+.visitor-guide .journey-header .primary-navigation{grid-row:2;grid-column:1/-1;margin:0;justify-content:space-between;gap:2px;width:100%}
+.visitor-guide .journey-header .primary-navigation a{padding:6px 5px;min-width:0;font-size:12px;margin:0!important;justify-content:center;flex:1}
+.visitor-guide .exterior-floor-journey .introduction{padding:140px 0 12px;display:block;min-height:0}
+.visitor-guide .introduction-copy h1{font-size:40px;line-height:1.05}.visitor-guide .introduction-copy .arrival-eyebrow{font-size:10px;margin:0 0 12px}.visitor-guide .introduction-copy p{font-size:14px;margin-top:16px;line-height:1.5}.visitor-guide .introduction-copy .guide-identity{font-size:11px;margin-top:8px}
+.visitor-guide .arrival-actions{margin-top:18px;gap:8px}.visitor-guide .arrival-actions a{font-size:13px;padding:10px 12px;gap:12px}
+.visitor-guide .exterior-floor-journey .introduction-bottom{display:none}
+.visitor-guide .registered-scene{margin-top:4px;top:120px;height:440px;min-height:440px}
+.visitor-guide .registered-scene .scene-host-exterior{height:360px}
+.visitor-guide .registered-scene .introduction-controls{left:0;right:0;bottom:0;top:auto;gap:2px;padding:4px}
+.visitor-guide .registered-scene .exterior-controls-panel{left:0;bottom:calc(100% + 8px);width:270px}
+.visitor-guide .visit-footer{grid-template-columns:1fr;gap:20px;padding:40px 24px}
+}
+@media(prefers-reduced-transparency:reduce){.visitor-guide .journey-header,.visitor-guide .registered-scene .introduction-controls{background:var(--paper);backdrop-filter:none}}
+@media(prefers-reduced-motion:reduce){.visitor-guide .journey-header{transition:none}}
+.visitor-guide:not([data-view=exterior]) .registered-scene .introduction-controls{visibility:hidden;pointer-events:none}
+.visitor-guide main>.error{margin:112px 24px 0;padding:18px 24px;border-radius:14px}.visitor-guide main>.error p{margin-top:0}@media(max-width:700px){.visitor-guide main>.error{margin-top:128px;margin-inline:20px}}

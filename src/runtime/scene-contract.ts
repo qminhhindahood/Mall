@@ -1,6 +1,7 @@
 export type MallId = 'saigon-centre' | 'vincom-dong-khoi';
 export type Locale = 'vi' | 'en';
 export type SceneKind = 'exterior' | 'overview' | 'map' | 'discovery';
+export type ExteriorArrivalStage = 'establish' | 'facade' | 'settle' | 'complete';
 export type SceneRequest = { kind: SceneKind; floorId: string };
 export type PreparationPhase = 'fetching' | 'decoding' | 'preparing' | 'ready' | 'failed';
 export type PreparedSceneStatus = { key: string; phase: PreparationPhase; error?: string };
