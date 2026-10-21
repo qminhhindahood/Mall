@@ -227,7 +227,7 @@ export function planEstimatedRoute(ctx: RouteContext, from: Endpoint | null, to:
   legs.forEach((leg, li) => {
     const pts = legPoints[li], floorId = leg.floorId, marks = ctx.landmarks(floorId);
     const nearName = (p: Pt) => { let best = '', bestD = 7; for (const m of marks) { const d = Math.hypot(m.point[0] - p[0], m.point[1] - p[1]); if (d < bestD) { bestD = d; best = m.name; } } return best; };
-    if (li === 0) steps.push({ floorId, instruction: from.kind === 'area' ? t(`Leave ${from.name} and join the main walkway.`, `Rời ${from.name} và đi ra lối đi chính.`) : from.kind === 'floor' ? t(`${from.name} is on ${floorId}, but its exact spot is not confirmed. Start from the lift and escalator landing.`, `${from.name} ở tầng ${floorId}, nhưng chưa xác nhận vị trí chính xác. Hãy bắt đầu từ khu thang máy và thang cuốn.`) : t(`Start at ${from.name}.`, `Bắt đầu tại ${from.name}.`) });
+    if (li === 0) steps.push({ floorId, instruction: from.kind === 'area' ? t(`Leave ${from.name} and join the main walkway.`, `Rời ${from.name} và đi ra lối đi chính.`) : from.kind === 'floor' ? t(`${from.name} is on ${floorId}. Start from the lift and escalator landing.`, `${from.name} ở tầng ${floorId}. Hãy bắt đầu từ khu thang máy và thang cuốn.`) : t(`Start at ${from.name}.`, `Bắt đầu tại ${from.name}.`) });
     else { const link = leg.arrivedBy!; steps.push({ floorId, instruction: link.kind === 'lift' ? t(`Leave the ${link.label} lift on ${floorId} and follow the walkway.`, `Ra khỏi thang máy ${link.label} ở tầng ${floorId} và đi theo lối đi.`) : t(`Step off the escalator on ${floorId} and follow the walkway.`, `Bước xuống thang cuốn ở tầng ${floorId} và đi theo lối đi.`) }); }
     let walked = 0, lastTurn: Pt | null = null;
     for (let k = 1; k < pts.length - 1; k++) {
@@ -246,9 +246,9 @@ export function planEstimatedRoute(ctx: RouteContext, from: Endpoint | null, to:
     } else if (to.kind === 'area') {
       let side = '';
       if (to.label && pts.length > 1) { const [p, q] = [pts[pts.length - 2], endPoint]; const cross = (q[0] - p[0]) * (to.label[1] - q[1]) - (q[1] - p[1]) * (to.label[0] - q[0]); side = cross > 0 ? 'right' : 'left'; }
-      steps.push({ floorId, instruction: side ? t(`${to.name} is on your ${side}${endName && endName !== to.name ? `, near ${endName}` : ''}. The exact doorway is not confirmed.`, `${to.name} ở bên ${side === 'right' ? 'phải' : 'trái'}${endName && endName !== to.name ? `, gần ${endName}` : ''}. Chưa xác nhận cửa ra vào chính xác.`) : t(`${to.name} is in front of you. The exact doorway is not confirmed.`, `${to.name} ở phía trước. Chưa xác nhận cửa ra vào chính xác.`) });
+      steps.push({ floorId, instruction: side ? t(`${to.name} is on your ${side}${endName && endName !== to.name ? `, near ${endName}` : ''}.`, `${to.name} ở bên ${side === 'right' ? 'phải' : 'trái'}${endName && endName !== to.name ? `, gần ${endName}` : ''}.`) : t(`${to.name} is just ahead.`, `${to.name} ở ngay phía trước.`) });
     } else if (to.kind === 'floor') {
-      steps.push({ floorId, instruction: t(`${to.name} is on ${floorId}, but its exact spot is not confirmed here. Look around this landing and follow the in-mall signs.`, `${to.name} ở tầng ${floorId}, nhưng chưa xác nhận vị trí chính xác. Hãy quan sát quanh khu vực này và đi theo biển chỉ dẫn trong trung tâm.`) });
+      steps.push({ floorId, instruction: t(`${to.name} is on ${floorId}. Look around this landing and follow the in-mall signs.`, `${to.name} ở tầng ${floorId}. Hãy quan sát quanh khu vực này và đi theo biển chỉ dẫn trong trung tâm.`) });
     } else {
       steps.push({ floorId, instruction: t(`You have reached ${to.name}.`, `Bạn đã đến ${to.name}.`) });
     }
@@ -257,6 +257,6 @@ export function planEstimatedRoute(ctx: RouteContext, from: Endpoint | null, to:
   return {
     status: 'ready', basis: 'estimated', crossFloor: legs.length > 1,
     legs: legs.map((leg, li) => ({ floorId: leg.floorId, points: legPoints[li] })), steps,
-    limitations: [t('Estimated from the supplied floor plan: follow corridors and in-mall signs. Exact doorways, distance and time are not confirmed.', 'Ước tính từ sơ đồ tầng được cung cấp: đi theo lối đi và biển chỉ dẫn. Chưa xác nhận cửa ra vào, khoảng cách và thời gian.')],
+    limitations: [t('Estimated from the floor plan. Follow the corridors and in-mall signs.', 'Ước tính từ sơ đồ tầng. Hãy đi theo lối đi và biển chỉ dẫn trong trung tâm.')],
   };
 }

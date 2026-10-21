@@ -16,8 +16,9 @@ for(const c of cases){
   const page=await browser.newPage({viewport:{width:1440,height:900}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
   try{
     await page.goto(`http://127.0.0.1:${c.port}/en/directions?${c.q}`,{waitUntil:'networkidle'});await page.waitForTimeout(2500);
-    const status=await page.locator('.atlas-status strong').first().textContent();
-    const ok=/route/i.test(status??'')&&!/unavailable|not reviewed|Choose/i.test(status??'');
+    const primary=(await page.locator('.atlas-primary').textContent())??'';
+    const ok=/Show route steps/i.test(primary);
+    const status=ok?'route ready':(await page.locator('.atlas-status strong').first().textContent().catch(()=>primary));
     const steps=[];
     if(ok){
       await page.locator('.atlas-primary').click();await page.waitForTimeout(300);
