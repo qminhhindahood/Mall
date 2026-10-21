@@ -5,6 +5,7 @@ import type { FloorDataset, MallId } from '../runtime/scene-contract';
 import { validateContent, type DirectorySnapshot } from './content';
 import { applyPrecisionHolds, type PrecisionHolds } from './precision-holds';
 import { applyAssociationSupplement, type AssociationSupplement, type AssociationReviewReceipt } from './association-supplement';
+import { applySharedComponents, type SharedComponentsSupplement } from './shared-components';
 import { derivedDirectory } from '../../scripts/vincom-segmentation-overlay.mjs';
 export type { Destination } from './content';
 import type { Destination } from './content';
@@ -75,7 +76,25 @@ if (mallId === saigonSupplement.mallId && saigonSupplement.activation === 'accep
   if (createHash('sha256').update(reviewBytes).digest('hex') !== saigonSupplement.reviewEvidence.sha256) throw new Error('Saigon association review evidence drift');
   saigonReview = JSON.parse(reviewBytes.toString('utf8'));
 }
-const content = validateContent(applyAssociationSupplement(storeContent,geometry,saigonSupplement,saigonReview),mallId,geometry);
+const saigonContent = applyAssociationSupplement(storeContent,geometry,saigonSupplement,saigonReview);
+const remainingSupplement: AssociationSupplement = JSON.parse(fs.readFileSync(path.join(process.cwd(),'data','research','saigon-source-associations-2026-10-21-r11.json'),'utf8'));
+let remainingReview: AssociationReviewReceipt | undefined;
+if (mallId === remainingSupplement.mallId && remainingSupplement.activation === 'accepted-source-review') {
+  const reviewBytes = fs.readFileSync(path.join(process.cwd(),remainingSupplement.reviewEvidence.path));
+  if (createHash('sha256').update(reviewBytes).digest('hex') !== remainingSupplement.reviewEvidence.sha256) throw new Error('Remaining Saigon review evidence drift');
+  remainingReview = JSON.parse(reviewBytes.toString('utf8'));
+}
+const remainingContent = applyAssociationSupplement(saigonContent,geometry,remainingSupplement,remainingReview);
+const sharedSupplement: SharedComponentsSupplement = JSON.parse(fs.readFileSync(path.join(process.cwd(),'data','research','saigon-shared-components-2026-10-21-r11.json'),'utf8'));
+const sharedContent = applySharedComponents(process.cwd(),remainingContent,geometry,sharedSupplement);
+const asianSupplement: AssociationSupplement = JSON.parse(fs.readFileSync(path.join(process.cwd(),'data','research','saigon-asian-band-2026-10-21-r11.json'),'utf8'));
+let asianReview: AssociationReviewReceipt | undefined;
+if (mallId === asianSupplement.mallId && asianSupplement.activation === 'accepted-source-review') {
+  const reviewBytes = fs.readFileSync(path.join(process.cwd(),asianSupplement.reviewEvidence.path));
+  if (createHash('sha256').update(reviewBytes).digest('hex') !== asianSupplement.reviewEvidence.sha256) throw new Error('Asian Corner band review evidence drift');
+  asianReview = JSON.parse(reviewBytes.toString('utf8'));
+}
+const content = validateContent(applyAssociationSupplement(sharedContent,geometry,asianSupplement,asianReview),mallId,geometry);
 const destinations = content.destinations;
 const manifestPath = path.join(process.cwd(),'data','malls',mallId,'asset-manifest.json');
 const manifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath,'utf8')) : {};

@@ -1,0 +1,62 @@
+{
+  "activation": "not-activated",
+  "source": "docs/content-preparation/integration-candidate-2026-10-18-r2/accepted-r4-geometry.json.gz",
+  "sourceSha256": "89f5ac26720497a9dcbb74bdf89c770432d1e7974b5b1c99474c57698b397434",
+  "floorId": "L5",
+  "region": {
+    "id": "proposal-20261018-r4-b32ef3d1-41d7-42fb-97ea-7343d47863a1-l5",
+    "outer": [
+      [
+        -32.6509,
+        -0.3215
+      ],
+      [
+        -24.5916,
+        18.8241
+      ],
+      [
+        -15.8288,
+        14.9173
+      ],
+      [
+        -20.0192,
+        4.7422
+      ],
+      [
+        -19.8325,
+        4.6393
+      ],
+      [
+        -22.5699,
+        -1.9187
+      ],
+      [
+        -23.9386,
+        -1.3422
+      ],
+      [
+        -24.8893,
+        -3.5959
+      ]
+    ],
+    "holes": [],
+    "role": "candidate-tenant-area-proposal",
+    "certainty": "official-source boundary transformed into the website frame; schematic, not surveyed; not an approved tenancy",
+    "sourceRecordId": "saigon-prototype-oedoalley",
+    "sourceRegionId": "official-b32ef3d1-41d7-42fb-97ea-7343d47863a1-l5",
+    "sharedAreaRole": "shared-parent-area",
+    "ownerApproval": false
+  },
+  "limitation": {
+    "destinationId": "saigon-prototype-oedoalley",
+    "floors": [
+      "L5"
+    ],
+    "category": "shared-scope-implementation",
+    "status": "implementation-pending",
+    "finding": "Official name is Oedo Alley - Japanese Food Village and accepted r4 candidate is explicitly shared-parent-area over Sundubu, Asanoha, Botejyu and Ramen Ichibanken. Identity supports a shared food-village scope, not an exclusive shop.",
+    "missingExternalInput": null,
+    "remainingImplementation": "A distinct shared-complex map contract, additive hash-bound candidate-region overlay/transport and parent/child selection behavior are required before activation. Current association helper accepts existing unoccupied contours only and has source-layout/partial-source-layout semantics. Do not relabel the whole parent as exclusive or silently bypass guards.",
+    "candidateRegionId": "proposal-20261018-r4-b32ef3d1-41d7-42fb-97ea-7343d47863a1-l5"
+  }
+}

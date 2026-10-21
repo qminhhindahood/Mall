@@ -6,3 +6,16 @@
 .atlas-area-selection>div{display:block}.atlas-area-selection>div>.atlas-association-note{margin:8px 0;font-size:12px;line-height:1.5}.atlas-area-selection>div>div{display:flex;gap:8px;margin-top:10px}.atlas-area-selection>div>div>button{flex:1;min-width:44px;min-height:44px;padding:10px 14px;font-size:12px;white-space:normal}
 
 .atlas-entrance-key{font-size:12px;line-height:1.55;color:#334c43;padding:10px 14px;max-width:65ch}
+
+/* Keep compact Atlas controls reachable without changing the card/map order. */
+.atlas-map-controls button{width:44px;min-width:44px;min-height:44px}
+@media(max-width:700px){.atlas-mode button,.atlas-primary,.atlas-disclosure{min-height:44px}.atlas-floors button{min-width:44px;min-height:44px}.atlas-map-header{flex-wrap:wrap;gap:10px}.atlas-places{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.atlas-place>span{min-width:0;overflow-wrap:anywhere}}
+
+/* One set of route controls: beside the map on desktop, after it on phones. */
+.atlas-layout{row-gap:0;grid-template-rows:auto 1fr}
+.atlas-card{grid-column:1;grid-row:1;border-bottom:0;border-bottom-left-radius:0;border-bottom-right-radius:0;padding-bottom:0}
+.atlas-map-stage{grid-column:2;grid-row:1 / span 2}
+.atlas-steps{grid-column:1;grid-row:2;padding:16px 24px 24px;border-top:0;border-top-left-radius:0;border-top-right-radius:0}
+.atlas-current-step{margin-bottom:12px}
+@media(max-width:1000px) and (min-width:701px){.atlas-steps{padding:16px 20px 20px}}
+@media(max-width:700px){.atlas-layout{gap:14px}.atlas-card{padding-bottom:12px;border-bottom:1px solid white;border-radius:22px}.atlas-steps{width:100%;padding:16px;border:1px solid white;border-radius:22px}.atlas-details.expanded{max-height:none;overflow:visible}.atlas-current-step strong{font-size:14px;line-height:1.5}.atlas-steps .atlas-primary{font-size:13px;min-height:48px}.atlas-steps .atlas-disclosure{font-size:12px}.atlas-card .atlas-floor-legs{display:none}}

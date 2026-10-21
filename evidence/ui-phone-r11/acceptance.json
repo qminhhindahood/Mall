@@ -1,0 +1,257 @@
+{
+  "scope": "Focused UI implementation acceptance; browser emulation only",
+  "baseline": "16d1439 plus integrated r11 data/UI; current uncommitted final candidate",
+  "files": [
+    "src/components/JourneyAtlas.tsx",
+    "src/styles/journey-atlas.css"
+  ],
+  "changes": [
+    "Single DOM order card -> map -> route instructions/actions; desktop grid retains contiguous sidebar",
+    "Named localized search dialog, Escape focus restoration, shared accent-insensitive search",
+    "Source-qualified Opening Soon warning retained in compact selected/search/popup presentations",
+    "44px compact controls, responsive wrap, selected destination highlights all mapped components"
+  ],
+  "before": {
+    "journey": "Vincom GoGi House -> Manwah, EN390x844, started and expanded",
+    "cardHeight": 725.46875,
+    "mapTop": 872.015625,
+    "mapHeight": 440,
+    "artifact": "Screenshot inspected in memory; parent separately owns matched CK/MLB before/after images"
+  },
+  "saigon": [
+    {
+      "locale": "en",
+      "width": 390,
+      "boxes": [
+        {
+          "class": "atlas-card glass",
+          "top": 132.546875,
+          "left": 12,
+          "height": 186.1875,
+          "bottom": 318.734375
+        },
+        {
+          "class": "atlas-map-stage",
+          "top": 332.734375,
+          "left": 12,
+          "height": 440,
+          "bottom": 772.734375
+        },
+        {
+          "class": "atlas-steps glass",
+          "top": 786.734375,
+          "left": 12,
+          "height": 738.5625,
+          "bottom": 1525.296875
+        }
+      ],
+      "labels": [
+        {
+          "label": "Next step →",
+          "active": "L2"
+        },
+        {
+          "label": "Next step →",
+          "active": "L2"
+        },
+        {
+          "label": "Next step →",
+          "active": "L2"
+        },
+        {
+          "label": "I’m on L3 →",
+          "active": "L2"
+        },
+        {
+          "label": "Next step →",
+          "active": "L3"
+        },
+        {
+          "label": "Next step →",
+          "active": "L3"
+        },
+        {
+          "label": "Finish & reset ✓",
+          "active": "L3"
+        }
+      ],
+      "named": "- dialog \"Choose your start\":",
+      "focus": true,
+      "primaryCount": 1,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "locale": "vi",
+      "width": 390,
+      "boxes": [
+        {
+          "class": "atlas-card glass",
+          "top": 132.546875,
+          "left": 12,
+          "height": 186.1875,
+          "bottom": 318.734375
+        },
+        {
+          "class": "atlas-map-stage",
+          "top": 332.734375,
+          "left": 12,
+          "height": 440,
+          "bottom": 772.734375
+        },
+        {
+          "class": "atlas-steps glass",
+          "top": 786.734375,
+          "left": 12,
+          "height": 725.0625,
+          "bottom": 1511.796875
+        }
+      ],
+      "labels": [
+        {
+          "label": "Bước tiếp theo →",
+          "active": "L3"
+        },
+        {
+          "label": "Tôi đã đến L2 →",
+          "active": "L3"
+        },
+        {
+          "label": "Bước tiếp theo →",
+          "active": "L2"
+        },
+        {
+          "label": "Bước tiếp theo →",
+          "active": "L2"
+        },
+        {
+          "label": "Bước tiếp theo →",
+          "active": "L2"
+        },
+        {
+          "label": "Kết thúc & đặt lại ✓",
+          "active": "L2"
+        }
+      ],
+      "named": "- dialog \"Chọn điểm bắt đầu\":",
+      "focus": true,
+      "primaryCount": 1,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "boxes": [
+        {
+          "class": "atlas-card glass",
+          "top": 189.953125,
+          "left": 40,
+          "height": 490.578125,
+          "bottom": 680.53125
+        },
+        {
+          "class": "atlas-map-stage",
+          "top": 189.953125,
+          "left": 404,
+          "height": 680,
+          "bottom": 869.953125
+        },
+        {
+          "class": "atlas-steps glass",
+          "top": 680.53125,
+          "left": 40,
+          "height": 798.75,
+          "bottom": 1479.28125
+        }
+      ],
+      "labels": [
+        {
+          "label": "Next step →",
+          "active": "L2"
+        },
+        {
+          "label": "Next step →",
+          "active": "L2"
+        },
+        {
+          "label": "Next step →",
+          "active": "L2"
+        },
+        {
+          "label": "I’m on L3 →",
+          "active": "L2"
+        },
+        {
+          "label": "Next step →",
+          "active": "L3"
+        },
+        {
+          "label": "Next step →",
+          "active": "L3"
+        },
+        {
+          "label": "Finish & reset ✓",
+          "active": "L3"
+        }
+      ],
+      "named": "- dialog \"Choose your start\":",
+      "focus": true,
+      "primaryCount": 1,
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "vincom": {
+    "boxes": [
+      {
+        "class": "atlas-card glass",
+        "top": 132.546875,
+        "height": 234.46875,
+        "bottom": 367.015625
+      },
+      {
+        "class": "atlas-map-stage",
+        "top": 381.015625,
+        "height": 440,
+        "bottom": 821.015625
+      },
+      {
+        "class": "atlas-steps glass",
+        "top": 835.015625,
+        "height": 607.15625,
+        "bottom": 1442.171875
+      }
+    ],
+    "instruction": "MANUAL PROGRESS · 1 / 1\nFollow the aisle rightward on the map below B3-23-24 and B3-28C, toward the Manwah area frontage.",
+    "overflow": false,
+    "journey": "GoGi House -> Manwah EN390x844",
+    "completion": "Finish & reset",
+    "screenshot": "After screenshot inspected in memory; full map within viewport"
+  },
+  "earlierTargetedChecks": {
+    "cases": [
+      "Aesop EN320",
+      "Sport Fair VI390"
+    ],
+    "passed": [
+      "localized dialog name",
+      "initial input focus",
+      "Tab contained within dialog",
+      "Escape returns opener",
+      "le loi finds both accented entrance names",
+      "source-qualified warning in collapsed card and search",
+      "tested compact controls minimum44x44",
+      "no document horizontal overflow or page errors",
+      "reduced-transparency computed opaque rgb(244,247,237), backdrop-filter none",
+      "1280 CSS zoom200% surrogate no overflow"
+    ],
+    "limits": "These preceded final DOM relocation. Focus and no-overflow rechecked above; native browser zoom and physical device/screen reader QA remain unverified."
+  },
+  "remainingLimits": [
+    "No full 41-route resuite; routing data unchanged by UI edits",
+    "Physical mall/assistive-device/native browser zoom/production performance acceptance remains external",
+    "Oedo/Asian component selection final checks owned separately by parent"
+  ],
+  "result": "PASS for focused tested implementation; UI files frozen"
+}

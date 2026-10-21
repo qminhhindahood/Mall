@@ -9,3 +9,9 @@ browser-checks/** text eol=lf
 evidence/continuation-2026-10-19-r2/** -text
 evidence/enrichment-exhaustion-2026-10-20-r3/** -text
 evidence/motion-comparison-2026-10-20-r1/** -text
+
+# r11 source-review and component packets bind exact bytes across restore platforms.
+evidence/saigon-remaining-r11/** -text
+data/research/saigon-source-associations-2026-10-21-r11.json -text
+data/research/saigon-shared-components-2026-10-21-r11.json -text
+data/research/saigon-asian-band-2026-10-21-r11.json -text

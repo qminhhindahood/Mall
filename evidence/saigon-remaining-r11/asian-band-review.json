@@ -1,0 +1,71 @@
+{
+  "reviewedAt": "2026-10-21",
+  "reviewedBy": "Codex GPT-6.1 Sol source review; parent visually reviewed and authorized bounded partial-band activation",
+  "basis": "Exact original raster and unchanged palette contour reviewed locally; scope is a named source band, not a full or exclusive tenant footprint.",
+  "decisions": [
+    {
+      "destinationId": "saigon-prototype-asiancorner",
+      "floor": "L5",
+      "regionIds": [
+        "L5-region-019"
+      ],
+      "printedUnits": "No unit code printed; named raster band only",
+      "reviewDecision": "accept-partial-area-only"
+    }
+  ],
+  "authorization": "Root visually reviewed asian-label-band-contours.png and approved only L5-region-019 as partial named-band guidance under owner-authorized reopened remaining-seven work.",
+  "supersession": "Supersedes prior Asian Corner floor-only conclusion only for L5-region-019. The owner-rejected broad shared-parent polygon remains excluded. Original immutable decisions and frozen three-store/Oedo packets stay unchanged.",
+  "sources": {
+    "original": {
+      "path": "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L5-2026-10-01.png",
+      "width": 4732,
+      "height": 4416,
+      "bytes": 2273771,
+      "sha256": "4abefc8f9c34f1fa3c0f9076e5b4b9c5689505d783d6a843a37078f2a6b712c5",
+      "transform": [
+        0.02,
+        0,
+        0,
+        0.02,
+        -47.32,
+        -44.160000000000004
+      ],
+      "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+    },
+    "contour": "L5-region-019",
+    "visualEvidence": "evidence/saigon-remaining-r11/asian-label-band-contours.png",
+    "officialIdentity": "docs/content-preparation/completion-packet-2026-10-17/saigon-research/official-source-map.json#stores[officialId=84be54db-4a4a-4517-b085-060d83a970e5]",
+    "officialGeometryImported": false
+  },
+  "excludedNeighbours": [
+    {
+      "destination": "Manwah",
+      "regionId": "L5-region-001"
+    },
+    {
+      "destination": "GoGi House",
+      "regionId": "L5-region-008"
+    },
+    {
+      "destination": "Kichi-Kichi",
+      "regionId": "L5-region-006"
+    },
+    {
+      "destination": "Lach Ca Lach Cach",
+      "regionId": "L5-region-010"
+    }
+  ],
+  "scope": {
+    "en": "Only the narrow band labelled Asian Corner on the supplied plan is shown. The previously rejected broad parent area and neighbouring restaurant areas are excluded. This partial source area does not establish an exclusive shop, the complete complex boundary, current occupancy or an exact entrance. No unit code is confirmed.",
+    "vi": "Chỉ hiển thị dải hẹp ghi Asian Corner trên sơ đồ được cung cấp. Không bao gồm khu rộng từng bị từ chối và các khu nhà hàng lân cận. Phần khu vực theo sơ đồ này không xác nhận một cửa hàng riêng biệt, toàn bộ ranh giới khu phức hợp, tình trạng hoạt động hiện tại hay cửa vào chính xác. Không xác nhận mã gian hàng."
+  },
+  "unitClaimAccepted": false,
+  "currentOperationVerified": false,
+  "immutableInputSha256": {
+    "data/malls/saigon-centre/directory.json": "ffade29ada11d158619a2d58758611b210423bd609b3a4bf4f82b1af88fd5b2c",
+    "data/malls/saigon-centre/floor-geometry.json": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807",
+    "data/malls/saigon-centre/approved-regions.json": "0f59b506edbbc4ab634ceda632449bab30b08944a9c14296a04f9938fcf8a500",
+    "data/research/location-holds-2026-10-18-r1.json": "f777c850befabc41c0051547f76ccce708f3498609d60ed4cd124d419bb3c6e3",
+    "evidence/saigon-remaining-r11/asian-label-band-contours.png": "eeda8f4c5a838eaf1e5048c8a4cadc2f0f2b66a892cce10a0ddb266dbd9478df"
+  }
+}

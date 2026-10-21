@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "total": 15,
+  "checks": [
+    {
+      "name": "wrong mall returns original",
+      "passed": true
+    },
+    {
+      "name": "pending snapshot returns original",
+      "passed": true
+    },
+    {
+      "name": "pending packet returns original",
+      "passed": true
+    },
+    {
+      "name": "directory revision guard",
+      "passed": true
+    },
+    {
+      "name": "review hash guard",
+      "passed": true
+    },
+    {
+      "name": "review decision guard",
+      "passed": true
+    },
+    {
+      "name": "target record guard",
+      "passed": true
+    },
+    {
+      "name": "member record guard",
+      "passed": true
+    },
+    {
+      "name": "area guard",
+      "passed": true
+    },
+    {
+      "name": "frame guard",
+      "passed": true
+    },
+    {
+      "name": "floor source guard",
+      "passed": true
+    },
+    {
+      "name": "region guard",
+      "passed": true
+    },
+    {
+      "name": "one area owner guard",
+      "passed": true
+    },
+    {
+      "name": "source input hash guard",
+      "passed": true
+    },
+    {
+      "name": "only target location and revision change; areas/children/geometry preserved",
+      "passed": true
+    }
+  ],
+  "saigonAreaLinked": 162,
+  "saigonFloorOnly": 3,
+  "buildRun": false,
+  "browserRun": false
+}

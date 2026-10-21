@@ -1,0 +1,195 @@
+{
+  "reviewedAt": "2026-10-21",
+  "reviewedBy": "Codex GPT-6.1 Sol source review",
+  "basis": "Original supplied raster contours and archived official identities reviewed locally. No fresh web, independent reviewer, physical survey or current-operation verification.",
+  "decisions": [
+    {
+      "destinationId": "saigon-prototype-thehourglass",
+      "floor": "L1",
+      "regionIds": [
+        "L1-region-011"
+      ],
+      "printedUnits": "No unit code printed; named raster area only",
+      "reviewDecision": "accept-partial-area-only"
+    },
+    {
+      "destinationId": "saigon-prototype-moschino",
+      "floor": "L2",
+      "regionIds": [
+        "L2-region-009"
+      ],
+      "printedUnits": "No unit code printed; named raster area only",
+      "reviewDecision": "accept-partial-area-only"
+    },
+    {
+      "destinationId": "saigon-prototype-yakinikulike",
+      "floor": "L5",
+      "regionIds": [
+        "L5-region-018"
+      ],
+      "printedUnits": "No unit code printed; named raster area only",
+      "reviewDecision": "accept-partial-area-only"
+    }
+  ],
+  "acceptedScopes": [
+    {
+      "destinationId": "saigon-prototype-thehourglass",
+      "officialId": "2d5b055d-036d-48b0-98e5-144bf937bc96",
+      "rasterRegion": "L1-region-011",
+      "source": {
+        "path": "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L1-2026-10-01.png",
+        "width": 4782,
+        "height": 5304,
+        "bytes": 3184141,
+        "sha256": "d7c4697eb9399e8d768586b01139295cf90c3607ba44e690a031c0aaf5eba89b",
+        "transform": [
+          0.02,
+          0,
+          0,
+          0.02,
+          -47.82,
+          -53.04
+        ],
+        "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+      },
+      "sourceContourSha256": "d87b9b885f03ed8e3e4c8496aa3ca25bd63ec6648e5ac47b4be76c4f45fb5da3",
+      "scope": "Only the central area named The Hour Glass on the supplied plan is shown. Separate Cartier, Hublot, Grand Seiko and Zenith areas are excluded; this is a partial source area, not the full retailer footprint or an exact entrance.",
+      "geometryChanged": false,
+      "unitClaimAccepted": false,
+      "currentOperationVerified": false
+    },
+    {
+      "destinationId": "saigon-prototype-moschino",
+      "officialId": "6190de79-9b80-4c88-af66-40e5181fdbe2",
+      "rasterRegion": "L2-region-009",
+      "source": {
+        "path": "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L2-2026-10-01.png",
+        "width": 4608,
+        "height": 5082,
+        "bytes": 3031814,
+        "sha256": "4749dd738ea148407c334396183ef917711f4ff10fbfaa796a7ff6f31ede4fd5",
+        "transform": [
+          0.02,
+          0,
+          0,
+          0.02,
+          -46.08,
+          -50.82
+        ],
+        "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+      },
+      "sourceContourSha256": "eeaf4c15ddcdd4e382c57d2f35e9851220148e47ab17bfd70aa5c8ab14a6cfff",
+      "scope": "Only the main area named Moschino on the supplied plan is shown. The separate Label Lab area and narrow cyan fragment are excluded. The duplicated L2-17 unit claim remains unverified; this partial source area does not confirm current occupancy or an exact entrance.",
+      "geometryChanged": false,
+      "unitClaimAccepted": false,
+      "currentOperationVerified": false
+    },
+    {
+      "destinationId": "saigon-prototype-yakinikulike",
+      "officialId": "ff451ea9-998a-4e74-98a7-8f35156222fe",
+      "rasterRegion": "L5-region-018",
+      "source": {
+        "path": "Takashimaya/Sơ đồ tầng/saigon-centre-so-do-tang-L5-2026-10-01.png",
+        "width": 4732,
+        "height": 4416,
+        "bytes": 2273771,
+        "sha256": "4abefc8f9c34f1fa3c0f9076e5b4b9c5689505d783d6a843a37078f2a6b712c5",
+        "transform": [
+          0.02,
+          0,
+          0,
+          0.02,
+          -47.32,
+          -44.160000000000004
+        ],
+        "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+      },
+      "sourceContourSha256": "b8ef908f7de6d477bc9eeb70bf4eecc79a69d9502b4c870b2ab821030a2ebdb0",
+      "scope": "Shows the individual area named Yakiniku Like on the supplied plan, beside Tonkatsu Wako and the facilities block. The L5-05 unit code is not printed on this plan and remains unverified. This replaces the held unit-based display with named source-area guidance only; current occupancy and an exact entrance are not confirmed.",
+      "geometryChanged": false,
+      "unitClaimAccepted": false,
+      "currentOperationVerified": false
+    }
+  ],
+  "remaining": [
+    {
+      "destinationId": "saigon-prototype-asiancorner",
+      "floors": [
+        "L5"
+      ],
+      "category": "identity-evidence",
+      "status": "evidence-blocked",
+      "finding": "Official parent covers Lach Ca Lach Cach, GoGi House, Manwah and Kichi-Kichi; raster label sits in a narrow internal strip. No archived description defines an individual tenant versus restaurant grouping. The owner-rejected broad highlight stays held.",
+      "missingExternalInput": "Mall-issued labelled boundary and statement identifying Asian Corner as an individual venue or named shared complex, including whether the internal label strip is occupiable premises. A coordinate or narrow printed label alone is insufficient."
+    },
+    {
+      "destinationId": "saigon-prototype-oedoalley",
+      "floors": [
+        "L5"
+      ],
+      "category": "shared-scope-implementation",
+      "status": "implementation-pending",
+      "finding": "Official name is Oedo Alley - Japanese Food Village and accepted r4 candidate is explicitly shared-parent-area over Sundubu, Asanoha, Botejyu and Ramen Ichibanken. Identity supports a shared food-village scope, not an exclusive shop.",
+      "missingExternalInput": null,
+      "remainingImplementation": "A distinct shared-complex map contract, additive hash-bound candidate-region overlay/transport and parent/child selection behavior are required before activation. Current association helper accepts existing unoccupied contours only and has source-layout/partial-source-layout semantics. Do not relabel the whole parent as exclusive or silently bypass guards.",
+      "candidateRegionId": "proposal-20261018-r4-b32ef3d1-41d7-42fb-97ea-7343d47863a1-l5"
+    },
+    {
+      "destinationId": "saigon-prototype-takashimaya",
+      "floors": [
+        "B2",
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "category": "boundary-evidence",
+      "status": "evidence-blocked",
+      "finding": "Official department store mapData is null. Supplied plans label individual counters, without a unified labelled department perimeter. Current directory floor list is preserved; archival B1 is not added.",
+      "missingExternalInput": "An authoritative department-store boundary per current directory floor (B2, L1, L2, L3), or an explicitly designated partial department-owned area with matching label and floor. Counter unions do not establish this boundary."
+    },
+    {
+      "destinationId": "saigon-prototype-matinkimvietnam",
+      "floors": [
+        "L3"
+      ],
+      "category": "identity-and-boundary-evidence",
+      "status": "evidence-blocked",
+      "finding": "Official mapData is null; supplied L3 plan identifies Miana and archive has competing L3-12 claims. Matin Kim archive reports Opening Soon.",
+      "missingExternalInput": "A branch-specific labelled Matin Kim polygon or floor plan identifying its boundary and resolving the competing Miana L3-12 claim, with dated opening/move evidence if current occupancy is claimed. Do not replace Miana or remove Opening Soon caveat."
+    }
+  ],
+  "immutableInputSha256": {
+    "data/malls/saigon-centre/floor-geometry.json": "84952edc38465d572cd994ef416d5a095f778fa0cb35e46ce6d3d365c7454807",
+    "data/malls/saigon-centre/directory.json": "ffade29ada11d158619a2d58758611b210423bd609b3a4bf4f82b1af88fd5b2c",
+    "data/malls/saigon-centre/approved-regions.json": "0f59b506edbbc4ab634ceda632449bab30b08944a9c14296a04f9938fcf8a500",
+    "data/research/location-holds-2026-10-18-r1.json": "f777c850befabc41c0051547f76ccce708f3498609d60ed4cd124d419bb3c6e3",
+    "docs/content-preparation/record-review-2026-10-18/registration.json": "c01909a0035e1de5a8fa38fdc91cb8219bb388aeacd3e26ee8aed1374f65d59b",
+    "docs/content-preparation/completion-packet-2026-10-17/saigon-research/official-source-map.json": "6f5cba348ae3f0030b93625d0da1db126887b17bacfcedeb367472d80ff1fb1c",
+    "docs/content-preparation/integration-candidate-2026-10-18-r2/saigon-centre.private.json": "668ab73f71a6c3233142f1f0796fc88fa30fbf57c9bad44182ee323d070426a1",
+    "docs/content-preparation/integration-candidate-2026-10-18-r2/accepted-r4-geometry.json.gz": "89f5ac26720497a9dcbb74bdf89c770432d1e7974b5b1c99474c57698b397434"
+  },
+  "supersession": "Only the three named narrow/partial raster-area decisions supersede their previous precise-display holds. Broad Asian Corner and all exclusive-parent interpretations remain held. L5-05 unit identity remains unaccepted.",
+  "yakinikuHoldReassessment": {
+    "authorization": "Parent delegated the owner-authorized reopened remaining-seven task and specifically authorized bounded named-source-area reassessment. This is source review, not new owner physical-location acceptance.",
+    "priorHoldSource": "data/research/location-holds-2026-10-18-r1.json",
+    "priorHoldReason": "Owner screenshot feedback rejected the broad Asian Corner highlight and reported all L5-5 locations wrong; the specification identifies screenshot 5 as a generated Discovery area number, not a printed L5-05 unit.",
+    "visualEvidence": "L5-contours.png overlays the unchanged L5-region-018 on the exact original supplied raster. The contour explicitly contains the Yakiniku Like label, adjoins Tonkatsu Wako below/left and is separated by an aisle from the facilities block above/right.",
+    "officialEvidence": "official-source-map.json stores[officialId=ff451ea9-998a-4e74-98a7-8f35156222fe] names YAKINIKU LIKE and has L5 polygon geometry.",
+    "archivedRegistrationCorroboration": {
+      "id": "saigon-prototype-yakinikulike",
+      "name": "YAKINIKU LIKE",
+      "sourceRegions": [
+        "official-ff451ea9-998a-4e74-98a7-8f35156222fe-l5"
+      ],
+      "targetRegions": [
+        "L5-region-018"
+      ],
+      "heldOut": false,
+      "centroidResidual": 0.063296,
+      "intersectionOverUnion": 0.82995,
+      "source": "../../../data/research/saigon-centre.json#records[id=saigon-prototype-yakinikulike]"
+    },
+    "registrationLimitation": "Historical candidate affine registration, schematic units and residuals; not a new fit, metric survey or current occupancy evidence.",
+    "conclusion": "Same physical contour, independently supported by supplied raster label and matching archived official identity/floor plus historical registration. Accept only qualified source-area display; L5-05 remains unverified, and rejected Asian Corner broad geometry remains held."
+  }
+}
