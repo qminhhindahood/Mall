@@ -3,20 +3,21 @@ import type {SiteData} from '../data/site';
 import FloorMap from './FloorMap';
 import {publicEntrances} from '../data/public-entrances';
 import {areaLabelPoint,discoveryAreaNumbers} from './discovery-map';
-import {areaNetworks,areaPath,supportedNetwork} from '../data/area-routing';
+import {planSharedRoute,routePointToMap} from '../data/routing/graph';
+import type {EndpointRef,RoutingNetwork} from '../data/routing/contracts';
 import '../styles/journey-atlas.css';
-import {planRoute} from '../data/plan-routes';
-import {discoveryReturn,planInstructionVi,type AtlasLocale} from './atlas-handoff';
+import {discoveryReturn,type AtlasLocale} from './atlas-handoff';
 
 type Place={id:string;name:string;floor:string;areaIds:string[];destinationId?:string;start?:string;entranceId?:string;associationNote?:string;partial?:boolean};
-export default function JourneyAtlas({site,locale='en',publicDirections=false}:{site:SiteData;locale?:AtlasLocale;publicDirections?:boolean}){
+export default function JourneyAtlas({site,routing,locale='en',publicDirections=false}:{site:SiteData;routing:RoutingNetwork|null;locale?:AtlasLocale;publicDirections?:boolean}){
  const t=(en:string,vi:string)=>locale==='vi'?vi:en;
- const network=areaNetworks.find(n=>n.mall===site.mallId)!;
+ const landmarkFloor=site.mallId==='saigon-centre'?'L5':'B3';
+ const landmarkId=site.mallId==='saigon-centre'?'zone-a':'escalator';
  const shops:Place[]=site.destinations.filter(d=>d.status==='open').flatMap(d=>d.locations.map(l=>({id:d.id+'@'+l.floorId,name:d.name[locale],floor:l.floorId,areaIds:l.areaIds,destinationId:d.id,associationNote:l.associationDetail?.note[locale],partial:l.associationDetail?.kind==='partial-source-layout'})));
- const landmarks:Place[]=network.starts.map(id=>({id:'landmark:'+id,name:site.mallId==='saigon-centre'?t('Zone A lifts · public concourse','Thang máy Zone A · lối đi chung'):t('Escalator beside B3-13 · public aisle','Thang cuốn cạnh B3-13 · lối đi chung'),floor:network.floor,areaIds:[],start:id}));
+ const landmarks:Place[]=[landmarkId].map(id=>({id:'landmark:'+id,name:site.mallId==='saigon-centre'?t('Zone A lifts · public concourse','Thang máy Zone A · lối đi chung'):t('Escalator beside B3-13 · public aisle','Thang cuốn cạnh B3-13 · lối đi chung'),floor:landmarkFloor,areaIds:[],start:id}));
  const entrances:Place[]=site.geometry.floors.flatMap(f=>publicEntrances(f).map(e=>({id:e.id,name:e.name[locale],floor:e.floor,areaIds:[],entranceId:e.id})));
  const [entrance,setEntrance]=useState<string>();
- const defaults=shops.find(p=>p.destinationId===(site.mallId==='saigon-centre'?'saigon-prototype-mlb':network.endpoints[1].destinationId))??shops[0];
+ const defaults=shops.find(p=>p.destinationId===(site.mallId==='saigon-centre'?'saigon-prototype-mlb':'vincom-prototype-changkangkung'))??shops[0];
  const initialFrom=publicDirections?null:site.mallId==='saigon-centre'?shops.find(p=>p.destinationId==='saigon-prototype-calvinklein')??null:landmarks[0];
  const [discoveryUrl,setDiscoveryUrl]=useState(`/${locale}?view=discovery`);
  const [languageUrl,setLanguageUrl]=useState(locale==='en'?'/vi/chi-duong':'/en/directions');
@@ -26,24 +27,21 @@ export default function JourneyAtlas({site,locale='en',publicDirections=false}:{
  const [editing,setEditing]=useState<'from'|'to'|null>(null),[query,setQuery]=useState(''),[area,setArea]=useState<string>(),[step,setStep]=useState(-1),[expanded,setExpanded]=useState(false);
  const dialog=useRef<HTMLDialogElement>(null),search=useRef<HTMLInputElement>(null),lastFocus=useRef<HTMLElement|null>(null),scroll=useRef<HTMLDivElement>(null);
  const floor=site.geometry.floors.find(f=>f.id===floorId)!;
- const destination=site.destinations.find(d=>d.id===to.destinationId)!;
- const supported=destination&&supportedNetwork(site.mallId,destination,to.floor);
- const legacyPath=from?.floor===to.floor&&supported&&from?.start?areaPath(supported,to.destinationId!,from.start):null;
- const proposedPlan=planRoute(site.mallId,from?.destinationId,to.destinationId);
- const plan=proposedPlan?.legs.every(l=>site.geometry.floors.find(f=>f.id===l.floor)?.sources.some(s=>s.sha256===l.hash))&&proposedPlan.legs.some(l=>l.floor===from?.floor)&&proposedPlan.legs.some(l=>l.floor===to.floor)?proposedPlan:null;
- const path=plan?{edges:plan.steps.map(s=>({instruction:{en:s.text,vi:planInstructionVi[s.text]??s.text}})),nodes:[]}:legacyPath;
+ const endpoint=(p:Place):EndpointRef=>p.destinationId?{kind:'destination',mallId:site.mallId,floorId:p.floor,destinationId:p.destinationId}:p.entranceId?{kind:'public-entrance',mallId:site.mallId,floorId:p.floor,endpointId:p.entranceId}:{kind:'landmark',mallId:site.mallId,floorId:p.floor,endpointId:'landmark:'+p.start+'@'+p.floor};
+ const result=routing?planSharedRoute(routing,{from:from?endpoint(from):null,to:endpoint(to)}):null;
+ const route=result?.status==='ready'?result:null;
+ const path=route?{edges:route.steps}:null;
+ const plan=route?.arcs.some(a=>a.kind==='transfer')?route:null;
  const same=from?.id===to.id,cross=!!from&&from.floor!==to.floor;
  const notedPlaces=[...(from?.associationNote?[from]:[]),...(to.associationNote?[to]:[])].filter((p,i,places)=>places.findIndex(other=>other.id===p.id)===i);
  const compactAssociation=(p:Place)=>p.partial?t('Only part of this shop is mapped; exact doorway unverified.','Chỉ một phần cửa hàng được thể hiện trên sơ đồ; chưa xác minh cửa ra vào chính xác.'):t('Approximate mapped area; exact doorway unverified.','Khu vực gần đúng; chưa xác minh cửa ra vào chính xác.');
- const reason=!from?t('Choose where you will start. Your location is not detected.','Chọn điểm bắt đầu. Ứng dụng không xác định vị trí của bạn.'):from.entranceId?t('Public entrance selected manually. Its walking connection to this destination has not been reviewed.','Đã tự chọn cửa vào công cộng. Kết nối đi bộ từ cửa này đến điểm đến chưa được kiểm tra.'):same?t('You selected the same place. Choose a different destination.','Bạn đã chọn cùng một địa điểm. Hãy chọn điểm đến khác.'):cross?t('The connection between these floors has not been verified. Preview each floor below; a walking route cannot start yet.','Kết nối giữa các tầng này chưa được xác minh. Bạn có thể xem từng tầng; chưa có lộ trình đi bộ.'):!from.start?t('This shop is mapped, but a walking connection from its public frontage has not been verified. You can inspect both areas on the map.','Cửa hàng đã được định vị theo khu vực, nhưng lối đi từ phía trước cửa hàng chưa được xác minh. Bạn có thể xem cả hai khu trên sơ đồ.'):t('The destination has no reviewed walking path from this start. Its mapped area or confirmed floor remains available.','Chưa có lộ trình được kiểm tra từ điểm bắt đầu này. Bạn vẫn có thể xem khu vực hoặc tầng đã xác nhận của điểm đến.');
+ const reason=!from?t('Choose where you will start. Your location is not detected.','Chọn điểm bắt đầu. Ứng dụng không xác định vị trí của bạn.'):from.entranceId?t('Public entrance selected manually. Its walking connection to this destination has not been reviewed.','Đã tự chọn cửa vào công cộng. Kết nối đi bộ từ cửa này đến điểm đến chưa được kiểm tra.'):same?t('You selected the same place. Choose a different destination.','Bạn đã chọn cùng một địa điểm. Hãy chọn điểm đến khác.'):cross?t('The connection between these floors has not been verified. Preview each floor below; a walking route cannot start yet.','Kết nối giữa các tầng này chưa được xác minh. Bạn có thể xem từng tầng; chưa có lộ trình đi bộ.'):t('The destination has no reviewed walking path from this start. Its mapped area or confirmed floor remains available.','Chưa có lộ trình được kiểm tra từ điểm bắt đầu này. Bạn vẫn có thể xem khu vực hoặc tầng đã xác nhận của điểm đến.');
  const numbers=discoveryAreaNumbers(site.content,'','',floor.id);
  const matches=(editing==='from'?[...entrances,...landmarks,...shops.filter(p=>p.areaIds.length)]:shops).filter(p=>(p.name+' '+p.floor).toLocaleLowerCase().includes(query.toLocaleLowerCase()));
  const pickedEntrance=entrances.find(p=>p.entranceId===entrance&&p.floor===floorId);
  const picked=area?shops.filter(p=>p.floor===floorId&&p.areaIds.includes(area)):[];
- const frame=floor.sources[0];
- const mapPoint=(x:number,y:number):[number,number]=>{const [a,b,c,d,e,f]=frame.transform;const sx=x*frame.width/network.size[0],sy=y*frame.height/network.size[1];return [a*sx+c*sy+e,b*sx+d*sy+f]};
- const planLeg=plan?.legs.find(l=>l.floor===floorId);
- const routePoints=planLeg?planLeg.points.map(([x,y])=>{const [a,b,c,d,e,f]=frame.transform;return [a*x+c*y+e,b*x+d*y+f]}):legacyPath&&floorId===network.floor?legacyPath.nodes.map(n=>mapPoint(n.x,n.y)):[];
+ const routeLeg=route?.legs.find(l=>l.floorId===floorId);
+ const routePoints=routeLeg&&routing?routeLeg.points.map(p=>routePointToMap(routing,routeLeg.sourceId,p)):[];
  useEffect(()=>{const url=new URL(location.href),id=url.searchParams.get('to'),requestedFloor=url.searchParams.get('floor');
   const p=shops.find(p=>p.destinationId===id&&(!requestedFloor||p.floor===requestedFloor));
   if(p){setTo(p);setFloorId(p.floor)}else if(id){setHandoffError(t('This destination and floor could not be found. Choose a destination below.','Không tìm thấy điểm đến và tầng này. Hãy chọn điểm đến bên dưới.'))}
@@ -68,12 +66,12 @@ export default function JourneyAtlas({site,locale='en',publicDirections=false}:{
   setLanguageUrl((other==='vi'?'/vi/chi-duong':'/en/directions')+'?'+params);
  },[from,to,discoveryUrl,handoffReady,publicDirections,locale]);
  useEffect(()=>{setZoom(1);scroll.current?.scrollTo(0,0)},[floorId]);
- function optionCoverage(p:Place){const a=editing==='from'?p:from,b=editing==='to'?p:to;if(!a)return t('Choose a start to check route coverage','Chọn điểm bắt đầu để kiểm tra lộ trình');if(a.id===b.id)return t('Same place','Cùng địa điểm');if(planRoute(site.mallId,a.destinationId,b.destinationId))return t('Plan-based route available','Có lộ trình đối chiếu theo sơ đồ');const dest=site.destinations.find(d=>d.id===b.destinationId);const n=dest&&supportedNetwork(site.mallId,dest,b.floor);if(a.floor===b.floor&&a.start&&n&&areaPath(n,b.destinationId!,a.start))return t('Reviewed area route available','Có lộ trình theo khu vực đã kiểm tra');return t('Map only · walking connection not reviewed','Chỉ xem sơ đồ · lối đi chưa được kiểm tra')}
+ function optionCoverage(p:Place){const a=editing==='from'?p:from,b=editing==='to'?p:to;if(!a)return t('Choose a start to check route coverage','Chọn điểm bắt đầu để kiểm tra lộ trình');if(a.id===b.id)return t('Same place','Cùng địa điểm');const available=routing&&planSharedRoute(routing,{from:endpoint(a),to:endpoint(b)}).status==='ready';return available?t('Plan-based route available','Có lộ trình đối chiếu theo sơ đồ'):t('Map only — walking connection not reviewed','Chỉ xem sơ đồ — lối đi chưa được kiểm tra')}
  function open(which:'from'|'to'){lastFocus.current=document.activeElement as HTMLElement;setEditing(which);setQuery('');dialog.current?.showModal();setTimeout(()=>search.current?.focus(),0)}
  function close(){dialog.current?.close();setEditing(null);lastFocus.current?.focus()}
  function choose(p:Place,which:'from'|'to'){which==='from'?setFrom(p):setTo(p);if(which==='to')setHandoffError('');setFloorId(p.floor);setStep(-1);setArea(undefined);setEntrance(undefined);close()}
  function focusPlace(p:Place){setFloorId(p.floor);setArea(p.areaIds[0]);setEntrance(p.entranceId);setZoom(1)}
- function routeAdvance(){if(!path)return;const next=step>=path.edges.length?-1:step+1;setStep(next);setFloorId(plan?plan.steps[Math.max(0,Math.min(next,plan.steps.length-1))].floor:network.floor)}
+ function routeAdvance(){if(!path)return;const next=step>=path.edges.length?-1:step+1;setStep(next);setFloorId(route!.steps[Math.max(0,Math.min(next,route!.steps.length-1))].floorId)}
  const selected=area??(to.floor===floorId?to.areaIds[0]:from?.floor===floorId?from.areaIds[0]:undefined);
  const pointFor=(p:Place)=>{if(p.floor!==floorId)return;const a=site.content.areas.find(a=>p.areaIds.includes(a.id));return a&&areaLabelPoint(floor,a.regionIds)};
  const pin=(p:Place,label:string)=>{const point=pointFor(p);return point&&<g className={'atlas-pin '+label} pointerEvents="none"><circle cx={point[0]} cy={point[1]} r={1.4}/><text x={point[0]} y={point[1]}>{label}</text></g>};
@@ -95,16 +93,16 @@ export default function JourneyAtlas({site,locale='en',publicDirections=false}:{
     <button className="atlas-disclosure" onClick={()=>setExpanded(!expanded)} aria-expanded={expanded}>{expanded?t('Hide journey details','Ẩn chi tiết'):t('Show journey details','Xem chi tiết')} <span>{expanded?'−':'+'}</span></button>
     <div className={'atlas-details '+(expanded?'expanded':'')}>
      {notedPlaces.map(p=><p key={p.id} className="atlas-association-note" data-association-kind={p.partial?'partial-source-layout':'source-layout'}><strong>{p.name}: </strong>{p.associationNote}</p>)}
-     {path?<><p>{plan?t('Zone A is paired from the supplied L2/L3 plans. Confirm the destination floor at the lift; current operation is not verified.','Zone A được đối chiếu từ sơ đồ L2/L3. Kiểm tra tầng đến tại thang máy; hoạt động hiện tại chưa được xác minh.'):t('Public-area guidance to the destination frontage.','Hướng dẫn theo lối chung đến phía trước khu vực đích.')} {t('No exact doorway, live location, distance or arrival time is claimed.','Không xác định cửa chính xác, vị trí trực tiếp, khoảng cách hoặc thời gian đến.')}</p><ol>{path.edges.map((e,i)=><li key={i}><button aria-current={step===i?'step':undefined} onClick={()=>{setStep(i);setFloorId(plan?plan.steps[i].floor:network.floor)}}>{e.instruction[locale]}</button></li>)}</ol></>:<p>{reason}</p>}
+     {path?<><p>{plan?t('Zone A is paired from the supplied L2/L3 plans. Confirm the destination floor at the lift; current operation is not verified.','Zone A được đối chiếu từ sơ đồ L2/L3. Kiểm tra tầng đến tại thang máy; hoạt động hiện tại chưa được xác minh.'):t('Public-area guidance to the destination frontage.','Hướng dẫn theo lối chung đến phía trước khu vực đích.')} {t('No exact doorway, live location, distance or arrival time is claimed.','Không xác định cửa chính xác, vị trí trực tiếp, khoảng cách hoặc thời gian đến.')}</p><ol>{path.edges.map((e,i)=><li key={i}><button aria-current={step===i?'step':undefined} onClick={()=>{setStep(i);setFloorId(route!.steps[i].floorId)}}>{e.instruction[locale]}</button></li>)}</ol></>:<p>{reason}</p>}
      {mode==='plan'&&<p>{t('Choose a planned shop or reviewed public-area start. Entrance-to-shop routing is not yet verified.','Chọn cửa hàng dự kiến hoặc điểm bắt đầu chung đã kiểm tra. Lộ trình từ cửa vào đến cửa hàng chưa được xác minh.')}</p>}
-     <p className="atlas-evidence">{t('Coverage: ','Phạm vi: ')}{site.mallId==='saigon-centre'?t('CALVIN KLEIN L2 ↔ MLB L3 via plan-paired Zone A, plus 3 areas on L5','CALVIN KLEIN L2 ↔ MLB L3 qua Zone A đối chiếu theo sơ đồ, và 3 khu tại L5'):t(`${network.endpoints.length} areas on B3`,`${network.endpoints.length} khu tại B3`)}{t(' from one reviewed start. Other mapped shops remain selectable, but are not automatically routable. Other floor connections remain unreviewed. Zone A L2/L3 has plan-based pairing only.',' từ một điểm bắt đầu đã kiểm tra. Các cửa hàng khác có thể chọn để xem sơ đồ, nhưng chưa có lộ trình tự động. Các kết nối tầng khác chưa được kiểm tra. Zone A L2/L3 chỉ được đối chiếu theo sơ đồ.')}</p>
+     <p className="atlas-evidence">{t('Coverage: ','Phạm vi: ')}{site.mallId==='saigon-centre'?t('CALVIN KLEIN L2 ↔ MLB L3 via plan-paired Zone A, plus three L5 areas from the reviewed public start.','CALVIN KLEIN L2 ↔ MLB L3 qua Zone A đối chiếu theo sơ đồ, và ba khu L5 từ điểm bắt đầu chung đã kiểm tra.'):t('Eight B3 destination areas: GoGi House, Manwah, San Fu Lou and Kichi-Kichi can also be starts. Routes follow reviewed directed aisles; other mapped shops are not automatically routable.','Tám khu đích B3: GoGi House, Manwah, San Fu Lou và Kichi-Kichi cũng có thể là điểm bắt đầu. Lộ trình theo các hướng lối đi đã kiểm tra; cửa hàng khác có trên sơ đồ không tự động có lộ trình.')} {t('Public entrance connections and other floor transfers remain unreviewed.','Kết nối từ cửa vào công cộng và các chuyển tầng khác chưa được kiểm tra.')}</p>
     </div>
    </section>
    <section className="atlas-map-stage" aria-label={t('Interactive floor map','Sơ đồ tầng tương tác')}>
     <div className="atlas-map-header"><div><small>{t('EXPLORE THE FLOOR','KHÁM PHÁ TẦNG')}</small><h2>{floor.label}<span> / {site.mallId==='saigon-centre'?'Saigon Centre':'Vincom Đồng Khởi'}</span></h2></div><div className="atlas-map-controls glass"><button aria-label={t('Zoom out','Thu nhỏ')} disabled={zoom<=1} onClick={()=>setZoom(Math.max(1,zoom-.5))}>−</button><span>{Math.round(zoom*100)}%</span><button aria-label={t('Zoom in','Phóng to')} disabled={zoom>=3} onClick={()=>setZoom(Math.min(3,zoom+.5))}>+</button><button aria-label={t('Reset map view','Đặt lại sơ đồ')} onClick={()=>{setZoom(1);scroll.current?.scrollTo(0,0)}}>↺</button></div></div>
     <nav className="atlas-floors" aria-label={t('Map floor','Tầng trên sơ đồ')}>{site.geometry.floors.slice().reverse().map(f=><button key={f.id} aria-pressed={f.id===floorId} onClick={()=>{setFloorId(f.id);setArea(undefined);setEntrance(undefined)}}>{f.id}</button>)}</nav>
     <div className="atlas-map-scroll" ref={scroll}><div className="atlas-map-scale" style={{width:`${zoom*100}%`,height:`${zoom*100}%`}}><FloorMap floor={floor} title={t('Interactive mall map','Sơ đồ trung tâm tương tác')} content={site.content} locale={locale} areaNumbers={numbers} selectedArea={selected} onArea={id=>{setArea(id);setEntrance(undefined)}} selectedEntrance={entrance??(from?.floor===floorId?from.entranceId:undefined)} onEntrance={id=>{setEntrance(id);setArea(undefined)}}>
-     {routePoints.length>0&&<g className="atlas-route" pointerEvents="none"><polyline className="route-border" points={routePoints.map(p=>p.join(',')).join(' ')}/><polyline className="route-line" points={routePoints.map(p=>p.join(',')).join(' ')}/>{routePoints.map((p,i)=><circle key={i} className={!plan&&step===i?'current-node':''} cx={p[0]} cy={p[1]} r={.7}/> )}</g>}{from&&pin(from,'A')}{pin(to,'B')}
+     {routePoints.length>0&&<g className="atlas-route" pointerEvents="none"><polyline className="route-border" points={routePoints.map(p=>p.join(',')).join(' ')}/><polyline className="route-line" points={routePoints.map(p=>p.join(',')).join(' ')}/>{routePoints.map((p,i)=><circle key={i} className={''} cx={p[0]} cy={p[1]} r={.7}/> )}</g>}{from&&pin(from,'A')}{pin(to,'B')}
     </FloorMap></div></div>
     <div className="atlas-map-caption"><span><i className="caption-key"/> {t('Select a numbered area to choose a shop','Chọn khu có số để chọn cửa hàng')}</span><span>{Object.keys(numbers).length} {t('mapped areas · 2D','khu trên sơ đồ · 2D')}</span></div>
     {publicEntrances(floor).length>0&&<p className="atlas-entrance-key">{t('E1, E3, E4: public entrances shown on the source plan. Select an entrance to start here; walking connections are not reviewed.','E1, E3, E4: cửa vào công cộng trên sơ đồ nguồn. Chọn cửa vào làm điểm bắt đầu; kết nối đi bộ chưa được kiểm tra.')}</p>}

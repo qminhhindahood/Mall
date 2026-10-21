@@ -1,5 +1,6 @@
 ---
 import {site} from '../../data/site';
+import {atlasRouting} from '../../data/atlas-routing';
 import JourneyAtlas from '../../components/JourneyAtlas';
 ---
-<!doctype html><html lang="vi"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><title>Chỉ đường · {site.name}</title></head><body><JourneyAtlas site={site} locale="vi" publicDirections client:load/><noscript>Bật JavaScript và chọn điểm bắt đầu để kiểm tra lộ trình đã xác minh. <a href="/vi?view=discovery">Mở danh bạ và sơ đồ tầng</a>.</noscript></body></html>
+<!doctype html><html lang="vi"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><title>Chỉ đường · {site.name}</title></head><body><JourneyAtlas site={site} routing={atlasRouting} locale="vi" publicDirections client:load/><noscript>Bật JavaScript và chọn điểm bắt đầu để kiểm tra lộ trình đã xác minh. <a href="/vi?view=discovery">Mở danh bạ và sơ đồ tầng</a>.</noscript></body></html>

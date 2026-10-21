@@ -2,16 +2,17 @@ import type { SiteData } from '../site';
 import type { Point, RouteAnchor, RoutingNetwork, RoutingSource } from './contracts';
 import {validateRoutingNetwork} from './graph';
 import {reviewedFixtures} from './reviewed-fixtures';
+import {reviewedB3Extension} from './reviewed-b3-extension';
 
 // These frames are part of the reviewed fixture identity, never inferred from a new raster.
 const sources:RoutingSource[]=[
  {id:'saigon-centre:L5:plan',mallId:'saigon-centre',floorId:'L5',sha256:'4abefc8f9c34f1fa3c0f9076e5b4b9c5689505d783d6a843a37078f2a6b712c5',width:4732,height:4416,transform:[.02,0,0,.02,-47.32,-44.160000000000004],reviewId:'area-routing-2026-10-21'},
- {id:'vincom-dong-khoi:B3:plan',mallId:'vincom-dong-khoi',floorId:'B3',sha256:'ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89',width:1320,height:1077,transform:[.1,0,0,.1,-66,-53.85],reviewId:'integrated-mapping-r6'},
+ {id:'vincom-dong-khoi:B3:plan',mallId:'vincom-dong-khoi',floorId:'B3',sha256:'ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89',width:1320,height:1077,transform:[.1,0,0,.1,-66,-53.85],reviewId:'integrated-mapping-r6+accepted-b3-r7'},
  {id:'saigon-centre:L2:plan',mallId:'saigon-centre',floorId:'L2',sha256:'4749dd738ea148407c334396183ef917711f4ff10fbfaa796a7ff6f31ede4fd5',width:4608,height:5082,transform:[.02,0,0,.02,-46.08,-50.82],reviewId:'crossfloor-3c7eee2'},
  {id:'saigon-centre:L3:plan',mallId:'saigon-centre',floorId:'L3',sha256:'905e5de4c90debbabddd8a7fadf9e47b5084bf6b01703ba5450b9e8603763ab8',width:4712,height:5142,transform:[.02,0,0,.02,-47.12,-51.42],reviewId:'crossfloor-3c7eee2'},
 ];
 
-/** Frozen r6 adapter only. Search is generic; adding coverage requires a reviewed data revision. */
+/** Frozen legacy fixtures plus the explicitly accepted B3 r7 extension. */
 export function createReviewedRoutingNetwork(site:Pick<SiteData,'mallId'|'geometry'|'destinations'|'content'>):RoutingNetwork {
  const graph:RoutingNetwork={revision:reviewedFixtures.revision,mallId:site.mallId,floorIds:site.geometry.floors.map(f=>f.id),sources:sources.filter(s=>s.mallId===site.mallId).map(s=>({...s,transform:[...s.transform]})),nodes:[],arcs:[],anchors:[],connectors:[]};
  const sourceFor=(floor:string)=>graph.sources.find(s=>s.floorId===floor)!;
@@ -44,6 +45,28 @@ export function createReviewedRoutingNetwork(site:Pick<SiteData,'mallId'|'geomet
    {id:`${prefix}:transfer`,from:landingA,to:landingB,kind:'transfer',connectorId:plan.connection.id,steps:[steps[transfer]],reviewId,availability:'plan-based'},
    {id:`${prefix}:arrive`,from:landingB,to:nodeB,kind:'walk',sourceId:sourceB.id,polyline:last.points.map(p=>[...p]),steps:steps.slice(transfer+1),reviewId,availability:'plan-based'},
   );
+ }
+ if(site.mallId==='vincom-dong-khoi'){
+  const source=sourceFor('B3'),extension=reviewedB3Extension;
+  if(source.sha256!==extension.source)throw new Error('Routing network: B3 extension source drift');
+  const nodeId=(id:string)=>site.mallId+':B3:'+({'b3-13-east-aisle':'escalator','b3-13-east-frontage':'siam'}[id]??'r7:'+id);
+  for(const node of extension.nodes){
+   const existing=graph.nodes.find(n=>n.id===nodeId(node.id));
+   if(existing){if(JSON.stringify(existing.point)!==JSON.stringify(node.point))throw new Error('Routing network: B3 shared node drift')}
+   else graph.nodes.push({id:nodeId(node.id),sourceId:source.id,point:[node.point[0],node.point[1]],kind:'junction',reviewId:source.reviewId});
+  }
+  for(const arc of extension.arcs){
+   const from=nodeId(arc.from),to=nodeId(arc.to);
+   // Retain the existing E1 forward instruction and deterministic legacy path.
+   // The accepted E1 forward text remains in the fixture for provenance.
+   if(arc.id==='E1:forward')continue;
+   graph.arcs.push({id:source.id+':r7:'+arc.id,from,to,kind:'walk',sourceId:source.id,polyline:[graph.nodes.find(n=>n.id===from)!.point,graph.nodes.find(n=>n.id===to)!.point],steps:[{floorId:'B3',instruction:{...arc.instruction}}],reviewId:source.reviewId,availability:'plan-based'});
+  }
+  for(const anchor of extension.anchors){
+   if(!hasLocation(anchor.destinationId,'B3',anchor.areaId))continue;
+   addAnchor({id:anchor.destinationId+'@B3',mallId:site.mallId,floorId:'B3',nodeId:nodeId(anchor.node),kind:'destination',destinationId:anchor.destinationId,areaId:anchor.areaId,mayStart:true,mayFinish:true,scope:'area-frontage',reviewId:source.reviewId});
+  }
+  graph.revision+='+'+extension.revision;
  }
  validateRoutingNetwork(graph,site);
  return graph;

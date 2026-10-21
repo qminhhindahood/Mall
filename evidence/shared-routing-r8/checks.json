@@ -1,0 +1,243 @@
+{
+  "scope": "Atlas shared planner integration with accepted B3 extension; authoring checks only, builds/browser owned by coordinator.",
+  "checks": [
+    {
+      "name": "Frozen same-floor review data matches unchanged legacy data",
+      "pass": true
+    },
+    {
+      "name": "Legacy plan instruction/geometry parity saigon-prototype-calvinklein",
+      "pass": true
+    },
+    {
+      "name": "Legacy plan instruction/geometry parity saigon-prototype-mlb",
+      "pass": true
+    },
+    {
+      "name": "saigon-centre: exact expected ordered pair SET",
+      "pass": true
+    },
+    {
+      "name": "saigon-centre: no actual public entrance invented",
+      "pass": true
+    },
+    {
+      "name": "saigon-centre: exhaustive every-listing-floor origin and target reachability",
+      "pass": true
+    },
+    {
+      "name": "saigon-centre: null origin fails closed",
+      "pass": true
+    },
+    {
+      "name": "saigon-centre: cross-mall request rejected",
+      "pass": true
+    },
+    {
+      "name": "saigon-centre: unknown floor rejected",
+      "pass": true
+    },
+    {
+      "name": "saigon-centre: unknown endpoint rejected",
+      "pass": true
+    },
+    {
+      "name": "saigon-centre: unreviewed public entrance rejected",
+      "pass": true
+    },
+    {
+      "name": "saigon-centre: sha256 drift rejected",
+      "pass": true
+    },
+    {
+      "name": "saigon-centre: transform drift rejected",
+      "pass": true
+    },
+    {
+      "name": "saigon-centre: wrong graph mall rejected",
+      "pass": true
+    },
+    {
+      "name": "saigon-centre: missing graph node rejected",
+      "pass": true
+    },
+    {
+      "name": "saigon-centre: source-to-map transform exact",
+      "pass": true
+    },
+    {
+      "name": "saigon-centre: saigon-prototype-dimtutac step parity",
+      "pass": true
+    },
+    {
+      "name": "saigon-centre: saigon-prototype-longjing step parity",
+      "pass": true
+    },
+    {
+      "name": "saigon-centre: saigon-prototype-changkangkung step parity",
+      "pass": true
+    },
+    {
+      "name": "saigon-prototype-calvinklein: another valid same-floor area cannot retain old frontage route",
+      "pass": true
+    },
+    {
+      "name": "saigon-prototype-mlb: another valid same-floor area cannot retain old frontage route",
+      "pass": true
+    },
+    {
+      "name": "Unknown transfer connector identity rejected",
+      "pass": true
+    },
+    {
+      "name": "Transfer outside accepted connector landing tuple rejected",
+      "pass": true
+    },
+    {
+      "name": "Connector registry review identity rejected",
+      "pass": true
+    },
+    {
+      "name": "Walk arc review identity rejected",
+      "pass": true
+    },
+    {
+      "name": "Transfer arc review identity rejected",
+      "pass": true
+    },
+    {
+      "name": "Anchor review identity rejected",
+      "pass": true
+    },
+    {
+      "name": "saigon-prototype-calvinklein: floor legs and manual transfer parity",
+      "pass": true
+    },
+    {
+      "name": "saigon-prototype-mlb: floor legs and manual transfer parity",
+      "pass": true
+    },
+    {
+      "name": "Removing a transfer arc removes that journey, keeps independent reverse",
+      "pass": true
+    },
+    {
+      "name": "vincom-dong-khoi: exact expected ordered pair SET",
+      "pass": true
+    },
+    {
+      "name": "vincom-dong-khoi: no actual public entrance invented",
+      "pass": true
+    },
+    {
+      "name": "vincom-dong-khoi: exhaustive every-listing-floor origin and target reachability",
+      "pass": true
+    },
+    {
+      "name": "vincom-dong-khoi: null origin fails closed",
+      "pass": true
+    },
+    {
+      "name": "vincom-dong-khoi: cross-mall request rejected",
+      "pass": true
+    },
+    {
+      "name": "vincom-dong-khoi: unknown floor rejected",
+      "pass": true
+    },
+    {
+      "name": "vincom-dong-khoi: unknown endpoint rejected",
+      "pass": true
+    },
+    {
+      "name": "vincom-dong-khoi: unreviewed public entrance rejected",
+      "pass": true
+    },
+    {
+      "name": "vincom-dong-khoi: sha256 drift rejected",
+      "pass": true
+    },
+    {
+      "name": "vincom-dong-khoi: transform drift rejected",
+      "pass": true
+    },
+    {
+      "name": "vincom-dong-khoi: wrong graph mall rejected",
+      "pass": true
+    },
+    {
+      "name": "vincom-dong-khoi: missing graph node rejected",
+      "pass": true
+    },
+    {
+      "name": "vincom-dong-khoi: source-to-map transform exact",
+      "pass": true
+    },
+    {
+      "name": "vincom-dong-khoi: vincom-prototype-siamsugar step parity",
+      "pass": true
+    },
+    {
+      "name": "vincom-dong-khoi: vincom-prototype-changkangkung step parity",
+      "pass": true
+    },
+    {
+      "name": "vincom-dong-khoi: vincom-prototype-chillithai step parity",
+      "pass": true
+    },
+    {
+      "name": "vincom-dong-khoi: vincom-prototype-highlandscoffee step parity",
+      "pass": true
+    },
+    {
+      "name": "vincom-prototype-gogihouse@B3: exact derived area required",
+      "pass": true
+    },
+    {
+      "name": "vincom-prototype-manwah@B3: exact derived area required",
+      "pass": true
+    },
+    {
+      "name": "vincom-prototype-sanfulou@B3: exact derived area required",
+      "pass": true
+    },
+    {
+      "name": "vincom-prototype-kichikichi@B3: exact derived area required",
+      "pass": true
+    },
+    {
+      "name": "Only four newly reviewed shop origins; Siam/southbound remain destination-only",
+      "pass": true
+    },
+    {
+      "name": "Landmark is not a selectable route destination",
+      "pass": true
+    },
+    {
+      "name": "Seventeen added arcs use exact accepted bilingual directional text; E1 forward keeps old text",
+      "pass": true
+    },
+    {
+      "name": "All368 listings appear in coverage",
+      "pass": true
+    }
+  ],
+  "checksPassed": 55,
+  "totalListings": 368,
+  "directedJourneys": 41,
+  "evaluatedRequests": 71300,
+  "malls": [
+    {
+      "mallId": "saigon-centre",
+      "listings": 165,
+      "directedJourneys": 5,
+      "evaluatedRequests": 29070
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "listings": 203,
+      "directedJourneys": 36,
+      "evaluatedRequests": 42230
+    }
+  ]
+}
