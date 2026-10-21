@@ -15,3 +15,7 @@ evidence/saigon-remaining-r11/** -text
 data/research/saigon-source-associations-2026-10-21-r11.json -text
 data/research/saigon-shared-components-2026-10-21-r11.json -text
 data/research/saigon-asian-band-2026-10-21-r11.json -text
+
+# Preserve exact reviewed r12 packet and evidence bytes in portable snapshots.
+evidence/saigon-last-two-r12/** -text
+data/research/saigon-department-partials-2026-10-21-r12.json -text
