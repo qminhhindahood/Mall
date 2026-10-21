@@ -38,6 +38,20 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
   const detail = { mallId: options.mallId, assetRevision: options.assetRevision, geometryRevision: data.revision };
   const setupDone = timing('renderer-setup', detail);
   let disposed=false, failed: Error|null=null, active=!document.hidden, paused=options.reducedMotion, raf=0, last=0, serial=0, journeyProgress=0, approachRotation=0;
+  const arrivalDuration=5500;
+  let arrivalElapsed=0, automaticStopped=options.reducedMotion, manualLook=0, manualZoom=1;
+  const clamp=(value:number,min:number,max:number)=>Math.max(min,Math.min(max,value));
+  const stopAutomaticPresentation=()=>{
+    if(!automaticStopped)manualZoom*=1+.08*Math.pow(1-clamp(arrivalElapsed/arrivalDuration,0,1),2);
+    automaticStopped=true;cancelAnimationFrame(raf);raf=0;
+    canvas.dataset.arrival='stopped';
+  };
+  // Capture intent before a link, scrolling gesture or control handles it. This
+  // never prevents native scrolling, focus, links or practical map interaction.
+  const userInput=()=>{if(current?.exteriorFit)stopAutomaticPresentation();};
+  window.addEventListener('pointerdown',userInput,{capture:true,passive:true});
+  window.addEventListener('wheel',userInput,{capture:true,passive:true});
+  window.addEventListener('keydown',userInput,true);
   let rejectLife!: (reason: Error)=>void;
   const lifecycle = new Promise<never>((_,reject)=>{rejectLife=reject;});
   void lifecycle.catch(()=>{});
@@ -85,6 +99,9 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
     if(disposed) return;
     disposed=true; serial++; cancelAnimationFrame(raf); rejectLife(new Error('Scene disposed'));
     canvas.removeEventListener('webglcontextlost',lost); resize?.disconnect();
+    window.removeEventListener('pointerdown',userInput,true);
+    window.removeEventListener('wheel',userInput,true);
+    window.removeEventListener('keydown',userInput,true);
     for(const task of tasks.splice(0)) task.reject(new Error('Scene disposed'));
     root.unmount();
     const counts={geometries:geometries.size,materials:materials.size,textures:textures.size};
@@ -123,7 +140,12 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
         const bearing=new Vector3(.72,.28,1).lerp(new Vector3(...motion.bearing),approach*approach*(3-2*approach));
         // Zoom continues through the shared tower/copy fade. Reversal evaluates
         // this same path directly, with no tween, hold or second scene clock.
-        view.camera.position.copy(focus).add(bearing.normalize().multiplyScalar(distance*Math.exp(-motion.zoomRate*journeyProgress)));
+        const manualWeight=1-approach*approach*(3-2*approach);
+        bearing.y+=manualLook*manualWeight;
+        const arrival=clamp(arrivalElapsed/arrivalDuration,0,1);
+        const settle=automaticStopped?1:1+.08*(1-arrival)*(1-arrival);
+        const zoom=1+(manualZoom-1)*manualWeight;
+        view.camera.position.copy(focus).add(bearing.normalize().multiplyScalar(distance*Math.exp(-motion.zoomRate*journeyProgress)*zoom*(1+(settle-1)*manualWeight)));
         view.camera.lookAt(focus);
       }
       view.camera.updateProjectionMatrix();target.setSize(Math.round(w*renderer.getPixelRatio()),Math.round(h*renderer.getPixelRatio()));};
@@ -137,6 +159,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
       const bounds=new Box3().setFromObject(group),center=bounds.getCenter(new Vector3()),size=bounds.getSize(new Vector3());
       if(bounds.isEmpty()) throw new Error('Empty scene');
       const camera=new PerspectiveCamera(38,width()/height(),.1,3000);
+      if(isExterior&&!automaticStopped&&arrivalElapsed===0)group.rotation.y=-.24;
       const radius=Math.max(size.x,size.y,size.z),distance=radius*1.8/Math.min(1,camera.aspect);
       camera.position.copy(center).add(new Vector3(distance*.72,distance*.65,distance)); camera.lookAt(center);
       scene.add(group,new AmbientLight(0xffffff,.7));
@@ -201,14 +224,24 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
     };
     const animate=(time:number) => {
       raf=0;if(disposed || failed || !active || paused || !current)return;
-      const delta=Math.max(0,(time-last)/1000);last=time;
+      const delta=Math.max(0,time-last);last=time;
       if(current!==views.get(key({kind:'exterior',floorId:''})))return;
       if(journeyProgress>0)return;
-      current.group.rotation.y=(current.group.rotation.y+delta*.16)%(Math.PI*2);
-      try {if(!gpuBusy)draw(current,false);raf=requestAnimationFrame(animate);}
+      arrivalElapsed=Math.min(arrivalDuration,arrivalElapsed+delta);
+      const arrival=arrivalElapsed/arrivalDuration;
+      current.group.rotation.y=-.24*(1-arrival)*(1-arrival);
+      canvas.dataset.arrival=arrival===1?'complete':'playing';
+      try {if(!gpuBusy)draw(current,false);if(arrivalElapsed<arrivalDuration||gpuBusy)raf=requestAnimationFrame(animate);}
       catch(error){failVisible(error,'runtime');}
     };
-    const refreshAnimation=()=>{cancelAnimationFrame(raf);raf=0;last=performance.now();if(active&&!paused&&current?.exteriorFit&&journeyProgress===0&&!disposed&&!failed)raf=requestAnimationFrame(animate);};
+    const refreshAnimation=()=>{cancelAnimationFrame(raf);raf=0;last=performance.now();if(active&&!paused&&!automaticStopped&&arrivalElapsed<arrivalDuration&&current?.exteriorFit&&journeyProgress===0&&!disposed&&!failed)raf=requestAnimationFrame(animate);};
+    const redrawExterior=()=>{
+      if(!active||!current?.exteriorFit||disposed||failed)return;
+      // A manual button may be pressed while floor shaders prepare. Queue its
+      // frame behind that GPU work rather than dropping the requested update.
+      if(gpuBusy){void gpu(async()=>{if(active&&current?.exteriorFit)draw(current,false);}).catch(error=>failVisible(error,'runtime'));return;}
+      try{draw(current,false);}catch(error){failVisible(error,'runtime');}
+    };
     resize=new ResizeObserver(()=>{if(current&&!disposed&&!failed&&!gpuBusy&&(!current.exteriorFit||journeyProgress<.95)){try{draw(current,false);}catch(error){failVisible(error,'runtime');}}});resize.observe(canvas.parentElement!);
     let backgroundStarted=false;
     setupDone();
@@ -246,6 +279,33 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
       },
       setActive(value){active=value;refreshAnimation();},
       setPaused(value){paused=value;refreshAnimation();},
+      stopAutomaticPresentation,
+      adjustExterior(change){
+        stopAutomaticPresentation();
+        const view=views.get(key({kind:'exterior',floorId:''}));if(!view||journeyProgress>0)return;
+        const finite=(value:number|undefined)=>Number.isFinite(value)?value!:0;
+        // Keep inspection near the supplied front view; these are visual
+        // controls, not claims of a surveyed orbit or additional model detail.
+        view.group.rotation.y=clamp(view.group.rotation.y+finite(change.rotate),-Math.PI/3,Math.PI/3);
+        manualLook=clamp(manualLook+finite(change.look),-.18,.45);
+        manualZoom=clamp(manualZoom+finite(change.zoom),.75,1.35);
+        canvas.dataset.exteriorRotate=String(view.group.rotation.y);
+        canvas.dataset.exteriorLook=String(manualLook);
+        canvas.dataset.exteriorZoom=String(manualZoom);
+        redrawExterior();
+      },
+      resetExterior(){
+        stopAutomaticPresentation();manualLook=0;manualZoom=1;
+        const view=views.get(key({kind:'exterior',floorId:''}));if(view)view.group.rotation.y=0;
+        canvas.dataset.exteriorRotate='0';canvas.dataset.exteriorLook='0';canvas.dataset.exteriorZoom='1';
+        redrawExterior();
+      },
+      replayArrival(){
+        if(options.reducedMotion||journeyProgress>0||disposed||failed)return;
+        automaticStopped=false;arrivalElapsed=0;manualLook=0;manualZoom=1;
+        const view=views.get(key({kind:'exterior',floorId:''}));if(view)view.group.rotation.y=-.24;
+        refreshAnimation();redrawExterior();
+      },
       setJourneyProgress(value,reducedMotion){const previous=journeyProgress;journeyProgress=reducedMotion?0:Math.max(0,Math.min(1,value));const exteriorView=views.get(key({kind:'exterior',floorId:''}));if(exteriorView){if(previous===0&&journeyProgress>0)approachRotation=Math.atan2(Math.sin(exteriorView.group.rotation.y),Math.cos(exteriorView.group.rotation.y));if(journeyProgress>0)exteriorView.group.rotation.y=approachRotation*(1-journeyProgress);}if(journeyProgress>0){cancelAnimationFrame(raf);raf=0;}else if(previous>0)refreshAnimation();if(previous!==journeyProgress&&journeyProgress<.95&&active&&current?.exteriorFit&&!disposed&&!failed&&!gpuBusy){try{draw(current,false);}catch(error){failVisible(error,'runtime');}}},
       dispose:cleanup,
     };

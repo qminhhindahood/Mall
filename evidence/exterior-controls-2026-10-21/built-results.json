@@ -1,0 +1,338 @@
+[
+  {
+    "mall": "saigon",
+    "mode": "desktop",
+    "checks": [
+      {
+        "name": "actual exterior completes a frame",
+        "pass": true
+      },
+      {
+        "name": "arrival settles within finite 5.5s presentation",
+        "pass": true
+      },
+      {
+        "name": "arrival remains stopped at final frame",
+        "pass": true
+      },
+      {
+        "name": "first keyboard input cancels active arrival",
+        "pass": true
+      },
+      {
+        "name": "opening controls stops automatic arrival",
+        "pass": true
+      },
+      {
+        "name": "upper rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "lower rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "reset restores neutral view",
+        "pass": true
+      },
+      {
+        "name": "buttons meet44px target",
+        "pass": true
+      },
+      {
+        "name": "proposed panel alignment repair stays in viewport",
+        "pass": true
+      },
+      {
+        "name": "no page errors",
+        "pass": true
+      }
+    ],
+    "errors": [],
+    "arrivalRemainingMs": 5492,
+    "preRepairLayout": {
+      "scrollWidth": 1328,
+      "viewport": 1280,
+      "panel": {
+        "x": -80.328125,
+        "y": 78,
+        "width": 280,
+        "height": 312.609375
+      }
+    }
+  },
+  {
+    "mall": "saigon",
+    "mode": "phone",
+    "checks": [
+      {
+        "name": "actual exterior completes a frame",
+        "pass": true
+      },
+      {
+        "name": "opening controls stops automatic arrival",
+        "pass": true
+      },
+      {
+        "name": "upper rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "lower rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "reset restores neutral view",
+        "pass": true
+      },
+      {
+        "name": "buttons meet44px target",
+        "pass": true
+      },
+      {
+        "name": "proposed panel alignment repair stays in viewport",
+        "pass": true
+      },
+      {
+        "name": "no page errors",
+        "pass": true
+      }
+    ],
+    "errors": [],
+    "preRepairLayout": {
+      "scrollWidth": 414,
+      "viewport": 390,
+      "panel": {
+        "x": -73.9375,
+        "y": 74,
+        "width": 280,
+        "height": 312.609375
+      }
+    }
+  },
+  {
+    "mall": "saigon",
+    "mode": "reduced",
+    "checks": [
+      {
+        "name": "actual exterior completes a frame",
+        "pass": true
+      },
+      {
+        "name": "reduced motion keeps actual exterior visually static",
+        "pass": true
+      },
+      {
+        "name": "reduced motion does not run arrival",
+        "pass": true
+      },
+      {
+        "name": "opening controls stops automatic arrival",
+        "pass": true
+      },
+      {
+        "name": "upper rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "lower rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "reset restores neutral view",
+        "pass": true
+      },
+      {
+        "name": "buttons meet44px target",
+        "pass": true
+      },
+      {
+        "name": "proposed panel alignment repair stays in viewport",
+        "pass": true
+      },
+      {
+        "name": "no page errors",
+        "pass": true
+      }
+    ],
+    "errors": [],
+    "preRepairLayout": {
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "panel": {
+        "x": -80.328125,
+        "y": 78,
+        "width": 280,
+        "height": 312.609375
+      }
+    }
+  },
+  {
+    "mall": "vincom",
+    "mode": "desktop",
+    "checks": [
+      {
+        "name": "actual exterior completes a frame",
+        "pass": true
+      },
+      {
+        "name": "arrival settles within finite 5.5s presentation",
+        "pass": true
+      },
+      {
+        "name": "arrival remains stopped at final frame",
+        "pass": true
+      },
+      {
+        "name": "first keyboard input cancels active arrival",
+        "pass": true
+      },
+      {
+        "name": "opening controls stops automatic arrival",
+        "pass": true
+      },
+      {
+        "name": "upper rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "lower rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "reset restores neutral view",
+        "pass": true
+      },
+      {
+        "name": "buttons meet44px target",
+        "pass": true
+      },
+      {
+        "name": "proposed panel alignment repair stays in viewport",
+        "pass": true
+      },
+      {
+        "name": "no page errors",
+        "pass": true
+      }
+    ],
+    "errors": [],
+    "arrivalRemainingMs": 5480,
+    "preRepairLayout": {
+      "scrollWidth": 1328,
+      "viewport": 1280,
+      "panel": {
+        "x": -80.328125,
+        "y": 78,
+        "width": 280,
+        "height": 312.609375
+      }
+    }
+  },
+  {
+    "mall": "vincom",
+    "mode": "phone",
+    "checks": [
+      {
+        "name": "actual exterior completes a frame",
+        "pass": true
+      },
+      {
+        "name": "opening controls stops automatic arrival",
+        "pass": true
+      },
+      {
+        "name": "upper rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "lower rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "reset restores neutral view",
+        "pass": true
+      },
+      {
+        "name": "buttons meet44px target",
+        "pass": true
+      },
+      {
+        "name": "proposed panel alignment repair stays in viewport",
+        "pass": true
+      },
+      {
+        "name": "no page errors",
+        "pass": true
+      }
+    ],
+    "errors": [],
+    "preRepairLayout": {
+      "scrollWidth": 414,
+      "viewport": 390,
+      "panel": {
+        "x": -73.9375,
+        "y": 74,
+        "width": 280,
+        "height": 312.609375
+      }
+    }
+  },
+  {
+    "mall": "vincom",
+    "mode": "reduced",
+    "checks": [
+      {
+        "name": "actual exterior completes a frame",
+        "pass": true
+      },
+      {
+        "name": "reduced motion keeps actual exterior visually static",
+        "pass": true
+      },
+      {
+        "name": "reduced motion does not run arrival",
+        "pass": true
+      },
+      {
+        "name": "opening controls stops automatic arrival",
+        "pass": true
+      },
+      {
+        "name": "upper rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "lower rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "reset restores neutral view",
+        "pass": true
+      },
+      {
+        "name": "buttons meet44px target",
+        "pass": true
+      },
+      {
+        "name": "proposed panel alignment repair stays in viewport",
+        "pass": true
+      },
+      {
+        "name": "no page errors",
+        "pass": true
+      }
+    ],
+    "errors": [],
+    "preRepairLayout": {
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "panel": {
+        "x": -80.328125,
+        "y": 78,
+        "width": 280,
+        "height": 312.609375
+      }
+    }
+  }
+]

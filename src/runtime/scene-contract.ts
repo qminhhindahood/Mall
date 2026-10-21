@@ -24,6 +24,11 @@ export type SceneRuntime = {
   setActive(active: boolean): void;
   setPaused(paused: boolean): void;
   setJourneyProgress(progress: number, reducedMotion: boolean): void;
+  /** Deltas: rotate/look in radians, zoom in relative fit-distance units. */
+  adjustExterior(change: { rotate?: number; look?: number; zoom?: number }): void;
+  resetExterior(): void;
+  stopAutomaticPresentation(): void;
+  replayArrival(): void;
   dispose(): void;
 };
 export type SceneRuntimeOptions = {

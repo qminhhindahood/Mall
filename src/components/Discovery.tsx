@@ -1,7 +1,8 @@
 import { visitorHighlightIds } from '../data/visitor-highlights';
 import '../styles/visitor-highlights.css';
+import '../styles/store-sheet.css';
 import DestinationDetails from './DestinationDetails';
-import { useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import type { MouseEvent, RefObject } from 'react';
 import type { SiteData } from '../data/site';
@@ -32,7 +33,6 @@ export default function Discovery({site,selection,previewFloor,areaNumbers,activ
   const [categoriesOpen,setCategoriesOpen]=useState(true);
   const [portal,setPortal]=useState<Element|null>(null);
   const [share,setShare]=useState('');
-  const [cardStyle,setCardStyle]=useState<{left?:number;top?:number;width?:number}>({});
   const anchor=useRef<HTMLElement|null>(null);
   const category=site.content.categories.find(row=>row.id===(selection.discoveryCategoryId??defaultDiscoveryCategory(site)));
   const {results:matches,suggestions}=discoveryMatches(site,selection);
@@ -53,23 +53,15 @@ export default function Discovery({site,selection,previewFloor,areaNumbers,activ
     window.addEventListener('keydown',key);document.addEventListener('pointerdown',pointer);
     return()=>{window.removeEventListener('keydown',key);document.removeEventListener('pointerdown',pointer);};
   },[visible,closeDetail]);
-  useLayoutEffect(()=>{
+  useEffect(()=>{
     if(!visible||!portal)return;
-    const place=()=>{
-      if(innerWidth<=700){setCardStyle({});return;}
-      const list=document.querySelector('[data-discovery-results]');
-      const rect=(anchor.current?.isConnected?anchor.current:list)?.getBoundingClientRect();
-      if(!rect)return;
-      const width=Math.min(450,list?.getBoundingClientRect().width??450);
-      const next={width,left:Math.max(18,Math.min(innerWidth-width-18,rect.left)),top:Math.max(136,Math.min(rect.top,innerHeight-(detailRef.current?.offsetHeight??360)-18))};
-      setCardStyle(prior=>prior.width===next.width&&prior.left===next.left&&prior.top===next.top?prior:next);
-    };
-    // Width/content changes can alter the card height after its first placement.
-    const observer=new ResizeObserver(place);
-    if(detailRef.current)observer.observe(detailRef.current);
-    place();window.addEventListener('resize',place);window.addEventListener('scroll',place,{passive:true});
-    return()=>{observer.disconnect();window.removeEventListener('resize',place);window.removeEventListener('scroll',place);};
-  },[visible,selected?.id,area?.id,portal,detailRef]);
+    const before=document.body.style.overflow;document.body.style.overflow='hidden';
+    const siblings=Array.from(portal.children).filter((e):e is HTMLElement=>e instanceof HTMLElement&&e!==detailRef.current&&!e.classList.contains('store-sheet-backdrop')).map(e=>({e,inert:e.inert}));
+    for(const {e} of siblings)e.inert=true;
+    const trap=(event:KeyboardEvent)=>{if(event.key!=='Tab')return;const nodes=Array.from(detailRef.current?.querySelectorAll<HTMLElement>('a[href],button:not([disabled]),summary,input,select,textarea,[tabindex="0"]')??[]).filter(e=>e.getClientRects().length);const first=nodes[0],last=nodes.at(-1);if(!first)return;if(event.shiftKey&&(document.activeElement===first||!detailRef.current?.contains(document.activeElement))){event.preventDefault();last?.focus()}else if(!event.shiftKey&&(document.activeElement===last||!detailRef.current?.contains(document.activeElement))){event.preventDefault();first.focus()}};
+    document.addEventListener('keydown',trap);detailRef.current?.focus({preventScroll:true});
+    return()=>{document.body.style.overflow=before;for(const {e,inert} of siblings)e.inert=inert;document.removeEventListener('keydown',trap)};
+  },[visible,portal,detailRef]);
   const select=(destination:Destination,floorId:string,event:MouseEvent<HTMLAnchorElement>)=>{
     anchor.current=event.currentTarget;setShare('');
     navigate({...selection,kind:'discovery',destinationId:destination.id,areaId:undefined,floorId},event);
@@ -115,15 +107,15 @@ export default function Discovery({site,selection,previewFloor,areaNumbers,activ
         {!rows.length&&<div className="discovery-empty"><h4>{c.empty}</h4><p>{matches.length?c.other:j.empty}</p><a href={selectionHref({...base,discoveryFloorId:undefined,discoveryQuery:matches.length?selection.discoveryQuery:undefined})} onClick={event=>navigate({...base,discoveryFloorId:undefined,discoveryQuery:matches.length?selection.discoveryQuery:undefined},event)}>{matches.length?c.openOthers:c.clear}</a></div>}
       </div>
     </div>
-    {portal&&visible&&createPortal(<article className="discovery-glass" ref={detailRef} style={cardStyle} tabIndex={-1} aria-labelledby="discovery-glass-title" aria-describedby="discovery-glass-description">
+    {portal&&visible&&createPortal(<><button className="store-sheet-backdrop" tabIndex={-1} aria-label={j.close} onClick={()=>closeDetail()}/><article className="discovery-glass" role="dialog" aria-modal="true" ref={detailRef} tabIndex={-1} aria-labelledby="discovery-glass-title" aria-describedby="discovery-glass-description">
       <header className="discovery-detail-header"><h3 id="discovery-glass-title">{selected?.name[locale]??`${j.shared} · ${area?.name[locale]}`}</h3><button className="discovery-circle discovery-close" data-close-discovery aria-label={j.close} onClick={()=>closeDetail()}><DetailIcon close/></button></header>
       <div className="discovery-glass-content">
-        {selected?<><DestinationDetails site={site} destination={selected} locale={locale} floorId={previewFloor} descriptionId="discovery-glass-description"/>
-          <nav aria-label={locale==='vi'?'Tầng của địa điểm':'Destination floors'}>{selected.floors.length>1&&selected.floors.map(floorId=><a key={floorId} href={selectionHref(destinationLink(selected,floorId))} onClick={event=>select(selected,floorId,event)} aria-current={previewFloor===floorId?'true':undefined}>{floorId}</a>)}</nav>
+        {selected?<><nav className="detail-floor-picker" aria-label={locale==='vi'?'Tầng của địa điểm':'Destination floors'}>{selected.floors.length>1&&selected.floors.map(floorId=><a key={floorId} href={selectionHref(destinationLink(selected,floorId))} onClick={event=>select(selected,floorId,event)} aria-current={previewFloor===floorId?'true':undefined}>{floorId}</a>)}</nav><DestinationDetails site={site} destination={selected} locale={locale} floorId={previewFloor} descriptionId="discovery-glass-description" returnTo={selectionHref(selection)}/>
+
           <button onClick={async()=>{const url=new URL(selectionHref(selection),location.origin).href;try{await navigator.clipboard.writeText(url);setShare(j.copied);}catch{setShare(`${j.copyError} ${url}`);}}}>{j.share}</button><p role="status">{share}</p>
         </>:<><p id="discovery-glass-description">{j.shared}</p><ul>{shared.map(destination=><li key={destination.id}><a href={selectionHref(destinationLink(destination,area!.floorId))} onClick={event=>select(destination,area!.floorId,event)}>{destination.name[locale]}</a></li>)}</ul></>}
       </div>
-    </article>,portal)}
+    </article></>,portal)}
 
   </>;
 }

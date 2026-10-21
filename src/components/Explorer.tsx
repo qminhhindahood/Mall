@@ -1,3 +1,5 @@
+import ExteriorControls from './ExteriorControls';
+import '../styles/usable-shell.css';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import type { SiteData } from '../data/site';
 import type { Locale, SceneKind, SceneRuntime, FloorDataset } from '../runtime/scene-contract';
@@ -51,7 +53,6 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   // Cached shows can finish in one React batch without changing `load`.
   // Each accepted presentation must still commit its requested keyboard focus.
   const [presentation,setPresentation] = useState(0);
-  const [phase,setPhase] = useState('');
   const [attempt,setAttempt] = useState(0);
   const [paused,setPaused] = useState(false);
   const [reducedMotion,setReducedMotion] = useState(false);
@@ -68,7 +69,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const requestSerial = useRef(0);
   const focusRequest = useRef<ExplorerSelection|null>(null);
   const entered = useRef(false);
-  const overlay = useRef<HTMLDivElement>(null);
+  const earlyInput = useRef(false);
   const pendingFocus = useRef<HTMLElement|null>(null);
   const destinationContent = useRef<HTMLElement|null>(null);
   const requestTiming = useRef<ReturnType<typeof timing>|null>(null);
@@ -155,6 +156,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     return()=>{window.removeEventListener('scroll',update);window.removeEventListener('resize',update);};
   },[load,reducedMotion]);
 
+  useEffect(()=>{const stop=()=>{earlyInput.current=true;runtime.current?.stopAutomaticPresentation()};window.addEventListener('pointerdown',stop,{passive:true});window.addEventListener('keydown',stop);window.addEventListener('wheel',stop,{passive:true});return()=>{window.removeEventListener('pointerdown',stop);window.removeEventListener('keydown',stop);window.removeEventListener('wheel',stop)}},[]);
   function togglePause() {
     if (reducedMotion) return;
     const value = !pauseChoice.current;
@@ -166,6 +168,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   }
 
   function replayIntroduction() {
+    earlyInput.current=false;
+    requestAnimationFrame(()=>runtime.current?.replayArrival());
     if (!reducedMotion && load === 'ready' && pauseChoice.current) togglePause();
     window.scrollTo({top: 0, behavior: 'instant'});
     sections.current.exterior?.focus({preventScroll: true});
@@ -288,10 +292,11 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       exteriorIdentityUrl: site.exteriorIdentityUrl,
       modelBytes,
       sceneHosts: sceneHosts.current as Record<SceneKind,HTMLElement>,
-      onStatus: status => { if (alive) {setPhase(status.phase);if((status.key==='context'||status.key==='runtime')&&status.phase==='failed'){entered.current=false;runtime.current?.dispose();runtime.current=null;setLoad('failed');}} },
+      onStatus: status => { if (alive) {if((status.key==='context'||status.key==='runtime')&&status.phase==='failed'){entered.current=false;runtime.current?.dispose();runtime.current=null;setLoad('failed');}} },
     }); }).then(async instance => {
       if (!alive) { instance.dispose(); return; }
       runtime.current = instance;
+      if(earlyInput.current)instance.stopAutomaticPresentation();
       instance.setPaused(pausedRef.current);
       await Promise.all(['exterior','overview'].map(kind => instance.prepare({kind: kind as SceneKind, floorId: site.defaultFloor})));
       if (!alive) return;
@@ -303,7 +308,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
         document.querySelector<HTMLElement>('.static-guide')?.setAttribute('hidden','');
         setLoad('ready');
         setPresentation(value=>value+1);
-        pendingFocus.current=focusTarget(latest.current);focusRequest.current=latest.current;
+        if(!earlyInput.current){pendingFocus.current=focusTarget(latest.current);focusRequest.current=latest.current;}
         performance.mark('mall-loading:entry-ready');
         entryDone('ready', { ...latest.current, completeFrame: ownedCanvas.dataset.completeFrame });
         navigationDone?.('ready', { ...latest.current, completeFrame: ownedCanvas.dataset.completeFrame });
@@ -340,18 +345,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     observer.observe(host);document.addEventListener('visibilitychange',update);update();
     return()=>{observer.disconnect();document.removeEventListener('visibilitychange',update);};
   },[selection.kind,load]);
-  useLayoutEffect(()=>{
-    if(load!=='loading'||!overlay.current)return;
-    const prior=document.activeElement instanceof HTMLElement?document.activeElement:null;
-    const changed:Array<[HTMLElement,boolean]>=[];
-    // Inert every sibling on the dialog's ancestor path, including SSR guide.
-    let node:HTMLElement=overlay.current;
-    while(node.parentElement){for(const sibling of node.parentElement.children)if(sibling!==node && sibling instanceof HTMLElement){changed.push([sibling,sibling.inert]);sibling.inert=true;}node=node.parentElement;if(node===document.body)break;}
-    const overflow=document.body.style.overflow;document.body.style.overflow='hidden';overlay.current.focus({preventScroll:true});
-    return()=>{for(const [element,value]of changed)element.inert=value;document.body.style.overflow=overflow;const requested=pendingFocus.current;const target=requested??prior;pendingFocus.current=null;if(target?.isConnected){target.focus({preventScroll:true});if(requested&&!travelRequest.current)target.scrollIntoView({behavior:'instant',block:'start'});}};
-  },[load]);
   useEffect(()=>{
-    if(load!=='ready' && load!=='failed')return;
+    if(!routeResolved)return;
     const requested=focusRequest.current;
     if(!requested)return;
     const floorKey=requested.kind==='exterior'||requested.kind==='overview'?'all':requested.kind==='discovery'?previewFloor:requested.floorId;
@@ -408,11 +403,12 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   return <>
     <div className="visitor-guide" data-mall={site.mallId} data-paused={paused} data-view={selection.kind}>
     <a className="skip-introduction" href={href(change('map'))} onClick={event=>navigate(change('map'),event)}>{c.skip}</a>
-    <header className="journey-header" inert={!headerVisible} data-visible={headerVisible}>
+    <header className="journey-header" data-visible={headerVisible||load!=='ready'}>
       <a className="wordmark" href={`/${selection.locale}`} onClick={event => navigate({locale:selection.locale,kind:'exterior',floorId:site.defaultFloor},event)}>{site.name}</a>
       <nav aria-label={c.guide}>
         <a href={href(change('map'))} onClick={event=>navigate(change('map'),event)}>{c.map}</a>
         <a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{c.discovery}</a>
+        <a href={'/'+selection.locale+'/'+(selection.locale==='vi'?'chi-duong':'directions')}>{selection.locale==='vi'?'Chỉ đường':'Directions'}</a>
         <a className="skip-discovery" href={href(change('discovery'))} onClick={event=>{travelRequest.current=false;navigate(change('discovery'),event);}}>{j.skipDiscovery}</a>
         <button type="button" className="replay-control" disabled={load!=='ready'&&load!=='failed'} onClick={replayIntroduction}>{reducedMotion||load==='failed'?c.returnIntroduction:c.replayIntroduction}</button>
         <button className="overview-pause" disabled={load!=='ready'||reducedMotion} aria-label={reducedMotion?c.motionOff:paused?c.resume:c.pause} title={reducedMotion?c.motionOff:paused?c.resume:c.pause} aria-pressed={paused} onClick={togglePause}><svg viewBox="0 0 24 24" aria-hidden="true"><path d={paused?'M8 5 19 12 8 19Z':'M7 5v14M17 5v14'}/></svg></button>
@@ -426,8 +422,9 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
         <div className="journey-introduction-reading">
           <section id="scene-exterior" ref={element=>{if(element)sections.current.exterior=element;}} tabIndex={-1} className="introduction" aria-label={c.exterior}>
             <div className="introduction-controls">
+              <ExteriorControls runtime={runtime} locale={selection.locale} enabled={load==='ready' && selection.kind==='exterior'}/>
               <button type="button" className="replay-control" disabled={load!=='ready'&&load!=='failed'} onClick={replayIntroduction}>{reducedMotion||load==='failed'?c.returnIntroduction:c.replayIntroduction}</button>
-              <button className="pause-control" disabled={load!=='ready'||reducedMotion} aria-pressed={paused} onClick={togglePause}>{reducedMotion?c.motionOff:paused?c.resume:c.pause}</button>
+              <button className="pause-control" disabled={load!=='ready'} onClick={()=>{earlyInput.current=true;runtime.current?.stopAutomaticPresentation();runtime.current?.resetExterior();}}>{selection.locale==='vi'?'Bỏ qua phần mở đầu':'Skip arrival'}</button>
               <nav aria-label={c.language}>{(['vi','en'] as Locale[]).map(locale=><a key={locale} href={href({...selection,locale})} lang={locale} aria-current={selection.locale===locale?'true':undefined} onClick={event=>navigate({...selection,locale},event)}>{locale.toUpperCase()}</a>)}</nav>
             </div>
             <div className="introduction-copy"><h1>{c.introduce}<span>{site.name}</span></h1><p>{site.mallId==='saigon-centre'?c.saigonIntroduction:c.vincomIntroduction}</p><p className="guide-identity">{c.independent}</p></div>
@@ -482,6 +479,6 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     </main>
     <footer>{site.name} · {c.guide}</footer>
     </div>
-    {load==='loading' && <div ref={overlay} className="loading-screen" role="dialog" aria-modal="true" aria-label={c.preparing} tabIndex={-1}><p className="eyebrow">{site.name}</p><h2>{c.preparing}</h2><p role="status">{phase==='decoding'?c.decoding:phase==='preparing'?c.gpu:phase==='fetching'?c.preparing:c.wait}</p></div>}
+    {load==='loading' && <aside className="scene-loading-status" role="status">{selection.locale==='vi'?'Đang chuẩn bị mô hình · bạn vẫn có thể khám phá danh mục và sơ đồ.':'Preparing the model · directory and maps remain available.'}</aside>}
   </>;
 }

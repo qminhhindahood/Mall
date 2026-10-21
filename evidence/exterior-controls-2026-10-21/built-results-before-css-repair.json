@@ -1,0 +1,196 @@
+[
+  {
+    "mall": "saigon",
+    "mode": "desktop",
+    "checks": [
+      {
+        "name": "actual exterior completes a frame",
+        "pass": true
+      },
+      {
+        "name": "arrival settles within finite 5.5s presentation",
+        "pass": true
+      },
+      {
+        "name": "arrival remains stopped at final frame",
+        "pass": true
+      },
+      {
+        "name": "opening controls stops automatic arrival",
+        "pass": true
+      },
+      {
+        "name": "upper rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "lower rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "reset restores neutral view",
+        "pass": true
+      },
+      {
+        "name": "buttons meet44px target",
+        "pass": true
+      },
+      {
+        "name": "no horizontal viewport overflow",
+        "pass": false
+      }
+    ],
+    "errors": [],
+    "arrivalRemainingMs": 5500,
+    "failure": "Error: no horizontal viewport overflow"
+  },
+  {
+    "mall": "saigon",
+    "mode": "phone",
+    "checks": [
+      {
+        "name": "actual exterior completes a frame",
+        "pass": true
+      },
+      {
+        "name": "opening controls stops automatic arrival",
+        "pass": true
+      },
+      {
+        "name": "upper rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "lower rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "reset restores neutral view",
+        "pass": true
+      },
+      {
+        "name": "buttons meet44px target",
+        "pass": true
+      },
+      {
+        "name": "no horizontal viewport overflow",
+        "pass": false
+      }
+    ],
+    "errors": [],
+    "failure": "Error: no horizontal viewport overflow"
+  },
+  {
+    "mall": "saigon",
+    "mode": "reduced",
+    "checks": [
+      {
+        "name": "actual exterior completes a frame",
+        "pass": true
+      },
+      {
+        "name": "reduced motion avoids automatic frames",
+        "pass": false
+      }
+    ],
+    "errors": [],
+    "failure": "Error: reduced motion avoids automatic frames"
+  },
+  {
+    "mall": "vincom",
+    "mode": "desktop",
+    "checks": [
+      {
+        "name": "actual exterior completes a frame",
+        "pass": true
+      },
+      {
+        "name": "arrival settles within finite 5.5s presentation",
+        "pass": true
+      },
+      {
+        "name": "arrival remains stopped at final frame",
+        "pass": true
+      },
+      {
+        "name": "opening controls stops automatic arrival",
+        "pass": true
+      },
+      {
+        "name": "upper rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "lower rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "reset restores neutral view",
+        "pass": true
+      },
+      {
+        "name": "buttons meet44px target",
+        "pass": true
+      },
+      {
+        "name": "no horizontal viewport overflow",
+        "pass": false
+      }
+    ],
+    "errors": [],
+    "arrivalRemainingMs": 5493,
+    "failure": "Error: no horizontal viewport overflow"
+  },
+  {
+    "mall": "vincom",
+    "mode": "phone",
+    "checks": [
+      {
+        "name": "actual exterior completes a frame",
+        "pass": true
+      },
+      {
+        "name": "opening controls stops automatic arrival",
+        "pass": true
+      },
+      {
+        "name": "upper rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "lower rotate/look/zoom bounds",
+        "pass": true
+      },
+      {
+        "name": "reset restores neutral view",
+        "pass": true
+      },
+      {
+        "name": "buttons meet44px target",
+        "pass": true
+      },
+      {
+        "name": "no horizontal viewport overflow",
+        "pass": false
+      }
+    ],
+    "errors": [],
+    "failure": "Error: no horizontal viewport overflow"
+  },
+  {
+    "mall": "vincom",
+    "mode": "reduced",
+    "checks": [
+      {
+        "name": "actual exterior completes a frame",
+        "pass": true
+      },
+      {
+        "name": "reduced motion avoids automatic frames",
+        "pass": false
+      }
+    ],
+    "errors": [],
+    "failure": "Error: reduced motion avoids automatic frames"
+  }
+]
