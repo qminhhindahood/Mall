@@ -1,8 +1,10 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 import type { FloorDataset, MallId } from '../runtime/scene-contract';
 import { validateContent, type DirectorySnapshot } from './content';
 import { applyPrecisionHolds, type PrecisionHolds } from './precision-holds';
+import { applyAssociationSupplement, type AssociationSupplement, type AssociationReviewReceipt } from './association-supplement';
 export type { Destination } from './content';
 import type { Destination } from './content';
 export type SiteData = {
@@ -47,7 +49,15 @@ if (process.env.INCLUDE_TEST_FIXTURES === '1') {
 }
 const approvedContent = validateContent(snapshot,mallId,geometry);
 const precisionHolds: PrecisionHolds = JSON.parse(fs.readFileSync(path.join(process.cwd(),'data','research','vincom-precision-holds-2026-10-21-r1.json'),'utf8'));
-const content = validateContent(applyPrecisionHolds(approvedContent,precisionHolds),mallId,geometry);
+const heldContent = applyPrecisionHolds(approvedContent,precisionHolds);
+const associationSupplement: AssociationSupplement = JSON.parse(fs.readFileSync(path.join(process.cwd(),'data','research','vincom-source-associations-2026-10-21-r1.json'),'utf8'));
+let associationReview: AssociationReviewReceipt | undefined;
+if (mallId === associationSupplement.mallId && associationSupplement.activation === 'accepted-independent-review') {
+  const reviewBytes = fs.readFileSync(path.join(process.cwd(),associationSupplement.reviewEvidence.path));
+  if (createHash('sha256').update(reviewBytes).digest('hex') !== associationSupplement.reviewEvidence.sha256) throw new Error('Association independent review evidence drift');
+  associationReview = JSON.parse(reviewBytes.toString('utf8'));
+}
+const content = validateContent(applyAssociationSupplement(heldContent,geometry,associationSupplement,associationReview),mallId,geometry);
 const destinations = content.destinations;
 const manifestPath = path.join(process.cwd(),'data','malls',mallId,'asset-manifest.json');
 const manifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath,'utf8')) : {};

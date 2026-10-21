@@ -1,0 +1,41 @@
+{
+  "revision": "vincom-source-associations-2026-10-21-r1",
+  "status": "prepared; activation pending visible note UI and final guard review",
+  "independentReview": "evidence/vincom-association-r6-independent/review.json",
+  "accepted": 12,
+  "conditionalPartialAccepted": 1,
+  "conditionalDestination": "vincom-candidate-vd-b1-006",
+  "scope": "source-layout area links only, no changed coordinates/current-occupancy/doorway/route claim",
+  "expectedRuntime": {
+    "saigonAreaLinkedListings": 156,
+    "vincomAreaLinkedListings": 31,
+    "totalAreaLinkedListings": 187,
+    "mappedFloorAssociations": 188,
+    "floorOnlyListings": 181
+  },
+  "checks": {
+    "pendingReturnsOriginalSnapshot": true,
+    "sourceSnapshotNotMutated": true,
+    "approvedSourceHashesPass": true,
+    "duplicateAndDriftNegativeCases": 8,
+    "astroCheck": {
+      "files": 44,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    }
+  },
+  "negativeCases": [
+    "directory revision",
+    "source hash",
+    "polygon payload",
+    "review decision",
+    "partial-kind mismatch",
+    "duplicate association",
+    "occupied area ID",
+    "original location mismatch"
+  ],
+  "builds": "not run; parent owns sequential builds",
+  "fiveHolds": "preserved",
+  "rawApprovedDataAndGeometry": "unchanged"
+}

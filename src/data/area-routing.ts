@@ -30,6 +30,7 @@ export const areaNetworks: AreaNetwork[] = [
     nodes:[
       {id:'escalator',x:405,y:507,label:label('Public aisle to the right of the escalator beside B3-13 on the plan','Lối đi chung bên phải thang cuốn cạnh B3-13 trên sơ đồ')},
       {id:'siam',x:405,y:480,label:label('Siam Sugar area, B3-13 frontage','Phía trước khu Siam Sugar, B3-13')},
+      {id:'aisle-beside-b3-11',x:405,y:545,label:label('Public aisle beside B3-11 frontage','Lối đi chung phía trước B3-11')},
       {id:'south',x:405,y:620,label:label('Aisle junction below B3-15B','Giao lối đi phía dưới B3-15B trên sơ đồ')},
       {id:'bottom',x:405,y:758,label:label('Aisle above B3-01','Lối đi phía trên B3-01 trên sơ đồ')},
       {id:'chang',x:430,y:758,label:label('Chang Kang Kung area, B3-01 frontage','Phía trước khu Chang Kang Kung, B3-01')},
@@ -38,7 +39,8 @@ export const areaNetworks: AreaNetwork[] = [
       {id:'chilli',x:570,y:738,label:label('Chilli Thai area, B3-01A frontage','Phía trước khu Chilli Thai, B3-01A')},
     ],edges:[
       {from:'escalator',to:'siam',instruction:label('Follow the aisle upward on the plan to the side of B3-13, the Siam Sugar area.','Theo lối đi lên phía trên sơ đồ đến cạnh B3-13, khu Siam Sugar.')},
-      {from:'escalator',to:'south',instruction:label('Follow the narrow public aisle downward on the plan, keeping B3-15A and B3-15B to your left as you walk.','Theo lối đi chung xuống phía dưới sơ đồ; khi đi, B3-15A và B3-15B ở bên trái.')},
+      {from:'escalator',to:'aisle-beside-b3-11',instruction:label('Follow the public aisle downward on the plan to the frontage beside B3-11.','Theo lối đi chung xuống phía dưới sơ đồ đến phía trước B3-11.')},
+      {from:'aisle-beside-b3-11',to:'south',instruction:label('Continue down the public aisle on the plan, passing B3-15A and B3-15B on the right side of the plan.','Đi tiếp xuống phía dưới theo lối đi chung trên sơ đồ, qua B3-15A và B3-15B ở phía bên phải sơ đồ.')},
       {from:'south',to:'bottom',instruction:label('Continue straight between B3-06 and B3-05 to the aisle above B3-01.','Đi thẳng giữa B3-06 và B3-05 đến lối đi phía trên B3-01 trên sơ đồ.')},
       {from:'bottom',to:'chang',instruction:label('Turn left as you walk (right on the plan) to the frontage of B3-01, Chang Kang Kung.','Rẽ trái theo hướng đang đi (sang phải trên sơ đồ) đến phía trước B3-01, Chang Kang Kung.')},
       {from:'bottom',to:'corner',instruction:label('Turn toward the right on the plan, following the aisle above B3-01.','Rẽ sang phải trên sơ đồ, theo lối đi phía trên B3-01.')},
@@ -48,6 +50,8 @@ export const areaNetworks: AreaNetwork[] = [
       {destinationId:'vincom-prototype-siamsugar',areaId:'research-b3-b3-13',node:'siam'},
       {destinationId:'vincom-prototype-changkangkung',areaId:'research-b3-b3-01',node:'chang'},
       {destinationId:'vincom-prototype-chillithai',areaId:'research-b3-b3-01a',node:'chilli'},
+      // Inert until the separately reviewed association supplement is accepted.
+      {destinationId:'vincom-prototype-highlandscoffee',areaId:'supplement-20261021-prototype-highlandscoffee',node:'aisle-beside-b3-11'},
     ]},
 ];
 

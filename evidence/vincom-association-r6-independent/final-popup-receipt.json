@@ -1,0 +1,179 @@
+{
+  "scope": "Final CSS rebuild focused phone popup retest only; full prior 84-check receipt retained.",
+  "runs": [
+    {
+      "locale": "en",
+      "checks": [
+        {
+          "name": "Both action targets at least44px in both dimensions",
+          "pass": true
+        },
+        {
+          "name": "Partial note is above actions",
+          "pass": true
+        },
+        {
+          "name": "No popup or page horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "Explicit partial limitation remains",
+          "pass": true
+        },
+        {
+          "name": "Go here remains operable and retains partial card note",
+          "pass": true
+        },
+        {
+          "name": "No page errors",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "rect": {
+          "x": 23,
+          "y": 635.4375,
+          "width": 344,
+          "height": 210,
+          "top": 635.4375,
+          "right": 367,
+          "bottom": 845.4375,
+          "left": 23
+        },
+        "clientWidth": 342,
+        "scrollWidth": 342,
+        "note": {
+          "text": "Partial mapped area only: the right magenta portion of B1-17C. The adjacent grey rectangle is unresolved; this is not the complete shop footprint. Current occupancy and exact doorway are not verified.",
+          "rect": {
+            "x": 40,
+            "y": 704.4375,
+            "width": 310,
+            "height": 72,
+            "top": 704.4375,
+            "right": 350,
+            "bottom": 776.4375,
+            "left": 40
+          }
+        },
+        "buttons": [
+          {
+            "text": "Start here",
+            "rect": {
+              "x": 45,
+              "y": 786.4375,
+              "width": 146,
+              "height": 44,
+              "top": 786.4375,
+              "right": 191,
+              "bottom": 830.4375,
+              "left": 45
+            }
+          },
+          {
+            "text": "Go here",
+            "rect": {
+              "x": 204,
+              "y": 786.4375,
+              "width": 146,
+              "height": 44,
+              "top": 786.4375,
+              "right": 350,
+              "bottom": 830.4375,
+              "left": 204
+            }
+          }
+        ],
+        "pageWidth": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "locale": "vi",
+      "checks": [
+        {
+          "name": "Both action targets at least44px in both dimensions",
+          "pass": true
+        },
+        {
+          "name": "Partial note is above actions",
+          "pass": true
+        },
+        {
+          "name": "No popup or page horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "Explicit partial limitation remains",
+          "pass": true
+        },
+        {
+          "name": "Go here remains operable and retains partial card note",
+          "pass": true
+        },
+        {
+          "name": "No page errors",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "layout": {
+        "rect": {
+          "x": 23,
+          "y": 635.4375,
+          "width": 344,
+          "height": 210,
+          "top": 635.4375,
+          "right": 367,
+          "bottom": 845.4375,
+          "left": 23
+        },
+        "clientWidth": 342,
+        "scrollWidth": 342,
+        "note": {
+          "text": "Chỉ đánh dấu một phần khu vực: phần màu hồng bên phải ô B1-17C. Phần hình chữ nhật màu xám bên cạnh chưa được xác minh; đây không phải toàn bộ mặt bằng cửa hàng. Chưa xác minh đơn vị đang hoạt động và cửa ra vào chính xác.",
+          "rect": {
+            "x": 40,
+            "y": 704.4375,
+            "width": 310,
+            "height": 90,
+            "top": 704.4375,
+            "right": 350,
+            "bottom": 794.4375,
+            "left": 40
+          }
+        },
+        "buttons": [
+          {
+            "text": "Bắt đầu tại đây",
+            "rect": {
+              "x": 45,
+              "y": 804.4375,
+              "width": 146,
+              "height": 44,
+              "top": 804.4375,
+              "right": 191,
+              "bottom": 848.4375,
+              "left": 45
+            }
+          },
+          {
+            "text": "Đến đây",
+            "rect": {
+              "x": 204,
+              "y": 804.4375,
+              "width": 146,
+              "height": 44,
+              "top": 804.4375,
+              "right": 350,
+              "bottom": 848.4375,
+              "left": 204
+            }
+          }
+        ],
+        "pageWidth": 390,
+        "viewport": 390
+      }
+    }
+  ]
+}

@@ -1,0 +1,813 @@
+{
+  "scope": "Activated built-preview task review: Vincom source-layout associations; existing Saigon smoke check. Installed headless Chrome CSS viewport emulation, reduced motion and no WebGL. Not physical/current-occupancy/production verification.",
+  "runs": [
+    {
+      "width": 1280,
+      "locale": "en",
+      "checks": [
+        {
+          "name": "Cath details explicitly label partial source area",
+          "pass": true
+        },
+        {
+          "name": "Directions handoff preserves Cath and manual origin",
+          "pass": true
+        },
+        {
+          "name": "Association vincom-prototype-highlandscoffee: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 2,
+            "expected": 2
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-019: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-034: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-033: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-024: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-028: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-029: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 2,
+            "expected": 2
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-032: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 2,
+            "expected": 2
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-021: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-026: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-006: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-035: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-020: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Map-area chooser retains explicit Cath partial limitation",
+          "pass": true
+        },
+        {
+          "name": "Highlands does not assume a user origin",
+          "pass": true
+        },
+        {
+          "name": "Explicit landmark enables reviewed Highlands frontage path",
+          "pass": true
+        },
+        {
+          "name": "Highlands guidance uses B3-11 frontage and manual progress",
+          "pass": true
+        },
+        {
+          "name": "No page errors",
+          "pass": true,
+          "detail": []
+        },
+        {
+          "name": "No page horizontal overflow",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "popup": {
+        "rect": {
+          "x": 429,
+          "y": 665.953125,
+          "width": 786,
+          "height": 148,
+          "top": 665.953125,
+          "right": 1215,
+          "bottom": 813.953125,
+          "left": 429
+        },
+        "clientHeight": 146,
+        "scrollHeight": 146,
+        "scrollWidth": 784,
+        "clientWidth": 784,
+        "buttons": [
+          {
+            "text": "×",
+            "rect": {
+              "x": 1160,
+              "y": 666.953125,
+              "width": 44,
+              "height": 44,
+              "top": 666.953125,
+              "right": 1204,
+              "bottom": 710.953125,
+              "left": 1160
+            }
+          },
+          {
+            "text": "Start here",
+            "rect": {
+              "x": 1111.140625,
+              "y": 708.953125,
+              "width": 80.3125,
+              "height": 44,
+              "top": 708.953125,
+              "right": 1191.453125,
+              "bottom": 752.953125,
+              "left": 1111.140625
+            }
+          },
+          {
+            "text": "Go here",
+            "rect": {
+              "x": 1111.140625,
+              "y": 752.953125,
+              "width": 71.75,
+              "height": 44,
+              "top": 752.953125,
+              "right": 1182.890625,
+              "bottom": 796.953125,
+              "left": 1111.140625
+            }
+          }
+        ]
+      },
+      "highlandsDetails": "Public-area guidance to the destination frontage. No exact doorway, live location, distance or arrival time is claimed.\n\nFollow the public aisle downward on the plan to the frontage beside B3-11.\n\nCoverage: 4 areas on B3 from one reviewed start. Other mapped shops remain selectable, but are not automatically routable. Other floor connections remain unreviewed. Zone A L2/L3 has plan-based pairing only."
+    },
+    {
+      "width": 1280,
+      "locale": "vi",
+      "checks": [
+        {
+          "name": "Cath details explicitly label partial source area",
+          "pass": true
+        },
+        {
+          "name": "Directions handoff preserves Cath and manual origin",
+          "pass": true
+        },
+        {
+          "name": "Association vincom-prototype-highlandscoffee: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 2,
+            "expected": 2
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-019: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-034: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-033: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-024: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-028: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-029: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 2,
+            "expected": 2
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-032: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 2,
+            "expected": 2
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-021: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-026: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-006: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-035: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-020: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Map-area chooser retains explicit Cath partial limitation",
+          "pass": true
+        },
+        {
+          "name": "Highlands does not assume a user origin",
+          "pass": true
+        },
+        {
+          "name": "Explicit landmark enables reviewed Highlands frontage path",
+          "pass": true
+        },
+        {
+          "name": "Highlands guidance uses B3-11 frontage and manual progress",
+          "pass": true
+        },
+        {
+          "name": "No page errors",
+          "pass": true,
+          "detail": []
+        },
+        {
+          "name": "No page horizontal overflow",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "popup": {
+        "rect": {
+          "x": 429,
+          "y": 665.953125,
+          "width": 786,
+          "height": 148,
+          "top": 665.953125,
+          "right": 1215,
+          "bottom": 813.953125,
+          "left": 429
+        },
+        "clientHeight": 146,
+        "scrollHeight": 146,
+        "scrollWidth": 784,
+        "clientWidth": 784,
+        "buttons": [
+          {
+            "text": "×",
+            "rect": {
+              "x": 1160,
+              "y": 666.953125,
+              "width": 44,
+              "height": 44,
+              "top": 666.953125,
+              "right": 1204,
+              "bottom": 710.953125,
+              "left": 1160
+            }
+          },
+          {
+            "text": "Bắt đầu tại đây",
+            "rect": {
+              "x": 1113.84375,
+              "y": 708.953125,
+              "width": 80.15625,
+              "height": 44,
+              "top": 708.953125,
+              "right": 1194,
+              "bottom": 752.953125,
+              "left": 1113.84375
+            }
+          },
+          {
+            "text": "Đến đây",
+            "rect": {
+              "x": 1113.84375,
+              "y": 752.953125,
+              "width": 72.984375,
+              "height": 44,
+              "top": 752.953125,
+              "right": 1186.828125,
+              "bottom": 796.953125,
+              "left": 1113.84375
+            }
+          }
+        ]
+      },
+      "highlandsDetails": "Hướng dẫn theo lối chung đến phía trước khu vực đích. Không xác định cửa chính xác, vị trí trực tiếp, khoảng cách hoặc thời gian đến.\n\nTheo lối đi chung xuống phía dưới sơ đồ đến phía trước B3-11.\n\nPhạm vi: 4 khu tại B3 từ một điểm bắt đầu đã kiểm tra. Các cửa hàng khác có thể chọn để xem sơ đồ, nhưng chưa có lộ trình tự động. Các kết nối tầng khác chưa được kiểm tra. Zone A L2/L3 chỉ được đối chiếu theo sơ đồ."
+    },
+    {
+      "width": 390,
+      "locale": "en",
+      "checks": [
+        {
+          "name": "Cath details explicitly label partial source area",
+          "pass": true
+        },
+        {
+          "name": "Directions handoff preserves Cath and manual origin",
+          "pass": true
+        },
+        {
+          "name": "Association vincom-prototype-highlandscoffee: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 2,
+            "expected": 2
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-019: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-034: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-033: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-024: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-028: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-029: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 2,
+            "expected": 2
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-032: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 2,
+            "expected": 2
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-021: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-026: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-006: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-035: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-020: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Map-area chooser retains explicit Cath partial limitation",
+          "pass": true
+        },
+        {
+          "name": "Highlands does not assume a user origin",
+          "pass": true
+        },
+        {
+          "name": "Explicit landmark enables reviewed Highlands frontage path",
+          "pass": true
+        },
+        {
+          "name": "Highlands guidance uses B3-11 frontage and manual progress",
+          "pass": true
+        },
+        {
+          "name": "No page errors",
+          "pass": true,
+          "detail": []
+        },
+        {
+          "name": "No page horizontal overflow",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "popup": {
+        "rect": {
+          "x": 23,
+          "y": 671.4375,
+          "width": 344,
+          "height": 174,
+          "top": 671.4375,
+          "right": 367,
+          "bottom": 845.4375,
+          "left": 23
+        },
+        "clientHeight": 172,
+        "scrollHeight": 172,
+        "scrollWidth": 342,
+        "clientWidth": 342,
+        "buttons": [
+          {
+            "text": "×",
+            "rect": {
+              "x": 312,
+              "y": 672.4375,
+              "width": 44,
+              "height": 44,
+              "top": 672.4375,
+              "right": 356,
+              "bottom": 716.4375,
+              "left": 312
+            }
+          },
+          {
+            "text": "Start here",
+            "rect": {
+              "x": 308.875,
+              "y": 727.4375,
+              "width": 41.125,
+              "height": 44,
+              "top": 727.4375,
+              "right": 350,
+              "bottom": 771.4375,
+              "left": 308.875
+            }
+          },
+          {
+            "text": "Go here",
+            "rect": {
+              "x": 308.875,
+              "y": 771.4375,
+              "width": 41.125,
+              "height": 44,
+              "top": 771.4375,
+              "right": 350,
+              "bottom": 815.4375,
+              "left": 308.875
+            }
+          }
+        ]
+      },
+      "highlandsDetails": "Public-area guidance to the destination frontage. No exact doorway, live location, distance or arrival time is claimed.\n\nFollow the public aisle downward on the plan to the frontage beside B3-11.\n\nCoverage: 4 areas on B3 from one reviewed start. Other mapped shops remain selectable, but are not automatically routable. Other floor connections remain unreviewed. Zone A L2/L3 has plan-based pairing only."
+    },
+    {
+      "width": 390,
+      "locale": "vi",
+      "checks": [
+        {
+          "name": "Cath details explicitly label partial source area",
+          "pass": true
+        },
+        {
+          "name": "Directions handoff preserves Cath and manual origin",
+          "pass": true
+        },
+        {
+          "name": "Association vincom-prototype-highlandscoffee: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 2,
+            "expected": 2
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-019: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-034: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-033: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-024: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-028: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-029: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 2,
+            "expected": 2
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b2-032: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 2,
+            "expected": 2
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-021: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-026: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-006: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-035: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Association vincom-candidate-vd-b1-020: localized limitation, selection and region count",
+          "pass": true,
+          "detail": {
+            "selectedPaths": 1,
+            "expected": 1
+          }
+        },
+        {
+          "name": "Map-area chooser retains explicit Cath partial limitation",
+          "pass": true
+        },
+        {
+          "name": "Highlands does not assume a user origin",
+          "pass": true
+        },
+        {
+          "name": "Explicit landmark enables reviewed Highlands frontage path",
+          "pass": true
+        },
+        {
+          "name": "Highlands guidance uses B3-11 frontage and manual progress",
+          "pass": true
+        },
+        {
+          "name": "No page errors",
+          "pass": true,
+          "detail": []
+        },
+        {
+          "name": "No page horizontal overflow",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "popup": {
+        "rect": {
+          "x": 23,
+          "y": 653.4375,
+          "width": 344,
+          "height": 192,
+          "top": 653.4375,
+          "right": 367,
+          "bottom": 845.4375,
+          "left": 23
+        },
+        "clientHeight": 190,
+        "scrollHeight": 190,
+        "scrollWidth": 342,
+        "clientWidth": 342,
+        "buttons": [
+          {
+            "text": "×",
+            "rect": {
+              "x": 312,
+              "y": 654.4375,
+              "width": 44,
+              "height": 44,
+              "top": 654.4375,
+              "right": 356,
+              "bottom": 698.4375,
+              "left": 312
+            }
+          },
+          {
+            "text": "Bắt đầu tại đây",
+            "rect": {
+              "x": 311.640625,
+              "y": 717.4375,
+              "width": 38.359375,
+              "height": 44,
+              "top": 717.4375,
+              "right": 350,
+              "bottom": 761.4375,
+              "left": 311.640625
+            }
+          },
+          {
+            "text": "Đến đây",
+            "rect": {
+              "x": 311.640625,
+              "y": 763.4375,
+              "width": 38.359375,
+              "height": 44,
+              "top": 763.4375,
+              "right": 350,
+              "bottom": 807.4375,
+              "left": 311.640625
+            }
+          }
+        ]
+      },
+      "highlandsDetails": "Hướng dẫn theo lối chung đến phía trước khu vực đích. Không xác định cửa chính xác, vị trí trực tiếp, khoảng cách hoặc thời gian đến.\n\nTheo lối đi chung xuống phía dưới sơ đồ đến phía trước B3-11.\n\nPhạm vi: 4 khu tại B3 từ một điểm bắt đầu đã kiểm tra. Các cửa hàng khác có thể chọn để xem sơ đồ, nhưng chưa có lộ trình tự động. Các kết nối tầng khác chưa được kiểm tra. Zone A L2/L3 chỉ được đối chiếu theo sơ đồ."
+    }
+  ]
+}

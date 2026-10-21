@@ -21,13 +21,15 @@ export default function DestinationDetails({site,destination,locale,floorId,desc
   const accepted=fields.some(item=>item.state==='verified-agent');
   const heading=accepted?(locale==='vi'?'Thông tin khách tham quan đã xác minh':'Verified visitor information'):c.proposal;
   const missingContact=!fields.some(item=>item.field==='phone'&&item.state==='verified-agent')||!fields.some(item=>item.field==='hours'&&item.state==='verified-agent');
-  const mapped=destination.locations.find(l=>l.floorId===floorId)?.certainty==='area-confirmed';
+  const location=destination.locations.find(l=>l.floorId===floorId);
+  const mapped=location?.certainty==='area-confirmed';
   const website=!fields.some(item=>item.field==='website'&&item.state==='verified-agent')&&destination.website&&safeOfficialUrl(destination.website)?destination.website:undefined;
   const activeFloor=destination.floors.includes(floorId)?floorId:destination.primaryFloor;
   const back=returnTo??selectionHref({locale,floorId:activeFloor,kind:'discovery',destinationId:destination.id});
   const directionsUrl=`/${locale}/${locale==='vi'?'chi-duong':'directions'}?${new URLSearchParams({to:destination.id,floor:activeFloor,returnTo:back})}`;
   return <div className="destination-details" data-destination-details={destination.id}>
     <div className="detail-location-summary"><strong>{c.floor} {destination.floors.join(' · ')}</strong><p>{locale==='vi'?(mapped?'Khu vực trên sơ đồ · chưa xác định cửa vào chính xác':'Đã biết tầng · chưa định vị khu vực cửa hàng'):(mapped?'Mapped area · exact doorway not identified':'Floor known · store area not mapped')}</p></div>
+    {location?.associationDetail&&<p className="detail-association-note" data-association-kind={location.associationDetail.kind}>{location.associationDetail.note[locale]}</p>}
     <nav className="detail-primary-actions" aria-label={locale==='vi'?'Chuẩn bị ghé thăm':'Plan your visit'}><a className="detail-directions" data-directions-handoff href={directionsUrl}>{locale==='vi'?'Chỉ đường':'Directions'} <span aria-hidden="true">↗</span></a><a href={selectionHref({locale,floorId:activeFloor,kind:'map',destinationId:destination.id})}>{locale==='vi'?'Xem sơ đồ':'View map'}</a></nav>
     <p className="detail-route-help">{locale==='vi'?'Tiếp theo, chọn nơi bắt đầu. Chỉ hiển thị đường đi cho các kết nối đã được đối chiếu.':'Choose your starting place next. Walking guidance is available only for reviewed connections.'}</p>
     {fields.length>0&&<section className="detail-proposals" aria-label={heading}><h4>{heading}</h4>{fields.map(item=><div className="detail-field" key={item.field} data-detail-field={item.field}>

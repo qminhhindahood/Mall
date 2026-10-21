@@ -1,0 +1,208 @@
+{
+  "scope": "Independent per-item source-layout review of thirteen proposals only; not current occupancy, exact doors, or walking routes. Read-only source. Stopped for owner HANDOFF.",
+  "sourceReport": "D:\\Midterm\\.scratch\\vincom-map-reconciliation-2026-10-21\\report.json",
+  "sourceVisuals": [
+    "D:/Midterm/.scratch/vincom-map-reconciliation-2026-10-21/B1-overlay.png",
+    "D:/Midterm/.scratch/vincom-map-reconciliation-2026-10-21/B2-overlay.png",
+    "D:/Midterm/.scratch/vincom-map-reconciliation-2026-10-21/B3-overlay.png"
+  ],
+  "verified": [
+    "All thirteen named current source SVG region IDs exist; independently computed source-space bounding boxes using current geometry transforms.",
+    "B1/B2 original rasters and all three overlays personally visually inspected.",
+    "B1/B2/B3 original raster SHA-256 matched current geometry sources.",
+    "Five prior conflict holds remain separate; no replacement-tenant claim."
+  ],
+  "pending": [
+    "Implementation/activation: owner requested handoff; proposal JSON remains pending and site.ts has not been integrated.",
+    "Supplement guards and collision handling have not been independently reviewed.",
+    "No runtime/build/browser review of new associations; no raw-source mutation or canonical checks performed.",
+    "No fresh external verification or established plan publication dates; no current occupancy claim."
+  ],
+  "decisions": [
+    {
+      "destinationId": "vincom-prototype-highlandscoffee",
+      "name": "Highlands Coffee",
+      "floor": "B3",
+      "printedUnits": "B3-11; B3-12&14",
+      "regionIds": [
+        "B3-region-013",
+        "B3-region-014"
+      ],
+      "disposition": "source-layout candidate only; current occupancy and final geometry acceptance unresolved",
+      "item": 1,
+      "reviewDecision": "accept-source-layout-area-only",
+      "reason": "Two separate source units B3-11 and B3-12&14 share the Highlands Coffee legend identity; both outlined regions align. Visually reviewed exact-image overlay; original raster hash independently matched.",
+      "activation": "not activated; proposal data remains pending; owner requested handoff before implementation"
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-019",
+      "name": "Gintell",
+      "floor": "B2",
+      "printedUnits": "B2-34",
+      "regionIds": [
+        "B2-region-005"
+      ],
+      "disposition": "source-layout candidate only; current occupancy and final geometry acceptance unresolved",
+      "item": 2,
+      "reviewDecision": "accept-source-layout-area-only",
+      "reason": "B2-34 labelled Gintell; outlined yellow wedge is separated from neighbouring PNC by the printed boundary.",
+      "activation": "not activated; proposal data remains pending; owner requested handoff before implementation"
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-034",
+      "name": "AMM",
+      "floor": "B2",
+      "printedUnits": "B2-54",
+      "regionIds": [
+        "B2-region-008"
+      ],
+      "disposition": "source-layout candidate only; current occupancy and final geometry acceptance unresolved",
+      "item": 3,
+      "reviewDecision": "accept-source-layout-area-only",
+      "reason": "B2-54 labelled AMM; lower service-colour polygon aligns with the printed unit, separate from B2-53 above.",
+      "activation": "not activated; proposal data remains pending; owner requested handoff before implementation"
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-033",
+      "name": "Daiso",
+      "floor": "B2",
+      "printedUnits": "B2-53",
+      "regionIds": [
+        "B2-region-013"
+      ],
+      "disposition": "source-layout candidate only; current occupancy and final geometry acceptance unresolved",
+      "item": 4,
+      "reviewDecision": "accept-source-layout-area-only",
+      "reason": "B2-53 labelled Daiso; right service-colour rectangle matches unit and remains separate from AMM.",
+      "activation": "not activated; proposal data remains pending; owner requested handoff before implementation"
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-024",
+      "name": "Albetta",
+      "floor": "B2",
+      "printedUnits": "B2-14",
+      "regionIds": [
+        "B2-region-018"
+      ],
+      "disposition": "source-layout candidate only; current occupancy and final geometry acceptance unresolved",
+      "item": 5,
+      "reviewDecision": "accept-source-layout-area-only",
+      "reason": "B2-14 labelled Albetta; lower triangular service-colour portion matches its printed unit below Rabity.",
+      "activation": "not activated; proposal data remains pending; owner requested handoff before implementation"
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-028",
+      "name": "Rabity",
+      "floor": "B2",
+      "printedUnits": "B2-15A",
+      "regionIds": [
+        "B2-region-022"
+      ],
+      "disposition": "source-layout candidate only; current occupancy and final geometry acceptance unresolved",
+      "item": 6,
+      "reviewDecision": "accept-source-layout-area-only",
+      "reason": "B2-15A labelled Rabity; upper triangular service-colour portion matches its printed unit above Albetta.",
+      "activation": "not activated; proposal data remains pending; owner requested handoff before implementation"
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-029",
+      "name": "Cutie Land",
+      "floor": "B2",
+      "printedUnits": "B2-16A-17A1",
+      "regionIds": [
+        "B2-region-020",
+        "B2-region-021"
+      ],
+      "disposition": "source-layout candidate only; current occupancy and final geometry acceptance unresolved",
+      "item": 7,
+      "reviewDecision": "accept-source-layout-area-only",
+      "reason": "Legend assigns B2-16A-17A1 to Cutie Land; both separate outlined portions align and do not include the neighbouring B2-16 Rhythm conflict.",
+      "activation": "not activated; proposal data remains pending; owner requested handoff before implementation"
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-032",
+      "name": "PNC - Nhà sách Phương Nam",
+      "floor": "B2",
+      "printedUnits": "B2-31-32-33",
+      "regionIds": [
+        "B2-region-011",
+        "B2-region-014"
+      ],
+      "disposition": "source-layout candidate only; current occupancy and final geometry acceptance unresolved",
+      "item": 8,
+      "reviewDecision": "accept-source-layout-area-only",
+      "reason": "Legend assigns B2-31-32-33 to PNC. One existing contour spans32/33 and another31; merged32/33 is acceptable because both are the same explicitly printed tenant.",
+      "activation": "not activated; proposal data remains pending; owner requested handoff before implementation"
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-021",
+      "name": "Shu Uemura",
+      "floor": "B1",
+      "printedUnits": "B1-30A+B",
+      "regionIds": [
+        "B1-region-007"
+      ],
+      "disposition": "source-layout candidate only; current occupancy and final geometry acceptance unresolved",
+      "item": 9,
+      "reviewDecision": "accept-source-layout-area-only",
+      "reason": "B1-30A+B labelled Shu Uemura; outlined isolated lower rectangular source unit aligns.",
+      "activation": "not activated; proposal data remains pending; owner requested handoff before implementation"
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-026",
+      "name": "Pierre Cardin",
+      "floor": "B1",
+      "printedUnits": "B1-47",
+      "regionIds": [
+        "B1-region-009"
+      ],
+      "disposition": "source-layout candidate only; current occupancy and final geometry acceptance unresolved",
+      "item": 10,
+      "reviewDecision": "accept-source-layout-area-only",
+      "reason": "B1-47 labelled Pierre Cardin; outlined curved island aligns with source unit; schematic outer contour only.",
+      "activation": "not activated; proposal data remains pending; owner requested handoff before implementation"
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-006",
+      "name": "Cath Kidston",
+      "floor": "B1",
+      "printedUnits": "B1-17C",
+      "regionIds": [
+        "B1-region-011"
+      ],
+      "disposition": "source-layout candidate only; current occupancy and final geometry acceptance unresolved",
+      "item": 11,
+      "reviewDecision": "accept-partial-area-only",
+      "reason": "B1-17C labelled Cath Kidston. Existing contour covers the right magenta source-colour portion; adjacent grey rectangle unresolved. Accept only explicitly partial source area, not complete storefront/unit footprint.",
+      "activation": "not activated; proposal data remains pending; owner requested handoff before implementation"
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-035",
+      "name": "Daniel Wellington",
+      "floor": "B1",
+      "printedUnits": "B1-59",
+      "regionIds": [
+        "B1-region-013"
+      ],
+      "disposition": "source-layout candidate only; current occupancy and final geometry acceptance unresolved",
+      "item": 12,
+      "reviewDecision": "accept-source-layout-area-only",
+      "reason": "B1-59 labelled Daniel Wellington; small outlined vertical rectangle aligns. Text-shaped contour notches are source-palette artefacts; area-level approximate location only.",
+      "activation": "not activated; proposal data remains pending; owner requested handoff before implementation"
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-020",
+      "name": "Watch Me",
+      "floor": "B1",
+      "printedUnits": "B1-29",
+      "regionIds": [
+        "B1-region-016"
+      ],
+      "disposition": "source-layout candidate only; current occupancy and final geometry acceptance unresolved",
+      "item": 13,
+      "reviewDecision": "accept-source-layout-area-only",
+      "reason": "B1-29 labelled Watch Me. Original source itself shows a thin horizontal strip; existing bbox395,593..466,601 matches it. Small approximate area, not a doorway or exact shop outline.",
+      "activation": "not activated; proposal data remains pending; owner requested handoff before implementation"
+    }
+  ]
+}

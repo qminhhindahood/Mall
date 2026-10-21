@@ -6,7 +6,7 @@ export type Destination = {
   id: string; name: Bilingual; primaryFloor: string; floors: string[];
   description: Bilingual; reviewedAt: string; fixture?: boolean;
   categories: string[]; aliases: string[]; status: 'open'|'closed'|'moved';
-  locations: { floorId: string; certainty: 'floor-confirmed'|'area-confirmed'; areaIds: string[]; source: string }[];
+  locations: { floorId: string; certainty: 'floor-confirmed'|'area-confirmed'; areaIds: string[]; source: string; associationDetail?: {kind:'source-layout'|'partial-source-layout';note:Bilingual} }[];
   review: Review;
   cuisine?: Bilingual;
   website?: string;

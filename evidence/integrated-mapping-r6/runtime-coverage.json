@@ -1,0 +1,295 @@
+{
+  "scope": "Built runtime association counts, not entrances or arbitrary routes",
+  "rows": [
+    {
+      "mall": "saigon-centre",
+      "revision": "owner-approved-directory-2026-10-18-r1",
+      "listings": 165,
+      "areaLinked": 156,
+      "floorOnly": 9,
+      "mappedFloorAssociations": 157,
+      "partial": 0,
+      "doors": 0,
+      "supplemented": []
+    },
+    {
+      "mall": "vincom-dong-khoi",
+      "revision": "owner-approved-directory-2026-10-18-r1+vincom-precision-holds-2026-10-21-r1+vincom-source-associations-2026-10-21-r1",
+      "listings": 203,
+      "areaLinked": 31,
+      "floorOnly": 172,
+      "mappedFloorAssociations": 31,
+      "partial": 1,
+      "doors": 0,
+      "supplemented": [
+        {
+          "id": "vincom-prototype-highlandscoffee",
+          "locations": [
+            {
+              "floorId": "B3",
+              "certainty": "area-confirmed",
+              "areaIds": [
+                "supplement-20261021-prototype-highlandscoffee"
+              ],
+              "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-source-associations-2026-10-21-r1.json; independently reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B3-11; B3-12&14",
+              "associationDetail": {
+                "kind": "source-layout",
+                "note": {
+                  "en": "Approximate area from the supplied plan; current occupancy and exact doorway are not verified.",
+                  "vi": "Khu vực ước lượng theo sơ đồ được cung cấp; chưa xác minh đơn vị đang hoạt động và cửa ra vào chính xác."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "vincom-candidate-vd-b2-019",
+          "locations": [
+            {
+              "floorId": "B2",
+              "certainty": "area-confirmed",
+              "areaIds": [
+                "supplement-20261021-candidate-vd-b2-019"
+              ],
+              "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-source-associations-2026-10-21-r1.json; independently reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B2-34",
+              "associationDetail": {
+                "kind": "source-layout",
+                "note": {
+                  "en": "Approximate area from the supplied plan; current occupancy and exact doorway are not verified.",
+                  "vi": "Khu vực ước lượng theo sơ đồ được cung cấp; chưa xác minh đơn vị đang hoạt động và cửa ra vào chính xác."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "vincom-candidate-vd-b2-024",
+          "locations": [
+            {
+              "floorId": "B2",
+              "certainty": "area-confirmed",
+              "areaIds": [
+                "supplement-20261021-candidate-vd-b2-024"
+              ],
+              "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-source-associations-2026-10-21-r1.json; independently reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B2-14",
+              "associationDetail": {
+                "kind": "source-layout",
+                "note": {
+                  "en": "Approximate area from the supplied plan; current occupancy and exact doorway are not verified.",
+                  "vi": "Khu vực ước lượng theo sơ đồ được cung cấp; chưa xác minh đơn vị đang hoạt động và cửa ra vào chính xác."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "vincom-candidate-vd-b2-028",
+          "locations": [
+            {
+              "floorId": "B2",
+              "certainty": "area-confirmed",
+              "areaIds": [
+                "supplement-20261021-candidate-vd-b2-028"
+              ],
+              "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-source-associations-2026-10-21-r1.json; independently reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B2-15A",
+              "associationDetail": {
+                "kind": "source-layout",
+                "note": {
+                  "en": "Approximate area from the supplied plan; current occupancy and exact doorway are not verified.",
+                  "vi": "Khu vực ước lượng theo sơ đồ được cung cấp; chưa xác minh đơn vị đang hoạt động và cửa ra vào chính xác."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "vincom-candidate-vd-b2-029",
+          "locations": [
+            {
+              "floorId": "B2",
+              "certainty": "area-confirmed",
+              "areaIds": [
+                "supplement-20261021-candidate-vd-b2-029"
+              ],
+              "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-source-associations-2026-10-21-r1.json; independently reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B2-16A-17A1",
+              "associationDetail": {
+                "kind": "source-layout",
+                "note": {
+                  "en": "Approximate area from the supplied plan; current occupancy and exact doorway are not verified.",
+                  "vi": "Khu vực ước lượng theo sơ đồ được cung cấp; chưa xác minh đơn vị đang hoạt động và cửa ra vào chính xác."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "vincom-candidate-vd-b2-032",
+          "locations": [
+            {
+              "floorId": "B2",
+              "certainty": "area-confirmed",
+              "areaIds": [
+                "supplement-20261021-candidate-vd-b2-032"
+              ],
+              "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-source-associations-2026-10-21-r1.json; independently reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B2-31-32-33",
+              "associationDetail": {
+                "kind": "source-layout",
+                "note": {
+                  "en": "Approximate area from the supplied plan; current occupancy and exact doorway are not verified.",
+                  "vi": "Khu vực ước lượng theo sơ đồ được cung cấp; chưa xác minh đơn vị đang hoạt động và cửa ra vào chính xác."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "vincom-candidate-vd-b2-033",
+          "locations": [
+            {
+              "floorId": "B2",
+              "certainty": "area-confirmed",
+              "areaIds": [
+                "supplement-20261021-candidate-vd-b2-033"
+              ],
+              "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-source-associations-2026-10-21-r1.json; independently reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B2-53",
+              "associationDetail": {
+                "kind": "source-layout",
+                "note": {
+                  "en": "Approximate area from the supplied plan; current occupancy and exact doorway are not verified.",
+                  "vi": "Khu vực ước lượng theo sơ đồ được cung cấp; chưa xác minh đơn vị đang hoạt động và cửa ra vào chính xác."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "vincom-candidate-vd-b2-034",
+          "locations": [
+            {
+              "floorId": "B2",
+              "certainty": "area-confirmed",
+              "areaIds": [
+                "supplement-20261021-candidate-vd-b2-034"
+              ],
+              "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-source-associations-2026-10-21-r1.json; independently reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B2-54",
+              "associationDetail": {
+                "kind": "source-layout",
+                "note": {
+                  "en": "Approximate area from the supplied plan; current occupancy and exact doorway are not verified.",
+                  "vi": "Khu vực ước lượng theo sơ đồ được cung cấp; chưa xác minh đơn vị đang hoạt động và cửa ra vào chính xác."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "vincom-candidate-vd-b1-006",
+          "locations": [
+            {
+              "floorId": "B1",
+              "certainty": "area-confirmed",
+              "areaIds": [
+                "supplement-20261021-candidate-vd-b1-006"
+              ],
+              "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-source-associations-2026-10-21-r1.json; independently reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B1-17C",
+              "associationDetail": {
+                "kind": "partial-source-layout",
+                "note": {
+                  "en": "Partial mapped area only: the right magenta portion of B1-17C. The adjacent grey rectangle is unresolved; this is not the complete shop footprint. Current occupancy and exact doorway are not verified.",
+                  "vi": "Chỉ đánh dấu một phần khu vực: phần màu hồng bên phải ô B1-17C. Phần hình chữ nhật màu xám bên cạnh chưa được xác minh; đây không phải toàn bộ mặt bằng cửa hàng. Chưa xác minh đơn vị đang hoạt động và cửa ra vào chính xác."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "vincom-candidate-vd-b1-020",
+          "locations": [
+            {
+              "floorId": "B1",
+              "certainty": "area-confirmed",
+              "areaIds": [
+                "supplement-20261021-candidate-vd-b1-020"
+              ],
+              "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-source-associations-2026-10-21-r1.json; independently reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B1-29",
+              "associationDetail": {
+                "kind": "source-layout",
+                "note": {
+                  "en": "Approximate location along the thin B1-29 strip on the supplied plan; not a measured shop footprint. Current occupancy and exact doorway are not verified.",
+                  "vi": "Vị trí ước lượng theo dải hẹp B1-29 trên sơ đồ được cung cấp; không phải mặt bằng cửa hàng đã đo đạc. Chưa xác minh đơn vị đang hoạt động và cửa ra vào chính xác."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "vincom-candidate-vd-b1-021",
+          "locations": [
+            {
+              "floorId": "B1",
+              "certainty": "area-confirmed",
+              "areaIds": [
+                "supplement-20261021-candidate-vd-b1-021"
+              ],
+              "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-source-associations-2026-10-21-r1.json; independently reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B1-30A+B",
+              "associationDetail": {
+                "kind": "source-layout",
+                "note": {
+                  "en": "Approximate area from the supplied plan; current occupancy and exact doorway are not verified.",
+                  "vi": "Khu vực ước lượng theo sơ đồ được cung cấp; chưa xác minh đơn vị đang hoạt động và cửa ra vào chính xác."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "vincom-candidate-vd-b1-026",
+          "locations": [
+            {
+              "floorId": "B1",
+              "certainty": "area-confirmed",
+              "areaIds": [
+                "supplement-20261021-candidate-vd-b1-026"
+              ],
+              "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-source-associations-2026-10-21-r1.json; independently reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B1-47",
+              "associationDetail": {
+                "kind": "source-layout",
+                "note": {
+                  "en": "Approximate area from the supplied plan; current occupancy and exact doorway are not verified.",
+                  "vi": "Khu vực ước lượng theo sơ đồ được cung cấp; chưa xác minh đơn vị đang hoạt động và cửa ra vào chính xác."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "vincom-candidate-vd-b1-035",
+          "locations": [
+            {
+              "floorId": "B1",
+              "certainty": "area-confirmed",
+              "areaIds": [
+                "supplement-20261021-candidate-vd-b1-035"
+              ],
+              "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; data/research/vincom-source-associations-2026-10-21-r1.json; independently reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established; printed units B1-59",
+              "associationDetail": {
+                "kind": "source-layout",
+                "note": {
+                  "en": "Approximate B1-59 area from the supplied plan; small contour notches come from printed text, not physical walls. Current occupancy and exact doorway are not verified.",
+                  "vi": "Khu vực B1-59 ước lượng theo sơ đồ được cung cấp; các khuyết nhỏ trên đường viền do chữ in tạo ra, không phải tường thực tế. Chưa xác minh đơn vị đang hoạt động và cửa ra vào chính xác."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewedRouteCoverage": {
+    "sameFloorLandmarkToArea": 7,
+    "crossFloorDirectedJourneys": 2,
+    "crossFloorConnectorPairs": 1,
+    "distinctRouteDestinationRecords": 9,
+    "generalShopToShopGraph": false
+  }
+}
