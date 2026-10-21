@@ -2,3 +2,7 @@ public/
 dist/
 node_modules/
 .astro/
+.vite-atlas-*/
+*-dev*.log
+*-preview*.log
+*-build.log

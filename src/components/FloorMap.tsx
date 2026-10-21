@@ -1,12 +1,13 @@
-import { memo } from 'react';
+import { memo, type ReactNode } from 'react';
 import type { FloorGeometry, Locale } from '../runtime/scene-contract';
 import type { DirectorySnapshot } from '../data/content';
 import { areaLabelPoint } from './discovery-map';
-export default memo(function FloorMap({ floor, title, viewBounds, content, locale='vi', selectedDestination, selectedArea, onArea, areaNumbers }: {
+export default memo(function FloorMap({ floor, title, viewBounds, content, locale='vi', selectedDestination, selectedArea, onArea, areaNumbers, children }: {
   floor:FloorGeometry; title:string; content?:DirectorySnapshot; locale?:Locale;
   selectedDestination?:string; selectedArea?:string; onArea?:(id:string)=>void;
   viewBounds?:[number,number,number,number];
   areaNumbers?:Record<string,number>;
+  children?:ReactNode;
 }) {
   const frame=viewBounds??floor.bounds;
   const outline=floor.presentation?.outline??[];
@@ -34,5 +35,6 @@ export default memo(function FloorMap({ floor, title, viewBounds, content, local
       const radius=Math.max(right-x,bottom-y)*.02;
       return <g key={area.id} className="discovery-map-number" aria-hidden="true" pointerEvents="none" data-active={selected.includes(area.id)||selectedArea===area.id}><circle cx={point[0]} cy={point[1]} r={radius}/><text x={point[0]} y={point[1]} fontSize={radius*1.2}>{areaNumbers[area.id]}</text></g>;
     })}
+    {children}
   </svg>;
 });
