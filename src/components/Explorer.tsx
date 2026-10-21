@@ -508,7 +508,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       </div>
       {!discoveryPage&&<HomeIntroductions site={{...site,geometry}} locale={selection.locale}/>}
     </main>
-    <footer id="visit" tabIndex={-1} className="visit-footer"><div><h2>{site.name}</h2><p>{c.independent}</p></div><div><h3>{selection.locale==='vi'?'Trước khi bạn đến':'Before you go'}</h3><p>{selection.locale==='vi'?'Xem thông tin cửa hàng và nguồn tham khảo trong Khám phá. Chọn điểm xuất phát thủ công để xem những tuyến đường đã được kiểm chứng.':'Find store details and their sources in Discovery. Choose your starting point manually to see the routes supported by our floor plans.'}</p><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{c.discovery} →</a></div></footer>
+    <footer id="visit" tabIndex={-1} className="visit-footer"><div><h2>{site.name}</h2><p>{c.independent}</p></div><div><h3>{selection.locale==='vi'?'Trước khi bạn đến':'Before you go'}</h3><p>{selection.locale==='vi'?'Xem thông tin cửa hàng và nguồn tham khảo trong Khám phá. Chọn điểm bắt đầu thủ công để xem những tuyến đường đã được kiểm chứng.':'Find store details and their sources in Discovery. Choose your starting point manually to see the routes supported by our floor plans.'}</p><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{c.discovery} →</a></div></footer>
     </div>
     {load==='loading' && <div className="scene-loading-status" role="status">{selection.locale==='vi'?'Đang chuẩn bị mô hình · bạn vẫn có thể khám phá danh mục và sơ đồ.':'Preparing the model · directory and maps remain available.'}</div>}
   </>;

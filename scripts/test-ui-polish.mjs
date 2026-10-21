@@ -47,7 +47,20 @@ for(const {mall,port,store} of malls)for(const width of [1440,390])for(const loc
     const text=(await dialog.innerText()).toLowerCase();
     check(!/(source|reviewed|verified|nguồn|đã xác minh|đã duyệt|brand-wide|mapped area)/.test(text),'store sheet shows no provenance wording');
     check(await dialog.locator('.detail-facts li').count()>=0&&await dialog.locator('[data-directions-handoff]').count()===1,'store sheet keeps Directions');
+    check(await dialog.locator('[data-directions-handoff]').evaluate(e=>e.getBoundingClientRect().height<70),'Directions label stays on one line');
     await page.keyboard.press('Escape');
+    // Directions: mall palette, visitor-facing copy, readable type, one start prompt.
+    await page.goto(`${base}/${locale}/${locale==='vi'?'chi-duong':'directions'}`,{waitUntil:'networkidle'});
+    await page.waitForTimeout(1200);
+    const token=await page.evaluate(()=>getComputedStyle(document.documentElement).getPropertyValue('--ja-2d4935').trim());
+    check(mall==='vincom'?token!==''&&token!=='#2d4935':token==='','Directions uses the mall palette');
+    const dirText=await page.evaluate(()=>document.body.innerText);
+    check(!/(reused from|dữ liệu hiện có)/i.test(dirText),'Directions shows no developer wording');
+    check(!/JOURNEY ATLAS/i.test(dirText),'Directions brand line is the page name');
+    check(await page.evaluate(()=>[...document.querySelectorAll('.atlas-app *')].every(e=>e.closest('svg')||!e.childNodes.length||![...e.childNodes].some(n=>n.nodeType===3&&n.textContent.trim())||parseFloat(getComputedStyle(e).fontSize)>=11)),'Directions text is at least 11px');
+    check((dirText.match(/choose your start|chọn điểm bắt đầu/gi)||[]).length<=3&&await page.locator('.atlas-status').count()===0,'Directions asks for the start once (no empty status or START tile)');
+    // Vietnamese wording kept consistent.
+    if(locale==='vi'){const html=await page.evaluate(()=>document.documentElement.outerHTML);check(!/xuất phát/.test(html),'one word for start: bắt đầu');}
   }catch(e){check(false,`flow threw: ${String(e.message).split('\n')[0]}`);}
   await page.close();
 }

@@ -17,7 +17,7 @@ export default function HomeIntroductions({site,locale}:{site:SiteData;locale:Lo
   </section>
   <section className="home-directions-intro">
    <div className="home-map-preview" role="group" aria-label={vi?'Xem trước sơ đồ tầng':'Floor plan preview'}>{floor&&<FloorMap floor={floor} title={`${vi?'Tầng':'Floor'} ${floor.id}`}/>}<span>{vi?'Sơ đồ tầng':'Floor plan'} {floor?.id}</span></div>
-   <div className="home-section-copy"><h2>{vi?'Biết nơi đến. Tìm lối đi.':'Your next stop, in view.'}</h2><p>{vi?'Chọn điểm bắt đầu và điểm đến. Xem sơ đồ tầng cùng hướng dẫn cho những kết nối đã được đối chiếu.':'Choose a starting place and destination. See the floor plan and walking guidance for reviewed connections.'}</p><a className="section-link" href={`/${locale}/${vi?'chi-duong':'directions'}`}>{vi?'Mở Chỉ đường':'Open Directions'}<Arrow/></a></div>
+   <div className="home-section-copy"><h2>{vi?'Biết nơi đến. Tìm lối đi.':'Your next stop, in view.'}</h2><p>{vi?'Chọn điểm bắt đầu và điểm đến. Xem sơ đồ tầng cùng hướng dẫn cho những kết nối đã được đối chiếu.':'Choose a starting place and destination. See the floor plan and walking guidance for reviewed connections.'}</p><a className="section-link" href={`/${locale}/${vi?'chi-duong':'directions'}`}>{vi?'Mở chỉ đường':'Open Directions'}<Arrow/></a></div>
   </section>
  </div>;
 }

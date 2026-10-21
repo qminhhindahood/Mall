@@ -21,3 +21,9 @@
 .destination-details .detail-facts li>span:first-child{color:var(--muted);font-size:14px}
 .destination-details .detail-facts a{min-height:0;display:inline;overflow-wrap:anywhere}
 @media(max-width:700px){.destination-details .detail-facts li{grid-template-columns:1fr;gap:2px}}
+/* Facts stack label over value so long links never break mid-word. */
+.destination-details .detail-facts li{grid-template-columns:1fr;gap:2px}
+.destination-details .detail-facts a{display:inline-flex;align-items:center;min-height:44px;overflow-wrap:anywhere}
+/* Actions stay whole words: side by side when they fit, stacked on phones. */
+.destination-details .detail-primary-actions a{white-space:nowrap}
+@media(max-width:700px){.destination-details .detail-primary-actions{flex-direction:column}.destination-details .detail-primary-actions a{width:100%}}
