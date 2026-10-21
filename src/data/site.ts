@@ -1,5 +1,6 @@
 import { completionSupplement, completionSharedDirectory } from '../../scripts/vincom-completion-overlay.mjs';
 import { reopenedSupplement } from '../../scripts/vincom-reopened-overlay.mjs';
+import { beforeMaxLinksGeometry, maxLinksSupplement, maxLinksSharedDirectory } from '../../scripts/vincom-max-links-overlay.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
@@ -113,8 +114,11 @@ if (mallId === 'vincom-dong-khoi' && !['research','1'].includes(process.env.INCL
   const completion = completionSupplement(process.cwd(),prompt1Content,geometry);
   prompt1Content = applyAssociationSupplement(prompt1Content,geometry,completion.supplement,completion.receipt);
   prompt1Content = completionSharedDirectory(process.cwd(),prompt1Content,geometry);
-  const reopened = reopenedSupplement(process.cwd(),prompt1Content,geometry);
+  const reopened = reopenedSupplement(process.cwd(),prompt1Content,beforeMaxLinksGeometry(geometry));
   prompt1Content = applyAssociationSupplement(prompt1Content,geometry,reopened.supplement,reopened.receipt);
+  const maxLinks = maxLinksSupplement(process.cwd(),prompt1Content,geometry);
+  prompt1Content = applyAssociationSupplement(prompt1Content,geometry,maxLinks.supplement,maxLinks.receipt);
+  prompt1Content = maxLinksSharedDirectory(process.cwd(),prompt1Content,geometry);
 }
 const content = validateContent(prompt1Content,mallId,geometry);
 const destinations = content.destinations;

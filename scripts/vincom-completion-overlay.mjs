@@ -2,6 +2,7 @@ import {readFileSync} from 'node:fs';
 import {resolve} from 'node:path';
 import {createHash} from 'node:crypto';
 import {reopenedGeometry} from './vincom-reopened-overlay.mjs';
+import {maxLinksGeometry} from './vincom-max-links-overlay.mjs';
 
 const packetPath='data/research/vincom-completion-b3-b2-2026-10-21-r2.json';
 const reviewPath='evidence/vincom-integration/completion-review.json';
@@ -30,7 +31,7 @@ export function completionGeometry(root,source){
   if(new Set(regions.map(r=>r.id)).size!==regions.length)fail('duplicate region');
   return {...f,regions};
  });
- const result=reopenedGeometry(root,{...source,revision:`${source.revision}+${packet.revision}`,floors});produced.add(result);return result;
+ const result=maxLinksGeometry(root,reopenedGeometry(root,{...source,revision:`${source.revision}+${packet.revision}`,floors}));produced.add(result);return result;
 }
 export function completionSupplement(root,snapshot,geometry){
  const {packet,review}=load(root);

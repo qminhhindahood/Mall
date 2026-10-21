@@ -1,0 +1,287 @@
+{
+  "revision": "vincom-source-unit-lukfook-2026-10-21-r4",
+  "mallId": "vincom-dong-khoi",
+  "baseDirectoryRevision": "owner-approved-directory-2026-10-18-r1+vincom-precision-holds-2026-10-21-r1+vincom-source-associations-2026-10-21-r1+vincom-derived-segmentation-2026-10-21-r7+vincom-source-associations-2026-10-21-r9+vincom-mapping-prompt1-2026-10-21-r2+vincom-completion-b3-b2-2026-10-21-r2",
+  "activation": "accepted-source-review",
+  "reviewEvidence": {
+    "path": "evidence/vincom-integration-round2/review-decision.json",
+    "sha256": "7c66e632034fab60265d2f36280b6e861c96fa66ddcaed644fe0abdbf7e5b1fa"
+  },
+  "protectedHolds": [
+    {
+      "destinationId": "vincom-prototype-scentuals",
+      "floorId": "B2",
+      "regionIds": [
+        "B2-region-023"
+      ]
+    },
+    {
+      "destinationId": "vincom-prototype-lining",
+      "floorId": "B2",
+      "regionIds": [
+        "B2-region-025"
+      ]
+    },
+    {
+      "destinationId": "vincom-prototype-messyweekend",
+      "floorId": "B2",
+      "regionIds": [
+        "B2-region-033"
+      ]
+    },
+    {
+      "destinationId": "vincom-prototype-beautybox",
+      "floorId": "B2",
+      "regionIds": [
+        "B2-region-007"
+      ]
+    },
+    {
+      "destinationId": "vincom-prototype-lacoste",
+      "floorId": "L1",
+      "regionIds": [
+        "L1-region-001"
+      ]
+    }
+  ],
+  "associations": [
+    {
+      "destinationId": "vincom-prototype-lukfookjewellery",
+      "floorId": "B1",
+      "areaId": "reviewed-b1-lukfook-source-unit-17ab",
+      "printedUnits": "B1-17A, B1-17B",
+      "regionIds": [
+        "B1-region-008"
+      ],
+      "originalLocations": [
+        {
+          "floorId": "B1",
+          "certainty": "floor-confirmed",
+          "areaIds": [],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "source": {
+        "path": "Vincom đồng khởi/map/tang-b1.webp",
+        "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+        "transform": [
+          0.1,
+          0,
+          0,
+          0.1,
+          -66.0,
+          -54.150000000000006
+        ]
+      },
+      "geometryRegions": [
+        {
+          "id": "B1-region-008",
+          "outer": [
+            [
+              -21.0,
+              -17.15
+            ],
+            [
+              -21.1,
+              -17.05
+            ],
+            [
+              -21.1,
+              -15.65
+            ],
+            [
+              -21.0,
+              -15.55
+            ],
+            [
+              -21.0,
+              -15.45
+            ],
+            [
+              -21.1,
+              -15.35
+            ],
+            [
+              -21.1,
+              -13.85
+            ],
+            [
+              -21.0,
+              -13.75
+            ],
+            [
+              -21.0,
+              -13.65
+            ],
+            [
+              -20.8,
+              -13.65
+            ],
+            [
+              -20.7,
+              -13.55
+            ],
+            [
+              -19.4,
+              -13.55
+            ],
+            [
+              -19.3,
+              -13.65
+            ],
+            [
+              -19.2,
+              -13.55
+            ],
+            [
+              -18.9,
+              -13.55
+            ],
+            [
+              -18.8,
+              -13.65
+            ],
+            [
+              -18.7,
+              -13.55
+            ],
+            [
+              -18.6,
+              -13.55
+            ],
+            [
+              -18.5,
+              -13.45
+            ],
+            [
+              -18.5,
+              -13.55
+            ],
+            [
+              -18.4,
+              -13.65
+            ],
+            [
+              -18.3,
+              -13.65
+            ],
+            [
+              -18.2,
+              -13.55
+            ],
+            [
+              -18.1,
+              -13.55
+            ],
+            [
+              -18.0,
+              -13.65
+            ],
+            [
+              -17.9,
+              -13.65
+            ],
+            [
+              -17.8,
+              -13.55
+            ],
+            [
+              -17.2,
+              -13.55
+            ],
+            [
+              -17.1,
+              -13.65
+            ],
+            [
+              -17.0,
+              -13.65
+            ],
+            [
+              -17.0,
+              -13.75
+            ],
+            [
+              -16.9,
+              -13.85
+            ],
+            [
+              -16.8,
+              -13.85
+            ],
+            [
+              -16.8,
+              -14.15
+            ],
+            [
+              -16.9,
+              -14.25
+            ],
+            [
+              -16.9,
+              -15.35
+            ],
+            [
+              -17.0,
+              -15.45
+            ],
+            [
+              -17.0,
+              -15.55
+            ],
+            [
+              -16.8,
+              -15.75
+            ],
+            [
+              -16.8,
+              -16.35
+            ],
+            [
+              -16.9,
+              -16.45
+            ],
+            [
+              -16.9,
+              -16.75
+            ],
+            [
+              -17.0,
+              -16.85
+            ],
+            [
+              -17.0,
+              -17.05
+            ],
+            [
+              -17.1,
+              -17.05
+            ],
+            [
+              -17.2,
+              -17.15
+            ]
+          ],
+          "holes": [],
+          "role": "unreviewed-reference-region",
+          "certainty": "source-palette estimate; not an approved tenant or slab",
+          "sourcePalette": "hue-145-180",
+          "sourcePixelArea": 1498.5
+        }
+      ],
+      "associationDetail": {
+        "kind": "source-layout",
+        "note": {
+          "en": "Source-unit reference only: Lukfook’s 7 September 2026 release gives B1-17AB and an opening on 1 September. Highlight follows printed 17A/17B on the undated supplied plan, whose legend says Crocs. It excludes 17C; current walls, fit-out, occupancy and exact entrance are unverified.",
+          "vi": "Chỉ tham chiếu khu vực theo mã gian hàng: thông cáo Lukfook ngày 7/9/2026 ghi B1-17AB, khai trương ngày 1/9. Vùng tô theo ô 17A/17B trên sơ đồ được cung cấp chưa rõ ngày, có chú giải Crocs. Không gồm 17C; chưa xác minh tường, bố trí, hoạt động hiện tại hay cửa vào chính xác."
+        }
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Independent serial integration reviewer (round2)",
+        "reviewedAt": "2026-10-21",
+        "decision": "accept-source-layout-area-only"
+      }
+    }
+  ]
+}

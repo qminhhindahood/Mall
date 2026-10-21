@@ -1,0 +1,351 @@
+{
+  "decision": "accept-approximate-and-shared-source-unit-references",
+  "reviewedBy": "Codex single session; Lukfook retained completed serial review is explicitly attributed separately",
+  "reviewedAt": "2026-10-22",
+  "decisions": [
+    {
+      "destinationId": "vincom-prototype-karllagerfeld",
+      "floor": "M",
+      "sourceId": "acfc",
+      "url": "https://www.acfc.com.vn/he-thong-cua-hang",
+      "unit": "M-31-32",
+      "conflict": "Weekend Max Mara",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-poloralphlauren",
+      "floor": "M",
+      "sourceId": "acfc",
+      "url": "https://www.acfc.com.vn/he-thong-cua-hang",
+      "unit": "M-04-05",
+      "conflict": "The Kooples; Maison loyalty separately lists Le Silla here",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-valentinocreations",
+      "floor": "L2",
+      "sourceId": "valentino",
+      "url": "https://vmgfashion.com/pages/cua-hang-ap-dung-phieu-qua-tang",
+      "unit": "L2-07",
+      "conflict": "Valentino Creations; current distributor resolves older archived B2 floor",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-lush",
+      "floor": "B1",
+      "sourceId": "maison-stores",
+      "url": "https://theme.hstatic.net/1000284478/1001180179/14/store-locations.json?v=16387",
+      "unit": "B1-02",
+      "conflict": "Ninewest",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-urbanrevivo",
+      "floor": "B1",
+      "sourceId": "maison-stores",
+      "url": "https://theme.hstatic.net/1000284478/1001180179/14/store-locations.json?v=16387",
+      "unit": "B1-28B/C",
+      "conflict": "Marhen.J / Puma / Ceci; Marhen.J current brand locator also claims B1-28B",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-kohakuudonramen",
+      "floor": "B3",
+      "sourceId": "kohaku",
+      "url": "https://sol.com.vn/booking/?jsf=epro-loop-builder%3Alisting-nha-hang&tax=danh-muc-nha-hang%3A6",
+      "unit": "B3-10C",
+      "conflict": "Kyo Hananari",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-yakinikulike",
+      "floor": "B3",
+      "sourceId": "yakiniku",
+      "url": "https://dining-innovation.com.sg/yakinikulike/country/vietnam",
+      "unit": "B3-16A",
+      "conflict": "Seoul Garden",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-adidas",
+      "floor": "B2",
+      "sourceId": "adidas",
+      "url": "https://www.adidas.com.vn/vi/help/sea-adiclub/which-adidas-stores-are-participating-in-the-adiclub-program",
+      "unit": "B2-05",
+      "conflict": "Lock & Lock",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-pucini",
+      "floor": "B2",
+      "sourceId": "pucini",
+      "url": "https://www.pucini.com.vn/",
+      "unit": "B2-50",
+      "conflict": "Keds",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-passifloresbeauty",
+      "floor": "L1",
+      "sourceId": "passiflores-caudalie",
+      "url": "https://www.passifloresbeauty.com/blogs/news/cung-caudalie-buoc-vao-cuoc-hanh-trinh-cai-thien-th-m-nam-voi-bo-doi-v",
+      "unit": "L1-46B/C",
+      "conflict": "Paris & France; retailer Caudalie unit claim matched to its named branch by identical phone",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-wilson",
+      "floor": "B1",
+      "sourceId": "wilson",
+      "url": "https://www.wilsonsports.com.vn/pages/wilson-vietnam-stores",
+      "unit": "B1-50-51",
+      "conflict": "Old Navy; Wilson claims only B1-51, no internal divider supplied",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-matviet",
+      "floor": "B1",
+      "sourceId": "matviet",
+      "url": "https://matviet.vn/pages/dat-lich",
+      "unit": "B1-19 (partial of B1-18-19)",
+      "conflict": "Only the coloured B1-19 portion; grey B1-18A/B is excluded",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-tianlong",
+      "floor": "B3",
+      "sourceId": "tianlong",
+      "url": "https://urbox.vn/thuong-hieu/tian-long-lau-bo-tuoi-trieu-chau-1867",
+      "unit": "B3-18B",
+      "conflict": "Plan prints Lau MK; operator confirms branch, transactional partners independently specify B3-18B",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-longwang",
+      "floor": "B3",
+      "sourceId": "longwang",
+      "url": "https://www.topcv.vn/viec-lam/quan-ly-nha-hang-lau-hap-thuy-nhiet-long-wang/1744885.html",
+      "unit": "B3-19B",
+      "conflict": "Plan prints Date Nariya; employer-published recruitment address specifies B3-19B",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-touslesjours",
+      "floor": "B3",
+      "sourceId": "touslesjours",
+      "url": "https://www.gotit.vn/brands/tous-les-jours.6",
+      "unit": "B3-19A",
+      "conflict": "Plan prints Hue Delights; active voucher partner specifies B3-19A",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-thematchatokyo",
+      "floor": "B3",
+      "sourceId": "matcha-unit",
+      "url": "https://hunufa.vn/menu-the-matcha-tokyo",
+      "unit": "B3-15C",
+      "conflict": "Plan prints Langfarm; published branch address specifies B3-15C, franchise operator separately confirms branch",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-anphuoc",
+      "floor": "B2",
+      "sourceId": "anphuoc-unit",
+      "url": "https://guidebold.com/guide/an-phuoc-pierre-cardin-vincom-dong-khoi-quan-1/",
+      "unit": "B2-01C",
+      "conflict": "Plan prints Sealy; current branch directory and retained owner unit claim agree on B2-01C",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-escentricsignature",
+      "floor": "L1",
+      "sourceId": "escentric-unit",
+      "url": "https://dep.com.vn/parfums-de-marly-delina-collection-chat-huong-tieu-thu-quy-toc-phap-thoi-hien-dai/",
+      "unit": "L1-46A",
+      "conflict": "Plan prints The Face Shop; dated distributor campaign coverage names L1-46A; current mall directory separately retains branch",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-004",
+      "floor": "B2",
+      "sourceId": "tnf-unit",
+      "url": "https://techcombank.com/content/dam/techcombank/public-site/promo_file/the-le-chuong-trinh-uu-dai-cho-chu-the-techcombank-tai-tttm-vincom.pdf",
+      "unit": "B2-49",
+      "conflict": "Plan prints The North Face; bank merchant list repeats exact unit; competing Crocs B2-49 claim remains unconfirmed and current mall brand page instead says B1",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-sony",
+      "floor": "B1",
+      "sourceId": "sony-unit",
+      "url": "https://store.sony.com.vn/pages/tnc-goi-bao-duong-my-sony-care",
+      "unit": "B1-21A/B (unit-21 reference)",
+      "conflict": "First-party Sony now specifies B1-21; plan has grey closed 21A/21B cells and unit-21 Prima Art legend. Numeric-family correspondence inference only; no surveyed perimeter or co-occupancy claim.",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-lukfookjewellery",
+      "floor": "B1",
+      "sourceId": "lukfook",
+      "url": "https://www.lukfook.com/en/post/grand-opening-of-lukfook-jewellerys-new-shop-in-vincom-dong-khoi-shopping-centre-jointly-celebrating-brands-35th-anniversary",
+      "unit": "B1-17A, B1-17B",
+      "conflict": "Old raster prints Crocs; dated 7 September 2026 brand release specifies B1-17AB. Existing retained independent serial review accepted this exact reference; excludes 17C and present-day perimeter continuity.",
+      "decision": "accept-approximate-source-unit-reference",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-owndays",
+      "floor": "B1",
+      "sourceId": "owndays",
+      "url": "https://www.acfc.com.vn/blog/he-thong-cua-hang-owndays.html",
+      "unit": "B1-50-51",
+      "conflict": "B1-50 only; no individual divider",
+      "decision": "accept-shared-source-unit-reference-only",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-015",
+      "floor": "B1",
+      "sourceId": "marhen",
+      "url": "https://marhenj.co.kr/shop/page.html?id=7",
+      "unit": "B1-28B/C",
+      "conflict": "B1-28B; overlapping retailer claim is not proven co-occupancy",
+      "decision": "accept-shared-source-unit-reference-only",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-primaart",
+      "floor": "B1",
+      "sourceId": "primaart",
+      "url": "https://primaart.com.vn/pages/store-location",
+      "unit": "B1-21A/B (unit-21 reference)",
+      "conflict": "Supplied legend names Prima Art at unit21; source cells 21A/B grouped as a numeric-family reference. Own current locator confirms B1 branch but omits unit. Current location and co-occupancy with Sony are explicitly unverified.",
+      "decision": "accept-shared-source-unit-reference-only",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-matsuya",
+      "floor": "B3",
+      "sourceId": "matsuya",
+      "url": "https://www.matsuyafoods-holdings.co.jp/company/overseas-stores/",
+      "unit": "B3-28A/B",
+      "conflict": "Operator specifies 28B; shared area includes 28A and old San Fu Lou identity. Individual/current perimeter unresolved.",
+      "decision": "accept-shared-source-unit-reference-only",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-aristino",
+      "floor": "B2",
+      "sourceId": "aristino",
+      "url": "https://aristino.com/pages/he-thong-cua-hang",
+      "unit": "B2-03",
+      "conflict": "Current locator specifies B2-03 (also says Tang 02); old plan prints BHPC. B2 membership independently retained in owner directory.",
+      "decision": "accept-shared-source-unit-reference-only",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-samsonite",
+      "floor": "B2",
+      "sourceId": "samsonite",
+      "url": "https://samsonite-vietnam.com/pages/he-thong-cua-hang",
+      "unit": "B2-55-56",
+      "conflict": "Current operator specifies B2-55; shared source area also includes 56 and older Giordano identity. Current subdivision unresolved.",
+      "decision": "accept-shared-source-unit-reference-only",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-guess",
+      "floor": "B1",
+      "sourceId": "guess-unit",
+      "url": "https://www.vpbank.com.vn/-/media/vpbank-latest/1retail/promotion/for-cardholder/2025/cc-thang-9/acfc-2025/tnc--ACFC-2.pdf",
+      "unit": "B1-01",
+      "conflict": "2025 bank/ACFC merchant list specifies B1-01; current distributor retains B1 branch. Original plan prints Aldo; no current co-occupancy or succession inferred.",
+      "decision": "accept-shared-source-unit-reference-only",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-thebodyshop",
+      "floor": "B1",
+      "sourceId": "bodyshop-unit",
+      "url": "https://www.vib.com.vn/wps/wcm/connect/67efba38-98c6-4643-aab1-04db3a224cdf/THE%2BBODY%2BSHOP%2BSTORE%2BLIST.pdf?MOD=AJPERES",
+      "unit": "B1-30A/B",
+      "conflict": "Bank merchant list specifies B1-30AB; current mall retains B1 branch. Plan prints Shu Uemura; no co-occupancy or unchanged fit-out inferred.",
+      "decision": "accept-shared-source-unit-reference-only",
+      "exclusiveCurrentBoundaryVerified": false
+    },
+    {
+      "destinationId": "vincom-prototype-isushi",
+      "floor": "B3",
+      "sourceId": "isushi-unit",
+      "url": "https://cdn.xanhsm.com/2024/01/898b4429-danh_sach_nha_hang_ggg.pdf",
+      "unit": "B3-17",
+      "conflict": "2024 partner merchant list specifies B3-17; current Golden Gate offer retains branch. Plan prints Kichi Kichi; no co-occupancy or succession inferred.",
+      "decision": "accept-shared-source-unit-reference-only",
+      "exclusiveCurrentBoundaryVerified": false
+    }
+  ],
+  "sources": {
+    "acfc": "https://www.acfc.com.vn/he-thong-cua-hang",
+    "valentino": "https://vmgfashion.com/pages/cua-hang-ap-dung-phieu-qua-tang",
+    "maison-stores": "https://theme.hstatic.net/1000284478/1001180179/14/store-locations.json?v=16387",
+    "kohaku": "https://sol.com.vn/booking/?jsf=epro-loop-builder%3Alisting-nha-hang&tax=danh-muc-nha-hang%3A6",
+    "yakiniku": "https://dining-innovation.com.sg/yakinikulike/country/vietnam",
+    "adidas": "https://www.adidas.com.vn/vi/help/sea-adiclub/which-adidas-stores-are-participating-in-the-adiclub-program",
+    "pucini": "https://www.pucini.com.vn/",
+    "passiflores-caudalie": "https://www.passifloresbeauty.com/blogs/news/cung-caudalie-buoc-vao-cuoc-hanh-trinh-cai-thien-th-m-nam-voi-bo-doi-v",
+    "wilson": "https://www.wilsonsports.com.vn/pages/wilson-vietnam-stores",
+    "owndays": "https://www.acfc.com.vn/blog/he-thong-cua-hang-owndays.html",
+    "marhen": "https://marhenj.co.kr/shop/page.html?id=7",
+    "matviet": "https://matviet.vn/pages/dat-lich",
+    "matsuya": "https://www.matsuyafoods-holdings.co.jp/company/overseas-stores/",
+    "aristino": "https://aristino.com/pages/he-thong-cua-hang",
+    "samsonite": "https://samsonite-vietnam.com/pages/he-thong-cua-hang",
+    "tianlong": "https://urbox.vn/thuong-hieu/tian-long-lau-bo-tuoi-trieu-chau-1867",
+    "longwang": "https://www.topcv.vn/viec-lam/quan-ly-nha-hang-lau-hap-thuy-nhiet-long-wang/1744885.html",
+    "touslesjours": "https://www.gotit.vn/brands/tous-les-jours.6",
+    "matcha-unit": "https://hunufa.vn/menu-the-matcha-tokyo",
+    "anphuoc-unit": "https://guidebold.com/guide/an-phuoc-pierre-cardin-vincom-dong-khoi-quan-1/",
+    "escentric-unit": "https://dep.com.vn/parfums-de-marly-delina-collection-chat-huong-tieu-thu-quy-toc-phap-thoi-hien-dai/",
+    "tnf-unit": "https://techcombank.com/content/dam/techcombank/public-site/promo_file/the-le-chuong-trinh-uu-dai-cho-chu-the-techcombank-tai-tttm-vincom.pdf",
+    "sony-unit": "https://store.sony.com.vn/pages/tnc-goi-bao-duong-my-sony-care",
+    "primaart": "https://primaart.com.vn/pages/store-location",
+    "guess-unit": "https://www.vpbank.com.vn/-/media/vpbank-latest/1retail/promotion/for-cardholder/2025/cc-thang-9/acfc-2025/tnc--ACFC-2.pdf",
+    "bodyshop-unit": "https://www.vib.com.vn/wps/wcm/connect/67efba38-98c6-4643-aab1-04db3a224cdf/THE%2BBODY%2BSHOP%2BSTORE%2BLIST.pdf?MOD=AJPERES",
+    "isushi-unit": "https://cdn.xanhsm.com/2024/01/898b4429-danh_sach_nha_hang_ggg.pdf"
+  },
+  "supportingInputs": [
+    {
+      "path": "evidence/vincom-max-links-2026-10-22/lukfook-source-packet.json",
+      "sha256": "933704b5e1a4bdeb84f5478e5c81a3efc50266de5a9a801bb06db8de1b2bdfe2"
+    },
+    {
+      "path": "evidence/vincom-max-links-2026-10-22/lukfook-source-review.json",
+      "sha256": "7c66e632034fab60265d2f36280b6e861c96fa66ddcaed644fe0abdbf7e5b1fa"
+    },
+    {
+      "path": "evidence/vincom-max-links-2026-10-22/lukfook-release.html",
+      "sha256": "fdb52357b3309ea4da0687ce509c4f4a2ef958f7ac66274e977b0d19989f0019"
+    }
+  ],
+  "limitations": "Neither plan publication date nor current exclusive premises, exact doorway or routes are verified. Shared links express common source-unit references, not contemporaneous co-occupancy. Primary locators are distinguished from transactional partner addresses, employer postings and corroborating secondary publications. Prima Art uses the printed source identity and current branch locator, not a fresh current unit assertion."
+}

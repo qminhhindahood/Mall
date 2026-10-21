@@ -1,0 +1,60 @@
+{
+  "revision": "vincom-source-unit-lukfook-2026-10-21-r4",
+  "status": "accepted-source-review",
+  "reviewedBy": "Independent serial integration reviewer (round2)",
+  "reviewedAt": "2026-10-21",
+  "destinationId": "vincom-prototype-lukfookjewellery",
+  "floor": "B1",
+  "regionIds": [
+    "B1-region-008"
+  ],
+  "printedUnits": "B1-17A, B1-17B",
+  "decision": "accept-source-layout-area-only",
+  "sourceReceipt": {
+    "url": "https://www.lukfook.com/en/post/grand-opening-of-lukfook-jewellerys-new-shop-in-vincom-dong-khoi-shopping-centre-jointly-celebrating-brands-35th-anniversary",
+    "finalUrl": "https://www.lukfook.com/en/post/grand-opening-of-lukfook-jewellerys-new-shop-in-vincom-dong-khoi-shopping-centre-jointly-celebrating-brands-35th-anniversary",
+    "retrievedAt": "2026-10-21T13:49:48.381623+00:00",
+    "status": 200,
+    "sha256": "fdb52357b3309ea4da0687ce509c4f4a2ef958f7ac66274e977b0d19989f0019",
+    "path": "evidence/vincom-integration-round2/lukfook-release.html",
+    "receipt": "fetch-03.json",
+    "entry": 0,
+    "publisher": "Luk Fook Holdings (International) Limited",
+    "publicationDate": "2026-09-07",
+    "effectiveOpeningDate": "2026-09-01"
+  },
+  "sourceRaster": {
+    "path": "Vincom đồng khởi/map/tang-b1.webp",
+    "width": 1320,
+    "height": 1083,
+    "bytes": 119288,
+    "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+    "transform": [
+      0.1,
+      0,
+      0,
+      0.1,
+      -66.0,
+      -54.150000000000006
+    ],
+    "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+  },
+  "sourceGeometrySha256": "be4771f73849d8d6909cbb8ba56edf5c9901446bcbdd392299f540169ceebb6e",
+  "originalPlanDate": "unknown",
+  "findings": [
+    "Read original release body and address: Vincom Center Dong Khoi, No.72 Le Thanh Ton; publication 7 September 2026 explicitly dates opening to 1 September and names Unit B1-17AB. No other branch or mall substituted.",
+    "Independently viewed entire original 1320x1083 raster and contour crop: legend B1-17A-B Crocs; separate stacked magenta 17A/17B island is bounded by B1-region-008. The grey cell and magenta 17C immediately north are outside it. AB is normalized to the explicitly labelled A/B pair, not C or a guessed child divider.",
+    "No runtime area owns B1-region-008. Crocs remains approved B2 floor-only, with no B1 link transferred or retired. No shared Crocs/Lukfook premises asserted. Active Cath Kidston partial 17C and all active/protected regions are preserved.",
+    "Dated primary unit identity supports a reference to the supplied schematic area bearing that unit identifier. It does not date the original plan, prove Crocs closure/move, establish succession, or establish unchanged walls/current fit-out. Those inferences are expressly excluded from the visible bilingual note.",
+    "Accept qualified source-unit-area association. Product accepts source-layout references rather than surveyed/current occupancy boundaries. Requiring a new current survey for this narrower claim would exceed the evidence standard. This is not acceptance of the old Crocs footprint as a current Lukfook physical perimeter."
+  ],
+  "rejectedInferences": [
+    "Crocs and Lukfook shared occupancy",
+    "Crocs closed or moved on 1 September",
+    "Old plan predates opening by a known interval",
+    "Physical perimeter continuity across tenancy",
+    "17C belongs to Lukfook",
+    "Exact entrance, surveyed extent or new route"
+  ],
+  "minimalEvidenceForStrongerClaim": "Dated mall/brand plan or explicit unit-boundary confirmation establishing the current perimeter. Needed only for a current-fit-out/continuity assertion; not a blocker to the qualified source-unit reference."
+}
