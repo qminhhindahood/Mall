@@ -83,6 +83,10 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const parking = useRef<HTMLDivElement>(null);
   const runtime = useRef<SceneRuntime|null>(null);
   const latest = useRef(selection);
+  const onDiscoveryPage = (url: URL) => ['discovery','kham-pha'].includes(url.pathname.split('/').filter(Boolean)[1]);
+  const [discoveryPage,setDiscoveryPage] = useState(()=>typeof location!=='undefined'?onDiscoveryPage(new URL(location.href)):initial.kind==='discovery');
+  const discoveryPageRef = useRef(discoveryPage);
+  discoveryPageRef.current = discoveryPage;
   const sceneHosts = useRef<Partial<Record<SceneKind,HTMLDivElement>>>({});
   const sections = useRef<Partial<Record<SceneKind,HTMLElement>>>({});
   const requestSerial = useRef(0);
@@ -124,16 +128,17 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     const update = () => {
       frame=0;
       const hero=sections.current.exterior, overview=sections.current.overview;
-      if(!hero||!overview||latest.current.kind!=='overview')return;
+      if(!hero||!overview||discoveryPageRef.current)return;
 
 
       if((load!=='ready'&&load!=='failed')||focusRequest.current||scrollSettling.current)return;
       // A fixed Discovery sheet owns navigation until explicitly dismissed.
+      if(latest.current.kind==='discovery'&&(latest.current.destinationId||latest.current.areaId))return;
       const stageBottom=exteriorJourney.current?.getBoundingClientRect().bottom??Infinity;
       const kind=hero.getBoundingClientRect().bottom>innerHeight*.45?'exterior':stageBottom>innerHeight*.45?'overview':null;
       if(kind&&kind!==latest.current.kind){
         const next={...latest.current,kind:kind as SceneKind,destinationId:undefined,areaId:undefined};
-        beginRequest(next);history.replaceState({...history.state,scrollY},'',href(next));setSelection(next);
+        beginRequest(next);history.replaceState({...history.state,scrollY},'',href(next,true));setSelection(next);
       }
     };
     const schedule=()=>{if(!frame)frame=requestAnimationFrame(update);};
@@ -144,7 +149,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   useEffect(()=>{
     const update=()=>{
       const section=sections.current.discovery, journey=mapJourney.current;
-      if(!section||!journey||latest.current.kind!=='overview')return;
+      if(!section||!journey||discoveryPageRef.current)return;
       const clamp=(value:number)=>Math.max(0,Math.min(1,value));
       const top=section.getBoundingClientRect().top;
       // Settle the Discovery composition while the map is hidden. Returning it
@@ -165,12 +170,13 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       }
       if((load!=='ready'&&load!=='failed')||focusRequest.current||scrollSettling.current)return;
       // A fixed Discovery sheet owns navigation until explicitly dismissed.
+      if(latest.current.kind==='discovery'&&(latest.current.destinationId||latest.current.areaId))return;
       const mapTop=sections.current.map?.getBoundingClientRect().top??Infinity;
       const readingLine=innerWidth<=700?160:innerHeight*.55;
       const stageBottom=exteriorJourney.current?.getBoundingClientRect().bottom??Infinity;
       const discoveryLine=reducedMotion?readingLine:innerHeight*.8;
       const kind=stageBottom>innerHeight*.45?null:section.getBoundingClientRect().top<discoveryLine?'discovery':mapTop<readingLine?'map':null;
-      if(kind){const next: ExplorerSelection={...latest.current,kind};beginRequest(next);history.replaceState({...history.state,scrollY:scrollY},'',href(next));setSelection(next);}
+      if(kind&&kind!==latest.current.kind){const next: ExplorerSelection={...latest.current,kind};beginRequest(next);history.replaceState({...history.state,scrollY:scrollY},'',href(next,true));setSelection(next);}
     };
     window.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update);
     update();
@@ -206,6 +212,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       return next;
     };
     const initialRoute=resolveRoute();
+    setDiscoveryPage(onDiscoveryPage(new URL(location.href)));
     if(initialRoute.kind!=='exterior')focusRequest.current=initialRoute;
     setSelection(initialRoute);
     setRouteResolved(true);
@@ -214,6 +221,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     window.addEventListener('scroll',savePosition,{passive:true});
     const pop = () => {
       const next=resolveRoute();
+      setDiscoveryPage(onDiscoveryPage(new URL(location.href)));
       beginRequest(next);
       restoreScroll.current=typeof history.state?.scrollY==='number'?history.state.scrollY:null;
       focusRequest.current=next;
@@ -416,7 +424,10 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     // A requested section has no destination scroll position until presented.
     // Saving the departure position here sends pending Back/forward back to
     // the exterior; the ordinary scroll observer records the actual arrival.
-    history.pushState(next.locale!==selection.locale&&load==='ready'&&!focusRequest.current?{scrollY:window.scrollY}:{},'',href(next));
+    // Entering Discovery from elsewhere opens its page; moving within it keeps the current surface.
+    const page=next.kind==='discovery'&&(discoveryPageRef.current||selection.kind!=='discovery');
+    history.pushState(next.locale!==selection.locale&&load==='ready'&&!focusRequest.current?{scrollY:window.scrollY}:{},'',href(next,!page));
+    setDiscoveryPage(page);
     if (next.locale === selection.locale) {pendingFocus.current=focusTarget(next);focusRequest.current=next;}
     setSelection(next);
     // Locale switches preserve the language-control focus; content focus follows
@@ -427,7 +438,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     const next={...(prior?.selection??selection),locale:selection.locale,destinationId:undefined,areaId:undefined,kind:'discovery' as const};
     discoveryReturn.current=null;
     beginRequest(next);
-    history.pushState(prior?{scrollY:prior.scrollY}:{},'',href(next));
+    history.pushState(prior?{scrollY:prior.scrollY}:{},'',href(next,!discoveryPageRef.current));
     // Direct detail returns have no saved reading position. Enter Discovery
     // after the fixed sheet closes instead of preserving its stale scroll.
     if(restoreFocus){closingDiscovery.current=true;restoreScroll.current=prior?.scrollY??null;focusRequest.current=next;}
@@ -435,7 +446,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   }
   const change = (kind: SceneKind, floorId=selection.floorId): ExplorerSelection => ({...selection,kind,floorId,destinationId:undefined,areaId:undefined});
   return <>
-    <div className="visitor-guide separate-surfaces" data-mall={site.mallId} data-paused={paused} data-view={selection.kind} data-arrival-phase={arrivalPhase}>
+    <div className="visitor-guide separate-surfaces" data-mall={site.mallId} data-paused={paused} data-view={selection.kind} data-surface={discoveryPage?'discovery-page':'journey'} data-arrival-phase={arrivalPhase}>
     <a className="skip-introduction" href={href(change('map'))} onClick={event=>navigate(change('map'),event)}>{c.skip}</a>
     <header className="journey-header" data-visible="true">
       <a className="wordmark" href={href(change('exterior'))} onClick={event=>navigate(change('exterior'),event)}><span className="brand-symbol" aria-hidden="true">{site.mallId==='saigon-centre'?'SC':'V'}</span>{site.name}</a>
@@ -455,7 +466,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
         <div className="journey-introduction-reading">
           <section id="scene-exterior" ref={element=>{if(element)sections.current.exterior=element;}} tabIndex={-1} className="introduction" aria-label={c.exterior}>
             <div className="introduction-copy"><h1><span>{site.name}</span></h1><p>{site.mallId==='saigon-centre'?c.saigonIntroduction:c.vincomIntroduction}</p><p className="guide-identity">{c.independent}</p><div className="arrival-actions"><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{j.enterDiscovery}<span aria-hidden="true"> ↗</span></a><a href={'/'+selection.locale+'/'+(selection.locale==='vi'?'chi-duong':'directions')}>{selection.locale==='vi'?'Tìm đường':'Find your way'}<span aria-hidden="true"> →</span></a></div></div>
-            <div className="introduction-bottom"><a className="scroll-guide" href="#explore">{selection.locale==='vi'?'Khám phá trung tâm':'Explore the mall'}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div>
+            <div className="introduction-bottom"><a className="scroll-guide" href="#scene-overview" onClick={event=>navigate(change('overview'),event)}><span className="scroll-cue" aria-hidden="true"/><span>{c.scrollInstruction}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div>
           </section>
           <section id="scene-overview" ref={element=>{if(element)sections.current.overview=element;}} tabIndex={-1} className="overview-reading" aria-label={c.overview}/>
         </div>
@@ -477,8 +488,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
           </div>
         </div>
       </div>
-      {selection.kind==='overview'&&<JourneyMotion stage={exteriorJourney} mapJourney={mapJourney} floor={floor} floors={geometry.floors} title={c.map} reducedMotion={reducedMotion} paused={paused} runtime={runtime}/>}
-      {selection.kind==='exterior'&&<HomeIntroductions site={{...site,geometry}} locale={selection.locale}/>}
+      <JourneyMotion stage={exteriorJourney} mapJourney={mapJourney} floor={floor} floors={geometry.floors} title={c.map} reducedMotion={reducedMotion} paused={paused} runtime={runtime}/>
       <div className="map-discovery-journey" data-discovery={selection.kind==='discovery'} ref={mapJourney}>
         <div className="persistent-map" data-expanded={mapExpanded}>
           <div className="scene-host scene-host-map" ref={element=>{if(element){sceneHosts.current.map=element;sceneHosts.current.discovery=element;}}} data-scene-kind={selection.kind==='discovery'?'discovery':'map'} data-floor={routeResolved?floor.id:undefined}>
@@ -511,6 +521,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
           </section>
         </div>
       </div>
+      {!discoveryPage&&<HomeIntroductions site={{...site,geometry}} locale={selection.locale}/>}
     </main>
     <footer id="visit" tabIndex={-1} className="visit-footer"><div><h2>{site.name}</h2><p>{c.independent}</p></div><div><h3>{selection.locale==='vi'?'Trước khi bạn đến':'Before you go'}</h3><p>{selection.locale==='vi'?'Xem thông tin cửa hàng và nguồn tham khảo trong Khám phá. Chọn điểm xuất phát thủ công để xem những tuyến đường đã được kiểm chứng.':'Find store details and their sources in Discovery. Choose your starting point manually to see the routes supported by our floor plans.'}</p><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{c.discovery} →</a></div></footer>
     </div>
