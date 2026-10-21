@@ -125,3 +125,6 @@
  .visitor-guide[data-surface=discovery-page] .discovery-collection-heading h3{font-size:25px}.visitor-guide[data-surface=discovery-page] [data-discovery-results] ul{grid-template-columns:1fr}.visitor-guide[data-surface=discovery-page] [data-discovery-results] a{min-height:112px}
  .visitor-guide .visit-footer{padding:40px 24px;gap:24px}
 }
+
+/* Hero copy shares the header's side gutter. */
+@media(min-width:901px){.visitor-guide .exterior-floor-journey{padding-inline:clamp(24px,5vw,80px)}}

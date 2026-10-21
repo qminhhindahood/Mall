@@ -17,7 +17,7 @@ export default function OverviewStack({floors,locale,heading,mapTitle,selectedFl
       style={{'--floor-index':index,'--floor-count':floors.length} as CSSProperties}
       onClick={event=>onSelect(floor.id,event)}>
       <span className="overview-card-label">{heading} {floor.label}</span>
-      <span className="overview-card-map"><FloorMap floor={floor} viewBounds={bounds} title={`${mapTitle} ${floor.label}`}/></span>
+      <span className="overview-card-map"><FloorMap decorative floor={floor} viewBounds={bounds} title={mapTitle}/></span>
     </a>)}
   </div>;
 }

@@ -3,13 +3,15 @@ import type { FloorGeometry, Locale } from '../runtime/scene-contract';
 import type { DirectorySnapshot } from '../data/content';
 import { areaLabelPoint } from './discovery-map';
 import PublicEntranceMarkers from './PublicEntranceMarkers';
-export default memo(function FloorMap({ floor, title, viewBounds, content, locale='vi', selectedDestination, selectedArea, onArea, areaNumbers, children, selectedEntrance, onEntrance }: {
+export default memo(function FloorMap({ floor, title, viewBounds, content, locale='vi', selectedDestination, selectedArea, onArea, areaNumbers, children, selectedEntrance, onEntrance, decorative }: {
   floor:FloorGeometry; title:string; content?:DirectorySnapshot; locale?:Locale;
   selectedDestination?:string; selectedArea?:string; onArea?:(id:string)=>void;
   viewBounds?:[number,number,number,number];
   areaNumbers?:Record<string,number>;
   children?:ReactNode;
   selectedEntrance?:string; onEntrance?:(id:string)=>void;
+  /** Decorative copies sit inside a labelled control and add no name of their own. */
+  decorative?:boolean;
 }) {
   const frame=viewBounds??floor.bounds;
   const outline=floor.presentation?.outline??[];
@@ -18,8 +20,8 @@ export default memo(function FloorMap({ floor, title, viewBounds, content, local
   const selected=content?.destinations.find(d=>d.id===selectedDestination)?.locations.find(l=>l.floorId===floor.id)?.areaIds??[];
   const slab=floor.presentation;
   const slabPath=slab?`M${slab.outline.map(point=>point.join(',')).join(' L')} Z`:undefined;
-  return <svg viewBox={`${x} ${y} ${Math.max(1,right-x)} ${Math.max(1,bottom-y)}`} role={onArea||onEntrance?'group':'img'} aria-label={`${title} ${floor.label}`}>
-    <title>{`${title} ${floor.label}`}</title>
+  return <svg viewBox={`${x} ${y} ${Math.max(1,right-x)} ${Math.max(1,bottom-y)}`} role={decorative?undefined:onArea||onEntrance?'group':'img'} aria-hidden={decorative||undefined} aria-label={decorative?undefined:`${title} ${floor.label}`}>
+    {!decorative&&<title>{`${title} ${floor.label}`}</title>}
     {slabPath&&<g className="floor-slab" aria-hidden="true"><path className="slab-side" transform="translate(0,1.4)" d={slabPath}/><path className="slab-top" d={slabPath}/>{slab?.referenceZonePaths.map((path,index)=><path key={index} className="slab-reference-zone" fillRule="evenodd" d={path}/>)}</g>}
     {floor.regions.map(region=>{
       const area=content?.areas.find(a=>a.floorId===floor.id&&a.regionIds.includes(region.id));
@@ -38,6 +40,6 @@ export default memo(function FloorMap({ floor, title, viewBounds, content, local
       return <g key={area.id} className="discovery-map-number" aria-hidden="true" pointerEvents="none" data-active={selected.includes(area.id)||selectedArea===area.id}><circle cx={point[0]} cy={point[1]} r={radius}/><text x={point[0]} y={point[1]} fontSize={radius*1.2}>{areaNumbers[area.id]}</text></g>;
     })}
     {children}
-    <PublicEntranceMarkers floor={floor} locale={locale} selected={selectedEntrance} onSelect={onEntrance}/>
+    {onEntrance&&<PublicEntranceMarkers floor={floor} locale={locale} selected={selectedEntrance} onSelect={onEntrance}/>}
   </svg>;
 });

@@ -20,6 +20,8 @@ export const discoveryCopy = {
 };
 
 type Props = {
+  /** True on the dedicated Discovery page, where this view owns the page title. */
+  page?: boolean;
   site: SiteData; selection: ExplorerSelection & DiscoverySearchSelection; previewFloor: string;
   areaNumbers: Record<string,number>; active: boolean;
   navigate: (next:ExplorerSelection & DiscoverySearchSelection,event?:MouseEvent<HTMLAnchorElement>)=>void;
@@ -28,8 +30,10 @@ type Props = {
 function DetailIcon({close=false}:{close?:boolean}) {
   return <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">{close?<path d="m6 6 12 12M18 6 6 18"/>:<><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7v1"/></>}</svg>;
 }
-export default function Discovery({site,selection,previewFloor,areaNumbers,active,navigate,detailRef,closeDetail}:Props) {
+export default function Discovery({page=false,site,selection,previewFloor,areaNumbers,active,navigate,detailRef,closeDetail}:Props) {
   const locale=selection.locale,c=discoveryCopy[locale],j=journeyCopy[locale];
+  // One h1 per page: Home owns it, so Discovery is a section there.
+  const Title=(page?'h1':'h2') as 'h1',level=(shift:number)=>page?{'aria-level':2+shift}:{};
   const [categoriesOpen,setCategoriesOpen]=useState(true);
   const [portal,setPortal]=useState<Element|null>(null);
   const [share,setShare]=useState('');
@@ -77,11 +81,11 @@ export default function Discovery({site,selection,previewFloor,areaNumbers,activ
     </a></li>;
   };
   return <>
-    <div className="discovery-intro"><h1>{locale==='vi'?'Khám phá':'Discovery'}</h1><p>{locale==='vi'?'Ăn uống, mua sắm và những điểm dừng đáng ghé.':'Good food, favourite brands and places worth a look.'}</p><a className="discovery-browse-link" href="#discovery-search">{locale==='vi'?'Tìm trong toàn bộ danh mục':'Browse the directory'}</a></div>
+    <div className="discovery-intro"><Title>{locale==='vi'?'Khám phá':'Discovery'}</Title><p>{locale==='vi'?'Ăn uống, mua sắm và những điểm dừng đáng ghé.':'Good food, favourite brands and places worth a look.'}</p><a className="discovery-browse-link" href="#discovery-search">{locale==='vi'?'Tìm trong toàn bộ danh mục':'Browse the directory'}</a></div>
     {site.content.approval==='pending'&&<details className="discovery-notice"><summary>{locale==='vi'?'Về hướng dẫn này':'About this guide'}</summary><p>{j.pending}</p></details>}
     {site.content.approval==='fixture'&&<details className="discovery-notice"><summary>{locale==='vi'?'Bản xem trước độc lập':'Independent preview guide'}</summary><p>{site.content.researchPreview?c.research:j.fixture}</p></details>}
     <section className="visitor-highlights" data-mall={site.mallId} aria-labelledby="discovery-highlights-title">
-      <h3 id="discovery-highlights-title">{locale==='vi'?'Gợi ý cho chuyến ghé thăm':'Ideas for your visit'}</h3>
+      <h3 id="discovery-highlights-title" {...level(0)}>{locale==='vi'?'Gợi ý cho chuyến ghé thăm':'Ideas for your visit'}</h3>
       <p>{locale==='vi'?'Khám phá một vài điểm đến, rồi tìm thêm trong toàn bộ danh mục bên dưới.':'Start with a few places, then explore the full directory below.'}</p>
       <ul>{highlights.map(destination=><li key={destination.id}><a data-discovery-result data-destination-id={destination.id} href={selectionHref(destinationLink(destination,destination.primaryFloor))} onClick={event=>select(destination,destination.primaryFloor,event)}><span className="highlight-category">{site.content.categories.filter(row=>destination.categories.includes(row.id)).map(row=>row.name[locale]).join(' · ')}</span><strong>{destination.name[locale]}</strong><span>{c.floor} {destination.floors.join(' · ')}</span><span className="highlight-action">{c.details} <span aria-hidden="true">↗</span></span></a></li>)}</ul>
     </section>
@@ -93,18 +97,18 @@ export default function Discovery({site,selection,previewFloor,areaNumbers,activ
     </form>
     <div className="discovery-layout" data-categories-open={categoriesOpen} data-selected={visible}>
       <nav className="discovery-categories" aria-label={j.categories} onKeyDown={event=>{if(event.key==='Escape'&&categoriesOpen){event.preventDefault();setCategoriesOpen(false);event.currentTarget.querySelector<HTMLButtonElement>('[data-category-toggle]')?.focus();}}}>
-        <div className="discovery-category-heading"><h3>{j.categories}</h3><button type="button" className="discovery-circle" data-category-toggle aria-label={categoriesOpen?c.hide:c.show} aria-expanded={categoriesOpen} aria-controls="discovery-category-list" onClick={()=>setCategoriesOpen(!categoriesOpen)}><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12M3 6h.1M3 12h.1M3 18h.1"/></svg></button></div>
+        <div className="discovery-category-heading"><h3 {...level(0)}>{j.categories}</h3><button type="button" className="discovery-circle" data-category-toggle aria-label={categoriesOpen?c.hide:c.show} aria-expanded={categoriesOpen} aria-controls="discovery-category-list" onClick={()=>setCategoriesOpen(!categoriesOpen)}><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12M3 6h.1M3 12h.1M3 18h.1"/></svg></button></div>
         <div id="discovery-category-list" hidden={!categoriesOpen}>{site.content.categories.map(row=>{const next={...base,discoveryCategoryId:row.id,discoveryFloorId:undefined,discoveryQuery:undefined,discoverySearchScope:undefined};return <a key={row.id} href={selectionHref(next)} aria-current={category?.id===row.id?'true':undefined} onClick={event=>navigate(next,event)}><span>{row.name[locale]}</span><small>{site.destinations.filter(d=>d.status==='open'&&d.categories.includes(row.id)).length}</small></a>;})}</div>
       </nav>
       <div className="discovery-collection">
-        <div className="discovery-collection-heading"><h3>{globalSearch?(locale==='vi'?'Kết quả trong mọi danh mục':'Results across all categories'):category?.name[locale]??j.categories}</h3><p>{matches.length} {c.places}</p></div>
+        <div className="discovery-collection-heading"><h3 {...level(0)}>{globalSearch?(locale==='vi'?'Kết quả trong mọi danh mục':'Results across all categories'):category?.name[locale]??j.categories}</h3><p>{matches.length} {c.places}</p></div>
         <nav className="discovery-floors" aria-label={locale==='vi'?'Lọc danh mục theo tầng':'Filter collection by floor'}>{site.geometry.floors.filter(f=>matches.some(row=>row.floors.includes(f.id))).map(f=>{const next={...base,discoveryFloorId:f.id};return <a key={f.id} href={selectionHref(next)} aria-current={selection.discoveryFloorId===f.id?'true':undefined} onClick={event=>navigate(next,event)}>{f.id} · {matches.filter(row=>row.floors.includes(f.id)).length}</a>;})}</nav>
         <div className="discovery-scope"><p role="status">{rows.length} {c.places} · {selection.discoveryFloorId?`${c.floor} ${selection.discoveryFloorId}`:c.allScope}</p>{category&&<a href={selectionHref({...base,discoveryFloorId:selection.discoveryFloorId?undefined:previewFloor})} onClick={event=>navigate({...base,discoveryFloorId:selection.discoveryFloorId?undefined:previewFloor},event)}>{selection.discoveryFloorId?c.all:`${c.only} ${previewFloor}`}</a>}</div>
         {outsideCategory.length>0&&<p><a href={selectionHref(globalScope)} onClick={event=>navigate(globalScope,event)}>{locale==='vi'?'Xem kết quả ở danh mục khác':'Show matches in other categories'} · {outsideCategory.length}</a></p>}
         {selection.discoveryFloorId&&matches.some(row=>!row.floors.includes(selection.discoveryFloorId!))&&<p className="discovery-other-floors"><a href={selectionHref({...base,discoveryFloorId:undefined})} onClick={event=>navigate({...base,discoveryFloorId:undefined},event)}>{c.openOthers} · {matches.filter(row=>!row.floors.includes(selection.discoveryFloorId!)).length}</a></p>}
-        <div data-discovery-results>{site.geometry.floors.filter(f=>!selection.discoveryFloorId||f.id===selection.discoveryFloorId).map(f=>{const onFloor=rows.filter(row=>row.floors.includes(f.id));return onFloor.length?<div key={f.id}><h4>{c.floor} {f.label}</h4><ul>{onFloor.map(row=>listing(row,f.id))}</ul></div>:null;})}</div>
-        {!rows.length&&suggestions.length>0&&<div><h4>{j.suggestions}</h4><ul>{suggestions.map(destination=><li key={destination.id}><a href={selectionHref({...base,discoveryQuery:destination.name[locale],discoveryFloorId:undefined})} onClick={event=>navigate({...base,discoveryQuery:destination.name[locale],discoveryFloorId:undefined},event)}>{destination.name[locale]}</a></li>)}</ul></div>}
-        {!rows.length&&<div className="discovery-empty"><h4>{c.empty}</h4><p>{matches.length?c.other:j.empty}</p><a href={selectionHref({...base,discoveryFloorId:undefined,discoveryQuery:matches.length?selection.discoveryQuery:undefined})} onClick={event=>navigate({...base,discoveryFloorId:undefined,discoveryQuery:matches.length?selection.discoveryQuery:undefined},event)}>{matches.length?c.openOthers:c.clear}</a></div>}
+        <div data-discovery-results>{site.geometry.floors.filter(f=>!selection.discoveryFloorId||f.id===selection.discoveryFloorId).map(f=>{const onFloor=rows.filter(row=>row.floors.includes(f.id));return onFloor.length?<div key={f.id}><h4 {...level(1)}>{c.floor} {f.label}</h4><ul>{onFloor.map(row=>listing(row,f.id))}</ul></div>:null;})}</div>
+        {!rows.length&&suggestions.length>0&&<div><h4 {...level(1)}>{j.suggestions}</h4><ul>{suggestions.map(destination=><li key={destination.id}><a href={selectionHref({...base,discoveryQuery:destination.name[locale],discoveryFloorId:undefined})} onClick={event=>navigate({...base,discoveryQuery:destination.name[locale],discoveryFloorId:undefined},event)}>{destination.name[locale]}</a></li>)}</ul></div>}
+        {!rows.length&&<div className="discovery-empty"><h4 {...level(1)}>{c.empty}</h4><p>{matches.length?c.other:j.empty}</p><a href={selectionHref({...base,discoveryFloorId:undefined,discoveryQuery:matches.length?selection.discoveryQuery:undefined})} onClick={event=>navigate({...base,discoveryFloorId:undefined,discoveryQuery:matches.length?selection.discoveryQuery:undefined},event)}>{matches.length?c.openOthers:c.clear}</a></div>}
       </div>
     </div>
     {portal&&visible&&createPortal(<><button className="store-sheet-backdrop" tabIndex={-1} aria-label={j.close} onClick={()=>closeDetail()}/><article className="discovery-glass" role="dialog" aria-modal="true" ref={detailRef} tabIndex={-1} aria-labelledby="discovery-glass-title" aria-describedby="discovery-glass-description">

@@ -1,5 +1,5 @@
-.visitor-guide .store-sheet-backdrop { position: fixed; inset: 0; z-index: 89; background: #17241f55; border: 0; border-radius: 0; width: 100%; height: 100%; cursor: pointer; }
-.visitor-guide .discovery-glass { z-index: 90; inset: 16px 16px 16px auto!important; width: min(520px, calc(100vw - 32px))!important; max-width: none; max-height: none; border: 1px solid #d5dcd6; border-radius: 24px; background: #fffefa; box-shadow: 0 24px 80px #10271f38; }
+.visitor-guide .store-sheet-backdrop { position: fixed; inset: 0; z-index: 89; background: transparent; border: 0; border-radius: 0; width: 100%; height: 100%; cursor: pointer; }
+.visitor-guide .discovery-glass { z-index: 90; inset: 16px auto 16px 16px!important; width: min(520px, calc(100vw - 32px))!important; max-width: none; max-height: none; border: 1px solid #d5dcd6; border-radius: 24px; background: #fffefa; box-shadow: 0 24px 80px #10271f38; }
 .visitor-guide .discovery-detail-header { padding: 28px 24px 20px; border-bottom: 1px solid #e0e4dd; }
 .visitor-guide .discovery-detail-header h3 { font-size: 30px; }
 .visitor-guide .discovery-glass-content { padding: 24px; overscroll-behavior: contain; scroll-padding: 24px; }
@@ -20,3 +20,5 @@
 .destination-details .detail-field > p:nth-of-type(2) { color: #52635a; }
 .detail-floor-picker { margin-bottom: 16px; }.visitor-guide .detail-floor-picker a { border: 1px solid #bac8bf; border-radius: 10px; min-width: 48px; justify-content: center; text-decoration: none; }.visitor-guide .detail-floor-picker a[aria-current=true] { background: #194b39; color: #fff; border-color: #194b39; }
 @media(max-width:700px) { .visitor-guide .discovery-glass { inset: 0!important; width: 100%!important; height: 100dvh; border: 0; border-radius: 0; padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom); }.visitor-guide .discovery-detail-header { padding: 20px; }.visitor-guide .discovery-detail-header h3 { font-size: 28px; }.visitor-guide .discovery-glass-content { padding: 20px; }.destination-details .detail-primary-actions { display:grid; grid-template-columns: 1fr 1fr; } }
+
+@media(max-width:700px) { .visitor-guide .store-sheet-backdrop { background: #17241f55; } }
