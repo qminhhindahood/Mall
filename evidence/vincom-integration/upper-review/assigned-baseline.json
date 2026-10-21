@@ -1,0 +1,2829 @@
+[
+  {
+    "destinationId": "vincom-prototype-valentinocreations",
+    "name": {
+      "vi": "Valentino Creations",
+      "en": "Valentino Creations"
+    },
+    "locations": [
+      {
+        "floorId": "L2",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "identifiedunitbutmerged/missinggeometry",
+    "unitClaims": [
+      {
+        "floor": "L2",
+        "unit": "L2-07",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-valentinocreations"
+      },
+      {
+        "floor": "L2",
+        "unit": "L2-07",
+        "authority": "first-party-mall-specific-description-claim",
+        "sourceUrl": "https://vincom.com.vn/store/valentino-creations-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\record-review-2026-10-18\\mapping-ledger.json#vincom-prototype-valentinocreations"
+      }
+    ],
+    "sourceLegendMatches": [
+      {
+        "floor": "L2",
+        "printedUnit": "L2-07",
+        "printedName": "Valentino Creations",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L2-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      }
+    ],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/valentino-creations-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Valentino Creations",
+      "sourceUrl": "https://vincom.com.vn/store/valentino-creations-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B2",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/Logo-Valentino-Creations_png.png/dc39c7f6a44062edcc56e4b9af970ee3.webp",
+      "evidenceFile": "store-pages/valentino-creations-vincom-center-dong-khoi.html",
+      "photoCandidates": [
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/valentino_0872_resize.jpg",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/Valentino_Creations_Thoi_trang_nam.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/0-0-0-0-nimomaxx/ao-so-mi.jpg",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/Valentino_Creations_Thoi_trang_nu-1690195914.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/Chon-3.jpg",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/Chon-5-1690195097.jpg",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/0-0-0-0-nimomaxx/cua_hang_Valentino_Creations_3.jpg",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/cua_hang_Valentino_Creations_4.jpg",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/chon-size-1.jpg",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/chon-size-2.jpg",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    "archivedFloorConflicts": [
+      {
+        "kind": "preview-floor-vs-live-directory",
+        "preview": "L2",
+        "official": "Tầng hầm B2"
+      }
+    ],
+    "traceIds": [
+      "vincom-prompt1-l2-002"
+    ],
+    "status": "archived-floor-conflict-hold",
+    "unresolved": "Supplied plan and archived official branch floor differ: [{\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"L2\", \"official\": \"Tầng hầm B2\"}]. Need dated branch/floor evidence resolving the conflict; trace remains unassociated."
+  },
+  {
+    "destinationId": "vincom-prototype-primaart",
+    "name": {
+      "vi": "Prima Art",
+      "en": "Prima Art"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "identifiedunitbutmerged/missinggeometry",
+    "unitClaims": [
+      {
+        "floor": "B1",
+        "unit": "B1-21",
+        "authority": "supplied Markdown; not independent current tenant proof",
+        "source": "Vincom đồng khởi\\vincom center list.md:140"
+      }
+    ],
+    "sourceLegendMatches": [
+      {
+        "floor": "B1",
+        "printedUnit": "B1-21",
+        "printedName": "Prima Art",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      }
+    ],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/prima-art-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Prima Art",
+      "sourceUrl": "https://vincom.com.vn/store/prima-art-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/Prima-Art-1640001183.png/8a0e3ff5b1e860ae16bb684e6a6f58a7.webp",
+      "evidenceFile": "store-pages/prima-art-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-or-boundary-evidence-hold",
+    "unresolved": "Legend assigns B1-21, but no unambiguous closed B1-21 source unit is located; small horizontal mark is printed B1-20. Need matching boundary evidence."
+  },
+  {
+    "destinationId": "vincom-candidate-vd-b1-015",
+    "name": {
+      "vi": "Marhen.J",
+      "en": "Marhen.J"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "identifiedunitbutmerged/missinggeometry",
+    "unitClaims": [
+      {
+        "floor": "B1",
+        "unit": "B1-28B-C",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-candidate-vd-b1-015"
+      },
+      {
+        "floor": "B1",
+        "unit": "B1-28B-C",
+        "authority": "supplied Markdown; not independent current tenant proof",
+        "source": "Vincom đồng khởi\\vincom center list.md:145"
+      }
+    ],
+    "sourceLegendMatches": [
+      {
+        "floor": "B1",
+        "printedUnit": "B1-28B-C",
+        "printedName": "Marhen J & Puma & Ceci",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      }
+    ],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": null,
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-or-boundary-evidence-hold",
+    "unresolved": "Marhen.J, Puma and Ceci share printed B1-28B-C range. Separate B/C outlines do not assign each brand an individual unit. Need explicit shared-area semantics or brand-specific subdivision."
+  },
+  {
+    "destinationId": "vincom-candidate-vd-b1-016",
+    "name": {
+      "vi": "Puma",
+      "en": "Puma"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "identifiedunitbutmerged/missinggeometry",
+    "unitClaims": [
+      {
+        "floor": "B1",
+        "unit": "B1-28B-C",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-candidate-vd-b1-016"
+      },
+      {
+        "floor": "B1",
+        "unit": "B1-28B-C",
+        "authority": "supplied Markdown; not independent current tenant proof",
+        "source": "Vincom đồng khởi\\vincom center list.md:146"
+      }
+    ],
+    "sourceLegendMatches": [
+      {
+        "floor": "B1",
+        "printedUnit": "B1-28B-C",
+        "printedName": "Marhen J & Puma & Ceci",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      }
+    ],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": null,
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-or-boundary-evidence-hold",
+    "unresolved": "Marhen.J, Puma and Ceci share printed B1-28B-C range. Separate B/C outlines do not assign each brand an individual unit. Need explicit shared-area semantics or brand-specific subdivision."
+  },
+  {
+    "destinationId": "vincom-candidate-vd-b1-017",
+    "name": {
+      "vi": "Ceci",
+      "en": "Ceci"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "identifiedunitbutmerged/missinggeometry",
+    "unitClaims": [
+      {
+        "floor": "B1",
+        "unit": "B1-28B-C",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-candidate-vd-b1-017"
+      },
+      {
+        "floor": "B1",
+        "unit": "B1-28B-C",
+        "authority": "supplied Markdown; not independent current tenant proof",
+        "source": "Vincom đồng khởi\\vincom center list.md:147"
+      }
+    ],
+    "sourceLegendMatches": [
+      {
+        "floor": "B1",
+        "printedUnit": "B1-28B-C",
+        "printedName": "Marhen J & Puma & Ceci",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      }
+    ],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": null,
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-or-boundary-evidence-hold",
+    "unresolved": "Marhen.J, Puma and Ceci share printed B1-28B-C range. Separate B/C outlines do not assign each brand an individual unit. Need explicit shared-area semantics or brand-specific subdivision."
+  },
+  {
+    "destinationId": "vincom-candidate-vd-b1-028",
+    "name": {
+      "vi": "Old Navy",
+      "en": "Old Navy"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "identifiedunitbutmerged/missinggeometry",
+    "unitClaims": [
+      {
+        "floor": "B1",
+        "unit": "B1-50-51",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-candidate-vd-b1-028"
+      },
+      {
+        "floor": "B1",
+        "unit": "B1-50-51",
+        "authority": "supplied Markdown; not independent current tenant proof",
+        "source": "Vincom đồng khởi\\vincom center list.md:158"
+      }
+    ],
+    "sourceLegendMatches": [
+      {
+        "floor": "B1",
+        "printedUnit": "B1-50-51",
+        "printedName": "Old Navy",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      }
+    ],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": null,
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-or-boundary-evidence-hold",
+    "unresolved": "Printed Old Navy B1-50-51 overlaps separately archived Wilson 51 and Owndays 50 claims. Need chronology and child-unit boundaries before selecting shared/individual representation."
+  },
+  {
+    "destinationId": "vincom-prototype-thenewplayground",
+    "name": {
+      "vi": "The New Playground",
+      "en": "The New Playground"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "notyetvisuallyresolved",
+    "unitClaims": [
+      {
+        "floor": "B1",
+        "unit": "Lô 38-48",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-thenewplayground"
+      }
+    ],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/the-new-playground-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "The New Playground",
+      "sourceUrl": "https://vincom.com.vn/store/the-new-playground-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/containers/vincom_ho/thuong_hieu/anh_logo/THE%20NEW%20PLAYGROUND.jpg/a45a4a62bf3c31cc8cc69e36f373f841.webp",
+      "evidenceFile": "store-pages/the-new-playground-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-or-boundary-evidence-hold",
+    "unresolved": "Broad archived lot range 38-48 spans Planet Sports, Pierre Cardin, Sky Optic and other units; no exclusive New Playground footprint. Need branch/unit-specific boundary evidence."
+  },
+  {
+    "destinationId": "vincom-prototype-guess",
+    "name": {
+      "vi": "Guess",
+      "en": "Guess"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "sourceabsent/unlocated",
+    "unitClaims": [],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/guess-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Guess",
+      "sourceUrl": "https://vincom.com.vn/store/guess-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/vincom-ho/thuong_hieu/anh_logo/logo-guess-header.svg",
+      "evidenceFile": "store-pages/guess-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "unlocated-in-checked-sources",
+    "unresolved": "No matching footprint located in supplied plans / checked retained official archive. Need a branch-specific dated unit/footprint source; broad floor reference cannot locate a store."
+  },
+  {
+    "destinationId": "vincom-prototype-nike",
+    "name": {
+      "vi": "Nike",
+      "en": "Nike"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "identifiedunitbutmerged/missinggeometry",
+    "unitClaims": [
+      {
+        "floor": "B1",
+        "unit": "B1-55",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-nike"
+      },
+      {
+        "floor": "B1",
+        "unit": "B1-55",
+        "authority": "first-party-claim-needs-geometry-correspondence",
+        "sourceUrl": "https://www.acfc.com.vn/he-thong-cua-hang",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\record-review-2026-10-18\\mapping-ledger.json#vincom-prototype-nike"
+      }
+    ],
+    "sourceLegendMatches": [
+      {
+        "floor": "B1",
+        "printedUnit": "B1-55",
+        "printedName": "Nice/Nike lettering unclear",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      }
+    ],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/nike-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Nike",
+      "sourceUrl": "https://vincom.com.vn/store/nike-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/Picture13.png/38d8c4c0ff9f51a79e935f8e114c88c4.webp",
+      "evidenceFile": "store-pages/nike-vincom-center-dong-khoi.html",
+      "photoCandidates": [
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image8-1668411376.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image5-1668411431.jpg",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image12.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image7.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image11.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image10-1668411591.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image3-1668411634.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image4-1668411678.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image9-1668411960.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image6-1668412057.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image2-1668412117.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image13.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image1-1668412197.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-or-boundary-evidence-hold",
+    "unresolved": "B1-55 legend reads Nice in supplied raster; earlier transcription explicitly says Nice/Nike unclear. Do not resolve lettering by brand familiarity. Need legible identity evidence."
+  },
+  {
+    "destinationId": "vincom-prototype-nikerise",
+    "name": {
+      "vi": "Nike Rise",
+      "en": "Nike Rise"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "sourceabsent/unlocated",
+    "unitClaims": [],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/nike-rise-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Nike Rise",
+      "sourceUrl": "https://vincom.com.vn/store/nike-rise-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/nike-rise.jpg/33fa6ebeb6b0bf4cac84fac0aef17bcd.webp",
+      "evidenceFile": "store-pages/nike-rise-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "unlocated-in-checked-sources",
+    "unresolved": "No matching footprint located in supplied plans / checked retained official archive. Need a branch-specific dated unit/footprint source; broad floor reference cannot locate a store."
+  },
+  {
+    "destinationId": "vincom-prototype-wilson",
+    "name": {
+      "vi": "Wilson",
+      "en": "Wilson"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "notyetvisuallyresolved",
+    "unitClaims": [
+      {
+        "floor": "B1",
+        "unit": "B1-51",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-wilson"
+      }
+    ],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/wilson-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Wilson",
+      "sourceUrl": "https://vincom.com.vn/store/wilson-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/2-1769497068.png/b39c1e54faedfc2419c6f95ae93194d9.webp",
+      "evidenceFile": "store-pages/wilson-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-or-boundary-evidence-hold",
+    "unresolved": "Wilson 51 claim lies inside printed Old Navy 50-51; no internal child-unit divider. Need dated identity and child boundary evidence."
+  },
+  {
+    "destinationId": "vincom-prototype-urbanrevivo",
+    "name": {
+      "vi": "Urban Revivo",
+      "en": "Urban Revivo"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "identifiedunitbutmerged/missinggeometry",
+    "unitClaims": [
+      {
+        "floor": "B1",
+        "unit": "B1-28B",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-urbanrevivo"
+      },
+      {
+        "floor": "B1",
+        "unit": "B1-28B",
+        "authority": "first-party-promotion-list-claim-needs-currentness-check",
+        "sourceUrl": "https://www.maisononline.vn/blogs/news/maison-loyalty-quet-payme-qr-tich-diem-me-ly",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\record-review-2026-10-18\\mapping-ledger.json#vincom-prototype-urbanrevivo"
+      }
+    ],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/urban-revivo-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Urban Revivo",
+      "sourceUrl": "https://vincom.com.vn/store/urban-revivo-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/456514707_891900552969985_3518620386235849451_n.jpg/d816095225f22ac341d88eab9cb18d40.webp",
+      "evidenceFile": "store-pages/urban-revivo-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-or-boundary-evidence-hold",
+    "unresolved": "Archived Urban Revivo B1-28B claim competes with shared Marhen.J/Puma/Ceci B1-28B-C source range. Need dated identity and boundaries."
+  },
+  {
+    "destinationId": "vincom-prototype-longbeachpearl",
+    "name": {
+      "vi": "Long Beach Pearl",
+      "en": "Long Beach Pearl"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "sourceabsent/unlocated",
+    "unitClaims": [
+      {
+        "floor": "B1",
+        "unit": "B1-C60",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-longbeachpearl"
+      }
+    ],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/long-beach-pearl-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Long Beach Pearl",
+      "sourceUrl": "https://vincom.com.vn/store/long-beach-pearl-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/long-beach-pearl.jpg/349ca2acdd82b1991bbe263b8a2c4d74.webp",
+      "evidenceFile": "store-pages/long-beach-pearl-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "unlocated-in-checked-sources",
+    "unresolved": "No matching footprint located in supplied plans / checked retained official archive. Need a branch-specific dated unit/footprint source; broad floor reference cannot locate a store."
+  },
+  {
+    "destinationId": "vincom-prototype-lukfookjewellery",
+    "name": {
+      "vi": "LukFook Jewellery",
+      "en": "LukFook Jewellery"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "explicitidentityconflict",
+    "unitClaims": [
+      {
+        "floor": "B1",
+        "unit": "B1-17AB",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-lukfookjewellery"
+      }
+    ],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/lukfook-jewelry-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "LukFook Jewelry",
+      "sourceUrl": "https://vincom.com.vn/store/lukfook-jewelry-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/Logo-GH-website-%2815%29.png/19397cfcc33884fed782ceefa30d293e.webp",
+      "evidenceFile": "store-pages/lukfook-jewelry-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-conflict-hold",
+    "unresolved": "Need dated branch/unit identity and corresponding boundary resolving the supplied-plan contradiction.",
+    "identityContradictions": [
+      {
+        "claimedUnit": {
+          "floor": "B1",
+          "unit": "B1-17AB",
+          "authority": "supplied roster claim; not independently current occupancy",
+          "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-lukfookjewellery"
+        },
+        "planLegend": {
+          "floor": "B1",
+          "printedUnit": "B1-17A-B",
+          "printedName": "Crocs",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      }
+    ],
+    "precisionHold": null
+  },
+  {
+    "destinationId": "vincom-prototype-matviet",
+    "name": {
+      "vi": "Mắt Việt",
+      "en": "Mắt Việt"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "notyetvisuallyresolved",
+    "unitClaims": [
+      {
+        "floor": "B1",
+        "unit": "B1-18-19",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-matviet"
+      }
+    ],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/mat-viet-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Mắt Việt",
+      "sourceUrl": "https://vincom.com.vn/store/mat-viet-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/Mat-Viet.PNG/093ad6dcbaea3fe1fd624fecc3c16645.webp",
+      "evidenceFile": "store-pages/mat-viet-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-or-boundary-evidence-hold",
+    "unresolved": "Archived Mat Viet claim B1-18-19 spans grey 18A/18B cells and a separate coloured 19 cell; printed legend does not bind this identity to those subdivisions. Need branch-specific identity and individual boundary evidence."
+  },
+  {
+    "destinationId": "vincom-prototype-owndays",
+    "name": {
+      "vi": "Owndays",
+      "en": "Owndays"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "notyetvisuallyresolved",
+    "unitClaims": [
+      {
+        "floor": "B1",
+        "unit": "B1-50",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-owndays"
+      }
+    ],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/owndays-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Owndays",
+      "sourceUrl": "https://vincom.com.vn/store/owndays-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/Picture14.png/925d99e5005154b8c283f45d025f8cdc.webp",
+      "evidenceFile": "store-pages/owndays-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-or-boundary-evidence-hold",
+    "unresolved": "Owndays 50 claim lies inside printed Old Navy 50-51; no internal child-unit divider. Need dated identity and child boundary evidence."
+  },
+  {
+    "destinationId": "vincom-prototype-clarins",
+    "name": {
+      "vi": "Clarins",
+      "en": "Clarins"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "sourceabsent/unlocated",
+    "unitClaims": [],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/clarins-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Clarins",
+      "sourceUrl": "https://vincom.com.vn/store/clarins-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/CLARINS.jpg/fd2e8803e41dc171f356fdc1b5a7ecae.webp",
+      "evidenceFile": "store-pages/clarins-vincom-center-dong-khoi.html",
+      "photoCandidates": [
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image5-1672815387.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image3-1672815451.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image4-1672815486.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image2-1672815933.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image1-1672815969.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "unlocated-in-checked-sources",
+    "unresolved": "No matching footprint located in supplied plans / checked retained official archive. Need a branch-specific dated unit/footprint source; broad floor reference cannot locate a store."
+  },
+  {
+    "destinationId": "vincom-prototype-makeupforever",
+    "name": {
+      "vi": "Make Up For Ever",
+      "en": "Make Up For Ever"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "sourceabsent/unlocated",
+    "unitClaims": [],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/make-up-forever-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Make Up Forever",
+      "sourceUrl": "https://vincom.com.vn/store/make-up-forever-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/containers/vincom_ho/thuong_hieu/anh_logo/Make%20Up%20For%20Ever.jpg/acd731e71a6d8c59a3495a9399d1724b.webp",
+      "evidenceFile": "store-pages/make-up-forever-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "unlocated-in-checked-sources",
+    "unresolved": "No matching footprint located in supplied plans / checked retained official archive. Need a branch-specific dated unit/footprint source; broad floor reference cannot locate a store."
+  },
+  {
+    "destinationId": "vincom-prototype-thebodyshop",
+    "name": {
+      "vi": "The Body Shop",
+      "en": "The Body Shop"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "sourceabsent/unlocated",
+    "unitClaims": [],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/the-body-shop-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "The Body Shop",
+      "sourceUrl": "https://vincom.com.vn/store/the-body-shop-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/TheBodyShop.png/0fe8ba73dec767c12fde1c7e282d0124.webp",
+      "evidenceFile": "store-pages/the-body-shop-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "unlocated-in-checked-sources",
+    "unresolved": "No matching footprint located in supplied plans / checked retained official archive. Need a branch-specific dated unit/footprint source; broad floor reference cannot locate a store."
+  },
+  {
+    "destinationId": "vincom-prototype-lush",
+    "name": {
+      "vi": "Lush",
+      "en": "Lush"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "explicitidentityconflict",
+    "unitClaims": [
+      {
+        "floor": "B1",
+        "unit": "B1-02",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-lush"
+      },
+      {
+        "floor": "B1",
+        "unit": "B1-02",
+        "authority": "first-party-promotion-list-claim-needs-currentness-check",
+        "sourceUrl": "https://www.maisononline.vn/blogs/news/maison-loyalty-quet-payme-qr-tich-diem-me-ly",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\record-review-2026-10-18\\mapping-ledger.json#vincom-prototype-lush"
+      }
+    ],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/lush-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Lush",
+      "sourceUrl": "https://vincom.com.vn/store/lush-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/Logo-GH-website-%2816%29.png/228b43c15caa8136b0115dbee884b701.webp",
+      "evidenceFile": "store-pages/lush-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-conflict-hold",
+    "unresolved": "Need dated branch/unit identity and corresponding boundary resolving the supplied-plan contradiction.",
+    "identityContradictions": [
+      {
+        "claimedUnit": {
+          "floor": "B1",
+          "unit": "B1-02",
+          "authority": "supplied roster claim; not independently current occupancy",
+          "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-lush"
+        },
+        "planLegend": {
+          "floor": "B1",
+          "printedUnit": "B1-02",
+          "printedName": "Ninewest",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      },
+      {
+        "claimedUnit": {
+          "floor": "B1",
+          "unit": "B1-02",
+          "authority": "first-party-promotion-list-claim-needs-currentness-check",
+          "sourceUrl": "https://www.maisononline.vn/blogs/news/maison-loyalty-quet-payme-qr-tich-diem-me-ly",
+          "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\record-review-2026-10-18\\mapping-ledger.json#vincom-prototype-lush"
+        },
+        "planLegend": {
+          "floor": "B1",
+          "printedUnit": "B1-02",
+          "printedName": "Ninewest",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      }
+    ],
+    "precisionHold": null
+  },
+  {
+    "destinationId": "vincom-prototype-fixifoot",
+    "name": {
+      "vi": "Fixifoot",
+      "en": "Fixifoot"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "sourceabsent/unlocated",
+    "unitClaims": [],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/fixi-foot-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Fixifoot",
+      "sourceUrl": "https://vincom.com.vn/store/fixi-foot-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/Logo-GH-website-%2812%29-1762417866.png/92e299e5914a71311aec8f93b43c4a8d.webp",
+      "evidenceFile": "store-pages/fixi-foot-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "unlocated-in-checked-sources",
+    "unresolved": "No matching footprint located in supplied plans / checked retained official archive. Need a branch-specific dated unit/footprint source; broad floor reference cannot locate a store."
+  },
+  {
+    "destinationId": "vincom-candidate-vd-l1-001",
+    "name": {
+      "vi": "VinFast",
+      "en": "VinFast"
+    },
+    "locations": [
+      {
+        "floorId": "L1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "potentialmatchawaitingreview",
+    "unitClaims": [
+      {
+        "floor": "L1",
+        "unit": "L1-06A",
+        "authority": "supplied Markdown; not independent current tenant proof",
+        "source": "Vincom đồng khởi\\vincom center list.md:188"
+      }
+    ],
+    "sourceLegendMatches": [
+      {
+        "floor": "L1",
+        "printedUnit": "L1-06A",
+        "printedName": "VinFast",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      }
+    ],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": null,
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "protected-region-hold",
+    "unresolved": "Source match collides with protected precision-hold region. Do not reactivate or reassign it without an explicit reviewed conflict resolution.",
+    "protectedRegionCollisions": [
+      {
+        "destinationId": "vincom-prototype-lacoste",
+        "regionId": "L1-region-001",
+        "reason": "Existing precision-hold protected region; source-legend match does not authorize replacement tenant activation."
+      }
+    ]
+  },
+  {
+    "destinationId": "vincom-prototype-innisfree",
+    "name": {
+      "vi": "Innisfree",
+      "en": "Innisfree"
+    },
+    "locations": [
+      {
+        "floorId": "L1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "identifiedunitbutmerged/missinggeometry",
+    "unitClaims": [
+      {
+        "floor": "L1",
+        "unit": "L1-45",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-innisfree"
+      },
+      {
+        "floor": "L1",
+        "unit": "L1-45",
+        "authority": "supplied Markdown; not independent current tenant proof",
+        "source": "Vincom đồng khởi\\vincom center list.md:194"
+      }
+    ],
+    "sourceLegendMatches": [
+      {
+        "floor": "L1",
+        "printedUnit": "L1-45",
+        "printedName": "Innisfree",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      }
+    ],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/innisfree-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Innisfree",
+      "sourceUrl": "https://vincom.com.vn/store/innisfree-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/280445328_5214161978630304_1815281977204874070_n.png/f58f7204b08062b5a4c269aa52d1813b.webp",
+      "evidenceFile": "store-pages/innisfree-vincom-center-dong-khoi.html",
+      "photoCandidates": [
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image3-1675310602.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image9-1675310689.jpg",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image8-1675310761.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image5-1675310823.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image7-1675310883.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image4-1675310948.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image6-1675311030.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image1-1675311247.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image2-1675311336.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    "archivedFloorConflicts": [
+      {
+        "kind": "preview-floor-vs-live-directory",
+        "preview": "L1",
+        "official": "Tầng hầm B1"
+      }
+    ],
+    "traceIds": [
+      "vincom-prompt1-l1-022"
+    ],
+    "status": "archived-floor-conflict-hold",
+    "unresolved": "Supplied plan and archived official branch floor differ: [{\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"L1\", \"official\": \"Tầng hầm B1\"}]. Need dated branch/floor evidence resolving the conflict; trace remains unassociated."
+  },
+  {
+    "destinationId": "vincom-candidate-vd-l1-006",
+    "name": {
+      "vi": "The Face Shop",
+      "en": "The Face Shop"
+    },
+    "locations": [
+      {
+        "floorId": "L1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "identifiedunitbutmerged/missinggeometry",
+    "unitClaims": [
+      {
+        "floor": "L1",
+        "unit": "L1-46A",
+        "authority": "supplied Markdown; not independent current tenant proof",
+        "source": "Vincom đồng khởi\\vincom center list.md:195"
+      }
+    ],
+    "sourceLegendMatches": [
+      {
+        "floor": "L1",
+        "printedUnit": "L1-46A",
+        "printedName": "The Face Shop",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      }
+    ],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": null,
+    "archivedFloorConflicts": [],
+    "traceIds": [
+      "vincom-prompt1-l1-023"
+    ],
+    "status": "competing-unit-chronology-hold",
+    "unresolved": "Printed source identity conflicts with other retained branch/unit claims: Escentric Signature (vincom-prototype-escentricsignature). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant.",
+    "competingEvidence": [
+      {
+        "destinationId": "vincom-prototype-escentricsignature",
+        "claims": [
+          {
+            "floor": "L1",
+            "unit": "L1-46A",
+            "authority": "supplied roster claim; not independently current occupancy",
+            "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-escentricsignature"
+          }
+        ],
+        "contradictions": [
+          {
+            "claimedUnit": {
+              "floor": "L1",
+              "unit": "L1-46A",
+              "authority": "supplied roster claim; not independently current occupancy",
+              "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-escentricsignature"
+            },
+            "planLegend": {
+              "floor": "L1",
+              "printedUnit": "L1-46A",
+              "printedName": "The Face Shop",
+              "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+              "review": "Manual full-image legend review21Oct; plan publication date unknown."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "destinationId": "vincom-candidate-vd-l1-007",
+    "name": {
+      "vi": "Paris & France",
+      "en": "Paris & France"
+    },
+    "locations": [
+      {
+        "floorId": "L1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "identifiedunitbutmerged/missinggeometry",
+    "unitClaims": [
+      {
+        "floor": "L1",
+        "unit": "L1-46BC",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-candidate-vd-l1-007"
+      },
+      {
+        "floor": "L1",
+        "unit": "L1-46BC",
+        "authority": "supplied Markdown; not independent current tenant proof",
+        "source": "Vincom đồng khởi\\vincom center list.md:196"
+      }
+    ],
+    "sourceLegendMatches": [
+      {
+        "floor": "L1",
+        "printedUnit": "L1-46BC",
+        "printedName": "Paris & France",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      }
+    ],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": null,
+    "archivedFloorConflicts": [],
+    "traceIds": [
+      "vincom-prompt1-l1-024"
+    ],
+    "status": "competing-unit-chronology-hold",
+    "unresolved": "Printed source identity conflicts with other retained branch/unit claims: Passiflores Beauty (vincom-prototype-passifloresbeauty). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant.",
+    "competingEvidence": [
+      {
+        "destinationId": "vincom-prototype-passifloresbeauty",
+        "claims": [
+          {
+            "floor": "L1",
+            "unit": "L1-46B+C",
+            "authority": "supplied roster claim; not independently current occupancy",
+            "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-passifloresbeauty"
+          }
+        ],
+        "contradictions": [
+          {
+            "claimedUnit": {
+              "floor": "L1",
+              "unit": "L1-46B+C",
+              "authority": "supplied roster claim; not independently current occupancy",
+              "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-passifloresbeauty"
+            },
+            "planLegend": {
+              "floor": "L1",
+              "printedUnit": "L1-46BC",
+              "printedName": "Paris & France",
+              "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+              "review": "Manual full-image legend review21Oct; plan publication date unknown."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "destinationId": "vincom-prototype-lacoste",
+    "name": {
+      "vi": "Lacoste",
+      "en": "Lacoste"
+    },
+    "locations": [
+      {
+        "floorId": "L1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence; display precision held by data/research/vincom-precision-holds-2026-10-21-r1.json: Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "explicitidentityconflict",
+    "unitClaims": [
+      {
+        "floor": "L1",
+        "unit": "L1-06A",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-lacoste"
+      }
+    ],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/lacoste-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": null,
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "protected-region-hold",
+    "unresolved": "Source match collides with protected precision-hold region. Do not reactivate or reassign it without an explicit reviewed conflict resolution.",
+    "protectedRegionCollisions": [
+      {
+        "destinationId": "vincom-prototype-lacoste",
+        "regionId": "L1-region-001",
+        "reason": "Existing precision-hold protected region; source-legend match does not authorize replacement tenant activation."
+      }
+    ]
+  },
+  {
+    "destinationId": "vincom-prototype-bathbodyworks",
+    "name": {
+      "vi": "Bath & Body Works",
+      "en": "Bath & Body Works"
+    },
+    "locations": [
+      {
+        "floorId": "L1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "sourceabsent/unlocated",
+    "unitClaims": [],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/bath-body-works-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Bath & Body Works",
+      "sourceUrl": "https://vincom.com.vn/store/bath-body-works-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng 1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/logo-bbw.png/0d9621a9ed7850074bbac2f36444bb56.webp",
+      "evidenceFile": "store-pages/bath-body-works-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "unlocated-in-checked-sources",
+    "unresolved": "No matching footprint located in supplied plans / checked retained official archive. Need a branch-specific dated unit/footprint source; broad floor reference cannot locate a store."
+  },
+  {
+    "destinationId": "vincom-prototype-escentricsignature",
+    "name": {
+      "vi": "Escentric Signature",
+      "en": "Escentric Signature"
+    },
+    "locations": [
+      {
+        "floorId": "L1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "explicitidentityconflict",
+    "unitClaims": [
+      {
+        "floor": "L1",
+        "unit": "L1-46A",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-escentricsignature"
+      }
+    ],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/escentric-signature-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Escentric Signature",
+      "sourceUrl": "https://vincom.com.vn/store/escentric-signature-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng 1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/es.JPG/f783426d7f581536817a75e8ce5b41d4.webp",
+      "evidenceFile": "store-pages/escentric-signature-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-conflict-hold",
+    "unresolved": "Need dated branch/unit identity and corresponding boundary resolving the supplied-plan contradiction.",
+    "identityContradictions": [
+      {
+        "claimedUnit": {
+          "floor": "L1",
+          "unit": "L1-46A",
+          "authority": "supplied roster claim; not independently current occupancy",
+          "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-escentricsignature"
+        },
+        "planLegend": {
+          "floor": "L1",
+          "printedUnit": "L1-46A",
+          "printedName": "The Face Shop",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      }
+    ],
+    "precisionHold": null
+  },
+  {
+    "destinationId": "vincom-prototype-yvessaintlaurent",
+    "name": {
+      "vi": "Yves Saint Laurent",
+      "en": "Yves Saint Laurent"
+    },
+    "locations": [
+      {
+        "floorId": "L1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "sourceabsent/unlocated",
+    "unitClaims": [],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/yves-saint-laurent-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Yves Saint Laurent",
+      "sourceUrl": "https://vincom.com.vn/store/yves-saint-laurent-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng 1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/254630588_10165757498000646_117071822065386347_n.jpg/1b80fd6801af6ab4e87d252df2be523d.webp",
+      "evidenceFile": "store-pages/yves-saint-laurent-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "unlocated-in-checked-sources",
+    "unresolved": "No matching footprint located in supplied plans / checked retained official archive. Need a branch-specific dated unit/footprint source; broad floor reference cannot locate a store."
+  },
+  {
+    "destinationId": "vincom-prototype-jomalone",
+    "name": {
+      "vi": "Jo Malone",
+      "en": "Jo Malone"
+    },
+    "locations": [
+      {
+        "floorId": "L1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "sourceabsent/unlocated",
+    "unitClaims": [],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/jo-malone-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Jo Malone",
+      "sourceUrl": "https://vincom.com.vn/store/jo-malone-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng 1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/10-1788495738.jpg/4cf296efafe09eb76e736dc7b289a9fd.webp",
+      "evidenceFile": "store-pages/jo-malone-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "unlocated-in-checked-sources",
+    "unresolved": "No matching footprint located in supplied plans / checked retained official archive. Need a branch-specific dated unit/footprint source; broad floor reference cannot locate a store."
+  },
+  {
+    "destinationId": "vincom-prototype-passifloresbeauty",
+    "name": {
+      "vi": "Passiflores Beauty",
+      "en": "Passiflores Beauty"
+    },
+    "locations": [
+      {
+        "floorId": "L1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "explicitidentityconflict",
+    "unitClaims": [
+      {
+        "floor": "L1",
+        "unit": "L1-46B+C",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-passifloresbeauty"
+      }
+    ],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/passiflores-beauty-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Passiflores Beauty",
+      "sourceUrl": "https://vincom.com.vn/store/passiflores-beauty-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng 1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/passiflores-beauty.jpg/06bbb341738592a0800774e0f991795f.webp",
+      "evidenceFile": "store-pages/passiflores-beauty-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-conflict-hold",
+    "unresolved": "Need dated branch/unit identity and corresponding boundary resolving the supplied-plan contradiction.",
+    "identityContradictions": [
+      {
+        "claimedUnit": {
+          "floor": "L1",
+          "unit": "L1-46B+C",
+          "authority": "supplied roster claim; not independently current occupancy",
+          "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-passifloresbeauty"
+        },
+        "planLegend": {
+          "floor": "L1",
+          "printedUnit": "L1-46BC",
+          "printedName": "Paris & France",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      }
+    ],
+    "precisionHold": null
+  },
+  {
+    "destinationId": "vincom-candidate-vd-x-068",
+    "name": {
+      "vi": "The Kooples",
+      "en": "The Kooples"
+    },
+    "locations": [
+      {
+        "floorId": "M",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "identifiedunitbutmerged/missinggeometry",
+    "unitClaims": [
+      {
+        "floor": "M",
+        "unit": "M-04-05",
+        "authority": "supplied Markdown; not independent current tenant proof",
+        "source": "Vincom đồng khởi\\vincom center list.md:223"
+      }
+    ],
+    "sourceLegendMatches": [
+      {
+        "floor": "M",
+        "printedUnit": "M-04-05",
+        "printedName": "The Kooples",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      }
+    ],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": null,
+    "archivedFloorConflicts": [],
+    "traceIds": [
+      "vincom-prompt1-m-012"
+    ],
+    "status": "competing-unit-chronology-hold",
+    "unresolved": "Printed source identity conflicts with other retained branch/unit claims: Polo Ralph Lauren (vincom-prototype-poloralphlauren). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant.",
+    "competingEvidence": [
+      {
+        "destinationId": "vincom-prototype-poloralphlauren",
+        "claims": [
+          {
+            "floor": "M",
+            "unit": "M-04,05",
+            "authority": "supplied roster claim; not independently current occupancy",
+            "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-poloralphlauren"
+          },
+          {
+            "floor": "M",
+            "unit": "M-04,05 Tầng M, TTTM Vincom Đồng Khởi, 72 Lê Thánh Tôn,  Phường Sài Gòn, Thành phố Hồ Chí Minh ",
+            "authority": "first-party-claim-needs-geometry-correspondence",
+            "sourceUrl": "https://www.acfc.com.vn/he-thong-cua-hang",
+            "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\record-review-2026-10-18\\mapping-ledger.json#vincom-prototype-poloralphlauren"
+          }
+        ],
+        "contradictions": [
+          {
+            "claimedUnit": {
+              "floor": "M",
+              "unit": "M-04,05",
+              "authority": "supplied roster claim; not independently current occupancy",
+              "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-poloralphlauren"
+            },
+            "planLegend": {
+              "floor": "M",
+              "printedUnit": "M-04-05",
+              "printedName": "The Kooples",
+              "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+              "review": "Manual full-image legend review21Oct; plan publication date unknown."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "destinationId": "vincom-candidate-vd-x-073",
+    "name": {
+      "vi": "Weekend Max Mara",
+      "en": "Weekend Max Mara"
+    },
+    "locations": [
+      {
+        "floorId": "M",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "identifiedunitbutmerged/missinggeometry",
+    "unitClaims": [
+      {
+        "floor": "M",
+        "unit": "M-31-32",
+        "authority": "supplied Markdown; not independent current tenant proof",
+        "source": "Vincom đồng khởi\\vincom center list.md:228"
+      }
+    ],
+    "sourceLegendMatches": [
+      {
+        "floor": "M",
+        "printedUnit": "M-31-32",
+        "printedName": "Weekend Max Mara",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      }
+    ],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": null,
+    "archivedFloorConflicts": [],
+    "traceIds": [
+      "vincom-prompt1-m-009"
+    ],
+    "status": "competing-unit-chronology-hold",
+    "unresolved": "Printed source identity conflicts with other retained branch/unit claims: Karl Lagerfeld (vincom-prototype-karllagerfeld). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant.",
+    "competingEvidence": [
+      {
+        "destinationId": "vincom-prototype-karllagerfeld",
+        "claims": [
+          {
+            "floor": "M",
+            "unit": "M31+32",
+            "authority": "supplied roster claim; not independently current occupancy",
+            "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-karllagerfeld"
+          },
+          {
+            "floor": "M",
+            "unit": "Gian hàng M31 + 32",
+            "authority": "first-party-claim-needs-geometry-correspondence",
+            "sourceUrl": "https://www.acfc.com.vn/he-thong-cua-hang",
+            "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\record-review-2026-10-18\\mapping-ledger.json#vincom-prototype-karllagerfeld"
+          }
+        ],
+        "contradictions": [
+          {
+            "claimedUnit": {
+              "floor": "M",
+              "unit": "M31+32",
+              "authority": "supplied roster claim; not independently current occupancy",
+              "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-karllagerfeld"
+            },
+            "planLegend": {
+              "floor": "M",
+              "printedUnit": "M-31-32",
+              "printedName": "Weekend Max Mara",
+              "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+              "review": "Manual full-image legend review21Oct; plan publication date unknown."
+            }
+          },
+          {
+            "claimedUnit": {
+              "floor": "M",
+              "unit": "Gian hàng M31 + 32",
+              "authority": "first-party-claim-needs-geometry-correspondence",
+              "sourceUrl": "https://www.acfc.com.vn/he-thong-cua-hang",
+              "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\record-review-2026-10-18\\mapping-ledger.json#vincom-prototype-karllagerfeld"
+            },
+            "planLegend": {
+              "floor": "M",
+              "printedUnit": "M-31-32",
+              "printedName": "Weekend Max Mara",
+              "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+              "review": "Manual full-image legend review21Oct; plan publication date unknown."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "destinationId": "vincom-prototype-victoriassecret",
+    "name": {
+      "vi": "Victoria's Secret",
+      "en": "Victoria's Secret"
+    },
+    "locations": [
+      {
+        "floorId": "M",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "sourceabsent/unlocated",
+    "unitClaims": [],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/victorias-secret-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "VICTORIA'S SECRET",
+      "sourceUrl": "https://vincom.com.vn/store/victorias-secret-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng lửng",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/2-1785226800.png/b0585558f154f4874fc7cf46b8fbed2d.webp",
+      "evidenceFile": "store-pages/victorias-secret-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "unlocated-in-checked-sources",
+    "unresolved": "No matching footprint located in supplied plans / checked retained official archive. Need a branch-specific dated unit/footprint source; broad floor reference cannot locate a store."
+  },
+  {
+    "destinationId": "vincom-prototype-poloralphlauren",
+    "name": {
+      "vi": "Polo Ralph Lauren",
+      "en": "Polo Ralph Lauren"
+    },
+    "locations": [
+      {
+        "floorId": "M",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "explicitidentityconflict",
+    "unitClaims": [
+      {
+        "floor": "M",
+        "unit": "M-04,05",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-poloralphlauren"
+      },
+      {
+        "floor": "M",
+        "unit": "M-04,05 Tầng M, TTTM Vincom Đồng Khởi, 72 Lê Thánh Tôn,  Phường Sài Gòn, Thành phố Hồ Chí Minh ",
+        "authority": "first-party-claim-needs-geometry-correspondence",
+        "sourceUrl": "https://www.acfc.com.vn/he-thong-cua-hang",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\record-review-2026-10-18\\mapping-ledger.json#vincom-prototype-poloralphlauren"
+      }
+    ],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/polo-ralph-lauren-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Polo Ralph Lauren",
+      "sourceUrl": "https://vincom.com.vn/store/polo-ralph-lauren-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng lửng",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/Logo-GH-website-%289%29-1762420204.png/1fba1ed565edf1d7e7854782800aaa33.webp",
+      "evidenceFile": "store-pages/polo-ralph-lauren-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-conflict-hold",
+    "unresolved": "Need dated branch/unit identity and corresponding boundary resolving the supplied-plan contradiction.",
+    "identityContradictions": [
+      {
+        "claimedUnit": {
+          "floor": "M",
+          "unit": "M-04,05",
+          "authority": "supplied roster claim; not independently current occupancy",
+          "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-poloralphlauren"
+        },
+        "planLegend": {
+          "floor": "M",
+          "printedUnit": "M-04-05",
+          "printedName": "The Kooples",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      }
+    ],
+    "precisionHold": null
+  },
+  {
+    "destinationId": "vincom-prototype-fredperry",
+    "name": {
+      "vi": "Fred Perry",
+      "en": "Fred Perry"
+    },
+    "locations": [
+      {
+        "floorId": "M",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "sourceabsent/unlocated",
+    "unitClaims": [],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/fred-perry-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Fred Perry",
+      "sourceUrl": "https://vincom.com.vn/store/fred-perry-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng lửng",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/Logo-GH-website-%288%29-1762417546.png/5e10a7872ed9bd66e3ef771580ff4ed0.webp",
+      "evidenceFile": "store-pages/fred-perry-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "unlocated-in-checked-sources",
+    "unresolved": "No matching footprint located in supplied plans / checked retained official archive. Need a branch-specific dated unit/footprint source; broad floor reference cannot locate a store."
+  },
+  {
+    "destinationId": "vincom-prototype-karllagerfeld",
+    "name": {
+      "vi": "Karl Lagerfeld",
+      "en": "Karl Lagerfeld"
+    },
+    "locations": [
+      {
+        "floorId": "M",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "explicitidentityconflict",
+    "unitClaims": [
+      {
+        "floor": "M",
+        "unit": "M31+32",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-karllagerfeld"
+      },
+      {
+        "floor": "M",
+        "unit": "Gian hàng M31 + 32",
+        "authority": "first-party-claim-needs-geometry-correspondence",
+        "sourceUrl": "https://www.acfc.com.vn/he-thong-cua-hang",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\record-review-2026-10-18\\mapping-ledger.json#vincom-prototype-karllagerfeld"
+      }
+    ],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/karl-lagerfeld-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Karl Lagerfeld",
+      "sourceUrl": "https://vincom.com.vn/store/karl-lagerfeld-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng lửng",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/karl-lagerfeld-logo-png_seeklogo-252238.png/14005417b01943336e99d910a6bd52c5.webp",
+      "evidenceFile": "store-pages/karl-lagerfeld-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-conflict-hold",
+    "unresolved": "Need dated branch/unit identity and corresponding boundary resolving the supplied-plan contradiction.",
+    "identityContradictions": [
+      {
+        "claimedUnit": {
+          "floor": "M",
+          "unit": "M31+32",
+          "authority": "supplied roster claim; not independently current occupancy",
+          "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-karllagerfeld"
+        },
+        "planLegend": {
+          "floor": "M",
+          "printedUnit": "M-31-32",
+          "printedName": "Weekend Max Mara",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      },
+      {
+        "claimedUnit": {
+          "floor": "M",
+          "unit": "Gian hàng M31 + 32",
+          "authority": "first-party-claim-needs-geometry-correspondence",
+          "sourceUrl": "https://www.acfc.com.vn/he-thong-cua-hang",
+          "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\record-review-2026-10-18\\mapping-ledger.json#vincom-prototype-karllagerfeld"
+        },
+        "planLegend": {
+          "floor": "M",
+          "printedUnit": "M-31-32",
+          "printedName": "Weekend Max Mara",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      }
+    ],
+    "precisionHold": null
+  },
+  {
+    "destinationId": "vincom-prototype-sony",
+    "name": {
+      "vi": "Sony",
+      "en": "Sony"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "explicitidentityconflict",
+    "unitClaims": [
+      {
+        "floor": "B1",
+        "unit": "B1-21",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-sony"
+      }
+    ],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/sony-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Sony",
+      "sourceUrl": "https://vincom.com.vn/store/sony-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng lửng",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/Sony.jpg/c5140d4bafc6bf22869b1167db211767.webp",
+      "evidenceFile": "store-pages/sony-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-conflict-hold",
+    "unresolved": "Need dated branch/unit identity and corresponding boundary resolving the supplied-plan contradiction.",
+    "identityContradictions": [
+      {
+        "claimedUnit": {
+          "floor": "B1",
+          "unit": "B1-21",
+          "authority": "supplied roster claim; not independently current occupancy",
+          "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-sony"
+        },
+        "planLegend": {
+          "floor": "B1",
+          "printedUnit": "B1-21",
+          "printedName": "Prima Art",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      }
+    ],
+    "precisionHold": null
+  },
+  {
+    "destinationId": "vincom-prototype-newbalance",
+    "name": {
+      "vi": "New Balance",
+      "en": "New Balance"
+    },
+    "locations": [
+      {
+        "floorId": "L2",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "sourceabsent/unlocated",
+    "unitClaims": [],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/new-balance-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "New Balance",
+      "sourceUrl": "https://vincom.com.vn/store/new-balance-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng 2",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/Logo-GH-website-1762419813.png/870df35e3c38b82fb913f91181ce94a6.webp",
+      "evidenceFile": "store-pages/new-balance-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "unlocated-in-checked-sources",
+    "unresolved": "No matching footprint located in supplied plans / checked retained official archive. Need a branch-specific dated unit/footprint source; broad floor reference cannot locate a store."
+  },
+  {
+    "destinationId": "vincom-prototype-dessertplanet",
+    "name": {
+      "vi": "Dessert Planet",
+      "en": "Dessert Planet"
+    },
+    "locations": [
+      {
+        "floorId": "L3",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "sourceabsent/unlocated",
+    "unitClaims": [],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/dessert-planet-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Dessert Planet",
+      "sourceUrl": "https://vincom.com.vn/store/dessert-planet-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng 3",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/1-1785225539.png/886d8fa904f48bdb4c42aca860a6c870.webp",
+      "evidenceFile": "store-pages/dessert-planet-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "unlocated-in-checked-sources",
+    "unresolved": "No matching footprint located in supplied plans / checked retained official archive. Need a branch-specific dated unit/footprint source; broad floor reference cannot locate a store."
+  },
+  {
+    "destinationId": "vincom-prototype-coway",
+    "name": {
+      "vi": "Coway",
+      "en": "Coway"
+    },
+    "locations": [
+      {
+        "floorId": "L3",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "explicitidentityconflict",
+    "unitClaims": [
+      {
+        "floor": "L3",
+        "unit": "L3-K1",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-coway"
+      }
+    ],
+    "sourceLegendMatches": [],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/coway-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Coway",
+      "sourceUrl": "https://vincom.com.vn/store/coway-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng 3",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/Coway.png/c0efc0b6c0d79bec3ead136ca80b2353.webp",
+      "evidenceFile": "store-pages/coway-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [],
+    "status": "identity-conflict-hold",
+    "unresolved": "Need dated branch/unit identity and corresponding boundary resolving the supplied-plan contradiction.",
+    "identityContradictions": [
+      {
+        "claimedUnit": {
+          "floor": "L3",
+          "unit": "L3-K1",
+          "authority": "supplied roster claim; not independently current occupancy",
+          "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-coway"
+        },
+        "planLegend": {
+          "floor": "L3",
+          "printedUnit": "L3-K1",
+          "printedName": "Sâm Ngọc Linh",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      }
+    ],
+    "precisionHold": null
+  },
+  {
+    "destinationId": "vincom-prototype-dyson",
+    "name": {
+      "vi": "Dyson",
+      "en": "Dyson"
+    },
+    "locations": [
+      {
+        "floorId": "B1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "identifiedunitbutmerged/missinggeometry",
+    "unitClaims": [
+      {
+        "floor": "B1",
+        "unit": "B1-57-58",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-dyson"
+      },
+      {
+        "floor": "B1",
+        "unit": "B1-57-58",
+        "authority": "supplied Markdown; not independent current tenant proof",
+        "source": "Vincom đồng khởi\\vincom center list.md:164"
+      }
+    ],
+    "sourceLegendMatches": [
+      {
+        "floor": "B1",
+        "printedUnit": "B1-57-58",
+        "printedName": "Dyson",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      }
+    ],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/dyson-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Dyson",
+      "sourceUrl": "https://vincom.com.vn/store/dyson-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng hầm B1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/dyson-logo.jpg/2005b8993dd185682eee2fc92da241a4.webp",
+      "evidenceFile": "store-pages/dyson-vincom-center-dong-khoi.html",
+      "photoCandidates": []
+    },
+    "archivedFloorConflicts": [],
+    "traceIds": [
+      "vincom-prompt1-b1-095"
+    ],
+    "status": "source-trace-partial-proposed-not-active",
+    "unresolved": "Only printed B1-57 is traced; B1-58 extent is unresolved. Independent review and integration pending."
+  },
+  {
+    "destinationId": "vincom-prototype-zara",
+    "name": {
+      "vi": "ZARA",
+      "en": "ZARA"
+    },
+    "locations": [
+      {
+        "floorId": "L1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      },
+      {
+        "floorId": "M",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "identifiedunitbutmerged/missinggeometry",
+    "unitClaims": [
+      {
+        "floor": "L1",
+        "unit": "L1-2B",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-zara"
+      },
+      {
+        "floor": "M",
+        "unit": "M-06",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-zara"
+      },
+      {
+        "floor": "M",
+        "unit": "M-06",
+        "authority": "supplied Markdown; not independent current tenant proof",
+        "source": "Vincom đồng khởi\\vincom center list.md:224"
+      }
+    ],
+    "sourceLegendMatches": [
+      {
+        "floor": "L1",
+        "printedUnit": "name:ZARA",
+        "printedName": "ZARA",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      },
+      {
+        "floor": "M",
+        "printedUnit": "M-06",
+        "printedName": "ZARA",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      }
+    ],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/zara-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "Zara",
+      "sourceUrl": "https://vincom.com.vn/store/zara-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng 1",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/ZARA.png/82e07b62f2331972de6355081577d7d1.webp",
+      "evidenceFile": "store-pages/zara-vincom-center-dong-khoi.html",
+      "photoCandidates": [
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image1.jpg",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image5.jpg",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image6.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image9.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image8.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image3.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image10.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image4.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image7.jpg",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/image2.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    "archivedFloorConflicts": [
+      {
+        "kind": "preview-floor-vs-live-directory",
+        "preview": "M",
+        "official": "Tầng 1"
+      }
+    ],
+    "traceIds": [
+      "vincom-prompt1-m-006",
+      "vincom-prompt1-l1-017"
+    ],
+    "status": "source-trace-proposed-not-active",
+    "unresolved": "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed. Additional floor hold: [{\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"M\", \"official\": \"Tầng 1\"}]. No association proposed on those conflicted floors."
+  },
+  {
+    "destinationId": "vincom-prototype-hm",
+    "name": {
+      "vi": "H&M",
+      "en": "H&M"
+    },
+    "locations": [
+      {
+        "floorId": "M",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      },
+      {
+        "floorId": "L2",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "activeAreaLinked": false,
+    "sourceReview": "Source-layout only; no fresh current-occupancy conclusion",
+    "historicalStatus": "identifiedunitbutmerged/missinggeometry",
+    "unitClaims": [
+      {
+        "floor": "M",
+        "unit": "M-15-19",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-hm"
+      },
+      {
+        "floor": "L2",
+        "unit": "L2-02",
+        "authority": "supplied roster claim; not independently current occupancy",
+        "source": ".scratch\\redesign-readiness-2026-10-21\\docs\\content-preparation\\completion-packet-2026-10-17\\roster.json#vincom-prototype-hm"
+      },
+      {
+        "floor": "M",
+        "unit": "M-15-19",
+        "authority": "supplied Markdown; not independent current tenant proof",
+        "source": "Vincom đồng khởi\\vincom center list.md:226"
+      },
+      {
+        "floor": "L2",
+        "unit": "L2-02",
+        "authority": "supplied Markdown; not independent current tenant proof",
+        "source": "Vincom đồng khởi\\vincom center list.md:240"
+      }
+    ],
+    "sourceLegendMatches": [
+      {
+        "floor": "M",
+        "printedUnit": "M-15-19",
+        "printedName": "H&M",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      },
+      {
+        "floor": "L2",
+        "printedUnit": "L2-02",
+        "printedName": "H&M",
+        "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L2-source.jpg",
+        "review": "Manual full-image legend review21Oct; plan publication date unknown."
+      }
+    ],
+    "archivedOfficialEvidence": {
+      "recordFound": true,
+      "sourcePaths": [
+        "store-pages/h-m-vincom-center-dong-khoi.html"
+      ],
+      "scope": "Structured retained source text inspected for unit references; no fresh external retrieval."
+    },
+    "archivedOfficialMatch": {
+      "name": "H&M",
+      "sourceUrl": "https://vincom.com.vn/store/h-m-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+      "floorClaim": "Tầng 2",
+      "logoUrl": "https://statics.vincom.com.vn/http/vincom-ho/thuong_hieu/anh_logo/H_M.png/99237f011d7b75225875c64b07e3484b.webp",
+      "evidenceFile": "store-pages/h-m-vincom-center-dong-khoi.html",
+      "photoCandidates": [
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/brand/0-0-0-0-h-m/1.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/brand/0-0-0-0-h-m/2.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/brand/0-0-0-0-h-m/3.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/brand/0-0-0-0-h-m/4.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/brand/0-0-0-0-h-m/5.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/brand/0-0-0-0-h-m/6.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        },
+        {
+          "url": "https://statics.vincom.com.vn/vincom-ho/brand/0-0-0-0-h-m/7.png",
+          "kind": "store-detail-content-image",
+          "rightsStatus": "unknown",
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    "archivedFloorConflicts": [
+      {
+        "kind": "preview-floor-vs-live-directory",
+        "preview": "M",
+        "official": "Tầng 2"
+      }
+    ],
+    "traceIds": [
+      "vincom-prompt1-l2-001",
+      "vincom-prompt1-m-008"
+    ],
+    "status": "source-trace-proposed-not-active",
+    "unresolved": "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed. Additional floor hold: [{\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"M\", \"official\": \"Tầng 2\"}]. No association proposed on those conflicted floors."
+  }
+]

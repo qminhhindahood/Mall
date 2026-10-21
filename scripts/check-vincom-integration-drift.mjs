@@ -1,0 +1,33 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import os from 'node:os';
+import assert from 'node:assert/strict';
+import {pathToFileURL} from 'node:url';
+import ts from 'typescript';
+import {prompt1Geometry,prompt1Supplement} from './vincom-prompt1-overlay.mjs';
+import {completionGeometry,completionSupplement,completionSharedDirectory} from './vincom-completion-overlay.mjs';
+const root=process.cwd(),E='evidence/vincom-integration',read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+const baseline=read(`${E}/baseline-vincom.json`),runtime=read(`${E}/runtime-vincom-dong-khoi.json`);
+const temp=fs.mkdtempSync(path.join(os.tmpdir(),'vincom-integration-drift-'));
+const helper=path.join(temp,'helper.mjs');fs.writeFileSync(helper,ts.transpileModule(fs.readFileSync('src/data/association-supplement.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText);
+const {applyAssociationSupplement}=await import(pathToFileURL(helper));
+const geometry=prompt1Geometry(root,'vincom-dong-khoi',baseline.geometry);
+const first=prompt1Supplement(root,baseline.content,geometry);
+const stage1=applyAssociationSupplement(baseline.content,geometry,first.supplement,first.receipt);
+const second=completionSupplement(root,stage1,geometry);
+const stage2=applyAssociationSupplement(stage1,geometry,second.supplement,second.receipt);
+const final=completionSharedDirectory(root,stage2,geometry);
+const checks=[];function check(n,fn){fn();checks.push(n);}
+check('Independent full data-pipeline composition equals shipped runtime',()=>assert.deepEqual(final,runtime.content));
+check('Saigon geometry no-op',()=>assert.equal(prompt1Geometry('/missing','saigon-centre',baseline.geometry),baseline.geometry));
+check('Altered base geometry rejected',()=>assert.throws(()=>prompt1Geometry(root,'vincom-dong-khoi',{...baseline.geometry,revision:'drift'}),/geometry drift/));
+check('Cloned geometry cannot spoof pipeline capability',()=>assert.throws(()=>completionSupplement(root,stage1,{...geometry}),/pipeline/));
+check('Stale completion directory revision rejected',()=>assert.throws(()=>completionSupplement(root,{...stage1,revision:'drift'},geometry),/revision drift/));
+check('Wrong-floor receipt rejected',()=>{const r=structuredClone(second.receipt);r.decisions[0].floor='L3';assert.throws(()=>applyAssociationSupplement(stage1,geometry,second.supplement,r),/independent review/);});
+check('Partial scope downgrade rejected',()=>{const s=structuredClone(second.supplement);s.associations.find(a=>a.associationDetail.kind==='partial-source-layout').associationDetail.kind='source-layout';assert.throws(()=>applyAssociationSupplement(stage1,geometry,s,second.receipt),/partial-area/);});
+check('Composed geometry cannot be cut twice',()=>assert.throws(()=>completionGeometry(root,geometry),/neutral parent drift/));
+check('Shared owner drift rejected',()=>{const s=structuredClone(stage2);s.destinations.find(d=>d.id==='vincom-prototype-boatnoodle').locations[0].areaIds=[];assert.throws(()=>completionSharedDirectory(root,s,geometry),/shared ownership/);});
+const packet='data/research/vincom-completion-b3-b2-2026-10-21-r2.json',review=`${E}/completion-review.json`;
+for(const n of [packet,review,'assets/vincom-dong-khoi/maps/B3.webp','assets/vincom-dong-khoi/maps/B2.webp']){const dest=path.join(temp,n);fs.mkdirSync(path.dirname(dest),{recursive:true});fs.copyFileSync(n,dest);}
+for(const n of [packet,review,'assets/vincom-dong-khoi/maps/B3.webp'])check('Tampered pinned input rejected: '+n,()=>{const dest=path.join(temp,n),original=fs.readFileSync(dest);fs.appendFileSync(dest,' ');assert.throws(()=>completionGeometry(temp,geometry),/drift/);fs.writeFileSync(dest,original);});
+fs.writeFileSync(`${E}/drift-guards.json`,JSON.stringify({checksPassed:checks.length,checks},null,2)+'\n');console.log(JSON.stringify({checksPassed:checks.length}));

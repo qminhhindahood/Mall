@@ -1,0 +1,134 @@
+{
+  "status": "accepted-source-review",
+  "reviewedBy": "Codex integration review; separate from research author",
+  "reviewedAt": "2026-10-21",
+  "baseDirectoryRevision": "owner-approved-directory-2026-10-18-r1+vincom-precision-holds-2026-10-21-r1+vincom-source-associations-2026-10-21-r1+vincom-derived-segmentation-2026-10-21-r7+vincom-source-associations-2026-10-21-r9+vincom-mapping-prompt1-2026-10-21-r2",
+  "decisions": [
+    {
+      "destinationId": "vincom-prototype-boatnoodle",
+      "floor": "B3",
+      "regionIds": [
+        "vincom-prompt1-b3-045"
+      ],
+      "printedUnits": "B3-20",
+      "reviewDecision": "accept-source-layout-area-only"
+    },
+    {
+      "destinationId": "vincom-prototype-bkkstreetdessert",
+      "floor": "B3",
+      "regionIds": [
+        "vincom-prompt1-b3-045"
+      ],
+      "printedUnits": "B3-20",
+      "reviewDecision": "accept-source-layout-area-only"
+    },
+    {
+      "destinationId": "vincom-prototype-koithe",
+      "floor": "B3",
+      "regionIds": [
+        "vincom-prompt1-b3-058-completion-partial-r1"
+      ],
+      "printedUnits": "B3-08-09",
+      "reviewDecision": "accept-partial-area-only"
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-017",
+      "floor": "B2",
+      "regionIds": [
+        "vincom-prompt1-b2-069-completion-partial-r1"
+      ],
+      "printedUnits": "B2-01D",
+      "reviewDecision": "accept-partial-area-only"
+    }
+  ],
+  "evidence": {
+    "packetSha256": "ff5a7e0270bb9fd2f50b40b94eed62a19a164b4dc28f4a04696d7673d105869a",
+    "sourceRasterHashes": {
+      "B3": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+      "B2": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    "geometryValidation": {
+      "checks": [
+        {
+          "id": "vincom-prompt1-b3-045",
+          "valid": true,
+          "insideOriginalTrace": true,
+          "activeOverlap": 0.0,
+          "excludedAreaMatchesKnownOverlap": true
+        },
+        {
+          "id": "vincom-prompt1-b3-058-completion-partial-r1",
+          "valid": true,
+          "insideOriginalTrace": true,
+          "activeOverlap": 0.0,
+          "excludedAreaMatchesKnownOverlap": true
+        },
+        {
+          "id": "vincom-prompt1-b2-069-completion-partial-r1",
+          "valid": true,
+          "insideOriginalTrace": true,
+          "activeOverlap": 0.0,
+          "excludedAreaMatchesKnownOverlap": true
+        }
+      ],
+      "associationCount": 4,
+      "uniqueListings": 4,
+      "geometryRecords": 3,
+      "newSubsetGeometries": 2,
+      "reusedOriginalTraces": 1,
+      "neutralParents": 4,
+      "maxAreaConservationError": 2.1316282072803006e-14,
+      "activeGeometryMutations": 0,
+      "protectedHoldChanges": 0,
+      "overlapWithOriginal71Proposals": [],
+      "protectedContourIntersections": [],
+      "invalidActiveGeometriesHandledForCalculation": [
+        [
+          "B3",
+          "B3-region-014"
+        ],
+        [
+          "B3",
+          "B3-region-015"
+        ],
+        [
+          "B2",
+          "B2-region-009"
+        ],
+        [
+          "B2",
+          "B2-region-011"
+        ],
+        [
+          "B2",
+          "B2-region-012"
+        ],
+        [
+          "B2",
+          "B2-region-014"
+        ],
+        [
+          "B2",
+          "B2-region-020"
+        ],
+        [
+          "B2",
+          "B2-region-022"
+        ],
+        [
+          "L3",
+          "L3-region-001"
+        ]
+      ],
+      "sourceRasterHashesVerified": true,
+      "assignedStoreCountVerified": 53
+    },
+    "sourceVisualReview": "Original B3/B2 rasters viewed: B3-20 joint legend; B3-08-09 Koi Thé; B2-01D GNC. Accept shared/partial source-layout scope only.",
+    "blockersPreserved": "All five precision holds; unknown plan date; no current occupancy or doors.",
+    "residualRebase": {
+      "r2": true,
+      "originalGeometryAndAssociationsUnchanged": true,
+      "maxConservationError": 2.1316282072803006e-14
+    }
+  }
+}

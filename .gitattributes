@@ -21,3 +21,28 @@ evidence/saigon-last-two-r12/** -text
 data/research/saigon-department-partials-2026-10-21-r12.json -text
 docs/content-preparation/completion-packet-2026-10-17/saigon-source-map.json -text
 docs/content-preparation/record-review-2026-10-18/registration.json -text
+
+# Vincom integration: preserve hash-bound research and recovered frozen evidence bytes.
+evidence/vincom-integration/** -text
+evidence/vincom-prompt1/** -text
+evidence/vincom-prompt1-review-r2/** -text
+data/research/vincom-mapping-prompt1-2026-10-21-r2.json -text
+data/research/vincom-completion-b3-b2-2026-10-21-r2.json -text
+evidence/integrated-mapping-r7/build-r7-modal-saigon.log -text
+evidence/integrated-mapping-r7/build-r7-modal-vincom.log -text
+evidence/integrated-mapping-r7/build-r7-phone-saigon.log -text
+evidence/integrated-mapping-r7/build-r7-phone-vincom.log -text
+evidence/integrated-mapping-r7/pending-b3-network/instruction-review.json -text
+evidence/integrated-mapping-r7/pending-b3-network/network-proposal.json -text
+evidence/integrated-mapping-r7/pending-b3-network/review.json -text
+evidence/integrated-mapping-r7/shared-routing-independent/reviewed-input-hashes.json -text
+evidence/public-entrances/independent-coordinate-check.json -text
+evidence/vincom-derived-segmentation-r7/accepted-residual-review.json -text
+evidence/vincom-derived-segmentation-r7/geometry-invariants.json -text
+evidence/vincom-derived-segmentation-r7/proposals.json -text
+evidence/shared-routing-r8/build-saigon.log -text
+evidence/shared-routing-r8/build-vincom.log -text
+evidence/store-associations-r9/build-vincom.log -text
+evidence/saigon-associations-r10/build-saigon-final.log -text
+evidence/saigon-associations-r10/build-saigon.log -text
+evidence/saigon-associations-r10/build-vincom-final.log -text

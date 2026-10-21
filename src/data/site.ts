@@ -1,3 +1,4 @@
+import { completionSupplement, completionSharedDirectory } from '../../scripts/vincom-completion-overlay.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
@@ -7,6 +8,7 @@ import { applyPrecisionHolds, type PrecisionHolds } from './precision-holds';
 import { applyAssociationSupplement, type AssociationSupplement, type AssociationReviewReceipt } from './association-supplement';
 import { applySharedComponents, type SharedComponentsSupplement } from './shared-components';
 import { derivedDirectory } from '../../scripts/vincom-segmentation-overlay.mjs';
+import { prompt1Supplement } from '../../scripts/vincom-prompt1-overlay.mjs';
 export type { Destination } from './content';
 import type { Destination } from './content';
 export type SiteData = {
@@ -102,7 +104,16 @@ if (mallId === departmentSupplement.mallId && departmentSupplement.activation ==
   if (createHash('sha256').update(reviewBytes).digest('hex') !== departmentSupplement.reviewEvidence.sha256) throw new Error('Department partial review evidence drift');
   departmentReview = JSON.parse(reviewBytes.toString('utf8'));
 }
-const content = validateContent(applyAssociationSupplement(asianContent,geometry,departmentSupplement,departmentReview),mallId,geometry);
+const beforeVincomPrompt1 = applyAssociationSupplement(asianContent,geometry,departmentSupplement,departmentReview);
+let prompt1Content = beforeVincomPrompt1;
+if (mallId === 'vincom-dong-khoi' && !['research','1'].includes(process.env.INCLUDE_TEST_FIXTURES ?? '')) {
+  const {supplement,receipt} = prompt1Supplement(process.cwd(),beforeVincomPrompt1,geometry);
+  prompt1Content = applyAssociationSupplement(beforeVincomPrompt1,geometry,supplement,receipt);
+  const completion = completionSupplement(process.cwd(),prompt1Content,geometry);
+  prompt1Content = applyAssociationSupplement(prompt1Content,geometry,completion.supplement,completion.receipt);
+  prompt1Content = completionSharedDirectory(process.cwd(),prompt1Content,geometry);
+}
+const content = validateContent(prompt1Content,mallId,geometry);
 const destinations = content.destinations;
 const manifestPath = path.join(process.cwd(),'data','malls',mallId,'asset-manifest.json');
 const manifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath,'utf8')) : {};

@@ -2,6 +2,7 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { createHash } from 'node:crypto';
 import { derivedGeometry } from './vincom-segmentation-overlay.mjs';
+import { prompt1Geometry } from './vincom-prompt1-overlay.mjs';
 
 const revision = 'owner-approved-directory-2026-10-18-r1';
 const approvedWordingHash = 'dddf720a429e6028817a3c19b3fd18c58c3704b45620e0790a7b0e3788aa823a';
@@ -32,5 +33,5 @@ export function approvedGeometry(root, mallId, source) {
     if (extra.some(region=>floor.regions.some(base=>base.id===region.id))) throw new Error('Approved geometry duplicate region');
     return {...floor, regions:[...floor.regions,...extra]};
   });
-  return derivedGeometry(root,mallId,{...source, revision:`${source.revision}+${overlay.revision}`, floors});
+  return prompt1Geometry(root,mallId,derivedGeometry(root,mallId,{...source, revision:`${source.revision}+${overlay.revision}`, floors}));
 }

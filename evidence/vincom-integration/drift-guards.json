@@ -1,0 +1,17 @@
+{
+  "checksPassed": 12,
+  "checks": [
+    "Independent full data-pipeline composition equals shipped runtime",
+    "Saigon geometry no-op",
+    "Altered base geometry rejected",
+    "Cloned geometry cannot spoof pipeline capability",
+    "Stale completion directory revision rejected",
+    "Wrong-floor receipt rejected",
+    "Partial scope downgrade rejected",
+    "Composed geometry cannot be cut twice",
+    "Shared owner drift rejected",
+    "Tampered pinned input rejected: data/research/vincom-completion-b3-b2-2026-10-21-r2.json",
+    "Tampered pinned input rejected: evidence/vincom-integration/completion-review.json",
+    "Tampered pinned input rejected: assets/vincom-dong-khoi/maps/B3.webp"
+  ]
+}

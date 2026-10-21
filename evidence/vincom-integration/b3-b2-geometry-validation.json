@@ -1,0 +1,76 @@
+{
+  "checks": [
+    {
+      "id": "vincom-prompt1-b3-045",
+      "valid": true,
+      "insideOriginalTrace": true,
+      "activeOverlap": 0.0,
+      "excludedAreaMatchesKnownOverlap": true
+    },
+    {
+      "id": "vincom-prompt1-b3-058-completion-partial-r1",
+      "valid": true,
+      "insideOriginalTrace": true,
+      "activeOverlap": 0.0,
+      "excludedAreaMatchesKnownOverlap": true
+    },
+    {
+      "id": "vincom-prompt1-b2-069-completion-partial-r1",
+      "valid": true,
+      "insideOriginalTrace": true,
+      "activeOverlap": 0.0,
+      "excludedAreaMatchesKnownOverlap": true
+    }
+  ],
+  "associationCount": 4,
+  "uniqueListings": 4,
+  "geometryRecords": 3,
+  "newSubsetGeometries": 2,
+  "reusedOriginalTraces": 1,
+  "neutralParents": 4,
+  "maxAreaConservationError": 2.1316282072803006e-14,
+  "activeGeometryMutations": 0,
+  "protectedHoldChanges": 0,
+  "overlapWithOriginal71Proposals": [],
+  "protectedContourIntersections": [],
+  "invalidActiveGeometriesHandledForCalculation": [
+    [
+      "B3",
+      "B3-region-014"
+    ],
+    [
+      "B3",
+      "B3-region-015"
+    ],
+    [
+      "B2",
+      "B2-region-009"
+    ],
+    [
+      "B2",
+      "B2-region-011"
+    ],
+    [
+      "B2",
+      "B2-region-012"
+    ],
+    [
+      "B2",
+      "B2-region-014"
+    ],
+    [
+      "B2",
+      "B2-region-020"
+    ],
+    [
+      "B2",
+      "B2-region-022"
+    ],
+    [
+      "L3",
+      "L3-region-001"
+    ]
+  ],
+  "sourceRasterHashesVerified": true,
+  "assignedStoreCountVerified": 53
+}

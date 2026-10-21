@@ -1,0 +1,4713 @@
+{
+  "reviewer": "Independent review subagent gpt-6.1-sol",
+  "sourcePacketSha256": "5ad6c756acffadcaa6c142f5f727416550664e5ae6678c2d57fc57a5eaeb4d64",
+  "decisions": [
+    {
+      "destinationId": "vincom-candidate-vd-b3-002",
+      "name": "Pepper Lunch",
+      "floor": "B3",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b3-036"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b3-036"
+      ],
+      "printedUnits": [
+        "B3-28D"
+      ],
+      "tracedUnits": [
+        "B3-28D"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-28D",
+          "printedName": "Pepper Lunch",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B3.webp",
+          "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+          "sourcePixels": [
+            [
+              585,
+              188
+            ],
+            [
+              649,
+              188
+            ],
+            [
+              677,
+              217
+            ],
+            [
+              677,
+              294
+            ],
+            [
+              604,
+              294
+            ],
+            [
+              604,
+              217
+            ],
+            [
+              585,
+              217
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-meatmeet",
+      "name": "Meat & Meet",
+      "floor": "B3",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b3-038"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b3-038"
+      ],
+      "printedUnits": [
+        "B3-26"
+      ],
+      "tracedUnits": [
+        "B3-26"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-26",
+          "printedName": "Meat & Meet",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Meat & Meet",
+        "floorClaim": "Tầng hầm B3",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\meat-meet-vincom-center-dong-khoi.html",
+        "profileSha256": "c1fb17bde8bf43d92a980cb7cb3c6ee13fab48a0a5b7713663913972f1f9718a"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B3.webp",
+          "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+          "sourcePixels": [
+            [
+              105,
+              186
+            ],
+            [
+              200,
+              186
+            ],
+            [
+              200,
+              237
+            ],
+            [
+              174,
+              237
+            ],
+            [
+              146,
+              278
+            ],
+            [
+              78,
+              226
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b3-007",
+      "name": "Hoàng Yến",
+      "floor": "B3",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b3-046"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b3-046"
+      ],
+      "printedUnits": [
+        "B3-27"
+      ],
+      "tracedUnits": [
+        "B3-27"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-27",
+          "printedName": "Hoàng Yến",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B3.webp",
+          "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+          "sourcePixels": [
+            [
+              383,
+              277
+            ],
+            [
+              525,
+              277
+            ],
+            [
+              525,
+              443
+            ],
+            [
+              421,
+              443
+            ],
+            [
+              421,
+              395
+            ],
+            [
+              397,
+              369
+            ],
+            [
+              383,
+              355
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-morico",
+      "name": "Morico",
+      "floor": "B3",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b3-051"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b3-051"
+      ],
+      "printedUnits": [
+        "B3-16B"
+      ],
+      "tracedUnits": [
+        "B3-16B"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-16B",
+          "printedName": "Morico",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Morico",
+        "floorClaim": "Tầng hầm B3",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\morico-vincom-center-dong-khoi.html",
+        "profileSha256": "e9fb9753260e0c73987ced06e2d8571ed589401180b6550a154d8266b0c6d557"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B3.webp",
+          "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+          "sourcePixels": [
+            [
+              497,
+              549
+            ],
+            [
+              605,
+              549
+            ],
+            [
+              605,
+              598
+            ],
+            [
+              521,
+              598
+            ],
+            [
+              521,
+              617
+            ],
+            [
+              497,
+              617
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-kingbbq",
+      "name": "King BBQ",
+      "floor": "B3",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b3-048"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b3-048"
+      ],
+      "printedUnits": [
+        "B3-10B"
+      ],
+      "tracedUnits": [
+        "B3-10B"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-10B",
+          "printedName": "King BBQ",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "King BBQ",
+        "floorClaim": "Tầng hầm B3",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\king-bbq-vincom-center-dong-khoi.html",
+        "profileSha256": "a5716a94d0aead81dbc32b2222db22c9337271449ab9e70c5af984fa743cb14a"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B3.webp",
+          "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+          "sourcePixels": [
+            [
+              145,
+              497
+            ],
+            [
+              278,
+              497
+            ],
+            [
+              278,
+              540
+            ],
+            [
+              145,
+              540
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-hokkaidosachi",
+      "name": "Hokkaido Sachi",
+      "floor": "B3",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b3-054"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b3-054"
+      ],
+      "printedUnits": [
+        "B3-07"
+      ],
+      "tracedUnits": [
+        "B3-07"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-07",
+          "printedName": "Hokkaido Sachi",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Hokkaido Sachi",
+        "floorClaim": "Tầng hầm B3",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\hokkaido-sachi-vincom-center-dong-khoi.html",
+        "profileSha256": "ab2f7a26f2d9a7947f492d36728d418c982c83d28992582bf040f1aed2299ceb"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B3.webp",
+          "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+          "sourcePixels": [
+            [
+              276,
+              637
+            ],
+            [
+              298,
+              637
+            ],
+            [
+              298,
+              627
+            ],
+            [
+              358,
+              627
+            ],
+            [
+              358,
+              749
+            ],
+            [
+              276,
+              749
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-somthai",
+      "name": "Som Thái",
+      "floor": "B3",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b3-056"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b3-056"
+      ],
+      "printedUnits": [
+        "B3-05"
+      ],
+      "tracedUnits": [
+        "B3-05"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-05",
+          "printedName": "Som Thái",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Som Tum Thai",
+        "floorClaim": "Tầng hầm B3",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\som-tum-thai-vincom-center-dong-khoi.html",
+        "profileSha256": "90e44a43f04235e7605a0bf64e499b2ed583b5724eb334126f7256cf8798bf2c"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B3.webp",
+          "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+          "sourcePixels": [
+            [
+              416,
+              627
+            ],
+            [
+              478,
+              627
+            ],
+            [
+              478,
+              637
+            ],
+            [
+              521,
+              637
+            ],
+            [
+              521,
+              695
+            ],
+            [
+              416,
+              695
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-comtammoc",
+      "name": "Cơm Tấm Mộc",
+      "floor": "B3",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b3-057"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b3-057"
+      ],
+      "printedUnits": [
+        "B3-04"
+      ],
+      "tracedUnits": [
+        "B3-04"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-04",
+          "printedName": "Cơm Tấm Mộc",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Cơm Tấm Mộc",
+        "floorClaim": "Tầng hầm B3",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\com-tam-moc-vincom-center-dong-khoi.html",
+        "profileSha256": "d9cdf5efbf7da193fc27bef2054a68337dbb02a0123b17ec4522d85f27ab82df"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B3.webp",
+          "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+          "sourcePixels": [
+            [
+              416,
+              696
+            ],
+            [
+              521,
+              696
+            ],
+            [
+              521,
+              729
+            ],
+            [
+              416,
+              729
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-bastahiro",
+      "name": "Basta Hiro",
+      "floor": "B3",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b3-055"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b3-055"
+      ],
+      "printedUnits": [
+        "B3-06"
+      ],
+      "tracedUnits": [
+        "B3-06"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-06",
+          "printedName": "Basta Hiro",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Basta Hiro",
+        "floorClaim": "Tầng hầm B3",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\basta-hiro-vincom-center-dong-khoi.html",
+        "profileSha256": "add1a3327753bfb4452f60619ace937c69e406fdef77dc61c4f1da6f479664c4"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B3.webp",
+          "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+          "sourcePixels": [
+            [
+              359,
+              627
+            ],
+            [
+              397,
+              627
+            ],
+            [
+              397,
+              749
+            ],
+            [
+              359,
+              749
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b3-017",
+      "name": "Yomie's Rice x Yogurt",
+      "floor": "B3",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b3-053"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b3-053"
+      ],
+      "printedUnits": [
+        "B3-15B"
+      ],
+      "tracedUnits": [
+        "B3-15B"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-15B",
+          "printedName": "Yomie Rice x Yogurt",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B3.webp",
+          "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+          "sourcePixels": [
+            [
+              416,
+              563
+            ],
+            [
+              478,
+              563
+            ],
+            [
+              478,
+              607
+            ],
+            [
+              416,
+              607
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b3-019",
+      "name": "Paik's Noodle & Pan",
+      "floor": "B3",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b3-037"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b3-037"
+      ],
+      "printedUnits": [
+        "B3-28EF"
+      ],
+      "tracedUnits": [
+        "B3-28EF"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-28EF",
+          "printedName": "Paik Noodle & Pan",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B3.webp",
+          "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+          "sourcePixels": [
+            [
+              604,
+              295
+            ],
+            [
+              677,
+              295
+            ],
+            [
+              677,
+              443
+            ],
+            [
+              604,
+              443
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-hachiban",
+      "name": "Hachiban",
+      "floor": "B3",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b3-039"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b3-039"
+      ],
+      "printedUnits": [
+        "B3-18A"
+      ],
+      "tracedUnits": [
+        "B3-18A"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-18A",
+          "printedName": "Hachiban",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Hachiban",
+        "floorClaim": "Tầng hầm B3",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\hachiban-vincom-center-dong-khoi.html",
+        "profileSha256": "9787c290a5777ff4ef7117c4720493cc95e32c19ac0f7d594f2864f9ddadec6f"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B3.webp",
+          "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+          "sourcePixels": [
+            [
+              79,
+              227
+            ],
+            [
+              146,
+              279
+            ],
+            [
+              172,
+              297
+            ],
+            [
+              172,
+              323
+            ],
+            [
+              151,
+              330
+            ],
+            [
+              81,
+              330
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-wraproll",
+      "name": "Wrap & Roll",
+      "floor": "B3",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b3-043"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b3-043"
+      ],
+      "printedUnits": [
+        "B3-22"
+      ],
+      "tracedUnits": [
+        "B3-22"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-22",
+          "printedName": "Wrap & Roll",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Wrap&Roll",
+        "floorClaim": "Tầng hầm B3",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\wrap-roll-vincom-center-dong-khoi.html",
+        "profileSha256": "724d3aad3a5c9ce81726e4e92079d9647448a4af7a61bac17a2a420a8dd5cdd4"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B3.webp",
+          "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+          "sourcePixels": [
+            [
+              275,
+              277
+            ],
+            [
+              382,
+              277
+            ],
+            [
+              382,
+              349
+            ],
+            [
+              367,
+              337
+            ],
+            [
+              339,
+              363
+            ],
+            [
+              305,
+              328
+            ],
+            [
+              276,
+              303
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b3-024",
+      "name": "Beard Papa's",
+      "floor": "B3",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b3-044"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b3-044"
+      ],
+      "printedUnits": [
+        "B3-21"
+      ],
+      "tracedUnits": [
+        "B3-21"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-21",
+          "printedName": "Beard Papa",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B3.webp",
+          "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+          "sourcePixels": [
+            [
+              340,
+              364
+            ],
+            [
+              367,
+              339
+            ],
+            [
+              396,
+              370
+            ],
+            [
+              373,
+              394
+            ],
+            [
+              361,
+              397
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-cafecong",
+      "name": "Cafe Cộng",
+      "floor": "B3",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b3-047"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b3-047"
+      ],
+      "printedUnits": [
+        "B3-10A"
+      ],
+      "tracedUnits": [
+        "B3-10A"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B3",
+          "printedUnit": "B3-10A",
+          "printedName": "Cafe Cộng",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Cộng Cafe",
+        "floorClaim": "Tầng hầm B3",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\cong-cafe-vincom-center-dong-khoi.html",
+        "profileSha256": "4a1a7db32614f0f81ce505daaed680c804f938196c3b3f138faaef85e8326cd8"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B3.webp",
+          "sha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+          "sourcePixels": [
+            [
+              163,
+              463
+            ],
+            [
+              278,
+              463
+            ],
+            [
+              278,
+              496
+            ],
+            [
+              163,
+              496
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-006",
+      "name": "Shooz",
+      "floor": "B2",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b2-065"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b2-065"
+      ],
+      "printedUnits": [
+        "B2-51"
+      ],
+      "tracedUnits": [
+        "B2-51"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B2",
+          "printedUnit": "B2-51",
+          "printedName": "Shooz",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B2-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B2.webp",
+          "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+          "sourcePixels": [
+            [
+              477,
+              698
+            ],
+            [
+              550,
+              698
+            ],
+            [
+              550,
+              725
+            ],
+            [
+              477,
+              725
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-007",
+      "name": "Timberland",
+      "floor": "B2",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b2-066"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b2-066"
+      ],
+      "printedUnits": [
+        "B2-52"
+      ],
+      "tracedUnits": [
+        "B2-52"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B2",
+          "printedUnit": "B2-52",
+          "printedName": "Timberland",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B2-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B2.webp",
+          "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+          "sourcePixels": [
+            [
+              477,
+              726
+            ],
+            [
+              612,
+              726
+            ],
+            [
+              612,
+              746
+            ],
+            [
+              477,
+              746
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-009",
+      "name": "Vàng Cửu Long",
+      "floor": "B2",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b2-060"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b2-060"
+      ],
+      "printedUnits": [
+        "B2-17H"
+      ],
+      "tracedUnits": [
+        "B2-17H"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B2",
+          "printedUnit": "B2-17H",
+          "printedName": "Vàng Cửu Long",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B2-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B2.webp",
+          "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+          "sourcePixels": [
+            [
+              410,
+              258
+            ],
+            [
+              425,
+              243
+            ],
+            [
+              439,
+              256
+            ],
+            [
+              424,
+              271
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-014",
+      "name": "Pantio",
+      "floor": "B2",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b2-059"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b2-059"
+      ],
+      "printedUnits": [
+        "B2-18"
+      ],
+      "tracedUnits": [
+        "B2-18"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B2",
+          "printedUnit": "B2-18",
+          "printedName": "Pantio",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B2-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B2.webp",
+          "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+          "sourcePixels": [
+            [
+              368,
+              326
+            ],
+            [
+              458,
+              244
+            ],
+            [
+              458,
+              199
+            ],
+            [
+              559,
+              199
+            ],
+            [
+              559,
+              251
+            ],
+            [
+              406,
+              366
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-amara",
+      "name": "Amara",
+      "floor": "B2",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b2-067"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b2-067"
+      ],
+      "printedUnits": [
+        "B2-01B"
+      ],
+      "tracedUnits": [
+        "B2-01B"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B2",
+          "printedUnit": "B2-01B",
+          "printedName": "Amara",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B2-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Amara",
+        "floorClaim": "Tầng hầm B2",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\amara-vincom-center-dong-khoi.html",
+        "profileSha256": "b7e31fbfb2b8d7f3029b77601779f53a2b81a75b24ee4e705da6f077668781ac"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B2.webp",
+          "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+          "sourcePixels": [
+            [
+              313,
+              763
+            ],
+            [
+              341,
+              763
+            ],
+            [
+              341,
+              820
+            ],
+            [
+              313,
+              820
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-starbucks",
+      "name": "Starbucks",
+      "floor": "B2",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b2-071"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b2-071"
+      ],
+      "printedUnits": [
+        "B2-02-02A"
+      ],
+      "tracedUnits": [
+        "B2-02-02A"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B2",
+          "printedUnit": "B2-02-02A",
+          "printedName": "Starbucks",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B2-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Starbucks",
+        "floorClaim": "Tầng hầm B2",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\starbucks-vincom-center-dong-khoi.html",
+        "profileSha256": "57d4682614ff4753564c5b1bfe911930c17e3833cff99f211d495b4dbdad9475"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B2.webp",
+          "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+          "sourcePixels": [
+            [
+              296,
+              692
+            ],
+            [
+              370,
+              692
+            ],
+            [
+              370,
+              746
+            ],
+            [
+              296,
+              746
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-036",
+      "name": "BHPC - Beverly Hills Polo Club",
+      "floor": "B2",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b2-072"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b2-072"
+      ],
+      "printedUnits": [
+        "B2-03"
+      ],
+      "tracedUnits": [
+        "B2-03"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B2",
+          "printedUnit": "B2-03",
+          "printedName": "BHPC",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B2-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B2.webp",
+          "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+          "sourcePixels": [
+            [
+              296,
+              640
+            ],
+            [
+              370,
+              640
+            ],
+            [
+              370,
+              691
+            ],
+            [
+              296,
+              691
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-001",
+      "name": "Aldo",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-073"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-073"
+      ],
+      "printedUnits": [
+        "B1-01"
+      ],
+      "tracedUnits": [
+        "B1-01"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-01",
+          "printedName": "Aldo",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              302,
+              703
+            ],
+            [
+              379,
+              703
+            ],
+            [
+              379,
+              741
+            ],
+            [
+              302,
+              741
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-charleskeith",
+      "name": "Charles & Keith",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-074",
+        "vincom-prompt1-b1-075"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-074",
+        "vincom-prompt1-b1-075"
+      ],
+      "printedUnits": [
+        "B1-03-04",
+        "B1-05"
+      ],
+      "tracedUnits": [
+        "B1-03-04",
+        "B1-05"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-03-04",
+          "printedName": "Charles & Keith",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        },
+        {
+          "floor": "B1",
+          "printedUnit": "B1-05",
+          "printedName": "Charles & Keith",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Charles & Keith",
+        "floorClaim": "Tầng hầm B1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\charles-keith-vincom-center-dong-khoi.html",
+        "profileSha256": "46ef4a45c532fed5a1f31de543e68ee76c656b807daaf5fffcea4f85daec8125"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              302,
+              594
+            ],
+            [
+              379,
+              594
+            ],
+            [
+              379,
+              660
+            ],
+            [
+              302,
+              660
+            ]
+          ]
+        },
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              240,
+              613
+            ],
+            [
+              301,
+              613
+            ],
+            [
+              301,
+              632
+            ],
+            [
+              240,
+              632
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        "Separate printed units for the same identity; highlight every component. No exclusive single-storefront inference."
+      ],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-gigi",
+      "name": "GiGi",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-076"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-076"
+      ],
+      "printedUnits": [
+        "B1-10-11"
+      ],
+      "tracedUnits": [
+        "B1-10-11"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-10-11",
+          "printedName": "GiGi",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "GiGi",
+        "floorClaim": "Tầng hầm B1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\gigi-vincom-center-dong-khoi.html",
+        "profileSha256": "72fa2ffb2e062de3bfea2815a5c4f3ac6ef158e0812f0d8437ef853ba5402808"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              229,
+              343
+            ],
+            [
+              297,
+              353
+            ],
+            [
+              297,
+              435
+            ],
+            [
+              229,
+              435
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-007",
+      "name": "Gold Element",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-077"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-077"
+      ],
+      "printedUnits": [
+        "B1-22A"
+      ],
+      "tracedUnits": [
+        "B1-22A"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-22A",
+          "printedName": "Gold Element",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              458,
+              525
+            ],
+            [
+              497,
+              525
+            ],
+            [
+              497,
+              543
+            ],
+            [
+              458,
+              543
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-008",
+      "name": "Botanifique",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-078",
+        "vincom-prompt1-b1-079"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-078",
+        "vincom-prompt1-b1-079"
+      ],
+      "printedUnits": [
+        "B1-22B",
+        "B1-23B"
+      ],
+      "tracedUnits": [
+        "B1-22B",
+        "B1-23B"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-22B",
+          "printedName": "Botanifique",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        },
+        {
+          "floor": "B1",
+          "printedUnit": "B1-23B",
+          "printedName": "Botanifique",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              458,
+              544
+            ],
+            [
+              497,
+              544
+            ],
+            [
+              497,
+              563
+            ],
+            [
+              458,
+              563
+            ]
+          ]
+        },
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              498,
+              544
+            ],
+            [
+              541,
+              544
+            ],
+            [
+              541,
+              563
+            ],
+            [
+              498,
+              563
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        "Separate printed units for the same identity; highlight every component. No exclusive single-storefront inference."
+      ],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-009",
+      "name": "Aqua",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-080"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-080"
+      ],
+      "printedUnits": [
+        "B1-23A"
+      ],
+      "tracedUnits": [
+        "B1-23A"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-23A",
+          "printedName": "Aqua",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              498,
+              525
+            ],
+            [
+              541,
+              525
+            ],
+            [
+              541,
+              543
+            ],
+            [
+              498,
+              543
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-lyn",
+      "name": "Lyn",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-081"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-081"
+      ],
+      "printedUnits": [
+        "B1-24"
+      ],
+      "tracedUnits": [
+        "B1-24"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-24",
+          "printedName": "Lyn",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Lyn",
+        "floorClaim": "Tầng hầm B1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\lyn-vincom-center-dong-khoi.html",
+        "profileSha256": "3455aa56a64d8260ed5a59977e0513523eedaaa16126f5c18ce99e3d98383189"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              483,
+              594
+            ],
+            [
+              560,
+              594
+            ],
+            [
+              560,
+              612
+            ],
+            [
+              621,
+              612
+            ],
+            [
+              621,
+              631
+            ],
+            [
+              483,
+              631
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-ecco",
+      "name": "Ecco",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-082"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-082"
+      ],
+      "printedUnits": [
+        "B1-25"
+      ],
+      "tracedUnits": [
+        "B1-25"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-25",
+          "printedName": "Ecco",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "ECCO",
+        "floorClaim": "Tầng hầm B1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\ecco-vincom-center-dong-khoi.html",
+        "profileSha256": "5846fa66712cf695606c97a96d56323316544ddd520a1508cbc92dd87c9fce02"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              483,
+              632
+            ],
+            [
+              560,
+              632
+            ],
+            [
+              560,
+              661
+            ],
+            [
+              483,
+              661
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-pedro",
+      "name": "Pedro",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-083"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-083"
+      ],
+      "printedUnits": [
+        "B1-26-27"
+      ],
+      "tracedUnits": [
+        "B1-26-27"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-26-27",
+          "printedName": "Pedro",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Pedro",
+        "floorClaim": "Tầng hầm B1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\pedro-vincom-center-dong-khoi.html",
+        "profileSha256": "052be68b01045a5ef3778b6086796d9b835d4649fb41e11bbd17be1999c05088"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              483,
+              662
+            ],
+            [
+              560,
+              662
+            ],
+            [
+              560,
+              720
+            ],
+            [
+              483,
+              720
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-havaianas",
+      "name": "Havaianas",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-084"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-084"
+      ],
+      "printedUnits": [
+        "B1-28A"
+      ],
+      "tracedUnits": [
+        "B1-28A"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-28A",
+          "printedName": "Havaianas",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Havaianas",
+        "floorClaim": "Tầng hầm B1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\havaianas-vincom-center-dong-khoi.html",
+        "profileSha256": "7a398addabef4ff1d9b7a43ab26ba227628cba499a2bb8bbd117f12b94034842"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              483,
+              721
+            ],
+            [
+              621,
+              721
+            ],
+            [
+              621,
+              745
+            ],
+            [
+              483,
+              745
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-mlb",
+      "name": "MLB",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-085"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-085"
+      ],
+      "printedUnits": [
+        "B1-28D"
+      ],
+      "tracedUnits": [
+        "B1-28D"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-28D",
+          "printedName": "MLB",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "MLB",
+        "floorClaim": "Tầng hầm B1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\mlb-vincom-center-dong-khoi.html",
+        "profileSha256": "583dc2103beec471a8ce46c5238dfa94ef382f47d5f0f4520150d9b68dff309e"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              396,
+              765
+            ],
+            [
+              460,
+              765
+            ],
+            [
+              460,
+              804
+            ],
+            [
+              422,
+              804
+            ],
+            [
+              422,
+              820
+            ],
+            [
+              396,
+              820
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-skechers",
+      "name": "Skechers",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-086"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-086"
+      ],
+      "printedUnits": [
+        "B1-28E"
+      ],
+      "tracedUnits": [
+        "B1-28E"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-28E",
+          "printedName": "Skechers",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Skechers",
+        "floorClaim": "Tầng hầm B1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\skechers-vincom-center-dong-khoi.html",
+        "profileSha256": "7545ef9261483b26f2061e864b93bece203a4078b3ffe4fad6ea0ee37155292a"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              644,
+              659
+            ],
+            [
+              659,
+              659
+            ],
+            [
+              659,
+              691
+            ],
+            [
+              713,
+              691
+            ],
+            [
+              713,
+              762
+            ],
+            [
+              644,
+              762
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-cottonon",
+      "name": "Cotton On",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-087"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-087"
+      ],
+      "printedUnits": [
+        "B1-31-32A"
+      ],
+      "tracedUnits": [
+        "B1-31-32A"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-31-32A",
+          "printedName": "Cotton On",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Cotton:On",
+        "floorClaim": "Tầng hầm B1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\cotton-on-vincom-center-dong-khoi.html",
+        "profileSha256": "8178dde3a70a576fed2a94e55b53a66d735305aa1f58cda3a0024ad1e7c31ad5"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              142,
+              764
+            ],
+            [
+              377,
+              764
+            ],
+            [
+              377,
+              812
+            ],
+            [
+              320,
+              812
+            ],
+            [
+              320,
+              820
+            ],
+            [
+              243,
+              820
+            ],
+            [
+              243,
+              881
+            ],
+            [
+              147,
+              881
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-023",
+      "name": "PPP Clinic",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-088"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-088"
+      ],
+      "printedUnits": [
+        "B1-32B-32C"
+      ],
+      "tracedUnits": [
+        "B1-32B-32C"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-32B-32C",
+          "printedName": "PPP Clinic",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              138,
+              633
+            ],
+            [
+              217,
+              633
+            ],
+            [
+              217,
+              762
+            ],
+            [
+              142,
+              762
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-024",
+      "name": "Mango",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-089"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-089"
+      ],
+      "printedUnits": [
+        "B1-33-37"
+      ],
+      "tracedUnits": [
+        "B1-33-37"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-33-37",
+          "printedName": "Mango",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              133,
+              437
+            ],
+            [
+              296,
+              437
+            ],
+            [
+              296,
+              462
+            ],
+            [
+              391,
+              462
+            ],
+            [
+              404,
+              548
+            ],
+            [
+              391,
+              574
+            ],
+            [
+              217,
+              574
+            ],
+            [
+              217,
+              631
+            ],
+            [
+              138,
+              631
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-025",
+      "name": "Planet Sports",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-090"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-090"
+      ],
+      "printedUnits": [
+        "B1-38-39-46"
+      ],
+      "tracedUnits": [
+        "B1-38-39-46"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-38-39-46",
+          "printedName": "Planet Sports",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              124,
+              215
+            ],
+            [
+              151,
+              190
+            ],
+            [
+              269,
+              190
+            ],
+            [
+              269,
+              207
+            ],
+            [
+              248,
+              207
+            ],
+            [
+              248,
+              235
+            ],
+            [
+              217,
+              235
+            ],
+            [
+              217,
+              414
+            ],
+            [
+              156,
+              414
+            ],
+            [
+              156,
+              436
+            ],
+            [
+              133,
+              436
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-027",
+      "name": "Sky Optic",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-091"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-091"
+      ],
+      "printedUnits": [
+        "B1-48-48A"
+      ],
+      "tracedUnits": [
+        "B1-48-48A"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-48-48A",
+          "printedName": "Sky Optic",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              270,
+              190
+            ],
+            [
+              346,
+              190
+            ],
+            [
+              346,
+              235
+            ],
+            [
+              322,
+              260
+            ],
+            [
+              295,
+              237
+            ],
+            [
+              255,
+              237
+            ],
+            [
+              255,
+              211
+            ],
+            [
+              270,
+              211
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-levis",
+      "name": "Levi’s",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-092"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-092"
+      ],
+      "printedUnits": [
+        "B1-52"
+      ],
+      "tracedUnits": [
+        "B1-52"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-52",
+          "printedName": "Levis",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Levi's",
+        "floorClaim": "Tầng hầm B1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\levis-vincom-center-dong-khoi.html",
+        "profileSha256": "9eacc18bf0bdea318addac0eef007c7df5081b831b0bc76507456f94af218c4d"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              511,
+              282
+            ],
+            [
+              617,
+              282
+            ],
+            [
+              617,
+              310
+            ],
+            [
+              565,
+              310
+            ],
+            [
+              565,
+              336
+            ],
+            [
+              511,
+              336
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-gap",
+      "name": "GAP",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-093"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-093"
+      ],
+      "printedUnits": [
+        "B1-53"
+      ],
+      "tracedUnits": [
+        "B1-53"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-53",
+          "printedName": "GAP",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "GAP",
+        "floorClaim": "Tầng hầm B1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\gap-vincom-center-dong-khoi.html",
+        "profileSha256": "b4e7a84d26e3effe056e6d8a76b2ab1a80ba55aab37aad78ecdf653e6008deaf"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              618,
+              259
+            ],
+            [
+              688,
+              259
+            ],
+            [
+              688,
+              361
+            ],
+            [
+              713,
+              361
+            ],
+            [
+              713,
+              413
+            ],
+            [
+              660,
+              413
+            ],
+            [
+              660,
+              426
+            ],
+            [
+              647,
+              426
+            ],
+            [
+              647,
+              443
+            ],
+            [
+              561,
+              443
+            ],
+            [
+              511,
+              390
+            ],
+            [
+              511,
+              337
+            ],
+            [
+              565,
+              337
+            ],
+            [
+              565,
+              310
+            ],
+            [
+              618,
+              310
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-adidasoriginals",
+      "name": "Adidas Originals",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-094"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-094"
+      ],
+      "printedUnits": [
+        "B1-56"
+      ],
+      "tracedUnits": [
+        "B1-56"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-56",
+          "printedName": "Adidas Originals",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Adidas Originals",
+        "floorClaim": "Tầng hầm B1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\adidas-originals-vincom-center-dong-khoi.html",
+        "profileSha256": "dac3f72a7e31304c06cb1826824f318c54bd6e6a8f2ce703858ece756f896735"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              562,
+              549
+            ],
+            [
+              713,
+              549
+            ],
+            [
+              713,
+              599
+            ],
+            [
+              644,
+              599
+            ],
+            [
+              644,
+              581
+            ],
+            [
+              562,
+              581
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-dyson",
+      "name": "Dyson",
+      "floor": "B1",
+      "decision": "accept-partial-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-095"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-095"
+      ],
+      "printedUnits": [
+        "B1-57-58"
+      ],
+      "tracedUnits": [
+        "B1-57"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-57-58",
+          "printedName": "Dyson",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Dyson",
+        "floorClaim": "Tầng hầm B1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\dyson-vincom-center-dong-khoi.html",
+        "profileSha256": "5d9b5a0d22d7489bde0946fbba2180f8b8810b185b006b1e8b16c54926b138f5"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              345,
+              318
+            ],
+            [
+              411,
+              318
+            ],
+            [
+              411,
+              356
+            ],
+            [
+              361,
+              356
+            ],
+            [
+              345,
+              339
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        "Accept B1-57 partial only; printed legend B1-57-58 does not supply B1-58 geometry. Correct tracedUnits metadata in r2."
+      ],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-calvinklein",
+      "name": "Calvin Klein",
+      "floor": "B1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-b1-096"
+      ],
+      "regionIds": [
+        "vincom-prompt1-b1-096"
+      ],
+      "printedUnits": [
+        "B1-54"
+      ],
+      "tracedUnits": [
+        "B1-54"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "B1",
+          "printedUnit": "B1-54",
+          "printedName": "CK Jeans",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-B1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Calvin Klein",
+        "floorClaim": "Tầng hầm B1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\calvin-klein-vincom-center-dong-khoi.html",
+        "profileSha256": "9f9153cde191b801391fba8df2cdb09ea95da162db7a058d0cd29b4266944afa"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/B1.webp",
+          "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+          "sourcePixels": [
+            [
+              562,
+              454
+            ],
+            [
+              658,
+              454
+            ],
+            [
+              658,
+              491
+            ],
+            [
+              562,
+              491
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        "CK Jeans label linked to Calvin Klein by retained branch roster/unit claim and archived profile brand text; no rename of approved identity."
+      ],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-lancome",
+      "name": "Lancôme",
+      "floor": "L1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l1-019"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l1-019"
+      ],
+      "printedUnits": [
+        "L1-04"
+      ],
+      "tracedUnits": [
+        "L1-04"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L1",
+          "printedUnit": "L1-04",
+          "printedName": "Lancome",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Lancome",
+        "floorClaim": "Tầng 1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\lancome-vincom-center-dong-khoi.html",
+        "profileSha256": "d59875169cab31447f9e7daf0141b523ce8f1802ba27bdb5634cadd21a5e92fd"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L1.webp",
+          "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+          "sourcePixels": [
+            [
+              300,
+              686
+            ],
+            [
+              373,
+              686
+            ],
+            [
+              373,
+              718
+            ],
+            [
+              326,
+              718
+            ],
+            [
+              326,
+              766
+            ],
+            [
+              300,
+              766
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-kiehls",
+      "name": "Kiehl's",
+      "floor": "L1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l1-020"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l1-020"
+      ],
+      "printedUnits": [
+        "L1-05"
+      ],
+      "tracedUnits": [
+        "L1-05"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L1",
+          "printedUnit": "L1-05",
+          "printedName": "Kiehls",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Kiehl's",
+        "floorClaim": "Tầng 1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\kiehls-vincom-center-dong-khoi.html",
+        "profileSha256": "8e4b2b2d523b659ac7e6ef871433df27cfd3794c01a69b8ec1039babf37d6fb8"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L1.webp",
+          "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+          "sourcePixels": [
+            [
+              227,
+              686
+            ],
+            [
+              299,
+              686
+            ],
+            [
+              299,
+              766
+            ],
+            [
+              227,
+              766
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-cledepeaubeaute",
+      "name": "Clé de Peau Beauté",
+      "floor": "L1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l1-021"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l1-021"
+      ],
+      "printedUnits": [
+        "L1-06"
+      ],
+      "tracedUnits": [
+        "L1-06"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L1",
+          "printedUnit": "L1-06",
+          "printedName": "Clé de Peau",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Cle De Peau",
+        "floorClaim": "Tầng 1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\cle-de-peau-vincom-center-dong-khoi.html",
+        "profileSha256": "8126df1cda22991da4cef41f6bdb3476d54ab61cdcf24c17d1c651aea973ebf9"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L1.webp",
+          "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+          "sourcePixels": [
+            [
+              182,
+              686
+            ],
+            [
+              226,
+              686
+            ],
+            [
+              226,
+              766
+            ],
+            [
+              182,
+              766
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-zara",
+      "name": "ZARA",
+      "floor": "L1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l1-017"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l1-017"
+      ],
+      "printedUnits": [
+        "name:ZARA"
+      ],
+      "tracedUnits": [
+        "name:ZARA"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L1",
+          "printedUnit": "name:ZARA",
+          "printedName": "ZARA",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Zara",
+        "floorClaim": "Tầng 1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\zara-vincom-center-dong-khoi.html",
+        "profileSha256": "22a48f387dc04952474caff38ce8b9284c9e1305ee53df6d69fbb51d6842add7"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L1.webp",
+          "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+          "sourcePixels": [
+            [
+              75,
+              245
+            ],
+            [
+              775,
+              245
+            ],
+            [
+              775,
+              547
+            ],
+            [
+              681,
+              547
+            ],
+            [
+              681,
+              410
+            ],
+            [
+              75,
+              410
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        "Accept this floor only. M-floor trace remains held; a listing-level mapped count does not complete all locations."
+      ],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-massimodutti",
+      "name": "Massimo Dutti",
+      "floor": "L1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l1-018"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l1-018"
+      ],
+      "printedUnits": [
+        "name:Massimo Duti"
+      ],
+      "tracedUnits": [
+        "name:Massimo Duti"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L1",
+          "printedUnit": "name:Massimo Duti",
+          "printedName": "Massimo Dutti",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Massimo Dutti",
+        "floorClaim": "Tầng 1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\massimo-dutti-vincom-center-dong-khoi.html",
+        "profileSha256": "bd22ec56367fd407e4e0e9866fbee84e9ec0aace4777abf887fa55e4b370e049"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L1.webp",
+          "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+          "sourcePixels": [
+            [
+              681,
+              548
+            ],
+            [
+              777,
+              548
+            ],
+            [
+              777,
+              839
+            ],
+            [
+              656,
+              839
+            ],
+            [
+              656,
+              765
+            ],
+            [
+              508,
+              765
+            ],
+            [
+              508,
+              743
+            ],
+            [
+              354,
+              743
+            ],
+            [
+              354,
+              718
+            ],
+            [
+              373,
+              718
+            ],
+            [
+              373,
+              686
+            ],
+            [
+              681,
+              686
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-l1-008",
+      "name": "Laneige",
+      "floor": "L1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l1-025"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l1-025"
+      ],
+      "printedUnits": [
+        "L1-47A"
+      ],
+      "tracedUnits": [
+        "L1-47A"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L1",
+          "printedUnit": "L1-47A",
+          "printedName": "Laneige",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L1.webp",
+          "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+          "sourcePixels": [
+            [
+              470,
+              599
+            ],
+            [
+              570,
+              599
+            ],
+            [
+              570,
+              627
+            ],
+            [
+              549,
+              627
+            ],
+            [
+              549,
+              638
+            ],
+            [
+              470,
+              638
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-sulwhasoo",
+      "name": "Sulwhasoo",
+      "floor": "L1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l1-026"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l1-026"
+      ],
+      "printedUnits": [
+        "L1-47B"
+      ],
+      "tracedUnits": [
+        "L1-47B"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L1",
+          "printedUnit": "L1-47B",
+          "printedName": "Sulwhasoo",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Sulwhasoo",
+        "floorClaim": "Tầng 1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\sulwhasoo-vincom-center-dong-khoi.html",
+        "profileSha256": "f809a69bf0e0007f88704f9f746610df7db664d7115f981e4a5f0a052d066dea"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L1.webp",
+          "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+          "sourcePixels": [
+            [
+              470,
+              639
+            ],
+            [
+              549,
+              639
+            ],
+            [
+              549,
+              660
+            ],
+            [
+              470,
+              660
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-viinriicnicheperfume",
+      "name": "Viin Riic Niche Perfume",
+      "floor": "L1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l1-027"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l1-027"
+      ],
+      "printedUnits": [
+        "L1-48"
+      ],
+      "tracedUnits": [
+        "L1-48"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L1",
+          "printedUnit": "L1-48",
+          "printedName": "Viin Riic Niche",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Viin Riic Niche",
+        "floorClaim": "Tầng 1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\viin-riic-niche-vincom-center-dong-khoi.html",
+        "profileSha256": "1cd71d8baf3557bf22c040c6bd2a8e27eb962b847840a9d8b2f132c175ba0f50"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L1.webp",
+          "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+          "sourcePixels": [
+            [
+              550,
+              628
+            ],
+            [
+              657,
+              628
+            ],
+            [
+              657,
+              660
+            ],
+            [
+              550,
+              660
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-tgnhthegioinuochoa",
+      "name": "TGNH – Thế Giới Nước Hoa",
+      "floor": "L1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l1-028"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l1-028"
+      ],
+      "printedUnits": [
+        "L1-49"
+      ],
+      "tracedUnits": [
+        "L1-49"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L1",
+          "printedUnit": "L1-49",
+          "printedName": "TGNH",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Thế giới nước hoa",
+        "floorClaim": "Tầng 1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\the-gioi-nuoc-hoa-vincom-center-dong-khoi.html",
+        "profileSha256": "b4f8bb828098bd7259a793bf846224ec36752b5a3167a54c564ccb4965683a88"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L1.webp",
+          "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+          "sourcePixels": [
+            [
+              350,
+              621
+            ],
+            [
+              390,
+              621
+            ],
+            [
+              390,
+              660
+            ],
+            [
+              350,
+              660
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-l1-012",
+      "name": "Guerlain",
+      "floor": "L1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l1-029"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l1-029"
+      ],
+      "printedUnits": [
+        "L1-50"
+      ],
+      "tracedUnits": [
+        "L1-50"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L1",
+          "printedUnit": "L1-50",
+          "printedName": "Guerlain",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L1.webp",
+          "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+          "sourcePixels": [
+            [
+              391,
+              621
+            ],
+            [
+              445,
+              621
+            ],
+            [
+              445,
+              660
+            ],
+            [
+              391,
+              660
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-dior",
+      "name": "Dior",
+      "floor": "L1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l1-030"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l1-030"
+      ],
+      "printedUnits": [
+        "L1-51"
+      ],
+      "tracedUnits": [
+        "L1-51"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L1",
+          "printedUnit": "L1-51",
+          "printedName": "Dior",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Christian Dior",
+        "floorClaim": "Tầng 1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\christian-dior-vincom-center-dong-khoi.html",
+        "profileSha256": "6c3d13a4816942b3278313c26624f2a5890fd6d229c0ec9d1f179153640f504b"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L1.webp",
+          "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+          "sourcePixels": [
+            [
+              224,
+              589
+            ],
+            [
+              326,
+              589
+            ],
+            [
+              326,
+              656
+            ],
+            [
+              224,
+              656
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-esteelauder",
+      "name": "Estée Lauder",
+      "floor": "L1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l1-031"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l1-031"
+      ],
+      "printedUnits": [
+        "L1-52A"
+      ],
+      "tracedUnits": [
+        "L1-52A"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L1",
+          "printedUnit": "L1-52A",
+          "printedName": "Estée Lauder",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Estee Lauder",
+        "floorClaim": "Tầng 1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\estee-lauder-vincom-center-dong-khoi.html",
+        "profileSha256": "83ebc9d5a10a0e1a32b6f9a029d1f835a36f4137755492869911353c81309b85"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L1.webp",
+          "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+          "sourcePixels": [
+            [
+              249,
+              540
+            ],
+            [
+              326,
+              540
+            ],
+            [
+              326,
+              563
+            ],
+            [
+              249,
+              563
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-l1-015",
+      "name": "Clinique",
+      "floor": "L1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l1-032"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l1-032"
+      ],
+      "printedUnits": [
+        "L1-52B"
+      ],
+      "tracedUnits": [
+        "L1-52B"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L1",
+          "printedUnit": "L1-52B",
+          "printedName": "Clinique",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L1.webp",
+          "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+          "sourcePixels": [
+            [
+              249,
+              564
+            ],
+            [
+              326,
+              564
+            ],
+            [
+              326,
+              588
+            ],
+            [
+              249,
+              588
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-shiseido",
+      "name": "Shiseido",
+      "floor": "L1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l1-033"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l1-033"
+      ],
+      "printedUnits": [
+        "L1-53"
+      ],
+      "tracedUnits": [
+        "L1-53"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L1",
+          "printedUnit": "L1-53",
+          "printedName": "Shiseido",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Shiseido",
+        "floorClaim": "Tầng 1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\shiseido-vincom-center-dong-khoi.html",
+        "profileSha256": "05b59e18f170dcdd430267c4fb4ca58f806a4420933bbdf22d948b4b0372a721"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L1.webp",
+          "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+          "sourcePixels": [
+            [
+              224,
+              480
+            ],
+            [
+              326,
+              480
+            ],
+            [
+              326,
+              539
+            ],
+            [
+              249,
+              539
+            ],
+            [
+              249,
+              588
+            ],
+            [
+              224,
+              588
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-nars",
+      "name": "NARS",
+      "floor": "L1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l1-034"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l1-034"
+      ],
+      "printedUnits": [
+        "L1-54"
+      ],
+      "tracedUnits": [
+        "L1-54"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L1",
+          "printedUnit": "L1-54",
+          "printedName": "NARS",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Nars",
+        "floorClaim": "Tầng 1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\nars-vincom-center-dong-khoi.html",
+        "profileSha256": "fbbd32dee59a6d579515b6422e9d6a768207f1ce87d4d45e77cc8556e883d230"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L1.webp",
+          "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+          "sourcePixels": [
+            [
+              224,
+              434
+            ],
+            [
+              326,
+              434
+            ],
+            [
+              326,
+              479
+            ],
+            [
+              224,
+              479
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-bobbibrown",
+      "name": "Bobbi Brown",
+      "floor": "L1",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l1-035"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l1-035"
+      ],
+      "printedUnits": [
+        "L1-56"
+      ],
+      "tracedUnits": [
+        "L1-56"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L1",
+          "printedUnit": "L1-56",
+          "printedName": "Bobbi Brown",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L1-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Bobbi Brown",
+        "floorClaim": "Tầng 1",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\bobbi-brown-vincom-center-dong-khoi.html",
+        "profileSha256": "218516e72590739a477588475c61bbc2dbd85d8022c642bf3137a834990faa9a"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L1.webp",
+          "sha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8",
+          "sourcePixels": [
+            [
+              140,
+              434
+            ],
+            [
+              223,
+              434
+            ],
+            [
+              223,
+              456
+            ],
+            [
+              140,
+              456
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-tommyhilfiger",
+      "name": "Tommy Hilfiger",
+      "floor": "M",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-m-016"
+      ],
+      "regionIds": [
+        "vincom-prompt1-m-016"
+      ],
+      "printedUnits": [
+        "M-01-02A"
+      ],
+      "tracedUnits": [
+        "M-01-02A"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "M",
+          "printedUnit": "M-01-02A",
+          "printedName": "Tommy Hilfiger",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Tommy Hilfiger",
+        "floorClaim": "Tầng lửng",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\tommy-hilfiger-vincom-center-dong-khoi.html",
+        "profileSha256": "12c3ddbc434f492af6c79ab639dd9551d95109200578c07f3a7fddda81d0fc3b"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/M.webp",
+          "sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530",
+          "sourcePixels": [
+            [
+              655,
+              693
+            ],
+            [
+              760,
+              693
+            ],
+            [
+              760,
+              774
+            ],
+            [
+              655,
+              774
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-x-065",
+      "name": "Max & Co",
+      "floor": "M",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-m-015"
+      ],
+      "regionIds": [
+        "vincom-prompt1-m-015"
+      ],
+      "printedUnits": [
+        "M-02B-03"
+      ],
+      "tracedUnits": [
+        "M-02B-03"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "M",
+          "printedUnit": "M-02B-03",
+          "printedName": "Max & Co",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/M.webp",
+          "sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530",
+          "sourcePixels": [
+            [
+              545,
+              693
+            ],
+            [
+              654,
+              693
+            ],
+            [
+              654,
+              774
+            ],
+            [
+              545,
+              774
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-pandora",
+      "name": "Pandora",
+      "floor": "M",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-m-013"
+      ],
+      "regionIds": [
+        "vincom-prompt1-m-013"
+      ],
+      "printedUnits": [
+        "M-04B1"
+      ],
+      "tracedUnits": [
+        "M-04B1"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "M",
+          "printedUnit": "M-04B1",
+          "printedName": "Pandora",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Pandora",
+        "floorClaim": "Tầng lửng",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\pandora-vincom-center-dong-khoi.html",
+        "profileSha256": "56f6c65efe0e977f0ae8fb13b4d7350dfaceb83b77e7798df8064a9f34cac803"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/M.webp",
+          "sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530",
+          "sourcePixels": [
+            [
+              469,
+              693
+            ],
+            [
+              506,
+              693
+            ],
+            [
+              506,
+              774
+            ],
+            [
+              469,
+              774
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-swarovski",
+      "name": "Swarovski",
+      "floor": "M",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-m-014"
+      ],
+      "regionIds": [
+        "vincom-prompt1-m-014"
+      ],
+      "printedUnits": [
+        "M-04B2"
+      ],
+      "tracedUnits": [
+        "M-04B2"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "M",
+          "printedUnit": "M-04B2",
+          "printedName": "Swarovski",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Swarovski",
+        "floorClaim": "Tầng lửng",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\swarovski-vincom-center-dong-khoi.html",
+        "profileSha256": "a04121691d0dd98d62d591753dac2fcc55350063c39a4cfc6237c6f1198dee1a"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/M.webp",
+          "sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530",
+          "sourcePixels": [
+            [
+              507,
+              693
+            ],
+            [
+              544,
+              693
+            ],
+            [
+              544,
+              774
+            ],
+            [
+              507,
+              774
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-x-070",
+      "name": "Studio 77",
+      "floor": "M",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-m-007"
+      ],
+      "regionIds": [
+        "vincom-prompt1-m-007"
+      ],
+      "printedUnits": [
+        "M-07"
+      ],
+      "tracedUnits": [
+        "M-07"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "M",
+          "printedUnit": "M-07",
+          "printedName": "Studio 77",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/M.webp",
+          "sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530",
+          "sourcePixels": [
+            [
+              106,
+              546
+            ],
+            [
+              154,
+              546
+            ],
+            [
+              154,
+              692
+            ],
+            [
+              359,
+              692
+            ],
+            [
+              359,
+              773
+            ],
+            [
+              106,
+              773
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-hm",
+      "name": "H&M",
+      "floor": "L2",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l2-001"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l2-001"
+      ],
+      "printedUnits": [
+        "L2-02"
+      ],
+      "tracedUnits": [
+        "L2-02"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L2",
+          "printedUnit": "L2-02",
+          "printedName": "H&M",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L2-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "H&M",
+        "floorClaim": "Tầng 2",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\h-m-vincom-center-dong-khoi.html",
+        "profileSha256": "863e4c687b94f9d60d6e76477886b1bbf82fec79cefea728ca3457dc4f178bec"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L2.webp",
+          "sha256": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029",
+          "sourcePixels": [
+            [
+              106,
+              220
+            ],
+            [
+              317,
+              220
+            ],
+            [
+              317,
+              263
+            ],
+            [
+              548,
+              263
+            ],
+            [
+              548,
+              221
+            ],
+            [
+              761,
+              221
+            ],
+            [
+              761,
+              487
+            ],
+            [
+              718,
+              487
+            ],
+            [
+              718,
+              464
+            ],
+            [
+              699,
+              464
+            ],
+            [
+              699,
+              438
+            ],
+            [
+              614,
+              438
+            ],
+            [
+              614,
+              459
+            ],
+            [
+              508,
+              459
+            ],
+            [
+              508,
+              410
+            ],
+            [
+              358,
+              410
+            ],
+            [
+              358,
+              364
+            ],
+            [
+              165,
+              364
+            ],
+            [
+              165,
+              461
+            ],
+            [
+              146,
+              461
+            ],
+            [
+              146,
+              487
+            ],
+            [
+              106,
+              487
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        "Accept this floor only. M-floor trace remains held; a listing-level mapped count does not complete all locations."
+      ],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-x-074",
+      "name": "Furla",
+      "floor": "M",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-m-010"
+      ],
+      "regionIds": [
+        "vincom-prompt1-m-010"
+      ],
+      "printedUnits": [
+        "M-33"
+      ],
+      "tracedUnits": [
+        "M-33"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "M",
+          "printedUnit": "M-33",
+          "printedName": "Furla",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/M.webp",
+          "sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530",
+          "sourcePixels": [
+            [
+              505,
+              627
+            ],
+            [
+              609,
+              627
+            ],
+            [
+              609,
+              667
+            ],
+            [
+              505,
+              667
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-x-075",
+      "name": "Geox",
+      "floor": "M",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-m-011"
+      ],
+      "regionIds": [
+        "vincom-prompt1-m-011"
+      ],
+      "printedUnits": [
+        "M-34"
+      ],
+      "tracedUnits": [
+        "M-34"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "M",
+          "printedUnit": "M-34",
+          "printedName": "Geox",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-M-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": null,
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/M.webp",
+          "sha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530",
+          "sourcePixels": [
+            [
+              610,
+              631
+            ],
+            [
+              694,
+              631
+            ],
+            [
+              694,
+              667
+            ],
+            [
+              610,
+              667
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-stradivarius",
+      "name": "Stradivarius",
+      "floor": "L2",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l2-003"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l2-003"
+      ],
+      "printedUnits": [
+        "L2-06"
+      ],
+      "tracedUnits": [
+        "L2-06"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L2",
+          "printedUnit": "L2-06",
+          "printedName": "Stradivarius",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L2-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Stradivarius",
+        "floorClaim": "Tầng 2",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\stradivarius-vincom-center-dong-khoi.html",
+        "profileSha256": "4f8810e66be69fed4b00a212e70c1ad06c989d9b1c637a4f73be3a90b2fdb93b"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L2.webp",
+          "sha256": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029",
+          "sourcePixels": [
+            [
+              105,
+              487
+            ],
+            [
+              146,
+              487
+            ],
+            [
+              146,
+              586
+            ],
+            [
+              166,
+              586
+            ],
+            [
+              166,
+              640
+            ],
+            [
+              251,
+              640
+            ],
+            [
+              251,
+              484
+            ],
+            [
+              358,
+              484
+            ],
+            [
+              358,
+              756
+            ],
+            [
+              105,
+              756
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-dookkidookki",
+      "name": "Dookki Dookki",
+      "floor": "L3",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l3-004"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l3-004"
+      ],
+      "printedUnits": [
+        "L3-06-07"
+      ],
+      "tracedUnits": [
+        "L3-06-07"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L3",
+          "printedUnit": "L3-06-07",
+          "printedName": "Dookki Dookki",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Dookki",
+        "floorClaim": "Tầng 3",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\dookki-vincom-center-dong-khoi.html",
+        "profileSha256": "db9adfd446898a7fbb66ea06495c8fe215679a1390be01f86cae59d1caf6b276"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L3.webp",
+          "sha256": "629d9860433bacc381daede046513190e2d6877bf88f99907eafb3f0794bbc70",
+          "sourcePixels": [
+            [
+              377,
+              663
+            ],
+            [
+              500,
+              663
+            ],
+            [
+              500,
+              746
+            ],
+            [
+              377,
+              746
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    },
+    {
+      "destinationId": "vincom-prototype-haidilao",
+      "name": "Haidilao",
+      "floor": "L3",
+      "decision": "accept-source-layout-area-only",
+      "activation": "unapplied-owner-handover-required",
+      "traceIds": [
+        "vincom-prompt1-l3-005"
+      ],
+      "regionIds": [
+        "vincom-prompt1-l3-005"
+      ],
+      "printedUnits": [
+        "L3-08"
+      ],
+      "tracedUnits": [
+        "L3-08"
+      ],
+      "identityEvidence": [
+        {
+          "floor": "L3",
+          "printedUnit": "L3-08",
+          "printedName": "Haidilao",
+          "image": "D:\\Midterm\\docs\\evidence\\unit-hover-coverage-2026-10-17\\vincom-dong-khoi-L3-source.jpg",
+          "review": "Manual full-image legend review21Oct; plan publication date unknown."
+        }
+      ],
+      "archivedProof": {
+        "directory": "evidence/vincom-prompt1/archived-official/directory.html",
+        "cardName": "Haidilao",
+        "floorClaim": "Tầng L3",
+        "profile": "evidence\\vincom-prompt1\\archived-official\\store-pages\\haidilao-vincom-center-dong-khoi.html",
+        "profileSha256": "5f023b98e1d54fb4b83abec240bef32851adbed381d97f2416ff321e74427652"
+      },
+      "rasterProof": [
+        {
+          "path": "assets/vincom-dong-khoi/maps/L3.webp",
+          "sha256": "629d9860433bacc381daede046513190e2d6877bf88f99907eafb3f0794bbc70",
+          "sourcePixels": [
+            [
+              493,
+              493
+            ],
+            [
+              577,
+              493
+            ],
+            [
+              577,
+              486
+            ],
+            [
+              601,
+              486
+            ],
+            [
+              601,
+              605
+            ],
+            [
+              741,
+              605
+            ],
+            [
+              741,
+              746
+            ],
+            [
+              501,
+              746
+            ],
+            [
+              501,
+              664
+            ],
+            [
+              493,
+              644
+            ]
+          ]
+        }
+      ],
+      "notes": [],
+      "limits": "Supplied undated schematic plan only; not current occupancy, exact door, whole premises, or route acceptance."
+    }
+  ]
+}

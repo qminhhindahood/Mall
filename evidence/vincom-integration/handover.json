@@ -1,0 +1,38 @@
+{
+  "ownerPermission": "Grant the isolated Vincom integration handover",
+  "approvedBase": "b9ad0dce086afef592d59e67efc88579605dcc82",
+  "reconciledCheckpoint": "c274ef8",
+  "r12DepartmentLoaderPreserved": true,
+  "patchPayloads": [
+    {
+      "path": "scripts/approved-overlay.mjs",
+      "bytes": 2659,
+      "sha256": "e9c873b927d05162c2722ab0d2b9639596f27f4cfb60e085b22c096e547543cc"
+    },
+    {
+      "path": "scripts/vincom-segmentation-overlay.mjs",
+      "bytes": 9073,
+      "sha256": "557f118974c2505d1b2627eb764c545d8159a9b4f9b6b1a1a93de8470218a1f5"
+    },
+    {
+      "path": "src/data/site.ts",
+      "bytes": 9414,
+      "sha256": "1f47bc3bea5e13896bd3739d05f29bb7a802a785f29a97755dba0493c18cce4c"
+    },
+    {
+      "path": "scripts/vincom-prompt1-overlay.mjs",
+      "bytes": 5479,
+      "sha256": "05d7c1f74d3033c07209a8a22b4b47a2b8f7722435dce1029eeb0610dc7ba765"
+    },
+    {
+      "path": "data/research/vincom-mapping-prompt1-2026-10-21-r2.json",
+      "bytes": 905892,
+      "sha256": "f3e3403c00fe786a62b1bf4c7b90cc729f7c9169822287de35d8608aea59a707"
+    },
+    {
+      "path": "evidence/vincom-prompt1-review-r2/association-decisions-r2.json",
+      "bytes": 137036,
+      "sha256": "dfd39778c34cd3d50787e99d7b5904b68af440d436547a702ad31712f46ad62b"
+    }
+  ]
+}

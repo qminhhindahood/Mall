@@ -1,6 +1,7 @@
 import {readFileSync} from 'node:fs';
 import {resolve} from 'node:path';
 import {createHash} from 'node:crypto';
+import {prompt1PriorGeometryRevision} from './vincom-prompt1-overlay.mjs';
 
 const packetPath = 'data/research/vincom-derived-segmentation-2026-10-21-r7.json';
 // Changing activation or any derived geometry requires a new reviewed identity.
@@ -74,7 +75,7 @@ export function derivedGeometry(root,mallId,source) {
 
 export function deriveSegmentedDirectory(snapshot,geometry,packet) {
   if (snapshot.revision !== packet.baseDirectoryRevision) fail('directory revision drift');
-  if (geometry.revision !== `${packet.approvedGeometryRevision}+${packet.revision}`) fail('directory/geometry pipeline mismatch');
+  if (prompt1PriorGeometryRevision(geometry) !== `${packet.approvedGeometryRevision}+${packet.revision}`) fail('directory/geometry pipeline mismatch');
   for (const id of packet.protectedDestinationIds) {
     const destination = snapshot.destinations.find(row => row.id === id);
     if (!destination || destination.locations.some(location => location.areaIds.length || location.certainty !== 'floor-confirmed')) fail(`precision hold drift: ${id}`);

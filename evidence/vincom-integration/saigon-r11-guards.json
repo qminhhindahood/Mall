@@ -1,0 +1,47 @@
+{
+  "checksPassed": 22,
+  "checks": [
+    "Exactly three listed destinations change",
+    "Exactly three new areas; prior areas preserved",
+    "saigon-prototype-thehourglass: exact unchanged contour and partial source-area provenance",
+    "saigon-prototype-thehourglass: source hash drift rejected",
+    "saigon-prototype-thehourglass: contour drift rejected",
+    "saigon-prototype-moschino: exact unchanged contour and partial source-area provenance",
+    "saigon-prototype-moschino: source hash drift rejected",
+    "saigon-prototype-moschino: contour drift rejected",
+    "saigon-prototype-yakinikulike: exact unchanged contour and partial source-area provenance",
+    "saigon-prototype-yakinikulike: source hash drift rejected",
+    "saigon-prototype-yakinikulike: contour drift rejected",
+    "All remaining Saigon protected locations remain floor-only",
+    "Unaccepted activation remains inert",
+    "Wrong review decision rejected",
+    "Duplicate association rejected",
+    "Source transform drift rejected",
+    "Directory revision drift rejected",
+    "saigon-centre: routing network exactly unchanged",
+    "Vincom content unchanged at authoring boundary",
+    "vincom-dong-khoi: routing network exactly unchanged",
+    "199 area-linked listings total",
+    "41 directed journeys unchanged"
+  ],
+  "summary": [
+    {
+      "mallId": "saigon-centre",
+      "listings": 165,
+      "mapped": 161,
+      "floorOnly": 4,
+      "directedJourneys": 5,
+      "approaches": 5,
+      "connectedEntrances": 0
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "listings": 203,
+      "mapped": 38,
+      "floorOnly": 165,
+      "directedJourneys": 36,
+      "approaches": 8,
+      "connectedEntrances": 0
+    }
+  ]
+}

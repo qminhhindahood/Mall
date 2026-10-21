@@ -1,0 +1,1458 @@
+{
+  "decisions": [
+    {
+      "traceId": "vincom-prompt1-l2-001",
+      "floor": "L2",
+      "printedUnit": "L2-02",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-hm"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed. Additional floor hold: [{\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"M\", \"official\": \"Tầng 2\"}]. No association proposed on those conflicted floors."
+      ],
+      "sourceSha256": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029"
+    },
+    {
+      "traceId": "vincom-prompt1-l2-002",
+      "floor": "L2",
+      "printedUnit": "L2-07",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-valentinocreations"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Supplied plan and archived official branch floor differ: [{\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"L2\", \"official\": \"Tầng hầm B2\"}]. Need dated branch/floor evidence resolving the conflict; trace remains unassociated."
+      ],
+      "sourceSha256": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029"
+    },
+    {
+      "traceId": "vincom-prompt1-l2-003",
+      "floor": "L2",
+      "printedUnit": "L2-06",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-stradivarius"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "82d79221bcf667d472db83832c3438a9765d11e185d29548a679ec2a9d75c029"
+    },
+    {
+      "traceId": "vincom-prompt1-l3-004",
+      "floor": "L3",
+      "printedUnit": "L3-06-07",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-dookkidookki"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "629d9860433bacc381daede046513190e2d6877bf88f99907eafb3f0794bbc70"
+    },
+    {
+      "traceId": "vincom-prompt1-l3-005",
+      "floor": "L3",
+      "printedUnit": "L3-08",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-haidilao"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "629d9860433bacc381daede046513190e2d6877bf88f99907eafb3f0794bbc70"
+    },
+    {
+      "traceId": "vincom-prompt1-m-006",
+      "floor": "M",
+      "printedUnit": "M-06",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-zara"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed. Additional floor hold: [{\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"M\", \"official\": \"Tầng 1\"}]. No association proposed on those conflicted floors."
+      ],
+      "sourceSha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+    },
+    {
+      "traceId": "vincom-prompt1-m-007",
+      "floor": "M",
+      "printedUnit": "M-07",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-x-070"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+    },
+    {
+      "traceId": "vincom-prompt1-m-008",
+      "floor": "M",
+      "printedUnit": "M-15-19",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-hm"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed. Additional floor hold: [{\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"M\", \"official\": \"Tầng 2\"}]. No association proposed on those conflicted floors."
+      ],
+      "sourceSha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+    },
+    {
+      "traceId": "vincom-prompt1-m-009",
+      "floor": "M",
+      "printedUnit": "M-31-32",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-x-073"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Printed source identity conflicts with other retained branch/unit claims: Karl Lagerfeld (vincom-prototype-karllagerfeld). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant."
+      ],
+      "sourceSha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+    },
+    {
+      "traceId": "vincom-prompt1-m-010",
+      "floor": "M",
+      "printedUnit": "M-33",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-x-074"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+    },
+    {
+      "traceId": "vincom-prompt1-m-011",
+      "floor": "M",
+      "printedUnit": "M-34",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-x-075"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+    },
+    {
+      "traceId": "vincom-prompt1-m-012",
+      "floor": "M",
+      "printedUnit": "M-04-05",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-x-068"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Printed source identity conflicts with other retained branch/unit claims: Polo Ralph Lauren (vincom-prototype-poloralphlauren). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant."
+      ],
+      "sourceSha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+    },
+    {
+      "traceId": "vincom-prompt1-m-013",
+      "floor": "M",
+      "printedUnit": "M-04B1",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-pandora"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+    },
+    {
+      "traceId": "vincom-prompt1-m-014",
+      "floor": "M",
+      "printedUnit": "M-04B2",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-swarovski"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+    },
+    {
+      "traceId": "vincom-prompt1-m-015",
+      "floor": "M",
+      "printedUnit": "M-02B-03",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-x-065"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+    },
+    {
+      "traceId": "vincom-prompt1-m-016",
+      "floor": "M",
+      "printedUnit": "M-01-02A",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-tommyhilfiger"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "7f13ba0bffaa900d8f3f7b13a55c8580a902268376b07ab70aa60cfa4ce90530"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-017",
+      "floor": "L1",
+      "printedUnit": "name:ZARA",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-zara"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed. Additional floor hold: [{\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"M\", \"official\": \"Tầng 1\"}]. No association proposed on those conflicted floors."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-018",
+      "floor": "L1",
+      "printedUnit": "name:Massimo Duti",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-massimodutti"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-019",
+      "floor": "L1",
+      "printedUnit": "L1-04",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-lancome"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-020",
+      "floor": "L1",
+      "printedUnit": "L1-05",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-kiehls"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-021",
+      "floor": "L1",
+      "printedUnit": "L1-06",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-cledepeaubeaute"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-022",
+      "floor": "L1",
+      "printedUnit": "L1-45",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-innisfree"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Supplied plan and archived official branch floor differ: [{\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"L1\", \"official\": \"Tầng hầm B1\"}]. Need dated branch/floor evidence resolving the conflict; trace remains unassociated."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-023",
+      "floor": "L1",
+      "printedUnit": "L1-46A",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-l1-006"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Printed source identity conflicts with other retained branch/unit claims: Escentric Signature (vincom-prototype-escentricsignature). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-024",
+      "floor": "L1",
+      "printedUnit": "L1-46BC",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-l1-007"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Printed source identity conflicts with other retained branch/unit claims: Passiflores Beauty (vincom-prototype-passifloresbeauty). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-025",
+      "floor": "L1",
+      "printedUnit": "L1-47A",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-l1-008"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-026",
+      "floor": "L1",
+      "printedUnit": "L1-47B",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-sulwhasoo"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-027",
+      "floor": "L1",
+      "printedUnit": "L1-48",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-viinriicnicheperfume"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-028",
+      "floor": "L1",
+      "printedUnit": "L1-49",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-tgnhthegioinuochoa"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-029",
+      "floor": "L1",
+      "printedUnit": "L1-50",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-l1-012"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-030",
+      "floor": "L1",
+      "printedUnit": "L1-51",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-dior"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-031",
+      "floor": "L1",
+      "printedUnit": "L1-52A",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-esteelauder"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-032",
+      "floor": "L1",
+      "printedUnit": "L1-52B",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-l1-015"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-033",
+      "floor": "L1",
+      "printedUnit": "L1-53",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-shiseido"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-034",
+      "floor": "L1",
+      "printedUnit": "L1-54",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-nars"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-l1-035",
+      "floor": "L1",
+      "printedUnit": "L1-56",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-bobbibrown"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "c3b7344f118dfe7fb174330ddcfe0f83d5320fc72b4eb92e3e0d86d09f0237c8"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-036",
+      "floor": "B3",
+      "printedUnit": "B3-28D",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b3-002"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-037",
+      "floor": "B3",
+      "printedUnit": "B3-28EF",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b3-019"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-038",
+      "floor": "B3",
+      "printedUnit": "B3-26",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-meatmeet"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-039",
+      "floor": "B3",
+      "printedUnit": "B3-18A",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-hachiban"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-040",
+      "floor": "B3",
+      "printedUnit": "B3-18B",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b3-005"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Printed source identity conflicts with other retained branch/unit claims: Tian Long (vincom-prototype-tianlong). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-041",
+      "floor": "B3",
+      "printedUnit": "B3-19B",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b3-022"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Printed source identity conflicts with other retained branch/unit claims: Long Wang (vincom-prototype-longwang). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-042",
+      "floor": "B3",
+      "printedUnit": "B3-19A",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-huedelights"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Printed source identity conflicts with other retained branch/unit claims: Tous Les Jours (vincom-prototype-touslesjours). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-043",
+      "floor": "B3",
+      "printedUnit": "B3-22",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-wraproll"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-044",
+      "floor": "B3",
+      "printedUnit": "B3-21",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b3-024"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-045",
+      "floor": "B3",
+      "printedUnit": "B3-20",
+      "decision": "accept-shared-source-trace-only",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-boatnoodle",
+        "vincom-prototype-bkkstreetdessert"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "B3-20 legend jointly names Boat Noodle and BKK Street Dessert. Shared identity/area representation needs coordinator decision; do not label whole parent as an exclusive shop.",
+        "B3-20 legend jointly names Boat Noodle and BKK Street Dessert. Shared identity/area representation needs coordinator decision; do not label whole parent as an exclusive shop."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-046",
+      "floor": "B3",
+      "printedUnit": "B3-27",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b3-007"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-047",
+      "floor": "B3",
+      "printedUnit": "B3-10A",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-cafecong"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-048",
+      "floor": "B3",
+      "printedUnit": "B3-10B",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-kingbbq"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-049",
+      "floor": "B3",
+      "printedUnit": "B3-10C",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b3-032"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Printed source identity conflicts with other retained branch/unit claims: Kohaku Udon Ramen (vincom-prototype-kohakuudonramen). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-050",
+      "floor": "B3",
+      "printedUnit": "B3-16A",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b3-028"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Printed source identity conflicts with other retained branch/unit claims: Yakiniku Like (vincom-prototype-yakinikulike). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-051",
+      "floor": "B3",
+      "printedUnit": "B3-16B",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-morico"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-052",
+      "floor": "B3",
+      "printedUnit": "B3-15C",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b3-026"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Printed source identity conflicts with other retained branch/unit claims: The Matcha Tokyo (vincom-prototype-thematchatokyo). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-053",
+      "floor": "B3",
+      "printedUnit": "B3-15B",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b3-017"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-054",
+      "floor": "B3",
+      "printedUnit": "B3-07",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-hokkaidosachi"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-055",
+      "floor": "B3",
+      "printedUnit": "B3-06",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-bastahiro"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-056",
+      "floor": "B3",
+      "printedUnit": "B3-05",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-somthai"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-057",
+      "floor": "B3",
+      "printedUnit": "B3-04",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-comtammoc"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b3-058",
+      "floor": "B3",
+      "printedUnit": "B3-08-09",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-koithe"
+      ],
+      "activeContourOverlaps": [
+        {
+          "areaId": "research-b3-b3-02-03",
+          "regionId": "B3-region-017",
+          "intersectionArea": 0.020000000000000212
+        }
+      ],
+      "reasons": [
+        "Trace intersects an existing active association. Coordinator must reconcile exact residual/overlap evidence before activation: vincom-prompt1-b3-058"
+      ],
+      "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89"
+    },
+    {
+      "traceId": "vincom-prompt1-b2-059",
+      "floor": "B2",
+      "printedUnit": "B2-18",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b2-014"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "traceId": "vincom-prompt1-b2-060",
+      "floor": "B2",
+      "printedUnit": "B2-17H",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b2-009"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "traceId": "vincom-prompt1-b2-061",
+      "floor": "B2",
+      "printedUnit": "B2-17I",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-pnj"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Supplied plan and archived official branch floor differ: [{\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"B2\", \"official\": \"Tầng hầm B1\"}]. Need dated branch/floor evidence resolving the conflict; trace remains unassociated."
+      ],
+      "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "traceId": "vincom-prompt1-b2-062",
+      "floor": "B2",
+      "printedUnit": "B2-17J",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-pnj"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Supplied plan and archived official branch floor differ: [{\"kind\": \"preview-floor-vs-live-directory\", \"preview\": \"B2\", \"official\": \"Tầng hầm B1\"}]. Need dated branch/floor evidence resolving the conflict; trace remains unassociated."
+      ],
+      "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "traceId": "vincom-prompt1-b2-063",
+      "floor": "B2",
+      "printedUnit": "B2-49",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b2-004"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Printed source identity conflicts with other retained branch/unit claims: Crocs (vincom-prototype-crocs). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant."
+      ],
+      "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "traceId": "vincom-prompt1-b2-064",
+      "floor": "B2",
+      "printedUnit": "B2-50",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b2-005"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Printed source identity conflicts with other retained branch/unit claims: Pucini (vincom-prototype-pucini). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant."
+      ],
+      "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "traceId": "vincom-prompt1-b2-065",
+      "floor": "B2",
+      "printedUnit": "B2-51",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b2-006"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "traceId": "vincom-prompt1-b2-066",
+      "floor": "B2",
+      "printedUnit": "B2-52",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b2-007"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "traceId": "vincom-prompt1-b2-067",
+      "floor": "B2",
+      "printedUnit": "B2-01B",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-amara"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "traceId": "vincom-prompt1-b2-068",
+      "floor": "B2",
+      "printedUnit": "B2-01C",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b2-016"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Printed source identity conflicts with other retained branch/unit claims: An Phước (vincom-prototype-anphuoc). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant."
+      ],
+      "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "traceId": "vincom-prompt1-b2-069",
+      "floor": "B2",
+      "printedUnit": "B2-01D",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b2-017"
+      ],
+      "activeContourOverlaps": [
+        {
+          "areaId": "research-b2-b2-55-56",
+          "regionId": "B2-region-026",
+          "intersectionArea": 0.09000000000000095
+        }
+      ],
+      "reasons": [
+        "Trace intersects an existing active association. Coordinator must reconcile exact residual/overlap evidence before activation: vincom-prompt1-b2-069"
+      ],
+      "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "traceId": "vincom-prompt1-b2-070",
+      "floor": "B2",
+      "printedUnit": "B2-05",
+      "decision": "hold-association-retain-source-trace",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b2-018"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Printed source identity conflicts with other retained branch/unit claims: Adidas (vincom-prototype-adidas). Need dated branch-specific evidence resolving chronology and boundary. A printed old identity is insufficient to assign the area to either claimant."
+      ],
+      "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "traceId": "vincom-prompt1-b2-071",
+      "floor": "B2",
+      "printedUnit": "B2-02-02A",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-starbucks"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "traceId": "vincom-prompt1-b2-072",
+      "floor": "B2",
+      "printedUnit": "B2-03",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b2-036"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-073",
+      "floor": "B1",
+      "printedUnit": "B1-01",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b1-001"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-074",
+      "floor": "B1",
+      "printedUnit": "B1-03-04",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-charleskeith"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-075",
+      "floor": "B1",
+      "printedUnit": "B1-05",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-charleskeith"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-076",
+      "floor": "B1",
+      "printedUnit": "B1-10-11",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-gigi"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-077",
+      "floor": "B1",
+      "printedUnit": "B1-22A",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b1-007"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-078",
+      "floor": "B1",
+      "printedUnit": "B1-22B",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b1-008"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-079",
+      "floor": "B1",
+      "printedUnit": "B1-23B",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b1-008"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-080",
+      "floor": "B1",
+      "printedUnit": "B1-23A",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b1-009"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-081",
+      "floor": "B1",
+      "printedUnit": "B1-24",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-lyn"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-082",
+      "floor": "B1",
+      "printedUnit": "B1-25",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-ecco"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-083",
+      "floor": "B1",
+      "printedUnit": "B1-26-27",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-pedro"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-084",
+      "floor": "B1",
+      "printedUnit": "B1-28A",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-havaianas"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-085",
+      "floor": "B1",
+      "printedUnit": "B1-28D",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-mlb"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-086",
+      "floor": "B1",
+      "printedUnit": "B1-28E",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-skechers"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-087",
+      "floor": "B1",
+      "printedUnit": "B1-31-32A",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-cottonon"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-088",
+      "floor": "B1",
+      "printedUnit": "B1-32B-32C",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b1-023"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-089",
+      "floor": "B1",
+      "printedUnit": "B1-33-37",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b1-024"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-090",
+      "floor": "B1",
+      "printedUnit": "B1-38-39-46",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b1-025"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-091",
+      "floor": "B1",
+      "printedUnit": "B1-48-48A",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-candidate-vd-b1-027"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-092",
+      "floor": "B1",
+      "printedUnit": "B1-52",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-levis"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-093",
+      "floor": "B1",
+      "printedUnit": "B1-53",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-gap"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-094",
+      "floor": "B1",
+      "printedUnit": "B1-56",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-adidasoriginals"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-095",
+      "floor": "B1",
+      "printedUnit": "B1-57-58",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-dyson"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Only printed B1-57 is traced; B1-58 extent is unresolved. Independent review and integration pending."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    },
+    {
+      "traceId": "vincom-prompt1-b1-096",
+      "floor": "B1",
+      "printedUnit": "B1-54",
+      "decision": "accept-source-trace-linked",
+      "sourceOutlineReview": "Original raster and blue trace overlay inspected; perimeter follows visible unit at schematic raster precision. 1–3 pixels is an author estimate, not a measured maximum.",
+      "matchingDestinationIds": [
+        "vincom-prototype-calvinklein"
+      ],
+      "activeContourOverlaps": [],
+      "reasons": [
+        "Independent trace/residual review and shared-loader integration/handover pending. No production selection or count increase claimed."
+      ],
+      "sourceSha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4"
+    }
+  ]
+}

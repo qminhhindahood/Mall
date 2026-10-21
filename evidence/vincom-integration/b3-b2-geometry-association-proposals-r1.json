@@ -1,0 +1,3338 @@
+{
+  "revision": "vincom-completion-b3-b2-2026-10-21-r1",
+  "mallId": "vincom-dong-khoi",
+  "activation": "proposal-only; independent review and coordinator integration required",
+  "baseDeliveryCommit": "d389030a23417160574a909cdf4545e334bf4811",
+  "baseRestoreCommit": "2b33902ce1f66e74d4a8a47763ccfcf91b42378c",
+  "coordinatorCheckpoint": "b9ad0dce086afef592d59e67efc88579605dcc82",
+  "basePacketSha256": "5ad6c756acffadcaa6c142f5f727416550664e5ae6678c2d57fc57a5eaeb4d64",
+  "baseRuntimeSha256": "80b1bf4e630d5c9b7e863128959e48796a60a992a3c8d3bbe7fa2d2c76590fb4",
+  "sourceRasterHashes": {
+    "B3": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+    "B2": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713"
+  },
+  "newGeometry": [
+    {
+      "sourceTraceId": "vincom-prompt1-b3-045",
+      "floorId": "B3",
+      "newRegionId": "vincom-prompt1-b3-045",
+      "kind": "shared-source-layout",
+      "destinationIds": [
+        "vincom-prototype-boatnoodle",
+        "vincom-prototype-bkkstreetdessert"
+      ],
+      "originalSourceTrace": {
+        "id": "vincom-prompt1-b3-045",
+        "floorId": "B3",
+        "printedUnit": "B3-20",
+        "printedNames": [
+          "Boat Noodle & BKK Street Dessert"
+        ],
+        "sourcePath": "assets/vincom-dong-khoi/maps/B3.webp",
+        "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+        "transform": [
+          0.1,
+          0,
+          0,
+          0.1,
+          -66,
+          -53.85
+        ],
+        "sourcePixels": [
+          [
+            374,
+            395
+          ],
+          [
+            397,
+            372
+          ],
+          [
+            420,
+            396
+          ],
+          [
+            420,
+            443
+          ],
+          [
+            393,
+            443
+          ]
+        ],
+        "region": {
+          "id": "vincom-prompt1-b3-045",
+          "outer": [
+            [
+              -28.6,
+              -14.35
+            ],
+            [
+              -26.3,
+              -16.65
+            ],
+            [
+              -24.0,
+              -14.25
+            ],
+            [
+              -24.0,
+              -9.55
+            ],
+            [
+              -26.7,
+              -9.55
+            ]
+          ],
+          "holes": []
+        },
+        "overlappingExistingRegions": [
+          {
+            "regionId": "B3-region-001",
+            "intersectionArea": 22.30838,
+            "fractionOfProposal": 0.98296,
+            "occupiedBy": []
+          }
+        ],
+        "matchingDestinationIds": [
+          "vincom-prototype-boatnoodle",
+          "vincom-prototype-bkkstreetdessert"
+        ],
+        "scope": "visible supplied-plan source unit; publication date unknown; not current occupancy, exact door, wall or route",
+        "uncertaintySourcePixels": [
+          1,
+          3
+        ],
+        "vertexBasis": "Manual visible coloured perimeter / printed divider intersections, reviewed against unchanged raster; rounded to source pixels"
+      },
+      "proposedRegion": {
+        "id": "vincom-prompt1-b3-045",
+        "outer": [
+          [
+            -26.7,
+            -9.55
+          ],
+          [
+            -24.0,
+            -9.55
+          ],
+          [
+            -24.0,
+            -14.25
+          ],
+          [
+            -26.3,
+            -16.65
+          ],
+          [
+            -28.6,
+            -14.35
+          ]
+        ],
+        "holes": []
+      },
+      "originalArea": 22.695,
+      "retainedArea": 22.694999999999997,
+      "excludedOccupiedOverlapArea": 3.552713678800501e-15,
+      "retainedFraction": 0.9999999999999999,
+      "operation": "original source trace minus union of unchanged active area polygons",
+      "exclusions": [],
+      "originalSourceUnmodified": true
+    },
+    {
+      "sourceTraceId": "vincom-prompt1-b3-058",
+      "floorId": "B3",
+      "newRegionId": "vincom-prompt1-b3-058-completion-partial-r1",
+      "kind": "partial-source-layout",
+      "destinationIds": [
+        "vincom-prototype-koithe"
+      ],
+      "originalSourceTrace": {
+        "id": "vincom-prompt1-b3-058",
+        "floorId": "B3",
+        "printedUnit": "B3-08-09",
+        "printedNames": [
+          "Koi Thé"
+        ],
+        "sourcePath": "assets/vincom-dong-khoi/maps/B3.webp",
+        "sourceSha256": "ccf11fc15fc9f6efa32ca8a23b395caba1a0e2f248740c0ee0d9c2c6c5e12e89",
+        "transform": [
+          0.1,
+          0,
+          0,
+          0.1,
+          -66,
+          -53.85
+        ],
+        "sourcePixels": [
+          [
+            145,
+            618
+          ],
+          [
+            177,
+            618
+          ],
+          [
+            177,
+            768
+          ],
+          [
+            145,
+            768
+          ]
+        ],
+        "region": {
+          "id": "vincom-prompt1-b3-058",
+          "outer": [
+            [
+              -51.5,
+              7.95
+            ],
+            [
+              -48.3,
+              7.95
+            ],
+            [
+              -48.3,
+              22.95
+            ],
+            [
+              -51.5,
+              22.95
+            ]
+          ],
+          "holes": []
+        },
+        "overlappingExistingRegions": [
+          {
+            "regionId": "B3-region-003",
+            "intersectionArea": 45.965,
+            "fractionOfProposal": 0.9576,
+            "occupiedBy": []
+          },
+          {
+            "regionId": "B3-region-017",
+            "intersectionArea": 0.02,
+            "fractionOfProposal": 0.00042,
+            "occupiedBy": [
+              "vincom-prototype-winmart"
+            ]
+          }
+        ],
+        "matchingDestinationIds": [
+          "vincom-prototype-koithe"
+        ],
+        "scope": "visible supplied-plan source unit; publication date unknown; not current occupancy, exact door, wall or route",
+        "uncertaintySourcePixels": [
+          1,
+          3
+        ],
+        "vertexBasis": "Manual visible coloured perimeter / printed divider intersections, reviewed against unchanged raster; rounded to source pixels"
+      },
+      "proposedRegion": {
+        "id": "vincom-prompt1-b3-058-completion-partial-r1",
+        "outer": [
+          [
+            -48.3,
+            22.95
+          ],
+          [
+            -48.3,
+            7.95
+          ],
+          [
+            -51.5,
+            7.95
+          ],
+          [
+            -51.5,
+            22.65
+          ],
+          [
+            -51.5,
+            22.75
+          ],
+          [
+            -51.3,
+            22.95
+          ],
+          [
+            -50.8,
+            22.95
+          ],
+          [
+            -49.3,
+            22.95
+          ],
+          [
+            -48.4,
+            22.95
+          ]
+        ],
+        "holes": []
+      },
+      "originalArea": 48.00000000000004,
+      "retainedArea": 47.98000000000005,
+      "excludedOccupiedOverlapArea": 0.01999999999999602,
+      "retainedFraction": 0.9995833333333334,
+      "operation": "original source trace minus union of unchanged active area polygons",
+      "exclusions": [
+        {
+          "regionId": "B3-region-017",
+          "intersectionArea": 0.02,
+          "fractionOfProposal": 0.00042,
+          "occupiedBy": [
+            "vincom-prototype-winmart"
+          ]
+        }
+      ],
+      "originalSourceUnmodified": true
+    },
+    {
+      "sourceTraceId": "vincom-prompt1-b2-069",
+      "floorId": "B2",
+      "newRegionId": "vincom-prompt1-b2-069-completion-partial-r1",
+      "kind": "partial-source-layout",
+      "destinationIds": [
+        "vincom-candidate-vd-b2-017"
+      ],
+      "originalSourceTrace": {
+        "id": "vincom-prompt1-b2-069",
+        "floorId": "B2",
+        "printedUnit": "B2-01D",
+        "printedNames": [
+          "GNC"
+        ],
+        "sourcePath": "assets/vincom-dong-khoi/maps/B2.webp",
+        "sourceSha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+        "transform": [
+          0.1,
+          0,
+          0,
+          0.1,
+          -65.95,
+          -54.150000000000006
+        ],
+        "sourcePixels": [
+          [
+            267,
+            763
+          ],
+          [
+            298,
+            763
+          ],
+          [
+            298,
+            775
+          ],
+          [
+            312,
+            775
+          ],
+          [
+            312,
+            827
+          ],
+          [
+            267,
+            827
+          ]
+        ],
+        "region": {
+          "id": "vincom-prompt1-b2-069",
+          "outer": [
+            [
+              -39.25,
+              22.15
+            ],
+            [
+              -36.15,
+              22.15
+            ],
+            [
+              -36.15,
+              23.35
+            ],
+            [
+              -34.75,
+              23.35
+            ],
+            [
+              -34.75,
+              28.55
+            ],
+            [
+              -39.25,
+              28.55
+            ]
+          ],
+          "holes": []
+        },
+        "overlappingExistingRegions": [
+          {
+            "regionId": "B2-region-002",
+            "intersectionArea": 0.155,
+            "fractionOfProposal": 0.00572,
+            "occupiedBy": []
+          },
+          {
+            "regionId": "B2-region-004",
+            "intersectionArea": 25.975,
+            "fractionOfProposal": 0.95778,
+            "occupiedBy": []
+          },
+          {
+            "regionId": "B2-region-026",
+            "intersectionArea": 0.09,
+            "fractionOfProposal": 0.00332,
+            "occupiedBy": [
+              "vincom-prototype-giordano"
+            ]
+          }
+        ],
+        "matchingDestinationIds": [
+          "vincom-candidate-vd-b2-017"
+        ],
+        "scope": "visible supplied-plan source unit; publication date unknown; not current occupancy, exact door, wall or route",
+        "uncertaintySourcePixels": [
+          1,
+          3
+        ],
+        "vertexBasis": "Manual visible coloured perimeter / printed divider intersections, reviewed against unchanged raster; rounded to source pixels"
+      },
+      "proposedRegion": {
+        "id": "vincom-prompt1-b2-069-completion-partial-r1",
+        "outer": [
+          [
+            -34.75,
+            23.35
+          ],
+          [
+            -36.15,
+            23.35
+          ],
+          [
+            -36.15,
+            22.15
+          ],
+          [
+            -39.25,
+            22.15
+          ],
+          [
+            -39.25,
+            28.55
+          ],
+          [
+            -36.55,
+            28.55
+          ],
+          [
+            -35.65,
+            28.55
+          ],
+          [
+            -35.55,
+            28.45
+          ],
+          [
+            -34.85,
+            28.45
+          ],
+          [
+            -34.75,
+            28.35
+          ],
+          [
+            -34.75,
+            28.25
+          ]
+        ],
+        "holes": []
+      },
+      "originalArea": 27.120000000000008,
+      "retainedArea": 27.03000000000001,
+      "excludedOccupiedOverlapArea": 0.08999999999999986,
+      "retainedFraction": 0.9966814159292036,
+      "operation": "original source trace minus union of unchanged active area polygons",
+      "exclusions": [
+        {
+          "regionId": "B2-region-026",
+          "intersectionArea": 0.09,
+          "fractionOfProposal": 0.00332,
+          "occupiedBy": [
+            "vincom-prototype-giordano"
+          ]
+        }
+      ],
+      "originalSourceUnmodified": true
+    }
+  ],
+  "associations": [
+    {
+      "destinationId": "vincom-prototype-boatnoodle",
+      "floorId": "B3",
+      "areaId": "vincom-completion-shared-b3-20-r1",
+      "regionIds": [
+        "vincom-prompt1-b3-045"
+      ],
+      "traceIds": [
+        "vincom-prompt1-b3-045"
+      ],
+      "printedUnits": [
+        "B3-20"
+      ],
+      "originalLocations": [
+        {
+          "floorId": "B3",
+          "certainty": "floor-confirmed",
+          "areaIds": [],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "associationDetail": {
+        "kind": "shared-source-layout",
+        "partial": false,
+        "sharedWith": [
+          "vincom-prototype-boatnoodle",
+          "vincom-prototype-bkkstreetdessert"
+        ],
+        "note": {
+          "en": "Shared approximate area for Boat Noodle and BKK Street Dessert on the supplied plan; individual premises and current occupancy are unverified.",
+          "vi": "Khu vực dùng chung của Boat Noodle và BKK Street Dessert trên sơ đồ được cung cấp; chưa xác minh ranh giới riêng và tình trạng hoạt động hiện tại."
+        }
+      },
+      "reviewStatus": "author-researched-proposal; coordinator independent review and named revision integration pending",
+      "currentOccupancyConfirmed": false,
+      "exactDoor": false
+    },
+    {
+      "destinationId": "vincom-prototype-bkkstreetdessert",
+      "floorId": "B3",
+      "areaId": "vincom-completion-shared-b3-20-r1",
+      "regionIds": [
+        "vincom-prompt1-b3-045"
+      ],
+      "traceIds": [
+        "vincom-prompt1-b3-045"
+      ],
+      "printedUnits": [
+        "B3-20"
+      ],
+      "originalLocations": [
+        {
+          "floorId": "B3",
+          "certainty": "floor-confirmed",
+          "areaIds": [],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "associationDetail": {
+        "kind": "shared-source-layout",
+        "partial": false,
+        "sharedWith": [
+          "vincom-prototype-boatnoodle",
+          "vincom-prototype-bkkstreetdessert"
+        ],
+        "note": {
+          "en": "Shared approximate area for Boat Noodle and BKK Street Dessert on the supplied plan; individual premises and current occupancy are unverified.",
+          "vi": "Khu vực dùng chung của Boat Noodle và BKK Street Dessert trên sơ đồ được cung cấp; chưa xác minh ranh giới riêng và tình trạng hoạt động hiện tại."
+        }
+      },
+      "reviewStatus": "author-researched-proposal; coordinator independent review and named revision integration pending",
+      "currentOccupancyConfirmed": false,
+      "exactDoor": false
+    },
+    {
+      "destinationId": "vincom-prototype-koithe",
+      "floorId": "B3",
+      "areaId": "vincom-completion-area-vincom-prototype-koithe-r1",
+      "regionIds": [
+        "vincom-prompt1-b3-058-completion-partial-r1"
+      ],
+      "traceIds": [
+        "vincom-prompt1-b3-058"
+      ],
+      "printedUnits": [
+        "B3-08-09"
+      ],
+      "originalLocations": [
+        {
+          "floorId": "B3",
+          "certainty": "floor-confirmed",
+          "areaIds": [],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "associationDetail": {
+        "kind": "partial-source-layout",
+        "partial": true,
+        "sharedWith": [],
+        "note": {
+          "en": "Partial area within the supplied-plan unit only. The overlap with an unchanged active neighbouring area is excluded; the whole premises and current occupancy are unverified.",
+          "vi": "Chỉ hiển thị một phần khu vực trên sơ đồ được cung cấp. Đã loại phần giao với khu vực lân cận đang được gán; chưa xác minh toàn bộ mặt bằng và tình trạng hoạt động hiện tại."
+        }
+      },
+      "reviewStatus": "author-researched-proposal; coordinator independent review and named revision integration pending",
+      "currentOccupancyConfirmed": false,
+      "exactDoor": false
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-017",
+      "floorId": "B2",
+      "areaId": "vincom-completion-area-vincom-candidate-vd-b2-017-r1",
+      "regionIds": [
+        "vincom-prompt1-b2-069-completion-partial-r1"
+      ],
+      "traceIds": [
+        "vincom-prompt1-b2-069"
+      ],
+      "printedUnits": [
+        "B2-01D"
+      ],
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "floor-confirmed",
+          "areaIds": [],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "associationDetail": {
+        "kind": "partial-source-layout",
+        "partial": true,
+        "sharedWith": [],
+        "note": {
+          "en": "Partial area within the supplied-plan unit only. The overlap with an unchanged active neighbouring area is excluded; the whole premises and current occupancy are unverified.",
+          "vi": "Chỉ hiển thị một phần khu vực trên sơ đồ được cung cấp. Đã loại phần giao với khu vực lân cận đang được gán; chưa xác minh toàn bộ mặt bằng và tình trạng hoạt động hiện tại."
+        }
+      },
+      "reviewStatus": "author-researched-proposal; coordinator independent review and named revision integration pending",
+      "currentOccupancyConfirmed": false,
+      "exactDoor": false
+    }
+  ],
+  "incrementalNeutralResiduals": [
+    {
+      "floorId": "B3",
+      "baseParentId": "B3-region-001",
+      "replaceAfterPrompt1RegionIds": [
+        "B3-region-001",
+        "B3-region-001-prompt1-residual-1",
+        "B3-region-001-prompt1-residual-2",
+        "B3-region-001-prompt1-residual-3",
+        "B3-region-001-prompt1-residual-4",
+        "B3-region-001-prompt1-residual-5",
+        "B3-region-001-prompt1-residual-6",
+        "B3-region-001-prompt1-residual-7",
+        "B3-region-001-prompt1-residual-8",
+        "B3-region-001-prompt1-residual-9"
+      ],
+      "originalAfterPrompt1": [
+        {
+          "id": "B3-region-001",
+          "outer": [
+            [
+              -38.7,
+              -26.15
+            ],
+            [
+              -38.7,
+              -25.95
+            ],
+            [
+              -38.8,
+              -25.85
+            ],
+            [
+              -38.8,
+              -25.15
+            ],
+            [
+              -38.7,
+              -25.05
+            ],
+            [
+              -38.7,
+              -24.45
+            ],
+            [
+              -38.6,
+              -24.35
+            ],
+            [
+              -38.6,
+              -24.05
+            ],
+            [
+              -38.5,
+              -23.95
+            ],
+            [
+              -38.5,
+              -23.65
+            ],
+            [
+              -38.0,
+              -23.15
+            ],
+            [
+              -37.93599999999999,
+              -23.15
+            ],
+            [
+              -38.4,
+              -23.55
+            ],
+            [
+              -38.5,
+              -26.15
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B3-region-001"
+        },
+        {
+          "id": "B3-region-001-prompt1-residual-1",
+          "outer": [
+            [
+              -37.6,
+              -22.85
+            ],
+            [
+              -37.6,
+              -22.75
+            ],
+            [
+              -37.472,
+              -22.75
+            ],
+            [
+              -37.67500000000001,
+              -22.92500000000001
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B3-region-001"
+        },
+        {
+          "id": "B3-region-001-prompt1-residual-2",
+          "outer": [
+            [
+              -36.9,
+              -22.25
+            ],
+            [
+              -36.891999999999996,
+              -22.25
+            ],
+            [
+              -36.95,
+              -22.300000000000008
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B3-region-001"
+        },
+        {
+          "id": "B3-region-001-prompt1-residual-3",
+          "outer": [
+            [
+              -32.0,
+              -17.55
+            ],
+            [
+              -32.0,
+              -17.45
+            ],
+            [
+              -29.3,
+              -19.95
+            ],
+            [
+              -26.4,
+              -16.85
+            ],
+            [
+              -28.7,
+              -14.45
+            ],
+            [
+              -29.1,
+              -14.35
+            ],
+            [
+              -28.9,
+              -14.15
+            ],
+            [
+              -28.7,
+              -14.15
+            ],
+            [
+              -28.5,
+              -13.95
+            ],
+            [
+              -28.5,
+              -13.75
+            ],
+            [
+              -28.4,
+              -13.65
+            ],
+            [
+              -28.4,
+              -13.45
+            ],
+            [
+              -28.3,
+              -13.35
+            ],
+            [
+              -28.3,
+              -13.25
+            ],
+            [
+              -28.0,
+              -12.95
+            ],
+            [
+              -28.0,
+              -12.65
+            ],
+            [
+              -27.9,
+              -12.55
+            ],
+            [
+              -27.9,
+              -12.35
+            ],
+            [
+              -27.8,
+              -12.25
+            ],
+            [
+              -27.8,
+              -12.15
+            ],
+            [
+              -27.7,
+              -12.05
+            ],
+            [
+              -27.7,
+              -11.95
+            ],
+            [
+              -27.6,
+              -11.85
+            ],
+            [
+              -27.6,
+              -11.55
+            ],
+            [
+              -27.4,
+              -11.35
+            ],
+            [
+              -27.4,
+              -11.25
+            ],
+            [
+              -27.3,
+              -11.15
+            ],
+            [
+              -27.3,
+              -11.05
+            ],
+            [
+              -27.2,
+              -10.95
+            ],
+            [
+              -27.2,
+              -10.85
+            ],
+            [
+              -27.1,
+              -10.75
+            ],
+            [
+              -27.1,
+              -10.45
+            ],
+            [
+              -26.9,
+              -10.25
+            ],
+            [
+              -26.9,
+              -10.15
+            ],
+            [
+              -26.8,
+              -10.05
+            ],
+            [
+              -26.8,
+              -9.95
+            ],
+            [
+              -26.7,
+              -9.85
+            ],
+            [
+              -26.7,
+              -9.75
+            ],
+            [
+              -26.6,
+              -9.75
+            ],
+            [
+              -26.5,
+              -9.65
+            ],
+            [
+              -24.3,
+              -9.65
+            ],
+            [
+              -24.2,
+              -9.75
+            ],
+            [
+              -23.9,
+              -9.75
+            ],
+            [
+              -23.9,
+              -14.35
+            ],
+            [
+              -26.3,
+              -16.95
+            ],
+            [
+              -27.7,
+              -18.35
+            ],
+            [
+              -27.7,
+              -26.15
+            ],
+            [
+              -27.8,
+              -26.05
+            ],
+            [
+              -27.8,
+              -18.95
+            ],
+            [
+              -29.3,
+              -20.15
+            ],
+            [
+              -32.04814814814815,
+              -17.598148148148148
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B3-region-001"
+        },
+        {
+          "id": "B3-region-001-prompt1-residual-4",
+          "outer": [
+            [
+              -31.5,
+              -16.65
+            ],
+            [
+              -31.474999999999998,
+              -16.624999999999996
+            ],
+            [
+              -31.5,
+              -16.664285714285715
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B3-region-001"
+        },
+        {
+          "id": "B3-region-001-prompt1-residual-5",
+          "outer": [
+            [
+              -30.8,
+              -15.55
+            ],
+            [
+              -30.775,
+              -15.524999999999997
+            ],
+            [
+              -30.8,
+              -15.564285714285717
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B3-region-001"
+        },
+        {
+          "id": "B3-region-001-prompt1-residual-6",
+          "outer": [
+            [
+              -30.6,
+              -15.25
+            ],
+            [
+              -30.599999999999994,
+              -15.249999999999993
+            ],
+            [
+              -30.6,
+              -15.250000000000004
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B3-region-001"
+        },
+        {
+          "id": "B3-region-001-prompt1-residual-7",
+          "outer": [
+            [
+              -29.3,
+              -14.25
+            ],
+            [
+              -29.233333333333334,
+              -14.316666666666666
+            ],
+            [
+              -29.34,
+              -14.29
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B3-region-001"
+        },
+        {
+          "id": "B3-region-001-prompt1-residual-8",
+          "outer": [
+            [
+              -13.4,
+              -9.75
+            ],
+            [
+              -13.4,
+              -26.25
+            ],
+            [
+              -27.5,
+              -26.25
+            ],
+            [
+              -27.6,
+              -26.15
+            ],
+            [
+              -13.5,
+              -26.15
+            ],
+            [
+              -13.5,
+              -9.75
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B3-region-001"
+        },
+        {
+          "id": "B3-region-001-prompt1-residual-9",
+          "outer": [
+            [
+              -28.4,
+              -26.25
+            ],
+            [
+              -38.2,
+              -26.25
+            ],
+            [
+              -38.3,
+              -26.15
+            ],
+            [
+              -28.3,
+              -26.15
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B3-region-001"
+        }
+      ],
+      "residual": [
+        {
+          "id": "B3-region-001-completion-residual-0",
+          "outer": [
+            [
+              -28.4,
+              -26.25
+            ],
+            [
+              -38.2,
+              -26.25
+            ],
+            [
+              -38.3,
+              -26.15
+            ],
+            [
+              -28.3,
+              -26.15
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-001-completion-residual-1",
+          "outer": [
+            [
+              -38.7,
+              -25.05
+            ],
+            [
+              -38.7,
+              -24.45
+            ],
+            [
+              -38.6,
+              -24.35
+            ],
+            [
+              -38.6,
+              -24.05
+            ],
+            [
+              -38.5,
+              -23.95
+            ],
+            [
+              -38.5,
+              -23.65
+            ],
+            [
+              -38.0,
+              -23.15
+            ],
+            [
+              -37.93599999999999,
+              -23.15
+            ],
+            [
+              -38.4,
+              -23.55
+            ],
+            [
+              -38.5,
+              -26.15
+            ],
+            [
+              -38.7,
+              -26.15
+            ],
+            [
+              -38.7,
+              -25.95
+            ],
+            [
+              -38.8,
+              -25.85
+            ],
+            [
+              -38.8,
+              -25.15
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-001-completion-residual-2",
+          "outer": [
+            [
+              -37.6,
+              -22.85
+            ],
+            [
+              -37.6,
+              -22.75
+            ],
+            [
+              -37.472,
+              -22.75
+            ],
+            [
+              -37.67500000000001,
+              -22.92500000000001
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-001-completion-residual-3",
+          "outer": [
+            [
+              -36.95,
+              -22.300000000000008
+            ],
+            [
+              -36.9,
+              -22.25
+            ],
+            [
+              -36.891999999999996,
+              -22.25
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-001-completion-residual-4",
+          "outer": [
+            [
+              -13.5,
+              -9.75
+            ],
+            [
+              -13.4,
+              -9.75
+            ],
+            [
+              -13.4,
+              -26.25
+            ],
+            [
+              -27.5,
+              -26.25
+            ],
+            [
+              -27.6,
+              -26.15
+            ],
+            [
+              -13.5,
+              -26.15
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-001-completion-residual-5",
+          "outer": [
+            [
+              -28.7,
+              -14.45
+            ],
+            [
+              -29.1,
+              -14.35
+            ],
+            [
+              -28.9,
+              -14.15
+            ],
+            [
+              -28.7,
+              -14.15
+            ],
+            [
+              -28.5,
+              -13.95
+            ],
+            [
+              -28.5,
+              -13.75
+            ],
+            [
+              -28.4,
+              -13.65
+            ],
+            [
+              -28.4,
+              -13.45
+            ],
+            [
+              -28.3,
+              -13.35
+            ],
+            [
+              -28.3,
+              -13.25
+            ],
+            [
+              -28.075862068965517,
+              -13.025862068965518
+            ],
+            [
+              -28.6,
+              -14.35
+            ],
+            [
+              -26.3,
+              -16.65
+            ],
+            [
+              -24.0,
+              -14.25
+            ],
+            [
+              -24.0,
+              -9.75
+            ],
+            [
+              -23.9,
+              -9.75
+            ],
+            [
+              -23.9,
+              -14.35
+            ],
+            [
+              -26.3,
+              -16.95
+            ],
+            [
+              -27.7,
+              -18.35
+            ],
+            [
+              -27.7,
+              -26.15
+            ],
+            [
+              -27.8,
+              -26.05
+            ],
+            [
+              -27.8,
+              -18.95
+            ],
+            [
+              -29.3,
+              -20.15
+            ],
+            [
+              -32.04814814814815,
+              -17.598148148148148
+            ],
+            [
+              -32.0,
+              -17.55
+            ],
+            [
+              -32.0,
+              -17.45
+            ],
+            [
+              -29.3,
+              -19.95
+            ],
+            [
+              -26.4,
+              -16.85
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-001-completion-residual-6",
+          "outer": [
+            [
+              -28.0,
+              -12.65
+            ],
+            [
+              -27.9,
+              -12.55
+            ],
+            [
+              -27.9,
+              -12.35
+            ],
+            [
+              -27.8,
+              -12.25
+            ],
+            [
+              -27.8,
+              -12.15
+            ],
+            [
+              -27.7,
+              -12.05
+            ],
+            [
+              -27.7,
+              -11.95
+            ],
+            [
+              -27.617241379310343,
+              -11.867241379310343
+            ],
+            [
+              -28.0,
+              -12.834210526315788
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-001-completion-residual-7",
+          "outer": [
+            [
+              -27.6,
+              -11.55
+            ],
+            [
+              -27.420689655172414,
+              -11.370689655172415
+            ],
+            [
+              -27.6,
+              -11.823684210526318
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-001-completion-residual-8",
+          "outer": [
+            [
+              -27.4,
+              -11.25
+            ],
+            [
+              -27.355172413793102,
+              -11.205172413793104
+            ],
+            [
+              -27.4,
+              -11.318421052631576
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-001-completion-residual-9",
+          "outer": [
+            [
+              -27.3,
+              -11.05
+            ],
+            [
+              -27.28965517241379,
+              -11.039655172413793
+            ],
+            [
+              -27.3,
+              -11.065789473684212
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-001-completion-residual-10",
+          "outer": [
+            [
+              -27.1,
+              -10.45
+            ],
+            [
+              -27.02758620689655,
+              -10.377586206896549
+            ],
+            [
+              -27.1,
+              -10.560526315789478
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-001-completion-residual-11",
+          "outer": [
+            [
+              -31.474999999999998,
+              -16.624999999999996
+            ],
+            [
+              -31.5,
+              -16.664285714285715
+            ],
+            [
+              -31.5,
+              -16.65
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-001-completion-residual-12",
+          "outer": [
+            [
+              -30.775,
+              -15.524999999999997
+            ],
+            [
+              -30.8,
+              -15.564285714285717
+            ],
+            [
+              -30.8,
+              -15.55
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-001-completion-residual-14",
+          "outer": [
+            [
+              -29.34,
+              -14.29
+            ],
+            [
+              -29.3,
+              -14.25
+            ],
+            [
+              -29.233333333333334,
+              -14.316666666666666
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "removedArea": 22.308384754990925,
+      "areaConservationError": 7.105427357601002e-15
+    },
+    {
+      "floorId": "B3",
+      "baseParentId": "B3-region-003",
+      "replaceAfterPrompt1RegionIds": [
+        "B3-region-003",
+        "B3-region-003-prompt1-residual-1",
+        "B3-region-003-prompt1-residual-2",
+        "B3-region-003-prompt1-residual-3",
+        "B3-region-003-prompt1-residual-4",
+        "B3-region-003-prompt1-residual-5"
+      ],
+      "originalAfterPrompt1": [
+        {
+          "id": "B3-region-003",
+          "outer": [
+            [
+              -49.3,
+              -7.55
+            ],
+            [
+              -38.8,
+              -7.55
+            ],
+            [
+              -38.9,
+              -7.65
+            ],
+            [
+              -49.2,
+              -7.65
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B3-region-003"
+        },
+        {
+          "id": "B3-region-003-prompt1-residual-1",
+          "outer": [
+            [
+              -49.8,
+              -6.55
+            ],
+            [
+              -49.8,
+              -5.45
+            ],
+            [
+              -49.7,
+              -5.35
+            ],
+            [
+              -49.7,
+              -6.65
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B3-region-003"
+        },
+        {
+          "id": "B3-region-003-prompt1-residual-2",
+          "outer": [
+            [
+              -49.8,
+              -4.45
+            ],
+            [
+              -49.8,
+              -4.35
+            ],
+            [
+              -49.9,
+              -4.25
+            ],
+            [
+              -50.1,
+              -4.25
+            ],
+            [
+              -50.2,
+              -4.15
+            ],
+            [
+              -38.3,
+              -4.15
+            ],
+            [
+              -38.4,
+              -4.25
+            ],
+            [
+              -49.7,
+              -4.25
+            ],
+            [
+              -49.7,
+              -4.55
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B3-region-003"
+        },
+        {
+          "id": "B3-region-003-prompt1-residual-3",
+          "outer": [
+            [
+              -50.9,
+              -4.25
+            ],
+            [
+              -51.1,
+              -4.25
+            ],
+            [
+              -51.2,
+              -4.15
+            ],
+            [
+              -50.8,
+              -4.15
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B3-region-003"
+        },
+        {
+          "id": "B3-region-003-prompt1-residual-4",
+          "outer": [
+            [
+              -51.6,
+              -3.85
+            ],
+            [
+              -51.6,
+              -3.75
+            ],
+            [
+              -51.5,
+              -3.65
+            ],
+            [
+              -51.5,
+              -3.95
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B3-region-003"
+        },
+        {
+          "id": "B3-region-003-prompt1-residual-5",
+          "outer": [
+            [
+              -51.3,
+              0.25
+            ],
+            [
+              -51.4,
+              0.35
+            ],
+            [
+              -51.4,
+              0.45
+            ],
+            [
+              -51.5,
+              0.55
+            ],
+            [
+              -51.5,
+              7.45
+            ],
+            [
+              -51.4,
+              7.55
+            ],
+            [
+              -51.4,
+              7.95
+            ],
+            [
+              -51.5,
+              8.05
+            ],
+            [
+              -51.5,
+              14.05
+            ],
+            [
+              -51.6,
+              14.15
+            ],
+            [
+              -51.5,
+              14.25
+            ],
+            [
+              -51.5,
+              14.55
+            ],
+            [
+              -51.6,
+              14.65
+            ],
+            [
+              -51.6,
+              14.75
+            ],
+            [
+              -51.5,
+              14.75
+            ],
+            [
+              -51.4,
+              14.85
+            ],
+            [
+              -51.5,
+              14.95
+            ],
+            [
+              -51.5,
+              22.55
+            ],
+            [
+              -51.4,
+              22.65
+            ],
+            [
+              -51.4,
+              22.75
+            ],
+            [
+              -51.3,
+              22.85
+            ],
+            [
+              -50.8,
+              22.85
+            ],
+            [
+              -50.7,
+              22.95
+            ],
+            [
+              -49.4,
+              22.95
+            ],
+            [
+              -49.3,
+              22.85
+            ],
+            [
+              -48.5,
+              22.85
+            ],
+            [
+              -48.5,
+              22.75
+            ],
+            [
+              -48.4,
+              22.65
+            ],
+            [
+              -48.4,
+              15.05
+            ],
+            [
+              -48.5,
+              15.05
+            ],
+            [
+              -48.8,
+              14.75
+            ],
+            [
+              -48.8,
+              14.15
+            ],
+            [
+              -48.5,
+              13.85
+            ],
+            [
+              -48.4,
+              13.85
+            ],
+            [
+              -48.4,
+              12.45
+            ],
+            [
+              -48.3,
+              12.35
+            ],
+            [
+              -48.3,
+              11.75
+            ],
+            [
+              -48.4,
+              11.65
+            ],
+            [
+              -48.4,
+              8.15
+            ],
+            [
+              -48.3,
+              8.05
+            ],
+            [
+              -48.3,
+              7.85
+            ],
+            [
+              -48.2,
+              7.75
+            ],
+            [
+              -48.1,
+              7.75
+            ],
+            [
+              -48.0,
+              7.65
+            ],
+            [
+              -47.9,
+              7.75
+            ],
+            [
+              -47.7,
+              7.75
+            ],
+            [
+              -47.6,
+              7.65
+            ],
+            [
+              -47.1,
+              7.65
+            ],
+            [
+              -47.0,
+              7.55
+            ],
+            [
+              -47.0,
+              7.35
+            ],
+            [
+              -46.9,
+              7.25
+            ],
+            [
+              -46.9,
+              6.05
+            ],
+            [
+              -46.7,
+              5.85
+            ],
+            [
+              -46.1,
+              5.85
+            ],
+            [
+              -46.0,
+              5.75
+            ],
+            [
+              -41.3,
+              5.75
+            ],
+            [
+              -41.2,
+              5.85
+            ],
+            [
+              -40.6,
+              5.85
+            ],
+            [
+              -40.4,
+              6.05
+            ],
+            [
+              -40.4,
+              7.55
+            ],
+            [
+              -40.3,
+              7.65
+            ],
+            [
+              -40.0,
+              7.65
+            ],
+            [
+              -39.9,
+              7.75
+            ],
+            [
+              -38.7,
+              7.75
+            ],
+            [
+              -38.6,
+              7.65
+            ],
+            [
+              -38.3,
+              7.65
+            ],
+            [
+              -38.3,
+              7.45
+            ],
+            [
+              -38.2,
+              7.35
+            ],
+            [
+              -38.2,
+              0.65
+            ],
+            [
+              -38.3,
+              0.55
+            ],
+            [
+              -38.3,
+              0.35
+            ],
+            [
+              -38.4,
+              0.25
+            ],
+            [
+              -38.4,
+              0.15
+            ],
+            [
+              -51.3,
+              0.15
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B3-region-003"
+        }
+      ],
+      "residual": [
+        {
+          "id": "B3-region-003-completion-residual-0",
+          "outer": [
+            [
+              -49.2,
+              -7.65
+            ],
+            [
+              -49.3,
+              -7.55
+            ],
+            [
+              -38.8,
+              -7.55
+            ],
+            [
+              -38.9,
+              -7.65
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-003-completion-residual-1",
+          "outer": [
+            [
+              -49.8,
+              -6.55
+            ],
+            [
+              -49.8,
+              -5.45
+            ],
+            [
+              -49.7,
+              -5.35
+            ],
+            [
+              -49.7,
+              -6.65
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-003-completion-residual-2",
+          "outer": [
+            [
+              -50.2,
+              -4.15
+            ],
+            [
+              -38.3,
+              -4.15
+            ],
+            [
+              -38.4,
+              -4.25
+            ],
+            [
+              -49.7,
+              -4.25
+            ],
+            [
+              -49.7,
+              -4.55
+            ],
+            [
+              -49.8,
+              -4.45
+            ],
+            [
+              -49.8,
+              -4.35
+            ],
+            [
+              -49.9,
+              -4.25
+            ],
+            [
+              -50.1,
+              -4.25
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-003-completion-residual-3",
+          "outer": [
+            [
+              -50.8,
+              -4.15
+            ],
+            [
+              -50.9,
+              -4.25
+            ],
+            [
+              -51.1,
+              -4.25
+            ],
+            [
+              -51.2,
+              -4.15
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-003-completion-residual-4",
+          "outer": [
+            [
+              -51.6,
+              -3.85
+            ],
+            [
+              -51.6,
+              -3.75
+            ],
+            [
+              -51.5,
+              -3.65
+            ],
+            [
+              -51.5,
+              -3.95
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-003-completion-residual-5",
+          "outer": [
+            [
+              -51.5,
+              7.45
+            ],
+            [
+              -51.4,
+              7.55
+            ],
+            [
+              -51.4,
+              7.95
+            ],
+            [
+              -48.3,
+              7.95
+            ],
+            [
+              -48.3,
+              7.85
+            ],
+            [
+              -48.2,
+              7.75
+            ],
+            [
+              -48.1,
+              7.75
+            ],
+            [
+              -48.0,
+              7.65
+            ],
+            [
+              -47.9,
+              7.75
+            ],
+            [
+              -47.7,
+              7.75
+            ],
+            [
+              -47.6,
+              7.65
+            ],
+            [
+              -47.1,
+              7.65
+            ],
+            [
+              -47.0,
+              7.55
+            ],
+            [
+              -47.0,
+              7.35
+            ],
+            [
+              -46.9,
+              7.25
+            ],
+            [
+              -46.9,
+              6.05
+            ],
+            [
+              -46.7,
+              5.85
+            ],
+            [
+              -46.1,
+              5.85
+            ],
+            [
+              -46.0,
+              5.75
+            ],
+            [
+              -41.3,
+              5.75
+            ],
+            [
+              -41.2,
+              5.85
+            ],
+            [
+              -40.6,
+              5.85
+            ],
+            [
+              -40.4,
+              6.05
+            ],
+            [
+              -40.4,
+              7.55
+            ],
+            [
+              -40.3,
+              7.65
+            ],
+            [
+              -40.0,
+              7.65
+            ],
+            [
+              -39.9,
+              7.75
+            ],
+            [
+              -38.7,
+              7.75
+            ],
+            [
+              -38.6,
+              7.65
+            ],
+            [
+              -38.3,
+              7.65
+            ],
+            [
+              -38.3,
+              7.45
+            ],
+            [
+              -38.2,
+              7.35
+            ],
+            [
+              -38.2,
+              0.65
+            ],
+            [
+              -38.3,
+              0.55
+            ],
+            [
+              -38.3,
+              0.35
+            ],
+            [
+              -38.4,
+              0.25
+            ],
+            [
+              -38.4,
+              0.15
+            ],
+            [
+              -51.3,
+              0.15
+            ],
+            [
+              -51.3,
+              0.25
+            ],
+            [
+              -51.4,
+              0.35
+            ],
+            [
+              -51.4,
+              0.45
+            ],
+            [
+              -51.5,
+              0.55
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-003-completion-residual-6",
+          "outer": [
+            [
+              -51.6,
+              14.15
+            ],
+            [
+              -51.5,
+              14.25
+            ],
+            [
+              -51.5,
+              14.05
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B3-region-003-completion-residual-7",
+          "outer": [
+            [
+              -51.6,
+              14.65
+            ],
+            [
+              -51.6,
+              14.75
+            ],
+            [
+              -51.5,
+              14.75
+            ],
+            [
+              -51.5,
+              14.55
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "removedArea": 45.965000000000025,
+      "areaConservationError": 2.1316282072803006e-14
+    },
+    {
+      "floorId": "B2",
+      "baseParentId": "B2-region-002",
+      "replaceAfterPrompt1RegionIds": [
+        "B2-region-002",
+        "B2-region-002-prompt1-residual-1",
+        "B2-region-002-prompt1-residual-2",
+        "B2-region-002-prompt1-residual-3",
+        "B2-region-002-prompt1-residual-4",
+        "B2-region-002-prompt1-residual-5"
+      ],
+      "originalAfterPrompt1": [
+        {
+          "id": "B2-region-002",
+          "outer": [
+            [
+              -34.75,
+              27.85
+            ],
+            [
+              -34.75,
+              28.05
+            ],
+            [
+              -34.55,
+              27.85
+            ],
+            [
+              -34.65,
+              27.85
+            ],
+            [
+              -34.65,
+              27.75
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B2-region-002"
+        },
+        {
+          "id": "B2-region-002-prompt1-residual-1",
+          "outer": [
+            [
+              -34.95,
+              28.25
+            ],
+            [
+              -35.25,
+              28.25
+            ],
+            [
+              -35.35,
+              28.35
+            ],
+            [
+              -34.85,
+              28.35
+            ],
+            [
+              -34.85,
+              28.25
+            ],
+            [
+              -34.75,
+              28.15
+            ],
+            [
+              -34.75,
+              28.05
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B2-region-002"
+        },
+        {
+          "id": "B2-region-002-prompt1-residual-2",
+          "outer": [
+            [
+              -36.55,
+              28.35
+            ],
+            [
+              -36.55,
+              28.45
+            ],
+            [
+              -35.65,
+              28.45
+            ],
+            [
+              -35.55,
+              28.35
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B2-region-002"
+        },
+        {
+          "id": "B2-region-002-prompt1-residual-3",
+          "outer": [
+            [
+              -31.75,
+              27.75
+            ],
+            [
+              -31.65,
+              27.75
+            ],
+            [
+              -31.75,
+              27.65
+            ],
+            [
+              -31.85,
+              27.65
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B2-region-002"
+        },
+        {
+          "id": "B2-region-002-prompt1-residual-4",
+          "outer": [
+            [
+              -31.15,
+              27.75
+            ],
+            [
+              -31.05,
+              27.85
+            ],
+            [
+              -30.85,
+              27.85
+            ],
+            [
+              -30.75,
+              27.75
+            ],
+            [
+              -30.85,
+              27.65
+            ],
+            [
+              -31.55,
+              27.65
+            ],
+            [
+              -31.65,
+              27.75
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B2-region-002"
+        },
+        {
+          "id": "B2-region-002-prompt1-residual-5",
+          "outer": [
+            [
+              -29.15,
+              27.75
+            ],
+            [
+              -29.05,
+              27.65
+            ],
+            [
+              -29.15,
+              27.65
+            ],
+            [
+              -29.25,
+              27.75
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B2-region-002"
+        }
+      ],
+      "residual": [
+        {
+          "id": "B2-region-002-completion-residual-0",
+          "outer": [
+            [
+              -31.85,
+              27.65
+            ],
+            [
+              -31.75,
+              27.75
+            ],
+            [
+              -31.65,
+              27.75
+            ],
+            [
+              -31.75,
+              27.65
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B2-region-002-completion-residual-1",
+          "outer": [
+            [
+              -29.15,
+              27.75
+            ],
+            [
+              -29.05,
+              27.65
+            ],
+            [
+              -29.15,
+              27.65
+            ],
+            [
+              -29.25,
+              27.75
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B2-region-002-completion-residual-2",
+          "outer": [
+            [
+              -30.85,
+              27.65
+            ],
+            [
+              -31.55,
+              27.65
+            ],
+            [
+              -31.65,
+              27.75
+            ],
+            [
+              -31.15,
+              27.75
+            ],
+            [
+              -31.05,
+              27.85
+            ],
+            [
+              -30.85,
+              27.85
+            ],
+            [
+              -30.75,
+              27.75
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B2-region-002-completion-residual-3",
+          "outer": [
+            [
+              -34.65,
+              27.85
+            ],
+            [
+              -34.65,
+              27.75
+            ],
+            [
+              -34.75,
+              27.85
+            ],
+            [
+              -34.75,
+              28.05
+            ],
+            [
+              -34.55,
+              27.85
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "removedArea": 0.15499999999999853,
+      "areaConservationError": 0.0
+    },
+    {
+      "floorId": "B2",
+      "baseParentId": "B2-region-004",
+      "replaceAfterPrompt1RegionIds": [
+        "B2-region-004",
+        "B2-region-004-prompt1-residual-1"
+      ],
+      "originalAfterPrompt1": [
+        {
+          "id": "B2-region-004",
+          "outer": [
+            [
+              -39.35,
+              22.25
+            ],
+            [
+              -39.45,
+              22.25
+            ],
+            [
+              -39.45,
+              28.25
+            ],
+            [
+              -39.35,
+              28.35
+            ],
+            [
+              -37.35,
+              28.35
+            ],
+            [
+              -37.15,
+              28.55
+            ],
+            [
+              -37.05,
+              28.55
+            ],
+            [
+              -37.05,
+              28.45
+            ],
+            [
+              -36.95,
+              28.35
+            ],
+            [
+              -36.65,
+              28.35
+            ],
+            [
+              -36.55,
+              28.25
+            ],
+            [
+              -35.35,
+              28.25
+            ],
+            [
+              -35.25,
+              28.15
+            ],
+            [
+              -34.95,
+              28.15
+            ],
+            [
+              -34.85,
+              28.05
+            ],
+            [
+              -34.85,
+              27.85
+            ],
+            [
+              -34.65,
+              27.65
+            ],
+            [
+              -34.65,
+              25.05
+            ],
+            [
+              -34.65,
+              22.15
+            ],
+            [
+              -36.15,
+              22.15
+            ],
+            [
+              -36.25,
+              22.25
+            ],
+            [
+              -36.35,
+              22.15
+            ],
+            [
+              -39.25,
+              22.15
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B2-region-004"
+        },
+        {
+          "id": "B2-region-004-prompt1-residual-1",
+          "outer": [
+            [
+              -31.75,
+              27.55
+            ],
+            [
+              -31.75,
+              22.65
+            ],
+            [
+              -31.65,
+              22.55
+            ],
+            [
+              -31.55,
+              22.65
+            ],
+            [
+              -31.55,
+              23.45
+            ],
+            [
+              -31.45,
+              23.55
+            ],
+            [
+              -31.45,
+              24.15
+            ],
+            [
+              -31.35,
+              24.15
+            ],
+            [
+              -31.15,
+              24.35
+            ],
+            [
+              -31.25,
+              24.45
+            ],
+            [
+              -31.15,
+              24.55
+            ],
+            [
+              -31.55,
+              24.95
+            ],
+            [
+              -31.45,
+              25.05
+            ],
+            [
+              -31.45,
+              27.35
+            ],
+            [
+              -31.55,
+              27.45
+            ],
+            [
+              -31.55,
+              27.55
+            ],
+            [
+              -30.85,
+              27.55
+            ],
+            [
+              -30.75,
+              27.65
+            ],
+            [
+              -29.25,
+              27.65
+            ],
+            [
+              -29.15,
+              27.55
+            ],
+            [
+              -28.95,
+              27.55
+            ],
+            [
+              -28.95,
+              22.35
+            ],
+            [
+              -29.15,
+              22.15
+            ],
+            [
+              -31.85,
+              22.15
+            ],
+            [
+              -31.85,
+              27.55
+            ]
+          ],
+          "holes": [],
+          "role": "neutral-source-residual",
+          "derivedFrom": "B2-region-004"
+        }
+      ],
+      "residual": [
+        {
+          "id": "B2-region-004-completion-residual-0",
+          "outer": [
+            [
+              -31.65,
+              22.55
+            ],
+            [
+              -31.55,
+              22.65
+            ],
+            [
+              -31.55,
+              23.45
+            ],
+            [
+              -31.45,
+              23.55
+            ],
+            [
+              -31.45,
+              24.15
+            ],
+            [
+              -31.35,
+              24.15
+            ],
+            [
+              -31.15,
+              24.35
+            ],
+            [
+              -31.25,
+              24.45
+            ],
+            [
+              -31.15,
+              24.55
+            ],
+            [
+              -31.55,
+              24.95
+            ],
+            [
+              -31.45,
+              25.05
+            ],
+            [
+              -31.45,
+              27.35
+            ],
+            [
+              -31.55,
+              27.45
+            ],
+            [
+              -31.55,
+              27.55
+            ],
+            [
+              -30.85,
+              27.55
+            ],
+            [
+              -30.75,
+              27.65
+            ],
+            [
+              -29.25,
+              27.65
+            ],
+            [
+              -29.15,
+              27.55
+            ],
+            [
+              -28.95,
+              27.55
+            ],
+            [
+              -28.95,
+              22.35
+            ],
+            [
+              -29.15,
+              22.15
+            ],
+            [
+              -31.85,
+              22.15
+            ],
+            [
+              -31.85,
+              27.55
+            ],
+            [
+              -31.75,
+              27.55
+            ],
+            [
+              -31.75,
+              22.65
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B2-region-004-completion-residual-1",
+          "outer": [
+            [
+              -39.45,
+              28.25
+            ],
+            [
+              -39.35,
+              28.35
+            ],
+            [
+              -39.25,
+              28.35
+            ],
+            [
+              -39.25,
+              22.15
+            ],
+            [
+              -39.35,
+              22.25
+            ],
+            [
+              -39.45,
+              22.25
+            ]
+          ],
+          "holes": []
+        },
+        {
+          "id": "B2-region-004-completion-residual-2",
+          "outer": [
+            [
+              -34.65,
+              27.65
+            ],
+            [
+              -34.65,
+              25.05
+            ],
+            [
+              -34.65,
+              22.15
+            ],
+            [
+              -36.15,
+              22.15
+            ],
+            [
+              -36.15,
+              23.35
+            ],
+            [
+              -34.75,
+              23.35
+            ],
+            [
+              -34.75,
+              27.75
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "removedArea": 25.975000000000005,
+      "areaConservationError": 3.552713678800501e-15
+    }
+  ],
+  "protectedHolds": [
+    {
+      "destinationId": "vincom-prototype-scentuals",
+      "floorId": "B2",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-b2-b2-12"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-b2-b2-12",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-023"
+          ],
+          "name": {
+            "vi": "Khu vực trên sơ đồ",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "B2": [
+          {
+            "region": "B2-region-023",
+            "code": "B2-12",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "Himalaya",
+      "officialReferences": [
+        {
+          "id": "scentuals",
+          "url": "https://vincom.com.vn/store/scentuals-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B2"
+          ],
+          "floorText": "Tầng hầm B2",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    },
+    {
+      "destinationId": "vincom-prototype-lining",
+      "floorId": "B2",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-b2-b2-46b"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-b2-b2-46b",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-025"
+          ],
+          "name": {
+            "vi": "Khu vực trên sơ đồ",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "B2": [
+          {
+            "region": "B2-region-025",
+            "code": "B2-46B",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "OVS",
+      "officialReferences": [
+        {
+          "id": "lining",
+          "url": "https://vincom.com.vn/store/lining-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B2"
+          ],
+          "floorText": "Tầng hầm B2",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    },
+    {
+      "destinationId": "vincom-prototype-messyweekend",
+      "floorId": "B2",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-b2-b2-16"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-b2-b2-16",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-033"
+          ],
+          "name": {
+            "vi": "Khu vực trên sơ đồ",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "B2": [
+          {
+            "region": "B2-region-033",
+            "code": "B2-16",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "Rhythm",
+      "officialReferences": [
+        {
+          "id": "messyweekend",
+          "url": "https://vincom.com.vn/store/messyweekend-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B2"
+          ],
+          "floorText": "Tầng hầm B2",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    },
+    {
+      "destinationId": "vincom-prototype-beautybox",
+      "floorId": "B2",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-b2-b2-17"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-b2-b2-17",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-007"
+          ],
+          "name": {
+            "vi": "Khu vực trên sơ đồ",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "B2": [
+          {
+            "region": "B2-region-007",
+            "code": "B2-17",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "Pablo",
+      "officialReferences": [
+        {
+          "id": "beautybox",
+          "url": "https://vincom.com.vn/store/beauty-box-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B2"
+          ],
+          "floorText": "Tầng hầm B2",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    },
+    {
+      "destinationId": "vincom-prototype-lacoste",
+      "floorId": "L1",
+      "originalLocations": [
+        {
+          "floorId": "L1",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-l1-l1-06a"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-l1-l1-06a",
+          "floorId": "L1",
+          "regionIds": [
+            "L1-region-001"
+          ],
+          "name": {
+            "vi": "Khu vực trên sơ đồ",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "L1": [
+          {
+            "region": "L1-region-001",
+            "code": "L1-06A",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "Vinfast",
+      "officialReferences": [
+        {
+          "id": "lacoste",
+          "url": "https://vincom.com.vn/store/lacoste-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "L1"
+          ],
+          "floorText": "Tầng 1",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    }
+  ],
+  "sharedFilesEdited": false,
+  "runtimeActivated": false,
+  "sourceUnitsRedrawnForReplacementTenants": false
+}
