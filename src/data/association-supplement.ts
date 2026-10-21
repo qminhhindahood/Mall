@@ -31,7 +31,7 @@ export function applyAssociationSupplement(snapshot: DirectorySnapshot, geometry
   const selected = new Set<string>();
   const accepted = supplement.associations.filter(row => row.review.status === 'accepted');
   for (const row of accepted) {
-    const decisions = receipt?.decisions.filter(decision => decision.destinationId === row.destinationId) ?? [];
+    const decisions = receipt?.decisions.filter(decision => decision.destinationId === row.destinationId && decision.floor === row.floorId) ?? [];
     if (decisions.length !== 1 || decisions[0].floor !== row.floorId || JSON.stringify(decisions[0].regionIds) !== JSON.stringify(row.regionIds) || decisions[0].printedUnits !== row.printedUnits || decisions[0].reviewDecision !== row.review.decision) fail(`association differs from independent review: ${row.destinationId}`);
     if (!row.review.reviewedBy || !row.review.reviewedAt || !/^\d{4}-\d{2}-\d{2}$/.test(row.review.reviewedAt)) fail('missing independent review');
     if (!['accept-source-layout-area-only','accept-partial-area-only'].includes(row.review.decision)) fail('unaccepted review decision');

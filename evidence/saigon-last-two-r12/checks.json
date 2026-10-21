@@ -1,0 +1,42 @@
+{
+  "checksPassed": 17,
+  "checks": [
+    "Only Takashimaya changes",
+    "All five previous areas and original geometry preserved",
+    "B2: unchanged named counter only, explicit partial scope",
+    "B1: unchanged named counter only, explicit partial scope",
+    "L1: unchanged named counter only, explicit partial scope",
+    "L2: unchanged named counter only, explicit partial scope",
+    "L3: unchanged named counter only, explicit partial scope",
+    "Matin Kim and Miana unchanged",
+    "Matin Kim remains floor-only",
+    "Wrong-floor receipt rejected",
+    "Duplicate floor decision rejected",
+    "Duplicate floor association rejected",
+    "Geometry drift rejected",
+    "saigon-centre: graph exactly unchanged",
+    "Vincom exactly unchanged",
+    "vincom-dong-khoi: graph exactly unchanged",
+    "202 total area-linked; 41 directed journeys"
+  ],
+  "summary": [
+    {
+      "mallId": "saigon-centre",
+      "listings": 165,
+      "areaLinked": 164,
+      "floorOnly": 1,
+      "directedJourneys": 5,
+      "approaches": 5,
+      "connectedEntrances": 0
+    },
+    {
+      "mallId": "vincom-dong-khoi",
+      "listings": 203,
+      "areaLinked": 38,
+      "floorOnly": 165,
+      "directedJourneys": 36,
+      "approaches": 8,
+      "connectedEntrances": 0
+    }
+  ]
+}

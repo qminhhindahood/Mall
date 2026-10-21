@@ -94,7 +94,15 @@ if (mallId === asianSupplement.mallId && asianSupplement.activation === 'accepte
   if (createHash('sha256').update(reviewBytes).digest('hex') !== asianSupplement.reviewEvidence.sha256) throw new Error('Asian Corner band review evidence drift');
   asianReview = JSON.parse(reviewBytes.toString('utf8'));
 }
-const content = validateContent(applyAssociationSupplement(sharedContent,geometry,asianSupplement,asianReview),mallId,geometry);
+const asianContent = applyAssociationSupplement(sharedContent,geometry,asianSupplement,asianReview);
+const departmentSupplement: AssociationSupplement = JSON.parse(fs.readFileSync(path.join(process.cwd(),'data','research','saigon-department-partials-2026-10-21-r12.json'),'utf8'));
+let departmentReview: AssociationReviewReceipt | undefined;
+if (mallId === departmentSupplement.mallId && departmentSupplement.activation === 'accepted-source-review') {
+  const reviewBytes = fs.readFileSync(path.join(process.cwd(),departmentSupplement.reviewEvidence.path));
+  if (createHash('sha256').update(reviewBytes).digest('hex') !== departmentSupplement.reviewEvidence.sha256) throw new Error('Department partial review evidence drift');
+  departmentReview = JSON.parse(reviewBytes.toString('utf8'));
+}
+const content = validateContent(applyAssociationSupplement(asianContent,geometry,departmentSupplement,departmentReview),mallId,geometry);
 const destinations = content.destinations;
 const manifestPath = path.join(process.cwd(),'data','malls',mallId,'asset-manifest.json');
 const manifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath,'utf8')) : {};

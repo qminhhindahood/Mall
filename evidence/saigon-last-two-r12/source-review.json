@@ -1,0 +1,149 @@
+{
+  "reviewedAt": "2026-10-21",
+  "reviewedBy": "Codex GPT-6.1 Sol source review",
+  "decisions": [
+    {
+      "destinationId": "saigon-prototype-takashimaya",
+      "floor": "B2",
+      "regionIds": [
+        "B2-region-030"
+      ],
+      "printedUnits": "No department unit or perimeter claimed; named Marou Station counter only",
+      "reviewDecision": "accept-partial-area-only"
+    },
+    {
+      "destinationId": "saigon-prototype-takashimaya",
+      "floor": "B1",
+      "regionIds": [
+        "B1-region-018"
+      ],
+      "printedUnits": "No department unit or perimeter claimed; named Rập counter only",
+      "reviewDecision": "accept-partial-area-only"
+    },
+    {
+      "destinationId": "saigon-prototype-takashimaya",
+      "floor": "L1",
+      "regionIds": [
+        "L1-region-030"
+      ],
+      "printedUnits": "No department unit or perimeter claimed; named Polo Ralph Lauren counter only",
+      "reviewDecision": "accept-partial-area-only"
+    },
+    {
+      "destinationId": "saigon-prototype-takashimaya",
+      "floor": "L2",
+      "regionIds": [
+        "L2-region-050"
+      ],
+      "printedUnits": "No department unit or perimeter claimed; named TWG Tea Salon counter only",
+      "reviewDecision": "accept-partial-area-only"
+    },
+    {
+      "destinationId": "saigon-prototype-takashimaya",
+      "floor": "L3",
+      "regionIds": [
+        "L3-region-054"
+      ],
+      "printedUnits": "No department unit or perimeter claimed; named Wilson counter only",
+      "reviewDecision": "accept-partial-area-only"
+    }
+  ],
+  "evidence": [
+    {
+      "floor": "B2",
+      "name": "Marou Station",
+      "counterId": "55842438-d38a-4343-be73-30d0aa0e5d58",
+      "regionId": "B2-region-030",
+      "iou": 0.69076,
+      "officialSource": "https://shopping.saigoncentre.com.vn/en/takashimaya-store-directory/marou-station/",
+      "bounds": [
+        1.76,
+        -13.56,
+        8.4,
+        -8.26
+      ],
+      "decision": "accepted-partial-counter-area-only",
+      "basis": "Named label lies inside this exact unchanged raster contour. Archived official Takashimaya counter directory establishes department membership; affine overlap is corroboration only, never whole-department boundary proof.",
+      "wholeDepartmentBoundaryEstablished": false
+    },
+    {
+      "floor": "B1",
+      "name": "Rập",
+      "counterId": "f9d490d5-efa1-4bb9-bd2c-3d489056293b",
+      "regionId": "B1-region-018",
+      "iou": 0.94293,
+      "officialSource": "https://shopping.saigoncentre.com.vn/en/takashimaya-store-directory/rap/",
+      "bounds": [
+        -35.34,
+        -2.42,
+        -28.94,
+        3.46
+      ],
+      "decision": "accepted-partial-counter-area-only",
+      "basis": "Named label lies inside this exact unchanged raster contour. Archived official Takashimaya counter directory establishes department membership; affine overlap is corroboration only, never whole-department boundary proof.",
+      "wholeDepartmentBoundaryEstablished": false
+    },
+    {
+      "floor": "L1",
+      "name": "Polo Ralph Lauren",
+      "counterId": "2ee83dbe-25fa-41e1-a84d-279dd240faac",
+      "regionId": "L1-region-030",
+      "iou": 0.86149,
+      "officialSource": "https://shopping.saigoncentre.com.vn/en/takashimaya-store-directory/polo-ralph-lauren/",
+      "bounds": [
+        -35.1,
+        4.88,
+        -23.94,
+        10.84
+      ],
+      "decision": "accepted-partial-counter-area-only",
+      "basis": "Named label lies inside this exact unchanged raster contour. Archived official Takashimaya counter directory establishes department membership; affine overlap is corroboration only, never whole-department boundary proof.",
+      "wholeDepartmentBoundaryEstablished": false
+    },
+    {
+      "floor": "L2",
+      "name": "TWG Tea Salon",
+      "counterId": "cdf211d2-6a43-4ac7-ab94-7b82ce8e7128",
+      "regionId": "L2-region-050",
+      "iou": 0.81056,
+      "officialSource": "https://shopping.saigoncentre.com.vn/en/takashimaya-store-directory/twg-tea-salon/",
+      "bounds": [
+        -33.34,
+        0.64,
+        -26.4,
+        8.32
+      ],
+      "decision": "accepted-partial-counter-area-only",
+      "basis": "Named label lies inside this exact unchanged raster contour. Archived official Takashimaya counter directory establishes department membership; affine overlap is corroboration only, never whole-department boundary proof.",
+      "wholeDepartmentBoundaryEstablished": false
+    },
+    {
+      "floor": "L3",
+      "name": "Wilson",
+      "counterId": "a9896514-d032-4672-8499-68782788f7e1",
+      "regionId": "L3-region-054",
+      "iou": 0.62646,
+      "officialSource": "https://shopping.saigoncentre.com.vn/en/takashimaya-store-directory/wilson/",
+      "bounds": [
+        -12.92,
+        -4.6,
+        -7.0,
+        1.4
+      ],
+      "decision": "accepted-partial-counter-area-only",
+      "basis": "Named label lies inside this exact unchanged raster contour. Archived official Takashimaya counter directory establishes department membership; affine overlap is corroboration only, never whole-department boundary proof.",
+      "wholeDepartmentBoundaryEstablished": false
+    }
+  ],
+  "sourceHashes": {
+    "docs/content-preparation/completion-packet-2026-10-17/saigon-research/official-source-map.json": "6f5cba348ae3f0030b93625d0da1db126887b17bacfcedeb367472d80ff1fb1c",
+    "docs/content-preparation/completion-packet-2026-10-17/saigon-source-map.json": "7b37ffccd75c469d53ec60c281161be42d196dd84f39a2e45f5a5e598d3300c5",
+    "docs/content-preparation/record-review-2026-10-18/registration.json": "c01909a0035e1de5a8fa38fdc91cb8219bb388aeacd3e26ee8aed1374f65d59b"
+  },
+  "supersession": "Supersedes Takashimaya floor-only treatment only for five named counter-reference areas. Counters are not unioned into a department perimeter. Immutable earlier holds and source bytes remain preserved.",
+  "matinKim": {
+    "outcome": "still-floor-only",
+    "reason": "Opening Soon unit claim L3-12 conflicts with Miana; original raster and official geometry identify Miana. Brand store locator lists only Hanoi in accessible current source. No branch-specific replacement geometry or relocation evidence found.",
+    "requiredInput": "Mall-issued or brand-issued Saigon Centre L3 plan/boundary identifying Matin Kim and dated clarification of Miana/L3-12. A unit number alone does not resolve competing occupancy."
+  }
+}
