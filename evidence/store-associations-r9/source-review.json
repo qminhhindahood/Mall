@@ -1,0 +1,71 @@
+{
+  "reviewedAt": "2026-10-21",
+  "reviewedBy": "Codex Astra source reconciliation",
+  "basis": "Prior read-only source reconciliation in this task, followed by explicit owner-authorized bounded activation. Same agent performed reconciliation and implementation; no new independent reviewer or current occupancy acceptance is claimed.",
+  "sources": [
+    {
+      "path": "Vincom đồng khởi/map/tang-b2.webp",
+      "width": 1319,
+      "height": 1083,
+      "bytes": 109394,
+      "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+      "transform": [
+        0.1,
+        0,
+        0,
+        0.1,
+        -65.95,
+        -54.150000000000006
+      ],
+      "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+    },
+    {
+      "path": "Vincom đồng khởi/map/tang-b1.webp",
+      "width": 1320,
+      "height": 1083,
+      "bytes": 119288,
+      "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+      "transform": [
+        0.1,
+        0,
+        0,
+        0.1,
+        -66,
+        -54.150000000000006
+      ],
+      "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+    }
+  ],
+  "decisions": [
+    {
+      "destinationId": "vincom-candidate-vd-b2-021",
+      "floor": "B2",
+      "printedUnits": "B2-11",
+      "regionIds": [
+        "B2-region-024"
+      ],
+      "reviewDecision": "accept-source-layout-area-only",
+      "reason": "Standalone narrow cyan source strip; preserve its exact small contour."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-027",
+      "floor": "B2",
+      "printedUnits": "B2-46A",
+      "regionIds": [
+        "B2-region-009"
+      ],
+      "reviewDecision": "accept-source-layout-area-only",
+      "reason": "Existing notch excludes B2-45A/Gustavo Gano and B2-43-44/My Kingdom."
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-036",
+      "floor": "B1",
+      "printedUnits": "B1-60",
+      "regionIds": [
+        "B1-region-012"
+      ],
+      "reviewDecision": "accept-source-layout-area-only",
+      "reason": "Standalone small pink B1-60 island; excludes neighboring grey/shared units."
+    }
+  ]
+}

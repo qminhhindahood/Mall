@@ -1,0 +1,659 @@
+{
+  "revision": "vincom-source-associations-2026-10-21-r9",
+  "mallId": "vincom-dong-khoi",
+  "baseDirectoryRevision": "owner-approved-directory-2026-10-18-r1+vincom-precision-holds-2026-10-21-r1+vincom-source-associations-2026-10-21-r1+vincom-derived-segmentation-2026-10-21-r7",
+  "activation": "accepted-source-review",
+  "activationNote": "Accepted from documented source reconciliation and explicit owner-authorized activation; no separate independent review is claimed.",
+  "reviewEvidence": {
+    "path": "evidence/store-associations-r9/source-review.json",
+    "sha256": "581c144bb79e6e285150500f32434192d7aae26785b231667ac223a8f6e26cc4"
+  },
+  "protectedHolds": [
+    {
+      "destinationId": "vincom-prototype-scentuals",
+      "floorId": "B2",
+      "regionIds": [
+        "B2-region-023"
+      ]
+    },
+    {
+      "destinationId": "vincom-prototype-lining",
+      "floorId": "B2",
+      "regionIds": [
+        "B2-region-025"
+      ]
+    },
+    {
+      "destinationId": "vincom-prototype-messyweekend",
+      "floorId": "B2",
+      "regionIds": [
+        "B2-region-033"
+      ]
+    },
+    {
+      "destinationId": "vincom-prototype-beautybox",
+      "floorId": "B2",
+      "regionIds": [
+        "B2-region-007"
+      ]
+    },
+    {
+      "destinationId": "vincom-prototype-lacoste",
+      "floorId": "L1",
+      "regionIds": [
+        "L1-region-001"
+      ]
+    }
+  ],
+  "associations": [
+    {
+      "destinationId": "vincom-candidate-vd-b2-021",
+      "floorId": "B2",
+      "printedUnits": "B2-11",
+      "regionIds": [
+        "B2-region-024"
+      ],
+      "areaId": "supplement-20261021-r9-micro",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "floor-confirmed",
+          "areaIds": [],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "source": {
+        "path": "Vincom đồng khởi/map/tang-b2.webp",
+        "width": 1319,
+        "height": 1083,
+        "bytes": 109394,
+        "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+        "transform": [
+          0.1,
+          0,
+          0,
+          0.1,
+          -65.95,
+          -54.150000000000006
+        ],
+        "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+      },
+      "geometryRegions": [
+        {
+          "id": "B2-region-024",
+          "outer": [
+            [
+              -26.15,
+              -2.95
+            ],
+            [
+              -26.15,
+              -2.85
+            ],
+            [
+              -26.05,
+              -2.75
+            ],
+            [
+              -25.45,
+              -2.75
+            ],
+            [
+              -25.35,
+              -2.65
+            ],
+            [
+              -23.25,
+              -2.65
+            ],
+            [
+              -23.15,
+              -2.75
+            ],
+            [
+              -22.05,
+              -2.75
+            ],
+            [
+              -21.95,
+              -2.65
+            ],
+            [
+              -21.85,
+              -2.65
+            ],
+            [
+              -21.75,
+              -2.75
+            ],
+            [
+              -21.65,
+              -2.75
+            ],
+            [
+              -21.65,
+              -2.85
+            ],
+            [
+              -21.75,
+              -2.95
+            ]
+          ],
+          "holes": [],
+          "role": "unreviewed-reference-region",
+          "certainty": "source-palette estimate; not an approved tenant or slab",
+          "sourcePalette": "hue-78-110",
+          "sourcePixelArea": 113
+        }
+      ],
+      "associationDetail": {
+        "kind": "source-layout",
+        "note": {
+          "en": "Approximate source-plan area at B2-11. Current occupancy and exact doorway are not verified.",
+          "vi": "Khu vực gần đúng trên sơ đồ nguồn tại B2-11. Chưa xác minh đơn vị đang hoạt động và cửa ra vào chính xác."
+        }
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex Astra source reconciliation",
+        "reviewedAt": "2026-10-21",
+        "decision": "accept-source-layout-area-only",
+        "reason": "Standalone narrow cyan source strip; preserve its exact small contour."
+      }
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b2-027",
+      "floorId": "B2",
+      "printedUnits": "B2-46A",
+      "regionIds": [
+        "B2-region-009"
+      ],
+      "areaId": "supplement-20261021-r9-mothercare",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "floor-confirmed",
+          "areaIds": [],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "source": {
+        "path": "Vincom đồng khởi/map/tang-b2.webp",
+        "width": 1319,
+        "height": 1083,
+        "bytes": 109394,
+        "sha256": "46f2aea288a07060ecbe06701971526cccc2a2e497b4abca777952fd5a45d713",
+        "transform": [
+          0.1,
+          0,
+          0,
+          0.1,
+          -65.95,
+          -54.150000000000006
+        ],
+        "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+      },
+      "geometryRegions": [
+        {
+          "id": "B2-region-009",
+          "outer": [
+            [
+              -0.65,
+              -9.75
+            ],
+            [
+              -0.65,
+              -9.25
+            ],
+            [
+              -0.85,
+              -9.05
+            ],
+            [
+              -0.95,
+              -9.05
+            ],
+            [
+              -1.15,
+              -8.85
+            ],
+            [
+              -10.35,
+              -8.85
+            ],
+            [
+              -10.45,
+              -8.75
+            ],
+            [
+              -10.45,
+              -8.45
+            ],
+            [
+              -10.55,
+              -8.35
+            ],
+            [
+              -10.55,
+              -8.25
+            ],
+            [
+              -10.65,
+              -8.15
+            ],
+            [
+              -10.65,
+              -7.85
+            ],
+            [
+              -10.55,
+              -7.75
+            ],
+            [
+              -10.55,
+              -7.05
+            ],
+            [
+              -10.65,
+              -6.95
+            ],
+            [
+              -10.65,
+              -6.55
+            ],
+            [
+              -10.85,
+              -6.35
+            ],
+            [
+              -12.35,
+              -6.35
+            ],
+            [
+              -11.35,
+              -6.35
+            ],
+            [
+              -11.25,
+              -6.25
+            ],
+            [
+              -11.35,
+              -6.15
+            ],
+            [
+              -17.75,
+              -6.15
+            ],
+            [
+              -17.85,
+              -6.25
+            ],
+            [
+              -18.15,
+              -6.25
+            ],
+            [
+              -18.15,
+              -5.95
+            ],
+            [
+              -18.05,
+              -5.85
+            ],
+            [
+              -18.05,
+              -5.45
+            ],
+            [
+              -18.15,
+              -5.35
+            ],
+            [
+              -18.15,
+              -4.55
+            ],
+            [
+              -18.25,
+              -4.45
+            ],
+            [
+              -18.25,
+              -3.45
+            ],
+            [
+              -18.15,
+              -3.35
+            ],
+            [
+              -18.15,
+              -2.25
+            ],
+            [
+              -18.25,
+              -2.15
+            ],
+            [
+              -18.25,
+              -1.95
+            ],
+            [
+              -18.05,
+              -1.75
+            ],
+            [
+              -17.95,
+              -1.75
+            ],
+            [
+              -17.85,
+              -1.65
+            ],
+            [
+              -17.35,
+              -1.65
+            ],
+            [
+              -17.25,
+              -1.75
+            ],
+            [
+              -14.85,
+              -1.75
+            ],
+            [
+              -14.75,
+              -1.65
+            ],
+            [
+              1.05,
+              -1.65
+            ],
+            [
+              1.15,
+              -1.75
+            ],
+            [
+              1.15,
+              -1.85
+            ],
+            [
+              1.25,
+              -1.95
+            ],
+            [
+              1.25,
+              -8.95
+            ],
+            [
+              1.15,
+              -9.05
+            ],
+            [
+              1.15,
+              -9.15
+            ],
+            [
+              1.25,
+              -9.25
+            ],
+            [
+              1.25,
+              -9.35
+            ],
+            [
+              1.15,
+              -9.45
+            ],
+            [
+              1.15,
+              -9.65
+            ],
+            [
+              1.05,
+              -9.75
+            ],
+            [
+              -0.35,
+              -9.75
+            ],
+            [
+              -0.45,
+              -9.65
+            ],
+            [
+              -0.55,
+              -9.65
+            ]
+          ],
+          "holes": [],
+          "role": "unreviewed-reference-region",
+          "certainty": "source-palette estimate; not an approved tenant or slab",
+          "sourcePalette": "hue-78-110",
+          "sourcePixelArea": 12093
+        }
+      ],
+      "associationDetail": {
+        "kind": "source-layout",
+        "note": {
+          "en": "Approximate source-plan area at B2-46A. Current occupancy and exact doorway are not verified.",
+          "vi": "Khu vực gần đúng trên sơ đồ nguồn tại B2-46A. Chưa xác minh đơn vị đang hoạt động và cửa ra vào chính xác."
+        }
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex Astra source reconciliation",
+        "reviewedAt": "2026-10-21",
+        "decision": "accept-source-layout-area-only",
+        "reason": "Existing notch excludes B2-45A/Gustavo Gano and B2-43-44/My Kingdom."
+      }
+    },
+    {
+      "destinationId": "vincom-candidate-vd-b1-036",
+      "floorId": "B1",
+      "printedUnits": "B1-60",
+      "regionIds": [
+        "B1-region-012"
+      ],
+      "areaId": "supplement-20261021-r9-sneakerbuzz",
+      "originalLocations": [
+        {
+          "floorId": "B1",
+          "certainty": "floor-confirmed",
+          "areaIds": [],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "source": {
+        "path": "Vincom đồng khởi/map/tang-b1.webp",
+        "width": 1320,
+        "height": 1083,
+        "bytes": 119288,
+        "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+        "transform": [
+          0.1,
+          0,
+          0,
+          0.1,
+          -66,
+          -54.150000000000006
+        ],
+        "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+      },
+      "geometryRegions": [
+        {
+          "id": "B1-region-012",
+          "outer": [
+            [
+              -23.7,
+              -1.75
+            ],
+            [
+              -23.7,
+              -1.65
+            ],
+            [
+              -23.8,
+              -1.55
+            ],
+            [
+              -23.8,
+              -0.25
+            ],
+            [
+              -23.7,
+              -0.15
+            ],
+            [
+              -23.7,
+              0.35
+            ],
+            [
+              -23.8,
+              0.45
+            ],
+            [
+              -23.8,
+              1.95
+            ],
+            [
+              -23.7,
+              2.05
+            ],
+            [
+              -23.5,
+              2.05
+            ],
+            [
+              -23.4,
+              2.15
+            ],
+            [
+              -23,
+              2.15
+            ],
+            [
+              -22.9,
+              2.05
+            ],
+            [
+              -22.6,
+              2.05
+            ],
+            [
+              -22.5,
+              2.15
+            ],
+            [
+              -22,
+              2.15
+            ],
+            [
+              -21.9,
+              2.05
+            ],
+            [
+              -21.7,
+              2.05
+            ],
+            [
+              -21.6,
+              1.95
+            ],
+            [
+              -21.6,
+              1.75
+            ],
+            [
+              -21.5,
+              1.65
+            ],
+            [
+              -21.5,
+              1.05
+            ],
+            [
+              -21.4,
+              0.95
+            ],
+            [
+              -21.4,
+              0.65
+            ],
+            [
+              -21.5,
+              0.55
+            ],
+            [
+              -21.5,
+              0.45
+            ],
+            [
+              -21.7,
+              0.25
+            ],
+            [
+              -21.6,
+              0.15
+            ],
+            [
+              -21.6,
+              -0.15
+            ],
+            [
+              -21.5,
+              -0.25
+            ],
+            [
+              -21.6,
+              -0.35
+            ],
+            [
+              -21.6,
+              -0.55
+            ],
+            [
+              -21.5,
+              -0.65
+            ],
+            [
+              -21.5,
+              -1.45
+            ],
+            [
+              -21.6,
+              -1.55
+            ],
+            [
+              -21.6,
+              -1.65
+            ],
+            [
+              -21.7,
+              -1.75
+            ]
+          ],
+          "holes": [],
+          "role": "unreviewed-reference-region",
+          "certainty": "source-palette estimate; not an approved tenant or slab",
+          "sourcePalette": "hue-145-180",
+          "sourcePixelArea": 864
+        }
+      ],
+      "associationDetail": {
+        "kind": "source-layout",
+        "note": {
+          "en": "Approximate source-plan area at B1-60. Current occupancy and exact doorway are not verified.",
+          "vi": "Khu vực gần đúng trên sơ đồ nguồn tại B1-60. Chưa xác minh đơn vị đang hoạt động và cửa ra vào chính xác."
+        }
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex Astra source reconciliation",
+        "reviewedAt": "2026-10-21",
+        "decision": "accept-source-layout-area-only",
+        "reason": "Standalone small pink B1-60 island; excludes neighboring grey/shared units."
+      }
+    }
+  ]
+}

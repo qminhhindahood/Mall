@@ -16,9 +16,9 @@ export type AssociationSupplement = {
 };
 export type AssociationReviewReceipt = { decisions: {destinationId: string; floor: string; regionIds: string[]; printedUnits: string; reviewDecision: string}[] };
 
-/** Add independently reviewed source-layout links; never create or edit polygons. */
+/** Add explicitly reviewed source-layout links; never create or edit polygons. */
 export function applyAssociationSupplement(snapshot: DirectorySnapshot, geometry: FloorDataset, supplement: AssociationSupplement, receipt?: AssociationReviewReceipt): DirectorySnapshot {
-  if (snapshot.mallId !== supplement.mallId || snapshot.approval !== 'approved' || supplement.activation !== 'accepted-independent-review') return snapshot;
+  if (snapshot.mallId !== supplement.mallId || snapshot.approval !== 'approved' || !['accepted-independent-review','accepted-source-review'].includes(supplement.activation)) return snapshot;
   const fail = (message: string): never => { throw new Error(`Association supplement: ${message}`); };
   if (snapshot.revision !== supplement.baseDirectoryRevision) fail('directory revision drift');
   const protectedRegions = new Set(supplement.protectedHolds.flatMap(hold => hold.regionIds));
@@ -52,7 +52,8 @@ export function applyAssociationSupplement(snapshot: DirectorySnapshot, geometry
       occupied.add(`${row.floorId}:${region.id}`);
     }
   }
-  const source = `data/research/${supplement.revision}.json; independently reviewed supplied-plan association only; current occupancy, exact doorway and walking connection not established`;
+  const reviewBasis = supplement.activation === 'accepted-independent-review' ? 'independently reviewed' : 'source-reviewed';
+  const source = `data/research/${supplement.revision}.json; ${reviewBasis} supplied-plan association only; current occupancy, exact doorway and walking connection not established`;
   const destinations = snapshot.destinations.map(destination => ({...destination, locations: destination.locations.map(location => {
     const row = accepted.find(a => a.destinationId === destination.id && a.floorId === location.floorId);
     return row ? {...location, certainty: 'area-confirmed' as const, areaIds: [row.areaId], associationDetail: row.associationDetail, source: `${location.source}; ${source}; printed units ${row.printedUnits}`} : location;

@@ -59,7 +59,15 @@ if (mallId === associationSupplement.mallId && associationSupplement.activation 
   associationReview = JSON.parse(reviewBytes.toString('utf8'));
 }
 const associatedContent = applyAssociationSupplement(heldContent,geometry,associationSupplement,associationReview);
-const content = validateContent(derivedDirectory(process.cwd(),associatedContent,geometry),mallId,geometry);
+const derivedContent = derivedDirectory(process.cwd(),associatedContent,geometry);
+const storeSupplement: AssociationSupplement = JSON.parse(fs.readFileSync(path.join(process.cwd(),'data','research','vincom-source-associations-2026-10-21-r9.json'),'utf8'));
+let storeReview: AssociationReviewReceipt | undefined;
+if (mallId === storeSupplement.mallId && storeSupplement.activation === 'accepted-source-review') {
+  const reviewBytes = fs.readFileSync(path.join(process.cwd(),storeSupplement.reviewEvidence.path));
+  if (createHash('sha256').update(reviewBytes).digest('hex') !== storeSupplement.reviewEvidence.sha256) throw new Error('Store association review evidence drift');
+  storeReview = JSON.parse(reviewBytes.toString('utf8'));
+}
+const content = validateContent(applyAssociationSupplement(derivedContent,geometry,storeSupplement,storeReview),mallId,geometry);
 const destinations = content.destinations;
 const manifestPath = path.join(process.cwd(),'data','malls',mallId,'asset-manifest.json');
 const manifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath,'utf8')) : {};
