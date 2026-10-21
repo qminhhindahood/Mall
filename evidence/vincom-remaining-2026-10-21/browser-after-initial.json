@@ -1,0 +1,52 @@
+[
+  {
+    "locale": "en",
+    "width": 1280,
+    "checks": [
+      "Nike direct detail handoff selects one named B1 area",
+      "Nike route remains unavailable without a supported connection",
+      "Keyboard map selection retains Nike identity",
+      "Desktop/phone map has no horizontal overflow",
+      "Adjacent Adidas Originals mapping remains selectable",
+      "All five precision-held stores remain floor-only",
+      "No page errors"
+    ],
+    "errors": []
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "checks": [
+      "Nike direct detail handoff selects one named B1 area",
+      "Nike route remains unavailable without a supported connection",
+      "Keyboard map selection retains Nike identity",
+      "Desktop/phone map has no horizontal overflow",
+      "Adjacent Adidas Originals mapping remains selectable",
+      "All five precision-held stores remain floor-only",
+      "No page errors"
+    ],
+    "errors": []
+  },
+  {
+    "locale": "vi",
+    "width": 1280,
+    "checks": [],
+    "errors": [],
+    "failure": "AssertionError [ERR_ASSERTION]: Nike must highlight one B1-55 source area\n\n0 !== 1\n",
+    "url": "http://127.0.0.1:4621/vi/chi-duong?to=vincom-prototype-nike&floor=B1&returnTo=%2Fvi%2Fcua-hang%2Fvincom-prototype-nike%3Ffloor%3DB1%26view%3Ddiscovery"
+  },
+  {
+    "locale": "vi",
+    "width": 390,
+    "checks": [
+      "Nike direct detail handoff selects one named B1 area",
+      "Nike route remains unavailable without a supported connection",
+      "Keyboard map selection retains Nike identity",
+      "Desktop/phone map has no horizontal overflow",
+      "Adjacent Adidas Originals mapping remains selectable",
+      "All five precision-held stores remain floor-only",
+      "No page errors"
+    ],
+    "errors": []
+  }
+]

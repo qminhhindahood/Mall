@@ -1,0 +1,728 @@
+{
+  "revision": "vincom-reopened-source-unit-2026-10-21-r1",
+  "mallId": "vincom-dong-khoi",
+  "activation": "accepted-source-review",
+  "baseDirectoryRevision": "owner-approved-directory-2026-10-18-r1+vincom-precision-holds-2026-10-21-r1+vincom-source-associations-2026-10-21-r1+vincom-derived-segmentation-2026-10-21-r7+vincom-source-associations-2026-10-21-r9+vincom-mapping-prompt1-2026-10-21-r2+vincom-completion-b3-b2-2026-10-21-r2",
+  "baseGeometryRevision": "source-palette-schematic-2026-10-13-r2+owner-approved-directory-2026-10-18-r1-geometry+vincom-derived-segmentation-2026-10-21-r7+vincom-mapping-prompt1-2026-10-21-r2+vincom-completion-b3-b2-2026-10-21-r2",
+  "source": {
+    "path": "Vincom đồng khởi/map/tang-b1.webp",
+    "width": 1320,
+    "height": 1083,
+    "bytes": 119288,
+    "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+    "transform": [
+      0.1,
+      0,
+      0,
+      0.1,
+      -66,
+      -54.150000000000006
+    ],
+    "certainty": "original raster; schematic canvas-centred transform, alignment not calibrated"
+  },
+  "sourcePath": "assets/vincom-dong-khoi/maps/B1.webp",
+  "originalNeutralRegion": {
+    "id": "B1-region-003",
+    "outer": [
+      [
+        0.1,
+        -10.65
+      ],
+      [
+        0,
+        -10.65
+      ],
+      [
+        -0.2,
+        -10.45
+      ],
+      [
+        -0.2,
+        -9.05
+      ],
+      [
+        -0.4,
+        -8.85
+      ],
+      [
+        -9.7,
+        -8.85
+      ],
+      [
+        -9.8,
+        -8.75
+      ],
+      [
+        -0.2,
+        -8.75
+      ],
+      [
+        -0.2,
+        -5.05
+      ],
+      [
+        -9.8,
+        -5.05
+      ],
+      [
+        -9.8,
+        -5.15
+      ],
+      [
+        -9.9,
+        -5.05
+      ],
+      [
+        -9.9,
+        0.35
+      ],
+      [
+        -9.8,
+        0.45
+      ],
+      [
+        -9.9,
+        0.55
+      ],
+      [
+        -9.9,
+        3.85
+      ],
+      [
+        -9.8,
+        3.85
+      ],
+      [
+        -9.8,
+        0.75
+      ],
+      [
+        5.3,
+        0.75
+      ],
+      [
+        5.2,
+        0.65
+      ],
+      [
+        5.2,
+        0.35
+      ],
+      [
+        5.3,
+        0.25
+      ],
+      [
+        5.3,
+        -0.35
+      ],
+      [
+        5.4,
+        -0.45
+      ],
+      [
+        5.4,
+        -10.15
+      ],
+      [
+        5.3,
+        -10.25
+      ],
+      [
+        5.3,
+        -10.35
+      ],
+      [
+        5.2,
+        -10.45
+      ],
+      [
+        5.2,
+        -10.65
+      ],
+      [
+        5.1,
+        -10.75
+      ],
+      [
+        0.2,
+        -10.75
+      ]
+    ],
+    "holes": [],
+    "role": "neutral-source-residual",
+    "derivedFrom": "B1-region-003"
+  },
+  "neutralResiduals": [
+    {
+      "id": "B1-region-003",
+      "outer": [
+        [
+          0.0,
+          -10.65
+        ],
+        [
+          -0.2,
+          -10.45
+        ],
+        [
+          -0.2,
+          -9.05
+        ],
+        [
+          -0.4,
+          -8.85
+        ],
+        [
+          -9.7,
+          -8.85
+        ],
+        [
+          -9.8,
+          -8.75
+        ],
+        [
+          -0.2,
+          -8.75
+        ],
+        [
+          -0.2,
+          -5.05
+        ],
+        [
+          -9.8,
+          -5.05
+        ],
+        [
+          -9.8,
+          -5.15
+        ],
+        [
+          -9.9,
+          -5.05
+        ],
+        [
+          -9.9,
+          0.35
+        ],
+        [
+          -9.8,
+          0.45
+        ],
+        [
+          -9.8,
+          -4.85
+        ],
+        [
+          5.3,
+          -4.85
+        ],
+        [
+          5.3,
+          -0.35
+        ],
+        [
+          5.4,
+          -0.45
+        ],
+        [
+          5.4,
+          -10.15
+        ],
+        [
+          5.3,
+          -10.25
+        ],
+        [
+          5.3,
+          -10.35
+        ],
+        [
+          5.2,
+          -10.45
+        ],
+        [
+          5.2,
+          -10.65
+        ],
+        [
+          5.1,
+          -10.75
+        ],
+        [
+          0.2,
+          -10.75
+        ],
+        [
+          0.1,
+          -10.65
+        ]
+      ],
+      "holes": [],
+      "role": "neutral-source-residual",
+      "derivedFrom": "B1-region-003"
+    },
+    {
+      "id": "B1-region-003-reopened-1",
+      "outer": [
+        [
+          -9.9,
+          0.55
+        ],
+        [
+          -9.9,
+          3.85
+        ],
+        [
+          -9.8,
+          3.85
+        ],
+        [
+          -9.8,
+          0.75
+        ],
+        [
+          5.3,
+          0.75
+        ],
+        [
+          5.2,
+          0.65
+        ],
+        [
+          5.2,
+          0.55
+        ],
+        [
+          -9.8,
+          0.55
+        ],
+        [
+          -9.8,
+          0.45
+        ]
+      ],
+      "holes": [],
+      "role": "neutral-source-residual",
+      "derivedFrom": "B1-region-003"
+    }
+  ],
+  "sourcePixels": [
+    [
+      562,
+      493
+    ],
+    [
+      713,
+      493
+    ],
+    [
+      713,
+      547
+    ],
+    [
+      562,
+      547
+    ]
+  ],
+  "newRegion": {
+    "id": "vincom-reopened-b1-55",
+    "outer": [
+      [
+        -9.8,
+        -4.85
+      ],
+      [
+        5.3,
+        -4.85
+      ],
+      [
+        5.3,
+        0.55
+      ],
+      [
+        -9.8,
+        0.55
+      ]
+    ],
+    "holes": []
+  },
+  "reviewEvidence": {
+    "path": "evidence/vincom-remaining-2026-10-21/nike-source-review.json",
+    "sha256": "a89c5816afc036493d1ff4ebdf1c1219330cac88cb065e9b49e9efc6a7f451f6"
+  },
+  "protectedHolds": [
+    {
+      "destinationId": "vincom-prototype-scentuals",
+      "floorId": "B2",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-b2-b2-12"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-b2-b2-12",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-023"
+          ],
+          "name": {
+            "vi": "Khu vá»±c trÃªn sÆ¡ Ä‘á»“",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "B2": [
+          {
+            "region": "B2-region-023",
+            "code": "B2-12",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "Himalaya",
+      "officialReferences": [
+        {
+          "id": "scentuals",
+          "url": "https://vincom.com.vn/store/scentuals-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B2"
+          ],
+          "floorText": "Táº§ng háº§m B2",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    },
+    {
+      "destinationId": "vincom-prototype-lining",
+      "floorId": "B2",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-b2-b2-46b"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-b2-b2-46b",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-025"
+          ],
+          "name": {
+            "vi": "Khu vá»±c trÃªn sÆ¡ Ä‘á»“",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "B2": [
+          {
+            "region": "B2-region-025",
+            "code": "B2-46B",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "OVS",
+      "officialReferences": [
+        {
+          "id": "lining",
+          "url": "https://vincom.com.vn/store/lining-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B2"
+          ],
+          "floorText": "Táº§ng háº§m B2",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    },
+    {
+      "destinationId": "vincom-prototype-messyweekend",
+      "floorId": "B2",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-b2-b2-16"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-b2-b2-16",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-033"
+          ],
+          "name": {
+            "vi": "Khu vá»±c trÃªn sÆ¡ Ä‘á»“",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "B2": [
+          {
+            "region": "B2-region-033",
+            "code": "B2-16",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "Rhythm",
+      "officialReferences": [
+        {
+          "id": "messyweekend",
+          "url": "https://vincom.com.vn/store/messyweekend-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B2"
+          ],
+          "floorText": "Táº§ng háº§m B2",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    },
+    {
+      "destinationId": "vincom-prototype-beautybox",
+      "floorId": "B2",
+      "originalLocations": [
+        {
+          "floorId": "B2",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-b2-b2-17"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-b2-b2-17",
+          "floorId": "B2",
+          "regionIds": [
+            "B2-region-007"
+          ],
+          "name": {
+            "vi": "Khu vá»±c trÃªn sÆ¡ Ä‘á»“",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "B2": [
+          {
+            "region": "B2-region-007",
+            "code": "B2-17",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "Pablo",
+      "officialReferences": [
+        {
+          "id": "beautybox",
+          "url": "https://vincom.com.vn/store/beauty-box-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "M",
+            "B2"
+          ],
+          "floorText": "Táº§ng háº§m B2",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    },
+    {
+      "destinationId": "vincom-prototype-lacoste",
+      "floorId": "L1",
+      "originalLocations": [
+        {
+          "floorId": "L1",
+          "certainty": "area-confirmed",
+          "areaIds": [
+            "research-l1-l1-06a"
+          ],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "originalAreas": [
+        {
+          "id": "research-l1-l1-06a",
+          "floorId": "L1",
+          "regionIds": [
+            "L1-region-001"
+          ],
+          "name": {
+            "vi": "Khu vá»±c trÃªn sÆ¡ Ä‘á»“",
+            "en": "Mapped area"
+          },
+          "review": {
+            "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+            "reviewedAt": "2026-10-18",
+            "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+            "languages": {
+              "vi": true,
+              "en": true
+            }
+          }
+        }
+      ],
+      "researchAssociations": {
+        "L1": [
+          {
+            "region": "L1-region-001",
+            "code": "L1-06A",
+            "evidence": "printed-source-code"
+          }
+        ]
+      },
+      "printedPlanIdentity": "Vinfast",
+      "officialReferences": [
+        {
+          "id": "lacoste",
+          "url": "https://vincom.com.vn/store/lacoste-vincom-center-dong-khoi?center=vincom-center-dong-khoi",
+          "floor": [
+            "L1"
+          ],
+          "floorText": "Táº§ng 1",
+          "unit": null,
+          "status": "listed; not independently occupancy verified",
+          "retrievedAt": "2026-10-17"
+        }
+      ],
+      "reason": "Supplied plan names a different occupant at the assigned unit; later archived official listing verifies floor but has no unit. Current occupant and newest unit evidence are unresolved. No shared occupancy inferred."
+    }
+  ],
+  "associations": [
+    {
+      "destinationId": "vincom-prototype-nike",
+      "floorId": "B1",
+      "areaId": "vincom-reopened-area-nike-b1-55",
+      "printedUnits": "B1-55",
+      "regionIds": [
+        "vincom-reopened-b1-55"
+      ],
+      "originalLocations": [
+        {
+          "floorId": "B1",
+          "certainty": "floor-confirmed",
+          "areaIds": [],
+          "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+        }
+      ],
+      "source": {
+        "sha256": "652a375d36e608f98cb7be28f782deb3144d7273d1eeed3f1d622023a751caa4",
+        "transform": [
+          0.1,
+          0,
+          0,
+          0.1,
+          -66,
+          -54.150000000000006
+        ],
+        "path": "assets/vincom-dong-khoi/maps/B1.webp"
+      },
+      "geometryRegions": [
+        {
+          "id": "vincom-reopened-b1-55",
+          "outer": [
+            [
+              -9.8,
+              -4.85
+            ],
+            [
+              5.3,
+              -4.85
+            ],
+            [
+              5.3,
+              0.55
+            ],
+            [
+              -9.8,
+              0.55
+            ]
+          ],
+          "holes": []
+        }
+      ],
+      "associationDetail": {
+        "kind": "source-layout",
+        "note": {
+          "en": "Approximate B1-55 unit area. The exact shop frontage is unconfirmed; check signs on arrival.",
+          "vi": "Khu vực tham chiếu gần đúng của ô B1-55. Chưa xác nhận mặt tiền cửa hàng; vui lòng đối chiếu biển hiệu khi đến."
+        }
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex source review (single session)",
+        "reviewedAt": "2026-10-21",
+        "decision": "accept-source-layout-area-only"
+      }
+    }
+  ]
+}
