@@ -79,3 +79,24 @@ export function maxLinksSharedDirectory(root,snapshot,geometry) {
   });
   return {...snapshot,destinations,areas};
 }
+
+// A floor correction is not an area association. Keep the frozen unit packet intact.
+export function verifiedVincomFloor(root,snapshot) {
+  const correctionPath = 'data/research/vincom-verified-floor-2026-10-22-r1.json';
+  const bytes = readFileSync(resolve(root,correctionPath));
+  if (hash(bytes) !== 'e4122c62f52cc95ea3922eab1e5d7bbbb67d983cfff8d340447000146473fa50') fail('floor correction drift');
+  const correction = JSON.parse(bytes);
+  if (snapshot.revision !== correction.baseDirectoryRevision) fail('floor correction revision drift');
+  for (const input of correction.sources) if (hash(readFileSync(resolve(root,input.path))) !== input.sha256) fail('floor correction source drift');
+  const original = correction.originalDestination;
+  if (!same(snapshot.destinations.find(d => d.id === original.id),original) || original.locations.some(l => l.areaIds.length)) fail('floor correction target drift');
+  if (snapshot.highlights.some(h => h.destinationId === original.id)) fail('floor correction requires highlight review');
+  const source = `${original.locations[0].source}; ${correctionPath}; official locator B1-23; floor only, A/B subdivision and current perimeter unverified`;
+  const destinations = snapshot.destinations.map(d => d.id !== original.id ? d : {
+    ...d,primaryFloor:correction.floorId,floors:[correction.floorId],
+    locations:[{floorId:correction.floorId,certainty:'floor-confirmed',areaIds:[],source}],
+    reviewedAt:correction.reviewedAt,
+    review:{...d.review,source:`${d.review.source}; ${correctionPath}`,reviewedAt:correction.reviewedAt,reviewedBy:correction.reviewedBy},
+  });
+  return {...snapshot,revision:`${snapshot.revision}+${correction.revision}`,destinations};
+}

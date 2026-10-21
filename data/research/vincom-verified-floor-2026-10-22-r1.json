@@ -1,0 +1,63 @@
+{
+  "revision": "vincom-verified-floor-correction-2026-10-22-r1",
+  "baseDirectoryRevision": "owner-approved-directory-2026-10-18-r1+vincom-precision-holds-2026-10-21-r1+vincom-source-associations-2026-10-21-r1+vincom-derived-segmentation-2026-10-21-r7+vincom-source-associations-2026-10-21-r9+vincom-mapping-prompt1-2026-10-21-r2+vincom-completion-b3-b2-2026-10-21-r2+vincom-reopened-source-unit-2026-10-21-r1+vincom-max-source-units-2026-10-22-r1",
+  "reviewedAt": "2026-10-22",
+  "reviewedBy": "Codex single-session location review",
+  "sources": [
+    {
+      "path": "evidence/vincom-final-review-2026-10-22/innisfree-locator.txt",
+      "sha256": "8cd509f4beb1e773c0a90d0bba4a3cb59b84bd0ac1abd5e34d4f2fc6ab0958e7"
+    },
+    {
+      "path": "evidence/vincom-final-review-2026-10-22/innisfree-stores.txt",
+      "sha256": "efe941bbccd358c8a58e4927dc2ad655c2a44a06910e373830375038a5fbfb30"
+    }
+  ],
+  "sourceUrls": [
+    "https://vn.innisfree.com/pages/store-locator",
+    "https://www.storemapper.co/api/users/36047-MsULpxDpK8NbJjGo/stores.js?callback=SMcallback2",
+    "https://vincom.com.vn/brand/innisfree"
+  ],
+  "originalDestination": {
+    "id": "vincom-prototype-innisfree",
+    "name": {
+      "vi": "Innisfree",
+      "en": "Innisfree"
+    },
+    "primaryFloor": "L1",
+    "floors": [
+      "L1"
+    ],
+    "description": {
+      "vi": "Innisfree là thương hiệu chăm sóc da và làm đẹp Hàn Quốc. Những nguyên liệu như trà xanh và các chiết xuất thực vật xuất hiện trong cách thương hiệu phát triển những dòng chăm sóc da.",
+      "en": "Innisfree is a Korean skincare and beauty brand. Ingredients such as green tea and botanical extracts feature in the development of its skincare ranges."
+    },
+    "reviewedAt": "2026-10-18",
+    "review": {
+      "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json",
+      "reviewedAt": "2026-10-18",
+      "reviewedBy": "Project owner (explicit VI and EN approval in conversation)",
+      "languages": {
+        "vi": true,
+        "en": true
+      }
+    },
+    "categories": [
+      "category-8"
+    ],
+    "aliases": [],
+    "status": "open",
+    "locations": [
+      {
+        "floorId": "L1",
+        "certainty": "floor-confirmed",
+        "areaIds": [],
+        "source": "docs/content-preparation/approved-directory-2026-10-18-r1/owner-decision.json; docs/content-preparation/finish-review-2026-10-18/revision-2/roster-proposals.json; source-layout associations and accepted r4 geometry; later shared-parent/L5-05 display holds take precedence"
+      }
+    ],
+    "website": "https://www.innisfree.vn/",
+    "openingSoon": false
+  },
+  "floorId": "B1",
+  "decision": "Correct floor only. Official locator record 61258554 names B1-23, corroborated by current mall branch card B1. The supplied L1 identity is superseded. B1-23 does not resolve 23A versus 23B; do not infer an area or shared occupancy."
+}
