@@ -1,0 +1,15 @@
+# Independent bounded area-route review — 21 October 2026
+
+Reviewed candidate source `b690041` and final built previews at ports 4461/4462 against issue 0024's revised area/frontage scope. This review made no runtime or build changes. The source inventory shows all 15 floor rasters match the accepted floor-geometry hashes; the two route rasters are the accepted Saigon L5 and Vincom B3 inputs.
+
+## Finding and closure
+
+The initial Saigon `viewBox` clipped the Dim Tu Tac and LONGJING plan labels above their route lines. The implementation changed the L5 crop from `530 495 670 250` to `530 340 670 370`; I inspected the rebuilt [Dim Tu Tac](../final-frames/saigon-centre-dimtutac-en-390-map.png) and [LONGJING](../final-frames/saigon-centre-longjing-en-390-map.png) phone maps. Both source labels now appear, with the strokes and destination dots on the pale concourse. Finding closed.
+
+## Source and rendered checks
+
+- Source and rendered review of the six paths found the manual starts outside the Zone A lift and B3-13 escalator interiors. Edges stay on visibly continuous pale/white public circulation and end beside accepted area frontages, without crossing a tenant shape. Vincom [Siam Sugar](vincom-vincom-prototype-siamsugar-visual.png), [Chang Kang Kung](vincom-vincom-prototype-changkangkung-visual.png), and [Chilli Thai](vincom-vincom-prototype-chillithai-visual.png) phone captures show their full strokes. The [actual phone viewport](vincom-phone-viewport.png) shows the Chilli Thai panel and route below the fixed header after the scene is ready. The header fragments within tall element-only captures are screenshot artifacts from capturing content outside the viewport; they are not an observed user-facing occlusion.
+- Graph endpoints are gated by mall, floor, open destination, accepted `area-confirmed` location and exact area ID. Unsupported records receive no path. The component asks for a named starting landmark; no route renders before that choice, and it shows steps with the same graph as the SVG. Text states the schematic frontage limit, no exact entrance or position detection, no distance/time or step-free claim, and no cross-floor route.
+- I inspected the implementation's [36-case, 276-check browser result](../browser-results.json), [four-case, 24-check history/fallback result](../history-fallback-results.json), and final [24-case, 72-check visual result](../final-browser-results.json). These cover six supported routes in EN/VI at desktop/phone, eight unsupported holds, four no-JS checks, language/history, 3D failure, and final overlays. All recorded checks pass. My own Playwright visual captures checked each Vincom route on phone and the revised Saigon target labels. Browser captures are local Chrome emulation, not physical device or onsite walk validation.
+
+No remaining significant finding in the authorized area-route scope. Exact doors, measured distance/time, step-free access, cross-floor links, and onsite currentness remain unverified and are excluded from these directions.
