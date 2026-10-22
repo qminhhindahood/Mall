@@ -2,6 +2,8 @@ import HomeIntroductions from './HomeIntroductions';
 import '../styles/home-discovery.css';
 import '../styles/usable-shell.css';
 import '../styles/arrival-shell.css';
+import '../styles/home-motion.css';
+import { useHomeEntrance } from './home-motion';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import type { SiteData } from '../data/site';
 import type { Locale, SceneKind, SceneRuntime, FloorDataset } from '../runtime/scene-contract';
@@ -88,6 +90,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const [discoveryPage,setDiscoveryPage] = useState(()=>typeof location!=='undefined'?onDiscoveryPage(new URL(location.href)):initial.kind==='discovery');
   const discoveryPageRef = useRef(discoveryPage);
   discoveryPageRef.current = discoveryPage;
+  const entrance = useHomeEntrance(initial.kind==='exterior'&&!discoveryPage);
   const sceneHosts = useRef<Partial<Record<SceneKind,HTMLDivElement>>>({});
   const sections = useRef<Partial<Record<SceneKind,HTMLElement>>>({});
   const requestSerial = useRef(0);
@@ -439,7 +442,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   }
   const change = (kind: SceneKind, floorId=selection.floorId): ExplorerSelection => ({...selection,kind,floorId,destinationId:undefined,areaId:undefined});
   return <>
-    <div className="visitor-guide separate-surfaces" data-mall={site.mallId} data-paused={paused} data-view={selection.kind} data-surface={discoveryPage?'discovery-page':'journey'} data-arrival-phase={arrivalPhase}>
+    <div className="visitor-guide separate-surfaces" data-mall={site.mallId} data-paused={paused} data-view={selection.kind} data-surface={discoveryPage?'discovery-page':'journey'} data-arrival-phase={arrivalPhase} data-entrance={entrance}>
+    {entrance==='doors'&&<div className="arrival-doors" aria-hidden="true"><span className="arrival-door left"/><span className="arrival-door right"/></div>}
     <nav className="skip-links" aria-label={c.skip}><a className="skip-introduction" href={href(change('map'))} onClick={event=>navigate(change('map'),event)}>{c.skip}</a></nav>
     <header className="journey-header" data-visible="true">
       <a className="wordmark" href={href(change('exterior'))} onClick={event=>navigate(change('exterior'),event)}>{site.name}</a>
@@ -458,7 +462,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       <div className="exterior-floor-journey" ref={exteriorJourney}>
         <div className="journey-introduction-reading">
           <section id="scene-exterior" ref={element=>{if(element)sections.current.exterior=element;}} tabIndex={-1} className="introduction" aria-label={c.exterior}>
-            <div className="introduction-copy"><h1><span>{site.name}</span></h1><p>{site.mallId==='saigon-centre'?c.saigonIntroduction:c.vincomIntroduction}</p><div className="arrival-actions"><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{j.enterDiscovery}<span aria-hidden="true"> ↗</span></a><a href={'/'+selection.locale+'/'+(selection.locale==='vi'?'chi-duong':'directions')}>{selection.locale==='vi'?'Tìm đường':'Find your way'}<span aria-hidden="true"> →</span></a></div></div>
+            <div className="introduction-copy"><h1><span>{site.name.split(' ').map((word,index)=><span key={index}>{index>0&&' '}<span className="mask-word" style={{'--word':index} as React.CSSProperties}><span>{word}</span></span></span>)}</span></h1><p>{site.mallId==='saigon-centre'?c.saigonIntroduction:c.vincomIntroduction}</p><div className="arrival-actions"><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{j.enterDiscovery}<span aria-hidden="true"> ↗</span></a><a href={'/'+selection.locale+'/'+(selection.locale==='vi'?'chi-duong':'directions')}>{selection.locale==='vi'?'Tìm đường':'Find your way'}<span aria-hidden="true"> →</span></a></div></div>
             <div className="introduction-bottom"><a className="scroll-guide" href="#scene-overview" onClick={event=>navigate(change('overview'),event)}><span className="scroll-cue" aria-hidden="true"/><span>{c.scrollInstruction}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div>
           </section>
           <section id="scene-overview" ref={element=>{if(element)sections.current.overview=element;}} tabIndex={-1} className="overview-reading" aria-label={c.overview}/>

@@ -2,6 +2,7 @@ import { useEffect, useLayoutEffect, useRef, type RefObject } from 'react';
 import type { FloorGeometry, SceneRuntime } from '../runtime/scene-contract';
 import FloorMap from './FloorMap';
 import { sharedFloorBounds } from './floor-frame';
+import { homeMotion } from '../data/home-motion';
 
 const clamp=(value:number)=>Math.max(0,Math.min(1,value));
 const mix=(a:number,b:number,t:number)=>a+(b-a)*t;
@@ -46,6 +47,13 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
       const cue=container.querySelector<HTMLElement>('.introduction-bottom');
       if(cue){const past=approach>.2;cue.dataset.past=String(past);cue.inert=past;cue.style.opacity=String(1-clamp(approach/.2));}
       visual.dataset.revealed=String(revealed>.08);
+      // The real floors assemble once as the overview first enters view; selection or a later visit never replays it.
+      if(homeMotion.floorStack&&!reducedMotion&&revealed>.35&&!stack.dataset.assemble){
+        stack.dataset.assemble='play';
+        const finish=()=>{if(stack.dataset.assemble==='play')stack.dataset.assemble='done';};
+        stack.addEventListener('pointerdown',finish,{once:true});stack.addEventListener('focusin',finish,{once:true});
+        setTimeout(finish,1400);
+      }
       visual.querySelector<HTMLElement>('.registered-floors')!.inert=revealed<1;
       runtime.current?.setJourneyProgress(approach,reducedMotion);
       const stackBox=stack.getBoundingClientRect();
