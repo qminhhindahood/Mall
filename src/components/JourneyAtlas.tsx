@@ -39,7 +39,7 @@ export default function JourneyAtlas({site,routing,locale='en',publicDirections=
  const toEndpoint=(p:Place):Endpoint|null=>{
   const fl=site.geometry.floors.find(f=>f.id===p.floor);if(!fl)return null;
   if(p.entranceId){const e=publicEntrances(fl).find(e=>e.id===p.entranceId);return e?{kind:'point',floorId:p.floor,point:e.point as [number,number],name:p.name}:null}
-  if(p.start){const lift=planIcons(site.mallId,p.floor).find(i=>i.kind==='lift'&&/Zone A/i.test(i.label.en));return lift?{kind:'point',floorId:p.floor,point:[lift.x,lift.y],name:p.name}:null}
+  if(p.start){const icons=planIcons(site.mallId,p.floor);const lift=icons.find(i=>i.kind==='lift'&&/Zone A/i.test(i.label.en));const escalator=icons.find(i=>i.kind==='escalator'&&/B3-13/.test(i.label.en))??icons.find(i=>i.kind==='escalator');const point=p.start==='escalator'?escalator:lift;return point?{kind:'point',floorId:p.floor,point:[point.x,point.y],name:p.name}:null}
   if(p.areaIds.length){const owned=p.areaIds.map(id=>site.content.areas.find(a=>a.id===id)).filter((a):a is NonNullable<typeof a>=>!!a);return {kind:'area',floorId:p.floor,regionIds:owned.flatMap(a=>a.regionIds),name:p.name,label:owned[0]&&areaLabelPoint(fl,owned[0].regionIds)}}
   return {kind:'floor',floorId:p.floor,name:p.name};
  };

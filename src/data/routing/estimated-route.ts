@@ -163,12 +163,43 @@ export function planEstimatedRoute(ctx: RouteContext, from: Endpoint | null, to:
   const links = new Map<number, Link[]>();
   const add = (a: number, l: Link) => links.set(a, [...(links.get(a) ?? []), l]);
   const connectors = floors.map((f, fi) => ({ fi, icons: ctx.icons(f.id).filter(i => i.kind === 'lift' || i.kind === 'escalator').map(icon => ({ icon, cell: grids[fi] ? nearestMain(grids[fi]!, [icon.x, icon.y], 20) : -1 })).filter(c => c.cell >= 0) }));
-  for (let i = 0; i < connectors.length; i++) for (let j = i + 1; j < connectors.length; j++) {
-    for (const a of connectors[i].icons.filter(c => c.icon.kind === 'lift')) for (const b of connectors[j].icons.filter(c => c.icon.kind === 'lift')) {
+  const namedLifts = connectors.map(c => c.icons.filter(i => i.icon.kind === 'lift' && zoneOf(i.icon)));
+  const unnamedLifts = connectors.map(c => c.icons.filter(i => i.icon.kind === 'lift' && !zoneOf(i.icon)));
+
+  // Named lifts (Saigon's Zone A/B) link every floor where the same name appears.
+  for (let i = 0; i < namedLifts.length; i++) for (let j = i + 1; j < namedLifts.length; j++) {
+    for (const a of namedLifts[i]) for (const b of namedLifts[j]) {
       const za = zoneOf(a.icon), zb = zoneOf(b.icon); if (!za || za !== zb) continue;
       const cost = 30 + 6 * (j - i), label = `Zone ${za}`;
       add(node(i, a.cell), { to: node(j, b.cell), cost, kind: 'lift', label }); add(node(j, b.cell), { to: node(i, a.cell), cost, kind: 'lift', label });
     }
+  }
+
+  // Vincom's lifts have no zone names. Match consecutive floors by position, one lift to one lift, then link the
+  // whole shaft so a lift journey can skip floors. The plans are not registered to each other: this is a
+  // positional estimate, not a surveyed shaft, and the route is labelled estimated.
+  const UNNAMED_LIFT_TOL = 17;
+  const shafts: { fi: number; icon: (typeof unnamedLifts)[number][number] }[][] = [];
+  for (let i = 0; i + 1 < unnamedLifts.length; i++) {
+    const pairs: [number, number, number][] = [];
+    unnamedLifts[i].forEach((a, ai) => unnamedLifts[i + 1].forEach((b, bi) => {
+      const d = Math.hypot(a.icon.x - b.icon.x, a.icon.y - b.icon.y);
+      if (d <= UNNAMED_LIFT_TOL) pairs.push([d, ai, bi]);
+    }));
+    pairs.sort((p, q) => p[0] - q[0]);
+    const usedA = new Set<number>(), usedB = new Set<number>();
+    for (const [, ai, bi] of pairs) {
+      if (usedA.has(ai) || usedB.has(bi)) continue;
+      usedA.add(ai); usedB.add(bi);
+      const a = unnamedLifts[i][ai], b = unnamedLifts[i + 1][bi];
+      const at = shafts.findIndex(s => s[s.length - 1].fi === i && s[s.length - 1].icon === a);
+      if (at >= 0) shafts[at].push({ fi: i + 1, icon: b }); else shafts.push([{ fi: i, icon: a }, { fi: i + 1, icon: b }]);
+    }
+  }
+  for (const s of shafts) for (let p = 0; p < s.length; p++) for (let q = p + 1; q < s.length; q++) {
+    const cost = 30 + 6 * (s[q].fi - s[p].fi);
+    add(node(s[p].fi, s[p].icon.cell), { to: node(s[q].fi, s[q].icon.cell), cost, kind: 'lift', label: '' });
+    add(node(s[q].fi, s[q].icon.cell), { to: node(s[p].fi, s[p].icon.cell), cost, kind: 'lift', label: '' });
   }
   for (let i = 0; i + 1 < connectors.length; i++) for (const a of connectors[i].icons.filter(c => c.icon.kind === 'escalator')) {
     let best: (typeof a) | undefined, bestD = 14;
@@ -181,11 +212,11 @@ export function planEstimatedRoute(ctx: RouteContext, from: Endpoint | null, to:
     const list = connectors[fi].icons.slice().sort((a, b) => (a.icon.kind === 'lift' ? 0 : 1) - (b.icon.kind === 'lift' ? 0 : 1));
     return list.length ? [list[0].cell] : [];
   };
-  const resolve = (e: Endpoint): { fi: number; cells: number[] } | null => {
+  const resolve = (e: Endpoint): { fi: number; cells: number[]; landing?: boolean } | null => {
     const fi = index(e.floorId), g = fi >= 0 ? grids[fi] : null; if (!g) return null;
     if (e.kind === 'point') { const c = nearestMain(g, e.point); return c >= 0 ? { fi, cells: [c] } : null; }
-    if (e.kind === 'area') { const cells = frontage(g, e.regionIds); return cells.length ? { fi, cells } : null; }
-    const cells = arrival(fi); return cells.length ? { fi, cells } : null;
+    if (e.kind === 'area') { const cells = frontage(g, e.regionIds); if (cells.length) return { fi, cells }; const landing = arrival(fi); return landing.length ? { fi, cells: landing, landing: true } : null; }
+    const cells = arrival(fi); return cells.length ? { fi, cells, landing: true } : null;
   };
   const origin = resolve(from), target = resolve(to);
   if (!origin) return unavailable('no-start');
@@ -227,8 +258,8 @@ export function planEstimatedRoute(ctx: RouteContext, from: Endpoint | null, to:
   legs.forEach((leg, li) => {
     const pts = legPoints[li], floorId = leg.floorId, marks = ctx.landmarks(floorId);
     const nearName = (p: Pt) => { let best = '', bestD = 7; for (const m of marks) { const d = Math.hypot(m.point[0] - p[0], m.point[1] - p[1]); if (d < bestD) { bestD = d; best = m.name; } } return best; };
-    if (li === 0) steps.push({ floorId, instruction: from.kind === 'area' ? t(`Leave ${from.name} and join the main walkway.`, `Rời ${from.name} và đi ra lối đi chính.`) : from.kind === 'floor' ? t(`${from.name} is on ${floorId}. Start from the lift and escalator landing.`, `${from.name} ở tầng ${floorId}. Hãy bắt đầu từ khu thang máy và thang cuốn.`) : t(`Start at ${from.name}.`, `Bắt đầu tại ${from.name}.`) });
-    else { const link = leg.arrivedBy!; steps.push({ floorId, instruction: link.kind === 'lift' ? t(`Leave the ${link.label} lift on ${floorId} and follow the walkway.`, `Ra khỏi thang máy ${link.label} ở tầng ${floorId} và đi theo lối đi.`) : t(`Step off the escalator on ${floorId} and follow the walkway.`, `Bước xuống thang cuốn ở tầng ${floorId} và đi theo lối đi.`) }); }
+    if (li === 0) steps.push({ floorId, instruction: from.kind === 'area' && !origin.landing ? t(`Leave ${from.name} and join the main walkway.`, `Rời ${from.name} và đi ra lối đi chính.`) : from.kind === 'area' || from.kind === 'floor' ? t(`${from.name} is on ${floorId}. Start from the lift and escalator landing.`, `${from.name} ở tầng ${floorId}. Hãy bắt đầu từ khu thang máy và thang cuốn.`) : t(`Start at ${from.name}.`, `Bắt đầu tại ${from.name}.`) });
+    else { const link = leg.arrivedBy!; steps.push({ floorId, instruction: link.kind === 'lift' ? (link.label ? t(`Leave the ${link.label} lift on ${floorId} and follow the walkway.`, `Ra khỏi thang máy ${link.label} ở tầng ${floorId} và đi theo lối đi.`) : t(`Leave the lift on ${floorId} and follow the walkway.`, `Ra khỏi thang máy ở tầng ${floorId} và đi theo lối đi.`)) : t(`Step off the escalator on ${floorId} and follow the walkway.`, `Bước xuống thang cuốn ở tầng ${floorId} và đi theo lối đi.`) }); }
     let walked = 0, lastTurn: Pt | null = null;
     for (let k = 1; k < pts.length - 1; k++) {
       const a = Math.atan2(pts[k][1] - pts[k - 1][1], pts[k][0] - pts[k - 1][0]), b = Math.atan2(pts[k + 1][1] - pts[k][1], pts[k + 1][0] - pts[k][0]);
@@ -242,12 +273,12 @@ export function planEstimatedRoute(ctx: RouteContext, from: Endpoint | null, to:
     const endPoint = pts[pts.length - 1], endName = nearName(endPoint);
     if (li < legs.length - 1) {
       const next = legs[li + 1].arrivedBy!, up = index(legs[li + 1].floorId) > index(floorId);
-      steps.push({ floorId, transferTo: legs[li + 1].floorId, instruction: next.kind === 'lift' ? t(`Take the ${next.label} lift to ${legs[li + 1].floorId}.`, `Đi thang máy ${next.label} đến tầng ${legs[li + 1].floorId}.`) : t(`Take the escalator ${up ? 'up' : 'down'} to ${legs[li + 1].floorId}.`, `Đi thang cuốn ${up ? 'lên' : 'xuống'} tầng ${legs[li + 1].floorId}.`) });
-    } else if (to.kind === 'area') {
+      steps.push({ floorId, transferTo: legs[li + 1].floorId, instruction: next.kind === 'lift' ? (next.label ? t(`Take the ${next.label} lift to ${legs[li + 1].floorId}.`, `Đi thang máy ${next.label} đến tầng ${legs[li + 1].floorId}.`) : t(`Take the lift to ${legs[li + 1].floorId}.`, `Đi thang máy đến tầng ${legs[li + 1].floorId}.`)) : t(`Take the escalator ${up ? 'up' : 'down'} to ${legs[li + 1].floorId}.`, `Đi thang cuốn ${up ? 'lên' : 'xuống'} tầng ${legs[li + 1].floorId}.`) });
+    } else if (to.kind === 'area' && !target.landing) {
       let side = '';
       if (to.label && pts.length > 1) { const [p, q] = [pts[pts.length - 2], endPoint]; const cross = (q[0] - p[0]) * (to.label[1] - q[1]) - (q[1] - p[1]) * (to.label[0] - q[0]); side = cross > 0 ? 'right' : 'left'; }
       steps.push({ floorId, instruction: side ? t(`${to.name} is on your ${side}${endName && endName !== to.name ? `, near ${endName}` : ''}.`, `${to.name} ở bên ${side === 'right' ? 'phải' : 'trái'}${endName && endName !== to.name ? `, gần ${endName}` : ''}.`) : t(`${to.name} is just ahead.`, `${to.name} ở ngay phía trước.`) });
-    } else if (to.kind === 'floor') {
+    } else if (to.kind === 'floor' || (to.kind === 'area' && target.landing)) {
       steps.push({ floorId, instruction: t(`${to.name} is on ${floorId}. Look around this landing and follow the in-mall signs.`, `${to.name} ở tầng ${floorId}. Hãy quan sát quanh khu vực này và đi theo biển chỉ dẫn trong trung tâm.`) });
     } else {
       steps.push({ floorId, instruction: t(`You have reached ${to.name}.`, `Bạn đã đến ${to.name}.`) });
