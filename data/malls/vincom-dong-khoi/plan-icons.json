@@ -1,0 +1,377 @@
+{
+  "mallId": "vincom-dong-khoi",
+  "source": "Black pictograms on the seven supplied Vincom Center Đồng Khởi plans in assets/vincom-dong-khoi/maps (B3, B2, B1, L1, M, L2, L3). Detected from the raster, not a vector feature file; positions are schematic map units from the same transform the floor geometry records. The plans are not registered to each other: cross-floor connector pairing is positional, not a surveyed shaft.",
+  "detection": {
+    "method": "Dark-square detection (24 px window, at least 55% near-black pixels), then visual confirmation of each glyph on a full-floor overlay.",
+    "review": "evidence/vincom-routing-2026-10-22/icons-overlay-{floor}.png",
+    "alignment": "evidence/vincom-routing-2026-10-22/README.md",
+    "pixelTransform": "data/malls/vincom-dong-khoi/floor-geometry.json sources[0].transform"
+  },
+  "floors": {
+    "B3": [
+      {
+        "kind": "escalator",
+        "x": -43.8,
+        "y": -25.95,
+        "pixel": [
+          222,
+          279
+        ],
+        "label": {
+          "en": "Escalator",
+          "vi": "Thang cuốn"
+        }
+      },
+      {
+        "kind": "restroom",
+        "x": -55.2,
+        "y": -6.15,
+        "pixel": [
+          108,
+          477
+        ],
+        "label": {
+          "en": "Restrooms",
+          "vi": "Nhà vệ sinh"
+        }
+      },
+      {
+        "kind": "escalator",
+        "x": -28.6,
+        "y": -3.15,
+        "pixel": [
+          374,
+          507
+        ],
+        "label": {
+          "en": "Escalator · beside B3-13",
+          "vi": "Thang cuốn · cạnh B3-13"
+        }
+      },
+      {
+        "kind": "escalator",
+        "x": -28.6,
+        "y": 4.45,
+        "pixel": [
+          374,
+          583
+        ],
+        "label": {
+          "en": "Escalator",
+          "vi": "Thang cuốn"
+        }
+      },
+      {
+        "kind": "lift",
+        "x": -43.6,
+        "y": 7.95,
+        "pixel": [
+          224,
+          618
+        ],
+        "label": {
+          "en": "Lift",
+          "vi": "Thang máy"
+        }
+      },
+      {
+        "kind": "restroom",
+        "x": -10.6,
+        "y": 14.85,
+        "pixel": [
+          554,
+          687
+        ],
+        "label": {
+          "en": "Restrooms",
+          "vi": "Nhà vệ sinh"
+        }
+      },
+      {
+        "kind": "lift",
+        "x": -43.7,
+        "y": 21.25,
+        "pixel": [
+          223,
+          751
+        ],
+        "label": {
+          "en": "Lift",
+          "vi": "Thang máy"
+        }
+      }
+    ],
+    "B2": [
+      {
+        "kind": "escalator",
+        "x": -39.45,
+        "y": -25.65,
+        "pixel": [
+          265,
+          285
+        ],
+        "label": {
+          "en": "Escalator",
+          "vi": "Thang cuốn"
+        }
+      },
+      {
+        "kind": "restroom",
+        "x": -49.75,
+        "y": -7.35,
+        "pixel": [
+          162,
+          468
+        ],
+        "label": {
+          "en": "Restrooms",
+          "vi": "Nhà vệ sinh"
+        }
+      },
+      {
+        "kind": "escalator",
+        "x": -23.95,
+        "y": 3.15,
+        "pixel": [
+          420,
+          573
+        ],
+        "label": {
+          "en": "Escalator",
+          "vi": "Thang cuốn"
+        }
+      },
+      {
+        "kind": "lift",
+        "x": -39.95,
+        "y": 15.95,
+        "pixel": [
+          260,
+          701
+        ],
+        "label": {
+          "en": "Lift",
+          "vi": "Thang máy"
+        }
+      }
+    ],
+    "B1": [
+      {
+        "kind": "escalator",
+        "x": -23,
+        "y": 12.55,
+        "pixel": [
+          430,
+          667
+        ],
+        "label": {
+          "en": "Escalator",
+          "vi": "Thang cuốn"
+        }
+      },
+      {
+        "kind": "lift",
+        "x": -40,
+        "y": 15.45,
+        "pixel": [
+          260,
+          696
+        ],
+        "label": {
+          "en": "Lift",
+          "vi": "Thang máy"
+        }
+      }
+    ],
+    "L1": [
+      {
+        "kind": "escalator",
+        "x": -26.3,
+        "y": -6.25,
+        "pixel": [
+          397,
+          479
+        ],
+        "label": {
+          "en": "Escalator",
+          "vi": "Thang cuốn"
+        }
+      },
+      {
+        "kind": "lift",
+        "x": -48,
+        "y": 1.45,
+        "pixel": [
+          180,
+          556
+        ],
+        "label": {
+          "en": "Lift",
+          "vi": "Thang máy"
+        }
+      },
+      {
+        "kind": "escalator",
+        "x": -26.4,
+        "y": 5.95,
+        "pixel": [
+          396,
+          601
+        ],
+        "label": {
+          "en": "Escalator",
+          "vi": "Thang cuốn"
+        }
+      },
+      {
+        "kind": "lift",
+        "x": -1.7,
+        "y": -7.35,
+        "pixel": [
+          643,
+          468
+        ],
+        "label": {
+          "en": "Lift",
+          "vi": "Thang máy"
+        }
+      },
+      {
+        "kind": "lift",
+        "x": -1.7,
+        "y": 7.05,
+        "pixel": [
+          643,
+          612
+        ],
+        "label": {
+          "en": "Lift",
+          "vi": "Thang máy"
+        }
+      }
+    ],
+    "M": [
+      {
+        "kind": "escalator",
+        "x": -23.35,
+        "y": -6.6,
+        "pixel": [
+          426,
+          476
+        ],
+        "label": {
+          "en": "Escalator",
+          "vi": "Thang cuốn"
+        }
+      },
+      {
+        "kind": "escalator",
+        "x": -23.35,
+        "y": 5.5,
+        "pixel": [
+          426,
+          597
+        ],
+        "label": {
+          "en": "Escalator",
+          "vi": "Thang cuốn"
+        }
+      },
+      {
+        "kind": "lift",
+        "x": -45.75,
+        "y": 7,
+        "pixel": [
+          202,
+          612
+        ],
+        "label": {
+          "en": "Lift",
+          "vi": "Thang máy"
+        }
+      }
+    ],
+    "L2": [
+      {
+        "kind": "escalator",
+        "x": -22.9,
+        "y": -7.3,
+        "pixel": [
+          431,
+          469
+        ],
+        "label": {
+          "en": "Escalator",
+          "vi": "Thang cuốn"
+        }
+      },
+      {
+        "kind": "lift",
+        "x": -45.4,
+        "y": -0.3,
+        "pixel": [
+          206,
+          539
+        ],
+        "label": {
+          "en": "Lift",
+          "vi": "Thang máy"
+        }
+      },
+      {
+        "kind": "escalator",
+        "x": -22.9,
+        "y": 4.9,
+        "pixel": [
+          431,
+          591
+        ],
+        "label": {
+          "en": "Escalator",
+          "vi": "Thang cuốn"
+        }
+      }
+    ],
+    "L3": [
+      {
+        "kind": "escalator",
+        "x": -23.85,
+        "y": -8.75,
+        "pixel": [
+          421,
+          453
+        ],
+        "label": {
+          "en": "Escalator",
+          "vi": "Thang cuốn"
+        }
+      },
+      {
+        "kind": "lift",
+        "x": -45.85,
+        "y": 2.35,
+        "pixel": [
+          201,
+          564
+        ],
+        "label": {
+          "en": "Lift",
+          "vi": "Thang máy"
+        }
+      },
+      {
+        "kind": "escalator",
+        "x": -23.85,
+        "y": 3.45,
+        "pixel": [
+          421,
+          575
+        ],
+        "label": {
+          "en": "Escalator",
+          "vi": "Thang cuốn"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+/* Facility icons: neutral badges so shop areas stay the coloured elements. */
+.plan-icon circle{fill:var(--plan-icon,#4a5d52);stroke:#fff;stroke-width:1.4}
+.plan-icon path{fill:none;stroke:#fff;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.plan-icon text{fill:#fff;font:700 7px/1 Guide,Arial,sans-serif;text-anchor:middle;dominant-baseline:central;stroke:none}
+.plan-icon[data-kind=exit] circle{fill:var(--plan-icon-exit,#2f6b4a)}
+.plan-icons{pointer-events:none}
+.plan-legend{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12px;line-height:1.4;color:var(--muted,#506b58)}
+.plan-legend li{display:inline-flex;align-items:center;gap:7px;min-height:24px}
+.plan-legend svg{flex:none}
+.map-legend-host{position:absolute;left:24px;bottom:20px;max-width:calc(100% - 48px);z-index:2;pointer-events:none}
+.area-name text{fill:var(--ink,#243a30);text-anchor:middle;dominant-baseline:central;font-family:Guide,Arial,sans-serif;font-weight:600;paint-order:stroke;stroke:rgba(255,255,255,.88);stroke-linejoin:round}
+.area-name[data-active=true] text{fill:#5a3a14}
+.visitor-guide{--plan-icon:var(--action,#4a5d52)}
+.plan-legend svg.plan-icon{width:20px;height:20px;min-width:20px;max-width:20px;min-height:0;max-height:20px;flex:none}
+.map-legend-host .plan-legend{flex-direction:column;flex-wrap:nowrap;gap:2px}
