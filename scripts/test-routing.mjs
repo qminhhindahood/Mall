@@ -162,9 +162,9 @@ for (const run of [
 const saigonCases = [
   { name: 'same floor, two shops', q: 'to=saigon-prototype-mlb&floor=L3&from=saigon-prototype-adidas&fromFloor=L3', min: 2, cross: false },
   { name: 'between floors by lift', q: 'to=saigon-prototype-mlb&floor=L3&from=saigon-prototype-meatmeet&fromFloor=B2', min: 5, cross: true },
-  { name: 'shop to a floor-only listing', q: 'to=saigon-prototype-matinkimvietnam&floor=L3&from=saigon-prototype-calvinklein&fromFloor=L2', min: 4, cross: true },
+  { name: 'shop to a floor-only Takashimaya brand', q: 'to=saigon-takashimaya-clarks&floor=B1&from=saigon-prototype-calvinklein&fromFloor=L2', min: 4, cross: true },
   { name: 'from a public entrance', q: 'to=saigon-prototype-mlb&floor=L3&from=saigon-entrance-door-1&fromFloor=L1', min: 4, cross: true },
-  { name: 'floor-only listing to mapped shop', q: 'to=saigon-prototype-calvinklein&floor=L2&from=saigon-prototype-matinkimvietnam&fromFloor=L3', min: 4, cross: true },
+  { name: 'floor-only brand to floor-only brand', q: 'to=saigon-takashimaya-hugo&floor=L2&from=saigon-takashimaya-clarks&fromFloor=B1', min: 4, cross: true },
 ];
 for (const c of saigonCases) {
   const label = `Saigon: ${c.name}`;

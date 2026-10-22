@@ -125,3 +125,12 @@
  .visitor-guide[data-surface=discovery-page] .discovery-collection-heading h3{font-size:25px}.visitor-guide[data-surface=discovery-page] [data-discovery-results] ul{grid-template-columns:1fr}.visitor-guide[data-surface=discovery-page] [data-discovery-results] a{min-height:112px}
  .visitor-guide .visit-footer{padding:40px 24px;gap:24px}
 }
+
+/* Hero copy shares the header's side gutter. */
+@media(min-width:901px){.visitor-guide .exterior-floor-journey{padding-inline:clamp(24px,5vw,80px)}}
+
+/* Display headings break between phrases, not inside them. */
+.home-section-copy h2,.visitor-guide .discovery-intro h1,.visitor-guide .discovery-intro h2{text-wrap:balance}
+/* Browse link sits under the subtitle with the title block, as a full-size target. */
+.visitor-guide .discovery-browse-link{display:inline-flex;align-items:center;min-height:44px}
+.visitor-guide[data-surface=discovery-page] .discovery-browse-link{grid-column:1;grid-row:3;justify-self:start}
