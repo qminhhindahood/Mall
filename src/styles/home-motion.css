@@ -47,7 +47,29 @@ html:not([data-arrival-seen]) .visitor-guide[data-entrance=doors] .introduction-
 .overview-stack[data-assemble=play]>a{animation:floor-settle var(--motion-stack) var(--motion-ease-out) calc((var(--floor-count) - 1 - var(--floor-index))*var(--motion-stack-step)) backwards}
 @keyframes floor-settle{from{opacity:0;translate:0 -64px}}
 
+/* Discovery invitation: a slow strip of real tenant names above the highlights. */
+.discovery-marquee{grid-column:1 / -1;display:flex;align-items:center;gap:16px;margin-bottom:clamp(8px,2vw,24px);min-width:0}
+.marquee-strip{flex:1;min-width:0;overflow:hidden;contain:inline-size;mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.marquee-track{display:flex;width:max-content;animation:marquee-drift 80s linear infinite}
+.discovery-marquee[data-playing=false] .marquee-track{animation-play-state:paused}
+.marquee-run{display:flex;flex:none}
+.marquee-run>span{font:500 clamp(28px,3.4vw,46px)/1.2 Manrope,Guide,sans-serif;letter-spacing:-.03em;white-space:nowrap;color:color-mix(in oklab,var(--ink) 18%,var(--paper));padding-inline:.55em;display:inline-flex;align-items:center;gap:1.1em}
+.marquee-run>span:after{content:'';width:6px;height:6px;border-radius:50%;background:color-mix(in oklab,var(--action) 35%,var(--paper))}
+@keyframes marquee-drift{to{transform:translateX(-50%)}}
+.marquee-toggle{flex:none;display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px;border:1px solid var(--line);border-radius:4px;background:transparent;color:var(--muted);font:500 12px/1 Guide,sans-serif;cursor:pointer}
+.marquee-toggle:hover{color:var(--ink);border-color:color-mix(in oklab,var(--ink) 30%,var(--line))}
+.marquee-toggle:focus-visible{outline:2px solid var(--action);outline-offset:2px}
+.visitor-guide .marquee-toggle svg{width:16px;height:16px;min-height:0;max-width:16px;flex:none;display:inline-block;border:0;border-radius:0;background:none}
+.marquee-toggle svg path{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round}
+/* The real highlights enter once: short fade, 12px rise and a slight scale. */
+.home-picks[data-enter=pending] li{opacity:0}
+.home-picks[data-enter=play] li{animation:pick-enter 640ms var(--motion-ease-out) calc(var(--pick)*90ms) backwards}
+@keyframes pick-enter{from{opacity:0;transform:translateY(12px) scale(.98)}}
+@media(max-width:700px){.discovery-marquee{gap:8px}.marquee-toggle{padding:0 10px}}
+
 @media(prefers-reduced-motion:reduce){
   .visitor-guide .arrival-doors{display:none!important}
+  .marquee-track{animation:none!important}
+  .home-picks li{opacity:1!important;animation:none!important}
   .visitor-guide :is(.mask-word,.mask-word>span,.introduction-copy>p,.arrival-actions,.introduction-bottom,.overview-stack>a){animation:none!important}
 }

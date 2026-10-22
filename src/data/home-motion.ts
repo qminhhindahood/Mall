@@ -6,6 +6,8 @@ export const homeMotion = {
   arrival: 'doors' as 'doors' | 'none',
   /** Real floor overview assembles once when it first enters view. */
   floorStack: true,
+  /** Home Discovery invitation: slow tenant-name strip and a one-time entrance for the real highlights. */
+  discoveryInvitation: true,
 };
 
 /** Session key: revisits within a session skip the entrance instead of replaying it.
