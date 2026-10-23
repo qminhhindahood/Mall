@@ -30,19 +30,23 @@ html:not([data-arrival-seen]) .visitor-guide[data-entrance=doors] .arrival-doors
 @keyframes arrival-door-left{to{transform:translateX(-101%);visibility:hidden}}
 @keyframes arrival-door-right{to{transform:translateX(101%);visibility:hidden}}
 
-/* Type mask (doors and cinematic arrivals): each rendered line of the real heading wipes up as it rises;
+/* Rise: the still preview stays hidden until the model first appears, so the building is revealed once,
+   from the ground up. Revisits, reduced motion, model failure and no-JavaScript keep the preview. */
+html:not([data-arrival-seen]) .visitor-guide[data-model-arrival=pending] .scene-host-exterior>img{visibility:hidden}
+
+/* Type mask (every arrival except 'none'): each rendered line of the real heading wipes up as it rises;
    words on one line share a delay. The text is never duplicated. */
 .mask-word{display:inline-block}
 .mask-word>span{display:inline-block}
-html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=doors],[data-entrance=cinematic]) .mask-word{animation:arrival-mask var(--motion-mask) var(--motion-ease-out) calc(var(--motion-mask-start) + var(--line)*var(--motion-mask-step)) both}
-html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=doors],[data-entrance=cinematic]) .mask-word>span{animation:arrival-rise var(--motion-mask) var(--motion-ease-out) calc(var(--motion-mask-start) + var(--line)*var(--motion-mask-step)) both}
+html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=rise],[data-entrance=doors],[data-entrance=cinematic]) .mask-word{animation:arrival-mask var(--motion-mask) var(--motion-ease-out) calc(var(--motion-mask-start) + var(--line)*var(--motion-mask-step)) both}
+html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=rise],[data-entrance=doors],[data-entrance=cinematic]) .mask-word>span{animation:arrival-rise var(--motion-mask) var(--motion-ease-out) calc(var(--motion-mask-start) + var(--line)*var(--motion-mask-step)) both}
 /* Generous negative insets keep Vietnamese diacritics and descenders outside the wipe edge. */
 @keyframes arrival-mask{from{clip-path:inset(100% -.2em -.35em -.2em)}to{clip-path:inset(-.45em -.2em -.35em -.2em)}}
 @keyframes arrival-rise{from{transform:translateY(var(--motion-rise))}}
-html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=doors],[data-entrance=cinematic]) .introduction-copy>p{animation:arrival-fade 700ms var(--motion-ease-out) 560ms both}
-html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=doors],[data-entrance=cinematic]) .arrival-actions{animation:arrival-fade 700ms var(--motion-ease-out) 660ms both}
-html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=doors],[data-entrance=cinematic]) .arrival-meta{animation:arrival-fade 700ms var(--motion-ease-out) 760ms both}
-html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=doors],[data-entrance=cinematic]) .introduction-bottom{animation:arrival-fade 600ms ease 1000ms both}
+html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=rise],[data-entrance=doors],[data-entrance=cinematic]) .introduction-copy>p{animation:arrival-fade 700ms var(--motion-ease-out) 560ms both}
+html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=rise],[data-entrance=doors],[data-entrance=cinematic]) .arrival-actions{animation:arrival-fade 700ms var(--motion-ease-out) 660ms both}
+html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=rise],[data-entrance=doors],[data-entrance=cinematic]) .arrival-meta{animation:arrival-fade 700ms var(--motion-ease-out) 760ms both}
+html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=rise],[data-entrance=doors],[data-entrance=cinematic]) .introduction-bottom{animation:arrival-fade 600ms ease 1000ms both}
 @keyframes arrival-fade{from{opacity:0;transform:translateY(16px)}}
 
 /* Hero meta row: small uppercase facts derived from the dataset, beneath the actions. */
@@ -74,6 +78,7 @@ html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=doors],[data-entr
 @media(max-width:700px){.discovery-marquee{gap:8px}.marquee-toggle{padding:0 10px}}
 
 @media(prefers-reduced-motion:reduce){
+  .visitor-guide .scene-host-exterior>img{visibility:visible!important}
   .visitor-guide .arrival-doors{display:none!important}
   .marquee-track{animation:none!important}
   .home-picks li{opacity:1!important;animation:none!important}

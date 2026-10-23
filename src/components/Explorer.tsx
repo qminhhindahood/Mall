@@ -100,6 +100,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   discoveryPageRef.current = discoveryPage;
   const entrance = useHomeEntrance(initial.kind==='exterior'&&!discoveryPage);
   const title = useTitleLines();
+  // Until the model first appears, a rising arrival keeps the still preview hidden so the building is not shown twice.
+  const [modelShown,setModelShown] = useState(false);
   const sceneHosts = useRef<Partial<Record<SceneKind,HTMLDivElement>>>({});
   const sections = useRef<Partial<Record<SceneKind,HTMLElement>>>({});
   const requestSerial = useRef(0);
@@ -331,7 +333,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       return createSceneRuntime({
       canvas: ownedCanvas, mallId: site.mallId, data: geometry,
       assetRevision: site.assetRevision, exteriorUrl: site.exteriorUrl, reducedMotion,
-      arrivalStyle: homeMotion.arrival==='cinematic'?'cinematic':'idle',
+      // The rise plays only on a first Home arrival; revisits and early intent (marked by the layout script) get the settled building.
+      arrivalStyle: homeMotion.arrival==='cinematic'?'cinematic':homeMotion.arrival==='rise'&&initial.kind==='exterior'&&!document.documentElement.hasAttribute('data-arrival-seen')?'rise':'idle',
       exteriorIdentityUrl: site.exteriorIdentityUrl,
       modelBytes,
       sceneHosts: sceneHosts.current as Record<SceneKind,HTMLElement>,
@@ -365,6 +368,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     canvas.current.setAttribute('aria-hidden',String(load!=='ready'));
     canvas.current.setAttribute('aria-label',c[selection.kind]);
   },[load,selection.locale,selection.kind]);
+  useEffect(()=>{if(load==='ready'||load==='failed')setModelShown(true);},[load]);
   useEffect(()=>{
     const guide=document.querySelector<HTMLElement>('.static-guide');
     if (!guide) return;
@@ -452,7 +456,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   }
   const change = (kind: SceneKind, floorId=selection.floorId): ExplorerSelection => ({...selection,kind,floorId,destinationId:undefined,areaId:undefined});
   return <>
-    <div className="visitor-guide separate-surfaces" data-mall={site.mallId} data-paused={paused} data-view={selection.kind} data-surface={discoveryPage?'discovery-page':'journey'} data-arrival-phase={arrivalPhase} data-entrance={entrance}>
+    <div className="visitor-guide separate-surfaces" data-mall={site.mallId} data-paused={paused} data-view={selection.kind} data-surface={discoveryPage?'discovery-page':'journey'} data-arrival-phase={arrivalPhase} data-entrance={entrance} data-model-arrival={homeMotion.arrival==='rise'&&initial.kind==='exterior'&&!modelShown?'pending':'done'}>
     {entrance==='doors'&&<div className="arrival-doors" aria-hidden="true"><span className="arrival-door left"/><span className="arrival-door right"/></div>}
     <nav className="skip-links" aria-label={c.skip}><a className="skip-introduction" href={href(change('map'))} onClick={event=>navigate(change('map'),event)}>{c.skip}</a></nav>
     <header className="journey-header" data-visible="true">

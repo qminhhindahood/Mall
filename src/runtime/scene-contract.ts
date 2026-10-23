@@ -39,7 +39,8 @@ export type SceneRuntimeOptions = {
   exteriorIdentityUrl?: string;
   reducedMotion: boolean; onStatus(status: PreparedSceneStatus): void;
   /** 'idle': settled framing with a slow, bounded side-to-side sway. 'cinematic': one gentle push (at most 1.1x)
-   * into that framing, then the same sway. 'tour': the earlier establish/facade/settle camera arrival. */
-  arrivalStyle?: 'tour' | 'cinematic' | 'idle';
+   * into that framing, then the same sway. 'rise': the building is revealed from its base to its roof, then sways.
+   * 'tour': the earlier establish/facade/settle camera arrival. */
+  arrivalStyle?: 'tour' | 'cinematic' | 'idle' | 'rise';
   sceneHosts?: Record<SceneKind, HTMLElement>;
 };

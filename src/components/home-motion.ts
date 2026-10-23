@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { arrivalDuration, arrivalSeenKey, homeMotion } from '../data/home-motion';
 
-export type Entrance = 'doors' | 'cinematic' | 'settled';
+export type Entrance = 'rise' | 'doors' | 'cinematic' | 'settled';
 
 /** Coordinates the first Home arrival. The entrance itself is CSS, so a slow or
  * failed model, or a failed script, can never leave the doors covering the page.

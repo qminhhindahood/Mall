@@ -2,11 +2,11 @@
  * Mall name, real assets and palette tokens provide the variation; the sequence does not.
  */
 export const homeMotion = {
-  /** First Home arrival. 'doors' is the recommended entrance (panels, then the building's slow idle sway);
-   * 'cinematic' is the quieter alternative: no panels, one gentle camera push of at most 1.1x, then the sway;
-   * 'none' leaves the settled page with the sway.
-   * The masked headline accompanies both 'doors' and 'cinematic'. */
-  arrival: 'doors' as 'doors' | 'cinematic' | 'none',
+  /** First Home arrival. 'rise' (default): the real building is revealed from its base to its roof once the
+   * model is ready, then sways slowly. 'doors': accent panels part over the hero, then the sway.
+   * 'cinematic': one gentle camera push of at most 1.1x, then the sway. 'none': the settled page with the sway.
+   * The masked headline accompanies every arrival except 'none'. */
+  arrival: 'rise' as 'rise' | 'doors' | 'cinematic' | 'none',
   /** Real floor overview assembles once when it first enters view. */
   floorStack: true,
   /** Home Discovery invitation: slow tenant-name strip and a one-time entrance for the real highlights. */

@@ -1,13 +1,13 @@
 import { createElement, useLayoutEffect } from 'react';
 import { createRoot, useFrame, type RootStore } from '@react-three/fiber';
-import { AmbientLight, Box3, BufferAttribute, BufferGeometry, Color, DirectionalLight, Group, LoadingManager, Mesh, MeshStandardMaterial, PerspectiveCamera, PMREMGenerator, Scene, ShapeUtils, Texture, Vector2, Vector3, WebGLRenderTarget, WebGLRenderer, SRGBColorSpace } from 'three';
+import { AmbientLight, Box3, BufferAttribute, BufferGeometry, Color, DirectionalLight, Group, LoadingManager, Mesh, MeshStandardMaterial, PerspectiveCamera, Plane, PMREMGenerator, Scene, ShapeUtils, Texture, Vector2, Vector3, WebGLRenderTarget, WebGLRenderer, SRGBColorSpace } from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import type { ExteriorArrivalStage, FloorGeometry, SceneRequest, SceneRuntime, SceneRuntimeOptions } from './scene-contract';
 import { timing } from './loading-timing';
 import { mallMotion } from './mall-motion';
 
-type View = { scene: Scene; camera: PerspectiveCamera; group: Group; exteriorFit?: {center:Vector3;radius:number} };
+type View = { scene: Scene; camera: PerspectiveCamera; group: Group; exteriorFit?: {center:Vector3;radius:number;bottom:number;top:number} };
 type Task = { request: SceneRequest; priority: number; resolve(): void; reject(error: unknown): void };
 
 // Retain every contour point. Indexed geometry buffers are shared across views.
@@ -42,12 +42,17 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
   const cinematic=style==='cinematic';
   // Idle and cinematic settle into a slow sway; the tour ends still. An idle arrival has no timed path.
   const swaying=style!=='tour';
-  const arrivalDuration=style==='idle'?0:cinematic?6000:5500;
+  const rise=style==='rise';
+  const arrivalDuration=style==='idle'?0:cinematic?6000:rise?2200:5500;
+  // Rise: the real model is revealed from its base to its roof by one horizontal clipping plane.
+  // Above the plane nothing is drawn; once complete the plane sits far above the model.
+  const clipPlane=new Plane(new Vector3(0,-1,0),1e6);
   // The sway stays inside the reviewed front three-quarter view: no rear or roof is revealed.
   const swayAmplitude=.17,swayPeriod=26000,swayResume=4000;
   let swayElapsed=0,swayHold=0,swayTimer=0,lastDraw=0;
   // Assigned once the render loop exists; resumes the sway after a pause for visitor intent.
   let resumeSway=()=>{};
+  let redrawNow=()=>{};
   let arrivalElapsed=options.reducedMotion?arrivalDuration:0, automaticStopped=options.reducedMotion, manualLook=0, manualZoom=1;
   const clamp=(value:number,min:number,max:number)=>Math.max(min,Math.min(max,value));
   type ArrivalPose={yaw:number;distance:number;focus:Vector3;bearing:Vector3};
@@ -65,7 +70,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
   const arrivalPose=():ArrivalPose&{stage:ExteriorArrivalStage}=>{
     const t=clamp(arrivalElapsed,0,arrivalDuration);
     if(swaying){
-      const u=arrivalDuration?t/arrivalDuration:1,ease=1-(1-u)**3;
+      const u=arrivalDuration&&cinematic?t/arrivalDuration:1,ease=1-(1-u)**3;
       const ramp=clamp(swayElapsed/4000,0,1),sway=swayAmplitude*ramp*ramp*(3-2*ramp)*Math.sin(swayElapsed/swayPeriod*Math.PI*2);
       return {stage:t<arrivalDuration*.45?'establish':t<arrivalDuration?'settle':'complete',yaw:pushStart.yaw*(1-ease)+sway,distance:pushStart.distance+(neutral.distance-pushStart.distance)*ease,focus:pushStart.focus.clone().lerp(neutral.focus,ease),bearing:pushStart.bearing.clone().lerp(neutral.bearing,ease)};
     }
@@ -83,6 +88,8 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
   // Visitor intent freezes a timed arrival in place. Once settled, the idle sway only
   // pauses and later resumes from the same phase, so it never jumps.
   const interruptPresentation=()=>{
+    // A rising building is never left half-built: intent completes it at once.
+    if(rise&&arrivalElapsed<arrivalDuration){arrivalElapsed=arrivalDuration;redrawNow();}
     if(!swaying||arrivalElapsed<arrivalDuration){stopAutomaticPresentation();return;}
     swayHold=performance.now()+swayResume;cancelAnimationFrame(raf);raf=0;clearTimeout(swayTimer);
     swayTimer=window.setTimeout(()=>resumeSway(),swayResume);
@@ -158,6 +165,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
     const committed=new Promise<void>(resolve=>{commit=resolve;});
     store=root.render(createElement(Driver,{committed:()=>{commit();}}));
     await race(committed); renderer=store.getState().gl;
+    renderer.localClippingEnabled=true;
     if(renderer.getContext().isContextLost()) throw new Error('WebGL unavailable');
     const generator=new PMREMGenerator(renderer), room=new RoomEnvironment();
     try {envTarget=generator.fromScene(room,.04); environment=envTarget.texture;}
@@ -204,6 +212,10 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
         canvas.dataset.arrivalProgress=String(clamp(arrivalElapsed/arrivalDuration,0,1));
         canvas.dataset.arrivalDistance=String(pose.distance);
         canvas.dataset.arrivalYaw=String(view.group.rotation.y);
+        const {bottom,top}=view.exteriorFit;
+        const climb=rise&&arrivalElapsed<arrivalDuration?clamp(arrivalElapsed/arrivalDuration,0,1):1,climbEase=climb<.5?4*climb**3:1-(-2*climb+2)**3/2;
+        clipPlane.constant=climb<1?bottom+(top-bottom)*climbEase+radius*.002:top+radius;
+        canvas.dataset.arrivalRise=String(climb);
         canvas.dataset.arrivalFocusY=String(pose.focus.y);
         view.camera.lookAt(focus);
       }
@@ -223,7 +235,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
       camera.position.copy(center).add(new Vector3(distance*.72,distance*.65,distance)); camera.lookAt(center);
       scene.add(group,new AmbientLight(0xffffff,.7));
       const light=new DirectionalLight(0xffffff,2.6); light.position.set(40,100,70); scene.add(light); scene.environment=environment; scene.background=new Color(options.mallId==='saigon-centre'?0xf7f6ef:0xf5f6f8);
-      return {scene,camera,group,...(isExterior?{exteriorFit:{center,radius:size.length()/2}}:{})};
+      return {scene,camera,group,...(isExterior?{exteriorFit:{center,radius:size.length()/2,bottom:bounds.min.y,top:bounds.max.y}}:{})};
     };
     const bytes=options.modelBytes ?? fetch(options.exteriorUrl).then(response=>{if(!response.ok)throw new Error('Model unavailable');return response.arrayBuffer();});
     void bytes.catch(()=>{});
@@ -238,7 +250,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
       manager.onError=()=>{resourceFailed=true;};
       try { model=await new GLTFLoader(manager).parseAsync(input,''); }
       catch (error) { decoded('failed'); throw error; }
-      model.scene.traverse(object=>{if(object instanceof Mesh){geometries.add(object.geometry);const list=Array.isArray(object.material)?object.material:[object.material];for(const material of list){materials.add(material as MeshStandardMaterial);for(const value of Object.values(material))if(value instanceof Texture)textures.add(value);}}});
+      model.scene.traverse(object=>{if(object instanceof Mesh){geometries.add(object.geometry);const list=Array.isArray(object.material)?object.material:[object.material];for(const material of list){material.clippingPlanes=[clipPlane];materials.add(material as MeshStandardMaterial);for(const value of Object.values(material))if(value instanceof Texture)textures.add(value);}}});
       if(disposed||failed){decoded('cancelled');disposeOwned();alive();}
       if(resourceFailed){decoded('failed');throw new Error('Model texture resource unavailable');}
       decoded();
@@ -309,6 +321,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
       if(gpuBusy){void gpu(async()=>{if(active&&current?.exteriorFit)draw(current,false);}).catch(error=>failVisible(error,'runtime'));return;}
       try{draw(current,false);}catch(error){failVisible(error,'runtime');}
     };
+    redrawNow=redrawExterior;
     resize=new ResizeObserver(()=>{if(current&&!disposed&&!failed&&!gpuBusy&&(!current.exteriorFit||journeyProgress<.95)){try{draw(current,false);}catch(error){failVisible(error,'runtime');}}});resize.observe(canvas.parentElement!);
     let backgroundStarted=false;
     setupDone();
@@ -373,7 +386,7 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
         const view=views.get(key({kind:'exterior',floorId:''}));if(view)view.group.rotation.y=swaying?arrivalPose().yaw:opening.yaw;
         refreshAnimation();redrawExterior();
       },
-      setJourneyProgress(value,reducedMotion){const previous=journeyProgress;journeyProgress=reducedMotion?0:Math.max(0,Math.min(1,value));const exteriorView=views.get(key({kind:'exterior',floorId:''}));if(exteriorView){if(previous===0&&journeyProgress>0)approachRotation=Math.atan2(Math.sin(exteriorView.group.rotation.y),Math.cos(exteriorView.group.rotation.y));if(journeyProgress>0)exteriorView.group.rotation.y=approachRotation*(1-journeyProgress);}if(journeyProgress>0){cancelAnimationFrame(raf);raf=0;}else if(previous>0)refreshAnimation();if(previous!==journeyProgress&&journeyProgress<.95&&active&&current?.exteriorFit&&!disposed&&!failed&&!gpuBusy){try{draw(current,false);}catch(error){failVisible(error,'runtime');}}},
+      setJourneyProgress(value,reducedMotion){if(value>0&&rise)arrivalElapsed=arrivalDuration;const previous=journeyProgress;journeyProgress=reducedMotion?0:Math.max(0,Math.min(1,value));const exteriorView=views.get(key({kind:'exterior',floorId:''}));if(exteriorView){if(previous===0&&journeyProgress>0)approachRotation=Math.atan2(Math.sin(exteriorView.group.rotation.y),Math.cos(exteriorView.group.rotation.y));if(journeyProgress>0)exteriorView.group.rotation.y=approachRotation*(1-journeyProgress);}if(journeyProgress>0){cancelAnimationFrame(raf);raf=0;}else if(previous>0)refreshAnimation();if(previous!==journeyProgress&&journeyProgress<.95&&active&&current?.exteriorFit&&!disposed&&!failed&&!gpuBusy){try{draw(current,false);}catch(error){failVisible(error,'runtime');}}},
       dispose:cleanup,
     };
   } catch(error) {setupDone('failed');cleanup();throw error;}
