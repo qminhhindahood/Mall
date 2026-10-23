@@ -37,5 +37,7 @@ export type SceneRuntimeOptions = {
   assetRevision: string; exteriorUrl: string; modelBytes?: Promise<ArrayBuffer>;
   exteriorIdentityUrl?: string;
   reducedMotion: boolean; onStatus(status: PreparedSceneStatus): void;
+  /** 'tour' is the three-stage establish/facade/settle arrival; 'cinematic' is one gentle push to the settled framing. */
+  arrivalStyle?: 'tour' | 'cinematic';
   sceneHosts?: Record<SceneKind, HTMLElement>;
 };

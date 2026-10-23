@@ -2,8 +2,10 @@
  * Mall name, real assets and palette tokens provide the variation; the sequence does not.
  */
 export const homeMotion = {
-  /** First Home arrival. 'doors' is the recommended entrance; 'none' leaves the settled page. */
-  arrival: 'doors' as 'doors' | 'none',
+  /** First Home arrival. 'doors' is the recommended entrance (panels plus the three-stage camera tour);
+   * 'cinematic' is the quieter alternative: no panels, one gentle camera push; 'none' leaves the settled page.
+   * The masked headline accompanies both 'doors' and 'cinematic'. */
+  arrival: 'doors' as 'doors' | 'cinematic' | 'none',
   /** Real floor overview assembles once when it first enters view. */
   floorStack: true,
   /** Home Discovery invitation: slow tenant-name strip and a one-time entrance for the real highlights. */

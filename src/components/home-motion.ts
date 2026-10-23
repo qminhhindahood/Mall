@@ -1,16 +1,16 @@
 import { useEffect, useState } from 'react';
 import { arrivalDuration, arrivalSeenKey, homeMotion } from '../data/home-motion';
 
-export type Entrance = 'doors' | 'settled';
+export type Entrance = 'doors' | 'cinematic' | 'settled';
 
 /** Coordinates the first Home arrival. The entrance itself is CSS, so a slow or
  * failed model, or a failed script, can never leave the doors covering the page.
  * Pointer, keyboard, wheel or touch intent settles it at once; revisits skip it.
  */
 export function useHomeEntrance(home: boolean): Entrance {
-  const [entrance, setEntrance] = useState<Entrance>(home && homeMotion.arrival === 'doors' ? 'doors' : 'settled');
+  const [entrance, setEntrance] = useState<Entrance>(home && homeMotion.arrival !== 'none' ? homeMotion.arrival : 'settled');
   useEffect(() => {
-    if (entrance !== 'doors') return;
+    if (entrance === 'settled') return;
     let seen = false;
     try { seen = sessionStorage.getItem(arrivalSeenKey) === '1'; sessionStorage.setItem(arrivalSeenKey, '1'); } catch {}
     // The layout's inline script marks intent before hydration; CSS has already settled the page.

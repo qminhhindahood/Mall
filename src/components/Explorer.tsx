@@ -4,6 +4,7 @@ import '../styles/usable-shell.css';
 import '../styles/arrival-shell.css';
 import '../styles/home-motion.css';
 import { useHomeEntrance } from './home-motion';
+import { homeMotion } from '../data/home-motion';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import type { SiteData } from '../data/site';
 import type { Locale, SceneKind, SceneRuntime, FloorDataset } from '../runtime/scene-contract';
@@ -322,6 +323,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       return createSceneRuntime({
       canvas: ownedCanvas, mallId: site.mallId, data: geometry,
       assetRevision: site.assetRevision, exteriorUrl: site.exteriorUrl, reducedMotion,
+      arrivalStyle: homeMotion.arrival==='cinematic'?'cinematic':'tour',
       exteriorIdentityUrl: site.exteriorIdentityUrl,
       modelBytes,
       sceneHosts: sceneHosts.current as Record<SceneKind,HTMLElement>,

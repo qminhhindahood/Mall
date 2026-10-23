@@ -38,7 +38,8 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
   const detail = { mallId: options.mallId, assetRevision: options.assetRevision, geometryRevision: data.revision };
   const setupDone = timing('renderer-setup', detail);
   let disposed=false, failed: Error|null=null, active=!document.hidden, paused=options.reducedMotion, raf=0, last=0, serial=0, journeyProgress=0, approachRotation=0;
-  const arrivalDuration=5500;
+  const cinematic=options.arrivalStyle==='cinematic';
+  const arrivalDuration=cinematic?6000:5500;
   let arrivalElapsed=options.reducedMotion?arrivalDuration:0, automaticStopped=options.reducedMotion, manualLook=0, manualZoom=1;
   const clamp=(value:number,min:number,max:number)=>Math.max(min,Math.min(max,value));
   type ArrivalPose={yaw:number;distance:number;focus:Vector3;bearing:Vector3};
@@ -50,8 +51,15 @@ export async function createSceneRuntime(options: SceneRuntimeOptions): Promise<
   const opening:ArrivalPose={yaw:saigon ? -.34 : -.28,distance:1.18,focus:new Vector3(),bearing:new Vector3(.80,.36,1)};
   const established:ArrivalPose={yaw:saigon ? -.20 : -.17,distance:1.06,focus:new Vector3(),bearing:new Vector3(.72,.28,1)};
   const facade:ArrivalPose={yaw:saigon ? .16 : .10,distance:saigon ? .72 : .80,focus:new Vector3(saigon ? 0 : -.035,saigon ? -.46 : -.18,0),bearing:new Vector3(saigon ? .35 : .42,saigon ? .15 : .20,1)};
+  // Cinematic alternative: one bounded push from a slightly wider, lower framing into the
+  // settled view. Same controller, interruption, replay and reduced-motion handling as the tour.
+  const pushStart:ArrivalPose={yaw:saigon ? -.12 : -.10,distance:1.16,focus:new Vector3(0,saigon ? -.08 : -.04,0),bearing:new Vector3(.74,.30,1)};
   const arrivalPose=():ArrivalPose&{stage:ExteriorArrivalStage}=>{
     const t=clamp(arrivalElapsed,0,arrivalDuration);
+    if(cinematic){
+      const u=t/arrivalDuration,ease=1-(1-u)**3;
+      return {stage:t<arrivalDuration*.45?'establish':t<arrivalDuration?'settle':'complete',yaw:pushStart.yaw*(1-ease),distance:pushStart.distance+(neutral.distance-pushStart.distance)*ease,focus:pushStart.focus.clone().lerp(neutral.focus,ease),bearing:pushStart.bearing.clone().lerp(neutral.bearing,ease)};
+    }
     const stage:ExteriorArrivalStage=t<1400?'establish':t<3900?'facade':t<arrivalDuration?'settle':'complete';
     const [from,to,start,end]=t<1400?[opening,established,0,1400] as const:t<3900?[established,facade,1400,3900] as const:[facade,neutral,3900,arrivalDuration] as const;
     const u=clamp((t-start)/(end-start),0,1),ease=u*u*(3-2*u);
