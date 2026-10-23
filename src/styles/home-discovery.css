@@ -21,7 +21,7 @@
 .visitor-guide[data-view=exterior] .scroll-guide{font-size:13px;gap:20px}
 .visitor-guide[data-surface=discovery-page] .exterior-floor-journey{display:none}
 .visitor-guide[data-surface=discovery-page] .map-discovery-journey{display:block;max-width:1320px;margin:0 auto;padding:148px 48px 48px}
-.visitor-guide[data-surface=discovery-page] :is(.persistent-map,.map-reading,.discovery-introduction){display:none}
+.visitor-guide[data-surface=discovery-page] :is(.map-reading,.discovery-introduction){display:none}
 .visitor-guide[data-surface=discovery-page] .journey-reading{margin:0;pointer-events:auto}
 .visitor-guide[data-surface=discovery-page] .journey-reading #scene-discovery{width:100%;padding:0;min-height:0;scroll-margin-top:148px}
 .visitor-guide[data-surface=discovery-page] .discovery-intro{display:grid;grid-template-columns:1fr auto;align-items:end;margin:0 0 24px;gap:16px 48px}

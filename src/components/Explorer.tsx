@@ -3,6 +3,7 @@ import '../styles/home-discovery.css';
 import '../styles/usable-shell.css';
 import '../styles/arrival-shell.css';
 import '../styles/home-motion.css';
+import '../styles/discovery-map.css';
 import { useHomeEntrance, useTitleLines } from './home-motion';
 import { homeMotion } from '../data/home-motion';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
@@ -46,7 +47,8 @@ function selectionFromUrl(url: URL, site: SiteData, fallback: ExplorerSelection)
   const floorId = site.geometry.floors.some(f => f.id === candidate) && (!destination || destination.floors.includes(candidate)) ? candidate : destination?.primaryFloor && site.geometry.floors.some(f => f.id === destination.primaryFloor) ? destination.primaryFloor : fallbackFloor;
   const view = url.searchParams.get('view');
   const dedicatedDiscovery = ['discovery','kham-pha'].includes(segments[1]);
-  const kind = dedicatedDiscovery ? 'discovery' : ['exterior','overview','map','discovery'].includes(view ?? '') ? view as SceneKind : segments[1] ? 'map' : fallback.kind;
+  // A store opens its details on the Discovery page; floor maps also live there.
+  const kind = dedicatedDiscovery||destination ? 'discovery' : ['exterior','overview','map','discovery'].includes(view ?? '') ? view as SceneKind : segments[1] ? 'map' : fallback.kind;
   const category=(key:string)=>site.content.categories.find(c=>c.id===url.searchParams.get(key))?.id;
   return { locale, floorId, kind, destinationId: destination?.id, query:url.searchParams.get('q')?.slice(0,160)||undefined, categoryId:category('category'), discoverySearchScope:url.searchParams.get('collectionScope')==='category'?'category':undefined, discoveryCategoryId:category('collection'), discoveryFloorId:site.geometry.floors.find(f=>f.id===url.searchParams.get('collectionFloor'))?.id, discoveryQuery:url.searchParams.get('collectionQ')?.slice(0,160)||undefined, areaId:site.content.areas.find(a=>a.id===url.searchParams.get('area')&&a.floorId===floorId)?.id };
 }
@@ -57,6 +59,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const [angled,setAngled] = useState(false);
   const [mapExpanded,setMapExpanded] = useState(false);
   const mapJourney=useRef<HTMLDivElement>(null);
+  const mapPanel=useRef<HTMLDivElement>(null);
   const exteriorJourney=useRef<HTMLDivElement>(null);
   const travelRequest=useRef(false);
   const returnFocus=useRef<HTMLElement|null>(null);
@@ -94,8 +97,9 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const parking = useRef<HTMLDivElement>(null);
   const runtime = useRef<SceneRuntime|null>(null);
   const latest = useRef(selection);
-  const onDiscoveryPage = (url: URL) => ['discovery','kham-pha'].includes(url.pathname.split('/').filter(Boolean)[1]);
-  const [discoveryPage,setDiscoveryPage] = useState(()=>typeof location!=='undefined'?onDiscoveryPage(new URL(location.href)):initial.kind==='discovery');
+  // The map lives only on the Discovery page: Discovery, floor-map and store addresses all open it.
+  const onDiscoveryPage = (url: URL) => ['discovery','kham-pha','floors','tang','stores','cua-hang'].includes(url.pathname.split('/').filter(Boolean)[1]) || ['map','discovery'].includes(url.searchParams.get('view') ?? '');
+  const [discoveryPage,setDiscoveryPage] = useState(()=>typeof location!=='undefined'?onDiscoveryPage(new URL(location.href)):initial.kind==='discovery'||initial.kind==='map');
   const discoveryPageRef = useRef(discoveryPage);
   discoveryPageRef.current = discoveryPage;
   const entrance = useHomeEntrance(initial.kind==='exterior'&&!discoveryPage);
@@ -161,42 +165,6 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     return()=>{cancelAnimationFrame(frame);window.removeEventListener('scroll',schedule);window.removeEventListener('resize',schedule);};
   }, [load]);
 
-  useEffect(()=>{
-    const update=()=>{
-      const section=sections.current.discovery, journey=mapJourney.current;
-      if(!section||!journey||discoveryPageRef.current)return;
-      const clamp=(value:number)=>Math.max(0,Math.min(1,value));
-      const top=section.getBoundingClientRect().top;
-      // Settle the Discovery composition while the map is hidden. Returning it
-      // on the same clock exposes the old full-size plan and floor rail.
-      const progress=clamp((innerHeight*1.2-top)/(innerHeight*.4));
-      journey.style.setProperty('--discovery-progress',String(reducedMotion?(progress>.5?1:0):progress));
-      const invitation=journey.querySelector<HTMLElement>('.discovery-introduction');
-      if(invitation){
-        const invitationTop=(reducedMotion?invitation:invitation.querySelector('h2')??invitation).getBoundingClientRect().top;
-        const exit=reducedMotion?clamp((innerHeight*1.25-invitationTop)/(innerHeight*.4)):clamp((innerHeight*.95-invitationTop)/(innerHeight*.3));
-        const start=reducedMotion?(innerWidth<=700?160:innerHeight*.45):innerHeight*.75;
-        const end=innerWidth<=700?(reducedMotion?120:innerHeight*.4):184;
-        const returning=clamp((start-top)/Math.max(40,start-end));
-        const presence=Math.max(1-exit,reducedMotion?Number(returning===1):returning*returning*(3-2*returning));
-        journey.style.setProperty('--map-presence',String(presence));
-        const map=journey.querySelector<HTMLElement>('.persistent-map');
-        if(map){map.inert=presence<.01;map.dataset.controlsHidden=String(!reducedMotion&&presence<.99);}
-      }
-      if((load!=='ready'&&load!=='failed')||focusRequest.current||scrollSettling.current)return;
-      // A fixed Discovery sheet owns navigation until explicitly dismissed.
-      if(latest.current.kind==='discovery'&&(latest.current.destinationId||latest.current.areaId))return;
-      const mapTop=sections.current.map?.getBoundingClientRect().top??Infinity;
-      const readingLine=innerWidth<=700?160:innerHeight*.55;
-      const stageBottom=exteriorJourney.current?.getBoundingClientRect().bottom??Infinity;
-      const discoveryLine=reducedMotion?readingLine:innerHeight*.8;
-      const kind=stageBottom>innerHeight*.45?null:section.getBoundingClientRect().top<discoveryLine?'discovery':mapTop<readingLine?'map':null;
-      if(kind&&kind!==latest.current.kind){const next: ExplorerSelection={...latest.current,kind};beginRequest(next);history.replaceState({...history.state,scrollY:scrollY},'',href(next,true));setSelection(next);}
-    };
-    window.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update);
-    update();
-    return()=>{window.removeEventListener('scroll',update);window.removeEventListener('resize',update);};
-  },[load,reducedMotion]);
 
   useEffect(()=>{const stop=()=>{earlyInput.current=true;runtime.current?.stopAutomaticPresentation()};window.addEventListener('pointerdown',stop,{passive:true});window.addEventListener('keydown',stop);window.addEventListener('wheel',stop,{passive:true});return()=>{window.removeEventListener('pointerdown',stop);window.removeEventListener('keydown',stop);window.removeEventListener('wheel',stop)}},[]);
   function togglePause() {
@@ -409,7 +377,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       scrollTarget?.scrollIntoView({behavior:smooth?'smooth':'instant',block:'start'});
     }};position();restoreScroll.current=null;settleViewport(smooth?undefined:position);travelRequest.current=false;focusRequest.current=null;pendingFocus.current=null;closingDiscovery.current=false;}
   },[load,selection,presentation]);
-  function focusTarget(next: ExplorerSelection) { if(closingDiscovery.current&&returnFocus.current?.isConnected)return returnFocus.current; return next.destinationId || next.kind==='discovery'&&next.areaId ? destinationContent.current : next.kind==='map'&&(next.query||next.categoryId)?sections.current.map??null:sections.current[next.kind] ?? null; }
+  function focusTarget(next: ExplorerSelection) { if(closingDiscovery.current&&returnFocus.current?.isConnected)return returnFocus.current; return next.destinationId || next.kind==='discovery'&&next.areaId ? destinationContent.current : next.kind==='map'?mapPanel.current??sections.current.discovery??null:sections.current[next.kind] ?? null; }
   function beginRequest(next: ExplorerSelection) {
     const effective=(value:ExplorerSelection)=>value.kind==='discovery'?discoveryFloor(site,value,geometry):value.floorId;
     if (!entered.current || next.kind===latest.current.kind && effective(next)===effective(latest.current)) return;
@@ -421,7 +389,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   function navigate(next: ExplorerSelection, event?: React.MouseEvent<HTMLAnchorElement>) {
     if (event && (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey)) return;
     event?.preventDefault();
-    travelRequest.current=next.kind==='map'&&selection.kind==='overview'&&!next.destinationId;
+    // Floor maps open on the Discovery page, so there is no in-page travel to animate.
+    travelRequest.current=false;
     if(next.locale!==selection.locale)localeScroll.current={top:window.scrollY,kind:selection.kind,offset:sections.current[selection.kind]?.getBoundingClientRect().top??null};
     if(next.kind==='discovery'&&(next.destinationId||next.areaId)&&!selection.destinationId&&!selection.areaId) {
       discoveryReturn.current={selection:{...selection},scrollY:window.scrollY};
@@ -435,7 +404,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     // Saving the departure position here sends pending Back/forward back to
     // the exterior; the ordinary scroll observer records the actual arrival.
     // Entering Discovery from elsewhere opens its page; moving within it keeps the current surface.
-    const page=next.kind==='discovery'&&(discoveryPageRef.current||selection.kind!=='discovery');
+    const page=next.kind==='discovery'||next.kind==='map';
     history.pushState(next.locale!==selection.locale&&load==='ready'&&!focusRequest.current?{scrollY:window.scrollY}:{},'',href(next,!page));
     setDiscoveryPage(page);
     if (next.locale === selection.locale) {pendingFocus.current=focusTarget(next);focusRequest.current=next;}
@@ -495,11 +464,11 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       </div>
       <JourneyMotion stage={exteriorJourney} mapJourney={mapJourney} floor={floor} floors={geometry.floors} title={c.map} reducedMotion={reducedMotion} paused={paused} runtime={runtime}/>
       <div className="map-discovery-journey" data-discovery={selection.kind==='discovery'} ref={mapJourney}>
-        <div className="persistent-map" data-expanded={mapExpanded}>
+        <div className="persistent-map" data-expanded={mapExpanded} ref={mapPanel} tabIndex={-1} role="region" aria-label={`${c.map} · ${floor.label}`}>
           <div className="scene-host scene-host-map" ref={element=>{if(element){sceneHosts.current.map=element;sceneHosts.current.discovery=element;}}} data-scene-kind={selection.kind==='discovery'?'discovery':'map'} data-floor={routeResolved?floor.id:undefined}>
-            <div className="map-transform" style={{transform:`scale(${zoom}) rotateX(${angled?25:0}deg)`}}>{!routeResolved?<p>{c.preparing}</p>:!floor.regions.length&&floor.preview?<img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`}/>:<FloorMap floor={floor} viewBounds={selection.kind==='discovery'?floor.bounds:sharedFloorBounds(geometry.floors)} title={c.map} icons={selection.kind==='discovery'?undefined:planIcons(site.mallId,floor.id)} showNames={selection.kind!=='discovery'} content={site.content} locale={selection.locale} selectedDestination={selection.destinationId} selectedArea={selection.areaId} areaNumbers={selection.kind==='discovery'?areaNumbers:undefined} onArea={areaId=>{if(selection.kind!=='discovery'){navigate({...change('map',floor.id),areaId});return;}const destinations=site.destinations.filter(d=>d.locations.some(l=>l.floorId===floor.id&&l.areaIds.includes(areaId)));navigate({...selection,kind:'discovery',floorId:floor.id,areaId:destinations.length===1?undefined:areaId,destinationId:destinations.length===1?destinations[0].id:undefined});}}/>}</div>
+            <div className="map-transform" style={{transform:`scale(${zoom}) rotateX(${angled?25:0}deg)`}}>{!routeResolved?<p>{c.preparing}</p>:!floor.regions.length&&floor.preview?<img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`}/>:<FloorMap floor={floor} viewBounds={selection.kind==='discovery'?floor.bounds:sharedFloorBounds(geometry.floors)} title={c.map} icons={planIcons(site.mallId,floor.id)} showNames content={site.content} locale={selection.locale} selectedDestination={selection.destinationId} selectedArea={selection.areaId} areaNumbers={selection.kind==='discovery'?areaNumbers:undefined} onArea={areaId=>{const destinations=site.destinations.filter(d=>d.locations.some(l=>l.floorId===floor.id&&l.areaIds.includes(areaId)));navigate({...selection,kind:'discovery',floorId:floor.id,areaId:destinations.length===1?undefined:areaId,destinationId:destinations.length===1?destinations[0].id:undefined});}}/>}</div>
           </div>
-          {selection.kind==='map'&&routeResolved&&<div className="map-legend-host"><PlanLegend icons={planIcons(site.mallId,floor.id)} locale={selection.locale}/></div>}
+          {routeResolved&&<div className="map-legend-host"><PlanLegend icons={planIcons(site.mallId,floor.id)} locale={selection.locale}/></div>}
           <div className="map-controls glass" role="group" aria-label={c.map}>
             <span>{selection.kind==='discovery'?j.preview:c.heading} {routeResolved?floor.id:''}</span>
             <button aria-label={j.zoomOut} title={j.zoomOut} disabled={zoom<=1} onClick={()=>setZoom(Math.max(1,zoom-.25))}><MapControlIcon kind="out"/></button>

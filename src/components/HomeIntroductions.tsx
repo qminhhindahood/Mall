@@ -3,6 +3,7 @@ import type { Locale } from '../runtime/scene-contract';
 import { visitorHighlightIds } from '../data/visitor-highlights';
 import { selectionHref } from '../data/routes';
 import FloorMap from './FloorMap';
+import { planIcons } from '../data/plan-icons';
 import DiscoveryMarquee, { marqueeNames } from './DiscoveryMarquee';
 import { homeMotion } from '../data/home-motion';
 import { useEffect, useRef, type CSSProperties } from 'react';
@@ -21,7 +22,7 @@ export default function HomeIntroductions({site,locale}:{site:SiteData;locale:Lo
    <ul className="home-picks" ref={picksList}>{picks.map((d,index)=><li key={d.id} style={{'--pick':index} as CSSProperties}><a href={selectionHref({locale,kind:'discovery',floorId:d.primaryFloor,destinationId:d.id})}><span>{site.content.categories.find(c=>d.categories.includes(c.id))?.name[locale]}</span><strong>{d.name[locale]}</strong><span>{vi?'Tầng':'Floor'} {d.floors.join(' · ')}<Arrow/></span></a></li>)}</ul>
   </section>
   <section className="home-directions-intro">
-   <div className="home-map-preview" role="group" aria-label={vi?'Xem trước sơ đồ tầng':'Floor plan preview'}>{floor&&<FloorMap floor={floor} title={`${vi?'Tầng':'Floor'} ${floor.id}`}/>}<span>{vi?'Sơ đồ tầng':'Floor plan'} {floor?.id}</span></div>
+   <div className="home-map-preview" role="group" aria-label={vi?'Xem trước sơ đồ tầng':'Floor plan preview'}>{floor&&<FloorMap floor={floor} title={`${vi?'Tầng':'Floor'} ${floor.id}`} content={site.content} locale={locale} showNames icons={planIcons(site.mallId,floor.id)}/>}<span>{vi?'Sơ đồ tầng':'Floor plan'} {floor?.id}</span></div>
    <div className="home-section-copy"><h2>{vi?'Biết nơi đến. Tìm lối đi.':'Your next stop, in view.'}</h2><p>{vi?'Chọn điểm bắt đầu và điểm đến. Xem sơ đồ tầng cùng hướng dẫn cho những kết nối đã được đối chiếu.':'Choose a starting place and destination. See the floor plan and walking guidance for reviewed connections.'}</p><a className="section-link" href={`/${locale}/${vi?'chi-duong':'directions'}`}>{vi?'Mở chỉ đường':'Open Directions'}<Arrow/></a></div>
   </section>
  </div>;
