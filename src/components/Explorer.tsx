@@ -3,7 +3,7 @@ import '../styles/home-discovery.css';
 import '../styles/usable-shell.css';
 import '../styles/arrival-shell.css';
 import '../styles/home-motion.css';
-import { useHomeEntrance } from './home-motion';
+import { useHomeEntrance, useTitleLines } from './home-motion';
 import { homeMotion } from '../data/home-motion';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import type { SiteData } from '../data/site';
@@ -26,6 +26,13 @@ import { discoveryAreaNumbers } from './discovery-map';
 import { timing } from '../runtime/loading-timing';
 
 export type ExplorerSelection = { locale: Locale; floorId: string; kind: SceneKind; destinationId?: string; query?: string; categoryId?: string; discoveryCategoryId?: string; discoveryFloorId?: string; discoveryQuery?: string; discoverySearchScope?: 'category'; areaId?: string };
+/** Hero meta row from the current dataset: listing count, floor count and range. No address or invented totals. */
+function heroMeta(site: SiteData, locale: Locale) {
+  const floors = site.geometry.floors.slice().sort((a,b)=>a.order-b.order);
+  const range = floors.length ? `${floors[0].label}–${floors[floors.length-1].label}` : '';
+  const count = site.destinations.length;
+  return (locale==='vi' ? [`${count} địa điểm`, `${floors.length} tầng`, range] : [`${count} places`, `${floors.length} floors`, range]).filter(Boolean).join(' · ');
+}
 function defaultFloorId(site: SiteData, floors = site.geometry.floors) {
   if (floors.some(floor => floor.id === site.defaultFloor)) return site.defaultFloor;
   return floors.find(floor => floor.id === 'L1')?.id ?? floors[0]?.id ?? 'L1';
@@ -92,6 +99,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const discoveryPageRef = useRef(discoveryPage);
   discoveryPageRef.current = discoveryPage;
   const entrance = useHomeEntrance(initial.kind==='exterior'&&!discoveryPage);
+  const title = useTitleLines();
   const sceneHosts = useRef<Partial<Record<SceneKind,HTMLDivElement>>>({});
   const sections = useRef<Partial<Record<SceneKind,HTMLElement>>>({});
   const requestSerial = useRef(0);
@@ -323,7 +331,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       return createSceneRuntime({
       canvas: ownedCanvas, mallId: site.mallId, data: geometry,
       assetRevision: site.assetRevision, exteriorUrl: site.exteriorUrl, reducedMotion,
-      arrivalStyle: homeMotion.arrival==='cinematic'?'cinematic':'tour',
+      arrivalStyle: homeMotion.arrival==='cinematic'?'cinematic':'idle',
       exteriorIdentityUrl: site.exteriorIdentityUrl,
       modelBytes,
       sceneHosts: sceneHosts.current as Record<SceneKind,HTMLElement>,
@@ -464,7 +472,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       <div className="exterior-floor-journey" ref={exteriorJourney}>
         <div className="journey-introduction-reading">
           <section id="scene-exterior" ref={element=>{if(element)sections.current.exterior=element;}} tabIndex={-1} className="introduction" aria-label={c.exterior}>
-            <div className="introduction-copy"><h1><span>{site.name.split(' ').map((word,index)=><span key={index}>{index>0&&' '}<span className="mask-word" style={{'--word':index} as React.CSSProperties}><span>{word}</span></span></span>)}</span></h1><p>{site.mallId==='saigon-centre'?c.saigonIntroduction:c.vincomIntroduction}</p><div className="arrival-actions"><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{j.enterDiscovery}<span aria-hidden="true"> ↗</span></a><a href={'/'+selection.locale+'/'+(selection.locale==='vi'?'chi-duong':'directions')}>{selection.locale==='vi'?'Tìm đường':'Find your way'}<span aria-hidden="true"> →</span></a></div></div>
+            <div className="introduction-copy"><h1 ref={title}><span>{site.name.split(' ').map((word,index)=><span key={index}>{index>0&&' '}<span className="mask-word" style={{'--line':index} as React.CSSProperties}><span>{word}</span></span></span>)}</span></h1><p>{site.mallId==='saigon-centre'?c.saigonIntroduction:c.vincomIntroduction}</p><div className="arrival-actions"><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{j.enterDiscovery}<span aria-hidden="true"> ↗</span></a><a href={'/'+selection.locale+'/'+(selection.locale==='vi'?'chi-duong':'directions')}>{selection.locale==='vi'?'Tìm đường':'Find your way'}<span aria-hidden="true"> →</span></a></div><p className="arrival-meta">{heroMeta(site,selection.locale)}</p></div>
             <div className="introduction-bottom"><a className="scroll-guide" href="#scene-overview" onClick={event=>navigate(change('overview'),event)}><span className="scroll-cue" aria-hidden="true"/><span>{c.scrollInstruction}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div>
           </section>
           <section id="scene-overview" ref={element=>{if(element)sections.current.overview=element;}} tabIndex={-1} className="overview-reading" aria-label={c.overview}/>

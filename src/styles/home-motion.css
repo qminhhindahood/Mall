@@ -30,18 +30,24 @@ html:not([data-arrival-seen]) .visitor-guide[data-entrance=doors] .arrival-doors
 @keyframes arrival-door-left{to{transform:translateX(-101%);visibility:hidden}}
 @keyframes arrival-door-right{to{transform:translateX(101%);visibility:hidden}}
 
-/* Type mask (doors and cinematic arrivals): each word of the real heading wipes up as it rises; the text is never duplicated. */
+/* Type mask (doors and cinematic arrivals): each rendered line of the real heading wipes up as it rises;
+   words on one line share a delay. The text is never duplicated. */
 .mask-word{display:inline-block}
 .mask-word>span{display:inline-block}
-html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=doors],[data-entrance=cinematic]) .mask-word{animation:arrival-mask var(--motion-mask) var(--motion-ease-out) calc(var(--motion-mask-start) + var(--word)*var(--motion-mask-step)) both}
-html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=doors],[data-entrance=cinematic]) .mask-word>span{animation:arrival-rise var(--motion-mask) var(--motion-ease-out) calc(var(--motion-mask-start) + var(--word)*var(--motion-mask-step)) both}
+html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=doors],[data-entrance=cinematic]) .mask-word{animation:arrival-mask var(--motion-mask) var(--motion-ease-out) calc(var(--motion-mask-start) + var(--line)*var(--motion-mask-step)) both}
+html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=doors],[data-entrance=cinematic]) .mask-word>span{animation:arrival-rise var(--motion-mask) var(--motion-ease-out) calc(var(--motion-mask-start) + var(--line)*var(--motion-mask-step)) both}
 /* Generous negative insets keep Vietnamese diacritics and descenders outside the wipe edge. */
 @keyframes arrival-mask{from{clip-path:inset(100% -.2em -.35em -.2em)}to{clip-path:inset(-.45em -.2em -.35em -.2em)}}
 @keyframes arrival-rise{from{transform:translateY(var(--motion-rise))}}
 html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=doors],[data-entrance=cinematic]) .introduction-copy>p{animation:arrival-fade 700ms var(--motion-ease-out) 560ms both}
 html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=doors],[data-entrance=cinematic]) .arrival-actions{animation:arrival-fade 700ms var(--motion-ease-out) 660ms both}
+html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=doors],[data-entrance=cinematic]) .arrival-meta{animation:arrival-fade 700ms var(--motion-ease-out) 760ms both}
 html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=doors],[data-entrance=cinematic]) .introduction-bottom{animation:arrival-fade 600ms ease 1000ms both}
 @keyframes arrival-fade{from{opacity:0;transform:translateY(16px)}}
+
+/* Hero meta row: small uppercase facts derived from the dataset, beneath the actions. */
+.visitor-guide[data-view] .introduction-copy .arrival-meta{margin:24px 0 0;max-width:none;font:600 11px/1.6 Guide,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums}
+@media(max-width:700px){.visitor-guide[data-view] .introduction-copy .arrival-meta{margin-top:16px;font-size:10px;letter-spacing:.12em}}
 
 /* Floor stack: the actual overview floors settle into place once, lowest level first. */
 .overview-stack[data-assemble=play]>a{animation:floor-settle var(--motion-stack) var(--motion-ease-out) calc((var(--floor-count) - 1 - var(--floor-index))*var(--motion-stack-step)) backwards}
@@ -71,5 +77,5 @@ html:not([data-arrival-seen]) .visitor-guide:is([data-entrance=doors],[data-entr
   .visitor-guide .arrival-doors{display:none!important}
   .marquee-track{animation:none!important}
   .home-picks li{opacity:1!important;animation:none!important}
-  .visitor-guide :is(.mask-word,.mask-word>span,.introduction-copy>p,.arrival-actions,.introduction-bottom,.overview-stack>a){animation:none!important}
+  .visitor-guide :is(.mask-word,.mask-word>span,.introduction-copy>p,.arrival-actions,.arrival-meta,.introduction-bottom,.overview-stack>a){animation:none!important}
 }

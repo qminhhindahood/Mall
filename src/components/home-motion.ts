@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { arrivalDuration, arrivalSeenKey, homeMotion } from '../data/home-motion';
 
 export type Entrance = 'doors' | 'cinematic' | 'settled';
@@ -28,4 +28,28 @@ export function useHomeEntrance(home: boolean): Entrance {
     };
   }, [entrance]);
   return entrance;
+}
+
+/** Groups the heading's words by rendered line, so each line rises from its own mask.
+ * Server markup numbers each word as its own line, which matches the current layouts;
+ * this refines it before the reveal starts whenever words share a line.
+ */
+export function useTitleLines() {
+  const heading = useRef<HTMLHeadingElement>(null);
+  useLayoutEffect(() => {
+    const element = heading.current;
+    if (!element) return;
+    const assign = () => {
+      let line = -1, top = -Infinity;
+      for (const word of element.querySelectorAll<HTMLElement>('.mask-word')) {
+        if (Math.abs(word.offsetTop - top) > 2) { line++; top = word.offsetTop; }
+        word.style.setProperty('--line', String(line));
+      }
+    };
+    assign();
+    const observer = new ResizeObserver(assign);
+    observer.observe(element);
+    return () => observer.disconnect();
+  }, []);
+  return heading;
 }
