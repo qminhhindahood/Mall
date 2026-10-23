@@ -1,0 +1,46 @@
+/* The floor map lives only on the Discovery page (owner, 23 Oct): Home keeps the building
+   and floor overview, then its introductions. These rules reset the old scroll-journey
+   positioning instead of layering onto it. */
+.visitor-guide[data-surface=journey] .map-discovery-journey{display:none}
+.visitor-guide[data-surface=journey] .exterior-floor-journey{margin-bottom:clamp(48px,8svh,96px)}
+
+/* Discovery page: reading column on the left, the sticky map on the right. */
+.visitor-guide[data-surface=discovery-page] .map-discovery-journey{--discovery-progress:1;--map-presence:1;--map-height:clamp(420px,calc(100svh - 260px),760px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:0 clamp(32px,4vw,72px);align-items:start;max-width:1600px;margin:0 auto;padding:128px clamp(24px,4vw,64px) 64px}
+.visitor-guide[data-surface=discovery-page] .persistent-map{display:block;grid-column:2;grid-row:1;position:sticky;top:112px;width:auto;max-width:none;height:auto;margin:0;padding:0;transform:none;opacity:1;pointer-events:auto}
+.visitor-guide[data-surface=discovery-page] .persistent-map .scene-host{height:var(--map-height);min-height:0;transform:none}
+/* A floor-map address focuses and scrolls to the map itself, below the fixed header. */
+.visitor-guide[data-surface=discovery-page] .persistent-map{scroll-margin-top:112px}
+.visitor-guide[data-surface=discovery-page] .persistent-map:focus{outline:none}
+.visitor-guide[data-surface=discovery-page] .persistent-map .scene-host>.map-transform{padding:12px 96px 72px 8px}
+.visitor-guide[data-surface=discovery-page] .persistent-map .map-controls{position:absolute;top:calc(var(--map-height) - 64px);bottom:auto;left:calc(50% - 44px);visibility:visible}
+.visitor-guide[data-surface=discovery-page] .map-floor-rail{visibility:visible;pointer-events:auto;opacity:1;height:var(--map-height)}
+.visitor-guide[data-surface=discovery-page] .map-legend-host{position:static;max-width:none;margin:16px 0 0;pointer-events:none}
+.visitor-guide[data-surface=discovery-page] .map-legend-host .plan-legend{flex-direction:row;flex-wrap:wrap;gap:6px 18px}
+.visitor-guide[data-surface=discovery-page] .discovery-map-context{position:static;margin-top:12px;background:none}
+.visitor-guide[data-surface=discovery-page] .persistent-map[data-expanded=true] .scene-host{height:calc(var(--map-height) + 160px)!important}
+.visitor-guide[data-surface=discovery-page] .journey-reading{grid-column:1;grid-row:1;margin:0;pointer-events:auto}
+.visitor-guide[data-surface=discovery-page] .journey-reading .discovery-reading{width:100%;padding-top:0}
+.visitor-guide[data-surface=discovery-page] .journey-reading #scene-discovery{scroll-margin-top:128px}
+/* A narrower reading column: two highlight columns and a single results column. */
+.visitor-guide[data-surface=discovery-page] .visitor-highlights ul{grid-template-columns:repeat(2,minmax(0,1fr))}
+.visitor-guide[data-surface=discovery-page] .visitor-highlights a{min-height:184px;padding:24px}
+.visitor-guide[data-surface=discovery-page] .discovery-search{grid-template-columns:minmax(0,1fr)}
+.visitor-guide[data-surface=discovery-page] .discovery-search-scope{grid-column:1}
+.visitor-guide[data-surface=discovery-page] .discovery-layout{grid-template-columns:180px minmax(0,1fr);gap:32px}
+.visitor-guide[data-surface=discovery-page] [data-discovery-results] ul{grid-template-columns:minmax(0,1fr)}
+.visitor-guide[data-surface=discovery-page] [data-discovery-results] a{min-height:0}
+
+/* Phones and narrow windows: the map comes first in the flow, then the reading column. */
+@media(max-width:900px){
+  .visitor-guide[data-surface=discovery-page] .map-discovery-journey{--map-height:min(62svh,460px);grid-template-columns:minmax(0,1fr);padding:124px 20px 48px}
+  .visitor-guide[data-surface=discovery-page] .persistent-map{grid-column:1;grid-row:1;position:relative;top:auto;margin-bottom:32px}
+  .visitor-guide[data-surface=discovery-page] .journey-reading{grid-row:2}
+  .visitor-guide[data-surface=discovery-page] .persistent-map .scene-host>.map-transform{padding:8px 64px 64px 0}
+  .visitor-guide[data-surface=discovery-page] .map-floor-rail{width:54px}
+  .visitor-guide[data-surface=discovery-page] .persistent-map[data-expanded=false]{height:auto!important;min-height:0!important}
+  .visitor-guide[data-surface=discovery-page] .persistent-map[data-expanded=false] .map-floor-rail{display:flex}
+  .visitor-guide[data-surface=discovery-page] .persistent-map .map-controls{left:50%;transform:translateX(-50%);margin:0;width:max-content}
+  .visitor-guide[data-surface=discovery-page] .journey-reading #scene-discovery{padding-top:0;scroll-margin-top:120px}
+  .visitor-guide[data-surface=discovery-page] .discovery-layout{grid-template-columns:minmax(0,1fr)}
+}
+@media(max-width:560px){.visitor-guide[data-surface=discovery-page] .visitor-highlights ul{grid-template-columns:minmax(0,1fr)}}

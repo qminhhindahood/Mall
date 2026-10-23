@@ -28,6 +28,7 @@ export type SceneRuntime = {
   /** Deltas: rotate/look in radians, zoom in relative fit-distance units. */
   adjustExterior(change: { rotate?: number; look?: number; zoom?: number }): void;
   resetExterior(): void;
+  /** Visitor intent: freezes an in-progress arrival; an idle sway only pauses briefly. */
   stopAutomaticPresentation(): void;
   replayArrival(): void;
   dispose(): void;
@@ -37,5 +38,9 @@ export type SceneRuntimeOptions = {
   assetRevision: string; exteriorUrl: string; modelBytes?: Promise<ArrayBuffer>;
   exteriorIdentityUrl?: string;
   reducedMotion: boolean; onStatus(status: PreparedSceneStatus): void;
+  /** 'idle': settled framing with a slow, bounded side-to-side sway. 'cinematic': one gentle push (at most 1.1x)
+   * into that framing, then the same sway. 'rise': the building is revealed from its base to its roof, then sways.
+   * 'tour': the earlier establish/facade/settle camera arrival. */
+  arrivalStyle?: 'tour' | 'cinematic' | 'idle' | 'rise';
   sceneHosts?: Record<SceneKind, HTMLElement>;
 };

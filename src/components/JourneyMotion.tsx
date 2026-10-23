@@ -2,6 +2,7 @@ import { useEffect, useLayoutEffect, useRef, type RefObject } from 'react';
 import type { FloorGeometry, SceneRuntime } from '../runtime/scene-contract';
 import FloorMap from './FloorMap';
 import { sharedFloorBounds } from './floor-frame';
+import { homeMotion } from '../data/home-motion';
 
 const clamp=(value:number)=>Math.max(0,Math.min(1,value));
 const mix=(a:number,b:number,t:number)=>a+(b-a)*t;
@@ -23,13 +24,13 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
     const update=()=>{
       frame=0;
       const container=stage.current, destination=mapJourney.current, layer=travelling.current;
-      if(!container||!destination||!layer)return;
+      if(!container||!layer)return;
       const hero=container.querySelector<HTMLElement>('#scene-exterior');
       const visual=container.querySelector<HTMLElement>('.registered-scene');
       const stack=container.querySelector<HTMLElement>('.overview-stack');
       const source=stack?.querySelector<HTMLElement>(`a[data-floor-id="${floor.id}"]`);
-      const target=destination.querySelector<HTMLElement>('.map-transform');
-      if(!hero||!visual||!stack||!source||!target)return;
+      const target=destination?.querySelector<HTMLElement>('.map-transform');
+      if(!hero||!visual||!stack||!source)return;
       const phone=innerWidth<=700;
       // A sticky element's offsetTop changes as it sticks. Derive the phone's
       // native-flow anchor from the preceding hero, never the moving visual.
@@ -46,6 +47,13 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
       const cue=container.querySelector<HTMLElement>('.introduction-bottom');
       if(cue){const past=approach>.2;cue.dataset.past=String(past);cue.inert=past;cue.style.opacity=String(1-clamp(approach/.2));}
       visual.dataset.revealed=String(revealed>.08);
+      // The real floors assemble once as the overview first enters view; selection or a later visit never replays it.
+      if(homeMotion.floorStack&&!reducedMotion&&revealed>.35&&!stack.dataset.assemble){
+        stack.dataset.assemble='play';
+        const finish=()=>{if(stack.dataset.assemble==='play')stack.dataset.assemble='done';};
+        stack.addEventListener('pointerdown',finish,{once:true});stack.addEventListener('focusin',finish,{once:true});
+        setTimeout(finish,1400);
+      }
       visual.querySelector<HTMLElement>('.registered-floors')!.inert=revealed<1;
       runtime.current?.setJourneyProgress(approach,reducedMotion);
       const stackBox=stack.getBoundingClientRect();
@@ -59,6 +67,8 @@ export default function JourneyMotion({stage,mapJourney,floor,floors,title,reduc
         line.style.width=`${Math.hypot(width,dy)}px`;
         line.style.transform=`rotate(${-Math.atan2(dy,width)*180/Math.PI}deg)`;
       }
+      // The floor map now lives on the Discovery page; with no map on this page there is no travel.
+      if(!destination||!target||destination.offsetParent===null||container.offsetParent===null){container.style.setProperty('--floor-travel','0');layer.hidden=true;source.style.opacity='';if(target)target.style.visibility='';return;}
       const start=container.offsetTop+container.offsetHeight-innerHeight;
       const end=destination.offsetTop-(parseFloat(getComputedStyle(destination.querySelector<HTMLElement>('.persistent-map')!).top)||0);
       const progress=reducedMotion?0:clamp((scrollY-start)/Math.max(innerHeight*.45,end-start));

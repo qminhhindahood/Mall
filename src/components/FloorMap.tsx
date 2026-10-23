@@ -2,6 +2,7 @@ import { memo, type ReactNode } from 'react';
 import type { FloorGeometry, Locale } from '../runtime/scene-contract';
 import type { DirectorySnapshot } from '../data/content';
 import { areaLabelPoint } from './discovery-map';
+import { placeLabels } from './map-labels';
 import PublicEntranceMarkers from './PublicEntranceMarkers';
 import { PlanIconLayer } from './PlanIcons';
 import type { PlanIcon } from '../data/plan-icons';
@@ -17,7 +18,7 @@ export default memo(function FloorMap({ floor, title, viewBounds, content, local
   decorative?:boolean;
   /** Facility icons for this floor (escalators, lifts, restrooms, exits, ATM, information). */
   icons?:PlanIcon[];
-  /** Print each mapped area's name on its unit when it fits; numbers remain where it does not. */
+  /** Print each mapped area's shop name on its unit (wrapped, never cut off) instead of a number. */
   showNames?:boolean;
 }) {
   const frame=viewBounds??floor.bounds;
@@ -45,30 +46,22 @@ export default memo(function FloorMap({ floor, title, viewBounds, content, local
       const label=area?[number,area.name[locale],...(content?.destinations.filter(d=>d.locations.some(l=>l.floorId===floor.id&&l.areaIds.includes(area.id))).map(d=>d.name[locale])??[])].filter(Boolean).join(' · '):undefined;
       return <path key={region.id} fillRule="evenodd" data-selected={active} data-discovery-area={!!number} role={area&&onArea?'button':undefined} tabIndex={area&&onArea?0:undefined} aria-label={label} aria-pressed={area&&onArea?active:undefined} onClick={area&&onArea?event=>{event.currentTarget.focus({preventScroll:true});onArea(area.id);}:undefined} onKeyDown={area&&onArea?event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();onArea(area.id);}}:undefined} d={[region.outer,...region.holes].map(ring=>`M${ring.map(point=>point.join(',')).join(' L')} Z`).join(' ')} />;
     })}
-    {content?.areas.filter(area=>area.floorId===floor.id&&((areaNumbers&&areaNumbers[area.id])||showNames)).map(area=>{
+    {showNames&&content?placeLabels(content.areas.filter(area=>area.floorId===floor.id).flatMap(area=>{
+      // Areas carry a generic name; the shop on the unit is what a visitor looks for.
+      const owners=content.destinations.filter(d=>d.locations.some(l=>l.floorId===floor.id&&l.areaIds.includes(area.id)));
+      const point=areaLabelPoint(floor,area.regionIds);
+      const block=floor.regions.filter(region=>area.regionIds.includes(region.id)).sort((a,b)=>ringArea(b.outer)-ringArea(a.outer))[0];
+      if(!owners.length||!point||!block)return [];
+      const xs=block.outer.map(p=>p[0]),ys=block.outer.map(p=>p[1]);
+      const name=owners.length>1?`${owners[0].name[locale]} +${owners.length-1}`:owners[0].name[locale];
+      return [{id:area.id,name,x:point[0],y:point[1],width:Math.max(...xs)-Math.min(...xs),height:Math.max(...ys)-Math.min(...ys),area:ringArea(block.outer),active:selected.includes(area.id)||selectedArea===area.id}];
+    }),frameMax).map(label=><g key={label.id} className="area-name" aria-hidden="true" pointerEvents="none" data-active={label.active}><text x={label.x} y={label.y-(label.lines.length-1)*label.size*.56} fontSize={label.size} style={{strokeWidth:label.size*.24}}>{label.lines.map((line,index)=><tspan key={index} x={label.x} dy={index?label.size*1.12:0}>{line}</tspan>)}</text></g>):null}
+    {!showNames&&content?.areas.filter(area=>area.floorId===floor.id&&areaNumbers?.[area.id]).map(area=>{
       const point=areaLabelPoint(floor,area.regionIds);
       if(!point)return null;
       const active=selected.includes(area.id)||selectedArea===area.id;
-      const number=areaNumbers?.[area.id];
-      // Name the unit when the text fits inside its largest block; otherwise fall back to its number.
-      const block=floor.regions.filter(region=>area.regionIds.includes(region.id)).sort((a,b)=>b.outer.length-a.outer.length)[0];
-      if(showNames&&block){
-        const xs=block.outer.map(p=>p[0]),ys=block.outer.map(p=>p[1]);
-        const width=Math.max(...xs)-Math.min(...xs),height=Math.max(...ys)-Math.min(...ys);
-        const minFont=frameMax*.0135,maxFont=frameMax*.019;
-        // Areas carry a generic name; the shop on the unit is what a visitor looks for.
-        const owners=content.destinations.filter(d=>d.locations.some(l=>l.floorId===floor.id&&l.areaIds.includes(area.id)));
-        const name=owners.length>1?`${owners[0].name[locale]} +${owners.length-1}`:owners[0]?.name[locale]??'';
-        const chars=Math.min(name.length,Math.floor(width*.9/(minFont*.56)));
-        if(chars>=4){
-          const label=chars<name.length?name.slice(0,chars-1).trimEnd()+'…':name;
-          const size=Math.min(maxFont,width*.9/(label.length*.56),height*.4);
-          if(size>=minFont)return <g key={area.id} className="area-name" aria-hidden="true" pointerEvents="none" data-active={active}><text x={point[0]} y={point[1]} fontSize={size} style={{strokeWidth:size*.2}}>{label}</text></g>;
-        }
-      }
-      if(!number)return null;
       const radius=frameMax*.02;
-      return <g key={area.id} className="discovery-map-number" aria-hidden="true" pointerEvents="none" data-active={active}><circle cx={point[0]} cy={point[1]} r={radius}/><text x={point[0]} y={point[1]} fontSize={radius*1.2}>{number}</text></g>;
+      return <g key={area.id} className="discovery-map-number" aria-hidden="true" pointerEvents="none" data-active={active}><circle cx={point[0]} cy={point[1]} r={radius}/><text x={point[0]} y={point[1]} fontSize={radius*1.2}>{areaNumbers![area.id]}</text></g>;
     })}
     {icons?.length?<PlanIconLayer icons={icons} locale={locale} radius={frameMax*.0135}/>:null}
     {children}

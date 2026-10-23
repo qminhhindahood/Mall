@@ -66,7 +66,7 @@ Home uses a 40:60 copy/exterior grid, a 1600px maximum width and responsive 24-8
 
 Below Home, two alternating preview sections introduce Discovery with real directory names and Directions with an actual supplied source-plan preview. The reading container is 1320px wide with 48px desktop and 24px phone gutters. Sections use 112px vertical padding, reduced to 56px on phones.
 
-Discovery is a separate full-page reading surface. It starts with its title and three editorial selections, then labelled search, scope, category browsing, floor choices and complete results. Desktop search pairs the field with a 240px scope column; browsing pairs a sticky 220px category rail with two-column destination rows. At 1050px the rail narrows to 180px and gaps reduce. At 700px the selections and results become single-column, search stacks, and categories become a horizontal scrolling rail. There is no persistent map beside this Discovery page.
+Discovery is a separate full-page surface and the only place the floor map lives (owner, 23 October): Home shows the building and floor overview, then its introductions, with no map. On desktop the reading column (title, editorial selections, search, a 180px category rail and single-column results) sits left and the sticky floor map sits right, with its floor rail, controls, facility key and 'Expand map'. Below 900px the map comes first, then the reading column. The Floor map navigation item, floor-overview selections and existing floor and store addresses all open this page on the requested floor; a store opens its details there.
 
 The shared solid header is present immediately, with an 88px desktop minimum height and a 108px phone minimum. Main content clears it; Discovery begins with 148px top padding. Directions keeps the existing desktop combined sidebar and phone card, map, then steps ordering.
 
@@ -84,7 +84,7 @@ Actions, search inputs, highlight cards, filter links and detail location summar
 
 **Navigation.** The solid full-width shell exposes Home, Discovery and Directions alongside VI/EN. Current-page navigation uses a 2px accent underline without a filled pill. Native links, focus and history remain part of the interaction.
 
-**Exterior arrival.** Preserve the existing three-stage establish/facade/settle camera arrival, direct rotate/look/zoom/reset controls, interruption on input and replay behavior. The new localized caption follows the stage beneath the building; the facade stage lifts the Home title by 6px and colors it with the action accent. Title transform transitions use 900ms with `cubic-bezier(.16,1,.3,1)` and color uses 900ms ease. Reduced motion removes title transition and transform and retains the existing motion-free camera behavior. This is added caption/title motion, not a new camera path or model revision.
+**Exterior arrival.** On the first Home visit in a session the real building model rises from the ground: one horizontal clipping plane climbs from its base to its roof over about 2.2s once the model is ready, revealing the podium and then the tower. Until then the hero shows paper and the loading notice instead of the still preview, so the building appears once. Meanwhile the heading rises line by line from a mask, followed by the one-sentence introduction, actions and a small uppercase meta row (listing count, floor count and range, derived from the dataset; no address). The building then holds the settled front three-quarter framing with a slow, bounded idle sway (about ±10° over 26s, never revealing the rear or roof); there is no camera tour or close-up dive. Pointer, key, wheel, touch or scroll completes the rise at once and pauses the sway for 4s; the sway stops offscreen, in hidden tabs and under reduced motion. Revisits, reduced motion, model failure and no-JavaScript show the complete building or its still preview. `homeMotion.arrival` also offers 'doors' (accent panels part over the hero) and 'cinematic' (one camera push of at most 1.1x).
 
 **Home previews.** Directory picks are typographic rows with a fine divider and arrow; the Directions preview shows supplied plan geometry on a pale selected surface. Both lead to full-page tasks instead of duplicating their complete tools on Home.
 
@@ -92,11 +92,13 @@ Actions, search inputs, highlight cards, filter links and detail location summar
 
 **Store detail.** Location precision and partial/shared-area qualifications remain immediate. Primary actions and location summaries share the small corner treatment. Verified fields precede a research disclosure with a 44px summary target. Existing deep links, locale and selection handoffs remain supported.
 
+**Floor map labels.** Every map that shows names (Discovery, Directions, the Home plan preview and store details) prints the shop name on its unit, never a number and never cut off: names wrap onto up to three upright lines, sized to the unit between about 2% and 3% of the plan frame, in ink with a white halo. A name may overhang a small unit slightly; where labels would collide, the selected, then fitting, then larger unit wins. The selected unit's name is white on the action colour.
+
 ## Do's and Don'ts
 
 - Do retain original building models, supplied plans, accepted directory records and reviewed route connections. Preserve partial/shared-area, Opening Soon and unresolved-metadata qualifications.
 - Do keep practical navigation usable before the model and after model failure; retain reduced-motion and keyboard paths.
 - Do preserve the existing Directions combined glass card and source map behavior.
-- Don't restore the previous long floor-transition tracks or map-beside-Discovery layout in this replacement.
+- Don't restore the previous long floor-transition tracks, or put the floor map back on Home; the map belongs to Discovery.
 - Don't remove direct exterior controls or immediate Discovery/Directions actions based on the superseded document.
 - Don't infer exact doors, universal routing, physical verification or publication approval from this visual redesign.

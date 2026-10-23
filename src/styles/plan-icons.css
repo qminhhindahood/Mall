@@ -9,7 +9,7 @@
 .plan-legend svg{flex:none}
 .map-legend-host{position:absolute;left:24px;bottom:20px;max-width:calc(100% - 48px);z-index:2;pointer-events:none}
 .area-name text{fill:var(--ink,#243a30);text-anchor:middle;dominant-baseline:central;font-family:Guide,Arial,sans-serif;font-weight:600;paint-order:stroke;stroke:rgba(255,255,255,.88);stroke-linejoin:round}
-.area-name[data-active=true] text{fill:#5a3a14}
+.area-name[data-active=true] text{fill:#fff;stroke:var(--action,#285643)}
 .visitor-guide{--plan-icon:var(--action,#4a5d52)}
 .plan-legend svg.plan-icon{width:20px;height:20px;min-width:20px;max-width:20px;min-height:0;max-height:20px;flex:none}
 .map-legend-host .plan-legend{flex-direction:column;flex-wrap:nowrap;gap:2px}

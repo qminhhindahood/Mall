@@ -1,13 +1,18 @@
 import HomeIntroductions from './HomeIntroductions';
 import '../styles/home-discovery.css';
-import ExteriorControls from './ExteriorControls';
 import '../styles/usable-shell.css';
 import '../styles/arrival-shell.css';
+import '../styles/home-motion.css';
+import '../styles/discovery-map.css';
+import { useHomeEntrance, useTitleLines } from './home-motion';
+import { homeMotion } from '../data/home-motion';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import type { SiteData } from '../data/site';
 import type { Locale, SceneKind, SceneRuntime, FloorDataset } from '../runtime/scene-contract';
 import { copy } from './copy';
 import FloorMap from './FloorMap';
+import { PlanLegend } from './PlanIcons';
+import { planIcons } from '../data/plan-icons';
 import { floorRoute, selectionHref as href } from '../data/routes';
 import { validateGeometry } from '../runtime/validate-geometry';
 import Directory from './Directory';
@@ -22,6 +27,13 @@ import { discoveryAreaNumbers } from './discovery-map';
 import { timing } from '../runtime/loading-timing';
 
 export type ExplorerSelection = { locale: Locale; floorId: string; kind: SceneKind; destinationId?: string; query?: string; categoryId?: string; discoveryCategoryId?: string; discoveryFloorId?: string; discoveryQuery?: string; discoverySearchScope?: 'category'; areaId?: string };
+/** Hero meta row from the current dataset: listing count, floor count and range. No address or invented totals. */
+function heroMeta(site: SiteData, locale: Locale) {
+  const floors = site.geometry.floors.slice().sort((a,b)=>a.order-b.order);
+  const range = floors.length ? `${floors[0].label}–${floors[floors.length-1].label}` : '';
+  const count = site.destinations.length;
+  return (locale==='vi' ? [`${count} địa điểm`, `${floors.length} tầng`, range] : [`${count} places`, `${floors.length} floors`, range]).filter(Boolean).join(' · ');
+}
 function defaultFloorId(site: SiteData, floors = site.geometry.floors) {
   if (floors.some(floor => floor.id === site.defaultFloor)) return site.defaultFloor;
   return floors.find(floor => floor.id === 'L1')?.id ?? floors[0]?.id ?? 'L1';
@@ -35,7 +47,8 @@ function selectionFromUrl(url: URL, site: SiteData, fallback: ExplorerSelection)
   const floorId = site.geometry.floors.some(f => f.id === candidate) && (!destination || destination.floors.includes(candidate)) ? candidate : destination?.primaryFloor && site.geometry.floors.some(f => f.id === destination.primaryFloor) ? destination.primaryFloor : fallbackFloor;
   const view = url.searchParams.get('view');
   const dedicatedDiscovery = ['discovery','kham-pha'].includes(segments[1]);
-  const kind = dedicatedDiscovery ? 'discovery' : ['exterior','overview','map','discovery'].includes(view ?? '') ? view as SceneKind : segments[1] ? 'map' : fallback.kind;
+  // A store opens its details on the Discovery page; floor maps also live there.
+  const kind = dedicatedDiscovery||destination ? 'discovery' : ['exterior','overview','map','discovery'].includes(view ?? '') ? view as SceneKind : segments[1] ? 'map' : fallback.kind;
   const category=(key:string)=>site.content.categories.find(c=>c.id===url.searchParams.get(key))?.id;
   return { locale, floorId, kind, destinationId: destination?.id, query:url.searchParams.get('q')?.slice(0,160)||undefined, categoryId:category('category'), discoverySearchScope:url.searchParams.get('collectionScope')==='category'?'category':undefined, discoveryCategoryId:category('collection'), discoveryFloorId:site.geometry.floors.find(f=>f.id===url.searchParams.get('collectionFloor'))?.id, discoveryQuery:url.searchParams.get('collectionQ')?.slice(0,160)||undefined, areaId:site.content.areas.find(a=>a.id===url.searchParams.get('area')&&a.floorId===floorId)?.id };
 }
@@ -46,6 +59,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const [angled,setAngled] = useState(false);
   const [mapExpanded,setMapExpanded] = useState(false);
   const mapJourney=useRef<HTMLDivElement>(null);
+  const mapPanel=useRef<HTMLDivElement>(null);
   const exteriorJourney=useRef<HTMLDivElement>(null);
   const travelRequest=useRef(false);
   const returnFocus=useRef<HTMLElement|null>(null);
@@ -83,10 +97,15 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   const parking = useRef<HTMLDivElement>(null);
   const runtime = useRef<SceneRuntime|null>(null);
   const latest = useRef(selection);
-  const onDiscoveryPage = (url: URL) => ['discovery','kham-pha'].includes(url.pathname.split('/').filter(Boolean)[1]);
-  const [discoveryPage,setDiscoveryPage] = useState(()=>typeof location!=='undefined'?onDiscoveryPage(new URL(location.href)):initial.kind==='discovery');
+  // The map lives only on the Discovery page: Discovery, floor-map and store addresses all open it.
+  const onDiscoveryPage = (url: URL) => ['discovery','kham-pha','floors','tang','stores','cua-hang'].includes(url.pathname.split('/').filter(Boolean)[1]) || ['map','discovery'].includes(url.searchParams.get('view') ?? '');
+  const [discoveryPage,setDiscoveryPage] = useState(()=>typeof location!=='undefined'?onDiscoveryPage(new URL(location.href)):initial.kind==='discovery'||initial.kind==='map');
   const discoveryPageRef = useRef(discoveryPage);
   discoveryPageRef.current = discoveryPage;
+  const entrance = useHomeEntrance(initial.kind==='exterior'&&!discoveryPage);
+  const title = useTitleLines();
+  // Until the model first appears, a rising arrival keeps the still preview hidden so the building is not shown twice.
+  const [modelShown,setModelShown] = useState(false);
   const sceneHosts = useRef<Partial<Record<SceneKind,HTMLDivElement>>>({});
   const sections = useRef<Partial<Record<SceneKind,HTMLElement>>>({});
   const requestSerial = useRef(0);
@@ -146,42 +165,6 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     return()=>{cancelAnimationFrame(frame);window.removeEventListener('scroll',schedule);window.removeEventListener('resize',schedule);};
   }, [load]);
 
-  useEffect(()=>{
-    const update=()=>{
-      const section=sections.current.discovery, journey=mapJourney.current;
-      if(!section||!journey||discoveryPageRef.current)return;
-      const clamp=(value:number)=>Math.max(0,Math.min(1,value));
-      const top=section.getBoundingClientRect().top;
-      // Settle the Discovery composition while the map is hidden. Returning it
-      // on the same clock exposes the old full-size plan and floor rail.
-      const progress=clamp((innerHeight*1.2-top)/(innerHeight*.4));
-      journey.style.setProperty('--discovery-progress',String(reducedMotion?(progress>.5?1:0):progress));
-      const invitation=journey.querySelector<HTMLElement>('.discovery-introduction');
-      if(invitation){
-        const invitationTop=(reducedMotion?invitation:invitation.querySelector('h2')??invitation).getBoundingClientRect().top;
-        const exit=reducedMotion?clamp((innerHeight*1.25-invitationTop)/(innerHeight*.4)):clamp((innerHeight*.95-invitationTop)/(innerHeight*.3));
-        const start=reducedMotion?(innerWidth<=700?160:innerHeight*.45):innerHeight*.75;
-        const end=innerWidth<=700?(reducedMotion?120:innerHeight*.4):184;
-        const returning=clamp((start-top)/Math.max(40,start-end));
-        const presence=Math.max(1-exit,reducedMotion?Number(returning===1):returning*returning*(3-2*returning));
-        journey.style.setProperty('--map-presence',String(presence));
-        const map=journey.querySelector<HTMLElement>('.persistent-map');
-        if(map){map.inert=presence<.01;map.dataset.controlsHidden=String(!reducedMotion&&presence<.99);}
-      }
-      if((load!=='ready'&&load!=='failed')||focusRequest.current||scrollSettling.current)return;
-      // A fixed Discovery sheet owns navigation until explicitly dismissed.
-      if(latest.current.kind==='discovery'&&(latest.current.destinationId||latest.current.areaId))return;
-      const mapTop=sections.current.map?.getBoundingClientRect().top??Infinity;
-      const readingLine=innerWidth<=700?160:innerHeight*.55;
-      const stageBottom=exteriorJourney.current?.getBoundingClientRect().bottom??Infinity;
-      const discoveryLine=reducedMotion?readingLine:innerHeight*.8;
-      const kind=stageBottom>innerHeight*.45?null:section.getBoundingClientRect().top<discoveryLine?'discovery':mapTop<readingLine?'map':null;
-      if(kind&&kind!==latest.current.kind){const next: ExplorerSelection={...latest.current,kind};beginRequest(next);history.replaceState({...history.state,scrollY:scrollY},'',href(next,true));setSelection(next);}
-    };
-    window.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update);
-    update();
-    return()=>{window.removeEventListener('scroll',update);window.removeEventListener('resize',update);};
-  },[load,reducedMotion]);
 
   useEffect(()=>{const stop=()=>{earlyInput.current=true;runtime.current?.stopAutomaticPresentation()};window.addEventListener('pointerdown',stop,{passive:true});window.addEventListener('keydown',stop);window.addEventListener('wheel',stop,{passive:true});return()=>{window.removeEventListener('pointerdown',stop);window.removeEventListener('keydown',stop);window.removeEventListener('wheel',stop)}},[]);
   function togglePause() {
@@ -192,14 +175,6 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     setPaused(value);
     runtime.current?.setPaused(value);
     try { localStorage.setItem('mall-introduction-paused', String(value)); } catch {}
-  }
-
-  function replayIntroduction() {
-    earlyInput.current=false;
-    requestAnimationFrame(()=>runtime.current?.replayArrival());
-    if (!reducedMotion && load === 'ready' && pauseChoice.current) togglePause();
-    window.scrollTo({top: 0, behavior: 'instant'});
-    sections.current.exterior?.focus({preventScroll: true});
   }
 
   useEffect(() => {
@@ -326,6 +301,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       return createSceneRuntime({
       canvas: ownedCanvas, mallId: site.mallId, data: geometry,
       assetRevision: site.assetRevision, exteriorUrl: site.exteriorUrl, reducedMotion,
+      // The rise plays only on a first Home arrival; revisits and early intent (marked by the layout script) get the settled building.
+      arrivalStyle: homeMotion.arrival==='cinematic'?'cinematic':homeMotion.arrival==='rise'&&initial.kind==='exterior'&&!document.documentElement.hasAttribute('data-arrival-seen')?'rise':'idle',
       exteriorIdentityUrl: site.exteriorIdentityUrl,
       modelBytes,
       sceneHosts: sceneHosts.current as Record<SceneKind,HTMLElement>,
@@ -359,6 +336,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     canvas.current.setAttribute('aria-hidden',String(load!=='ready'));
     canvas.current.setAttribute('aria-label',c[selection.kind]);
   },[load,selection.locale,selection.kind]);
+  useEffect(()=>{if(load==='ready'||load==='failed')setModelShown(true);},[load]);
   useEffect(()=>{
     const guide=document.querySelector<HTMLElement>('.static-guide');
     if (!guide) return;
@@ -399,7 +377,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       scrollTarget?.scrollIntoView({behavior:smooth?'smooth':'instant',block:'start'});
     }};position();restoreScroll.current=null;settleViewport(smooth?undefined:position);travelRequest.current=false;focusRequest.current=null;pendingFocus.current=null;closingDiscovery.current=false;}
   },[load,selection,presentation]);
-  function focusTarget(next: ExplorerSelection) { if(closingDiscovery.current&&returnFocus.current?.isConnected)return returnFocus.current; return next.destinationId || next.kind==='discovery'&&next.areaId ? destinationContent.current : next.kind==='map'&&(next.query||next.categoryId)?sections.current.map??null:sections.current[next.kind] ?? null; }
+  function focusTarget(next: ExplorerSelection) { if(closingDiscovery.current&&returnFocus.current?.isConnected)return returnFocus.current; return next.destinationId || next.kind==='discovery'&&next.areaId ? destinationContent.current : next.kind==='map'?mapPanel.current??sections.current.discovery??null:sections.current[next.kind] ?? null; }
   function beginRequest(next: ExplorerSelection) {
     const effective=(value:ExplorerSelection)=>value.kind==='discovery'?discoveryFloor(site,value,geometry):value.floorId;
     if (!entered.current || next.kind===latest.current.kind && effective(next)===effective(latest.current)) return;
@@ -411,7 +389,8 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   function navigate(next: ExplorerSelection, event?: React.MouseEvent<HTMLAnchorElement>) {
     if (event && (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey)) return;
     event?.preventDefault();
-    travelRequest.current=next.kind==='map'&&selection.kind==='overview'&&!next.destinationId;
+    // Floor maps open on the Discovery page, so there is no in-page travel to animate.
+    travelRequest.current=false;
     if(next.locale!==selection.locale)localeScroll.current={top:window.scrollY,kind:selection.kind,offset:sections.current[selection.kind]?.getBoundingClientRect().top??null};
     if(next.kind==='discovery'&&(next.destinationId||next.areaId)&&!selection.destinationId&&!selection.areaId) {
       discoveryReturn.current={selection:{...selection},scrollY:window.scrollY};
@@ -425,7 +404,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
     // Saving the departure position here sends pending Back/forward back to
     // the exterior; the ordinary scroll observer records the actual arrival.
     // Entering Discovery from elsewhere opens its page; moving within it keeps the current surface.
-    const page=next.kind==='discovery'&&(discoveryPageRef.current||selection.kind!=='discovery');
+    const page=next.kind==='discovery'||next.kind==='map';
     history.pushState(next.locale!==selection.locale&&load==='ready'&&!focusRequest.current?{scrollY:window.scrollY}:{},'',href(next,!page));
     setDiscoveryPage(page);
     if (next.locale === selection.locale) {pendingFocus.current=focusTarget(next);focusRequest.current=next;}
@@ -446,10 +425,11 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
   }
   const change = (kind: SceneKind, floorId=selection.floorId): ExplorerSelection => ({...selection,kind,floorId,destinationId:undefined,areaId:undefined});
   return <>
-    <div className="visitor-guide separate-surfaces" data-mall={site.mallId} data-paused={paused} data-view={selection.kind} data-surface={discoveryPage?'discovery-page':'journey'} data-arrival-phase={arrivalPhase}>
-    <a className="skip-introduction" href={href(change('map'))} onClick={event=>navigate(change('map'),event)}>{c.skip}</a>
+    <div className="visitor-guide separate-surfaces" data-mall={site.mallId} data-paused={paused} data-view={selection.kind} data-surface={discoveryPage?'discovery-page':'journey'} data-arrival-phase={arrivalPhase} data-entrance={entrance} data-model-arrival={homeMotion.arrival==='rise'&&initial.kind==='exterior'&&!modelShown?'pending':'done'}>
+    {entrance==='doors'&&<div className="arrival-doors" aria-hidden="true"><span className="arrival-door left"/><span className="arrival-door right"/></div>}
+    <nav className="skip-links" aria-label={c.skip}><a className="skip-introduction" href={href(change('map'))} onClick={event=>navigate(change('map'),event)}>{c.skip}</a></nav>
     <header className="journey-header" data-visible="true">
-      <a className="wordmark" href={href(change('exterior'))} onClick={event=>navigate(change('exterior'),event)}><span className="brand-symbol" aria-hidden="true">{site.mallId==='saigon-centre'?'SC':'V'}</span>{site.name}</a>
+      <a className="wordmark" href={href(change('exterior'))} onClick={event=>navigate(change('exterior'),event)}>{site.name}</a>
       <nav className="primary-navigation" aria-label={c.guide}>
         <a href={href(change('exterior'))} aria-current={selection.kind==='exterior'?'page':undefined} onClick={event=>navigate(change('exterior'),event)}>{selection.locale==='vi'?'Trang chủ':'Home'}</a>
         <a href={href(change('discovery'))} aria-current={selection.kind==='discovery'?'page':undefined} onClick={event=>navigate(change('discovery'),event)}>{c.discovery}</a>
@@ -457,7 +437,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
         <a href={'/'+selection.locale+'/'+(selection.locale==='vi'?'chi-duong':'directions')}>{selection.locale==='vi'?'Chỉ đường':'Directions'}</a>
         <a href="#visit">{selection.locale==='vi'?'Ghé thăm':'Visit'}</a>
       </nav>
-      <a className="shell-language" href={href({...selection,locale:selection.locale==='vi'?'en':'vi'})} lang={selection.locale==='vi'?'en':'vi'} aria-label={c.language} onClick={event=>navigate({...selection,locale:selection.locale==='vi'?'en':'vi'},event)}>{selection.locale==='vi'?'EN':'VI'}</a>
+      <a className="shell-language" href={href({...selection,locale:selection.locale==='vi'?'en':'vi'})} lang={selection.locale==='vi'?'en':'vi'} aria-label={`${selection.locale==='vi'?'EN':'VI'} · ${selection.locale==='vi'?'English':'Tiếng Việt'}`} onClick={event=>navigate({...selection,locale:selection.locale==='vi'?'en':'vi'},event)}>{selection.locale==='vi'?'EN':'VI'}</a>
     </header>
     <main>
       {load==='failed' && <aside className="error" role="alert"><p>{c.error}</p><button onClick={() => {if(moduleFailed.current)location.assign(href(latest.current));else setAttempt(attempt+1);}}>{c.retry}</button></aside>}
@@ -465,18 +445,12 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
       <div className="exterior-floor-journey" ref={exteriorJourney}>
         <div className="journey-introduction-reading">
           <section id="scene-exterior" ref={element=>{if(element)sections.current.exterior=element;}} tabIndex={-1} className="introduction" aria-label={c.exterior}>
-            <div className="introduction-copy"><h1><span>{site.name}</span></h1><p>{site.mallId==='saigon-centre'?c.saigonIntroduction:c.vincomIntroduction}</p><p className="guide-identity">{c.independent}</p><div className="arrival-actions"><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{j.enterDiscovery}<span aria-hidden="true"> ↗</span></a><a href={'/'+selection.locale+'/'+(selection.locale==='vi'?'chi-duong':'directions')}>{selection.locale==='vi'?'Tìm đường':'Find your way'}<span aria-hidden="true"> →</span></a></div></div>
+            <div className="introduction-copy"><h1 ref={title}><span>{site.name.split(' ').map((word,index)=><span key={index}>{index>0&&' '}<span className="mask-word" style={{'--line':index} as React.CSSProperties}><span>{word}</span></span></span>)}</span></h1><p>{site.mallId==='saigon-centre'?c.saigonIntroduction:c.vincomIntroduction}</p><div className="arrival-actions"><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{j.enterDiscovery}<span aria-hidden="true"> ↗</span></a><a href={'/'+selection.locale+'/'+(selection.locale==='vi'?'chi-duong':'directions')}>{selection.locale==='vi'?'Tìm đường':'Find your way'}<span aria-hidden="true"> →</span></a></div><p className="arrival-meta">{heroMeta(site,selection.locale)}</p></div>
             <div className="introduction-bottom"><a className="scroll-guide" href="#scene-overview" onClick={event=>navigate(change('overview'),event)}><span className="scroll-cue" aria-hidden="true"/><span>{c.scrollInstruction}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div>
           </section>
           <section id="scene-overview" ref={element=>{if(element)sections.current.overview=element;}} tabIndex={-1} className="overview-reading" aria-label={c.overview}/>
         </div>
         <div className="registered-scene">
-            <div className="introduction-controls">
-              <span className="arrival-stage-caption">{selection.locale==='vi'?(arrivalPhase==='establish'?'Toàn cảnh kiến trúc':arrivalPhase==='facade'?'Gần hơn với khối đế':arrivalPhase==='settle'?'Sẵn sàng khám phá':'Góc nhìn của bạn'):(arrivalPhase==='establish'?'The architecture':arrivalPhase==='facade'?'A closer look at the podium':arrivalPhase==='settle'?'Ready to explore':'Make the view yours')}</span>
-              <ExteriorControls runtime={runtime} locale={selection.locale} enabled={load==='ready' && selection.kind==='exterior'}/>
-              <button type="button" className="replay-control" disabled={load!=='ready'&&load!=='failed'} onClick={replayIntroduction}>{reducedMotion||load==='failed'?c.returnIntroduction:c.replayIntroduction}</button>
-              <button className="pause-control" disabled={load!=='ready'} onClick={()=>{earlyInput.current=true;runtime.current?.stopAutomaticPresentation();runtime.current?.resetExterior();}}>{selection.locale==='vi'?'Bỏ qua phần mở đầu':'Skip arrival'}</button>
-            </div>
 
           <div className="scene-host scene-host-exterior" ref={element=>{if(element){sceneHosts.current.exterior=element;sceneHosts.current.overview=element;}}} data-scene-kind={selection.kind==='exterior'?'exterior':'overview'}>
             <img src="/previews/exterior.webp" alt={`${site.name} · ${c.exterior}`} width="1200" height="1200" />
@@ -484,16 +458,17 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
           <div className="registered-floors">
             <div className="overview-caption"><h2>{c.overview}</h2><p>{j.chooseFloor}</p>{geometry.revision==='foundation-unavailable'&&<p>{c.unavailableGeometry}</p>}</div>
             <OverviewStack floors={geometry.floors} locale={selection.locale} heading={c.heading} mapTitle={c.map} selectedFloor={selection.floorId} onSelect={(floorId,event)=>navigate(change('map',floorId),event)}/>
-            <nav className="floor-rail" aria-label={c.floors}>{geometry.floors.slice().sort((a,b)=>b.order-a.order).map((item,index)=><a key={item.id} data-floor-id={item.id} style={{'--floor-index':index} as React.CSSProperties} href={floorRoute(selection.locale,item.id)} aria-current={selection.floorId===item.id?'page':undefined} onClick={event=>navigate(change('map',item.id),event)}><span className="floor-callout-line" aria-hidden="true"/>{item.label}</a>)}</nav>
+            <nav className="floor-rail" aria-label={`${c.floors} · ${c.overview}`}>{geometry.floors.slice().sort((a,b)=>b.order-a.order).map((item,index)=><a key={item.id} data-floor-id={item.id} style={{'--floor-index':index} as React.CSSProperties} href={floorRoute(selection.locale,item.id)} aria-current={selection.floorId===item.id?'page':undefined} onClick={event=>navigate(change('map',item.id),event)}><span className="floor-callout-line" aria-hidden="true"/>{item.label}</a>)}</nav>
           </div>
         </div>
       </div>
       <JourneyMotion stage={exteriorJourney} mapJourney={mapJourney} floor={floor} floors={geometry.floors} title={c.map} reducedMotion={reducedMotion} paused={paused} runtime={runtime}/>
       <div className="map-discovery-journey" data-discovery={selection.kind==='discovery'} ref={mapJourney}>
-        <div className="persistent-map" data-expanded={mapExpanded}>
+        <div className="persistent-map" data-expanded={mapExpanded} ref={mapPanel} tabIndex={-1} role="region" aria-label={`${c.map} · ${floor.label}`}>
           <div className="scene-host scene-host-map" ref={element=>{if(element){sceneHosts.current.map=element;sceneHosts.current.discovery=element;}}} data-scene-kind={selection.kind==='discovery'?'discovery':'map'} data-floor={routeResolved?floor.id:undefined}>
-            <div className="map-transform" style={{transform:`scale(${zoom}) rotateX(${angled?25:0}deg)`}}>{!routeResolved?<p>{c.preparing}</p>:!floor.regions.length&&floor.preview?<img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`}/>:<FloorMap floor={floor} viewBounds={selection.kind==='discovery'?floor.bounds:sharedFloorBounds(geometry.floors)} title={c.map} content={site.content} locale={selection.locale} selectedDestination={selection.destinationId} selectedArea={selection.areaId} areaNumbers={selection.kind==='discovery'?areaNumbers:undefined} onArea={areaId=>{if(selection.kind!=='discovery'){navigate({...change('map',floor.id),areaId});return;}const destinations=site.destinations.filter(d=>d.locations.some(l=>l.floorId===floor.id&&l.areaIds.includes(areaId)));navigate({...selection,kind:'discovery',floorId:floor.id,areaId:destinations.length===1?undefined:areaId,destinationId:destinations.length===1?destinations[0].id:undefined});}}/>}</div>
+            <div className="map-transform" style={{transform:`scale(${zoom}) rotateX(${angled?25:0}deg)`}}>{!routeResolved?<p>{c.preparing}</p>:!floor.regions.length&&floor.preview?<img src={floor.preview.path} width={floor.preview.width} height={floor.preview.height} alt={`${c.preview} ${floor.label}`}/>:<FloorMap floor={floor} viewBounds={selection.kind==='discovery'?floor.bounds:sharedFloorBounds(geometry.floors)} title={c.map} icons={planIcons(site.mallId,floor.id)} showNames content={site.content} locale={selection.locale} selectedDestination={selection.destinationId} selectedArea={selection.areaId} areaNumbers={selection.kind==='discovery'?areaNumbers:undefined} onArea={areaId=>{const destinations=site.destinations.filter(d=>d.locations.some(l=>l.floorId===floor.id&&l.areaIds.includes(areaId)));navigate({...selection,kind:'discovery',floorId:floor.id,areaId:destinations.length===1?undefined:areaId,destinationId:destinations.length===1?destinations[0].id:undefined});}}/>}</div>
           </div>
+          {routeResolved&&<div className="map-legend-host"><PlanLegend icons={planIcons(site.mallId,floor.id)} locale={selection.locale}/></div>}
           <div className="map-controls glass" role="group" aria-label={c.map}>
             <span>{selection.kind==='discovery'?j.preview:c.heading} {routeResolved?floor.id:''}</span>
             <button aria-label={j.zoomOut} title={j.zoomOut} disabled={zoom<=1} onClick={()=>setZoom(Math.max(1,zoom-.25))}><MapControlIcon kind="out"/></button>
@@ -501,7 +476,7 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
             <button aria-pressed={angled} title={j.angle} onClick={()=>setAngled(!angled)}><MapControlIcon kind="angle"/><span className="visually-hidden">{j.angle}</span></button>
             <button title={j.reset} onClick={()=>{setZoom(1);setAngled(false);}}><MapControlIcon kind="reset"/><span className="visually-hidden">{j.reset}</span></button>
           </div>
-          <nav className="floor-rail map-floor-rail" aria-label={c.floors}>{geometry.floors.slice().sort((a,b)=>b.order-a.order).map((item,index)=><a key={item.id} data-floor-id={item.id} style={{'--floor-index':index} as React.CSSProperties} href={floorRoute(selection.locale,item.id)} aria-current={routeResolved&&selection.floorId===item.id?'page':undefined} onClick={event=>navigate(change('map',item.id),event)}><span className="floor-callout-line" aria-hidden="true"/>{item.label}</a>)}</nav>
+          <nav className="floor-rail map-floor-rail" aria-label={`${c.floors} · ${c.map}`}>{geometry.floors.slice().sort((a,b)=>b.order-a.order).map((item,index)=><a key={item.id} data-floor-id={item.id} style={{'--floor-index':index} as React.CSSProperties} href={floorRoute(selection.locale,item.id)} aria-current={routeResolved&&selection.floorId===item.id?'page':undefined} onClick={event=>navigate(change('map',item.id),event)}><span className="floor-callout-line" aria-hidden="true"/>{item.label}</a>)}</nav>
           {selection.kind==='discovery'&&<div className="discovery-map-context"><p>{Object.keys(areaNumbers).length} {j.areas} · {floor.id}</p><button type="button" aria-expanded={mapExpanded} onClick={()=>setMapExpanded(!mapExpanded)}>{selection.locale==='vi'?(mapExpanded?'Thu gọn sơ đồ':'Phóng lớn sơ đồ'):(mapExpanded?'Collapse map':'Expand map')}</button></div>}
         </div>
         <div className="journey-reading">
@@ -517,14 +492,14 @@ export default function Explorer({ site, initial }: { site: SiteData; initial: E
             <a className="discovery-entry" href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{j.enterDiscovery}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
           </section>
           <section id="scene-discovery" ref={element=>{if(element)sections.current.discovery=element;}} tabIndex={-1} className="discovery-reading" aria-label={c.discovery}>
-            <Discovery site={site} selection={selection} previewFloor={previewFloor} areaNumbers={areaNumbers} active={selection.kind==='discovery'} navigate={navigate} detailRef={destinationContent} closeDetail={closeDiscovery}/>
+            <Discovery page={discoveryPage} site={site} selection={selection} previewFloor={previewFloor} areaNumbers={areaNumbers} active={selection.kind==='discovery'} navigate={navigate} detailRef={destinationContent} closeDetail={closeDiscovery}/>
           </section>
         </div>
       </div>
       {!discoveryPage&&<HomeIntroductions site={{...site,geometry}} locale={selection.locale}/>}
     </main>
-    <footer id="visit" tabIndex={-1} className="visit-footer"><div><h2>{site.name}</h2><p>{c.independent}</p></div><div><h3>{selection.locale==='vi'?'Trước khi bạn đến':'Before you go'}</h3><p>{selection.locale==='vi'?'Xem thông tin cửa hàng và nguồn tham khảo trong Khám phá. Chọn điểm xuất phát thủ công để xem những tuyến đường đã được kiểm chứng.':'Find store details and their sources in Discovery. Choose your starting point manually to see the routes supported by our floor plans.'}</p><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{c.discovery} →</a></div></footer>
+    <footer id="visit" tabIndex={-1} className="visit-footer"><div><h2>{site.name}</h2><p>{c.independent}</p></div><div><h3>{selection.locale==='vi'?'Trước khi bạn đến':'Before you go'}</h3><p>{selection.locale==='vi'?'Xem thông tin cửa hàng và nguồn tham khảo trong Khám phá. Chọn điểm bắt đầu thủ công để xem những tuyến đường đã được kiểm chứng.':'Find store details and their sources in Discovery. Choose your starting point manually to see the routes supported by our floor plans.'}</p><a href={href(change('discovery'))} onClick={event=>navigate(change('discovery'),event)}>{c.discovery} →</a></div></footer>
     </div>
-    {load==='loading' && <aside className="scene-loading-status" role="status">{selection.locale==='vi'?'Đang chuẩn bị mô hình · bạn vẫn có thể khám phá danh mục và sơ đồ.':'Preparing the model · directory and maps remain available.'}</aside>}
+    {load==='loading' && <div className="scene-loading-status" role="status">{selection.locale==='vi'?'Đang chuẩn bị mô hình · bạn vẫn có thể khám phá danh mục và sơ đồ.':'Preparing the model · directory and maps remain available.'}</div>}
   </>;
 }
