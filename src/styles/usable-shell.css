@@ -1,5 +1,5 @@
 .scene-loading-status { position: fixed; z-index: 30; right: 20px; bottom: 20px; max-width: min(360px, calc(100vw - 40px)); border: 1px solid #b9c8be; border-radius: 14px; padding: 14px 18px; background: #fffefa; color: #264536; font: 16px/1.5 Guide,sans-serif; pointer-events: none; }
 .introduction-controls { flex-wrap: wrap; }
-@media(max-width:700px) { .scene-loading-status { position: absolute; top: 190px; bottom: auto; font-size: 14px; }.introduction-controls { gap: 8px; }.journey-header nav { flex-wrap: wrap; } }
+@media(max-width:700px) { .scene-loading-status { position: fixed; top: auto; bottom: 16px; left: 16px; right: 16px; max-width: none; font-size: 14px; }.introduction-controls { gap: 8px; }.journey-header nav { flex-wrap: wrap; } }
 @media(max-width:700px) { .visitor-guide .exterior-floor-journey .introduction { padding-top: 20px; }.visitor-guide .exterior-floor-journey .introduction-controls { position: relative; inset: auto; justify-content: flex-start; margin-bottom: 28px; }.visitor-guide .exterior-floor-journey .introduction-copy h1 { font-size: 36px; } }
 @media(max-width:700px) { .visitor-guide .registered-floors .overview-caption { width: 80%; } }
